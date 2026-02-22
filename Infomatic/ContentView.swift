@@ -12,23 +12,15 @@ struct ContentView: View {
     
     var body: some View {
         if authManager.isAuthenticated{
-            MainAppView()
+            HomeScreen()
         } else{
             SignInView()
         }
     }
 }
 
-struct MainAppView: View {
-    @EnvironmentObject var authManager: AuthenticationManager
-    
-    var body: some View {
-        VStack {
-            Text("Welcome, \(authManager.user?.name ?? "User")!")
-            
-            Button("Sign Out") {
-                authManager.signOut()
-            }
-        }
-    }
+#Preview {
+    ContentView()
+        .environmentObject(AuthenticationManager(user: nil, isAuthenticated: false))
+        .environment(\.theme, .standard)
 }

@@ -17,19 +17,10 @@ struct InfomaticApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(authManager)
+                .environment(\.theme, .standard)
                 .onOpenURL{ url in
                     GIDSignIn.sharedInstance.handle(url)
                 }
-//                .onAppear {
-//                    GIDSignIn.sharedInstance.restorePreviousSignIn { user, error in
-//                        if let user = user {
-//                            self.user = User(
-//                                name: user.profile?.name ?? "Unknown",
-//                                email: user.profile?.email ?? "",
-//                                provider: .google)
-//                        }
-//                    }
-//                }
         }
     }
 }

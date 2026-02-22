@@ -56,7 +56,7 @@ class AuthenticationManager: ObservableObject {
 struct User {
     var name: String
     var email: String?
-    var provider: AuthProvider = AuthProvider.apple // Track which method they used
+    var provider: AuthProvider = AuthProvider.apple
 }
 
 enum AuthProvider {
