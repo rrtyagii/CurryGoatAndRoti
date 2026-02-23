@@ -61,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				849264222F3DC2D9000339F0 /* Infomatic */,
+				B49705092F4A78C90060F1FD /* Frameworks */,
 				849264212F3DC2D9000339F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +72,13 @@
 				849264202F3DC2D9000339F0 /* Infomatic.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B49705092F4A78C90060F1FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

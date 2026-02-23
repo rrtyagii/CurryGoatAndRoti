@@ -12,6 +12,7 @@ import AuthenticationServices
 @main
 struct InfomaticApp: App {
     @StateObject private var authManager = AuthenticationManager()
+    @StateObject private var dataManager = DataManager()
     
     var body: some Scene {
         WindowGroup {
