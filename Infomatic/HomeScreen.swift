@@ -29,7 +29,7 @@ struct HomeScreen: View {
                     LazyVStack(spacing: 14) {
                         ForEach(CardDetail.sampleData) { scrum in
                             CardView(scrum: scrum)
-                                .frame(width: 340, height: 340)
+                                .frame(width: 340, height: 190)
                         }
                     }
                 }
