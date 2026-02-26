@@ -13,8 +13,16 @@ class DataManager: ObservableObject {
     
     let container: NSPersistentContainer
     
-    init() {
+    init(inMemory: Bool = false) {
         container = NSPersistentContainer(name: "Model")
+        
+        if inMemory {
+            let description = NSPersistentStoreDescription()
+            description.type = NSInMemoryStoreType
+            container.persistentStoreDescriptions = [description]
+            
+        }
+        
         container.loadPersistentStores { description, error in
             if let error = error {
                 fatalError("Core Data failed to load: \(error.localizedDescription)")
@@ -43,6 +51,8 @@ class DataManager: ObservableObject {
         topic.id = UUID()
         topic.name = name
         topic.createdAt = Date()
+        topic.isCompleted = false
+        topic.isStarted = false
         save()
         return topic
     }
@@ -58,14 +68,26 @@ class DataManager: ObservableObject {
         save()
     }
     
+    //check all the cards based on a topic and if all their status' are read then mark topic as complete
+    func checkTopicComplete(for topic: Topic) -> Bool {
+        let request: NSFetchRequest<Card> = Card.fetchRequest()
+        request.predicate = NSPredicate(format: "topic == %@ AND isRead == false", topic)
+        request.fetchLimit = 1
+        let count = (try? context.count(for: request)) ?? 0
+        topic.isCompleted = count == 0
+        save()
+        return count == 0
+    }
+    
     // MARK: - Card
     func createCard(content: String, topic: Topic) -> Card {
         let card = Card(context: context)
         card.id = UUID()
         card.content = content
         card.generatedAt = Date()
-        card.isSaved = false
+        card.isBookmarked = false
         card.topic = topic
+        card.isRead = false
         save()
         return card
     }
@@ -79,18 +101,29 @@ class DataManager: ObservableObject {
     
     func fetchSavedCards() -> [Card] {
         let request: NSFetchRequest<Card> = Card.fetchRequest()
-        request.predicate = NSPredicate(format: "isSaved == true")
+        request.predicate = NSPredicate(format: "isBookmarked == true")
         request.sortDescriptors = [NSSortDescriptor(key: "generatedAt", ascending: false)]
         return (try? context.fetch(request)) ?? []
     }
     
-    func toggleSaved(_ card: Card) {
-        card.isSaved.toggle()
+    func toggleBookmarked(_ card: Card) {
+        card.isBookmarked.toggle()
         save()
     }
     
     func deleteCard(_ card: Card) {
         context.delete(card)
+        save()
+    }
+    
+    // update card isStarted value once a card has been read
+    func markCardAsRead(_ card: Card) {
+        card.isRead = true
+        
+        if let topic = card.topic, topic.isStarted == false {
+            topic.isStarted = true
+        }
+        
         save()
     }
     
