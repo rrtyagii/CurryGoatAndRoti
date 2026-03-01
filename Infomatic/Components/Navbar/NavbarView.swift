@@ -18,7 +18,7 @@ struct NavbarView: View {
         let baseTabView = TabView {
             HomeScreen()
                 .tabItem {
-                    Label("Home", systemImage: "house")
+                    Label("Learn", systemImage: "book")
                 }
             
             Text("Search")
@@ -31,9 +31,9 @@ struct NavbarView: View {
                     Label("Bookmarks", systemImage: "bookmark")
                 }
             
-            Text("Profile")
+            Text("Settings")
                 .tabItem {
-                    Label("Profile", systemImage: "person")
+                    Label("Settings", systemImage: "gear")
                 }
         }
         .tint(theme.accentColor)

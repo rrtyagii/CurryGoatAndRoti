@@ -11,42 +11,56 @@ struct HomeScreen: View {
     @EnvironmentObject var authManager: AuthenticationManager
     @Environment(\.theme) var theme
     
-    var body: some View {
-        ZStack {
+    private var topicContent: some View {
+        ZStack{
             LinearGradient(
                 colors: [theme.primaryColor, theme.secondaryColor],
                 startPoint: .top,
                 endPoint: .bottom
             )
             .ignoresSafeArea()
-
+            
             VStack(spacing: 16) {
                 Text("Welcome, \(authManager.user?.name ?? "User")!")
                     .font(.title3.weight(.semibold))
                     .foregroundStyle(theme.textColor)
-
+                
                 ScrollView {
                     LazyVStack(spacing: 14) {
                         ForEach(CardDetail.sampleData) { scrum in
-                            CardView(scrum: scrum)
-                                .frame(width: 340, height: 190)
+                            NavigationLink (destination: TopicDetailView(scrum: scrum)){
+                                CardView(scrum: scrum)
+                                    .frame(width: 340, height: 150)
+                            }
                         }
                     }
                 }
-                
-                Button("Sign Out") {
-                    authManager.signOut()
-                }
-                .buttonStyle(.borderedProminent)
-                .tint(theme.buttonColor)
+            }.padding()
+        }
+    }
+
+    
+    var body: some View {
+        if #available(iOS 16.0, *){
+            NavigationStack {
+                topicContent
             }
-            .padding()
+        } else{
+            NavigationView{
+                topicContent
+            }.navigationViewStyle(.stack)
         }
     }
 }
-
 #Preview {
     HomeScreen()
         .environmentObject(AuthenticationManager(user: nil, isAuthenticated: false))
         .environment(\.theme, .standard)
 }
+
+
+////                Button("Sign Out") {
+//                    authManager.signOut()
+//                }
+//                .buttonStyle(.borderedProminent)
+//                .tint(theme.buttonColor)
