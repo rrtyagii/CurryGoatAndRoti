@@ -40,7 +40,7 @@ struct CardView: View {
             Text(scrum.content)
                 .font(.subheadline)
                 .foregroundStyle(scrum.theme.textColor)
-                .lineLimit(7)
+                .lineLimit(3)
         }
         .padding(14)
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
@@ -57,7 +57,7 @@ struct CardView: View {
 #Preview {
     let scrum = CardDetail.sampleData[0]
     CardView(scrum: scrum)
-        .frame(width: 340, height: 190)
+        .frame(width: 340, height: 150)
         .padding()
         .background(scrum.theme.secondaryColor)
 }
