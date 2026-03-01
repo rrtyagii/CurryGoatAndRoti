@@ -58,9 +58,3 @@ struct NavbarView: View {
         }
     }
 }
-
-#Preview {
-    NavbarView()
-        .environmentObject(AuthenticationManager(user: nil, isAuthenticated: false))
-        .environment(\.theme, .standard)
-}
