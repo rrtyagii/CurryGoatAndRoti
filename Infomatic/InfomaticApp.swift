@@ -18,6 +18,7 @@ struct InfomaticApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(authManager)
+                .environmentObject(dataManager)
                 .environment(\.theme, .standard)
                 .onOpenURL{ url in
                     GIDSignIn.sharedInstance.handle(url)

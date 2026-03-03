@@ -9,21 +9,20 @@ import CoreData
 import Foundation
 import Combine
 
-class DataManager: ObservableObject {
+class DataManager: ObservableObject { //swallowing error; may need to revisit
     
     let container: NSPersistentContainer
     
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "Model")
+        container = NSPersistentContainer(name: "InfomaticData")
         
         if inMemory {
             let description = NSPersistentStoreDescription()
             description.type = NSInMemoryStoreType
             container.persistentStoreDescriptions = [description]
-            
         }
         
-        container.loadPersistentStores { description, error in
+        container.loadPersistentStores { _, error in
             if let error = error {
                 fatalError("Core Data failed to load: \(error.localizedDescription)")
             }
@@ -31,7 +30,6 @@ class DataManager: ObservableObject {
         container.viewContext.automaticallyMergesChangesFromParent = true
     }
     
-  
     var context: NSManagedObjectContext {
         container.viewContext
     }
@@ -46,13 +44,13 @@ class DataManager: ObservableObject {
     }
     
     // MARK: - Topic
+    
     func createTopic(name: String) -> Topic {
         let topic = Topic(context: context)
         topic.id = UUID()
         topic.name = name
         topic.createdAt = Date()
         topic.isCompleted = false
-        topic.isStarted = false
         save()
         return topic
     }
@@ -68,26 +66,33 @@ class DataManager: ObservableObject {
         save()
     }
     
-    //check all the cards based on a topic and if all their status' are read then mark topic as complete
+    /// Returns true if all cards in the topic are read, and marks the topic as completed.
+    @discardableResult
     func checkTopicComplete(for topic: Topic) -> Bool {
         let request: NSFetchRequest<Card> = Card.fetchRequest()
         request.predicate = NSPredicate(format: "topic == %@ AND isRead == false", topic)
-        request.fetchLimit = 1
-        let count = (try? context.count(for: request)) ?? 0
-        topic.isCompleted = count == 0
+        let unreadCount = (try? context.count(for: request)) ?? 0
+        topic.isCompleted = unreadCount == 0
         save()
-        return count == 0
+        return unreadCount == 0
+    }
+    
+    /// Derived: a topic is considered started if it has at least one read card.
+    func isTopicStarted(_ topic: Topic) -> Bool {
+        let cards = topic.cards as? Set<Card> ?? []
+        return cards.contains { $0.isRead }
     }
     
     // MARK: - Card
+    
     func createCard(content: String, topic: Topic) -> Card {
         let card = Card(context: context)
         card.id = UUID()
         card.content = content
         card.generatedAt = Date()
         card.isBookmarked = false
-        card.topic = topic
         card.isRead = false
+        card.topic = topic
         save()
         return card
     }
@@ -99,9 +104,16 @@ class DataManager: ObservableObject {
         return (try? context.fetch(request)) ?? []
     }
     
-    func fetchSavedCards() -> [Card] {
+    func fetchBookmarkedCards() -> [Card] { // all cards
         let request: NSFetchRequest<Card> = Card.fetchRequest()
         request.predicate = NSPredicate(format: "isBookmarked == true")
+        request.sortDescriptors = [NSSortDescriptor(key: "generatedAt", ascending: false)]
+        return (try? context.fetch(request)) ?? []
+    }
+    
+    func fetchBookmarkedCardsByTopic(for topic: Topic) -> [Card] { //fetch bookmarked cards by topic
+        let request: NSFetchRequest<Card> = Card.fetchRequest()
+        request.predicate = NSPredicate(format: "isBookmarked == true AND topic == %@", topic)
         request.sortDescriptors = [NSSortDescriptor(key: "generatedAt", ascending: false)]
         return (try? context.fetch(request)) ?? []
     }
@@ -111,59 +123,76 @@ class DataManager: ObservableObject {
         save()
     }
     
+    func markCardAsRead(_ card: Card) {
+        card.isRead = true
+        save()
+        if let topic = card.topic {
+            checkTopicComplete(for: topic)
+        }
+    }
+    
     func deleteCard(_ card: Card) {
         context.delete(card)
         save()
     }
     
-    // update card isStarted value once a card has been read
-    func markCardAsRead(_ card: Card) {
-        card.isRead = true
-        
-        if let topic = card.topic, topic.isStarted == false {
-            topic.isStarted = true
-        }
-        
+    // MARK: - Conversation
+    
+    /// Creates a conversation linked to a specific card (e.g. double-tap on card).
+    @discardableResult
+    func createConversation(title: String, card: Card) -> Conversation {
+        let conversation = Conversation(context: context)
+        conversation.id = UUID()
+        conversation.title = title
+        conversation.createdAt = Date()
+        conversation.card = card
+        conversation.topicName = card.topic?.name  // snapshot topic name at creation
         save()
+        return conversation
     }
     
-    // MARK: - ChatMessage
-    
-    // For double-tap on a card
-    func saveChatMessage(question: String, answer: String, card: Card) -> ChatMessage {
-        let message = ChatMessage(context: context)
-        message.id = UUID()
-        message.question = question
-        message.askedAt = Date()
-        message.card = card
-        message.topicName = nil
+    /// Creates a standalone conversation not linked to a card (e.g. topic-level Q&A).
+    @discardableResult
+    func createConversation(title: String, topicName: String) -> Conversation {
+        let conversation = Conversation(context: context)
+        conversation.id = UUID()
+        conversation.title = title
+        conversation.createdAt = Date()
+        conversation.card = nil
+        conversation.topicName = topicName
         save()
-        return message
+        return conversation
     }
     
-    // For topic-level Q&A (no specific card)
-    func saveChatMessage(question: String, answer: String, topicName: String) -> ChatMessage {
-        let message = ChatMessage(context: context)
-        message.id = UUID()
-        message.question = question
-        message.askedAt = Date()
-        message.card = nil        // means no card was submitted with this question
-        message.topicName = topicName
-        save()
-        return message
-    }
-    
-    func fetchChatHistory(for card: Card) -> [ChatMessage] {
-        let request: NSFetchRequest<ChatMessage> = ChatMessage.fetchRequest()
-        request.predicate = NSPredicate(format: "card == %@", card)
-        request.sortDescriptors = [NSSortDescriptor(key: "askedAt", ascending: true)]
+    func fetchConversations() -> [Conversation] {
+        let request: NSFetchRequest<Conversation> = Conversation.fetchRequest()
+        request.sortDescriptors = [NSSortDescriptor(key: "createdAt", ascending: false)]
         return (try? context.fetch(request)) ?? []
     }
     
-    func fetchChatHistory(for topicName: String) -> [ChatMessage] {
-        let request: NSFetchRequest<ChatMessage> = ChatMessage.fetchRequest()
-        request.predicate = NSPredicate(format: "topicName == %@ AND card == nil", topicName)
-        request.sortDescriptors = [NSSortDescriptor(key: "askedAt", ascending: true)]
+    func deleteConversation(_ conversation: Conversation) {
+        context.delete(conversation)
+        save()
+    }
+    
+    // MARK: - Message
+    
+    @discardableResult
+    func addMessage(to conversation: Conversation, content: String, agent: String) -> Message {
+        let message = Message(context: context)
+        message.id = UUID()
+        message.message = content
+        message.agent = agent
+        message.timestamp = Date()
+        message.conversation = conversation
+        save()
+        return message
+    }
+    
+    func fetchMessages(by conversationId: UUID) -> [Message] {
+        let request: NSFetchRequest<Message> = Message.fetchRequest()
+        request.predicate = NSPredicate(format: "conversation.id == %@", conversationId as CVarArg)
+        request.sortDescriptors = [NSSortDescriptor(key: "timestamp", ascending: true)]
         return (try? context.fetch(request)) ?? []
     }
 }
