@@ -15,8 +15,19 @@
 		84E2CC8B2F42E59000C23FE2 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 84E2CC8A2F42E59000C23FE2 /* GoogleSignInSwift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B49C08BD2F566CD000097F3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849264182F3DC2D9000339F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8492641F2F3DC2D9000339F0;
+			remoteInfo = Infomatic;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		849264202F3DC2D9000339F0 /* Infomatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Infomatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B49C08B92F566CD000097F3C /* InfomaticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfomaticTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -38,6 +49,11 @@
 			path = Infomatic;
 			sourceTree = "<group>";
 		};
+		B49C08BA2F566CD000097F3C /* InfomaticTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = InfomaticTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B49C08B62F566CD000097F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				849264222F3DC2D9000339F0 /* Infomatic */,
+				B49C08BA2F566CD000097F3C /* InfomaticTests */,
 				849264212F3DC2D9000339F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				849264202F3DC2D9000339F0 /* Infomatic.app */,
+				B49C08B92F566CD000097F3C /* InfomaticTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,6 +129,29 @@
 			productReference = 849264202F3DC2D9000339F0 /* Infomatic.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B49C08B82F566CD000097F3C /* InfomaticTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B49C08C12F566CD000097F3C /* Build configuration list for PBXNativeTarget "InfomaticTests" */;
+			buildPhases = (
+				B49C08B52F566CD000097F3C /* Sources */,
+				B49C08B62F566CD000097F3C /* Frameworks */,
+				B49C08B72F566CD000097F3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B49C08BE2F566CD000097F3C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B49C08BA2F566CD000097F3C /* InfomaticTests */,
+			);
+			name = InfomaticTests;
+			packageProductDependencies = (
+			);
+			productName = InfomaticTests;
+			productReference = B49C08B92F566CD000097F3C /* InfomaticTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -116,6 +164,10 @@
 				TargetAttributes = {
 					8492641F2F3DC2D9000339F0 = {
 						CreatedOnToolsVersion = 26.2;
+					};
+					B49C08B82F566CD000097F3C = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 8492641F2F3DC2D9000339F0;
 					};
 				};
 			};
@@ -138,12 +190,20 @@
 			projectRoot = "";
 			targets = (
 				8492641F2F3DC2D9000339F0 /* Infomatic */,
+				B49C08B82F566CD000097F3C /* InfomaticTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8492641E2F3DC2D9000339F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49C08B72F566CD000097F3C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -160,7 +220,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B49C08B52F566CD000097F3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B49C08BE2F566CD000097F3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8492641F2F3DC2D9000339F0 /* Infomatic */;
+			targetProxy = B49C08BD2F566CD000097F3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		849264292F3DC2DA000339F0 /* Debug */ = {
@@ -369,6 +444,46 @@
 			};
 			name = Release;
 		};
+		B49C08BF2F566CD000097F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fun.InfomaticTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Infomatic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Infomatic";
+			};
+			name = Debug;
+		};
+		B49C08C02F566CD000097F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fun.InfomaticTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Infomatic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Infomatic";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -386,6 +501,15 @@
 			buildConfigurations = (
 				8492642C2F3DC2DA000339F0 /* Debug */,
 				8492642D2F3DC2DA000339F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B49C08C12F566CD000097F3C /* Build configuration list for PBXNativeTarget "InfomaticTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B49C08BF2F566CD000097F3C /* Debug */,
+				B49C08C02F566CD000097F3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

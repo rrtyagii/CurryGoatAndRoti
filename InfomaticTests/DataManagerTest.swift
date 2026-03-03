@@ -35,16 +35,16 @@ final class DataManagerTests: XCTestCase {
     }
 
     func test_fetchTopics_returnsAllCreatedTopics() {
-        dataManager.createTopic(name: "Topic A")
-        dataManager.createTopic(name: "Topic B")
+        let _ = dataManager.createTopic(name: "Topic A")
+        let _ = dataManager.createTopic(name: "Topic B")
 
         XCTAssertEqual(dataManager.fetchTopics().count, 2)
     }
 
     func test_fetchTopics_sortedOldestFirst() {
-        dataManager.createTopic(name: "First")
+        let _ = dataManager.createTopic(name: "First")
         Thread.sleep(forTimeInterval: 0.01) //prevents creation timestamps from being identical
-        dataManager.createTopic(name: "Second")
+        let _ = dataManager.createTopic(name: "Second")
 
         let topics = dataManager.fetchTopics()
         XCTAssertEqual(topics.first?.name, "First")
@@ -60,9 +60,9 @@ final class DataManagerTests: XCTestCase {
 
     func test_deleteTopic_cascadeDeletesCards() { // verifies that deleting a topic also deletes its associated cards
         let topic = dataManager.createTopic(name: "Topic")
-        dataManager.createCard(content: "Card 1", topic: topic)
-        dataManager.createCard(content: "Card 2", topic: topic)
-        dataManager.deleteTopic(topic)
+        let _ = dataManager.createCard(content: "Card 1", topic: topic)
+        let _ = dataManager.createCard(content: "Card 2", topic: topic)
+        let _ = dataManager.deleteTopic(topic)
 
         let request: NSFetchRequest<Card> = Card.fetchRequest()
         let remaining = (try? dataManager.context.fetch(request)) ?? []
@@ -79,7 +79,7 @@ final class DataManagerTests: XCTestCase {
 
     func test_checkTopicComplete_falseWhenUnreadCardsExist() {
         let topic = dataManager.createTopic(name: "Topic")
-        dataManager.createCard(content: "Unread", topic: topic)
+        let _ = dataManager.createCard(content: "Unread", topic: topic)
 
         XCTAssertFalse(dataManager.checkTopicComplete(for: topic))
         XCTAssertFalse(topic.isCompleted)
@@ -88,8 +88,8 @@ final class DataManagerTests: XCTestCase {
     func test_checkTopicComplete_falseWhenMixedReadState() {
         let topic = dataManager.createTopic(name: "Topic")
         let card1 = dataManager.createCard(content: "Card 1", topic: topic)
-        dataManager.createCard(content: "Card 2", topic: topic)
-        dataManager.markCardAsRead(card1)
+        let _ = dataManager.createCard(content: "Card 2", topic: topic)
+        let _ = dataManager.markCardAsRead(card1)
 
         XCTAssertFalse(topic.isCompleted)
     }
@@ -102,7 +102,7 @@ final class DataManagerTests: XCTestCase {
 
     func test_isTopicStarted_falseWhenNoCardsRead() {
         let topic = dataManager.createTopic(name: "Topic")
-        dataManager.createCard(content: "Card", topic: topic)
+        let _ = dataManager.createCard(content: "Card", topic: topic)
 
         XCTAssertFalse(dataManager.isTopicStarted(topic))
     }
@@ -132,8 +132,8 @@ final class DataManagerTests: XCTestCase {
     func test_fetchCards_scopedToTopic() {
         let topicA = dataManager.createTopic(name: "A")
         let topicB = dataManager.createTopic(name: "B")
-        dataManager.createCard(content: "Card A", topic: topicA)
-        dataManager.createCard(content: "Card B", topic: topicB)
+        let _ = dataManager.createCard(content: "Card A", topic: topicA)
+        let _ = dataManager.createCard(content: "Card B", topic: topicB)
 
         XCTAssertEqual(dataManager.fetchCards(for: topicA).count, 1)
         XCTAssertEqual(dataManager.fetchCards(for: topicA).first?.content, "Card A")
@@ -141,9 +141,9 @@ final class DataManagerTests: XCTestCase {
 
     func test_fetchCards_sortedNewestFirst() {
         let topic = dataManager.createTopic(name: "Topic")
-        dataManager.createCard(content: "First", topic: topic)
+        let _ = dataManager.createCard(content: "First", topic: topic)
         Thread.sleep(forTimeInterval: 0.01)
-        dataManager.createCard(content: "Second", topic: topic)
+        let _ = dataManager.createCard(content: "Second", topic: topic)
 
         let cards = dataManager.fetchCards(for: topic)
         XCTAssertEqual(cards.first?.content, "Second")
@@ -166,7 +166,7 @@ final class DataManagerTests: XCTestCase {
         let topicB = dataManager.createTopic(name: "B")
         let card1 = dataManager.createCard(content: "Card 1", topic: topicA)
         let card2 = dataManager.createCard(content: "Card 2", topic: topicB)
-        dataManager.createCard(content: "Card 3", topic: topicA) // not bookmarked
+        let _ = dataManager.createCard(content: "Card 3", topic: topicA) // not bookmarked
 
         dataManager.toggleBookmarked(card1)
         dataManager.toggleBookmarked(card2)
@@ -190,7 +190,7 @@ final class DataManagerTests: XCTestCase {
 
     func test_fetchBookmarkedCardsByTopic_excludesUnbookmarked() {
         let topic = dataManager.createTopic(name: "Topic")
-        dataManager.createCard(content: "Not Bookmarked", topic: topic)
+        let _ = dataManager.createCard(content: "Not Bookmarked", topic: topic)
 
         XCTAssertEqual(dataManager.fetchBookmarkedCardsByTopic(for: topic).count, 0)
     }
