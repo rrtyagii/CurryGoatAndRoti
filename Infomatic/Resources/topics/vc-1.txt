@@ -1,0 +1,48 @@
+SMPTE 421, informally known as VC-1, is a video coding format. Most of it was initially developed as Microsoft's proprietary video format Windows Media Video 9 in 2003. With some enhancements including the development of a new Advanced Profile, it was officially approved as an SMPTE standard on April 3, 2006. It was primarily marketed as a lower-complexity competitor to the H.264/MPEG-4 AVC standard. After its development, several companies other than Microsoft asserted that they held patents that applied to the technology, including Panasonic, LG Electronics and Samsung Electronics.
+VC-1 is supported in the now-deprecated Microsoft Silverlight, the briefly-offered HD DVD disc format, and the Blu-ray Disc format.
+
+Format
+VC-1 is an evolution of the conventional block-based motion-compensated hybrid video coding design also found in H.261, MPEG-1 Part 2, H.262/MPEG-2 Part 2, H.263, and MPEG-4 Part 2. It was widely characterized as an alternative to the ITU-T and MPEG video codec standard known as H.264/MPEG-4 AVC. The Advanced Profile of VC-1 contains tools designed for coding interlaced video sequences as well as progressive scan video. The main goal of the development and standardization of the VC-1 Advanced Profile was to support interlace-optimized compression of interlaced content without first converting it to progressive scan, making it more attractive to broadcast and video industry professionals using the 1080i format.
+Both HD DVD and Blu-ray Disc adopted VC-1 as a supported video format, meaning their video playback devices are required to be capable of decoding and playing video-content compressed using VC-1. Windows Vista partially supports HD DVD playback by including the VC-1 decoder and some related components needed for playback of VC-1 encoded HD DVD movies.
+Microsoft designated VC-1 as the Xbox 360 video game console's official video format, and game developers could use VC-1 for full motion video included with games. By means of an October 31, 2006 update, all formats of Windows Media Video could be played on the Xbox 360 from a disc, USB storage device, or streaming from a PC via Windows Media Connect/Windows Media Player 11.
+VC-1 is supported in the PlayStation 3 console and the FFmpeg project also includes a VC-1 decoder.
+On August 24, 2012, the Raspberry Pi Foundation announced hardware decoding support for VC-1.
+
+Microsoft codec implementations
+The VC-1 codec specification has so far been implemented by Microsoft in the form of three codecs, each identified with a unique four character code.
+
+WMV3
+The Simple and Main Profiles of VC-1 remained completely faithful to the existing WMV3 implementation, making WMV3 bitstreams fully VC-1 compliant.
+The WMV3 codec was designed to primarily support progressive encoding for computer displays. An interlaced encoding mode was implemented, but quickly became deprecated when Microsoft started implementing WMV Advanced Profile. Whereas WMV3 progressive encoding was implemented using the YUV 4:2:0 color sampling scheme, the deprecated interlaced mode was implemented using the less common YUV 4:1:1 sampling scheme.
+The Windows Media Video 9 (WMV3) codec implements the Simple and Main modes of the VC-1 codec standard, providing high-quality video for streaming and downloading. "It provides support for a wide range of bit rates, from high-definition content at one-half to one-third the bit rate of MPEG-2, to low-bit-rate Internet video delivered over a dial-up modem. This codec also supports professional-quality downloadable video with two-pass and variable bit rate (VBR) encoding."
+
+WMVA
+WMVA was the original implementation of WMV Advanced Profile prior to the acceptance of the VC-1 draft by SMPTE. The codec was distributed with Windows Media Player 10 and Windows Media Format SDK 9.5 install packages. There are slight bitstream differences between WMVA and WVC1, so consequently WMVA is handled by a different DirectShow decoder than WVC1. Some 3rd party hardware and software decoders only decode WMVA based content. As of 2006, WMVA is considered a deprecated codec because it is not fully VC-1 compliant.
+
+WVC1
+WVC1 (renamed by Microsoft to Windows Media Video 9) offers support for interlaced content and is transport independent. With the previous version of the Windows Media Video 9 Series codec, users could deliver progressive content at data rates as low as one-third that of the MPEG-2 codec and still get equivalent or comparable quality to MPEG-2. The Windows Media Video 9 Advanced Profile codec also offers this same improvement in encoding efficiency with interlaced contents. A decoder for WVC1 is included in Windows Media Player 11, which is bundled with Windows Vista and is available as a download for Windows XP. This implementation is supported in Microsoft Silverlight.
+
+Profiles
+Bit rates and resolutions
+Other implementations
+There are no external implementations of WMV9/AV-1 encoders. For example, Sonic Cinevision PSE- a VC-1 encoding tool, has been written entirely by Microsoft itself. Microsoft owns the code and Sonic Solutions was tasked with sales. Microsoft on its own (without relying on Sonic company) also provides a separate VC-1 Encoder SDK which allows any company or software developer to integrate VC-1 encoding into their applications.
+Non-Microsoft VC-1 implementations (based entirely on the SMPTE specifications) have been done by Ericsson Television and MainConcept. The FFmpeg project includes a free VC-1 decoder.
+
+Encoding software
+Windows Media Encoder 9 Series encodes VC-1 compliant video files, including WVC1 FourCC media. Windows Media Format 11 Runtime or Windows Media Player 11 must be installed on the computer to ensure full VC-1 compliance across all three profiles (Simple, Main and Advanced). If either of these are installed, Windows Movie Maker can also save VC-1 compliant videos, as can any other application built on the Windows Media Format SDK or Windows Media Codec DMOs. A Windows Media Encoder Studio Edition was initially announced for professional encoding but later cancelled by Microsoft. Microsoft Expression Encoder which is part of Expression Studio supports encoding VC-1 video to the Windows Media (ASF) file format and the IIS Smooth Streaming format.
+Video encoder products made by Inlet, Digital Rapids, Harmonic, Envivio, Elemental Technologies, Anystream, Telestream and Rhozet support VC-1 encoding (based on the Microsoft VC-1 Encoder SDK) for IPTV and Web streaming.
+
+Hardware-based encoding and decoding
+Because VC-1 encoding and decoding requires significant computing power, software implementation that run on a general-purpose CPU are typically slow, especially when dealing with HD video content. To reduce CPU usage or to do real-time encoding, special-purpose hardware may be employed, either for the complete encoding or decoding process, or for acceleration assistance within a CPU-controlled environment. A hardware VC-1 encoder can be an ASIC or an FPGA.
+Hardware-accelerated (also known as hardware-assisted) video decoding can either be done on dedicated, special-purpose hardware or on generic, multi-purpose hardware such as GPUs. The former is typically found in consumer electronics devices such as Blu-ray Disc players and 3G/4G mobile phones, while the latter is typically found in PCs. Nearly all video cards manufactured since 2006 support some level of GPU-accelerated VC-1 decoding on the Windows platform via DirectX Video Acceleration APIs. The native Windows WMV9/VC-1 decoder (wmvdecod.dll) only supports DXVA profiles A, B and C, while 3rd party VC-1 decoders such as CyberLink's support the full DXVA Profile D decode acceleration. There is no support for GPU-accelerated VC-1 decode on the MacOS platform.
+Raspberry Pi hardware prior to Raspberry Pi 4 supports VC-1 hardware-accelerated decoding, although it requires purchasing of a license key.
+
+Legal status
+Although heavily associated with Microsoft, there are 18 member companies within the VC-1 patent pool. The majority of patents are held by four companies: Microsoft (324 patents), Panasonic (122 patents), LG Electronics (96 patents), and Samsung Electronics (96 patents).
+As an SMPTE standard, VC-1 is open to implementation by anyone, although implementers may be required to pay licensing fees to the Via-LA, the LLC licensing body or directly to its members, who claim to hold essential patents on the format (since it is a non-exclusive licensing body).
+Over 94.7% of the patents have expired as of July 31, 2025.
+
+Patent holders
+The following organizations hold one or more patents in the VC-1 patent pool, as listed by Via-LA.
+This is a dynamic list and may never be able to satisfy particular standards for completeness. You can help by adding missing items with reliable sources.
+The following organizations hold one or more patents in the Via-LA VC-1 patent pool. LG has now removed their 1 remaining patent from the pool but it has been kept listed in the table below as it is still a valid patent.

@@ -1,0 +1,31 @@
+ContextObjects in Spans (COinS) is a method to embed bibliographic metadata in the HTML code of web pages.  This allows bibliographic software to publish machine-readable bibliographic items and client reference management software to retrieve bibliographic metadata. The metadata can also be sent to an OpenURL resolver. This allows, for instance, searching for a copy of a book at a specific library.
+
+History
+In the late 1990s, OpenURL was created at Ghent University as a framework to provide context-sensitive links. The OpenURL link server implementation called SFX was sold to Ex Libris Group which marketed it to libraries, shaping the idea of a "link resolver". The OpenURL framework was later standardized as ANSI/NISO Z39.88 in 2004 (revised 2010). A core part of OpenURL was the concept of "ContextObjects" as metadata to describe referenced resources.
+In late 2004, Richard Cameron, the creator of CiteULike, drew attention to the need for a standard way of embedding metadata in HTML pages. In January 2005, Daniel Chudnov suggested the use of OpenURL. Embedding OpenURL ContextObjects in HTML had been proposed before by Herbert Van de Sompel and Oren Beit-Arie and a working paper by Chudnov and Jeremy Frumkin. Discussion of the latter on the GPS-PCS mailing list resulted in a draft specification for embedding OpenURLs in HTML, which later became COinS. A ContextObject is embedded in an HTML span element.
+The adoption of COinS was pushed by various publications and implementations. The specification was OCOinS.info, which includes specific guides to implement COinS for journal articles and books. Despite the specification webpage no longer being live, the standard is still usable, though fairly rare.
+
+Data model
+From OpenURL 1.0, COinS borrows one of its serialization formats ("KEV") and some ContextObject metadata formats included in OpenURL implementation guidelines. The ContextObject implementation guidelines of COinS include four publication types (article with several subtypes, book, patent, and generic) and a couple of simple fields. However, the guidelines are not a required part of COinS, so the standard does not provide a strict metadata model like Dublin Core or the Bibliographic Ontology.
+
+Use
+The use of COinS is still fairly rare.
+The following websites make use of COinS:
+
+HubMed
+Wikipedia
+
+Server-side applications
+Some server-side applications embed COinS, including refbase.
+
+Client tools
+Client tools which can make use of COinS include:
+
+BibDesk
+Bookends (Mac)
+Citavi
+LibX
+Mendeley
+ResearchGate
+Sente (Mac)
+Zotero

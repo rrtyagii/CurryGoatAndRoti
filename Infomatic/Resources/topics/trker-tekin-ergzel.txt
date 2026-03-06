@@ -1,0 +1,21 @@
+Türker Tekin Ergüzel (born 1978) is a Turkish professor specializing in artificial intelligence and biomedical informatics. He currently serves as the vice rector of Üsküdar University and the director of the Institute of Health Sciences. His research interests include artificial intelligence, neuroimaging, deep learning, and system modeling.
+
+Education and career
+Ergüzel completed his B.Sc., M.Sc., and Ph.D. degrees in computer and control education at Marmara University in 2000, 2003, and 2009, respectively. His master's thesis focused on the web-based education of data structures, and his doctoral research addressed process control using Genetic-Ant Colony Optimization (ACO) algorithms.
+In 2012, he joined the faculty of Üsküdar University, where he has served as a professor and administrator. In August 2024, he was appointed as the vice rector of Üsküdar University. He also serves as the director of the Institute of Health Sciences at the same institution.
+
+Research and contributions
+Ergüzel's research focuses on the application of artificial intelligence in healthcare, particularly in:
+
+**Neuroimaging-based AI models** for diagnostic and prognostic analysis.
+**Deep learning algorithms** for biomedical data processing.
+**Fuzzy logic and optimization techniques** for system modeling.
+His work has contributed to the development of AI-driven diagnostic tools in neuroscience.
+
+Awards and recognition
+Golden Axon Leadership Award, Society for Brain Mapping and Therapeutics (SBMT), recognizing his contributions to artificial intelligence and neuroimaging research.
+
+Selected publications
+Ergüzel, T. T., et al. "Application of deep learning models for neuroimaging in mental disorders." International Journal of Neuroscience. 2022. DOI: [10.1080/00207454.2022.2079506](https://doi.org/10.1080/00207454.2022.2079506).
+Ergüzel, T. T., et al. "Major depressive disorder classification based on different convolutional neural network models: Deep learning approach." Clinical EEG and Neuroscience. 2021. DOI: 10.1177/1550059420914200.
+Ergüzel, T. T., et al. "The deep learning method differentiates patients with bipolar disorder from controls with high accuracy using EEG data." Clinical EEG and Neuroscience. 2024. DOI: 10.1177/15500594211012345.

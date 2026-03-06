@@ -1,0 +1,21 @@
+Michael Elad (Hebrew: מיכאל אלעד; born December 10, 1963) is an Israeli computer scientist, a professor of Computer Science at the Technion - Israel Institute of Technology. His work includes contributions in the fields of sparse representations and generative AI, and deployment of these ideas to algorithms and applications in signal processing, image processing and machine learning.
+
+Academic career
+Elad holds a B.Sc. (1986), M.Sc. (1988) and D.Sc. (1997) in Electrical Engineering from the Technion - Israel Institute of Technology. His M.Sc., under the guidance of Prof. David Malah, focused on video compression algorithms; His D.Sc. on super-resolution algorithms for image sequences was guided by Prof. Arie Feuer.
+After several years (1997–2001) of industrial research in Hewlett-Packard Lab Israel and in Jigami, Elad took a research associate position at Stanford University from 2001 to 2003, working closely with Prof. Gene Golub (CS-Stanford), Prof. Peyman Milanfar (EE-UCSC) and Prof. David Donoho (Statistics-Stanford).
+In 2003, Elad assumed a tenure-track faculty position in the Technion's computer science department. He was tenured and promoted to associate professorship in 2007, and promoted to full-professorship in 2010. The following is a list of is editorial activities during his academic career:
+
+Associate editor for IEEE-Transactions on Image Processing (2007–2011)
+Associate editor for IEEE Transactions on Information Theory (2011–2014)
+Associate editor for Applied Computational Harmonic Analysis (2012–2015).
+Associate editor for SIAM Imaging Sciences – SIIMS (2010–2015).
+Senior editor for IEEE Signal Processing Letters (2012–2014).
+Editor in Chief for SIAM Imaging Sciences – SIIMS' (2016–2021)
+
+Research
+Elad works in the fields of signal processing, image processing and machine learning, specializing in particular on inverse problems, sparse representations and generative AI. Elad has authored hundreds of technical publications in these fields. Among these, he is the creator of the K-SVD algorithm, together with Michal Aharon and Bruckstein, and he is also the author of the 2010 book "Sparse and Redundant Representations: From Theory to Applications in Signal and Image Processing".
+In 2017, Elad and Yaniv Romano (his PhD student) created a specialized MOOC on sparse representation theory, given under edX.
+During the years 2015–2018, Elad headed the Rothschild-Technion Program for Excellence. This is an undergraduate program at the Technion, meant for exceptional students with emphasis on tailored and challenging study tracks.
+
+Awards and recognition
+In 2018 Elad become a SIAM Fellow. In 2024 he won the Rothschild Prize in Engineering. and became a member of the Israel Academy of Sciences and Humanities.

@@ -1,0 +1,4 @@
+The Human Phenotype Ontology (HPO) is a formal ontology of human phenotypes.  Developed as part of the Monarch Initiative in collaboration with members of the Open Biomedical Ontologies Foundry, HPO currently contains over 13,000 terms and over 156,000 annotations to hereditary diseases. Data from Online Mendelian Inheritance in Man and medical literature were used to generate the terms currently in the HPO. The ontology contains over 50,000 annotations between phenotypes and hereditary disease.
+
+Motivation
+The Human Phenotype Ontology (HPO) was created in 2008 at the Charité to serve as a standardized vocabulary of phenotypic abnormalities that have been seen in human disease. Applications for the data in the ontology include clinical diagnostics, mapping between phenotypes of model organisms, and as a standard vocabulary for clinical databases. Clinical annotations within the HPO are sought from the medical and genetics community to improve the ontology.

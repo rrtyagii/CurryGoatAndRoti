@@ -1,0 +1,2 @@
+hProduct is a microformat for publishing details of products, on web pages, using (X)HTML classes and rel attributes.
+On 12 May 2009, Google announced that they would be parsing the hProduct, hCard and hReview microformats, and using them to populate search result pages.

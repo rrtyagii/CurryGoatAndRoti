@@ -1,0 +1,22 @@
+Rulelog is an expressive  semantic rule-based knowledge representation and reasoning (KRR) language. It underlies knowledge representation languages used in systems such as Flora-2, SILK and others. It extends well-founded declarative logic programs with features for higher-order syntax, frame syntax, defeasibility, general quantified expressions both in the bodies of the rules and their heads, user-defined functions, and restraint bounded rationality.
+
+Features
+Rulelog extends well-founded semantics for declarative logic rules with features for higher-order syntax (HiLog), frame syntax (cf. F-Logic), defeasibility (prioritized defaults), general formulas (including existentials and disjunctions in rule heads), user-defined functions, and restraint bounded rationality.  Overall, Rulelog combines deep logical/probabilistic reasoning with natural language processing (NLP), and complements machine learning (ML). Rulelog interoperates and composes well with graph databases, relational databases, spreadsheets, XML, RDF/OWL, and can orchestrate overall hybrid KRR.  Despite its expressibility, Rulelog is computationally affordable (inferencing is worst-case polynomial time when radial restraint is employed). The more capable and efficient implementations of Rulelog, such as Ergo, Flora-2, and Ontobroker leverage methods from Logic programming, Non-monotonic reasoning, Business rules, the Semantic Web, and Databases. Rulelog implementation methods (in systems like Ergo, Flora-2 and some others) include dependency-aware smart caching of reasoning results (memoization, also known as tabling  in logic programming), indexing, and goal reordering (for improving the performance of joins).
+
+History
+Rulelog builds on decades of work in Logic Programming and Deductive database research; it combines several different extensions of declarative logic programs whose language and implementations were originally developed by a number of different researchers since 1990's. Many of Rulelog's features derive from earlier systems, including Flora-2, SweetRules, XSB, SWSL, and others.
+
+Standardization Efforts
+There was a number of standardization efforts for precursors of Rulelog:
+
+Semantic Web Services Language was submitted as a member submission to W3C in April, 2005.
+RIF Framework for Logic Dialects (RIF-FLD) is a W3C recommendation, which is intended as a means for formal specification of Web logic languages such as Rulelog.
+Rulelog: Syntax and Semantics Archived 2018-12-19 at the Wayback Machine. A version of the Rulelog specification using the RIF-FLD framework is standardized by RuleML. The source files for that specification are found here.
+
+Systems Implementing Rulelog
+Flora-2: an open source rule-based system for knowledge representation and reasoning.
+ErgoAI: an implementation of Rulelog by Coherent Knowledge, which includes an IDE and many extensions. This was originally commercial, but has now been available open source (Apache license).
+Sunflower: an integrated development environment for Flora-2.
+SILK: a precursor to Ergo.
+Ontobroker: a commercial implementation of a subset of Rulelog, which is largely based on F-logic with various extensions.
+XSB: supports a smaller subset of Rulelog's features, but a number of other systems, like Flora-2 and Ergo, are based on XSB. Open source.

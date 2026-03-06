@@ -1,0 +1,4 @@
+The Sample and Data Relationship Format (SDRF) is part of the MAGE-TAB standard for communicating the results
+of microarray investigations, including all information required for MIAME compliance.
+An SDRF file is a tab-delimited file describing the relationships between samples, arrays, data, and other objects used or produced in a microarray investigation.
+For simple experimental designs, constructing the SDRF file is straightforward, and even complex loop designs can be expressed in this format.

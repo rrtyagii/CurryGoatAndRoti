@@ -1,0 +1,18 @@
+The Samsung Galaxy Watch series is a line of smartwatches designed and produced by Samsung Electronics. The line features various health, fitness, and fashion related features and is integrated with Samsung's other products under the Samsung Galaxy brand. The series is the successor to the previous Samsung Gear watches.
+The first smartwatch under this series, the Galaxy Watch, was released in August 2018.
+The Galaxy Watch series shares the circular form factor of the Samsung Gear S2 and S3, as a result much of the OS features are shared between the Gear S2 and S3 and the Galaxy Watch.
+
+Operating system
+For the original Galaxy Watch, the Watch Active and Active2 and the Watch3, Samsung used its in-house developed Tizen OS, which it previously used for the Samsung Gear series of watches.
+With the announcement of the Galaxy Watch4 and Galaxy Watch4 Classic in August 2021, Samsung entered into a partnership with Google to work together on Wear OS bringing some features from Samsung's Tizen with One UI Watch to Wear OS, while other features remained exclusive to Samsung's own customization to the OS, despite the fact that Wear OS is closed-source.
+
+Specifications
+Galaxy Watch
+The baseline Galaxy Watch series started as the lower cost Galaxy Watch Active line. Unlike the original Galaxy Watch and Galaxy Watch3, these watches were missing the rotating bezel. The Active line put more focus on fitness and wellness. With the 4th generation, the “Active” label was dropped in favor of the form-factor becoming the base smartwatch in the series. The Galaxy Watch4 was used as the base for the Galaxy Watch FE in 2024.
+The Watch5 introduced a temperature sensor and added support for fast charging.
+The Watch6 had an increased battery capacity and increased RAM.
+The Watch7 had increased storage, an improved sensor, and support for faster charging.
+The Watch5 Pro and Watch Ultra are the only watches to support GPX routes. The only versions that support bezel rotation.
+
+Galaxy Watch Classic
+Galaxy Watch FE

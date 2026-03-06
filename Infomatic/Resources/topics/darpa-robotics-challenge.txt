@@ -1,0 +1,38 @@
+The DARPA Robotics Challenge (DRC) was a prize competition funded by the US Defense Advanced Research Projects Agency. Held from 2012 to 2015, it aimed to develop semi-autonomous ground robots that could do "complex tasks in dangerous, degraded, human-engineered environments." The DRC followed the DARPA Grand Challenge and DARPA Urban Challenge. It began in October 2012 and was to run for about 33 months with three competitions: a Virtual Robotics Challenge (VRC) that took place in June 2013; and two live hardware challenges, the DRC Trials in December 2013 and the DRC Finals in June 2015.
+
+Besides spurring development of semi-autonomous robots, the DRC also sought to make robotic software and systems development more accessible beyond the end of the program. To that end, the DRC funded the adaptation of the GAZEBO robot simulator by the Open Source Robotics Foundation (OSRF) for DRC purposes and the construction of six Boston Dynamics ATLAS robots that were given to the teams that performed best in the VRC.
+
+Dr. Gill Pratt, Program Manager DARPA Robotics Challenge described DARPA and its goals with the Robotics Challenge:DARPA's role is to spur innovation. And we do it by focused, short term efforts. We pick things that are not impossible, but also not very low risk. So we take very high risk gambles, and those risks have tremendous payoffs. So if we’re successful it means that these robots are actually going to be able to make a difference. In particular, in disaster scenarios making society more resilient. The lesson of the original challenge [DARPA Grand Challenge - driverless cars] is that persistence pays. It’s important if you know the technology is almost there and you can sort of see the light at the end of the tunnel, a little bit of persistence will pay off. What I’m hoping for in the trials is that some of the teams will score some points. I don’t think that any team is going to score all the points that there are. Maybe no teams will even score half the points that there are. But I think some teams will do moderately well. My expectation is that the robots are going to be slow. What we’re looking for right now is for the teams to just do as well as roughly that one year old child. If we can get there, then we think that we have good reason to believe that some of these teams with continued persistence for another year will actually be able to demonstrate robots that show the utility that these things might have in a real disaster scenario. DARPA is in the innovation business, not in the development business. So, what we do is we wait for technology to be almost ready for something big to happen, and then we add a focused effort to catalyze the something. It doesn’t mean that we take it all the way into a system that’s deployed or to the marketplace. We rely on the commercial sector to do that. But we provide the impetus, the extra push the technology needs to do that.
+
+Challenge details
+The Robotics Challenge will focus on disaster or emergency-response scenarios. Although the requirements may change as the contest progresses, the initial task requirements for robot entries is:
+
+1. Drive a utility vehicle at the site.
+2. Travel dismounted across rubble.
+3. Remove debris blocking an entryway.
+4. Open a door and enter a building.
+5. Climb an industrial ladder and traverse an industrial walkway.
+6. Use a tool to break through a concrete panel.
+7. Locate and close a valve near a leaking pipe.
+8. Connect a fire hose to a standpipe and turn on a valve.
+The competition has been broken into multiple tracks. Tracks A and B receive DARPA funding, while Tracks C and D will receive no DARPA funding initially. Tracks B and C will go through the Virtual Robotics Challenge (VRC), after which successful teams may receive funding for subsequent stages. Applications for tracks A and B closed in May 2012. The track C application window closed on 18 December 2012, though late applications were still being considered as of January 2013, though participants may still download the DRC Simulator, an open-source application created by the Open Source Robotics Foundation. Track D was open for registration through October 2013.
+The signup site for Tracks C and D (no funding) shows illustrations of robots with most largely conforming to humanoid layouts (bipedal with two arms). Other configurations may be possible, however, as illustrated by the "Robosimian" illustration proposed by NASA Jet Propulsion Laboratory.
+
+Differences
+Unlike previous Challenges, entrants to the DRC need not build their robots from scratch. DARPA will provide to some participants "a robotic hardware platform with arms, legs, torso and head. In August 2012, DARPA announced that it would pay about $10.9 million to Boston Dynamics to build seven platforms based on the PETMAN project by August 2014.
+The contest will also include "supervised autonomy" tasks in which non-expert operators will be allowed/required to complete tasks using the robotic vehicle. The Challenge will focus on the ability to complete such supervised autonomy tasks "despite low fidelity (low bandwidth, high latency, intermittent) communications."
+
+Trials
+The DRC Trials occurred on December 20 and 21, 2013 in Florida. During the trials the robots were still teleoperated for the vast majority of tasks. The 16 teams that competed in the Trials were:
+
+* Maximal attainable number of points was 32
+† Team SCHAFT was originally track A, but switched to track D after Google's acquisition.
+X = Did not Attempt
+The top 8 teams (SCHAFT through TROOPER) were initially eligible for funding. However, after the completion of the trials, Team SCHAFT elected to move to Track D, as a self-funded project. SCHAFT was acquired by Google, which also acquired autonomous vehicle technologies from teams that competed in the DARPA Grand Challenge. The move of SCHAFT to track D frees up DARPA funding for additional finalists. THOR, ViGIR, and KAIST, each of which earned 8 points during the trials, will now compete in the finals, with KAIST continuing as a track D self-funded team. Team THOR and Team ViGIR will split the DARPA funding, and Team THOR will further split into two teams after the move of its leader to a different university.
+
+Finals
+The DRC Finals took place at the Fairplex in Pomona, California on June 5 and 6, 2015. Twenty-five of the top robotics organizations in the world gathered to compete for $3.5 million in prizes as they attempted a simulated disaster-response course. The 25 teams competing for the Finals are:
+
+Results
+In the Finals, three teams had a perfect score of 8. The tie was broken by their total time. First place went to Team KAIST with their DRC-Hubo robot and a winning time of 44 minutes and 28 seconds. Second place went to IHMC for Running Man, and third to Tartan Rescue of CMU NREC for Chimp.
+The robots performed better than expected. But there were a variety of failures indicating how difficult robotics remains. For example, Running Man fell over while waving to the crowd after successfully completing all 8 tasks.

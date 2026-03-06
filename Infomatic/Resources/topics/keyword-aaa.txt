@@ -1,0 +1,1 @@
+Keyword AAA is a thesaurus created by the State Records Authority of New South Wales, Australia. It is often used to categorise documents in a document management system. The thesaurus is often implemented in terms of ISO 2788.

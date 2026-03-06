@@ -1,0 +1,22 @@
+The Disease Ontology (DO) is a formal ontology of human disease.  The Disease Ontology project is hosted at the Institute for Genome Sciences at the University of Maryland School of Medicine.
+The Disease Ontology project was initially developed in 2003 at Northwestern University to address the need for a purpose-built ontology that covers the full spectrum of disease concepts annotated within biomedical repositories within an ontological framework that is extensible to meet community needs.
+The Disease Ontology is an OBO (Open Biomedical Ontologies) Foundry ontology.
+Disease Ontology Identifiers (DOIDs) consist of the prefix DOID: followed by number, for example, Alzheimer's disease has the stable identifier DOID:10652. DO is cross-referenced in several resources such as UniProt.
+
+Example term
+The Disease Ontology entry for motor neuron disease in OBO format is given below, showing the links to other classification schemes, including ICD-9, ICD-10, MeSH, SNOMED and UMLS.
+
+id: DOID:231
+name: motor neuron disease
+def: "A neurodegenerative disease that is located_in the motor neurones." Motor neuron disease
+xref: ICD10CM:G12.2
+xref: ICD10CM:G12.20
+xref: ICD9CM:335.2
+xref: MSH:D016472
+xref: SNOMEDCT_US_2016_03_01:155015007
+xref: SNOMEDCT_US_2016_03_01:192888001
+xref: SNOMEDCT_US_2016_03_01:192889009
+xref: SNOMEDCT_US_2016_03_01:192890000
+xref: SNOMEDCT_US_2016_03_01:37340000
+xref: UMLS_CUI:C0085084
+is_a: DOID:1289 ! Neurodegenerative disease

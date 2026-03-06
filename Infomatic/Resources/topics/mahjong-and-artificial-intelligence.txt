@@ -1,0 +1,18 @@
+Mahjong is a relatively complex four-player game with multiple variants played all around the world. When developing a mahjong-related artificial intelligence (AI), there are several factors researchers must consider; an AI must take into account its own hand as well as what it infers about the other players' hands utilizing the information available. Researchers have developed several mahjong-related AI models with various applications.
+
+Shanten and kabe
+Researchers noticed that the current AI models that existed purely to calculate the shanten of a hand did not account for the discarded tiles. These researchers developed the Block Deficiency Model, an AI that would calculate the shanten of the hand taking Kabe, tiles that are all used or discarded, into account.
+
+Scoring
+Scoring rules
+Japanese mahjong has complex scoring rules; in general, the number of points a hand is worth will be calculated from the fu and han of the hand. Han is gained from dora and yaku. Honba must also be considered; each honba adds 300 points to the next winning hand. AI is being developed to do these calculations.
+
+Recognizing the score with AI
+Researchers took note of the complexity involved in mahjong's scoring system and attempted to make an AI that could recognize the components of a winning hand and calculate the score with the goal of helping people restrained by their old age. Because this AI model attempted to recognize tiles in real life instead of on a computer, some tiles were misidentified.
+
+Playing mahjong
+Single-player mahjong
+Researchers decided to make an AI model that played a "simplified", single-player variant of mahjong; this model was intended to provide a framework for other models to use. They considered their model "greedy" because it only focused on winning itself. The researchers later added a second player, but ended the game after one hand; to maximize its expected score, the AI would have to consider the speed and value of the hand it would like to achieve.
+
+Suphx
+Researchers developed Suphx with the intention to make an AI model that could play Japanese mahjong competitively . Suphx was able to achieve the second highest rank on Tenhou.net, but was not permitted to play in the highest ranking room.

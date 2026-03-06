@@ -1,0 +1,21 @@
+RAIC Labs, formerly Synthetaic, is an American artificial intelligence (AI) company founded in 2019 and headquartered in Delafield, Wisconsin.
+
+History
+RAIC Labs, formerly Synthetaic, was founded in 2019 by Corey Jasksolski, a National Geographic explorer and fellow. After creating a 3D digitization of a living Sumatran Rhino using a custom imaging system he built, Jaskolski wondered whether synthetic data could be used to train AI. While RAIC Labs doesn't sell synthetic data, its software uses generative capabilities associated with synthetic data.
+In 2021, RAIC Labs developed Rapid Automatic Image Categorization, or RAIC, a computer vision software which performs classification and detection on photography, video, and satellite imagery without data labeling.
+RAIC is notable for its use of human collaboration with an unsupervised AI model, which allows for iteration upon the algorithm in real-time. RAIC has been described as "ChatGPT for satellite imagery," since it uses transformers to understand imagery in a way somewhat similar to how ChatGPT understands human language.
+In May 2023, satellite imaging company Planet Labs announced an official partnership with RAIC Labs, formerly Synthetaic, through which they would sell RAIC insights for defined areas of interest within Planet data.
+RAIC Labs, formerly Synthetaic, announced a strategic partnership with Microsoft in August 2023. Elements of the partnership included selection for Microsoft's Pegasus Program and access to one million hours of GPU cloud computing via Microsoft Azure.
+
+2023 Tracking the Chinese balloon
+On 11 February 2023, RAIC Labs, formerly Synthetaic, used its RAIC product to detect a suspected Chinese surveillance balloon in archival Planet Labs data. RAIC's demonstrated ability to quickly analyze Earth observation imagery at scale was deemed novel and a potential "game-changer" by experts including Arthur Holland Michel and Hamed Alemohammad.
+RAIC Labs / Synthetaic's work tracking the balloon formed the basis for a New York Times visual investigation, which credited RAIC for providing the precise coordinates of the balloon at twelve different points during its journey.
+
+Balloons over East Asia
+Later that year, BBC news magazine program  Panorama reported additional Chinese surveillance balloons detected over Japan and Taiwan. Security correspondent Gordon Corera cited Synthetaic's RAIC as a tool in their investigation and interviewed Jaskolski.
+
+2023 Mapping the Israel–Gaza war
+RAIC Labs worked closely with CNN to provide detections of craters in geospatial data to map the war. Working with the American and International teams, RAIC was able to detect more than 500 impact craters over 123 meters in diameter, for their report: ‘Not seen since Vietnam’: Israel dropped hundreds of 2,000-pound bombs on Gaza, analysis shows
+
+Funding
+In February 2024, Synthetaic raised $15 million in Series B funding.

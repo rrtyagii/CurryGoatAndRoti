@@ -1,0 +1,350 @@
+Iterative deepening A* (IDA*) is a graph traversal and path search algorithm that can find the shortest path between a designated start node and any member of a set of goal nodes in a weighted graph. It is a variant of iterative deepening depth-first search that borrows the idea to use a heuristic function to conservatively estimate the remaining cost to get to the goal from the A* search algorithm. Since it is a depth-first search algorithm, its memory usage is lower than in A*, but unlike ordinary iterative deepening search, it concentrates on exploring the most promising nodes and thus does not go to the same depth everywhere in the search tree. Unlike A*, IDA* does not utilize dynamic programming and therefore often ends up exploring the same nodes many times.
+While the standard iterative deepening depth-first search uses search depth as the cutoff for each iteration, the IDA* uses the more informative
+
+
+
+        f
+        (
+        n
+        )
+        =
+        g
+        (
+        n
+        )
+        +
+        h
+        (
+        n
+        )
+
+
+    {\displaystyle f(n)=g(n)+h(n)}
+
+, where
+
+
+
+        g
+        (
+        n
+        )
+
+
+    {\displaystyle g(n)}
+
+ is the cost to travel from the root to node
+
+
+
+        n
+
+
+    {\displaystyle n}
+
+ and
+
+
+
+        h
+        (
+        n
+        )
+
+
+    {\displaystyle h(n)}
+
+ is a problem-specific heuristic estimate of the cost to travel from
+
+
+
+        n
+
+
+    {\displaystyle n}
+
+ to the goal.
+The algorithm was first described by Richard E. Korf in 1985.
+
+Description
+Iterative-deepening-A* works as follows: at each iteration, perform a depth-first search, cutting off a branch when its total cost
+
+
+
+        f
+        (
+        n
+        )
+        =
+        g
+        (
+        n
+        )
+        +
+        h
+        (
+        n
+        )
+
+
+    {\displaystyle f(n)=g(n)+h(n)}
+
+ exceeds a given threshold. This threshold starts at the estimate of the cost at the initial state, and increases for each iteration of the algorithm. At each iteration, the threshold used for the next iteration is the minimum cost of all values that exceeded the current threshold.
+As in A*, the heuristic has to have particular properties to guarantee optimality (shortest paths). See Properties below.
+
+Pseudocode
+path              current search path (acts like a stack)
+node              current node (last node in current path)
+g                 the cost to reach current node
+f                 estimated cost of the cheapest path (root..node..goal)
+h(node)           estimated cost of the cheapest path (node..goal)
+cost(node, succ)  step cost function
+is_goal(node)     goal test
+successors(node)  node expanding function, expand nodes ordered by g + h(node)
+ida_star(root)    return either NOT_FOUND or a pair with the best path and its cost
+
+procedure ida_star(root)
+    bound := h(root)
+    path := [root]
+    loop
+        t := search(path, 0, bound)
+        if t = FOUND then return (path, bound)
+        if t = ∞ then return NOT_FOUND
+        bound := t
+    end loop
+end procedure
+
+function search(path, g, bound)
+    node := path.last
+    f := g + h(node)
+    if f > bound then return f
+    if is_goal(node) then return FOUND
+    min := ∞
+    for succ in successors(node) do
+        if succ not in path then
+            path.push(succ)
+            t := search(path, g + cost(node, succ), bound)
+            if t = FOUND then return FOUND
+            if t < min then min := t
+            path.pop()
+        end if
+    end for
+    return min
+end function
+
+Properties
+Like A*, IDA* is guaranteed to find the shortest path leading from the given start node to any goal node in the problem graph, if the heuristic function h is admissible, that is
+
+
+
+
+        h
+        (
+        n
+        )
+        ≤
+
+          h
+
+            ∗
+
+
+        (
+        n
+        )
+
+
+    {\displaystyle h(n)\leq h^{*}(n)}
+
+
+for all nodes n, where h* is the true cost of the shortest path from n to the nearest goal (the "perfect heuristic").
+IDA* is beneficial when the problem is memory constrained. A* search keeps a large queue of unexplored nodes that can quickly fill up memory. By contrast, because IDA* does not remember any node except the ones on the current path, it requires an amount of memory that is only linear in the length of the solution that it constructs. Its time complexity is analyzed by Korf et al. under the assumption that the heuristic cost estimate h is consistent, meaning that
+
+
+
+
+        h
+        (
+        n
+        )
+        ≤
+
+          c
+          o
+          s
+          t
+
+        (
+        n
+        ,
+
+          n
+          ′
+
+        )
+        +
+        h
+        (
+
+          n
+          ′
+
+        )
+
+
+    {\displaystyle h(n)\leq \mathrm {cost} (n,n')+h(n')}
+
+
+for all nodes n and all neighbors n' of n; they conclude that compared to a brute-force tree search over an exponential-sized problem, IDA* achieves a smaller search depth (by a constant factor), but not a smaller branching factor.
+Recursive best-first search is another memory-constrained version of A* search that can be faster in practice than IDA*, since it requires less regenerating of nodes.
+
+Time Complexity
+While IDA* is often praised for its memory efficiency compared to A*, its worst-case time complexity can be significantly worse under certain conditions:
+
+IDA* on Trees: Slow Threshold Growth
+IDA* relies on iterative deepening using an
+
+
+
+        f
+
+
+    {\displaystyle f}
+
+-cost threshold that increases each iteration. Typically, IDA* performs efficiently when the number of nodes expanded in each iteration grows exponentially. However, Patrick, Almulla, and Newborn (1992) demonstrated that when the
+
+
+
+        f
+
+
+    {\displaystyle f}
+
+-cost threshold increases by the smallest possible amount each iteration—such as when
+
+
+
+        f
+
+
+    {\displaystyle f}
+
+-values are unique and strictly increasing—IDA* expands exactly one additional node per iteration. Under these worst-case conditions of uniqueness and monotonicity, IDA* expands
+
+
+
+        N
+        (
+        N
+        +
+        1
+        )
+
+          /
+
+        2
+        =
+        Θ
+        (
+
+          N
+
+            2
+
+
+        )
+
+
+    {\displaystyle N(N+1)/2=\Theta (N^{2})}
+
+ nodes, where
+
+
+
+        N
+
+
+    {\displaystyle N}
+
+ is the number of nodes surely-expanded by A*, yielding quadratic complexity compared to A*’s linear
+
+
+
+        O
+        (
+        N
+        )
+
+
+    {\displaystyle O(N)}
+
+ complexity. Mahanti et al. (1992) further showed that this limitation is not exclusive to IDA*: no best-first limited-memory heuristic search algorithm can universally achieve
+
+
+
+        O
+        (
+        N
+        )
+
+
+    {\displaystyle O(N)}
+
+ complexity on trees due to memory constraints. They also specify that IDA* achieves
+
+
+
+        O
+        (
+        N
+        )
+
+
+    {\displaystyle O(N)}
+
+ complexity only if the number of iterations with minimal node growth is bounded, a condition not always satisfied. To avoid the worst-case scenario, Iterative Budgeted Exponential Search (IBEX) has been introduced in 2019.
+
+IDA* on Graphs: Impact of Transpositions
+IDA* explores the search space in a depth-first manner and retains no memory of previously expanded nodes beyond the current path. Consequently, in graphs containing transpositions—where multiple distinct paths lead to the same node—IDA* repeatedly re-expands nodes. Mahanti et al. (1992) illustrated that for directed acyclic graphs, these repeated expansions lead to severe performance degradation, with a worst-case complexity reaching
+
+
+
+        Ω
+        (
+
+          2
+
+            2
+            N
+
+
+        )
+
+
+    {\displaystyle \Omega (2^{2N})}
+
+, where
+
+
+
+        N
+
+
+    {\displaystyle N}
+
+ is the number of nodes eligible for expansion by A*. Mahanti et al. (1991) also note IDA*’s exponential degradation on graphs compared to A*’s linear
+
+
+
+        O
+        (
+        N
+        )
+
+
+    {\displaystyle O(N)}
+
+ performance under monotone heuristics. Thus, in scenarios involving transpositions or graph structures, IDA* can be significantly less efficient than A*, suggesting that other graph-search algorithms may be more appropriate choices.
+
+Applications
+Applications of IDA* are found in such problems as planning. Solving the Rubik's Cube is an example of a planning problem that is amenable to solving with IDA*.

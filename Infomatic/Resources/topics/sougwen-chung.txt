@@ -1,0 +1,38 @@
+Sougwen Chung (鍾愫君) is a Canadian-born, Chinese-raised artist residing in London who is considered a pioneer in the field of human-machine collaboration. Chung's artistic practices are based on performance, drawing, still image, sculpture, and installation. Through these media, the work investigates mark-made-by-machine and mark-made-by-hand for understanding the encounter of computers and humans.
+
+Early life
+Chung grew up in Toronto, Canada, and Hong Kong. Their father, an opera singer, made sure that his children had experience with musical instruments at a very young age, and Chung grew up playing violin and piano. Sougwen Chung moved to the United States as a teenager and received a Bachelor of Fine Arts from Indiana University Bloomington before obtaining a Masters Diploma in Interactive Art from Hyper Island in Sweden.
+
+Career
+Following their first exhibitions taking place in 2010-2014, Chung began experimenting with drawing in collaboration with machines while a researcher at MIT Media Lab in 2015. This involved collecting two decades of personal drawings to train a recurrent neural network, later titled Drawing Operations Unit: Generation_1 (D.O.U.G._1). The robotic arm's behaviour is generated from neural nets trained on the artist's drawing gestures. In a sense, the robotic arm has learned from the visual style of the artist's previous drawings and outputs a machine interpretation during the human/robot drawing duet. In 2016, the artist was awarded the Excellence Award at the Japan Media Arts Festival for this work.
+Since then, the Drawing Operations series has continued to explore the interplay between human and machine mark-making, examining categories such as “human”, “machine”, “biological", "artificial,” and “intelligence” as evolving rather than fixed concepts.
+Chung, founder of SCILICET, is also an inaugural member of NEW INC, the first museum-led incubator for technology and art, in collaboration with The New Museum. According to the World Science Festival 2018, they are an Artist-In-Residence at Bell Labs exploring new forms of drawing in virtual reality, with biometrics, machine learning, and robotics.
+In 2019 Chung presented a TED Talk in Mumbai titled "Why I draw with robots".
+In 2022, Chung's work MEMORY (Drawing Operations Unit: Generation_2) was acquired by the Victoria and Albert Museum in London. The acquisition of MEMORY comprises a fine art print, a film documenting the artist's process, and a Recurrent Neural Network (RNN) model contained within a 3D printed sculpture.
+In 2023, Sougwen Chung was named to the TIME100 AI list for their pioneering work combining painting and robotics.
+In January 2025, Sougwen Chung participated in a conversation with curator Hans Ulrich Obrist at the World Economic Forum in Davos, in a session titled “What Happens When Humans and Robots Create Art Together?”, where they discussed human–machine collaboration in art and the role of AI in creative practice.
+Chung's work has been shown at galleries and museums across the world, including Victoria and Albert Museum in London, England, EMMA in Espoo, Finland, Vancouver Art Gallery in Canada, MAMCO in Geneva and der TANK in Basel, Switzerland, ArtScience Museum in Singapore, Shanghai Minsheng Art Museum in China, TOM REICHSTEIN contemporary in Hamburg, Germany, and Istanbul's Akbank Sanat, among others.
+Chung has spoken globally at conferences including Tribeca Film Festival, New York; The Hospital Club, London; MUTEK Festival, Montreal & Mexico City; Sónar +D, Barcelona, The Art Directors Club, New York; Internet Dargana, Stockholm; SXSW, Austin; FITC Amsterdam & Tokyo; OFFF, Barcelona; Gray Area Festival, San Francisco, and SIGGRAPH, Vancouver.
+Sougwen Chung's work has also been featured in multiple international press outlets including Art Basel, Artnet, Artsy, Business Insider, Dazed, Designboom, EXIT Magazine, Engadget, Fast Company, Forbes, MASHABLE, Noema Magazine, Sursuma Magazine, The Atlantic, The New York Times, TIME Magazine, USA Today, Wired, and Yishu.
+
+D.O.U.G._
+Chung's growing body of work is created in collaboration with a bespoke, multi-generational system: the Drawing Operations Unit Generation_1–6. Each generation investigates a different aspect of human–machine interaction and symbiosis:
+
+MIMICRY (D.O.U.G._1)— a robotic system mirrors the artist’s drawing gestures.
+MEMORY (D.O.U.G._2) — a recurrent neural network trained on decades of the artists's drawing data.
+COLLECTIVITY (D.O.U.G._3) — a multi-robotic system examining urban movement.
+SPECTRALITY (D.O.U.G._4) — biofeedback from an EEG headset translates meditative states into robotic movement.
+ASSEMBLY (D.O.U.G._5) — biofeedback and drawing data enacted through a multi-robotic system.
+SPATIALITY (D.O.U.G._6) — dimensional mark-making as drawn sculpture.
+
+Selected works
+Praesentia Sculptures (2013) – 3D printed drawn sculptural prototypes printed in gold, made with custom software. Exhibited at the Massachusetts Institute of Technology Media Lab 2013. Currently, they are prototypes for a forthcoming series examining dimensional mark making.
+Embryo (Étude OP. 5, No. 5) (2015) – Mixed media, commissioned by OFFF for OFFF Unmasked.
+Mimicry (Drawing Operations Unit: Generation 1) (2015) – An ongoing collaboration between an artist and a robotic arm.
+Praesentia (2015) – "As a pencil moves about the paper, its path is local and confined; freed from the need to consider the totality, it can respond immediately to "where the hand is now in praesentia.".
+Memory (Drawing Operations Unit: Generation 2) (2017) – Performance involving robotic memory.
+Omnia per Omnia (Drawing Operations Unit: Generation 3) (2018) – Collaborative drawing performance exploring the composite agency of an human and machine as a speculation on new pluralities.
+Exquisite Corpus (2019) – A performance installation exploring the feedback loop between bodies – the human body, the machinic body, and ecological bodies.
+Flora Rearing Agricultural Network (F.R.A.N.) (2020) – A performance and exhibition featuring the creation of a speculative blueprint for a new robotic network connected to nature.
+Assembly Lines (Drawing Operations Unit: Generation 5) (2022) – A performative installation featuring a custom multi-robotic system driven by meditation and biofeedback.
+BODY MACHINE (MERIDIANS) (2024-2025) – A series of biomimetic robotic speculations sculpted in air, created using custom training models and spatial technologies. The works form part of the artist’s reimagining of machines as extensions of living systems.

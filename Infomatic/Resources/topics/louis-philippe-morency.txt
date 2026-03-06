@@ -1,0 +1,8 @@
+Louis-Philippe Morency is a French Canadian researcher interested in human communication and machine learning applied to a better understanding of human behavior.
+
+Biography
+Dr. Louis-Philippe Morency is Leonardo Associate Professor of Computer Science at the Language Technologies Institute (LTI) at Carnegie Mellon University. He was formerly research assistant professor at the University of Southern California (USC) and research scientist at USC Institute for Creative Technologies where he led the Multimodal Communication and Computation Laboratory (MultiComp Lab). He received his Ph.D. from MIT Computer Science and Artificial Intelligence Laboratory in 2006. His main research interest is computational study of human multimodal computation, a multi-disciplinary research topic that overlays the fields of multi-modal interaction, machine learning, computer vision, social psychology and artificial intelligence. He developed Watson, a real-time library for nonverbal behavior recognition and which became the de facto standard for adding perception to embodied agent interfaces. He received many awards for his work on nonverbal behavior computation including four best papers awards (at various IEEE and ACM conferences). He was recently selected by IEEE Intelligent Systems as one of the "Ten to Watch" for the future of AI research.
+In his free time, Louis-Philippe enjoys playing ice hockey as a goaltender at the Mount Lebanon Recreation Center in Mount Lebanon, PA.
+
+Selected publications
+https://www.cs.cmu.edu/~morency/

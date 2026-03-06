@@ -1,0 +1,22 @@
+Visage SDK (distributed as visage SDK) is a multi-platform software development kit (SDK) created by Visage Technologies AB. Visage SDK allows software programmers to build facial motion capture and eye tracking applications.
+
+Technologies
+Face Track
+Face Track tracks 3D head poses, facial features, and eyes/gaze for multiple faces in a camera stream or from a video file. Face Track has configurable packages that include: facial tracking, face and facial landmarks/features detection, head tracking, and eye tracking.
+
+Face Analysis
+Face Analysis includes machine learning algorithms to determine gender, emotions and age. Face Analysis is compatible with Face Track to find/track faces in images or video, determine gender, emotions, and age for a specified face.
+
+Face Recognition
+Face Recognition is used to identify or verify a person from a digital image or a video source using a pre-stored facial data. Visage SDK's face recognition algorithms can measure similarities between people and recognize a person’s identity from a frontal facial image by comparing it to pre-stored faces.
+
+History and application
+The development of Visage SDK began in 2002 when Visage Technologies AB was founded in Linköping, Sweden. The founders were among the contributors to the MPEG-4 Face and Body Animation International Standard.
+Visage SDK is used in various application fields, such as game development, arts and entertainment, marketing and retail, marketing research, automotive industry, industrial safety, assistive technologies, health care, biometrics, audio processing and robotics. Recently, visage SDK has been used to create solutions in virtual make-up and 3D face filtering.
+
+Features
+Tracks multiple faces and facial features in input video, images or in real time
+Returns 2D and 3D head pose, the coordinates of facial feature points (e.g. chin tip, nose tip, lip corners, mouth contour, chin pose, eyebrow contours), fitted 3D face model, and eye closure and eye rotation (gaze direction)
+Tracking begins immediately when a face is detected
+Recovery from fidelity loss due to occlusions, head rotation, or other errors
+Automatic detection of separate people in front of the camera

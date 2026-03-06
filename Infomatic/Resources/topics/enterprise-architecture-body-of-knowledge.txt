@@ -1,0 +1,17 @@
+The Enterprise Architecture Body of Knowledge (EABOK) is a guide to Enterprise Architecture produced by MITRE's Center for Innovative Computing and Informatics, and is substantially funded by US government agencies.  It provides a critical review of enterprise architecture issues in the context of the needs of an organization.  Because it provides a "big picture" view of needs and methods, some enterprise architecture practitioners recommend it as starting point for a business establishing an enterprise architecture unit.
+
+Overview
+The Guide to the Enterprise Architecture Body of Knowledge (EABOK) organizes and characterizes the knowledge content of the Enterprise Architecture (EA) discipline. This organization and characterization promotes a consistent view of EA, establishes the scope and bounds of the EA discipline, and places the discipline in the context of related disciplines. The EABOK subdivides EA into knowledge areas and topics within each area, presents an overview of the topic, and provides the reader references for further information. The EABOK is a guide to EA, not the body of knowledge itself.
+The current printable version is marked DRAFT, dated 06-Feb-2004, and edited by Dr Paula J Hagan. It has been approved for public release; distribution unlimited.  No updates have been made to any publicly released version of this document since 2004, and the project appears to have been abandoned.
+Since the most recent publication, the extensions of DODAF, including MODAF, as well as the work at the Object Management Group, have created a model that satisfies both frameworks.
+
+Perspective
+EABOK (and the discipline it describes) is evolving (and partially incomplete). It places enterprise architecture in context.  Because there are so many different frameworks and viewpoints about enterprise architecture, it provides a critique of alternatives (such as between the original Zachman Framework, TOGAF and DODAF).  The bibliographies are particularly useful.
+It treats Enterprise Architecture as not including merely diagrams and technical descriptions, but gives a holistic view that includes US legislative requirements and guidance, as well as giving technologists a better understanding of business needs with a quick explanation of the value chain for a business as outlined by Michael Porter.
+It is worth reading between the lines of many sections, the comments make many experienced information systems and business professionals appreciate the EABOK: while it reviews a range of approaches, it is not frightened to put a personal point of view:
+
+Today Zachman sees his framework as a thinking tool...The Zachman EA Framework has contributed to the organization of several later frameworks and much architectural thinking.
+Another example of possible implied criticism of some EA practitioners:
+
+Many novice EA practitioners comment that they find the DODAF too complex for a starting point to build an enterprise architecture. Other practitioners find the DODAF a good source of product description information to get them started.
+While many of the references to legislation and guidance are US-centric, the issues and the references are useful to government agencies and businesses across the world.

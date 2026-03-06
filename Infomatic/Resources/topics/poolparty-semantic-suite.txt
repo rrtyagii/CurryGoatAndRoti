@@ -1,0 +1,1 @@
+The PoolParty Semantic Suite is a technology platform provided by the Semantic Web Company. The EU-based company belongs to the early pioneers of the Semantic Web movement. The product uses standards-based technologies, namely the Resource Description Framework (RDF), as defined by W3C, which prevents vendor lock-in.

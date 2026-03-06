@@ -1,0 +1,9 @@
+Dialogflow is a natural language understanding platform used to design and integrate a conversational user interface into mobile apps, web applications, devices, bots, interactive voice response systems and related uses.
+
+History
+In May 2012, Speaktoit received a venture round (funding terms undisclosed) from Intel Capital. In July 2014, Speaktoit closed their Series B funding led by Motorola Solutions Venture Capital with participation from new investor Plug and Play Ventures and existing backers Intel Capital and Alpine Technology Fund.
+In September 2014, Speaktoit released api.ai (the voice-enabling engine that powers Assistant) to third-party developers, allowing the addition of voice interfaces to apps based on Android, iOS, HTML5, and Cordova. The SDK's contain voice recognition, natural language understanding, and text-to-speech. api.ai offers a web interface to build and test conversation scenarios. The platform is based on the natural language processing engine built by Speaktoit for its Assistant application. Api.ai allows Internet of Things developers to include natural language voice interfaces in their products. Assistant and Speaktoit's websites now redirect to api.ai's website Archived 2017-10-10 at the Wayback Machine, which redirects to the Dialogflow website.
+Google bought the company in September 2016 and was initially known as API.AI; it provides tools to developers building apps ("Actions") for the Google Assistant virtual assistant.
+The organization discontinued the Assistant app on December 15, 2016.
+In October 2017, it was renamed as Dialogflow.
+In November 2017, Dialogflow became part of Google Cloud Platform.

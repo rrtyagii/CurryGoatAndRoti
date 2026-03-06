@@ -1,0 +1,28 @@
+LessWrong (also written Less Wrong) is a community blog and forum focused on discussion of cognitive biases, philosophy, psychology, economics, rationality, and artificial intelligence, among other topics. It is associated with the rationalist community.
+
+Purpose
+LessWrong describes itself as an online forum and community aimed at improving human reasoning, rationality, and decision-making, with the goal of helping its users hold more accurate beliefs and achieve their personal objectives. The best known posts of LessWrong are "The Sequences", a series of essays which aim to describe how to avoid the typical failure modes of human reasoning with the goal of improving decision-making and the evaluation of evidence. One suggestion is the use of Bayes' theorem as a decision-making tool. There is also a focus on psychological barriers that prevent good decision-making, including fear conditioning and cognitive biases, that have been studied by the psychologist Daniel Kahneman. LessWrong is also concerned with artificial intelligence, transhumanism, existential threats, and the singularity.
+
+History
+LessWrong developed from Overcoming Bias, an earlier group blog focused on human rationality, which began in November 2006, with artificial intelligence researcher Eliezer Yudkowsky and economist Robin Hanson as the principal contributors. In February 2009, Yudkowsky's posts were used as the seed material to create the community blog LessWrong, and Overcoming Bias became Hanson's personal blog. In 2013, a significant portion of the rationalist community shifted focus to Scott Alexander's Slate Star Codex.
+
+Artificial intelligence
+Discussions of AI within LessWrong include AI alignment, AI safety, and machine consciousness. Articles posted on LessWrong about AI have been cited in the news media. LessWrong, and its surrounding movement work on AI are the subjects of the 2019 book The AI Does Not Hate You, written by former BuzzFeed science correspondent Tom Chivers.
+
+Effective altruism
+LessWrong played a significant role in the development of the effective altruism (EA) movement, and the two communities are closely intertwined. In a survey of LessWrong users in 2016, 664 out of 3,060 respondents, or 21.7%, identified as "effective altruists". A separate survey of effective altruists in 2014 revealed that 31% of respondents had first heard of EA through LessWrong, though that number had fallen to 8.2% by 2020.
+
+Roko's basilisk
+In July 2010, LessWrong contributor Roko posted a thought experiment to the site in which an otherwise benevolent future AI system tortures people who heard of the AI before it came into existence and failed to work tirelessly to bring it into existence, in order to incentivise said work. This idea came to be known as "Roko's basilisk", based on Roko's idea that merely hearing about the idea would give the hypothetical AI system an incentive to try such blackmail.
+
+Neoreaction
+After LessWrong split from Overcoming Bias, it attracted some individuals affiliated with neoreaction with discussions of eugenics and evolutionary psychology. However, Yudkowsky has strongly rejected neoreaction. Additionally, in a survey among LessWrong users in 2016, only 28 out of 3060 respondents (0.92%) identified as "neoreactionary".
+Ana Teixeira Pinto, writing for the journal Third Text in 2019, describes Roko's Basilisk and the ethno-nationalist blog "More Right", founded by a LessWrong participant, as phenomena related to a "new configuration of fascist ideology taking shape under the aegis of, and working in tandem with, neoliberal governance".
+
+User base
+According to the Community Survey 2023, conducted among 558 users of the forum, the user base consists of 75% cis males and 9.6% cis females, with the rest describing themselves as trans or non-binary.  Users are in most cases between 20 and 35 years old. Almost half of the users are from the United States and most of the remainder are from Western Europe or Canada. The ethnic makeup was 78.9% non-Hispanic White, 4.9% East Asian, 4.2% South Asian, 3.6% white Hispanic, 2.6% Middle Eastern, 0.7% Black and 5.1% others. LessWrong users are highly educated (with the majority having at least a Bachelor's degree) and work primarily in IT, engineering or other STEM fields. A majority of 67% describe themselves as atheists and only 3.7% as convinced theists. In terms of political orientation, the most frequently mentioned answers were liberal (32.3%), libertarian (25.2%) and social democratic (22.3%).
+
+Notable users
+LessWrong has been associated with several influential contributors. Founder Eliezer Yudkowsky established the platform to promote rationality and raise awareness about potential risks associated with artificial intelligence. Scott Alexander became one of the site's most popular writers before starting his own blog, Slate Star Codex, contributing discussions on AI safety and rationality.
+Further notable users on LessWrong include Paul Christiano, Wei Dai and Zvi Mowshowitz. A selection of posts by these and other contributors, selected through a community review process, were published as parts of the essay collections "A Map That Reflects the Territory" and "The Engines of Cognition".
+Ziz LaSota, who was the leader of the Zizians (an offshoot of the rationalist community), was a LessWrong user. The group was eventually banned from LessWrong and associated meetups and conferences due to an alleged pattern of aggressive behavior.

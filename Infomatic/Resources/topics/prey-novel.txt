@@ -1,0 +1,45 @@
+Prey is the thirteenth novel by Michael Crichton under his own name and his twenty-third novel overall. It was first published in November 2002, making it his first novel of the twenty-first century. An excerpt was first published in the January–February 2003 issue of Seed magazine. Prey brings together themes from two earlier Crichton best-selling novels, Jurassic Park and The Andromeda Strain and serves as a cautionary tale about developments in science and technology, in particular, nanotechnology, genetic engineering, and distributed artificial intelligence.
+The book features relatively new advances in the computing/scientific community, such as artificial life, emergence (and by extension, complexity), genetic algorithms, and agent-based computing. Fields such as population dynamics and host-parasite coevolution are also at the heart of the novel.
+Film rights to the book were purchased by 20th Century Fox in 1997, although no such film was produced.
+
+Plot summary
+The novel is narrated by protagonist Jack Forman, an unemployed software programmer and a stay-at-home husband. His wife, Julia, serves as an executive for a nanorobotics company called Xymos and claims to be working on revolutionary imaging technology, which takes up most of her time. This leads to Jack being suspicious of her having an affair.
+Julia shows Jack a video of Xymos nanobots being injected into a human test subject leaving Jack impressed yet suspicious of the new technology. The couple's baby Amanda awakens in agony, but is cured instantly after an emergency room MRI is performed that same night.
+Julia begins to display strange and abusive behavior toward her family until she's injured in a car crash, leaving Jack to consult Xymos where project manager Ricky is struggling with the nanobots.
+Jack is taken to the Xymos research facility in Nevada's Basin Desert, where he is given a tour of the lab and introduced to the programming team (Mae, Charley, David, Rosie, Bobby and Vince). He is shown a machine used to make nanobot assemblers from bacteria, though he isn't shown the source code for said nanobots. Ricky claims that contractors improperly installed filters in a vent, causing assemblers, bacteria, and nanobots to be blown into the desert, where they began forming into autonomous swarms. These "swarms" appear to be clouds of solar-powered self-sufficient nanobots, reproducing and evolving (necroevolution) at rapid speeds. The swarms exhibit predatory behavior, killing wild animals through the use of code that Jack had worked on. Jack learns Julia was helping to make the swarms more benign, but they regressed when she stopped coming to the facility.
+Persuaded by Jack, the team decides to destroy the swarms, but are overwhelmed and retreat after the swarms kill David and Rosie. As night falls, Jack, Mae, and Bobby set out to find the swarms. While searching, they discover that the swarms are dragging Rosie's corpse through the desert. The team is also shocked to discover that the swarms can replicate the physical features, perceptions, and motions of humans when they see the swarms form replicas of Ricky, David, and Rosie. The group follows Rosie's body and find the swarms nesting in a cave and destroy the swarms, their nest, and their organic assembly plant using explosive thermite caps.
+Returning to the plant, Jack, Mae, and Bobby are greeted by Julia, who had discharged herself from the hospital and acts strangely as the remaining team looks for the cause of the nanobots' escape. Mae discovers security footage of when they were in the desert. To Jack's horror, the video reveals that Julia and Ricky had an affair, and shows Charley engaging in a vicious fight with Ricky and Vince before being killed by Julia, who transfers a swarm into his mouth by kissing him. Jack and Mae realize that Julia, Ricky, Vince and Bobby have all been infected by a symbiotic version of the nanobot swarms. These swarms do not show aggressive predatory behavior; instead, they take over human hosts, affecting their decision-making, and slowly devour them over time to produce more nanobots. This allows the swarms to remain hidden, while also allowing them to spread and contaminate other humans.
+Jack comes up with a plan to destroy this new strain. He and Mae drink vials containing a form of phage that kills the nanobot-producing E. coli bacteria, thereby protecting them from infection by the nanobots. Jack then takes a sample of the phage and plans to pour it into the sprinkler system to vaccinate everyone in the facility. He has Mae alert Julia and the infected team, who set out to stop Jack. In the struggle that ensues, Jack is captured and thrown into a magnetic chamber. Jack feigns surrender when Julia walks in to interrogate him, but reactivates the magnetic chamber, remembering the incident with Amanda in the MRI. Julia's swarm is pulled away by the magnetic field to temporarily reveal the real Julia, who is gradually being consumed by the parasitic swarm. Before the swarm can repossess her body, Julia begs Jack to forgive her, says she loves him, and tells him to stop the swarms and save their children, as they have been infected too. Motivated, Jack runs to the roof, fights off the infected team, and finally manages to place the sample into the sprinkler system.
+Jack and Mae are able to distribute the phage around the facility, destroying the infected. They escape the facility in a helicopter shortly before the facility explodes due to a methane gas leak combined with thermite that Mae had placed in the building.
+After returning home, Jack doses his children and sister with the phage, curing them as well. While Mae calls the U.S. Army and sends a sample of the phage to her lab, Jack discovers that Xymos had intentionally released the swarm into the desert so that it would evolve to stay in a cohesive group in the wind, but called him in to destroy the wild strain once it became uncontrollable.
+
+Characters
+Major characters
+Jack Forman –  A former team lead/manager at MediaTronics working on distributed, multi-agent systems and advanced computer algorithms
+Julia Forman –  Jack's wife, Vice President at the Xymos company.
+Mae Chang –  A field biologist on Jack's consulting team
+Ricky Morse –  A friend of Jack's, works for Xymos
+Charley Davenport –  A member of Jack's team who specializes in genetic algorithms.
+David Brooks –  An engineer on the team.
+Rosie Castro –  A specialist in natural language processing.
+The "Swarm" –  Any of the many predatory clouds of nano-machines that "eat" animals serving as an antagonistic force in the novel.  A notable aspect of the swarm is its capacity for fully Lamarckian evolution, as each cloud's members can effectively choose exactly which aspects are to be transmitted or modified down into the next generation.
+Vince Reynolds –  the maintenance operator of the Xymos lab.
+Amanda –  Jack and Julia's baby daughter.
+Nicole –  Jack and Julia's preteen daughter.
+Eric –  Jack and Julia's son.
+
+Minor characters
+Ellen –  Jack's sister from out of town. She takes care of his kids while he is in Nevada and believes Julia is on stimulants.
+Don Gross –  Jack's former boss, who fired Jack.
+Gary –  Jack's lawyer.
+Maria –  Jack and Julia's housekeeper.
+Annie –  Jack's headhunter.
+Carol –  Julia's assistant.
+Mary –  Ricky's wife.
+Bobby Lembeck –  Computer programmer at Xymos
+Tim Berman –  The man that took over Jack's job.
+
+Reception
+In writing for The New York Times, Jim Holt found the book "absurd" but exciting, and said that he "kept turning the pages feverishly".
+Peter Guttridge, writing for The Observer, said that it finds Crichton "doing what he does best", in that he takes "the very latest scientific advances" and shows "their potentially terrifying underbelly".
+Even while pointing out the flaws in Crichton's science, in Prey, multiple critics have praised the book's impact and overall message.

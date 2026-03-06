@@ -1,0 +1,4 @@
+Chaff is an algorithm for solving instances of the Boolean satisfiability problem in programming. It was designed by researchers at Princeton University. The algorithm is an instance of the DPLL algorithm with a number of enhancements for efficient implementation.
+
+Implementations
+Some available implementations of the algorithm in software are mChaff and zChaff, the latter one being the most widely known and used. zChaff was originally written by Dr. Lintao Zhang, hence the “z”. It is now maintained by researchers at Princeton University and available for download as both source code and binaries on Linux. zChaff is free for non-commercial use.

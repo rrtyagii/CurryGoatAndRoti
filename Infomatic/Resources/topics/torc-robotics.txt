@@ -1,0 +1,30 @@
+Torc Robotics (Torc), an independent subsidiary of Daimler Truck, is an American autonomous truck company headquartered in Blacksburg, Virginia, with operations in Albuquerque, New Mexico; Austin, Texas; and Stuttgart, Germany. Torc is testing autonomous trucks in Virginia, New Mexico, and Texas and is taking a pure play approach  to commercialization – focusing at first on one platform (Daimler Freightliner Cascadia) in one region (United States).
+Until becoming a subsidiary of Daimler, Torc produced unmanned and autonomous technology that retrofits existing machinery and vehicles. Its custom products, software, and automation kits have been used on vehicles in several industries, including military, mining, agriculture, and automotive over the last decade. Through 2014, 50 percent of Torc's revenue came from defense work and the rest from commercial customers. Some of its end users include the United States Department of Defense, the U.S. Marines, Air Force Research Labs (AFRL), Caterpillar, and DCD Protected Mobility.
+
+History
+Founding
+In 2005, the company was founded by a group of Virginia Tech graduate students, including Michael Fleming.
+Torc partnered with Virginia Tech to compete in the 2007 Urban Challenge, hosted by the Department of Defense Advanced Research Projects Agency (DARPA). Teams were challenged to build a fully autonomous vehicle that could travel 60 miles of urban and off-road environments in less than six hours.
+Torc's Ford Escape vehicle, named Odin, placed third out of 35 competing teams, winning the $500,000 prize. The other top-2 finishers included Tartan Racing, of Carnegie Mellon University and General Motors, and the Stanford Racing Team.
+In 2010, Torc partnered with a robotics team at Virginia Tech to develop a vehicle for the National Federation of the Blind's (NFB) Blind Driver Challenge.  The team received the National Instruments' 2010 Application of the Year for the project.
+Using a Ford Escape, Torc implemented its ByWire drive-by-wire conversion modules, Safestop wireless emergency stop system, and PowerHub distribution modules on the vehicle.
+On January 29, 2011, a blind driver independently drove Torc's vehicle down the main straightaway onto the road course at the Daytona Speedway.
+In 2012, Torc researchers participated in the DARPA Robotics Challenge (DRC) with Team ViGIR (Virginia-Germany Interdisciplinary Robotics Team). The program challenged teams to develop robotic software and hardware capabilities to support first responders. The team made it to the finale.
+
+Defense and heavy equipment
+Torc's technology is currently being used in military applications in various parts of the world. One such vehicle is GUSS (Ground Unmanned Support Surrogate) an autonomous vehicle used to carry equipment for the Marines. Torc has also developed an advanced sensor fusion system for the Department of Defense that is used to increase high-speed obstacle detection, classification, and prediction.
+In 2012, Torc's autonomous vehicle for Air Force Research Labs (AFRL) demonstrated its ability to perform expedient runway surveys, collect soil hardness measurements, provide terrain data, and report hazards to flight.
+Torc developed a remote-control version for hazardous mining areas. The team replicated the cab of a 240-ton haul truck and created a system to allow operators to teleoperate the haul truck from a safe distance away.
+
+On-road autonomous vehicles
+Torc participated in a successful five-vehicle platoon test in 2015 with the U.S. Federal Highway Administration (FHWA)'s Saxton Transportation Operations Laboratory. The test was conducted on an inactive naval air base in Willow Grove, Pennsylvania.
+In July 2017, Torc was the first company that registered with Washington state's Autonomous Vehicle Pilot Program permit to perform a certified test with its self-driving car in Washington.
+On July 26, 2017, one of Torc's self-driving cars completed a cross-country trip, with over 4,300 miles driven autonomously. The team completed the trip in Richmond, Virginia, where they were greeted by Virginia Governor Terry McAuliffe.
+Torc announced two significant partnerships in 2018. The company will work with Bordrin Motor Corporation to help the Chinese electric car manufacturer develop its line of self-driving vehicles. Torc also announced a partnership with Transdev to deploy fully autonomous electric shuttles in France.
+
+Self-driving trucks
+On March 29, 2019, Daimler AG through its subsidiary Daimler Trucks North America announced that it would acquire a majority stake in TORC Robotics for an undisclosed amount.
+In September 2019, Torc and Daimler Truck announced they were testing Level 4 capable self-driving trucks on public roads in Virginia and that Daimler Trucks North America was developing a chassis with redundant capabilities for self-driving trucks. The following year, Torc opened a test center in Albuquerque, testing automated runs on New Mexico highways. The routes later extended to Texas.
+During 2021, Torc built a stable of technology partners, including Amazon Web Services (AWS) as its preferred cloud provider, Luminar Technologies to explore lidar technologies, and Applied Intuition, for simulation technology.
+In 2022, Torc opened an engineering office in Austin, Texas, and a Technology and Development Center in Stuttgart, Germany. That same year, the company announced that Penske Truck Leasing would serve as the truck maintenance service provider for Torc's autonomous test fleet.
+In February of 2023, Torc signed an agreement to acquire Montreal-based Algolux for its intellectual property and expertise in the areas of computer vision and machine learning.

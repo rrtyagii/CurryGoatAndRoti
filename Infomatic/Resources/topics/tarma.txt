@@ -1,0 +1,20 @@
+Tearma.ie (previously Focal.ie) is the website of a lexical database for terminology in the Irish language. It is funded by the Irish state and Interreg and maintained by Fiontar & Scoil na Gaeilge, the Irish-language unit of Dublin City University, in collaboration with the Terminology Committee of Foras na Gaeilge.
+
+History
+Phase I (2004–7) of the work consisted of digitising and integrating existing paper and electronic lists.
+Several resources have been added under subsequent phases. A dictionary of 10,000 sports terms has been added as well as tools for translation memories and other resources for translators including a link facility to The New Corpus for Ireland.
+Phase IV (2011–14) of the project had the following objectives:
+
+To implement a new domain hierarchy, based on DANTERM (the Danish terminology standard);
+To create definitions for some terms;
+To compile a new dictionary of arts terms;
+To complete the new dictionary of sports terms;
+Publication of a CD-ROM version of the database;
+To develop a mobile web version.
+In 2015, the site was moved from focal.ie to tearma.ie, to better distinguish it from focloir.ie, a separate government-supported website with general-purpose English-Irish dual-language dictionaries.
+
+Users
+The database contains over 325,000 terms, searchable under both Irish and English versions. More than 880,000 unique visitors have used the website between 2006 and 2011. They have made 3.9 million visits and 25 million searches in that time. According to a 2010 user survey carried out by Fiontar, the site is primarily used by translators and interpreters and by university students.
+
+Awards
+Focal.ie won the European Language Label in 2007, and the award for "Best Irish-language Site" at the Irish Web Awards 2008.

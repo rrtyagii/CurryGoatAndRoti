@@ -1,0 +1,3 @@
+Ben Goodger (born in London, England) is a British-New Zealand software engineer. He is best known for his work on the Mozilla Firefox and Google Chrome web browsers.
+Goodger grew up in Auckland, New Zealand, and graduated from the University of Auckland in May 2003 with a bachelor's degree in Computer Engineering.
+Goodger worked at Netscape Communications Corporation and the Mozilla Foundation, where he was the lead developer of Firefox. He joined Google in 2005, where he was one of the leaders of Google Chrome. In 2024, he joined OpenAI, focusing on the development of ChatGPT Atlas.

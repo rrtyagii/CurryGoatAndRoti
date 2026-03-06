@@ -1,0 +1,375 @@
+The expectiminimax algorithm is a variation of the minimax algorithm, for use in artificial intelligence systems that play two-player zero-sum games, such as backgammon, in which the outcome depends on a combination of the player's skill and chance elements such as dice rolls. In addition to "min" and "max" nodes of the traditional minimax tree, this variant has "chance" ("move by nature") nodes, which take the expected value of a random event occurring. In game theory terms, an expectiminimax tree is the game tree of an extensive-form game of perfect, but incomplete information.
+In the traditional minimax method, the levels of the tree alternate from max to min until the depth limit of the tree has been reached. In an expectiminimax tree, the "chance" nodes are interleaved with the max and min nodes. Instead of taking the max or min of the utility values of their children, chance nodes take a weighted average, with the weight being the probability that child is reached.
+The interleaving depends on the game. Each "turn" of the game is evaluated as a "max" node (representing the AI player's turn), a "min" node (representing a potentially-optimal opponent's turn), or a "chance" node (representing a random effect or player).
+For example, consider a game in which each round consists of a single die throw, and then decisions made by first the AI player, and then another intelligent opponent. The order of nodes in this game would alternate between "chance", "max" and then "min".
+
+Pseudocode
+The expectiminimax algorithm is a variant of the minimax algorithm and was firstly proposed by Donald Michie in 1966.
+Its pseudocode is given below.
+
+function expectiminimax(node, depth)
+    if node is a terminal node or depth = 0
+        return the heuristic value of node
+    if the adversary is to play at node
+        // Return value of minimum-valued child node
+        let α := +∞
+        foreach child of node
+            α := min(α, expectiminimax(child, depth-1))
+    else if we are to play at node
+        // Return value of maximum-valued child node
+        let α := -∞
+        foreach child of node
+            α := max(α, expectiminimax(child, depth-1))
+    else if random event at node
+        // Return weighted average of all child nodes' values
+        let α := 0
+        foreach child of node
+            α := α + (Probability[child] × expectiminimax(child, depth-1))
+    return α
+
+Note that for random nodes, there must be a known probability of reaching each child. (For most games of chance, child nodes will be equally-weighted, which means the return value can simply be the average of all child values.)
+
+Expectimax search
+Expectimax search is a variant described in Universal Artificial Intelligence: Sequential Decisions Based on Algorithmic Probability (2005) by Tom Everitt and Marcus Hutter.
+
+Alpha-beta pruning
+Bruce Ballard was the first to develop a technique, called *-minimax, that enables alpha-beta pruning in expectiminimax trees. The problem with integrating alpha-beta pruning into the expectiminimax algorithm is that the scores of a chance node's children may exceed the alpha or beta bound of its parent, even if the weighted value of each child does not. However, it is possible to bound the scores of a chance node's children, and therefore bound the score of the CHANCE node.
+If a standard iterative search is about to score the
+
+
+
+        i
+
+
+    {\displaystyle i}
+
+th child of a chance node with
+
+
+
+        N
+
+
+    {\displaystyle N}
+
+ equally likely children, that search has computed scores
+
+
+
+
+          v
+
+            1
+
+
+        ,
+
+          v
+
+            2
+
+
+        ,
+        …
+        ,
+
+          v
+
+            i
+            −
+            1
+
+
+
+
+    {\displaystyle v_{1},v_{2},\ldots ,v_{i-1}}
+
+ for child nodes 1 through
+
+
+
+        i
+        −
+        1
+
+
+    {\displaystyle i-1}
+
+. Assuming a lowest possible score
+
+
+
+        L
+
+
+    {\displaystyle L}
+
+ and a highest possible score
+
+
+
+        U
+
+
+    {\displaystyle U}
+
+ for each unsearched child, the bounds of the chance node's score is as follows:
+
+
+
+
+
+          score
+
+        ≤
+
+
+            1
+            n
+
+
+
+          (
+
+            (
+
+              v
+
+                1
+
+
+            +
+            …
+            +
+
+              v
+
+                i
+                −
+                1
+
+
+            )
+            +
+
+              v
+
+                i
+
+
+            +
+            U
+            ×
+            (
+            n
+            −
+            i
+            )
+
+          )
+
+
+
+    {\displaystyle {\text{score}}\leq {\frac {1}{n}}\left((v_{1}+\ldots +v_{i-1})+v_{i}+U\times (n-i)\right)}
+
+
+
+
+
+
+          score
+
+        ≥
+
+
+            1
+            n
+
+
+
+          (
+
+            (
+
+              v
+
+                1
+
+
+            +
+            …
+            +
+
+              v
+
+                i
+                −
+                1
+
+
+            )
+            +
+
+              v
+
+                i
+
+
+            +
+            L
+            ×
+            (
+            n
+            −
+            i
+            )
+
+          )
+
+
+
+    {\displaystyle {\text{score}}\geq {\frac {1}{n}}\left((v_{1}+\ldots +v_{i-1})+v_{i}+L\times (n-i)\right)}
+
+
+If an alpha and/or beta bound are given in scoring the chance node, these bounds can be used to cut off the search of the
+
+
+
+        i
+
+
+    {\displaystyle i}
+
+th child. The above equations can be rearranged to find a new alpha & beta value that will cut off the search if it would cause the chance node to exceed its own alpha and beta bounds:
+
+
+
+
+
+          α
+
+            i
+
+
+        =
+        N
+        ×
+        α
+        −
+
+          (
+
+
+              v
+
+                1
+
+
+            +
+            …
+            +
+
+              v
+
+                i
+                −
+                1
+
+
+
+          )
+
+        +
+        U
+        ×
+        (
+        n
+        −
+        i
+        )
+
+
+    {\displaystyle \alpha _{i}=N\times \alpha -\left(v_{1}+\ldots +v_{i-1}\right)+U\times (n-i)}
+
+
+
+
+
+
+          β
+
+            i
+
+
+        =
+        N
+        ×
+        β
+        −
+
+          (
+
+
+              v
+
+                1
+
+
+            +
+            …
+            +
+
+              v
+
+                i
+                −
+                1
+
+
+
+          )
+
+        +
+        L
+        ×
+        (
+        n
+        −
+        i
+        )
+
+
+    {\displaystyle \beta _{i}=N\times \beta -\left(v_{1}+\ldots +v_{i-1}\right)+L\times (n-i)}
+
+
+The pseudocode for extending expectiminimax with fail-hard alpha-beta pruning in this manner is as follows:
+
+function *-minimax(node, depth, α, β)
+    if node is a terminal node or depth = 0
+        return the heuristic value of node
+    if node is a max or min node
+        return the minimax value of the node
+    let N = numSuccessors(node)
+    // Compute α, β for children
+    let A = N * (α - U) + U
+    let B = N * (β - L) + L
+    let sum = 0
+    foreach child of node
+        // Limit child α, β to a valid range
+        let AX = max(A, L)
+        let BX = min(B, U)
+        // Search the child with new cutoff values
+        let score = *-minimax(child, depth - 1, AX, BX)
+        // Check for α, β cutoff conditions
+        if score <= A
+            return α
+        if score >= B
+            return β
+        sum += score
+        // Adjust α, β for the next child
+        A += U - v
+        B += L - v
+    // No cutoff occurred, return score
+    return sum / N
+
+This technique is one of a family of variants of algorithms which can bound the search of a CHANCE node and its children based on collecting lower and upper bounds of the children during search. Other techniques which can offer performance benefits include probing each child with a heuristic to establish a min or max before performing a full search on each child, etc.

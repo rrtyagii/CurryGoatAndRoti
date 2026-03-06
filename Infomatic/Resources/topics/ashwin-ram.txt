@@ -1,0 +1,33 @@
+Ashwin Ram (born July 27, 1960) is an Indian-American computer scientist. He was chief innovation officer at PARC from 2011 to 2016, and published books and scientific articles and helped start at least two companies.
+
+Biography
+Ashwin Ram was born in New Delhi, India, on July 27, 1960. He is a great-grandson of Sir Ganga Ram and is the eldest of three children. He grew up in New Delhi with a brief stint in Bombay, and attended one of India's oldest boarding schools, Mayo College.
+Ram received his B.Tech. in electrical engineering from the Indian Institute of Technology, New Delhi, in 1982, where he received the President of India's Gold Medal for best undergraduate performance.
+He then traveled to the US, graduating with his M.S. in computer science from the University of Illinois at Urbana-Champaign in 1984.
+He received his Ph.D. degree from Yale University for his dissertation on "Question-Driven Understanding: An Integrated Theory of Story Understanding, Memory, and Learning" in 1989, under advisor Roger Schank and Gerald DeJong.
+
+Georgia Tech
+He joined the faculty at the Georgia Institute of Technology  (Georgia Tech) in 1989.
+He was associate professor in the School of interactive computing in the College of Computing, an associate professor of cognitive science, an adjunct professor in the School of Psychology, and an adjunct professor in math and computer science at Emory University.
+In 1995 Ram co-edited (with David B. Leake) a book on goal-oriented learning.
+He co-edited (with Kenneth Moorman) a book on natural language understanding.
+Ram founded Enkia Corporation in 1998 (which was purchased by Sentiment360 in 2011).
+He then co-founded Inquus Corporation, which operated OpenStudy, an online social learning network for students and faculty, and medical information company Cobot Health Corporation.
+OpenStudy was acquired in 2016 by Brainly.
+Ram directed the Cognitive Computing Lab at the Georgia Institute of Technology starting around 2006. He led research in artificial intelligence (AI) and cognitive science. His projects focused on AI for computer games and virtual worlds, consumer health and wellness, and educational technologies. Topics included knowledge-based machine learning, case-based reasoning, cognitive modeling, and natural language processing.
+He was program chair and conference co-chair of the Sixteenth Annual Conference of the Cognitive Science Society (CogSci) in 1994,
+conference co-chair of the Third International Conference on the Learning Sciences (ICLS) in 1998,
+and program co-chair of the International Conference on Artificial Intelligence and Pattern Recognition in 2008.
+
+PARC
+Ashwin Ram became an innovation fellow at PARC (formerly Xerox PARC), around September 2011, and then chief innovation officer.
+His team created social computing technologies to augment human cognition in application areas including health and wellness.
+He was program co-chair of the International Conference on Case-Based Reasoning (ICCBR) in November 2011, with Nirmalie Wiratunga.
+In June 2013, he was interviewed on Australian radio about the trends toward finding medical information on the Internet,
+and was invited as a keynote speaker at the Amplify Festival.
+
+Amazon
+In May, 2016, he joined the Amazon Alexa development team as head of artificial intelligence.
+
+Google
+In 2018 he left Amazon and joined Google as technical director of AI for Google Cloud.

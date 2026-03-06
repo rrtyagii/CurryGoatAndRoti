@@ -1,0 +1,33 @@
+Emmett Shear (born 1983) is an American Internet entrepreneur and investor. He co-founded the live video platform Justin.tv. Shear became the chief executive officer of Twitch when it was spun off from Justin.tv, a position he held until March 2023. In 2011, he was appointed as a part-time partner at venture capital firm Y Combinator. In November 2023, he was briefly the interim CEO of OpenAI.
+He is the CEO of AI alignment startup Softmax.
+
+Early life and education
+Emmett Shear grew up in Seattle, Washington, where he attended the Evergreen School for Gifted Children as well as the Transition School at the University of Washington. There, he met his eventual co-founder Justin Kan at age eight, and the two were bonded by their accelerated math classes and playing Magic: The Gathering.
+Shear studied computer science as an undergraduate student at Yale University, and graduated in 2005. He attended with his eventual Twitch co-founders Justin Kan and Michael Seibel.
+
+Career
+Y Combinator
+Shear and Justin Kan have been part of Y Combinator's first class in 2005. As part of Y Combinator, the two built a calendar application called Kiko, which they eventually sold on eBay for around $250,000 after Google Calendar was introduced.
+
+Justin.tv
+In March 2007, Shear and Justin Kan, along with Michael Seibel and Kyle Vogt, launched Justin.tv, a 24/7 live video feed of Kan's life, broadcast via a webcam attached to his head. It quickly obtained some media coverage. In October 2007, the site added the possibility for other users to host their own broadcast. Three years later, the platform had secured $7.2 million in venture capital funding and reported a monthly user base of approximately 31 million unique visitors. Its gaming-oriented spin-off Twitch eventually became more popular, and Justin.tv was closed on August 5, 2014.
+
+Twitch
+After Justin.tv launched in 2007, the site quickly began building subject-specific content categories like Social, Tech, Sports, Entertainment, News & Events, and Gaming. Gaming, in particular, grew very fast and became the most popular content on the site.
+In June 2011, the company decided to spin off the gaming content under a separate brand and site. They named it TwitchTV, inspired by the term twitch gameplay. On August 29, 2011, Shear became CEO of Justin.tv, and remained in that role as the company rebranded around Twitch in 2014, which had quickly become its core product.
+On August 25, 2014, Amazon officially acquired Twitch for a reported $970,000,000.
+
+In March 2023, Shear announced that he was resigning as CEO, and that Daniel J. Clancy would take over.
+
+Investor Activities
+Shear became a part-time partner at Y Combinator in June 2011, where he offered advice to the new startups in each batch.
+
+OpenAI
+On November 19, 2023, Shear was named as the interim CEO of OpenAI, following the removal of Sam Altman by the board two days earlier. On November 21, an agreement was reached to reinstate Altman as CEO. It was previously reported that Shear had threatened to resign as CEO if the board could not provide evidence to support Altman's removal.
+Shear has publicly stated that he is concerned about the impact AI can have on civilization, estimating his "P(Doom)" (subjective probability of an existential catastrophe from AI such as human extinction) as between 5 and 50 percent.
+
+Softmax
+In March 2025, Shear co-founded Softmax, a startup focused on AI alignment, alongside Adam Goldstein and David Bloomin.
+
+Philanthropy
+In March 2020, during the COVID-19 pandemic, via Twitch, Shear donated the initial US$1 million to start a SF New Deal, a non-profit organization which ordered meals from San Francisco eateries and delivered them to people in need. The organization was started by his Yale college classmate Leonore Estrada, who owned the Three Babes Bakeshop in San Francisco's Bayview neighborhood.

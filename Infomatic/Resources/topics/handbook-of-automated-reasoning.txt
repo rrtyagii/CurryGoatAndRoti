@@ -1,0 +1,20 @@
+The Handbook of Automated Reasoning (ISBN 0444508139, 2128 pages) is a collection of survey articles on the field of automated reasoning. Published in June 2001 by MIT Press, it is edited by John Alan Robinson and Andrei Voronkov. Volume 1 describes methods for classical logic, first-order logic with equality and other theories, and induction. Volume 2 covers higher-order, non-classical and other kinds of logic.
+
+Index
+Volume 1
+History
+
+Classical Logic
+
+Equality and Other Theories
+
+Induction
+
+Volume 2
+Higher-Order Logic and Logical Frameworks
+
+Nonclassical Logics
+
+Decidable Classes and Model Building
+
+Implementation

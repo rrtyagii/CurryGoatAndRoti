@@ -1,0 +1,7 @@
+H.264 and VC-1 are popular video compression standards gaining use in the industry as of 2007.
+
+Overview
+Terminology
+All sources for the below information are from the respective specifications listed in the overview section.
+
+Features

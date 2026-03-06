@@ -1,0 +1,2 @@
+Plus-One-Recall-Store (PORS) is a language used in evolutionary computation and genetic programming.
+The PORS language consists of two terminal nodes (1 and recall), one unary operation (store), and one binary operation (plus) that be used in a parse tree to do a calculation.

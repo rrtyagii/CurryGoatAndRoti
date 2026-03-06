@@ -1,0 +1,17 @@
+Clova is an intelligent personal assistant for Android and iOS operating systems developed by Naver Corporation. NAVER introduced its artificial intelligence platform CLOVA (short for cloud virtual assistant) in March 2017. Over time, NAVER expanded the CLOVA platform to include other AI use cases such as image classification, optical character recognition (OCR), dubbing (adding voice to video), and smart home applications.
+
+History
+NAVER introduced its artificial intelligence platform CLOVA (short for “cloud virtual assistant”) in March 2017. The CLOVA platform first powered Wave, a smart speaker imbued with voice recognition capabilities. Over time, NAVER expanded the CLOVA platform to include other AI use cases such as image classification, optical character recognition (OCR), dubbing (adding voice to video), and smart home applications.
+In October 2020, Naver released 'Clova Lamp', an AI light that reads books. It works when you open a book under the camera on the lamp and press the book reading button or say 'Clova, read me a book.'  This product can read books in English as well as Korean.
+
+Functionality
+Central to NAVER's AI-driven strategy is HyperCLOVA X, the continued refinement of its large language model, HyperCLOVA.
+
+Papago Translation
+A neural machine translation service that delivers quality translation of your texts into various languages.
+
+CLOVA Voice
+CLOVA Voice uses CLOVA's Artificial intelligence to create voice synthesizers with new speakers and styles from a minimum of a 40-minute long audio and text without the complicated transcription process. The technology produces synthetic voices that are natural, clean and resemble like real human speech.
+
+Interface
+Clova Interface Connect is Clova's platform service for hardware manufacturers and IOT companies. It provides a simple way for connecting Clova to speakers, microphones, and any other internet-connected device. It provides APIs, SDKs, and development documentation to connect Clova to your devices and provide voice-based services. This can be applied to a wide range of products, including everyday mobile devices, cars, security system smart speakers, and home IoT devices like robotic vacuum cleaners.

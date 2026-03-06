@@ -1,0 +1,3 @@
+TAUM (Traduction Automatique à l'Université de Montréal) is the name of a research group which was set up at the Université de Montréal in 1965. Most of its research was done between 1968 and 1980.
+It gave birth to the TAUM-73 and TAUM-METEO machine translation prototypes, using the Q-Systems programming language created by Alain Colmerauer, which were among the first attempts to perform automatic translation through linguistic analysis. The prototypes were never used in actual production.
+The TAUM-METEO name has been erroneously used for many years to designate the METEO System subsequently developed by John Chandioux.

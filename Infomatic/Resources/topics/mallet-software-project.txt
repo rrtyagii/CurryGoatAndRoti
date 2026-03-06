@@ -1,0 +1,7 @@
+MALLET is a Java "Machine Learning for Language Toolkit".
+
+Description
+MALLET is an integrated collection of Java code useful for statistical natural language processing, document classification, cluster analysis, information extraction, topic modeling and other machine learning applications to text.
+
+History
+MALLET was developed primarily by Andrew McCallum, of the University of Massachusetts Amherst, with assistance from graduate students and faculty from both UMASS and the University of Pennsylvania.

@@ -1,0 +1,10 @@
+The Saudi Data and AI Authority (SDAIA) is a government agency in Saudi Arabia that was established by a royal decree on 30 August 2019. The authority has three other bodies linked to it. Two of which were also created by a royal decree on the same day. These two bodies are a center called "The National Centre for Artificial Intelligence" and an office called The National Data Management Office." The third is the National Information Center, which is an existing entity. SDAIA oversees digital platforms such as Nafath (Unified National Access) and Tawakkalna,
+The Saudi Data and AI Authority (SDAIA) celebrated the launch of its brand identity at an event held at the Ritz Carlton Hotel on 4 March 2020, in Riyadh under the theme, 'Data is the Oil of the 21st Century'.
+
+Structure
+The authority is directly linked to the Prime Minister and will be governed by a board of directors chaired by the Deputy Prime Minister.
+
+National Data Management Office
+The National Data Management Office (NDMO) (Arabic: مكتب إدارة البيانات الوطنية) is one of the affiliated bodies of the Saudi Authority for Data and Artificial Intelligence (SDAIA). It was established in 2019 by royal decree alongside SDAIA and the National Centre for Artificial Intelligence.
+NDMO serves as the national regulator for data governance and personal data protection in the Kingdom of Saudi Arabia, responsible for setting national policies, standards and controls governing data management and protection across the public sector.
+The office oversees compliance with the Data Management and Personal Data Protection Standards, which state that NDMO is the national regulator of both government and personal data, and that all public entities must comply with its policies. It also administers the National Data Governance Interim Regulations, including the Personal Data Protection Interim Regulations, and is expected to assume long-term supervision of data protection under the Personal Data Protection Law (PDPL) following SDAIA’s transitional oversight phase.

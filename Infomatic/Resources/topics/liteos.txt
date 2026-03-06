@@ -1,0 +1,14 @@
+Huawei LiteOS is a discontinued lightweight real-time operating system (RTOS) developed by Huawei. It is a POSIX compliant operating system for Internet of things (IoT) devices, and free and open-source software, released under a BSD 3-clause license. Microcontrollers of different architectures such as ARM (M0/3/4/7, A7/17/53, ARM9/11), x86, and RISC-V are supported by the project. Huawei's LiteOS is part of their '1+8+N' Internet of things system, and has been featured in several open source software development kits and industry offerings.
+Smartwatches by Huawei and its former Honor brand run LiteOS. LiteOS variants of kernels has since been incorporated currently into the IoT-oriented open source OpenHarmony kernel agnostic platform and classic HarmonyOS 4.x and earlier versions.
+
+History
+On 20 May 2015, at the Huawei Network Conference, Huawei proposed the '1+2+1' Internet of Things solution and released the IoT operating system named Huawei LiteOS. It has been reported development of the real-time operating system goes back as far as 2012.
+
+Key features
+Lightweight, small kernel; <10 kilobytes (kB)
+Energy efficient
+Fast startup within milliseconds
+Support NB-IoT, Wi-Fi, Ethernet, BLE, Zigbee, and other different IoT protocols
+Support access to different cloud platforms
+
+Supported architectures

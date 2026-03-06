@@ -1,0 +1,74 @@
+Versata is a privately held software company, one of several business units under the ESW Capital umbrella. Versata acquires underperforming or financially struggling enterprise software companies, integrates them into their portfolio, and makes operational changes to improve the viability and performance of the companies.
+
+History
+Early years (1991–2000)
+This company was founded in 1991 with the name Image Innovations; Naren Bakshi was co-founder and president, Kevin Fletcher Tweedy was vice president of technology, and they sold a development tool set named Image Application WorkBench that worked with Plexus Software's imaging platform.
+In 1997, the company name changed to Vision Software. They sold a small suite of software: Vision Builder for accelerated coding; and Vision StoryBoard Pro for creating software documentation. In 1998, their flagship product was a Java development tool named Vision JADE.
+In January 2000, the company changed names again, this time to Versata, and their e-business automation system, Versata Logic Suite, had three components: Versata Logic Server to host business rules written in Java, Versata Studio for developing the business rules, and Versata Connectors for connecting the logic server to IBM database servers.
+
+Public company (2000–2006)
+They went public in March 2000 during the dot-com bubble, raising about $94 million and reaching a market capitalization of over $2.5 billion despite reporting just $13 million in revenue and a $21 million loss in the prior year. In November 2000, Versata expanded into the business workflow area with the acquisition of Verve, Inc. and its workflow management system by the same name.
+From early 2001 through mid-2003, Versata's revenues were in quarter-over-quarter decline until Alan Baratz took over as CEO. Five consecutive quarters of growth followed until early 2005, when revenues once again took a downward plunge. In mid-2005, the company was notified by NASDAQ that it no longer met NASDAQ's requirements for continued listing, related to maintenance of a minimum amount of shareholder's equity, market value, or net income. In July 2005, Versata was delisted from NASDAQ and publicly traded on the OTC (also known as the Pink Sheets).
+
+Versata, a business unit of ESW Capital
+In January 2006, Austin-based Trilogy, Inc. acquired the company and took it private. Trilogy then proceeded to merge portions of Trilogy, specifically, Trilogy Technology Group, into Versata and began acquiring further companies, reorganizing dramatically and offshoring most technical positions to its office in Bangalore, India.
+From 2006 to 2008, Versata continued to make acquisitions mostly in US. Most of the employees in the acquired companies were laid -off with the majority work being offshored to its India office in Bangalore.
+In early 2009, Versata made another major overhaul of its business model when it asked all its employees in India to work as contractors through oDesk for a gDev which is an entity incorporated by Trilogy to manage its outsourcing activities. The only employees left in Versata were the ones in US.
+
+Acquisitions
+a Corizon was acquired by Metatomix, while Metatomix was part of Versata.
+b Infopia was acquired by Everest Software, while Everest Software was part of Versata.
+c Symphony Commerce was acquired by Quantum Retail, while Quantum Retail was part of Versata.
+
+Legal disputes
+Patent infringement and "poison pill" lawsuits with Selectica
+The legal disputes with Selectica began in 2004 (before Trilogy acquired Versata in January 2006) and lasted until 2010. While there were many suits and counter-suits, they largely centered around three issues:
+
+2004–2006: Patent infringement in configure, price, and quote (CPQ) software
+2005–2007: Patent infringement in contract lifecycle management (CLM) software
+2008–2010: The "poison pill" lawsuit
+In 2004, Selectica and Trilogy had competing CPQ software: Selectica sold Solutions Advisor and Deal Optimization, while Trilogy sold Selling Chain. In April of that year, Trilogy Software sued Selectica for patent infringement. In 2005, before the court ruling, Trilogy made several offers to buy Selectica, but the board rejected them. In January 2006, the court ordered Selectica to pay Trilogy $7.5 million in damages.
+Four days after the January 2006 judgment in the first lawsuit, Trilogy announced its acquisition of Versata for an undisclosed amount.
+In 2005, Selectica had acquired the Determine CLM software platform, which included features that overlapped with some offered by Versata. In October 2006, Versata filed a second patent infringement lawsuit. The case was settled in 2007, with Selectica agreeing to pay Trilogy and Versata $10 million, plus up to $7.5 million in additional contingent payments.
+In 2008, Versata began acquiring Selectica stock. By December, Selectica's board amended its shareholder rights plan to adopt a "poison pill" with an unusually low trigger threshold: if any shareholder acquired more than 4.99% of company stock, their ownership would be diluted. The board explained that the move was meant to protect Selectica's net operating losses (NOLs), which were tax-deductible if the company returned to profitability. Under IRS Section 382, a significant change in stock ownership could cause those NOLs to be disqualified.
+Versata intentionally triggered the poison pill and also offered to sell back the stocks at a profit (greenmailing them), which prompted a legal dispute over whether Selectica's board had the authority to set such a low threshold and whether defending NOLs justified triggering shareholder dilution. The case ultimately reached the Delaware Supreme Court, which upheld the poison pill in October 2010, ruling in favor of Selectica.
+
+Intellectual property lawsuit over joint development with Sun Microsystems
+In 1998, Sun Microsystems hired Trilogy to help Sun's developers in California create a software configurator (later named the WC5 Configurator) that Sun's customers could use to modify products they wanted to buy, customizing products to have the features they wanted. Trilogy worked on the WC5 Configurator for several years, then Sun transferred the work to Oracle to finish. Trilogy believed that they owned the copyright to the work they'd done for Sun, and in 2006 after the merger with Versata they sued Sun for more than $100 million in damages. In April 2009, a jury ruled in favor of Sun and rejected Versata's claims.
+
+Patent lawsuit and ruling on patents of abstract ideas with SAP
+SAP developed Pricing Engine, a component in their enterprise resource planning (ERP) system. It competed with an older Trilogy product called Pricer, which was part of Trilogy's Selling Chain platform in the mid-1990s before they merged with Versata.
+In April 2007—the year after Trilogy acquired Versata—Versata filed a lawsuit against SAP for patent infringement. In August 2009, the jury agreed with Versata and awarded them $139 million. The court granted a new trial on damages and in September 2011, in the retrial, the jury awarded Versata $345 million.
+This then went to the US Court of Appeals, which in May 2013 affirmed the $345 million damages award, plus interest that had accumulated. In October 2014, Versata and SAP settled their litigation for an undisclosed amount of money.
+With the dispute between Versata and SAP settled, in June 2013 the Patent Trial and Appeal Board (PTAB) reviewed the validity of the patent itself, and issued a decision in a Covered Business Method (CBM) review, stating that the disputed items were abstract ideas and thus under the US patent law not patentable.
+In July 2015, the Federal Circuit agreed with PTAB's decision that the challenged items were not patentable.
+
+Trade secrets and damages dispute with Internet Brands
+Internet Brands was formerly known as CarsDirect and AutoData Solutions. Like Trilogy, they made software for automakers that helped customers compare vehicles online. In the late 1990s, Trilogy and Internet Brands tried to combine their products but failed to do so, and after a December 1999 lawsuit they made a settlement agreement in May 2001.
+In 2008, Versata sued Internet Brands claiming they had violated the settlement agreement by making presentations to potential clients stating they had a license from  Versata to use and sell Versata technical solutions; and doing so had cost Versata business with Chrysler.
+Internet Brands' countersuit argued that Versata had misappropriated trade secrets and asked the jury to use Versata's business relationship with Toyota—including revenue from Toyota contracts—as a benchmark to calculate damages. The jury agreed and used that data to determine a $2 million damages award in favor of Internet Brands’ subsidiary, AutoData Solutions.
+Versata appealed the decision, and in January 2014 the court upheld the $2 million award to Internet Brands.
+
+Patent challenges and litigation following the AIA in 2012–2013
+In 2012 and 2013, Versata filed at least seven patent infringement lawsuits against companies over patents originating from Trilogy's Selling Chain software suite. While these lawsuits were ongoing, three major legal developments influenced their outcomes:
+
+September 2012: Provisions of the America Invents Act (AIA) went into effect, including the introduction of post-grant review (PGR) and covered business method (CBM) review. These procedures allowed defendants to challenge patents at the Patent Trial and Appeal Board (PTAB) before trial, making it easier to invalidate certain types of patents, particularly in the software and business method domains.
+September 2012–June 2013: The PTAB conducted a CBM review of Versata's U.S. Patent No. 6,553,350 ('350), which was at issue in its earlier lawsuit against SAP. The PTAB ruled that the patent was unpatentable as an abstract idea.
+March–June 2014: The United States Supreme Court decided Alice Corp. v. CLS Bank International, establishing a two-step test for determining whether a patent claim is directed to patent-eligible subject matter under 35 U.S.C. § 101.
+
+In the Callidus case, Versata sued Callidus and Callidus countersued asserting their own patents against Versata. The countersuit initiated a CBM review at the PTAB for the Versata patents. Ultimately the dispute was settled with both parties signing a Reseller Agreement.
+The Volusion and Planisware cases were dismissed following the PTAB's 2013 invalidation of the ’350 patent. No public settlements or judgments were reported.
+In the NetBrain Technologies and Infoblox cases, the court adopted a magistrate judge's recommendation to dismiss the claims with prejudice. The judge concluded that the patents asserted were directed to abstract ideas and thus unpatentable under the framework later formalized in Alice.
+In Zoho, the defendant first argued that the asserted patent ('740) was an abstract idea under the Alice framework. The court disagreed, allowing the case to proceed. Zoho then filed a separate motion claiming the patent was invalid due to indefiniteness under 35 U.S.C. § 112, arguing that the term “space-constrained display” lacked clear meaning. The court granted this motion and ruled the patent invalid. The case was dismissed, and Versata was ordered to pay Zoho's costs.
+The Dorado Software case was stayed while the Supreme Court considered Alice. After the ruling, the parties stipulated to dismiss the claims without prejudice, meaning Versata could potentially refile the case.
+
+International insolvency and IP rights with Think3
+In September 2010, ESW Capital acquired Think3, an American company with subsidiaries in other countries: an Italian location mostly to negotiate with creditors and collect local revenue; a Japanese location that was considered an asset in the acquisition; an Indian location with software developers who reported they held some IP rights shared with the company. The company had $23 million in debt, about 70% of which was an Italian tax liability. This became a set of lawsuits centered around cross-border insolvency.
+The next month, Versata FZ-LLC (ESW Capital's business unit related to Versata in the US, but organized in a Dubai free-trade zone) entered into a licensing agreement with Think3, giving Versata FZ-LLC the rights to the intellectual property (IP).
+In March 2011, several creditors began insolvency proceedings against Think3 and its Italian subsidiary and the next month they were declared bankrupt in an Italian court and the court appointed a trustee to look after the interest of Italian creditors. The trustee terminated the license agreement with Versata FZ-LLC and claimed that the Italian subsidiary still owned the IP. Versata maintained that they bought the IP when the bought Think3, Inc., the US parent company.
+In May 2011, the US Think3 filed for Chapter 11 bankruptcy in an American court. The debt continued to balloon, the assets were worth less than $10 million, and Think3 had no US employees. The Italian court ordered Versata-FZ-LLC to stop using the Think3 trademark. The US bankruptcy court ruled that US law applied.
+The people at the Italian subsidiary formed DPTLab S.R.L. and make a software named ThinkDesign. Versata uses the Think3 name for their Mergers & Acquisitions division, and continue the software rebranded as SmartForm Design's SmartForm Engineering MCAD and SmartForm PLM.
+
+Trade secrets case with Ford
+Like the legal disputes with Selectica and SAP, Versata's dispute with Ford Motor Company was rooted in the software Trilogy created before it acquired Versata. In 1998, Ford licensed Trilogy's Automotive Configuration Manager (ACM) to manage configuring vehicle models, signing and renewing a legal contract outlining the terms of the subscription multiple times from 2004 through 2014. Ford created a proprietary software to do the same thing, called Product Definition Optimization (PDO) and in 2014 they discontinued their subscription for ACM to use their own PDO. Versata believed that Ford's PDO used elements of the ACM software and in February 2015 they sued Ford for trade secret misappropriation, breach of contract, and patent infringement. Versata asked for $1.4 billion in damages.
+In October 2022, a jury agreed with Versata and awarded them $105 million in damages. In May 2023, a judge reviewed the case and made a judgment as a matter of law (JMOL) ruling. That is, the judge decided that no reasonable jury would reach the verdict they did based on the evidence presented during the trial, and so he threw out the jury's verdict in favor of Ford. He reduced the award to just $3.

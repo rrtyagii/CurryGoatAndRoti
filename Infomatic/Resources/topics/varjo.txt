@@ -1,0 +1,21 @@
+Varjo Technologies Oy, commonly referred to as Varjo, is a Finnish manufacturer of virtual reality and augmented reality headsets. The company was founded in 2016 by former Nokia and Microsoft executives. Varjo specializes in developing high-resolution devices that offer clarity greater than devices typically sold to consumers.
+The company's first head-mounted display, Varjo VR-1, was launched in February 2019, and it was followed by Varjo VR-2 and VR-2 Pro models in October 2019. Varjo's first device with camera passthrough, Varjo XR-1 Developer Edition, was released to market in December 2019. The third-generation products, Varjo XR-3 and VR-3, were launched in December 2020. The virtual reality headset Varjo Aero, the company's first and only product available for consumers, was released to market in 2021. The company's fourth-generation headsets, the Varjo XR-4 Series, were announced in 2023 and refreshed for demanding simulation training in October 2025.
+Varjo has raised over $200M in funding.
+
+History
+Varjo was founded by four people in 2016 at Helsinki, Finland.
+
+Founders
+Niko Eiden, co-founder. Also, a CEO of Pixieray, Computers and Electronics Manufacturing company that specializes in optics. He studied at Helsinki University of Technology.
+Klaus Melakari, co-founder. He has 20 years of experience in R&D, system design and technology. Previously Head of Computational Vision Systems at Microsoft Mobile, Distinguished architect at Nokia. Klaus holds a M.Sc. in Electrical and Electronics Engineering at University of Oulu.
+Roope Rainisto, co-founder. He has 15 years of experience in concepting and UX design. He is the Previous principal designer at Microsoft and Nokia, Head of computational vision UX at Microsoft Mobile. He is also an Inventor in 40+ patents. He has a M.Sc. in Technology, Information networks.
+Urho Konttori, co-founder. He is a product innovator and program manager who has over 15 years of experience in designing, engineering and managing large-scale hardware and software projects at Microsoft and Nokia. He has been responsible for scouting, evaluating and defining high consumer value innovations such as novel cameras, see-through touch-screen fingerprint and VR headset technologies in more than a dozen mobile products, resulting in over 10 patents. He has also led the development of multiple operating systems, including the Linux-based Nokia N9 and N900 OS. Urho holds a B.Sc. degree in Algorithms.
+
+Funding
+Varjo has raised over $200M in funding. Their latest funding was raised on Aug 13, 2025, from defense technology company THEON. Those who invested in Varjo include Foxconn, NVIDIA, EQT Ventures, Volvo, Atomico, Mirabaud, Tesi, Lifeline Ventures, European Bank, Nordic Fund, etc. Varjo's customers include defense and aviation industry leaders such as Boeing, Lockheed Martin, Rheinmetall, BAE Systems, Lufthansa Aviation Training, and several military forces, including Finnish Air Force, Slovenian Armed Forces, and the Royal Australian Air Force.
+
+Products
+Varjo Aero
+Varjo VR-3
+Varjo XR-3
+Varjo XR-4 series

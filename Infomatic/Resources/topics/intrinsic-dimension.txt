@@ -1,0 +1,1420 @@
+In mathematics, the intrinsic dimension of a subset can be thought of as the minimal number of variables needed to represent the subset. The concept has widespread applications in geometry, dynamical systems, signal processing, statistics, and other fields. Due to its widespread applications and vague conceptualization, there are many different ways to define it rigorously. Consequently, the same set might have different intrinsic dimensions according to different definitions.
+The intrinsic dimension can be used as a lower bound of what dimension it is possible to compress a data set into through dimension reduction, but it can also be used as a measure of the complexity of the data set or signal. For a data set or signal of N variables, its intrinsic dimension M satisfies 0 ≤ M ≤ N, although estimators may yield higher values.
+
+Exact dimension
+Differential
+In differential geometry, given a differentiable manifold N and a submanifold M, the intrinsic dimension of M is its dimension. Suppose N has n dimensions and M has m dimensions, then that means around any point in M, there exists a local coordinate system
+
+
+
+        (
+
+          x
+
+            1
+
+
+        ,
+        …
+        ,
+
+          x
+
+            m
+
+
+        ,
+
+          x
+
+            m
+            +
+            1
+
+
+        ,
+        …
+        ,
+
+          x
+
+            n
+
+
+        )
+
+
+    {\displaystyle (x_{1},\dots ,x_{m},x_{m+1},\dots ,x_{n})}
+
+ of N, such that the manifold M is simply the subset of N defined by
+
+
+
+
+          x
+
+            m
+            +
+            1
+
+
+        =
+        0
+        ,
+        …
+        ,
+
+          x
+
+            n
+
+
+        =
+        0
+
+
+    {\displaystyle x_{m+1}=0,\dots ,x_{n}=0}
+
+.
+
+Metric
+Given a mere metric space, we can still define its intrinsic dimension. The most general case is the Hausdorff dimension, though for metric spaces occurring in practice, the box-counting dimension and the packing dimension often are identical to the Hausdorff dimension.
+Let
+
+
+
+        X
+        ,
+        d
+
+
+    {\textstyle X,d}
+
+ be a metric space and
+
+
+
+        A
+        ⊂
+        X
+
+
+    {\textstyle A\subset X}
+
+ be totally bounded. Define the covering number
+
+
+
+        N
+        (
+        A
+        ,
+        ε
+        )
+        =
+        min
+
+          {
+
+            k
+            :
+            A
+            ⊂
+
+              ⋃
+
+                i
+                =
+                1
+
+
+                k
+
+
+            B
+
+              (
+
+
+                  x
+
+                    i
+
+
+                ,
+                ε
+
+              )
+
+
+          }
+
+        .
+
+
+    {\displaystyle N(A,\varepsilon )=\min \left\{k:A\subset \bigcup _{i=1}^{k}B\left(x_{i},\varepsilon \right)\right\}.}
+
+The metric entropy is
+
+
+
+        H
+        (
+        A
+        ,
+        ε
+        )
+        =
+        log
+        ⁡
+        N
+        (
+        A
+        ,
+        ε
+        )
+
+
+    {\textstyle H(A,\varepsilon )=\log N(A,\varepsilon )}
+
+ (any log base). The upper and lower metric entropy dimensions are
+
+
+
+
+
+
+              dim
+              ¯
+
+
+
+            E
+
+
+        A
+        =
+
+          lim sup
+
+            ε
+            ↓
+            0
+
+
+
+
+
+              H
+              (
+              A
+              ,
+              ε
+              )
+
+
+              log
+              ⁡
+              (
+              1
+
+                /
+
+              ε
+              )
+
+
+
+        ,
+
+
+
+
+              dim
+              _
+
+
+
+            E
+
+
+        A
+        =
+
+          lim inf
+
+            ε
+            ↓
+            0
+
+
+
+
+
+              H
+              (
+              A
+              ,
+              ε
+              )
+
+
+              log
+              ⁡
+              (
+              1
+
+                /
+
+              ε
+              )
+
+
+
+        .
+
+
+    {\displaystyle {\overline {\dim }}_{E}A=\limsup _{\varepsilon \downarrow 0}{\frac {H(A,\varepsilon )}{\log(1/\varepsilon )}},\quad {\underline {\dim }}_{E}A=\liminf _{\varepsilon \downarrow 0}{\frac {H(A,\varepsilon )}{\log(1/\varepsilon )}}.}
+
+If they are equal, then
+
+
+
+
+          dim
+
+            E
+
+
+        ⁡
+        A
+
+
+    {\textstyle \operatorname {dim} _{E}A}
+
+ is that common value, called the metric entropy dimension. The entropy dimensions are usually used in information theory, and especially coding theory, since entropy is involved in its definition.
+
+Topological
+If
+
+
+
+        X
+
+
+    {\displaystyle X}
+
+ is merely a topological space, then we can still define its intrinsic dimension, using the topological dimension or Lebesgue covering dimension.
+An open cover of a topological space X is a family of open sets Uα such that their union is the whole space,
+
+
+
+
+          ∪
+
+            α
+
+
+
+
+    {\displaystyle \cup _{\alpha }}
+
+ Uα = X. The order or ply of an open cover
+
+
+
+
+
+            A
+
+
+
+
+    {\displaystyle {\mathfrak {A}}}
+
+ = {Uα} is the smallest number m (if it exists) for which each point of the space belongs to at most m open sets in the cover: in other words Uα1 ∩ ⋅⋅⋅ ∩ Uαm+1 =
+
+
+
+        ∅
+
+
+    {\displaystyle \emptyset }
+
+ for α1, ..., αm+1 distinct. A refinement of an open cover
+
+
+
+
+
+            A
+
+
+
+
+    {\displaystyle {\mathfrak {A}}}
+
+ = {Uα} is another open cover
+
+
+
+
+
+            B
+
+
+
+
+    {\displaystyle {\mathfrak {B}}}
+
+ = {Vβ}, such that each Vβ is contained in some Uα. The covering dimension of a topological space X is defined to be the minimum value of n such that every finite open cover
+
+
+
+
+
+            A
+
+
+
+
+    {\displaystyle {\mathfrak {A}}}
+
+ of X has an open refinement
+
+
+
+
+
+            B
+
+
+
+
+    {\displaystyle {\mathfrak {B}}}
+
+ with order n + 1. The refinement
+
+
+
+
+
+            B
+
+
+
+
+    {\displaystyle {\mathfrak {B}}}
+
+ can always be chosen to be finite. Thus, if n is finite, Vβ1 ∩ ⋅⋅⋅ ∩ Vβn+2 =
+
+
+
+        ∅
+
+
+    {\displaystyle \emptyset }
+
+ for β1, ..., βn+2 distinct. If no such minimal n exists, the space is said to have infinite covering dimension.
+
+Introductory example
+Let
+
+
+
+        f
+        (
+
+          x
+
+            1
+
+
+        ,
+
+          x
+
+            2
+
+
+        )
+
+
+    {\textstyle f(x_{1},x_{2})}
+
+ be a two-variable function (or signal) which is of the form
+
+
+
+
+        f
+        (
+
+          x
+
+            1
+
+
+        ,
+
+          x
+
+            2
+
+
+        )
+        =
+        g
+        (
+
+          x
+
+            1
+
+
+        )
+
+
+    {\textstyle f(x_{1},x_{2})=g(x_{1})}
+
+
+for some one-variable function g which is not constant.  This means that f varies, in accordance to g, with the first variable or along the first coordinate.  On the other hand, f is constant with respect to the second variable or along the second coordinate.  It is only necessary to know the value of one, namely the first, variable in order to determine the value of f.  Hence, it is a two-variable function but its intrinsic dimension is one.
+A slightly more complicated example is
+
+
+
+        f
+        (
+
+          x
+
+            1
+
+
+        ,
+
+          x
+
+            2
+
+
+        )
+        =
+        g
+        (
+
+          x
+
+            1
+
+
+        +
+
+          x
+
+            2
+
+
+        )
+
+
+    {\textstyle f(x_{1},x_{2})=g(x_{1}+x_{2})}
+
+.
+f is still intrinsic one-dimensional, which can be seen by making a variable transformation
+
+
+
+
+
+          y
+
+            1
+
+
+        =
+
+          x
+
+            1
+
+
+        +
+
+          x
+
+            2
+
+
+
+
+    {\textstyle y_{1}=x_{1}+x_{2}}
+
+ and
+
+
+
+
+
+          y
+
+            2
+
+
+        =
+
+          x
+
+            1
+
+
+        −
+
+          x
+
+            2
+
+
+
+
+    {\textstyle y_{2}=x_{1}-x_{2}}
+
+
+which gives
+
+
+
+
+        f
+
+          (
+
+
+
+
+
+                    y
+
+                      1
+
+
+                  +
+
+                    y
+
+                      2
+
+
+
+                2
+
+
+            ,
+
+
+
+
+                    y
+
+                      1
+
+
+                  −
+
+                    y
+
+                      2
+
+
+
+                2
+
+
+
+          )
+
+        =
+        g
+
+          (
+
+            y
+
+              1
+
+
+          )
+
+
+
+    {\textstyle f\left({\frac {y_{1}+y_{2}}{2}},{\frac {y_{1}-y_{2}}{2}}\right)=g\left(y_{1}\right)}
+
+.
+Since the variation in f can be described by the single variable y1 its intrinsic dimension is one.
+For the case that f is constant, its intrinsic dimension is zero since no variable is needed to describe variation.  For the general case, when the intrinsic dimension of the two-variable function f is neither zero or one, it is two.
+In the literature, functions which are of intrinsic dimension zero, one, or two are sometimes referred to as i0D, i1D or i2D, respectively.
+
+Signal processing
+In signal processing of multidimensional signals, the intrinsic dimension of the signal describes how many variables are needed to generate a good approximation of the signal.
+For an N-variable function f, the set of variables can be represented as an N-dimensional vector x:
+
+
+
+
+        f
+        =
+        f
+
+          (
+
+            x
+
+          )
+
+
+           where
+
+
+          x
+
+        =
+
+          (
+
+
+              x
+
+                1
+
+
+            ,
+            …
+            ,
+
+              x
+
+                N
+
+
+
+          )
+
+
+
+    {\textstyle f=f\left(\mathbf {x} \right){\text{ where }}\mathbf {x} =\left(x_{1},\dots ,x_{N}\right)}
+
+.
+If for some M-variable function g and M × N matrix A it is the case that
+
+for all x;
+
+
+
+        f
+        (
+
+          x
+
+        )
+        =
+        g
+        (
+
+          A
+          x
+
+        )
+        ,
+
+
+    {\textstyle f(\mathbf {x} )=g(\mathbf {Ax} ),}
+
+
+M is the smallest number for which the above relation between f and g can be found,
+then the intrinsic dimension of f is M.
+The intrinsic dimension is a characterization of f, it is not an unambiguous characterization of g nor of A.  That is, if the above relation is satisfied for some f, g, and A, it must also be satisfied for the same f and g′ and A′ given by
+
+
+
+
+
+          g
+          ′
+
+
+          (
+
+            y
+
+          )
+
+        =
+        g
+
+          (
+
+            B
+            y
+
+          )
+
+
+
+    {\textstyle g'\left(\mathbf {y} \right)=g\left(\mathbf {By} \right)}
+
+
+and
+
+
+
+
+
+
+            A
+            ′
+
+
+        =
+
+
+            B
+
+
+            −
+            1
+
+
+
+          A
+
+
+
+    {\textstyle \mathbf {A'} =\mathbf {B} ^{-1}\mathbf {A} }
+
+
+where B is a non-singular M × M matrix, since
+
+
+
+
+        f
+
+          (
+
+            x
+
+          )
+
+        =
+
+          g
+          ′
+
+
+          (
+
+
+              A
+              ′
+
+            x
+
+          )
+
+        =
+        g
+
+          (
+
+            B
+
+              A
+              ′
+
+            x
+
+          )
+
+        =
+        g
+
+          (
+
+            A
+            x
+
+          )
+
+
+
+    {\textstyle f\left(\mathbf {x} \right)=g'\left(\mathbf {A'x} \right)=g\left(\mathbf {BA'x} \right)=g\left(\mathbf {Ax} \right)}
+
+.
+
+The Fourier transform of signals of low intrinsic dimension
+An N variable function which has intrinsic dimension M < N has a characteristic Fourier transform.  Intuitively, since this type of function is constant along one or several dimensions its Fourier transform must appear like an impulse (the Fourier transform of a constant) along the same dimension in the frequency domain.
+
+A simple example
+Let f be a two-variable function which is i1D.  This means that there exists a normalized vector
+
+
+
+
+          n
+
+        ∈
+
+
+            R
+
+
+            2
+
+
+
+
+    {\textstyle \mathbf {n} \in \mathbb {R} ^{2}}
+
+ and a one-variable function g such that
+
+
+
+
+        f
+        (
+
+          x
+
+        )
+        =
+        g
+        (
+
+
+            n
+
+
+            T
+
+
+
+          x
+
+        )
+
+
+    {\textstyle f(\mathbf {x} )=g(\mathbf {n} ^{\operatorname {T} }\mathbf {x} )}
+
+
+for all
+
+
+
+
+          x
+
+        ∈
+
+
+            R
+
+
+            2
+
+
+
+
+    {\textstyle \mathbf {x} \in \mathbb {R} ^{2}}
+
+.  If F is the Fourier transform of f (both are two-variable functions) it must be the case that
+
+
+
+
+        F
+
+          (
+
+            u
+
+          )
+
+        =
+        G
+
+          (
+
+
+
+                n
+
+
+
+                  T
+
+
+
+
+              u
+
+
+          )
+
+        ⋅
+        δ
+
+          (
+
+
+
+                m
+
+
+
+                  T
+
+
+
+
+              u
+
+
+          )
+
+
+
+    {\textstyle F\left(\mathbf {u} \right)=G\left(\mathbf {n} ^{\mathrm {T} }\mathbf {u} \right)\cdot \delta \left(\mathbf {m} ^{\mathrm {T} }\mathbf {u} \right)}
+
+.
+Here G is the Fourier transform of g (both are one-variable functions), δ is the Dirac impulse function and m is a normalized vector in
+
+
+
+
+
+            R
+
+
+            2
+
+
+
+
+    {\textstyle \mathbb {R} ^{2}}
+
+ perpendicular to n.  This means that F vanishes everywhere except on a line which passes through the origin of the frequency domain and is parallel to m.  Along this line F varies according to G.
+
+The general case
+Let f be an N-variable function which has intrinsic dimension M, that is, there exists an M-variable function g and M × N matrix A such that
+
+
+
+
+        f
+        (
+
+          x
+
+        )
+        =
+        g
+        (
+
+          A
+          x
+
+        )
+
+        ∀
+
+          x
+
+
+
+    {\textstyle f(\mathbf {x} )=g(\mathbf {Ax} )\quad \forall \mathbf {x} }
+
+.
+Its Fourier transform F can then be described as follows:
+
+F vanishes everywhere except for a subspace of dimension M
+The subspace M is spanned by the rows of the matrix A
+In the subspace, F varies according to G the Fourier transform of g
+
+Generalizations
+The type of intrinsic dimension described above assumes that a linear transformation is applied to the coordinates of the N-variable function f to produce the M variables which are necessary to represent every value of f.  This means that f is constant along lines, planes, or hyperplanes, depending on N and M.
+In a general case, f has intrinsic dimension M if there exist M functions a1, a2, ..., aM and an M-variable function g such that
+
+
+
+
+        f
+        (
+
+          x
+
+        )
+        =
+        g
+
+          (
+
+
+              a
+
+                1
+
+
+            (
+
+              x
+
+            )
+            ,
+
+              a
+
+                2
+
+
+            (
+
+              x
+
+            )
+            ,
+            …
+            ,
+
+              a
+
+                M
+
+
+            (
+
+              x
+
+            )
+
+          )
+
+
+
+    {\textstyle f(\mathbf {x} )=g\left(a_{1}(\mathbf {x} ),a_{2}(\mathbf {x} ),\dots ,a_{M}(\mathbf {x} )\right)}
+
+for all x
+M is the smallest number of functions which allows the above transformation
+A simple example is transforming a 2-variable function f to polar coordinates:
+
+
+
+
+        f
+
+          (
+
+
+
+
+
+                    y
+
+                      1
+
+
+                  +
+
+                    y
+
+                      2
+
+
+
+                2
+
+
+            ,
+
+
+
+
+                    y
+
+                      1
+
+
+                  −
+
+                    y
+
+                      2
+
+
+
+                2
+
+
+
+          )
+
+        =
+        g
+
+          (
+
+            y
+
+              1
+
+
+          )
+
+
+
+    {\displaystyle f\left({\frac {y_{1}+y_{2}}{2}},{\frac {y_{1}-y_{2}}{2}}\right)=g\left(y_{1}\right)}
+
+
+
+
+
+        f
+        (
+
+          x
+
+            1
+
+
+        ,
+
+          x
+
+            2
+
+
+        )
+        =
+        g
+
+          (
+
+
+
+                x
+
+                  1
+
+
+                  2
+
+
+              +
+
+                x
+
+                  2
+
+
+                  2
+
+
+
+
+          )
+
+
+
+    {\displaystyle f(x_{1},x_{2})=g\left({\sqrt {x_{1}^{2}+x_{2}^{2}}}\right)}
+
+, f is i1D and is constant along any circle centered at the origin
+
+
+
+
+        f
+        (
+
+          x
+
+            1
+
+
+        ,
+
+          x
+
+            2
+
+
+        )
+        =
+        g
+
+          (
+
+            arctan
+            ⁡
+
+              (
+
+
+
+                    x
+
+                      2
+
+
+
+                    x
+
+                      1
+
+
+
+
+              )
+
+
+          )
+
+
+
+    {\displaystyle f(x_{1},x_{2})=g\left(\arctan \left({\frac {x_{2}}{x_{1}}}\right)\right)}
+
+, f is i1D and is constant along all rays from the origin
+For the general case, a simple description of either the point sets for which f is constant or its Fourier transform is usually not possible.
+
+Local Intrinsic Dimensionality
+Different parts of a dataset might have different intrinsic dimensions. This is often referred to as local intrinsic dimensionality (LID). Often data is distributed on a lower-dimensional manifold when only considering a nearby subset of the data. For example, the function
+
+
+
+        f
+        (
+        x
+        ,
+        y
+        )
+        =
+        x
+        +
+        max
+        {
+        0
+        ,
+
+          |
+
+        y
+
+          |
+
+        −
+        1
+        }
+
+
+    {\displaystyle f(x,y)=x+\max\{0,|y|-1\}}
+
+ can be considered one-dimensional when y is close to 0 (with one variable x), two-dimensional when y is close to 1, and again one-dimensional when y is positive and much larger than 1 (with variable x+y).
+Local intrinsic dimensionality is often used with respect to data. It then usually is estimated based on the k nearest neighbors of a data point, often based on a concept related to the doubling dimension in mathematics. Since the volume of a d-sphere grows exponentially in d, the rate at which new neighbors are found as the search radius is increased can be used to estimate the local intrinsic dimensionality (e.g., GED estimation). However, alternate approaches of estimation have been proposed, for example angle-based estimation.
+
+Intrinsic dimension estimation
+Intrinsic dimension of data manifolds can be estimated by many methods, depending on assumptions of the data manifold. A 2016 review is.
+
+The  two-nearest neighbors (TwoNN) method is a method for estimating the intrinsic dimension of an immersed Riemannian manifold. The algorithm is as follows:Scatter some points on the manifold.
+Measure
+
+
+
+        μ
+        =
+
+          r
+
+            2
+
+
+
+          /
+
+
+          r
+
+            1
+
+
+
+
+    {\displaystyle \mu =r_{2}/r_{1}}
+
+ for many points, where
+
+
+
+
+          r
+
+            1
+
+
+        ,
+
+          r
+
+            2
+
+
+
+
+    {\displaystyle r_{1},r_{2}}
+
+ are the distances to the point's two closest neighbors.
+Fit the empirical CDF of
+
+
+
+        μ
+
+
+    {\displaystyle \mu }
+
+ to
+
+
+
+        1
+        −
+
+          μ
+
+            −
+            d
+
+
+
+
+    {\displaystyle 1-\mu ^{-d}}
+
+.
+
+Return
+
+
+
+        d
+
+
+    {\displaystyle d}
+
+.
+
+History
+During the 1950s so called "scaling" methods were developed in the social sciences to explore and summarize multidimensional data sets. After Shepard introduced non-metric multidimensional scaling in 1962 one of the major research areas within multi-dimensional scaling (MDS) was estimation of the intrinsic dimension. The topic was also studied in information theory, pioneered by Bennet in 1965 who coined the term "intrinsic dimension" and wrote a computer program to estimate it.
+During the 1970s intrinsic dimensionality estimation methods were constructed that did not depend on dimensionality reductions such as MDS: based on local eigenvalues., based on distance distributions, and based on other dimension-dependent geometric properties
+Estimating intrinsic dimension of sets and probability measures has also been extensively studied since around 1980 in the field of dynamical systems, where dimensions of (strange) attractors have been the subject of interest. For strange attractors there is no manifold assumption, and the dimension measured is some version of fractal dimension — which also can be non-integer. However, definitions of fractal dimension yield the manifold dimension for manifolds.
+In the 2000s the "curse of dimensionality" has been exploited to estimate intrinsic dimension.
+
+Applications
+The case of a two-variable signal which is i1D appears frequently in computer vision and image processing and captures the idea of local image regions which contain lines or edges.  The analysis of such regions has a long history, but it was not until a more formal and theoretical treatment of such operations began that the concept of intrinsic dimension was established, even though the name has varied.
+For example, the concept which here is referred to as an image neighborhood of intrinsic dimension 1 or i1D neighborhood is called 1-dimensional by Knutsson (1982), linear symmetric by Bigün & Granlund (1987) and simple neighborhood in Granlund & Knutsson (1995).

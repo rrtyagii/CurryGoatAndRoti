@@ -1,0 +1,12 @@
+Musio is a social robot designed by AKA Intelligence, powered by MUSE, an AI engine developed for communication, specifically to help people who wish to improve their English conversational skills. Using learning algorithms, Musio converses with people, and recognizes objects and understands people's facial expressions. Musio also has an emotional engine, which lets it express facial expressions and related sounds. In May 2015, Musio was crowdfunded on Indiegogo, where 201% of the needed funding was raised, resulting in a total of just over $100k.
+
+Purpose
+Musio is designed for educational purposes, specifically to help people who wish to improve their English speaking abilities. Apart from simple questions and answers, a natural conversation can be carried out. In addition, an assistant OID partner device, named Sophy, provides learning opportunities from a wide range of educational material. Musio includes "Pronunciation Checkup" and "Grammar Correction," among other features, to help with pronunciation and grammar.
+
+Sophy
+Sophy is Musio's companion robot that allows Musio to interact with various study materials. Using an optical LED Sensor (OID) and low-energy Bluetooth connection, Sophy can "read" information and send it to Musio. When Sophy needs to communicate to the user, a tactile feedback motor is used. This can be felt in a series of Morse-code taps to convey the message. A Morse-code manual is provided with Sophy.
+
+MUSE
+MUSE is the deep learning-based AI engine for communication that powers Musio. It attempts to understand the user via textual language, oral language, gestures and facial expressions. AKA Intelligence built the machine learning system on the neuroscience to interplay between structure (i.e. rule-based) and antistructure methods (i.e. statistical).
+
+Specification

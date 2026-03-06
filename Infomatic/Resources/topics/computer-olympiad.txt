@@ -1,0 +1,61 @@
+The Computer Olympiad is a multi-games event in which computer programs compete against each other. For many games, the Computer Olympiads are an opportunity to claim the "world's best computer player" title. First contested in 1989, the majority of the games are board games but other games such as bridge take place as well. In 2010, several puzzles were included in the competition.
+
+History
+Developed in the 1980s by David Levy, the first Computer Olympiad took place in 1989 at the Park Lane Hotel in London. The games ran on a yearly basis until after the 1992 games, when the Olympiad's ruling committee was unable to find a new organiser. This resulted in the games being suspended until 2000 when the Mind Sports Olympiad resurrected them. Recently, the International Computer Games Association (ICGA) has adopted the Computer Olympiad and tries to organise the event on an annual basis.
+
+Games contested
+The games which have been contested at each Olympiad are:
+
+1st–5th Olympiads (1989–1992)
+6th–10th Olympiads (2000–2004)
+After an eight-year hiatus, the Computer Olympiad was revived by bringing it into the Mind Sports Olympiad. The chess competition was a special event, since it was adopted by the International Correspondence Chess Association (ICCA) as the 17th World Microcomputer Chess Championship (WMCC 2000). The 5th Olympiad was in 2000 at London's Alexandra Palace; the 6th, in 2001 at Ad Fundunm at Maastricht University; the 7th, in 2002 in Maastricht; the 8th, in 2003 in Graz; and the 9th, in 2004 in Ramat Gan. The 7th Olympiad was adopted by the ICCA as the 10th World Computer Chess Championship (WCCC), and the 8th was held in conjugation with both 11th WCCC and the 10th Advances in Computer Games Conference. Because of this, no medals were awarded for the two chess events. The 9th was held in conjugation with WCCC and the Computers and Games 2004 Conference; no medals were awarded to the two chess events. Jonathan Schaeffer and J. W. H. M. Uiterwijk were the tournament directors.
+
+10th–14th Olympiads (2005–2009)
+The 10th Olympiad was in 2005 in Taipei; the 11th, in 2006 in Turin; the 12th, in 2007 at the Amsterdam Science Park; the 13th, in 2008 at the Beijing Golden Century Golf Club; and the 14th, in 2009 in Pamplona. The 10th Olympiad wasa held at the same time and location as the 11th Advances in Computer Games and its organizing committee was made up of J. W. Hellemons (chair), H. H. L. M. Donkers, M. Greenspan, T-s Hsu, H. J. van den Herik, and M. Tiessen. Hand Talk, which won the gold medal in Computer Go, was originally written in assembly language by a retired chemistry professor of Sun Yat-sen University, China. The 11th Olympiad was held in conjugation with the 14th World Computer Chess Championship and the 5th Computer and Games Conference. Human FIDE 37th Chess Olympiad co-hosted this event; the 12th, with the 15th World Computer Chess Championship and the Computer Games Workshop; the 13th, with the International Computer Games Championship, the World Computer Chess Championship, and a scientific conference on computer games; and the 14th with the World Computer Chess Championship and a scientific conference on computer games.
+Rybka was retroactively disqualified from all ICCC events due to plagiarism. Rankings were adjusted appropriately.
+
+15th–18th Olympiads (2010–2015)
+The 15th Olympiad was held in 2010 in Kanazawa, Japan along with the 18th World Computer Chess Championship (WCCC), and a scientific conference on computer games. The 16th Olympiad was held in 2011 at Tilburg University at the same time as the 19th WCCC. The 17th Olympiad was held in 2013 at Keio University's Collaboration Complex on the Hiyoshi Campus, and was at the same time as the 20th WCCC and a scientific conference on computer games. The 18th Olympiad was in 2015 at Leiden University and was organized by the International Computer Game Association, the Leiden Institute of Advanced Computer Science, and the Leiden Centre of Data Science.
+
+19th–25th Olympiads (2016–2022)
+The 19th Olympiad was held 27 June – 3 July 2016 and the 20th Olympiad was held 1–7 July 2017, both at Leiden University and organized by the International Computer Game Association, the Leiden Institute of Advanced Computer Science, and the Leiden Centre of Data Science. The 21st Olympiad was held 7–13 July 2018 in Taipei, Taiwan alongside the 10th International Conference on Computers and Games. The World Computer Chess Championships took place from 13–19 July in Stockholm, Sweden. The 22nd Olympiad was held 11–17 August 2019 in Macau, China and the 23rd (2020), 24th (2021), and 25th (2022) Olympiads were held online due to the COVID-19 pandemic.
+
+Summary by game
+Abalone
+Abalone is a strategy game using a hexagonal patterned board with 14 marbles for each of two players. The objective is to push six of the opponent's marbles off the edge of the board.
+
+Amazons
+Amazons is played on a 10×10 chessboard by two players each with four amazons (queen chess pieces). Moves are made to block squares and the winner is the last player able to move his pieces to an unblocked square.
+
+Awari
+Awari is an abstract strategy game among the Mancala family of board games (pit and pebble games).
+
+Backgammon
+Backgammon is a board game for two players where the checker-like playing pieces are moved according to the roll of dice; a player wins by removing all of his pieces from the board before his opponent.
+
+Bridge
+Bridge is a trick-taking card game for four players.
+Bridge participation in the Computer Olympiad was largely discontinued when in 1996 the American Contract Bridge League established a new official World Computer Bridge Championship, to be run annually at a major bridge tournament.  Starting in 1999, that event is now co-sponsored by the World Bridge Federation.
+
+Chess
+Chess is a two-player board game played on a checkered game-board with 64 squares arranged in an eight-by-eight grid. Each player begins with 16 pieces of varying characteristics, the objective being to capture one's opponent's king piece.
+Many computer-versus-computer events are held beyond those of the Computer Olympiad.
+
+Chinese chess
+Chinese chess is a strategy board game for two players from the same family as western or international chess. Known primarily as Xiangqi internationally, the game is referred to as Chinese chess in the Computer Olympiad competitions.
+
+Chinese dark chess
+Chinese dark chess is known as Banqi in Chinese.
+
+Clobber
+Connect Four
+Connect6
+Dominoes
+Gin rummy
+GIPF
+Octi
+Octi is an abstract strategy game designed by Donald Green, with similarities to checkers and chess but allowing for multiple jumping, capturing, and special movement of pieces. The object of the game is to move one's pieces into the opponent's starting points.
+
+Poker
+Pool
+Also known as computational pool.

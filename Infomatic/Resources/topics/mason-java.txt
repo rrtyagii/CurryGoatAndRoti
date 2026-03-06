@@ -1,0 +1,10 @@
+MASON is a multi-agent simulation environment developed in Java.
+
+Development
+MASON is developed at George Mason University's Evolutionary Computation Laboratory in conjunction with the GMU Center for Social Complexity. First released in 2003, the environment continues to be maintained and kept up to date. The name, as well as referring to the parent institution, derives from the acronym Multi-Agent Simulator Of Neighborhoods (or Networks).
+MASON development started within the Java.net environment, then moved to Google Code and is now at GitHub.
+Whilst MASON is less extensive than other similar libraries it is designed with simplicity and execution speed as a priority.
+
+Applets
+Applets developed using MASON include Craig Reynolds' Boids algorithm, Balls and Bands, a simulation of  Hooke's law, an L-system generator, Conway's Game of Life, Sugarscape and autonomous multi-robot systems.
+MASON may be used with the Eclipse Integrated development environment.

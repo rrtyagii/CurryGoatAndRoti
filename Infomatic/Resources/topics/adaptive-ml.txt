@@ -1,0 +1,14 @@
+Adaptive ML (often styled as Adaptive) is a private software company based in New York, United States and Paris, France. The company focuses on reinforcement learning (“RLOps”), providing tools that allow organizations to customize and operate open-source large language models for specific applications.
+
+History
+Adaptive ML was founded in 2023 by Julien Launay, Baptiste Pannier, and Daniel Hesslow, who had previously contributed to open-source language model projects such as Falcon and BLOOM, and held research and engineering roles at Hugging Face.
+In March 2024, Adaptive ML raised a seed round of US $20 million led by Index Ventures, with participation from ICONIQ Capital, Motier Ventures, Databricks Ventures, and other investors. Sifted reported an implied valuation of $100m in this round.
+Adaptive’s product team is based in Paris, France, while its corporate, financial, and sales and marketing functions are in New York.
+
+Technology and products
+Adaptive ML develops a software platform called Adaptive Engine, used to fine-tune and operate open-source large language models.
+The platform enables reinforcement-learning–based post-training and model-evaluation processes intended for data science teams. Reported areas of application include database query generation, automated customer-service workflows, and systems for retrieving internal information.
+
+Business model and vision
+Adaptive ML operates on a B2B model: the platform is targeted at enterprises that wish to deploy large language models with a high degree of customization, privacy, and control, rather than using third-party public LLM APIs.
+The company’s mission emphasizes long-term adaptability and continuous learning: as users interact with a model, their behavior and feedback become data for ongoing model tuning and improvemen, allowing organizations to tailor AI systems to their specific domain, data, and user needs.

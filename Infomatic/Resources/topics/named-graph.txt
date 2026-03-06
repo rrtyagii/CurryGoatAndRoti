@@ -1,0 +1,33 @@
+Named graphs are a key concept of Semantic Web architecture in which a set of Resource Description Framework statements (a graph) are identified using a URI, allowing descriptions to be made of that set of statements such as context, provenance information or other such metadata.
+Named graphs are a simple extension of the RDF data model through which graphs can be created but the model lacks an effective means of distinguishing between them once published on the Web at large.
+
+Named graphs and HTTP
+One conceptualization of the Web is as a graph of document nodes identified with URIs and connected by hyperlink arcs which are expressed within the HTML documents. By doing an HTTP GET on a URI (usually via a Web browser), a somehow-related document may be retrieved. This "follow your nose" approach also applies to RDF documents on the Web in the form of Linked Data, where typically an RDF syntax is used to express data as a series of statements, and URIs within the RDF point to other resources. This Web of data has been described by Tim Berners-Lee as the "Giant Global Graph".
+
+Named graphs are a formalization of the intuitive idea that the contents of an RDF document (a graph) on the Web can be considered to be named by the URI of the document. This considerably simplifies techniques for managing chains of provenance for pieces of data and enabling fine-grained access control to the source data. Additionally, trust can be managed through the publisher applying a digital signature to the data in the named graph. (Support for these facilities was originally intended to come from RDF reification; however, that approach proved problematic.)
+
+Named graphs and RDF stores
+While named graphs may appear on the Web as simple linked documents (i.e. Linked Data), they are also very useful for managing sets of RDF data within an RDF store. In particular, the scope of a SPARQL query may be limited to a specific set of named graphs.
+
+Example
+Assume the following (Turtle) RDF document has been placed in a SPARQL-capable store with the name http://example.org/joe.
+
+This data has been written in a more verbose form than necessary to show the triple structures
+The homepage of the person with the email address mailto:joe@example.org can be obtained using the SPARQL query:
+
+The FROM NAMED here identifies the target graph for the query.
+
+Named graphs and quads
+Prior to the publication of the papers describing named graphs, there was considerable discussion about fulfilling their role within a store by using an arity greater than that of RDF triple statements: where triples have the form subject predicate object, quads would have a form along the lines of subject predicate object context. Named graphs can be represented this way, as subject predicate object graphname, with the advantage that the graphname part will be a URI, giving the quad Web-global scope compared to arbitrary local statement names. This way of representing quads resp. quad-statements was incorporated in the specification of N-Quads.
+
+Formal definition
+A paper from the WWW 2005 conference by Carroll et al. includes a formal definition of named graphs.
+
+Specifications
+Initially specified in the SPARQL Protocol and RDF Query Language specification,
+named graphs were standardized as an integral part of RDF with version 1.1. It is important to note that these specifications are not entirely aligned with the concepts proposed by Carroll et al. (2005). In particular, while the latter defines a formal semantics for named graphs, named graphs in RDF 1.1 have not specified semantics.
+
+Proposed specifications
+TriX - Named Graphs in XML
+TriG - Named Graphs in Turtle
+N-Quads - Named Graphs in N-Triples

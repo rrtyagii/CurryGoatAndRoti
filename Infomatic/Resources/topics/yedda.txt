@@ -1,0 +1,31 @@
+Yedda was an Israeli community-driven question-and-answer (Q&A) web service best known for its early commercial use of semantic search and vector-based similarity to match user questions with relevant answers and experts. Founded in late 2005 and launched publicly in early 2006, the platform grew through syndication partnerships before being acquired by AOL in November 2007. Yedda remained a wholly owned subsidiary and its technology was relaunched globally in 2010 under the brand AOL Answers, which for a period generated the highest volume of organic search traffic of any AOL property.
+
+History
+Foundation and launch (2005–2006)
+Yedda was created in 2005 by Avichay Nissenbaum (CEO), Yaniv Golan (CTO), Osher Frimerman (VP R&D), Eran Sandler and Daniel Verhovsky.  The founders raised roughly US$2.5 million in seed funding and soft-launched the Q&A site in late 2006.
+
+Growth and partner network
+Rather than rely solely on its own domain, Yedda licensed embeddable Q&A widgets to other publishers. By late 2007 more than 50 partner sites—including ePals and The Job Network—contributed about 90 % of Yedda’s total traffic.
+
+Acquisition by AOL (2007)
+On 11 November 2007 AOL announced it would acquire Yedda for an undisclosed (widely reported “multi-million”) amount.
+The deal marked AOL’s **fifth Israeli acquisition**, following Mirabilis (ICQ), Relegence, Quigo and others.
+AOL retained Yedda’s Tel Aviv R&D centre and the full founding team as a wholly owned, independently managed subsidiary.
+
+Rebrand as AOL Answers (2010)
+In August 2010 AOL relaunched the platform as AOL Answers.  User accounts and historical content were migrated, while the new brand was promoted across AOL portals.  Analysts noted that although revenue per page was modest, the long-tail Q&A pages brought millions of search-driven visits, briefly making AOL Answers the company’s largest organic-traffic generator.
+
+Technology and features
+Yedda’s core innovation was a **semantic matching engine** that analysed the syntactic and conceptual structure of questions, measured vector-based similarity to existing content, and automatically:
+
+tagged each question with topic labels;
+located semantically related questions and answers; and
+invited users with demonstrated expertise to respond.
+The approach created a “distributed expert network” that routed new queries to the most relevant answerers.  Yedda’s intellectual-property portfolio includes patents such as:
+
+US7526425B2 0 , “*Method and system for extending keyword searching to syntactically and semantically annotated data*” (issued 2009); and
+US20080235005A1 0 , “*Device, system and method of handling user requests*” (published 2008).
+Industry commentators later cited Yedda as one of the first commercial deployments of vector-distance metrics (an early form of what is now called “vector search”) in a consumer web application.
+
+Reception and legacy
+Growing alongside contemporaries such as Yahoo! Answers, Aardvark and later Quora, Yedda was praised for its intelligent matching and community focus.  Post-acquisition, **AOL Answers** served as a major SEO traffic driver for AOL—even if monetisation lagged behind page-view growth.  The service was gradually wound down in the mid-2010s, but Yedda’s pioneering use of semantic association foreshadowed techniques later adopted in natural-language and large-language-model search systems.

@@ -1,0 +1,3 @@
+e-Aksharayan is an optical character recognition engine for Indian languages. Some of research work from e-Aksharayan has been published in different conferences and journals.
+
+Screenshots

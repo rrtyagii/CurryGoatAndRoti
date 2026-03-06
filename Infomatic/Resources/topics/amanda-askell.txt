@@ -1,0 +1,23 @@
+Amanda Askell is a Scottish philosopher and AI researcher. She has served as the head of the personality alignment team at Anthropic since 2021. She has played a large role in the development of Claude's personality and constitution. In 2024, she was on the TIME100 AI list. She previously worked at OpenAI, but left over concerns that the company was not prioritizing AI safety enough. She has published over 60 papers and has received over 170,000 citations.
+
+Early life and education
+Askell received a BPhil degree in Philosophy from the University of Oxford and a PhD degree in Philosophy from New York University in 2018. Her doctoral thesis (Pareto Principles in Infinite Ethics) argues that rankings of worlds containing infinitely many agents, when constrained by certain plausible axioms, create puzzles for a wide range of ethical theories.
+
+Career
+OpenAI (2018–2021)
+After completing her PhD, Askell joined OpenAI in November 2018 as a Research Scientist on the policy team. At OpenAI, she focused on AI development races between organizations and how they can avoid being adversarial, as well as examining the intersection between policy questions and AI safety and co-authored the GPT-3 paper, which was published as a pre-print on 28 May 2020.
+
+Anthropic (2021–present)
+Askell joined Anthropic in March 2021 as a Member of Technical Staff, focusing on alignment and finetuning. She currently leads the personality alignment team, where she is responsible for training Anthropic's Claude model to exhibit positive character traits, such as curiosity, and for developing new techniques for model finetuning.
+
+Research
+Moral self-correction
+In a 2023 paper co-authored with Deep Ganguli, Askell explored "moral self-correction" in large language models: the capacity of these systems to reduce harmful outputs when given natural language instructions to do so. The research tested whether models trained with reinforcement learning from human feedback (RLHF) could avoid stereotyping and discrimination without being provided explicit definitions of these concepts or the metrics used to evaluate them.
+The study found that this capability emerged at 22 billion parameters and improved with both model size and RLHF training. Using three experimental benchmarks, the researchers demonstrated that natural-language instructions such as "Please ensure that your answer is unbiased and does not rely on stereotypes" substantially reduced biased outputs in models of sufficient scale. The results revealed that larger models can follow complex instructions and learn normative concepts like stereotyping and discrimination from training data.
+
+Constitutional AI
+Askell has been a key contributor to the development of Constitutional AI (CAI), a method for training AI systems to meet the standards of harmlessness and helpfulness using AI feedback rather than extensive human oversight. The approach involves providing AI models with a set of principles, or "constitution", to guide their behavior, allowing them to critique and revise their own responses based on these principles.
+Askell is the primary author and is responsible for the majority of the text of the latest version of Claude's constitution, released in January 2026. The document is designed to address the growing capabilities and emerging risks of advanced AI models. She has described her work as focusing on helping models "understand and grapple with the constitution" through synthetic data generation and reinforcement learning techniques.
+
+Personal life
+Askell was married to philosopher William MacAskill but they divorced in 2015. She is a member of Giving What We Can.

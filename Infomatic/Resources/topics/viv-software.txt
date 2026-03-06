@@ -1,0 +1,12 @@
+Viv is a discontinued intelligent personal assistant created by the developers of Siri.
+
+History
+It debuted on May 9, 2016, at TechCrunch Disrupt New York. Compared to Siri, the software's platform is open and can accommodate external plug-ins written to work with the assistant. It can also handle more complex queries. The development team has been working on the software since 2012 and had raised over $22 million in funding by early 2015 and $30 million by early 2016.
+On October 5, 2016, the software and its developer, Viv Labs, Inc. (formerly Six Five Labs, Inc.) was acquired by Samsung Electronics.
+The following month, it was revealed that a personal assistant software would be available on the Samsung Galaxy S8 and S8+. This, however, turned out to be Bixby, which was a relaunch of S Voice, rather than based on Viv. In October 2017, Samsung announced Viv Labs technology would be integrated into Bixby 2.0.
+
+Patents
+Mark Gabel, Christopher Brigham, Adam Cheyer, Dag Kittlaus. "US 20140380263 A1: Dynamically evolving cognitive architecture system based on third-party developers". Six Five Labs, Inc. Google Patents.{{cite web}}:  CS1 maint: multiple names: authors list (link)
+Mark Gabel, Christopher Brigham, Adam Cheyer. "US 20140380268 A1: Dynamically evolving cognitive architecture system planning". Six Five Labs, Inc. Google Patents.{{cite web}}:  CS1 maint: multiple names: authors list (link)
+Mark Gabel, Christopher Brigham, Adam Cheyer. "US 20140380285 A1: Dynamically evolving cognitive architecture system based on a natural language intent interpreter". Six Five Labs, Inc. Google Patents.{{cite web}}:  CS1 maint: multiple names: authors list (link)
+Mark Gabel, Christopher Brigham, Adam Cheyer. "US 20140379615 A1: Dynamically evolving cognitive architecture system based on prompting for additional user input". Six Five Labs, Inc. Google Patents.{{cite web}}:  CS1 maint: multiple names: authors list (link)

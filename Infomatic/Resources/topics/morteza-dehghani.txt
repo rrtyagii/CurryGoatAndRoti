@@ -1,0 +1,23 @@
+Morteza Dehghani is an Iranian-American psychologist and computer scientist who is a professor of Psychology and Computer Science at the University of Southern California (USC). He is the Director of the Center for Computational Language Sciences, Director of the Morality and Language Lab, and a member of USC's Brain and Creativity Institute.
+
+Education
+Dehghani earned a B.S. in 2003 and an M.S. in 2005 in computer science from the University of California, Los Angeles. He later received an M.S. in 2007 and a Ph.D. in 2009 in computer science with a focus on cognitive science from Northwestern University, where he also completed postdoctoral research in psychology.
+
+Career
+Dehghani joined the University of Southern California in 2011 as a research scientist at the Institute for Creative Technologies, before holding faculty positions in computer science, psychology, and the Brain and Creativity Institute. He served as an assistant professor from 2014 to 2020, associate professor from 2020 to 2023, and was promoted to full professor of psychology and computer science in 2023.
+
+Research
+Dehghani's research lies at the intersection of artificial intelligence and psychology. His early work applied computational models and natural language processing to study morality, decision-making, and cultural cognition. Beginning around 2012, his work examined what he terms the "dark side" of morality, focusing on moral ecosystems, moral homogenization, prejudice, and hate. More recently, he has integrated psychological theories into artificial intelligence systems to improve robustness and human-like behavior.
+His work has been cited in policy discussions and presented at venues including the White House and the United States Senate Committee on Armed Services. Dehghani has also engaged in activism supporting persecuted Iranian academics and has published opinion essays analyzing Iranian political crises through a moral psychological framework.
+
+Honors
+Air Force Office of Scientific Research Young Investigator Award (2012)
+National Science Foundation CAREER Award (2018)
+Elected Fellow of the Society of Experimental Social Psychology (2019)
+Google Award for Inclusion Research (2022)
+Elected Fellow of the Society for Personality and Social Psychology (2024)
+
+Selected publications
+Kennedy, Brendan; Atari, Mohammad; Mostafazadeh Davani, Aida; Hoover, Joe; Omrani, Ali; Graham, Jesse; Dehghani, Morteza (1 July 2021). "Moral concerns are differentially observable in language". Cognition. 212 104696. doi:10.1016/j.cognition.2021.104696. ISSN 0010-0277.
+Hoover, Joe; Atari, Mohammad; Mostafazadeh Davani, Aida; Kennedy, Brendan; Portillo-Wightman, Gwenyth; Yeh, Leigh; Dehghani, Morteza (28 July 2021). "Investigating the role of group-based morality in extreme behavioral expressions of prejudice". Nature Communications. 12 (1): 4585. doi:10.1038/s41467-021-24786-2. ISSN 2041-1723. PMC 8319297.
+Reimer, Nils Karl; Atari, Mohammad; Karimi-Malekabadi, Farzan; Trager, Jackson; Kennedy, Brendan; Graham, Jesse; Dehghani, Morteza (September 2022). "Moral values predict county-level COVID-19 vaccination rates in the United States". American Psychologist. 77 (6): 743–759. doi:10.1037/amp0001020. ISSN 1935-990X.

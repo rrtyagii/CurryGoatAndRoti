@@ -1,0 +1,24 @@
+The Confederation of Laboratories for Artificial Intelligence Research in Europe (CAINRE) (formally known as CLAIRE) is a European organisation, created to strengthen artificial intelligence (AI) and human-centred AI research and innovation, in Europe. CAIRNE is referred to as the world's largest network for artificial intelligence research.
+It is an international non-profit association (AISBL) created by the European AI community that seeks to strengthen European excellence in AI research and innovation, with a strong focus on human-centred AI, and does not provide AI services or products, but rather represents the interests of its members by promoting European AI through media channels and events, fostering cross-border collaborations, and participating in EU Horizon calls to facilitate community building.
+
+History
+CAIRNE was launched in 2018, with a vision document signed by over 550 experts in AI. The founders of CAIRNE are Holger Hoos, Philipp Slusallek and Morten Irgens. CAIRNE  aims to establish a network of Centres of Excellence in AI, across all of Europe, and a European AI Hub (or "Lighthouse Centre"), a new, central facility with state-of-the-art infrastructure similar to CERN.
+Headquartered in The Hague, CAIRNE has opened administrative offices in Saarbrücken, Prague, Rome, Brussels, Oslo, Paris and Zürich.
+They were made aware that the acronym CLAIRE was trademarked and, after 5 years of using it undisputedly, faced a legal challenge. They decided to change the acronym to CAIRNE (pronounced "kern").  The official full legal name – Confederation of Laboratories for Artificial Intelligence Research in Europe AISBL – remains unchanged, as does the core mission and support to members.
+
+Support
+CAIRNE has the support of more than 4,000 people, representing the vast majority of Europe’s AI community, spanning academia and industry, research and innovation, including 2295 AI experts (PhD-level expertise in AI or equivalent) and 1126 supporters in industry.
+Furthermore, nine advisory groups with 48 members from 18 countries have been established, covering all areas of AI, along with the topics of ethical, legal and social implications of AI.
+The CAIRNE vision for excellence in European AI has received official letters of support from the governments of nine European countries, from over 30 scientific associations across all of Europe. CAIRNE  is also actively liaising, on an ongoing basis, with other important organisations, including ELLIS, the HumanE AI, the Big Data Value Association, euRobotics, AI4EU, the Association for the Understanding of Artificial Intelligence, several European Union funded projects, and cooperates closely with ESA.
+
+The CAIRNE Network
+The CAIRNE  Network consists of the Research, the Innovation and the Rising Researchers Networks and collectively creates the world‘s largest AI network of labs and institutions, companies and start-ups, and graduate students involved in AI research, that are committed to working together towards developing European sovereignty in trustworthy AI and fostering close links between non-profit research and impactful industrial applications.
+Started in 2019, CAIRNE's Research Network now consists of over 440 research groups and research institutions, covering jointly more than 25 000 employees in 37 countries.
+The Innovation Network, launched in 2021, comprises companies, legal entities, and groups or units within these companies that develop or use Artificial Intelligence (AI) methods or technologies (for-profit), and consists of 12 members from 6 countries across Europe.
+The Rising Researchers Network, launched in early 2022, The CAIRNE | Rising Researchers Network aims to gather graduate students, especially Ph.D. students, postdocs, and master students, involved in AI research, who believe in European excellence in AI and that ethical and human-centered AI should be the norm of AI research and development in the future.
+
+Contributions
+CAIRNE regularly provides feedback to the European Commission on matters pertaining to Artificial Intelligence including the CAIRNE's "Response to the European Commission White Paper on Artificial Intelligence – A European approach to excellence and trust" and the "Response to the European Commission’s Proposal for AI Regulation and 2021 Coordinated Plan on AI".
+
+Awards
+On 30 September 2021, Prof. Holger Hoos, chair of the Board of Directors of CAIRNE, accepted on behalf of CAIRNE the Innovation Award for ground-breaking achievements in the research and development of AI, together with the European Laboratory for Learning and Intelligent Systems (ELLIS). The German AI Award ("Deutscher KI-Preis"), awarded by Die Welt, one of Germany's most widely read daily newspapers, is the one the largest awards of its kind in Europe.

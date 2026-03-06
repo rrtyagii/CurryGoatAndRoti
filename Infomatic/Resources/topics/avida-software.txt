@@ -1,0 +1,14 @@
+Avida is an artificial life software platform to study the evolutionary biology of self-replicating and evolving computer programs (digital organisms). Avida is under active development by Charles Ofria's Digital Evolution Lab at Michigan State University; the first version of Avida was designed in 1993 by Ofria, Chris Adami and C. Titus Brown at Caltech, and has been fully reengineered by Ofria on multiple occasions since then.  The software was originally inspired by the Tierra system.
+
+Design principles
+Tierra simulated an evolutionary system by introducing computer programs that competed for computer resources, specifically processor (CPU) time and access to main memory. In this respect it was similar to Core Wars, but differed in that the programs being run in the simulation were able to modify themselves, and thereby evolve. Tierra's programs were artificial life organisms.
+Unlike Tierra, Avida assigns every digital organism its own protected region of memory, and executes it with a separate virtual CPU. By default, other digital organisms cannot access this memory space, neither for reading nor for writing, and cannot execute code that is not in their own memory space.
+A second major difference is that the virtual CPUs of different organisms can run at different speeds, such that one organism executes, for example, twice as many instructions in the same time interval as another organism. The speed at which a virtual CPU runs is determined by a number of factors, but most importantly, by the tasks that the organism performs: logical computations that the organisms can carry out to reap extra CPU speed as bonus.
+
+Use in research
+Adami and Ofria, in collaboration with others, have used Avida to conduct research in digital evolution, and the scientific journals Nature and Science have published four of their papers.
+The 2003 paper "The Evolutionary Origin of Complex Features" describes the evolution of a mathematical equals operation from simpler bitwise operations.
+
+Use in education
+The Avida-ED project (Avida-ED) uses the Avida software platform within a simplified graphical user interface suitable for use in evolution education instruction at the high school and undergraduate college level, and provides freely available software, documentation, tutorials, lesson plans, and other course materials. The Avida-ED software runs as a web application in the browser, with the user interface implemented in JavaScript and Avida compiled to JavaScript using Emscripten, making the software broadly compatible with devices commonly used in classrooms. This approach has been shown to be effective in improving students' understanding of evolution.
+The Avida-ED project was the winner of the 2017 International Society for Artificial Life Education and Outreach Award.

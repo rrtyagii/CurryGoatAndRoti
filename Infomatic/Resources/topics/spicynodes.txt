@@ -1,0 +1,33 @@
+SpicyNodes was a system for displaying hierarchical data, in which a focus node displays detailed information, and the surrounding nodes represent related information (Focus + Context), with a layout based on radial maps. It has web (Flash) and mobile (iOS) implementations. It has ended operation as of 1 January 2018.
+
+Overview
+SpicyNodes displays a central node, orbited by related (child) nodes. Each child node can be linked to other child nodes. As the user navigates (changes focus) from node to node, a root path traces the path back to the home node. In a typical implementation, only child and ancestor nodes are displayed. When the user browses, nodes appear and disappear, and the layout rearranges to fit. It is a generic method, with uses ranging from dynamic poetry, to mind mapping and concept mapping.
+
+Advantages
+Visual browsing – Similar to other concept mapping tools, SpicyNodes allows authors to display visual thoughts and links between information, and publish an information map for users to browse.
+Non-linear – Users can jump from node to node, or descend into a tree to find specific information. Since the number of nodes increases exponentially with the number of orbits, a user can find a piece of information in only N clicks/taps, while navigating a space of XN nodes, where X=average nodes per orbit. Conversely, node layouts are inefficient for reading contiguous pieces of content in a linear manner.
+
+Disadvantages
+Displays a subset – Only a limited number of nodes can fit on a typical screen at once, which requires a large enough screen to fit the nodes, and means it is usually not possible to display all the nodes simultaneously.
+Balanced branches – Layouts only make sense if there are balanced branches with fewer than two dozen child nodes. A typical implementation requires an average of 2-10 linked/child nodes per node. Too few, and the layout becomes a string of pearls. Too many, and the nodes do not fit.
+
+Background
+SpicyNodes is a radial tree layout engine, modified using force-based algorithms, bias controls, and variable pivot point. It also uses an approach similar to hyperbolic trees to reduce sizes far from the focus node. Key aspects of the method are publicly described. The layout is adaptive, changing as the user clicks from node to node, to minimize cluttering. Nodes can contain any content (formatted text, images, videos, etc.) or links to other nodes or content. There is a "focus" node, and users change focus from node to node.
+The algorithm was developed by Michael Douma and colleagues at IDEA.org, starting in 2005. The layout algorithm is based on the work of Yee and his associates, and the underlying mechanics have been further described in papers and talks at conferences on Information visualization, on Museums and the Web, and on distance education.
+Early implementations include:
+
+(a) Genealogical browser of the Greek Gods released in March 2006 in the WebExhibits online museum. The family tree browser was used as a teaching resource in Russel Rice's high school 'Mythology' course.
+(b) A master's thesis in 2007.
+(c) Virtual exhibit navigation for three online exhibits (Daylight Saving Time, Calendars, Poetry forms) released in 2008 in the WebExhibits online museum.
+
+Current implementations
+Web-based – A web-based platform for authoring and publishing node maps. is available as a Software as a service, built on Adobe Flash, provided with both free and paid versions by the original development team at IDEA.org, launched in 2009. It has an open API. Received a "Best Website for Teaching and Learning" award in 2011 from  American Association of School Librarians (AASL), and voted #edchat's 35 Best Web 2.0 Classroom Tools in 2010.
+It has been used for presentations in professional conferences and meetings.
+There are third party guides, reviews regarding general usage, and instructional design.
+
+The web implementation allows embedding in a blog, and can also be run as a form of slide show where each node corresponds to a slide.
+
+Multitouch – The first multitouch implementation of SpicyNodes was as part of the WikiNodes multitouch Wikipedia browser for the Apple iPad, and launched in April 2011.
+
+Related, but different implementations
+For authoring, there are related mind mapping and concept mapping products, such as FreeMind. Typically these do not allow the end user to change focus from node to node. For display, there is analogous software for moving node to node, including: Visual Thesaurus from ThinkMap, TuneGlue, Lexipedia, and Prefuse Flare, and the Discovr apps. (The Discovr app, which also uses radial layouts, with a different layout algorithm which is primarily force-based.)

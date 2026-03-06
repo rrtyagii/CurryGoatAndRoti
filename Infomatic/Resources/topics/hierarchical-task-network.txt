@@ -1,0 +1,22 @@
+In artificial intelligence, hierarchical task network (HTN) planning is an approach to automated planning in which the dependency among actions can be given in the form of hierarchically structured networks.
+Planning problems are specified in the hierarchical task network approach by
+providing a set of tasks, which can be:
+
+primitive (initial state) tasks, which roughly correspond to the actions of STRIPS;
+compound tasks (intermediate state), which can be seen as composed of a set of simpler tasks;
+goal tasks (goal state), which roughly corresponds to the goals of STRIPS, but are more general.
+A solution to an HTN problem is then an executable sequence of primitive tasks that can be obtained from the initial task network by decomposing compound tasks into their set of simpler tasks, and by inserting ordering constraints.
+A primitive task is an action that can be executed directly given the state in which it is executed supports its precondition. A compound task is a complex task composed of a partially ordered set of further tasks, which can either be primitive or abstract. A goal task is a task of satisfying a condition. The difference between primitive and other tasks is that the primitive actions can be directly executed. Compound and goal tasks both require a sequence of primitive actions to be performed; however, goal tasks are specified in terms of conditions that have to be made true, while compound tasks can only be specified in terms of other tasks via the task network outlined below.
+Constraints among tasks are expressed in the form of networks, called (hierarchical) task networks. A task network is a set of tasks and constraints among them. Such a network can be used as the precondition for another compound or goal task to be feasible. This way, one can express that a given task is feasible only if a set of other actions (those mentioned in the network) are done, and they are done in such a way that the constraints among them (specified by the network) are satisfied. One particular formalism for representing hierarchical task networks that has been fairly widely used is TAEMS.
+Some of the best-known domain-independent HTN-planning systems are:
+
+NOAH, Nets of Action Hierarchies.
+Nonlin, one of the first HTN planning systems.
+SIPE-2
+O-Plan, Open Planning Architecture
+UMCP, the first probably sound and complete HTN planning systems.
+I-X/I-Plan
+SHOP2, a HTN-planner developed at University of Maryland, College Park.
+PANDA, a system designed for hybrid planning, an extension of HTN planning developed at Ulm University, Germany.
+HTNPlan-P, preference-based HTN planning.
+HTN planning is strictly more expressive than STRIPS, to the point of being undecidable in the general case.  However, many syntactic restrictions of HTN planning are decidable, with known complexities ranging from NP-complete to 2-EXPSPACE-complete, and some HTN problems can be efficiently compiled into PDDL, a STRIPS-like language.

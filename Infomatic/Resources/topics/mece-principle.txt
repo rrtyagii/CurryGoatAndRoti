@@ -1,0 +1,19 @@
+The MECE principle (mutually exclusive and collectively exhaustive) is a grouping principle for separating a set of items into subsets that are mutually exclusive (ME) and collectively exhaustive (CE). It was developed in the late 1960s by Barbara Minto at McKinsey & Company and underlies her Minto Pyramid Principle, and while she takes credit for MECE, according to her interview with McKinsey, she says the idea for MECE goes back as far as to Aristotle.
+The MECE principle has been used in the business mapping process wherein the optimum arrangement of information is exhaustive and does not double count at any level of the hierarchy. Examples of MECE arrangements include categorizing people by year of birth (assuming all years are known), apartments by their building number, letters by postmark, and dice rolls. A non-MECE example would be categorization by nationality, because nationalities are neither mutually exclusive (some people have dual nationality) nor collectively exhaustive (some people have none).
+
+Common uses
+Strategy consultants use MECE problem structuring to break down client problems into logical, clean buckets of analysis that they can then hand out as work streams to consulting staff on the project.
+Similarly, MECE can be used in technical problem solving and communication.  In some technical projects, like Six Sigma projects, the most effective method of communication is not the same as the problem solving process. In Six Sigma, the DMAIC process is used, but executive audiences looking for a summary or overview may not be interested in the details.  By reorganizing the information using MECE and the related SCQA storytelling framework, the point of the topic can be addressed quickly and supported with appropriate detail. The aim is more effective communication.
+
+Criticisms
+The MECE concept has been criticized for not being exhaustive, as it does not exclude superfluous/extraneous items.
+Also, MECE thinking can be too limiting as mutual exclusiveness is not necessarily desirable. For instance, while it may be desirable to classify the answers to a question in a MECE framework so as to consider all of them exactly once, forcing the answers themselves to be MECE can be unnecessarily limiting.
+Another attribute of MECE thinking is that, by definition, it precludes redundancies. However, there are cases where redundancies are desirable or even necessary.
+
+Acronym pronunciation
+There is some debate regarding the pronunciation of the acronym MECE. Although it is pronounced by many as , the author insisted that it should be pronounced as .
+
+Historical Antecedents
+In 1937, Indian Librarian S. R. Ranganathan published "Prolegomena to Library Classification" in which he presented a set of classification principles to guide library cataloging activities.  Among principles were the following:
+The Canon of Exhaustiveness: The classes in any array of classes should be totally exhaustive of their common immediate universe
+The Canon of Exclusiveness: The classes in an array should be mutually exclusive.

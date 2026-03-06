@@ -1,0 +1,7 @@
+David Clement Makinson (born 27 August 1941) is an Australian logician living in France.
+
+Career
+Makinson began his studies at the University of Sydney in 1958 and completed them at Oxford University in 1965, with a D.Phil on modal logic under Michael Dummett. He worked in the American University of Beirut (1965-1982), UNESCO (1980-2001), King’s College London (2002-2006), the London School of Economics (LSE) (2006-2019), and currently holds a position of Honorary Associate Professor at the University of Queensland.
+
+Contributions
+David Makinson works across a number of areas of logic, including modal logic, deontic logic, belief revision, uncertain reasoning, relevance-sensitive logic and, more recently, topics in the history of logic. Among his contributions: in 1965, as a graduate student, he identified the preface paradox and adapted the method of maximal consistent sets for proving completeness results in modal logic; in 1969 he discovered the first simple and natural propositional logic lacking the finite model property; in the 1980s, with Carlos Alchourrón and Peter Gärdenfors, he created the AGM account of belief change; in the early 2000s, with Leon van der Torre, he created input/output logic; in 2017 he adapted the method of truth-trees to relevance-sensitive logic.

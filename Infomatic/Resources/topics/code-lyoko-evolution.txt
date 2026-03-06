@@ -1,0 +1,91 @@
+Code Lyoko: Evolution is a French teen drama science fiction television series created by Thomas Romain and Tania Palumbo and produced by MoonScoop for France Télévisions, Lagardère Thématiques and Canal J, in association with Sofica Cofanim, Backup Media and B Media Kids. It is a live-action/CGI-animated continuation of the French animated television series Code Lyoko.
+The series centers on a group of teenagers who travel to the virtual world of Lyoko to battle against a malignant artificial intelligence known as XANA who once again threatens Earth with its extraordinary abilities to access the real world and cause trouble via activating one of ten towers on each of Lyoko's five regions, excluding its Forest and Ice regions.
+The scenes in the real world employ live-action with hand-painted backgrounds, while the scenes on Lyoko and the Cortex are presented in 3D CGI animation. It premiered on January 5, 2013 on France 4 and 30 November 2013 on Canal J. It blends live-action with 3D CGI animation, picking up where the original series left off. In addition to improving upon the CGI in the original series, the soundtrack has been overhauled as well.
+
+Plot
+One year after the events of the animated series' thirty-episode fourth season, Aelita Schaeffer, Jeremy Belpois, Odd Della Robbia, Ulrich Stern, Yumi Ishiyama, and newly welcomed William Dunbar return to their daily lives and routines at Kadic Academy. XANA, despite their success in defeating it previously, suddenly reappears, reborn with even more strength and power than ever before. The protagonists reactivate Franz Hopper's quantum supercomputer, which runs the virtual world Lyoko, and resume their former double lives in order to protect humanity from the threat of XANA once again. Joined by William Dunbar, who has finally been accepted as the sixth Lyoko Warrior, and an unreliable girl-genius named Laura Gauthier, the seven heroes are bent on unraveling the reasons for such a return and to exterminate XANA, the autonomous, sentient multi-agent system/artificial intelligence that is threatening humanity once again.
+XANA is unable to take over the network due to it missing some of its essential "Source Codes," which it injected into the Lyoko Warriors, except for William, during their final virtualization in the original series, and is now trying to steal them back through its polymorphic specters. Jeremy reasons that if XANA regains all of its Codes, it will take over the internet again and nothing will stop it. One benefit to having Codes, however, is that the carrier can deactivate towers on Lyoko under XANA's control, making all but William capable of doing so, as opposed to just Aelita alone. With the help of Laura, Jeremy works to write a virus that will be capable of hopefully eradicating XANA for good this time.
+In addition to XANA, the gang eventually discover that they have another dangerous enemy, a Swiss mad scientist named Professor Lowell Tyron, who seems to be the one responsible for unintentionally reactivating XANA. He claims to have no knowledge of XANA, despite its high level of activity in the Cortex system, which is a Replika (a virtual world that is similar to Lyoko) that Tyron created. He commands a group of several virtual human avatars in green and black-striped ninja-like costumes to counter the Lyoko Warriors' efforts to hack into his system. In Professor Tyron's lab, the group also discovers Aelita's long-lost mother, Anthea. They seek to discover why she is with their new enemy and how to reunite Anthea and her daughter.
+In the cliffhanger finale, it is revealed that Prof. Tyron has been married to Anthea for four years now, making him Aelita's stepfather. Tyron attempts to coerce Aelita into telling her friends to abort their plan to destroy the Cortex and coming with him, as he has legal custody of her, or risk never seeing her mother again. Aelita ultimately chooses to forsake her mother and go through with their original plan, and Tyron orders his subordinates to shut down his supercomputer while the Lyoko Warriors are still inside. They barely escape, having just injected Jeremy's virus into the core of the Cortex, which means that XANA would be destroyed upon rebooting of Tyron's supercomputer, unless either XANA was able to back itself up, or Tyron is able to repair his supercomputer, and by extension, XANA along with it; never truly confirming whether XANA was entirely destroyed a second time nor the identities of the Ninjas and the long awaited reunion between Aelita and Anthea.
+According to Sophie Decroisette, head writer for the original show's first 3 seasons, Evolution is not considered canon to the original show.
+
+Episodes
+Characters
+Main
+Jeremie Belpois (French: Jérémie Belpois)
+
+Portrayed by: Marin Lafitte
+A thirteen-year-old computer genius and top student in class, Jeremy was the one who originally found the supercomputer in the nearby abandoned factory and turned it on, beginning the group's struggle against XANA.
+Aelita Schaeffer
+
+Portrayed by: Léonie Berthonnaud
+Primarily known by her alias, Aelita Stones, she is the brains of the group alongside Jeremy. Her father, Franz Hopper, created the Supercomputer, Lyoko and XANA, and ultimately sacrificed himself to try and stop XANA once and for all.
+Odd Della Robbia
+
+Portrayed by: Gulliver Bevernaege
+The comic relief of the group and a bad and rebellious student who isn't interested in studying. He shares a dorm with Ulrich, where he used to keep his beloved dog Kiwi (who doesn't appear in this series).
+Ulrich Stern
+
+Portrayed by: Quentin Merabet
+A more reserved member of the group, Ulrich has been implanted with some of XANA's source codes and is a target for its polymorphic specters.
+Yumi Ishiyama
+
+Portrayed by: Mélanie Tran
+A fairly reserved student who lives near and attends Kadic. She is the oldest of the group. She is of Japanese descent.
+William Dunbar
+
+Portrayed by: Diego Mestanza
+An overconfident student in Yumi's class. William is initially kept uninformed about XANA's return because the group are distrustful of him.
+Laura Gauthier
+
+Portrayed by: Pauline Serieys
+The temporary seventh member of the Lyoko Warriors.
+
+Antagonists
+XANA
+
+A very powerful and dangerous multi-agent system or artificial intelligence that returns from Code Lyoko to serve as the main antagonist of the new series.
+XANA's Monsters
+
+The virtual creatures XANA uses to protect the towers it has activated and try to stop the heroes from accessing them, or to stop them from reaching the center of the Cortex.
+Professor Lowell Tyron
+
+Portrayed by: Franck Beckmann
+The secondary antagonist, responsible for the creation of the Cortex within his own quantum supercomputer in Switzerland.
+Ninjas
+
+Human avatars, similar to the five Lyoko Warriors, that are sent to the Cortex by Professor Tyron when necessary from his laboratory somewhere in Switzerland.
+
+Supporting
+Jim Morales (French: Jim Moralès)
+
+Portrayed by: Bastien Thelliez
+The physical education teacher at Kadic Academy and the chief disciplinarian.
+Samantha Suarez
+
+Portrayed by: Louise Vallat
+Odd's love interest.
+Anthea Schaeffer
+
+Portrayed by: Sandrine Rigaux
+The long-lost mother of Aelita and widow of the late Waldo Franz Shaffer.
+Elisabeth "Sissi" Delmas
+
+Portrayed by: Clémency Haynes
+The principal's daughter and a student at Kadic Academy.
+Jean-Pierre Delmas
+
+Portrayed by: Eric Soubelet.
+The principal of Kadic Academy and Sissi's father.
+Suzanne Hertz
+
+Portrayed by: Sophie Fougère
+A science teacher at Kadic who replaced Franz Hopper, as she was once his assistant.
+Waldo Franz Schaeffer
+
+Portrayed by: Hugues Massinat.
+Primarily known by his alias, Franz Hopper, he is the late father of Aelita and first husband of Anthea Hopper-Tyron.
+
+Filming and production
+The budget for the series was expected to be €5,600,000.
+Jérôme Mouscadet, who served as director of Code Lyoko, and Sophie Decroisette, head writer for the original show's first 3 seasons, were involved early in Evolution before leaving due to creative differences. Decroisette specifically wrote the bible for Evolution and synopses for the first couple episodes with Mouscadet, but ultimately left after "I... saw that production wanted to be on a particular story level that didn't agree with my ideas for the series."

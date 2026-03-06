@@ -1,0 +1,18 @@
+Cluely is an artificial intelligence startup founded in 2025 that provides real-time AI assistance during virtual meetings and interviews. The company attracted significant controversy and media attention for its initial "cheat on everything" marketing campaign, before pivoting to position itself as a conventional AI meeting assistant.
+
+History
+Founding
+Cluely was founded by Chungin "Roy" Lee, Neel Shanmugam, and Alex Chen, following Lee and Shanmugam's suspension from Columbia University in March 2025. The suspension resulted from their creation of Interview Coder, a Chrome browser extension that provided AI-generated coding solutions for LeetCode exercises during technical job interviews.
+The company officially launched on April 20, 2025, generating 70,000 user signups within the first week.
+
+Funding
+Cluely announced $5.3 million in seed funding on April 21, 2025, co-led by Abstract Ventures and Susa Ventures. On June 20, 2025, the company raised an additional $15 million Series A round led by Andreessen Horowitz, bringing total funding to $20.3 million.
+
+Product
+Cluely is a desktop application that monitors screen content and audio during virtual meetings. The software uses large language models to generate real-time suggestions for answers to questions through an overlay interface designed to be invisible during screen-sharing. The company has also launched a mobile app which serves as an AI meeting notetaker.
+Independent testing by multiple journalists revealed significant performance issues, including response delays of 5–90 seconds and generic suggestions. Lee later acknowledged to TechCrunch that the product was "in a really raw state" at launch.
+
+Controversy
+Marketing campaign
+Cluely's launch centered on the tagline "Cheat on Everything," with marketing materials explicitly promoting the tool for use during job interviews, exams, and personal interactions. The launch video depicted Lee using the software on a date to fabricate his age, knowledge, and career details.
+By late April 2025, Cluely removed explicit references to cheating on exams and interviews from its website under increased scrutiny. By November 2025, the company had repositioned itself as a standard AI meeting assistant competing with tools like Otter.ai.

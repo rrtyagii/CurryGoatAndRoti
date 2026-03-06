@@ -1,0 +1,19 @@
+Dan Hendrycks (born 1994 or 1995) is an American machine learning researcher. He serves as the director of the Center for AI Safety, a nonprofit organization based in San Francisco, California.
+
+Early life and education
+Hendrycks was raised in a Christian evangelical household in Marshfield, Missouri. He received a B.S. from the University of Chicago in 2018 and a Ph.D. from the University of California, Berkeley in Computer Science in 2022.
+
+Career and research
+Hendrycks' research focuses on topics that include machine learning safety, machine ethics, and robustness.
+He credits his participation in the effective altruism (EA) movement-linked 80,000 Hours program for his career focus towards AI safety, though denies being an advocate for EA.
+Hendrycks is the main author of the research paper that introduced the activation function GELU in 2016, and of the paper that introduced the language model benchmark MMLU (Massive Multitask Language Understanding) in 2020.
+In February 2022, Hendrycks co-authored recommendations for the US National Institute of Standards and Technology (NIST) to inform the management of risks from artificial intelligence.
+In September 2022, Hendrycks wrote a paper providing a framework for analyzing the impact of AI research on societal risks. He later published a paper in March 2023 examining how natural selection and competitive pressures could shape the goals of artificial agents. This was followed by "An Overview of Catastrophic AI Risks", which discusses four categories of risks: malicious use, AI race dynamics, organizational risks, and rogue AI agents.
+Hendrycks is the safety adviser of xAI, an AI startup company founded by Elon Musk in 2023. To avoid any potential conflicts of interest, he receives a symbolic one-dollar salary and holds no company equity. In November 2024, he also joined Scale AI as an advisor collecting a one-dollar salary. Hendrycks is the creator of Humanity's Last Exam, a benchmark for evaluating the capabilities of large language models, which he developed in collaboration with Scale AI.
+In 2024, Hendrycks published the textbook Introduction to AI Safety, Ethics, and Society, based on courseware he had previously developed.
+
+Selected publications
+Hendrycks, Dan; Gimpel, Kevin (2020-07-08). "Gaussian Error Linear Units (GELUs)". arXiv:1606.08415 [cs.LG].
+Hendrycks, Dan; Gimpel, Kevin (2018-10-03). "A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks". International Conference on Learning Representations 2017. arXiv:1610.02136.
+Hendrycks, Dan; Mazeika, Mantas; Dietterich, Thomas (2019-01-28). "Deep Anomaly Detection with Outlier Exposure". International Conference on Learning Representations 2019. arXiv:1812.04606.
+Hendrycks, Dan; Mazeika, Mantas; Zou, Andy (2021-10-25). "What Would Jiminy Cricket Do? Towards Agents That Behave Morally". Conference on Neural Information Processing Systems 2021. arXiv:2110.13136.

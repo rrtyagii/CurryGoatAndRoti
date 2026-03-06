@@ -1,0 +1,1 @@
+Phrase chunking is a phase of natural language processing that separates and segments a sentence into its subconstituents, such as noun, verb, and prepositional phrases, abbreviated as NP, VP, and PP, respectively. Typically, each subconstituent or chunk is denoted by brackets.

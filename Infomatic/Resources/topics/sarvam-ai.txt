@@ -1,0 +1,40 @@
+Sarvam AI is an Indian artificial intelligence startup focused on building large language models. These large language models (LLMs) are customised for Indian Languages and contexts. The company focuses on building efficient Indian language voice bots and productivity tools for knowledge workers. The company's mission is to build a full-stack AI system designed to operate at scale and address the needs of a highly diverse population.
+
+History
+The company was founded in 2023 by Vivek Raghavan and Pratyush Kumar, Pratyush is also a co-founder of AI4Bharat a research lab at IIT Madras, is dedicated to advancing AI technology for Indian languages through open-source contributions.
+The company was launched with the goal of addressing the gap in AI models optimized for India's linguistic diversity. Sarvam AI works on building foundational models designed to handle cultural, linguistic, and contextual nuances specific to India.
+
+Technology
+Sarvam AI is developing large language models tailored for Indian languages such as Hindi, Tamil, Telugu, Kannada and  further more regional languages. Unlike the other LLMs, Sarvam's models are trained with India-specific datasets so that they can  understand cultural references, idiomatic expressions, and multilingual switching.
+The company provides APIs and developer tools for integrating its language models into business applications, including chatbots, voice assistants and content-generation tools. The company also provides APIs for enterprises to integrate language models into their own applications.
+
+Funding
+In December 2023,  Sarvam AI raised $41 million in Series A round. The   AI startup was funded by Lightspeed venture partners,  followed by Peak XV Partners and Khosla Ventures.This investment was one of the largest early-stage funding rounds for an Indian AI startup during that period.
+The funds are being majorly  used to expand Sarvam AI’s research and development work, scale up infrastructure and find sharp minds to accomplish the company vision.
+The startup plans to deploy the fresh proceeds to build a full-stack for GenAI ranging from research-led innovations in custom AI model training to an enterprise-grade platform for authoring and deployment.
+
+Partnerships and Collaborations
+On 26 April 2025, the  IT Minister of India  Ashwini Vaishnaw selected Sarvam AI  as the first startup out of the 67 companies that were  shortlisted to develop India’s first indigenous foundational model under the  IndiaAI Mission. The Government selected Sarvam to build the country's first indigenous large language model, the company will receive complete support from the government in terms of compute resources to build the entire model from the scratch. The company will be granted access to 4,000 graphics processing units (GPUs) for six months to support the development and training of its AI model. While the model is not anticipated to be open-sourced, it will be specifically fine-tuned for Indian languages. The GPUs will be supplied to Sarvam by firms appointed by the Indian government to establish AI data centres nationwide. Sarvam's model will be developed, deployed, and optimised within India, utilising domestic infrastructure and created by emerging Indian talent. The initiative is intended to enhance strategic autonomy, foster indigenous innovation, and strengthen India’s long-term leadership in the field of artificial intelligence.
+The Unique Identification Authority of India (UIDAI) has partnered with Sarvam AI to enhance user experience like AI powered voice based interactions, multilingual ai support for wider accessibility  and commitment to user centric information. The AI-powered system will provide Aadhaar number holders with near real-time feedback, including alerts about possible overcharging during enrolment or updates. It will also send instant fraud notifications in the event of suspicious activity during authentication.
+The company collaborated with the tech gaint Microsoft to build  Indic voice large language model (LLM)  which will be available on the platform azure. This partnership aims to enhance the accessibility of AI technologies tailored to Indian languages and dialects.
+Sarvam AI has partnered with AI4Bharat and academic institutions to leverage open-source datasets and research for regional language development.
+AI Alliance — a global consortium championing open-source artificial intelligence and co-led by companies such as Meta and IBM — announced the addition of seven new Indian members including Sarvam AI, Infosys, AI4Bharat (IIT Madras), IIT Jodhpur, KissanAI, People+AI,  and Wadhwani AI. [1]
+
+Reception
+Sarvam AI’s approach to developing India-first AI models has been noted by industry analysts as a significant move toward AI inclusivity and accessibility in non-English speaking markets. Analysts praised  the efforts of Sarvam AI for an filling an important gap by focusing on India's prioritizing linguistic diversity  and creating AI tools that work for people across the country, regardless of their language. Sarvam AI’s collaborations with academic institutions and contributions to open research have been cited as efforts that promote transparency and foster a broader ecosystem for indigenous AI innovation.
+
+Sarvam AI Products
+Sarvam Agents
+The agents are voice enabled, multilingual AI-based agents which are deployable over phone, WhatsApp and other inbuilt app surfaces. They are available in 10 Indian languages including Hindi, Tamil, Telugu, Malayalam, Odia, Gujarati, Kannada and Bengali.These agents are majorly designed for the applications such as customer service calls. Sarvam AI helped other companies to deploy the agents.
+
+Sarvam 2B
+Sarvam 2B is India’s first foundational, open-source, 2-billion-parameter Indic small language model (SLM). It is trained on a proprietary dataset of 4 trillion tokens, Sarvam 2B supports tasks like translation and summarization in vernacular languages. It is optimized for efficiency and cost-effectiveness, aiming to perform better at Indian language tasks than international models like Meta’s Llama.
+
+Shuka 1.0
+Shukla 1.0 is India's first open source Audio Language Model. It takes Indian language as an voice input and generates accurate text output.
+
+Sarvam Models
+Sarvam Models is an collection of API's which are providing access to Sarvam's  Indic models  which are used in its agents. They include models  for translation, speech recognition and document parsing.
+
+A1
+This product  is specially designed for the legal sector. It offers services like regulatory chat, document drafting and data extraction which will enhance  productivity of the legal workforce. It also helps in drafting the contracts and sharing purchase agreement.

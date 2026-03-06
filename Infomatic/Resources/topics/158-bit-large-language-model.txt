@@ -1,0 +1,31 @@
+A 1.58-bit large language model (also known as a ternary LLM) is a type of large language model (LLM) designed to be computationally efficient. It achieves this by using weights that are restricted to only three values: -1, 0, and +1. This restriction significantly reduces the model's memory footprint and allows for faster processing, as computationally expensive multiplication operations can be replaced with lower-cost additions. This contrasts with traditional models that use 16-bit floating-point numbers (FP16 or BF16) for their weights.
+Studies have shown that for models up to several billion parameters, the performance of 1.58-bit LLMs on various tasks is comparable to their full-precision counterparts. This approach could enable powerful AI to run on less specialized and lower-power hardware.
+The name "1.58-bit" comes from the fact that a system with three states contains
+
+
+
+
+          log
+
+            2
+
+
+        ⁡
+        3
+        ≈
+        1.58
+
+
+    {\displaystyle \log _{2}3\approx 1.58}
+
+ bits of information. These models are sometimes also referred to as 1-bit LLMs in research papers, although this term can also refer to true binary models (with weights of -1 and +1).
+
+BitNet
+In 2024, Ma et al., researchers at Microsoft, declared that their 1.58-bit model, BitNet b1.58 is comparable in performance to the 16-bit Llama 2 and opens the era of 1-bit LLM. BitNet creators did not use the post-training quantization of weights  but instead relied on the new BitLinear transform that replaced the nn.Linear layer of the traditional transformer design.
+In 2025, Microsoft researchers had released an open-weights and open inference code model BitNet b1.58 2B4T demonstrating performance competitive with the full precision models at 2B parameters and 4T training tokens.
+
+Post-training quantization
+BitNet derives its performance from being trained natively in 1.58 bit instead of being quantized from a full-precision model after training. Still, training is an expensive process and it would be desirable to be able to somehow convert an existing model to 1.58 bits. In 2024, HuggingFace reported a way to gradually ramp up the 1.58-bit quantization in fine-tuning an existing model down to 1.58 bits.
+
+Critique
+Some researchers point out that the scaling laws of large language models favor the low-bit weights only in case of undertrained models. As the number of training tokens increases, the deficiencies of low-bit quantization surface.

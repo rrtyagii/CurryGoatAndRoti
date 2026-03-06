@@ -1,0 +1,1 @@
+A Hosaka plot is a graphical depiction used to evaluate the quality of a compressed image. A Hosaka plot shows  noise levels at a number of scales. Hosoka plots are named after K. Hosoka, who wrote about them in 1986.

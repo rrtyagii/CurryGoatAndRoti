@@ -1,0 +1,19 @@
+Emmanuel Roberto Goffi (born December 10, 1971) is a French-Canadian philosopher of technology and ethicist specializing in artificial intelligence (AI) and multicultural ethics. He is currently a professor of ethics at Isep – École d’ingénieurs du numérique in Paris and serves as an ethics advisor and consultant to various international organizations.
+Goffi is recognized for his critical work on cosm-ethics (cosm-éthique), a concept emphasizing the gap between ethics as rhetorical branding and ethics as substantive, pluralistic moral practice in the governance of AI.
+
+Philosophical contributions
+A focal point of Goffi’s scholarship is the concept of cosm-ethics, which he articulates as a critique of the superficial deployment of "ethics" in AI discourse without earnest engagement in moral deliberation and social responsibility. Echoing and expanding on ideas from Institut Sapiens, Goffi exposes how cosm-ethics risks becoming ethical window dressing divorced from accountability and praxis. He urges a transition from performative ethics to ethics conceived as a sustained, intercultural, and reflexive practice—one that confronts moral complexity and institutional power honestly.
+
+Narrative and AI ethics
+Goffi has also explored the crucial role of narrative in shaping how AI ethics is conceptualized and operationalized. He argues that dominant narratives within AI ethics simplify complex ethical realities, often framing AI as an inherently objective or neutral force divorced from cultural context. According to Goffi, such narratives shape policy and public understanding in ways that can obscure power imbalances and marginalize pluralistic ethical perspectives. By critically examining these narratives, Goffi advocates for greater reflexivity about the stories told about AI ethics to foster more inclusive and socially responsive governance frameworks.
+
+Multicultural ethics and AI governance
+Goffi advocates strongly for an intercultural ethics of AI that resists Western-centric universalism by embedding pluralism and cultural diversity into the heart of ethical deliberation and governance frameworks. His approach stresses that global AI governance must incorporate diverse philosophical traditions, including African Ubuntu, Asian relational ethics, Indigenous knowledges, and other non-Western moral systems, to contest hegemonic ethical paradigms and build more equitable and contextually sensitive policies.
+He emphasizes that intercultural ethics is not simply additive diversity but requires transformative dialogue. This means re-examining foundational assumptions about values such as autonomy, justice, and responsibility through multiple cultural lenses to foster ethical pluralism without relativism. Goffi’s work includes developing training programs and consultancy engagements designed to operationalize multicultural ethics at both theoretical and practical levels across international organizations and industry.
+By championing this pluralistic and dialogical ethics, Goffi contributes to constructing AI governance models that are more socially just, culturally resonant, and globally legitimate.
+
+Selected publications
+Les armées françaises face à la morale. Une réflexion au cœur des conflits modernes, L’Harmattan, 2011.
+Co-editor, Les drones aériens: passé, présent et avenir. Approche globale, La Documentation française, 2013.
+Goffi, Emmanuel R., “Teaching Ethics Applied to AI from a Cultural Standpoint: What African ‘AI Ethics’ for Africa?” in Caitlin C. Corrigan et al. (eds), African AI Ethics Perspectives, 2023.
+Goffi, Emmanuel R., “Respecting Cultural Diversity in Ethics Applied to AI: A New Approach for Multicultural Governance,” Revista Misión Jurídica, 2022.

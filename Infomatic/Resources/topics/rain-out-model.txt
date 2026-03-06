@@ -1,0 +1,148 @@
+The rain-out model is a model of planetary science that describes the first stage of planetary differentiation and core formation. According to this model, a planetary body is assumed to be composed primarily of silicate minerals and NiFe (i.e. a mixture of nickel and iron). If temperatures within this body reach about 1500 K, the minerals and the metals will melt. This will produce an emulsion in which globules of liquid NiFe are dispersed in a magma of liquid silicates, the two being immiscible. Because the NiFe globules are denser than the silicates, they will sink under the influence of gravity to the centre of the planetary body—in effect, the globules of metal will "rain out" from the emulsion to the centre, forming a core.
+According to the rain-out model, core formation was a relatively rapid process, taking a few dozen millennia to reach completion. This occurred at the end of a lengthy process in which the planets were assembled from colliding planetary embryos. Only the collisions of such large embryos could generate enough heat to melt entire bodies. Furthermore, it was only after all of the iron and nickel delivered by impacting bodies had arrived that core formation could proceed to completion.
+However, this process of core formation was preceded by a long period of partial differentiation, in which some of the nickel and iron within the planetary embryos had begun to separate.
+The rain-out model can be invoked to explain core formation in all the terrestrial planets, given that these consist primarily of silicates, nickel and iron. It can also be adapted to account for core formation in smaller bodies composed of ices and silicates. In such a case, it would be the denser silicates which would rain out to form a rocky core, while the volatile components would form an icy mantle.
+
+History
+The rain-out model was first presented in 1978 and then again in 1980 in a series of articles by Wayne L. Slattery of the Harvard-Smithsonian Center for Astrophysics published in Earth, Moon, and Planets (then titled The Moon and the Planets). In this article, Slattery presented his theoretical reasoning about how conditions in the molten materials of protoplanetary terrestrials paralleled those of Earth's modern day atmosphere. This claim did not gain much traction at the time and was grouped with other little-known hypotheses of the day.
+
+Physical mechanism
+Slattery's work provided rigorous mathematical modeling using the stochastic collection equation:
+
+
+
+
+
+
+              ∂
+              f
+              (
+              x
+              )
+
+
+              ∂
+              t
+
+
+
+        =
+
+          ∫
+
+            0
+
+
+            x
+
+              /
+
+            2
+
+
+        f
+        (
+        x
+        −
+
+          x
+          ′
+
+        )
+        V
+        (
+        x
+        −
+
+          x
+          ′
+
+        ,
+
+          x
+          ′
+
+        )
+        f
+        (
+
+          x
+          ′
+
+        )
+        d
+
+          x
+          ′
+
+        −
+
+          ∫
+
+            0
+
+
+            ∞
+
+
+        f
+        (
+        x
+        )
+        V
+        (
+        x
+        ,
+
+          x
+          ′
+
+        )
+        f
+        (
+
+          x
+          ′
+
+        )
+        d
+
+          x
+          ′
+
+
+
+    {\displaystyle {\partial f(x) \over \partial t}=\int _{0}^{x/2}f(x-x')V(x-x',x')f(x')dx'-\int _{0}^{\infty }f(x)V(x,x')f(x')dx'}
+
+
+where
+
+
+
+        f
+        (
+        x
+        )
+
+
+    {\displaystyle f(x)}
+
+ is the number density function (quantity of drops per unit volume) and
+
+
+
+        V
+        (
+        x
+        ,
+
+          x
+          ′
+
+        )
+
+
+    {\displaystyle V(x,x')}
+
+ is the collection kernel (a function that describes drop collision probabilities). This equation was originally developed for a meteorological application: modeling how the small droplets of water in clouds coalesce into progressively larger drops that eventually rain-out from the clouds.
+In the case of planetary core formation, these initial droplets are analogous to the small particles of metal emulsified in the liquid silicates of a protoplanet. The essence of the rain-out model of planetary core formation, is that these conditions can be treated with the stochastic collection equation.

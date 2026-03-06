@@ -1,0 +1,17 @@
+Internet Video Coding (ISO/IEC 14496-33, MPEG-4 IVC) is a video coding standard. IVC was created by MPEG, and was intended to be a royalty-free video coding standard for use on the Internet, as an alternative to non-free formats such as AVC and HEVC. As such, IVC was designed to only use (mostly old) coding techniques which were not covered by royalty-requiring patents.
+According to a blog post by MPEG founder and chairman Leonardo Chiariglione in 2018, "IVC is practically dead." He said that three companies had made statements equivalent to "I may have patents and I am willing to license them at FRAND terms" covering IVC, meaning that implementations might have to pay money to the companies. These statements meant that IVC was not clearly a royalty-free video coding format; those companies would need to be contacted to determine whether they had essential patents and to determine the terms for their use –  which might involve the payment of some fees.
+The ITU-T/ITU-R/ISO/IEC patent policy defines three types of patent licensing. The goal for IVC was to only use techniques patented under type 1 (royalty-free), while the three companies said they may have patents under type 2 (possibly requiring royalty payments). The text of the code of practice is as follows:
+
+2.1 The patent holder is willing to negotiate licences free of charge with other parties on a non-discriminatory basis on reasonable terms and conditions. Such negotiations are left to the parties concerned and are performed outside ITU-T/ITU-R/ISO/IEC.
+2.2 The patent holder is willing to negotiate licences with other parties on a non-discriminatory basis on reasonable terms and conditions. Such negotiations are left to the parties concerned and are performed outside ITU-T/ITU-R/ISO/IEC.
+
+2.3 The patent holder is not willing to comply with the provisions of either paragraph 2.1 or paragraph 2.2; in such case, the Recommendation | Deliverable shall not include provisions depending on the patent.
+
+History
+MPEG issued a Call for Proposals in July 2011 for royalty-free video coding formats. Three proposals were received:
+
+Web Video Coding (WVC), proposed jointly by Apple, Cisco, Fraunhofer HHI, Magnum Semiconductors, Polycom, RIM, etc.. Web Video Coding was another name for the Constrained MPEG-4 AVC baseline profile.
+Video Coding for Browsers (VCB), proposed by Google and identical to Google's VP8.
+Internet Video Coding (IVC), proposed by several universities (Peking University, Tsinghua University, Zhejiang University, Hanyang University, Korea Aerospace University, etc.), and developed from scratch.
+Web Video Coding did not have a guarantee from all patent holders that the patents covering Web Video Coding would be licensed royalty-free.
+IVC's compression performance was reported to be better than that of WVC and VCB, and IVC was approved as ISO/IEC 14496–33 in June 2015.

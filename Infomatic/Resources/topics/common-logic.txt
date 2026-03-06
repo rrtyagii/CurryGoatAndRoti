@@ -1,0 +1,15 @@
+Common Logic (CL) is a framework for a family of logic languages, based on first-order logic, intended to facilitate the exchange and transmission of knowledge in computer-based systems.
+The CL definition permits and encourages the development of a variety of different syntactic forms, called dialects.  A dialect may use any desired syntax, but it must be possible to demonstrate precisely how the concrete syntax of a dialect conforms to the abstract CL semantics, which are based on a model theoretic interpretation. Each dialect may be then treated as a formal language. Once syntactic conformance is established, a dialect gets the CL semantics for free, as they are specified relative to the abstract syntax only, and hence are inherited by any conformant dialect. In addition, all CL dialects are comparable (i.e., can be automatically translated to a common language), although some may be more expressive than others.
+In general, a less expressive subset of CL may be translated to a more expressive version of CL, but the reverse translation is only defined on a subset of the larger language.
+
+The ISO Standard
+Common Logic is published by ISO as "ISO/IEC 24707:2007 - Information technology — Common Logic (CL): a framework for a family of logic-based languages".  It is available for purchase from ISO's catalog, and is freely available from ISO's index of publicly available standards.
+The CL Standard includes specifications for three dialects, the Common Logic Interchange Format (CLIF) (Annex A), the Conceptual Graph Interchange Format (CGIF) (Annex B), and an XML-based notation for Common Logic (XCL) (Annex C).
+The semantics of these dialects are defined in the Standard by their translation to the abstract syntax and semantics of Common Logic.
+Many other logic-based languages could also be defined as subsets of CL by means of similar translations; among them are the RDF and OWL languages, which have been defined by the W3C.
+The ISO standard's development began in June 2003 under Working Group 2 (Metadata) of Sub-Committee 32 (Data Interchange) under ISO/IEC JTC 1, and was completed in October 2007. A technical corrigendum, correcting some errors in the original standard, is being prepared at the time being.
+
+Implementations
+COLORE is a repository of Common Logic Ontologies
+Hets supports Common Logic
+cltools is a PROLOG library with partial support for Common Logic

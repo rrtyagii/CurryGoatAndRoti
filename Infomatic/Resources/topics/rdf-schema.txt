@@ -1,0 +1,99 @@
+RDF Schema (Resource Description Framework Schema, variously abbreviated as RDFS, RDF(S), RDF-S, or RDF/S) is a set of classes with certain properties using the RDF extensible knowledge representation data model, providing basic elements for the description of ontologies. It uses various forms of RDF vocabularies, intended to structure RDF resources. RDF and RDFS can be saved in a triplestore, then one can extract some knowledge from them using a query language, like SPARQL.
+The first version was published by the World-Wide Web Consortium (W3C) in April 1998, and the final W3C recommendation was released in February 2014. Many RDFS components are included in the more expressive Web Ontology Language (OWL).
+
+Terminology
+RDFS constructs are the RDFS classes, associated properties and utility properties built on the vocabulary of RDF.
+
+Classes
+rdfs:Resource
+Represents the class of everything. All things described by RDF are resources.
+rdfs:Class
+An rdfs:Class declares a resource as a class for other resources.
+A typical example of an rdfs:Class is foaf:Person in the Friend of a Friend (FOAF) vocabulary. An instance of foaf:Person is a resource that is linked to the class foaf:Person using the rdf:type property, such as in the following formal expression of the natural-language sentence: 'John is a Person'.
+
+ex:John       rdf:type        foaf:Person
+
+The definition of rdfs:Class is recursive: rdfs:Class is the class of classes, and so it is an instance of itself.
+
+rdfs:Class    rdf:type        rdfs:Class
+
+The other classes described by the RDF and RDFS specifications are:
+
+rdfs:Literal
+literal values such as strings and integers. Property values such as textual strings are examples of RDF literals. Literals may be plain or typed.
+rdfs:Datatype
+the class of datatypes. rdfs:Datatype is both an instance of and a subclass of rdfs:Class. Each instance of rdfs:Datatype is a subclass of rdfs:Literal.
+rdf:XMLLiteral
+the class of XML literal values. rdf:XMLLiteral is an instance of rdfs:Datatype (and thus a subclass of rdfs:Literal).
+rdf:Property
+the class of properties.
+
+Properties
+Properties are instances of the class rdf:Property and describe a relation between subject resources and object resources. When used as such a property is a predicate (see also RDF: reification).
+
+rdfs:domain
+the rdfs:domain of an rdf:Property declares the class of the subject in a triple whose predicate is that property.
+rdfs:range
+the rdfs:range of an rdf:Property declares the class or datatype of the object in a triple whose predicate is that property.
+For example, the following declarations are used to express that the property ex:employer relates a subject, which is of type foaf:Person, to an object, which is of type foaf:Organization:
+
+ex:employer	  rdfs:domain  	  foaf:Person
+ex:employer	  rdfs:range	  foaf:Organization
+
+Given the previous two declarations, from the triple:
+
+ex:John		  ex:employer	  ex:CompanyX
+
+can be inferred (resp. follows) that ex:John is a foaf:Person, and ex:CompanyX is a foaf:Organization.
+
+rdf:type
+a property used to state that a resource is an instance of a class.  A commonly accepted QName for this property is "a".
+rdfs:subClassOf
+allows declaration of hierarchies of classes.
+For example, the following declares that 'Every Person is an Agent':
+
+foaf:Person	  rdfs:subClassOf	  foaf:Agent
+
+Hierarchies of classes support inheritance of a property domain and range (see definitions in the next section) from a class to its subclasses.
+
+rdfs:subPropertyOf
+an instance of rdf:Property that is used to state that all resources related by one property are also related by another.
+rdfs:label
+an instance of rdf:Property that may be used to provide a human-readable version of a resource's name.
+rdfs:comment
+an instance of rdf:Property that may be used to provide a human-readable description of a resource.
+
+Utility properties
+rdfs:seeAlso
+an instance of rdf:Property that is used to indicate a resource that might provide additional information about the subject resource.
+rdfs:isDefinedBy
+an instance of rdf:Property that is used to indicate a resource defining the subject resource. This property may be used to indicate an RDF vocabulary in which a resource is described.
+
+RDFS entailment
+An entailment regime defines whether the triples in a graph are logically contradictory or not. RDFS entailment  is not very restrictive, i.e. it does not contain a large amount of rules (compared, for example, to OWL) limiting what kind of statements are valid in the graph. On the other hand it is also not very expressive, meaning that the semantics that can be represented in a machine-interpretable way with the graph is quite limited.
+Below in a simple example of the capabilities and limits of RDFS entailment, we start with a graph containing the following explicit triples:
+
+foo:SomeGiraffe rdf:type bar:Animal.
+foo:SomeElephant rdf:type bar:Elephant.
+foo:SomeZoo rdf:type bar:Zoo.
+bar:livesInZoo rdfs:domain bar:Animal.
+bar:livesInZoo rdfs:range bar:Zoo.
+foo:SomeElephant bar:livesInZoo foo:SomeZoo.
+
+Without enabling inferencing with RDFS entailment, the data we have does not tell us whether foo:SomeElephant is a bar:Animal. When we do RDFS-based inferencing, we will get the following extra triple:
+
+foo:SomeElephant rdf:type bar:Animal.
+
+The rdfs:domain statement dictates that any subject in triples where bar:livesInZoo is the predicate is of type bar:Animal. What RDFS entailment is not able to tell us is the relationship between bar:Animal and bar:Elephant. Due to inferencing we now know that foo:SomeElephant is both bar:Animal and bar:Elephant so these classes do intersect but there is no information to deduce whether they merely intersect, are equal or have a subclass relationship.
+In RDFS 1.1, the domain and range statements do not carry any formal meaning and their interpretation is left up to the implementer. On the other hand in the 1.2 Working draft they are used as entailment rules for inferencing the types of individuals. Nevertheless in both versions, it is very clearly stated that the expected functionality of range is "the values of a property are instances of one or more classes" and domain "any resource that has a given property is an instance of one or more classes".
+The example above demonstrated some of the limits and capabilities of RDFS entailment, but did not show an example of a logical inconsistency (which could in layman terms be interpreted as a "validation error"), meaning that the statements the triples make are in conflict and try to express contradictory states of affairs. An example of this in RDFS would be having conflicting datatypes for objects (e.g. declaring a resource to be of type xsd:integer and being also declared to be xsd:boolean when inferencing is enabled).
+
+Examples of RDF vocabularies
+RDF vocabularies represented in RDFS include:
+
+FOAF: the source of the FOAF Vocabulary Specification is RDFS written in the RDFa syntax.
+Dublin Core: RDFS source is available in several syntaxes
+Schema.org: the source of their schema was originally RDFS written in the RDFa syntax until July 2020.
+Simple Knowledge Organization System (SKOS) developed the RDF schema titled as SKOS XL Vocabulary, which is an OWL ontology for the SKOS vocabulary that uses the OWL RDF/XML syntax, and hence makes use of a number of classes and properties from RDFS.
+The Library of Congress defines an RDF schema titled Metadata Authority Description Schema in RDF, or MADS/RDF for short. From the abstract, it is intended for use within their library and "information science (LIS) community". It allows for annotating special relational data, such as if an individual within a family is well-known via madsrdf:prominentFamilyMember.
+The UniProt database has an RDF schema for describing biochemical data, and is specialized towards describing proteins.

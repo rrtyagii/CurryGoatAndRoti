@@ -1,0 +1,1 @@
+Lexical simplification is a sub-task of text simplification. It can be defined as any lexical substitution task that reduces text complexity.

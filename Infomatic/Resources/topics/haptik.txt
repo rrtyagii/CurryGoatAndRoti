@@ -1,0 +1,47 @@
+Haptik is an Indian enterprise conversational AI platform founded in August 2013, and acquired by Reliance Industries Limited in 2019. Haptik was the pioneer chatbot and one of the first modern Conversational AI and Generative AI. The company develops technology to enable enterprises to build conversational AI systems that allow users to converse with applications and electronic devices in free-format, natural language, using speech or text. The company has been accorded numerous accolades including the Frost & Sullivan Award, NASSCOM's Al Game Changer Award, and serves Fortune 500 brands globally in industries such as financial, insurance, healthcare, technology and communications.
+
+History
+Haptik was founded by Aakrit Vaish and Swapan Rajdev, in August 2013. The company launched its first product Haptik app in March 2014, which is a chat-based personal assistant which lets its users get things done for Android and iOS platforms in India. By September 2014, the platform added 125 chat experts who helped users with their queries.
+Over time the company upgraded it into a complete conversational commerce app. The app received 2 million downloads and 15 million installations.
+In August 2015, Dan Roth joined Haptik's board of advisers who helped scale the platform's Natural language processing (NLP). In the same year, Haptik was appointed as the official personal assistant of Mumbai City FC. It also provided a customer support chatbot to SwipeTelecom.
+In November 2017, the company launched a full-scale enterprise-level bot management platform including an analytics dashboard.
+In 2019, Haptik launched a voice bot for one of the largest food chains in the world, allowing its customers to place orders using Alexa. It also helps users find the nearest outlet of the food chain and provides information on product availability on a real-time basis.
+In March 2019, the Government of Maharashtra signed a partnership pact with Haptik to develop a chatbot for its Aaple Sarkar platform. The bot provides conversational access to information regarding 1,400 services managed by the state government.
+In April 2019, Reliance Jio bought an 87% stake in the company in a $100 million deal. This was followed by the acquisition of Mumbai-based start-up, Buzzo.ai, that develops customizable Artificial Intelligence software for e-commerce.
+In April 2019 Reliance Jio Infocom Ltd bought an 87% stake in the company in a $100 million deal. The company was renamed Jio Haptik Technologies Ltd. Jio is a $65 billion Internet conglomerate, with businesses across Telecom, E-commerce, Media & Entertainment, Healthcare, and more.
+In July 2019, Haptik acquired Los-Angeles based startup, Convrg to expand its technical expertise and business outreach in North America.
+After getting acquired by Reliance Jio, Haptik acquired a Mumbai-based start-up, Buzzo.ai, which develops customizable Artificial Intelligence software for e-commerce. The combined reach of Jio Platforms is close to 500 million customers and it counts marquee names such as Google, Facebook, Silver Lake, KKR amongst some of its notable investors.
+In November 2019, the company appointed Saumil Shah as the Vice President of Engineering.
+In December 2019, Haptik developed a chatbot for Tata Mutual Fund called 'Prof. Simply Simple' that helps with resolving routine, repetitive queries, and frees the customer support team to solve complex queries.
+In March 2020, The Government of India launched a WhatsApp chatbot called MyGov Corona Helpdesk to create awareness about coronavirus. The bot was built by Haptik.
+In October 2021 Haptik launched Interakt App for MSMEs: The launch came amid the growth of Direct To Consumer (D2C) brands on the internet that were looking to leverage personalised interactions with customers through chat platforms such as WhatsApp.
+In December 2021, Haptik was awarded a special honour by the Minister of State for External Affairs - Meenakshi Lekhi, for partnering with Mygov on the Corona Helpdesk.
+In 2022, the company has also announced to build a chatbot for RedDoorz, a hotel management and ticket booking platform in Indonesia.
+
+Products built
+Self-serve Enterprise CX platform that helps launch Intelligent Virtual Assistants
+Life insurance chatbot that acts as a financial guide to help users choose appropriate life insurance plans based on 60-second quiz
+Voice bot that helps the food chain customers to place orders and find the nearest outlet and provides real-time availability status of products
+A chatbot for a state government that provides conversational access to the government's 1400 services
+WhatsApp Chatbots pertaining to various industries like e-commerce, financial sectors, and telecom sector
+WhatsApp chatbot that provides coronavirus-related information in English and Hindi to 50 million users and also gives key information on Co-Win.
+
+Partnership and customer base
+Haptik built the world's largest WhatsApp chatbot for COVID-19. This was the official helpline for the Government of India which was utilized by over 21 million users across the country. The MyGov Corona Helpdesk was engineered to fight rumors, educate the masses and bring a sense of calm to the pandemic situation. Haptik built the Helpdesk ground-up using official data shared by the Government.
+Kotak Life partnered with Haptik to develop an AI-driven conversational assistant called KAYA which provides 24X7 assistance to consumers.
+The company partnered with Amazon Pay, HDFC Life, Ola Cabs, Uber, Times Internet, Mumbai City FC, Coca-Cola, Ziman, Zomato, BookMyShow, Cleartrip, Goibibo, Zoop, UrbanClap, Via.com, Dineout, Flipkart, and Kotak Life to run campaigns on Haptik app.
+In March 2018, the company partnered with Amazon Web Services (AWS) to provide Al-enabled conversational solutions to customers in India.
+Haptik has entered into a strategic partnership with Y Combinator-backed Leena AI to provide enterprises for all types of bot solutions.
+Haptik's repertoire of chatbot customers in India includes Samsung, Future Group, KFC, Dream11, Sharekhan, Edelweiss, Tokio, Club Mahindra and IIFL among others. Haptik has also built assistants for TOI, Samsung, Ziman and Akancha Against Harassment, an online Cyber Safety Initiative.
+Haptik is one of the world's largest conversational AI platforms. In October 2017, The Times of India app incorporated Haptik's virtual personal assistant service with Sprite as the exclusive brand partner. Samsung was the second partner who uses Haptik to power its 'My Assistant' service that is pre-installed on the Samsung Galaxy S7 and Galaxy S7 Edge in India.
+Haptik built a scalable Support Bot for Dream11 which helped the online handle 8x their volume without a large support staff during IPL 2018.
+
+Funding
+Haptik raised $11.2M in its Series B funding round from Times Internet in April 2016. Times Internet thus acquired a majority stake in Haptik. Earlier, the company had received funding of $1 million from Kalaari Capital in September 2014.
+Haptik is a part of the Reliance Industries Limited, which acquired a majority stake in the company in a $100 million deal in April 2019.
+
+Software overview
+Haptik builds Conversational AI that understands context.
+
+Others
+Haptik has open sourced its proprietary Named Entity Recognition system that powers the chatbots behind Haptik app at the Chatbot Summit held in Berlin on 26 June 2017.

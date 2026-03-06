@@ -1,0 +1,2385 @@
+In image processing, computer vision and related fields, an image moment is a certain particular weighted average (moment) of the image pixels' intensities, or a function of such moments, usually chosen to have some attractive property or interpretation.
+Image moments are useful to describe objects after segmentation. Simple properties of the image which are found via image moments include area (or total intensity), its centroid, and information about its orientation.
+
+Raw moments
+For a 2D continuous function f(x,y) the moment (sometimes called "raw moment") of order (p + q) is defined as
+
+
+
+
+
+          M
+
+            p
+            q
+
+
+        =
+
+          ∫
+
+            −
+            ∞
+
+
+            ∞
+
+
+
+          ∫
+
+            −
+            ∞
+
+
+            ∞
+
+
+
+          x
+
+            p
+
+
+
+          y
+
+            q
+
+
+        f
+        (
+        x
+        ,
+        y
+        )
+
+        d
+        x
+
+        d
+        y
+
+
+    {\displaystyle M_{pq}=\int \limits _{-\infty }^{\infty }\int \limits _{-\infty }^{\infty }x^{p}y^{q}f(x,y)\,dx\,dy}
+
+
+for p,q = 0,1,2,...
+Adapting this to scalar (grayscale) image with pixel intensities I(x,y), raw image moments Mij are calculated by
+
+
+
+
+
+          M
+
+            i
+            j
+
+
+        =
+
+          ∑
+
+            x
+
+
+
+          ∑
+
+            y
+
+
+
+          x
+
+            i
+
+
+
+          y
+
+            j
+
+
+        I
+        (
+        x
+        ,
+        y
+        )
+
+
+
+
+    {\displaystyle M_{ij}=\sum _{x}\sum _{y}x^{i}y^{j}I(x,y)\,\!}
+
+
+In some cases, this may be calculated by considering the image as a probability density function, i.e., by dividing the above by
+
+
+
+
+
+          ∑
+
+            x
+
+
+
+          ∑
+
+            y
+
+
+        I
+        (
+        x
+        ,
+        y
+        )
+
+
+
+
+    {\displaystyle \sum _{x}\sum _{y}I(x,y)\,\!}
+
+
+A uniqueness theorem states that if f(x,y)
+is piecewise continuous and has nonzero values only in a finite part of the xy
+plane, moments of all orders exist, and the moment sequence (Mpq) is uniquely determined by f(x,y). Conversely, (Mpq) uniquely determines f(x,y).  In practice, the image is summarized with functions of a few lower order moments.
+
+Examples
+Simple image properties derived via raw moments include:
+
+Area (for binary images) or sum of grey level (for greytone images):
+
+
+
+
+          M
+
+            00
+
+
+
+
+    {\displaystyle M_{00}}
+
+
+Centroid:
+
+
+
+        {
+
+
+
+              x
+              ¯
+
+
+
+        ,
+
+
+
+
+              y
+              ¯
+
+
+
+        }
+        =
+
+          {
+
+
+
+
+                  M
+
+                    10
+
+
+
+                  M
+
+                    00
+
+
+
+
+            ,
+
+
+
+                  M
+
+                    01
+
+
+
+                  M
+
+                    00
+
+
+
+
+
+          }
+
+
+
+    {\displaystyle \{{\bar {x}},\ {\bar {y}}\}=\left\{{\frac {M_{10}}{M_{00}}},{\frac {M_{01}}{M_{00}}}\right\}}
+
+Central moments
+Central moments are defined as
+
+
+
+
+
+          μ
+
+            p
+            q
+
+
+        =
+
+          ∫
+
+            −
+            ∞
+
+
+            ∞
+
+
+
+          ∫
+
+            −
+            ∞
+
+
+            ∞
+
+
+        (
+        x
+        −
+
+
+
+              x
+              ¯
+
+
+
+
+          )
+
+            p
+
+
+        (
+        y
+        −
+
+
+
+              y
+              ¯
+
+
+
+
+          )
+
+            q
+
+
+        f
+        (
+        x
+        ,
+        y
+        )
+
+        d
+        x
+
+        d
+        y
+
+
+    {\displaystyle \mu _{pq}=\int \limits _{-\infty }^{\infty }\int \limits _{-\infty }^{\infty }(x-{\bar {x}})^{p}(y-{\bar {y}})^{q}f(x,y)\,dx\,dy}
+
+
+where
+
+
+
+
+
+
+              x
+              ¯
+
+
+
+        =
+
+
+
+              M
+
+                10
+
+
+
+              M
+
+                00
+
+
+
+
+
+
+    {\displaystyle {\bar {x}}={\frac {M_{10}}{M_{00}}}}
+
+ and
+
+
+
+
+
+
+              y
+              ¯
+
+
+
+        =
+
+
+
+              M
+
+                01
+
+
+
+              M
+
+                00
+
+
+
+
+
+
+    {\displaystyle {\bar {y}}={\frac {M_{01}}{M_{00}}}}
+
+ are the components of the centroid.
+If ƒ(x, y) is a digital image, then the previous equation becomes
+
+
+
+
+
+          μ
+
+            p
+            q
+
+
+        =
+
+          ∑
+
+            x
+
+
+
+          ∑
+
+            y
+
+
+        (
+        x
+        −
+
+
+
+              x
+              ¯
+
+
+
+
+          )
+
+            p
+
+
+        (
+        y
+        −
+
+
+
+              y
+              ¯
+
+
+
+
+          )
+
+            q
+
+
+        f
+        (
+        x
+        ,
+        y
+        )
+
+
+    {\displaystyle \mu _{pq}=\sum _{x}\sum _{y}(x-{\bar {x}})^{p}(y-{\bar {y}})^{q}f(x,y)}
+
+
+The central moments of order up to 3 are:
+
+
+
+
+
+
+
+
+
+                  μ
+
+                    00
+
+
+
+
+
+                =
+
+                  M
+
+                    00
+
+
+                ,
+
+
+
+                  μ
+
+                    01
+
+
+
+
+
+                =
+                0
+                ,
+
+
+
+
+
+                  μ
+
+                    10
+
+
+
+
+
+                =
+                0
+                ,
+
+
+
+                  μ
+
+                    11
+
+
+
+
+
+                =
+
+                  M
+
+                    11
+
+
+                −
+
+
+
+                      x
+                      ¯
+
+
+
+
+                  M
+
+                    01
+
+
+                =
+
+                  M
+
+                    11
+
+
+                −
+
+
+
+                      y
+                      ¯
+
+
+
+
+                  M
+
+                    10
+
+
+                ,
+
+
+
+
+
+                  μ
+
+                    20
+
+
+
+
+
+                =
+
+                  M
+
+                    20
+
+
+                −
+
+
+
+                      x
+                      ¯
+
+
+
+
+                  M
+
+                    10
+
+
+                ,
+
+
+
+                  μ
+
+                    02
+
+
+
+
+
+                =
+
+                  M
+
+                    02
+
+
+                −
+
+
+
+                      y
+                      ¯
+
+
+
+
+                  M
+
+                    01
+
+
+                ,
+
+
+
+
+
+                  μ
+
+                    21
+
+
+
+
+
+                =
+
+                  M
+
+                    21
+
+
+                −
+                2
+
+
+
+                      x
+                      ¯
+
+
+
+
+                  M
+
+                    11
+
+
+                −
+
+
+
+                      y
+                      ¯
+
+
+
+
+                  M
+
+                    20
+
+
+                +
+                2
+
+
+
+
+                        x
+                        ¯
+
+
+
+
+                    2
+
+
+
+                  M
+
+                    01
+
+
+                ,
+
+
+
+                  μ
+
+                    12
+
+
+
+
+
+                =
+
+                  M
+
+                    12
+
+
+                −
+                2
+
+
+
+                      y
+                      ¯
+
+
+
+
+                  M
+
+                    11
+
+
+                −
+
+
+
+                      x
+                      ¯
+
+
+
+
+                  M
+
+                    02
+
+
+                +
+                2
+
+
+
+
+                        y
+                        ¯
+
+
+
+
+                    2
+
+
+
+                  M
+
+                    10
+
+
+                ,
+
+
+
+
+
+                  μ
+
+                    30
+
+
+
+
+
+                =
+
+                  M
+
+                    30
+
+
+                −
+                3
+
+
+
+                      x
+                      ¯
+
+
+
+
+                  M
+
+                    20
+
+
+                +
+                2
+
+
+
+
+                        x
+                        ¯
+
+
+
+
+                    2
+
+
+
+                  M
+
+                    10
+
+
+                ,
+
+
+
+                  μ
+
+                    03
+
+
+
+
+
+                =
+
+                  M
+
+                    03
+
+
+                −
+                3
+
+
+
+                      y
+                      ¯
+
+
+
+
+                  M
+
+                    02
+
+
+                +
+                2
+
+
+
+
+                        y
+                        ¯
+
+
+
+
+                    2
+
+
+
+                  M
+
+                    01
+
+
+                .
+
+
+
+
+
+
+    {\displaystyle {\begin{aligned}\mu _{00}&=M_{00},&\mu _{01}&=0,\\\mu _{10}&=0,&\mu _{11}&=M_{11}-{\bar {x}}M_{01}=M_{11}-{\bar {y}}M_{10},\\\mu _{20}&=M_{20}-{\bar {x}}M_{10},&\mu _{02}&=M_{02}-{\bar {y}}M_{01},\\\mu _{21}&=M_{21}-2{\bar {x}}M_{11}-{\bar {y}}M_{20}+2{\bar {x}}^{2}M_{01},&\mu _{12}&=M_{12}-2{\bar {y}}M_{11}-{\bar {x}}M_{02}+2{\bar {y}}^{2}M_{10},\\\mu _{30}&=M_{30}-3{\bar {x}}M_{20}+2{\bar {x}}^{2}M_{10},&\mu _{03}&=M_{03}-3{\bar {y}}M_{02}+2{\bar {y}}^{2}M_{01}.\end{aligned}}}
+
+
+It can be shown that:
+
+
+
+
+
+          μ
+
+            p
+            q
+
+
+        =
+
+          ∑
+
+            m
+
+
+            p
+
+
+
+          ∑
+
+            n
+
+
+            q
+
+
+
+
+
+              (
+
+
+              p
+              m
+
+
+              )
+
+
+
+
+
+
+              (
+
+
+              q
+              n
+
+
+              )
+
+
+
+        (
+        −
+
+
+
+              x
+              ¯
+
+
+
+
+          )
+
+            (
+            p
+            −
+            m
+            )
+
+
+        (
+        −
+
+
+
+              y
+              ¯
+
+
+
+
+          )
+
+            (
+            q
+            −
+            n
+            )
+
+
+
+          M
+
+            m
+            n
+
+
+
+
+    {\displaystyle \mu _{pq}=\sum _{m}^{p}\sum _{n}^{q}{p \choose m}{q \choose n}(-{\bar {x}})^{(p-m)}(-{\bar {y}})^{(q-n)}M_{mn}}
+
+
+Central moments are translational invariant.
+
+Examples
+Information about image orientation can be derived by first using the second order central moments to construct a covariance matrix.
+
+
+
+
+
+
+
+
+
+                  μ
+
+                    20
+
+                  ′
+
+
+
+
+                =
+
+                  μ
+
+                    20
+
+
+
+                  /
+
+
+                  μ
+
+                    00
+
+
+                =
+
+                  M
+
+                    20
+
+
+
+                  /
+
+
+                  M
+
+                    00
+
+
+                −
+
+
+
+
+                        x
+                        ¯
+
+
+
+
+                    2
+
+
+
+
+
+
+
+                  μ
+
+                    02
+
+                  ′
+
+
+
+
+                =
+
+                  μ
+
+                    02
+
+
+
+                  /
+
+
+                  μ
+
+                    00
+
+
+                =
+
+                  M
+
+                    02
+
+
+
+                  /
+
+
+                  M
+
+                    00
+
+
+                −
+
+
+
+
+                        y
+                        ¯
+
+
+
+
+                    2
+
+
+
+
+
+
+
+                  μ
+
+                    11
+
+                  ′
+
+
+
+
+                =
+
+                  μ
+
+                    11
+
+
+
+                  /
+
+
+                  μ
+
+                    00
+
+
+                =
+
+                  M
+
+                    11
+
+
+
+                  /
+
+
+                  M
+
+                    00
+
+
+                −
+
+
+
+                      x
+                      ¯
+
+
+
+
+
+
+                      y
+                      ¯
+
+
+
+
+
+
+
+
+
+    {\displaystyle {\begin{aligned}\mu '_{20}&=\mu _{20}/\mu _{00}=M_{20}/M_{00}-{\bar {x}}^{2}\\\mu '_{02}&=\mu _{02}/\mu _{00}=M_{02}/M_{00}-{\bar {y}}^{2}\\\mu '_{11}&=\mu _{11}/\mu _{00}=M_{11}/M_{00}-{\bar {x}}{\bar {y}}\end{aligned}}}
+
+
+The covariance matrix of the image
+
+
+
+        I
+        (
+        x
+        ,
+        y
+        )
+
+
+    {\displaystyle I(x,y)}
+
+ is now
+
+
+
+
+        cov
+        ⁡
+        [
+        I
+        (
+        x
+        ,
+        y
+        )
+        ]
+        =
+
+
+            [
+
+
+
+
+                    μ
+
+                      20
+
+                    ′
+
+
+
+
+                    μ
+
+                      11
+
+                    ′
+
+
+
+
+
+
+                    μ
+
+                      11
+
+                    ′
+
+
+
+
+                    μ
+
+                      02
+
+                    ′
+
+
+
+
+            ]
+
+
+        .
+
+
+    {\displaystyle \operatorname {cov} [I(x,y)]={\begin{bmatrix}\mu '_{20}&\mu '_{11}\\\mu '_{11}&\mu '_{02}\end{bmatrix}}.}
+
+
+The eigenvectors of this matrix correspond to the major and minor axes of the image intensity, so the orientation can thus be extracted from the angle of the eigenvector associated with the largest eigenvalue towards the axis closest to this eigenvector. It can be shown that this angle Θ is given by the following formula:
+
+
+
+
+        Θ
+        =
+
+
+            1
+            2
+
+
+        arctan
+        ⁡
+
+          (
+
+
+
+                2
+
+                  μ
+
+                    11
+
+                  ′
+
+
+
+
+                  μ
+
+                    20
+
+                  ′
+
+                −
+
+                  μ
+
+                    02
+
+                  ′
+
+
+
+
+          )
+
+
+
+    {\displaystyle \Theta ={\frac {1}{2}}\arctan \left({\frac {2\mu '_{11}}{\mu '_{20}-\mu '_{02}}}\right)}
+
+
+The above formula holds as long as:
+
+
+
+
+
+          μ
+
+            20
+
+          ′
+
+        −
+
+          μ
+
+            02
+
+          ′
+
+        ≠
+        0
+
+
+    {\displaystyle \mu '_{20}-\mu '_{02}\neq 0}
+
+
+The eigenvalues of the covariance matrix can easily be shown to be
+
+
+
+
+
+          λ
+
+            i
+
+
+        =
+
+
+
+
+                μ
+
+                  20
+
+                ′
+
+              +
+
+                μ
+
+                  02
+
+                ′
+
+
+            2
+
+
+        ±
+
+
+
+              4
+
+
+
+                    μ
+                    ′
+
+
+
+                  11
+
+
+                  2
+
+
+              +
+              (
+
+
+
+                    μ
+                    ′
+
+
+
+                  20
+
+
+              −
+
+
+
+                    μ
+                    ′
+
+
+
+                  02
+
+
+
+                )
+
+                  2
+
+
+
+            2
+
+
+        ,
+
+
+    {\displaystyle \lambda _{i}={\frac {\mu '_{20}+\mu '_{02}}{2}}\pm {\frac {\sqrt {4{\mu '}_{11}^{2}+({\mu '}_{20}-{\mu '}_{02})^{2}}}{2}},}
+
+
+and are proportional to the squared length of the eigenvector axes.  The relative difference in magnitude of the eigenvalues are thus an indication of the eccentricity of the image, or how elongated it is. The eccentricity is
+
+
+
+
+
+
+            1
+            −
+
+
+
+                  λ
+
+                    2
+
+
+
+                  λ
+
+                    1
+
+
+
+
+
+
+        .
+
+
+    {\displaystyle {\sqrt {1-{\frac {\lambda _{2}}{\lambda _{1}}}}}.}
+
+Moment invariants
+Moments are well-known for their application in image analysis, since they can be used to derive invariants with respect to specific transformation classes.
+The term invariant moments is often abused in this context. However, while moment invariants are invariants that are formed from moments, the only moments that are invariants themselves are the central moments.
+Note that the invariants detailed below are exactly invariant only in the continuous domain. In a discrete domain, neither scaling nor rotation are well defined: a discrete image transformed in such a way is generally an approximation, and the transformation is not reversible. These invariants therefore are only approximately invariant when describing a shape in a discrete image.
+
+Translation invariants
+The central moments μi j of any order are, by construction, invariant with respect to translations.
+
+Scale invariants
+Invariants ηi j with respect to both translation and scale can be constructed from central moments by dividing through a properly scaled zero-th central moment:
+
+
+
+
+
+          η
+
+            i
+            j
+
+
+        =
+
+
+
+              μ
+
+                i
+                j
+
+
+
+              μ
+
+                00
+
+
+
+                  (
+
+                    1
+                    +
+
+
+
+                          i
+                          +
+                          j
+
+                        2
+
+
+
+                  )
+
+
+
+
+
+
+
+
+
+    {\displaystyle \eta _{ij}={\frac {\mu _{ij}}{\mu _{00}^{\left(1+{\frac {i+j}{2}}\right)}}}\,\!}
+
+
+where i + j ≥ 2.
+Note that translational invariance directly follows by only using central moments.
+
+Rotation invariants
+As shown in the work of Hu,
+invariants with respect to translation, scale, and rotation can be constructed:
+
+
+
+
+
+          I
+
+            1
+
+
+        =
+
+          η
+
+            20
+
+
+        +
+
+          η
+
+            02
+
+
+
+
+    {\displaystyle I_{1}=\eta _{20}+\eta _{02}}
+
+
+
+
+
+
+          I
+
+            2
+
+
+        =
+        (
+
+          η
+
+            20
+
+
+        −
+
+          η
+
+            02
+
+
+
+          )
+
+            2
+
+
+        +
+        4
+
+          η
+
+            11
+
+
+            2
+
+
+
+
+    {\displaystyle I_{2}=(\eta _{20}-\eta _{02})^{2}+4\eta _{11}^{2}}
+
+
+
+
+
+
+          I
+
+            3
+
+
+        =
+        (
+
+          η
+
+            30
+
+
+        −
+        3
+
+          η
+
+            12
+
+
+
+          )
+
+            2
+
+
+        +
+        (
+        3
+
+          η
+
+            21
+
+
+        −
+
+          η
+
+            03
+
+
+
+          )
+
+            2
+
+
+
+
+    {\displaystyle I_{3}=(\eta _{30}-3\eta _{12})^{2}+(3\eta _{21}-\eta _{03})^{2}}
+
+
+
+
+
+
+          I
+
+            4
+
+
+        =
+        (
+
+          η
+
+            30
+
+
+        +
+
+          η
+
+            12
+
+
+
+          )
+
+            2
+
+
+        +
+        (
+
+          η
+
+            21
+
+
+        +
+
+          η
+
+            03
+
+
+
+          )
+
+            2
+
+
+
+
+    {\displaystyle I_{4}=(\eta _{30}+\eta _{12})^{2}+(\eta _{21}+\eta _{03})^{2}}
+
+
+
+
+
+
+          I
+
+            5
+
+
+        =
+        (
+
+          η
+
+            30
+
+
+        −
+        3
+
+          η
+
+            12
+
+
+        )
+        (
+
+          η
+
+            30
+
+
+        +
+
+          η
+
+            12
+
+
+        )
+        [
+        (
+
+          η
+
+            30
+
+
+        +
+
+          η
+
+            12
+
+
+
+          )
+
+            2
+
+
+        −
+        3
+        (
+
+          η
+
+            21
+
+
+        +
+
+          η
+
+            03
+
+
+
+          )
+
+            2
+
+
+        ]
+        +
+        (
+        3
+
+          η
+
+            21
+
+
+        −
+
+          η
+
+            03
+
+
+        )
+        (
+
+          η
+
+            21
+
+
+        +
+
+          η
+
+            03
+
+
+        )
+        [
+        3
+        (
+
+          η
+
+            30
+
+
+        +
+
+          η
+
+            12
+
+
+
+          )
+
+            2
+
+
+        −
+        (
+
+          η
+
+            21
+
+
+        +
+
+          η
+
+            03
+
+
+
+          )
+
+            2
+
+
+        ]
+
+
+    {\displaystyle I_{5}=(\eta _{30}-3\eta _{12})(\eta _{30}+\eta _{12})[(\eta _{30}+\eta _{12})^{2}-3(\eta _{21}+\eta _{03})^{2}]+(3\eta _{21}-\eta _{03})(\eta _{21}+\eta _{03})[3(\eta _{30}+\eta _{12})^{2}-(\eta _{21}+\eta _{03})^{2}]}
+
+
+
+
+
+
+          I
+
+            6
+
+
+        =
+        (
+
+          η
+
+            20
+
+
+        −
+
+          η
+
+            02
+
+
+        )
+        [
+        (
+
+          η
+
+            30
+
+
+        +
+
+          η
+
+            12
+
+
+
+          )
+
+            2
+
+
+        −
+        (
+
+          η
+
+            21
+
+
+        +
+
+          η
+
+            03
+
+
+
+          )
+
+            2
+
+
+        ]
+        +
+        4
+
+          η
+
+            11
+
+
+        (
+
+          η
+
+            30
+
+
+        +
+
+          η
+
+            12
+
+
+        )
+        (
+
+          η
+
+            21
+
+
+        +
+
+          η
+
+            03
+
+
+        )
+
+
+    {\displaystyle I_{6}=(\eta _{20}-\eta _{02})[(\eta _{30}+\eta _{12})^{2}-(\eta _{21}+\eta _{03})^{2}]+4\eta _{11}(\eta _{30}+\eta _{12})(\eta _{21}+\eta _{03})}
+
+
+
+
+
+
+          I
+
+            7
+
+
+        =
+        (
+        3
+
+          η
+
+            21
+
+
+        −
+
+          η
+
+            03
+
+
+        )
+        (
+
+          η
+
+            30
+
+
+        +
+
+          η
+
+            12
+
+
+        )
+        [
+        (
+
+          η
+
+            30
+
+
+        +
+
+          η
+
+            12
+
+
+
+          )
+
+            2
+
+
+        −
+        3
+        (
+
+          η
+
+            21
+
+
+        +
+
+          η
+
+            03
+
+
+
+          )
+
+            2
+
+
+        ]
+        −
+        (
+
+          η
+
+            30
+
+
+        −
+        3
+
+          η
+
+            12
+
+
+        )
+        (
+
+          η
+
+            21
+
+
+        +
+
+          η
+
+            03
+
+
+        )
+        [
+        3
+        (
+
+          η
+
+            30
+
+
+        +
+
+          η
+
+            12
+
+
+
+          )
+
+            2
+
+
+        −
+        (
+
+          η
+
+            21
+
+
+        +
+
+          η
+
+            03
+
+
+
+          )
+
+            2
+
+
+        ]
+        .
+
+
+    {\displaystyle I_{7}=(3\eta _{21}-\eta _{03})(\eta _{30}+\eta _{12})[(\eta _{30}+\eta _{12})^{2}-3(\eta _{21}+\eta _{03})^{2}]-(\eta _{30}-3\eta _{12})(\eta _{21}+\eta _{03})[3(\eta _{30}+\eta _{12})^{2}-(\eta _{21}+\eta _{03})^{2}].}
+
+
+These are well-known as Hu moment invariants.
+The first one, I1, is analogous to the moment of inertia around the image's centroid, where the pixels' intensities are analogous to physical density. The first six,  I1 ... I6, are reflection symmetric, i.e. they are unchanged if the image is changed to a mirror image. The last one, I7, is reflection antisymmetric (changes sign under reflection), which enables it to distinguish mirror images of otherwise identical images.
+A general theory on deriving complete and independent sets of rotation moment invariants was proposed by J. Flusser. He showed that the traditional set of Hu moment invariants is neither independent nor complete. I3 is not very useful as it is dependent on the others (
+
+
+
+
+          I
+
+            3
+
+
+        =
+        (
+
+          I
+
+            5
+
+
+            2
+
+
+        +
+
+          I
+
+            7
+
+
+            2
+
+
+        )
+
+          /
+
+
+          I
+
+            4
+
+
+            3
+
+
+
+
+    {\displaystyle I_{3}=(I_{5}^{2}+I_{7}^{2})/I_{4}^{3}}
+
+). In the original Hu's set there is a missing third order independent moment invariant:
+
+
+
+
+
+          I
+
+            8
+
+
+        =
+
+          η
+
+            11
+
+
+        [
+        (
+
+          η
+
+            30
+
+
+        +
+
+          η
+
+            12
+
+
+
+          )
+
+            2
+
+
+        −
+        (
+
+          η
+
+            03
+
+
+        +
+
+          η
+
+            21
+
+
+
+          )
+
+            2
+
+
+        ]
+        −
+        (
+
+          η
+
+            20
+
+
+        −
+
+          η
+
+            02
+
+
+        )
+        (
+
+          η
+
+            30
+
+
+        +
+
+          η
+
+            12
+
+
+        )
+        (
+
+          η
+
+            03
+
+
+        +
+
+          η
+
+            21
+
+
+        )
+
+
+    {\displaystyle I_{8}=\eta _{11}[(\eta _{30}+\eta _{12})^{2}-(\eta _{03}+\eta _{21})^{2}]-(\eta _{20}-\eta _{02})(\eta _{30}+\eta _{12})(\eta _{03}+\eta _{21})}
+
+
+Like I7, I8 is also reflection antisymmetric.
+Later, J. Flusser and T. Suk specialized the theory for N-rotationally symmetric shapes case.
+
+Applications
+Zhang et al. applied Hu moment invariants to solve the pathological brain detection (PBD) problem.
+Doerr and Florence used information of the object orientation related to the second order central moments to effectively extract translation- and rotation-invariant object cross-sections from micro-X-ray tomography image data.
+D. A. Hoeltzel and Wei-Hua Chieng used Hu moment invariant to perform on a dimensionally-parameterized four bar mechanism which yielded 15 distinct coupler curve groups (patterns) from a total of 356 generated coupler curves.

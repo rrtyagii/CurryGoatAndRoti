@@ -1,0 +1,12 @@
+Signvrse is a Kenyan technology startup that develops artificial intelligence (AI) tools for sign language translation and digital accessibility. The company is best known for creating Terp 360, a real-time sign language translation platform that uses AI-powered 3D avatars to interpret speech and text into sign language. Founded in 2023 by Kenyan entrepreneur Elly Savatia, Signvrse claims to make communication inclusive for deaf and hard-of-hearing communities across Africa.
+
+History
+Signvrse is based in Nairobi, Kenya. The company claims to bridge communication gaps between hearing and non-hearing individuals through technology. The company’s flagship product, Terp 360, functions as an assistive technology platform that converts spoken and written language into visual sign language using animated avatars powered by AI.
+The platform supports both English and Swahili input and outputs translation in Kenyan Sign Language (KSL). Signvrse has announced plans to expand Terp 360’s capabilities to include other sign languages such as Rwandan Sign Language, Ugandan Sign Language, South African Sign Language, British Sign Language and American Sign Language by 2027.
+
+Technology
+Signvrse employs motion capture and AI-driven modelling to record and reproduce human sign language gestures. The company has built one of Kenya’s largest sign language datasets, comprising thousands of recorded signs collected in collaboration with deaf and hard-of-hearing individuals.
+The Terp 360 system combines motion sensors that track a signer’s hand and arm movements in three-dimensional space, machine learning models trained on large datasets of sign language recordings, and digital avatars that render the gestures in real time for users. With focus on Kenyan Sign Language, Signvrse claims to differentiates itself from international accessibility tools that primarily support American or British Sign Languages, addressing a gap in representation for African users.
+
+Recognition
+Signvrse and its founder gained international attention for innovation in assistive technology. In 2025, Elly Savatia won the Africa Prize for Engineering Innovation from the Royal Academy of Engineering for developing Terp 360. The project was commended for its social impact and for making African sign languages visible in global AI systems.

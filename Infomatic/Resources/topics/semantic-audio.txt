@@ -1,0 +1,26 @@
+Semantic audio is the extraction of meaning from audio signals. The field of semantic audio is primarily based around the analysis of audio to create some meaningful metadata, which can then be used in a variety of different ways.
+
+Semantic analysis
+Semantic analysis of audio is performed to reveal some deeper understanding of an audio signal. This typically results in high-level metadata descriptors such as musical chords and tempo, or the identification of the individual speaking, to facilitate content-based management of audio recordings. In recent years, the growth of automatic data analysis techniques has grown considerably,
+
+Music Information Retrieval
+Sound recognition
+Speech segmentation
+Automatic music transcription
+Blind source separation
+Musical similarity
+Audio indexing, hashing, searching
+Broadcast Monitoring
+Musical performance analysis
+
+Applications
+With the development of applications that use this semantic information to support the user in identifying, organising, and exploring audio signals, and interacting with them. These applications include music information retrieval, semantic web technologies, audio production, sound reproduction, education, and gaming. Semantic technology involves some kind of understanding of the meaning of the information it deals with and to this end may incorporate machine learning, digital signal processing, speech processing, source separation, perceptual models of hearing, musicological knowledge, metadata, and ontologies.
+Aside from audio retrieval and recommendation technologies, the semantics of audio signals are also becoming increasingly important, for instance, in object-based audio coding, as well as intelligent audio editing, and processing. Recent product releases already demonstrate this to a great extent, however, more innovative functionalities relying on semantic audio analysis and management are imminent. These functionalities may utilise, for instance, (informed) audio source separation, speaker segmentation and identification, structural music segmentation, or social and Semantic Web technologies, including ontologies and linked open data.
+Speech recognition is an important semantic audio application. But for speech, other semantic operations include language identification, speaker identification or gender identification. For more general audio or music, it includes identifying a piece of music (e.g. Shazam (music app)) or a movie soundtrack.
+Areas of research in semantic audio include the ability to label an audio waveform with where the harmonies change and what they are and where material is repeated and what instruments are playing.
+
+Semantic audio and the Semantic Web
+The Semantic Web provides a powerful framework for the expression and reuse of structured data. The use and storage of semantic audio descriptors in the semantic web framework, allows for a much greater reach and unifying standard for storing and managing associated semantic audio metadata. A number of ontologies have been developed for storing and managing audio on the semantic web, including the (Music Ontology)[1], the (Studio Ontology)[2], and the (Audio Feature ontology)[3]
+
+Semantic hearing
+Semantic hearing has been proposed for headsets to allow users to select what sounds they want to hear in their environment, based on their semantic description. This noise-canceling headphone technology use real-time neural networks to let users opt back in to certain sounds they’d like to hear, such as babies crying, birds tweeting, or alarms ringing. This type of capability on headphone and earbuds could provide users with a degree of control over the sounds that are around them. This could benefit people who require focused listening for their job, such as health-care, military, and engineering professionals, or for factory or construction workers as well as for designing intelligent hearing aids.

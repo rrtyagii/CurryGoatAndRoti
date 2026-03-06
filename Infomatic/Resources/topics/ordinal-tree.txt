@@ -1,0 +1,1 @@
+An ordinal tree, by analogy with an ordinal number, is a rooted tree of arbitrary degree in which the children of each node are ordered, so that one refers to the ith child in the sequence of children of a node.

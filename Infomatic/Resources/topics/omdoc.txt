@@ -1,0 +1,36 @@
+OMDoc (Open Mathematical Documents) is a semantic markup format for mathematical documents. While MathML only covers mathematical formulae and the related OpenMath standard only supports formulae and “content dictionaries” containing definitions of the symbols used in formulae, OMDoc covers the whole range of written mathematics.
+
+Coverage
+OMDoc allows for mathematical expressions on three levels:
+
+Object level
+Formulae, written in Content MathML (the non-presentational subset of MathML), OpenMath or languages for mathematical logic.
+Statement level
+Definitions, theorems, proofs, examples and the relations between them (e.g. “this proof proves that theorem”).
+Theory level
+A theory is a set of contextually related statements. Theories may import each other, thereby forming a graph. Seen as collections of symbol definitions, OMDoc theories are compatible to OpenMath content dictionaries.
+On each level, formal syntax and informal natural language can be used, depending on the application.
+
+Semantics and Presentation
+OMDoc is a semantic markup language that allows writing down the meaning of texts about mathematics. In contrast to LaTeX, for example, it is not primarily presentation-oriented. An OMDoc document need not specify what its contents should look like. A conversion to LaTeX and XHTML (with Presentation MathML for the formulae) is possible, though. To this end, the presentation of each symbol can be defined.
+
+Applications
+Today, OMDoc is used in the following settings:
+
+E-learning
+Creation of customized textbooks.
+Data exchange
+OMDoc import and export modules are available for many automated theorem provers and computer algebra systems. OMDoc is intended to be used for communication between mathematical web services.
+Document preparation
+Documents about mathematics can be prepared in OMDoc and later exported to a presentation-oriented format like LaTeX or XHTML+MathML.
+
+History
+OMDoc has been developed by the German mathematician and computer scientist Michael Kohlhase since 1998. So far, there have been the following releases:
+
+1.0 (November 2000)
+1.1 (December 2001)
+1.2 (July 2006)
+
+Future developments
+It is planned to create the infrastructure for a “semantic web for technology and science” based on OMDoc. To this end, OMDoc is being extended towards sciences other than mathematics. The first result is PhysML, an OMDoc variant extended towards physics.
+For a better integration with other Semantic Web applications, an OWL ontology of OMDoc is under development, as well as an export facility to RDF.

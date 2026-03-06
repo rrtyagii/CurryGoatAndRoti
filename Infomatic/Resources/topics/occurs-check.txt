@@ -1,0 +1,327 @@
+In computer science, the occurs check is a part of algorithms for syntactic unification.  It causes unification of a variable V and a structure S to fail if S contains V.
+
+Application in theorem proving
+In theorem proving, unification without the occurs check can lead to unsound inference. For example, the Prolog goal
+
+
+
+
+        X
+        =
+        f
+        (
+        X
+        )
+
+
+    {\displaystyle X=f(X)}
+
+
+will succeed, binding X to a cyclic structure which has no counterpart in the Herbrand universe.
+As another example,
+without occurs-check, a resolution proof can be found for the non-theorem
+
+
+
+
+        (
+        ∀
+        x
+        ∃
+        y
+        .
+        p
+        (
+        x
+        ,
+        y
+        )
+        )
+        →
+        (
+        ∃
+        y
+        ∀
+        x
+        .
+        p
+        (
+        x
+        ,
+        y
+        )
+        )
+
+
+    {\displaystyle (\forall x\exists y.p(x,y))\rightarrow (\exists y\forall x.p(x,y))}
+
+: the negation of that formula has the conjunctive normal form
+
+
+
+        p
+        (
+        X
+        ,
+        f
+        (
+        X
+        )
+        )
+        ∧
+        ¬
+        p
+        (
+        g
+        (
+        Y
+        )
+        ,
+        Y
+        )
+
+
+    {\displaystyle p(X,f(X))\land \lnot p(g(Y),Y)}
+
+, with
+
+
+
+        f
+
+
+    {\displaystyle f}
+
+ and
+
+
+
+        g
+
+
+    {\displaystyle g}
+
+ denoting the Skolem function for the first and second existential quantifier, respectively. Without occurs check, the literals
+
+
+
+        p
+        (
+        X
+        ,
+        f
+        (
+        X
+        )
+        )
+
+
+    {\displaystyle p(X,f(X))}
+
+ and
+
+
+
+        p
+        (
+        g
+        (
+        Y
+        )
+        ,
+        Y
+        )
+
+
+    {\displaystyle p(g(Y),Y)}
+
+ are unifiable, producing the refuting empty clause.
+
+Rational tree unification
+Prolog implementations usually omit the occurs check for reasons of efficiency, which can lead to circular data structures and looping.
+By not performing the occurs check, the worst case complexity of unifying a term
+
+
+
+
+
+          t
+
+            1
+
+
+
+
+    {\displaystyle t_{1}}
+
+ with term
+
+
+
+
+          t
+
+            2
+
+
+
+
+    {\displaystyle t_{2}}
+
+
+is reduced in many cases from
+
+
+
+
+        O
+        (
+
+          size
+
+        (
+
+          t
+
+            1
+
+
+        )
+        +
+
+          size
+
+        (
+
+          t
+
+            2
+
+
+        )
+        )
+
+
+    {\displaystyle O({\text{size}}(t_{1})+{\text{size}}(t_{2}))}
+
+
+to
+
+
+
+
+        O
+        (
+
+          min
+
+        (
+
+          size
+
+        (
+
+          t
+
+            1
+
+
+        )
+        ,
+
+          size
+
+        (
+
+          t
+
+            2
+
+
+        )
+        )
+        )
+
+
+    {\displaystyle O({\text{min}}({\text{size}}(t_{1}),{\text{size}}(t_{2})))}
+
+;
+in the frequent case of variable-term unification, runtime shrinks to
+
+
+
+
+        O
+        (
+        1
+        )
+
+
+    {\displaystyle O(1)}
+
+.
+
+Implementations, based on Colmerauer's Prolog II,
+
+use rational tree unification to avoid looping. However it is difficult to keep the complexity time linear in the presence of cyclic terms. Examples where Colmerauers algorithm becomes quadratic  can be readily constructed.
+Jaffar’s 1984 work proposed a refinement based on union–find techniques, effectively reducing the worst-case complexity to near-linear time. Modern systems — including SWI-Prolog, SICStus Prolog, Scryer Prolog, and Ciao Prolog — appear to implement variants of this approach.
+See image for an example run of the unification algorithm given in Unification (computer science)#A unification algorithm, trying to solve the goal
+
+
+
+        c
+        o
+        n
+        s
+        (
+        x
+        ,
+        y
+        )
+
+
+
+
+                =
+
+
+                ?
+
+
+
+
+        c
+        o
+        n
+        s
+        (
+        1
+        ,
+        c
+        o
+        n
+        s
+        (
+        x
+        ,
+        c
+        o
+        n
+        s
+        (
+        2
+        ,
+        y
+        )
+        )
+        )
+
+
+    {\displaystyle cons(x,y){\stackrel {?}{=}}cons(1,cons(x,cons(2,y)))}
+
+, however without the occurs check rule (named "check" there); applying rule "eliminate" instead leads to a cyclic graph (i.e. an infinite term) in the last step.
+
+Sound unification
+ISO Prolog implementations have the built-in predicate unify_with_occurs_check/2 for sound unification but are free to use unsound or even looping algorithms when unification is invoked otherwise, provided the algorithm works correctly for all cases that are "not subject to occurs-check" (NSTO). The built-in acyclic_term/1 serves to check the finiteness of terms.
+Implementations offering sound unification for all unifications are Qu-Prolog and Strawberry Prolog and (optionally, via a runtime flag): XSB, SWI-Prolog, CxProlog, Tau Prolog, Trealla Prolog and Scryer Prolog. A variety
+ of optimizations can render sound unification feasible for common cases.

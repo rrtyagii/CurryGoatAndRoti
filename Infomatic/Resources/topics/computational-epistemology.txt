@@ -1,0 +1,30 @@
+Computational epistemology is a subdiscipline of formal epistemology that studies the intrinsic complexity of inductive problems for ideal and computationally bounded agents. In short, computational epistemology is to induction what recursion theory is to deduction. It has been applied to problems in philosophy of science.
+
+Themes
+Some of the themes of computational epistemology include:
+
+the essential likeness of induction and deduction (as illustrated by systematic analogies between their respective complexity classes)
+the treatment of discovery, prediction and assessment methods as effective procedures (algorithms) as originates in algorithmic learning theory.
+the characterization of inductive inference problems as consisting of:
+a set of relevant possibilities (possible worlds), each of which specifies some potentially infinite sequence of inputs to scientific method,
+a question whose potential answers partition the relevant possibilities (in the set theoretic sense),
+a convergent success criterion and
+a set of admissible methods
+the notion of logical reliability for inductive problems
+
+Quotations
+Computational epistemology definition:
+
+"Computational epistemology is an interdisciplinary field that concerns itself with the relationships and constraints between reality, measure, data, information, knowledge, and wisdom" (Rugai, 2013)
+On making inductive problems easier to solve:
+
+"Eliminating relevant possibilities, weakening the convergence criterion, coarsening the question, or augmenting the collection of potential strategies all tend to make a problem easier to solve" (Kelly, 2000a)
+On the divergence of computational epistemology from Bayesian confirmation theory and the like:
+
+"Whenever you are inclined to explain a feature of science in terms of probability and confirmation, take a moment to see how the issue would look in terms of complexity and success"(Kelly, 2000a)
+Computational epistemology in a nutshell:
+
+Formal learning theory is very simple in outline. An inductive problem specifies a range of epistemically possible worlds over which to succeed and determines what sort of output would be correct, where correctness may embody both content and truth (or some analogous virtue like empirical adequacy). Each possible world produces an input stream which the inductive method processes sequentially, generating its own output stream, which may terminate (ending with a mark indicating this fact) or go on forever. A notion of success specifies how the method should converge to a correct output in each possible world. A method solves the problem (in a given sense) just in case the method succeeds (in the appropriate sense) in each of the possible worlds specified by the problem. We say that such a method is reliable since it succeeds over all the epistemically possible worlds. Of two non-solutions, one is as reliable as the other just in case it succeeds in all the worlds the other one succeeds in. That's all there is to it! (Kelly et al. 1997)
+On the proper role of methodology:
+
+"It is for empirical science to investigate the details of the mechanisms whereby we track, and for methodologists to devise and refine even better (inferential) mechanisms and methods" (Nozick, 1981)

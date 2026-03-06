@@ -1,0 +1,17 @@
+In free software, Zeitgeist is a software service which logs the users's activities and events, anywhere from files opened to websites visited and conversations. It makes this information readily available for other applications to use in the form of timelines and statistics. It is able to establish relationships between items based on similarity and usage patterns by applying data association algorithms such as "Winepi" and "Apriori".
+Zeitgeist is the main engine and logic behind GNOME Activity Journal which is currently seen to become one of the main means of viewing and managing activities in GNOME version 3.0.
+
+Features
+Zeitgeist currently logs file usage, web activity, plus chat and email conversations. More to come.
+Zeitgeist allows any application to store this information and makes it readily available over a DBus API.
+Zeitgeist figures out which are a user’s most used items, not only in general, but also applying time scoping as in “What was most relevant to me, while I was working on project X, for a month last year?”.
+Using machine-learning algorithms, Zeitgeist can establish relationships between items based on similarity and usage patterns.
+Zeitgeist is light-weight and supports extensions to enhance its engine’s core feature set.
+Extensions reside within the same process as the engine’s core logic. They can be used to include information about activity and experience beyond the desktop, such as geo-logging and geo-tagging.
+
+Applications
+GNOME Activity Journal
+Docky
+AWN
+Unity
+Synapse Launcher

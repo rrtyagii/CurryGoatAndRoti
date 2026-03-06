@@ -1,0 +1,34 @@
+Pulsar is a software platform for social media monitoring, audience intelligence and social listening that allows organizations to monitor and analyze online conversations across social media, news, and other digital sources.
+The platform combines social media listening, media monitoring, trend analysis, and audience segmentation to help users understand public discussions and audience behavior in real time.
+The platform is a social listening platform, which aggregates data from networks such as X, Facebook, Instagram, and forums) and applies artificial intelligence for text and sentiment analysis. Pulsar is offered as a cloud-based Software as a Service (SaaS) tool and insights consultancy. It has been part of Pulsar Group (formerly Access Intelligence), a group of communications software products, since 2019.
+
+History
+Pulsar originated in the early 2010s as a project within Face, a London-based innovation and market research consultancy. The platform’s first product, Pulsar TRAC, launched in 2013 as a social media analytics tool. Pulsar TRAC was designed to measure the reach of conversations, mapping brand audiences, and tracking how content spreads through networks. The development was led by Dr Francesco D’Orazio, who created the Pulsar brand and led the development of the platform while serving as VP of Product and Innovation at Face. Face itself had been acquired by the Cello Group Plc (a UK-based advisory firm) in 2012, and Pulsar became part of Cello’s portfolio of research and data tools.
+In January 2017, Cello Group made a significant investment to scale Pulsar and announced the merger of Face’s qualitative research business into Pulsar, unifying both under the Pulsar brand for global expansion. In 2018, Pulsar opened an office in Los Angeles to better serve its growing U.S. client base in media, healthcare, and entertainment sectors and Francesco D’Orazio was appointed CEO. The company focused on developing new products amid a wave of consolidation in the social listening industry.
+In October 2019, Pulsar was acquired by Access Intelligence Plc (now Pulsar Group), an AIM-listed communications software company. The group, which also owns PR and media tools Isentia, Vuelio and ResponseSource, integrated Pulsar to their end-to-end marketing and communications insights offering.
+Pulsar established a new office in Sydney, Australia in 2022 as part of this global expansion, adding to its existing offices in London and Los Angeles.
+In 2023, Pulsar Group (then Access Intelligence) was recognised as one of Europe’s fastest growing companies by the Financial Times. In May 2024, Access Intelligence PLC changed its name to Pulsar Group PLC.
+The company has since continued to develop its platform. In March 2025 it introduced new tool Narratives AI, described as a "search engine for public opinion" and the first of its kind for analyzing public narratives and their evolutions in both social media and the news. In October 2025, Pulsar launched Insight Agents, a set of AI agents embedded into the platform advertised to "proactively anticipate user needs or issues, carry out routine tasks, uncover anomalies in your datasets, and prompt responses at scale, 24/7."
+
+Products
+Pulsar’s architecture integrates four main products into a single interface. The core product suite is often broken into three main components: Pulsar TRAC (for social listening and audience analysis), Pulsar TRENDS (for trend discovery and analysis), and Pulsar CORE (for owned-channel and web analytics). Pulsar's fourth product is Narratives AI.
+
+Pulsar TRAC
+Pulsar TRAC is a social listening and audience intelligence platform that allows users to configure searches that track public conversations and measure audience behaviour. Pulsar TRAC is focused on conversation insights and audience segmentations - the platform is reported to collect and analyse data from a wide range of sources, including major social networks, forums, news and review sites, and ecommerce platforms, with real-time visualisations and AI-supported analytics used to find patterns and communities of interest.
+Pulsar TRAC can be incorporated into workflows with other audience tools, such as an integration with Audiense that connects TRAC’s conversation insights to external audience-segmentation datasets.
+
+Pulsar CORE
+Pulsar CORE centres on the analysis of owned-channel data, such as brand social media profiles, website interaction and other in-house digital assets, to generate audience and content insights. CORE can monitor published content, evaluate competitors, and extract demographic and behavioural segmentation from owned channels.
+
+Narratives AI
+Narratives AI is a tool within the Pulsar audience intelligence platform that uses artificial intelligence to detect, cluster and analyse narratives forming across social and news media. It was launched in March 2025 as a standalone search interface that processes real-time and historical data to find cultural trends, behaviours and beliefs. It uses clustering algorithms and visualisation to show how conversations form and spread online, and their relative importance within wider discourse.
+
+Notable features
+Insight Agents
+Pulsar's Insight Agents are AI-powered agents within the Pulsar platform designed to automate and augment common tasks in media, social, audience and narrative intelligence. Branded as TeamMates, these agents are grouped into four functional types:
+
+Sentinels for real-time monitoring, anomaly detection and alerting
+Oracles for forecasting and scenario planning
+Custodians for governance, compliance and policy enforcement
+Analysts for research, reporting and recommendations
+Each agent is trained on Pulsar’s multi-source data and domain-specific workflows.

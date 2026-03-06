@@ -1,0 +1,6 @@
+Augmate Corporation is a New York-based wearable technology company founded by Pete Wassell in July 2013. It has since become a device management platform focused on Internet of Things (IoT) devices. Originally, the company developed applications for the workplace, connecting enterprise databases to wearable devices including Glass, Vuzix M100, Epson Moverio, Kopin Golden-i, and Optinvent ORA-S.
+Augmate provides developer tools through a software development kit and a data visualization platform. The platform is device-agnostic, meaning that it can operate on any supported platform regardless of the device in use.
+
+History
+Augmate raised a $2.8 million seed funding in September 2014 from investors that included UPS Strategic Enterprise Fund, Siemens Venture Capital, Simon Venture Group, Rothenberg Ventures, Excell Partner, Camp One Ventures, FP Angels, and more.
+In March 2013, Augmate became one of the first developers for the Vuzix M100 Gold. In October 2014, Augmate was announced as a certified developer partner for Glass.

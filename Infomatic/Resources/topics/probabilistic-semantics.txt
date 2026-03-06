@@ -1,0 +1,2 @@
+One of the most severe limitations of the Semantic Web is its inability to deal with uncertain knowledge.
+Probabilistic semantics extend the current semantic technology to overcome that limitation. However, due to their probabilistic approach, probabilistic semantics are able to describe only those uncertainties that can be quantified, namely they cannot model conceptual uncertainty.

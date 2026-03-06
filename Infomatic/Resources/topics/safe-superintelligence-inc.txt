@@ -1,0 +1,9 @@
+Safe Superintelligence Inc. (SSI Inc.) is an American artificial intelligence company founded by Ilya Sutskever, the former chief scientist of OpenAI; Daniel Gross, former head of Apple’s AI efforts; and Daniel Levy, an investor and AI researcher. The company's mission is to focus on safely developing a superintelligence, a computer-based agent capable of surpassing human intelligence.
+
+History
+On May 15, 2024, OpenAI co-founder Ilya Sutskever left OpenAI after a board dispute where he voted to fire Sam Altman amid concerns about communication and trust. Sutskever and others additionally believed that OpenAI was neglecting its original focus on safety in favor of pursuing opportunities for commercialization.
+On June 19, 2024, Sutskever posted on X that he was starting SSI Inc, with the goal to safely develop superintelligent AI, alongside Daniel Levy, and Daniel Gross. The company, composed of a small team, is split between Palo Alto, California and Tel Aviv, Israel.
+In September 2024, SSI revealed it had raised $1 billion from venture capital firms including SV Angel, DST Global, Sequoia Capital, and Andreessen Horowitz. The money will be used to build up more computing power and hire top individuals in the field.
+In March 2025, SSI reached a $30 billion valuation in a funding round led by Greenoaks Capital. This is six times its previous $5 billion valuation from September 2024. Despite not yet generating revenue and having approximately 20 employees, the company has attracted significant investor interest, largely due to co-founder Ilya Sutskever's reputation and its focus on developing safe superintelligence.
+In April 2025, Google Cloud announced a partnership to provide TPUs for SSI's research.
+In the first half of 2025, Meta attempted to acquire SSI but was rebuffed by Sutskever. In July 2025, co-founder Gross left the company to join Meta Superintelligence Labs, and Sutskever became the CEO of SSI.

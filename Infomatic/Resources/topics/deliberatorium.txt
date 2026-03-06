@@ -1,0 +1,8 @@
+A deliberatorium or collaboratorium is a form of online collaborative argument mapping. It was first deployed as the MIT Collaboratorium, and directed at the question of climate change.
+
+History
+In December 2008,  Center for Collective Intelligence at the MIT Mark Klein tested a prototype of the collaboratorium at the University of Naples featuring a 200 student debate on biofuels.
+
+Features
+Deliberatoriums work by deploying a website which allows the public to post the latest scientific results about climate change. Once done, people can debate how to get rid of carbon emissions which is how politicians get feedback on public opinion.
+The site operates similar to Wikipedia for authoritative reports but with a more structured, organized debate featuring an argument tree. These reports for the site come from the Intergovernmental Panel on Climate Change (IPCC).

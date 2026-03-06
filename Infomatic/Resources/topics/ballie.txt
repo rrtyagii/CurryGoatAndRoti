@@ -1,0 +1,6 @@
+Ballie is an AI robot created by Samsung to be released in 2026. It is an autonomous robot which has the ability to control smart home devices. Ballie can text, send pictures and follow commands through SmartThings. It can also show workout information shared from a Galaxy Watch. Ballie can make video calls and welcome you home.
+
+History
+It was first unveiled at Samsung's CES event in CES 2020, and later updated the design in CES 2024, and will be later released in 2026.
+
+Design

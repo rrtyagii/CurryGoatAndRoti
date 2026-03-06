@@ -1,0 +1,6 @@
+The Austronesian Basic Vocabulary Database or ABVD is a large database of basic vocabulary lists that mainly covers the Austronesian languages. It also has a comprehensive inventory of basic vocabulary lists for Kra–Dai languages, Hmong–Mien languages, Japonic languages, and other languages of East Asia. It is currently the largest lexical database of Austronesian languages in terms of the number of languages covered.
+
+History
+The database was created by Simon J. Greenhill as part of a graduate research project that he was working on with Russell Gray. Each vocabulary list in the database has 210 basic words. The list was originally from a set of printed 200-item word lists developed by Robert Blust as a lexicostatistical aid for classifying the Austronesian languages. 10 more numerals were added after the original 200th item, 'four', giving the word list its present 210-item inventory.
+In 2008, a computational analysis of the lexical database showed that the Austronesian languages had originated from Taiwan, rather than from Indonesia or other regions of Oceania.
+The database was originally hosted by the University of Auckland, and is currently hosted by the Max Planck Institute for the Science of Human History. It operates under the CC BY 4.0 license.

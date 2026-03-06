@@ -1,0 +1,12 @@
+ElliQ is an AI-powered companion robot developed by Intuition Robotics for the elderly.
+
+History
+ElliQ was first unveiled in January 2017 at the Consumer Electronics Show (CES). The product was developed by Intuition Robotics, an Israel technology company based in Tel Aviv with offices in the United States, Japan, and Greece, and is designed to support older adults by promoting independence, health, wellness, and social engagement. ElliQ was designed by Yves Béhar’s Fuseproject in collaboration with Intuition Robotics’ team.
+In March 2022, ElliQ became commercially available in the United States through a subscription-based model.
+In January 2024, Intuition Robotics launched ElliQ 3.
+
+Programmes
+ElliQ has been deployed in New York City in partnership with New York State Office for the Aging (NYSOFA). Since the start of the program in 2022, over 800 units have been delivered to older adults at risk of social isolation. According to a NYSOFA report, users have around 20 daily interactions on average.
+
+Awards
+ElliQ has received several design and industry distinctions since its introduction. Early acknowledgements included the AARP Innovation Champion Award in the Social Well-Being category in 2017 and the CES Best of Innovation award in the Smart Home category in 2018. ElliQ 3.0 was honoured with an iF Design Award in the Product and Medical or Healthcare categories in 2025.

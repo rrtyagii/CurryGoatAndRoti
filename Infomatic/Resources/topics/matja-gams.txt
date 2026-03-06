@@ -1,0 +1,21 @@
+Matjaž Gams is a Slovenian computer scientist known for his work in artificial intelligence, cognitive science, intelligent systems, and superintelligence. He leads the Agent Systems Group at the Jožef Stefan Institute and is a professor of computer science at the University of Ljubljana, as well as a lecturer at other universities in Slovenia and Europe.
+
+Education and Career
+Gams obtained his undergraduate degree from the University of Ljubljana in 1978, with a thesis on generating chess endgames. He earned his Ph.D. in 1989, focusing on the use of multiple models in machine learning. In 2011, he was appointed a full professor at the University of Ljubljana.
+Since 2004, he has served as the Head of the Department of Intelligent Systems at the Jožef Stefan Institute, where he is also a member of the scientific council.
+From 2017 to 2022, Gams served as a member of the National Council of Slovenia, representing the field of science. He currently serves as a municipal councillor. He has been active in the trade union movement, serving as vice-president of the Education, Science and Culture Trade Union of Slovenia (SVIZ), President of its Higher Education and Science division, and head of union bodies at the Jožef Stefan Institute.
+
+Academic and editorial roles
+Gams has served on the editorial boards of over a dozen scientific journals and is editor-in-chief of Informatica. He has organized the International IS Conference for more than 27 years, where the Michie–Turing Prize is awarded.
+He is a member of the Slovenian Academy of Engineering, the European Academy of Sciences and Arts and the IEEE. He co-founded Slovenia's second national academy, the International Academy of Sciences (IAS), and has held leadership positions in several academic associations. Gams has represented Slovenia in international organizations such as the Association for Computing Machinery (ACM), the European Association for Artificial Intelligence (EurAI), and the International Federation for Information Processing (IFIP).
+
+Research
+Over a career spanning more than five decades, Gams has contributed to the fields of artificial intelligence (AI), superintelligence, e-health, and the application of AI in public services. He has authored over 170 peer-reviewed journal articles  and more than 1,000 scientific publications. Gams has participated in approximately 200 national and international research and development projects, including those funded by the European Union's Framework Programmes and Horizon 2020.
+He has been involved in the development of HomeDOCtor, a large language model (LLM)-based medical assistant.
+Gams and his team received a $250,000 XPRIZE for work related to the COVID-19 pandemic and have earned awards in international competitions such as EvAAL, UbiComp, and the Qualcomm Tricorder X Prize.
+His academic work includes the proposal of concepts such as the "principle of multiple knowledge" and "Gams' law," the latter forming part of what he describes as the "laws of the information society." He has also used AI models to study demographic trends in Europe, highlighting what he terms a "demographic winter" in several smaller European nations. In environmental modeling, Gams has argued that nuclear energy has a lower environmental footprint compared to certain renewable technologies, citing land use as a key factor.
+
+Selected works
+Gams, M., Gu, I.Y-H., Härmä, A., Munoz, A., & Tam, V. (2019). Artificial intelligence and ambient intelligence. Journal of Ambient Intelligence and Smart Environments, 11(1).
+Nau, D., Luštrek, M., Parker, A., Bratko, I., & Gams, M. (2010). When is it better not to look ahead? Artificial Intelligence.
+Gams, M. (2001). Weak intelligence: Through the principle and paradox of multiple knowledge. Huntington, NY: Nova Science.

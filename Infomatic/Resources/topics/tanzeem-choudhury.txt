@@ -1,0 +1,9 @@
+Tanzeem Khalid Choudhury (born 1975) is the Roger and Joelle Burnell Professor in Integrated Health and Technology at Cornell Tech. Her research work is primarily in the area of mHealth (improving health using mobile devices such as smart phones).
+She was born in Bangladesh, and has written in The Daily Star about the experience of being a Bangladeshi woman in tech. She has also presented at TEDxDhaka.
+Prof. Choudhury heads the People Aware Computing Lab and the Precision Behavioral Health Initiative at Cornell Tech. Work from her group includes using smartphone data to help predict schizophrenia relapses and developing a wearable sensor that listens for sounds that indicate activity and mood.
+
+Career
+Choudhury did her undergraduate degree in Electrical Engineering at the University of Rochester. She then went on to earn a PhD at the MIT Media Lab, supervised by Sandy Pentland. After her PhD, she joined the Intel Research Lab in Seattle, which was at that time headed first by Gaetano Borriello and then by James Landay. Choudhury then joined the faculty of the Computer Science department at Dartmouth, before going on to become a faculty member in Computing and Information Science at Cornell in Ithaca. She and her research group are now based at the Cornell Tech campus in New York City.
+
+Recognition
+Choudhury is a recipient of the MIT Technology Review TR35 award, NSF CAREER award, a TED Fellowship, and a Ubiquitous Computing 10-year Impact Award, and has been a featured speaker at PopTech and TEDMED. She was named a 2021 ACM Fellow "for contributions to mobile systems for behavioral sensing and health interventions".

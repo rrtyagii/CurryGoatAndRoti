@@ -1,0 +1,47 @@
+The BEACON Center for the Study of Evolution in Action is a National Science Foundation Science and Technology Center headquartered at Michigan State University, focused on experimental and applied research on evolutionary dynamics in both natural and artificial systems. BEACON stands for Bio/computational Evolution in Action CONsortium.
+The center is a consortium of five universities led by Michigan State University, with partner institutions including North Carolina A&T State University, the University of Idaho, the University of Texas at Austin, and the University of Washington. BEACON unites evolutionary biologists, computer scientists, and engineers in joint study of natural and artificial evolutionary processes and in harnessing them to solve real-world problems.
+
+History
+BEACON was established on February 17, 2010, when Michigan State University was awarded a $25 million grant from the National Science Foundation to create one of five NSF Science and Technology Centers that year. The center was founded with the mission of "illuminating and harnessing the power of evolution in action to advance science and technology and benefit society."
+In 2015, BEACON received a $22.5 million renewal grant from the NSF to continue its research, education, and outreach activities. At that time, BEACON was recognized as one of 14 NSF Science and Technology Centers, described as "an elite group of research partnerships meant to unite and transform fields across science and engineering."
+As of 2016, BEACON had 583 members, including faculty, postdoctoral researchers, graduate students, and undergraduate students across its member institutions.
+
+Research
+BEACON's research is distinguished by its focus on evolution as an ongoing, observable process rather than studying evolution through fossil records or comparative DNA analysis. The center conducts research using multiple approaches: laboratory experiments with living organisms, field studies of natural populations, and digital evolution using self-replicating computer programs.
+
+Digital evolution
+A core research area at BEACON involves digital organisms—self-replicating computer programs that undergo actual evolution (not simulation) within controlled computer environments. The center's researchers developed Avida, an artificial life software platform used to study evolutionary biology. Avida was originally created in 1993 by Charles Ofria, Chris Adami, and C. Titus Brown at Caltech and remains under active development at Michigan State University.
+Digital evolution research at BEACON has produced landmark findings published in Nature and Science. A 2003 paper titled "The Evolutionary Origin of Complex Features" used Avida to demonstrate that evolution is capable of producing complex features through the incremental evolution of simpler "building block" features.
+
+Long-term evolution experiment
+BEACON researchers are closely associated with the E. coli long-term evolution experiment (LTEE), one of the longest-running experiments in evolutionary biology. The LTEE was started in 1988 by Richard Lenski, a BEACON co-founder and principal investigator, and has tracked genetic changes in 12 populations of Escherichia coli bacteria for over 80,000 generations. The experiment has provided insights into the evolution of novel traits, mutation rates, antibiotic resistance, and the repeatability of evolution.
+A notable discovery from the LTEE was the evolution of a strain of E. coli that gained the ability to metabolize citrate under aerobic conditions—a trait that defines the species boundary of E. coli.
+
+Applied evolutionary computation
+BEACON promotes the transfer of discoveries from biology into computer science and engineering design. Researchers use evolutionary algorithms and genetic algorithms to solve real-world problems, including the development of safer and more efficient vehicles, systems for detecting computer intrusions, and optimization of greenhouse climate control.
+
+Education and outreach
+Avida-ED
+BEACON developed Avida-ED, an educational version of the Avida software designed for use in high school and undergraduate biology courses. Avida-ED provides a simplified graphical user interface that allows students to observe and experiment with evolution without specialized computer science knowledge.
+The software runs as a web application and allows students to conduct experiments with populations of "Avidians"—digital organisms that replicate, mutate, and compete for resources. Studies have shown that Avida-ED improves student understanding of evolutionary concepts, particularly regarding the random nature of mutation and the mechanism of natural selection. The Avida-ED project received the 2017 International Society for Artificial Life Education and Outreach Award.
+
+K-12 programs
+BEACON's education programs include resources for K-12 teachers, such as:
+
+Data Nuggets — classroom activities developed by graduate students and K-12 teachers that bring real scientific data into classrooms
+BoxCar2D — an interactive website where students explore how evolutionary principles can be used to evolve better vehicles using genetic algorithms
+Teachers Researching Evolution — a program placing teachers in research laboratories during the summer
+
+Diversity initiatives
+BEACON has received recognition for its diversity and inclusion efforts. In 2021, the center received Michigan State University's Team Award for Sustained Efforts toward Excellence in Diversity.
+
+Leadership
+The current director of BEACON is Charles Ofria, a professor of computer science and engineering at Michigan State University and co-creator of the Avida software platform. Ofria was elected a Fellow of the American Association for the Advancement of Science in 2022 for "revolutionary work in understanding how evolution functions and the application of that knowledge to digital organisms."
+The founding director was Erik Goodman, a professor of electrical and computer engineering at Michigan State University. The principal investigators who co-founded BEACON include:
+
+Erik Goodman — Professor of Electrical and Computer Engineering, MSU (Executive Director)
+Richard Lenski — John A. Hannah Distinguished Professor of Microbial Ecology, MSU; creator of the E. coli long-term evolution experiment; member of the National Academy of Sciences
+Robert T. Pennock — Professor of Philosophy, MSU; developer of Avida-ED; author of Tower of Babel: The Evidence against the New Creationism
+Kay E. Holekamp — Professor of Integrative Biology, MSU; expert on animal behavior and social evolution in hyenas
+
+Member institutions

@@ -1,0 +1,70 @@
+The RoboCup Standard Platform League (SPL) is one of several leagues within RoboCup, an international competition with autonomous robotic soccer matches as the main event.
+
+Overview
+In the Standard Platform League all teams use identical (i.e., standard) robots, allowing the teams concentrate on software development rather than the mechanics of robots. The robots operate fully autonomously; i.e., there is no remote control by either humans or computers during the games.
+The League began as the Sony Four-Legged League in 1999 using the Sony AIBO. Initially a small number of teams were invited to join the league. In 2002, the league was opened and teams were allowed to apply through a qualification process.  After Sony announced that it would discontinue production of the AIBO in 2006, the League searched for a new platform and decided on the Aldebaran Robotics humanoid NAO.  In 2008, the League ran both AIBOs and Naos and was renamed the Standard Platform League.  From 2009, only the Naos were used.
+
+History
+Summaries of previous World Championships
+Technical Challenges Results
+Drop-In Competition Results
+League Photos
+2009
+A group photo of all teams participating in RoboCup SPL 2009
+
+2010
+A group photo of all teams participating in RoboCup SPL 2010
+
+2011
+A group photo of all teams participating in RoboCup SPL 2011
+
+2012
+A group photo of all teams participating in RoboCup SPL 2012
+
+2013
+A group photo of all teams participating in RoboCup SPL 2013
+Robots on display for the Queen of The Netherlands at RoboCup 2013
+
+2014
+A group photo of all teams participating in RoboCup SPL 2014
+
+Founders of the League
+Source:
+
+Hiroaki Kitano, RoboCup Federation
+Manuela Veloso, Carnegie Mellon University, USA
+Masahiro Fujita, Sony Corporation, Japan
+Minoru Asada, Osaka University, Japan
+Dominique Duhaut, Université de Bretagne Sud, France
+
+Rules
+RoboCup SPL Rules
+
+Robots
+1999–2008 Sony AIBO.
+2008–present Aldebaran Robotics humanoid NAO robots.
+
+Technologies
+Control of the robots relies on several areas of robotics, including
+
+Adaptive control
+Artificial Intelligence
+Bayesian Learning Learning
+Classification and Clustering
+Computational Neuroscience
+Data Mining Techniques
+Digital Control
+Digital Image Processing
+Dimension reduction
+Evolutionary Computation
+Kalman Filter, Extended Kalman Filter
+Flexible Distribution functions
+Feedback Control and Regulation
+Manifold learning
+Motor Control and Legged Locomotion
+Neural Networks
+Reinforcement Learning
+Robot Programming
+Software Engineering
+Support Vector Machines
+Machine vision

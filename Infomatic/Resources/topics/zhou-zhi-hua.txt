@@ -1,0 +1,22 @@
+Zhou Zhihua (周志华; born November 20, 1973) is a Chinese computer scientist and Professor of Computer Science at Nanjing University. He is the Standing Deputy Director of the National Key Laboratory for Novel Software Technology, and Founding Director of the LAMDA Group. His research interests include artificial intelligence, machine learning and data mining.
+
+Biography
+Zhou Zhi-Hua received his B.Sc., M.Sc. and Ph.D. degrees in computer science from Nanjing University in 1996, 1998 and 2000, respectively, all with the highest honor. He joined the Department of Computer Science & Technology of Nanjing University as an assistant professor in 2001, promoted to associate professor in 2002 and full professor in 2003. He was appointed as Cheung Kong Professor in 2006.
+
+Research
+Zhou is known for significant contributions to ensemble learning, multi-label learning, and learning with partial supervision (semi-supervised learning, multi-instance learning, etc.). He has authored two books and published more than 150 scientific articles in premium journals/conferences. According to Google Scholar, his h-index is 102. He also holds 18 patents.
+
+Services
+Zhou founded the ACML  (Asian Conference on Machine Learning), and served as Advisory Committee member of IJCAI (2015-2016), General co-chair of ICDM'2016, Program Committee Co-Chair of IJCAI'2015 Machine Learning track, etc. He served for editorial boards of many journals, including Executive Editor-in-Chief for Frontiers of Computer Science. He is/was Chair of CCF-AI (2012-), chair of the IEEE CIS Data Mining Technical Committee (2015-2016), chair of the CAAI Machine Learning Technical Committee (2006-2015). He founded the LAMDA, a famous research group in machine learning and data mining in China.
+
+Awards
+Zhou received various award/honors including the National Natural Science Award of China (premium science award in China),
+the IEEE ICDM Outstanding Service Award,
+the PAKDD Distinguished Contribution Award,
+the IEEE CIS Outstanding Early Career Award, the Microsoft Professorship Award, etc.
+He is a Fellow of the ACM, AAAS, AAAI, IEEE,
+IAPR, IET/IEE and CCF.
+
+Books
+Ensemble Methods: Foundations and Algorithms. 2012
+Machine Learning. (in Chinese). 2016

@@ -1,0 +1,10 @@
+SpreeAI is an American fashion technology company founded in 2022 and headquartered in Incline Village, Nevada. The company develops artificial intelligence software for the fashion industry, including photorealistic virtual try‑on systems, sizing intelligence tools, and digital fashion applications.
+
+History
+SpreeAI was founded in 2022 by John Imah and Bob Davidson. The company was initially known as Spree3D before adopting its current name. In 2025, SpreeAI announced a Series B round led by Davidson Group. Following this investment, the company’s valuation was reported at $1.5 billion. TechCrunch identified SpreeAI as one of the newly tech minted unicorns of 2025.
+
+Technology
+SpreeAI develops software that applies artificial intelligence to fashion retail. Its platform enables consumers to upload a photograph or select a model to visualize clothing items digitally. The system also provides size recommendations and outfit suggestions. It is designed to integrate with online shopping platforms, allowing retailers to offer customers the ability to preview clothing items before purchase.
+
+Board and partnerships
+The company’s board of directors includes Naomi Campbell and Larry Ruvo. SpreeAI has collaborated with the Carnegie Mellon University and Massachusetts Institute of Technology (MIT). In 2025, the company partnered with the Council of Fashion Designers of America (CFDA).

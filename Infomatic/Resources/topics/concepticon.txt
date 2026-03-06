@@ -1,0 +1,11 @@
+Concepticon is an open-source online lexical database of linguistic concept lists (word lists). It links concept labels (i.e., word list glosses) in concept lists (i.e., word lists) to concept sets (i.e., standardized word meanings).
+It is part of the Cross-Linguistic Linked Data (CLLD) project, which is hosted by the Max Planck Institute for the Science of Human History in Jena, Germany. Version 1.0 was released in 2016.
+
+Concept
+Concept lists in the Concepticon include:
+
+Swadesh list (100 items, 207 items, etc.)
+Swadesh–Yakhontov list
+Dolgopolsky list
+Leipzig–Jakarta list
+ASJP list

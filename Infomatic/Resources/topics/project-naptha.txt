@@ -1,0 +1,57 @@
+Project Naptha is a browser extension software for Google Chrome that allows users to highlight, copy, edit and translate text from within images. It was created by developer Kevin Kwok, and released in April 2014 as a Chrome add-on. This software was first made available only on Google Chrome, downloadable from the Chrome Web Store. It was then made available on Mozilla Firefox, downloadable from the Mozilla Firefox add-ons repository but was soon removed. The reason behind the removal remains unknown.
+The web browser extension uses advanced imaging technology. Similar technologies have also been employed to produce hardcopy art, and the identification of these works.
+By adopting several Optical Character Recognition (OCR) algorithms, including libraries developed by Microsoft Research and Google, text is automatically identified in images. The OCR enables the build-up of a model of text regions, words and letters from all images.
+The OCR technology that Project Naptha adopts is a slightly differentiated technology in comparison to the technology used by software such as Google Drive and Microsoft OneNote to facilitate and analyse text within images. Project Naptha also makes  use of a method called Stroke Width Transform (SWT), developed by Microsoft Research in 2008 as a form of text detection.
+
+Origin of name
+The name Naptha is derived from Naphtha, which is a general term that originated few thousand years ago and refers to flammable liquid hydrocarbon. The process of highlighting texts also inspired the naming of the project.
+
+Difficulty in translation of words from images
+The process of editing, copying or quoting text inside images was difficult before software such as Project Naptha arrived. Previously, the only way to search or copy a sentence from an image was to manually transcribe the text.
+
+History
+In May 2012, Kevin Kwok was reading about seam carving, an algorithm which was able to rescale images without distorting or damaging the quality of the image. Kwok noticed that they tend to converge and arrange themselves in a way that cut through the spaces in between letters. A particularly verbose comic inspired him to develop a software which can read images (with canvas), figure the positions of the lines and letters, and draw selection overlays to assuage a pervasive text-selection habit.
+
+Technical Features
+Before the Optical Character Recognition (OCR) can be applied, it has to first identify whether blocks of text exists in an image. Once the blocks of texts are identified, the OCR enables for the build-up of a model of text regions, words and letters from any images. This function provides users with the option to copy, translate and even modify text directly in every image, in real-time and in their Google Chrome browser.
+The primary feature of Project Naptha is the text detection function. Running on an algorithm called the “Stroke Width Transform, developed by Microsoft Research in 2008, it provides the capability of identifying regions of text in a language-agnostic manner and detecting angled text and text in images. This is done by using the width of the lines that make up letters as a means to identify elements that could potentially be text rather than trying to spot predetermined separate features as a marker of text.
+In this case, the programme becomes highly intuitive, similar to humans whereby we do not need to understand a language in order to recognize a written text.
+Project Naptha automatically applies state-of-the-art computer vision algorithms on every image available when browsing the web, allowing users to highlight, copy and paste, edit and translate text which were formerly trapped within an image.
+A technique similar to Photoshop's "Content-Aware Fill" feature called "inpainting” is adopted. These types of algorithms are famously known as a part of Adobe Photoshop’s “Content-Aware Fill” feature. It involves the using of an algorithm that automatically fills in the space previously occupied by text with colors from the surrounding area, matching the font of the translated text in the style of the original image. This is done so by, first, detecting the text and retrieving the solid colours from the regions surrounding the text. Following, the colours will be spread around and inwards till the entire area is filled up. This technique allows user to reconstruct images as well as to edit and remove words from an image with the capturing and processing of the independent colours from regions around the edited text.
+In order to provide a seamless and intuitive experience for the user, the extension technique tracks cursor movements and continuously extrapolates a second ahead based on its position and velocity, predicting where highlights might be made over an image. The Project Naptha software then scans and runs a processor-intensive character recognition algorithms, processing potential text that users might want to pick out from an image, ahead of time.
+
+Application
+Project Naptha can be used on a few applications, enabling users to copy texts from any images displayed in the browser. This includes comics, photos, screenshots, images with text overlays such as internet memes, animated GIFS, scans, diagrams with labels, and translations.
+
+Comics
+In October 2013, the first prototype for the extension for comics was released. The need for an extension for comic was due to the use of comic fonts, which are more casual and informal. Characters are often placed closely together as if they are connected and if one tries to copy and paste text from a comic, the copied text will usually appear to be jumbled up and unclear.
+
+Photos
+The algorithm used by Project Naptha for photos is the Stroke Width Transform, which was specially designed for detecting text in natural scenes and photographs. This is because photographs are generally tougher and more technically challenging to copy texts from as compared to most regular images.
+
+Screenshots
+For Screenshots, Project Naptha transforms static screenshots into something more similar to an interactive snapshot of the computer as it was when the screen was captured. The cursor changes when hovering over different parts, and blocks of text become selectable.
+
+Editing Text on Images
+Project Naptha allows one to erase and edit texts on an image by using the translation technology. This translation technology essentially makes use of “Inpainting”.
+During the changing of a text, it uses the same trick that translation uses. The Translate menu includes the capability to translate in-image text to many other different languages such as English, Spanish, Russian, French, Chinese Simplified, Chinese Traditional, Japanese, or German.
+
+Technical Limitations
+There are a few technical difficulties that Project Naptha still faces despite the constant improvements made to the software.
+The language-agnostic nature of Project Naptha's underlying Stroke Width Transform algorithm allows it detect the little squiggles as text. Despite it being a plus point since it is capable of detecting minor details, it can also end up to be seen as a bug by detecting and including too many unwanted details.
+When the colours of the texts and background of an image are similar, it becomes challenging for words to be detected, as words become less distinctive from the image. This creates inaccuracies in the detection and copying of texts.
+Due to character segmentation, handwritings are especially tough for detection. The characters in handwritings are often written too close to each other, making it difficult to segment the characters or to separate the letters apart. Hence, copying texts from these types of sources will result in high inaccuracy and with jumbled letters.
+As part of an improvement feature, Project Naptha started work on it and enabling it to support rotated text. However, this function is only limited only up to about 30 degrees. Any text with rotation of more than 30 degrees may become incapable of being copied or translated.
+For techniques that make use of inpainting, present loopholes to it is that images may hardly be a substitute for the original and can leave marks of it being edited. It will however, look as though the words have been flawlessly removed from the image from a distance away.
+
+Security
+Security Concerns
+For any other software that is used on sites, one of the greatest concerns is due to issues arising regarding the balance between user experience and privacy. It is understood that the developers of Project Naptha are doing their best in attempting to allow the processing on the client side (i.e., within the browser). However, as text selected by users for extraction from the image are being processed in the cloud. This means that in order to achieve higher translation accuracy, there is still a need to rely on greater cloud processing and hence compromising on privacy.
+There is a default setting which helps to strike a delicate balance between having all the functionality made available and respecting user privacy. By default, when users begin selecting a text, a secure HTTPS request is sent. This is only contains the URL of the specific image and nothing else – no User Tokens, no Website Information, no Cookies or analytics and the requests are not logged. The server responds with a list of existing translations and OCR languages that have been done. This allows you to recognize text from an image with much more accuracy than otherwise possible.
+Depending on the preference of the users, this default function can be disabled by checking on the “Disable Lookup” item under the Options Menu.
+
+Future Developments
+Apart from the current software that allows one to manipulate texts inside the images, there is an experimental feature that plans to widen the ability of the software. Under this experimental extension, the software aims to allow users to search for texts inside images on a current page, serving as a great feature for all users.
+Project Naptha has also been looking at different ways to improve on its limitations. Currently, text can only be of a rotation angle of not more than 30 degrees otherwise it would be of inferior quality. Project Naptha will aim to increase the quality in its future versions by using better-trained models and algorithms. There is also a possibility of the inclusion of transcription services that will be assisted by humans.
+Also, the techniques of inpainting may leave marks on the original image, making it obvious that it has been edited. This technique is expected to improve as well, especially with a technique of detecting logic besides simply detecting fonts. Currently, inpainted reads fonts in this manner - if uppercase and super bold, then Impact font, if uppercase otherwise then XKCD font, and for everything else, Helvetica Neue.
+As acknowledged by Kwok, Project Naptha still has to improve on many of its functionality. The main reason is because in terms of its various subcomponents and algorithms, Project Naptha is a few years behind the state of the art.  However, he firmly believes that over time, text recognition, translation and deletion can all be developed further and this immense potential is definitely one that will be exciting.

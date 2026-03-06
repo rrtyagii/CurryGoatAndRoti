@@ -1,0 +1,18 @@
+WebID is a method for internet services and members to know who they are communicating with. The WebID specifications define a set of editor's drafts to prepare the process of standardization for identity, identification and authentication on HTTP-based networks. WebID-based protocols (Solid OIDC, WebID-TLS, WebID-TLS+Delegation) offer a new way to log into internet services. Instead of using a password, for example, the member refers to another web address which can vouch for it. WebID is not a specific service or product.
+Technically speaking, a WebID is an HTTP URI that denotes ("refers to" or "names") an agent on an HTTP based network such as the Web or an enterprise intranet. In line with linked data principles, when a WebID is de-referenced ("looked up"), it resolves to a profile document (a WebID-Profile) that describes its referent (what it denotes). This profile document consists of RDF model based structured data, originally constructed primarily using terms from the FOAF vocabulary, but now often including terms from other vocabularies.
+Profile documents can be stored on the agent's own Web server, and access thereto may be partially or wholly constrained to specific agent identities via the use of access controls, to preserve the privacy of the profile document's subject.
+
+Protocols
+WebID-TLS
+The WebID-TLS protocol (formerly known as FOAF+SSL) is a decentralized and secure authentication protocol built upon the profile information as well as the Transport Layer Security (TLS) client certificates available in virtually all modern web browsers. It was first presented  for the W3C Workshop on the Future of Social Networking in 2009.
+Unlike the usual SSL usage patterns, WebID-TLS does not require a dedicated Certificate Authority to perform the user authorization. Users can easily mint useful identities for themselves using any TLS certificate (even self-signed ones). Using TLS client certificates for Web site user authentication doesn't usually require that the user input a password, unlike many other single sign-on mechanisms, which can make WebID-TLS quite convenient. However, the client certificate selection dialogues in popular Web browsers are not yet as user-friendly as they might be, negating some of this convenience.
+A web of trust based on WebID-TLS could be gradually constructed, connecting users and their activities on the World Wide Web, without formal key signing parties, making the identification harder for anyone (even the original issuing authority) to falsify.
+
+WebID-OIDC
+WebID-OIDC was an authentication delegation protocol used by Solid. It is based on decentralized OAuth2/OpenID Connect. It has been superseded by Solid OIDC
+
+Solid OIDC
+Solid OIDC is an authentication delegation protocol used by Solid. It is based on OAuth2/OpenID Connect.
+
+WebID-TLS+Delegation
+WebID-TLS+Delegation extends WebID-TLS through "On Behalf Of" headers and relationships, enabling one Agent to act with all permissions/privileges of another Agent.

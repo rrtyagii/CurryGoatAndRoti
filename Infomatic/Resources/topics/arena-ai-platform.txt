@@ -1,0 +1,16 @@
+Arena (formerly Chatbot Arena) is a public, web-based platform that evaluates large language models (LLMs) through anonymous, crowd-sourced pairwise comparisons. Users enter prompts for two anonymous models to respond to and vote on the model that gave the better response, after which the models' identities are revealed. Users can also choose models to test themselves.
+Arena is popular within the artificial intelligence industry, with major companies supplying their large language models, such as OpenAI's GPT-4o and o1, Google DeepMind's Gemini, and Anthropic's Claude, and using their subsequent rankings to promote them.
+The website has been used for preview releases of upcoming models. Notably, Chinese company DeepSeek tested its prototype models in the Arena months before its R1 model gained attention in Western media. Other notable pre-release models include OpenAI's GPT-5 under the codename "summit" and Google DeepMind's Gemini 2.5 Flash Image (an image-generation and editing model) under the codename "Nano Banana".
+Arena's evaluation methodology for large language models has been examined in academic analyses, which have identified specific limitations and suggested areas for improvement. The platform is an active contributor of the AI research ecosystem and has since implemented methodological updates in coordination with ongoing research through its policy updates.
+
+History
+Chatbot Arena (2023–2024)
+Chatbot Arena was released on April 24, 2023. During the first week, Vicuna (vicuna-13b), an LLM fine-tuned from LLaMA by Arena (then LMSYS) was ranked at #1, with an ELO of 1169, followed by Koala (koala-13b), a dialogue model by BAIR at #2 with an ELO of 1082, and Oasst Pythia (oasst-pythia-12b), an LLM by LAION at #3 with an ELO of 1065. In the second week, GPT-4, Claude-v1, and GPT-3.5 were added to the arena alongside RWKV-4-Raven-14B. The website had collected over 130,000 votes by December 2023.
+
+LMArena (2024–2026)
+In September 2024, Chatbot Arena moved to its own dedicated domain name, lmarena.ai (or LMArena), thus separating from LMSys.
+In April 2025, LMArena incorporated as an independent company. That May, LMArena raised $100 million in a seed funding round, valuing the company at $600 million. Participants in the seed funding round included Andreessen Horowitz, UC Investments, Lightspeed Venture Partners, Felicis Ventures, and Kleiner Perkins.
+On January 6, 2026, LMArena announced the closing of a $150 million Series A funding round, bringing the company’s post-money valuation to approximately $1.7 billion. The round was led by Felicis and UC Investments (University of California), with participation from Andreessen Horowitz, The House Fund, LDVP, Kleiner Perkins, Lightspeed Venture Partners, and Laude Ventures. Arena stated that the funding would be used to scale its AI evaluation platform, expand technical and research teams, and support product development following rapid community growth and adoption.
+
+Arena (2026–present)
+On January 28, 2026, LMArena rebranded to "Arena".

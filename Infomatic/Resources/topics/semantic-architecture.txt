@@ -1,0 +1,21 @@
+Semantic architecture is a concept in software architecture. It proposes the creation of more useful architecture descriptions which can unambiguously capture, catalog, communicate, preserve, and can interoperably exchange semantics between different architectures.
+
+Overview
+The overall goals of the semantic architecture are
+
+to define a formal semantic way of representing architecture intended to be both human and machine readable
+to describe a system architecture at a high level of abstraction
+to support automatic generation of software architecture models
+to permit analysis of architectural quality attributes
+to provide a repository of patterns expressed utilizing the semantic web standards RDF/S and OWL
+In order to achieve these goals, the software architecture community and industry need to define
+
+a common architecture description language
+an OWL ontology for architecture data models
+a set of tools for capturing, querying, and visualizing all aspects and view points of an architecture
+The tooling or toolkits for semantic architecture should
+
+be suitable for communicating an architecture to all stakeholders
+supports architecture creation, refinement, evaluation, and validation of quality attributes
+provides a basis for further implementation
+allows the architecture community to exchange semantics of architecture styles and patterns in an interoperable fashion

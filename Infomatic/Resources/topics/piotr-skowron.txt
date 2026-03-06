@@ -1,0 +1,8 @@
+Piotr Skowron is an assistant professor at the University of Warsaw. He is known for his research in artificial intelligence (AI) and theoretical computer science, especially for his work on social choice, and committee elections.
+
+Biography
+Piotr Skowron received his Ph.D. in computer science from the University of Warsaw in 2015. His doctoral dissertation won the runner-up for IFAAMAS Victor Lesser Distinguished Dissertation Award for the best dissertation in the area of autonomous agents and multi-agent systems. Subsequently, he was a postdoctoral researcher at the University of Oxford (2016), and at Technische Universität Berlin (2017), where he was supported by the Alexander von Humboldt Foundation. In 2018, he joined the Faculty of Mathematics, Informatics and Mechanics at University of Warsaw as a faculty member.
+
+Research and awards
+In 2022, Piotr Skowron won the IJCAI Computers and Thought Award, given yearly since 1971 to an outstanding AI researcher under the age of 35, for "his contributions to computational social choice, and to the theory of committee elections".
+He shared the 2024 Social Choice and Welfare Prize given "to honour young scholars of excellent accomplishment in the area of social choice theory and welfare economics."

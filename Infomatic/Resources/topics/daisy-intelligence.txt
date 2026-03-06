@@ -1,0 +1,3 @@
+Daisy Intelligence is a Canadian artificial intelligence (AI) company that provides data analysis services to help retailers, mainly grocers and supermarkets, to determine optimal pricing and promotional mix. The company also helps insurance companies detect fraudulent claims. The company uses a subset of AI known as reinforcement learning.
+In October 2019, the company moved from the suburban Vaughan, Ontario, to downtown Toronto, joining other AI and technology startups concentrated in the King Street East area.
+In 2019, the company was ranked No. 39 on The Globe and Mail's annual list of Canada's "top growing companies by three-year revenue growth."

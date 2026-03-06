@@ -1,0 +1,696 @@
+Differential evolution (DE) is an evolutionary algorithm to optimize a problem by iteratively trying to improve a candidate solution with regard to a given measure of quality. Such methods are commonly known as metaheuristics as they make few or no assumptions about the optimized problem and can search very large spaces of candidate solutions. However, metaheuristics such as DE do not guarantee an optimal solution is ever found.
+DE is used for multidimensional real-valued functions but does not use the gradient of the problem being optimized, which means DE does not require the optimization problem to be differentiable, as is required by classic optimization methods such as gradient descent and quasi-newton methods. DE can therefore also be used on optimization problems that are not even continuous, are noisy, change over time, etc.
+DE optimizes a problem by maintaining a population of candidate solutions and creating new candidate solutions by combining existing ones according to its simple formulae, and then keeping whichever candidate solution has the best score or fitness on the optimization problem at hand. In this way, the optimization problem is treated as a black box that merely provides a measure of quality given a candidate solution and the gradient is therefore not needed.
+
+History
+Storn and Price introduced Differential Evolution in 1995. Books have been published on theoretical and practical aspects of using DE in parallel computing, multiobjective optimization, constrained optimization, and the books also contain surveys of application areas. Surveys on the multi-faceted research aspects of DE can be found in journal articles.
+
+Algorithm
+A basic variant of the DE algorithm works by having a population of candidate solutions (called agents). These agents are moved around in the search-space by using simple mathematical formulae to combine the positions of existing agents from the population. If the new position of an agent is an improvement then it is accepted and forms part of the population, otherwise the new position is simply discarded. The process is repeated and by doing so it is hoped, but not guaranteed, that a satisfactory solution will eventually be discovered.
+Formally, let
+
+
+
+        f
+        :
+
+
+            R
+
+
+            n
+
+
+        →
+
+          R
+
+
+
+    {\displaystyle f:\mathbb {R} ^{n}\to \mathbb {R} }
+
+ be the fitness function which must be minimized (note that maximization can be performed by considering the function
+
+
+
+        h
+        :=
+        −
+        f
+
+
+    {\displaystyle h:=-f}
+
+ instead). The function takes a candidate solution as argument in the form of a vector of real numbers. It produces a real number as output which indicates the fitness of the given candidate solution. The gradient of
+
+
+
+        f
+
+
+    {\displaystyle f}
+
+ is not known. The goal is to find a solution
+
+
+
+
+          m
+
+
+
+    {\displaystyle \mathbf {m} }
+
+ for which
+
+
+
+        f
+        (
+
+          m
+
+        )
+        ≤
+        f
+        (
+
+          p
+
+        )
+
+
+    {\displaystyle f(\mathbf {m} )\leq f(\mathbf {p} )}
+
+ for all
+
+
+
+
+          p
+
+
+
+    {\displaystyle \mathbf {p} }
+
+ in the search-space, which means that
+
+
+
+
+          m
+
+
+
+    {\displaystyle \mathbf {m} }
+
+ is the global minimum.
+Let
+
+
+
+
+          x
+
+        ∈
+
+
+            R
+
+
+            n
+
+
+
+
+    {\displaystyle \mathbf {x} \in \mathbb {R} ^{n}}
+
+ designate a candidate solution (agent) in the population. The basic DE algorithm can then be described as follows:
+
+Choose the parameters
+
+
+
+
+          NP
+
+        ≥
+        4
+
+
+    {\displaystyle {\text{NP}}\geq 4}
+
+,
+
+
+
+
+          CR
+
+        ∈
+        [
+        0
+        ,
+        1
+        ]
+
+
+    {\displaystyle {\text{CR}}\in [0,1]}
+
+, and
+
+
+
+        F
+        ∈
+        [
+        0
+        ,
+        2
+        ]
+
+
+    {\displaystyle F\in [0,2]}
+
+.
+NP :
+
+
+
+
+          NP
+
+
+
+    {\displaystyle {\text{NP}}}
+
+ is the population size, i.e. the number of candidate agents or "parents".
+CR : The parameter
+
+
+
+
+          CR
+
+        ∈
+        [
+        0
+        ,
+        1
+        ]
+
+
+    {\displaystyle {\text{CR}}\in [0,1]}
+
+ is called the crossover probability.
+F : The parameter
+
+
+
+        F
+        ∈
+        [
+        0
+        ,
+        2
+        ]
+
+
+    {\displaystyle F\in [0,2]}
+
+ is called the differential weight.
+Typical settings are
+
+
+
+        N
+        P
+        =
+        10
+        n
+
+
+    {\displaystyle NP=10n}
+
+,
+
+
+
+        C
+        R
+        =
+        0.9
+
+
+    {\displaystyle CR=0.9}
+
+ and
+
+
+
+        F
+        =
+        0.8
+
+
+    {\displaystyle F=0.8}
+
+.
+Optimization performance may be greatly impacted by these choices; see below.
+Initialize all agents
+
+
+
+
+          x
+
+
+
+    {\displaystyle \mathbf {x} }
+
+ with random positions in the search-space.
+Until a termination criterion is met (e.g. number of iterations performed, or adequate fitness reached), repeat the following:
+For each agent
+
+
+
+
+          x
+
+
+
+    {\displaystyle \mathbf {x} }
+
+ in the population do:
+Pick three agents
+
+
+
+
+          a
+
+        ,
+
+          b
+
+
+
+    {\displaystyle \mathbf {a} ,\mathbf {b} }
+
+, and
+
+
+
+
+          c
+
+
+
+    {\displaystyle \mathbf {c} }
+
+ from the population at random, they must be distinct from each other as well as from agent
+
+
+
+
+          x
+
+
+
+    {\displaystyle \mathbf {x} }
+
+. (
+
+
+
+
+          a
+
+
+
+    {\displaystyle \mathbf {a} }
+
+ is called the "base" vector.)
+Pick a random index
+
+
+
+        R
+        ∈
+        {
+        1
+        ,
+        …
+        ,
+        n
+        }
+
+
+    {\displaystyle R\in \{1,\ldots ,n\}}
+
+ where
+
+
+
+        n
+
+
+    {\displaystyle n}
+
+ is the dimensionality of the problem being optimized.
+Compute the agent's potentially new position
+
+
+
+
+          y
+
+        =
+        [
+
+          y
+
+            1
+
+
+        ,
+        …
+        ,
+
+          y
+
+            n
+
+
+        ]
+
+
+    {\displaystyle \mathbf {y} =[y_{1},\ldots ,y_{n}]}
+
+ as follows:
+For each
+
+
+
+        i
+        ∈
+        {
+        1
+        ,
+        …
+        ,
+        n
+        }
+
+
+    {\displaystyle i\in \{1,\ldots ,n\}}
+
+, pick a uniformly distributed random number
+
+
+
+
+          r
+
+            i
+
+
+        ∼
+        U
+        (
+        0
+        ,
+        1
+        )
+
+
+    {\displaystyle r_{i}\sim U(0,1)}
+
+
+If
+
+
+
+
+          r
+
+            i
+
+
+        <
+        C
+        R
+
+
+    {\displaystyle r_{i}<CR}
+
+ or
+
+
+
+        i
+        =
+        R
+
+
+    {\displaystyle i=R}
+
+ then set
+
+
+
+
+          y
+
+            i
+
+
+        =
+
+          a
+
+            i
+
+
+        +
+        F
+        ×
+        (
+
+          b
+
+            i
+
+
+        −
+
+          c
+
+            i
+
+
+        )
+
+
+    {\displaystyle y_{i}=a_{i}+F\times (b_{i}-c_{i})}
+
+ otherwise set
+
+
+
+
+          y
+
+            i
+
+
+        =
+
+          x
+
+            i
+
+
+
+
+    {\displaystyle y_{i}=x_{i}}
+
+. (Index position
+
+
+
+        R
+
+
+    {\displaystyle R}
+
+ is replaced for certain.)
+If
+
+
+
+        f
+        (
+
+          y
+
+        )
+        ≤
+        f
+        (
+
+          x
+
+        )
+
+
+    {\displaystyle f(\mathbf {y} )\leq f(\mathbf {x} )}
+
+ then replace the agent
+
+
+
+
+          x
+
+
+
+    {\displaystyle \mathbf {x} }
+
+ in the population with the improved or equal candidate solution
+
+
+
+
+          y
+
+
+
+    {\displaystyle \mathbf {y} }
+
+.
+Pick the agent from the population that has the best fitness and return it as the best found candidate solution.
+
+Parameter selection
+The choice of DE parameters
+
+
+
+
+          NP
+
+
+
+    {\displaystyle {\text{NP}}}
+
+,
+
+
+
+
+          CR
+
+
+
+    {\displaystyle {\text{CR}}}
+
+ and
+
+
+
+        F
+
+
+    {\displaystyle F}
+
+ can have a large impact on optimization performance.  Selecting the DE parameters that yield good performance has therefore been the subject of much research. Rules of thumb for parameter selection were devised by Storn et al. and Liu and Lampinen. Mathematical convergence analysis regarding parameter selection was done by Zaharie.
+
+Constraint handling
+Differential evolution can be utilized for constrained optimization as well.
+A common method involves modifying the target function to include a penalty for any violation of constraints,
+expressed as:
+
+
+
+        f
+
+
+
+              (
+              ~
+
+
+
+        x
+        )
+        =
+        f
+        (
+        x
+        )
+        +
+        ρ
+        ×
+
+          C
+          V
+
+        (
+        x
+        )
+
+
+    {\displaystyle f{\tilde {(}}x)=f(x)+\rho \times \mathrm {CV} (x)}
+
+.
+Here,
+
+
+
+
+          C
+          V
+
+        (
+        x
+        )
+
+
+    {\displaystyle \mathrm {CV} (x)}
+
+ represents either a constraint violation (an L1 penalty) or the square of a constraint violation (an L2 penalty).
+This method, however, has certain drawbacks.
+One significant challenge is the appropriate selection of the penalty coefficient
+
+
+
+        ρ
+
+
+    {\displaystyle \rho }
+
+.
+If
+
+
+
+        ρ
+
+
+    {\displaystyle \rho }
+
+ is set too low, it may not effectively enforce constraints.
+Conversely, if it's too high, it can greatly slow down or even halt the convergence process.
+Despite these challenges, this approach remains widely used due to its simplicity and because it doesn't require altering the differential evolution algorithm itself.
+There are alternative strategies, such as projecting onto a feasible set or reducing dimensionality, which can be used for box-constrained or linearly constrained cases.
+However, in the context of general nonlinear constraints, the most reliable methods typically involve penalty functions.
+
+Variants
+Variants of the DE algorithm are continually being developed in an effort to improve optimization performance. The following directions of development can be outlined:
+
+New schemes for performing crossover and mutation of agents
+Various strategies for handling constraints
+Adaptive strategies that dynamically adjust population size, F and CR parameters
+Specialized algorithms for large-scale optimization
+Multi-objective and many-objective algorithms
+Techniques for handling binary/integer variables

@@ -1,0 +1,1 @@
+Adaptive Binary Optimization, (ABO), is a supposed lossless image compression algorithm by MatrixView Ltd. It uses a patented method to compress the high correlation found in digital content signals and additional compression with standard entropy encoding algorithms such as Huffman coding.

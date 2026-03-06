@@ -1,0 +1,6 @@
+hAtom is a draft Microformat for marking up (X)HTML, using classes and rel attributes, content on web pages that contain blog entries or similar chronological content. These can then be parsed as feeds in Atom, a web syndication standard.
+hAtom is available as version 0.1, released 28 February 2006, and is used widely throughout the Web.
+
+Web Slices
+hAtom is also used as the basis for individually subscribable parts of web pages, called Web Slices, which are understood by  Internet Explorer 8 and can be understood by Firefox, using third-party add-ons.
+The annotations indicated via the hAtom tags added to mark-up determine the portions of content obtained via the Web Slice filter.

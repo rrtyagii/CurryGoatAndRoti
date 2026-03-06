@@ -1,0 +1,39 @@
+The Face Recognition Vendor Test (FRVT) was a series of large scale independent evaluations for face recognition systems realized by the National Institute of Standards and Technology in 2000, 2002, 2006, 2010, 2013 and 2017. Previous evaluations in the series were the Face Recognition Technology (FERET) evaluations in 1994, 1995 and 1996. The project is now in an Ongoing status with periodic reports, and continues to grow in scope. It now includes tests for Face-in-Video-Evaluation (FIVE), facial morphing detection, and testing for demographic effects (e.g., age, gender, and race).
+
+FRVT 2006
+The primary goal of the FRVT 2006 was to measure progress of prototype systems/algorithms and commercial face recognition systems since FRVT 2002. FRVT 2006 evaluated performance on:
+
+High resolution still imagery (5 to 6 mega-pixels)
+3D facial scans
+Multi-sample still facial imagery
+Pre-processing algorithms that compensate for pose and illumination
+To guarantee an accurate assessment, the FRVT 2006 measured performance with sequestered data (data not previously seen by the researchers or developers). A standard dataset and test methodology was employed so that all participants were evenly evaluated. The government provided both the test data and the test environment to participants. The test environment was called the Biometric Experimentation Environment (BEE). The BEE was the FRVT 2006 infrastructure. It allowed the experimenter to focus on the experiment by simplifying test data management, experiment configuration, and the processing of results.
+The FRVT 2006 was sponsored by multiple U.S. Government agencies and was conducted and managed by the National Institute of Standards and Technology (NIST).
+One of the goals of the FRVT 2006 was to independently determine if the objectives of the Face Recognition Grand Challenge (FRGC) were achieved. The FRGC was a separate algorithm development project designed to promote and advance face recognition technology that supports existing face recognition efforts in the U.S. Government. One of the objectives of the FRGC was to develop face recognition algorithms capable of performance an order of magnitude better than FRVT 2002. The FRGC was conducted from May 2004 through March 2006. FRGC data is still available to face recognition researchers. To obtain FRGC data, potential participants must sign the required licenses and follow FRGC data release rules. To request a FRGC data set, follow directions found on the "FRGC Webpage".
+
+FRVT 2006 Protocol
+FRVT 2006 Protocol
+FRVT 2006 Executable Calling Signatures
+FRVT 2006 Executable Naming Convention
+
+FRVT 2006 results
+The FRVT 2006 large-scale results are available in the combined FRVT 2006 and ICE 2006 Large-Scale Results evaluation report. It assesses algorithms based on input from 22 organizations in 10 different countries, with many submitting multiple algorithms. However, only those who successfully completed the large-scale tests are documented in this report. The report shows how error rates for the best algorithms have improved by orders of magnitude over the years, from a False Rejection Rate (FRR) of 0.79 at a False Acceptance Rate (FAR) of 0.001 in 1993, to a FRR=0.01 for FAR=0.001 in 2006. Part of this improvement is due to higher quality face images. The best results from 2006 were for "very high-resolution still images" (6 Mp) and 3D images.
+
+Face Recognition Prize Challenge 2017
+The Face Recognition Prize Challenge (FRPC) assessed face recognition algorithms on photographs collected without tight quality constraints, e.g. images collected from individuals who are not cooperating or do not know they are photographed. Prized were awarded both for verification and identification. The best verification algorithm had a false non-match rate FNMR of 0.22 at a false match rate FMR of 0.001. Prizes were also awarded for speed and for verification against a set of cooperative portrait photos.
+
+FRVT Ongoing
+FRVT Ongoing now has roughly 200 face recognition algorithms and tests against at least six collections of photographs with multiple photographs of more than 8 million people. The best algorithms for 1:1 verification gives False Non Match Rates of 0.0003 at False Match Rates of 0.0001 on high quality visa images.
+Additional programs:
+
+FRVT: Demographic Effects – effects of demographic differences (e.g., age, gender, race) on algorithm performance.
+FRVT MORPH – detection of facial morphing, especially as it pertains to photo-credential issuance.
+FACE Challenges – recognition of individuals from photographs posted on social media.
+Face in Video Evaluation (FIVE) – ability of algorithms to identify or ignore persons from video sources, many times in which the person is not actively cooperating for the purposes of facial recognition, i.e. "in the wild".
+
+Sponsors
+Intelligence Advanced Research Projects Agency (IARPA)
+Department of Homeland Security (DHS)
+FBI Criminal Justice Information Services Division
+Technical Support Working Group (TSWG)
+National Institute of Justice

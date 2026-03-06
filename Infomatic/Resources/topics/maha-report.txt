@@ -1,0 +1,20 @@
+The Make Our Children Healthy Again Assessment (often abbreviated as MAHA report) is a 78-page report released on May 22, 2025, by the Make America Healthy Again Commission. The report attributed rising childhood chronic disease rates to ultraprocessed foods, chemical exposures, lifestyle factors and excessive use of prescription drugs.
+The document drew significant attention for containing numerous citation errors and references to nonexistent studies, which media outlets reported may have been generated using artificial intelligence.
+
+Background
+The commission was established by Executive Order 14212 on February 13, 2025, tasking it with identifying childhood chronic disease causes within 100 days. Chaired by HHS Secretary Robert F. Kennedy Jr., the commission included representatives from multiple federal agencies, Agriculture Secretary Brooke Rollins, other cabinet members, and senior White House officials.
+
+Report findings
+The report said "processed food, chemicals, stress and overprescription of medications and vaccines may be factors behind chronic illness in American children". The report "catalogues in detail a 'chronic disease crisis,' including high rates of obesity, asthma, autoimmune conditions and behavioral health disorders among kids". The report also alleged "corporate capture" of research and policymaking by food, chemical, and pharmaceutical industries.
+
+Citation and methodological issues
+Within days of publication, journalists uncovered extensive citation problems. NOTUS identified at least seven studies referenced in the report that did not exist. Noah Kreski, an epidemiologist at Columbia University, told Agence France-Presse that a paper on adolescent mental health attributed to them in the report "was not one of our studies".
+The Washington Post found that at least 37 footnotes contained the marker "oaicite", which experts identified as an indicator of OpenAI citation generation. The newspaper reported that "some of the citations that underpin the science in the White House's sweeping 'MAHA Report' appear to have been generated using artificial intelligence, resulting in numerous garbled scientific references and invented studies". When questioned about the errors, White House Press Secretary Karoline Leavitt stated there were "formatting issues with the MAHA report that are being addressed".
+Following criticism, the White House uploaded a corrected version of the report. NOTUS reported that, while the new version removed the citations to studies that did not exist, the changes added new errors.
+
+Reception
+AI and citation concerns
+Georges C. Benjamin of the American Public Health Association stated, "This is not an evidence-based report, and for all practical purposes, it should be junked at this point". Steven Piantadosi, a professor at the University of California, Berkeley, told The Washington Post that current AI "has no notion of ground truth, no notion of … a rigorous logical or statistical argument".
+
+Expert reactions to content
+While some public health experts agreed with the report's focus on nutrition and environmental factors, they criticized its approach and conclusions. Philip Landrigan of Boston College told NPR that "they make a great diagnosis and they have a very weak treatment plan". The New York Times noted that the report "misrepresents existing scientific consensus", particularly regarding vaccine safety. The Associated Press reported that farmers had expressed concerns about how the report characterized agricultural chemicals.

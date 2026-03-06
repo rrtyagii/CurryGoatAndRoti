@@ -1,0 +1,10 @@
+Suzanna (Suzi) E. Lewis was a scientist and Principal investigator at the Berkeley Bioinformatics Open-source Project based at Lawrence Berkeley National Laboratory until her retirement in 2019. Lewis led the development of open standards and software for genome annotation and ontologies.
+
+Education
+Lewis has Master of Science degrees in Biology and Computer science.
+
+Research
+She led the team responsible for the systematic annotation of the Drosophila melanogaster genome, which included development of the Gadfly annotation pipeline and database framework, and the annotation curation tool Apollo. Lewis' work in genome annotation also includes playing instrumental roles in the GASP community assessment exercises to evaluate the state of the art in genome annotation, development of the Gbrowse genome browser, and the data coordination center for the modENCODE project. In addition to her work in genome annotation, Lewis has been a leader in the development of Open Biomedical Ontologies (OBO), National Center for Biomedical Ontology (NCBO), contributing to the Gene Ontology Sequence Ontology, Uberon anatomy ontologies, and developing open software for editing and navigating ontologies such as AmiGO, OBO-Edit and Phenote.
+
+Awards and honors
+In 2005 Lewis was elected a fellow of the American Association for the Advancement of Science in recognition of her contributions to science in the fields of Information, Computing, and Communication.

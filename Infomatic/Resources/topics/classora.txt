@@ -1,0 +1,38 @@
+Classora is a knowledge base for the Internet oriented to data analysis. From a practical point of view, Classora is a digital repository that stores structured information and allows it to be displayed in multiple formats: analytically, graphically, geographically (through maps); as well as carry out OLAP analysis. The information contained in Classora comes from public sources and is uploaded into the system through bots and ETL processes. The Knowledge Base has a commercial API for semantic enhancement, and an open web through which any user can access to part of the information collected (it also allows users to complete data and share opinions).
+Internally, Classora is organized into Knowledge Units and Reports. A «Knowledge Unit» is any element of the World about which information may be stored and presented in the form of a data sheet (a person, a company, a country, etc.) A «Report» is a group of Knowledge Units: a ranking of companies, a sport classification table, a survey about people, etc. In fact, one of the technical capabilities of Classora is that it allows the comparison of reports and knowledge units gathered from different sources, thereby generating an added value for the media in which this information is published: digital media, interactive TV, etc.
+
+Key definitions
+Knowledge unit
+The units of knowledge (also known as entries) in Classora are data sheets that have a certain semantic equivalence with the articles on the Wikipedia: they store information about any element of the world, be it a film, a country, a company or an animal. However, they differ from Wikipedia in that Classora stores structured information, enriched with a metadata layer; and therefore it is able to automatically interpret the meaning of each unit of knowledge.
+
+Data report
+A report is a group of units of knowledge in which the repetition of elements is not allowed. This definition includes any list, poll, ranking, etc.; and, in general, any consultation that involves more than one unit of knowledge. Classora excels at the reports management due to its visualization capabilities, being able to display data in the form of tables, graphs and maps.
+Types of reports:
+
+Sports scores: Sports competitions results sanctioned by the competent institution.
+Rankings and lists: All types of interesting and curious lists, whether they have an implicit order or not.
+Polls: Units of knowledge that are ranked according to users’ votes.
+Queries to the Knowledge Base: Questions from users using CQL.
+Networks of connections: automatically calculated from the reports and the taxonomy of each Knowledge Unit.
+
+Organizational taxonomy
+An organizational taxonomy (also referred to as entry type) is a data sheet that brings together the common attributes of a set of units of knowledge. For instance, the organizational taxonomy F1 Driver displays attributes such as date of debut, team, etc.; and the organizational taxonomy Football Club presents attributes such as city, stadium, etc.
+In Classora, taxonomies are hierarchically organized, so that they inherit attributes from their parent taxonomies. For instance, F1 Driver is a subsidiary taxonomy of Sportsperson, which is a subsidiary taxonomy of Person, which in turn is a subsidiary taxonomy of Organism.
+The simplest type of entry in Classora is Classora Object. All the other taxonomies are its subsidiaries and inherit its attributes. In fact, the only attribute Classora Object possesses is name (all units of knowledge are required to have one name at least).
+
+Architecture of Classora
+Data Extraction Module
+The Data Extraction Module consists of a set of robots coordinated by software that also manages the potential incidents. Most of the information available in Classora is automatically uploaded through those robots, which connect to the main online public sources to gather all types of data. There are three categories of robots:
+
+Extraction robots: responsible for the massive uploading of reports from official public sources (FIFA, CIA, IMF, Eurostat...). They are used for either absolute or incremental data uploading.
+Data scanner robots: responsible for looking for and updating the data of a unit of knowledge. They use specific sources to perform this task: Wikipedia, IMDB, World Bank, etc.
+Content aggregators:  they don’t connect to external sources. Instead, they generate new information using Classora’s internal database.
+
+Participatory Module
+In Classora’s Open Website, Internet users may participate providing their knowledge as they would on the Wikipedia. There are different ways to participate: adding or correcting data in the Knowledge Base, voting in surveys (participatory rankings) and creating new Knowledge Units and Data Reports.
+
+Connectivity Module
+The Knowledge Base is designed to be embedded in multi-platform, multi-channel systems, thus enabling its integration into mobile devices, tablets, interactive TV, etc. This integration may be carried out through specific plugins (for navigators or other devices) or an API REST that provides content in XML or JSON formats. The API is divided into three blocks of operations. The first one is the block of general utility tools (ranging from autosuggest components about geographical hierarchies to operations to obtain the list of today’s celebrity birthdays, using CQL). The second one is the block of operations for widget generation (graphs, maps, rankings) using information from the knowledge base. Finally, there is a block of operations designed for the publication of free-source content.
+
+Project statistics
+As of April 2012, 2,000,000 Knowledge Units, 15,000 Reports, around 10,000 Maps and several million potential Comparative Analyses had been added to Classora. According to the site of web metrics Alexa, Classora Open Website is ranked at 100,557 globally and at 2,880 in the Spanish traffic ranking. Users spend an average of 9 ½ minutes in Classora.

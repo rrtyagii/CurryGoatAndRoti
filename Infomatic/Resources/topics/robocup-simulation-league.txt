@@ -1,0 +1,14 @@
+The RoboCup Simulation League is one of five soccer leagues within the RoboCup initiative.
+It is characterised by independently moving software players (agents) that play soccer on a virtual field inside a computer simulation.
+It is divided into four subleagues:
+
+2D Soccer Simulation
+3D Soccer Simulation
+3D Development
+Mixed Reality Soccer Simulation (formerly called Visualisation)
+
+Differences between 2D and 3D simulations
+The 2D simulation sub-league had its first release in early 1995 with version 0.1.  It has been actively maintained since then with updates every few months.  The ball and all players are represented as circles on the plane of the field.  Their position is restricted to the two dimensions of the plane.
+SimSpark, the platform on top of which the 3D simulation sub-league is built, was registered with SourceForge in 2004.  The platform itself is now well established  with ongoing development.  The ball and all players are represented as articulated rigid bodies within a system that enforces the simulation of physical properties such as mass, inertia and friction.
+As of 2010, a direct comparison of the gameplay of the 2D and 3D leagues shows a marked difference.  2D league teams are generally exhibiting advanced strategies and teamwork, whereas 3D teams appear to struggle with the basics of stability and ambulation.  This is partly due to the difference in age of the two leagues, and partly to the difference in complexity involved in building agents for the two leagues.  Replaying log files of finals over the recent years shows progress is being made by many teams.
+In the 2D system, movement around the plane is achieved via commands from the agents such as move, dash, turn and kick.  The 3D system has fewer command choices for agents to send, but the mechanics of motion about the field are much more involved as the positions of 22 hinges throughout the articulated body must be simultaneously controlled.

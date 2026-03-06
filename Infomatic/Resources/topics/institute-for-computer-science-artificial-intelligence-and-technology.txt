@@ -1,0 +1,63 @@
+The Institute for Computer Science, Artificial Intelligence and Technology (INSAIT) is a research institute located in Sofia, Bulgaria, that conducts research in key areas spanning computer science and artificial intelligence. The institute operates as a special unit within Sofia University "St. Kliment Ohridski", with its own regulations approved by the Sofia University academic council. INSAIT now ranks 13th in Europe in CSRankings and also ranks as no.1 in Eastern Europe. INSAIT’s ranking covers the period from the first INSAIT accepted publications (2023) to present day, and includes the research areas that INSAIT focuses on and are supported by CSrankings: computer vision (where INSAIT is ranked number 6 in Europe), robotics, machine learning, natural language processing and algorithms.
+
+History
+The founder of INSAIT is Prof. Martin Vechev, who is also INSAIT's current scientific director and chair of its supervisory board. The vision for INSAIT and its creation was presented by prof. Martin Vechev in April 2019 at an event organized by the Bulgarian Minister of Education and Science.
+Formally, INSAIT was created by decree No. 56 of the Bulgarian Council of Ministers on 18 February 2021, in partnership with ETH Zurich, EPFL, Sofia University "St. Kliment Ohridski", and the Government of Bulgaria under an international agreement ratified by the 46th Bulgarian Parliament on 8 September 2021 and published in the State Gazette (Darzhaven vestnik), issue 77, on 16 September 2021. The institute officially began operations on 11 April 2022.
+The Bulgarian government committed BGN 166,451,763.87 (approximately EUR 85.1 million,  at the official rate of the Bulgarian National Bank 1.95583) in funding over a ten-year period. INSAIT also received support through donations from technology companies, including Google, Amazon Web Services, DeepMind, SiteGround, and VMware, as well as individual tech entrepreneurs through the INSAIT Research and Education Foundation (in Bulgarian: Фондация "ИНСАЙТ изследвания и образование"), which was founded in 2023 to support INSAIT's mission.
+Several high-profile international figures have visited INSAIT, including Guy Parmelin, Head of Switzerland’s Federal Department of Economic Affairs, Education and Research; António Costa, President of the European Council (since December 2024); and Yasutoshi Nishimura, Japan’s Minister of Economy, Trade and Industry.
+
+Governance
+INSAIT is governed by a Supervisory Board composed of internationally recognized scientists and technology leaders. The board includes:
+
+Prof. Martin Vechev (Chair), ETH Zurich and Scientific Director of INSAIT
+Prof. Srdjan Capkun, ETH Zurich and Chair of the Zurich Information Security Center (ZISC)
+Prof. Eran Yahav, Technion - Israel Institute of Technology
+Prof. James Larus, former chair of EPFL's computer science department
+The institute is managed by an Executive Director, currently Eng. Borislav Petrov.
+INSAIT also has an Advisory Board consisting of:
+
+Prof. Andreas Krause, ETH Zurich and Director of the ETH AI Center
+Dr. Slav Petrov, Vice President, Research at Google DeepMind
+Prof. Thomas Henzinger, former President of IST Austria
+Prof. Virginia Vassilevska Williams, Massachusetts Institute of Technology (MIT)
+Prof. Greg Morrisett, Dean and Vice Provost, Cornell Tech
+
+International partnerships
+INSAIT hosts the first ELLIS (European Laboratory for Learning and Intelligent Systems) unit in Eastern Europe, marking a significant milestone in the region’s participation in top-tier AI research.
+In June 2025, INSAIT launched a joint USD 1 million research exchange program with the Massachusetts Institute of Technology's Computer Science and Artificial Intelligence Laboratory (CSAIL), United States. The program aims to promote international scientific collaboration and enable high-quality research in the fields of artificial intelligence and computer science.
+INSAIT is also a founding member of the AI Alliance, and is the first organization from Eastern Europe involved in the first global initiative for open and responsible AI development.
+
+Mission and research areas
+INSAIT’s mission includes conducting world-class scientific research, attracting international researchers, and training both graduate and undergraduate students. The institute aims to strengthen the regional research ecosystem through talent retention, advanced education, and collaboration with the technology industry.
+Current research areas are:
+
+Computer Vision & Robotics
+Information Security and Cryptography
+Quantum Computing
+Algorithms and Theory
+Machine Learning
+Secure and Trustworthy AI
+Regulatory AI Compliance
+INSAIT regularly publishes at top research venues spanning machine learning (ICML, NeurIPS, ICLR), robotics (IROS, ICRA), computer vision (CVPR, ICCV, ECCV), algorithms and theory (FOCS, SODA, STOC), and other premier venues.
+
+Notable releases
+BgGPT
+In 2023, INSAIT launched BgGPT, the first Bulgarian generative AI large language model (LLM). BgGPT is designed to understand conversational and instruction-based tasks in both Bulgarian and English. It is based on Google’s Gemma-2 2B architecture. The model was pre-trained on approximately 85 billion Bulgarian tokens and 15 billion English tokens using the Branch-and-Merge strategy introduced by INSAIT at EMNLP 2024, enabling strong cultural and linguistic understanding in Bulgarian while preserving English capabilities. The model was instruction-fine-tuned on a Bulgarian dataset derived from real-world conversations and is freely available under the Gemma Terms of Use.
+
+MamayLM
+INSAIT also co-developed MamayLM, a high-efficiency Ukrainian LLM, in collaboration with ETH Zurich. MamayLM-Gemma-2-9B-IT-v0.1 is based on Google's Gemma-2 9B architecture. It was pre-trained on a 75-billion-token dataset of Ukrainian and English text, using advanced data mixing and model merging techniques to enhance cultural and linguistic capabilities in Ukrainian while preserving English performance. The model is instruction-tuned on curated Ukrainian datasets and was released for public use in Ukraine and is available for adoption across Ukrainian public institutions.
+
+COMPL-AI
+On 16 October 2024, INSAIT, in collaboration with ETH Zurich and LatticeFlow AI, released COMPL-AI, the first open-source, compliance-centered evaluation framework for Generative AI models aligned with the EU AI Act. The platform introduces a technical interpretation of the EU AI Act by mapping regulatory requirements to specific technical criteria and provides a free and open-source toolkit to evaluate large language models (LLMs) accordingly.
+The initial release included compliance-centered evaluations of publicly available foundation models developed by organizations such as OpenAI, Meta, Google, Anthropic, and Alibaba.
+
+European AI Factory
+On March 12, 2025, Bulgaria was announced as one of the winners of six new European AI factories. The project, valued at €90 million, is a collaboration between INSAIT and Sofia Tech Park. The funding will be used to establish a modern GPU AI data center in Sofia, supporting large-scale AI projects at INSAIT and across Bulgaria.
+The BRAIN++ facility will feature the Discoverer++ supercomputer and provide cloud-based resources, training, and support for startups, SMEs, and researchers. INSAIT’s contribution focuses on developing generative AI models for robotics, earth observation, and language applications, positioning Bulgaria as a leader in AI innovation.
+
+Spin‑offs
+LogicStar AI
+LogicStar AI is a deep‑tech startup jointly spun out of INSAIT and ETH Zurich that develops an agentic AI platform for automated software maintenance. The platform is designed to validate, reproduce, and resolve bugs with minimal human intervention, helping reduce the overhead of routine debugging and support tasks.
+
+Martian Lawyers Club (MLC)
+Martian Lawyers Club (MLC) is the first spin‑off from INSAIT, focused on AI-powered game personalization. In August 2023, the company raised $2.2 million in a pre-seed funding round led by Fly Ventures and joined by System.One and Amar Shah. MLC develops a software development kit (SDK) that allows video games to generate interactive in-game dialogue tailored to the player's behavior and choices, using generative AI models.

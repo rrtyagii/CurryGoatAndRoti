@@ -1,0 +1,17 @@
+ASUS Zenbo is a Taiwanese domestic robot developed by Asus, unveiled at Computex 2016. Priced at approximately US $599, ASUS Zenbo resembles a small rolling companion with a color touchscreen “face” and a rounded base equipped with wheels. Powered by an Intel processor and Intel RealSense depth‐sense camera, it was promoted as “robotic computing for every household”. The name is inspired by a combination of "Zen", "robot" and "boy".
+Zenbo is designed to provide assistance, entertainment, and companionship across all age groups. For seniors, it offers medication and appointment reminders, fall detection, and emergency alerts. Family members can remotely control Zenbo’s camera for monitoring purposes. It also encourages intergenerational connection – enabling video calls, voice‐driven web browsing, and control of smart home devices like lights, televisions, and air conditioning.
+In homes with children, Zenbo can serve as a storyteller, educational companion, and entertainer, equipped with interactive games, songs, and responsive expressions on its touchscreen face.
+
+Release and reception
+Zenbo launched for pre-order in Taiwan on January 1, 2017, backed by partnerships across government, education, and security sectors — including an emergency app linked to the National Police Agency.
+While early reviews praised its affordability, comparable to premium smartphones, and its robust feature set, critics pointed to limitations in speech recognition and navigation accuracy. ASUS expressed hopes that Zenbo would evolve through developer contributions and ecological growth.
+
+Features
+Mobility: Autonomous navigation using onboard camera and sensors.
+Voice Interaction: Hands-free control for reminders, web queries, and smart device commands.
+Communication and Multimedia: Supports video calls, music playback, streaming, and home appliance control.
+Security and Monitoring: Able to detects fall and suspicious events, notifying family via a smartphone app.
+Developer Platform: Offers an open software development kit and partner program, inviting third-party app development.
+
+Legacy
+In December 2017, ASUS enhanced Zenbo for medical contexts, integrating it with healthcare platforms for use in smart hospital environments alongside Swiss data provider Clinerion. By late 2023–2024, community feedback — including technical issues and discontinued updates — suggested that Zenbo had fallen into limited support phases, but has later been confirmed as a misunderstanding.

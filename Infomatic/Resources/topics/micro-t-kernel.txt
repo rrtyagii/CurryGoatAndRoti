@@ -1,0 +1,9 @@
+μT-Kernel is an open source real-time operating system (RTOS) designed for 16- and 8-bit microcontrollers. "μ” in the name stands for "micro" and pronounced as such. It is not pronounced as "mu".  It is freely available under T-License.
+Supported CPU list is available.
+The latest version, μT-Kernel 3.0, is available from GitHub.
+μT-Kernel was standardized by T-Engine Forum (now merged into TRON Forum) and later it became the basis of IEEE Standard 2050-2018, "IEEE Standard for a Real-Time Operating System (RTOS) for Small-Scale Embedded Systems"  published  by the Institute of Electrical and Electronics Engineers (IEEE) Standards Association (IEEE SA).
+Its specification is available both in English and Japanese. [1] The source code is available from the TRON Forum website and GitHub.
+An article comparing nine RTOSs in which μT-Kernel was evaluated and given favorable remarks appeared in IEEE publication.
+
+History
+μT-Kernel was developed as a smaller subset of T-Kernel, a full-featured real-time operating system. For example, it does not assume the use of MMU unlike the original T-Kernel. For more on its history and the overall philosophy behind the TRON real-time OS family, please see the entry of T-Kernel.

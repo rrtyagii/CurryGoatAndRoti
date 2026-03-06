@@ -1,0 +1,8 @@
+Comet is an AI-powered web browser based on Chromium. It was released by Perplexity AI for Microsoft Windows and macOS on July 9, 2025, and for Android on November 20, 2025.
+Initial access to the browser was limited to users subscribed to Perplexity's most expensive tier, with broader availability expected over time. The browser was released for free download in October 2025.
+
+Features
+Comet is integrated with Perplexity's AI-assisted search engine. The browser features an assistant which enables users to perform a variety of tasks such as generating article summaries, sending emails, or buying products.
+
+Security concerns
+Researchers at LayerX Security identified a malicious attack vector which they call CometJacking. The exploit could possibly exfiltrate a user's personal sensitive data to a remote server controlled by the attacker. LayerX attempted to responsibly disclose their findings to Comet's developer Perplexity AI in August 2025. Perplexity responded that they saw no security impact and marked the disclosure as not applicable.

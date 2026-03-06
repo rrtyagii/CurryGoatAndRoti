@@ -1,0 +1,22 @@
+XOXO (eXtensible Open XHTML Outlines) for web syndication is an XML microformat for outlines built on top of XHTML. Developed by several authors as an attempt to reuse XHTML building blocks instead of inventing unnecessary new XML elements/attributes, XOXO is based on existing conventions for publishing outlines, lists, and blogrolls on the Web.
+The XOXO specification defines an outline as a hierarchical, ordered list of arbitrary elements.  The specification is fairly open which makes it suitable for many types of list data. E.g. the more semantic version of the S5 presentation file format is based upon XOXO.
+
+XML format
+The XML elements in an XOXO document are:
+
+<ol class="xoxo">
+<ul class="xoxo">
+The ordered list and unordered list are the root elements of XOXO. They may contain the class attribute with the value xoxo. They are also used as containers for outline items. They may have the attribute compact="compact" to indicate state of whether child items are visible.
+<li>
+Represents an item in the outline. May contain an ordered list or unordered list element to contain child items which themselves may do so as well.
+<a>
+Represents a hyperlink for an item in the outline. Possible attributes include: a title attribute to indicate additional information; a type attribute to indicate the MIME type of the link destination; a rel attribute to indicate the link resource's relationship to this outline (e.g. using XFN); and/or a rev attribute to indicate the relationship of this outline to the linked resource (e.g. using VoteLinks).
+<dl>
+May contain any number of arbitrary properties using <dt> (definition term) and <dd> (definition description) elements.
+
+Example XOXO uses
+play list
+specification
+presentation
+directory
+blogroll

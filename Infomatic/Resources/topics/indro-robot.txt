@@ -1,0 +1,4 @@
+Indro is a humanoid robot built in India. At 6.5 feet (2.0 m), it is the tallest such robot in India.
+
+History
+The robot’s creator Santosh Vasudeo Hulawale was inspired by an Indian robot movie that motivated him to building the humanoid robot. He worked on the robot for 5 years. The first version of the robot was introduced to the world in 2016. The robot is made at home using waste materials as well as aluminum, plastic, cardboard, wood, newspapers, and other things readily available in the local market. No 3D-printed components are used and the cost is low.

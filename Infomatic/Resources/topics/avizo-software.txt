@@ -1,0 +1,81 @@
+Avizo (pronounce: 'a-VEE-zo') is a general-purpose commercial software application for scientific and industrial data visualization and analysis.
+Avizo is developed by Thermo Fisher Scientific and was originally designed and developed by the Visualization and Data Analysis Group at Zuse Institute Berlin (ZIB) under the name Amira. Avizo was commercially released in November 2007. For the history of its development, see the Wikipedia article about Amira.
+
+Overview
+Avizo is a software application which enables users to perform interactive visualization and computation on 3D data sets.
+The Avizo interface is modelled on the visual programming.  Users manipulate data and module components, organized in an interactive graph representation (called Pool), or in a Tree view. Data and modules can be interactively connected together, and controlled with several parameters, creating a visual processing network whose output is displayed in a 3D viewer.
+With this interface, complex data can be interactively explored and analyzed by applying a controlled sequence of computation and display processes resulting in a meaningful visual representation and associated derived data.
+
+Application areas
+Avizo has been designed to support different types of applications and workflows from 2D and 3D image data processing to simulations.
+It is a versatile and customizable visualization tool used in many fields:
+
+Scientific visualization
+Materials Research
+Tomography,  Microscopy, etc.
+Nondestructive testing, Industrial Inspection, and Visual Inspection
+Computer-aided Engineering and simulation data post-processing
+Porous medium analysis
+Civil Engineering
+Seismic Exploration, Reservoir Engineering, Microseismic Monitoring, Borehole Imaging
+Geology, Digital Rock Physics (DRP), Earth Sciences
+Archaeology
+Food technology and agricultural science
+Physics, Chemistry
+Climatology, Oceanography, Environmental Studies
+Astrophysics
+
+Features
+Data import:
+
+2D and 3D image stack and volume data: from microscopes (electron, optical), X-ray tomography (CT, micro-/nano-CT, synchrotron), neutron tomography and other acquisition devices (MRI, radiography, GPR)
+Geometric models (such as point sets, line sets, surfaces, grids)
+Numerical simulation data  (such as Computational fluid dynamics or Finite element analysis data)
+Molecular data
+Time series and animations
+Seismic data
+Well logs
+4D Multivariate Climate Models
+2D/3D data visualization:
+
+Volume rendering
+Digital Volume Correlation
+Visualization of sections, through various slicing and clipping methods
+Isosurface rendering
+Polygonal meshes
+Scalar fields, Vector fields, Tensor representations, Flow visualization (Illuminated Streamlines, Stream Ribbons)
+Image processing:
+
+2D/3D Alignment of image slices, Image registration
+Image filtering
+Mathematical Morphology (erode, dilate, open, close, tophat)
+Watershed Transform, Distance Transform
+Image segmentation
+3D models reconstruction:
+
+Polygonal surface generation from segmented objects
+Generation of tetrahedral grids
+Surface reconstruction from point clouds
+Skeletonization (reconstruction of dendritic, porous or fracture network)
+Surface model simplification
+Quantification and analysis:
+
+Measurements and statistics
+Analysis spreadsheet and charting
+Material properties computation, based on 3D images:
+
+Absolute permeability
+Thermal conductivity
+Molecular diffusivity
+Electrical resistivity/formation factor
+3D image-based meshing for CFD and FEA:
+
+From 3D imaging modalities (CT, micro-CT, MRI, etc.)
+Surface and volume meshes generation
+Export to FEA and CFD solvers for simulation
+Post-processing for simulation analysis
+Presentation, automation:
+
+MovieMaker, Multiscreen, Video wall, collaboration, and VR support
+TCL Scripting, C++ extension API
+Avizo is based on Open Inventor 3D graphics toolkits (FEI Visualization Sciences Group).

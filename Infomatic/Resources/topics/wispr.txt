@@ -1,0 +1,25 @@
+Wispr is a software company founded in 2021 by Tanay Kothari and Sahaj Garg that develops voice-based interfaces for computers and other devices. The company’s main product, Wispr Flow, is an AI-powered speech-to-text application available on macOS, Windows and iOS.
+
+History
+Wispr was founded in 2021 with the goal of building a non-invasive wearable device that would allow users to control smartphones without touch input. The device was intended to translate neurological signals into actions and to enable silent text entry by mouthing words, drawing on techniques similar to brain–computer interfaces. Early funding was directed toward this hardware-focused effort.
+After around three years of development, Wispr concluded that contemporary AI systems were not sufficient for the requirements of the wearable device. The company shifted its focus to Flow voice dictation software, the software layer originally built for the wearable, and in 2024 released a macOS application based on this platform.
+
+Wispr Flow
+Wispr Flow (often referred to as Flow) is a speech-to-text application for macOS, Windows and iOS. It provides real-time dictation and transcription in more than 100 languages and can operate across applications, including email clients, messaging platforms and chatbots. In June 2025 Wispr released an iOS version that functions as a third-party keyboard, allowing voice input in any app.
+
+Technology
+Wispr Flow is based on automatic speech recognition (ASR) and other AI models. The system adapts to individual users over time, learning their vocabulary and preferred style with the aim of reducing manual editing.
+Flow operates through configurable “Flow Sessions”, defined as time windows during which the app has access to the microphone; users can set session timeouts or disable automatic time limits.
+
+Users and Adoption
+Wispr initially targeted users such as venture capitalists, entrepreneurs and executives who process large volumes of text and often work in private or flexible environments. The user base later expanded via platforms such as Product Hunt to students, software developers, writers, lawyers and consultants. Flow has also been adopted by users with conditions such as ADHD, dyslexia, paralysis and carpal tunnel syndrome.
+About 40% of users are in the United States, 30% in Europe and the remaining 30% in other regions. More than 30% of users come from non-technical backgrounds. Flow supports 104 languages, with approximately 40% of dictations in English and 60% in other languages, including Spanish, French, German, Dutch, Hindi and Mandarin.
+Wispr has reported monthly user growth above 50%, a six-month active-user retention rate of about 80%, a payment rate around 19%, and revenue of approximately US$3.8 million between July 2024 and July 2025.
+
+Development
+Wispr has announced plans for an Android application and maintains waiting lists for Android, Linux and web versions of Flow. The company is developing shared-context features for teams so that the software can recognize common terminology within organizations and has stated that it aims to evolve Flow into a broader AI assistant for tasks such as messaging, note-taking and reminders. Wispr has also reported working with unnamed AI hardware partners on interaction layers for future devices.
+
+Funding
+In 2025 Wispr raised US$30 million in a Series A funding round led by Menlo Ventures, with participation from NEA, 8VC and several individual investors, including Evan Sharp and Henry Ward. Earlier investors include Neo, MVP Ventures and AIX Ventures.
+In November of that same year, the company raised a US$25 million Series A extension led by Notable Capital, with participation from Flight Fund, bringing its total funding to US$81 million.
+Wispr competes with other AI-based dictation and voice-input tools, including Aqua, Talktastic, Superwhisper and Betterdication.

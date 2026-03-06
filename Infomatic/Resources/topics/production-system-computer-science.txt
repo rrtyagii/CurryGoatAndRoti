@@ -1,0 +1,97 @@
+A production system (or production rule system) is a computer program typically used to provide some form of artificial intelligence, which consists primarily of a set of rules about behavior, but also includes the mechanism necessary to follow those rules as the system responds to states of the world. Those rules, termed productions, are a basic knowledge representation found useful in automated planning and scheduling, expert systems, and action selection.
+Productions consist of two parts: a sensory precondition (or "IF" statement) and an action ("THEN"). If a production's precondition matches the current state of the world, then the production is said to be triggered. If a production's action is executed, it has fired. A production system also contains a database, sometimes called working memory, which maintains data about the current state or knowledge, and a rule interpreter. The rule interpreter must provide a mechanism for prioritizing productions when more than one is triggered.
+
+Basic operation
+Rule interpreters generally execute a forward chaining algorithm for selecting productions to execute to meet current goals, which can include updating the system's data or beliefs.  The condition portion of each rule (left-hand side or LHS) is tested against the current state of the working memory.
+In idealized or data-oriented production systems, there is an assumption that any triggered conditions should be executed: the consequent actions (right-hand side or RHS) will update the agent's knowledge, removing or adding data to the working memory.  The system stops processing either when the user interrupts the forward chaining loop; when a given number of cycles have been performed; when a "halt" RHS is executed, or when no rules have LHSs that are true.
+Real-time and expert systems, in contrast, often have to choose between mutually exclusive productions—since actions take time, only one action can be taken, or (in the case of an expert system) recommended.  In such systems, the rule interpreter, or inference engine, cycles through two steps: matching production rules against the database, followed by selecting which of the matched rules to apply and executing the selected actions.
+
+Matching production rules against working memory
+Production systems may vary on the expressive power of conditions in production rules.  Accordingly, the pattern matching algorithm that collects production rules with matched conditions may range from the naive—trying all rules in sequence, stopping at the first match—to the optimized, in which rules are "compiled" into a network of inter-related conditions.
+The latter is illustrated by the Rete algorithm, designed by Charles L. Forgy in1974, which is used in a series of production systems, called OPS and originally developed at Carnegie Mellon University culminating in OPS5 in the early 1980s.  OPS5 may be viewed as a full-fledged programming language for production system programming.
+
+Choosing which rules to evaluate
+Production systems may also differ in the final selection of production rules to execute, or fire. The collection of rules resulting from the previous matching algorithm is called the conflict set , and the selection process is also called a conflict resolution strategy.
+Here again, such strategies may vary from the simple—use the order in which production rules were written; assign weights or priorities to production rules and sort the conflict set accordingly—to the complex—sort the conflict set according to the times at which production rules were previously fired; or according to the extent of the modifications induced by their RHSs.  Whichever conflict resolution strategy is implemented, the method is indeed crucial to the efficiency and correctness of the production system. Some systems simply fire all matching productions.
+
+Using production systems
+The use of production systems varies from simple string rewriting rules to the modeling of human cognitive processes, from term rewriting and reduction systems to expert systems.
+
+A simple string rewriting production system example
+This example shows a set of production rules for reversing a string from an alphabet that does not contain the symbols "$" and "*" (which are used as marker symbols).
+
+P1: $$ -> *
+P2: *$ -> *
+P3: *x -> x*
+P4: * -> null & halt
+P5: $xy -> y$x
+P6: null -> $
+
+In this example, production rules are chosen for testing according to their order in this production list.  For each rule, the input string is examined from left to right with a moving window to find a match with the LHS of the production rule.  When a match is found, the matched substring in the input string is replaced with the RHS of the production rule. In this production system, x and y are variables  matching any character of the input string alphabet.  Matching resumes with P1 once the replacement has been made.
+The string "ABC", for instance, undergoes the following sequence of transformations under these production rules:
+
+$ABC (P6)
+B$AC (P5)
+BC$A (P5)
+$BC$A (P6)
+C$B$A (P5)
+$C$B$A (P6)
+$$C$B$A (P6)
+*C$B$A (P1)
+C*$B$A (P3)
+C*B$A (P2)
+CB*$A (P3)
+CB*A (P2)
+CBA* (P3)
+CBA (P4)
+
+In such a simple system, the ordering of the production rules is crucial.  Often, the lack of control structure makes production systems difficult to design.  It is, of course, possible to add control structure to the production systems model, namely in the inference engine, or in the working memory.
+
+An OPS5 production rule example
+In a toy simulation world where a monkey in a room can grab different objects and climb on others, an example production rule to grab an object suspended from the ceiling would look like:
+
+(p Holds::Object-Ceiling
+  {(goal ^status active ^type holds ^objid <O1>) <goal>}
+  {(physical-object
+    ^id <O1>
+    ^weight light
+    ^at <p>
+    ^on ceiling) <object-1>}
+  {(physical-object ^id ladder ^at <p> ^on floor) <object-2>}
+  {(monkey ^on ladder ^holds NIL) <monkey>}
+  -(physical-object ^on <O1>)
+
+  (write (crlf) Grab <O1> (crlf))
+  (modify <object1> ^on NIL)
+  (modify <monkey> ^holds <O1>)
+  (modify <goal> ^status satisfied)
+)
+
+In this example, data in working memory is structured and variables appear between angle brackets.  The name of the data structure, such as "goal" and "physical-object", is the first literal in conditions; the fields of a structure are prefixed with "^".  The "-" indicates a negative condition.
+Production rules in OPS5 apply to all instances of data structures that match conditions and conform to variable bindings.  In this example, should several objects be suspended from the ceiling, each with a different ladder nearby supporting an empty-handed monkey, the conflict set would contain as many production rule instances derived from the same production "Holds::Object-Ceiling".  The conflict resolution step would later select which production instances to fire.
+The binding of variables resulting from the pattern matching in the LHS is used in the RHS to refer to the data to be modified. The working memory contains explicit control structure data in the form of "goal" data structure instances.  In the example, once a monkey holds the suspended object, the status of the goal is set to "satisfied" and the same production rule can no longer apply as its first condition fails.
+
+Relationship with logic
+Both Russell and Norvig's Artificial Intelligence: A Modern Approach and John Sowa's Knowledge Representation: Logical, Philosophical, and Computational Foundations characterize production systems as systems of logic that perform reasoning by means of forward chaining. However, Stewart Shapiro, reviewing Sowa's book, argues that this is a misrepresentation. Similarly, Kowalski and Sadri argue that, because actions in production systems are understood as imperatives, production systems do not have a logical semantics. Their logic and computer language Logic Production System (LPS) combines logic programs, interpreted as an agent's beliefs, with reactive rules, interpreted as an agent's goals. They argue that reactive rules in LPS give a logical semantics to production rules, which they otherwise lack. In the following example, lines 1-3 are type declarations, 4 describes the initial state, 5 is a reactive rule, 6-7 are logic program clauses, and 8 is a causal law:
+
+1. fluents     fire.
+2. actions     eliminate, escape.
+3. events      deal_with_fire.
+4. initially   fire.
+5. if          fire then deal_with_fire.
+6.                       deal_with_fire if  eliminate.
+7.                       deal_with_fire if  escape.
+8. eliminate  terminates fire.
+
+Notice in this example that the reactive rule on line 5 is triggered, just like a production rule, but this time its conclusion deal_with_fire becomes a goal to be reduced to sub-goals using the logic programs on lines 6-7. These subgoals are actions (line 2), at least one of which needs to be executed to satisfy the goal.
+
+Related systems
+Constraint Handling Rules: rule-based programming language.
+CLIPS: public domain software tool for building expert systems.
+JBoss Drools: an open-source business rule management system  (BRMS).
+ILOG rules: a business rule management system.
+JESS: a rule engine for the Java platform - it is a superset of the CLIPS programming language.
+Lisa: a rule engine written in Common Lisp.
+OpenL Tablets: business centric rules and open source BRMS.
+Prolog: a general purpose logic programming language.
+ACT-R, Soar, OpenCog: cognitive architectures based on a production system.

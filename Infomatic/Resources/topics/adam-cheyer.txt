@@ -1,0 +1,16 @@
+Adam Cheyer (born c. 1966) is a co-founder of Siri Inc. and formerly a director of engineering in the iPhone group at Apple.
+
+Early life and education
+Cheyer attended Sharon High School, in Sharon, Massachusetts. After graduating in 1984, Cheyer earned a bachelor's degree in computer science from Brandeis University in 1988, and a master's degree in computer science and artificial intelligence from UCLA in 1993.
+
+Career
+Prior to Siri, he was a computer scientist and project director in SRI International's Artificial Intelligence Center, where he was the Chief Architect on the CALO project. Cheyer was also a member of the founding team at Change.org and a founder of Sentient Technologies (formerly Genetic Finance).
+Adam left the Siri team in 2012 and founded Viv Labs, which was acquired by Samsung in 2016.
+After leaving Samsung, Adam Cheyer co-founded GamePlanner.AI with Siamak Hodjat, which was acquired by Airbnb in late 2023. As of May 2024, Adam is the VP of AI Experience at Airbnb.
+
+Selected publications
+Cheyer, Adam & Martin, David (January 1999). "The Open Agent Architecture: A framework for building distributed software systems". Applied Artificial Intelligence. 13 (1–2).
+Cheyer, Adam (1998). "Multimodal Maps: An Agent-based Approach". In Bunt; Beun; Borghuis (eds.). Multimodal Human-Computer Communication, Lecture Notes in Artificial Intelligence #1374. Springer. pp. 111–121.
+Cheyer, Adam (2005-11-06). "IRIS: Integrate. Relate. Infer. Share". 1st Workshop on the Semantic Desktop at the International Semantic Web Conference. Galway, Ireland: International Semantic Web Conference.
+Cheyer, Adam (June 2006). "A Collaborative Programming Environment for Web Interoperability". 1st Workshop on Semantic Wikis. Budva, Montenegro.
+Cheyer, Adam (2003-12-15). "Evolution of the Laws that Deal with the Utilization of Information Networks". 2003 BISC FLINT-CIBI International Joint Workshop on Soft Computing for Internet and BioInformatics. University of California, Berkeley.

@@ -1,0 +1,7 @@
+Codec acceleration describes computer hardware that offloads the computationally intensive compression or decompression. This allows, for instance, a mobile phone to decode what would generally be a very difficult, and expensive video to decode it with no stuttering, and using less battery life than un-accelerated decoding would have taken. Similar acceleration is used on a broad variety of other appliances and computers for similar reasons. What could take a general purpose processor 100 Watts to decode on a general purpose processor, could take 10W on a graphics processing unit, and even less on a dedicated hardware codec.
+
+Video codec acceleration
+Video codec acceleration is where video (usually including audio as well) encoding and decoding is accelerated in hardware. Various vendors have developed their own video codec acceleration framework.
+
+Audio codec acceleration
+Audio codec acceleration is where audio encoding and decoding is accelerated in hardware.

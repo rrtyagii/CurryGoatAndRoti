@@ -1,0 +1,52 @@
+Open source intelligence (OSINT) is the collection and analysis of data gathered from open sources (overt sources and publicly available information) to produce actionable intelligence. OSINT is primarily used in national security, law enforcement, and business intelligence functions and is of value to analysts who use non-sensitive intelligence in answering classified, unclassified, or proprietary intelligence requirements across the previous intelligence disciplines.
+
+Categories
+OSINT sources can be divided up into six different categories of information flow:
+
+Media: print newspapers, magazines, radio, and television from across and between countries.
+Internet: online publications, blogs, discussion groups, citizen media (i.e. – cell phone videos, and user created content), YouTube, and other social media websites (i.e. – Facebook, Twitter, Instagram, etc.). This source also outpaces a variety of other sources due to its timeliness and ease of access.
+Public government data: public government reports, budgets, hearings, telephone directories, press conferences, websites, and speeches. Although this source comes from an official source they are publicly accessible and may be used openly and freely.
+Professional and academic publications: information acquired from journals, conferences, symposia, academic papers, dissertations, and theses.
+Commercial data: commercial imagery, financial and industrial assessments, and databases.
+Grey literature: technical reports, preprints, patents, working papers, business documents, unpublished works, and newsletters.
+OSINT is distinguished from research in that it applies the process of intelligence to create tailored knowledge supportive of a specific decision by a specific individual or group.
+
+OSINT collection methodologies
+Collecting open-source intelligence is achieved in a variety of different ways, such as:
+
+Social Media Intelligence, which is acquired from viewing or observing a subject's online social profile activity.
+Search engine data mining or scraping.
+Public records checking.
+Information matching and verification from data broker services.
+
+Definition
+OSINT, broadly defined, involves gathering and analyzing publicly accessible information to produce actionable insights.
+The U.S. Department of Homeland Security defines OSINT as intelligence derived from publicly available information, collected and disseminated promptly to address specific intelligence needs.
+NATO describes OSINT as intelligence obtained from publicly available information and other unclassified data with limited public distribution or access.
+The European Union defines OSINT as the collecting and analyzing information from open sources to generate actionable intelligence, supporting areas like national security, law enforcement, and business intelligence.
+The United Nations has also recognized OSINT’s potential, noting its value in monitoring member states’ compliance with international regulations across various sectors, including public health and human rights.
+In the private sector, companies like IBM define OSINT as the process of gathering and analyzing publicly available information to assess threats, inform decisions, or answer specific questions. Similarly, cybersecurity firms such as CrowdStrike describe OSINT as the act of collecting and analyzing publicly available data for intelligence purposes.
+
+History
+OSINT practices have been documented as early as the mid-19th century in the United States and early 20th century in the United Kingdom.
+OSINT in the United States traces its origins to the 1941 creation of the Foreign Broadcast Monitoring Service (FBMS), an agency responsible for the monitoring of foreign broadcasts. An example of their work was the correlation of changes in the price of oranges in Paris with successful bombings of railway bridges during World War II.
+The Aspin-Brown Commission stated in 1996 that US access to open sources was "severely deficient" and that this should be a "top priority" for both funding and DCI attention.
+In July 2004, following the September 11 attacks, the 9/11 Commission recommended the creation of an open-source intelligence agency. In March 2005, the Iraq Intelligence Commission recommended the creation of an open-source directorate at the CIA.
+Following these recommendations, in November 2005 the Director of National Intelligence announced the creation of the DNI Open Source Center. The Center was established to collect information available from "the Internet, databases, press, radio, television, video, geospatial data, photos and commercial imagery." In addition to collecting openly available information, it would train analysts to make better use of this information. The center absorbed the CIA's previously existing Foreign Broadcast Information Service (FBIS), originally established in 1941, with FBIS head Douglas Naquin named as director of the center. Then, following the events of 9/11 the Intelligence Reform and Terrorism Prevention Act merged FBIS and other research elements into the Office of the Director of National Intelligence creating the Open Source Enterprise.
+Furthermore, the private sector has invested in tools which aid in OSINT collection and analysis. Specifically, In-Q-Tel, a Central Intelligence Agency supported venture capital firm in Arlington, VA assisted companies develop web-monitoring and predictive analysis tools.
+In December 2005, the Director of National Intelligence appointed Eliot A. Jardines as the Assistant Deputy Director of National Intelligence for Open Source to serve as the Intelligence Community's senior intelligence officer for open source and to provide strategy, guidance and oversight for the National Open Source Enterprise. Mr. Jardines has established the National Open Source Enterprise and authored intelligence community directive 301. In 2008, Mr. Jardines returned to the private sector and was succeeded by Dan Butler who is ADDNI/OS and previously Mr. Jardines' Senior Advisor for Policy.
+
+Tools
+A guide by Ryan Fedasiuk, an analyst at the Center for Security and Emerging Technology, lists six tools open-source analysts can use to stay safe and utilize operational security (OPSEC) when conducting online investigations. These include VPNs, cached webpages, digital archive services, URL and file scanners, browser sandbox applications, and antivirus software.
+Numerous lists of aggregated OSINT content are available on the web. The OSINT Framework contains over 30 primary categories of tools and is maintained as an open source project on GitHub.
+
+Risks for practitioners
+A main hindrance to practical OSINT is the volume of information it has to deal with information explosion. The amount of data being distributed increases at a rate that it becomes difficult to evaluate sources in intelligence analysis. To a small degree the work has sometimes been done by amateur crowd-sourcing.
+Private individuals illegally collecting data for a foreign military or intelligence agency is considered espionage in most countries. Espionage that is not treason (e.g. betraying one's country of citizenship) has been a tool of statecraft since ancient times.
+
+Disinformation and misinformation risk
+The open and accessible nature of public sources makes OSINT particularly vulnerable to contamination. Extremist groups regularly use OSINT to spread to misinformation and spread their ideology.
+Governments and state actors have been documented intentionally disseminating disinformation through public channels to influence perceptions, confuse adversaries, or undermine trust in open-source findings. This can include planting false information in news outlets, social media, official statements, or even manipulated geospatial data to deceive OSINT practitioners who rely on such sources.
+
+Professional associations and certifications
+The OSINT Foundation is a professional association for OSINT practitioners in the United States Intelligence Community. It is open to U.S. Citizens and seeks to raise the prominence of the open-source intelligence discipline.

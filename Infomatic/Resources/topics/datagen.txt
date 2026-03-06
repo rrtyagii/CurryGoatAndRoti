@@ -1,0 +1,8 @@
+Datagen was a multinational software company founded in 2018 by Ofir Chakon and Gil Elbaz. The company provides a platform for generating synthetic data for virtual reality (VR), augmented reality (AR), computer vision (CV), and artificial intelligence (AI), namely, self-driving cars, robotics and IoT security.
+
+History
+Datagen was founded in 2018 by Israeli Technion graduates Ofir Chakon and Gil Elbaz. The initial inspiration for creating what later was to become Datagen was a video of Facebook founder, Mark Zuckerberg, demonstrating Oculus.
+The Datagen platform is used to generate synthetic data used in computer vision AI while rendering the production of 2D and 3D imagery, by other means, for the purpose of training AI models, obsolete. The company claims it can reduce the time needed to create AI training data from days to a few hours. Datagen states that this will result in better-trained and more useful AI systems.
+In 2021, the company recruited new executives from several other tech corporations: Tal Darom (a past senior executive at Amazon in Israel), Jonathan Laserson, Karin Regev, and Hadas Scheinfeld (a former executive at Google).
+In 2022, the company announced that it raised $50 million in a Series B funding round.
+In 2024, the company announced that it has decided to close down the business even though 20 million dollars remained in the bank.

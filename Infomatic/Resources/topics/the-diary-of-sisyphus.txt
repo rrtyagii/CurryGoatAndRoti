@@ -1,0 +1,27 @@
+The Diary of Sisyphus (Italian: Il Diario di Sisifo) is a 2023 Italian independent experimental drama film. It is the first feature-length film to be written by an artificial intelligence. First presented at the Festival dello Spettatore 2023 in Arezzo and at the Rome Videogame Lab 2024 with Rai Cinema and Cinecittà, it was released in Italian cinemas in January 2024.
+
+Synopsis
+For the first time as a screenwriter, an AI narrates the life of Adam, a young college student plagued by existential crisis, and his journey toward the meaning of life, amid absurd encounters and very human vibes.
+
+Cast
+Niccolò Babbo as Adam, a college student plagued by existential crisis
+Stefano Pellizzari as John, Adam's best friend
+Diletta Feruglio as Rebecca, Adam's date
+Marco Risiglione as Doctor, Adam's psychologist
+Massimo Somaglino as Professor, Adam's philosophy professor
+Fabiano Fantini as Priest, an old priest that mentors Adam
+Paolo Mattotti as Old Man, an old man Adam encounters on the road
+Nicole Greatti as Greta, a young woman travelling with Mark and Tyson
+Pietro Cursano as Mark, a young man travelling with Greta and Tyson
+Mattia Giacchetto as Tyson, a young man travelling with Greta and Mark
+Guglielmo Favilla as Man in Coat, an Albert Camus-like figure that voices the opening monologue of the film and whom Adam encounters at the end of the film
+
+Production
+The script was written by GPT-NEO, an open-source version of GPT-3 by EleutherAI. The model was prompted with a synopsis, the plot lines, and desired scenes. The entire script, with the exception of the opening monologue, was written by GPT-NEO.
+The cast includes Niccolò Babbo, Stefano Pellizzari, Chiara Signorini Gremigni, Lorenzo Maria Angelin, Diletta Feruglio, Massimo Somaglino, Marco Risiglione, Fabiano Fantini, Paolo Mattotti, Nicole Greatti, Pietro Cursano, Mattia Giacchetto and Guglielmo Favilla.
+
+Release
+The film had a first private screening with critics and journalists at Sentieri Selvaggi followed by a public premiere at the Festival dello Spettatore in Arezzo on November 9, 2023 and participation at the Rome Videogame Festival 2024 with Rai Cinema and Cinecittà. On January 18, 2024, the film was released in selected Italian cinemas. Distribution is currently being handled by Italian distribution company 49°.
+
+Reception
+A review by Italian film critics at Sentieri Selvaggi describes the movie as "mechanical poetry" and underlines the interesting connections between the film's plot, themes from existentialism and references from works by Albert Camus, Jean-Paul Sartre and the Bible such as the name Adam, chosen by the AI for the film's protagonist. The film's is also critiqued for being slow and at times surreal but praised for its cinematography.

@@ -1,0 +1,119 @@
+Pathfinding or pathing is the search, by a computer application, for the shortest route between two points. It is a more practical variant on solving mazes. This field of research is based heavily on Dijkstra's algorithm for finding the shortest path on a weighted graph.
+Pathfinding is closely related to the shortest path problem, within graph theory, which examines how to identify the path that best meets some criteria (shortest, cheapest, fastest, etc) between two points in a large network.
+
+Algorithms
+At its core, a pathfinding method searches a graph by starting at one vertex and exploring adjacent nodes until the destination node is reached, generally with the intent of finding the cheapest route. Although graph searching methods such as a breadth-first search would find a route if given enough time, other methods, which "explore" the graph, would tend to reach the destination sooner. An analogy would be a person walking across a room; rather than examining every possible route in advance, the person would generally walk in the direction of the destination and only deviate from the path to avoid an obstruction, and make deviations as minor as possible.
+Two primary problems of pathfinding are (1) to find a path between two nodes in a graph; and (2) the shortest path problem—to find the optimal shortest path. Basic algorithms such as breadth-first and depth-first search address the first problem by exhausting all possibilities; starting from the given node, they iterate over all potential paths until they reach the destination node. These algorithms run in
+
+
+
+        O
+        (
+
+          |
+
+        V
+
+          |
+
+        +
+
+          |
+
+        E
+
+          |
+
+        )
+
+
+    {\displaystyle O(|V|+|E|)}
+
+, or linear time, where V is the number of vertices, and E is the number of edges between vertices.
+The more complicated problem is finding the optimal path. The exhaustive approach in this case is known as the Bellman–Ford algorithm, which yields a time complexity of
+
+
+
+        O
+        (
+
+          |
+
+        V
+
+          |
+
+
+          |
+
+        E
+
+          |
+
+        )
+
+
+    {\displaystyle O(|V||E|)}
+
+, or quadratic time. However, it is not necessary to examine all possible paths to find the optimal one. Algorithms such as A* and Dijkstra's algorithm strategically eliminate paths, either through heuristics or through dynamic programming. By eliminating impossible paths, these algorithms can achieve time complexities as low as
+
+
+
+        O
+        (
+
+          |
+
+        E
+
+          |
+
+        log
+        ⁡
+        (
+
+          |
+
+        V
+
+          |
+
+        )
+        )
+
+
+    {\displaystyle O(|E|\log(|V|))}
+
+.
+The above algorithms are among the best general algorithms which operate on a graph without preprocessing. However, in practical travel-routing systems, even better time complexities can be attained by algorithms which can pre-process the graph to attain better performance. One such algorithm is contraction hierarchies.
+
+Dijkstra's algorithm
+A common example of a graph-based pathfinding algorithm is Dijkstra's algorithm. This algorithm begins with a start node and an "open set" of candidate nodes. At each step, the node in the open set with the lowest distance from the start is examined. The node is marked "closed", and all nodes adjacent to it are added to the open set if they have not already been examined. This process repeats until a path to the destination has been found. Since the lowest distance nodes are examined first, the first time the destination is found, the path to it will be the shortest path.
+Dijkstra's algorithm fails if there is a negative edge weight. In the hypothetical situation where Nodes A, B, and C form a connected undirected graph with edges AB = 3, AC = 4, and  BC = −2, the optimal path from A to C costs 1, and the optimal path from A to B costs 2. Dijkstra's Algorithm starting from A will first examine B, as that is the closest. It will assign a cost of 3 to it, and mark it closed, meaning that its cost will never be reevaluated. Therefore, Dijkstra's cannot evaluate negative edge weights. However, since for many practical purposes there will never be a negative edgeweight, Dijkstra's algorithm is largely suitable for the purpose of pathfinding.
+
+A* algorithm
+A* is a variant of Dijkstra's algorithm with a wide variety of use cases. A* assigns a weight to each open node equal to the weight of the edge to that node plus the approximate distance between that node and the finish. This approximate distance is found by the heuristic, and represents a minimum possible distance between that node and the end. This allows it to eliminate longer paths once an initial path is found. If there is a path of length x between the start and finish, and the minimum distance between a node and the finish is greater than x, that node need not be examined.
+A* uses this heuristic to improve on the behavior relative to Dijkstra's algorithm. When the heuristic evaluates to zero, A* is equivalent to Dijkstra's algorithm. As the heuristic estimate increases and gets closer to the true distance, A* continues to find optimal paths, but runs faster (by virtue of examining fewer nodes). When the value of the heuristic is exactly the true distance, A* examines the fewest nodes. (However, it is generally impractical to write a heuristic function that always computes the true distance, as the same comparison result can often be reached using simpler calculations – for example, using Chebyshev distance over Euclidean distance in two-dimensional space.) As the value of the heuristic increases, A* examines fewer nodes but no longer guarantees an optimal path. In many applications (such as video games) this is acceptable and even desirable, in order to keep the algorithm running quickly.
+
+In video games
+Pathfinding has a history of being included in video games with moving objects or NPCs. Chris Crawford in 1982 described how he "expended a great deal of time" trying to solve a problem with pathfinding in Tanktics, in which computer tanks became trapped on land within U-shaped lakes. "After much wasted effort I discovered a better solution: delete U-shaped lakes from the map", he said.
+
+Hierarchical path finding
+The concept of hierarchical pathfinding predates its adoption by the video game industry and has its roots in classical artificial intelligence research. One of the earliest formal descriptions appears in Sacerdoti's work on ABSTRIPS (Abstraction-Based STRIPS) in 1974, which explored hierarchical search strategies in logic-based planning. Later research, such as Hierarchical A* by Holte et al., further developed the theory of abstraction hierarchies in search problems.
+In the context of video games, the need for efficient planning on large maps with limited CPU time led to the practical implementation of hierarchical pathfinding algorithms. A notable advancement was the introduction of Hierarchical Path-Finding A* (HPA*) by Botea et al. in 2004. HPA* partitions the map into clusters and precomputes optimal local paths between entrance points of adjacent clusters. At runtime, it plans an abstract path through the cluster graph, then refines that path within each cluster. This significantly reduces the search space and allows for near-optimal planning with much faster performance.
+Partial-Refinement A* (PRA*), developed by Sturtevant and Buro, takes a similar approach but emphasizes interleaved planning and acting. Instead of refining the entire path immediately, PRA* refines only the first few steps and continues refining the rest as needed during execution. This is especially useful in dynamic environments.
+Similar techniques include navigation meshes (navmesh), used for geometric planning in games, and multimodal transportation planning, such as in variations of the travelling salesman problem that involve multiple transport types.
+A hierarchical planner performs pathfinding in two phases: first, between clusters at a high level; then, within individual clusters at a low level. This structure enables guided local search with fewer nodes, resulting in high performance. The main drawback is the implementation complexity of maintaining abstraction layers and refinements.
+
+Example
+A map with a size of 3000×2000 nodes contains 6 million tiles. Planning a path directly on this scale, even with an optimized algorithm, is computationally intensive due to the vast number of graph nodes and possible paths. A hierarchical approach divides the map into 300×200 node clusters, forming a 10×10 grid (100 clusters total). The high-level abstract graph now contains only 100 nodes. A path is planned between these clusters, which is computationally cheap. Once the abstract path is found, each cluster on the path is processed using a regular A* planner to find the exact low-level route within. This two-stage process significantly improves efficiency while maintaining near-optimal path quality.
+
+Algorithms used in pathfinding
+Dijkstra's algorithm
+A* search algorithm, a special case of the Dijkstra's algorithm
+
+D* a family of incremental heuristic search algorithms for problems in which constraints vary over time or are not completely known when the agent first plans its path
+Any-angle path planning algorithms, a family of algorithms for planning paths that are not restricted to move along the edges in the search graph, designed to be able to take on any angle and thus find shorter and straighter paths
+
+Multi-agent pathfinding
+Multi-agent pathfinding is to find the paths for multiple agents from their current locations to their target locations without colliding with each other, while at the same time optimizing a cost function, such as the sum of the path lengths of all agents. It is a generalization of pathfinding. Many multi-agent pathfinding algorithms are generalized from A*, or based on reduction to other well studied problems such as integer linear programming. However, such algorithms are typically incomplete; in other words, not proven to produce a solution within polynomial time. Some parallel approaches, such as Collaborative Diffusion, are based on embarrassingly parallel algorithms spreading multi-agent pathfinding into computational grid structures, e.g., cells similar to cellular automata. A different category of algorithms sacrifice optimality for performance by either making use of known navigation patterns (such as traffic flow) or the topology of the problem space.

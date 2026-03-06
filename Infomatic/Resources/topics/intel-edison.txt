@@ -1,0 +1,43 @@
+The Intel Edison is a computer-on-module that was offered by Intel as a development system for wearable devices and Internet of Things devices. The system was initially announced to be the same size and shape as an SD card and containing a dual-core Intel Quark x86 CPU at 400 MHz communicating via Bluetooth and Wi-Fi. A later announcement changed the CPU to a 500 MHz Silvermont dual-core Intel Atom CPU, and in September 2014 a second version of Edison was shown at IDF, which was bigger and thicker than a standard SD card.
+The board was discontinued on June 19, 2017.
+
+First version
+Its launch was announced at CES in January 2014. Intel CEO Brian Krzanich showed a demo of a baby monitoring system (Nursery2.0) which was created using Intel Edison. He also announced that the Wolfram Language and Mathematica will be available on the Intel Edison and that the device will be able to run Linux.
+
+Second version
+In March 2014, Intel announced changes in the Intel Edison project and the second version of the board was presented in September 2014. Its dimensions are 35.5 x 25 x 3.9 mm, with components on both sides. The board's main SoC is a 22 nm Intel Atom "Tangier" (Z34XX) that includes two Atom Silvermont cores running at 500 MHz and one Intel Quark core at 100 MHz (for executing RTOS ViperOS). The SoC has 1 GB RAM integrated on package. There is also 4 GB eMMC flash on board, Wi-Fi, Bluetooth 4 and USB controllers. The board has 70-pin dense connector (Hirose DF40) with USB, SD, UARTs, GPIOs. The price of the device is around 50 USD. It runs Yocto Linux with development support for Arduino IDE, Eclipse (C, C++, Python), and Intel XDK (NodeJS, HTML5).
+
+Interface connector
+The connector on Intel Edison is a Hirose 70-pin DF40 Series “header” connector. (Hirose part number: DF40C-70DP-0.4V(51)). It exports many signals (USB, GPIOs, SPI, I²C, PWM, etc.).
+The mating Hirose connector on an expansion board is the “receptacle” connector and is available in three different heights (1.5 mm, 2.0 mm, 3.0 mm).
+
+Development boards
+Arduino board
+Intel Released an Arduino Uno compatible board (with only 4 PWM pins instead of 6) that accepts the Intel Edison module. Newer revisions have 6 PWM pins.
+Board I/O Features:
+
+20 digital input/output pins, including 6 pins as PWM outputs
+6 analog inputs
+1 UART (Rx/Tx)
+1 I²C
+1 ICSP (In-system programming) 6-pin header (SPI)
+Micro USB device connector OR (via mechanical switch) dedicated standard size USB host Type-A connector
+Micro USB device (connected to UART)
+SD card connector
+DC power jack (7 to 15VDC input)
+
+Intel breakout board
+Intel released a breakout board that is twice the area of the Intel Edison module and is designed for prototyping with open-source hardware and software.
+
+Exposes native 1.8 V I/O of the Edison module
+0.1” grid I/O array of through-hole solder points
+USB OTG with USB Micro Type-AB connector
+USB OTG power switch
+Battery Charger
+USB to device UART bridge with USB Micro
+Type-B connector
+DC power supply jack (7 V – 15 V) DC input
+The table below lists the signals from the Edison Module that are routed to the four breakout connector (J17-J20). The figure below shows the location of each connector.
+
+Modulowo board
+In October 2015, Modulowo published information about the development kit Modulowo Explore E for Intel Edison. Development Board allows for quick prototyping and design new solutions and adding sensors, controllers lights, motor drivers, GPS modules, communication modules and more.

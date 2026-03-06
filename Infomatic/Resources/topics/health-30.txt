@@ -1,0 +1,15 @@
+Health 3.0 is a health-related extension of the concept of Web 3.0 whereby the users' interface with the data and information available on the web is personalized to optimize their experience. This is based on the concept of the Semantic Web, wherein websites' data is accessible for sorting in order to tailor the presentation of information based on user preferences. Health 3.0 will use such data access to enable individuals to better retrieve and contribute to personalized health-related information within networked electronic health records, and social networking resources.
+Health 3.0 has also been described as the idea of semantically organizing electronic health records to create an Open Healthcare Information Architecture. Health care could also make use of social media, and incorporate virtual tools for enhanced interactions between health care providers and consumers/patients.
+
+Goals
+Improved access to health related information on the web via semantic and networked resources will facilitate an improved understanding of health issues with the goal of increasing patient self-management, preventative care and enhancing health professional expertise.
+Health 3.0 will foster the creation and maintenance of supportive virtual communities within which individuals can help one another understand, cope with, and manage common health-related issues.
+Personalized social networking resources can also serve as a medium for health professionals to improve individuals' access to healthcare expertise, and to facilitate health professional-to-many-patients communication with the goal of improved acceptance, understanding and adherence to best therapeutic options.
+"Digital healing" has been described as a goal of health 3.0. It involves patients obtaining reassurance, support, and validation from others via social media.
+Health 3.0 is recommended to be able to gather imparted data through web-based technologies. Consumers and experts are to be connected by virtual reasoning tools – an expert system. The expert system that can use the collected information through the web-based technologies represent health 3.0.
+
+The current situation
+Social networking is a popular and powerful tool for engaging patients in their health care. These virtual communities provide a real-time resource for obtaining health-related knowledge and counselling. Pew Internet and American Life Project report that greater than 90% of young adults and nearly three quarters of all Americans access the internet on a regular basis. Greater than 60% of online adults regularly access social networking resources. In addition, 80% of internet users search for health-related information. Definitive evidence of health benefit from interaction with health-related virtual communities is currently lacking as further research needs to be performed.
+
+Challenges
+Many local communities face challenges implementing a Public Health 3.0 model. Public Health at a local level has been unable to integrate information technology. Furthermore, Health Departments face financial and resource shortages, specifically reduced government spending for public health.

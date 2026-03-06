@@ -1,0 +1,63 @@
+The RoboCup 3D Simulated Soccer League allows software agents to control humanoid robots to compete against one another in a realistic simulation of the rules and physics of a game of soccer.  The platform strives to reproduce the software programming challenges faced when building real physical robots for this purpose.  In doing so, it helps research towards the RoboCup Federation's goal of developing a team of fully autonomous humanoid robots that can win against the human world soccer champion team in 2050.
+The first version of the 3D server was released on 2003-12-30, after an initial proposal presented at the 2003 RoboCup symposium.
+
+Architecture
+The simulation is executed in the RoboCup Simulated Soccer Server 3D (rcssserver3d) which runs on Linux, Windows and Mac OS X.  The underlying simulation engine is SimSpark.
+Agents are controlled by external processes.  The competition's rules dictate that each agent must be a separate process, though there is no technical restriction for this.  Agents communicate with the soccer server via TCP, by default on port 3100.  Inter-process communication is otherwise forbidden.  Agents may talk to one another, but only through the server which imposes certain restrictions on the distance and amount of information that may be sent.
+The server sends game and agent state information to each agent.  In response, the agent sends commands to the simulation that control the movement of the agent's body.  Messages are sent using Lisp-like S-expressions in single-byte ASCII, prefixed by a 32-bit unsigned integer representing the length of the following string.
+The simulation server does not have a GUI of its own.  Instead, a dedicated monitor application connects to the server via TCP port 3200 and receives information about the state of play.  The standard monitoring application is rcssmonitor3d which is additionally capable of replaying log files from recorded matches. RoboViz is a newer Java-based monitoring application with extended 3D graphical and debugging capabilities.
+
+Robot Models
+The SimSpark simulation system is a generic simulator, capable of simulating different agent models.  In its history, the 3D league has used different models.
+Changing of models represents progress simulating an improved approximation of a real robot.  However, when models change, existing teams must rework their agents to control the new bodies.
+
+Soccerbot
+The first agent model used in the 3D league was the Soccerbot, which was based on the HOAP-2 by Fujitsu.  As the first RoboCup 3D model, teams were primarily concerned with balance and basic mobility.  Consequently, this agent model is not as fully featured as a human-sized biped soccer playing robot would be.  For example, Soccerbot has an omni-directional camera mounted in the torso and consequently the head is fixed.  Similarly the hip joints are restricted to rotations around perpendicular axes.
+Soccerbot was also designed within certain limitations of the simulation system at the time.  As the simulator became more robust, more sophisticated robot models were possible.
+
+Nao Robot
+The current robot model used in competitions is based on the Nao robot by Aldebaran Robotics.  It has 22 hinges to control the motion of its body.
+Nao has a directional camera mounted in the head.  The head can rotate through two degrees of freedom, ranging -120 to 120 degrees left-to-right, and -45 to 45 degrees down-to-up.  The camera has a field of view 120 degrees wide.
+Nao also has a more complex hip structure.
+
+Perceptors
+The Nao robot player is equipped with various perceptors:
+
+GyroRatePerceptor delivers information about orientation relative to X,Y,Z axes.  Nao has one fixed within the torso.
+HingeJointPerceptor provides the current angle of a hinge joint.  Hinge joints can only bend along one axis.  Nao has 22 such joints.
+ForceResistancePerceptor provides information about the location, direction and magnitude of a force applied upon a part of the body.  Nao has one of these on the sole of each foot.
+Accelerometer measures acceleration along X,Y,Z axes of the body part to which it is affixed.  Gravity is registered.  Nao has one fixed within the torso.
+VisionPerceptor a specialised camera that reports upon the location of certain landmarks upon the field, the ball and other players.  Positions are reported in polar coordinates relative to the gazing direction of Nao.
+GameStatePerceptor detects game time and play mode (before kickoff, free kick, game over, etc.).
+HearPerceptor detects messages sent from other agents on the field, reporting their distance, direction and the message itself.
+The simulation platform, SimSpark is capable of extension via custom perceptors, but this is not allowed in competitions.
+
+Effectors
+CreateEffector is sent once after the agent connects to create a robot within the server.
+HingeJointEffector specifies that a given force should be applied to a particular hinge joint.  Nao has 22 such hinges.
+BeamEffector is used to reposition the robot player at times in the game when this is allowed.
+SayEffector makes the robot say a message that may be heard by team mates and opponents within a certain range via the HearPerceptor.
+
+Media
+Five goals by SEU-RedSun from RoboCup 2008 (YouTube)
+Videos from Japan Open 2010 (ustream)
+UT Austin Villa highlights from RoboCup 2011 (YouTube)
+RoboCup 2012 3D Simulation League Highlights (YouTube)
+UT Austin Villa highlights from RoboCup 2014 (YouTube)
+UT Austin Villa highlights from RoboCup 2015 (YouTube)
+UT Austin Villa highlights from RoboCup 2016 (YouTube)
+UT Austin Villa highlights from RoboCup 2017 (YouTube)
+Web Player for log files from previous competitions
+
+Teams
+Nao Team Humboldt - NaoTH
+Little Green Bats
+UT Austin Villa
+The Three Musketeers - L3M-SIM
+RoboCanes
+FC Portugal
+magmaOffenburg
+BahiaRT
+ITAndroids 3D
+kgpkubs
+[AIUT3D]

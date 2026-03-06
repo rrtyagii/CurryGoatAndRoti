@@ -1,0 +1,16 @@
+K Health (formerly Kang Health) is a privately owned, clinical artificial intelligence (AI) company. It provides virtual primary care through health systems and insurers, and via its mobile app.
+
+History
+K Health was founded in 2016 in New York City by Allon Bloch (CEO), Ran Shaul (Chief Product Officer), Israel Roth (former Chief Technology Officer) and Adam Singolda (Board Member and CEO of Taboola). Bloch was previously co-CEO of Wix.com, where he's still on the board of directors, and CEO of Vroom.
+K Health was launched in 2018 as a free medical app for personalized health information. In 2021, K Health acquired text-based therapy company Trusst.
+
+Finances
+K Health has raised $380 million in funding and the company was valued at $900 million as of July 2024. K Health investors include Claure Group, Valor Equity Partners, Mangrove Capital Partners, Notable Capital, 14W, Comcast Ventures, Lerer Hippeau, Primary Venture Partners, and PICO Capital Partners. Cedars-Sinai and Elevance Health are strategic investors, and Gal Gadot and her husband Yaron Varsano have also invested. In 2022, the company earned $52 million in revenue, though it is not profitable.
+
+Primary care app
+K Health's main service is its primary care app. The app includes a chatbot called "K," which asks a series of questions to identify a diagnosis. It uses data from Maccabi Healthcare Services, a health maintenance organization (HMO) in Israel, and Mayo Clinic. The app itself doesn't provide medical advice but connects users with doctors. Its AI offers a list of potential diagnoses, which the doctors can review while chatting with the user online. In 2021, virtual providers became available in 48 states.
+A 2022 study found that K Health performed moderately compared to other symptom assessment apps. It provided suggestions for 74.5% of clinical vignettes (case reports). Its top-3 diagnoses had an accuracy of 36%, which was significantly lower than general practitioners (82.1%). In terms of urgency advice, K Health provided safe recommendations in 81.3% of cases. This was below the performance of general practitioners, who achieved 97% accuracy.
+
+Partnerships
+In 2019, K Health partnered with Elevance Health (formerly Anthem) for the Elevance mobile app, Sydney Health. Anthem also invested in K Health. In 2021, K Health, Elevance Health, and Blackstone Growth began a joint venture called Hydrogen Health to offer K Health through private employers and insurers.
+In 2020, K Health announced that it began working with Mayo Clinic Platform. In 2022, K Health launched its predictive hypertension treatment model that uses Mayo Clinic data to help doctors personalize treatment. In 2024, K Health entered into a know-how agreement with Mayo Clinic to develop a preventive cardiac solution. Cedars-Sinai launched its virtual care app in 2023, Cedars-Sinai Connect, which was built using K Health's AI.

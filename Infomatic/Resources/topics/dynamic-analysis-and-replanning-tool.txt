@@ -1,0 +1,15 @@
+The Dynamic Analysis and Replanning Tool, commonly abbreviated to DART, is an artificial intelligence program used by the U.S. military to optimize and schedule the transportation of supplies or personnel and solve other logistical problems.
+DART uses intelligent agents to aid decision support systems located at the U.S. Transportation and European Commands. It integrates a set of intelligent data processing agents and database management systems to give planners the ability to rapidly evaluate plans for logistical feasibility. By automating evaluation of these processes DART decreases the cost and time required to implement decisions.
+DART achieved logistical solutions that surprised many military planners. Introduced in 1991, DART had by 1995 offset the monetary equivalent of all funds DARPA had channeled into AI research for the previous 30 years combined.
+
+Development and introduction
+In the late 1980s, DARPA funded the MITRE Corporation and Carnegie Mellon University to evaluate the feasibility of various intelligent planning systems.
+In November 1989, a demonstration named The Proud Eagle Exercise indicated many inadequacies and bottlenecks within military support systems.
+In July 1990, an early version of the Dynamic Analysis and Replanning Tool (DART) was presented to military officials by BBN Systems and Technologies and the ISX Corporation (later integrated into Lockheed Martin Advanced Technology Laboratories), in collaboration with the U.S. Air Force Rome Laboratory. The project was formally proposed in November 1990, and the military requested the immediate development of a prototype. A rapid development effort produced a working prototype within eight weeks, which was delivered to the United States Transportation Command (USTRANSCOM) at the onset of Operation Desert Storm in 1991 during the Gulf War.
+
+Impact
+DART was introduced to support military logistics planning and was utilized during preparations for Operation Desert Storm. It addressed challenges related to the movement of military assets from Europe to Saudi Arabia and was noted for its capacity to adjust plans dynamically under crisis conditions.
+The development and deployment of DART influenced the creation of subsequent military planning systems, including:
+
+RDA (Resource Description and Access) – a system for organizing and accessing resource information;
+DRPI (Knowledge-Based Planning and Scheduling Initiative) – a successor to DART focused on knowledge-based planning and scheduling.

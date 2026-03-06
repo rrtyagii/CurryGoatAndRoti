@@ -1,0 +1,25 @@
+Zerynth S.p.A. is an Italian technology company that develops hardware–software–cloud solutions for the Industrial Internet of Things (IIoT) and Artificial Intelligence (AI) in manufacturing. Founded in 2015 and headquartered in Pisa, Italy, the company enables manufacturing firms — particularly small and medium-sized enterprises (SMEs) — to digitize production processes, connect modern and legacy machinery, and implement monitoring, predictive maintenance, and energy optimization applications.
+
+History
+Zerynth was established in 2015 as a spin-off project focused on simplifying embedded programming for IoT applications. Over the years, the company evolved toward industrial digitization, combining hardware connectivity with data analytics and AI-driven insights. Headquartered in Pisa, Zerynth operates in the industrial technology cluster of Tuscany and collaborates with various Italian and international manufacturing firms.
+In November 2022, Zerynth completed a €5.3 million Series A funding round led by United Ventures, bringing its total funding to approximately €7.3 million.
+
+Technology and Platform
+The Zerynth Platform is an integrated system that combines edge devices, cloud infrastructure, and software tools for managing and analyzing industrial data. It allows manufacturers to collect data from any machine — whether new or legacy — and transform it into actionable insights.
+Its main components include:
+
+Zerynth Edge Devices, which acquire and preprocess data directly from machines and production lines.
+The Zerynth Core, which provides device management, configuration, and connectivity services, including the Zerynth Device Manager, a No-Code Configurator, and a comprehensive set of APIs for ERP, MES, and BI system integration.
+A suite of Manufacturing Intelligence Apps, dedicated to production monitoring, energy consumption analysis, maintenance management, and machine control.
+The Zerynth Copilot, an AI-based virtual assistant integrated into the platform that helps users interpret production data, receive proactive alerts, and generate insights for decision-making in real time.
+All communications within the platform are protected by industrial-grade encryption and cybersecurity mechanisms. Earlier development environments such as Zerynth Studio have been discontinued and replaced by this unified platform.
+
+Use Cases
+The platform is adopted by companies in sectors including plastics, metalworking, machinery manufacturing, and the agri-food industry. Common use cases include monitoring of production lines, optimization of energy consumption, predictive maintenance, and data-driven performance analysis.
+
+Funding
+2022: €5.3 million Series A funding round led by United Ventures.
+Previous funding rounds supported by LIFTT and other Italian investors.
+
+Recognition
+Zerynth has been recognized among emerging Italian technology companies in the Industrial IoT field and has participated in European innovation initiatives such as the greenSME program.

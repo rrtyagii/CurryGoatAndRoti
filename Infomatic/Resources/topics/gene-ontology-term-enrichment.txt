@@ -1,0 +1,24 @@
+Gene Ontology (GO) term enrichment is a technique for interpreting sets of genes making use of the Gene Ontology system of classification, in which genes are assigned to a set of predefined bins depending on their functional characteristics. For example, the gene FasR is categorized as being a receptor, involved in apoptosis and located on the plasma membrane.
+Researchers performing high-throughput experiments that yield sets of genes (for example, genes that are differentially expressed under different conditions) often want to retrieve a functional profile of that gene set, in order to better understand the underlying biological processes. This can be done by comparing the input gene set with each of the bins (terms) in the GO – a statistical test can be performed for each bin to see if it is enriched for the input genes.
+The output of the analysis is typically a ranked list of GO terms, each associated with a p-value.
+
+Background
+The Gene Ontology
+The Gene Ontology (GO) provides a system for hierarchically classifying genes or gene products into terms organized in a graph structure (or an ontology). The terms are groups into three categories: molecular function (describing the molecular activity of a gene), biological process (describing the larger cellular or physiological role carried out by the gene, coordinated with other genes), and cellular component (describing the location in the cell where the gene product executes its function). Each gene can be described (annotated) with multiple terms. The GO is actively used to classify genes from humans, model organisms and a variety of other species.
+Using the GO, it is possible to retrieve the set of terms used to describe any gene, or conversely, given a term, return the set of genes annotated to that term. For the latter query, the hierarchical system of the GO is employed to give complete results. For example, a query for the GO term for nucleus should return genes annotated to the term "nuclear membrane".
+
+Interpreting high throughput data
+Certain types of high-throughput experiments (e.g., RNA seq) return sets of genes that are over- or under-expressed. GO can be used to functionally profile this set of genes and to determine which GO terms appear more frequently than would be expected by chance when examining the set of terms annotated to the input genes. For example, an experiment may compare gene expression in healthy cells versus cancerous cells. Functional profiling can be used to elucidate the underlying cellular mechanisms associated with the cancerous condition. This is also called term enrichment or term overrepresentation, as we are testing whether a GO term is statistically enriched for the given set of genes.
+
+Methods
+There are a variety of methods for performing a term enrichment using GO. Methods may vary according to the type of statistical test applied, the most common being a Fisher's exact test / hypergeometric test. Some methods make use of Bayesian statistics. There is also variability in the type of correction applied for Multiple comparisons, the most common being the Bonferroni correction.
+Methods also vary in their input – some take unranked gene sets, others take  ranked gene sets, with more sophisticated methods allowing each gene to be associated with a magnitude (e.g., expression level), avoiding arbitrary cutoffs.
+
+Tools
+MOET: a web-based gene set enrichment tool at the Rat Genome Database for multiontology and multispecies analyses
+PlantRegMap: GO annotation for 165 species and GO term enrichment analysis
+PLAZA Workbench: GO, InterPro and MapMan enrichment analysis for different plant species.
+The Gene Ontology Consortium (GOC) provides a Term Enrichment tool.
+Term Enrichment
+FunRich is a Windows-based, free, standalone functional enrichment analysis tool.
+Blast2GO, is a platform-independent desktop application to perform functional enrichment analysis as well as functional annotation of novel sequence data.

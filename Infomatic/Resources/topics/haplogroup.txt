@@ -1,0 +1,177 @@
+A haplotype is a group of alleles in an organism that are inherited together from a single parent, and a haplogroup (haploid from the Greek: ἁπλοῦς, haploûs, "onefold, simple" and English: group) is a group of similar haplotypes that share a common ancestor with a single-nucleotide polymorphism mutation. More specifically, a haplotype is a combination of alleles at different chromosomal regions that are closely linked and tend to be inherited together. As a haplogroup consists of similar haplotypes, it is usually possible to predict a haplogroup from haplotypes. Haplogroups pertain to a single line of descent. Such as the  Haplogroup R-M269 a membership of a haplogroup, by any individual, relies on a relatively small proportion of the genetic material possessed by that individual.
+
+Each haplogroup originates from, and remains part of, a preceding single haplogroup (or paragroup). As such, any related group of haplogroups may be precisely modelled as a nested hierarchy, in which each set (haplogroup) is also a subset of a single broader set (as opposed, that is, to biparental models, such as human family trees).  Haplogroups can be further divided into subclades.
+Haplogroups are normally identified by an initial letter of the alphabet, and refinements consist of additional number and letter combinations, such as (for example) A → A1 → A1a. The alphabetical nomenclature was published in 2002 by the Y Chromosome Consortium.
+In human genetics, the haplogroups most commonly studied are Y-chromosome (Y-DNA) haplogroups and mitochondrial DNA (mtDNA) haplogroups, each of which can be used to define genetic populations. Y-DNA is passed solely along the patrilineal line, from father to son, while mtDNA is passed down the matrilineal line, from mother to offspring of both sexes. Neither recombines, and thus Y-DNA and mtDNA change only by chance mutation at each generation with no intermixture between parents' genetic material.
+
+Haplogroup formation
+Mitochondria are small organelles that lie in the cytoplasm of eukaryotic cells, such as those of humans. Their primary function is to provide energy to the cell. Mitochondria are thought to be reduced descendants of symbiotic bacteria that were once free living. One indication that mitochondria were once free living is that each contains a circular DNA, called mitochondrial DNA (mtDNA), whose structure is more similar to bacteria than eukaryotic organisms (see endosymbiotic theory). The overwhelming majority of a human's DNA is contained in the chromosomes in the nucleus of the cell, but mtDNA is an exception.
+An individual inherits their cytoplasm and the organelles contained by that cytoplasm exclusively from the maternal ovum (egg cell); sperm only pass on the chromosomal DNA, all paternal mitochondria are digested in the oocyte. When a mutation arises in a mtDNA molecule, the mutation is therefore passed down in a direct female line of descent. Mutations are changes in the nitrogen bases of the DNA sequence. Single changes from the original sequence are called single nucleotide polymorphisms (SNPs).
+Human Y chromosomes are male-specific sex chromosomes; nearly all humans that possess a Y chromosome will be morphologically male. Although Y chromosomes are situated in the cell nucleus and paired with X chromosomes, they only recombine with the X chromosome at the ends of the Y chromosome; the remaining 95% of the Y chromosome does not recombine. Therefore, the Y chromosome and any mutations that arise in it are passed down in a direct male line of descent.
+Other chromosomes, autosomes and X chromosomes (when another X chromosome is available to pair with it), cross over and exchange their genetic material during meiosis, the process of cell division which produces gametes. Effectively this means that the genetic material from these chromosomes gets mixed up in every generation, and so any new mutations are passed down randomly from parents to offspring. That said, genetic linkage remains in play: closer-together mutations tend to be passed down together due to how cross-over works. As a result, it remains possible for one to "guess" haplotypes over a few generations, but the categorization of "groups" over many generations is impossible.
+The special feature that both Y chromosomes and mtDNA display is that mutations can accrue along a certain segment of both molecules and these mutations remain fixed in place on the DNA. Furthermore, the historical sequence of these mutations can also be inferred. For example, if a set of ten Y chromosomes (derived from ten different individuals) contains a mutation, A, but only five of these chromosomes contain a second mutation, B, then it is overwhelmingly likely that mutation B occurred after mutation A.
+Furthermore, all ten individuals who carry the chromosome with mutation A are the direct male line descendants of the same man who was the first person to carry this mutation. The first man to carry mutation B was also a direct male line descendant of this man, but is also the direct male line ancestor of all men carrying mutation B. Series of mutations such as this form molecular lineages. Furthermore, each mutation defines a set of specific Y chromosomes called a haplogroup.
+All humans carrying mutation A form a single haplogroup, and all humans carrying mutation B are part of this haplogroup, but mutation B also defines a more recent haplogroup (which is a subgroup or subclade) of its own to which humans carrying only mutation A do not belong. Both mtDNA and Y chromosomes are grouped into lineages and haplogroups; these are often presented as tree-like diagrams.
+
+Human Y-chromosome DNA haplogroups
+Human Y chromosome DNA (Y-DNA) haplogroups are named from A to T, and are further subdivided using numbers and lower case letters. Y chromosome haplogroup designations are established by the Y Chromosome Consortium.
+
+Y-chromosomal Adam is the name given by researchers to the male who is the most recent common patrilineal (male-lineage) ancestor of all living humans.
+Major Y-chromosome haplogroups, and their geographical regions of occurrence (prior to
+the recent European colonization), include:
+
+Groups without mutation M168
+Haplogroup A (M91) (Africa, especially the Khoisan and Nilotes)
+Haplogroup B (M60) (Africa, especially the Pygmies and Hadzabe)
+
+Groups with mutation M168
+(mutation M168 occurred ~50,000 bp)
+
+Haplogroup C (M130) (Oceania, North/Central/East Asia, North America and a minor presence in South America, Southeast Asia, South Asia, West Asia, and Europe)
+YAP+ haplogroups
+Haplogroup DE (M1, M145, M203)
+Haplogroup D (CTS3946) (Tibet, Nepal, Japan, the Andaman Islands, Central Asia, and a sporadic presence in Nigeria, Syria, and Saudi Arabia)
+Haplogroup E (M96)
+Haplogroup E1b1a (V38) West Africa and surrounding regions; formerly known as E3a
+Haplogroup E1b1b (M215) Associated with the spread of Afroasiatic languages; now concentrated in North Africa and the Horn of Africa, as well as parts of the Middle East, the Mediterranean, and the Balkans; formerly known as E3b
+
+Groups with mutation M89
+(mutation M89 occurred ~45,000 bp)
+
+Haplogroup F (M89) Oceania, Europe, Asia, North and South America
+Haplogroup FT (P14, M213) (China, Vietnam, Singapore)
+Haplogroup G (M201) (present among many ethnic groups in Eurasia, usually at low frequency; most common in the Caucasus, the Iranian plateau, and Anatolia; in Europe mainly in Greece, Italy, Iberia, the Tyrol, Bohemia; rare in Northern Europe)
+Haplogroup H (L901/M2939)
+H1'3 (Z4221/M2826, Z13960)
+H1 (L902/M3061)
+H1a (M69/Page45) India, Sri Lanka, Nepal, Pakistan, Iran, Central Asia
+H1b (B108) Found in a Burmese individual in Myanmar.
+H3 (Z5857) India, Sri Lanka, Pakistan, Bahrain, Qatar
+H2 (P96) Formerly known as haplogroup F3. Found with low frequency in Europe and western Asia.
+Haplogroup IJK (L15, L16)
+
+Groups with mutations L15 & L16
+Haplogroup IJK (L15, L16)
+Haplogroup IJ (S2, S22)
+Haplogroup I (M170, P19, M258) (widespread in Europe, found infrequently in parts of the Middle East, and virtually absent elsewhere)
+Haplogroup I1 (M253, M307, P30, P40) (Northern Europe, dominant in Scandinavia)
+Haplogroup I2 (S31) (Central and Southeast Europe, Sardinia, Balkans)
+Haplogroup J (M304) (the Middle East, Turkey, Caucasus, Italy, Greece, the Balkans, North Africa)
+Haplogroup J* (Mainly found in Socotra, with a few observations in Pakistan, Oman, Greece, the Czech Republic, and among Turkic peoples)
+Haplogroup J1 (M267) (Mostly associated with Semitic peoples in the Middle East but also found in; Mediterranean Europe, Ethiopia, North Africa, Pakistan, India and with Northeast Caucasian peoples in Dagestan; J1 with DYS388=13 is associated with eastern Anatolia)
+Haplogroup J2 (M172) (Mainly found in West Asia, Central Asia, Iran, Italy, Greece, the Balkans and North Africa)
+Haplogroup K (M9, P128, P131, P132)
+
+Groups with mutation M9
+(mutation M9 occurred ~40,000 bp)
+
+Haplogroup K
+Haplogroup LT (L298/P326)
+Haplogroup L (M11, M20, M22, M61, M185, M295) (South Asia, Central Asia, Southwestern Asia, the Mediterranean)
+Haplogroup T (M70, M184/USP9Y+3178, M193, M272) (North Africa, Horn of Africa, Southwest Asia, the Mediterranean, South Asia); formerly known as Haplogroup K2
+Haplogroup K(xLT) (rs2033003/M526)
+
+Groups with mutation M526
+Haplogroup M (P256) (New Guinea, Melanesia, eastern Indonesia)
+Haplogroup NO (M214)
+Haplogroup N (M231) (northernmost Eurasia)
+Haplogroup O (M175) (East Asia, Southeast Asia, the South Pacific, South Asia, Central Asia)
+Haplogroup O1 (F265)
+Haplogroup O1a (M119)
+Haplogroup O1b (P31, M268)
+Haplogroup O2 (M122)
+Haplogroup P-M45 (M45) (M45 occurred ~35,000 bp)
+Haplogroup Q-M242 (M242) (Occurred ~15,000–20,000 bp. Found in Asia and the Americas)
+Haplogroup Q-M3 (M3) (North America, Central America, and South America)
+Haplogroup R (M207)
+Haplogroup R1 (M173)
+Haplogroup R1a (M17) (Central Asia, South Asia, and Central, Northern, and Eastern Europe)
+Haplogroup R1b (M343) (Europe, Caucasus, Central Asia, South Asia, North Africa, Central Africa)
+Haplogroup R2 (M124) (South Asia, Caucasus, Central Asia)
+Haplogroup S (M230, P202, P204) (New Guinea, Melanesia, eastern Indonesia)
+
+Human mitochondrial DNA haplogroups
+Human mtDNA haplogroups are lettered:
+A,
+B,
+C,
+CZ,
+D,
+E,
+F,
+G,
+H,
+HV,
+I,
+J,
+pre-JT,
+JT,
+K,
+L0,
+L1,
+L2,
+L3,
+L4,
+L5,
+L6,
+M,
+N,
+O,
+P,
+Q,
+R,
+R0,
+S,
+T,
+U,
+V,
+W,
+X,
+Y, and
+Z.
+The versions of the mtDNA tree was maintained by Mannis van Oven on the PhyloTree website up to 2016.
+When the number of new mtDNA tests started to heavily increase, other companies started to develop the mtDNA halpotree. First the company YFull introduced their MTree. In 2025 FamilyTreeDNA introduced their MitoTree(Beta).
+
+Mitochondrial Eve is the name given by researchers to the woman who is the most recent common matrilineal (female-lineage) ancestor of all living humans.
+
+Defining populations
+Haplogroups can be used to define genetic populations and are often geographically oriented. For example, the following are common divisions for mtDNA haplogroups:
+
+African: L0, L1, L2, L3, L4, L5, L6
+West Eurasian: H, T, U, V, X, K, I, J, W (all listed West Eurasian haplogroups are derived from macro-haplogroup N)
+East Eurasian: A, B, C, D, E, F, G, Y, Z (note: C, D, E, G, and Z belong to macro-haplogroup M)
+Native American: A, B, C, D, X
+Australo-Melanesian: P, Q, S
+The mitochondrial haplogroups are divided into three main groups, which are designated by the sequential letters L, M, N.
+Humanity first split within the L group between L0 and L1-6. L1-6 gave rise to other L groups, one of which, L3, split into the M and N group.
+The M group comprises the first wave of human migration which is thought to have evolved outside of Africa, following an eastward route along southern coastal areas. Descendant lineages of haplogroup M are now found throughout Asia, the Americas, and Melanesia, as well as in parts of the Horn of Africa and North Africa; almost none have been found in Europe. The N haplogroup may represent another macrolineage that evolved outside of Africa, heading northward instead of eastward. Shortly after the migration, the large R group split off from the N.
+Haplogroup R consists of two subgroups defined on the basis of their geographical distributions, one found in southeastern Asia and Oceania and the other containing almost all of the modern European populations. Haplogroup N(xR), i.e. mtDNA that belongs to the N group but not to its R subgroup, is typical of Australian aboriginal populations, while also being present at low frequencies among many populations of Eurasia and the Americas.
+The L type consists of nearly all Africans.
+The M type consists of:
+M1 – Ethiopian, Somali and Indian populations. Likely due to much gene flow between the Horn of Africa and the Arabian Peninsula (Saudi Arabia, Yemen, Oman), separated only by a narrow strait between the Red Sea and the Gulf of Aden.
+CZ – Many Siberians; branch C – Some Amerindian; branch Z – Many Saami, some Korean, some North Chinese, some Central Asian populations.
+D – Some Amerindians, many Siberians and northern East Asians
+E – Malay, Borneo, Philippines, Taiwanese aborigines, Papua New Guinea
+G – Many Northeast Siberians, northern East Asians, and Central Asians
+Q – Melanesian, Polynesian, New Guinean populations
+The N type consists of:
+A – Found in many Amerindians and some East Asians and Siberians
+I – 10% frequency in Northern, Eastern Europe
+S – Some Indigenous Australian (First Nations People of Australia)
+W – Some Eastern Europeans, South Asians, and southern East Asians
+X – Some Amerindians, Southern Siberians, Southwest Asians, and Southern Europeans
+Y – Most Nivkhs and people of Nias; many Ainus, Tungusic people, and Austronesians; also found with low frequency in some other populations of Siberia, East Asia, and Central Asia
+R – Large group found within the N type. Populations contained therein can be divided geographically into West Eurasia and East Eurasia. Almost all European populations and a large number of Middle-Eastern population today are contained within this branch. A smaller percentage is contained in other N type groups (See above). Below are subclades of R:
+B – Some Chinese, Tibetans, Mongolians, Central Asians, Koreans, Amerindians, South Siberians, Japanese, Austronesians
+F – Mainly found in southeastern Asia, especially Vietnam; 8.3% in Hvar Island in Croatia.
+R0 – Found in Arabia and among Ethiopians and Somalis; branch HV (branch H; branch V) – Europe, Western Asia, North Africa;
+Pre-JT – Arose in the Levant (modern Lebanon area), found in 25% frequency in Bedouin populations; branch JT (branch J; branch T) – North, Eastern Europe, Indus, Mediterranean
+U – High frequency in West Eurasia, Indian sub-continent, and Algeria, found from India to the Mediterranean and to the rest of Europe; U5 in particular shows high frequency in Scandinavia and Baltic countries with the highest frequency in the Sami people.
+
+Y-chromosome and MtDNA geographic haplogroup assignment
+Here is a list of Y-chromosome and MtDNA geographic haplogroup assignment proposed by Bekada et al. 2013.
+
+Y-chromosome
+According to SNPS haplogroups which are the age of the first extinction event tend to be around 45–50 kya. Haplogroups of the second extinction event seemed to diverge 32–35 kya according to Mal'ta. The ground zero extinction event appears to be Toba during which haplogroup CDEF* appeared to diverge into C, DE and F. C and F have almost nothing in common while D and E have plenty in common. Extinction event #1 according to current estimates occurred after Toba, although older ancient DNA could push the ground zero extinction event to long before Toba, and push the first extinction event here back to Toba. Haplogroups with extinction event notes by them have a dubious origin and this is because extinction events lead to severe bottlenecks, so all notes by these groups are just guesses. Note that the SNP counting of ancient DNA can be highly variable meaning that even though all these groups diverged around the same time no one knows when.
+
+mtDNA

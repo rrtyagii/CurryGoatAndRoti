@@ -1,0 +1,146 @@
+The Speech Application Programming Interface or SAPI is an API developed by Microsoft to allow the use of speech recognition and speech synthesis within Windows applications. To date, a number of versions of the API have been released, which have shipped either as part of a Speech SDK or as part of the Windows OS itself. Applications that use SAPI include Microsoft Office, Microsoft Agent and Microsoft Speech Server.
+In general, all versions of the API have been designed such that a software developer can write an application to perform speech recognition and synthesis by using a standard set of interfaces, accessible from a variety of programming languages. In addition, it is possible for a 3rd-party company to produce their own Speech Recognition and Text-To-Speech engines or adapt existing engines to work with SAPI. In principle, as long as these engines conform to the defined interfaces they can be used instead of the Microsoft-supplied engines.
+In general, the Speech API is a freely redistributable component which can be shipped with any Windows application that wishes to use speech technology. Many versions (although not all) of the speech recognition and synthesis engines are also freely redistributable.
+There have been two main 'families' of the Microsoft Speech API. SAPI versions 1 through 4 are all similar to each other, with extra features in each newer version. SAPI 5, however, was a completely new interface, released in 2000. Since then several sub-versions of this API have been released.
+
+Basic architecture
+The Speech API can be viewed as an interface or piece of middleware which sits between applications and speech engines (recognition and synthesis). In SAPI versions 1 to 4, applications could directly communicate with engines. The API included an abstract interface definition which applications and engines conformed to. Applications could also use simplified higher-level objects rather than directly call methods on the engines.
+In SAPI 5 however, applications and engines do not directly communicate with each other. Instead, each talks to a runtime component (sapi.dll). There is an API implemented by this component which applications use, and another set of interfaces for engines.
+Typically in SAPI 5 applications issue calls through the API (for example to load a recognition grammar; start recognition; or provide text to be synthesized). The sapi.dll runtime component interprets these commands and processes them, where necessary calling on the engine through the engine interfaces (for example, the loading of grammar from a file is done in the runtime, but then the grammar data is passed to the recognition engine to actually use in recognition). The recognition and synthesis engines also generate events while processing (for example, to indicate an utterance has been recognized or to indicate word boundaries in the synthesized speech). These pass in the reverse direction, from the engines, through the runtime DLL, and on to an event sink in the application.
+In addition to the actual API definition and runtime DLL, other components are shipped with all versions of SAPI to make a complete Speech Software Development Kit. The following components are among those included in most versions of the Speech SDK:
+
+API definition files - in MIDL and as C or C++ header files.
+Runtime components - e.g. sapi.dll.
+Control Panel applet - to select and configure default speech recognizer and synthesizer.
+Text-To-Speech engines in multiple languages.
+Speech Recognition engines in multiple languages.
+Redistributable components to allow developers to package the engines and runtime with their application code to produce a single installable application.
+Sample application code.
+Sample engines - implementations of the necessary engine interfaces but with no true speech processing which could be used as a sample for those porting an engine to SAPI.
+Documentation.
+
+Versions
+Xuedong Huang was a key person who led Microsoft's early SAPI efforts.
+
+SAPI 1-4 API family
+SAPI 1
+The first version of SAPI was released in 1995, and was supported on Windows 95 and Windows NT 3.51. This version included low-level Direct Speech Recognition and Direct Text To Speech APIs which applications could use to directly control engines, as well as simplified 'higher-level' Voice Command and Voice Talk APIs.
+
+SAPI 3
+SAPI 3.0 was released in 1997.  It added limited support for dictation speech recognition (discrete speech, not continuous), and additional sample applications and audio sources.
+
+SAPI 4
+SAPI 4.0 was released in 1998. This version of SAPI included both the core COM API; together with C++ wrapper classes to make programming from C++ easier; and ActiveX controls to allow drag-and-drop Visual Basic development. This was shipped as part of an SDK that included recognition and synthesis engines. It also shipped (with synthesis engines only) in Windows 2000.
+The main components of the SAPI 4 API (which were all available in C++, COM, and ActiveX flavors) were:
+
+Voice Command - high-level objects for command & control speech recognition
+Voice Dictation - high-level objects for continuous dictation speech recognition
+Voice Talk - high-level objects for speech synthesis
+Voice Telephony - objects for writing telephone speech applications
+Direct Speech Recognition - objects for direct control of recognition engine
+Direct Text To Speech - objects for direct control of synthesis engine
+Audio objects - for reading to and from an audio device or file
+
+SAPI 5 API family
+The Speech SDK version 5.0, incorporating the SAPI 5.0 runtime was released in 2000. This was a complete redesign from previous versions and neither engines nor applications which used older versions of SAPI could use the new version without considerable modification.
+The design of the new API included the concept of strictly separating the application and engine so all calls were routed through the runtime sapi.dll. This change was intended to make the API more 'engine-independent', preventing applications from inadvertently depending on features of a specific engine. In addition, this change was aimed at making it much easier to incorporate speech technology into an application by moving some management and initialization code into the runtime.
+The new API was initially a pure COM API and could be used easily only from C/C++. Support for VB and scripting languages were added later. Operating systems from Windows 98 and NT 4.0 upwards were supported.
+Major features of the API include:
+
+Shared Recognizer. For desktop speech recognition applications, a recognizer object can be used that runs in a separate process (sapisvr.exe). All applications using the shared recognizer communicate with this single instance. This allows sharing of resources, removes contention for the microphone and allows for a global UI for control of all speech applications.
+In-proc recognizer. For applications that require explicit control of the recognition process, the in-proc recognizer object can be used instead of the shared one.
+Grammar objects. Speech grammars are used to specify the words that the recognizer is listening for. SAPI 5 defines an XML markup for specifying a grammar, as well as mechanisms to create them dynamically in code. Methods also exist for instructing the recognizer to load a built-in dictation language model.
+Voice object. This performs speech synthesis, producing an audio stream from a text. A markup language (similar to XML, but not strictly XML) can be used for controlling the synthesis process.
+Audio interfaces. The runtime includes objects for performing speech input from the microphone or speech output to speakers (or any sound device); as well as to and from wave files. It is also possible to write a custom audio object to stream audio to or from a non-standard location.
+User lexicon object. This allows custom words and pronunciations to be added by a user or application. These are added to the recognition or synthesis engine's built-in lexicons.
+Object tokens. This is a concept allowing recognition and TTS engines, audio objects, lexicons and other categories of an object to be registered, enumerated and instantiated in a common way.
+
+SAPI 5.0
+This version shipped in late 2000 as part of the Speech SDK version 5.0, together with version 5.0 recognition and synthesis engines. The recognition engines supported continuous dictation and command & control and were released in U.S. English, Japanese and Simplified Chinese versions. In the U.S. English system, special acoustic models were available for children's speech and telephony speech. The synthesis engine was available in English and Chinese. This version of the API and recognition engines also shipped in Microsoft Office XP in 2001.
+
+SAPI 5.1
+This version shipped in late 2001 as part of the Speech SDK version 5.1. Automation-compliant interfaces were added to the API to allow use from Visual Basic, scripting languages such as JScript, and managed code. This version of the API and TTS engines were shipped in Windows XP. Windows XP Tablet PC Edition and Office 2003 also include this version but with a substantially improved version 6 recognition engine and Traditional Chinese.
+
+SAPI 5.2
+This was a special version of the API for use only in the Microsoft Speech Server which shipped in 2004. It added support for SRGS and SSML mark-up languages, as well as additional server features and performance improvements. The Speech Server also shipped with the version 6 desktop recognition engine and the version 7 server recognition engine.
+
+SAPI 5.3
+This is the version of the API that ships in Windows Vista together with new recognition and synthesis engines. As Windows Speech Recognition is now integrated into the operating system, the Speech SDK and APIs are a part of the Windows SDK. SAPI 5.3 includes the following new features:
+
+Support for W3C XML speech grammars for recognition and synthesis. The Speech Synthesis Markup Language (SSML) version 1.0 provides the ability to mark up voice characteristics, speed, volume, pitch, emphasis, and pronunciation.
+The Speech Recognition Grammar Specification (SRGS) supports the definition of context-free grammars, with two limitations:
+It does not support the use of SRGS to specify dual-tone modulated-frequency (touch-tone) grammars.
+It does not support Augmented Backus–Naur form (ABNF).
+Support for semantic interpretation script within grammars. SAPI 5.3 enables an SRGS grammar to be annotated with JavaScript for semantic interpretation to supplement the recognized text.
+User-Specified shortcuts in lexicons, which is the ability to add a string to the lexicon and associate it with a shortcut word. When dictating, the user can say the shortcut word and the recognizer will return the expanded string.
+Additional functionality and ease-of-programming provided by new types.
+Performance improvements, improved reliability, and security.
+Version 8 of the speech recognition engine ("Microsoft Speech Recognizer")
+
+SAPI 5.4
+This is an updated version of the API that ships in Windows 7.
+
+SAPI 5 Voices
+Microsoft Sam is a commonly shipped SAPI 5 voice. In addition, Microsoft Office XP and Office 2003 installed L&H Michael and Michelle voices. The SAPI 5.1 SDK installs 3 more voices, Mike, Mary, and an additional testing voice known as Sample TTS Voice that uses prerecorded voice recordings instead of synthesized voices. Windows Vista and 7 includes Microsoft Anna which replaces Microsoft Sam and sounds more natural and intelligible; it is also installed on Windows XP by Microsoft Streets & Trips 2006 and later versions. The Chinese version of Vista and 7 also includes a female voice named Microsoft Lili. Windows 8 and later Windows client versions includes Microsoft David, Zira, and Hazel, the latter of which is only included by default on Windows 8 and 8.1. These voices replaced Microsoft Anna and sounds more natural and intelligible than previous voices.
+
+Managed code Speech API
+A managed code API ships as part of the .NET Framework 3.0. It has similar functionality to SAPI 5 but is more suitable to be used by managed code applications. The new API is available on Windows XP, Windows Server 2003, Windows Vista, and Windows Server 2008.
+The existing SAPI 5 API can also be used from managed code to a limited extent by creating a COM Interop code (helper code designed to assist in accessing COM interfaces and classes). This works well in some scenarios however the new API should provide a more seamless experience equivalent to using any other managed code library.
+However, major obstacle towards transitioning from the COM Interop is the fact that the managed implementation has subtle memory leaks which lead to memory fragmentation and exclude the use of the library in any non-trivial applications. As a workaround, Microsoft has suggested using a different API, which has fewer voices.
+
+Speech functionality in Windows Vista
+Windows Vista includes a number of new speech-related features including:
+
+Speech control of the full Windows GUI and applications
+New tutorial, microphone wizard, and UI for controlling speech recognition
+New version of the Speech API runtime: SAPI 5.3
+Built-in updated Speech Recognition engine (Version 8)
+New Speech Synthesis engine and SAPI voice Microsoft Anna
+Managed code speech API (codenamed SpeechFX)
+Speech recognition support for 8 languages at release time: U.S. English, U.K. English, traditional Chinese, simplified Chinese, Japanese, Spanish, French, and German, with more language to be released later.
+Microsoft Agent most notably, and all other Microsoft speech applications use SAPI 5.
+
+Compatibility
+The Speech API is compatible with the following operating systems:
+
+SAPI 5
+List as of SAPI version 5.1:
+
+Microsoft Windows Server 2003
+Microsoft Windows XP (Home Edition, Professional, etc.)
+Microsoft Windows Millennium Edition
+Microsoft Windows 2000
+Microsoft Windows 98
+Microsoft Windows NT 4.0, Service Pack 6a, in English, Japanese and Simplified Chinese.
+Later versions of SAPI 5 (e.g. SAPI 5.3 and above) are compatible with the following operating systems:
+
+Microsoft Windows Server releases from 2008 up to 2025
+Microsoft Windows 11
+Microsoft Windows 10
+Microsoft Windows 8.1
+Microsoft Windows 8
+Microsoft Windows 7
+Microsoft Windows Vista
+
+SAPI 4
+Microsoft Windows Server 2003 and later
+Microsoft Windows XP and later
+Microsoft Windows Millennium Edition
+Microsoft Windows 2000
+Microsoft Windows 98
+Microsoft Windows NT 4.0
+Microsoft Windows 95
+
+Major applications using SAPI
+Microsoft Windows XP Tablet PC Edition includes SAPI 5.1 and speech recognition engines 6.1 for English, Japanese, and Chinese (simplified and traditional)
+Windows Speech Recognition in Windows Vista and later
+Microsoft Narrator in Windows 2000 and later Windows operating systems
+Microsoft Office XP and Office 2003
+Microsoft Excel 2002, Microsoft Excel 2003, and Microsoft Excel 2007 for speaking spreadsheet data
+Microsoft Voice Command for Windows Pocket PC and Windows Mobile
+Microsoft Plus! Voice Command for Windows Media Player
+Adobe Reader uses voice output to read document content
+CoolSpeech, a text-to-speech application that reads text aloud from a variety of sources
+Window-Eyes screen reader
+JAWS screen reader
+NonVisual Desktop Access (NVDA), a free and open source screen reader

@@ -1,0 +1,1581 @@
+In boolean logic, a disjunctive normal form (DNF) is a normal form of a logical formula consisting of a disjunction of conjunctions; it can also be described as an OR of ANDs, a sum of products, or — in philosophical logic — a cluster concept. The disjunctive normal form and its counterpart, the conjunctive normal form, are the most common standardized ways of representing boolean expressions. They are widely used in various applications such as circuit design or automated theorem proving.
+
+Definition
+A logical formula is considered to be in DNF if it is a disjunction of one or more conjunctions of one or more literals. A DNF formula is in full disjunctive normal form if each of its variables appears exactly once in every conjunction and each conjunction appears at most once (up to the order of variables). As in conjunctive normal form (CNF), the only propositional operators in DNF are and (
+
+
+
+        ∧
+
+
+    {\displaystyle \wedge }
+
+), or (
+
+
+
+        ∨
+
+
+    {\displaystyle \vee }
+
+), and not (
+
+
+
+        ¬
+
+
+    {\displaystyle \neg }
+
+). The not operator can only be used as part of a literal, which means that it can only precede a propositional variable.
+The following is a context-free grammar for DNF:
+
+DNF
+
+
+
+
+        →
+
+
+
+    {\displaystyle \,\to \,}
+
+ (Disjunct)
+
+
+
+
+        ∣
+
+
+
+    {\displaystyle \,\mid \,}
+
+ (Disjunct)
+
+
+
+
+        ∨
+
+
+
+    {\displaystyle \,\lor \,}
+
+ DNF
+Disjunct
+
+
+
+
+        →
+
+
+
+    {\displaystyle \,\to \,}
+
+ Literal
+
+
+
+
+        ∣
+
+
+
+    {\displaystyle \,\mid \,}
+
+ Literal
+
+
+
+
+        ∧
+
+
+
+    {\displaystyle \,\land \,}
+
+ Disjunct
+Literal
+
+
+
+
+        →
+
+
+
+    {\displaystyle \,\to \,}
+
+ Variable
+
+
+
+
+        ∣
+
+
+
+    {\displaystyle \,\mid \,}
+
+
+
+
+
+
+        ¬
+
+
+
+    {\displaystyle \,\neg \,}
+
+ Variable
+Where Variable is any variable.
+For example, all of the following formulas are in DNF:
+
+
+
+
+        (
+        A
+        ∧
+        ¬
+        B
+        ∧
+        ¬
+        C
+        )
+        ∨
+        (
+        ¬
+        D
+        ∧
+        E
+        ∧
+        F
+        ∧
+        D
+        ∧
+        F
+        )
+
+
+    {\displaystyle (A\land \neg B\land \neg C)\lor (\neg D\land E\land F\land D\land F)}
+
+
+
+
+
+        (
+        A
+        ∧
+        B
+        )
+        ∨
+        (
+        C
+        )
+
+
+    {\displaystyle (A\land B)\lor (C)}
+
+
+
+
+
+        (
+        A
+        ∧
+        B
+        )
+
+
+    {\displaystyle (A\land B)}
+
+
+
+
+
+        (
+        A
+        )
+
+
+    {\displaystyle (A)}
+
+
+The formula
+
+
+
+        A
+        ∨
+        B
+
+
+    {\displaystyle A\lor B}
+
+ is in DNF, but not in full DNF; an equivalent full-DNF version is
+
+
+
+        (
+        A
+        ∧
+        B
+        )
+        ∨
+        (
+        A
+        ∧
+        ¬
+        B
+        )
+        ∨
+        (
+        ¬
+        A
+        ∧
+        B
+        )
+
+
+    {\displaystyle (A\land B)\lor (A\land \lnot B)\lor (\lnot A\land B)}
+
+.
+The following formulas are not in DNF:
+
+
+
+
+        ¬
+        (
+        A
+        ∨
+        B
+        )
+
+
+    {\displaystyle \neg (A\lor B)}
+
+, since an OR is nested within a NOT
+
+
+
+
+        ¬
+        (
+        A
+        ∧
+        B
+        )
+        ∨
+        C
+
+
+    {\displaystyle \neg (A\land B)\lor C}
+
+, since an AND is nested within a NOT
+
+
+
+
+        A
+        ∨
+        (
+        B
+        ∧
+        (
+        C
+        ∨
+        D
+        )
+        )
+
+
+    {\displaystyle A\lor (B\land (C\lor D))}
+
+, since an OR is nested within an AND
+
+Conversion to DNF
+In classical logic each propositional formula can be converted to DNF ...
+
+... by syntactic means
+The conversion involves using logical equivalences, such as double negation elimination, De Morgan's laws, and the distributive law. Formulas built from the primitive connectives
+
+
+
+        {
+        ∧
+        ,
+        ∨
+        ,
+        ¬
+        }
+
+
+    {\displaystyle \{\land ,\lor ,\lnot \}}
+
+ can be converted to DNF by the following canonical term rewriting system:
+
+
+
+
+
+
+
+
+                (
+                ¬
+                ¬
+                x
+                )
+
+
+                ⇝
+
+
+                x
+
+
+
+
+                (
+                ¬
+                (
+                x
+                ∨
+                y
+                )
+                )
+
+
+                ⇝
+
+
+                (
+                (
+                ¬
+                x
+                )
+                ∧
+                (
+                ¬
+                y
+                )
+                )
+
+
+
+
+                (
+                ¬
+                (
+                x
+                ∧
+                y
+                )
+                )
+
+
+                ⇝
+
+
+                (
+                (
+                ¬
+                x
+                )
+                ∨
+                (
+                ¬
+                y
+                )
+                )
+
+
+
+
+                (
+                x
+                ∧
+                (
+                y
+                ∨
+                z
+                )
+                )
+
+
+                ⇝
+
+
+                (
+                (
+                x
+                ∧
+                y
+                )
+                ∨
+                (
+                x
+                ∧
+                z
+                )
+                )
+
+
+
+
+                (
+                (
+                x
+                ∨
+                y
+                )
+                ∧
+                z
+                )
+
+
+                ⇝
+
+
+                (
+                (
+                x
+                ∧
+                z
+                )
+                ∨
+                (
+                y
+                ∧
+                z
+                )
+                )
+
+
+
+
+
+
+    {\displaystyle {\begin{array}{rcl}(\lnot \lnot x)&\rightsquigarrow &x\\(\lnot (x\lor y))&\rightsquigarrow &((\lnot x)\land (\lnot y))\\(\lnot (x\land y))&\rightsquigarrow &((\lnot x)\lor (\lnot y))\\(x\land (y\lor z))&\rightsquigarrow &((x\land y)\lor (x\land z))\\((x\lor y)\land z)&\rightsquigarrow &((x\land z)\lor (y\land z))\\\end{array}}}
+
+... by semantic means
+The full DNF of a formula can be read off its truth table. For example, consider the formula
+
+
+
+
+        ϕ
+        =
+        (
+        (
+        ¬
+        (
+        p
+        ∧
+        q
+        )
+        )
+        ↔
+        (
+        ¬
+        r
+        ↑
+        (
+        p
+        ⊕
+        q
+        )
+        )
+        )
+
+
+    {\displaystyle \phi =((\lnot (p\land q))\leftrightarrow (\lnot r\uparrow (p\oplus q)))}
+
+.
+The corresponding truth table is
+
+The full DNF equivalent of
+
+
+
+        ϕ
+
+
+    {\displaystyle \phi }
+
+ is
+
+
+
+
+        (
+        p
+        ∧
+        ¬
+        q
+        ∧
+        r
+        )
+        ∨
+        (
+        ¬
+        p
+        ∧
+        q
+        ∧
+        r
+        )
+        ∨
+        (
+        ¬
+        p
+        ∧
+        ¬
+        q
+        ∧
+        r
+        )
+        ∨
+        (
+        ¬
+        p
+        ∧
+        ¬
+        q
+        ∧
+        ¬
+        r
+        )
+
+
+    {\displaystyle (p\land \lnot q\land r)\lor (\lnot p\land q\land r)\lor (\lnot p\land \lnot q\land r)\lor (\lnot p\land \lnot q\land \lnot r)}
+
+
+The full DNF equivalent of
+
+
+
+        ¬
+        ϕ
+
+
+    {\displaystyle \lnot \phi }
+
+ is
+
+
+
+
+        (
+        p
+        ∧
+        q
+        ∧
+        r
+        )
+        ∨
+        (
+        p
+        ∧
+        q
+        ∧
+        ¬
+        r
+        )
+        ∨
+        (
+        p
+        ∧
+        ¬
+        q
+        ∧
+        ¬
+        r
+        )
+        ∨
+        (
+        ¬
+        p
+        ∧
+        q
+        ∧
+        ¬
+        r
+        )
+
+
+    {\displaystyle (p\land q\land r)\lor (p\land q\land \lnot r)\lor (p\land \lnot q\land \lnot r)\lor (\lnot p\land q\land \lnot r)}
+
+Remark
+A propositional formula can be represented by one and only one full DNF. In contrast, several plain DNFs may be possible. For example, by applying the rule
+
+
+
+        (
+        (
+        a
+        ∧
+        b
+        )
+        ∨
+        (
+        ¬
+        a
+        ∧
+        b
+        )
+        )
+        ⇝
+        b
+
+
+    {\displaystyle ((a\land b)\lor (\lnot a\land b))\rightsquigarrow b}
+
+ three times, the full DNF of the above
+
+
+
+        ϕ
+
+
+    {\displaystyle \phi }
+
+ can be simplified to
+
+
+
+        (
+        ¬
+        p
+        ∧
+        ¬
+        q
+        )
+        ∨
+        (
+        ¬
+        p
+        ∧
+        r
+        )
+        ∨
+        (
+        ¬
+        q
+        ∧
+        r
+        )
+
+
+    {\displaystyle (\lnot p\land \lnot q)\lor (\lnot p\land r)\lor (\lnot q\land r)}
+
+. However, there are also equivalent DNF formulas that cannot be transformed one into another by this rule, see the pictures for an example.
+
+Disjunctive Normal Form Theorem
+It is a theorem that all consistent formulas in propositional logic can be converted to disjunctive normal form. This is called the Disjunctive Normal Form Theorem. The formal statement is as follows:Disjunctive Normal Form Theorem: Suppose
+
+
+
+        X
+
+
+    {\displaystyle X}
+
+ is a sentence in a propositional language
+
+
+
+
+
+            L
+
+
+
+
+    {\displaystyle {\mathcal {L}}}
+
+ with
+
+
+
+        n
+
+
+    {\displaystyle n}
+
+ sentence letters, which we shall denote by
+
+
+
+
+          A
+
+            1
+
+
+        ,
+        .
+        .
+        .
+        ,
+
+          A
+
+            n
+
+
+
+
+    {\displaystyle A_{1},...,A_{n}}
+
+. If
+
+
+
+        X
+
+
+    {\displaystyle X}
+
+ is not a contradiction, then it is truth-functionally equivalent to a disjunction of conjunctions of the form
+
+
+
+        ±
+
+          A
+
+            1
+
+
+        ∧
+        .
+        .
+        .
+        ∧
+        ±
+
+          A
+
+            n
+
+
+
+
+    {\displaystyle \pm A_{1}\land ...\land \pm A_{n}}
+
+, where
+
+
+
+        +
+
+          A
+
+            i
+
+
+        =
+
+          A
+
+            i
+
+
+
+
+    {\displaystyle +A_{i}=A_{i}}
+
+, and
+
+
+
+        −
+
+          A
+
+            i
+
+
+        =
+        ¬
+
+          A
+
+            i
+
+
+
+
+    {\displaystyle -A_{i}=\neg A_{i}}
+
+.The proof follows from the procedure given above for generating DNFs from truth tables. Formally, the proof is as follows:Suppose
+
+
+
+        X
+
+
+    {\displaystyle X}
+
+ is a sentence in a propositional language whose sentence letters are
+
+
+
+        A
+        ,
+        B
+        ,
+        C
+        ,
+        …
+
+
+    {\displaystyle A,B,C,\ldots }
+
+. For each row of
+
+
+
+        X
+
+
+    {\displaystyle X}
+
+'s truth table, write out a corresponding conjunction
+
+
+
+        ±
+        A
+        ∧
+        ±
+        B
+        ∧
+        ±
+        C
+        ∧
+        …
+
+
+    {\displaystyle \pm A\land \pm B\land \pm C\land \ldots }
+
+, where
+
+
+
+        ±
+        A
+
+
+    {\displaystyle \pm A}
+
+ is defined to be
+
+
+
+        A
+
+
+    {\displaystyle A}
+
+ if
+
+
+
+        A
+
+
+    {\displaystyle A}
+
+ takes the value
+
+
+
+        T
+
+
+    {\displaystyle T}
+
+ at that row, and is
+
+
+
+        ¬
+        A
+
+
+    {\displaystyle \neg A}
+
+ if
+
+
+
+        A
+
+
+    {\displaystyle A}
+
+ takes the value
+
+
+
+        F
+
+
+    {\displaystyle F}
+
+ at that row; similarly for
+
+
+
+        ±
+        B
+
+
+    {\displaystyle \pm B}
+
+,
+
+
+
+        ±
+        C
+
+
+    {\displaystyle \pm C}
+
+, etc. (the alphabetical ordering of
+
+
+
+        A
+        ,
+        B
+        ,
+        C
+        ,
+        …
+
+
+    {\displaystyle A,B,C,\ldots }
+
+ in the conjunctions is quite arbitrary; any other could be chosen instead). Now form the disjunction of all these conjunctions which correspond to
+
+
+
+        T
+
+
+    {\displaystyle T}
+
+ rows of
+
+
+
+        X
+
+
+    {\displaystyle X}
+
+'s truth table. This disjunction is a sentence in
+
+
+
+
+
+            L
+
+
+        [
+        A
+        ,
+        B
+        ,
+        C
+        ,
+        …
+        ;
+        ∧
+        ,
+        ∨
+        ,
+        ¬
+        ]
+
+
+    {\displaystyle {\mathcal {L}}[A,B,C,\ldots ;\land ,\lor ,\neg ]}
+
+, which by the reasoning above is truth-functionally equivalent to
+
+
+
+        X
+
+
+    {\displaystyle X}
+
+. This construction obviously presupposes that
+
+
+
+        X
+
+
+    {\displaystyle X}
+
+ takes the value
+
+
+
+        T
+
+
+    {\displaystyle T}
+
+ on at least one row of its truth table; if
+
+
+
+        X
+
+
+    {\displaystyle X}
+
+ doesn’t, i.e., if
+
+
+
+        X
+
+
+    {\displaystyle X}
+
+ is a contradiction, then
+
+
+
+        X
+
+
+    {\displaystyle X}
+
+ is equivalent to
+
+
+
+        A
+        ∧
+        ¬
+        A
+
+
+    {\displaystyle A\land \neg A}
+
+, which is, of course, also a sentence in
+
+
+
+
+
+            L
+
+
+        [
+        A
+        ,
+        B
+        ,
+        C
+        ,
+        …
+        ;
+        ∧
+        ,
+        ∨
+        ,
+        ¬
+        ]
+
+
+    {\displaystyle {\mathcal {L}}[A,B,C,\ldots ;\land ,\lor ,\neg ]}
+
+.This theorem is a convenient way to derive many useful metalogical results in propositional logic, such as, trivially, the result that the set of connectives
+
+
+
+        {
+        ∧
+        ,
+        ∨
+        ,
+        ¬
+        }
+
+
+    {\displaystyle \{\land ,\lor ,\neg \}}
+
+ is functionally complete.
+
+Maximum number of conjunctions
+Any propositional formula is built from
+
+
+
+        n
+
+
+    {\displaystyle n}
+
+ variables, where
+
+
+
+        n
+        ≥
+        1
+
+
+    {\displaystyle n\geq 1}
+
+.
+There are
+
+
+
+        2
+        n
+
+
+    {\displaystyle 2n}
+
+ possible literals:
+
+
+
+        L
+        =
+        {
+
+          p
+
+            1
+
+
+        ,
+        ¬
+
+          p
+
+            1
+
+
+        ,
+
+          p
+
+            2
+
+
+        ,
+        ¬
+
+          p
+
+            2
+
+
+        ,
+        …
+        ,
+
+          p
+
+            n
+
+
+        ,
+        ¬
+
+          p
+
+            n
+
+
+        }
+
+
+    {\displaystyle L=\{p_{1},\lnot p_{1},p_{2},\lnot p_{2},\ldots ,p_{n},\lnot p_{n}\}}
+
+.
+
+
+
+
+        L
+
+
+    {\displaystyle L}
+
+ has
+
+
+
+        (
+
+          2
+
+            2
+            n
+
+
+        −
+        1
+        )
+
+
+    {\displaystyle (2^{2n}-1)}
+
+ non-empty subsets.
+This is the maximum number of conjunctions a DNF can have.
+A full DNF can have up to
+
+
+
+
+          2
+
+            n
+
+
+
+
+    {\displaystyle 2^{n}}
+
+ conjunctions, one for each row of the truth table.
+Example 1
+Consider a formula with two variables
+
+
+
+        p
+
+
+    {\displaystyle p}
+
+ and
+
+
+
+        q
+
+
+    {\displaystyle q}
+
+.
+The longest possible DNF has
+
+
+
+
+          2
+
+            (
+            2
+            ×
+            2
+            )
+
+
+        −
+        1
+        =
+        15
+
+
+    {\displaystyle 2^{(2\times 2)}-1=15}
+
+ conjunctions:
+
+
+
+
+
+
+
+
+                (
+                ¬
+                p
+                )
+                ∨
+                (
+                p
+                )
+                ∨
+                (
+                ¬
+                q
+                )
+                ∨
+                (
+                q
+                )
+                ∨
+
+
+
+
+                (
+                ¬
+                p
+                ∧
+                p
+                )
+                ∨
+
+
+
+                      (
+                      ¬
+                      p
+                      ∧
+                      ¬
+                      q
+                      )
+
+                    _
+
+
+                ∨
+
+
+
+                      (
+                      ¬
+                      p
+                      ∧
+                      q
+                      )
+
+                    _
+
+
+                ∨
+
+
+
+                      (
+                      p
+                      ∧
+                      ¬
+                      q
+                      )
+
+                    _
+
+
+                ∨
+
+
+
+                      (
+                      p
+                      ∧
+                      q
+                      )
+
+                    _
+
+
+                ∨
+                (
+                ¬
+                q
+                ∧
+                q
+                )
+                ∨
+
+
+
+
+                (
+                ¬
+                p
+                ∧
+                p
+                ∧
+                ¬
+                q
+                )
+                ∨
+                (
+                ¬
+                p
+                ∧
+                p
+                ∧
+                q
+                )
+                ∨
+                (
+                ¬
+                p
+                ∧
+                ¬
+                q
+                ∧
+                q
+                )
+                ∨
+                (
+                p
+                ∧
+                ¬
+                q
+                ∧
+                q
+                )
+                ∨
+
+
+
+
+                (
+                ¬
+                p
+                ∧
+                p
+                ∧
+                ¬
+                q
+                ∧
+                q
+                )
+
+
+
+
+
+
+    {\displaystyle {\begin{array}{lcl}(\lnot p)\lor (p)\lor (\lnot q)\lor (q)\lor \\(\lnot p\land p)\lor {\underline {(\lnot p\land \lnot q)}}\lor {\underline {(\lnot p\land q)}}\lor {\underline {(p\land \lnot q)}}\lor {\underline {(p\land q)}}\lor (\lnot q\land q)\lor \\(\lnot p\land p\land \lnot q)\lor (\lnot p\land p\land q)\lor (\lnot p\land \lnot q\land q)\lor (p\land \lnot q\land q)\lor \\(\lnot p\land p\land \lnot q\land q)\end{array}}}
+
+
+The longest possible full DNF has 4 conjunctions: they are underlined.
+This formula is a tautology. It can be simplified to
+
+
+
+        (
+        ¬
+        p
+        ∨
+        p
+        )
+
+
+    {\displaystyle (\neg p\lor p)}
+
+ or to
+
+
+
+        (
+        ¬
+        q
+        ∨
+        q
+        )
+
+
+    {\displaystyle (\neg q\lor q)}
+
+, which are also tautologies, as well as valid DNFs.
+Example 2
+Each DNF of the e.g. formula
+
+
+
+        (
+
+          X
+
+            1
+
+
+        ∨
+
+          Y
+
+            1
+
+
+        )
+        ∧
+        (
+
+          X
+
+            2
+
+
+        ∨
+
+          Y
+
+            2
+
+
+        )
+        ∧
+        ⋯
+        ∧
+        (
+
+          X
+
+            n
+
+
+        ∨
+
+          Y
+
+            n
+
+
+        )
+
+
+    {\displaystyle (X_{1}\lor Y_{1})\land (X_{2}\lor Y_{2})\land \dots \land (X_{n}\lor Y_{n})}
+
+ has
+
+
+
+
+          2
+
+            n
+
+
+
+
+    {\displaystyle 2^{n}}
+
+ conjunctions.
+
+Computational complexity
+The Boolean satisfiability problem on conjunctive normal form formulas is NP-complete. By the duality principle, so is the falsifiability problem on DNF formulas. Therefore, it is co-NP-hard to decide if a DNF formula is a tautology.
+Conversely, a DNF formula is satisfiable if, and only if, one of its conjunctions is satisfiable. This can be decided in polynomial time simply by checking that at least one conjunction does not contain conflicting literals.
+
+Variants
+An important variation used in the study of computational complexity is k-DNF. A formula is in k-DNF if it is in DNF and each conjunction contains at most k literals.

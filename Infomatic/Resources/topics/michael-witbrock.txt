@@ -1,0 +1,36 @@
+Michael John Witbrock is a computer scientist in the field of artificial intelligence. Witbrock is a native of New Zealand and is the former vice president of Research at Cycorp, which is carrying out the Cyc project in an effort to produce a genuine artificial intelligence.
+
+Background and affiliations
+Witbrock was born in Christchurch, New Zealand, and has a Ph.D. in computer science from Carnegie Mellon University. Before joining Cycorp, he was a principal scientist at Terra Lycos, working on integrating statistical and knowledge-based approaches to understanding Web user behavior; he has also been associated with Just Systems Pittsburgh Research Center and the Informedia Digital Library at Carnegie Mellon.
+In 2016, Witbrock joined and led the Reasoning Lab at IBM Watson.
+In 2019, Witbrock was recruited by the government and returned to his home country to establish and lead AI research initiatives in New Zealand
+
+Research topics
+Witbrock's dissertation work was on speaker modeling; before going to Cycorp, he published in a broad range of areas, including:
+
+Neural networks
+Multimedia information retrieval
+Natural language understanding
+Genetic design
+Computational linguistics
+Speech recognition
+Web-browser design
+His work at Cycorp has focused on improving its knowledge formation efforts, particularly dialogue processing, machine reasoning, and on improving accessibility to the Cyc project.
+At the University of Auckland, Witbrock's research spans natural language processing, multi-hop reasoning, causal inference, graph neural networks, focusing on advancing AI's interpretability, robustness, and real-world applications.
+
+Selected publications
+Witbrock, Michael J., Srinivas, K., Thost, V., et al. "A Deep Reinforcement Learning Approach to First-Order Logic Theorem Proving," in Proceedings of the AAAI Conference on Artificial Intelligence, 2021.
+Witbrock, Michael J., Deng, Z., Chen, Y., Amor, R. "Robust Node Classification on Graph Data with Graph and Label Noise," in Proceedings of the AAAI Conference on Artificial Intelligence, 2024.
+Witbrock, Michael J., Gendron, G., Bao, Q., Dobbie, G. "Large Language Models Are Not Strong Abstract Reasoners Yet," arXiv preprint, 2023.
+Witbrock, Michael, Baxter, David, Curtis, Jon, et al. "An Interactive Dialogue System for Knowledge Acquisition in Cyc," in Proceedings of the IJCAI-2003 Workshop on Mixed-Initiative Intelligent Systems, Acapulco, Aug 9, 2003.
+O’Hara, Tom, Witbrock, Michael, Aldag, Bjorn, Bertolo, Stefano, Salay, Nancy, Curtis, Jon, and Panton, Kathy. "Inducing Criteria of Lexicalization of Parts of Speech using the Cyc KB," in Proceedings of IJCAI-03, Acapulco August 12–15, 2003.
+Mittal, Vibhu O. and Witbrock, Michael J. "Language Modeling Experiments in Non-Extractive Summarization," Chapter 10 in Croft, W. Bruce and Lafferty, John, Language Modeling for Information Retrieval. Kluwer Academic Publishers, Dordrect, 2003.
+Banko, Michele, Mittal, Vibhu O., and Witbrock, Michael J., "Headline Generation Based on Statistical Translation," in ACL-2000, Proceedings of the 38th Annual Meeting of the Association for Computational Linguistics, Hong Kong, Oct 3-6, 2000.
+Witbrock, Michael J., and Mittal, Vibhu O., "Ultra-Summarization: A Statistical Approach to Generating Highly Condensed Non-Extractive Summaries," in SIGIR’99, Proceedings of the 22nd International Conference on Research and Development in Information Retrieval, Berkeley, CA, Aug 15-19, 1999.
+Hauptman, A., Witbrock, M., and Christel, M., "News-on-Demand: An Application of Informedia Technology," d-lib Magazine, The Magazine of the Digital Library Forum, September 1995.
+Fischer, Michael, Meyer, Michael, and Witbrock, Michael. "User Extensibility in Amiga Mosaic." Proceedings of the Second International World Wide Web Conference (WWW) '94: Mosaic and the Web, October, 1994.
+Witbrock, Michael and Zagha, Marco. "Back-Propagation Learning on the IBM GF11," Chapter in Przytula, K.W., and Prasanna Kumar, V.K. Parallel Digital Implementations of Neural Networks PTR Prentice Hall. Englewood Cliffs. 1993.
+Witbrock, Michael and Haffner, Patrick. "Rapid Connectionist Speaker Adaptation," Proceedings of the IEEE 1992 International Conference on Acoustics, Speech, and Signal Processing, March, 1992.
+
+Random art
+Together with John Mount, Witbrock is credited with genetic art, a kind of Computer-generated art.

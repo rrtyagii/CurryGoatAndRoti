@@ -1,0 +1,65 @@
+Tesla Dojo is a series of supercomputers designed and built by Tesla for computer vision video processing and recognition.  It was used for training Tesla's machine learning models to improve its Full Self-Driving (FSD) advanced driver-assistance system. According to Tesla, it went into production in July 2023.
+Dojo's goal was to efficiently process millions of terabytes of video data captured from real-life driving situations from Tesla's 4+ million cars. This goal led to a considerably different architecture than conventional supercomputer designs.
+In August 2025, Bloomberg News reported that the Dojo project had been disbanded, though it was later restarted in January 2026.
+
+History
+Tesla operates several massively parallel computing clusters for developing its Autopilot advanced driver assistance system. Its primary unnamed cluster using 5,760 Nvidia A100 graphics processing units (GPUs) was touted by Andrej Karpathy in 2021 at the fourth International Joint Conference on Computer Vision and Pattern Recognition (CCVPR 2021) to be "roughly the number five supercomputer in the world" at approximately 81.6 petaflops, based on scaling the performance of the Nvidia Selene supercomputer, which uses similar components. However, the performance of the primary Tesla GPU cluster has been disputed, as it was not clear if this was measured using single-precision or double-precision floating point numbers (FP32 or FP64). Tesla also operates a second 4,032 GPU cluster for training and a third 1,752 GPU cluster for automatic labeling of objects.
+The primary unnamed Tesla GPU cluster has been used for processing one million video clips, each ten seconds long, taken from Tesla Autopilot cameras operating in Tesla cars in the real world, running at 36 frames per second. Collectively, these video clips contained six billion object labels, with depth and velocity data; the total size of the data set was 1.5 petabytes. This data set was used for training a neural network intended to help Autopilot computers in Tesla cars understand roads. By August 2022, Tesla had upgraded the primary GPU cluster to 7,360 GPUs.
+Dojo was first mentioned by Elon Musk in April 2019 during Tesla's "Autonomy Investor Day". In August 2020, Musk stated it was "about a year away" due to power and thermal issues.
+
+Dojo was officially announced at Tesla's Artificial Intelligence (AI) Day on August 19, 2021. Tesla revealed details of the D1 chip and its plans for "Project Dojo", a datacenter that would house 3,000 D1 chips; the first "Training Tile" had been completed and delivered the week before. In October 2021, Tesla released a "Dojo Technology" whitepaper describing the Configurable Float8 (CFloat8) and Configurable Float16 (CFloat16) floating point formats and arithmetic operations as an extension of Institute of Electrical and Electronics Engineers (IEEE) standard 754.
+At the follow-up AI Day in September 2022, Tesla announced it had built several System Trays and one Cabinet. During a test, the company stated that Project Dojo drew 2.3 megawatts (MW) of power before tripping a local San Jose, California power substation. At the time, Tesla was assembling one Training Tile per day.
+In August 2023, Tesla powered on Dojo for production use as well as a new training cluster configured with 10,000 Nvidia H100 GPUs.
+In January 2024, Musk described Dojo as "a long shot worth taking because the payoff is potentially very high. But it's not something that is a high probability."
+In June 2024, Musk explained that ongoing construction work at Gigafactory Texas is for a computing cluster claiming that it is planned to comprise an even mix of "Tesla AI" and Nvidia/other hardware with a total thermal design power of at first 130 MW and eventually exceeding 500 MW.
+In August 2025, Bloomberg News reported that the Dojo project was disbanded, though Musk announced it would be restarted in January 2026 with a new chip iteration.
+
+Technical architecture
+The fundamental unit of the Dojo supercomputer is the D1 chip, designed by a team at Tesla led by ex-AMD CPU designer Ganesh Venkataramanan, including Emil Talpes, Debjit Das Sarma, Douglas Williams, Bill Chang, and Rajiv Kurian.
+The D1 chip is manufactured by the Taiwan Semiconductor Manufacturing Company (TSMC) using 7 nanometer (nm) semiconductor nodes, has 50 billion transistors and a large die size of 645 mm2 (1.0 square inch).
+Updating at Artificial Intelligence (AI) Day in 2022, Tesla announced that Dojo would scale by deploying multiple ExaPODs, in which there would be:
+
+10 Cabinets per ExaPOD (1,062,000 cores, 3,000 D1 chips)
+2 System Trays per Cabinet (106,200 cores, 300 D1 chips)
+6 Training Tiles per System Tray (53,100 cores, along with host interface hardware)
+25 D1 chips per Training Tile (8,850 cores)
+354 computing cores per D1 chip
+
+According to Venkataramanan, Tesla's senior director of Autopilot hardware, Dojo will have more than an exaflop (a million teraflops) of computing power. For comparison, according to Nvidia, in August 2021, the (pre-Dojo) Tesla AI-training center used 720 nodes, each with eight Nvidia A100 Tensor Core GPUs for 5,760 GPUs in total, providing up to 1.8 exaflops of performance.
+
+D1 chip
+Each node (computing core) of the D1 processing chip is a general purpose 64-bit CPU with a superscalar core. It supports internal instruction-level parallelism, and includes simultaneous multithreading (SMT). It doesn't support virtual memory and uses limited memory protection mechanisms. Dojo software/applications manage chip resources.
+
+The D1 instruction set supports both 64-bit scalar and 64-byte single instruction, multiple data (SIMD) vector instructions. The integer unit mixes reduced instruction set computer (RISC-V) and custom instructions, supporting 8, 16, 32, or 64 bit integers. The custom vector math unit is optimized for machine learning kernels and supports multiple data formats, with a mix of precisions and numerical ranges, many of which are compiler composable. Up to 16 vector formats can be used simultaneously.
+
+Node
+Each D1 node uses a 32-byte fetch window holding up to eight instructions. These instructions are fed to an eight-wide decoder which supports two threads per cycle, followed by a four-wide, four-way SMT scalar scheduler that has two integer units, two address units, and one register file per thread. Vector instructions are passed further down the pipeline to a dedicated vector scheduler with two-way SMT, which feeds either a 64-byte SIMD unit or four 8×8×4 matrix multiplication units.
+The network on-chip (NOC) router links cores into a two-dimensional mesh network. It can send one packet in and one packet out in all four directions to/from each neighbor node, along with one 64-byte read and one 64-byte write to local SRAM per clock cycle.
+Hardware native operations transfer data, semaphores and barrier constraints across memories and CPUs. System-wide double data rate 4 (DDR4) synchronous dynamic random-access memory (SDRAM) memory works like bulk storage.
+
+Memory
+Each core has a 1.25 megabytes (MB) of SRAM main memory. Load and store speeds reach 400 gigabytes (GB) per second and 270 GB/sec, respectively. The chip has explicit core-to-core data transfer instructions. Each SRAM has a unique list parser that feeds a pair of decoders and a gather engine that feeds the vector register file, which together can directly transfer information across nodes.
+
+Die
+Twelve nodes (cores) are grouped into a local block. Nodes are arranged in an 18×20 array on a single die, of which 354 cores are available for applications. The die runs at 2 gigahertz (GHz) and totals 440 MB of SRAM (360 cores × 1.25 MB/core). It reaches 376 teraflops using 16-bit brain floating point (BF16) numbers or using configurable 8-bit floating point (CFloat8) numbers, which is a Tesla proposal, and 22 teraflops at FP32.
+Each die comprises 576 bi-directional serializer/deserializer (SerDes) channels along the perimeter to link to other dies, and moves 8 TB/sec across all four die edges. Each D1 chip has a thermal design power of approximately 400 watts.
+
+Training Tile
+The water-cooled Training Tile packages 25 D1 chips into a 5×5 array. Each tile supports 36 TB/sec of aggregate bandwidth via 40 input/output (I/O) chips - half the bandwidth of the chip mesh network. Each tile supports 10 TB/sec of on-tile bandwidth. Each tile has 11 GB of SRAM memory (25 D1 chips × 360 cores/D1 × 1.25 MB/core). Each tile achieves 9 petaflops at BF16/CFloat8 precision (25 D1 chips × 376 TFLOP/D1). Each tile consumes 15 kilowatts; 288 amperes at 52 volts.
+
+System Tray
+Six tiles are aggregated into a System Tray, which is integrated with a host interface. Each host interface includes 512 x86 cores, providing a Linux-based user environment. Previously, the Dojo System Tray was known as the Training Matrix, which includes six Training Tiles, 20 Dojo Interface Processor cards across four host servers, and Ethernet-linked adjunct servers. It has 53,100 D1 cores.
+
+Dojo Interface Processor
+Dojo Interface Processor cards (DIP) sit on the edges of the tile arrays and are hooked into the mesh network. Host systems power the DIPs and perform various system management functions. A DIP memory and I/O co-processor hold 32 GB of shared HBM (either HBM2e or HBM3) – as well as Ethernet interfaces that sidestep the mesh network. Each DIP card has 2 I/O processors with 4 memory banks totaling 32 GB with 800 GB/sec of bandwidth.
+The DIP plugs into a PCI-Express 4.0 x16 slot that offers 32 GB/sec of bandwidth per card. Five cards per tile edge offer 160 GB/sec of bandwidth to the host servers and 4.5 TB/sec to the tile.
+
+Tesla Transport Protocol
+Tesla Transport Protocol (TTP) is a proprietary interconnect over PCI-Express. A 50 GB/sec TTP protocol link runs over Ethernet to access either a single 400 Gb/sec port or a paired set of 200 Gb/sec ports. Crossing the entire two-dimensional mesh network might take 30 hops, while TTP over Ethernet takes only four hops (at lower bandwidth), reducing vertical latency.
+
+Cabinet and ExaPOD
+Dojo stacks tiles vertically in a cabinet to minimize the distance and communications time between them. The Dojo ExaPod system includes 120 tiles, totaling 1,062,000 usable cores, reaching 1 exaflops at BF16 and CFloat8 formats. It has 1.3 TB of on-tile SRAM memory and 13 TB of dual in-line high bandwidth memory (HBM).
+
+Software
+Dojo supports the framework PyTorch, "Nothing as low level as C or C++, nothing remotely like CUDA". The SRAM presents as a single address space.
+Because FP32 has more precision and range than needed for AI tasks, and FP16 does not have enough, Tesla has devised 8- and 16-bit configurable floating point formats (CFloat8 and CFloat16, respectively) which allow the compiler to dynamically set mantissa and exponent precision, accepting lower precision in return for faster vector processing and reduced storage requirements.

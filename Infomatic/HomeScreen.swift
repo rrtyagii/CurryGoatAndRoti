@@ -10,6 +10,7 @@ import SwiftUI
 struct HomeScreen: View {
     @EnvironmentObject var authManager: AuthenticationManager
     @Environment(\.theme) var theme
+    @State private var topicIndex: [CardDetail] = []
     
     private var topicContent: some View {
         ZStack{
@@ -27,7 +28,7 @@ struct HomeScreen: View {
                 
                 ScrollView {
                     LazyVStack(spacing: 14) {
-                        ForEach(CardDetail.sampleData) { scrum in
+                        ForEach(topicIndex) { scrum in
                             NavigationLink (destination: TopicDetailView(scrum: scrum)){
                                 CardView(scrum: scrum)
                                     .frame(width: 340, height: 150)
@@ -35,7 +36,12 @@ struct HomeScreen: View {
                         }
                     }
                 }
-            }.padding()
+            }
+            .onAppear{
+                if topicIndex.isEmpty{
+                    topicIndex = TopicLoader.loadIndex()
+                }
+            }
         }
     }
 
@@ -52,11 +58,11 @@ struct HomeScreen: View {
         }
     }
 }
-#Preview {
-    HomeScreen()
-        .environmentObject(AuthenticationManager(user: nil, isAuthenticated: false))
-        .environment(\.theme, .standard)
-}
+//#Preview {
+//    HomeScreen()
+//        .environmentObject(AuthenticationManager(user: nil, isAuthenticated: false))
+//        .environment(\.theme, .standard)
+//}
 
 
 ////                Button("Sign Out") {

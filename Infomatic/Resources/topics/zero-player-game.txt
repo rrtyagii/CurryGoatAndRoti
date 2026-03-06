@@ -1,0 +1,13 @@
+A zero-player game or no-player game is a simulation game that has no sentient players.
+
+Types
+There are various different types of games that can be considered "zero-player".
+
+Determined by initial state
+A game that evolves as determined by its initial state, requiring no further input from humans is considered a zero-player game.
+Cellular automaton games that are determined by initial conditions. Conway's Game of Life is an example of this.
+Progress Quest is another example, in the game the player sets up an artificial character, and afterwards the game plays itself with no further input from the player. Godville is a similar game that took inspiration from Progress Quest. In the game, the player is a god that can communicate with a non-player character hero. However, the game can progress with no interaction from the player.
+Incremental games, sometimes called idle games or clicker games, are games which do require some player intervention near the beginning however may be zero-player at higher levels. As an example, Cookie Clicker requires that players click cookies manually before purchasing assets to click cookies in the place of the player independently.
+
+AI vs AI games
+In computer games, the term refers to programs that use artificial intelligence rather than human players, for example some fighting, sports, and real-time strategy games can be put into zero-player mode where multiple AIs can play against each other. Humans may have a challenge in designing the AI and giving it sufficient skill to play the game well, but the actual evolution of the game has no human intervention.

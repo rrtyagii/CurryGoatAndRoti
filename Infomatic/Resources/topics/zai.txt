@@ -1,0 +1,18 @@
+Knowledge Atlas Technology Joint Stock Co., Ltd. branded internationally as Z.ai, is a Chinese technology company specializing in artificial intelligence (AI). The company was formerly known as Zhipu AI outside China until its rebranding in 2025.
+As of 2024, it is one of China's "AI Tiger" companies by investors and considered to be the third largest LLM market player in China's AI industry according to the International Data Corporation. In January 2025, the United States Commerce Department blacklisted the company in its Entity List due to national security concerns.
+
+History
+Founded in 2019, the startup company began from Tsinghua University and was later spun out as an independent company.
+In 2023, it raised 2.5 billion yuan (approx. 350 million in USD) from Alibaba Group and Tencent, along with Meituan, Ant Group, Xiaomi, and HongShan. In March 2024, Zhipu AI announced it was developing a Sora-like technology to achieve artificial general intelligence (AGI). In May 2024, the Saudi Arabian finance firm Prosperity7 Ventures, LLC participated in a USD $400 million financing round for Zhipu AI with a valuation of approximately 3 billion USD. In July 2024, they debuted the Ying text-to-video model.
+In October 2024, Zhipu AI released GLM-4.0, an open-source end-to-end speech large language model. The model can replicate human-like interactions and has the capability to adjust its tone, emotion, or dialect based from user's preference. In May 2025, the company sealed a 61.28 million yuan deal from the Chinese government for city projects in Hangzhou.
+In July 2025, Zhipu AI released GLM-4.5 and GLM-4.5 Air, their next generation language models, and the company rebranded itself as Z.ai internationally. In August 2025, Z.ai announced that their GLM models are compatible with Huawei's Ascend processors. On August 11, 2025, Z.ai released a new vision-language model (VLM) with a total of 106B parameters, GLM-4.5V. In late September 2025, the company released GLM 4.6 using China's domestic chips such as those from Cambricon Technologies. That same year, the company had its official name to Knowledge Atlas Technology JSC Ltd.
+On 8 January 2026, Zhipu AI held its initial public offering on the Hong Kong Stock Exchange to become a listed company.
+
+Description
+Z.ai provides the following products and services:
+
+GLM (General Language Model, formerly known as ChatGLM): series of pre-trained dialogue models initially developed by Zhipu AI and Tsinghua KEG in 2023. GLM 4.5, released in July 2025 by Z.ai, can run at only eight NVIDIA H20 chips. The release of GLM 4.6 in late September 2025 marked the first integration of FP8 and Int4 quantization on Cambricon chips. It also supports native FP8 on Moore Threads GPUs.
+Ying: Text-to-video model that generates image and text prompts into a six-second video clip for around 30 seconds.
+AutoGLM: AI agent application that uses voice commands to complete tasks within a smartphone. The app can analyze complex tasks such as ordering an item from a nearby store and repeating an order based from the user's shopping history.
+AMiner: Created by Jie Tang (co-founder of Z.ai) in March 2006, now owned by Z.ai.
+Z.ai has offices in the Middle East, United Kingdom, Singapore, and Malaysia, along with innovation center projects across Southeast Asia (2025). In January 2025, the United States Commerce Department added the company to its Entity List, citing national security concerns.

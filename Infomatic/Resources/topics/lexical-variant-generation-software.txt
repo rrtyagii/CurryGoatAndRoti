@@ -1,0 +1,1 @@
+Lexical Variant Generation (LVG) is a suite of command-line interface (CLI) tools designed to perform lexical transformations on text. The primary goal is to generate lexical variants for Natural language processing of patient clinical documents.

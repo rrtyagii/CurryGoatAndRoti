@@ -1,0 +1,19 @@
+Vocabulary mismatch is a common phenomenon in the usage of natural languages, occurring when different people name the same thing or concept differently. It is also known as the vocabulary problem, vocabulary gap, term mismatch, or semantic gap.
+Furnas et al. (1987) were perhaps the first to quantitatively study the vocabulary mismatch problem.  Their results show that on average 80% of the times different people (experts in the same field) will name the same thing differently.  There are usually tens of possible names that can be attributed to the same thing.  This research motivated the work on latent semantic indexing.
+
+Causes
+One source of vocabulary mismatch is inflectional form differences, such as using a female word instead of a male word, or a plural form instead of a singular form. Stemming and lemmatization are two different methods of addressing this source by converting all variations of a word to one form.
+Vocabulary mismatch also occurs when language changes over time. For example, a doctor may search for papers about "type 1 diabetes mellitus" and not find papers about "juvenile diabetes" due to a change in terminology.
+
+In information retrieval
+The vocabulary mismatch between user created queries and relevant documents in a corpus causes the term mismatch problem in information retrieval.  Zhao and Callan (2010) were perhaps the first to quantitatively study the vocabulary mismatch problem in a retrieval setting.  Their results show that an average query term fails to appear in 30-40% of the documents that are relevant to the user query.  They also showed that this probability of mismatch is a central probability in one of the fundamental probabilistic retrieval models, the Binary Independence Model.  They developed novel term weight prediction methods that can lead to potentially 50-80% accuracy gains in retrieval over strong keyword retrieval models.  Further research along the line shows that expert users can use Boolean Conjunctive Normal Form expansion to improve retrieval performance by 50-300% over unexpanded keyword queries.
+
+Mitigation techniques
+Full-text indexing instead of only indexing keywords or abstracts
+Use of controlled vocabularies in both indexing and retrieval, such as taxonomies or ontologies
+Indexing text on inbound links from other documents (or other social tagging)
+Query expansion. Query expansion might be interactive, meaning the user can choose related words, or automatic, meaning the retrieval system adds extra words to the query without user input. A 2012 study by Zhao and Callan using expert created manual conjunctive normal form queries has shown that searchonym expansion in the Boolean conjunctive normal form is much more effective than the traditional bag of word expansion e.g. Rocchio expansion.
+Translation-based models
+
+Other contexts
+In software engineering, vocabulary mismatch has been described as a barrier to duplicate issue detection.

@@ -1,0 +1,11 @@
+The Sussman anomaly is a problem in artificial intelligence, first described by Gerald Sussman, that illustrates a weakness of noninterleaved planning algorithms, which were prominent in the early 1970s. Most modern planning systems are not restricted to noninterleaved planning and thus can handle this anomaly. While the significance/value of the problem is now a historical one, it is still useful for explaining why planning is non-trivial. In the problem, set in blocks world, three blocks (labeled A, B, and C) rest on a table.  The agent must stack the blocks such that A is atop B, which in turn is atop C. However, it may only move one block at a time.  The problem starts with B on the table, C atop A, and A on the table:
+
+However, noninterleaved planners typically separate the goal (stack A atop B atop C) into subgoals, such as:
+
+get A atop B
+get B atop C
+Suppose the planner starts by pursuing Goal 1. The straightforward solution is to move C out of the way, then move A atop B. But while this sequence accomplishes Goal 1, the agent cannot now pursue Goal 2 without undoing Goal 1, since both A and B must be moved atop C:
+
+If instead the planner starts with Goal 2, the most efficient solution is to move B. But again, the planner cannot pursue Goal 1 without undoing Goal 2:
+
+The problem was first identified by Sussman as a part of his PhD research.  Sussman (and his supervisor, Marvin Minsky) believed that intelligence requires a list of exceptions or tricks, and developed a modular planning system for "debugging" plans.

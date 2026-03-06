@@ -1,0 +1,41 @@
+Mathcad is computer software for the verification, validation, documentation and re-use of mathematical calculations in engineering and science, notably mechanical, chemical, electrical, and civil engineering. Released in 1986 for MS-DOS, it introduced live editing (WYSIWYG) of typeset mathematical notation in an interactive notebook, combined with automatic computations. It was originally developed by Mathsoft, and since 2006 has been a product of Parametric Technology Corporation.
+
+History
+Mathcad was conceived and developed by Allen Razdow and Josh Bernoff at Mathsoft founded by David Blohm and Razdow. It was released in 1986. It was the first system to support WYSIWYG editing and recalculation of mathematical calculations mixed with text. It was also the first to check the consistency of engineering units through the full calculation. Other equation solving systems existed at the time, but did not provide a notebook interface: Software Arts' TK Solver was released in 1982, and Borland's Eureka: The Solver was released in 1987.
+Mathcad was acquired by Parametric Technology in April 2006.
+
+Overview
+Mathcad's central interface is an interactive notebook in which equations and expressions are created and manipulated in the same graphical format in which they are presented (WYSIWYG). This approach was adopted by systems such as Mathematica, Maple, Macsyma, MATLAB, and Jupyter.
+Mathcad today includes some of the capabilities of a computer algebra system, but remains oriented towards ease of use and documentation of numerical engineering applications.
+Mathcad is part of a broader product development system developed by PTC, addressing analytical steps in systems engineering. It integrates with PTC's Creo Elements/Pro, Windchill, and Creo Elements/View. Its live feature-level integration with Creo Elements/Pro enables Mathcad analytical models to be directly used in driving CAD geometry, and its structural awareness within Windchill allows live calculations to be re-used and re-applied toward multiple design models.
+
+Summary of capabilities
+The Mathcad interface allows users to combine a variety of different elements (mathematics, descriptive text, and supporting imagery) into a worksheet, in which dependent calculations are dynamically recalculated as inputs change. This allows for simple manipulation of input variables, assumptions, and expressions. Mathcad's functionality includes:
+
+Numerous numeric functions for statistics, data analysis, image processing, and signal processing;
+Ubiquitous dimensionality checking and simplification;
+Solution of systems of equations, such as ODEs and PDEs using several methods;
+Root finding for polynomials and other functions;
+Symbolic manipulation of mathematical expressions;
+Parametric 2D and 3D plotting and discrete data plotting;
+Leverage standard, readable mathematical expressions within embedded program constructs;
+Vector and matrix operations, including eigenvalues and eigenvectors;
+Curve fitting and regression analysis;
+Statistical and design of experiments functions and plot types, and evaluation of probability distributions;
+Import from and export to other applications and file types, such as Microsoft Excel and MathML;
+Cross references to other Mathcad worksheets;
+Integration with other engineering applications, such as CAD, FEM, BIM, and Simulation tools, to aid in product design, like Autocad, Ansys, Revit.
+Although Mathcad is mostly oriented to non-programmers, it is also used in more complex projects to visualize results of mathematical modeling by using distributed computing and coupling with programs written using more traditional languages such as C++.
+
+Current releases
+As of 2025, the latest release from PTC is Mathcad Prime 11.0.0.0. This release is a freemium variant: if the software is not activated after a Mathcad Prime 30-day trial, it is possible to continue using PTC Mathcad Express for an unlimited time as "PTC Mathcad Express Free-for-Life Engineering Calculations Software". This freemium pilot is a new marketing approach for PTC. Review and markup of engineering notes can now be done directly by team members without them all requiring a full Mathcad Prime license.
+The last release of the traditional (pre "Prime") product line, Mathcad 15.0, came out in June 2010 and shares the same worksheet file structure as Mathcad 14.0. The last service release, Mathcad 15.0 M050, which added support for Windows 10, was released in 2017. Mathcad 15.0 is no longer actively developed but in "sustained support".
+
+Computer operating system platforms
+Mathcad only runs on Microsoft Windows. Mathcad Prime 6.0 requires a 64-bit version of Windows 7, Windows 8.1 or Windows 10. Until 1998, Mathcad also supported Mac OS.
+
+Support
+Starting in 2011 (Mathcad 15.0) the first year of maintenance and support has been included in the purchase or upgrade price.
+
+Release history
+Screen captures of previous Mathcad versions

@@ -1,0 +1,42 @@
+AntVR is a discontinued line of virtual reality headsets developed by the Chinese startup AntVR Technology. Operating on open-source software, the headsets were intended to be interoperable with many platforms, including consoles, Blu-ray players and smartphones, but in practice the devices were only supported by PCs.
+The original AntVR model was funded by a successful Kickstarter campaign in 2014 and was sold internationally, while two low cost mobile variants were also marketed in eastern and southern Asia. A second generation of headsets followed in 2017, under the Cyclop label. The technology was showcased at major events including CES and E3, but none of the models gained widespread popularity. The company ultimately pivoted to augmented reality in the late 2010s and lost much of its staff amid financial trouble. A smaller version of the company persisted and developed optics technology. Chinese media reported that the group were purchased in 2023 by Google, but their exact arrangement today is unclear.
+
+History
+The development of the AntVR occurred amid a wave of interest in virtual reality technology, sparked by the success of the Oculus Rift in the early 2010s.
+AntVR Technology founder Qin Zheng began work on a VR headset as a student, using 3D printing and DIY tools to build a prototype in 2012. He was able to secure some Chinese investment in 2013, and dropped out of school to develop the product. As a startup based in Beijing, the intention of the company was to develop a headset with cross-platform support.
+
+First generation (2014-16)
+A Kickstarter campaign ran in June 2014 and raised $260,000 of the $200,000 goal for the development of a virtual reality headset and convertible controller. The company later received "eight digit" funding from Sequoia Capital. In order to build an install base for the technology, the headset was marketed internationally at only $300; essentially being distributed at cost. Within China, it was marketed at RMB 1499 (US$242). A prototype walkable environment that used the AntVR headset, nicknamed "The Holodeck" was demonstrated at E3 2015, but the company did not have commercial plans for the demo at the time. Dutch indie studio Excamedia acted as the European distributors of the headsets, and demonstrated the technology at Firstlook in October 2015.
+The cheaper Jitao model was also available in China from late 2014 and was akin to Google Cardboard, marketed at RMB 149. In 2016 a Jitao variant was released in collaboration with Lenovo, which was available in Malaysia, the Philippines and India. Simply sold as "AntVR for Lenovo", the headset was designed to pair with Lenovo's K4 Note and Vibe X3. As a standalone item the Lenovo model was marketed at RM 99 in Malaysia and RS 1299 in India. It was also available in a bundle with the K4 Note at launch in India and the Philippines. The headset was later packaged with the Vibe K5 Plus and Vibe K5 Note in India, where it was marketed as a "free" VR headset. AntVR were briefly competitive in the Chinese market around this time, with 200,000 units sold across all models in Q1 2016. The company had a target of one million units for the year.
+
+Second generation (2017-2019)
+The AntVR Cyclop launched in 2017 as a second-generation headset for AntVR. The headset featured a wider view angle, higher resolution, and positional tracking system derived from the "Holodeck" prototype shown at E3. A revised Cyclop 2X followed in 2018, however the devices struggled to compete in a market which by that point already had dominant established brands such as Occulus. Internationally it did not ship with a manual; users had to contact the company to be sent a PDF. The Cyclop was negatively received and never gained widespread popularity.
+After Cyclop, AntVR Technology began to focus instead on augmented reality (AR) with the Mix AR headset. A new Kickstarter was launched to that end in 2018. While it reached the funding goal, the venture was unsuccessful commercially, and in 2019 led to the company losing most of its staff and turning instead to R&D work.
+
+Ant Reality
+AntVR Technology rebranded as Ant Reality in the aftermath of the "drastic" staff reduction it suffered in 2019. It attended CES 2023 to demonstrate some new optics for AR, but was intending for another company to license the technology and no longer plans to manufacture its own headsets. Chinese media reported that Ant Reality was purchased by Google in December 2023, shut down its website and relocated to Mountain View, California. However, their relationship with Google is unclear and it may be an investment relationship rather than outright purchase.
+
+Hardware
+First generation
+The AntVR headset made use of an aspherical lens, and two 9-axis IMU sensors for motion and angular tracking. Zheng claimed that the lens and the headset's tracking system reduced dizziness. It also came with a transformable controller, that could be used as a gun, lightsaber or steering wheel by using attachments or folding hinged elements in the peripheral.
+The cheapter Jitao model was also compatible with the same controller, but instead used a smartphone dock in place of a screen much like Google Cardboard. The Lenovo model was similar in design, with the sides open so users could reach in and operate the smartphone while wearing the device.
+
+Second generation
+The second generation Cyclop headset used floor tiles for tracking, and made use of an infrared camera on the underside of the headset for this purpose. This meant it did not require exterior light stations. The headset came with 16 floor tiles and 9 of the tracking marks which needed to be placed at the intersection of the 16 tiles. Users could also purchase more for larger play areas. At promotional events ahead of launch this system was called "Holodeck".
+In terms of optics, the Cyclop featured a higher resolution display, a faster refresh time and a move to fresnel lenses. The 2S variant did not include a button to correct for pupil distance; this was instead detected in an adaptive fashion. The adaption was poorly received.
+
+Software
+The wireless receiver for the headset ran on open-source software, with the intention that this would allow for interconnectivity with many devices. Zheng claimed that AntVR owners would be able to control Roomba devices using the headset and watch the on-board camera, and build their own receivers for unsupported devices. The Lenovo model featured a "TheaterMax" mode, which was designed for watching videos.
+Within China, an app called AntVR Hall could be used to download VR titles for the headsets. Screenshots shared by Chinese media advertise existing games on the platform, such as Waltz of the Wizard which was originally developed for the HTC Vive. Several games were developed specifically for AntVR models, usually as collaborations between AntVR technologies and game studios:
+
+魔咒传奇 (The Legend of Curse, 2014), a voice command based game for Jitao which was jointly developed with Unity Technologies.
+蚂蚁Y黑 (Ant Y Black, 2014), for Jitao
+Vertigun (2015), an on-rails shooter developed by Excamedia for the FirstLook demonstration in 2015.
+虚幻实战 (Virtual Warfare, 2015) A realistic shooter with online play as well as single player. Originally developed for E3 that year.
+虚幻实战·位置跟踪版 (Virtual Warfare- Position Tracking Edition, 2017), for Cyclop. Allowed multiple players in the same play area.
+几何·生存 (Geometry Survive, 2017), an exploration sandbox game for Cyclop.
+蚁视大厅平台 (AntVR Lobby Platform, 2017), a shooting demo for Cyclop.
+
+Reception
+The AntVR and its successors received overwhelmingly negative reception. The headset was heavy and caused neck strain, and the tracking was not sufficient to counteract a sense of nausea. The screen was also difficult to look at. PCGamer added that "15 minutes with the AntVR would be enough to leave just about anyone nauseous, headachey, and probably in need of a second lunch." The 2018 AntVR Cyclop model had similar issues with weight and user comfort. In the United Kingdom, Virtual Reality Shop stated that "You would have thought ANTVR would have given up on making VR headsets a long time ago", adding that the device and its pricing were "little more than a joke".
+The smartphone dock based models were also received negatively; the Economic Times reported glare issues with the Lenovo model. Light could leak in from the sides as it was left open, unlike most VR devices. The phone could also fall out of the dock if the user moved their head too quickly.

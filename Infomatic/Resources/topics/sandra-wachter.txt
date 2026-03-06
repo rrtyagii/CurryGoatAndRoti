@@ -1,0 +1,21 @@
+Sandra Wachter is a professor and senior researcher in data ethics, artificial intelligence, robotics, algorithms and regulation at the Oxford Internet Institute. She is a former Fellow of The Alan Turing Institute.
+
+Early life and education
+Wachter grew up in Austria and studied law at the University of Vienna. Wachter has said that she was inspired to work in technology because of her grandmother, who was one of the first women admitted to Vienna's Technical University.
+She completed her LL.M. in 2009, before starting as a legal counsel in the Austrian Federal Ministry of Health. It was during this time that she joined the faculty at the University of Vienna, pursuing a doctoral degree in technology, intellectual property and democracy. She completed her PhD degree in 2015, and simultaneously earned a master's degree in social sciences at the University of Oxford. After earning her doctorate, Wachter joined the Royal Academy of Engineering, where she worked in public policy. She returned to the University of Vienna where she worked on various ethical aspects of innovation.
+
+Research
+Her work covers legal and ethical issues associated with big data, artificial intelligence, algorithms and data protection. She believes that there needs to be a balance between technical innovation and personal control of information. Wachter was made a research fellow at the Alan Turing Institute in 2016. In this capacity she has evaluated the ethical and legal aspects of data science. She has argued that artificial intelligence should be more transparent and accountable, and that people have a "right to reasonable inferences". She has highlighted cases where opaque algorithms have become racist and sexist; such as discrimination in applications to St George's Hospital and Medical School in the 1970s and overestimations of black defendants reoffending when using the program COMPAS. Whilst Wachter appreciates that it is difficult to eliminate bias from training data sets, she believes that is possible to develop tools to identify and eliminate them. She has looked at ways to audit artificial intelligence to tackle discrimination and promote fairness. In this capacity she has argued that Facebook should continue to use human moderators.
+She has argued that General Data Protection Regulation (GDPR) is in need of reform, as despite attention being paid to the input stage, less time is spent on how the data is assessed. She believes that privacy must mean more than data protection, focussing on data evaluation and ways for people to control how information about them is stored and shared.
+Working with Brent Mittelstadt and Chris Russell, Wachter suggested counterfactual explanations – statements of how different the world would be to result in a different outcome. When decisions are made by an algorithm it can be difficult for people to understand why they are being made, especially without revealing trade secrets about an algorithm. Counterfactual explanations would permit the interrogation of algorithms without the need to reveal secrets. The approach of using counterfactual explanations was adopted by Google on What If, a feature on TensorBoard, a Google Open Source web application that uses machine learning. Counterfactual explanations without opening the black box: automated decisions and the GDPR, a paper written by Wachter, Brent Mittelstadt and Chris Russell, has been featured by the press and is widely cited in scholarly literature.
+
+Academic service
+She was made an associate professor at the University of Oxford in 2019 and a visiting professor at Harvard University from spring 2020. Wachter is also a member of the World Economic Forum Council on Values, Ethics and Innovation, an affiliate at the Bonavero Institute of Human Rights and a member of the European Commission Expert Group on Autonomous Cars. Additionally, she is a research fellow at the German Internet Institute.
+
+Awards and honours
+ESRC IAA O²RB Excellence in Impact Awards 2021
+2019 The Next Web Most influential people in AI in 2019
+2019 Privacy Law Scholars Conference Junior Scholars Award
+2019 Business Insider Nordic AI Trailblazer
+2019 Business Insider UK Tech 100
+2017 CognitionX AI Superhero Award

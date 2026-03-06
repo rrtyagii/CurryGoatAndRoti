@@ -1,0 +1,28 @@
+Pascal Hitzler is a German American computer scientist specializing in Semantic Web and Artificial Intelligence. He is University Distinguished Professor, endowed Lloyd T. Smith Creativity in Engineering Chair, one of the Directors of the Institute for Digital Agriculture and Advanced Analytics (ID3A) and Director of the Center for Artificial Intelligence and Data Science (CAIDS) at Kansas State University, and the founding Editor-in-Chief of the Semantic Web journal, the Neurosymbolic Artificial Intelligence journal, and the IOS Press book series Studies on the Semantic Web.
+
+Education
+Hitzler received a Diplom in Mathematics from the University of Tübingen in Germany in 1998. He has a PhD in Mathematics from the National University of Ireland, University College Cork, 2001.
+
+Career
+Hitzler received the title of 2018 Brage Golding Distinguished Professor of Research during his tenure at Wright State University, where he was endowed NCR Distinguished Professor. From 2004 to 2009 he was first Wissenschaftlicher Mitarbeiter (as postdoc) and then Akademischer Rat at the Institute for Applied Informatics and Formal Description Methods at the University of Karlsruhe in Germany. Between 2001 and 2004 he was a postdoctoral researcher at the International Center for Computational Logic at TU Dresden. From 1999 to 2001 he was a PhD student at the Department of Mathematics at the National University of Ireland, University College Cork, and graduated with a dissertation on "Generalized Metrics and Topology in Logic Programming Semantics." From 1992 to 1998 he studied Mathematics and Computer Science at the Eberhard-Karl University of Tübingen in Germany and graduated with a Diplom thesis on "Topology and Logic Programming Semantics".
+Hitzler co-founded several series of academic meetings, including the Workshop on Neural-Symbolic Learning and Reasoning (NeSy, since 2005, which since 2023 is a conference), the Web Reasoning and Rule Systems Conference (RR, since 2006), the Workshop on Applications of Semantic Technologies (AST, 2007-2011), and the U.S. Semantic Technologies Symposium (us2ts, since 2018). He also contributed to steering the Workshop on Ontology Design & Patterns (WOP, since 2017).
+Hitzler has published several books as author and editor, including the textbook "Foundations of Semantic Web Technologies" which was awarded an Outstanding Academic Title award in 2010 by the Choice Magazine.
+A scientometric publication in PLOS Biology, in October 2020, listed him among the top 1% of scientists world-wide in Artificial Intelligence & Image Processing.
+At the 2020 International Semantic Web Conference, he and his co-authors received the SWSA Ten-Year Award by the Semantic Web Science Association, for the publication Prateek Jain, Pascal Hitzler, Amit P. Sheth, Kunal Verma, Peter Z. Yeh, Ontology Alignment for Linked Open Data.
+Hitzler is also one of the authors of the OWL 2 Web Ontology Language Primer, which is a W3C standard.
+
+Books
+Barbara Hammer, Pascal Hitzler (eds.), Perspectives of Neural-Symbolic Integration. Studies in Computational Intelligence, Vol. 77. Springer, 2007.
+Pascal Hitzler, Markus Krötzsch, Sebastian Rudolph, York Sure, Semantic Web. Grundlagen. Springer textbook, 2008.
+Pascal Hitzler, Henrik Schärfe (eds.), Conceptual Structures in Practice. Chapman & Hall/CRC studies in informatics series, Boca Raton FL, 2009.
+Pascal Hitzler, Markus Krötzsch, Sebastian Rudolph, Foundations of Semantic Web Technologies. Textbooks in Computing, Chapman and Hall/CRC Press, 2010.
+Pascal Hitzler, Anthony K. Seda, Mathematical Aspects of Logic Programming Semantics. Studies in Informatics, Chapman and Hall/CRC Press, 2010.
+Steffen Hölldobler, Sebastian Bader, Bertram Fronhöfer, Ursula Hans, Pascal Hitzler, Markus Krötzsch, Tobias Pietzsch, Logik und Logikprogrammierung Band 2: Aufgaben und Lösungen. Synchron Verlag, Heidelberg, 2011
+Pascal Hitzler, Markus Krötzsch, Sebastian Rudolph, 语义Web技术基础. Tsinghua University Press, 2013.
+Pascal Hitzler, Aldo Gangemi, Krzysztof Janowicz, Adila Krisnadhi, Valentina Presutti (eds.), Ontology Engineering with Ontology Design Patterns: Foundations and Applications. Studies on the Semantic Web Vol. 25, IOS Press/AKA Verlag, 2016.
+Karl Hammar, Pascal Hitzler, Adila Krisnadhi, Agnieszka Lawrynowicz, Andrea Nuzzolese, Monika Solanki (eds.), Advances in Ontology Design and Patterns. Studies on the Semantic Web Vol. 32, IOS Press/AKA Verlag, 2017.
+Ilaria Tiddi, Freddy Lecue, Pascal Hitzler (eds.), Knowledge Graphs for eXplainable Artificial Intelligence: Foundations, Applications and Challenges Studies on the Semantic Web Vol. 47, IOS Press/AKA Verlag, 2020.
+Eva Blomqvist, Torsten Hahmann, Karl Hammar, Pascal Hitzler, Rinke Hoekstra, Raghava Mutharaju, Maria Poveda, Cogan Shimizu, Martin Skjaeveland, Monika Solanki, Vojtech Svatek, Lu Zhou (eds.), Advances in Pattern-based Ontology Engineering. Studies on the Semantic Web 51, IOS Press, Amsterdam, 2021.
+Pascal Hitzler, Md Kamruzzaman Sarker (eds.), Neuro-Symbolic Artificial Intelligence: The State of the Art. Frontiers in Artificial Intelligence and Applications Vol. 342, IOS Press, Amsterdam, 2022.
+Pascal Hitzler, Md Kamruzzaman Sarker, Aaron Eberhardt (eds.), Compendium of Neurosymbolic Artificial Intelligence. Frontiers in Artificial Intelligence and Applications Vol. 369, IOS Press, Amsterdam, 2023.
+Pascal Hitzler, Abhilekha Dalal, Mohammad Saeid Mahdavinejad, Sanaz Saki Norouzi (eds.), Handbook on Neurosymbolic AI and Knowledge Graphs. Frontiers in Artificial Intelligence and Applications Vol. 400, IOS Press, Amsterdam, 2025.

@@ -1,0 +1,18 @@
+MPEG-5 Essential Video Coding (EVC), standardized as ISO/IEC 23094-1, is a video compression standard that has been completed in April 2020 by decision of MPEG Working Group 11 at its 130th meeting.
+The standard consists of a royalty-free subset and individually switchable enhancements.
+
+Concept
+The publicly available requirements document outlines a development process that is defensive against patent threats: Two sets of coding tools, base and enhanced, are defined:
+
+The base consist of tools that were made public more than 20 years ago or for which a Type 1 declaration is received. Type 1, or option 1, means "royalty-free", in the nomenclature used in ISO documents.
+The "enhanced" set consists of 21 other tools which have passed an extra compression efficiency justification and which can be disabled individually.
+Each of the 21 payable tools can have separately acquired and separately negotiated and separately Traded License agreements. Each can be individually turned off and, when necessary, replaced by a corresponding cost free baseline profile tool. This structure makes it easy to fall back to a smaller set of tools in the future, if, for example, licensing complications occur around a specific tool, without breaking compatibility with already deployed decoders.
+This video codec is compatible with hardware accelerators - decoders originally developed for older standards such as AVC/HEVC at least in the Baseline profile.
+A proposal by Samsung, Huawei and Qualcomm forms the basis of EVC.
+
+Implementations
+XEVE (eXtra-fast Essential Video Encoder) is self-described as a fast open source EVC encoder. It is written in C99 and supports both the baseline and main profiles of EVC. Its license is a custom 3-clause BSD license.
+FFmpeg version 7.1  officially supports encoding and decoding using official external library above (for encoding) and decoder library: eXtra-fast Essential Video Decoder (XEVD).
+
+MPAI-EVC
+MPAI aims to significantly enhance the performance of EVC by improving or replacing traditional tools with AI-based tools, with the goal of reaching at least 25% improvement over the baseline profile of EVC.

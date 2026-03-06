@@ -1,0 +1,2 @@
+Phi is a large language model, developed by Microsoft. Phi-4 was released on 12 December 2024.
+Phi is considered to be Microsoft's push into smaller large language models. Phi-3-mini contains 3.8 billion parameters. Phi-3-mini has been compared to as Openai's GPT-3.5 in terms of capability.

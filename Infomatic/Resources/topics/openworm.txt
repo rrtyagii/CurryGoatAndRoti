@@ -1,0 +1,35 @@
+OpenWorm is an international open science project for the purpose of simulating the roundworm Caenorhabditis elegans at the cellular level. Although the long-term goal is to model all 959 cells of the C. elegans, the first stage is to model the worm's locomotion by simulating the 302 neurons and 95 muscle cells. This bottom up simulation is being pursued by the OpenWorm community.
+As of 2014, a physics engine called Sibernetic has been built for the project and models of the neural connectome and a muscle cell have been created in NeuroML format. A 3D model of the worm anatomy can be accessed through the web via the OpenWorm browser. The OpenWorm project is also contributing to develop Geppetto, a web-based multi-algorithm, multi-scale simulation platform engineered to support the simulation of the whole organism.
+
+Background: C. elegans
+The roundworm Caenorhabditis elegans is a free-living, transparent nematode, about 1 mm in length, that lives in temperate soil environments. It is the type species of its genus.
+
+C. elegans has one of the simplest nervous systems of any organism - its hermaphrodite type possesses only 302 neurons. Furthermore, the structural connectome of these neurons is fully mapped. There are fewer than one thousand cells in the whole body of a C. elegans worm, and because C. elegans is a model organism, each has a unique identifier and comprehensive supporting literature. Being a model organism, the genome is fully known, along with many well characterized mutants readily available, and a comprehensive literature of behavioural studies. With so few neurons and new 2-photon calcium microscopy techniques, it should soon be possible to record the complete neural activity of a living organism. The manipulation of neurons via optogenetic methods, in tandem with the foregoing technical capacities, has provided the project an unprecedented position - now able to fully characterize the neural dynamics of an entire organism.
+The efforts to build an in silico model of C. elegans, although a relatively simple organism, have burgeoned the development of technologies that will make it easier to model progressively more complex organisms.
+
+OpenWorm project
+While the ultimate goal is to simulate all features of C. elegans' behaviour, the OpenWorm community initially aimed to simulate a simple motor response: teaching the worm to crawl. To do so, the virtual worm is placed in a virtual environment. A full feedback loop is subsequently established: Environmental Stimulus > Sensory Transduction > Interneuron Firing > Motor Neuron Firing > Motor Output > Environmental Change > Sensory Transduction.
+There are two main technical challenges here: modelling the neural/electrical properties of the brain as it processes the information, and modelling the mechanical properties of the body as it moves. The neural properties are being modeled by a Hodgkin-Huxley model, and the mechanical properties are being modeled by a Smoothed Particle Hydrodynamics algorithm.
+The OpenWorm team built an engine called Geppetto which could integrate these algorithms and due to its modularity will be able to model other biological systems (like digestion) which the team will tackle at a later time.
+The team also built an environment called NeuroConstruct which is able to output neural structures in NeuroML. Using NeuroConstruct the team reconstructed the full connectome of C. elegans.
+Using NeuroML the team has also built a model of a muscle cell. Note that these models currently only model the relevant properties for the simple motor response: the neural/electrical and the mechanical properties discussed above.
+The next step is to connect this muscle cell to the six neurons which synapse on it and approximate their effect.
+The rough plan is to then both:
+
+Approximate the synapses which synapse on those neurons
+Repeat the process for other muscle cells
+
+Progress
+As of January 2015, the project is still awaiting peer review, and researchers involved in the project are reluctant to make bold claims about its current resemblance to biological behavior; project coordinator Stephen Larson estimates that they are "only 20 to 30 percent of the way towards where we need to get".
+
+Related projects
+In 1998 Japanese researchers announced the Perfect C. elegans Project. A proposal was submitted, but the project appears to have been abandoned.
+In 2004 a group from Hiroshima began the Virtual C. elegans Project. They released two papers which showed how their simulation would retract from virtual prodding.
+In 2005 a Texas researcher described a simplified C. elegans simulator based on a 1-wire network incorporating a digital Parallax Basic Stamp processor, sensory inputs and motor outputs. Inputs employed 16-bit A/D converters attached to operational amplifier simulated neurons and a 1-wire temperature sensor. Motor outputs were controlled by 256-position digital potentiometers and 8-bit digital ports. Artificial muscle action was based on Nitinol actuators. It used a "sense-process-react" operating loop which recreated several instinctual behaviors.
+These early attempts of simulation have been criticized for not being biologically realistic. Although we have the complete structural connectome, we do not know the synaptic weights at each of the known synapses. We do not even know whether the synapses are inhibitory or excitatory. To compensate for this the Hiroshima group used machine learning to find some weights of the synapses which would generate the desired behaviour. It is therefore no surprise that the model displayed the behaviour, and it may not represent true understanding of the system.
+
+Open science
+The OpenWorm community is committed to the ideals of open science. Generally this means that the team will try to publish in open access journals and include all data gathered (to avoid the file drawer problem). Indeed, all the biological data the team has gathered is publicly available.
+By mid-2024, twenty publications made by the group are available for free on their website. All the software that OpenWorm has produced is completely free and open source.
+OpenWorm is also trying a radically open model of scientific collaboration. The team consists of anyone who wishes to be a part of it. There are over one hundred "members" who are signed up for the high volume technical mailing list. Of the most active members who are named on a publication there are collaborators from Russia, Brazil, England, Scotland, Ireland and the United States.
+To coordinate this international effort, the team uses "virtual lab meetings" and other online tools that are detailed in the resources section.

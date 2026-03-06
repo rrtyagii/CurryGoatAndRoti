@@ -1,0 +1,10 @@
+The Center for AI Safety (CAIS) is an American nonprofit organization based in San Francisco that promotes the safe development and deployment of artificial intelligence (AI). CAIS's work encompasses research in technical AI safety and AI ethics, advocacy, and support to grow the AI safety research field. It was founded in 2022 by Dan Hendrycks and Oliver Zhang.
+In May 2023, CAIS published the statement on AI risk of extinction signed by hundreds of professors of AI, leaders of major AI companies, and other public figures.
+
+Research
+CAIS researchers published "An Overview of Catastrophic AI Risks", which details risk scenarios and risk mitigation strategies. Risks described include the use of AI in autonomous warfare or for engineering pandemics, as well as AI capabilities for deception and hacking.  Another work, conducted in collaboration with researchers at Carnegie Mellon University, described an automated way to discover adversarial attacks of large language models, that bypass safety measures, highlighting the inadequacy of current safety systems.
+
+Other activities
+Other initiatives include a compute cluster to support AI safety research, an online course titled "Intro to ML Safety", and a fellowship for philosophy professors to address conceptual problems.
+The Center for AI Safety Action Fund is a sponsor of the California bill SB 1047, the Safe and Secure Innovation for Frontier Artificial Intelligence Models Act.
+In 2023, the cryptocurrency exchange FTX, which went bankrupt in November 2022, attempted to recoup $6.5 million that it had donated to CAIS earlier that year.

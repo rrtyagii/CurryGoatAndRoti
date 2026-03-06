@@ -1,0 +1,1424 @@
+Paraconsistent logic is a type of non-classical logic that allows for the coexistence of contradictory statements without leading to a logical explosion where anything can be proven true. Specifically, paraconsistent logic is the subfield of logic that is concerned with studying and developing "inconsistency-tolerant" systems of logic, purposefully excluding the principle of explosion.
+Inconsistency-tolerant logics have been discussed since at least 1910 (and arguably much earlier, for example in the writings of Aristotle); however, the term paraconsistent ("beside the consistent") was first coined in 1976, by the Peruvian philosopher Francisco Miró Quesada Cantuarias, under request of Newton da Costa, who is often credited as the creator of the field. The study of paraconsistent logic has been dubbed paraconsistency, which encompasses the school of dialetheism.
+
+Definition
+In classical logic (as well as intuitionistic logic and most other logics), contradictions entail everything. This feature, known as the principle of explosion or ex contradictione sequitur quodlibet (Latin, "from a contradiction, anything follows") can be expressed formally as
+
+Which means: if P and its negation ¬P are both assumed to be true, then of the two claims P and (some arbitrary) A, at least one is true.  Therefore, P or A is true.  However, if we know that either P or A is true, and also that P is false (that ¬P is true) we can conclude that A, which could be anything, is true. Thus if a theory contains a single inconsistency, the theory is trivial – that is, it has every sentence as a theorem.
+The characteristic or defining feature of a paraconsistent logic is that it rejects the principle of explosion. As a result, paraconsistent logics, unlike classical and other logics, can be used to formalize inconsistent but non-trivial theories.
+
+Comparison with classical logic
+The entailment relations of paraconsistent logics are propositionally weaker than classical logic; that is, they deem fewer propositional inferences valid. The point is that a paraconsistent logic can never be a propositional extension of classical logic, that is, propositionally validate every entailment that classical logic does. In some sense, then, paraconsistent logic is more conservative or cautious than classical logic. It is due to such conservativeness that paraconsistent languages can be more expressive than their classical counterparts including the hierarchy of metalanguages due to Alfred Tarski and others. According to Solomon Feferman: "natural language abounds with directly or indirectly self-referential yet apparently harmless expressions—all of which are excluded from the Tarskian framework." This expressive limitation can be overcome in paraconsistent logic.
+
+Motivation
+A primary motivation for paraconsistent logic is the conviction that it ought to be possible to reason with inconsistent information in a controlled and discriminating way. The principle of explosion precludes this, and so must be abandoned. In non-paraconsistent logics, there is only one inconsistent theory: the trivial theory that has every sentence as a theorem. Paraconsistent logic makes it possible to distinguish between inconsistent theories and to reason with them.
+Research into paraconsistent logic has also led to the establishment of the philosophical school of dialetheism (most notably advocated by Graham Priest), which asserts that true contradictions exist in reality, for example groups of people holding opposing views on various moral issues. Being a dialetheist rationally commits one to some form of paraconsistent logic, on pain of otherwise embracing trivialism, i.e. accepting that all contradictions (and equivalently all statements) are true. However, the study of paraconsistent logics does not necessarily entail a dialetheist viewpoint. For example, one need not commit to either the existence of true theories or true contradictions, but would rather prefer a weaker standard like empirical adequacy, as proposed by Bas van Fraassen.
+
+Philosophy
+In classical logic, Aristotle's three laws, namely, the excluded middle (p or ¬p), non-contradiction ¬ (p ∧ ¬p) and identity (p iff p), are regarded as the same, due to the inter-definition of the connectives. Moreover, traditionally contradictoriness (the presence of contradictions in a theory or in a body of knowledge) and triviality (the fact that such a theory entails all possible consequences) are assumed inseparable, granted that negation is available. These views may be philosophically challenged, precisely on the grounds that they fail to distinguish between contradictoriness and other forms of inconsistency.
+On the other hand, it is possible to derive triviality from the 'conflict' between consistency and contradictions, once these notions have been properly distinguished. The very notions of consistency and inconsistency may be furthermore internalized at the object language level.
+
+Tradeoffs
+Paraconsistency involves tradeoffs. In particular, abandoning the principle of explosion requires one to abandon at least one of the following two principles:
+
+Both of these principles have been challenged.
+One approach is to reject disjunction introduction but keep disjunctive syllogism and transitivity. In this approach, rules of natural deduction hold, except for disjunction introduction and excluded middle; moreover, inference A⊢B does not necessarily mean entailment A⇒B. Also, the following usual Boolean properties hold: double negation as well as associativity, commutativity, distributivity, De Morgan, and idempotence inferences (for conjunction and disjunction).  Furthermore, inconsistency-robust proof of negation holds for entailment: (A⇒(B∧¬B))⊢¬A.
+Another approach is to reject disjunctive syllogism. From the perspective of dialetheism, it makes perfect sense that disjunctive syllogism should fail. The idea behind this syllogism is that, if ¬ A, then A is excluded and B can be inferred from A ∨ B. However, if A may hold as well as ¬A, then the argument for the inference is weakened.
+Yet another approach is to do both simultaneously. In many systems of relevant logic, as well as linear logic, there are two separate disjunctive connectives. One allows disjunction introduction, and one allows disjunctive syllogism.  Of course, this has the disadvantages entailed by separate disjunctive connectives including confusion between them and complexity in relating them.
+Furthermore, the rule of proof of negation (below) just by itself is inconsistency non-robust in the sense that the negation of every proposition can be proved from a contradiction.
+
+Strictly speaking, having just the rule above is paraconsistent because it is not the case that every proposition can be proved from a contradiction. However, if the rule double negation elimination (
+
+
+
+        ¬
+        ¬
+        A
+        ⊢
+        A
+
+
+    {\displaystyle \neg \neg A\vdash A}
+
+) is added as well, then every proposition can be proved from a contradiction. Double negation elimination does not hold for intuitionistic logic.
+
+Logic of Paradox
+One example of paraconsistent logic is the system known as LP ("Logic of Paradox"), first proposed by the Argentinian logician Florencio González Asenjo in 1966 and later popularized by Priest and others.
+One way of presenting the semantics for LP is to replace the usual functional valuation with a relational one.  The binary relation
+
+
+
+        V
+
+
+
+    {\displaystyle V\,}
+
+ relates a formula to a truth value:
+
+
+
+        V
+        (
+        A
+        ,
+        1
+        )
+
+
+
+    {\displaystyle V(A,1)\,}
+
+ means that
+
+
+
+        A
+
+
+
+    {\displaystyle A\,}
+
+ is true, and
+
+
+
+        V
+        (
+        A
+        ,
+        0
+        )
+
+
+
+    {\displaystyle V(A,0)\,}
+
+ means that
+
+
+
+        A
+
+
+
+    {\displaystyle A\,}
+
+ is false. A formula must be assigned at least one truth value, but there is no requirement that it be assigned at most one truth value. The semantic clauses for negation and disjunction are given as follows:
+
+
+
+
+        V
+        (
+        ¬
+        A
+        ,
+        1
+        )
+        ⇔
+        V
+        (
+        A
+        ,
+        0
+        )
+
+
+    {\displaystyle V(\neg A,1)\Leftrightarrow V(A,0)}
+
+
+
+
+
+        V
+        (
+        ¬
+        A
+        ,
+        0
+        )
+        ⇔
+        V
+        (
+        A
+        ,
+        1
+        )
+
+
+    {\displaystyle V(\neg A,0)\Leftrightarrow V(A,1)}
+
+
+
+
+
+        V
+        (
+        A
+        ∨
+        B
+        ,
+        1
+        )
+        ⇔
+        V
+        (
+        A
+        ,
+        1
+        )
+
+           or
+
+        V
+        (
+        B
+        ,
+        1
+        )
+
+
+    {\displaystyle V(A\lor B,1)\Leftrightarrow V(A,1){\text{ or }}V(B,1)}
+
+
+
+
+
+        V
+        (
+        A
+        ∨
+        B
+        ,
+        0
+        )
+        ⇔
+        V
+        (
+        A
+        ,
+        0
+        )
+
+           and
+
+        V
+        (
+        B
+        ,
+        0
+        )
+
+
+    {\displaystyle V(A\lor B,0)\Leftrightarrow V(A,0){\text{ and }}V(B,0)}
+
+
+(The other logical connectives are defined in terms of negation and disjunction as usual.)
+Or to put the same point less symbolically:
+
+not A is true if and only if A is false
+not A is false if and only if A is true
+A or B is true if and only if A is true or B is true
+A or B is false if and only if A is false and B is false
+(Semantic) logical consequence is then defined as truth-preservation:
+
+
+
+
+        Γ
+        ⊨
+        A
+
+
+    {\displaystyle \Gamma \vDash A}
+
+ if and only if
+
+
+
+        A
+
+
+
+    {\displaystyle A\,}
+
+ is true whenever every element of
+
+
+
+        Γ
+
+
+
+    {\displaystyle \Gamma \,}
+
+ is true.
+Now consider a valuation
+
+
+
+        V
+
+
+
+    {\displaystyle V\,}
+
+ such that
+
+
+
+        V
+        (
+        A
+        ,
+        1
+        )
+
+
+
+    {\displaystyle V(A,1)\,}
+
+ and
+
+
+
+        V
+        (
+        A
+        ,
+        0
+        )
+
+
+
+    {\displaystyle V(A,0)\,}
+
+ but it is not the case that
+
+
+
+        V
+        (
+        B
+        ,
+        1
+        )
+
+
+
+    {\displaystyle V(B,1)\,}
+
+. It is easy to check that this valuation constitutes a counterexample to both explosion and disjunctive syllogism. However, it is also a counterexample to modus ponens for the material conditional of LP. For this reason, proponents of LP usually advocate expanding the system to include a stronger conditional connective that is not definable in terms of negation and disjunction.
+As one can verify, LP preserves most other inference patterns that one would expect to be valid, such as De Morgan's laws and the usual introduction and elimination rules for negation, conjunction, and disjunction. Surprisingly, the logical truths (or tautologies) of LP are precisely those of classical propositional logic.  (LP and classical logic differ only in the inferences they deem valid.)  Relaxing the requirement that every formula be either true or false yields the weaker paraconsistent logic commonly known as first-degree entailment (FDE). Unlike LP, FDE contains no logical truths.
+LP is only one of many paraconsistent logics that have been proposed. It is presented here merely as an illustration of how a paraconsistent logic can work.
+
+Relation to other logics
+One important type of paraconsistent logic is relevance logic. A logic is relevant if it satisfies the following condition:
+
+if A → B is a theorem, then A and B share a non-logical constant.
+It follows that a relevance logic cannot have (p ∧ ¬p) → q as a theorem, and thus (on reasonable assumptions) cannot validate the inference from {p, ¬p} to q.
+Paraconsistent logic has significant overlap with many-valued logic; however, not all paraconsistent logics are many-valued (and, of course, not all many-valued logics are paraconsistent). Dialetheic logics, which are also many-valued, are paraconsistent, but the converse does not hold. The ideal 3-valued paraconsistent logic given below becomes the logic RM3 when the contrapositive is added.
+Intuitionistic logic allows A ∨ ¬A not to be equivalent to true, while paraconsistent logic allows A ∧ ¬A not to be equivalent to false. Thus it seems natural to regard paraconsistent logic as the "dual" of intuitionistic logic. However, intuitionistic logic is a specific logical system whereas paraconsistent logic encompasses a large class of systems. Accordingly, the dual notion to paraconsistency is called paracompleteness, and the "dual" of intuitionistic logic (a specific paracomplete logic) is a specific paraconsistent system called anti-intuitionistic or dual-intuitionistic logic (sometimes referred to as Brazilian logic, for historical reasons).  The duality between the two systems is best seen within a sequent calculus framework. While in intuitionistic logic the sequent
+
+
+
+
+        ⊢
+        A
+        ∨
+        ¬
+        A
+
+
+    {\displaystyle \vdash A\lor \neg A}
+
+
+is not derivable, in dual-intuitionistic logic
+
+
+
+
+        A
+        ∧
+        ¬
+        A
+        ⊢
+
+
+    {\displaystyle A\land \neg A\vdash }
+
+
+is not derivable. Similarly, in intuitionistic logic the sequent
+
+
+
+
+        ¬
+        ¬
+        A
+        ⊢
+        A
+
+
+    {\displaystyle \neg \neg A\vdash A}
+
+
+is not derivable, while in dual-intuitionistic logic
+
+
+
+
+        A
+        ⊢
+        ¬
+        ¬
+        A
+
+
+    {\displaystyle A\vdash \neg \neg A}
+
+
+is not derivable. Dual-intuitionistic logic contains a connective # known as pseudo-difference which is the dual of intuitionistic implication. Very loosely, A # B can be read as "A but not B". However, # is not truth-functional as one might expect a 'but not' operator to be; similarly, the intuitionistic implication operator cannot be treated like "¬ (A ∧ ¬B)".  Dual-intuitionistic logic also features a basic connective ⊤ which is the dual of intuitionistic ⊥: negation may be defined as ¬A = (⊤ # A)
+A full account of the duality between paraconsistent and intuitionistic logic, including an explanation on why dual-intuitionistic and paraconsistent logics do not coincide, can be found in Brunner and Carnielli (2005).
+These other logics avoid explosion: implicational propositional calculus, positive propositional calculus, equivalential calculus and minimal logic. The latter, minimal logic, is both paraconsistent and paracomplete (a subsystem of intuitionistic logic). The other three simply do not allow one to express a contradiction to begin with since they lack the ability to form negations.
+
+An ideal three-valued paraconsistent logic
+Here is an example of a three-valued logic which is paraconsistent and ideal as defined in "Ideal Paraconsistent Logics" by O. Arieli, A. Avron, and A. Zamansky, especially pages 22–23. The three truth-values are: t (true only), b (both true and false), and f (false only).
+
+A formula is true if its truth-value is either t or b for the valuation being used. A formula is a tautology of paraconsistent logic if it is true in every valuation which maps atomic propositions to {t, b, f}. Every tautology of paraconsistent logic is also a tautology of classical logic. For a valuation, the set of true formulas is closed under modus ponens and the deduction theorem. Any tautology of classical logic which contains no negations is also a tautology of paraconsistent logic (by merging b into t). This logic is sometimes referred to as "Pac" or "LFI1".
+
+Included
+Some tautologies of paraconsistent logic are:
+
+All axiom schemas for paraconsistent logic:
+
+
+
+
+        P
+        →
+        (
+        Q
+        →
+        P
+        )
+
+
+    {\displaystyle P\to (Q\to P)}
+
+ ** for deduction theorem and ?→{t,b} = {t,b}
+
+
+
+
+        (
+        P
+        →
+        (
+        Q
+        →
+        R
+        )
+        )
+        →
+        (
+        (
+        P
+        →
+        Q
+        )
+        →
+        (
+        P
+        →
+        R
+        )
+        )
+
+
+    {\displaystyle (P\to (Q\to R))\to ((P\to Q)\to (P\to R))}
+
+ ** for deduction theorem (note: {t,b}→{f} = {f} follows from the deduction theorem)
+
+
+
+
+        ¬
+        (
+        P
+        →
+        Q
+        )
+        →
+        P
+
+
+    {\displaystyle \lnot (P\to Q)\to P}
+
+ ** {f}→? = {t}
+
+
+
+
+        ¬
+        (
+        P
+        →
+        Q
+        )
+        →
+        ¬
+        Q
+
+
+    {\displaystyle \lnot (P\to Q)\to \lnot Q}
+
+ ** ?→{t} = {t}
+
+
+
+
+        P
+        →
+        (
+        ¬
+        Q
+        →
+        ¬
+        (
+        P
+        →
+        Q
+        )
+        )
+
+
+    {\displaystyle P\to (\lnot Q\to \lnot (P\to Q))}
+
+ ** {t,b}→{b,f} = {b,f}
+
+
+
+
+        ¬
+        ¬
+        P
+        →
+        P
+
+
+    {\displaystyle \lnot \lnot P\to P}
+
+ ** ~{f} = {t}
+
+
+
+
+        P
+        →
+        ¬
+        ¬
+        P
+
+
+    {\displaystyle P\to \lnot \lnot P}
+
+ ** ~{t,b} = {b,f} (note: ~{t} = {f} and ~{b,f} = {t,b} follow from the way the truth-values are encoded)
+
+
+
+
+        P
+        →
+        (
+        P
+        ∨
+        Q
+        )
+
+
+    {\displaystyle P\to (P\lor Q)}
+
+ ** {t,b}v? = {t,b}
+
+
+
+
+        Q
+        →
+        (
+        P
+        ∨
+        Q
+        )
+
+
+    {\displaystyle Q\to (P\lor Q)}
+
+ ** ?v{t,b} = {t,b}
+
+
+
+
+        ¬
+        (
+        P
+        ∨
+        Q
+        )
+        →
+        ¬
+        P
+
+
+    {\displaystyle \lnot (P\lor Q)\to \lnot P}
+
+ ** {t}v? = {t}
+
+
+
+
+        ¬
+        (
+        P
+        ∨
+        Q
+        )
+        →
+        ¬
+        Q
+
+
+    {\displaystyle \lnot (P\lor Q)\to \lnot Q}
+
+ ** ?v{t} = {t}
+
+
+
+
+        (
+        P
+        →
+        R
+        )
+        →
+        (
+        (
+        Q
+        →
+        R
+        )
+        →
+        (
+        (
+        P
+        ∨
+        Q
+        )
+        →
+        R
+        )
+        )
+
+
+    {\displaystyle (P\to R)\to ((Q\to R)\to ((P\lor Q)\to R))}
+
+ ** {f}v{f} = {f}
+
+
+
+
+        ¬
+        P
+        →
+        (
+        ¬
+        Q
+        →
+        ¬
+        (
+        P
+        ∨
+        Q
+        )
+        )
+
+
+    {\displaystyle \lnot P\to (\lnot Q\to \lnot (P\lor Q))}
+
+ ** {b,f}v{b,f} = {b,f}
+
+
+
+
+        (
+        P
+        ∧
+        Q
+        )
+        →
+        P
+
+
+    {\displaystyle (P\land Q)\to P}
+
+ ** {f}&? = {f}
+
+
+
+
+        (
+        P
+        ∧
+        Q
+        )
+        →
+        Q
+
+
+    {\displaystyle (P\land Q)\to Q}
+
+ ** ?&{f} = {f}
+
+
+
+
+        ¬
+        P
+        →
+        ¬
+        (
+        P
+        ∧
+        Q
+        )
+
+
+    {\displaystyle \lnot P\to \lnot (P\land Q)}
+
+ ** {b,f}&? = {b.f}
+
+
+
+
+        ¬
+        Q
+        →
+        ¬
+        (
+        P
+        ∧
+        Q
+        )
+
+
+    {\displaystyle \lnot Q\to \lnot (P\land Q)}
+
+ ** ?&{b,f} = {b,f}
+
+
+
+
+        (
+        ¬
+        P
+        →
+        R
+        )
+        →
+        (
+        (
+        ¬
+        Q
+        →
+        R
+        )
+        →
+        (
+        ¬
+        (
+        P
+        ∧
+        Q
+        )
+        →
+        R
+        )
+        )
+
+
+    {\displaystyle (\lnot P\to R)\to ((\lnot Q\to R)\to (\lnot (P\land Q)\to R))}
+
+ ** {t}&{t} = {t}
+
+
+
+
+        P
+        →
+        (
+        Q
+        →
+        (
+        P
+        ∧
+        Q
+        )
+        )
+
+
+    {\displaystyle P\to (Q\to (P\land Q))}
+
+ ** {t,b}&{t,b} = {t,b}
+
+
+
+
+        (
+        P
+        →
+        Q
+        )
+        →
+        (
+        (
+        ¬
+        P
+        →
+        Q
+        )
+        →
+        Q
+        )
+
+
+    {\displaystyle (P\to Q)\to ((\lnot P\to Q)\to Q)}
+
+ ** ? is the union of {t,b} with {b,f}
+Some other theorem schemas:
+
+
+
+
+        P
+        →
+        P
+
+
+    {\displaystyle P\to P}
+
+
+
+
+
+        (
+        ¬
+        P
+        →
+        P
+        )
+        →
+        P
+
+
+    {\displaystyle (\lnot P\to P)\to P}
+
+
+
+
+
+        (
+        (
+        P
+        →
+        Q
+        )
+        →
+        P
+        )
+        →
+        P
+
+
+    {\displaystyle ((P\to Q)\to P)\to P}
+
+
+
+
+
+        P
+        ∨
+        ¬
+        P
+
+
+    {\displaystyle P\lor \lnot P}
+
+
+
+
+
+        ¬
+        (
+        P
+        ∧
+        ¬
+        P
+        )
+
+
+    {\displaystyle \lnot (P\land \lnot P)}
+
+
+
+
+
+        (
+        ¬
+        P
+        →
+        Q
+        )
+        →
+        (
+        P
+        ∨
+        Q
+        )
+
+
+    {\displaystyle (\lnot P\to Q)\to (P\lor Q)}
+
+
+
+
+
+        (
+        (
+        ¬
+        P
+        →
+        Q
+        )
+        →
+        Q
+        )
+        →
+        (
+        (
+        (
+        P
+        ∧
+        ¬
+        P
+        )
+        →
+        Q
+        )
+        →
+        (
+        P
+        →
+        Q
+        )
+        )
+
+
+    {\displaystyle ((\lnot P\to Q)\to Q)\to (((P\land \lnot P)\to Q)\to (P\to Q))}
+
+ ** every truth-value is either t, b, or f.
+
+
+
+
+        (
+        (
+        P
+        →
+        Q
+        )
+        →
+        R
+        )
+        →
+        (
+        Q
+        →
+        R
+        )
+
+
+    {\displaystyle ((P\to Q)\to R)\to (Q\to R)}
+
+Excluded
+Some tautologies of classical logic which are not tautologies of paraconsistent logic are:
+
+
+
+
+        ¬
+        P
+        →
+        (
+        P
+        →
+        Q
+        )
+
+
+    {\displaystyle \lnot P\to (P\to Q)}
+
+ ** no explosion in paraconsistent logic
+
+
+
+
+        (
+        ¬
+        P
+        →
+        Q
+        )
+        →
+        (
+        (
+        ¬
+        P
+        →
+        ¬
+        Q
+        )
+        →
+        P
+        )
+
+
+    {\displaystyle (\lnot P\to Q)\to ((\lnot P\to \lnot Q)\to P)}
+
+
+
+
+
+        (
+        P
+        →
+        Q
+        )
+        →
+        (
+        (
+        P
+        →
+        ¬
+        Q
+        )
+        →
+        ¬
+        P
+        )
+
+
+    {\displaystyle (P\to Q)\to ((P\to \lnot Q)\to \lnot P)}
+
+
+
+
+
+        (
+        P
+        ∨
+        Q
+        )
+        →
+        (
+        ¬
+        P
+        →
+        Q
+        )
+
+
+    {\displaystyle (P\lor Q)\to (\lnot P\to Q)}
+
+ ** disjunctive syllogism fails in paraconsistent logic
+
+
+
+
+        (
+        P
+        →
+        Q
+        )
+        →
+        (
+        ¬
+        Q
+        →
+        ¬
+        P
+        )
+
+
+    {\displaystyle (P\to Q)\to (\lnot Q\to \lnot P)}
+
+ ** contrapositive fails in paraconsistent logic
+
+
+
+
+        (
+        ¬
+        P
+        →
+        ¬
+        Q
+        )
+        →
+        (
+        Q
+        →
+        P
+        )
+
+
+    {\displaystyle (\lnot P\to \lnot Q)\to (Q\to P)}
+
+
+
+
+
+        (
+        (
+        ¬
+        P
+        →
+        Q
+        )
+        →
+        Q
+        )
+        →
+        (
+        P
+        →
+        Q
+        )
+
+
+    {\displaystyle ((\lnot P\to Q)\to Q)\to (P\to Q)}
+
+
+
+
+
+        (
+        P
+        ∧
+        ¬
+        P
+        )
+        →
+        (
+        Q
+        ∧
+        ¬
+        Q
+        )
+
+
+    {\displaystyle (P\land \lnot P)\to (Q\land \lnot Q)}
+
+ ** not all contradictions are equivalent in paraconsistent logic
+
+
+
+
+        (
+        P
+        →
+        Q
+        )
+        →
+        (
+        ¬
+        Q
+        →
+        (
+        P
+        →
+        R
+        )
+        )
+
+
+    {\displaystyle (P\to Q)\to (\lnot Q\to (P\to R))}
+
+
+
+
+
+        (
+        (
+        P
+        →
+        Q
+        )
+        →
+        R
+        )
+        →
+        (
+        ¬
+        P
+        →
+        R
+        )
+
+
+    {\displaystyle ((P\to Q)\to R)\to (\lnot P\to R)}
+
+
+
+
+
+        (
+        (
+        ¬
+        P
+        →
+        R
+        )
+        →
+        R
+        )
+        →
+        (
+        (
+        (
+        P
+        →
+        Q
+        )
+        →
+        R
+        )
+        →
+        R
+        )
+
+
+    {\displaystyle ((\lnot P\to R)\to R)\to (((P\to Q)\to R)\to R)}
+
+ ** counter-factual for {b,f}→? = {t,b} (inconsistent with b→f = f)
+
+Strategy
+Suppose we are faced with a contradictory set of premises Γ and wish to avoid being reduced to triviality. In classical logic, the only method one can use is to reject one or more of the premises in Γ. In paraconsistent logic, we may try to compartmentalize the contradiction. That is, weaken the logic so that Γ→X is no longer a tautology provided the propositional variable X does not appear in Γ. However, we do not want to weaken the logic any more than is necessary for that purpose. So we wish to retain modus ponens and the deduction theorem as well as the axioms which are the introduction and elimination rules for the logical connectives (where possible).
+To this end, we add a third truth-value b which will be employed within the compartment containing the contradiction. We make b a fixed point of all the logical connectives.
+
+
+
+
+        b
+        =
+        ¬
+        b
+        =
+        (
+        b
+        →
+        b
+        )
+        =
+        (
+        b
+        ∨
+        b
+        )
+        =
+        (
+        b
+        ∧
+        b
+        )
+
+
+    {\displaystyle b=\lnot b=(b\to b)=(b\lor b)=(b\land b)}
+
+
+We must make b a kind of truth (in addition to t) because otherwise there would be no tautologies at all.
+To ensure that modus ponens works, we must have
+
+
+
+
+        (
+        b
+        →
+        f
+        )
+        =
+        f
+        ,
+
+
+    {\displaystyle (b\to f)=f,}
+
+
+that is, to ensure that a true hypothesis and a true implication lead to a true conclusion, we must have that a not-true (f) conclusion and a true (t or b) hypothesis yield a not-true implication.
+If all the propositional variables in Γ are assigned the value b, then Γ itself will have the value b. If we give X the value f, then
+
+
+
+
+        (
+        Γ
+        →
+        X
+        )
+        =
+        (
+        b
+        →
+        f
+        )
+        =
+        f
+
+
+    {\displaystyle (\Gamma \to X)=(b\to f)=f}
+
+.
+So Γ→X will not be a tautology.
+Limitations:
+(1) There must not be constants for the truth values because that would defeat the purpose of paraconsistent logic. Having b would change the language from that of classical logic. Having t or f would allow the explosion again because
+
+
+
+
+        ¬
+        t
+        →
+        X
+
+
+    {\displaystyle \lnot t\to X}
+
+ or
+
+
+
+        f
+        →
+        X
+
+
+    {\displaystyle f\to X}
+
+
+would be tautologies. Note that b is not a fixed point of those constants since b ≠ t and b ≠ f.
+(2) This logic's ability to contain contradictions applies only to contradictions among particularized premises, not to contradictions among axiom schemas.
+(3) The loss of disjunctive syllogism may result in insufficient commitment to developing the 'correct' alternative, possibly crippling mathematics.
+(4) To establish that a formula Γ is equivalent to Δ in the sense that either can be substituted for the other wherever they appear as a subformula, one must show
+
+
+
+
+        (
+        Γ
+        →
+        Δ
+        )
+        ∧
+        (
+        Δ
+        →
+        Γ
+        )
+        ∧
+        (
+        ¬
+        Γ
+        →
+        ¬
+        Δ
+        )
+        ∧
+        (
+        ¬
+        Δ
+        →
+        ¬
+        Γ
+        )
+
+
+    {\displaystyle (\Gamma \to \Delta )\land (\Delta \to \Gamma )\land (\lnot \Gamma \to \lnot \Delta )\land (\lnot \Delta \to \lnot \Gamma )}
+
+.
+This is more difficult than in classical logic because the contrapositives do not necessarily follow.
+
+Applications
+Paraconsistent logic has been applied as a means of managing inconsistency in numerous domains, including:
+
+Semantics: Paraconsistent logic has been proposed as means of providing a simple and intuitive formal account of truth that does not fall prey to paradoxes such as the Liar. However, such systems must also avoid Curry's paradox, which is much more difficult as it does not essentially involve negation.
+Epistemology and belief revision: Paraconsistent logic has been proposed as a means of reasoning with and revising inconsistent theories and belief systems.
+Knowledge management and artificial intelligence: Some computer scientists have utilized paraconsistent logic as a means of coping gracefully with inconsistent or contradictory information. Mathematical framework and rules of paraconsistent logic have been proposed as the activation function of an artificial neuron in order to build a neural network for function approximation, model identification, and control with success.
+Deontic logic and metaethics: Paraconsistent logic has been proposed as a means of dealing with ethical and other normative conflicts.
+Software engineering: Paraconsistent logic has been proposed as a means for dealing with the pervasive inconsistencies among the documentation, use cases, and code of large software systems.
+Expert system. The Para-analyzer algorithm based on paraconsistent annotated logic by 2-value annotations (PAL2v), also called paraconsistent annotated evidential logic (PAL Et), derived from paraconsistent logic, has been used in decision-making systems, such as to support medical diagnosis.
+Electronics design routinely uses a four-valued logic, with "hi-impedance (z)" and "don't care (x)" playing similar roles to "don't know" and "both true and false" respectively, in addition to true and false. This logic was developed independently of philosophical logics.
+Control system: A model reference control built with recurrent paraconsistent neural network for a rotary inverted pendulum presented better robustness and lower control effort compared to a classical well tuned pole placement controller.
+Digital filter: PAL2v Filter Algorithm, using a paraconsistent artificial neural cell of learning by contradiction extraction (PANLctx) in the composition of a paraconsistent analysis network (PANnet), based on the PAL2V rules and equations, can be used as an estimator, average extractor, filtering and in signal treatment for industrial automation and robotics.
+Contradiction Extractor. A recurrent algorithm based on the PAL2v rules and equations has been used to extract contradictions in a set of statistical data.
+Quantum physics
+Black hole physics
+Hawking radiation
+Quantum computing
+Spintronics
+Quantum entanglement
+Quantum coupling
+Uncertainty principle
+
+Criticism
+Logic, as it is classically understood, rests on three main rules (Laws of Thought): The Law of Identity (LOI), the Law of Non-Contradiction (LNC), and the Law of the Excluded Middle (LEM). Paraconsistent logic deviates from classical logic by refusing to accept the principle of explosion.
+However, even on a highly technical level, paraconsistent logic can be challenging to argue against. It is obvious that paraconsistent logic leads to contradictions. However, the paraconsistent logician embraces contradictions, including any contradictions that are a part or the result of paraconsistent logic. As a consequence, much of the critique has focused on the applicability and comparative effectiveness of paraconsistent logic. This is an important debate since embracing paraconsistent logic comes at the risk of losing a large amount of theorems that form the basis of mathematics and physics.
+Logician Stewart Shapiro aimed to make a case for paraconsistent logic as part of his argument for a pluralistic view of logic (the view that different logics are equally appropriate, or equally correct). He found that a case could be made that either, intuitonistic logic as the "One True Logic", or a pluralism of intuitonistic logic and classical logic is interesting and fruitful. However, when it comes to paraconsistent logic, he found "no examples that are ... compelling (at least to me)".
+In "Saving Truth from Paradox", Hartry Field examines the value of paraconsistent logic as a solution to paradoxa. Field argues for a view that avoids both truth gluts (where a statement can be both true and false) and truth gaps (where a statement is neither true nor false). One of Field's concerns is the problem of a paraconsistent metatheory: If the logic itself allows contradictions to be true, then the metatheory that describes or governs the logic might also have to be paraconsistent. If the metatheory is paraconsistent, then the justification of the logic (why we should accept it) might be suspect, because any argument made within a paraconsistent framework could potentially be both valid and invalid. This creates a challenge for proponents of paraconsistent logic to explain how their logic can be justified without falling into paradox or losing explanatory power. Stewart Shapiro expressed similar concerns: "there are certain notions and concepts that the dialetheist invokes (informally), but which she cannot adequately express, unless the meta-theory is (completely) consistent. The insistence on a consistent meta-theory would undermine the key aspect of dialetheism".
+In his book "In Contradiction", which  argues in favor of paraconsistent dialetheism, Graham Priest admits to metatheoretic difficulties: "Is there a metatheory for paraconsistent logics that is acceptable in paraconsistent terms? The answer to this question is not at all obvious."
+Littmann and Keith Simmons argued that dialetheist theory is unintelligible: "Once we realize that the theory includes not only the statement '(L) is both true and false' but also the statement '(L) isn't both true and false' we may feel at a loss."
+Some philosophers have argued against dialetheism on the grounds that the counterintuitiveness of giving up any of the three principles above outweighs any counterintuitiveness that the principle of explosion might have.
+Others, such as David Lewis, have objected to paraconsistent logic on the ground that it is simply impossible for a statement and its negation to be jointly true.  A related objection is that "negation" in paraconsistent logic is not really negation; it is merely a subcontrary-forming operator.
+
+Alternatives
+Approaches exist that allow for resolution of inconsistent beliefs without violating any of the intuitive logical principles. Most such systems use multi-valued logic with Bayesian inference and the Dempster-Shafer theory, allowing that no non-tautological belief is completely (100%) irrefutable because it must be based upon incomplete, abstracted, interpreted, likely unconfirmed, potentially uninformed, and possibly incorrect knowledge (of course, this very assumption, if non-tautological, entails its own refutability, if by "refutable" we mean "not completely [100%] irrefutable").
+
+Notable figures
+Notable figures in the history and/or modern development of paraconsistent logic include:
+
+Alan Ross Anderson (United States, 1925–1973). One of the founders of relevance logic, a kind of paraconsistent logic.
+Florencio González Asenjo (Argentina, 1927-2013)
+Diderik Batens (Belgium)
+Nuel Belnap (United States, b. 1930) developed logical connectives of a four-valued logic.
+Jean-Yves Béziau (France/Switzerland, b. 1965). Has written extensively on the general structural features and philosophical foundations of paraconsistent logics.
+Ross Brady (Australia)
+Bryson Brown (Canada)
+Walter Carnielli (Brazil). The developer of the  possible-translations semantics,  a new semantics which makes paraconsistent logics applicable and philosophically understood.
+Newton da Costa (Brazil, 1929-2024). One of the first to develop formal systems of paraconsistent logic.
+Itala M. L. D'Ottaviano (Brazil)
+J. Michael Dunn (United States). An important figure in relevance logic.
+Carl Hewitt
+Stanisław Jaśkowski (Poland). One of the first to develop formal systems of paraconsistent logic.
+R. E. Jennings (Canada)
+David Kellogg Lewis (USA, 1941–2001). Articulate critic of paraconsistent logic.
+Jan Łukasiewicz (Poland, 1878–1956)
+Robert K. Meyer (United States/Australia)
+Chris Mortensen (Australia). Has written extensively on paraconsistent mathematics.
+Lorenzo Peña (Spain, b. 1944). Has developed an original line of paraconsistent logic, gradualistic logic (also known as transitive logic, TL), akin to fuzzy logic.
+Val Plumwood [formerly Routley] (Australia, b. 1939). Frequent collaborator with Sylvan.
+Graham Priest (Australia). Perhaps the most prominent advocate of paraconsistent logic in the world today.
+Francisco Miró Quesada (Peru). Coined the term paraconsistent logic.
+B. H. Slater (Australia). Another articulate critic of paraconsistent logic.
+Richard Sylvan [formerly Routley] (New Zealand/Australia, 1935–1996). Important figure in relevance logic and a frequent collaborator with Plumwood and Priest.
+Nicolai A. Vasiliev (Russia, 1880–1940). First to construct logic tolerant to contradiction (1910).

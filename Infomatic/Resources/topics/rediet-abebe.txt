@@ -1,0 +1,34 @@
+Rediet Abebe (Amharic: ረድኤት አበበ; born 1991) is an Ethiopian computer scientist working in algorithms and artificial intelligence. She is an assistant professor of computer science at the University of California, Berkeley. Previously, she was a Junior Fellow at the Harvard Society of Fellows.
+Abebe's research develops mathematical and computational frameworks for examining questions related to inequality and distributive justice. She co-founded the multi-institutional interdisciplinary research initiatives Mechanism Design for Social Good (MD4SG) and Black in AI.
+
+Early life and education
+Abebe was born in 1991 in Addis Ababa, Ethiopia, and grew up in the same city. She was educated in the Ethiopian National Curriculum at Nazareth School before winning a competitive merit-based scholarship to attend the International Community School of Addis Ababa for high school.
+Abebe attended Harvard University where she earned a Bachelor of Arts degree in mathematics and later a Master of Science degree in applied mathematics. As an undergraduate, she co-authored research papers in mathematics, physics, and public health. While at Harvard, Abebe contributed to The Harvard Crimson as a staff writer, where she focused on the Cambridge public school system (2009-2011).
+After college, she attended the University of Cambridge as the Governor William Shirley Scholar at Pembroke College. She completed Part III of the Mathematics Tripos and earned a Master of Advanced Studies in pure mathematics under the supervision of Imre Leader.
+Abebe completed her doctoral degree in computer science at Cornell University, where she was advised by Jon Kleinberg. Her dissertation made notable contributions across multiple fields in computer science, receiving the 2020 ACM SIGKDD Dissertation Award and an honorable mention for the ACM SIGecom Dissertation Award. She is the first Black woman to complete a Ph.D. in computer science in the university's history.
+
+Research and career
+Abebe's research develops techniques in AI and algorithms, with a focus on inequality and distributive justice. Her work includes algorithmic frameworks for examining issues in underserved populations.
+Abebe's interest in merging inequality studies and computer science stemmed both from her educational background in Ethiopia as well as her study of the Cambridge public schools through attendance of school board meetings. Through these experiences she emphasizes the potential social harms of inequitable algorithmic design in her work.
+Throughout 2019 Abebe served on the National Institutes of Health Working Group on AI along AI experts including Kate Crawford, Dina Katabi, Daphne Koller, and Eric Lander. The working group was tasked with developing a comprehensive report and recommendations, which were unanimously approved by the advisory committee to the director and NIH General Director Francis Collins.
+In 2019, Abebe was inducted into the Harvard Society of Fellows. She is the second Junior Fellow with a CS Ph.D., the first female computer scientist, and the first Black computer scientist in the Society's history.
+Abebe joined the department of electrical engineering and computer sciences at the University of California, Berkeley as an assistant professor, focused in the research areas of artificial intelligence; information, data, network, and communication sciences; and theory. She is the first Black female professor in the history of the department and the second in the history of the college of engineering.
+Abebe is a member of the Berkeley Artificial Intelligence Research Lab (BAIR); the Berkeley Institute for Data Science (BIDS); the Center for Information Technology Research in the Interest of Society - The Banatao Institute (CITRIS); and the Center for the Theoretical Foundations of Learning, Inference, Information, Intelligence, Mathematics, and Microeconomics at Berkeley (CLIMB). Abebe also leads the Berkeley Equity and Access in Algorithms, Mechanisms, and Optimization research group (BEAAMO).
+
+Mechanism Design for Social Good
+Abebe co-founded Mechanism Design for Social Good (MD4SG), a multi-disciplinary research collective that uses algorithms and mechanism design to tackle inequality, with Kira Goldner in 2016, alongside a multi-institutional reading group of 12 members. Abebe has since been co-organizing the initiative with Irene Lo and Ana-Andrea Stoica. MD4SG hosts an annual workshop series highlighting work and connecting the community of researchers committed to using algorithms to improve societal welfare. In 2021, she co-launched the ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization (EAAMO) and served as an inaugural Program Co-Chair.
+Abebe was honored as a pioneer in the 2019 MIT Technology Review's Innovators Under 35 in part for her work co-founding MD4SG. Her dissertation received the 2020 ACM SIGKDD Dissertation Award and an honorable mention for the ACM SIGecom Dissertation Award for offering foundations of this emerging research area.
+
+Black in AI
+Abebe co-founded Black in AI, a network of 1,500 researchers working on AI, with Timnit Gebru, in 2016. The organization arranges annual workshops at the Conference on Neural Information Processing Systems (NeurIPS) and offers networking and collaborative opportunities. Through Black in AI, Abebe has spearheaded the Academic Program, for which she was honored in the 2019 Bloomberg 50 list as a one to watch.
+
+Awards and honors
+2018: Bloomberg 50, One to Watch.
+2018: Harvard-Cambridge Fellowship, Harvard.
+2019: Harvard Society of Fellows, Junior Fellow.
+2019: MIT Technology Review, 35 Under 35.
+2020: ACM SIGKDD Dissertation Award.
+2020: ACM SIGecom Dissertation Award (honorable mention).
+2020: Innovation for Equity, Rising Star Award.
+2020: 100 Most Influential Young Africans, African Youth Awards.
+2022: Class of Andrew Carnegie Fellows.

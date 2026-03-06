@@ -1,0 +1,42 @@
+Trustworthy AI refers to artificial intelligence systems that are designed to have transparent reasoning, are explainable (XAI), accountable, robust, fair and honest, respectful of data privacy, and steerable or alignable with human goals.
+
+Terminology
+Recent work in AI ethics distinguishes trustworthiness and trustability as two different conditions relevant to trustworthy AI. Trustworthiness is concerned with whether an AI system or the institutions deploying it merit trust by being reliable, fair, and accountable. Trustability, on the other hand, is the prior question of whether a given entity is even the kind of thing to which interpersonal trust can coherently apply as opposed to mere instrumental reliance. Some philosophers argue that current AI systems are best understood as tools that are not genuine targets of interpersonal trust. They argue that trust should be directed toward the human and institutional arrangements that govern the systems' design, deployment, and oversight. This stance supports interpreting "trustworthy AI" as trustworthy governance and use of AI rather than trust in the artifacts themselves.
+Transparency in AI involves making the processes and decisions of such systems understandable to users and stakeholders. Accountability ensures that there are protocols for addressing adverse outcomes or biases that may arise, with designated responsibilities for oversight and remediation. Robustness and security aim to ensure that AI systems perform reliably under various conditions and are safeguarded against malicious attacks.
+Harmlessness can be achieved by refusal training: training the models to avoid problematic requests, and by adding filters to detect and prevent discussion on biased, unethical, or dangerous outputs.
+There is research on how to train AI so that it aligns with human goals.
+
+Techniques and ITU standardization
+Trustworthy AI creation is a goal of AI governance and policymaking. To achieve transparency and data privacy, several privacy-enhancing technologies (PETs) can be used. These include:
+
+Homomorphic encryption for computing with encrypted data without ever decrypting it.
+Federated learning and secure multi-party computation (MPC) for distributing the model training without sharing information between the learning centers and computing servers.
+Differential privacy for exposing statistical data while guaranteeing that no private information is exposed.
+Zero-knowledge proof - providing proven validity for statements without disclosing any extra information.
+A work programme for achieving Trustworthy AI was set up by the International Telecommunication Union, an agency of the United Nations, initiated under its AI for Good programme. Its origin lies with the ITU-WHO Focus Group on Artificial Intelligence for Health, where a strong need for both privacy and analytics created demand for a standard in these technologies.
+In 2020, AI for Good moved online, and the TrustworthyAI seminar series was established to initiate discussions on these topics. This eventually led to standardization activities.
+
+Multi-party computation
+Secure multi-party computation (MPC) is being standardized under "Question 5" (the incubator) of ITU-T Study Group 17.
+
+Homomorphic encryption
+Homomorphic encryption allows for computing on encrypted data, where the outcomes or result is still encrypted and unknown to those performing the computation, but can be deciphered by the original encryptor. It is often developed with the goal of enabling use in jurisdictions different from the data creation (under, for instance, GDPR).
+ITU has been collaborating since the early stage of the HomomorphicEncryption.org standardization meetings, which has developed a standard on homomorphic encryption. The fifth homomorphic encryption meeting was hosted at ITU HQ in Geneva.
+
+Federated learning
+Zero-sum masks as used by federated learning for privacy preservation are used extensively in the multimedia standards of ITU-T Study Group 16 (VCEG) such as JPEG, MP3, H.264, and H.265 (commonly known as MPEG).
+
+Zero-knowledge proof
+Previous pre-standardization work on the topic of zero-knowledge proof has been conducted in the ITU-T Focus Group on Digital Ledger Technologies.
+
+Differential privacy
+The application of differential privacy in the preservation of privacy was examined at several of the "Day 0" machine learning workshops at AI for Good Global Summits.
+
+Mozilla "Rebel Alliance"
+In January 2026, the Mozilla Foundation and its subsidiaries announced a strategic shift to deploy their entire $1.4 billion reserve into building what foundation president Mark Surman termed a "rebel alliance" for trustworthy AI. Framed by Surman as a mission-driven alternative to the market dominance of OpenAI and Anthropic, the initiative seeks to establish an open-source AI stack by 2028.
+The alliance includes several startups funded via Mozilla Ventures, specifically focusing on decentralized governance and transparency:
+
+Trail: A firm developing AI compliance frameworks for regulated industries.
+Transformer Lab: A developer of open-source tools for AI model management.
+Oumi: A platform for training and deploying open-source models.
+The "rebel alliance" terminology is a historical reference to Mozilla's efforts in 1998 to challenge Microsoft's browser monopoly. While the $1.4 billion in funding is significant, it has been contrasted with the tens of billions in capital raised by proprietary competitors like OpenAI.

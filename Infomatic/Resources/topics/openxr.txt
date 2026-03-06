@@ -1,0 +1,53 @@
+OpenXR is an open-source, royalty-free standard for interfacing with virtual reality and augmented reality devices. It is developed by a working group managed by the Khronos Group consortium. OpenXR was announced by the Khronos Group on February 27, 2017, during GDC 2017. A provisional version of the standard was released on March 18, 2019, to enable developers and implementers to provide feedback on it. On July 29, 2019, OpenXR 1.0 was released to the public by Khronos Group at SIGGRAPH 2019 and on April 15, 2024, OpenXR 1.1 was released by Khronos.
+Reviewers of the 0.90 provisional release considered that the aim of OpenXR was to "Solve AR/VR Fragmentation".
+
+Architecture
+The standard provides an API aimed for application developers targeting virtual reality and augmented reality devices. This enables developers to build applications that will work across a wide variety of devices.
+The fundamental elements of this API are:
+
+XrSpace: a representation of the 3D space
+XrInstance: a representation of the OpenXR runtime
+System and XrSystemId: a representation of the devices, including the virtual reality or augmented reality devices and controllers
+XrActions: used to handle user inputs
+XrSession: represents the interaction session between the application and the user
+The full specification can be found via the OpenXR Registry on GitHub.
+
+Implementations
+The Khronos Group maintains the list of OpenXR-conformant platforms and products.
+Currently conformant OpenXR platforms are:
+
+Acer's Spatial Display Series
+Bytedance's Neo3 and PICO4
+Canon's MREAL platform display and headsets
+Collabora Monado Runtime for GNU/Linux, with the release of version 21.0.0 in February 2021
+HTC VIVE Cosmos and VIVE Focus 3, part of HTC's VIVERSE ecosystem
+Magic Leap 2
+Meta's PC platform and its Quest line of devices, with full support OpenXR 1.0 added in July 2021
+Microsoft HoloLens 2 and the Windows Mixed Reality headsets
+Qualcomm Snapdragon Spaces XR Developer Platform
+Sony's Spatial Reality Displays (ELF-SR1 & ELF-SR2)
+Valve SteamVR, since version 1.16 in February 2021
+Varjo headsets
+
+Game and rendering engine support
+Support for OpenXR application development can be found in the following engines:
+
+Unreal Engine, with initial support in the 4.24
+Blender, with initial support in the 2.83 LTS release from June 2020
+Unity, with initial support in the 2020.2 release from December 2020
+Godot, with initial support in the 4.0
+Autodesk VRED
+StereoKit, developed around OpenXR
+Nvidia Omniverse
+Unigine since version 2.19 from August 2024.
+S&box
+
+Browser support
+Google Chrome and Microsoft Edge web browsers both enable WebXR support using OpenXR by default using the Chromium code base
+
+Roadmap
+After the release of OpenXR 1.0, progress will likely be driven through the development of extensions to the core API. This can be seen in the subsequent release of extensions for support of hand tracking and eye gaze tracking.
+As implementers and developers get more experience with the extensions, they could get integrated into the core OpenXR API in future releases.
+
+Contributors
+The following companies are listed by Khronos as public supporters of OpenXR:

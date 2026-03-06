@@ -1,0 +1,23 @@
+Pandora FMS (for Pandora Flexible Monitoring System) is software for monitoring computer networks. Pandora FMS allows monitoring in a visual way the status and performance of several parameters from different operating systems, servers, applications and hardware systems such as firewalls, proxies, databases, web servers or routers.
+Pandora FMS can be deployed in almost any operating system. It features remote monitoring (WMI, SNMP, TCP, UDP, ICMP, HTTP...) and it can also use agents. An agent is available for each platform. It can also monitor hardware systems with a TCP/IP stack, such as load balancers, routers, network switches, printers or firewalls.
+Pandora FMS has several servers that process and get information from different sources, using WMI for gathering remote Windows information, a predictive server, a plug-in server which makes complex user-defined network tests, an advanced export server to replicate data between different sites of Pandora FMS, a network discovery server, and an SNMP Trap console.
+Released under the terms of the GNU General Public License, Pandora FMS is free software. At first the project was hosted on SourceForge.net, from where it has been downloaded over one million times, and selected the “Staff Pick” Project of the Month, June 2016, and elected “Community Choice” Project of the Month, November 2017.
+
+Components
+Pandora Server
+In Pandora FMS architecture, servers are the core of the system because they are the recipients of bundles of information. They also generate monitoring alerts. It is possible to have different modular configurations for the servers: several servers for very big systems, or just a single server. Servers are also responsible for inserting the gathered data into Pandora's database. It is possible to have several Pandora Servers connected to a single Database. Different servers are used for different kind of monitoring: remote monitoring, WMI monitoring, SNMP and other network monitoring, inventory recollection, etc. Highly scalable (up to 2000 nodes with one single server), completely web-driven and a multitenant interface. It has a very flexible ACL system and a lot of graphical reports and user-defined control screens.
+Servers are developed in Perl and work on any platform that has the required modules. Pandora was originally developed for
+
+Web console
+Pandora's user interface allows people to operate and manage the monitoring system. It is developed in PHP and depends on a database and a web server. It can work in a wide range of platforms: Linux, Solaris, Windows, AIX and others. Several web consoles can be deployed in the same system if required. Web Console has multiples choices, in example SNMP monitoring.
+
+Agents
+Agents are daemons or services that can monitor any numeric parameter, Boolean status, string or numerical incremental data and/or condition. They can be developed in any language (as Shellscript, WSH, Perl or C). They run on any type of platform (Microsoft, AIX, Solaris, Linux, IPSO, Mac OS or FreeBSD), also SAP, because the agents can communicate with the Pandora FMS Servers to send data in XML using SSH, FTP, NFS, Tentacle (protocol) or any data transfer means.
+
+Database
+The database module is the core module of Pandora. All the information of the system resides here. For example, all data gathered by agents, configuration defined by administrator, events, incidents, audit info, etc. are stored in the database. At present, MySQL database and MariaDB database is supported. Oracle support has been added in 6.0 release.
+
+Software appliances
+Pandora FMS has a software appliance based on a customized CentOS Linux, installable on CD, comes ready to use (including a live CD) or ready to install to hard disk.
+It have also an AMI Appliance based on Amazon AWS.
+A Docker image is also available at Docker Hub.

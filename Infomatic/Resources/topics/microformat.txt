@@ -1,0 +1,93 @@
+Microformats (μF) are predefined HTML markup (like HTML classes) created to serve as descriptive and consistent metadata about elements, designating them as representing a certain type of data (such as contact information, geographic coordinates, events, products, recipes, etc.). They allow software to process the information reliably by having set classes refer to a specific type of data rather than being arbitrary.
+Microformats emerged around 2005 and were predominantly designed for use by search engines, web syndication and aggregators such as RSS. Google confirmed in 2020 that it still parses microformats for use in content indexing. Microformats are referenced in several W3C social web specifications, including IndieAuth  and Webmention.
+Although the content of web pages has been capable of some "automated processing" since the inception of the web, such processing is difficult because the markup elements used to display information on the web do not describe what the information means. Microformats can bridge this gap by attaching semantics, and thereby obviating other, more complicated, methods of automated processing, such as natural language processing or screen scraping. The use, adoption and processing of microformats enables data items to be indexed, searched for, saved or cross-referenced, so that information can be reused or combined.
+As of 2013, microformats allow the encoding and extraction of event details, contact information, social relationships and similar information.
+Microformats2, abbreviated as mf2, is the updated version of microformats. Mf2 provides an easier way of interpreting HTML structured syntax and vocabularies than the earlier ways that made use of RDFa and microdata.
+
+Background
+Microformats emerged around 2005 as part of a grassroots movement to make recognizable data items (such as events, contact details or geographical locations) capable of automated processing by software, as well as directly readable by end-users. Link-based microformats emerged first. These include vote links that express opinions of the linked page, which search engines can tally into instant polls.
+CommerceNet, a nonprofit organization that promotes e-commerce on the Internet, has helped sponsor and promote the technology and support the microformats community in various ways. CommerceNet also helped co-found the Microformats.org community site.
+Neither CommerceNet nor Microformats.org operates as a standards body. The microformats community functions through an open wiki, a mailing list, and an Internet relay chat (IRC) channel. Most of the existing microformats originated at the Microformats.org wiki and the associated mailing list by a process of gathering examples of web-publishing behaviour, then codifying it. Some other microformats (such as rel=nofollow and unAPI) have been proposed, or developed, elsewhere.
+
+Technical overview
+XHTML and HTML standards allow for the embedding and encoding of semantics within the attributes of markup elements. Microformats take advantage of these standards by indicating the presence of metadata using the following attributes:
+
+class
+Classname
+rel
+relationship, description of the target address in an anchor-element (<a href=... rel=...>...</a>)
+rev
+reverse relationship, description of the referenced document (in one case, otherwise deprecated in microformats)
+For example, in the text "The birds roosted at 52.48, -1.89" is a pair of numbers which may be understood, from their context, to be a set of geographic coordinates. With wrapping in spans (or other HTML elements) with specific class names (in this case geo, latitude and longitude, all part of the geo microformat specification):
+
+
+Software agents can recognize exactly what each value represents and can then perform a variety of tasks such as indexing, locating it on a map and exporting it to a GPS device.
+
+Examples
+In this example, the contact information is presented as follows:
+
+
+With hCard microformat markup, that becomes:
+
+
+Here, the formatted name (fn), organisation (org), telephone number (tel) and web address (url) have been identified using specific class names and the whole thing is wrapped in class="vcard", which indicates that the other classes form an hCard (short for "HTML vCard") and are not merely coincidentally named. Other, optional, hCard classes also exist. Software, such as browser plug-ins, can now extract the information, and transfer it to other applications, such as an address book.
+
+Specific microformats
+Several microformats have been developed to enable semantic markup of particular types of information. However, only hCard and hCalendar have been ratified, the others remaining as drafts:
+
+hAtom (superseded by h-entry and h-feed) – for marking up Atom feeds from within standard HTML
+hCalendar – for events
+hCard – for contact information; includes:
+adr – for postal addresses
+geo – for geographical coordinates (latitude, longitude)
+hMedia – for audio/video content
+hAudio – for audio content
+hNews –  for news content
+hProduct – for products
+hRecipe – for recipes and foodstuffs.
+hReview – for reviews
+rel-directory – for distributed directory creation and inclusion
+rel-enclosure – for multimedia attachments to web pages
+rel-license – specification of copyright license
+rel-nofollow, an attempt to discourage third-party content spam (e.g. spam in blogs)
+rel-tag – for decentralized tagging (Folksonomy)
+XHTML Friends Network (XFN) – for social relationships
+XOXO – for lists and outlines
+
+Uses
+Using microformats within HTML code provides additional formatting and semantic data that applications can use. For example, applications such as web crawlers can collect data about online resources, or desktop applications such as e-mail clients or scheduling software can compile details. The use of microformats can also facilitate "mash ups" such as exporting all of the geographical locations on a web page into (for example) Google Maps to visualize them spatially.
+Several browser extensions, such as Operator for Firefox and Oomph for Internet Explorer, provide the ability to detect microformats within an HTML document. When hCard or hCalendar are involved, such browser extensions allow microformats to be exported into formats compatible with contact management and calendar utilities, such as Microsoft Outlook. When dealing with geographical coordinates, they allow the location to be sent to applications such as Google Maps. Yahoo! Query Language can be used to extract microformats from web pages. On 12 May 2009 Google announced that they would be parsing the hCard, hReview and hProduct microformats, and using them to populate search result pages. They subsequently extended this in 2010 to use hCalendar for events and hRecipe for cookery recipes. Similarly, microformats are also processed by Bing and Yahoo!. As of late 2010, these are the world's top three search engines.
+Microsoft said in 2006 that they needed to incorporate microformats into upcoming projects, as did other software companies.
+Alex Faaborg summarizes the arguments for putting the responsibility for microformat user interfaces in the web browser rather than making more complicated HTML:
+
+Only the web browser knows what applications are accessible to the user and what the user's preferences are
+It lowers the barrier to entry for web site developers if they only need to do the markup and not handle "appearance" or "action" issues
+Retains backwards compatibility with web browsers that do not support microformats
+The web browser presents a single point of entry from the web to the user's computer, which simplifies security issues
+
+Evaluation
+Various commentators have offered review and discussion on the design principles and practical aspects of microformats. Microformats have been compared to other approaches that seek to serve the same or similar purpose. As of 2007, there had been some criticism of one, or all, microformats. The spread and use of microformats was being advocated as of 2007. Opera Software CTO and CSS creator Håkon Wium Lie said in 2005 "We will also see a bunch of microformats being developed, and that’s how the semantic web will be built, I believe." However, in August 2008 Toby Inkster, author of the "Swignition" (formerly "Cognition") microformat parsing service, pointed out that no new microformat specifications had been published since 2005.
+
+Design principles
+Computer scientist and entrepreneur, Rohit Khare stated that reduce, reuse, and recycle is "shorthand for several design principles" that motivated the development and practices behind microformats. These aspects can be summarized as follows:
+
+Reduce: favor the simplest solutions and focus attention on specific problems;
+Reuse: work from experience and favor examples of current practice;
+Recycle: encourage modularity and the ability to embed, valid XHTML can be reused in blog posts, RSS feeds, and anywhere else you can access the web.
+
+Accessibility
+Because some microformats make use of title attribute of HTML's <abbr> element to conceal machine-readable data (particularly date-times and geographical coordinates) in the "abbr design pattern", the plain text content of the element is inaccessible to screen readers that expand abbreviations. In June 2008 the BBC announced that it would be dropping use of microformats using the abbr design pattern because of accessibility concerns.
+
+Comparison with alternative approaches
+Microformats are not the only solution for providing "more intelligent data" on the web; alternative approaches are used and are under development. For example, the use of XML markup and standards of the Semantic Web are cited as alternative approaches. Some contrast these with microformats in that they do not necessarily coincide with the design principles of "reduce, reuse, and recycle", at least not to the same extent.
+
+One advocate of microformats, Tantek Çelik, characterized a problem with alternative approaches: Here's a new language we want you to learn, and now you need to output these additional files on your server. It's a hassle. (Microformats) lower the barrier to entry.
+For some applications the use of other approaches may be valid. If the type of data to be described does not map to an existing microformat, RDFa can embed arbitrary vocabularies into HTML, such as for example domain-specific scientific data such as zoological or chemical data for which there is no microformat. Standards such as W3C's GRDDL allow microformats to be converted into data compatible with the Semantic Web.
+
+Another advocate of microformats, Ryan King, put the compatibility of microformats with other approaches this way: Microformats provide an easy way for many people to contribute semantic data to the web. With GRDDL all of that data is made available for RDF Semantic Web tools. Microformats and GRDDL can work together to build a better web.
+
+Microformats 2
+Microformats2 was proposed and discussed during FOOEast, 2010-05-02. Microformats2 was intended to make it easier for authors to publish microformats and for developers to consume them, while remaining backwards compatible
+Using microformats2, the example above would be marked up as:
+
+and:

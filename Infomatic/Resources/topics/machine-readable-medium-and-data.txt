@@ -1,0 +1,46 @@
+In communications and computing, a machine-readable medium (or computer-readable medium) is a medium capable of storing data in a format easily readable by a digital computer or a sensor.
+It contrasts with human-readable medium and data.
+The result is called machine-readable data or computer-readable data, and the data itself can be described as having machine-readability.
+
+Data
+Machine-readable data must be structured data.
+Attempts to create machine-readable data occurred as early as the 1960s. At the same time that seminal developments in machine-reading and natural-language processing were releasing (like Weizenbaum's ELIZA), people were anticipating the success of machine-readable functionality and attempting to create machine-readable documents. One such example was musicologist Nancy B. Reich's creation of a machine-readable catalog of composer William Jay Sydeman's works in 1966.
+In the United States, the OPEN Government Data Act of 14 January 2019 defines machine-readable data as "data in a format that can be easily processed by a computer without human intervention while ensuring no semantic meaning is lost."  The law directs U.S. federal agencies to publish public data in such a manner, ensuring that "any public data asset of the agency is machine-readable".
+Machine-readable data may be classified into two groups: human-readable data that is marked up so that it can also be read by machines (e.g. microformats, RDFa, HTML), and data file formats intended principally for processing by machines (CSV, RDF, XML, JSON). These formats are only machine readable if the data contained within them is formally structured; exporting a CSV file from a badly structured spreadsheet does not meet the definition.
+Machine readable is not synonymous with digitally accessible. A digitally accessible document may be online, making it easier for humans to access via computers, but its content is much harder to extract, transform, and process via computer programming logic if it is not machine-readable.
+Extensible Markup Language (XML) is designed to be both human- and machine-readable, and Extensible Stylesheet Language Transformations (XSLT) is used to improve the presentation of the data for human readability. For example, XSLT can be used to automatically render XML in Portable Document Format (PDF). Machine-readable data can be automatically transformed for human-readability but, generally speaking, the reverse is not true.
+For purposes of implementation of the Government Performance and Results Act (GPRA) Modernization Act, the Office of Management and Budget (OMB) defines "machine readable format" as follows:  "Format in a standard computer language (not English text) that can be read automatically by a web browser or computer system. (e.g.; xml). Traditional word processing documents and portable document format (PDF) files are easily read by humans but typically are difficult for machines to interpret. Other formats such as extensible markup language (XML), (JSON), or spreadsheets with header columns that can be exported as comma separated values (CSV) are machine readable formats. As HTML is a structural markup language, discreetly labeling parts of the document, computers are able to gather document components to assemble tables of contents, outlines, literature search bibliographies, etc. It is possible to make traditional word processing documents and other formats machine readable but the documents must include enhanced structural elements."
+
+Media
+Examples of machine-readable media include magnetic media such as magnetic disks, cards, tapes, and drums, punched cards and paper tapes, optical discs, barcodes and magnetic ink characters.
+Common machine-readable technologies include magnetic recording, processing waveforms, and barcodes. Optical character recognition (OCR) can be used to enable machines to read information available to humans. Any information retrievable by any form of energy can be machine-readable.
+Examples include:
+
+Acoustics
+Chemical
+Photochemical
+Electrical
+Semiconductor used in volatile RAM microchips
+Floating-gate transistor used in  non-volatile memory cards
+Radio transmission
+Magnetic storage
+Mechanical
+Tins And Swins
+Punched card
+Paper tape
+Music roll
+Music box cylinder or disk
+Grooves  (See also: Audio Data)
+Phonograph cylinder
+Gramophone record
+DictaBelt (groove on plastic belt)
+Capacitance Electronic Disc
+Optics
+Optical storage
+Thermodynamic
+
+Applications
+Documents
+Catalogs
+Dictionaries
+Passports

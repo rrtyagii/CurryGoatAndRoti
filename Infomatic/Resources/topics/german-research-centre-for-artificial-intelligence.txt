@@ -1,0 +1,62 @@
+The German Research Center for Artificial Intelligence (German: Deutsches Forschungszentrum für Künstliche Intelligenz; DFKI) was founded in 1988 as a non-profit public-private partnership. It has research facilities in Kaiserslautern, Saarbrücken, Bremen, Oldenburg, and Osnabrück, as well as laboratories in Berlin, Darmstadt, and Lübeck, and a branch office in Trier. In the field of innovative commercial software technology using artificial intelligence, DFKI is the leading research center in Germany.
+Based on application-oriented basic research, DFKI develops product functions, prototypes, and patentable solutions in the field of information and communication technology. Research and development projects are conducted in 27 research departments, ten competence centers, and eight living labs. Funding is received from government agencies like the European Union, the Federal Ministry of Research, Technology and Space (BMFTR), the Federal Ministry for Economic Affairs and Energy (BMWK), the German Federal States, and the German Research Foundation (DFG), as well as from cooperation with industrial partners. Twice a year, a committee of internationally renowned experts (Scientific Advisory Board) audits the progress and results of state-funded projects.
+
+The company is headquartered in Kaiserslautern. The management consists of the two executive directors, Prof. Antonio Krüger (CEO) and Helmut Ditzer (CFO), and the site managers of Bremen, Kaiserslautern, Lower Saxony (Oldenburg/Osnabrück), and Saarbrücken.
+
+Research
+The German Research Center for Artificial Intelligence (DFKI), founded in 1988, is a leading research institution focused on intelligent software technologies, with an emphasis on both scientific excellence and societal relevance. DFKI's research spans the full range of artificial intelligence topics, including data management and analysis, image recognition, language comprehension, virtual and augmented reality, human-machine interaction, autonomous and adaptive systems, robotics, and IT security. By covering everything from basic research to industrial product development, DFKI aims to facilitate the transfer of AI technologies into both the economy and broader society.
+DFKI’s work addresses not only technological advancements but also incorporates critical aspects such as ethics, security, social responsibility, and environmental sustainability. The research center develops AI-driven solutions for healthcare, such as systems that assist in diagnosing and treating diseases, easing the workload for medical personnel. Its research also includes autonomous robots capable of operating in extreme environments, including disaster zones and deep-sea locations. Additionally, DFKI creates AI applications that promote efficiency and sustainability across sectors like agriculture, manufacturing, and energy. DFKI collaborates extensively with national and international partners from industry and academia, driving innovation in AI for societal benefit.
+
+History
+DFKI led the national project Verbmobil, a project with the aim to translate spontaneous speech robustly and bidirectionally for German/English and German/Japanese.
+
+Branches
+The following research departments are located at the respective sites:
+
+Berlin
+Cognitive Assistants (Antonio Krüger)
+Design Research eXplorations  (Gesche Joost)
+Educational Technology Lab (Niels Pinkwart)
+Intelligent Analytics for Massive Data (Volker Markl)
+Speech and Language Technology (Sebastian Möller)
+
+Bremen
+Robotics Innovation Center  (Frank Kirchner)
+Cyber Physical Systems (Rolf Drechsler)
+
+Darmstadt
+Foundations of Systems AI (Kristian Kersting)
+Systems AI for Decision Support (Carsten Binnig)
+Systems AI for Robot Learning (Jan Peters)
+
+Kaiserslautern
+Augmented Vision (Didier Stricker)
+Data Science & its Applications (Sebastian Vollmer)
+Embedded Intelligence (Paul Lukowicz)
+Innovative Factory Systems (Martin Ruskowski)
+Intelligent Networks (Hans Dieter Schotten)
+Smart Data & Knowledge Services (Andreas Dengel)
+
+Lübeck
+AI for Assistive Health Technologies (Marcin Grzegorzek)
+AI in Medical Imaging and Signal Processing (Heinz Handels)
+
+Oldenburg
+Marine Perception (Frederic Theodor Stahl)
+Interactive Machine Learning (Daniel Sonntag)
+
+Osnabrück
+Cooperative and Autonomous Systems (Martin Atzmüller)
+Smart Enterprise Engineering (Oliver Thomas)
+
+Saarbrücken
+Agents and Simulated Reality (Philipp Slusallek)
+Cognitive Assistants (Antonio Krüger)
+Institute for Information Systems (Peter Loos)
+Multilinguality and Language Technology (Simon Ostermann)
+Neuro-Mechanistic Modeling (Verena Wolf)
+Smart Service Engineering (Wolfgang Maaß)
+
+Trier
+Cognitive Social Simulation (Ingo Timm)
+Experience-based Learning Systems (Ralph Bergmann)

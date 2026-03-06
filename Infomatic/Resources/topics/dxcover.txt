@@ -1,0 +1,14 @@
+Dxcover Limited is a Scottish company which was founded on 16 May 2016. It is based in Glasgow, UK. It combines novel hardwares with artificial intelligence algorithms. Patients' blood samples are analysed by scientists to detect the presence of diseases. It is a clinical stage liquid biopsy company and uses artificial intelligence algorithms for early detection of cancers and other diseases to improve survival rates. Its marketplaces are located in the US, UK and EU. The company aims to detect early stage (Stage I and Stage II) of cancers.
+
+History
+The company was previously named as ClinSpec Diagnostics Limited between 16 May 2016 and 26 April 2021. It is spun out from the University of Strathclyde, Glasgow. After that, it is rebranded as Dxcover Limited in 2021.
+
+Technology
+Dxcover has developed 'Drop, Dry, Detect' technology which technically detects and works in minutes to detect signs of cancer using artificial intelligence trained model.
+Panoramic platform is a multi-omic spectral analysis (MOSA) technology for various cancers which are brain, advanced adenoma, colorectal, and lung cancer. This technology analyses the signals that were missed by traditional cancer detection methods.
+For brain tumors, there is no biomarker test available. The test algorithm makes use of the complete biological profile of the patient's serum sample rather than concentrating on a single biomarker for illness. Results are accessible in minutes, and no specialized sample preparation is needed.
+
+Funding
+Based on research conducted at Strathclyde University, Dxcover Limited has raised over £10 million for its technology that enables the early diagnosis of numerous malignancies.
+Existing investors lead by Eos Advisory LLP contributed £7.5 million in Series A funding, with further contributions from the University of Strathclyde, Mercia Fund Management, Scottish Enterprise, Social Investment Scotland Ventures, and Norcliffe Capital. As Dxcover continues to expand its U.S. network, Boston-based life science investor Mark Bamforth of Thairm Bio also joined the round.
+The European Innovation Council also awarded the firm a £2.2 million grant.

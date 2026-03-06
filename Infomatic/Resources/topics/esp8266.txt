@@ -1,0 +1,76 @@
+The ESP8266 is a low-cost Wi-Fi microchip, with built-in TCP/IP networking software, and microcontroller capability, produced by Espressif Systems in Shanghai, China.
+The chip was popularized in the English-speaking maker community in August 2014 via the ESP-01 module, made by a third-party manufacturer Ai-Thinker. This small module allows microcontrollers to connect to a Wi-Fi network and make simple TCP/IP connections using Hayes-style commands. However, at first, there was almost no English-language documentation on the chip and the commands it accepted. The very low price and the fact that there were very few external components on the module, which suggested that it could eventually be very inexpensive in volume, attracted many hackers to explore the module, the chip, and the software on it, as well as to translate the Chinese documentation.
+The ESP8285 is a similar chip with a built-in 1 MiB flash memory, allowing the design of single-chip devices capable of connecting via Wi-Fi.
+These microcontroller chips have been succeeded by the ESP32 family of devices.
+
+Features
+Processor: L106 32-bit RISC microprocessor core based on the Tensilica Diamond Standard 106Micro running at 80 or 160 MHz
+Memory of 160 Kbytes of RAM which are segmented into:
+32 KB instruction RAM (iRAM)
+32 KB instruction cache RAM
+96 KB of dRAM which are segmented into 80 KB dRAM for SDK and heap memory, and 16 KB for ROM
+External QSPI flash: up to 16 MiB is supported (512 KiB to 4 MiB typically included)
+IEEE 802.11 b/g/n Wi-Fi
+Integrated TR switch, balun, LNA, power amplifier and matching network
+WEP or WPA/WPA2 authentication, or open networks
+17 GPIO pins
+Serial Peripheral Interface Bus (SPI)
+I²C (software implementation)
+I²S interfaces with DMA (sharing pins with GPIO)
+UART on dedicated pins, plus a transmit-only UART can be enabled on GPIO2
+10-bit ADC (successive approximation ADC)
+
+Pinout of ESP-01
+The pinout is as follows for the common ESP-01 module:
+
+GND, Ground (0 V)
+GPIO 2, General-purpose input/output No. 2
+GPIO 0, General-purpose input/output No. 0
+RX, Receive data in, also GPIO3
+VCC, Voltage (+3.3 V; can handle up to 3.6 V)
+RST, Reset
+CH_PD, Chip power-down
+TX, Transmit data out, also GPIO1
+
+SDKs
+In October 2014, Espressif Systems released a software development kit (SDK) for programming the chip directly, which removed the need for a separate microcontroller. Since then, there have been many official SDK releases from Espressif; Espressif maintains two versions of the SDK — one that is based on FreeRTOS and the other based on callbacks.
+An alternative to Espressif's official SDK is the open-source ESP-Open-SDK that is based on the GNU Compiler Collection (GCC) toolchain, maintained by Max Filippov. Another alternative is the "Unofficial Development Kit" by Mikhail Grigorev.
+Other SDKs, mostly open-source, include:
+
+Arduino — A C++-based firmware. With this core, the ESP8266 CPU and its Wi-Fi components can be programmed like any other Arduino device. The ESP8266 Arduino Core is available through GitHub.
+ESP8266 BASIC — An open-source BASIC-like interpreter specifically tailored for the Internet of Things (IoT). Self-hosting browser-based development environment.
+ESP Easy — Developed by home automation enthusiasts.
+ESPHome — ESPHome is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through home automation systems.
+Tasmota - open-source firmware, for home automation.
+ESP-Open-RTOS — Open-source FreeRTOS-based ESP8266 software framework.
+ESP-Open-SDK — Free and open (as much as possible) integrated SDK for ESP8266/ESP8285 chips.
+Espruino — An actively maintained JavaScript SDK and firmware, closely emulating Node.js. Supports a few MCUs, including the ESP8266.
+ESPurna — Open-source ESP8285/ESP8266 firmware.
+Forthright — Port of Jones Forth to the ESP8266 microcontroller.
+MicroPython — A port of MicroPython (an implementation of Python for embedded devices) to the ESP8266 platform.
+Moddable SDK — includes JavaScript language and library support for the ESP8266
+Mongoose OS — An open-source operating system for connected products. Supports ESP8266 and ESP32. Develop in C or JavaScript.
+NodeMCU — A Lua-based firmware.
+PlatformIO — A cross-platform IDE and unified debugger, which sits on top of Arduino code and libraries.
+Punyforth — Forth-inspired programming language for the ESP8266.
+Sming — An actively developed asynchronous C/C++ framework with superb performance and multiple network features.
+uLisp — A version of the Lisp programming language specifically designed to run on processors with a limited amount of RAM.
+ZBasic for ESP8266 — A subset of Microsoft's widely-used Visual Basic 6, which has been adapted as a control language for the ZX microcontroller family and the ESP8266.
+Zerynth — IoT framework for programming ESP8266 and other microcontrollers in Python.
+IOTBAH - is An operating system (OS) for Espressif ESP8266
+EspOS Webserver, easy IoT solution.
+
+Espressif modules
+This is the series of ESP8266-based modules made by Espressif:
+
+In the table above (and the two tables which follow), "Active pins" include the GPIO and ADC pins with which external devices can be attached to the ESP8266 MCU. The "Pitch" is the space between pins on the ESP8266 module, which is important to know if the device will be used on a breadboard. The "Form factor" also describes the module packaging as "2 × 9 DIL", meaning two rows of 9 pins arranged "Dual In Line", like the pins of DIP ICs. Many ESP-xx modules include a small onboard LED which can be programmed to blink and thereby indicate activity. There are several antenna options for ESP-xx boards including a trace antenna, an onboard ceramic antenna, and an external connector that allows an external Wi-Fi antenna to be attached. Since Wi-Fi communications generate a lot of RFI (Radio Frequency Interference), governmental bodies like the FCC like shielded electronics to minimize interference with other devices. Some of the ESP-xx modules come housed within a metal box with an FCC seal of approval stamped on it. First and second world markets will likely demand FCC approval and shielded Wi-Fi devices.
+
+Ai-Thinker modules
+This is the first series of modules made with the ESP8266 by the third-party manufacturer Ai-Thinker and remains the most widely available. They are collectively referred to as "ESP-xx modules". To form a workable development system,  they require additional components, especially a serial TTL-to-USB adapter (sometimes called a USB-to-UART bridge) and an external 3.3 volt power supply. Novice ESP8266 developers are encouraged to consider larger ESP8266 Wi-Fi development boards like the NodeMCU which includes the USB-to-UART bridge and a Micro-USB connector coupled with a 3.3 volt power regulator already built into the board. When project development is complete, those components are not needed and these cheaper ESP-xx modules are a lower power, smaller footprint option for production runs.
+In the Notes column, Flash memory sizes apply to the given module and all those below it in the table. Exceptions which apply to a single module are shown in ().
+
+Other boards
+The reason for the popularity of many of these boards over the earlier ESP-xx modules is the inclusion of an on-board USB-to-UART bridge (like the Silicon Labs' CP2102 or the WCH CH340G) and a Micro-USB connector, coupled with a 3.3-volt regulator to provide both power to the board and connectivity to the host (software development) computer – commonly referred to as the console, making it an easy development platform. With earlier ESP-xx modules, these two items (the USB-to-serial adapter and the regulator) had to be purchased separately and be wired into the ESP-xx circuit. Modern ESP8266 boards like the NodeMCU are easier to work with and offer more GPIO pins. Most of the boards listed here are based on the ESP-12E module, but new modules are being introduced seemingly every few months.
+
+ESP32-C3
+In 2020, Espressif announced a new chip, ESP32-C3, which is pin-compatible with ESP8266. It is based on a single core RISC-V 32-bit CPU with a clock speed of up to 160 MHz. It includes 400 KiB of SRAM and 384 KiB ROM storage space built in.
