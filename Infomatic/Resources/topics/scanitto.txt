@@ -1,0 +1,17 @@
+Scanitto Pro is Windows-based software application for image scanning, direct printing and copying, basic editing and text recognition (OCR).
+
+History
+The program was first unveiled in 2009 as a spin-off of the scanning master software for Windows Scanitto Lite that replaced different standard scanning tools supplied with the TWAIN scanners. During the first years after invention, the software got the criticism from the independent reviewers for the absence of OCR features. In less than 2 years, the application included text recognition in English, closely followed by the French, German, Italian, Russian, and Spanish vocabularies. In 2011, the application has got its first award. By 2014, application supported 10 languages, followed by new features implementation: pictures upload to Dropbox and Google Drive cloud storage and posting to social media. In 2016, the application was reviewed by Korean author with a criticism for the absence of multi-core CPU support. By early 2017, the application is in the active development stage and was included in the Top5 applications in a category by Polish version of Computer Bild (Komputer Swiat) magazine.
+
+Product Overview
+Scanitto employs a TWAIN or WIA driver to interact with the scanner. The software does not include any post-processing filters so the image is scanned as is – output image quality and scanning speed may vary according to resolution, color depth, and device specifications. Once scanning is complete, the user can rotate the image, resize the output by trimming unwanted fragments and fix skews manually or automatically. Scanitto can also recognize simple texts with cleared formatting. The available output formats for text are TXT, RTF, and DOCX file extensions.
+
+Additional Features
+Pre-scanning with low resolution, and area selection
+Scanning into PDF, BMP, JPG, TIFF, JP2, and PNG
+Blank page skipping
+Support for sheet feed scanners
+Direct printing of scanned documents
+Multi-page PDF creation with embedded search
+Personalized scanning profiles (presets)
+Automatic and manual duplex scanning

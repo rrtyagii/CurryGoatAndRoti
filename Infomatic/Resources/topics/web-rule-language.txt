@@ -1,0 +1,1 @@
+The Web Rule Language (WRL) is a rule-based ontology language for the Semantic Web. The language is characterized by formal semantics.

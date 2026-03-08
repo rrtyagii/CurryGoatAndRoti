@@ -1,0 +1,61 @@
+Ismat Beg, FPAS, FIMA, (Urdu: عصمت بیگ; born January 1951) is a Pakistani mathematician and researcher. Beg is a Distinguished National Professor at Lahore School of Economics, Higher Education Commission and an honorary full professor at the Mathematics Division at the Ruggero Santilli Institute for Basic Research, Florida, US.
+Beg's scientific contributions cover a wide range of topics spanning fixed point theory and approximations, order structure, fuzzy sets and systems, artificial intelligence and multicriteria decision theory.
+
+Early life and education
+Ismat Beg was born in the small hilly village of Mohri Sharif, west of Kharian in 1951 to an immigrant Kashmiri family. He got his primary schooling in a village school "sitting under the trees". In 1961 his father took him to Risalpur and he was sent to Sapper Boys High School, Risalpur Cantt. After completing his matriculation 1966, he joined Zamindar College, Bhimber Road, Gujrat (now Government Zamindar College, Gujrat) for his Higher Secondary School Certificate and undergraduate degree. He obtained his master's from Government College, Lahore  (now Government College University).
+In 1977, Beg travelled to Romania on a scholarship and attended the West University of Timișoara for Romanian language and pre-doctoral courses and passed the PhD entrance exam for the University of Bucharest. He started his PhD in fall of 1978 under the supervision of academician and famous mathematician Romulus Cristescu. His area of research is ordered vector spaces and linear operators with specialization in integral representation of linear operators. He defended his thesis in December 1981 and the degree was awarded in 1982.
+
+Academic career
+Ismat Beg started teaching just after his PhD in 1982 and has taught at
+
+Lahore School of Economics
+Lahore University of Management Sciences
+Kuwait University
+Quaid-i-Azam University
+International Centre for Theoretical Physics
+Pakistan Navy Engineering College, National University of Sciences and Technology
+Nankai University
+University of Central Punjab
+He has published research papers in the fields of mathematics, computer science, economics, game theory, engineering, decision theory and social sciences that have been well cited by other researchers. He has contributed to the fields of fixed point theory, fuzzy set theory, order structures, preference modeling and multi-criteria multi-agent decision making. Beg has supervised 12 M.Phil. theses, 7 Ph.D. dissertations, and 10 post doctoral researchers. He is member of the editorial boards of
+
+Proceeding Pakistan Academy of Sciences
+Journal Function Spaces
+Gulf Journal of Mathematics
+Punjab University Journal of Mathematics
+Military Technical Courier (journal)
+
+Awards and honours
+Distinguished National Professor, Higher Education Commission (Pakistan)
+Prize, National Book Council of Pakistan, 1986
+Gold Medal, Pakistan Academy of Sciences 2008
+Visiting Mathematician / Associate Group Member / Senior Mathematician / Senior Guest Scientist, International Centre for Theoretical Physics Trieste, Italy, 1990–2010
+Academic Roll of Honor from Government College University (Lahore) 1972
+
+Fellowships and memberships
+Fellow of the Pakistan Academy of Sciences
+Fellow of the Institute of Mathematics and its Applications
+Fellow of International Artificial Intelligent Industry Alliance
+Fellow of The International Core Academy of Sciences and Humanities
+Senior Member London Mathematical Society
+Member, American Mathematical Society
+Member European Mathematical Society
+Chartered Mathematician
+Member, European Society for Fuzzy Logic and Technology working group "Intuitionistic Fuzzy Sets: Theory, Applications and Related Topics"
+Life member All Pakistan Mathematical Association
+
+Key publications
+1992. "Fixed points of asymptotically regular multivalued mappings", J. Austral. Math. Soc., (Series-A) 53(3), 313-326.
+1995. "Random extension theorems", J. Math. Anal. Appl., 196(1), 43-52.
+2000. "Fuzzy closed graph fuzzy multi-functions", Fuzzy Sets & Systems, 115(3), 451 – 454.
+2002 "Approximation of random fixed points in normed spaces", Nonlinear Anal.: Theory, Methods & Appl., 51(8), 1363-1372.
+2006. "Iterative procedures for solution of random operator equations in Banach spaces", J. Math. Anal. Appl., 315(1), 181-201.
+2009. "Similarity measures for fuzzy sets", Applied & Comp. Math., 8, 192-202
+2009. "Fixed point for set valued mappings satisfying an implicit relation in partially ordered metric spaces", Nonlinear Anal.: Theory, Methods & Appl., 71(9), 3699-3704
+2011. "Numerical representation of product transitive complete fuzzy orderings", Math. & Computer Modelling, 153, 617-623.
+2013. "TOPSIS for hesitant fuzzy linguistic term sets", Int. J. Intelligent Systems, 28, 1162–1171.
+2016. "Incomplete interval valued fuzzy preference relations", Information Sciences, 348, 15–24.
+2018. "Human attitude analysis based on fuzzy soft differential equations with Bonferroni mean", Computational & Applied Math., 37(3), 2632-2647.
+2021. "Fixed point of multivalued contractions by altering distances with application to nonconvex Hammerstein type integral inclusions", Fixed Point Theory, 22(1), 327 – 342.
+2023. "Dissilient interpersonal influences in social network analysis", Fuzzy Sets Systems, 46(7), Article 108499
+2024. "A new method to solve matrix game with interval payoffs and its MATLAB Code", International Game Theory Review, 26(3), Article 2450001
+For complete list of publications see.

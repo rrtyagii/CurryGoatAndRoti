@@ -1,0 +1,12 @@
+Svetha Venkatesh is an Indian computer scientist who is one of the top 15 women in the world in Artificial Intelligence. She is Indian/Australian and is an Alfred Deakin Professor in the Faculty of Science, Engineering & Built Environments, in the Department of Pattern Recognition and Data Analytics at Deakin University, as well as a professor of computer science and director of the Centre for Pattern Recognition and Data Analytics (PRaDA) at Deakin.
+Venkatesh has developed new technologies in large-scale pattern recognition in big data. Her work has led to start-ups such as iCetana which finds anomalies through video analytics to detect potential security threats in large data sets; the development of a health analytics program which enables doctors to predict suicide risk;  and PRaDA's development of the Toby Playpad app which provides therapy for children with autism. Her work on using surveillance data led to the development of a "virtual observer" which was used after the 2005 London bombings.
+In addition to her research, in 2015 she founded SPARK Deakin - Deakin University's flagship entrepreneurship program.
+
+Recognition
+Based on gender diversity analysis of 1.5m research papers, Venkatesh is one of the top 15 women in the world contributing to artificial intelligence research.
+She was elected a Fellow of the International Association of Pattern Recognition in 2004 for her contributions to the "formulation and extraction of semantics in multimedia data". She was also elected a Fellow of the Australian Academy of Technological Sciences and Engineering in 2006 and an ARC Laureate Fellow in June 2017. She was inducted onto the Victorian Honour Roll of Women in 2018 and was elected a Fellow of the Australian Academy of Science in May 2021.
+Venkatesh delivered the 2015 Harrison Lecture for Innovation.
+In November 2024 the Pearcey Foundation awarded Venkatesh the 2024 Pearcey Medal in recognition of a distinguished lifetime of achievement and contribution to the development and growth of the Australian ICT industry.
+
+Personal life
+Venkatesh's son, Akshay, a mathematician specialising in number theory and related topics, was one of the four Fields Medal winners in 2018. She is based in Geelong, Victoria.

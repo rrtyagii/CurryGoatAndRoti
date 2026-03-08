@@ -1,0 +1,22 @@
+Kat-5 is an autonomous vehicle created by Team Gray, an organization comprising employees from The Gray Insurance Company and students from Tulane University's School of Engineering, for the 2005 DARPA Grand Challenge.
+
+The vehicle
+Kat-5 is a 2005 Ford Escape Hybrid modified with the sensors and actuators needed for autonomous operation.  It has an INS/GPS (Inertial Navigation System/Global Positioning System) from Oxford Technical Solutions and LIDAR units from SICK and Riegl.  Kat-5 finished the 2005 DARPA Grand Challenge and placed fourth with a time of 7 hours, 30 minutes, only 37 minutes behind Stanley, the winner of the competition.  Kat-5 is powered by almost 100% pure Java and runs both the Mac OS X and Linux operating systems.
+Kat-5 uses oscillating LIDARs and information from the INS/GPS unit to create a picture of the surrounding environment.  This information is then used to build a path for the vehicle to follow.  Kat-5's primary electrical system, used to run the computers and drive-by-wire system, is powered by the standard electrical system of the vehicle while the 24-volt system, used to power the LIDAR sensors, is powered by six solar panels on the roof platform of the vehicle.
+During the National Qualification Event of the Grand Challenge, Kat-5 suffered 2 major crashes and one stall (due to a faulty circuit breaker) before finally completing three runs.  The last run completed was done flawlessly with Kat-5 avoiding every obstacle and passing through all 50 required gates.  The vehicle was given a pole position of 16 going into the Grand Challenge Event in Primm, NV.
+
+On the morning of October 8, 2005, Kat-5 left the starting line without a hitch and began the 132-mile journey through the surrounding desert.  Although given the opportunity to stop at sunset and continue the race the following morning, the team chose to allow their vehicle to finish that night since darkness would have no effect on the vehicle's performance.
+After crossing the finish line, it was found that Kat-5 had completed the entire race using only 7 gallons of fuel, averaging a little less than 19 miles per gallon.  The vehicle averaged 17.5 miles per hour throughout the course of the race.  It was later discovered that a small software bug had caused the vehicle to slow to a crawl in the wider segments of the race.
+
+The team
+Team Gray was made up of IT professionals from within the company and students from Tulane University’s Computer Science, Biomedical Engineering, and Mechanical Engineering departments.  Eric Gray, President and Director of The Gray Exploration Company and The Gray Oil & Gas Company, was the leader of the team.  The primary development team consisted of six people:
+
+Matt Dooner — Junior in Tulane University's Computer Science department
+Keith Goeller — CIO of Gray & Company, Inc. and MBA from Tulane University's A.B. Freeman School of Business
+Powell Kinney — Senior in Tulane University's Biomedical Engineering department
+Jorge Nagel — Master's student in Tulane University's Mechanical Engineering department
+Carl Schneider — Manager of Information Systems for Gray & Company, Inc. and MBA candidate in Tulane University's A.B. Freeman School of Business
+Paul Trepagnier — Software Development Manager for Gray & Company, Inc. and Ph.D. student in Tulane University's Computer Science department
+
+Development
+The team developed Kat-5 in a period of six actual months (three weeks were lost to Hurricane Katrina) at a total cost of approximately $650,000.  The physical value of the vehicle when it ran on October 8 was estimated to be $150,000.

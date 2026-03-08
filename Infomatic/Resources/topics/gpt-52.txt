@@ -1,0 +1,11 @@
+GPT-5.2 is OpenAI's latest flagship large language model, released on December 11, 2025. Succeeding GPT-5.1, it is a family of three large language models within the GPT series. It comes in two modes: GPT-5.2 instant and GPT-5.2 thinking (with standard and extended thinking), with the latter being a reasoning model. A GPT-5.2 Pro model was released on the same day, which takes more reasoning time and compute than GPT-5.2 thinking.
+
+Development and release
+The release of GPT-5.2 occurred on December 11, 2025, approximately three weeks after the release of Google's Gemini 3 Pro, which had been widely cited as the leading multimodal model at the time. Media outlets reported that an internal "Code Red" memo, prompted by Gemini's dominance, was a key factor in accelerating the model's release from an originally planned late-December window. OpenAI executives disputed the narrative that the launch was solely reactive. Speaking to Wired, Fidji Simo, OpenAI's CEO of Applications, stated that the company had "been working on this model’s release for months", though she acknowledged that the "Code Red" and additional resources allocated to ChatGPT was "helpful" in finalizing the deployment.
+
+Architecture and capabilities
+GPT-5.2 is better at spreadsheet creation, financial modeling, presentations, and multi-step project execution.
+GPT‑5.2 comes in three modes; GPT-5.2 instant, GPT-5.2 thinking and GPT-5.2 Pro. Instant model is designed for speed and efficiency, and the other two models are reasoning models. GPT-5.2's Pro version comes into two separate selectors: standard and extended. These two modes use different compute times and powers.
+
+Reception
+VentureBeat noted that early reactions suggest that GPT-5.2 was "used for power users, developers, and enterprise agents rather than casual chat". Aaron Levie, CEO of Box, reported that the model scores "7 points better than GPT-5.1" on the company's tests for real-world knowledge work.

@@ -1,0 +1,34 @@
+Philip Torr FREng, FRS, is a British scientist and a professor at the University of Oxford, and a researcher in machine learning and computer vision.
+
+Education
+Philip Torr was educated at the Manchester Grammar School. He graduated with a first in pure mathematics from Southampton University, and then did his DPhil at the Active Vision Group of the University of Oxford under David Murray. He worked for another three years at Oxford as a research fellow with Andrew Zisserman in the Visual Geometry Group.
+His thesis work was involved in the algorithm design for Boujou, released by 2D3, together with  Andrew Zisserman, Paul Beardsley and Andrew Fitzgibbon. Boujou was used in such films as Harry Potter and the Deathly Hallows – Part 1, which was nominated for the 2010 Oscar for Best Visual Effects. Boujou has won a Computer Graphics World Innovation Award, IABM Peter Wayne Award, and CATS Award for Innovation, and a technical EMMY.
+
+Career and research
+He left Oxford to work for six years as a research scientist for Microsoft Research, first in Redmond, Washington, US, in the Vision Technology Group, then in Cambridge, UK, founding the vision side of the Machine Learning and Perception Group. He then became a Professor in Computer Vision and Machine Learning at Oxford Brookes University. During this time he worked closely with Sony, his group is credited for computer vision on the title of the Wonderbook Book of Spells, which sold over 660,000 units. Torr also worked closely with Oxford-based company Vicon on markerless motion capture, this work was awarded Best Knowledge Transfer Partnership of the year in 2009.
+In 2013, Torr returned to University of Oxford as a full professor where he established the Torr Vision group.
+In 2016 he founded Oxsight  a social enterprise to help the partially sighted use computer vision techniques to enhance their life.
+In 2019 he founded AIstetic a company to do 3D reconstruction.
+He has been chief scientific advisor for Five AI from their formation in 2016 through their journey to acquisition in 2022 by Bosch.
+Torr became a Chief Scientific Advisor for DreamTech, Exient established by ex-members of the Torr Vision Group.
+In 2024, he joined CAMEL-AI as an advisor, contributing to the first LLM multi-agent framework and an open-source community dedicated to discovering the scaling law of agents.
+Torr has been chair for conferences in his field including
+ECCV 2008,
+ICCV 2013,
+CVPR 2019 and
+ICCV 2029.
+He is also invited as a speaker of Starmus Festival in 2024.
+Torr is interested in AI safety and is a fellow of the Future of Life Institute, as well as Distinguished Research Fellow at the Institute for Ethics in AI at Oxford. He is interested in ensuring that its benefits are distributed equally to all of society.
+
+Awards and honours
+Torr won several awards including:
+
+Turing AI world leading researcher fellow (2021).
+Fellow of the Royal Society (FRS) (2021).
+Fellow of the Royal Academy of Engineering (FREng) (2019).
+Best Paper Award at ECCV 2010 for the paper "L. Ladicky, C. Russell, P. Kohli, P.H.S. Torr, Graph Cut based Inference with Co-occurrence Statistics".
+Best Science Paper at the British Machine Vision Conference (BMVC) 2010 for the paper "Ľubor Ladický, Paul Sturgess, Christopher Russell, Sunando Sengupta, Yalin Bastanlar, William Clocksin, Philip Torr – Joint Optimisation for Object Class Segmentation and Dense Stereo Reconstruction".
+Best Paper Award at CVPR 2008 for the paper 'O. Woodford, P.H.S. Torr, I. Reid, and A.W. Fitzgibbon, Global Stereo Reconstruction under Second Order Smoothness Priors'.
+Honorary mention at the NIPS 2007 conference for the paper 'P. Kumar, V. Kolmorgorov, and P.H.S. Torr, An Analysis of Convex Relaxations for MAP Estimation'.
+Royal Society Wolfson Research Merit Award (2007).
+Marr Prize (the highest honour in vision) in 1998.

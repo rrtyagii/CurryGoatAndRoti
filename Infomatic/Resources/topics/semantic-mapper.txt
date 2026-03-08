@@ -1,0 +1,11 @@
+A semantic mapper is tool or service that aids in the transformation of data elements from one namespace into another namespace.  A semantic mapper is an essential component of a semantic broker and one tool that is enabled by the Semantic Web technologies.
+Essentially the problems arising in semantic mapping are the same as in data mapping for data integration purposes, with the difference that here the semantic relationships are made explicit through the use of semantic nets or ontologies which play the role of data dictionaries in data mapping.
+
+Structure
+A semantic mapper must have access to three data sets:
+
+List of data elements in source namespace
+List of data elements in destination namespace
+List of semantic equivalent statements between source and destination (e.g. owl:equivalentClass,  owl:equivalentProperty or owl:sameAs in OWL).
+A semantic mapper processes on a list of data elements in the source namespace.  The semantic mapper will successively translate the data elements from the source namespace to the destination namespace.  The mapping does not necessarily need to be a one-to-one mapping.  Some data elements may map to several data elements in the destination.
+Some semantic mappers are static in that they will do a one-time data transforms.  Others will generate an executable program to repeatedly perform this transform.  The output of this program may be any transformation system such as XSLT, a Java program or a program in some other procedural language.

@@ -1,0 +1,22 @@
+Jabberwacky is a chatbot created by British programmer Rollo Carpenter and launched in 1997. Its stated aim is to "simulate natural human chat in an interesting, entertaining and humorous manner". It is an early attempt at creating an artificially intelligent chatbot through human interaction.
+
+Purpose
+The stated purpose of the project is to create an artificial intelligence that is capable of passing the Turing Test. It is designed to mimic human interaction and to carry out conversations with users. It is not designed to carry out any other functions.
+Unlike more traditional AI programs, the learning technology is intended as a form of entertainment rather than being used for computer support systems or corporate representation. Recent developments do allow a more scripted, controlled approach to sit atop the general conversational AI, aiming to bring together the best of both approaches, and usage in the fields of sales and marketing is underway.
+The ultimate intention is that the program move from a text based system to be wholly voice operated—learning directly from sound and other sensory inputs. Its creator believes that it can be incorporated into objects around the home such as robots or talking pets, intending both to be useful and entertaining, keeping people company.
+
+Cleverbot
+Cleverbot is the evolved version of the older Jabberwacky chatterbot, or chatbot, originally launched in 1997 on the web. While Cleverbot.com continued to work in 2023, the Jabberwacky's website, tagged as "legacy only," stopped working temporarily from December 31, 2022 until approximately June 1, 2023, experienced a restoration for a little more than two weeks and then stopped working again.
+
+Timeline
+1982 – The first incarnation of this project is created as a program hard-coded on a Sinclair ZX81.
+1988 – Learning AI project founded as 'Thoughts'
+1997 – Launched on the Internet as 'Jabberwacky'
+October 2003 – Jabberwacky is awarded third place in the Loebner Prize. It was beaten by Juergen Pirner's Jabberwock (A German-based chat program)
+September 2004 – Jabberwacky is awarded second place in the Loebner Prize. It was beaten by computer chat program A.L.I.C.E.
+September 2005 – George, a character within Jabberwacky, wins the Loebner Prize
+September 2006 – Joan, another Jabberwacky character, wins the Loebner Prize
+October 2008 – A new variant of Jabberwacky is launched, more fuzzy and with deeper context, under the name Cleverbot
+January 2023 – The legacy website started displaying a 504 Gateway Time-out multiple times with a redirect at least once to boibot.com on February 28, 2023. According to the Internet Archive's Wayback Machine, the site was last active and working on December 31, 2022. No media outlet covered the change or noted any press release about it.
+June 2023 - the Jabberwacky site became accessible once more until it stopped working again the week of June 18, 2023. As with the outage, no media outlet covered the changes or noted any press release to explain the five-month down time, the restoration or the new outage.
+August 2025 - the Jabberwacky site is currently up and running. 13,543,422 + 1 talking(August 15, 2025). No media outlet covered the changes or noted any press release to explain previous downtime - a day later the website displays 504 Gateway Time-out again

@@ -1,0 +1,8 @@
+Parody generators are computer programs which generate text that is syntactically correct, but usually meaningless, often in the style of a technical paper or a particular writer. They are also called travesty generators and random text generators.
+Their purpose is often satirical, intending to show that there is little difference between the generated text and real examples.
+Many work by using techniques such as Markov chains to reprocess real text examples; alternatively, they may be hand-coded.  Generated texts can vary from essay length to paragraphs and tweets. (The term "quote generator" can also be used for software that randomly selects real quotations.)
+
+Examples
+Dissociated press, an implementation of a Markov chaining algorithm
+Postmodernism Generator, generates essays in the style of post-structuralism
+SCIgen, generates nonsensical computer science research papers

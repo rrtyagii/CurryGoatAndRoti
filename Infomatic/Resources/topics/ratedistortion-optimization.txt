@@ -1,0 +1,29 @@
+Rate-distortion optimization (RDO) is a method of improving video quality in video compression.  The name refers to the optimization of the amount of distortion (loss of video quality) against the amount of data required to encode the video, the rate.  While it is primarily used by video encoders, rate-distortion optimization can be used to improve quality in any encoding situation (image, video, audio, or otherwise) where decisions have to be made that affect both file size and quality simultaneously.
+
+Background
+The classical method of making encoding decisions is for the video encoder to choose the result which yields the highest quality output image.  However, this has the disadvantage that the choice it makes might require more bits while giving comparatively little quality benefit.  One common example of this problem is in motion estimation,
+
+and in particular regarding the use of quarter pixel-precision motion estimation.  Adding the extra precision to the motion of a block during motion estimation might increase quality, but in some cases that extra quality isn't worth the extra bits necessary to encode the motion vector to a higher precision.
+
+How it works
+Rate-distortion optimization solves the aforementioned problem by acting as a video quality metric, measuring both the deviation from the source material and the bit cost for each possible decision outcome.  The bits are mathematically measured by multiplying the bit cost by the Lagrangian, a value representing the relationship between bit cost and quality for a particular quality level.  The deviation from the source is usually measured as the mean squared error, in order to maximize the PSNR video quality metric.
+Calculating the bit cost is made more difficult by the entropy encoders in modern video codecs, requiring the rate-distortion optimization algorithm to pass each block of video to be tested to the entropy coder to measure its actual bit cost.  In MPEG codecs, the full process consists of a discrete cosine transform, followed by quantization and entropy encoding.  Because of this, rate-distortion optimization is much slower than most other block-matching metrics, such as the simple sum of absolute differences (SAD) and sum of absolute transformed differences (SATD).  As such it is usually used only for the final steps of the motion estimation process, such as deciding between different partition types in H.264/AVC.
+
+List of encoders that support RDO
+Ateme H.264 encoder
+Grass Valley ViBE encoders (SD & HD MPEG-2/MPEG-4)
+Harmonic Electra 8000 encoder (SD & HD MPEG-2/MPEG-4)
+libavcodec
+MainConcept H.264 encoder
+Microsoft VC-1 encoder
+Tandberg Television SD MPEG-2 EN8100
+Tandberg Television HD MPEG-4 EN8190
+Tandberg Television SD & HD MPEG-4 iPlex
+Theora 1.1-alpha1 and later (the "Thusnelda" branch)
+x264 H.264 encoder
+x265 H.265 encoder
+Xvid MPEG-4 ASP encoder
+H.264/AVC reference software JM (Joint Model)
+H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10 (Intel Quick Sync Video acceleration) hardware encoder
+HEVC reference software HM (HEVC Test Model)
+Kvazaar (partial)

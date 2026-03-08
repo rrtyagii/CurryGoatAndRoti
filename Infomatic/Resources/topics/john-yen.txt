@@ -1,0 +1,7 @@
+John Yen is professor of data science and professor-in-charge of data science in the College of Information Sciences and Technology at Pennsylvania State University. He currently leads the Laboratory of AI for Cyber Security at Penn State. He was the founder and a former director of the Cancer Informatics Initiative there.
+Yen received his Ph.D. in computer science from the University of California, Berkeley, in 1986. His thesis advisor is Prof. Lotfi A. Zadeh, the father of fuzzy logic. Between 1986 and 1989, he was the main architect at USC Information Sciences Institute (ISI) for an AI architecture that pioneers a knowledge-level integration of a descriptive logic knowledge representation scheme with production rules. Before joining IST in 2001, he was a professor of computer science and the director of the Center for Fuzzy Logic, Robotics, and Intelligent Systems at Texas A&M University. He was the vice president of publication for IEEE Neural Networks Council, now IEEE Computational Intelligence Society. Yen received the National Science Foundation Young Investigator Award in 1992. He is an IEEE Fellow.
+Yen received his B.S. degree in electrical engineering from National Taiwan University in 1980, and M.S. degree in computer science from University of Santa Clara in 1982.
+
+Books
+Emergent Information Technologies and Enabling Policies for Counter-Terrorism, by Robert L. Popp, John Yen, 2006
+Fuzzy Logic: Intelligence, Control, and Information, by John Yen and Reza Langari, 1998

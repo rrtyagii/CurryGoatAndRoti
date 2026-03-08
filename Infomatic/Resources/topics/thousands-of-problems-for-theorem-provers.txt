@@ -1,0 +1,1 @@
+TPTP (Thousands of Problems for Theorem Provers) is a freely available collection of problems for automated theorem proving. It is used to evaluate the efficacy of automated reasoning algorithms. Problems are expressed in a simple text-based format for first order logic or higher-order logic. TPTP is used as the source of some problems in CASC.

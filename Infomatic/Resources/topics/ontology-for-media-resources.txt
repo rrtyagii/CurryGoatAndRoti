@@ -1,0 +1,2 @@
+Ontology for Media Resources is a W3C recommendation from 2012 that aims to define "a core set of metadata properties for media resources, along with their mappings to elements from a set of existing metadata formats"
+In addition to defining vocabulary terms to annotate multimedia objects, the document also provides a mapping to common multimedia metadata formats, including ID3, XMP, IPTC, Dublin core, OGG, Exif, Media RSS, and others, as well as mapping to several  container formats, including 3GP, MP4, WebM, and others.

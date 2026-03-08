@@ -1,0 +1,68 @@
+Connected toys are internet-enabled devices with Wi-Fi, Bluetooth, or other capabilities built in. These toys, which may or may not be smart toys, provide a more personalized play experience for children through embedded software that can offer app integration, speech and/or image recognition, RFID functionality, and web searching functions. A connected toy usually collects information about the users either voluntarily or involuntarily, which raises concerns on the topic of privacy. The data collected by the connected toys are usually stored in a database, where companies that produce connected toys can use the data for their own purposes, provided they do so in line with the protections outlined in the Children's Online Privacy Protection Act (COPPA).
+
+Information collection
+Types of information that can be collected
+Different information can be collected by children's connected toys, including information from both parents and children.
+Information that can be collected from children includes:
+
+Birthdate, name, and gender
+Profile pictures
+Voice messages, chat messages, and photos sent by children
+Account passwords
+Physical location
+Chat history and Internet browsing history
+Information that can be collected from parents includes:
+
+Email address and mailing address
+Gender
+Profile pictures
+Voice messages, chat messages, and photos sent by parents
+Account passwords and password retrieval questions
+Credit card information
+Phone number
+Wi-Fi passwords and IP addresses
+
+Common ways of collection
+The collection of information by the connected toys can happen either voluntarily or involuntarily. Common ways of information collection include:
+
+Information filled out by the users when creating an account
+Interaction with the toys
+Connection to Wi-Fi or cellular networks
+
+Privacy-related issues
+There are concerns that children's information is not secured properly due to previous data breaches. Information collected by the toy companies is usually accessible by the public with little encryption on the system due to the lack of awareness of information privacy.
+
+Previous data breaches
+Connected toys have been at the center of several high-profile data breaches, which have raised concerns over the methods that toy companies use to protect children's information.
+
+CloudPets data leak
+In 2017, CloudPets toys by the company Spiral Toys experienced a significant data leak on its database. CloudPets stores all its information collected from the stuffed toys in an online database. According to cybersecurity expert Troy Hunt, more than 820, 000 user accounts were exposed and over 2.2 million voice messages, from both children and parents, were leaked during the severe CloudPets data breach. The cause of the data leak was because of the insecure database that Spiral Toys used in order to store the information collected. The database was easily accessible by the general public before the data leak happened.
+Although the database is not publicly accessible anymore, Spiral Toys have not informed their users regarding the data leak, which is a violation of the security breach notification law in California.
+
+VTech data breach
+In November 2015, VTech suffered a severe data breach on their information storing system, where the hacker used SQL injection, which is “an injection attack wherein an attacker can execute malicious SQL statements (also commonly referred to as a malicious payload) that control a web application’s database server (also commonly referred to as a Relational Database Management System – RDBMS),” to get full authorization to the database where he can access children and parents’ personal data.
+According to VTech's public data release, around 4.8 million parent accounts and approximately 6.4 million children-related profiles were leaked worldwide in several of their products. Data that were compromised during the breach included name, email address, password, secret question and answer for password retrieval, IP address, mailing address and download history; no credit card information or social security numbers were stored in the same database. The United States suffered the most due to the data breach, with 2.2 million parent accounts and 2.9 million children profiles registered in the United States, followed by France, United Kingdom, and Germany. A 21-year-old man from Berkshire was arrested for the hack.
+
+Data sharing
+Data sharing between toy producers and other companies has raised concern over the privacy of personal data collected by connected toys. Conversations and interactions between children and the toys are usually recorded by the toys and sent to the cloud server of the toy producer.
+The toy company that produced My Friend Cayla and i-Que Intelligent Bot, Genesis Toys, shares its voice data collected by the toys with Nuance Communications in order to improve their speech recognition technology. Nuance Communications have a record of selling biometric solutions to military, intelligence, and law enforcement agencies, which is put into consideration of privacy issues regarding connected toys.
+Similarly, Hello Barbie produced by Mattel, Inc. uses voice recognition technologies provided by ToyTalk based in California. The data collected by Hello Barbie are actively shared between Mattel and ToyTalk.
+
+Data retention
+Data retention of information collected by the connected toys is also a problem to consider. According to Children's Online Privacy Protection Act, "an operator of a Web site or online service shall retain personal information collected online from a child for only as long as is reasonably necessary to fulfill the purpose for which the information was collected. The operator must delete such information using reasonable measures to protect against unauthorized access to, or use of, the information in connection with its deletion."
+The Norwegian Consumer Council did an investigation on the terms of use and privacy policies on My Friend Cayla and i-Que Intelligent Bot in 2016. They found that the privacy policies do not specifically mention how long the data will be retained after the users stop using the service or delete the account. Specifically, My Friend Cayla's privacy policy mentions that "it is not always possible to completely remove or delete all of your information from our databases without some residual data because of backups and other reasons."
+
+Ban on My Friend Cayla in Germany
+In early 2017, Germany's Federal Network Agency, Bundesnetzagentur, placed a ban on the sale and possession of the connected toy My Friend Cayla produced by Genesis Toys, claiming the toy to be an unsafe and unauthorized information transmission device. My Friend Cayla is the first connected toy that got banned by Germany. The agency further states that any toy that transmits data, including features such as recording video and voice, without detection is banned in Germany. It is concerned about the potential use of the toy as a surveillance device. The president of Bundesnetzagentur, Jochen Homann, states that "items that conceal cameras or microphones and that are capable of transmitting a signal, and therefore can transmit data without detection, compromise people's privacy. This applies in particular to children's toys. The Cayla doll has been banned in Germany. This is also to protect the most vulnerable in our society."
+The agency is conducting further investigations into other connected toys. No action has been made towards the families that have the toy. The Federal Network Agency advised the parents to immediately destroy the toy to avoid potential risk in comprising personal data privacy.
+
+Laws related to connected toys
+Federal laws that are commonly associated with connected toys include the Children's Online Privacy Protection Act (COPPA) and section 5 of the Federal Trade Commission Act. Both acts are enforced by the Federal Trade Commission regarding the data collection of children's personal information.
+
+Children’s Online Privacy Protection Act
+Toys that are able to connect to the internet in various ways are subject to regulation from the Children's Online Privacy Protection Act (COPPA). COPPA gives parents control over what information is collected from their children online. Websites are required to ask for verifiable permissions from parents before receiving any personal information online from children under the age of 13. If the data is transferred to a third party, the third party is required to proceed the same steps to protect the data. Violation against COPPA is subject to civil penalties of up to $40,654 per incident.
+Concerns have been raised regarding COPPA protection for connected toys, as toys that are bought in retail stores do not directly subject to the law protection of COPPA.
+Other sources of concern relate to the compliance of connected toy companies regarding COPPA. The Electronic Privacy Information Center, the Campaign for a Commercial-Free Childhood, the Center for Digital Democracy, and Consumers Union submitted a complaint to the Federal Trade Commission regarding how My Friend Cayla and I-Que Intelligent Bot produced by Genesis Toys have violated the laws of COPPA. The complaint mentioned the data sharing between Genesis Toys and Nuance Communications. In addition, it concerns with how Nuance Communications does not directly mention compliance with COPPA.
+
+Section 5 of the Federal Trade Commission Act
+"Unfair or deceptive acts or practices in or affecting commerce" are declared unlawful by section 5 of the Federal Trade Commission Act. The Federal Trade Commission has used its section 5 to protect consumers' privacy and personal data. The companies of connected toys could potentially violate the FTC Act by inappropriately collecting, protecting, and misusing data and information collected by the toys.

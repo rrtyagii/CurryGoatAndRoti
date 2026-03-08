@@ -1,0 +1,32 @@
+Linked Data Platform (LDP) is a linked data specification defining a set of integration patterns for building RESTful HTTP services that are capable of read/write of RDF data.
+The Linked Data Platform allows use of RESTful HTTP to consume, create, update and delete both RDF and non-RDF resources. In addition, it defines a set of "container" constructs – buckets into which documents can be added with a relationship between the bucket and the object similar to the relationship between a blog and its constituent blog posts.
+
+History
+LDP evolved from work at IBM's Rational Product Group for application integration. Starting in 2010, IBM looked at linked data for application lifecycle management and sought what was an alternative means for read–write linked data.
+IBM joined with the W3C in June 2012 to form a W3C working group, which operated until July 2015.
+On 26 February 2015, the W3C Linked Data Platform 1.0 was approved as a W3C Recommendation.
+
+Implementation
+Read–write linked data was previously described using WebDAV and
+SPARUL by Tim Berners-Lee in his design issues that built upon
+his four principles for linked data.
+The Linked Data Platform includes Tim Berners-Lee's four principles, and focuses on the
+following concepts.
+
+LDP resources (LDPR)
+HTTP and RDF techniques to read and write linked data
+Resources can be created, modified, deleted and read using standard HTTP methods (i.e., POST, PUT, PATCH, DELETE, GET)
+Cover "RDF sources" as well as "binary resources"
+
+LDP containers (LDPC)
+An LDPR to which you POST to create new things, GET to find existing things
+Similar to what AtomPub does for XML
+Available in three flavors: BasicContainer, DirectContainer, and IndirectContainer
+
+Paging and ordering
+A mechanism to get the content of a LDPC in chunks and specify the order in which the content is sorted
+
+LDP and WebDAV relationship
+LDP is not a file system, but it uses linked data to produce the kind of information that can be used to create a modern file system abstraction for interacting with HTTP-accessible resources (colloquially referred to as "Web resources").
+In contrast, WebDAV is a "set of extensions to the HTTP protocol which allows users to collaboratively edit and manage files on remote web servers".
+However, LDP can be used with WebDAV. For example, there are live LDP containers in the wild, identified by linked data URIs, that can also function as WebDAV endpoints (i.e., mountable by any WebDAV compliant user agent).

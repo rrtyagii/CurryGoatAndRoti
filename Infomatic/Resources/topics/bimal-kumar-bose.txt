@@ -1,0 +1,64 @@
+Bimal Kumar Bose (Bengali: বিমল কুমার বসু; born 1932), also known as B. K. Bose, is an electrical engineer, artificial intelligence researcher, scientist, educator, and currently a professor emeritus of power electronics in the Department of Electrical Engineering and Computer Science at the University of Tennessee, Knoxville.
+In 2017, Bose was elected as a member of the National Academy of Engineering for contributions to advancing power electronics technology and power conversion and education. He was elected a fellow of the International Core Academy of Sciences and Humanities in 2024.
+
+Life and career
+Bose was born in Calcutta (now Kolkata), India. Bose received his B.E. degree (1956) from Bengal Engineering College under University of Calcutta, (Indian Institute of Engineering Science and Technology, Shibpur (IIEST Shibpur)), M.S. degree (1960) from University of Wisconsin, Madison, and PhD degree (1966) from University of Calcutta. Bose started his career in India in 1960 and emigrated to USA in 1971 to join Rensselaer Polytechnic Institute, Troy, NY as faculty member (1971–1976), then to GE Corporate Research and Development in (now GE Global Research Center) Schenectady, NY as research engineer (1976–1987), and then he joined the University of Tennessee as a Chaired Professor (1987–2003). Concurrently, he was the Distinguished Scientist (1989–2000) and the Chief Scientist (1987–1989) of EPRI-Power Electronics Applications Center.
+Bose held the Condra Chair of Excellence in Power Electronics at University of Tennessee, Knoxville. Bose organized its power electronics teaching and research program for 15 years. He is recognized as world-renowned authority and pioneer in power electronics for his many contributions that include high frequency link power conversion, advanced control techniques by microcomputers, fuzzy logic and neural networks, transistor ac power switch for matrix converters, adaptive hysteresis-band current control, etc. He also pioneered power electronics applications in environmental protection that help solving climate change problems.
+He was a visiting professor in Aalborg University, Denmark (1997), University of Padova, Italy (2003), Federal University of Mato Grosso Sul, Brazil (2006), Savilla University, Spain (2008), and European PhD School on Power Electronics, Italy (2010). He was a consultant in large number of agencies/industries, i.e., National Science Foundation, Electric Power Research Institute, USDA, Research Triangle Institute, GE-CRD, Bendix Corporation, Fuji Electric, Ansaldo, General Dynamics, Lutron Electronics, PCI Ozone Corporation, American Superconductors, Emerson Electric, Kolmorgen Corporation, Delco Remy, etc.
+Bose is an innovator, educator, and mentor to many members of the industry all over the world. He has been a reference for many engineers and scientists working in the area of power electronics and motor drives.
+Bose has contributed to the global promotion of power electronics by his books, publications, patents, tutorials, invited seminars and keynote speeches around the world. In an article "Eleven Years in Corporate Environment" he writes: "Research ideas do not necessarily come within the 8 a.m. to 5 p.m. work day office. The thoughts linger most of the time beyond the office hours, and often new ideas come when I am taking bath, walking alone in the evening, or even in the midnight when I suddenly wake up with the flash of new idea. There is no difference between scientific research and transcendental meditation.". Bose is a powerful presence in the world of power electronics. Dr. Bimal Bose received the Honorary Doctor of Science degree from the President of India, Pranab Mukherjee, on 19 January 2013.
+The IEEE Industrial Electronics Society Magazine published a special issue (June 2009) "Honoring Dr. Bimal Bose and Celebrating His Contributions in Power Electronics."
+The IEEE Industrial Electronics Society (IES) established the annual Dr. Bimal Bose Energy systems Award from 2014 which was funded by IES and IEEE Foundation.
+Dr. Paul Johnson, President of Colorado School of Mines, gave an eloquent introduction of Dr. Bose while he was delivering the IEEE Industrial Electronics Society Distinguished Lecture (23 November 2015) in the Denver Chapter with the following quotation
+"Coming from a remote village of Bangladesh (then part of India) and being born into a large poor family, it was my dream to see the whole world with my own eyes and make important contributions to the world. I had to overcome mountainous hurdles, step by step, to fulfill the ambitious goals in life and reach where I am today. Although my goals are yet unfulfilled, I often feel that I am the happiest person on earth. Achieving the goals of life requires persistent ambition, courage, and hard work, but when you reach the top of the Himalayan mountain, the mind remains filled with perennial pleasures. My advice to young engineers: have a dream in life and try to realize that dream with hard work. Have a long-term ambition and short-term career goals, with the fire always burning in your mind".
+Bose established the foundation of University of Tennessee Power Electronics Program and built it to the center-point of the world. Dean of Engineering Wayne Davis comments, "He strengthened the program and paved the way for landing the National Science Foundation-backed CURENT program. His efforts have helped both our college and the world at large".
+“I have helped pioneer the advancement of artificial intelligence applications in power electronics and motor drives. In any technology advancement, our goal should be its application solely for the benefit of mankind”.  “A truly successful person should have a blend of professional expertise and human qualities”, comments Bose".
+He is married to Arati Bose and they have two children: daughter Papia Ferguson and son Amit Bose
+
+Work
+Bose is the sole author/editor of eight books in power electronics some of which have been translated into several foreign languages, and some of which are widely used as texts throughout the world. His book "Power Electronics and AC Drives"(1986) is the first English language text book in power electronics and motor drives area.
+
+Power Electronics in Renewable Energy Systems and Smart Grid (Wiley/IEEE Press, 2019)
+Power Electronics and Motor Drives-Advances and Trends (Elsevier/Academic Press, First edition 2006 and Second edition 2020)
+Modern Power Electronics and AC Drives (Prentice-Hall, 2001)
+Power Electronics and AC Drives (Prentice-Hall, 1986)
+Power Electronics and Variable Frequency Drives (Wiley/IEEE Press, 1997)
+Modern Power Electronics (IEEE Press, 1992)
+Microcomputer Control of Power Electronics and Drives (IEEE Press, 1987)
+Adjustable Speed AC Drive Systems (IEEE Press, 1981)
+
+Selected publications
+1976. "A frequency step up cycloconverter using power transistors in inverse series mode", Int’l. Jour. of Electronics, vol.41: 573–587.
+1977. "High frequency link power conversion", IEEE Trans. Ind. Appl., vol.13: 387–393.
+1988. "A high- performance inverter-fed drive system of an interior permanent magnet synchronous machine", vol.24: 987–999.
+1990. "An adaptive hysteresis band current control technique of a voltage-fed PWM inverter for machine drive system", IEEE Trans. Ind. Electron., vol.37: 402–408.
+2007. "Neural network applications in power electronics and motor drives", IEEE Trans. Ind. Electron, vol. 54: 14–33.
+2009. "The Past, Present and Future of Power Electronics", IEEE Industrial Electronics Magazine: 1–5.
+2009. "Power Electronics and Motor Drives" –Recent Progress and Perspective", IEEE Trans. On Industrial Electronics, vol. 56: 581–588.
+2013. "Global energy scenario and impact of power electronics in 21st century", IEEE Trans. Ind. Electron, vol. 60: 2638–2651.
+2015. "Doing Research in Power Electronics", IEEE IES Magazine, vol. 9, 6–17.
+2022: “Power Electronics – My Life and Vision for the Future”, IEEE IES Magazine, vol.16, 65-72
+
+Awards and honors
+Awards received by Bose include, among many others:
+
+Elected fellow of the International Core Academy of Sciences and Humanities (2024).
+Elected member of National Academy of Engineering (2017)
+IEEE Power Electronics Society William W. Newell Award (2005)
+IEEE Millennium Medal (2000)
+IEEE Meritorious Achievement Award in Continuing Education (1997)
+IEEE Fellow (1989) and Life Fellow (1996)
+IEEE Lamme Medal (1996)
+IEEE Industrial Electronics Society Dr. Eugene Mittelmann Award (1994)
+IEEE Region 3 Outstanding Engineer Award (1994)
+IEEE Industry Applications Society Outstanding Achievement Award (1993)
+Shanghai University, China, Honorary Professor (1991)
+China University of Mining and Technology, Honorary Professor (1996)
+Xi’an Mining Institute, China, Honorary Professor and Honorary Director of EE Inst.(1998)
+Huazhong Univ. of Science and Tech. Guest Professor (2003)
+Bengal Engineering and Science University, India, Distinguished Alumnus Award (2006)
+Calcutta University Mouat Gold Medal and Premchand Roychand Scholar (1970)
+IEEE IES Magazine Special Issue (June 2009) "Honoring Dr. Bimal Bose and Celebrating His Contributions in Power Electronics" (with front cover photo)
+Honorary Doctor of Science degree from the President of India in the Annual Convocation of Bengal Engineering and Science University (BESU) (January 2013)
+IEEE IES introduced the annual Dr. Bimal Bose Energy Systems Award (2014 – present)
+Bengal Engineering College Alumni Association of USA and Canada Lifetime Achievement Award(2018)

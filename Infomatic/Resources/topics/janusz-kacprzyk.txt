@@ -1,0 +1,31 @@
+Janusz Kacprzyk (born 12 July 1947) is a Polish engineer and mathematician, notable for his contributions to the field of computational and artificial intelligence tools like fuzzy sets, mathematical optimization, decision making under uncertainty, computational intelligence, intuitionistic fuzzy sets, data analysis and data mining, with applications in databases, ICT, mobile robotics and others.
+Kacprzyk is a professor of computer science at the Systems Research Institute and an academician (full member) of the Polish Academy of Sciences.  Currently he is president of the Polish Operational and Systems Research Society and past president of the International Fuzzy Systems Association (IFSA) in 2009-2011.
+He is a foreign member of the Spanish Royal Academy of Economic and Financial Sciences (2007), of the Bulgarian Academy of Sciences (2013), of the  Finnish Society of Sciences and Letters (2018), of the Royal Flemish Academy of Belgium for Science and the Arts (2019), as well as member of Academia Europaea and the European Academy of Sciences and Arts, and fellow of multiple professional societies, like  IEEE, Institution of Engineering and Technology (IET), European Coordinating Committee of Artificial Intelligence (EurAI/ECCAI), IFSA, and Mexican Society for Artificial Intelligence (SMIA). In 2013, he becomes the laureate of the annual IFSA Award. In 2025, he was elected a Fellow of the International Core Academy of Sciences and Humanities.
+
+Biography
+In 1970, Kacprzyk graduated from Warsaw University of Technology, Poland, with M.Sc. in automatic control and computer science. In 1977, he obtained Ph.D. in systems analysis and in 1991 D.Sc. (habilitation) in computer science. As of 1997, he is full professor, awarded by the President of the Republic of Poland.
+As of 2018, Kacprzyk is professor of computer science at the Systems Research Institute, Polish Academy of Sciences, at Warsaw School of Information Technology, and Chongqing Three Gorges University, Wanzhou, Chinqgqung, China. He is honorary foreign professor at the Department of Mathematics, Yili Normal University, Xinjiang, China, as well as part-time professor of automatic control at Polish Industrial Institute of Automation and Measurements (PIAP) and part-time professor in the Department of Electrical and Computer  Engineering, Cracow University of Technology. Kacprzyk has been a frequent visiting professor in the US, Italy, UK, Mexico, China, Japan.
+As of April 2018, Kacprzyk  has authored 6 books, edited or co-edited more than 100 volumes, authored or co-authored approximately 550 papers. He is the editor-in-chief of 7 book series at Springer, and of two journals, and is on the editorial boards of approximately 40 scientific journals.
+
+Honours
+Prof. Kacprzyk is a lifelong fellow of the International Fuzzy Systems Association (IFSA) since 1997 and a fellow of IEEE since 2006. He is laureate of a number of awards for outstanding academic achievements, most notable of which are:
+
+2006: Kaufmann Prize and Gold Medal for pioneering works on the use of fuzzy logic in economics and management
+2006: Pioneer  Award,  IEEE  CIS  for  pioneering  works  on  multistage  fuzzy  control (fuzzy  dynamic programming)
+2007: Pioneer Award of the Silicon Valley Section of IEEE CIS for contribution in granular computing and computing with words
+2007: Elected foreign member of the Spanish Royal Academy of Economic and Financial Sciences (Awarded May 2008)
+2010: Medal of the Polish Neural Network Society for exceptional contributions to the advancement of computational intelligence in Poland
+2013, September: IFSA Award for outstanding academic contributions and lifetime  achievement in the field of fuzzy systems
+2013, October: Elected foreign member of the Bulgarian Academy of Sciences
+2014, August: World Automation Congress Lifetime Award for contributions in soft computing
+2014, August: Elected member of Academia Europaea, Section Informatics
+2014, September: Doctor Honoris Causa of Széchenyi István University, Győr, Hungary
+2015, September: Fellow of the Mexican Society of Artificial Intelligence, and permanent honorary member of the society
+2016, January: Elected member of the European Academy of Sciences and Arts, Class 6 - the Technical and Environmental Sciences
+2016, September: Award of the International Neural Network Society – Indian Chapter for Outstanding Contributions to Computational Intelligence
+2016, November: Doctor Honoris Causa of Óbuda University in Budapest, Hungary
+2017, April: Doctor Honoris Causa of Lappeenranta University of Technology in Finland
+2017, May: Doctor Honoris Causa of "Prof. Asen Zlatarov" University, Burgas, Bulgaria
+2017, September: Honorary Membership in European Society for Fuzzy Logic and Technology (elected in June 2016)
+2018, February: Foreign member of the Finnish Society of Sciences and Letters (elected in December 2017)
+2019, December:   Foreign member of the Royal Flemish Academy of Belgium for Science and the Arts (KVAB)

@@ -1,0 +1,15 @@
+Reverso is a French company specialized in AI-based language tools, translation aids, and language services. These include online translation based on neural machine translation (NMT), contextual dictionaries, online bilingual concordances, grammar and spell checking and conjugation tools.
+
+History
+Reverso has been active since 1998, with the aim of providing online translation and linguistic tools to corporate and mass markets.
+In 2013 it released Reverso Context, a bilingual dictionary tool based on big data and machine learning algorithms.
+In 2016 Reverso acquired Fleex, a service for learning English via subtitled movies. Based on content from Netflix, Fleex has expanded to also include video content from YouTube, TED Talks, and custom video files.
+In 2018 it released a new mobile app, which combines translations and learning activities.
+In February 2018 it was reported that some translations on the Reverso translation web site returned antisemitic results, such as "Much nicer" returning "Dachau was much nicer than Auschwitz". These results prompted the International League against Racism and Anti-Semitism to threaten Reverso with legal action. Reverso answered on Twitter that the controversial content would be removed.
+
+Services
+Reverso's suite of online linguistic services has over 96 million users, and comprises various types of language web apps and tools for translation and language learning. Its tools support many languages, including Arabic, Chinese, English, French, Hebrew, Spanish, Italian, Turkish, Ukrainian and Russian.
+Since its founding Reverso has provided machine translation tools for automated translation of texts in various languages, including neural machine translation.
+Reverso Context is an online and mobile application combining big data from large multilingual corpora to allow users to search for translations in context. These texts are sourced mainly from films, books, and governmental documents, allowing users to see idiomatic usages of translations as well as synonyms and voice output. The Reverso Context app also provides language-learning features such as flashcards based on words in example sentences. Reverso has also released browser extensions for Chrome and Firefox to incorporate features of Reverso Context into web browsing.
+Reverso's website also provides collaborative bilingual dictionaries between various pairs of languages, which use crowd sourcing to allow users to submit new entries and provide feedback. It also has tools for conjugation of verbs in various languages, spell checking tools, and written multilingual grammar guides for language learners.
+Reverso Documents service translates documents and websites while preserving their layout.

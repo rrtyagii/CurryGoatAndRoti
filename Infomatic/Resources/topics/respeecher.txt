@@ -1,0 +1,22 @@
+Respeecher is a Ukrainian software company developing speech synthesis software enabling one person to speak in the voice of another particular person using artificial intelligence.
+
+History
+Respeecher was founded in February 2018. A year later, the startup completed the Comcast NBCUniversal LIFT Labs Accelerator, powered by Techstars. They received $1.5 million in startup funding in early March 2020.
+Since 2018, Respeecher have raised over $3 million in investments and share their technology with Hollywood movie studios, video game creators, and other businesses. The Respeecher team, most of which is located in Ukraine, was able to continue working despite the full-scale Russian invasion of Ukraine in February 2022.
+In December 2020, Respeecher was credited in the season finale of Disney streaming TV series The Mandalorian for synthesizing the voice of young Luke Skywalker. In February 2021, they worked on the voice of Vince Lombardi for the Super Bowl commercial.
+In September 2021, the Respeecher team was awarded with an Emmy for interactive documentary for their work on Richard Nixon's voice (combined with the dialogue being performed by another actor) in the internet short film "In Event of Moon Disaster".
+In February 2022, Respeecher was credited in "Chapter 6" of The Book of Boba Fett, for providing the synthetic voice of young Luke Skywalker.
+In March 2022, Respeecher enabled multilingual singing voice cloning for Aloe Blacc's tribute to Avicii.
+On June 27, 2022, the company created an AI voice for Darth Vader based on actor James Earl Jones's archive recordings from earlier Star Wars projects in the TV series Obi-Wan Kenobi. Jones signed a deal with Lucasfilm authorizing his voice to be used in this manner for future productions, and subsequently retired from voicing the character later that year.
+In November 2022, the first synthetic speech artist was credited in Sony's video game God of War Ragnarök.
+In February 2023, Respeecher, alongside OpenAI and TikTok, was among the initial 10 companies to pledge commitment to the Partnership on AI's community-driven framework. This framework aims to guide the ethical and responsible development, creation, and sharing of synthetic media and AI technology.
+In October 2023, CD Projekt announced they had used Respeecher to synthesize the voice of Miłogost Reczek, who died in 2021, for the Polish language release of the Cyberpunk 2077 expansion Phantom Liberty. They said they had obtained permission from Reczek's family.
+In 2023, the company actively contributed to the development of the "Zvook", an acoustic sensor system, a project endorsed by Brave1, tailored to meet the specific requirements of the Armed Forces of Ukraine. Company representatives played a pivotal role by providing expertise in automation and signal identification, enhancing the system's capability to discern the origin of impacts and effectively contribute to military operations.
+In 2024, Respeecher endorsed the NO FAKES Act to protect individual voices and likenesses from unauthorized recreations, releasing a statement stating that "this legislative measure is vital in safeguarding individual rights against unauthorized use of their voice and likeness in the age of advanced artificial intelligence and deepfake technology".
+
+Contribution to creative projects
+Films
+Television
+Video games
+Music
+Project awards and nominations

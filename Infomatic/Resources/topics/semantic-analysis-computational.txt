@@ -1,0 +1,1 @@
+Semantic analysis (computational) within applied linguistics and computer science, is a composite of semantic analysis and computational components. Semantic analysis refers to a formal analysis of meaning, and computational refers to approaches that in principle support effective implementation in digital computers.

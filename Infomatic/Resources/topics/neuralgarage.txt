@@ -1,0 +1,10 @@
+NeuralGarage is a generative artificial intelligence company founded in 2021 in Bangalore, India. It develops AI technologies related to audiovisual content. Its core technology is VisualDub, a system designed to synchronize dubbed audio with lip and facial movements.
+
+History
+NeuralGarage was founded in 2021 in Bangalore, India, by Mandar Natekar, Subhabrata Debnath, Anjan Banerjee, and Subhashish Saha.
+In 2022, NeuralGarage raised US$1.45 million in a seed funding round led by Exfinity Venture Partners, along with participation from Amit Patni’s family office and other investors.
+In 2024, NeuralGarage was selected for the Google for Startups Accelerator: AI First, was one of 80 startups chosen for the Amazon Web Services Generative AI Accelerator cohort, and was included in TechCrunch’s "Startup Battlefield 200" at Disrupt.
+In 2025, NeuralGarage won the "Entertainment, Media, Sports & Content" category at the SXSW Pitch competition, becoming the first Indian startup reported to have received this award.
+
+Applications
+VisualDub has been used in Kesari Chapter 2, episodes of Special Ops, the "Chikitu" song in Coolie, and War 2.

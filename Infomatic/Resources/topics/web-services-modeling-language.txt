@@ -1,0 +1,35 @@
+WSML or Web Service Modeling Language is a formal language that provides a syntax and semantics for the Web Service Modeling Ontology (WSMO).
+In other words, the WSML provides means to formally describe the WSMO elements as Ontologies, Semantic Web services, Goals, and Mediators.
+The WSML is based on the logical formalisms as Description Logic, First-order Logic and Logic Programming.
+
+Language variants of WSML
+WSML Core, defined as an intersection of the Description Logic and Horn Logic. Supports modeling classes, attributes, binary relations and instances.
+WSML-DL, extension of the WSML Core, fully captures the Description Logic
+
+
+
+
+
+
+              S
+              H
+              I
+              Q
+
+
+
+
+              (
+              D
+              )
+
+
+
+
+
+    {\displaystyle {\mathcal {SHIQ}}^{\mathcal {(D)}}}
+
+.
+WSML-Flight, extension of the WSML Core, provides features as meta-modeling, constraints and nonmonotonic negation.
+WSML-Rule, extension of the WSML-Flight, provides Logic Programming capabilities.
+WSML-Full, a unification of the WSML-DL and WSML-Rule.

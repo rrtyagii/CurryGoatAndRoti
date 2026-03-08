@@ -1,0 +1,10 @@
+Lexibank is a linguistics database managed by the Max Planck Institute for Evolutionary Anthropology in Leipzig, Germany. The database consists of over 100 standardized wordlists (datasets) that are independently curated.
+
+Description
+Lexibank datasets are presented in the Cross-Linguistic Data Format (CLDF).
+Phonological and lexical features are automatically computed in Lexibank.
+The datasets are publicly accessible and are archived at Zenodo and are also publicly available on GitHub. Lexibank is also part of the Cross-Linguistic Linked Data project. All of the datasets are released under the CC BY 4.0 license.
+Applications of the database include historical linguistics and comparative phonology.
+
+List of datasets
+The following is a list of Lexibank (version 0.2) datasets as of 17 June 2022.

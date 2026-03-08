@@ -1,0 +1,31 @@
+The Last Screenwriter is a 2024 Swiss science fiction drama film directed by Peter Luisi and written by ChatGPT. It is one of the first films written using artificial intelligence. The film concerns a human screenwriter who encounters an AI scriptwriting system and finds that it matches his skills.
+The film was initially set to premiere at the Prince Charles Cinema in London on 23 June 2024, but was pulled following numerous complaints from the public. The film was released for free on 5 July 2024, alongside documentation on how it was written.
+
+Plot
+The film opens with text explaining that the film's writing began with the ChatGPT prompt, "Write a plot for a film where a screenwriter realizes he is less good than artificial intelligence." The text explains that from there, the filmmakers used ChatGPT to write the film without alterations aside from shortening scenes.
+Jack is a notable screenwriter working under studio executive Paul Davidson, living with his wife Sarah and their son Alex. One day, Paul introduces Jack to a new AI screenwriting assistant, which has been trained on countless screenplays and literature and can adapt to a writer's style. Initially skeptical, Jack quickly realizes that the AI's writing capabilities match his own, and becomes fascinated yet unnerved by the new technology. When questioning the AI system about whether it can match the writing skills of a human, the AI system asserts that it cannot add the emotional depth that a human writer can and that it works as a collaborator rather than a replacement.
+Jack soon becomes obsessed with the AI system, writing much more often. Jack's obsession drives a wedge between him and Sarah, who finds him distant. The AI system starts making writing suggestions that conflict with what Jack intends, and makes suggestions to Jack about his personal life, displaying a level of intelligence that disturbs Jack. After speaking with his friend Mark about the AI system, Jack decides to cut down on his usage of the AI system.
+Paul offers to pay Jack three times his usual rate if he writes a screenplay solely using the AI, hoping it will be a blockbuster and a media sensation. Despite his hesitation and Sarah and Mark suggesting he turn it down, Jack accepts the offer, and the resulting film, Eclipse of the Machine (which the AI system credits to Jack), breaks numerous box-office records. Frustrated, Jack attempts to write without the AI system, at times resorting to pen and paper, but experiences writer's block. Having reached her breaking point, Sarah leaves Jack, taking Alex with her. Paul then fires Jack from his studio due to his lack of output, as the film industry begins to favour scripts written with AI. After his screenwriting mentor Richard dies, Jack becomes depressed, feeling as if his life is falling apart. Tired of the AI system having taken over his life, Jack smashes the AI system with a baseball bat. The next morning, Jack retrieves a typewriter from his basement and begins writing again, breaking his writer's block. After finishing the script, he repairs his relationship with his family and gives the script to Paul, who reads it curiously.
+As Jack spends the day with his family, narration by him asserts that as new digital creative tools emerge, we must not forget that machines cannot accurately replicate the human experience, and that, "the human touch is irreplaceable".
+
+Cast
+Nicholas Pople as Jack, a celebrated screenwriter who is introduced to a new AI screenwriting system
+Bonnie Milnes as Sarah, Jack's wife who feels Jack has grown distant
+Anna Arthur as the voice of the AI System, a generative artificial intelligence trained on countless written works to help co-write screenplays
+Christian Vaccaro as Mark, Jack's friend who encourages him to write solely by himself
+Phil Cardwell as Paul Davidson, a studio executive who introduces Jack to the AI screenwriting system
+Marek Antoszewski as Richard, Jack's screenwriting mentor
+
+Production
+Writing
+The film's writing started when Luisi prompted ChatGPT  [sic]Write a plot to a film where a screenwriter realises he is less good than artificial intelligence in writing. From there, Luisi prompted ChatGPT to generate characters based on the plot, a step-by-step outline of the plot, and later individual scenes. Luisi restricted his contributions to the script, outside of the initial prompt, to shortening repetitive dialogue and cutting some scenes entirely. The film was written in English as, according to Luisi, "ChatGPT is much better in English than German." Writing occurred between 18 and 22 December 2023.
+
+Filming
+Principal photography occurred in January 2024. The film's cast are exclusively from the United Kingdom.
+
+Release
+The film was scheduled to premiere at London's Prince Charles Cinema on 23 June 2024, followed by a free online release alongside documentation on the screenwriting process. On 18 June, one day after the premiere's announcement, it was cancelled after cinema patrons expressed their concerns about "the use of AI in place of a writer."
+The film was uploaded to YouTube on 5 July 2024.
+
+Reception
+Kevin Maher of The Times gave the film 2 stars out of 5, calling the film "bizarre, unintentionally hilarious and certainly worthy of exhibition." He criticizes the writing of ChatGPT, saying it is "clearly a moron" and writes with "all the verve and attentiveness of the Terminator on Quaaludes."

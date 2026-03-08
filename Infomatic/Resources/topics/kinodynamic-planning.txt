@@ -1,0 +1,44 @@
+In robotics and motion planning, kinodynamic planning is a class of problems for which velocity, acceleration, and force/torque bounds must be satisfied, together with kinematic constraints such as avoiding obstacles. The term was coined by Bruce Donald, Pat Xavier, John Canny, and John Reif. Donald et al. developed the first polynomial-time approximation schemes (PTAS) for the problem. By providing a provably polynomial-time ε-approximation algorithm, they resolved a long-standing open problem in optimal control. Their first paper considered time-optimal control ("fastest path") of a point mass under Newtonian dynamics, amidst polygonal (2D) or polyhedral (3D) obstacles, subject to state bounds on position, velocity, and acceleration. Later they extended the technique to many other cases, for example, to 3D open-chain kinematic robots under full Lagrangian dynamics.
+
+Modern approaches
+Since the foundational theoretical work of the 1990s, the field has evolved significantly with new algorithmic approaches that address the computational and practical limitations of early methods.
+
+Sampling-based methods
+Many practical heuristic algorithms based on stochastic optimization and iterative sampling have been developed by a wide range of authors to address the kinodynamic planning problem. Popular approaches include extensions of RRT algorithms such as RRT* for kinodynamic systems, and sampling-based methods like Model Predictive Path Integral (MPPI) control. These stochastic techniques have been shown to work well in practice and can handle complex, high-dimensional state spaces more efficiently than deterministic methods. However, all motion planning methods are subject to the PSPACE-hardnesss of classical motion planning even without dynamics, which means (assuming the usual structural complexity conjectures) they all can be worst-case exponential-time in the state-space dimension (the number of degrees of freedom). On the other hand, the deterministic methods have provable guarantees of completeness, accuracy, and complexity (for fixed dimension, they are polynomial-time not only in the geometric complexity, but also in
+
+
+
+        (
+        1
+
+          /
+
+        ε
+        )
+
+
+    {\displaystyle (1/\varepsilon )}
+
+, the closeness of the desired approximation), whereas most of the recent heuristic/stochastic methods sacrifice at least one of these criteria.
+
+Mixed-integer optimization approaches
+Recent advances in mixed-integer programming have enabled new deterministic approaches to kinodynamic planning. These methods formulate the planning problem as an optimization task that simultaneously determines the spatial path and control sequence while respecting all kinodynamic constraints. By using techniques such as McCormick envelopes to handle bilinear constraints, these approaches can provide globally optimal solutions with mathematical guarantees while achieving significant computational speedups over traditional methods.
+
+Genetic algorithm approaches
+Genetic algorithms have also been adapted for kinodynamic planning, particularly for gradient-free optimization in challenging terrain. These methods use evolutionary computation to optimize trajectories over receding horizons, with specialized mutation operators that ensure vehicle controls remain within operational limits. This approach is particularly useful when dealing with non-differentiable cost functions or when gradient information is unavailable or unreliable.
+
+Three-dimensional terrain planning
+Modern kinodynamic planning has extended beyond planar environments to handle complex 3D terrains represented as simplicial complexes or triangular meshes. This advancement is particularly important for applications such as autonomous vehicle navigation in off-road environments, where elevation changes and terrain geometry significantly impact vehicle dynamics. These methods must account for pitch angles, surface curvature, and the coupling between terrain geometry and vehicle kinodynamic constraints.
+
+Performance and guarantees
+The landscape of performance guarantees in kinodynamic planning has evolved considerably. While early heuristic methods could not guarantee optimality, recent mixed-integer approaches have demonstrated the ability to find globally optimal solutions with proven constraint satisfaction. Experimental comparisons have shown that modern optimization-based planners can achieve execution times several orders of magnitude faster than sampling-based methods while maintaining strict adherence to kinodynamic constraints.
+However, the choice of method often depends on the specific application requirements. Sampling-based methods remain valuable for their ability to quickly find feasible solutions in high-dimensional spaces and their robustness to modeling uncertainties. Optimization-based methods excel when optimality guarantees and constraint compliance are critical, particularly in safety-critical applications.
+
+Applications
+Kinodynamic planning finds applications across numerous domains including:
+
+Autonomous vehicles: Path planning for cars, trucks, and other ground vehicles that must respect acceleration, steering, and velocity limits
+Aerial robotics: Trajectory planning for quadrotors and other unmanned aerial vehicles with dynamic constraints
+Manipulation: Planning for robotic arms where joint velocities, accelerations, and torques are limited
+Legged locomotion: Footstep and trajectory planning for walking and running robots
+Space robotics: Planning under thrust and fuel constraints for spacecraft and rovers

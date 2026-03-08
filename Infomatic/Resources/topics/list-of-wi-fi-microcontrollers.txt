@@ -1,0 +1,2 @@
+Wi-Fi microcontrollers enable Wi-Fi connectivity for devices so that they can send & receive data and accept commands. As such, Wi-Fi microcontrollers can be used for bringing otherwise ordinary devices into the realm of the Internet of things.
+Wi-Fi microcontroller chips:

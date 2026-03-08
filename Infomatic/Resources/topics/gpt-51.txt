@@ -1,0 +1,14 @@
+GPT-5.1 is a family of four large language models within OpenAI's GPT series. Two were released on November 12, 2025; two more were released one week later on November 19.
+
+Features
+GPT-5.1 adds "shopping research", multimodal features, and customizable personalities; it has 8 personality options. It is also faster and has a "warmer personality" by default compared to GPT-5.
+GPT-5.1 is available to all users, though paid Pro, Plus, Go, and Business users were given advanced access.
+
+Models
+The model consists of two modes: GPT-5.1 Instant and GPT-5.1 Thinking, the latter being a reasoning model designed for more complex tasks.
+On November 19, 2025, OpenAI released GPT‑5.1-Codex-Max, an agentic coding model which "has been internally observed to complete tasks lasting more than 24 hours, including multi-step refactors, test-driven iteration, and autonomous debugging." GPT-5.1 Pro was also released on the same day, replacing GPT-5 Pro.
+
+Reception
+Critical reviews
+Amanda Caswell from Tom's Guide praised GPT-5.1 for its mathematical reasoning and coding abilities, but decided that Gemini 3 produced better results overall.
+Writing for TechRadar, Eric Hal Schwartz compared GPT-5.1 to GPT-5 and found the new model to be more consistent in following prompts. He also considered it an "incremental improvement".

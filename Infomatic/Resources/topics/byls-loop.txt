@@ -1,0 +1,7 @@
+The Byl's loop is an artificial lifeform similar in concept to Langton's loop. It is a two-dimensional, 5-neighbor cellular automaton with 7 states per cell, and was developed in 1989 by John Byl, from the Department of Mathematical Sciences of Trinity Western University.
+
+Details
+The Byl's loop was developed just a few years after Langton's simplification of Codd's automaton, which produced a simpler automaton that would reproduce itself in 151 time-steps. John Byl simplified Langton's automaton further, with an even smaller automaton that reproduced in just 25 time-steps. Byl's automaton consisted of an array of 12 chips — of which 4 or 5 could be counted as the instruction tape — and 43 transition rules, while Langton's device consisted of some 10×15 chips, including an instruction tape of 33 chips, plus some 190 transition rules.
+Essentially, the simplification consisted in using fewer cellular states (7 as compared with Langton's 8) and a smaller replicating loop (12 cells as compared with Langton's 86).
+
+In 1989, John Byl devised a self-reproducing automata so small, twelve cells in seven states with forty-three transition rules, that it undermines "von Neumann's 'complexity threshold' separating trivial from non-trivial self-replication" (Sigmund 1993:24).

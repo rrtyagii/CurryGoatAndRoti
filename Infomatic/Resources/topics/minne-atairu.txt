@@ -1,0 +1,17 @@
+Minne Atairu is a Nigerian interdisciplinary artist, a recipient of the 2021 Global South Award Lumen Prize for Art and Technology. She generates synthetic Benin Bronzes through recombination of historical fragments, sculptures, texts, images, and sounds.
+
+Early life and education
+Atairu was born in Benin, Nigeria.
+She holds a bachelor's degree in art history from the University of Maiduguri in Maiduguri, Nigeria; a master's degree in museum studies from the George Washington University in Washington, D.C.; and a doctorate in art education from Teachers College, Columbia University in New York City. Her academic research integrates artificial intelligence, art/museum education and hip-hop based education.
+
+Works
+Atairu's artmaking involves using artificial intelligence (AI; such as StyleGAN, GPT-3) to make artwork. She uses tools such as Midjourney and Blender software to develop her works.
+
+Mami Wata
+Her first work is a Yoruba goddess called Mami Wata where she used Midjourney in generating the images.
+
+To the Hand
+For her 2023 installation To the Hand at The Shed arts center, she worked with Blender to convert text into 3D-printed sculptures made of corn starch or sugarcane infused with bronze. The rings of ground terra-cotta that surround the sculpture represent the walls and deep moats of Benin.
+
+Publications
+Atairu, Minne (February 1, 2024). "Reimagining Benin Bronzes using generative adversarial networks". AI & Society. 39 (1): 91–102. doi:10.1007/s00146-023-01761-7. ISSN 1435-5655.

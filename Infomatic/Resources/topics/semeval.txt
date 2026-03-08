@@ -1,0 +1,80 @@
+SemEval (Semantic Evaluation) is an ongoing series of evaluations of computational semantic analysis systems; it evolved from the Senseval word sense evaluation series. The evaluations are intended to explore the nature of meaning in language. While meaning is intuitive to humans, transferring those intuitions to computational analysis has proved elusive.
+This series of evaluations provides a mechanism to characterize in more precise terms exactly what is necessary to compute in meaning. As such, the evaluations provide an emergent mechanism to identify the problems and solutions for computations with meaning. These exercises have evolved to articulate more of the dimensions that are involved in our use of language. They began with apparently simple attempts to identify word senses computationally. They have evolved to investigate the interrelationships among the elements in a sentence (e.g., semantic role labeling), relations between sentences (e.g., coreference), and the nature of what we are saying (semantic relations and sentiment analysis).
+The purpose of the SemEval and Senseval exercises is to evaluate semantic analysis systems. "Semantic Analysis" refers to a formal analysis of meaning, and "computational" refer to approaches that in principle support effective implementation.
+The first three evaluations, Senseval-1 through Senseval-3, were focused on word sense disambiguation (WSD), each time growing in the number of languages offered in the tasks and in the number of participating teams. Beginning with the fourth workshop, SemEval-2007 (SemEval-1), the nature of the tasks evolved to include semantic analysis tasks outside of word sense disambiguation.
+Triggered by the conception of the *SEM conference, the SemEval community had decided to hold the evaluation workshops yearly in association with the *SEM conference. It was also the decision that not every evaluation task will be run every year, e.g. none of the WSD tasks were included in the SemEval-2012 workshop.
+
+History
+Early evaluation of algorithms for word sense disambiguation
+From the earliest days, assessing the quality of word sense disambiguation algorithms had been primarily a matter of intrinsic evaluation, and “almost no attempts had been made to evaluate embedded WSD components”. Only very recently (2006) had extrinsic evaluations begun to provide some evidence for the value of WSD in end-user applications. Until 1990 or so, discussions of the sense disambiguation task focused mainly on illustrative examples rather than comprehensive evaluation. The early 1990s saw the beginnings of more systematic and rigorous intrinsic evaluations, including more formal experimentation on small sets of ambiguous words.
+
+Senseval to SemEval
+In April 1997, Martha Palmer and Marc Light organized a workshop entitled Tagging with Lexical Semantics: Why, What, and How? in conjunction with the Conference on Applied Natural Language Processing. At the time, there was a clear recognition that manually annotated corpora had revolutionized other areas of NLP, such as part-of-speech tagging and parsing, and that corpus-driven approaches had the potential to revolutionize automatic semantic analysis as well. Kilgarriff recalled that there was "a high degree of consensus that the field needed evaluation", and several practical proposals by Resnik and Yarowsky kicked off a discussion that led to the creation of the Senseval evaluation exercises.
+
+SemEval's 3, 2 or 1 year(s) cycle
+After SemEval-2010, many participants feel that the 3-year cycle is a long wait. Many other shared tasks such as Conference on Natural Language Learning (CoNLL) and Recognizing Textual Entailments (RTE) run annually. For this reason, the SemEval coordinators gave the opportunity for task organizers to choose between a 2-year or a 3-year cycle. The SemEval community favored the 3-year cycle.
+Although the votes within the SemEval community favored a 3-year cycle, organizers and coordinators had settled to split the SemEval task into 2 evaluation workshops. This was triggered by the introduction of the new *SEM conference. The SemEval organizers thought it would be appropriate to associate our event with the *SEM conference and collocate the SemEval workshop with the *SEM conference. The organizers got very positive responses (from the task coordinators/organizers and participants) about the association with the yearly *SEM, and 8 tasks were willing to switch to 2012. Thus was born SemEval-2012 and SemEval-2013. The current plan is to switch to a yearly SemEval schedule to associate it with the *SEM conference but not every task needs to run every year.
+
+List of Senseval and SemEval Workshops
+Senseval-1 took place in the summer of 1998 for English, French, and Italian, culminating in a workshop held at Herstmonceux Castle, Sussex, England on September 2–4.
+Senseval-2 took place in the summer of 2001, and was followed by a workshop held in July 2001 in Toulouse, in conjunction with ACL 2001. Senseval-2 included tasks for Basque, Chinese, Czech, Danish, Dutch, English, Estonian, Italian, Japanese, Korean, Spanish and Swedish.
+Senseval-3 took place in March–April 2004, followed by a workshop held in July 2004 in Barcelona, in conjunction with ACL 2004. Senseval-3 included 14 different tasks for core word sense disambiguation, as well as identification of semantic roles, multilingual annotations, logic forms, subcategorization acquisition.
+SemEval-2007 (Senseval-4) took place in 2007, followed by a workshop held in conjunction with ACL in Prague. SemEval-2007 included 18 different tasks targeting the evaluation of systems for the semantic analysis of text. A special issue of Language Resources and Evaluation is devoted to the result.
+SemEval-2010 took place in 2010, followed by a workshop held in conjunction with ACL in Uppsala. SemEval-2010 included 18 different tasks targeting the evaluation of semantic analysis systems.
+SemEval-2012 took place in 2012; it was associated with the new *SEM, First Joint Conference on Lexical and Computational Semantics, and co-located with NAACL, Montreal, Canada. SemEval-2012 included 8 different tasks targeting at evaluating computational semantic systems. However, there was no WSD task involved in SemEval-2012, the WSD related tasks were scheduled in the upcoming SemEval-2013.
+SemEval-2013 was associated with NAACL 2013, North American Association of Computational Linguistics, Georgia, USA and took place in 2013. It included 13 different tasks targeting at evaluating computational semantic systems.
+SemEval-2014 took place in 2014. It was co-located with COLING 2014, 25th International Conference on Computational Linguistics and *SEM 2014, Second Joint Conference on Lexical and Computational Semantics, Dublin, Ireland. There were 10 different tasks in SemEval-2014 evaluating various computational semantic systems.
+SemEval-2015 took place in 2015. It was co-located with NAACL-HLT 2015, 2015 Conference of the North American Chapter of the Association for Computational Linguistics – Human Language Technologies and *SEM 2015, Third Joint Conference on Lexical and Computational Semantics, Denver, USA. There were 17 different tasks in SemEval-2015 evaluating various computational semantic systems.
+
+SemEval Workshop framework
+The framework of the SemEval/Senseval evaluation workshops emulates the Message Understanding Conferences (MUCs) and other evaluation workshops ran by ARPA (Advanced Research Projects Agency, renamed the Defense Advanced Research Projects Agency (DARPA)).
+
+Stages of SemEval/Senseval evaluation workshops
+
+Firstly, all likely participants were invited to express their interest and participate in the exercise design.
+A timetable towards a final workshop was worked out.
+A plan for selecting evaluation materials was agreed.
+'Gold standards' for the individual tasks were acquired, often human annotators were considered as a gold standard to measure precision and recall scores of computer systems. These 'gold standards' are what the computational systems strive towards. In WSD tasks, human annotators were set on the task of generating a set of correct WSD answers (i.e. the correct sense for a given word in a given context)
+The gold standard materials, without answers, were released to participants, who then had a short time to run their programs over them and return their sets of answers to the organizers.
+The organizers then scored the answers and the scores were announced and discussed at a workshop.
+
+Semantic evaluation tasks
+Senseval-1 & Senseval-2 focused on evaluation WSD systems on major languages that were available corpus and computerized dictionary. Senseval-3 looked beyond the lexemes and started to evaluate systems that looked into wider areas of semantics, such as Semantic Roles (technically known as Theta roles in formal semantics), Logic Form Transformation (commonly semantics of phrases, clauses or sentences were represented in first-order logic forms) and Senseval-3 explored performances of semantics analysis on Machine translation.
+As the types of different computational semantic systems grew beyond the coverage of WSD, Senseval evolved into SemEval, where more aspects of computational semantic systems were evaluated.
+
+Overview of Issues in Semantic Analysis
+The SemEval exercises provide a mechanism for examining issues in semantic analysis of texts. The topics of interest fall short of the logical rigor that is found in formal computational semantics, attempting to identify and characterize the kinds of issues relevant to human understanding of language. The primary goal is to replicate human processing by means of computer systems. The tasks (shown below) are developed by individuals and groups to deal with identifiable issues, as they take on some concrete form.
+The first major area in semantic analysis is the identification of the intended meaning at the word level (taken to include idiomatic expressions). This is word-sense disambiguation (a concept that is evolving away from the notion that words have discrete senses, but rather are characterized by the ways in which they are used, i.e., their contexts). The tasks in this area include lexical sample and all-word disambiguation, multi- and cross-lingual disambiguation, and lexical substitution. Given the difficulties of identifying word senses, other tasks relevant to this topic include word-sense induction, subcategorization acquisition, and evaluation of lexical resources.
+The second major area in semantic analysis is the understanding of how different sentence and textual elements fit together. Tasks in this area include semantic role labeling, semantic relation analysis, and coreference resolution. Other tasks in this area look at more specialized issues of semantic analysis, such as temporal information processing, metonymy resolution, and sentiment analysis. The tasks in this area have many potential applications, such as information extraction, question answering, document summarization, machine translation, construction of thesauri and semantic networks, language modeling, paraphrasing,
+and recognizing textual entailment. In each of these potential applications, the contribution of the types of semantic analysis constitutes the most outstanding research issue.
+For example, in the word sense induction and disambiguation task, there are three separate phases:
+
+In the training phase, evaluation task participants were asked to use a training dataset to induce the sense inventories for a set of polysemous words. The training dataset consisting of a set of polysemous nouns/verbs and the sentence instances that they occurred in. No other resources were allowed other than morphological and syntactic Natural Language Processing components, such as morphological analyzers, Part-Of-Speech taggers and syntactic parsers.
+In the testing phase, participants were provided with a test set for the disambiguating subtask using the induced sense inventory from the training phase.
+In the evaluation phase, answers of to the testing phase were evaluated in a supervised an unsupervised framework.
+The unsupervised evaluation for WSI considered two types of evaluation V Measure (Rosenberg and Hirschberg, 2007), and paired F-Score (Artiles et al., 2009). This evaluation follows the supervised evaluation of SemEval-2007 WSI task (Agirre and Soroa, 2007)
+
+Senseval and SemEval tasks overview
+The tables below reflects the workshop growth from Senseval to SemEval and gives an overview of which area of computational semantics was evaluated throughout the Senseval/SemEval workshops.
+
+The Multilingual WSD task was introduced for the SemEval-2013 workshop. The task is aimed at evaluating Word Sense Disambiguation systems in a multilingual scenario using BabelNet as its sense inventory. Unlike similar task like crosslingual WSD or the multilingual lexical substitution task, where no fixed sense inventory is specified, Multilingual WSD uses the BabelNet as its sense inventory. Prior to the development of BabelNet, a bilingual lexical sample WSD evaluation task was carried out in SemEval-2007 on Chinese-English bitexts.
+The Cross-lingual WSD task was introduced in the SemEval-2007 evaluation workshop and re-proposed in the SemEval-2013 workshop
+.  To facilitate the ease of integrating WSD systems into other Natural Language Processing (NLP) applications, such as Machine Translation and multilingual Information Retrieval, the cross-lingual WSD evaluation task was introduced a language-independent and knowledge-lean approach to WSD. The task is an unsupervised Word Sense Disambiguation task for English nouns by means of parallel corpora. It follows the lexical-sample variant of the Classic WSD task, restricted to only 20 polysemous nouns.
+It is worth noting that the SemEval-2014 have only two tasks that were multilingual/crosslingual, i.e. (i) the L2 Writing Assistant task, which is a crosslingual WSD task that includes English, Spanish, German, French and Dutch and (ii) the Multilingual Semantic Textual Similarity task that evaluates systems on English and Spanish texts.
+
+Areas of evaluation
+The major tasks in semantic evaluation include the following areas of natural language processing. This list is expected to grow as the field progresses.
+The following table shows the areas of studies that were involved in Senseval-1 through SemEval-2014 (S refers to Senseval and SE refers to SemEval, e.g. S1 refers to Senseval-1 and SE07 refers to SemEval2007):
+
+Type of Semantic Annotations
+SemEval tasks have created many types of semantic annotations, each type with various schema. In SemEval-2015, the organizers have decided to group tasks together into several tracks. These tracks are by the type of semantic annotations that the task hope to achieve. Here lists the type of semantic annotations involved in the SemEval workshops:
+
+Learning Semantic Relations
+Question and Answering
+Semantic Parsing
+Semantic Taxonomy
+Sentiment Analysis
+Text Similarity
+Time and Space
+Word Sense Disambiguation and Induction
+A task and its track allocation is flexible; a task might develop into its own track, e.g. the taxonomy evaluation task in SemEval-2015 was under the Learning Semantic Relations track and in SemEval-2016, there is a dedicated track for Semantic Taxonomy with a new Semantic Taxonomy Enrichment task.

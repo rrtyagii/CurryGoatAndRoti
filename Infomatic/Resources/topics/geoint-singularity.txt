@@ -1,0 +1,26 @@
+GEOINT Singularity describes a hypothetical future time when capabilities of geospatial intelligence (GEOINT) have advanced to full information availability and transparency. Physical activity on the earth's surface would then be monitored, analyzed and made available in real time and the information would be used by government, business, and individuals for decision making.
+The concept of the GEOINT Singularity was first proposed by Dr. Josef Koller at Center for Space Policy and Strategy in "The Future of Ubiquitous, Real-Time Intelligence – A GEOINT Singularity" describing the convergence of three major trends – the proliferation of remote sensing technologies (such as satellites, drones, and other sensors), the increasing use of artificial intelligence (AI) analytics to process and analyze large data sets, and the expansion of communication networks (such broadband connectivity from space). The convergence of these trends would eventually lead monitoring and analyzing all physical activity on the earth's surface.
+The potential consequences of approaching a GEOINT Singularity are not yet fully understood but could include improvements in agriculture, disaster response, and environmental monitoring. However, there are also concerns about potential negative consequences such in privacy, security and the general misuse of information.
+
+Use of GEOINT Singularity
+In the book "National Security Intelligence and Ethics", the former NGA Director Robert Cardillo describes the GEOINT Singularity as technology enabling continuous sensing of all of the world's activity. The author postulated "Who will guard the guards?" discussing privacy rights, benefits of technology, and potential misuse.
+Texas A&M University, Bush School of Government & Public Service uses GEOINT Singularity as required reading in a course on Defense Intelligence. The course exposes students to "historical and contemporary Defense Intelligence capabilities as part of the military decision-making environment".
+Sarah Scoles describes in a Popular Science Magazine "Meet the GEOINT Singularity" that the increasing transparency would allow municipalities to fact-check housing developments, or international organization to monitor global shipping traffic.
+
+GEOINT Singularity Composite Index
+The GEOINT Singularity Composite Index includes a factorial combination of the following components and relevant indices.
+
+Satellite remote sensors in orbit
+Spatial resolution
+Spectral resolution and spectral bands
+Data availability
+Data accuracy
+Machine Learning Training Time
+Data Connectivity
+GEOINT Singularity composite index provides a summary to communicate insights for economics, politics, market analysis, earth, environmental, or social sciences.
+
+In the Press
+The GEOINT Singularity term has been referenced by news media, including Breaking Defense describing opportunities for civil, commercial and  military uses.
+
+In popular culture
+In 2021, Merrimac Records published a song on YouTube with the title "GEOINT Singularity". The song references GEOINT Singularity from the perspective of increased mass surveillance and police state.

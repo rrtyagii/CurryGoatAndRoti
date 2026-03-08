@@ -1,0 +1,17 @@
+Matador Network is a North American digital media company based in San Francisco focused on travel, outdoor adventure, food, nightlife, language learning and culture.
+In 2023, Matador Network launched GuideGeek, a travel assistant using generative artificial intelligence technology from OpenAI. The technology has both a free consumer version, and a white-label version for destination marketing organizations.
+
+History
+The company was officially founded on April 28, 2006, by CEO Ross Borden and Ben Polansky. Borden went on a trip with friends right after college, and one of the destinations was a volcano named Misti near Arequipa, Peru. After they visited the volcano, they sent an email of all the photos they had taken to many friends and family members; Borden was inspired to create a platform for sharing travel experiences.
+The business opened up to include travel writers and influencers within its network. In addition to its online publications, it creates content for brands in partnership with influencers and distributes the content to its audience.
+During the COVID-19 pandemic, Matador Network pivoted to content focused on road trips and domestic travel. In 2021, the company launched Matador Creators where creators can set up their profiles and apply for press trips or campaigns from brands. Matador Creators has members with occupations including writers, bloggers, photographers, filmmakers and producers.
+
+GuideGeek
+In late 2022, Matador Network gained early access to the latest ChatGPT technology and began using it to build a tool for travel planning. In spring 2023, the company launched GuideGeek, a free A.I.-powered travel assistant. Users message the free service on Instagram, WhatsApp and Facebook Messenger. Travelers can specify their budget and needs to generate custom itineraries.
+Matador Network has a team of human curators monitoring conversations to steer them back on track if the AI gets off course. Using this technique, known as reinforcement learning from human feedback (RLHF), the accuracy of GuideGeek has increased to 98%. Destinations such as Greece, Estes Park, Colorado and Illinois have partnered with Matador Network for custom versions of the AI technology.
+
+Films and books
+Matador Network operates an in-house production team of 40 known as Matador Studios, which produces video content for brands as well as Matador Originals. Matador Network has distribution partnerships with organizations such as ESPN and Roku. It also created a video for Jeep starring snowboarder Shaun White.
+In 2019, Matador Network partnered with Southwest Airlines to create a four-episode series called "My City, My Heart: An Insiders' Guide by Southwest Employees." The series showcased employees from four different work groups, each playing an important role, and launched across Matador's digital channels and onboard Wi-Fi-equipped flights on Southwest.
+Matador Network has also published books, including "No Foreign Lands: 100 of the Most Inspirational Travel Quotes of All Time," which was named a 2012 New York Times gift guide suggestion.
+Matador was approached by publishing house Macmillan to write the book "101 Places to Get F*cked Up Before You Die." Matador senior editor David S. Miller told Business Insider, "Our website is not about exploiting destinations. Matador and our brand has always been about traveling in a respectful way and trying to connect with local people."

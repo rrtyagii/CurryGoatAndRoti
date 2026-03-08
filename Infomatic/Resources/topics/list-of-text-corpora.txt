@@ -1,0 +1,159 @@
+Text corpora (singular: text corpus) are large and structured sets of texts, which have been systematically collected. Text corpora are used by both AI developers to train large language models and corpus linguists and within other branches of linguistics for statistical analysis, hypothesis testing, finding patterns of language use, investigating language change and variation, and teaching language proficiency.
+
+English language
+American National Corpus
+Bank of English
+BookCorpus
+British National Corpus
+Bergen Corpus of London Teenage Language (COLT)
+Brown Corpus, forming part of the "Brown Family" of corpora, together with LOB, Frown and F-LOB
+COCA: see below at English-Corpora.org
+COHA: see below at English-Corpora.org
+Corpus Resource Database (CoRD), more than 80 English language corpora.
+Coruña Corpus, a corpus of late Modern English scientific writing covering the period 1700–1900, developed by the Muste research group at the University of A Coruña
+DBLP Discovery Dataset (D3), a corpus of computer science publications with sentient metadata.
+English-Corpora.org, which contains (among others):
+iWeb, the Intelligent Web-based Corpus: 14 billion words, 6 countries, 2017
+COCA, the Corpus of Contemporary American English: 1.0 billion words, American, 1990-2019
+COHA, the Corpus of Historical American English: 475 million words, American, 1820-2019
+NOW, News on the Web: 23.2 billion+ words, 20 countries, 2010-present
+English Trends, a large English monitor corpus of news articles gathered from RSS feeds, 86+ billion words, 2014–present
+GUM corpus, the open source Georgetown University Multilayer corpus, with very many annotation layers
+Google Books Ngram Corpus
+International Corpus of English
+Oxford English Corpus
+RE3D (Relationship and Entity Extraction Evaluation Dataset)
+Santa Barbara Corpus of Spoken American English
+Scottish Corpus of Texts & Speech
+Strathy Corpus of Canadian English
+
+European languages
+CETENFolha
+Basque:
+The Corpus of Electronic Texts
+Corpus Inscriptionum Insularum Celticarum (CIIC), covering Primitive Irish inscriptions in Ogham
+Google Books Ngram Corpus
+The Georgian Language Corpus
+Thesaurus Linguae Graecae (Ancient Greek)
+Eastern Armenian National Corpus (EANC) 110 million words. Freely searchable online.
+Spanish text corpus by Molino de Ideas, which contains 660 million words.
+CorALit: the Corpus of Academic Lithuanian Academic texts published in 1999–2009 (approx. 9 million words). Compiled at the University of Vilnius, Lithuania
+Reference Corpus of Contemporary Portuguese (CRPC)
+Turkish National Corpus
+CoRoLa - The Reference Corpus of the Contemporary Romanian Language (Corpus reprezentativ al limbii române contemporane )
+TS Corpus - A large set of Turkish corpora. TS Corpus is a Free&Independent Project that aims to build Turkish corpora, NLP tools and linguistic datasets...
+MacMorpho - an annotated corpus of Brazilian Portuguese text
+
+Slavic
+East Slavic
+Belarusian N-korpus
+Russian National Corpus
+General Internet Corpus of Russian
+General Regionally Annotated Corpus of Ukrainian
+Ukrainian Language Corpus on the Mova.info Linguistic Portal
+Ukrainian Language Corpus
+Araneum Russicum
+Russian Corpus of Biographical Texts
+RuTweetCorp
+RusAge: Corpus for Age-Based Text Classification
+
+South Slavic
+Bulgarian National Corpus
+Macedonian Electronic Corpus
+Croatian Language Corpus
+Croatian National Corpus
+Slovenian National Corpus
+
+West Slavic
+Czech National Corpus
+National Corpus of Polish
+Slovak National Corpora
+
+German
+German Reference Corpus (DeReKo) More than 4 billion words of contemporary written German.
+Free corpus of German mistakes from people with dyslexia
+
+Middle Eastern Languages
+Corpus Inscriptionum Semiticarum
+Kanaanäische und Aramäische Inschriften
+Hamshahri Corpus (Persian)
+Persian in MULTEXT-EAST corpus (Persian)
+Amarna letters (for Akkadian, Egyptian, Sumerogram's, etc.)
+TEP: Tehran English-Persian Parallel Corpus
+PTC: Persian Today Corpus: The Most Frequent Words of Today Persian, based on a one-million-word corpus (in Persian: Vāže-hā-ye Porkārbord-e Fārsi-ye Emrūz), Hamid Hassani, Tehran, Iran Language Institute (ILI), 2005, 322 pp. ISBN 964-8699-32-1
+Kurdish-corpus.uok.ac.ir (Kurdish-corpus Sorani dialect) University of Kurdistan, Department of English Language and Linguistics
+Bijankhan Corpus A Contemporary Persian Corpus for NLP researches, University of Tehran, 2012
+Neo-Assyrian Text Corpus Project
+Quranic Arabic Corpus (Classical Arabic)
+Electronic Text Corpus of Sumerian Literature
+Open Richly Annotated Cuneiform Corpus
+Asosoft text corpus – Central Kurdish (Sorani)
+Thesaurus Linguae Aegyptiae (ancient Egyptian, Afro-Asiatic)
+
+Turkic languages
+Uzbek national corpus (20 million words)
+
+Devanagari
+Nepali Text Corpus (90+ million running words/6.5+ million sentences)
+
+East Asian Languages
+Kotonoha Japanese language corpus
+LIVAC Synchronous Corpus (Chinese)
+
+South Asian Languages
+Hindi:
+SinMin dataset (Sinhala)
+
+African languages
+Amharic:
+Creole (Gulf of Guinea):
+Hausa:
+Igbo:
+Oromo:
+Yoruba:
+Zulu:
+
+Parallel corpora of diverse languages
+Chinese/English Political Interpreting Corpus (CEPIC)  consists of transcripts of speeches delivered by top political figures from Hong Kong, Beijing, Washington DC and London, as well as their translated/interpreted texts. Developed by Jun Pan and HKBU Library.
+Europarl Corpus - proceedings of the European Parliament from 1996 to 2012
+EUR-Lex corpus - collection of all official languages of the European Union, created from the EUR-Lex database
+OPUS: Open source Parallel Corpus in many many languages
+Tatoeba A parallel corpus which contains over 8.9 million sentences in multiple languages; 107 languages have more than 1,000 sentences each; a further 81 languages have from 100 to 1,000 sentences each.
+NTU-Multilingual Corpus in 7 languages (ara, eng, ind, jpn, kor, mcn, vie) (legacy repo)
+SeedLing corpus - A Seed Corpus for the Human Language Project with 1000+ languages from various sources.
+GRALIS parallel texts for various Slavic languages, compiled by the institute for Slavic languages at Graz University (Branko Tošović et al.)
+The ACTRES Parallel Corpus (P-ACTRES 2.0) is a bidirectional English-Spanish corpus consisting of original texts in one language and their translation into the other. P-ACTRES 2.0 contains over 6 million words considering both directions together.
+The JRC-Acquis Multilingual Parallel Corpus of the total body of European Union (EU) law: Acquis Communautaire with 231 language pairs.
+European Parliament Proceedings Parallel Corpus 1996–2011
+The Opus project aims at collecting freely available parallel corpora Archived 2013-12-14 at the Wayback Machine
+Japanese-English Bilingual Corpus of Wikipedia's Kyoto Articles Archived 2012-08-22 at the Wayback Machine
+COMPARA – Portuguese/English parallel corpora
+TERMSEARCH – English/Russian/French parallel corpora (Major international treaties, conventions, agreements, etc.
+TradooIT – English/French/Spanish – Free Online tools
+Nunavut Hansard – English/Inuktitut parallel corpus
+ParaSol – A parallel corpus of Slavic and other languages
+Glosbe: Multilanguage parallel corpora Archived 2013-05-27 at the Wayback Machine with online search interface
+InterCorp: A multilingual parallel corpus 40 languages aligned with Czech, online search interface
+myCAT – Olanto, concordancer (open source AGPL) with online search on JCR and UNO corpus
+TAUS, with online search interface.
+linguatools multilingual parallel corpora, online search interface.
+EUR-Lex Corpus – corpus built up of the EUR-Lex database consists of European Union law and other public documents of the European Union
+Language Grid – Multilingual service platform that includes parallel text services
+
+Comparable Corpora
+Corpus of Political Speeches contains four collections of political speeches in English and Chinese from The Corpus of U.S. Presidential Speeches (1789–2015), The Corpus of Policy Address by Hong Kong Governors (1984–1996) and Hong Kong Chief Executives (1997–2014), The Corpus of Speeches given on New Year's days and Double Tenth days by Taiwan Presidents (1978–2014), and The Corpus of Report on the Work of the Government by Premiers of the People's Republic of China (1984–2013). Developed by HKBU Library.
+WaCky - The Web-As-Corpus Kool Yinitiative Web as Corpus (eng, fre, deu, ita)
+Disambiguating Similar Language Corpora Collection (DSLCC) (Bosnian, Croatian, Serbian, Indonesian, Malay, Czech, Slovak, Brazilian Portuguese, European Portuguese, Peninsular Spanish, Argentine Spanish)
+Wikipedia Comparable Corpora(registration required) when (41 million aligned Wikipedia articles for 253 language pairs)
+The TenTen Corpus Family – comparable web corpora of target size 10 billion words. These corpora are available in the corpus management system Sketch Engine, currently, there exist TenTen corpora for more than 30 languages (such as English TenTen corpus, Arabic TenTen corpus, Spanish TenTen corpus, Russian Tenten corpus,). The overview of existing TenTen corpora can be found at https://www.sketchengine.co.uk/documentation/tenten-corpora/
+Timestamped JSI web corpora – web corpora of news articles crawled from a list of RSS feeds. Newsfeed corpora are being prepared in the framework of the project implemented by the Jožef Stefan Institute at Slovenian scientific research institute. and published in Sketch Engine. More information about the project is on the project websites.
+
+L2 (English) Corpora
+Cambridge Learner Corpus
+Corpus of Academic Written and Spoken English (CAWSE), a collection of Chinese students’ English language samples in academic settings. Freely downloadable online.
+English as a Lingua Franca in Academic Settings (ELFA), an academic ELF corpus.
+International Corpus of Learner English (ICLE), a corpus of learner written English.
+Louvain International Database of Spoken English Interlanguage (LINDSEI), a corpus of learner spoken English.
+Trinity Lancaster Corpus, one of the largest corpus of L2 spoken English.
+University of Pittsburgh English Language Institute Corpus (PELIC)
+Vienna-Oxford International Corpus of English (VOICE), an ELF corpus.

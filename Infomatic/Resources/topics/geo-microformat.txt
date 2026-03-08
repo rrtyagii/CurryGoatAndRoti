@@ -1,0 +1,45 @@
+Geo is a microformat used for marking up geographical coordinates (latitude and longitude) in HTML (or XHTML). Coordinates are expected in angular units of degrees and geodetic datum WGS84. Although termed a "draft" specification, the format is a de facto standard, stable and in widespread use; not least as a sub-set of the published hCalendar and hCard microformat specifications, neither of which is still a draft.
+Use of Geo allows parsing tools (for example other websites, or Firefox's Operator extension) to extract the locations, and display them using some other website or web mapping tool, or to load them into a GPS device, index or aggregate them, or convert them into an alternative format.
+
+Usage
+If latitude is present, so must be longitude, and vice versa.
+The same number of decimal places should be used in each value, including trailing zeroes.
+The Geo microformat is applied using three HTML classes. For example, the marked-up text:
+
+becomes:
+
+by adding the class-attribute values "geo", "latitude" and "longitude".
+This will display
+
+and a geo microformat for that location, Belvide Reservoir, which will be detected, on this page,  by microformat parsing tools.
+
+hCard
+Each Geo microformat may be wrapped in an hCard microformat, allowing for the inclusion of personal, organisational or venue names, postal addresses, telephone contacts, URLs, pictures, etc.
+
+Extensions
+There are three proposals, none mutually-exclusive, to extend the geo microformat:
+
+geo-extension - for representing coordinates on other planets, moons etc., and with non-WGS84 schema
+geo-elevation - for representing altitude
+geo-waypoint - for representing routes and boundaries, using waypoints
+
+Users
+Organisations and websites using Geo include:
+
+Flickr - on over three million photo pages
+Geograph - on over one million photo pages
+Google
+Multimap - all map pages
+OpenStreetMap - wiki pages about places, GPS traces and diary entries
+Wikipedia - embedded in geo templates of map-link pages
+German Wikipedia - ditto
+Dutch Wikipedia - ditto
+Swedish Wikipedia - ditto
+Italian Wikipedia
+Wikivoyage
+Multiple organisations  publishing hCard include a geo as part of that.
+
+h-geo
+An alternative to Geo, h-geo, has been proposed. This is applied using three HTML classes. For example:
+
+by adding the class-attribute values "h-geo", "p-latitude", "p-longitude", and "p-altitude".

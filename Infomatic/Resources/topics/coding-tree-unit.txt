@@ -1,0 +1,24 @@
+Coding tree unit (CTU) is the basic processing unit of the High Efficiency Video Coding (HEVC) video standard and conceptually corresponds in structure to macroblock units that were used in several previous video standards. CTU is also referred to as largest coding unit (LCU).
+A CTU can be between 16×16 pixels and 64×64 pixels in size with a larger size usually increasing coding efficiency. The first video standard that uses CTUs is HEVC/H.265 which became an ITU-T standard on April 13, 2013.
+
+History
+Macroblock encoding methods have been used in digital video coding standards since H.261 which was first released in 1988. However, for error correction and signal-to-noise ratio the standard 16x16 macroblock size is not capable of getting the kind of bit reductions that information theory and coding theory suggest are theoretically and practically possible.
+
+Technical details
+HEVC replaces macroblocks, which were used with previous video standards, with CTUs which can use larger block structures of up to 64×64 pixels and can better sub-partition the picture into variable sized structures.
+HEVC initially divides the picture into CTUs which are then divided for each luma/chroma component into coding tree blocks (CTBs).
+A CTB can be 64×64, 32×32, or 16×16 with a larger pixel block size usually increasing the coding efficiency. CTBs are then divided into one or more coding units (CUs), so that the CTU size is also the largest coding unit size.
+
+The arrangement of CUs in a CTB is known as a quadtree since a subdivision results in four smaller regions.
+CUs are then divided into prediction units (PUs) of either intra-picture or inter-picture prediction type which can vary in size from 64×64 to 4×4. To limit worst-case memory bandwidth when applying motion compensation in the decoding process, prediction units coded using inter-picture prediction are restricted to a minimum size of 8×4 or 4×8 if they are predicted from a single reference (uni-prediction) or 8×8 if they are predicted from two references (bi-prediction).
+To code the prediction residual, a CU is divided into a quadtree of DCT transform units (TUs). TUs contain coefficients for spatial block transform and quantization. A TU can be 32×32, 16×16, 8×8, or 4×4 pixel block sizes.
+
+Standardization
+At the July 2012 HEVC meeting it was decided, based on proposal JCTVC-J0334, that HEVC level 5 and higher would be required to use CTB sizes of either 32×32 or 64×64. This was added to HEVC in the Draft International Standard as a level limit for the Log2MaxCtbSize variable.
+Log2MaxCtbSize was renamed CtbSizeY in the October 2012 HEVC draft and then renamed CtbLog2SizeY in the January 2013 HEVC draft.
+
+Coding efficiency
+The design of most video coding standards is primarily aimed at having the highest coding efficiency. Coding efficiency is the ability to encode video at the lowest possible bit rate while maintaining a certain level of video quality. HEVC benefits from the use of larger CTB sizes.
+This has been shown in peak signal-to-noise ratio (PSNR) tests with a HM-8.0 HEVC encoder where it was forced to use progressively smaller CTU sizes. For all test sequences when compared to a 64×64 CTU size it was shown that the HEVC bit rate increased by 2.2% when forced to use a 32×32 CTU size and increased by 11.0% when forced to use a 16×16 CTU size.
+In the Class A test sequences, where the resolution of the video was 2560×1600, when compared to a 64×64 CTU size it was shown that the HEVC bit rate increased by 5.7% when forced to use a 32×32 CTU size and increased by 28.2% when forced to use a 16×16 CTU size.
+The tests showed that large CTU sizes become even more important for coding efficiency with higher resolution video. The tests also showed that it took 60% longer to decode HEVC video encoded at 16×16 CTU size than at 64×64 CTU size. The tests showed that large CTU sizes increase coding efficiency while also reducing decoding time. The tests were conducted with the Main profile of HEVC based on equal PSNR.

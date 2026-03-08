@@ -1,0 +1,17 @@
+SMA* or Simplified Memory Bounded A* is a shortest path algorithm based on the A* algorithm. The main advantage of SMA* is that it uses a bounded memory, while the A* algorithm might need exponential memory. All other characteristics of SMA* are inherited from A*.
+
+Process
+Properties
+SMA* has the following properties
+
+It works with a heuristic, just as A*
+It is complete if the allowed memory is high enough to store the shallowest solution
+It is optimal if the allowed memory is high enough to store the shallowest optimal solution, otherwise it will return the best solution that fits in the allowed memory
+It avoids repeated states as long as the memory bound allows it
+It will use all memory available
+Enlarging the memory bound of the algorithm will only speed up the calculation
+When enough memory is available to contain the entire search tree, then calculation has an optimal speed
+
+Implementation
+The implementation of Simple memory bounded A* is very similar to that of A*; the only difference is that nodes with the highest f-cost are pruned from the queue when there isn't any space left. Because those nodes are deleted, simple memory bounded A* has to remember the f-cost of the best forgotten child of the parent node. When it seems that all explored paths are worse than such a forgotten path, the path is regenerated.
+Pseudo code:

@@ -1,0 +1,22 @@
+The 2012 RoboCup 2D Soccer Simulation League was a simulated soccer competition contested in the 16th Annual RoboCup International Symposium, held in Mexico City, Mexico, in June 2012.
+
+Format
+The first stage was disputed by 18 teams divided into two groups of five teams and two groups of four teams. There were three rounds of groups. In the round 0, the three lowest ranked teams were eliminated. In the round 1, the ten lowest ranked teams were eliminated. Round 2 and 3, four teams of each round were eliminated. The four teams classified from the round 3 disputed the semifinals in two matches for each. The final and 3rd place matches were disputed in a unique game for each.
+
+Round stage
+Round 0
+Group A
+Group B
+Group C
+Group D
+Round 1
+Group E
+Group F
+Round 2
+Group G
+Group H
+Round 3
+Group I
+Group J
+Finals
+Honours

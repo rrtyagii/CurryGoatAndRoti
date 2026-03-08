@@ -1,0 +1,17 @@
+MindSphere is an industrial IoT-as-a-service solution developed by Siemens for applications in the context of the Internet of Things (IoT).
+MindSphere stores operational data and makes it accessible through digital applications (“MindSphere applications”) to allow industrial customers to make decisions based on valuable factual information. The system is used in applications such as automated production and vehicle fleet management.
+Assets can be securely connected to MindSphere with auxiliary MindSphere products that collect and transfer relevant machine and plant data.
+Examples include real-time telemetric data from moving assets like cars, time series data and geographical data, which can be used for predictive maintenance or to develop new analytical tools.
+MindSphere is now known as Insights Hub.
+
+Overview
+As an industrial IoT as a service solution, MindSphere collects and analyzes all kinds of sensor data in real time. This information can be used to optimize products, production assets and manufacturing processes along the entire value chain. MindSphere’s open application interfaces make it possible to obtain data from machines, plants or entire fleets irrespective of the manufacturer. These interfaces include OPC Foundation’s OPC Unified Architecture (OPC UA).
+To help customers create their own software applications and services, MindSphere is equipped with open application programming interfaces (APIs) and development tools. This allows OEMs to integrate their own technology.
+MindSphere is based on the concept of closed feedback loops enabling the bi-directional data flow between production and development: Real-world plants, machines and equipment can be connected to MindSphere in order to extract operational data. Valuable information (i.e., “digital twins” of machines) can then be extrapolated from the raw data through analytics and utilized to optimize products as well as production processes and environments in the next cycle of innovation.
+
+Timeline
+August 2017 – End of closed beta phase and release of MindSphere Version 2.0
+January 2018 – Release of MindSphere Version 3.0 on AWS
+May 2018 – Release of MindSphere on Microsoft Azure
+April 2019 – Release of MindSphere Version 3.0 on Alibaba Cloud
+June 2023 – Mindsphere is now known as Insights Hub

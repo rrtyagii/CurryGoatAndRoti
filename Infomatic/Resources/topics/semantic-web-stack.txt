@@ -1,0 +1,36 @@
+The Semantic Web Stack, also known as Semantic Web Cake or Semantic Web Layer Cake, illustrates the architecture of the Semantic Web.
+The Semantic Web is a collaborative movement led by international standards body the World Wide Web Consortium (W3C). The standard promotes common data formats on the World Wide Web. By encouraging the inclusion of semantic content in web pages, the Semantic Web aims at converting the current web, dominated by unstructured and semi-structured documents into a "web of data". The Semantic Web stack builds on the W3C's Resource Description Framework (RDF).
+
+Overview
+The Semantic Web Stack is an illustration of the hierarchy of languages, where each layer exploits and uses capabilities of the layers below. It shows how technologies that are standardized for Semantic Web are organized to make the Semantic Web possible. It also shows how Semantic Web is an extension (not replacement) of classical hypertext web.
+The illustration was created by Tim Berners-Lee. The stack is still evolving as the layers are concretized. (Note: A humorous talk on the evolving Semantic Web stack was given at the 2009 International Semantic Web Conference by James Hendler.)
+
+Semantic Web technologies
+As shown in the Semantic Web Stack, the following languages or technologies are used to create Semantic Web. The technologies from the bottom of the stack up to OWL are currently standardized and accepted to build Semantic Web applications. It is still not clear how the top of the stack is going to be implemented. All layers of the stack need to be implemented to achieve full visions of the Semantic Web.
+
+Hypertext Web technologies
+The bottom layers contain technologies that are well known from hypertext web and that without change provide basis for the semantic web.
+
+Internationalized Resource Identifier (IRI), generalization of URI, provides means for uniquely identifying semantic web resources. Semantic Web needs unique identification to allow provable manipulation with resources in the top layers.
+Unicode serves to represent and manipulate text in many languages. Semantic Web should also help to bridge documents in different human languages, so it should be able to represent them.
+XML is a markup language that enables creation of documents composed of semi-structured data. Semantic web gives meaning (semantics) to semi-structured data.
+XML Namespaces provides a way to use markups from more sources. Semantic Web is about connecting data together, and so it is needed to refer more sources in one document.
+
+Standardized Semantic Web technologies
+Middle layers contain technologies standardized by W3C to enable building semantic web applications.
+
+Resource Description Framework (RDF) is a framework for creating statements in a form of so-called triples. It enables to represent information about resources in the form of graph - the semantic web is sometimes called Giant Global Graph.
+RDF Schema (RDFS) provides basic vocabulary for RDF. Using RDFS it is for example possible to create hierarchies of classes and properties.
+Web Ontology Language (OWL) extends RDFS by adding more advanced constructs to describe semantics of RDF statements. It allows stating additional constraints, such as for example cardinality, restrictions of values, or characteristics of properties such as transitivity. It is based on description logic and so brings reasoning power to the semantic web.
+SPARQL is a RDF query language - it can be used to query any RDF-based data (i.e., including statements involving RDFS and OWL). Querying language is necessary to retrieve information for semantic web applications.
+RIF is a rule interchange format. It is important, for example, to allow describing relations that cannot be directly described using description logic used in OWL.
+
+Unrealized Semantic Web technologies
+Top layers contain technologies that are not yet standardized or contain just ideas that should be implemented in order to realize Semantic Web.
+
+Cryptography is important to ensure and verify that semantic web statements are coming from trusted source. This can be achieved by appropriate digital signature of RDF statements.
+Trust to derived statements will be supported by (a) verifying that the premises come from trusted source and by (b) relying on formal logic during deriving new information.
+User interface is the final layer that will enable humans to use semantic web applications.
+
+
+== Notes ==

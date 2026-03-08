@@ -1,0 +1,49 @@
+The National Artificial Intelligence Research Institutes is a United States research and development program, led by the National Science Foundation (NSF), that funds large, multi‑institution research centers dedicated to artificial intelligence (AI) research, education, and workforce development. Announced in 2019 and first awarding grants in 2020, the institutes as a combined ecosystem comprise the largest AI research program funded by the U.S. federal government. The program awards up to US$20 million to each institute over five years. By 2024, four funding cohorts had created 27 different institutes located across more than 40 states, with total funding allocation approaching US$500 million.
+
+History
+The NSF announced the National AI Research Institutes program in 2019.  The first solicitation funded seven institutes that began work in 2020.  A second cohort of 11 institutes was added in 2021 and a third cohort of seven institutes was announced in May 2023.  The 2023 awards, valued at US$140 million, established centres focused on subjects such as trustworthy AI, cybersecurity, climate‑land interactions and inclusive education.  These institutes included the AI Institute for Trustworthy AI in Law & Society, the AI Institute for Agent‑based Cyber Threat Intelligence and Operation, and the AI Institute for Artificial and Natural Intelligence.  In September 2024 the NSF and the Simons Foundation announced two NSF–Simons National AI Research Institutes for astronomy.  The NSF‑Simons AI Institute for Cosmic Origins at the University of Texas at Austin and the NSF‑Simons AI Institute for the Sky at Northwestern University will each receive US$20 million in joint funding to apply AI to large astronomical data sets. representing more than 500 participating organisations These two centres joined 25 existing institutes, bringing the network to 27 institutes.
+
+Program structure and goal
+Each National AI Research Institute is conceived as a long‑term, multi‑institution collaboration that advances fundamental AI research while addressing a real‑world challenge.  According to a 2024 article in AI Magazine, the program had established 25 institutes by early 2024, collectively involving more than 100 organisations and 680 professionals.  The institutes pursue a use‑inspired research framework in which AI advances are motivated by needs in domains such as climate, agriculture, energy, health and cybersecurity.  Beyond research, the institutes are tasked with developing new AI curricula, broadening participation in the AI workforce, and fostering partnerships between academia, industry and government.  The program contributes to all nine strategic objectives of the National Artificial Intelligence Research and Development Strategic Plan.
+The institutes conduct long‑horizon AI research while:
+
+developing curricula, certificates, and K–12 outreach to train a diverse AI workforce;
+partnering with industry, non‑profits, and state or local governments for technology transfer; and
+embedding ethics, security, and social‑impact considerations in AI system design.
+
+Institutes
+Funding mechanism
+The program awards institutes through themed solicitations, often in partnership with other federal agencies or private foundations.  Examples include:
+
+The AI Institute for Resilient Agriculture (AIIRA), launched in 2021, which develops AI‑driven digital twins and predictive models to improve agricultural resilience.
+The AI Institute for Engaged Learning (EngageAI), which investigates narrative‑based learning and human–AI collaboration.
+The AI Institute for Agent‑based Cyber Threat Intelligence and Operation (ACTION), established in 2023, which builds AI agents to anticipate and mitigate cyber threats.
+The NSF‑Simons AI Institute for Cosmic Origins and the NSF‑Simons AI Institute for the Sky (both announced in 2024), which apply AI techniques to astrophysics and cosmology and include outreach and workforce development programs.
+
+Selected list of AI Institutes by year of funding
+2020 cohort
+AI Institute for Research on Trustworthy AI in Weather, Climate and Coastal Oceanography – University of Oklahoma
+AI Institute for Foundations of Machine Learning – University of Texas at Austin
+AI Institute for Student–AI Teaming – University of Colorado Boulder
+AI Institute for Future Agricultural Resilience, Management and Sustainability (AIFARMS) – University of Illinois Urbana‑Champaign
+AI Institute for Molecular Discovery, Synthetic Strategy and Manufacturing – University of Illinois Urbana‑Champaign
+Institute for Artificial Intelligence and Fundamental Interactions (IAIFI) – Massachusetts Institute of Technology
+USDA–NIFA AI Institute for Agricultural AI (AgAID) – Washington State University (joint NSF/USDA award)
+
+2021 cohort (selected examples)
+AI Institute for Edge Computing Leveraging Next-Generation Networks (ATHENA) – Duke University
+AI Institute for Adult Learning and Online Education (ALOE) – Georgia State University / Georgia Tech consortium
+AI Institute for Resilient Agriculture – Iowa State University
+
+2023 cohort (selected examples)
+Institute for Trustworthy AI in Law & Society (TRAILS) – University of Maryland
+AI Institute for Agent‑based Cyber Threat Intelligence & Operation (ACTION) – University of California, Santa Barbara
+AI Institute for Climate‑Land Interactions, Mitigation, Adaptation & Tradeoffs (AI‑CLIMATE) – University of Minnesota
+AI Institute for Exceptional Education – University at Buffalo
+
+2024 NSF–Simons institutes
+NSF–Simons AI Institute for Cosmic Origins (CosmicAI) – University of Texas at Austin
+NSF–Simons AI Institute for the Sky (SkAI) – Northwestern University
+
+Reception and impact
+Trade publications covering the 2023 awards described the National AI Research Institutes as a critical component of the United States’ AI innovation infrastructure.  Campus Technology reported that the NSF’s US$140 million investment in the 2023 cohort expanded the network to nearly every state and raised the program’s cumulative investment to about US$500 million.  EdTech magazine noted that NSF Director Sethuraman Panchanathan called the institutes a “critical component of our nation’s AI innovation, infrastructure, technology, education and partnerships ecosystem.”  Government technology news outlet GovTech wrote that the 2024 NSF‑Simons institutes join 25 existing institutes and represent collaborations between more than 500 institutions worldwide.  A 2024 federal R&D report characterised the program as the country’s largest AI research ecosystem and recorded federal investments of US$118.5 million in FY 2023 and US$69 million in FY 2024.

@@ -1,0 +1,64 @@
+Gremlin is a graph traversal language and virtual machine developed by Apache TinkerPop of the Apache Software Foundation. Gremlin works for both OLTP-based graph databases as well as OLAP-based graph processors. Gremlin's automata and functional language foundation enable Gremlin to naturally support imperative and declarative querying, host language agnosticism, user-defined domain specific languages, an extensible compiler/optimizer, single- and multi-machine execution models, and hybrid depth- and breadth-first evaluation with Turing completeness.
+As an explanatory analogy, Apache TinkerPop and Gremlin are to graph databases what the JDBC and SQL are to relational databases. Likewise, the Gremlin traversal machine is to graph computing as what the Java virtual machine is to general purpose computing.
+
+History
+2009-10-30 the project is born, and immediately named "TinkerPop"
+2009-12-25 v0.1 is the first release
+2011-05-21 v1.0 is released
+2012-05-24 v2.0 is released
+2015-01-16 TinkerPop becomes an Apache Incubator project
+2015-07-09 v3.0.0-incubating is released
+2016-05-23 Apache TinkerPop becomes a top-level project
+2016-07-18 v3.1.3 and v3.2.1 are first releases as Apache TinkerPop
+2017-12-17 v3.3.1 is released
+2018-05-08 v3.3.3 is released
+2019-08-05 v3.4.3 is released
+2020-02-20 v3.4.6 is released
+2021-05-01 v3.5.0 is released
+2022-04-04 v3.6.0 is released
+2023-07-31 v3.7.0 is released
+2025-11-12 v3.8.0 is released
+
+Vendor integration
+Gremlin is an Apache2-licensed graph traversal language that can be used by graph system vendors. There are typically two types of graph system vendors: OLTP graph databases and OLAP graph processors. The table below outlines those graph vendors that support Gremlin.
+
+Traversal examples
+The following examples of Gremlin queries and responses in a Gremlin-Groovy environment are relative to a graph representation of the MovieLens dataset. The dataset includes users who rate movies. Users each have one occupation, and each movie has one or more categories associated with it. The MovieLens graph schema is detailed below.
+
+Simple traversals
+For each vertex in the graph, emit its label, then group and count each distinct label.
+
+What year was the oldest movie made?
+
+What is Die Hard's average rating?
+
+Projection traversals
+For each category, emit a map of its name and the number of movies it represents.
+
+For each movie with at least 11 ratings, emit a map of its name and average rating. Sort the maps in decreasing order by their average rating. Emit the first 10 maps (i.e. top 10).
+
+Declarative pattern matching traversals
+Gremlin supports declarative graph pattern matching similar to SPARQL. For instance, the following query below uses Gremlin's match()-step.
+
+What 80's action movies do 30-something programmers like? Group count the movies by their name and sort the group count map in decreasing order by value.  Clip the map to the top 10 and emit the map entries.
+
+OLAP traversal
+Which movies are most central in the implicit 5-stars graph?
+
+Gremlin graph traversal machine
+Gremlin is a virtual machine composed of an instruction set as well as an execution engine. An analogy is drawn between Gremlin and Java.
+
+Gremlin steps (instruction set)
+The following traversal is a Gremlin traversal in the Gremlin-Java8 dialect.
+
+The Gremlin language (i.e. the fluent-style of expressing a graph traversal) can be represented in any host language that supports function composition and function nesting. Due to this simple requirement, there exists various Gremlin dialects including Gremlin-Groovy, Gremlin-Scala, Gremlin-Clojure, etc. The above Gremlin-Java8 traversal is ultimately compiled down to a step sequence called a traversal. A string representation of the traversal above provided below.
+
+The steps are the primitives of the Gremlin graph traversal machine. They are the parameterized instructions that the machine ultimately executes. The Gremlin instruction set is approximately 30 steps. These steps are sufficient to provide general purpose computing and what is typically required to express the common motifs of any graph traversal query.
+Given that Gremlin is a language, an instruction set, and a virtual machine, it is possible to design another traversal language that compiles to the Gremlin traversal machine (analogous to how Scala compiles to the JVM). For instance, the popular SPARQL graph pattern match language can be compiled to execute on the Gremlin machine. The following SPARQL query
+
+would compile to
+
+In Gremlin-Java8, the SPARQL query above would be represented as below and compile to the identical Gremlin step sequence (i.e. traversal).
+
+Gremlin Machine (virtual machine)
+The Gremlin graph traversal machine can execute on a single machine or across a multi-machine compute cluster. Execution agnosticism allows Gremlin to run over both graph databases (OLTP) and graph processors (OLAP).

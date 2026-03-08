@@ -1,0 +1,109 @@
+An autocatalytic set is a collection of entities, each of which can be created catalytically by other entities within the set, such that as a whole, the set is able to catalyze its own production.  In this way the set as a whole is said to be autocatalytic.   Autocatalytic sets were originally and most concretely defined in terms of molecular entities, but have more recently been metaphorically extended to the study of systems in sociology, ecology, and economics.
+Autocatalytic sets also have the ability to replicate themselves if they are split apart into two physically separated spaces. Computer models illustrate that split autocatalytic sets will reproduce all of the reactions of the original set in each half, much like cellular mitosis. In effect, using the principles of autocatalysis, a small metabolism can replicate itself with very little high level organization. This property is why autocatalysis is a contender as the foundational mechanism for complex evolution.
+Prior to Watson and Crick, biologists considered autocatalytic sets the way metabolism functions in principle, i.e. one protein helps to synthesize another protein and so on. After the discovery of the double helix, the central dogma of molecular biology was formulated, which is that DNA is transcribed to RNA which is translated to protein. The molecular structure of DNA and RNA, as well as the metabolism that maintains their reproduction, are believed to be too complex to have arisen spontaneously in one step from a soup of chemistry.
+Several models of the origin of life are based on the notion that life may have arisen through the development of an initial molecular autocatalytic set which evolved over time.  Most of these models which have emerged from the studies of complex systems predict that life arose not from a molecule with any particular trait (such as self-replicating RNA) but from an autocatalytic set. The first empirical support came from Lincoln and Joyce, who obtained autocatalytic sets in which "two [RNA] enzymes catalyze each other's synthesis from a total of four component substrates." Furthermore, an evolutionary process that began with a population of these self-replicators yielded a population dominated by recombinant replicators.
+Modern life has the traits of an autocatalytic set, since no particular molecule, nor any class of molecules, is able to replicate itself. There are several models based on autocatalytic sets, including those of Stuart Kauffman and others.
+
+Formal definition
+Definition
+Given a set M of molecules, chemical reactions can be roughly defined as pairs r = (A, B) of subsets from M:
+
+ a1 + a2 + ... + ak → b1 + b2 + ... + bk
+
+Let R be the set of allowable reactions. A pair (M, R) is a reaction system (RS).
+Let C be the set of molecule-reaction pairs specifying which molecules can catalyze which reactions:
+
+ C = {(m, r) | m ∈ M, r ∈ R}
+
+Let F ⊆ M be a set of food (small numbers of molecules freely available from the environment) and R' ⊆ R be some subset of reactions. We define a closure of the food set relative to this subset of reactions ClR'(F) as the set of molecules that contains the food set plus all molecules that can be produced starting from the food set and using only reactions from this subset of reactions. Formally ClR'(F) is a minimal subset of M such that F ⊆ ClR'(F) and for each reaction r'(A, B) ⊆ R':
+
+ A ⊆ ClR'(F) ⇒ B ⊆ ClR'(F)
+
+A reaction system (ClR'(F), R') is autocatalytic, if and only if for each reaction r'(A, B) ⊆ R':
+
+there exists a molecule c ⊆ ClR'(F) such that (c, r') ⊆ C,
+A ⊆ ClR'(F).
+
+Example
+Let M = {a, b, c, d, f, g} and F = {a, b}. Let the set R contain the following reactions:
+
+ a + b  → c + d, catalyzed by g
+ a + f  → c + b, catalyzed by d
+ c + b  → g + a, catalyzed by d or f
+
+From the F = {a, b} we can produce {c, d} and then from {c, b} we can produce {g, a} so the closure is equal to:
+
+ ClR'(F) = {a, b, c, d, g}
+
+According to the definition the maximal autocatalytic subset R' will consist of two reactions:
+
+ a + b  → c + d, catalyzed by g
+ c + b  → g + a, catalyzed by d
+
+The reaction for (a + f) does not belong to R' because f does not belong to closure. Similarly the reaction for (c + b) in the autocatalytic set can only be catalyzed by d and not by f.
+
+Probability that a random set is autocatalytic
+Studies of the above model show that random RS can be autocatalytic with high probability under some assumptions. This comes from the fact that with a growing number of molecules, the number of possible reactions and catalysations grows even larger if the molecules grow in complexity, producing stochastically enough reactions and catalysations to make a part of the RS self-supported. An autocatalytic set then extends very quickly with growing number of molecules
+for the same reason. These theoretical results make autocatalytic sets attractive for scientific explanation of the very early origin of life.
+
+Formal limitations
+Formally, it is difficult to treat molecules as anything but unstructured entities, since the set of possible reactions (and molecules) would become infinite. Therefore, a derivation of arbitrarily long polymers as needed to model DNA, RNA or proteins is not possible, yet. Studies of the RNA World suffer from the same problem.
+
+Linguistic aspects
+Contrary to the above definition, which applies to the field of Artificial chemistry,
+no agreed-upon notion of autocatalytic sets exists today.
+While above, the notion of catalyst is secondary insofar that only the set as
+a whole has to catalyse its own production, it is primary in other definitions,
+giving the term "Autocatalytic Set" a different emphasis. There, every reaction
+(or function, transformation) has to be mediated by a catalyst. As a consequence,
+while mediating its respective reaction, every catalyst denotes
+its reaction, too, resulting in a self denoting system, which is interesting
+for two reasons. First, real metabolism is structured in this manner.
+Second, self denoting systems can be considered as an intermediate step
+towards self describing systems.
+From both a structural and a natural historical point of view, one can
+identify the ACS as seized in the formal definition the more original
+concept, while in the second, the reflection of the system in itself is
+already brought to an explicit presentation, since catalysts represent
+the reaction induced by them. In ACS literature, both concept are present,
+but differently emphasised.
+To complete the classification from the other side, generalised self
+reproducing systems move beyond self-denotation. There, no
+unstructured entities carry the transformations anymore, but structured,
+described ones. Formally, a generalised self reproducing system consists
+of two function, u and c, together with their descriptions Desc(u) and
+Desc(c) along following definition:
+
+    u : Desc(X) -> X
+    c : Desc(X) -> Desc(X)
+
+where the function 'u' is the "universal" constructor, that constructs
+everything in its domain from appropriate descriptions, while 'c' is a copy
+function for any description. Practically, 'u' and 'c' can fall apart into many subfunctions or catalysts.
+Note that the (trivial) copy function 'c' is necessary because though the universal constructor 'u'
+would be able to construct any description, too, the description it would base on, would in
+general be longer than the result, rendering full self replication impossible.
+This last concept can be attributed to von Neumann's
+work on self reproducing automata, where he holds a self description necessary for any
+nontrivial (generalised) self reproducing system to avoid interferences. Von Neumann planned to design
+such a system for a model chemistry, too.
+
+Non-autonomous autocatalytic sets
+Virtually all articles on autocatalytic sets leave open whether the sets are
+to be considered autonomous or not. Often, autonomy of the sets is silently
+assumed.
+Likely, the above context has a strong emphasis on autonomous self replication
+and early origin of life. But the concept of autocatalytic sets is really more general and
+in practical use in various technical areas, e.g. where self-sustaining tool chains are
+handled. Clearly, such sets are not autonomous and are objects of human agency.
+Examples of practical importance of non-autonomous autocatalytic sets can be found e.g. in the field of compiler construction and in operating systems, where the self-referential nature of the respective constructions is explicitly discussed, very often as bootstrapping.
+
+Comparison with other theories of life
+Autocatalytic sets constitute just one of several current theories of life, including the chemoton of Tibor Gánti, the hypercycle of Manfred Eigen and Peter Schuster,
+ the  (M,R) systems of Robert Rosen, and the autopoiesis (or self-building) of Humberto Maturana and Francisco Varela. All of these (including autocatalytic sets) found their original inspiration in Erwin Schrödinger's book What is Life? but at first they appear to have little in common with one another, largely because the authors did not communicate with one another, and none of them made any reference in their principal publications to any of the other theories.  Nonetheless, there are more similarities than may be obvious at first sight, for example between Gánti and Rosen. Until recently there have been almost no attempts to compare the different theories and discuss them together.
+
+Last Universal Common Ancestor (LUCA)
+Some authors equate models of the origin of life with LUCA, the Last Universal Common Ancestor of all extant life.  This is a serious error resulting from failure to recognize that L refers to the last common ancestor, not to the first ancestor, which is much older: a large amount of evolution occurred before the appearance of LUCA.
+Gill and Forterre expressed the essential point as follows:
+
+ LUCA should not be confused with the first cell, but was the product of a long period of evolution. Being the "last" means that LUCA was preceded by a long succession of older "ancestors."

@@ -1,0 +1,35 @@
+Anthony G. "Tony" Cohn FREng is a British computer scientist and Professor of Automated Reasoning at the University of Leeds. He is globally recognized for his foundational work in artificial intelligence (AI), especifically in the field of qualitative spatial reasoning and the development of the Region Connection Calculus (RCC).
+
+Education
+Cohn attended Dr Challoner's Grammar School before receiving his BSc and PhD from the University of Essex. His doctoral thesis, titled Mechanising a Particularly Expressive Many Sorted Logic, was completed in 1983 under the supervision of Patrick Hayes.
+
+Career and research
+After a decade at the University of Warwick, Cohn joined the University of Leeds in 1990, where he founded the research group in Artificial Intelligence. He is also a Fellow and researcher at the Alan Turing Institute, where he collaborates on evaluating foundation models and large language models.
+His research primarily focuses on knowledge representation, spatial reasoning, and the integration of vision and language for activity recognition.
+
+Qualitative spatial reasoning
+Cohn is widely cited for co-developing with Randell and Cui the Region Connection Calculus (RCC), a formal language used to describe topological relationships between spatial regions. The 1992 paper introducing this framework received the KR Test-of-Time Classic Paper Award in 2020 for its enduring impact on AI and Geographic Information Science.
+
+Awards and recognitions
+Cohn is the only researcher to have received Distinguished Service Awards from all three major international AI societies: the AAAI (2012), IJCAI (2015), and EurAI (2024).
+
+Major awards
+**EurAI Distinguished Service Award** (2024): For four decades of service to the European AI community.
+**KR Inc Distinguished Service Award** (2024): For leadership in the Knowledge Representation and Reasoning community.
+**Herbert A. Simon Prize for Advances in Cognitive Systems** (2021): Awarded for his work on qualitative representation and visually-grounded language processing.
+**IJCAI Donald E. Walker Distinguished Service Award** (2015): Recognizing his substantial contributions to the international AI community.
+**AAAI Distinguished Service Award** (2012): For "extraordinary and sustained service" to the field of AI.
+**BCS Machine Intelligence Prize** (2004): For the Cogvis project.
+
+Fellowships
+He is an elected Fellow of several major scientific and engineering bodies:
+
+Fellow of the Royal Academy of Engineering (FREng, 2015)
+Fellow of the Association for the Advancement of Artificial Intelligence (AAAI)
+Founding Fellow of the European Association for Artificial Intelligence (EurAI)
+Fellow of the Learned Society of Wales (FLSW)
+Fellow of the British Computer Society (FBCS) and the Institution of Engineering and Technology (FIET)
+
+Selected publications
+Randell, D. A.; Cui, Z.; Cohn, A. G. (1992). "A spatial logic based on regions and connection". Proc. 3rd Int. Conf. on Knowledge Representation and Reasoning. pp. 165–176.
+Cohn, A. G.; Hazarika, S. M. (2001). "Qualitative spatial representation and reasoning: An overview". Fundamenta Informaticae. 46 (1–2): 1–29.

@@ -1,0 +1,22 @@
+The 1997 RoboCup 2D Soccer Simulation League was the first RoboCup competition promoted in conjunction with International Joint Conference on Artificial Intelligence held in Nagoya, Japan, from 23 to 29 August 1997.
+This event was supported by important sponsors and organizations such as Namco, Sun Microsystems, ElectroTechnical Laboratory, Softopia Japan, International Academy of Media Arts and Sciences, Japanese Society for Artificial Intelligence, Robotics Society of Japan, IEEE R&A Society, Nihon Silicon Graphics-Cray Inc., Fujita Corporation, Net-One Systems, SOUM Corp.
+It was also supported by Chubu Bureau of Ministry of International Trade and Industry, Aichi Prefectural Government, and City of Nagoya.
+
+Format
+Initially, the first stage was disputed by 29 teams divided by five groups of four and three groups of three. The classification was the same used by FIFA in the FIFA World Cup format of the last two decades, where each group engaged in a round-robin tournament within itself. The two highest ranked teams in each group advanced to the knockout stage. Teams were awarded three points for a win and one for a draw.
+In the knockout stage there were four rounds (round of 16, quarter-finals, semi-finals, and the final), with each eliminating the losers. The two semi-final losers competed in a third place play-off. For any match in the knockout stage, a draw after 6000 cycles was followed by more 6000 cycles to determine a winner. If the teams were still tied, a penalty shoot-out was held to determine a winner.
+
+Round stage
+Group A
+Group B
+Group C
+Group D
+Group E
+Group F
+Group G
+Group H
+Knockout stage
+Final standings
+|}
+
+Honours

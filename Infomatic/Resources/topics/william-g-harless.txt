@@ -1,0 +1,10 @@
+William G. Harless (November 20, 1933 – May 7, 2014) was an educational theorist. He held a Ph.D. degree in psychology and learning theory and was co-founder, President and CEO of Interactive Drama Inc. (IDI).
+He held a faculty position at the Union for Experimenting Colleges and Universities, where accredited doctorate degrees are awarded from a multidisciplinary, experientially based curriculum.
+In the early 1960s, while a professor at the University of Illinois School of Medicine in Chicago, he developed the first natural language computer patient simulation model.
+He created the first voice-activated interactive videodisc patient simulation model at the National Library of Medicine of the National Institutes of Health (NIH) in the mid-1980s.  While a professor at Georgetown University School of Medicine, he integrated these patient simulations into the medical school curriculum.
+In 1991, he was awarded a patent for his voice-controlled video simulation model (Conversim).  He founded IDI in 1986 and left academia in 1992 to focus on further research and development and expanded applications (Virtual Conversations programs) of the virtual dialogue method.  His work was funded through competitive grants and contracts awarded by NIH and the Defense Advanced Research Projects Agency of the Department of Defense.
+Harless was awarded a second patent in 1998 for his dynamic prompting system used in the virtual dialogue programs. He published over fifty articles on natural language interactive simulation as a learning strategy, the most recent being the results of a study of the effectiveness of the Virtual Conversations Arabic Language Series.
+
+Articles by William G. Harless
+Virtual Conversations: An Interface to Knowledge by WIlliam G. Harless
+An Interactive Videodisc Drama: The Case of Frank Hall by William G. Harless

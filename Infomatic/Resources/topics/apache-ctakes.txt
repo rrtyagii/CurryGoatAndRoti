@@ -1,0 +1,36 @@
+Apache cTAKES: clinical Text Analysis and Knowledge Extraction System is an open-source Natural Language Processing (NLP) system that extracts clinical information from electronic health record unstructured text. It processes clinical notes, identifying types of clinical named entities — drugs, diseases/disorders, signs/symptoms, anatomical sites and procedures. Each named entity has attributes for the text span, the ontology mapping code, context (family history of, current, unrelated to patient), and negated/not negated.
+cTAKES was built using the  UIMA Unstructured Information Management Architecture framework and OpenNLP natural language processing toolkit.
+
+Components
+Components of cTAKES are specifically trained for the clinical domain, and create rich linguistic and semantic annotations that can be utilized by clinical decision support systems and clinical research.
+These components include:
+
+Named Section identifier
+Sentence boundary detector
+Rule-based tokenizer
+Formatted list identifier
+Normalizer
+Context dependent tokenizer
+Part-of-speech tagger
+Phrasal chunker
+Dictionary lookup annotator
+Context annotator
+Negation detector
+Uncertainty detector
+Subject detector
+Dependency parser
+patient smoking status identifier
+Drug mention annotator
+
+History
+Development of cTAKES began at the Mayo Clinic in 2006. The development team, led by Dr. Guergana Savova and Dr. Christopher Chute, included physicians, computer scientists and software engineers. After its deployment, cTAKES became an integral part of Mayo's clinical data management infrastructure, processing more than 80 million clinical notes.
+When Dr. Savova's moved to Boston Children's Hospital in early 2010, the core development team grew to include members there. Further external collaborations include:
+
+University of Colorado
+Brandeis University
+University of Pittsburgh
+University of California at San Diego
+Such collaborations have extended cTAKES' capabilities into other areas such as Temporal Reasoning, Clinical Question Answering, and coreference resolution for the clinical domain.
+In 2010, cTAKES was adopted by the i2b2 program and is a central component of the SHARP Area 4.
+In 2013, cTAKES released their first release as an Apache Software Foundation incubator project: cTAKES 3.0.
+In March 2013, cTAKES became an Apache Software Foundation Top Level Project (TLP).

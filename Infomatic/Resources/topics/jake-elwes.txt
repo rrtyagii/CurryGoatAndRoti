@@ -1,0 +1,75 @@
+Jake Elwes () is a British media artist, hacker and researcher. Their practice is the exploration of artificial intelligence (AI), queer theory and technical biases. They are known for using AI to create art in mediums such as video, performance and installation. Elwes considers themselves to be neuroqueer, and their work on queering technology addresses issues caused by the normative biases of artificial intelligence.
+
+Education and early life
+Elwes was born in London to British contemporary artist and painter Luke Elwes and Anneke, daughter of Hans Dumoulin. Elwes is the great grandchild of Army officer James Hennessy and portrait painter Simon Elwes RA, son of Victorian opera singer Gervase Elwes.
+Elwes studied at the Slade School of Fine Art from 2013 to 2017, where they began using computer code as a medium. In 2016 they attended the School of Machines, Making & Make-Believe in Berlin with artist and educator Gene Kogan. Elwes was introduced to drag performance by their collaborator Dr Joe Parslow who holds a PhD in drag performance. Drag performance has since become instrumental to Elwes' work.
+
+Career
+Elwes' work with artificial intelligence is cited as a hopeful strategy to make AI more playful and diverse.
+Elwes' work has been exhibited in numerous international art museums and galleries and was featured in a BBC documentary on the history of video art, they were a 2021 finalist for the Lumen Prize, and received the Honorary Mention of the 2022 Prix Ars Electronica in the Interactive Art + category. They also curated and presented the opening provocation "The New Real - Artistic and Queer Visions of AI Futures" to the UK government with two drag artists at the AI UK conference 2024.
+Elwes is part of the Radical Faeries countercultural movement.
+They have exhibited in museums and galleries across Europe and Asia including:
+
+Victoria and Albert Museum (London, UK) - The Zizi Show (2023-2024) for the first digital commission in their photography center's digital gallery
+Pinakothek der Moderne (Munich, Germany) - Glitch. Die Kunst Der Störung (2023-2024)
+ZKM (Karlsruhe, Germany) - Biomedia (2021-2022)
+National Museum of Modern and Contemporary Art (Cheongju, South Korea) - What an Artificial World (2024)
+Somerset House (London, UK) - The Horror Show! (2022-2023)
+Gazelli Art House (London, UK) - Jake Elwes: Data • Glitch • Utopia (2023) (survey exhibition)
+Jut Art Museum (Taipei, Taiwan) - Future Lives, Future You (2023-2024)
+Max Ernst Museum (Brühl, Germany) - Surreal Futures (2023-2024)
+Zabludowicz Collection (London, UK) - Among the Machines (2022)
+Ars Electronica (Linz, Austria) - Prix Ars Electronica, CyberArts Exhibition (2022)
+ Institute of Contemporary Arts (ICA) (London, UK) - Do Androids Dream on Silver Screens? (2023)
+Arebyte gallery (London, UK) - Real-Time Constraints (2020)
+Ming Contemporary Art Museum (McaM) (Shanghai, China) - Mind the Deep (2019)
+HMKV (Hartware MedienKunstVerein) (Dortmund, Germany) - House of Mirrors: Artificial Intelligence as Phantasm (2022)
+Today Art Museum (Beijing, China) - Future of Today: DEJA VU (2019)
+Science Gallery (Dublin, Ireland) - BIAS (2021-2022)
+Yuz Museum (Shanghai, China) - Lying Sophia and Mocking Alexa (2021)
+Fotomuseum Winterthur
+The Onassis Foundation (Athens, Greece) - You and AI (2021)
+Royal College of Art (London, UK) - Event Two (2019) (50th anniversary of Computer Arts Society & Event One)
+Museum für Naturkunde (Berlin, Germany) - Forschungsfall Nachtigall (2019)
+Frankfurter Kunstverein (Frankfurt, Germany) - I am here to learn (2018)
+Nature Morte (Delhi, India) - Gradient Descent (2018)
+BALTIC Centre for Contemporary Art (Newcastle, UK) - Bloomberg New Contemporaries (2017)
+
+Artworks
+The Zizi Project - a deepfake drag cabaret
+The Zizi Project is a series of works that explore the interaction of drag and A.I. Currently, The Zizi Project is made up of multiple artworks.
+
+Zizi - Queering the Dataset (2019)
+Knowing that facial recognition technology statically struggle to recognize black women or transgender people, Elwes set out to "Queer the Dataset"  through an open-sourced generative adversarial network (GAN, a type of machine learning model and an early Generative artificial intelligence). Elwes added a dataset of 1,000 photos of drag kings and queens into the GAN's 70,000 faces collected in a standardised facial recognition dataset called Flickr-Faces-HQ Dataset (FFHQ).  They then created new simulacra faces, known as deep fakes. "We queer that data so it shifts all of the weights in this neural network from a space of normativity into a space of queerness and otherness. Suddenly all of the faces start to break down and you see mascara dissolve into lipstick and blue eye shadow turn into a pink wig" said Elwes in a 2023 interview for Artnet.
+
+Zizi & Me (2020–2023)
+Zizi & Me is an ongoing multimedia collaboration between drag queen Me The Drag Queen and a deepfake A.I. clone of Me The Drag Queen. Using neural networks trained on filmed footage, the project creates a virtual body that can mimic reference movements. The first act, which features a digital lip-sync duet to Anything You Can Do (I Can Do Better), satirises the idea of A.I. being mistaken for a human, using drag performance and cabaret to critique societal narratives about A.I. and its role in shaping identity. The project is part of The Zizi Project by Jake Elwes, which explores the intersection of drag performance and A.I.
+
+The Zizi Show - A Deepfake Drag Cabaret (2020)
+The Zizi Show is a deep fake drag act based on artificial intelligence (AI). It has been presented live and as interactive online artwork.  It is an exploration of queer culture and the algorithms philosophy and ethics of AI. The Zizi Show was exhibited as the inaugural exhibition in the digital gallery at the V&A’s Photography Center from 2023 to 2024.
+
+Zizi in Motion: A Deepfake Drag Utopia (Movement by Wet Mess) (2023)
+"Zizi in Motion" is a multichannel silent video installation featuring AI-generated deepfake performances, which are dynamically re-animated through the movements of London drag artist Wet Mess. The movements of Wet Mess cause the AI-generated visuals to glitch and distort, showcasing the interaction between drag performance and artificial intelligence. The work explore the potential for queer communities to ethically and creatively reclaim and repurpose deepfake technology, using it to celebrate queer bodies and identities.
+
+Art in the Cage of Digital Reproduction (2024)
+In an act of protest on 26 November 2024, Elwes facilitated indirect access to an early access token for OpenAI’s Sora text-to-video model through a Hugging Face frontend under the account "PR Puppets". The accompanying statement called to 'denormalize the exploitation of artists by major AI companies for training data, R&D, and publicity'. The incident attracted international press coverage calling into question the role of artists in shaping the future of generative AI versus merely serving as data and credibility providers for tech giants.
+Elwes also coordinated a collection of mini essays with responses and reflections from the signees and guest writers titled "Art in the Cage of Digital Reproduction".
+
+Installations exploring interpretation and feedback loops between neural networks
+Elwes has created works based on the interpretations and misinterpretations between different neural networks and training datasets including: A.I. Interprets A.I. Interpreting ‘Against Interpretation’ (Sontag 1966) from 2023, Closed Loop from 2017,  and Auto-Encoded Buddha from 2016.
+
+A.I. Interprets A.I. Interpreting ‘Against Interpretation’ (Sontag 1966) (2023)
+A.I. Interprets A.I. Interpreting ‘Against Interpretation (Sontag 1966) is a three-channel video artwork where an AI interprets Susan Sontag’s essay into images, and then and another AI reinterprets those images back into language. The piece highlights how AI-generated art can misinterpret and introduce bias.
+
+Closed Loop (2017)
+Closed Loop is a two-channel video where two neural networks engage in a continuous feedback loop, one generating images based on the text output and the other creating text based on the image output. The work explores how AI models misinterpret and evolve in a surreal, self-perpetuating conversation, without human input.
+
+Auto-Encoded Buddha (2016)
+Auto-Encoded Buddha is a mixed-media piece where an AI attempts to generate an image of a Buddha statue, trained on 5,000 Buddha images. The AI struggles to accurately represent the Buddha, highlighting the limitations of early generative neural networks. The work is a tribute to Nam June Paik’s TV Buddha (1974).
+
+CUSP (2019)
+In their video work CUSP (2019) Elwes places marsh birds generated using artificial intelligence into a tidal landscape. These digitally generated and constantly shifting birds are recorded in dialogue with native birds. The video work is also accompanied by a soundscape of artificially generated bird song.
+
+Latent Space (2017)
+Latent Space is one of the earliest examples of generative AI in art. The video artwork uses a neural network trained on 14.2 million images from the ImageNet database to explore "latent space," a mathematical representation where AI maps learned image categories, such as trees or birds, into specific regions. Once trained, the AI understands all images of trees as existing in one area and all images of birds in another. By reverse-engineering the network, it becomes possible to generate synthetic images from coordinates within this space.
+The video illustrates the AI’s process of creating novel images by not moving directly between recognizable categories, but by navigating the transitional spaces between them. The work highlights the network’s ability to generate unique and unexpected visual forms. The project draws on research from Plug & Play Generative Networks: Conditional Iterative Generation of Images in Latent Space (2016) and the ImageNet database (2009), with special acknowledgment to Anh Nguyen and the Evolving AI Lab for their contributions.

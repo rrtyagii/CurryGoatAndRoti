@@ -1,0 +1,14 @@
+Tuomas Sandholm is the Angel Jordan University Professor of Computer Science at Carnegie Mellon University and a serial entrepreneur with a research focus on the intersection of artificial intelligence, economics, and operations research.
+
+Early life and education
+Sandholm was born in Finland. He earned a Dipl. Eng. (M.S. with B.S. included) with distinction in Industrial Engineering and Management Science. He continued his education in the United States, where he obtained his M.S. and Ph.D. in computer science from the University of Massachusetts Amherst.
+
+Career and research
+Sandholm has contributed to several domains including AI, game theory, and real-world applications like organ exchanges and electronic marketplaces. His achievements in AI and game theory include the development of Libratus and Pluribus, AI systems that have defeated top human players in poker, attracting global attention.
+He has impacted practical applications by implementing algorithms for national kidney exchange and founded several companies, including CombineNet, Inc., and Strategy Robot, Inc., that have applied his research to sectors like advertising and defense.
+
+Awards and honors
+Sandholm's work has garnered numerous awards, such as the IJCAI John McCarthy Award and the Vannevar Bush Faculty Fellowship. He is a Fellow of the ACM, AAAI, INFORMS, and AAAS.
+
+Personal life
+In his early years, Sandholm was a pilot second lieutenant in the Finnish Air Force. Additionally, he attained recognition in sports, securing the #1 ranking in windsurfing in Finland in 1987.

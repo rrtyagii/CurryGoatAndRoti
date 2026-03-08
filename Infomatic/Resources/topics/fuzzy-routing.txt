@@ -1,0 +1,1 @@
+Fuzzy routing is the application of fuzzy logic to routing protocols, particularly in the context of ad-hoc wireless networks and in networks supporting multiple quality of service classes. It is currently the subject of research.

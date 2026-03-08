@@ -1,0 +1,38 @@
+The Semantic Web Rule Language (SWRL) is a proposed language for the Semantic Web that can be used to express rules as well as logic, combining OWL DL or OWL Lite with a subset of the Rule Markup Language (itself a subset of Datalog).
+The specification was submitted in May 2004 to the W3C by the National Research Council of Canada, Network Inference (since acquired by webMethods), and Stanford University in association with the Joint US/EU ad hoc Agent Markup Language Committee. The specification was based on an earlier proposal for an OWL rules language.
+SWRL has the full power of OWL DL, but at the price of decidability and practical implementations.
+However, decidability can be regained by restricting the form of admissible rules, typically by imposing a suitable safety condition.
+Rules are of the form of an implication between an antecedent (body) and a consequent (head). The intended meaning can be read as: whenever the conditions specified in the antecedent hold, then the conditions specified in the consequent must also hold.
+
+Example
+Human Readable Syntax
+hasParent(?x1,?x2) ∧ hasBrother(?x2,?x3) ⇒ hasUncle(?x1,?x3)
+
+XML Concrete Syntax
+The XML Concrete Syntax is a combination of the OWL Web Ontology Language XML Presentation Syntax with the RuleML XML syntax.
+
+RDF Concrete Syntax
+It is straightforward to provide such an RDF concrete syntax for rules, but the presence of variables in rules goes beyond the RDF Semantics. Translation from the XML Concrete Syntax to RDF/XML could be easily accomplished by extending the XSLT transformation for the OWL XML Presentation syntax.
+
+Implementations
+Caveat: Reasoners do not support the full specification because the reasoning becomes undecidable. There can be three types of approach:
+
+translate SWRL into First Order Logic (Hoolet) and demonstrate reasoning tasks with a theorem prover;
+translate OWL-DL into rules and give the rules to a forward chaining engine (Bossam) (this approach cannot cover the full expressivity of OWL-DL due to many incompatibilities between Description Logic and Horn Rule formalisms)
+expand an existing OWL-DL reasoner based on the tableaux algorithm (Pellet).
+Protégé 4.2 includes a Rules view in its Ontology Views that supports SWRL rules.
+For older versions of Protégé, SWRLTab is an extension that supports editing and execution of SWRL rules. [1]
+R2ML (REWERSE Rule Markup Language) supports SWRL. [2]
+Bossam, a forward chaining rule engine supports SWRL. [3]
+Hoolet, an implementation of an OWL-DL reasoner that uses a first order prover supports SWRL. [4]
+Pellet, an open-source Java OWL DL reasoner has SWRL-support. [5]
+KAON2 is an infrastructure for managing OWL-DL, SWRL, and F-Logic ontologies. [6] Archived 6 January 2006 at the Wayback Machine
+RacerPro, supports the processing of rules in a SWRL-based syntax by translating them into nRQL rules [7]
+Stardog is an RDF database or triplestore that rewrites queries to answer questions using SWRL inferences. [8]
+
+Comparison with Description Logic Programs
+Description Logic Programs (DLPs) are another proposal for integrating rules and OWL.
+Compared with Description Logic Programs, SWRL takes a diametrically opposed integration approach. DLP is the intersection of Horn logic and OWL, whereas SWRL is (roughly) the union of them. In DLP, the resultant language is a very peculiar looking description logic and rather inexpressive language overall.
+
+Future Directions and Applications of SWRL
+As the Semantic Web continues to evolve, the role of SWRL in enabling automated reasoning and decision-making processes will likely expand. While current implementations, such as those found in Protégé and Pellet, provide significant capabilities, ongoing advancements in artificial intelligence and knowledge representation may lead to even more sophisticated reasoning engines that better handle the computational complexities introduced by SWRL. Furthermore, as data integration across diverse domains becomes increasingly critical, SWRL could play a pivotal role in enhancing interoperability between systems that utilize OWL ontologies. The combination of rules with ontologies, as facilitated by SWRL, remains a powerful mechanism for drawing inferences and uncovering relationships in large, distributed datasets, offering broad applicability in fields such as healthcare, finance, and semantic data analytics.

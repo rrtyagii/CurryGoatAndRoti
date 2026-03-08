@@ -1,0 +1,82 @@
+Mycoplasma laboratorium or Synthia refers to a plan to produce a synthetic strain of bacterium. The project to build the new bacterium has evolved since its inception. Initially the goal was to identify a minimal set of genes that are required to sustain life from the genome of Mycoplasma genitalium, and rebuild these genes synthetically to create a "new" organism. Mycoplasma genitalium was originally chosen as the basis for this project because at the time it had the smallest number of genes of all organisms analyzed.  Later, the focus switched to Mycoplasma mycoides and took a more trial-and-error approach.
+To identify the minimal genes required for life, each of the 482 genes of M. genitalium was individually deleted and the viability of the resulting mutants was tested. This resulted in the identification of a minimal set of 382 genes that theoretically should represent a minimal genome. In 2008 the full set of M. genitalium genes was constructed in the laboratory with watermarks added to identify the genes as synthetic. However M. genitalium grows extremely slowly and M. mycoides was chosen as the new focus to accelerate experiments aimed at determining the set of genes actually needed for growth.
+In 2010, the complete genome of M. mycoides subsp. capri GM12 was successfully synthesized from a computer record and transplanted into an existing cell of Mycoplasma capricolum that had its DNA removed. It is estimated that the synthetic genome used for this project cost US$40 million and 200 man-years to produce. The new bacterium was able to grow and was named JCVI-syn1.0, or Synthia.  After additional experimentation to identify a smaller set of genes that could produce a functional organism, JCVI-syn3.0 was produced, containing 473 genes. 149 of these genes are of unknown function. Since the genome of JCVI-syn3.0 is novel, it is considered the first truly synthetic organism.
+
+Minimal genome project
+The production of Synthia is an effort in synthetic biology  at the J. Craig Venter Institute by a team of approximately 20 scientists headed by Nobel laureate Hamilton Smith and including DNA researcher Craig Venter and microbiologist Clyde A. Hutchison III. The overall goal is to reduce a living organism to its essentials and thus understand what is required to build a new organism from scratch.  The initial focus was the bacterium M. genitalium, an obligate intracellular parasite whose genome consists of 482 genes comprising 582,970 base pairs, arranged on one circular chromosome (at the time the project began, this was the smallest genome of any known natural organism that can be grown in free culture). They used transposon mutagenesis to identify genes that were not essential for the growth of the organism, resulting in a minimal set of 382 genes. This effort was known as the Minimal Genome Project.
+
+Choice of organism
+Mycoplasma
+Mycoplasma is a genus of bacteria of the class Mollicutes in the division Mycoplasmatota (formerly Tenericutes), characterised by the lack of a cell wall (making it Gram negative) due to its parasitic or commensal lifestyle.
+In molecular biology, the genus has received much attention, both for being a notoriously difficult-to-eradicate contaminant in mammalian cell cultures (it is immune to beta-lactams and other antibiotics), and for its potential uses as a model organism due to its small genome size.
+In 1996, after comparing M. genitalium with another small bacterium Haemophilus influenzae, Arcady Mushegian and Eugene Koonin had proposed that there might be a common set of 256 genes which could be a minimal set of genes needed for viability.
+The choice of genus for the Synthia project dates to 2000, when Karl Reich coined the phrase Mycoplasma laboratorium.
+
+Other organisms with small genomes
+As of 2005, Pelagibacter ubique (an α-proteobacterium of the order Rickettsiales) has the smallest known genome (1,308,759 base pairs) of any free living organism and is one of the smallest self-replicating cells known. It is possibly the most numerous bacterium in the world (perhaps 1028 individual cells) and, along with other members of the SAR11 clade, are estimated to make up between a quarter and a half of all bacterial or archaeal cells in the ocean. It was identified in 2002 by rRNA sequences and was fully sequenced in 2005. It is extremely hard to cultivate a species which does not reach a high growth density in lab culture.
+Several newly discovered species have fewer genes than M. genitalium, but are not free-living: many essential genes that are missing in Hodgkinia cicadicola, Sulcia muelleri,  Baumannia cicadellinicola (symbionts of cicadas) and Carsonella ruddi (symbiote of hackberry petiole gall psyllid, Pachypsylla venusta) may be encoded in the host nucleus. The organism with the smallest known set of genes as of 2013 is Nasuia deltocephalinicola, an obligate symbiont. It has only 137 genes and a genome size of 112 kb.
+
+Techniques
+Several laboratory techniques had to be developed or adapted for the project, since it required synthesis and manipulation of very large pieces of DNA.
+
+Bacterial genome transplantation
+In 2007, Venter's team reported that they had managed to transfer the chromosome of the species Mycoplasma mycoides to Mycoplasma capricolum by:
+
+isolating the genome of M. mycoides: gentle lysis of cells trapped in agar—molten agar mixed with cells and left to form a gel—followed by pulse field gel electrophoresis and the band of the correct size (circular 1.25Mbp) being isolated;
+making the recipient cells of M. capricolum competent: growth in rich media followed starvation in poor media where the nucleotide starvation results in inhibition of DNA replication and change of morphology; and
+polyethylene glycol-mediated transformation of the circular chromosome to the DNA-free cells followed by selection.
+The term transformation is used to refer to insertion of a vector into a bacterial cell (by electroporation or heatshock). Here, transplantation is used akin to nuclear transplantation.
+
+Bacterial chromosome synthesis
+In 2008 Venter's group described the production of a synthetic genome, a copy of M. genitalium G37 sequence L43967, by means of a hierarchical strategy:
+
+Synthesis → 1kbp: The genome sequence was synthesized by Blue Heron in 1,078 1080bp cassettes with 80bp overlap and NotI restriction sites (inefficient but infrequent cutter).
+Ligation → 10kbp: 109 groups of a series of 10 consecutive cassettes were ligated and cloned in E. coli on a plasmid and the correct permutation checked by sequencing.
+Multiplex PCR → 100kbp: 11 Groups of a series of 10 consecutive 10kbp assemblies (grown in yeast) were joined by multiplex PCR, using a primer pair for each 10kbp assembly.
+Isolation and recombination → secondary assemblies were isolated, joined and transformed into yeast spheroplasts without a vector sequence (present in assembly 811-900).
+The genome of this 2008 result, M. genitalium JCVI-1.0, is published on GenBank as CP001621.1. It is not to be confused with the later synthetic organisms, labelled JCVI-syn, based on M. mycoides.
+
+Synthetic genome
+In 2010 Venter and colleagues created Mycoplasma mycoides strain JCVI-syn1.0 with a synthetic genome. Initially the synthetic construct did not work, so to pinpoint the error—which caused a delay of 3 months in the whole project—a series of semi-synthetic constructs were created. The cause of the failure was a single frameshift mutation in DnaA, a replication initiation factor.
+The purpose of constructing a cell with a synthetic genome was to test the methodology as a step to creating modified genomes in the future. Using a natural genome as a template minimized the potential sources of failure. 8 segments made in yeast were pieced together to form the genome. Several differences are present in Mycoplasma mycoides JCVI-syn1.0 relative to the reference genome, notably an E.coli transposon IS1 (an infection from the 10kb stage) and an 85bp duplication, as well as elements required for propagation in yeast and residues from restriction sites.
+There has been controversy over whether JCVI-syn1.0 is a true synthetic organism. While the genome was synthesized chemically in many pieces, it was constructed to match the parent genome closely and transplanted into the cytoplasm of a natural cell.  DNA alone cannot create a viable cell: proteins and RNAs are needed to read the DNA, and lipid membranes are required to compartmentalize the DNA and cytoplasm. In JCVI-syn1.0 the two species used as donor and recipient are of the same genus, reducing potential problems of mismatches between the proteins in the host cytoplasm and the new genome.  Paul Keim (a molecular geneticist at Northern Arizona University in Flagstaff) noted that "there are great challenges ahead before genetic engineers can mix, match, and fully design an organism's genome from scratch".
+
+Watermarks
+A much publicized feature of JCVI-syn1.0 is the presence of watermark sequences. The 4 watermarks (shown in Figure S1 in the supplementary material of the paper) are coded messages written into the DNA, of length 1246, 1081, 1109 and 1222 base pairs respectively. These messages did not use the standard genetic code, in which sequences of 3 DNA bases encode amino acids, but a new code invented for this purpose, which readers were challenged to solve. The content of the watermarks is as follows:
+
+Watermark 1: an HTML document which reads in a Web browser as text congratulating the decoder, and instructions on how to email the authors to prove the decoding.
+Watermark 2: a list of authors and a quote from James Joyce: "To live, to err, to fall, to triumph, to recreate life out of life".
+Watermark 3: more authors and a quote from Robert Oppenheimer (uncredited): "See things not as they are, but as they might be".
+Watermark 4: more authors and a quote from Richard Feynman: "What I cannot build, I cannot understand".
+
+Later evolutions
+JCVI-syn3.0
+In 2016, the Venter Institute used genes from JCVI-syn1.0 to synthesize a smaller genome they call JCVI-syn3.0, that contains 531,560 base pairs and 473 genes. In this new organism, the number of genes can only be pared down to 473, 149 of which have functions that are completely unknown (as of 2016). To make JCVI-syn3.0, scientists used a strain called JCVI-syn2.0 to study which genes could be safely deleted.
+
+JCVI-syn3A
+JCVI-syn3.0 cells were fragile and difficult to manipulate. They also had variable, irregular shapes. To address this issue, a new strain called JCVI-syn3A was constructed in 2017, incorporating 19 additional genes from JCVI-syn1.0 and removing two other genes. Genes added include the cell partitioning proteins FtsZ and SepF and some proteins of unknown function. The resulting bacterium had 493 genes (452 proteins, 38 RNAs) on a 543 kbp genome. A complete computational model of all metabolic pathways in syn3A was published in 2019, representing the first in silico model for a living minimal organism. It covered 155 genes carrying out 338 chemical reactions. Future models will cover ribosome biogenesis and tRNA biogenesis.
+As of 2019, 91 genes in syn3A had an unknown function. 8 of these had an ortholog in KEGG, which sheds partial light on a possible function.
+
+JCVI-syn3B
+JCVI-syn3B was first described in a 2021 (published in 2023) article about evolution in this strain. Its genome was published in 2024 as part of an article detailing its use as a model system of interaction between M. mycoides and mammalian cells. Syn3B was not able to attach to these cells or live within them as an intracellular parasite, but Syn1.0 could. Eight genes in Syn1.0 were found to be necessary for these behavior. When introduced back into Syn3B, the transformed strain could attach but not survive phagocytosis. Syn3B's genome (CP146056) is very similar to that of syn3A, with the exception of a few indels and the addition of a 1186bp stretch of yeast origin also present in Syn3.0.
+
+Efforts to annotate genes of unknown function
+Readers are recommended to confer the Introduction section in Bianchi et al. (2022) for efforts to annotate genes of unknown function in JCVI strains. Both wet-laboratory and bioinformatic methods have been used to shed light on these genes. The work by Bianchi et al. is itself an attempt at finding homologous proteins via bioinformatics.
+
+Concerns and controversy
+Reception
+On Oct 6, 2007, Craig Venter announced in an interview with UK's The Guardian newspaper that the same team had synthesized a modified version of the single chromosome of Mycoplasma genitalium chemically. The synthesized genome had not yet been transplanted into a working cell. The next day the Canadian bioethics group, ETC Group issued a statement through their representative, Pat Mooney, saying Venter's "creation" was "a chassis on which you could build almost anything. It could be a contribution to humanity such as new drugs or a huge threat to humanity such as bio-weapons". Venter commented "We are dealing in big ideas. We are trying to create a new value system for life. When dealing at this scale, you can't expect everybody to be happy."
+On May 21, 2010, Science reported that the Venter group had successfully synthesized the genome of the bacterium Mycoplasma mycoides from a computer record and transplanted the synthesized genome into the existing cell of a Mycoplasma capricolum bacterium that had had its DNA removed. The "synthetic" bacterium was viable, i.e. capable of replicating. Venter described it as "the first species.... to have its parents be a computer".
+The creation of a new synthetic bacterium, JCVI-3.0 was announced in Science on March 25, 2016.  It has only 473 genes.  Venter called it "the first designer organism in history" and argued that the fact that 149 of the genes required have unknown functions means that "the entire field of biology has been missing a third of what is essential to life".
+
+Press coverage
+The project received a large amount of coverage from the press due to Venter's showmanship, to the degree that Jay Keasling, a pioneering synthetic biologist and founder of Amyris commented that "The only regulation we need is of my colleague's mouth".
+
+Utility
+Venter has argued that synthetic bacteria are a step towards creating organisms to manufacture hydrogen and biofuels, and also to absorb carbon dioxide and other greenhouse gases. George M. Church, another pioneer in synthetic biology, has expressed the contrasting view that creating a fully synthetic genome is not necessary since E. coli grows more efficiently than M. genitalium even with all its extra DNA; he commented that synthetic genes have been incorporated into E.coli to perform some of the above tasks.
+
+Intellectual property
+The J. Craig Venter Institute filed patents for the Mycoplasma laboratorium genome (the "minimal bacterial genome") in the U.S. and internationally in 2006. The ETC group, a Canadian bioethics group, protested on the grounds that the patent was too broad in scope.
+
+Similar projects
+From 2002 to 2010, a team at the Hungarian Academy of Science created a strain of Escherichia coli called MDS42, which is now sold by Scarab Genomics of Madison, WI under the name of "Clean Genome. E.coli", where 15% of the genome of the parental strain (E. coli K-12 MG1655) were removed to aid in molecular biology efficiency, removing IS elements, pseudogenes and phages, resulting in better maintenance of plasmid-encoded toxic genes, which are often inactivated by transposons. Biochemistry and replication machinery were not altered.

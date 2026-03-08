@@ -1,0 +1,53 @@
+CycL in computer science and artificial intelligence, is an ontology language used by Douglas Lenat's Cyc artificial intelligence project. Ramanathan V. Guha was instrumental in designing early versions of the language. A close CycL variant exists named MELD.
+The original version of CycL was a frame language, but the modern version is not. Rather, it is a declarative language based on classical first-order logic, with extensions for modal logic operators and higher-order logic quantification.
+CycL is used to represent the knowledge stored in the Cyc Knowledge Base, available from Cycorp. The source code written in CycL released with the OpenCyc system is licensed as free and open-source software, to increase its usefulness in supporting the semantic web.
+
+Basic ideas
+The basic ideas of CycL include:
+
+Naming the constants used to refer to information for represented concepts.
+Grouping the constants together in a generalization—specialization hierarchy, usually called categorization.
+Stating general rules that support inference about the concepts.
+The truth or falsity of a CycL sentence is context-relative; these contexts are represented in CycL as Microtheories.
+
+Constants
+The concept names in Cyc are known as constants. Constants start with "#$" and are case-sensitive. There are constants for:
+
+Individual items known as individuals, such as #$BillClinton or #$France.
+Collections, such as #$Tree-ThePlant (containing all trees) or #$EquivalenceRelation (containing all equivalence relations). A member of a collection is called an instance of that collection.
+Truth Functions which can be applied to one or more other concepts and return either true or false. For example, #$siblings is the sibling relationship, true if the two arguments are siblings. By convention, truth function constants start with a lower-case letter.  Truth functions may be broken down into logical connectives (such as #$and, #$or, #$not, #$implies), quantifiers (#$forAll, #$thereExists, etc.) and predicates.
+Functions, which produce new terms from given ones. For example, #$FruitFn, when provided with an argument describing a type (or collection) of plants, will return the collection of its fruits. By convention, function constants start with an upper-case letter and end with the string "Fn".
+
+Specialization and generalization
+The most important predicates are #$isa and #$genls. The first one (#$isa) describes that one item is an instance of some collection (i.e., specialization), the second one (#$genls) that one collection is a subcollection of another one (i.e., generalization). Facts about concepts are asserted using certain CycL sentences. Predicates are written before their arguments, in parentheses:
+For example:
+
+(#$isa #$BillClinton #$UnitedStatesPresident) \;
+"Bill Clinton belongs to the collection of U.S. presidents" and
+
+(#$genls #$Tree-ThePlant #$Plant) \;
+"All trees are plants".
+
+(#$capitalCity #$France #$Paris) \;
+"Paris is the capital of France."
+
+Rules
+Sentences can also contain variables, strings starting with "?". One important rule asserted about the #$isa predicate reads
+
+(#$implies
+   (#$and
+     (#$isa ?OBJ ?SUBSET)
+     (#$genls ?SUBSET ?SUPERSET))
+   (#$isa ?OBJ ?SUPERSET))
+
+with the interpretation "if OBJ is an instance of the collection SUBSET and SUBSET is a subcollection of SUPERSET, then OBJ is an instance of the collection SUPERSET".
+Another more complicated example is one that expresses a rule about a group or category rather than any particular individual, is:
+
+ (#$relationAllExists #$biologicalMother #$ChordataPhylum #$FemaleAnimal)
+
+which means that for every instance of the collection #$ChordataPhylum (i.e., for every chordate), there exists a female animal (instance of #$FemaleAnimal) which is its mother (described by the predicate #$biologicalMother).
+(Or in looser English, if a given animal has a backbone, then there will be a link from that animal expressing the concept of that animal's "biological Mother". The thing that "fills in the blank" for the biological Mother must also be able to be categorized as a Female Animal.)
+
+Microtheories
+The knowledge base is divided into microtheories (Mt), collections of concepts and facts typically pertaining to one particular realm of knowledge. Unlike the knowledge base as a whole, each microtheory is required to be free from contradictions. Each microtheory has a name which is a regular constant; microtheory constants contain the string "Mt" by convention. An example is #$MathMt, the microtheory containing mathematical knowledge. The microtheories can inherit from each other and are organized in a hierarchy:
+One specialization of #$MathMt is #$GeometryGMt, the microtheory about geometry.

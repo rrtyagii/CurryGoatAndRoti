@@ -1,0 +1,2 @@
+Artificial Minds: An Exploration of the Mechanisms of Mind is a book written by Stan Franklin and published in 1995 by MIT Press.
+The book is a wide-ranging tour of the development of artificial intelligence as of the time it was written. As well as discussing the theoretical and philosophical backgrounds of many approaches, it goes into some detail in explaining the workings of many of what the author considers to be the most promising examples of the era.

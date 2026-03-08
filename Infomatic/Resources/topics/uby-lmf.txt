@@ -1,0 +1,15 @@
+UBY-LMF is a format for standardizing lexical resources for Natural Language Processing (NLP). UBY-LMF
+conforms to the ISO standard for lexicons: LMF, designed within the ISO-TC37, and constitutes a so-called serialization of this abstract standard. In accordance with the LMF, all attributes and other linguistic terms introduced in UBY-LMF refer to standardized descriptions of their meaning in ISOCat.
+UBY-LMF has been implemented in Java and is actively developed as an Open Source project on Google Code.
+Based on this Java implementation, the large scale electronic lexicon UBY has automatically been created - it is the result of using UBY-LMF to standardize a range of diverse lexical resources frequently used for NLP applications.
+In 2013, UBY contains 10 lexicons which are pairwise interlinked at the sense level:
+
+English WordNet, Wiktionary, Wikipedia, FrameNet, VerbNet, OmegaWiki
+German Wiktionary, Wikipedia, GermaNet, IMSLex-Subcat and
+multilingual OmegaWiki.
+A subset of lexicons integrated in UBY have been converted to a Semantic Web format according to the lemon lexicon model. This conversion is based on a mapping of UBY-LMF to the lemon lexicon model.
+
+External references
+the UBY web site
+UBY project on GitHub
+lemonUby (Semantic Web version of UBY)

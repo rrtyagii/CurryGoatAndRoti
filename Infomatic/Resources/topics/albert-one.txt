@@ -1,0 +1,6 @@
+Albert One is an artificial intelligence chatbot created by Robby Garner and designed to mimic the way humans make conversations using a multi-faceted approach in natural language programming.
+
+History
+In both 1998 and 1999, Albert One won the Loebner Prize Contest, a competition between chatterbots.
+Some parts of Albert were deployed on the internet beginning in 1995, to gather information about what kinds of things people would say to a chatterbot. Another element of Albert One involved the building of a large database of human statements, and associated replies. This portion of the project was tested at the 1994-1997 Loebner Prize contests.
+Albert was the first of Robby Garner's multifaceted bots. The Albert One system was composed of several subsystems. Among those were a version of Eliza, the therapist, Elivs, another Eliza-like bot, and several other helper applications working together in a hierarchical arrangement. As a continuation of the stimulus-response library, various other database queries and assertions were tested to arrive at each of Albert's responses. Robby went on to develop networked examples of this kind of hierarchical "glue" at The Turing Hub.

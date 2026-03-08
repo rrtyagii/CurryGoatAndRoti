@@ -1,0 +1,50 @@
+The Organization for the Advancement of Structured Information Standards (OASIS; ), also known as OASIS Open, is an industry consortium that develops technical standards for information technology.
+
+History
+OASIS was founded under the name "SGML Open" in 1993. It began as a trade association of Standard Generalized Markup Language (SGML) tool vendors to cooperatively promote the adoption of SGML through mainly educational activities, though some amount of technical activity was also pursued including an update of the CALS Table Model specification and specifications for fragment interchange and entity management.
+In 1998, with the movement of the industry to XML, SGML Open changed its emphasis from SGML to XML, and changed its name to OASIS Open to be inclusive of XML and reflect an expanded scope of technical work and standards. The focus of the consortium's activities also moved from promoting adoption (as XML was getting much attention on its own) to developing technical specifications. In July 2000 a new technical committee process was approved. With the adoption of the process the manner in which technical committees were created, operated, and progressed their work was regularized. At the adoption of the process there were five technical committees; by 2004 there were nearly 70.
+During 1999, OASIS was approached by UN/CEFACT, the committee of the United Nations dealing with standards for business, to jointly develop a new set of specifications for electronic business. The joint initiative, called "ebXML" and which first met in November 1999, was chartered for a three-year period. At the final meeting under the original charter, in Vienna, UN/CEFACT and OASIS agreed to divide the remaining work between the two organizations and to coordinate the completion of the work through a coordinating committee. In 2004 OASIS submitted its completed ebXML specifications to ISO TC154 where they were approved as ISO 15000.
+In 2005, Lawrence Lessig and Richard Stallman called for a boycott of OASIS specifications to protest the new patent policy.
+The consortium has its headquarters in Woburn, Massachusetts, shared with other companies. In December 2020, OASIS moved to its current location, 400 TradeCenter Drive. Previous office locations include 25 Corporate Drive Suite 103 and 35 Corporate Drive, Suite 150, both in Burlington, MA.
+
+Standards development
+The following standards are under development or maintained by OASIS technical committees:
+
+AMQP — Advanced Message Queuing Protocol, an application layer protocol for message-oriented middleware.
+BCM — Business Centric-Methodology, BCM is a comprehensive approach and proven techniques that enable a service-oriented architecture (SOA) and support enterprise agility and interoperability.
+CAM — Content Assembly Mechanism, is a generalized assembly mechanism for using templates of XML business transaction content and the associated rules. CAM templates augment schema syntax and provide implementers with the means to specify interoperable interchange patterns.
+CAMP — Cloud Application Management for Platforms, is an API for managing public and private cloud applications.
+CAP — Common Alerting Protocol, is an XML-based data format for exchanging public warnings and emergencies between alerting technologies.
+CSAF — Common Security Advisory Framework, is the definitive reference for the language which supports creation, update, and interoperable exchange of security advisories as structured information on products, vulnerabilities and the status of impact and remediation among interested parties.
+CDP — Customer Data Platform, is a specification that aims to standardize the exchange of customer data across systems and silos by defining a web-based API using GraphQL.
+CMIS — Content Management Interoperability Services, is a domain model and Web services standard for working with Enterprise content management repositories and systems.
+CIQ — Customer Information Quality, is an XML Specifications for defining, representing, interoperating and managing party information (e.g. name, address).
+DocBook — DocBook, a markup language for technical documentation. It was originally intended for authoring technical documents related to computer hardware and software but it can be used for any other sort of documentation.
+DITA — Darwin Information Typing Architecture, a modular and extensible XML-based language for topic-based information, such as for online help, documentation, and training.
+EML — Election Markup Language, End to End information standards and processes for conducting democratic elections using XML-based information recording.
+EDXL — Emergency Data Exchange Language, Suite of XML-based messaging standards that facilitate emergency information sharing between government entities and the full range of emergency-related organizations
+GeoXACML — Geospatial eXtensible Access Control Markup Language, a geo-specific extension to XACML Version 2.0, mainly the geometric data-type urn:ogc:def:dataType:geoxacml:1.0:geometry and several geographic functions such as topological, bag, set, geometric and conversion functions.
+KMIP — The Key Management Interoperability Protocol tries to establish a single, comprehensive protocol for the communication between enterprise key management systems and encryption systems.
+Legal XML Legal Document ML (Akoma Ntoso), LegalRuleML, Electronic Court Filing, and eNotarization standards.
+MQTT — Message Queuing Telemetry Transport, a client-server, publish/subscribe messaging transport protocol. It is lightweight, open, simple, and designed to be easy to implement. These characteristics make it ideal for use in many situations, including constrained environments such as for communication in machine to machine (M2M) and Internet of Things (IoT) contexts where a small code footprint is required and/or network bandwidth is at a premium.
+oBIX — open Building Information Exchange, an extensible XML specification for enterprise interaction with building-based (or other) control systems, including HVAC, Access Control, Intrusion Detection, and many others.
+OData — Open Data Protocol (OData)
+OpenDocument — OASIS Open Document Format for Office Applications, an open document file format for saving office documents such as spreadsheets, memos, charts, and presentations.
+OSLC — Open Services for Lifecycle Collaboration, (OSLC) develops standards that make it easy and practical for software lifecycle tools to share data with one another.
+PKCS #11 - PKCS #11 standard defines a platform-independent API to cryptographic tokens, such as hardware security modules (HSM) and smart cards, and names the API itself "Cryptoki" (from "cryptographic token interface" and pronounced as "crypto-key" - but "PKCS #11" is often used to refer to the API as well as the standard that defines it).
+SAML — Security Assertion Markup Language, a standard XML-based framework for the secure exchange of authentication and authorization information.
+SARIF - Static Analysis Results Interchange Format, a standard JSON-based format for the output of static analysis tools.
+SDD — Solution Deployment Descriptor, a standard XML-based schema defining a standardized way to express software installation characteristics required for lifecycle management in a multi-platform environment.
+SPML — Service Provisioning Markup Language, a standard XML-based protocol for the integration and interoperation of service provisioning requests.
+STIX - Structured Threat Information eXpression, a language for expressing cyber threat and observable information.
+TAXII - Trusted Automated eXchange of Indicator Information, an application layer protocol for the communication of cyber threat information in a simple and scalable manner.
+TOSCA — Topology and Orchestration Specification for Cloud Applications, a Standard to describe cloud services, the relationships between parts of the service, and the operational behavior of the services.
+UBL — Universal Business Language, the international effort to define a royalty-free library of standard electronic business documents (purchase order, invoice, waybill, etc.) in XML. UBL 2.1 was approved as ISO/IEC 19845:2015. UBL serves as the basis for numerous electronic commerce networks and implementations worldwide.
+UDDI — Universal Description Discovery and Integration, a platform-independent, XML-based registry for companies and individuals to list Web Services.
+WebCGM — Web Computer Graphics Metafile, a profile of Computer Graphics Metafile (CGM), which adds Web linking and is optimized for Web applications in technical illustration, electronic documentation, geophysical data visualization, and similar fields.
+WS-BPEL — Web Services Business Process Execution Language
+WSDM — Web Services Distributed Management
+XACML — eXtensible Access Control Markup Language, a standard XML-based protocol for access control policies.
+XDI — XRI Data Interchange, a standard for sharing, linking, and synchronizing data ("dataweb") across multiple domains and applications using XML documents, eXtensible Resource Identifiers (XRIs), and a new method of distributed data control called a link contract.
+XLIFF — XML Localization Interchange File Format, a XML-based format created to standardize localization.
+XRI — eXtensible Resource Identifier, a URI-compatible scheme and resolution protocol for abstract identifiers used to identify and share resources across domains and applications.

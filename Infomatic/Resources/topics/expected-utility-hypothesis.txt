@@ -1,0 +1,750 @@
+The expected utility hypothesis is a foundational assumption in mathematical economics concerning decision making under uncertainty. It postulates that rational agents maximize utility, meaning the subjective desirability of their actions. Rational choice theory, a cornerstone of microeconomics, builds this postulate to model aggregate social behaviour.
+The expected utility hypothesis states an agent chooses between risky prospects by comparing expected utility values (i.e., the weighted sum of adding the respective utility values of payoffs multiplied by their probabilities). The summarised formula for expected utility is
+
+
+
+        U
+        (
+        p
+        )
+        =
+        ∑
+        u
+        (
+
+          x
+
+            k
+
+
+        )
+
+          p
+
+            k
+
+
+
+
+    {\displaystyle U(p)=\sum u(x_{k})p_{k}}
+
+ where
+
+
+
+
+          p
+
+            k
+
+
+
+
+    {\displaystyle p_{k}}
+
+ is the probability that outcome indexed by
+
+
+
+        k
+
+
+    {\displaystyle k}
+
+ with payoff
+
+
+
+
+          x
+
+            k
+
+
+
+
+    {\displaystyle x_{k}}
+
+ is realized, and function u expresses the utility of each respective payoff. Graphically the curvature of the u function captures the agent's risk attitude.
+For example, imagine you’re offered a choice between receiving $50 for sure, or flipping a coin to win $100 if heads, and nothing if tails. Although both options have the same average payoff ($50), many people choose the guaranteed $50 because they value the certainty of the smaller reward more than the possibility of a larger one, reflecting risk-averse preferences.
+Standard utility functions represent ordinal preferences. The expected utility hypothesis imposes limitations on the utility function and makes utility cardinal (though still not comparable across individuals).
+Although the expected utility hypothesis is a commonly accepted assumption in theories underlying economic modeling, it has frequently been found to be inconsistent with the empirical results of experimental psychology. Psychologists and economists have been developing new theories to explain these inconsistencies for many years. These include prospect theory, rank-dependent expected utility and cumulative prospect theory, and bounded rationality.
+
+Justification
+Bernoulli's formulation
+Nicolaus Bernoulli described the St. Petersburg paradox (involving infinite expected values) in 1713, prompting two Swiss mathematicians to develop expected utility theory as a solution. Bernoulli's paper was the first formalization of marginal utility, which has broad application in economics in addition to expected utility theory. He used this concept to formalize the idea that the same amount of additional money was less useful to an already wealthy person than it would be to a poor person. The theory can also more accurately describe more realistic scenarios (where expected values are finite) than expected value alone. He proposed that a nonlinear function of the utility of an outcome should be used instead of the expected value of an outcome, accounting for risk aversion, where the risk premium is higher for low-probability events than the difference between the payout level of a particular outcome and its expected value. Bernoulli further proposed that it was not the goal of the gambler to maximize his expected gain but to maximize the logarithm of his gain instead.
+The concept of expected utility was further developed by William Playfair, an eighteenth-century political writer who frequently addressed economic issues. In his 1785 pamphlet The Increase of Manufactures, Commerce and Finance, a criticism of Britain's usury laws, Playfair presented what he argued was the calculus investors made prior to committing funds to a project. Playfair said investors estimated the potential gains and potential losses, and then assessed the probability of each. This was, in effect, a verbal rendition of an expected utility equation. Playfair argued that, if government limited the potential gains of a successful project, it would discourage investment in general, causing the national economy to under-perform.
+Daniel Bernoulli drew attention to psychological and behavioral components behind the individual's decision-making process and proposed that the utility of wealth has a diminishing marginal utility. For example, an extra dollar or an additional good is perceived as less valuable as someone gets wealthier. In other words, desirability related to a financial gain depends on the gain itself and the person's wealth. Bernoulli suggested that people maximize "moral expectation" rather than expected monetary value. Bernoulli made a clear distinction between expected value and expected utility. Instead of using the weighted outcomes, he used the weighted utility multiplied by probabilities. He proved that the utility function used in real life is finite, even when its expected value is infinite.
+
+Ramsey-theoretic approach to subjective probability
+In 1926, Frank Ramsey introduced Ramsey's Representation Theorem. This representation theorem for expected utility assumes that preferences are defined over a set of bets where each option has a different yield. Ramsey believed that we should always make decisions to receive the best-expected outcome according to our personal preferences. This implies that if we can understand an individual's priorities and preferences, we can anticipate their choices. In this model, he defined numerical utilities for each option to exploit the richness of the space of prices. The outcome of each preference is exclusive of each other. For example, if you study, you can not see your friends. However, you will get a good grade in your course. In this scenario, we analyze personal preferences and beliefs and will be able to predict which option a person might choose (e.g., if someone prioritizes their social life over academic results, they will go out with their friends). Assuming that the decisions of a person are rational, according to this theorem, we should be able to know the beliefs and utilities of a person just by looking at the choices they make (which is wrong). Ramsey defines a proposition as "ethically neutral" when two possible outcomes have an equal value. In other words, if the probability can be defined as a preference, each proposition should have ⁠1/2⁠ to be indifferent between both options.
+Ramsey shows that
+
+
+
+
+        P
+        (
+        E
+        )
+        =
+        (
+        1
+        −
+        U
+        (
+        m
+        )
+        )
+        (
+        U
+        (
+        b
+        )
+        −
+        U
+        (
+        w
+        )
+        )
+
+
+    {\displaystyle P(E)=(1-U(m))(U(b)-U(w))}
+
+Savage's subjective expected utility representation
+In the 1950s, Leonard Jimmie Savage, an American statistician, derived a framework for comprehending expected utility. Savage's framework involved proving that expected utility could be used to make an optimal choice among several acts through seven axioms. In his book, The Foundations of Statistics, Savage integrated a normative account of decision making under risk (when probabilities are known) and under uncertainty (when probabilities are not objectively known). Savage concluded that people have neutral attitudes towards uncertainty and that observation is enough to predict the probabilities of uncertain events. A crucial methodological aspect of Savage's framework is its focus on observable choices—cognitive processes and other psychological aspects of decision-making matter only to the extent that they directly impact choice.
+The theory of subjective expected utility combines two concepts: first, a personal utility function, and second, a personal probability distribution (usually based on Bayesian probability theory). This theoretical model has been known for its clear and elegant structure and is considered by some researchers to be "the most brilliant axiomatic theory of utility ever developed." Instead of assuming the probability of an event, Savage defines it in terms of preferences over acts. Savage used the states (something a person doesn't control) to calculate the probability of an event. On the other hand, he used utility and intrinsic preferences to predict the event's outcome. Savage assumed that each act and state were sufficient to determine an outcome uniquely. However, this assumption breaks in cases where an individual does not have enough information about the event.
+Additionally, he believed that outcomes must have the same utility regardless of state. Therefore, it is essential to identify which statement is an outcome correctly. For example, if someone says, "I got the job," this affirmation is not considered an outcome since the utility of the statement will be different for each person depending on intrinsic factors such as financial necessity or judgment about the company. Therefore, no state can rule out the performance of an act. Only when the state and the act are evaluated simultaneously is it possible to determine an outcome with certainty.
+
+Savage's representation theorem
+Savage's representation theorem (Savage, 1954): A preference < satisfies P1–P7 if and only if there is a finitely additive probability measure P and a function u : C → R such that for every pair of acts f and g.
+f < g ⇐⇒ Z Ω u(f(ω)) dP ≥ Z Ω u(g(ω)) dP
+*If and only if all the axioms are satisfied, one can use the information to reduce the uncertainty about the events that are out of their control. Additionally, the theorem ranks the outcome according to a utility function that reflects personal preferences.
+The key ingredients in Savage's theory are:
+
+States: The specification of every aspect of the decision problem at hand or "A description of the world leaving no relevant aspect undescribed."
+Events: A set of states identified by someone
+Consequences: A consequence describes everything relevant to the decision maker's utility (e.g., monetary rewards, psychological factors, etc.)
+Acts: An act is a finite-valued function that maps states to consequences.
+
+Von Neumann–Morgenstern utility theorem
+The von Neumann–Morgenstern axioms
+There are four axioms of the expected utility theory that define a rational decision maker: completeness; transitivity; independence of irrelevant alternatives; and continuity.
+Completeness assumes that an individual has well-defined preferences and can always decide between any two alternatives.
+
+Axiom (Completeness): For every
+
+
+
+        A
+
+
+    {\displaystyle A}
+
+ and
+
+
+
+        B
+
+
+    {\displaystyle B}
+
+ either
+
+
+
+        A
+        ⪰
+        B
+
+
+    {\displaystyle A\succeq B}
+
+ or
+
+
+
+        A
+        ⪯
+        B
+
+
+    {\displaystyle A\preceq B}
+
+ or both.
+This means that the individual prefers
+
+
+
+        A
+
+
+    {\displaystyle A}
+
+ to
+
+
+
+        B
+
+
+    {\displaystyle B}
+
+,
+
+
+
+        B
+
+
+    {\displaystyle B}
+
+ to
+
+
+
+        A
+
+
+    {\displaystyle A}
+
+, or is indifferent between
+
+
+
+        A
+
+
+    {\displaystyle A}
+
+ and
+
+
+
+        B
+
+
+    {\displaystyle B}
+
+.
+Transitivity assumes that, as an individual decides according to the completeness axiom, the individual also decides consistently.
+
+Axiom (Transitivity): For every
+
+
+
+        A
+        ,
+        B
+
+
+    {\displaystyle A,B}
+
+ and
+
+
+
+        C
+
+
+    {\displaystyle C}
+
+ with
+
+
+
+        A
+        ⪰
+        B
+
+
+    {\displaystyle A\succeq B}
+
+ and
+
+
+
+        B
+        ⪰
+        C
+
+
+    {\displaystyle B\succeq C}
+
+ we must have
+
+
+
+        A
+        ⪰
+        C
+
+
+    {\displaystyle A\succeq C}
+
+.
+Independence of irrelevant alternatives pertains to well-defined preferences as well.  It assumes that two gambles mixed with an irrelevant third one will maintain the same order of preference as when the two are presented independently of the third one. The independence axiom is the most controversial..
+
+Axiom (Independence of irrelevant alternatives): For every
+
+
+
+        A
+        ,
+        B
+
+
+    {\displaystyle A,B}
+
+ such that
+
+
+
+        A
+        ⪰
+        B
+
+
+    {\displaystyle A\succeq B}
+
+, the preference
+
+
+
+        t
+        A
+        +
+        (
+        1
+        −
+        t
+        )
+        C
+        ⪰
+        t
+        B
+        +
+        (
+        1
+        −
+        t
+        )
+        C
+        ,
+
+
+    {\displaystyle tA+(1-t)C\succeq tB+(1-t)C,}
+
+ must hold for every lottery
+
+
+
+        C
+
+
+    {\displaystyle C}
+
+ and real
+
+
+
+        t
+        ∈
+        [
+        0
+        ,
+        1
+        ]
+
+
+    {\displaystyle t\in [0,1]}
+
+.
+Continuity assumes that when there are three lotteries (
+
+
+
+        A
+        ,
+        B
+
+
+    {\displaystyle A,B}
+
+ and
+
+
+
+        C
+
+
+    {\displaystyle C}
+
+) and the individual prefers
+
+
+
+        A
+
+
+    {\displaystyle A}
+
+ to
+
+
+
+        B
+
+
+    {\displaystyle B}
+
+ and
+
+
+
+        B
+
+
+    {\displaystyle B}
+
+ to
+
+
+
+        C
+
+
+    {\displaystyle C}
+
+. There should be a possible combination of
+
+
+
+        A
+
+
+    {\displaystyle A}
+
+ and
+
+
+
+        C
+
+
+    {\displaystyle C}
+
+ in which the individual is then indifferent between this mix and the lottery
+
+
+
+        B
+
+
+    {\displaystyle B}
+
+.
+
+Axiom (Continuity): Let
+
+
+
+        A
+        ,
+        B
+
+
+    {\displaystyle A,B}
+
+ and
+
+
+
+        C
+
+
+    {\displaystyle C}
+
+ be lotteries with
+
+
+
+        A
+        ⪰
+        B
+        ⪰
+        C
+
+
+    {\displaystyle A\succeq B\succeq C}
+
+. Then
+
+
+
+        B
+
+
+    {\displaystyle B}
+
+ is equally preferred to
+
+
+
+        p
+        A
+        +
+        (
+        1
+        −
+        p
+        )
+        C
+
+
+    {\displaystyle pA+(1-p)C}
+
+ for some
+
+
+
+        p
+        ∈
+        [
+        0
+        ,
+        1
+        ]
+
+
+    {\displaystyle p\in [0,1]}
+
+.
+If all these axioms are satisfied, then the individual is rational. A utility function can represent the preferences, i.e., one can assign numbers (utilities) to each outcome of the lottery such that choosing the best lottery according to the preference
+
+
+
+        ⪰
+
+
+    {\displaystyle \succeq }
+
+ amounts to choosing the lottery with the highest expected utility. This result is the von Neumann–Morgenstern utility representation theorem.
+In other words, if an individual's behavior always satisfies the above axioms, then there is a utility function such that the individual will choose one gamble over another if and only if the expected utility of one exceeds that of the other. The expected utility of any gamble may be expressed as a linear combination of the utilities of the outcomes, with the weights being the respective probabilities. Utility functions are also normally continuous functions. Such utility functions are also called von Neumann–Morgenstern (vNM). This is a central theme of the expected utility hypothesis in which an individual chooses not the highest expected value but rather the highest expected utility. The expected utility-maximizing individual makes decisions rationally based on the theory's axioms.
+The von Neumann–Morgenstern formulation is important in the application of set theory to economics because it was developed shortly after the Hicks–Allen "ordinal revolution" of the 1930s, and it revived the idea of cardinal utility in economic theory. However, while in this context the utility function is cardinal, in that implied behavior would be altered by a nonlinear monotonic transformation of utility, the expected utility function is ordinal because any monotonic increasing transformation of expected utility gives the same behavior.
+
+Examples of von Neumann–Morgenstern utility functions
+The utility function
+
+
+
+        u
+        (
+        w
+        )
+        =
+        log
+        ⁡
+        (
+        w
+        )
+
+
+    {\displaystyle u(w)=\log(w)}
+
+ was originally suggested by Bernoulli (see above). It has relative risk aversion constant and equal to one and is still sometimes assumed in economic analyses. The utility function
+
+
+
+
+        u
+        (
+        w
+        )
+        =
+        −
+
+          e
+
+            −
+            a
+            w
+
+
+
+
+    {\displaystyle u(w)=-e^{-aw}}
+
+
+It exhibits constant absolute risk aversion and, for this reason, is often avoided, although it has the advantage of offering substantial mathematical tractability when asset returns are normally distributed. Note that, as per the affine transformation property alluded to above, the utility function
+
+
+
+        K
+        −
+
+          e
+
+            −
+            a
+            w
+
+
+
+
+    {\displaystyle K-e^{-aw}}
+
+ gives the same preferences orderings as does
+
+
+
+        −
+
+          e
+
+            −
+            a
+            w
+
+
+
+
+    {\displaystyle -e^{-aw}}
+
+; thus it is irrelevant that the values of
+
+
+
+        −
+
+          e
+
+            −
+            a
+            w
+
+
+
+
+    {\displaystyle -e^{-aw}}
+
+ and its expected value are always negative: what matters for preference ordering is which of two gambles gives the higher expected utility, not the numerical values of those expected utilities.
+The class of constant relative risk aversion utility functions contains three categories. Bernoulli's utility function
+
+
+
+
+        u
+        (
+        w
+        )
+        =
+        log
+        ⁡
+        (
+        w
+        )
+
+
+    {\displaystyle u(w)=\log(w)}
+
+
+Has relative risk aversion equal to 1. The functions
+
+
+
+
+        u
+        (
+        w
+        )
+        =
+
+          w
+
+            α
+
+
+
+
+    {\displaystyle u(w)=w^{\alpha }}
+
+
+for
+
+
+
+        α
+        ∈
+        (
+        0
+        ,
+        1
+        )
+
+
+    {\displaystyle \alpha \in (0,1)}
+
+ have relative risk aversion equal to
+
+
+
+        1
+        −
+        α
+        ∈
+        (
+        0
+        ,
+        1
+        )
+
+
+    {\displaystyle 1-\alpha \in (0,1)}
+
+.  And the functions
+
+
+
+
+        u
+        (
+        w
+        )
+        =
+        −
+
+          w
+
+            α
+
+
+
+
+    {\displaystyle u(w)=-w^{\alpha }}
+
+
+for
+
+
+
+        α
+        <
+        0
+
+
+    {\displaystyle \alpha <0}
+
+ have relative risk aversion equal to
+
+
+
+        1
+        −
+        α
+        >
+        1.
+
+
+    {\displaystyle 1-\alpha >1.}

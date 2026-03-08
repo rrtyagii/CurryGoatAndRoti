@@ -1,0 +1,13 @@
+Peter John Fleming  is a professor of Industrial Systems and Control in the Department of Automatic Control and Systems Engineering at the University of Sheffield, and till June 2012 he was the director of the Rolls-Royce University Technology Centre for Control and Systems Engineering. He works in the field of control and systems engineering and is known for his work on evolutionary computation applied to systems engineering. Fleming is Editor-in-Chief of the International Journal of Systems Science.
+
+Research
+Fleming's primary area of research involves the development of evolutionary algorithms, including genetic algorithm for multi-objective optimization. He also works in the area of control & systems engineering. He has authored about 400 research publications, including six books. His research interests have led to the development of close links with a variety of industries in sectors such as automotive, aerospace, power generation, food processing, pharmaceuticals, and manufacturing. Two of his most cited articles are:
+
+Genetic Algorithms for Multiobjective Optimization: Formulation, Discussion and Generalization, with Carlos M. Fonseca, in Genetic Algorithm: Proceedings of the fifth international conference, San Mareo, CA, July 1993.
+An Overview of Evolutionary Algorithms in Multiobjective Optimization, with Carlos M. Fonseca, Evolutionary Computation, MIT Press, 1995.
+He is a Fellow of the Royal Academy of Engineering since 2005, a Fellow of the International Federation of Automatic Control since 2009, a Fellow of the Institution of Engineering Technology, and a Fellow of the Institute of Measurement and Control.
+
+Selected books
+A. M. Zalzala and P. J. Fleming, (Ed.) Genetic Algorithms in Engineering Systems, The Institution of Electrical Engineers, London (1997).
+Mo Jamshidi, Renato A. Krohling, Leandro dos S. Coelho, and Peter J. Fleming, Robust Control Systems with Genetic Algorithms, CRC Press, 2002. ISBN 978-0-8493-1251-9
+Carlos M. Fonseca, Peter J. Fleming, Eckart Zitzler, and Kalyanmoy, Evolutionary Multi-Criterion Optimization, Springer, 2003. ISBN 978-3-540-01869-8

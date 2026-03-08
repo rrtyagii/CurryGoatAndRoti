@@ -1,0 +1,8 @@
+The acct URI scheme is a proposed internet standard published by the Internet Engineering Task Force, defined by RFC 7565.  The purpose of the scheme is to identify, rather than interact, with user accounts hosted by a service provider.  This scheme differs from the DNS name which specifies the service provider.
+The acct URI was intended to be the single URI scheme that would return information about a person (or possibly a thing) that holds an account at a given domain.
+The acct URI scheme is used by the WebFinger protocol.
+
+Example
+The following is an example of an acct URI:
+
+acct:juliet%40capulet.example@shoppingsite.example

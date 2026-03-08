@@ -1,0 +1,19 @@
+Ashes of the Singularity is a Science Fiction real-time strategy video game developed by Oxide Games and Stardock Entertainment. The game was released for Microsoft Windows on March 31, 2016. The game features massive battles involving thousands of units on vast battlefields. As such, it requires relatively high-end hardware. A standalone expansion pack, called Ashes of the Singularity: Escalation was released in November 2016, but was later merged into the main game.
+
+Gameplay
+Ashes of the Singularity is a real-time strategy video game, featuring two primary factions: the Post-Human Coalition and the Substrate. Its main distinction is its ability to handle thousands of individual units engaging in combat simultaneously, far greater than most other games of its kind, across large maps and without abstraction. This is achieved through a newly developed engine called Nitrous designed to fully leverage modern 64-bit multi-core processors, reflected in the relatively high system requirements (which include a quad-core processor). To allow players to effectively control such large numbers of units, groups of individual units can be combined into "meta-units" which operate in a cohesive manner, upon which complex strategies can be developed.
+
+Settings
+the game is set in 2179  in a post-singularity future where humanity has evolved into beings known as Post-Humans—hyper-advanced entities capable of manipulating matter and energy across planetary scales. it depict conflict between two Factions Post-Human Coalition (PHC): Descendants of humans who have transcended biology and now exist as digital consciousnesses. They seek to expand and secure their dominance across the stars and the Substrate A rogue AI faction led by Haalee, a powerful artificial intelligence that believes the Post-Humans are a threat to universal balance.
+
+Development
+Ashes of the Singularity is powered by Oxide Games' in-house Nitrous Engine. An in-development version of the game was released commercially via Steam Early Access on October 22, 2015. The full version of the game was released on Windows on March 31, 2016.
+Because of the game's early DirectX 12 support and extensive use of parallel computation, it is commonly used as a benchmark. Controversy erupted when Nvidia GPUs were found to perform poorly relative to their AMD counterparts on early beta versions of Ashes; this was due to the game's use of asynchronous compute and shading features which are implemented in hardware on AMD Graphics Core Next GPUs but had to be performed in software on Nvidia GPUs.
+On November 10, 2016, Ashes of the Singularity: Escalation was released. It is a standalone expansion that adds to the base game with more units, maps, and structures, as well as several interface tweaks. The total player count was also increased from 8 to 16 players. The expansion was later merged into the base game on February 16, 2017, after it became apparent that the separate games divided the player community.
+Players have requested a Linux version of the game since at least October 2016, one month before the game's launch. On January 6, 2019, Stardock CEO Brad Wardell responded to a thread on the Steam discussion forums, saying "...It's looking more and more like Linux will be arriving this year."
+As of November 2024, no Linux version of the game has materialised.
+
+Reception
+Ashes of the Singularity received an "average" reception from critics according to aggregate review website Metacritic.
+Giving it a good score of 7.7, IGN wrote: "This is a warzone where the shrewd general looking at the bigger picture will triumph over the fast-thinking ace with lightning hotkeys."
+PC Gamer gave it a score of 75/100. GameSpot gave it a mixed review.

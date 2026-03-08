@@ -1,0 +1,5 @@
+Fuzzy architectural spatial analysis (FASA) (also fuzzy inference system (FIS) based architectural space analysis or fuzzy spatial analysis) is a spatial analysis method of analysing the spatial formation and architectural space intensity within any architectural organization.
+Fuzzy architectural spatial analysis is used in architecture, interior design, urban planning and similar spatial design fields.
+
+Overview
+Fuzzy architectural spatial analysis was developed by Burcin Cem Arabacioglu (2010) from the architectural theories of space syntax and visibility graph analysis,  and is applied with the help of a fuzzy system with a Mamdami inference system based on fuzzy logic within any architectural space. Fuzzy architectural spatial analysis model analyses the space by considering the perceivable architectural element by their boundary and stress characteristics and intensity properties. The method is capable of taking all sensorial factors into account during analyses in conformably with the perception process of architectural space which is a multi-sensorial act.

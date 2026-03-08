@@ -1,0 +1,9 @@
+Tredence Inc. is a privately held data analytics and artificial intelligence (AI) technologies company. The firm is headquartered in San Jose, California, United States, and operates delivery centers in North America, Europe, and Asia.
+Tredence provides data science and AI services with a focus on applying analytics in industry-specific contexts. Its client base includes enterprises in retail, consumer packaged goods (CPG), industrials, telecom, technology, travel and hospitality, healthcare, and financial service.
+
+History
+Tredence was founded in 2013 by Shub Bhowmick, Sumit Mehra, and Shashank Dubey.  In December 2020, Tredence received a US$30 million investment from Chicago Pacific Founders.
+In December 2022, the company raised $175 million in a funding round led by Advent International.    In 2023, Forrester listed Tredence among leaders in customer analytics service providers.  In 2025, Everest Group recognized the company in its Data and AI Services Specialists North America PEAK Matrix assessment.
+The company has also been named a partner of the year by several vendors, including Google Cloud (for CPG in 2024), Databricks (Growth Partner of the Year in 2025), and Snowflake (Retail & CPG Partner of the Year in 2025).
+In 2025, executives stated that the company was expanding its work in areas such as "agentic AI," which they projected would form a significant portion of its business.
+Tredence partnered with technology providers such as AWS, Snowflake, Databricks, and Google Cloud on data and AI initiatives.

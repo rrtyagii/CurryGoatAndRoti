@@ -1,0 +1,22 @@
+Shawn J. Bayern is an American law professor. Before his legal career, he created several widely used computer-software systems and wrote several widely cited books on computer programming.
+
+Biography
+After graduating from Yale University, Bayern worked as a researcher at Yale University's Technology and Planning group, there developing the Central Authentication Service.
+As a student, he developed a reputation for becoming critical to the university's information systems and having full access to those systems.  He was the reference-implementation lead for JSTL and sat on the specification committees that developed popular languages including JavaServer Pages,
+JAX-RPC, and JavaServer Faces.
+ He wrote early books on JSTL and JSP. He is also the creator of Time Cave, a "message-scheduling service," and in the early 2000s of a machine-learning system for playing rock-paper-scissors against human opponents.
+After his computing career, Bayern went to Berkeley Law. There, he was editor-in-chief of the California Law Review and first in his class at graduation. He then worked as a law clerk for Harris Hartz of the Tenth Circuit Court of Appeals. He has also worked in the Office of the Solicitor General, on the Appellate Staff of the Civil Division of the Department of Justice, in the chambers of a United States District Judge in California, and at Covington & Burling, a Washington law firm. In 2017, he was elected to the American Law Institute and serves as advisor to several Restatement projects.
+Bayern is currently the Larry and Joyce Beltz Professor at Florida State University College of Law and also has served as a visiting professor of law at Duke Law School, Northwestern University Pritzker School of Law, and Berkeley Law. His books have critiqued law and economics, and he is known for developing new theories for Algorithmic entities.
+
+Books
+JSTL in Action (Manning Press 2003) (ISBN 1930110529).
+Book Review: Java Bookshelf: Mark Cyzyk Reviews Shawn Bayern's JSTL in Action, Dr. Dobb's Journal, DDJ Java Programming E-zine, June 2003. [1]
+Web Development with JavaServer Pages [2] (Manning Press 2002) (ISBN 1-930110-12-X).
+
+Articles
+Explaining the American Norm Against Litigation, 93 California Law Review 1697 (2006).
+Minimal Backups, Sys Admin, Apr. 2001.
+Making a Wish: The Web-Interface Shell, Sys Admin, Jul. 2000.
+How to Crawl Back Inside Your Shell, Sys Admin, Nov. 1999.
+Securing Public Workstations, Windows NT Magazine, Sept. 1999.
+Automating Repetitive Tasks in NT, Windows NT Magazine, May 1998.

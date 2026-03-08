@@ -1,0 +1,69 @@
+Roman Vyacheslavovich Belavkin (Russian: Рома́н Вячесла́вович Бела́вкин; born 9 January 1971) is a Russian-British electronic musician, computer scientist, and wushu master. He is the son of mathematician Viacheslav Belavkin.
+As a musician, he is known under the pseudonym Solar X (also: SolarX). He is considered one of the pioneers of the Russian intelligent dance music (IDM) scene of the 1990s. He founded the label Art-Tek Records, the first Russian label specializing in IDM.
+He was European wushu champion (1992) and holds the title of International Master of Sport.
+Since the mid-2000s, he has lived in the United Kingdom, where he works as an associate professor of computer science and artificial intelligence at Middlesex University.
+
+Early life
+Belavkin was born in Moscow into a family of mathematicians. His father was Viacheslav Belavkin (1946–2012), later a professor of applied mathematics at the University of Nottingham and one of the pioneers in quantum probability research. As a child, he lived in a small Moscow apartment where his father's study also served as his bedroom; during the 1980s, he witnessed his father's work on quantum information theory.
+His father brought him a synthesizer from a business trip, which he used to make his first musical sketches.
+
+Career
+Sports
+From the late 1980s, Belavkin seriously pursued wushu, training under Gleb Muzrukov, the founder of the USSR Wushu Federation. He became one of the leading athletes on the USSR and Russian wushu teams.
+In 1989, Belavkin became USSR wushu champion at the country's first official championship in Almaty. In 1990, he won a gold medal in changquan at the first international wushu tournament in Moscow. In July of that year, he competed as part of the USSR team at an international tournament in Kuala Lumpur (Malaysia), placing 6th among representatives from 42 countries. In 1991, he won the USSR Cup as part of the Moscow team.
+At the 1992 European Wushu Championships in London, he won a gold medal in jianshu (straight sword).
+That same year, he was involved in a car accident that left him immobile for two years and ended his sports career.
+
+Music career
+1990s
+During his rehabilitation period, Belavkin began seriously pursuing electronic music, using a computer and Soviet analog synthesizers to create compositions—including Polivoks, Ritm-2, Aelita, and others, which were more accessible than European or Japanese alternatives and had a distinctive sound.
+In 1988, Belavkin enrolled in the Faculty of Physics at Moscow State University. His university studies gave him access to the internet, which in the mid-1990s was only available in academic settings. In 1994, he graduated from Moscow State University, took the pseudonym Solar X, and began performing—playing at the Pilot club and other Moscow venues—and recorded his debut album Outre X Mer on cassette. Through the "Analog Heaven" mailing list devoted to analog synthesizers, Belavkin contacted Dan Nigrin, co-founder of the American label Defective Records. In 1995, the label released an EP of the same name based on the cassette material. The release received positive reviews in the Western press: German magazine Frontpage named it "record of the week". However, according to music critic Denis Boyarinov, at that time in Russia, Belavkin "was known perhaps only within Moscow and among devoted readers of Ptuch magazine," while abroad significantly more was written about his music.
+In 1997, Belavkin founded his own label, Art-Tek Records. It became the first label in Russia to specialize specifically in IDM. The label's name was a reference to the Soviet pioneer camp Artek. Following the release of the album X-Rated, publications appeared in The Wire, De:Bug, and other magazines. That same year, Solar X met Richard James (Aphex Twin); after moving to London, they became neighbors.
+The Art-Tek label became an important platform for the Russian IDM scene, releasing recordings by musicians from various cities: Novel 23, J-Tunes, DJ Compass Vrubel, Lazyfish, Alexandroid, and the St. Petersburg duo EU), which subsequently signed to the British label Pause_2 and toured in Europe. In 1999, the label released the compilation Artefacts featuring a selection of Russian IDM.
+In 1998, he composed the music for the film The Monk, directed by his former wushu teacher Gleb Muzrukov.
+In 1999, his third album, Little Pretty Automatic, was released on the British label Worm Interface Records. One of the singles from this album was a cover of the song "Koroleva" (Королева, lit. "Queen") by Alla Pugacheva. Music critic Artemy Troitsky provided vocals for the track. In 2001, the EP Chanel N° 303 came out on the German label Hymen Records. Tracks "Dasha 1, 2, 3, 4..." and "Xiao Jie" from this release were played on John Peel's show on BBC. In 2006, the EP Masters of Meanders was released as part of the box set Travel Sickness on the same label.
+From the early 2000s, Belavkin largely stopped releasing new music for an extended period, focusing on his scientific work.
+
+Return to music
+In November 2017, he performed at the "Island of the 90s" festival at the Yeltsin Center in Yekaterinburg alongside video artist Vadim Epstein; this was his first performance in that city.
+In 2019, techno musician Nina Kraviz reissued the album X-Rated on her label Galaxiid (a sub-label of трип), releasing it on vinyl for the first time. In a Resident Advisor review, the album was called "an exceptional piece of Russian IDM from 1997". In 2024, a reissue of the debut album Outre X Mer was released on the same label.
+In August 2021, he recorded the track "Summer Agents" (Агенты лета) for a musical marathon in support of the publication Meduza, which had been designated as a "foreign agent" in Russia.
+In 2025, Solar X released his first studio album in 26 years—Divergent Sequences on the Art-Tek Records label. The album includes 18 tracks with a total duration of over 75 minutes; the title refers to the mathematical concept of a divergent sequence. Theremin player Lydia Kavina participated in the recording.
+
+Academic career
+After graduating from the Faculty of Physics at Moscow State University in 1994, Belavkin became interested in artificial intelligence and received a scholarship to study for a PhD at the University of Nottingham, where his father worked as a professor. He completed his PhD in computer science.
+In 2002, he joined Middlesex University in London, where he holds the position of associate professor in computer science. In 2010, he became the principal investigator of the EPSRC project "SANDPIT: Evolution as an Information Dynamic System" with participation from the universities of Manchester, Keele, and Warwick. The project focused on applying information theory to biological evolution. Among the results was the discovery that the bacterium Escherichia coli regulates mutation rates depending on population density through a quorum sensing mechanism. Experimental results on mutation regulation in E. coli were published in an article in the journal Nature Communications (2014).
+His research interests include the theory of value of information, geometric analysis of optimal and learning systems, quantum informatics, optimal control of evolutionary algorithms, and cognitive modeling. According to Google Scholar, his work has been cited more than 800 times.
+In 2020, he served as one of the editors and translators of the English edition of the classic monograph by Ruslan Stratonovich Theory of Information, published by Springer. Stratonovich was his father's doctoral supervisor.
+He is a member of the editorial board of the journal Optimization Letters published by Springer and the book series Springer Optimization and Its Applications.
+
+Lectures
+In 2015, Belavkin gave lectures at the International Summer School on Operations Research at the Higher School of Economics in Nizhny Novgorod. In March 2017, he presented at the All-Moscow seminar "Mathematical Methods of Decision Analysis in Economics, Finance and Politics" at HSE with the talk "Utility, Risk and Information".
+In 2018 and 2021, he was an invited lecturer at the Advanced Course on Data Science & Machine Learning (ACDL) in Siena (Italy), where he spoke alongside Yoshua Bengio, Peter Norvig, Daniela Rus, Alex Pentland, Panos Pardalos, and other artificial intelligence researchers.
+
+Critical reception
+Musical style
+Solar X's music belongs to the genres of IDM, techno, and experimental electronica. Critics noted the influence of Aphex Twin, especially in the softer compositions of the album X-Rated, but emphasized that "these are not copies"—Belavkin's music is "warmer and cozier," resembling "a candlelit party rather than a dawn rave in a field".
+German magazine Frontpage in its review of the debut EP Outre X Mer (1996), released on the American label Defective Records, called the release a masterpiece and the label's best record, compared the sound to Analogue Bubblebath (an early work by Aphex Twin), and also noted industrial elements and the influence of the sonic environment of the Moscow Metro; the release received the highest rating from the magazine's reviewers.
+British critic Rob Young in his review for The Wire magazine of the album X-Rated (1997) called it "intriguing," compared it to early Autechre, and noted that the sound goes beyond the typical palette of "intelligent techno of blips and sine waves".
+German magazine De:Bug in 2001 devoted a special section to the Russian electronic scene, in which Belavkin was called "the founding father of new electronic music in Russia" and "the Russian Aphex Twin without a tank"; it was noted that he "was one of the first to start making his own devices from old Soviet synthesizers and computers".
+
+Influence
+Belavkin is considered one of the pioneers of Russian IDM. He had a notable influence on the electronic music scene of Saint Petersburg and Moscow in the late 1990s and contributed to the development of experimental musicians of that time, such as Novel23, Ambidextrous, Fizzarum, Елочные Игрушки, and others who were released on his label Art-Tek Records. In 2002, the label received the "Golden Gargoyle" award from Moscow's 16 Tons club in the "Independent Record Company" category; at the same ceremony, the group Елочные Игрушки, released on the label, won in the "Intelligent Dance Music" category.
+
+Rankings
+The track "Shoot My Heart" from the album Little Pretty Automatic was included in the list of the 100 greatest IDM tracks of all time according to Fact magazine, taking 27th place.
+Music critic Nick Zavriev placed the album Divergent Sequences (2025) in first place in his ranking of the best electronic albums of 2025, calling it "the most powerful comeback of the first Russian IDM artist". The album itself was characterized by Zavriev as a return to "classic Solar X from the turn of the nineties-noughties": ragged electro rhythms, rapid percussion, melodies with a special sense of humor, and generously processed vocal samples.
+
+Discography
+Studio albums
+1994: Outre X Mer (cassette, self-released; reissue: Galaxiid, 2024)
+1997: X-Rated (Art-Tek Records; reissue: Galaxiid, 2019)
+1999: Little Pretty Automatic (Worm Interface Records)
+2025: Divergent Sequences (Art-Tek Records)
+
+EPs and singles
+1995: Outre X Mer EP (Defective Records)
+1997: Kalashnikoff Bullet Bath EP (Defective Records)
+2001: Chanel N° 303 (Hymen Records)
+2006: Masters of Meanders (Hymen Records, as part of the box set Travel Sickness)

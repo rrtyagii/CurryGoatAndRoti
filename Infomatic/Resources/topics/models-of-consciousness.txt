@@ -1,0 +1,46 @@
+Models of consciousness are used to illustrate and aid in understanding and explaining distinctive aspects of consciousness. Sometimes the models are labeled theories of consciousness. Anil Seth defines such models as those that relate brain phenomena such as fast irregular electrical activity and widespread brain activation to properties of consciousness such as qualia. Seth allows for different types of models including mathematical, logical, verbal and conceptual models.
+
+Neuroscience
+Neural correlates of consciousness
+The Neural correlates of consciousness (NCC) formalism is used as a major step towards explaining consciousness. The NCC are defined to constitute the minimal set of neuronal events and mechanisms sufficient for a specific conscious percept, and consequently sufficient for consciousness. In this formalism, consciousness is viewed as a state-dependent property of some undefined complex, adaptive, and highly interconnected biological system.
+
+Global workspace theory
+Global workspace theory (GWT) is a cognitive architecture and theoretical framework for understanding consciousness introduced by cognitive scientist Bernard Baars in 1988. The theory uses a theater metaphor: conscious experience is like material illuminated on a stage, with attention acting as a spotlight. Specialized unconscious processes operate in parallel, competing for access to a "global workspace" that broadcasts winning content throughout the brain. GWT is one of the leading scientific theories of consciousness and has been the subject of adversarial collaborations testing its predictions against integrated information theory. The Dehaene–Changeux model is a neural network implementation of global workspace principles.
+
+Dehaene–Changeux model
+The Dehaene–Changeux model (DCM), also known as the global neuronal workspace or the global cognitive workspace model is a computer model of the neural correlates of consciousness  programmed as a neural network.  Stanislas Dehaene and Jean-Pierre Changeux introduced this model in 1986. It is associated with Bernard Baars's Global workspace theory for consciousness.
+
+Electromagnetic theories of consciousness
+Electromagnetic theories of consciousness propose that consciousness can be understood as an electromagnetic phenomenon that occurs when a brain produces an electromagnetic field with specific characteristics.  Some electromagnetic theories are also quantum mind theories of consciousness.
+
+Orchestrated objective reduction
+Orchestrated objective reduction (Orch-OR) model is based on the hypothesis that consciousness in the brain originates from quantum processes inside neurons, rather than from connections between neurons (the conventional view). The mechanism is held to be associated with molecular structures called microtubules. The hypothesis was advanced by Roger Penrose and Stuart Hameroff and has been the subject of extensive debate,
+
+Thalamic reticular networking model of consciousness
+Min proposed in a 2010 paper a Thalamic reticular networking model of consciousness. The model suggests consciousness as a "mental state embodied through TRN-modulated synchronization of thalamocortical networks". In this model the thalamic reticular nucleus (TRN) is suggested as ideally suited for controlling the entire cerebral network, and responsible (via GABAergic networking) for synchronization of neural activity.
+
+Holographic models of consciousness
+A number of researchers, most notably Karl Pribram and David Bohm, have proposed holographic models of consciousness as a way to explain number of problems of consciousness using the properties of hologram. A number of these theories overlap to some extent with quantum theories of mind.
+
+EEG microstates
+This model of consciousness is based  on the well-established method for characterizing
+resting-state activity of the human brain using multichannel electroencephalography (EEG). The concept of EEG microstates was created by Lehmann et al. at the University of Zurich in the 1980's using multichannel EEG measurements. In a seminal paper by Lehmann in 1987, EEG microstates were described as "repeating, quasi-stable patterns in an EEG", representing "the atoms of thought".
+These observations on microstates in spontaneous brain electric activity suggest that the apparent "continual stream of consciousness" consists of "concatenated identifiable brief packets" in the time range of fractions of seconds (70 to 125 milliseconds during rest, 286 to 354 milliseconds while reading abstract or imagery words). Entry of content chunks into consciousness apparently requires such minimum durations and smaller microstates are thereby unconscious.
+
+Medicine
+Clouding of consciousness
+Clouding of consciousness, also known as brain fog or mental fog, is a term used in medicine denoting an abnormality in the regulation of the overall level of consciousness that is mild and less severe than a delirium. It is part of an overall model where there's regulation of the "overall level" of the consciousness of the brain and aspects responsible for "arousal" or "wakefulness" and awareness of oneself and of the environment.
+
+Philosophy
+Multiple drafts model
+Daniel Dennett proposed a physicalist, information processing based multiple drafts model of consciousness described more fully in his 1991 book, Consciousness Explained.
+
+Functionalism
+Functionalism is a view in the theory of the mind. It states that mental states (beliefs, desires, being in pain, etc.) are constituted solely by their functional role – that is, they have causal relations to other mental states, numerous sensory inputs, and behavioral outputs.
+
+Sociology
+Sociology of human consciousness uses the theories and methodology of sociology to explain human consciousness. The theory and its models emphasize the importance of language, collective representations, self-conceptions, and self-reflectivity. It argues that the shape and feel of human consciousness is heavily social.
+
+Spirituality
+Eight-circuit model of consciousness
+Timothy Leary introduced and Robert Anton Wilson and Antero Alli elaborated  the Eight-circuit model of consciousness as hypothesis that "suggested eight periods [circuits] and twenty-four stages of neurological evolution".

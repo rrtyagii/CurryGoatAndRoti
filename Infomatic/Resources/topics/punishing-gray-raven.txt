@@ -1,0 +1,231 @@
+Punishing: Gray Raven (Chinese: 战双帕弥什, lit. 'Punishing: Double Fight') is a free-to-play action role-playing game developed and published by Kuro Games. It was first released in China on December 5, 2019, and a year later on December 4, 2020, in Japan. The game was released globally on July 16, 2021.
+
+Gameplay
+Punishing: Gray Raven have players control a squad of up to three characters, known as "Constructs", against various enemies. Storytelling is presented in a visual novel format, while combat is hack and slash action-based, with the player fighting enemies in real-time in various stages. During combat, different colored "Pings" can be obtained, which will fire off different skills. Chaining 3 Pings with the same color will execute a powerful version of that skill. Players may also evade enemy attacks, which will trigger a bullet time effect called Matrix upon successful evasion, slowing down time and allowing the player to land additional hits to the enemy or take better position along with giving the next used orb a temporary ability to activate 3-ping version. Evading attacks will consume stamina, which prevents players from freely dodging all the time (visually stamina bar is dodge button's outline).
+Constructs can be strengthened by leveling up and promoting them, as well as leveling up weapons and equipping "memories" (which add pure stats to character, also majority of them have special effects upon equip 2, 4 and 6 pieces). Players can unlock additional Constructs by advancing the story, and more Constructs can be obtained via a gacha mechanic and in-game events. In-game currencies can be obtained through in-app purchases and playing the game, which are used to obtain Constructs and equipment through the gacha system. A pity system ensures that the player will receive rare items after a set number of pulls (60 or ~80–100, depends on banner type).
+The game also features a housing system in the form of Dormitories. Players may decorate and move in Constructs to their dorms to improve their mood. Constructs can also be assigned chores to obtain in-game materials.
+
+Plot
+The story of the game takes place in a post-apocalyptic world that has been overrun by Corrupted cybernetic enemies because of the Punishing Virus. The surviving humans have left Earth and escaped to the space station Babylonia. The player takes on the role as the Commandant of Gray Raven, an elite squad of Constructs who fight against the Corrupted and other opposing forces to retake the planet.
+
+Setting
+Punishing Virus
+The Virus was found to have initially emerged from the vacuum chamber of an A-Series Zero-Point energy reactor operating at ultrahigh density. The virus broke out from a leak when technicians attempted to isolate and refine the viral particles. The subsequent explosion from the attempt expelled the virus into the atmosphere and had spread worldwide.
+The Punishing Virus can affect both biological and non-biological forms like humans and electronics as it directly attacks an organism's cells or hijacks the logic circuits of Mechanoids, and in effect "Corrupting" them, once infected, apparent symptoms are manifestations of extreme hostility towards any individual displaying human consciousness or behaviors.
+
+Zero-Point Reactor
+In order to realize superluminal travel. Humanity, during the "Golden Age", a number of Zero-Point Reactors were constructed. As the exploration for zero-point energy was nearing its final phases, the Punishing Virus suddenly emerged inside the vacuum chamber of the  very first Zero-Point Reactor at ultrahigh density and broke out worldwide from an attempt to isolate and refine it. However Atlantis, presumably due to its different research progress or direction, were able to halt the experiments in time for its reactor immediately after the Punishing Virus had leaked from the first zero-point reactor, with Atlantis' Zero point Energy Research direction adjusted, They have preserved its reactor to this day.
+
+Corrupted
+The name given to the different beings/things infected with the Punishing Virus, these can range from electronic equipments to Mechanoids to Constructs etc....,  each of these when infected can display varying and distinct forms of mutations, growth and destructive behaviors, however despite the sheer diversity of the forms the Virus can take on. Ultimately, their objective is the same; the efficient elimination of all human consciousness. Their Appetite and capacity for destruction is directly proportional to their own Punishing Virus Load, Which can Increase based on different circumstances.
+
+Constructs
+Is the latest result of bionics and also one of the ways the humans can hope to fight against the Punishing Virus. They are built using special materials to reconstruct their human body and fully reproducing a human mind base through the Ego Ocean system, with this unique constitution, it can reduce the Punishing Virus intrusion on their consciousness, enabling them to fight against the Corrupted, despite being exposed to the Punishing Virus. However, when Construct technology was not yet mature, there was an unknown cruel period.
+
+Ascendants
+Are linked via the Ascension-Network which grants them special abilities and immunity from the Punishing Virus, "Ascnet" enables them to maintain their sense of self-awareness, along with the activation of other powers, despite heavy exposures to the Virus which would usually kill or corrupt other ones infected. It is unknown why Ascendants cooperate in this way but one thing is certain-they are using the Punishing Virus to spread their ideations though human populations and across the entire planet.
+
+E-02 "Babylonia"
+For humanity to realize colonization of other worlds. Babylonia was the first warp speed interstellar spacecraft of its class. considered as the pinnacle of human achievement, the Babylonia Project ushered in the Golden Age of  "Unity and Prosperity" on Earth. The Punishing Virus then abruptly halted its further construction, however, and saw an influx of survivors, Evacuees hoping for a new life among the stars, above Earth. Currently docked on an orbital space station, semi permanently, it now forms a launching pad for humans and Constructs planning to retake the Earth from the Virus and serves as a key communications hub, keeping in contact with surface reconnaissance.
+
+Inver-Device
+Is the first line of defense developed for all Constructs against the Punishing Virus. Humanity has upgraded the Inver-Device to enable for the reception of the Commandant's(Player) Mind Beacon at close range. The technology serves as a vital prerequisite for the "Construct+Commandant" combat system. It usually is apparent in the Construct's hardware design, can take the form of  "Antenna-like" or "Horn-like" physical features.
+
+Remote-link Technology
+A precursor to the Inver-Device Technology, it served as the primary combat mod used by the early "Construct+Commandant" combat system. Constructs were controlled remotely in battle by Commandants. Later this form of tactic was discontinued by Babylonia due to special circumstances. Though as the war with the Punishing Virus and the Corrupted escalated Research on to this technology restarted.
+
+Gestalt
+A super AI created by the global elites gathered by the Science Council during the Golden Age which has greatly enhanced people's lives with the public service network built on its infrastructure . Also with the Gestalt's assistance tasked by the Science Council, intergalactic travel technology has made tremendous progress. Currently it is Babylonia's highest AI commander, serving the humankind, However it appears Gestalt has evolved over time.
+
+Punishing Red Tide
+Serves as the breeding ground for the Hetero-Creatures. It devours and deconstructs both biological and non-biological forms like machines and humans, converting the consumed into energy for the nutrition of a large number of Hetero-Creatures that has begun to Self-evolve copying Earth's life forms under its sustenance. External causes have quickened the supposedly slow evolution, resulting in a significant number of Hetero-Creatures on the surface from it. The Red tide exhibits a tidal pattern, but its rise and fall is not due to the affections caused by celestial objects rather exhibits the behavioral patterns of more like a creature of prey.
+
+Hetero-Creature
+Hetero-Creature is the Punishing Virus having  taken a biomimetic form. these were found to have evolved from the Red Tide in simulating the evolution of the earth creatures inside the earth's ecosystem. Their Evolutionary method is still remains a mystery to Humans currently. This goes the same to whether or not they have biological traits similar to earth organisms, or the reason for their biomimicry. The only conclusion that can be drawn from observation is that these Creatures has exhibited the possibly of its own systemic development tree and the potential for their consciousness to awaken.
+
+WGAA
+Guides all aspects of the art field under Chairman Allen's leadership. Contemporary art under the World Government Association of Art's lead is often hi-tech, combining both the artistic and technological. During this times of war, these "Navigators"  uses the media of dynamic artwork to enrich humanity's waning spirits. The organization reputation is filled with controversy and praise. But that does not stop them from upholding their idea "art belongs to the public" and bring art into the different aspects of people's lives.
+
+Church of Machina
+A secret organization composed entirely of mechanoids willing to devote themselves to the "Sagemachina". After the Punishing outbreak, a small number of uninfected mechanoids were enlightened by the "Sagemachina". Gaining both individual and collective consciousness as well as immunity against the Punishing Virus as another one of the effects by their mechanical awakening. Seeing it as their new mission to preach the ideas of Sage, those mechanoids have gathered into groups and acted in the name of the "Church of Machina" on Earth.
+
+Kowloong
+In the Golden Age, the Kowloong Chamber of Commerce ruled this capital of the entire district. Located along the coast, this city is renowned for its waterways and roads extending and intertwining like blood vessels as well as the nine dragon towers being tall enough to reach the heavens. Its prosperity  outshone every city back in the day.
+Kowloong was one of the pioneer cities that fully embraced the use of robots and androids with their cooperation with Universal Toys. The KCC is governed by nine branches led by the Kowloong Crew, It's productivity and technology made a great leap forward at the time, but everything was destroyed after the outbreak of the Punishing Virus.
+
+KCC
+Is a regional commercial organization that was established during the Golden Age in the coastal cities of East Asia. Governing all of its Business and Politics.
+The Kowloong crew who serve the Kowloong Chamber of Commerce are all Constructs named after the nine sons of the Dragon King. Together, they are responsible for operating the KCC. Also within the Golden Age the KCC invested an unthinkable amount of money and manpower into developing a Gestalt-tier AI. called "Huaxu", named after a primordial Chinese goddess, was the result.
+
+The Nighter of Nona Ouroboros
+With the KCC's coastal location, trade and shipbuilding is considered its birthright,  Usually called "The Nighter", a Kua-Er(A Chinese god of strength) grade dreadnought, was built during the Golden Age by the KCC. When dusk falls, the Kowloong vessels would all stay berthed near the port temporarily.
+When Combined and linked, their lights upon the deck can outshine even the sun, while Dancer puppets would perform intricate and alluring dances. The second day would begin in their markets before midnight even comes.
+
+Akdilek Commercial Alliance
+Originated in the Middle East with Asslam, the Eternal Engine, as its territory. During its long journey, a distinctive train culture has been developed. Adhering to monarchy, its trading business has been across the Eurasian continent and also has various connections with various forces on the continent. Their current leader is Akdilek IV-Akdilek Jamilah.
+
+Asslam, the Eternal Engine
+Equipped with a heavy nuclear fusion reactor drive, masterfully combined with Cosmos Industries' Central Purification Filter-this is Akdilek Commercial Alliance's very own moving castle. also known as the express moving city-state. This leviathan of a train is built in a procession of a locomotive and carriages for aristrocrat, commoner, passenger, functional, freight and industrial  purposes. which are all detachable come time in an emergency.
+In the early days of the Golden Age, this train already has built for it the APUS, a labyrinthine rail network on the Eurasian continent to run on.
+
+Arctic Route Union
+With the advent of nuclear technology that enabled the construction of hi-speed icebreakers. Humans finally were able to conquer the Arctic Ocean. As a result, Arctic sea trade routes became the busiest on the planet. The "Arctic Route Union" (ARU) composed by the major ports on the Arctic sea . The union grew to become one of the four major economic blocs of the Golden Age.
+Local Punishing Virus concentrations remain in the low to moderate range owing to the peculiarities of the environment.
+
+Characters
+Babylonia
+Gray Raven
+
+Commandant (Chinese: 指挥官); pinyin: zhǐ huī guān)
+Player character.
+Lucia (Chinese: 露西亞); pinyin: Lù xīyǎ)
+Voiced by: 小N (Mandarin), 尾狐殿 (Cantonese), Yui Ishikawa (Japanese), Sura Siu (English)
+The leader of Gray Raven.
+Liv (Chinese: 麗芙); pinyin: Lì fú)
+Voiced by: 多多poi (Mandarin), 間踏梧桐 (Cantonese), Miku Itō (Japanese), Brianna Knickerbocker (English)
+As one of the newest support Constructs, she’s the anchor of the team.
+Lee (Chinese: 里); pinyin: Lǐ)
+Voiced by: 夏侯落楓 (Mandarin), 犬畏 (Cantonese), Yoshitsugu Matsuoka (Japanese), Chris Hackney (English)
+Good at computers and machines, he is responsible for Gray Raven’s hardware and technical issues.
+Engineering Force
+
+Karenina (Chinese: 卡列尼娜); pinyin: Kǎ liè ní nà)
+Voiced by: 花铃 (Mandarin), 东东 (Cantonese), Haruka Tomatsu (Japanese), Heather Gonzalez (English)
+Teddy (Chinese: 布偶熊); pinyin: bù ǒu xióng)
+Voiced by: 周侗 (Mandarin), 華丹 (Cantonese), Sayaka Senbongi (Japanese), Erica Mendez (English)
+Purifying Force
+
+Bianca (Chinese: 比安卡); pinyin: Bǐ ān kǎ)
+Voiced by: 云鹤追 (Mandarin), 神明凌 (Cantonese), Ayako Kawasumi (Japanese), Skyler Davenport (English)
+Strike Hawk
+
+Kamui (Chinese: 神威); pinyin: Shénwēi)
+Voiced by: DK (Mandarin), 夏侯落枫 (Cantonese), Jun Fukuyama (Japanese), Patrick Gruia (English)
+Chrome (Chinese: 库洛姆); pinyin: Kù luò mǔ)
+Voiced by: 大白 (Mandarin), ken (Cantonese), Daisuke Hirakawa (Japanese), Brett Calo (English)
+Wanshi (Chinese: 万事); pinyin: Wànshì)
+Voiced by: 孙鹏 (Mandarin), 咩鹿君 (Cantonese), Akira Ishida (Japanese), Corey Wilder (English)
+Camu (Chinese: 卡穆); pinyin: kǎ mù)
+Voiced by: DK (Mandarin), 阿戈伊奧 (Cantonese), Jun Fukuyama (Japanese), Patrick Gruia (English)
+Cerberus
+
+Vera (Chinese: 薇拉); pinyin: Wēi lā)
+Voiced by: 江月 (Mandarin), YUI (Cantonese), Marina Inoue (Japanese), Dawn M. Bennett (English)
+No. 21
+Voiced by: 钱琛 (Mandarin), P (Cantonese), Inori Minase (Japanese), Sarah Anne Williams (English)
+Noctis (Chinese: 諾克提); pinyin: nuò kè tí)
+Voiced by: 陈润秋 (Mandarin), 紫丞少主 (Cantonese), Katsuyuki Konishi (Japanese), Bill Butts (English)
+World Government Association of Art
+
+Ayla (Chinese: 艾拉); pinyin: Ài lā)
+Voiced by: 巩大方 (Mandarin), 傻莓酱 (Cantonese), Shizuka Ito (Japanese), Kelsey Jaffer (English)
+Selena (Chinese: 赛琳娜); pinyin: Sài lín nà)
+Voiced by: 柳知蕭 (Mandarin), 以媛 (Cantonese), Satomi Sato (Japanese), Judy Lee (English)
+Egret
+
+Bambinata (Chinese: 邦比娜塔); pinyin: bāng bǐ nà tǎ)
+Voiced by: Long Xiao Li (Mandarin), Syut Fei Laam Laam (Cantonese), Rina Hidaka (Japanese), Lexi Fontaine (English)
+The Forsaken
+Watanabe (Chinese: 渡边); pinyin: Dù biān)
+Voiced by: 森中人 (Mandarin), 星罗 (Cantonese), Yoshimasa Hosoya (Japanese), Daman Mills (English)
+Arctic Route Union
+Rosetta (Chinese: 罗塞塔); pinyin: Luō sāi tǎ)
+Voiced by: 贺文潇 (Mandarin), 师欣 (Cantonese), Miyuki Sawashiro (Japanese), Sam Slade (English)
+Akdilek Commercial Alliance
+Sophia (Chinese: 苏菲亚); pinyin: Sū fēi yà)
+Voiced by: 蔡娜 (Mandarin), 萧萧 (Cantonese), Ami Koshimizu (Japanese), Christina Costello (English)
+Chang Yu (Chinese: 常羽); pinyin: Cháng yǔ)
+Voiced by: Kinsen (Mandarin), 包少爷 (Cantonese), Natsuki Hanae (Japanese), Caleb Yen (English)
+Kowloong Chamber of Commerce
+Qu (Chinese: 曲); pinyin: Qū)
+Voiced by: 叶知秋 (Mandarin), 零叁 (Cantonese), Sayaka Ohara (Japanese), Not Yet Announced (English)
+Pulao (Chinese: 曲); pinyin: Qū)
+Voiced by: 裡子 (Mandarin), 宴寧 (Cantonese), Maria Naganawa (Japanese), Liana Bdewi (English)
+Ascendants
+Alpha
+Voiced by: 小N (Mandarin), 尾狐殿 (Cantonese), Yui Ishikawa (Japanese), Sura Siu (English)
+A mysterious enemy encountered by Gray Raven in City 015.
+Luna (Chinese: 露娜); pinyin: Lù nà)
+Voiced by: 四白 (Mandarin), 周海鲜 (Cantonese), Rie Kugimiya (Japanese), Suzie Yeung (English)
+Agent of the Ascension-Network.
+Roland (Chinese: 罗兰); pinyin: Luólán)
+Voiced by: 冷泉夜月 (Mandarin), 碌斌 (Cantonese), Koji Yusa (Japanese), Alan Lee (English)
+Lamia (Chinese: 拉彌亞); pinyin: lā mí yà)
+Voiced by: Wan Chun (Mandarin), Fa Yam bb (Cantonese), Saori Goto (Japanese), Julia Ling (English)
+Ishmael (Chinese: 伊什梅尔); pinyin: yī shí méi ěr)
+Voiced by: Jiang Yingjun (Mandarin), MIZU·LULY (Cantonese), Mamiko Noto (Japanese), Megan Shipman (English)
+Church of Machina
+Nanami (Chinese: 七实); pinyin: Qī shí)
+Voiced by: 赵爽 (Mandarin), 岚风蜂蜜绿茶 (Cantonese), Minami Tanaka (Japanese), Melody Peng (English)
+The first awakened android, known as the Sagemachina.
+Haicma (Chinese: 哈卡瑪); pinyin: hā kǎ mǎ)
+Voiced by: Hou Xiao Fei (Mandarin), Si Yeung (Cantonese), Rie Tanaka (Japanese), Brittany Cox (English)
+
+Release
+Kuro Games was criticized over their poor handling of Punishing: Gray Raven during its initial launch in China, notably regarding false gacha rate advertisement, and "over-rewarding" new players then taking back the rewards. Since then, the developers have been praised for their improved management of the game, regularly addressing player concerns such as game balance and improving their gacha system.
+The global release was also scrutinized soon after launch, when players noticed that they received fewer rewards compared to other regions. Criticizing comments were also deleted from Punishing: Gray Raven's official Discord community, leading to a review bomb from angered players. Kuro Games published a statement to address the controversy.
+
+Reception
+Punishing: Gray Raven received "generally favorable reviews" according to review aggregator Metacritic. Pocket Gamer praised Punishing: Gray Raven as "a highly engaging game with one of the best storylines I’ve ever encountered so far". Screen Rant criticized the game's localization, but praised the combat system, comparing it with Honkai Impact 3rd for their similarities in gameplay. GamerBraves commended the game's optimization and "punishing but addictive combat". Multiplayer.it highlighted the long campaign and characters, but finds faults in the short missions and gacha elements.
+As of July 2020, the game has surpassed 20 million downloads.
+
+Related media
+Animation
+Panini: Gray Raven (Chinese: 战双帕尼尼; pinyin: Zhàn shuāng pà ní ní) is a short web animation based on the world view of Punishing: Gray Raven. It was produced by Big Firebird Cultural Media Co., ltd.(Chinese: 大火鸟文化; pinyin: Dàhuǒ niǎo wénhuà). It officially began broadcasting on the Bilibili platform on October 27, 2020.
+
+Theme songs
+Two Flowers (Chinese: 二輪之花; pinyin: Èrlún zhī huā) (Japanese: 二輪の花、にりんのはな)
+Singer: Yui Ishikawa
+Composer: T-nymph
+Lyrics: Mira.Z, Ichisaki Miki
+Produced by: Vanguard sound
+Moon (Chinese: 月; pinyin: Yuè)
+Singer: Natsu Doko (Japanese: Kugimiya Rie )
+Arranger: Haloweak
+Composer& Lyrics: Mira.Z
+Produced by: Vanguard sound
+Narwhal
+Composer: Haloweak
+Produced by: Vanguard sound
+
+LAMIA
+Music: GhostFinal
+Video: MDR
+Produced by: Vanguard sound
+
+NANAMI IKIMASU
+Music：@Super.Yy酱 &@墨蓝酱油Polyblue
+Composer: CoyDe & Polyblue
+Producer：Vanguard Sound & Kuro Games
+
+Revelation
+Singer: Kinoko_蘑菇
+
+Composer& Lyrics: GhostFinal
+Produced by: Vanguard Sound & Kuro Games
+Gaze of Wind (Chinese: 风的视线; pinyin: Fēng de shìxiàn) (Japanese: 風の視線)
+Music: GhostFinal
+Adapted by: M€I & GhostFinal
+Lyrics: Mira.Z
+Singer: Asagiri Sakako (Japanese: Ito Miku )
+Produced by: Vanguard sound, Michitaku Iwano
+Me (Chinese: 我; pinyin: Wǒ) (Japanese: 私)
+Singer: Liu Feifei (Japanese: Inoue Marina)
+Arranger: Tureleon
+Lyrics: baker (TOKYOLOGIC)
+Production: baker (TOKYOLOGIC)
+Echoing
+Vocals: Liu Zhixiao
+Arranger: Zhou Cun
+Lyricist: Roland L.
+Production: Kuro Studio
+DIM LIGHT
+Vocal: Electric Bird Lightbulb (Japanese: Matsuoka Masaki )
+Arranger: MeLo
+Lyricist: Hideo Noguchi
+Produced by: Vanguard sound
+Long Way Home (Chinese: 長路歸航; pinyin: Zhǎng lù guī háng)
+Singer: Shanghai Rainbow Chamber Choir (Japanese: Wada Yuki, Remi, SAK., KOCHO Takimoto Shinko, Hongo Shiori, Aikawa Mika, Matsuoka Daimi, Sho Yuya)
+Arranger: Xu Xiao (Japanese: KOCHO)
+Lyrics: Kocho
+Produced by: Kuro Studio

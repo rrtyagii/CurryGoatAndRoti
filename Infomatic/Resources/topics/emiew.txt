@@ -1,0 +1,3 @@
+EMIEW is a robot developed by Hitachi. Another version has also been made called EMIEW 2. EMIEW stands for Excellent Mobility and Interactive Existence as Workmate. Two EMIEWs have been made, called Pal and Chum. Hitachi stated that Pal and Chum, have a vocabulary of about 100 words, and Pal exhibited these skills by telling reporters: "I want to be able to walk about in places like Shinjuku and Shibuya in the future without bumping into people and cars". Both EMIEWs have a top speed of 6 km/h (matching Honda's ASIMO) and can avoid obstacles.
+
+Specifications

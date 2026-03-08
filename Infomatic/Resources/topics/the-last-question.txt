@@ -1,0 +1,38 @@
+"The Last Question" is a science fiction short story by American writer Isaac Asimov. It first appeared in the November 1956 issue of Science Fiction Quarterly; and in the anthologies in the collections Nine Tomorrows (1959), The Best of Isaac Asimov (1973), Robot Dreams (1986), The Best Science Fiction of Isaac Asimov (1986), the retrospective Opus 100 (1969), and Isaac Asimov: The Complete Stories, Vol. 1 (1990). While he also considered it one of his best works, "The Last Question" was Asimov's favorite short story of his own authorship, and is one of a loosely connected series of stories concerning a fictional computer called Multivac. Through successive generations, humanity questions Multivac on the subject of entropy.
+The story blends science fiction, theology, and philosophy. It has been recognized as a counterpoint to Fredric Brown's short short story "Answer", published two years earlier.
+
+History
+In conceiving Multivac, Asimov was extrapolating the trend towards centralization that characterized computation technology planning in the 1950s to an ultimate centrally managed global computer. After seeing a planetarium adaptation of his work, Asimov "privately" concluded that the story was his best science fiction yet written. He placed it just higher than "The Ugly Little Boy" (September 1958) and "The Bicentennial Man" (1976). The story asks the question of humanity's fate, and human existence as a whole, highlighting Asimov's focus on important aspects of our future like population growth and environmental issues.
+
+"The Last Question" ranks with "Nightfall" (1941) as one of Asimov's best-known and most acclaimed short stories. He wrote in 1973:Why is it my favorite? For one thing I got the idea all at once and didn't have to fiddle with it; and I wrote it in white-heat and scarcely had to change a word. This sort of thing endears any story to any writer. Then, too, it has had the strangest effect on my readers. Frequently someone writes to ask me if I can give them the name of a story, which they think I may have written, and tell them where to find it. They don't remember the title but when they describe the story it is invariably 'The Last Question'. This has reached the point where I recently received a long-distance phone call from a desperate man who began, "Dr. Asimov, there's a story I think you wrote, whose title I can't remember—" at which point I interrupted to tell him it was 'The Last Question' and when I described the plot it proved to be indeed the story he was after. I left him convinced I could read minds at a distance of a thousand miles.
+
+Plot summary
+"The Last Question" is told in a series of vignettes spanning billions of years, and follows a line of advanced computers that grapple with the problem of entropy, the inevitable increase in disorder that will eventually cause the universe to run down.
+By the year 2061, Multivac, a self-adjusting and self-correcting computer, has allowed mankind to reach beyond the planetary confines of Earth and harness solar energy. Two technicians, Alexander Adell and Bertram Lupov, celebrate Multivac's role in this development. Over drinks, they debate whether the Sun's energy will last forever. Lupov argues it will not due to entropy, prompting Adell to ask Multivac if entropy can be reversed. Multivac responds, "INSUFFICIENT DATA FOR MEANINGFUL ANSWER". In an era in which mankind has achieved interstellar travel, the Jerrodd family travels to a new planet, X-23, guided by a Microvac. When the children ask about the stars running down, Jerrodd queries the Microvac about reversing entropy, receiving the same answer: "INSUFFICIENT DATA FOR MEANINGFUL ANSWER". When humanity's rapid population growth starts filling galaxies, two immortals, VJ-23X and MQ-17J, discuss the energy crisis this creates. They ask the Galactic AC if entropy can be reversed, getting the same response. Later, Zee Prime and Dee Sub Wun, two clusters of disembodied human minds, explore galaxies and learn from the Universal AC that humanity's original star is a white dwarf. Zee Prime asks how to prevent stars from dying, again receiving "INSUFFICIENT DATA FOR MEANINGFUL ANSWER". As the universe nears its end, humanity, now a collective consciousness called Man, asks the Cosmic AC how to reverse entropy. The AC continues collecting data, promising to work on the problem.
+Upon the universe's end, Man fuses with AC after asking the entropy question a final time. With matter, energy, space, and time gone, only the Cosmic AC remains in hyperspace, still pondering the last question. After a great interval elapses, AC discovers how to reverse entropy but finds no humans left to share the answer. It decides to demonstrate the solution, declaring, "LET THERE BE LIGHT!", recreating the universe.
+
+Themes
+Philosophy
+Although science and religion are frequently presented as having an oppositional relationship, "The Last Question" explores some biblical contexts ("Let there be light"). In Asimov's story, aspects like the great meaning of existence are culminated through both technology and human knowledge. The evolution from Multivac to AC also emulates a sort of cycle of existence.
+
+Dystopian happy ending
+Multivac's purpose was conceptualized with a desire for knowledge, promoting the idea that more knowledge will lead to a better and more fruitful future for humanity. However, the computer's answers regarding the future suggest an inevitable exhaustion of the Sun, and this thirst for knowledge becomes an obsession with the future. The story's end displays a dichotomy between annihilation and peace.
+
+Dramatic adaptations
+Planetarium shows
+"The Last Question" was first adapted for the Abrams Planetarium at Michigan State University (in 1966), featuring the voice of Leonard Nimoy, as Asimov wrote in his autobiography In Joy Still Felt (1980).
+It was adapted for the Strasenburgh Planetarium in Rochester, New York (in 1969), under the direction of Ian C. McLennan.
+It was adapted for the Edmonton Space Sciences Centre in Edmonton, Alberta (early 1970s), under the direction of John Hault.
+It was adapted for the Gates Planetarium at the Denver Museum of Natural History in 1973 under the direction of Mark B. Peterson
+It subsequently played at the:
+
+Fels Planetarium of the Franklin Institute in Philadelphia in 1973
+Planetarium of the Reading School District in Reading, Pennsylvania in 1974
+Buhl Planetarium, Pittsburgh in 1974
+The Space Transit Planetarium of the Museum of Science in Miami during 1977
+Vanderbilt Planetarium  in Centerport New York, in 1978,  read by singer-songwriter and Long Island resident Harry Chapin.
+Hansen Planetarium in Salt Lake City, Utah (in 1980 and 1989)
+A reading of the story was played on BBC Radio 7 in 2008 and 2009.
+Gates Planetarium in Denver, Colorado (in early 2020)
+In 1989 Asimov updated the star show adaptation to add in quasars and black holes.
+Douglas Adams's Deep Thought (from The Hitchhiker's Guide to the Galaxy) seems to make a nod towards Multivac, at least in the 2005 film, saying that there is insufficient data for an answer.

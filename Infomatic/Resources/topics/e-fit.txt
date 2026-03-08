@@ -1,0 +1,10 @@
+Electronic Facial Identification Technique (E-FIT, e-fit, efit) is a computer-based method of producing facial composites of wanted criminal(s), based on eyewitness descriptions.
+
+Uses
+The system first appeared in the late 1980s, programmed by John Platten and has since been progressively refined by Platten and latterly by Matthew Maylin. E-FIT has developed a reputation as a highly reliable and flexible system for feature-based composite construction.
+Customers for this system exist in over 30 countries around the world. These include the Metropolitan Police Service, the Bureau of Alcohol, Tobacco and Firearms (ATF), the New York Police Department, the Stockholm Police, the Royal Canadian Mounted Police and the Jamaica Constabulary Force.
+E-FIT is used both for minor and serious crimes. In the United Kingdom, it is an ever-present feature on the BBC's Crimewatch television programme. The system is available in multiple languages.
+The widespread use of the original E-FIT approach is gradually being superseded by a new version of the program called EFIT-V. EFIT-V is a full-colour, hybrid system that offers increased flexibility and speed, allowing the face to be constructed using both evolutionary and systematic construction techniques.
+
+Efficacy
+The E-FIT, Pro-fit, and similar systems used in the UK have been subjected to a number of formal academic examinations. In these studies, volunteers were able to identify the person in the composite about 20% of the time if the composite was prepared immediately after viewing the subject. However, one study found that if witnesses were required to wait two days before constructing a composite, which matches real-life applications more closely, success rates fell to between 3 and 8 per cent.

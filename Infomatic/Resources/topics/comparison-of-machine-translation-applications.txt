@@ -1,0 +1,12 @@
+Machine translation is an algorithm which attempts to translate text or speech from one natural language to another.
+
+General information
+Basic general information for popular machine translation applications.
+
+Languages features comparison
+The following table compares the number of languages which the following machine translation programs can translate between.
+(Moses and Moses for Mere Mortals allow you to train translation models for any language pair, though collections of translated texts (parallel corpus) need to be provided by the user. The Moses site provides links to training corpora.)
+This is not an all-encompassing list. Some applications have many more language pairs than those listed below. This is a general comparison of key languages only. A full and accurate list of language pairs supported by each product should be found on each of the product's websites.
+
+Multi-pair translations
+Paired translations

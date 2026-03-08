@@ -1,0 +1,217 @@
+The Tron franchise, including the film trilogy and animated series feature characters created by Steven Lisberger and Bonnie MacBird. This article covers notable characters of the Tron franchise, including its various cinematic, literary, and video game adaptations and sequels.
+
+Development
+For the first film, Richard Rickitt explained that to "produce the characters who inhabit the computer world, actors were dressed in costumes that were covered in black-and-white computer circuitry designs....With coloured light shining through the white areas of their costumes, the resulting characters appeared to glow as if lit from within....optical processes were used to create all of the film's computerized characters..." Frederick S. Clarke reported that Tron: Legacy would "combine live action with Computer-generated imagery (CGI)," adding that "several characters...will be completely digital..."
+
+Tron
+Kevin Flynn
+Portrayed by:
+
+Jeff Bridges – Tron, Tron: Legacy, Tron: Ares
+Voiced by:
+
+Fred Tatasciore – Tron: Evolution, Tron: Uprising, Kingdom Hearts 3D: Dream Drop Distance,  Kingdom Hearts HD 2.8 Final Chapter Prologue
+Kevin Flynn is a gifted software programmer and video game designer who serves as the protagonist of the original Tron film. A former employee of the software corporation ENCOM, Flynn owns and operates Flynn’s Arcade, where he entertains patrons by excelling at the very games he once developed for ENCOM, including Space Paranoids, Matrix Blaster, Vice Squad, and Light Cycles. In 1982, following his dismissal from the company, Flynn seeks proof that ENCOM executive Edward Dillinger plagiarized his creations to advance his own career. With assistance from programmers Alan Bradley and Lora Baines, Flynn infiltrates ENCOM’s computer system, where he is unexpectedly digitized and transported into the digital realm known as the Grid.
+Inside the system, Flynn befriends Tron and Yori—the program counterparts of Bradley and Baines, respectively—and discovers that, as a User, he possesses abilities surpassing those of ordinary programs, enabling him to manipulate the laws of the digital environment. Together, they overthrow the authoritarian Master Control Program (MCP), freeing the system’s inhabitants. Flynn then returns to the real world with evidence of Dillinger’s misconduct, ultimately assuming the role of CEO at ENCOM.
+Intrigued by his experiences within the Grid, Flynn later creates a second system on a private server located beneath his arcade. He transfers Tron to this new Grid and generates a digital doppelgänger of himself, Clu, to help construct a virtual utopia. Over time, Flynn becomes increasingly absorbed in his discoveries related to genetic algorithms and quantum teleportation, confiding only in Alan Bradley about his work. In 1988, this new Grid spontaneously gives rise to a unique class of self-generating programs called Isomorphic Algorithms, or ISOs. The following year, Clu stages a coup, defeating Tron, eradicating the ISOs, and trapping Flynn within the system when he fails to reach the portal back to the real world.
+Forced into exile, Flynn rescues and protects Quorra, the last surviving ISO. Over the ensuing decades, his prolonged absence leads many programs to revere him as a divine Creator. In 2009, Flynn’s estranged son, Sam, is transported into the Grid and reunites with his father. In the ensuing conflict, Flynn sacrifices himself by reintegrating with Clu, seemingly destroying them both.
+Fifteen years later, Flynn reappears as a digital construct within the original 1982 Grid, where he grants the Permanence Code to Ares.
+
+CLU
+CLU (short for Codified Likeness Utility) is a hacking program that Flynn created in his likeness to expose Dillinger's plagiarism by searching for evidence.
+While searching for the stolen data, the Master Control Program captures and absorbs him, using the information he gained against Flynn as he attempts to escape the game grid on a light cycle.
+An updated version of CLU serves as the main antagonist to the second film and its tie-in media.
+
+Alan Bradley
+Portrayed by:
+
+Bruce Boxleitner – Tron, Tron: Legacy
+Alan Bradley is a computer programmer and Flynn's partner at ENCOM.
+He is the creator of Tron, who monitors communications between the MCP and the real world and addresses him by the username 'Alan-One'. However, after finding his progress to be limited, he assists Flynn in exposing Dillinger. In Tron, he is depicted as being in a relationship with Lora Baines. With Kevin Flynn's return to ENCOM in 1982, Bradley works closely alongside Flynn on his projects. After Kevin Flynn's disappearance in 1989, Bradley remained chairman of ENCOM and acted as a surrogate father to Sam Flynn. In 2009, Bradley remained a part of the ENCOM board of directors. Upon returning to the company, Sam restores Bradley's chairman role.
+
+Tron
+Tron, is a security program that Alan created in his likeness to monitor communications between the MCP and the real world. He is the main digital protagonist of the first film.
+The MCP captures him and forces him to play on the Game Grid, but Flynn frees him and helps him shut down the MCP, which Alan ordered him to do. In Tron: Legacy, Flynn brings Tron in to work security on the new Grid; Clu 2.0 stages a coup and reprograms him into Rinzler, who hosts the Games before remembering his true identity as Tron and sacrificing himself to help defeat Clu 2.0
+
+Lora Baines
+Lora Baines (portrayed by Cindy Morgan) is a research engineer at ENCOM and one of Gibbs' assistants, as well as Flynn's ex-girlfriend and Alan's current girlfriend.
+She assisted in designing the laser that teleports Flynn into the digital world and created Yori, who assists in the derezzing procedure.
+
+Yori
+Yori is an input/output program that Lora created in her likeness to handle the creation of digital simulations, such as the Solar Sailer, and assist with the derezzing procedure.
+Tron and Flynn's romantic interest, she reunites with Tron after he rescues her from the MCP and helps him and Flynn reach its core to destroy it and its factional programs.
+
+Walter Gibbs
+Walter Gibbs (portrayed by Barnard Hughes) is the founder of ENCOM, where he and Lora work as scientists and helped develop the digitizing laser. After voicing concerns about the limitations of the company's grid in a meeting with Dillinger, Dillinger threatens to dismiss him.
+
+Dumont
+Dumont is a "guardian" program that Gibbs created in his likeness to protect the ENCOM grid's I/O Tower. He has a similar bond with Yori as Gibbs has with Lora.
+
+Ed Dillinger
+Ed Dillinger (portrayed by David Warner) is the Senior Executive Vice President of ENCOM and father of Elisabeth Dillinger and Ed Dillinger, Jr. He is the overarching antagonist of the first film.
+A programmer at ENCOM, he rises through the company's ranks and becomes its senior executive by plagiarizing Flynn's work and contributes to the rise of the MCP by creating the program Sark to act as its second-in-command. After learning of Flynn's investigation into his plagiarism, Dillinger authorizes the MCP to tighten security controls, but it threatens to expose his actions after he questions its intent to defy his plans of capturing other programs from government facilities like The Pentagon. Following the MCP's destruction, he is disgraced from the company and Flynn becomes its CEO.
+
+Sark
+Commander Sark (short for System Analytics and Reporting Kernel), is a command program that Dillinger created in his likeness to serve as the MCP's chief lieutenant. He is the secondary antagonist of the first film.
+He oversees the training of new programs that the MCP kidnaps and brings to the Grid, offering them a chance to join his elites if they renounce their belief in the users. While guarding the way to Master Control, Tron destroys him.
+
+Master Control Program
+The Master Control Program (MCP) (voiced by David Warner) is the main antagonist of the first film.
+An artificial intelligence created by Gibbs and improved by Dillinger, it rules over ENCOM's gaming grid, enslaving programs and forcing them to play games against its henchmen. Dillinger uses the MCP to manage ENCOM's computer network, but it turns on him and threatens to expose his theft of Flynn's creations. Empowered by Dillinger and seeking information, power, and control over other corporations and governments, it steals data from other systems before Flynn and Tron destroy it.
+
+Roy Kleinberg
+Roy Kleinberg (portrayed by Dan Shor) is one of ENCOM's first computer programmers and Alan's coworker, as well as the creator of the Ram program, which makes connections between ENCOM and an insurance company. When Alan goes to Dillinger about being blocked from the system, Kleinberg asks if he can have some of his popcorn, which Alan agrees to. As a result, he is credited as "Popcorn Co-Worker".
+Kleinberg also appears in the short film "The Next Day," included on the Blu-ray edition of Tron Legacy, which reveals his name. Along with Alan, he is shown to be the leader of the "Flynn Lives" movement.
+
+Ram
+Ram is an actuarial program that Kleinberg created in his likeness to "work for a big insurance company" before being captured by the MCP and forced to play on the Game Grid.
+While participating in the games, Ram goes beyond his original programming and becomes a skilled player. Though he expresses confidence in his abilities between games, he also takes pride in his work as an insurance program, which he seems to associate with humanitarian causes. After escaping the game grid with Flynn and Tron, he dies after being injured by a game tank.
+
+Crom
+Crom (portrayed by Peter Jurasik) is a compound interest program that full branch managing savings and loan bank programmer Mr. Henderson created in his likeness.
+After the MCP captures him and forces him to play on the Game Grid, he and Flynn battle in the ring game. Flynn gains the upper hand, but disobeys Sark's orders and refuses to kill the defenseless Crom. However, Crom falls to his death after Sark removes the piece of the playing field he is hanging from.
+
+Bit
+The Bit is a representation of a binary digit, and as such can provide only yes (1) or no (0) answers to questions, through which it conveys emotional states. It has a limited role in the film, acting as a companion to Clu and Flynn; though intended to have a more extensive role, it had only two minutes of screentime due to scheduling reasons. Despite this, the co-creators of Max Headroom, in their book Creative Computer Graphics, called it "one of the most memorable characters in the film." At the time of the film's release, the character represented an innovative use of vector graphics and morphing.
+Physically, the Bit was represented by a blue polyhedral shape that alternated between the compound of dodecahedron and icosahedron and the small triambic icosahedron, the first stellation of the icosahedron. When it answers "yes", it changes into a yellow octahedron, and when it answers "no", it changes into a red 35th stellation of an icosahedron; these resemble prismatic forms or "3-D versions" of the Latin letters 'O' and 'X', respectively.
+
+Tron 2.0, Tron: Killer App, Tron: The Ghost in the Machine
+The video game Tron 2.0, released in 2003, serves as a sequel to the original film, but its events became non-canon with the release of Tron: Legacy in 2010. The comic book Tron: The Ghost in the Machine further explores its characters and storyline.
+
+Jet Bradley
+Jet Bradley is the son of Alan and Lora and the protagonist of Tron 2.0. Following Alan's disappearance, Jet searches for him before being digitized and transported to the digital world, where he is tasked with finding the Tron Legacy Code.
+Jet is the basis for the experimental program that is the central character of Tron: The Ghost in the Machine. This version of Jet is a digital backup of him, copied and stored within the system. Due to the complexities involved in creating a copy of a human being, it is corrupted and split into three separate aspects before they are united and given the choice to ascend from the digital world into the real world.
+
+Mercury
+Mercury (voiced by Rebecca Romijn) is a female humanoid computer program, known within the digital world as a champion lightcycle racer. She also appears in Tron: The Ghost in the Machine as one of the leaders of the resistance against the red version of Jet, who is masquerading as the MCP.
+
+Ma3a
+Ma3a (voiced by Cindy Morgan), short for Math Assistant 3 Audio, is a female computer program who is similar in personality to Lora, who improved her from Yori. When Lora originally improved her in March 1988, she was known as Ma1a (short for Math Assistant 1 Audio), followed by Ma2a (short for Math Assistant 2 Audio) in June 1996 and Ma3a in 2003. Some ENCOM employees have come to believe that part of Lora was digitized into Ma3a's code following her death in the 1994 digitizing accident. In March 2003, Alan Bradley received the "Digital Pal" award for Ma3a.
+
+Thorne
+J.D. Thorne was an executive from fCon who was corrupted after being improperly digitized into the computer and spread like a virus throughout the system, with corrupted programs known as Z-Lots following him as "The Master User". Thorne is derezzed after a battle with the Kernel and gives vital information about fCon to Jet before dying.
+
+The Kernel
+The Kernel is a security program that commands the system's ICPs before Jet destroys him during a battle with Thorne.
+
+Byte
+The Byte resembles the Bit, but, unlike it, can speak in full English sentences.
+
+Data Wraiths
+Data Wraiths are digitizable, elite hacker users that fCon employs to create havoc in computer systems, steal top-secret data, and destroy the databases of fCon's competitors. After being derezzed in the digital world, they are kicked out and return to their original human form.
+
+Seth Crown, Eva Popoff, and Esmond Baza
+Seth Crown, Eva Popoff, and Esmond Baza are fCon executives who attempt to transfer themselves into the digital world, but are unaware that the correction algorithms necessary for proper transfer had been disabled. Without the algorithms, the digitization process goes awry and they are merged into a monstrosity. After Jet defeats them and pushes them out of the digitizing stream, as their corrupted state would have killed them in the real world, they are stored in a hard drive so Alan can fix their code.
+
+Tron: Legacy, Tron: Betrayal, Tron: Uprising and Tron: Evolution
+Tron: Legacy, its comic book tie-in Tron: Betrayal, the animated television prequel Tron: Uprising and the video game tie-in Tron: Evolution serve as direct sequels to Tron. Several characters appear in all four parts, while others are specific to one part. All four parts establish a specific timeline of the Tron universe.
+
+Sam Flynn
+Portrayed by:
+
+Garrett Hedlund –Tron: Legacy, Tron: Ares (photograph only)
+Owen Best – Tron: Legacy (child)
+Voiced by:
+
+Ross Thomas – Kingdom Hearts 3D: Dream Drop Distance
+Samuel "Sam" Flynn is the son of Kevin Flynn and a controlling shareholder at ENCOM. He is the protagonist of Tron: Legacy.
+Twenty years after Kevin's disappearance in 1989, Sam is lured into the Grid, where he reunites with Kevin and helps him destroy Clu 2. Deciding to take responsibility of ENCOM, he names Alan the Chairman of the Board and takes Quorra to see her first sunrise.
+By the events of Tron: Ares in 2025, Sam has resigned from ENCOM for personal reasons, being succeeded by Eve Kim as CEO.
+
+Quorra
+Portrayed by:
+
+Olivia Wilde – Tron: Legacy, Tron: Ares (photograph only)
+Voiced by:
+
+Olivia Wilde – Tron: Evolution, Tron: Uprising
+Erin Cottrell – Kingdom Hearts 3D: Dream Drop Distance
+Quorra is a skilled warrior and the last remaining member of a group of "isomorphic algorithms" destroyed by Clu 2.
+She is a confidante to Kevin, who saved her from Clu 2's purge of the ISOs. Anxious to experience the outside world, Quorra accompanies Sam to escape the grid and enter the real world, ultimately succeeding.
+
+Clu 2
+Portrayed by:
+
+Jeff Bridges – Tron: Legacy
+John Reardon (performance double) – Tron: Legacy
+Voiced by:
+
+Fred Tatasciore –  Tron: Evolution, Tron: Uprising, Kingdom Hearts 3D: Dream Drop Distance, Kingdom Hearts HD 2.8 Final Chapter Prologue
+
+Clu 2  short for Clu 2.0, is an updated version of Clu that Flynn created to oversee the development of the Grid. He is the main antagonist of Tron: Legacy.
+Programmed with the command of creating a "perfect system", Clu 2 grew to resent Flynn, particularly his fondness for the "imperfect", spontaneously generated Isos, or "isomorphic algorithms". Clu 2 betrayed Flynn and Tron to seize control of the Grid and enacted genocide upon the Isos, forcing Flynn into hiding for twenty years after he rescued Quorra.
+During this time, Clu 2 reprogrammed his opponents as soldiers for his army, led by a reprogrammed Tron under the name Rinzler, while seeking Flynn for his "identity disc", whose contents would allow Clu 2 to cross into the real world. He later lures Kevin's son Sam into the Grid and attempts to kill him before using him to draw out Flynn and obtains his identity disc, but is defeated when Flynn 'reintegrates' him into himself, apparently destroying them both.
+
+ISOs
+The ISOs (short for Isomorphic algorithms) are a race of complex programs that spontaneously arose on the Grid. Clu 2 saw them as an obstacle to his creation of a perfect system, while Kevin saw them as the next stage of evolution. After Clu 2 betrayed Flynn and committed mass genocide of most of the ISOs, Kevin saved Quorra, the sole surviving ISO, who later enters the real world with Sam.
+
+Castor/Zuse
+Castor (portrayed by Michael Sheen) is a supermodel program and the owner of the End of Line club in the tallest tower on the Grid.
+Originally named "Zuse", he was an ally of Flynn and the ISOs. However, he betrays Sam and Quorra to bargain with Clu 2; he wishes to control the Grid once Clu 2 leaves for the real world. However, though Clu 2 seems to agree to the bargain, he traps Castor in his club, setting off explosions that kill him and his associate Gem.
+Zuse is most likely named after Konrad Zuse, whose Z3 was the first automatic programmable digital computer constructed, in 1941.
+
+Rinzler
+Rinzler (portrayed by Anis Cheurfa, voiced by Bruce Boxleitner) is a security program that serves as Clu 2's right-hand man. He is the secondary antagonist of Tron: Legacy.
+Considered a master warrior for his strength and acrobatics, he wields dual identity discs. This may come from the two-disc DVD edition of Tron, which revealed that in the late 1970s, Lisberger Studios produced an early demo animation showing Tron armed with dual "exploding discs". It is later revealed that Rinzler is Tron; although it appears in Legacy that he was defeated at the beginning of Clu 2's coup, Tron: Uprising reveals that he escaped capture and served as a mentor to the program Beck in inciting an uprising against Clu 2's regime before Clu reprogrammed him into serving him as Rinzler. Throughout Legacy, he has several encounters with Sam, culminating in an aerial pursuit during which he remembers his true identity and turns against Clu 2 before falling into the Sea of Simulation.
+Rinzler is named after Lucasfilm executive editor J. W. Rinzler, who authored several books, including The Making of Star Wars, The Complete Making of Indiana Jones, and Making of The Empire Strikes Back. Director Joseph Kosinski chose the name during a working session with the writers when one of Rinzler's books happened to be on the table.
+
+Jarvis
+Jarvis (portrayed by James Frain) is an administration program who serves as Clu 2's chief bureaucrat.
+Though efficient in his function, he is sycophantic and cowardly and seeks to impress Clu 2 and win his approval. After Jarvis fails to prevent Sam from taking back his father's disc, Clu 2 derezzes him.
+
+Bartik
+Bartik (portrayed by Conrad Coates) is a basic program and the leader of a rebel faction in TRON City.
+In Tron: Uprising, he and his friend Hopper join a task force that Paige formed to hunt down the renegade after witnessing workers standing up to Pavel. In Tron: Legacy, he demands to Castor that Zuse have an audience and later fights the Black Guards when they attack the club, but is derezzed.
+
+Edward Dillinger Jr.
+Edward Dillinger Jr. (portrayed by Cillian Murphy; uncredited) is the son of Ed Dillinger and lead programmer on the ENCOM operating system.
+In Tron: Legacy, he attends an ENCOM board meeting, having earned a reputation for making the ENCOM operating system more secure and harder to copy than previous versions. When Sam releases the software for free, Dillinger Jr. attempts to defuse the situation by suggesting that the company take credit and claim that it was a gift to their customers.
+
+Anon
+Anon is the main protagonist of Tron: Evolution. He is a security program that Kevin owns to maintain order in the Grid and investigate conspiracies. He teams up with Quorra to stop Clu 2 from taking over the grid, but is derezzed saving her from falling debris.
+
+Abraxas
+Abraxas (voiced by John Glover) is the main antagonist of Tron: Evolution. He was once an ISO named Jalen before being re-purposed by Clu 2 as a computer virus to justify the purge of the other ISOs from the Grid.
+
+Beck
+Beck (voiced by Elijah Wood), also known as Renegade, is a vehicle maintenance program and Games warrior. He is the main protagonist of Tron: Uprising.
+Through the series, Beck leads a revolution against Clu 2 and his armies from the Grid while being trained by Tron, who he looks up to as a mentor. Beck opposes the tyranny of Tesler and his forces.
+
+Tesler
+General Tesler (voiced by Lance Henriksen) is a command program that serves as one of Clu 2's generals and is the main antagonist of Tron: Uprising.
+He is in charge of the forces occupying Argon City and is the boss of Pavel and Paige, having recruiting Paige after claiming that the ISOs derezzed her friends, when in reality he ordered that they be executed. He believes that Tron is dead and that Beck is Tron, after which he calls him Renegade and attempts to stop him from helping the people of Argon. Tesler does not hesitate to derezz his men for their failures and dislikes Dyson, as well as failing Clu should the Renegade free Argon and the Grid. He has the ability to extend his arms and derez others with his hands.
+
+Dyson
+Dyson (voiced by John Glover) is Clu's highest-ranking officer, who is sent to spearhead the apprehension of the Renegade. He is a recurring antagonist in Tron: Uprising.
+Dyson was once a friend of Tron and member of his security force until half of his face was derezzed when he tried to stop a riot between programs and ISOs. Believing that Flynn betrayed the Grid after siding with ISOs, he joined Clu and participated in the coup against Tron and Flynn. During the coup, he scarred Tron's face with his own code and believed Tron to have died after the recognizer carrying him was shot down. During the series, he is sent to Argon to deal with Renegade and Tron sends Beck to capture him. When Tron arrives to face him, Dyson believes that he is Renegade until Tron reveals himself to him. Dyson offers Tron the opportunity to join him, but Tron refuses and nearly derezzes Dyson before deciding to spare him so he can deliver a message to Clu. Afterwards, Dyson flees to report Tron's survival to Clu.
+
+Minor characters
+Gem (portrayed by Beau Garrett) appears in Tron: Legacy. She is a servant to Castor and works for Clu 2 before it presumably kills them.
+Able (voiced by Reginald VelJohnson) appears in Tron: Uprising. He runs Able's Garage, where Zed, Mara, and Beck work, and knows Tron. He is later killed by Cyrus while freeing Zed and Mara.
+Link (voiced by David Arquette) appears in Tron: Uprising. He is a worker at Able's Garage and is friends with Beck, Zed, and Mara.
+Mara (voiced by Mandy Moore) appears in Tron: Uprising. She is a friend of Beck's at Able's Garage and is attracted to The Renegade.
+Paige (voiced by Emmanuelle Chriqui) appears in Tron: Uprising. Along with Pavel, she is one of Tesler's field commanders, having been recruited when he claimed that the ISOs derezzed her friends, when in reality he ordered that they be executed. While hardened and dedicated, she is less antagonistic than Tesler and takes a personal interest in the new Tron.
+Pavel (voiced by Paul Reubens) appears in Tron: Uprising. Along with Paige, he is one of Tesler's field commanders. Sadistic and power-hungry, Pavel seeks to undermine Paige and General Tesler.
+Zed (voiced by Nate Corddry) appears in Tron: Uprising. He is one of Beck's friends at Able's Garage and is in love with Mara.
+
+Tron: Ares
+Ares
+Ares (portrayed by Jared Leto) is a program created by Julian Dillinger to serve as the Master Control Program of the Dillinger Grid. He is assigned to retrieve the Permanence Code, a critical line of coding created and hidden by Kevin Flynn before his disappearance, but betrays Dillinger and allies himself with Eve Kim to locate the code. He is the protagonist of Tron: Ares.
+
+Eve Kim
+Eve Kim (portrayed by Greta Lee) is the current CEO of ENCOM following Sam Flynn's resignation. She is in search of Kevin Flynn's Permanence Code, and winds up allying with Ares.
+
+Julian Dillinger
+Julian Dillinger (portrayed by Evan Peters) is the CEO of Dillinger Systems and the grandson of Ed Dillinger, who created Ares as the perfect soldier. He is the main antagonist of Tron: Ares.
+
+Athena
+Athena (portrayed by Jodie Turner-Smith) is a program second-in-command to Ares. She ends up opposing Ares when the latter defects from Dillinger, but soon takes matters in her own hands to carry out Dillinger's orders to an unstable extreme.
+
+Ajay Singh
+Ajay Singh (portrayed by Hasan Minhaj) is the Chief Technology Officer (CTO) of ENCOM and an ally of Eve Kim.
+
+Seth Flores
+Seth Flores (portrayed by Arturo Castro) is a colleague and an ally of Eve Kim.
+
+Elisabeth Dillinger
+Elisabeth Dillinger (portrayed by Gillian Anderson) is the former CEO of Dillinger Systems, daughter of Ed Dillinger and mother of Julian Dillinger. She is ultimately killed by Athena when she opposes Julian's actions.

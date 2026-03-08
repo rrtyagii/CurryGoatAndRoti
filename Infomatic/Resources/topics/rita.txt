@@ -1,0 +1,8 @@
+RiTa is an open-source software toolkit for generative writing and English natural language, originally developed using the Java language by Daniel C. Howe and collaborators, and later implemented in JavaScript as rita.js. Current versions of RiTa (Version 3.0 was released in 2023) are implemented in both Java and JavaScript and integrate with p5.js, Processing, Node and Android.
+
+Features
+Usage examples
+Related projects
+Projects using RiTa
+License
+RiTa is free, libre and open-source according to the GNU General Public License.

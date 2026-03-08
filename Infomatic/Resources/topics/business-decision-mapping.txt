@@ -1,0 +1,20 @@
+Business decision mapping (BDM) is a technique for making decisions, particularly for the kind of decisions that often need to be made in business.  It involves using diagrams to help articulate and work through the decision problem, from initial recognition of the need through to communication of the decision and the thinking behind it.
+BDM is designed for use in making deliberative decisions—those made based on canvassing and weighing up the arguments. It is also qualitative—although numbers may be involved, the main considerations are qualitatively specified and there is no calculation-based route to the right decision. In these two key elements, BDM is similar to the natural or typical way of making decisions.
+However, it differs from typical, informal decision making by providing a structured, semiformal framework, and using visual language, taking advantage of our ability to grasp and make sense of information faster and more easily when it is graphically presented.
+BDM is centered on the creation of a decision map—a single diagram that brings together in one organized structure all the fundamental elements of a decision, and that functions as a focus of collaboration.
+BDM aims to support the decision process, making it easier, more reliable and more accountable. It addresses some major problems that can afflict business decision-making the way it is generally done, including stress, anxiety, time pressure, lost thinking and inefficiency. By mapping the decision problem, the options, the arguments and all relevant evidence visually using BDM, the decision maker can avoid holding a large amount of information in his or her head, is able to make a more complete and transparent analysis and can generate a record of the thinking behind the final decision.
+There are several steps involved in business decision mapping:
+
+Identify the problem or opportunity: The first step is to clearly define the issue or opportunity that needs to be addressed. This could be a strategic business problem, a market opportunity, or a tactical decision that needs to be made.
+Identify the decision criteria: Once the problem or opportunity is defined, the next step is to identify the criteria that will be used to evaluate potential solutions. These criteria could include factors such as cost, risk, time, and resources.
+Generate options: Based on the criteria identified in the previous step, generate a list of potential options or solutions.
+Evaluate options: Using the decision criteria, evaluate the potential outcomes of each option. This may involve creating a decision tree or a flowchart to help visualize the potential consequences of each decision.
+Make a decision: Based on the evaluation of the options, make a decision and implement it.
+Monitor and adjust: Once a decision has been made, it is important to monitor its implementation and adjust course if necessary based on feedback and results.
+
+Related methodologies
+Business decision mapping is related to:
+
+Argument mapping, the graphical representation of the structure of an argument, often used in the teaching of reasoning and critical thinking, and pioneered by Tim van Gelder and others.
+Dialogue mapping, a method for building shared understanding through a structured representation of group communication, developed by Jeff Conklin of the CogNexus Institute. Dialogue mapping and business decision mapping use the "grammar" of IBIS, a well-established methodology developed by Horst Rittel for tackling wicked problems.
+Mind mapping, in which a diagram is used to structure and classify ideas by linking them radially around a central key word or idea. There are no formal restrictions on the type of links used.

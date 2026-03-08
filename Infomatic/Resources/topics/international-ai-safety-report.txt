@@ -1,0 +1,16 @@
+The First Independent International AI Safety Report was published on 29 January 2025. The report assesses a wide range of risks posed by general-purpose AI and how to mitigate against them. The report was commissioned by the 30 nations attending the 2023 AI Safety Summit at Bletchley Park in the United Kingdom, in order to inform discussion at the 2025 AI Action Summit in Paris, France. The report was published by a cohort of 96 artificial intelligence experts led by Canadian machine learning pioneer Yoshua Bengio, often referred to as one of the "godfathers" of AI. In October 2025, a “Key Update” was published, outlining the implications of capability advances in reasoning language models and presenting new evidence of challenges in monitoring and controllability.
+
+Capabilities of AI
+In examining the what general-purpose AI can do, the report recognised that its capabilities have increased rapidly, and that the pace of further advancements may range from slow to extremely rapid. Policymakers thus face an "evidence dilemma": on the one hand, introducing mitigation measures before there is clear evidence or a risk could lead to ineffective or unnecessary mitigations. On the other hand, waiting until there is clear evidence could leave society unprepared or even make mitigation impossible.
+
+AI risks
+The report groups risks from advanced AI systems into three broad categories: malicious use, technical failures, and systemic risks. Each category captures different pathways through which AI could cause harm:
+
+Malicious use
+The report highlights that AI systems can be misused for a range of hostile activities, including large-scale scams, cyberattacks, and the creation of sexualised deepfakes that disproportionately expose women and children to harassment, coercion, and abuse. Sexualised deepfakes are identified as a growing concern, disproportionately exposing women and children to harassment, coercion, and abuse. The report also warns that AI systems could be used to manipulate public opinion at scale through sophisticated influence campaigns and targeted disinformation, particularly during elections or political crises. Additionally, increasingly capable AI could support malicious actors in developing or enhancing biological threats.
+
+Technical failures
+The report warns that even when not misused, AI systems may malfunction or behave unpredictably due to unreliable reasoning, poor generalisation, or mis-specified objectives. Such failures can lead to harmful outputs, privacy breaches, or unsafe recommendations. The report also discusses the risk that future highly capable systems may conceal unsafe behaviours during testing or operate in ways that undermine effective human oversight.
+
+Systemic risks
+Beyond individual incidents, the report identifies broader structural risks arising from the growing integration of AI into critical societal systems. These include increased dependence on a small number of model providers, the potential for cascading failures across interconnected infrastructures, and the possibility that advanced AI could weaken institutional stability. The integration of AI into labour markets and the environmental costs of training large models, including substantial energy and water consumption, are identified as additional systemic concerns.

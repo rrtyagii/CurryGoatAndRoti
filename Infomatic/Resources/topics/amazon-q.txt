@@ -1,0 +1,4 @@
+Amazon Q is a chatbot developed by Amazon for enterprise use. Based on both Amazon Titan and GPT generative artificial intelligence, it was announced on November 28, 2023. It is able to help troubleshoot issues in cloud apps or group chats, or summarize documents. As of November 2023, it costs $20 per month. At launch, it was a part of the Amazon Web Services management console. Amazon CodeWhisperer is a part of Amazon Q Developer, a part of Amazon Q.
+
+Technology
+Q is based on Amazon Titan, as well as GPT technology. It utilizes the Amazon Bedrock repository of foundational models.

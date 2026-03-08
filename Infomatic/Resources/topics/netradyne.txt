@@ -1,0 +1,27 @@
+Netradyne is a private technology company specializing in artificial intelligence (AI) and edge computing for fleet safety and management. It is headquartered in San Diego, California, with a major office in Bengaluru, India.
+The company provides AI-powered dashcam systems and analytics to help commercial fleets improve driver safety.
+
+History
+Netradyne was founded in 2015 by Avneesh Agrawal and David Julian, both are former employees of Qualcomm, an American multinational corporation which creates semiconductors, software and services related to wireless technology.
+The company is incorporated in the U.S., and its corporate headquarters is in San Diego, California.
+
+Development & Growth
+In mid-2016, the startup received a crucial Series A investment of $16 million from Reliance Industries.
+Netradyne strategically established engineering operations in San Diego, USA, and Bengaluru, India, thereby positioning itself at the intersection of Silicon Valley innovation and India's burgeoning technology landscape.
+In 2017, Netradyne launched its first product, the Driver•i intelligent camera system, which employed artificial intelligence and computer vision to observe commercial drivers and deliver real-time performance feedback.
+Netradyne attracted a $21 million Series B funding in 2018, led by M12 (Microsoft’s venture fund) and Point72 Ventures, with additional investment from Reliance.
+In July 2021, Netradyne secured significant investment from SoftBank Vision Fund, which led a $150 million Series C funding round. This large investment significantly boosted Netradyne’s valuation, positioning it among the most well-capitalized firms in the fleet safety industry.
+In September 2022, the company also raised $65 million in debt financing from Silicon Valley Bank to support its scaling operations. Around this period, Netradyne grew its customer base in Europe.
+In January 2025, Netradyne became India's first Unicorn (valuation exceeding $1 billion) after getting the Series D funding of $90 million from Point72 Asset Management, Qualcomm Ventures, and Pavilion Capital.
+By late-2025, Netradyne reported over 550,000 active devices or subscriptions in operation, indicating the number of vehicles or drivers being monitored throughout its customer fleets.
+By 2025, Netradyne has achieved unicorn status with a valuation exceeding $1 billion. Its flagship product, Driver•i, analyses 100% of driving time to identify both risky and positive driver behaviours in real time. Today, the platform has been deployed in hundreds of thousands of vehicles and is trusted by thousands of fleet operators worldwide.  The system processes over 4 trillion data sensor points each year and protects millions of drivers every day.
+
+Global Presence
+The company reported having over 3,000 commercial fleets as clients by 2025, with deployments across the United States, Canada, Mexico, the U.K., Germany, India, New Zealand, Australia, and more. By 2025, Netradyne employs approximately 900 people worldwide.
+
+Awards
+Forbes America's Best Startup Employers 2025
+Motor Trader Commercial Industry Awards 2025
+2025 AI Safety Solution Award
+FICCI Road Safety Award 2024. The award is given by Nitin Gadkari, Minister of Road Transport and Highways, Government of India.
+Netradyne deep tech startup filed most number of Patents by NASSCOM Report

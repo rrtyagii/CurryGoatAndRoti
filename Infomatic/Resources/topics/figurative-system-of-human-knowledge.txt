@@ -1,0 +1,262 @@
+The figurative system of human knowledge (French: Système figuré des connaissances humaines; sometimes known as the tree of Diderot and d'Alembert) is Jean le Rond d'Alembert and Denis Diderot's tree structure graph outlining human knowledge. It was produced for the Encyclopédie. According to Diderot in the article "Encyclopédie", the Encyclopédie's aim was "to change the way people think" and to allow people to inform themselves.
+Knowledge organization is part of the field of information science—the academic pursuit to discover, learn, record, and share knowledge.
+This tree is a taxonomy of human knowledge inspired by Francis Bacon's The Advancement of Learning. The three main branches of knowledge in the tree are: "Memory"/History, "Reason"/Philosophy, and "Imagination"/Poetry.
+Notable is the fact that theology is ordered under philosophy. The historian Robert Darnton argued that this categorization of religion as being subject to human reason, and not a source of knowledge in and of itself (revelation), was a significant factor in the controversy surrounding the work.  "Knowledge of God" is only a few nodes away from divination and black magic.
+
+Content
+Below is a version of the Tree rendered in English as a bulleted outline.
+"Detailed System of Human Knowledge"
+from the Encyclopédie.
+
+Understanding
+Memory.
+History.
+Sacred (History of Prophets).
+Ecclesiastical.
+Civil, Ancient and Modern.
+Civil History, properly said. (See also: History of civil society)
+Literary History.
+Memoirs.
+Antiquities. (See also: Classical antiquity)
+Complete Histories.
+Natural.
+Uniformity of Nature. (See: Uniformitarianism)
+Celestial History.
+History...
+of Meteors.
+of the Earth and the Sea (See also: Origin of water on Earth)
+of Minerals. (See also:  Geological history of Earth)
+of Vegetables. (See also: History of agriculture)
+of Animals.  (See also: Evolutionary history of life)
+of the Elements. (See also: Classical element, History of alchemy, and History of chemistry)
+Deviations of Nature.
+Celestial Wonders.
+Large Meteors. (See also: Asteroids)
+Wonders of Land and Sea. (See: Wonders of the World)
+Monstrous Minerals.
+Monstrous Vegetables. (See: Largest plants, Poisonous plants, and Carnivorous plants)
+Monstrous Animals. (See: Largest animals and Predators)
+Wonders of the Elements. (See: Natural disasters)
+Uses of Nature (See Technology and Applied sciences)
+Arts, Crafts, Manufactures.
+Work and Uses of Gold and Silver.
+Minter.
+Gold Beaters.
+Gold Spinners.
+Gold Drawers.
+Silversmith & Goldsmith.
+Planisher
+Mounter（METTEUR EN ŒUVRE）,etc.
+Work and Uses of Precious Stones.
+Lapidary.
+Diamond cutting.
+Jeweler, etc.
+Work and Uses of Iron.
+Large Forges.
+Locksmith.
+Tool Making.
+Armorer.
+Gun Making, etc.
+Work and Uses of Glass.
+Glassmaking.
+Plate-Glassmaking.
+Mirror Making.
+Optician.
+Glazier, etc.
+Work and Uses of Skin.
+Tanner.
+Chamois Maker.
+Leather Merchant.
+Glove Making, etc.
+Work and Uses of Stone, Plaster, Slate, etc.
+Practical Architecture.
+Practical Sculpture.
+Mason.
+Tiler, etc.
+Work and Uses of Silk.
+Spinning.
+Milling.
+Needlecraft.
+Velvet.
+Brocaded Fabrics, etc.
+Work and Uses of Wool.
+Cloth-Making.
+Bonnet-Making, etc.
+Working and Uses, etc.
+Reason
+Philosophy
+General Metaphysics, or Ontology, or Science of Being in General, of Possibility, of Existence, of Duration, etc.
+Science of God.
+Natural Theology.
+Revealed Theology.
+Science of Good and Evil Spirits.
+Divination.
+Black magic.
+Science of Man.
+Pneumatology or Science of the Soul.
+Reasonable.
+Sensible.
+Logic.
+Art of Thinking.
+Apprehension.
+Science of Ideas
+Judgement.
+Science of Propositions.
+Reasoning.
+Induction.
+Method.
+Demonstration.
+Analysis.
+Synthesis.
+Art of Remembering.
+Memory.
+Natural.
+Artificial.
+Prenotion.
+Emblem.
+Supplement to Memory.
+Writing.
+Printing.
+Alphabet.
+Cipher.
+Arts of Writing, Printing, Reading, Deciphering.
+Orthography.
+Art of Communication
+Science of the Instrument of Discourse.
+Grammar.
+Signs.
+Gesture.
+Pantomime.
+Declamation.
+Characters.
+Ideograms.
+Hieroglyphics.
+Heraldry or Blazonry.
+Prosody.
+Construction.
+Syntax.
+Philology.
+Critique.
+Pedagogy.
+Choice of Studies.
+Manner of Teaching.
+Science of Qualities of Discourse.
+Rhetoric.
+Mechanics of Poetry.
+Ethics.
+General.
+General Science of Good and Evil, of duties in general, of Virtue, of the necessity of being Virtuous, etc.
+Particular.
+Science of Laws or Jurisprudence.
+Natural.
+Economic. (See also commercial law)
+Political. (See also political law)
+Internal and External. (See also foreign policy)
+Commerce on Land and Sea.
+Science of Nature
+Metaphysics of Bodies or, General Physics, of Extent, of Impenetrability, of Movement, of Word, etc.
+Mathematics.
+Pure.
+Arithmetic.
+Numeric.
+Algebra.
+Elementary.
+Infinitesimal.
+Differential.
+Integral.
+Geometry.
+Elementary (Military Architecture, Tactics).
+Transcendental (Theory of Courses).
+Mixed.
+Mechanics.
+Statics.
+Statics, properly said.
+Hydrostatics.
+Dynamics.
+Dynamics, properly said.
+Ballistics.
+Hydrodynamics.
+Hydraulics.
+Navigation, Naval Architecture.
+Geometric Astronomy.
+Cosmography.
+Uranography.
+Geography.
+Hydrography.
+Chronology.
+Gnomonics.
+Optics.
+Optics, properly said.
+Dioptrics, Perspective.
+Catoptrics.
+Acoustics.
+Pneumatics.
+Art of Conjecture. Analysis of Chance.
+Physicomathematics.
+Particular Physics.
+Zoology.
+Anatomy.
+Simple.
+Comparative.
+Physiology.
+Medicine.
+Hygiene.
+Hygiene, properly said.
+Cosmetics (Orthopedics).
+Athletics (Gymnastics).
+Pathology.
+Semiotics.
+Treatment.
+Diete.
+Surgery.
+Pharmacy.
+Veterinary Medicine.
+Horse Management.
+Hunting.
+Fishing.
+Falconry.
+Physical Astronomy.
+Astrology.
+Judiciary Astrology.
+Physical Astrology.
+Meteorology.
+Cosmology.
+Uranology.
+Aerology.
+Geology.
+Hydrology.
+Botany.
+Agriculture.
+Gardening.
+Mineralogy.
+Chemistry.
+Chemistry, properly said, (Pyrotechnics, Dyeing, etc.).
+Metallurgy.
+Alchemy.
+Natural Magic.
+Imagination.
+Poetry.
+Sacred, Profane.
+Narrative.
+Epic Poem
+Madrigal
+Epigram
+Novel, etc.
+Dramatic
+Tragedy
+Comedy
+Opera
+Pastoral, etc.
+Parable
+Allegory
+(Note: This next branch seems to belong to both the narrative and dramatic tree, as indicated by the line drawn connecting the two.)
+
+Music
+Theoretical
+Practical (see also musical technique)
+Instrumental
+Vocal
+Painting
+Sculpture
+Civil architecture
+Engraving

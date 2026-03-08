@@ -1,0 +1,25 @@
+TeleForm is a form of processing applications originally developed by Cardiff Software and now is owned by OpenText.
+
+Function
+TeleForm performs several tasks:
+
+design machine-readable data forms in a drag-and-drop WYSIWYG design environment
+scan images using high-volume document scanners
+ingest images created by other applications
+automatically read data from completed forms
+allows users to review and correct data, if needed
+export and store the read data in an external database
+Forms can be individually designed within the application or templated using existing forms. When completed forms are scanned, any handwritten, machine-printed, barcodes, and bubble responses are read, evaluated, verified, and exported to the end databases.
+
+Dependencies
+Functionality of TeleForm, and similar applications, relies heavily on other technologies.
+TeleForm uses several sorts of optical technologies to process forms:
+
+Optical Mark Recognition (OMR)
+Optical Character Recognition (OCR)
+Intelligent Character Recognition (ICR)
+Barcode Recognition
+
+History
+Originally designed in 1991 to capture data from faxed forms, TeleForm now handles data from fax, paper and electronic forms.
+The Cardiff TeleForm product was re-branded Verity TeleForm for a brief period in 2004 and 2005, when Verity Inc acquired Cardiff Software.  In 2005, Autonomy acquired Verity, and the Cardiff brand was reintroduced as "Autonomy TeleForm".  On August 18, 2011, HP announces its intention to purchase Autonomy. TeleForm was officially re-branded as HP TeleForm in the release notes for version 10.9  TeleForm was purchased by OpenText in 2016 and is sold and supported as OpenText TeleForm.

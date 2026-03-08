@@ -1,0 +1,13 @@
+Amparo Alonso-Betanzos (born October 10, 1961) is a Spanish computer scientist and was president of the Spanish Association for Artificial Intelligence (2013-2021).
+
+Career
+She is a professor at University of A Coruña, where she leads the Laboratory for the Investigation and Development of Artificial Intelligence (LIDIA). Originally a chemical engineer, her research now focuses on artificial intelligence, specifically its medical applications.
+
+Achievements and honours
+In 1998, she was awarded the L'Oreal-UNESCO Award for Women In Science in Spain.
+
+Selected research
+Bolón-Canedo, Verónica, Noelia Sánchez-Maroño, and Amparo Alonso-Betanzos. "A review of feature selection methods on synthetic data." Knowledge and information systems, 34.3 (2013): 483–519.
+Bolón-Canedo, Verónica, et al. "A review of microarray datasets and applied feature selection methods." Information Sciences, 282 (2014): 111–135.
+Sánchez-Maroño, Noelia, Amparo Alonso-Betanzos, and María Tombilla-Sanromán. "Filter methods for feature selection–a comparative study." International Conference on Intelligent Data Engineering and Automated Learning. Springer, Berlin, Heidelberg, 2007.
+Bolon-Canedo, Veronica, Noelia Sanchez-Marono, and Amparo Alonso-Betanzos. "Feature selection and classification in multiple class datasets: An application to KDD Cup 99 dataset." Expert Systems with Applications, 38.5 (2011): 5947–5957.

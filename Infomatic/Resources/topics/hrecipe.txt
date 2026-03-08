@@ -1,0 +1,1 @@
+hRecipe is a draft microformat for publishing details of recipes using (X)HTML on web pages, using HTML classes and rel attributes. In its simplest form, it can be used to identify individual foodstuffs, because the only required properties are fn ("formatted name") and an ingredient, which can be the same:

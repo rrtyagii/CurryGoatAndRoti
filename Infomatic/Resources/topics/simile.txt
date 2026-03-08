@@ -1,0 +1,8 @@
+SIMILE (Semantic Interoperability of Metadata and Information in unLike Environments) was a joint research project run by the World Wide Web Consortium (W3C), Massachusetts Institute of Technology Libraries and MIT CSAIL and funded by the Andrew W. Mellon Foundation. The project ran from 2003 to August 2008. It focused on developing tools to increase the interoperability of disparate digital collections. Much of SIMILE's technical focus is oriented towards Semantic Web technology and standards such as Resource Description Framework (RDF).
+
+History
+SIMILE stands for Semantic Interoperability of Metadata and Information in unLike Environments. It was born out of DSpace, the open source system digital repository for scholarly materials developed at MIT. DSpace, which is now used at a number of research institutions, archives scholarly publications, making it possible to federate the collections of the various holding libraries and combining materials across disciplines.
+The SIMILE project grew from the need to support metadata schemas in research materials which has been described in various domain-specific ways, and provides a capability beyond Dublin Core.
+The challenge for DSpace and other digital libraries is to assist communities in dealing with different schemes, vocabularies, ontologies and metadata and to provide research services to their users.
+
+SIMILE projects

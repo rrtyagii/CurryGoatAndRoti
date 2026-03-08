@@ -1,0 +1,46 @@
+Below is a list of notable companies that primarily focuses on artificial intelligence (AI). Companies that simply makes use of AI but have a different primary focus are not included.
+
+America
+Canada
+Cohere
+Element AI
+
+United States
+Asia
+China
+Hong Kong
+Artisse AI
+
+India
+Haptik
+Sarvam AI
+NeuralGarage
+
+Israel
+AI21 Labs
+
+Japan
+Sakana AI
+
+Saudi Arabia
+Humain
+
+South Korea
+Upstage
+
+Europe
+France
+Germany
+Aleph Alpha
+DeepL
+
+Sweden
+Lovable
+
+Switzerland
+Art Recognition
+
+Ukraine
+Respeecher
+
+United Kingdom

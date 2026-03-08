@@ -1,0 +1,4 @@
+Pandorabots, Inc. is an artificial intelligence company that runs a web service for building and deploying chatbots.  Pandorabots implements and supports development of the Artificial Intelligence Markup Language and makes portions of its code accessible for free. The Pandorabots Platform is "one of the oldest and largest chatbot hosting services in the world", allowing creation of virtual agents to hold human-like text or voice chats with consumers. The platform is written in Allegro Common LISP.
+
+Use Cases
+Common use cases include advertising, virtual assistance, e-learning, entertainment and education. The platform has also been used by academics and universities use the platform for teaching and research.

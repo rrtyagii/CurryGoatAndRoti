@@ -1,0 +1,5 @@
+eXtreme Gammon is backgammon software written by Xavier Dufaure de Citres and released in 2009. It is available for Microsoft Windows and mobile platforms.
+According to the Financial Times, the program is the best backgammon player in the world, and the near-exclusive study tool for all serious backgammon players.
+
+Performance rating
+eXtreme Gammon provides a widely accepted benchmark number for players' skills called the Performance Rating or PR, with a lower number indicating a better rating. PR is the average equity lost per decision multiplied by 500. Only decisions not considered to be "obvious" are counted.

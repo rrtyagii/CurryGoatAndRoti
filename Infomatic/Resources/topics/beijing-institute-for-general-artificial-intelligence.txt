@@ -1,0 +1,34 @@
+Beijing Institute for General Artificial Intelligence (BIGAI; Chinese: 北京通用人工智能研究院; pinyin: Běijīng Tōngyòng Réngōng Zhìnéng Yánjiùyuàn) is a research organization focused on artificial general intelligence (AGI) established in Beijing, China in 2020. The institute receives support from the Beijing Municipal Government and the Ministry of Science and Technology, and has collaborations with institutions including Peking University and Tsinghua University.
+
+History
+BIGAI was established in 2020 under the leadership of Professor Song-Chun Zhu, who previously held a position at the University of California, Los Angeles (UCLA) for 28 years before returning to China. The institute was created with government backing as part of China's initiatives to advance artificial intelligence research.
+
+Organization
+BIGAI is a research organization with affiliations to Peking University, Tsinghua University, and other academic institutions in China. The institute is directed by Professor Song-Chun Zhu, who specializes in computer vision, statistics, applied mathematics, and artificial intelligence.
+
+Leadership
+Song-Chun Zhu – Director, Founding Director
+Dong Le – Executive Vice-Director
+
+Research approach
+While many Western AI research institutions focus on large language models with what BIGAI characterizes as "big data, small tasks" approaches, the institute claims to pursue a "small data, big tasks" paradigm. According to BIGAI, this approach draws inspiration from cognitive science and developmental psychology. The institute aims to develop what Zhu describes as the "crow paradigm" focused on reasoning behavior and intelligence based on value and cause-effect relationships, as an alternative to what he terms the "parrot paradigm" of current AI systems.
+
+Key research areas
+Vision and scene understanding
+Cognitive reasoning
+Embodied intelligence
+Multi-agent learning
+Value-driven intelligence
+Autonomous intelligence
+
+Notable projects
+Tong Tong AI Child
+In January 2024, BIGAI announced "Tong Tong" (also referred to as "Little Girl"), which it described as an "artificial intelligence child." According to BIGAI, Tong Tong is a virtual entity designed to simulate behavior and capabilities similar to those of a three or four-year-old child. The institute claims the AI can assign tasks to itself, learn independently, and demonstrate simulated emotions and value systems, though independent verification of these capabilities has been limited.
+The system reportedly operates on the TongOS2.0 AGI operating system and TongPL2.0 programming language, both developed at BIGAI. The project was presented at the Frontiers of General Artificial Intelligence Technology Exhibition in Beijing on January 28–29, 2024.
+In April 2024, BIGAI presented an updated version, Tong Tong 2.0, which it claims has enhanced capabilities more comparable to a 5-6 year old child, including improved language, cognition, movement, learning, emotion, and interaction abilities. These claims have not yet been extensively evaluated by independent researchers outside China.
+
+The Tong Test
+BIGAI has also proposed the "Tong Test," presented as an alternative to the Turing test for evaluating artificial general intelligence. According to BIGAI, the test involves capability assessment across five dimensions – vision, language, cognition, motion, and learning – and incorporates a value system ranging from physiological needs to social values. The scientific community has not yet widely adopted this test as a standard for AGI evaluation.
+
+Philosophy and goals
+BIGAI states its mission as "pursuing a unified theory of artificial intelligence to create general intelligent agents for lifting humanity." The institute aims to develop intelligent systems with capabilities in perception, cognition, decision-making, learning, and social collaboration that align with human values.

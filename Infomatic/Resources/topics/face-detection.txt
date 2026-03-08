@@ -1,0 +1,29 @@
+Face detection is a computer technology being used in a variety of applications that identifies human faces in digital images. Face detection also refers to the psychological process by which humans locate and attend to faces in a visual scene.
+
+Definition and related algorithms
+Face detection can be regarded as a specific case of object-class detection. In object-class detection, the task is to find the locations and sizes of all objects in an image that belong to a given class. Examples include upper torsos, pedestrians, and cars.
+Face detection simply answers two question, 1. are there any human faces in the collected images or video? 2. where is the face located?
+Face-detection algorithms focus on the detection of frontal human faces. It is analogous to image detection in which the image of a person is matched bit by bit. Image matches with the image stores in database. Any facial feature changes in the database will invalidate the matching process.
+A reliable face-detection approach based on the genetic algorithm and the eigen-face technique:
+Firstly, the possible human eye regions are detected by testing all the valley regions in the gray-level image. Then the genetic algorithm is used to generate all the possible face regions which include the eyebrows, the iris, the nostril and the mouth corners.
+Each possible face candidate is normalized to reduce both the lighting effect, which is caused by uneven illumination; and the shirring effect, which is due to head movement. The fitness value of each candidate is measured based on its projection on the eigen-faces.  After a number of iterations, all the face candidates with a high fitness value are selected for further verification. At this stage, the face symmetry is measured and the existence of the different facial features is verified for each face candidate.
+
+Applications
+Facial motion capture
+Facial recognition
+Face detection is used in biometrics, often as a part of (or together with) a facial recognition system. It is also used in video surveillance, human computer  interface and image database management.
+
+Photography
+Some recent digital cameras use face detection for autofocus. Face detection is also useful for selecting regions of interest in photo slideshows that use a pan-and-scale Ken Burns effect.
+Modern appliances also use smile detection to take a photograph at an appropriate time.
+
+Marketing
+Face detection is gaining the interest of marketers. A webcam can be integrated into a television and detect any face that walks by. The system then calculates the race, gender, and age range of the face. Once the information is collected, a series of advertisements can be played that is specific toward the detected race/gender/age.
+An example of such a system is OptimEyes and is integrated into the  Amscreen digital signage system.
+
+Emotional Inference
+Face detection can be used as part of a software implementation of emotional inference. Emotional inference can be used to help people with autism understand the feelings of people around them.
+AI-assisted emotion detection in faces has gained significant traction in recent years, employing various models to interpret human emotional states. OpenAI's CLIP model exemplifies the use of deep learning to associate images and text, facilitating nuanced understanding of emotional content. For instance, combined with a network psychometrics approach, the model has been used to analyze political speeches based on changes in politicians' facial expressions. Research generally highlights the effectiveness of these technologies, noting that AI can analyze facial expressions (with or without vocal intonations and written language) to infer emotions, although challenges remain in accurately distinguishing between closely related emotions and understanding cultural nuances.
+
+Lip Reading
+Face detection is essential for the process of language inference from visual cues. Automated lip reading has applications to help computers determine who is speaking which is needed when security is important.

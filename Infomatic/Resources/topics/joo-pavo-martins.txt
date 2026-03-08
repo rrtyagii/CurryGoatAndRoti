@@ -1,0 +1,22 @@
+João Pavão Martins is a Full Professor of Computer Science and Engineering in Instituto Superior Técnico (University of Lisbon).
+He was one of the people behind the creation of the Computer Science and Engineering degree at Instituto Superior Técnico in 1988, and one of the founders of the Department of Computer Science and Engineering at the same institute in 1998.
+Between 2002 and 2004 he was the head of this Department and again in 2009, for a two-year term.
+He is also a software industry entrepreneur.
+In 1986, together with Ernesto Morgado, he founded SISCOG – Sistemas Cognitivos, SA, a start up company devoted to the applications of Artificial Intelligence. Together they led the company to develop and deploy a series of complex software systems in railway and metro companies throughout the world. These systems plan and manage more than 20,000 people, affect the life of millions of passengers, and have been awarded by several prestigious organisations in Europe and the United States.
+João Pavão Martins has a Licentiate degree in mechanical engineering (1976) from Instituto Superior Técnico (Technical University of Lisbon), a Master of Science in computer science (1979) and a Ph.D. in artificial intelligence (1983) from State University of New York at Buffalo.
+
+Publications
+João Pavão Martins is also an author and co-author of the following publications:
+
+EPIA-89 Proceedings, Lecture Notes in Artificial Intelligence, Vol. 390, Heidelberg, West Germany: Springer-Verlag, 1989 (Martins, J.P. e Morgado, E.M.)
+Introduction to computer Science using PASCAL, Wadsworth Inc., 1989 (Martins, J. P.)
+An AI-Based Approach to Crew Scheduling, Proc. IEEE Conference on AI Applications - CAIA 93, 1993 (Martins, J.P. e Morgado, E.M.)
+Introdução à Programação usando o PASCAL, McGraw-Hill Portugal, 1994 (Martins, J. P.)
+Programação em scheme, IST Press, 2004 (Martins, J. P. and Cravo, Maria dos Remédios )
+The Chronicle of the Fountain Pen, Schiffer Publishing Ltd., 2007 (Martins, J. P.; Leite, Luiz, Gagean, António)
+Meerschaum Pipes@eBay (1999-2010), www.blurb.com, 2010 (Martins J. P. (ed.))
+Pipes@eBay (1999-2010), www.blurb.com, 2010 (Martins J. P.)
+Parker: An Illustrated History, www.blurb.com, 2011 (Martins J. P., Leite L. e Gagean A.)
+Sheaffer: An Illustrated History, www.blurb.com, 2011 (Martins J. P., Leite L. e Gagean A.)
+Lógica e Raciocínio, Cadernos de Lógica e Computação Volume 6, College Publications, 2014,(Martins J.P.)
+Programação em PYTHON: Introdução à Programação Utilizando Múltiplos Paradigmas, IST Press, 2015 (Martins J. P.)

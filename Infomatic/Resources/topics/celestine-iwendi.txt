@@ -1,0 +1,28 @@
+Celestine Iwendi is a professor of artificial intelligence and the head of the Centre of Intelligence of Things (CIoTh) at the University of Bolton. His research focuses on the application of artificial intelligence to the Internet of Things (IoT), network security, privacy-preserving data methods for medical and IoMT (Internet of Medical Things) applications, and sustainable AI for socio-technical systems.
+
+Education
+According to university and professional profiles, Iwendi completed undergraduate and master's studies in electrical/electronic engineering at Nnamdi Azikiwe University (Nigeria), obtained further postgraduate training including a master's-level qualification at Uppsala University (Sweden), and earned a PhD in Electronics/ Electronics Engineering from the University of Aberdeen.
+
+Academic career
+Iwendi has held academic and research appointments in UK and international institutions and is listed as Professor of Artificial Intelligence and Head of the Centre of Intelligence of Things at the University of Bolton (CIoTh). He has served in leadership roles within professional societies including an appointment as Chair of the IEEE Computer Society Election Committee (2024) and selection as an IEEE Communications Society Distinguished Lecturer for 2025–2026.
+
+Research
+Iwendi's published research spans applied artificial intelligence, IoT/IoMT security, privacy-preserving text sanitization for medical data, and machine learning applications in healthcare and communications.
+Major themes in his research include:
+
+Privacy-preserving data sanitization for free-text clinical records and unstructured medical datasets (semantic sanitization frameworks).
+AI and machine learning methods for IoT/IoMT security, including intrusion detection and energy-efficient edge/offloading strategies for mobile edge computing.
+Machine learning for healthcare applications, such as diet recommendation systems and disease-prediction models within IoMT ecosystems.
+Detection of online harms (for example, cyberbullying) using deep learning methods.
+
+Selected publications
+Iwendi, Celestine; Rehman, Saif Ur; Javed, Abdul Rehman; Khan, Suleman; Srivastava, Gautam (31 August 2021). "Sustainable Security for the Internet of Things Using Artificial Intelligence Architectures". ACM Transactions on Internet Technology. 21 (3): 1–22. doi:10.1145/3448614.
+Iwendi, Celestine; Moqurrab, Syed Atif; Anjum, Adeel; Khan, Sangeen; Mohan, Senthilkumar; Srivastava, Gautam (September 2020). "N-Sanitization: A semantic privacy-preserving framework for unstructured medical datasets". Computer Communications. 161: 160–171. doi:10.1016/j.comcom.2020.07.032.
+Padinjappurathu Gopalan, Shynu; Chowdhary, Chiranji Lal; Iwendi, Celestine; Farid, Muhammad Awais; Ramasamy, Lakshmana Kumar (26 July 2022). "An Efficient and Privacy-Preserving Scheme for Disease Prediction in Modern Healthcare Systems". Sensors. 22 (15): 5574. Bibcode:2022Senso..22.5574P. doi:10.3390/s22155574. PMC 9332592. PMID 35898077.
+Anajemba, Joseph Henry; Yue, Tang; Iwendi, Celestine; Alenezi, Mamdouh; Mittal, Mohit (2020). "Optimal Cooperative Offloading Scheme for Energy Efficient Multi-Access Edge Computation". IEEE Access. 8: 53931–53941. Bibcode:2020IEEEA...853931A. doi:10.1109/ACCESS.2020.2980196.
+
+Professional affiliations and honours
+Senior Member, IEEE (Senior Member).
+Appointed Election Committee Chair for the IEEE Computer Society (2024).
+Selected as an IEEE Communications Society Distinguished Lecturer (2025–2026 term).
+Recipient of the Herbert Simon Award for Outstanding Contribution in the International Journal of Information Technology and Decision Making (IJITDM).

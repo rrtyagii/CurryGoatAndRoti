@@ -1,0 +1,43 @@
+visionOS is an extended reality operating system derived primarily from iPadOS and its core frameworks (including UIKit, SwiftUI, ARKit and RealityKit), and MR-specific frameworks for foveated rendering and real-time interaction. It was developed by Apple exclusively for its Apple Vision Pro mixed reality headset. It was unveiled on June 5, 2023, at Apple's WWDC23 event alongside the reveal of the Apple Vision Pro. The software released on February 2, 2024, shipping with the Apple Vision Pro.
+
+History
+Apple has reportedly been working on and conceptualizing visionOS throughout the 2010s and early 2020s. Internally codenamed Borealis, it was officially revealed to the public at Apple's WWDC23 event alongside the Vision Pro. Apple stated the two would release in early 2024. App Store guidelines for the operating system similarly state that developers should refer to visionOS software as "spatial computing experiences" or "vision apps", and avoid the use of terms such as "augmented reality" and "mixed reality".
+During the event, The Walt Disney Company announced plans to develop spatial computing apps for visionOS; Disney+ currently offers features such as streaming of selected titles in stereoscopic 3D, and they also offer 3D environments based on the El Capitan Theatre and locations from Disney-owned franchises.
+The operating system was initially planned to be released as xrOS before the name was changed reportedly days before its announcement, after the WWDC23 keynote and developer sessions had already been filmed. References to xrOS are still present throughout visionOS development materials. On January 8, 2024, Apple announced that the Vision Pro with visionOS would be available in the US on February 2, 2024, with pre-orders beginning on January 19.
+
+Developer tools
+From June 5 to 12, 2023, Apple released 35 free virtual sessions covering visionOS development as part of WWDC23. On June 21, 2023, Apple released Xcode 15 Beta 2, which was the first Xcode beta to include a software development kit for visionOS and Reality Composer Pro, a tool to create 3D content for visionOS. Xcode 15 launched without these features, which were eventually added in Xcode 15.2 on January 8, 2024, the same day that Apple started accepting submissions for the visionOS App Store.
+During the WWDC23 keynote, Apple revealed it was working with Unity Technologies to support the Unity engine on visionOS, and that Unity would be releasing development tools for 3D games on Vision Pro, which launched in beta on July 19, 2023.
+
+Features
+visionOS uses a 3D user interface navigated via finger tracking, eye tracking, and speech recognition. For example, the user can click an element by looking at it and pinching two fingers together, move the element by moving their pinched fingers, and scroll by flicking their wrist. Apps are displayed in floating windows that can be arranged in 3D space. Text input is via a virtual keyboard, the Siri virtual assistant, and external Bluetooth peripherals including Magic Keyboard, Magic Trackpad, and gamepads.
+During visionOS setup, a user can create a digital persona by taking off the headset and scanning their face with it. Users can use this persona during FaceTime calls, and see other participants' personas if they are using visionOS. From visionOS 1.1, the ability to see personas in 3D moving around and interacting with apps was added, dubbed 'Spatial Personas.'
+The Photos app supports presenting spatial video, depth-mapped 3D video recorded on Vision Pro or iPhone 15 Pro, by adapting the video's depth to the user's head movements.
+At launch, visionOS shipped with 13 pre-installed 3D 360° background animated environments with accompanying ambient sounds, including optional day and night scenes of Yosemite National Park; Haleakalā National Park; Joshua Tree National Park; Mount Hood National Forest; Lake Vrangla near Drammen, Norway; and the Moon.
+The Apple TV app offers 3D films; the company announced that over 150 films would be available in 3D at launch, at no additional charge to users that rent or purchase the films on iTunes Store.
+WebXR, an API for mixed reality experiences through web browsers, is supported in Safari.
+visionOS users can also access their Mac with a resizable 4K virtual display, named 'Mac Virtual Display'. 8K wide and ultra-wide curved display options were made available as additional options alongside the release of visionOS 2.1 in December 2024, along with the ability to route Mac audio to Vision Pro.
+
+Supported apps
+visionOS is backwards compatible with existing iOS and iPadOS apps, which are rendered in windows within the user environment and are automatically compatible with visionOS's input system. Although all apps are available on visionOS by default, the developers of iOS and iPadOS apps have the option to opt out of visionOS compatibility. Apple claims that over 1 million apps from iOS and iPadOS are available on visionOS. In addition to iPadOS and iOS apps, over 600 native visionOS apps have been developed specifically for the platform at launch, according to Apple. Apple also claims 100 Apple Arcade games will be compatible with visionOS at launch, the majority of which can make use of visionOS's gamepad compatibility.
+Many popular productivity apps have released fully-optimized visionOS versions, including Microsoft 365 apps (Teams, Word, Excel, PowerPoint, Outlook, etc.), Adobe Lightroom, Slack, Zoom, and Webex. Many streaming apps are also optimized for the platform, such as Max, Disney+, Prime Video, Paramount+, and ESPN.
+Some of the most popular entertainment apps for iOS and iPadOS including Netflix, Spotify, and YouTube have not made their iOS or iPadOS apps available to run on visionOS, recommending users instead use their respective websites on Safari. YouTube has announced that a visionOS app is "on [the] roadmap."
+Apple-made apps that come preinstalled on visionOS include Mail, Messages, Mindfulness, Apple Music, Apple TV, Notes, Photos, and Freeform.
+
+Reception
+Pre-launch
+Before the February 2024 launch, Apple gave controlled demos of the Apple Vision Pro to many technology journalists, some of whom have praised its multitasking capabilities and input methods, while lamenting that the software is only available on expensive hardware. Other reviewers have focused on the software's spatial videos feature and high resolution, while questioning what the software's main use case will be. Speculation from journalists noted ongoing disputes from the developers of popular apps regarding the commissions charged by Apple for in-app purchases through apps distributed on the App Store as a potential cause for many not developing visionOS-native versions.
+
+Release
+Many reviews praised visionOS even while criticizing the hardware. Some reviews even mentioned features more advanced than the Apple Vision Pro hardware, such as eye and hand tracking. Almost all key reviews praised the window mechanics and experience.
+
+Version history
+Overview
+visionOS 1
+visionOS 1 is the first major version of visionOS. It was announced in WWDC 2023 on June 5, 2023, and was released on February 2, 2024, pre-installed in the Apple Vision Pro upon its release however, it was actually released on January 23, 2024 with the version number 1.0.1. The last update, visionOS 1.3, was released on July 29, 2024.
+
+visionOS 2
+visionOS 2 is the second major version of visionOS. It was announced in WWDC 2024 on June 10, 2024 and was released on September 16, 2024 alongside iOS 18, iPadOS 18, macOS Sequoia, tvOS 18, and watchOS 11.
+
+visionOS 26
+visionOS 26 is the third major version of visionOS. It was announced in WWDC 2025 on June 9, 2025, and was released on September 15, 2025 alongside iOS 26, iPadOS 26, macOS Tahoe, tvOS 26, and watchOS 26.

@@ -12,10 +12,12 @@ struct TopicDetailView: View {
     @State private var isBookmarked: Bool
     @EnvironmentObject var authManager: AuthenticationManager
     @Environment(\.theme) var theme
+    @State private var topicContent: String
     
     init(scrum: CardDetail) {
         self.scrum = scrum
         _isBookmarked = State(initialValue: scrum.isBookmark)
+        _topicContent = State(initialValue: TopicLoader.loadTopicContent(from: scrum.contentFile))
     }
     
     var body: some View {
@@ -42,13 +44,17 @@ struct TopicDetailView: View {
                             .foregroundStyle(scrum.theme.accentColor)
                     }
                 }
-                Text(scrum.tags.joined(separator: " • "))
-                    .font(.caption)
-                    .foregroundStyle(scrum.theme.textColor.opacity(0.8))
+                ScrollView{
+                    LazyVStack(spacing: 14){
+                        Text(scrum.tags.joined(separator: " • "))
+                            .font(.caption)
+                            .foregroundStyle(scrum.theme.textColor.opacity(0.8))
 
-                Text(scrum.content)
-                    .font(.headline)
-                    .foregroundStyle(scrum.theme.textColor)
+                        Text(self.topicContent)
+                            .font(.headline)
+                            .foregroundStyle(scrum.theme.textColor)
+                    }
+                }
             }
             .padding(18)
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
@@ -63,13 +69,12 @@ struct TopicDetailView: View {
     }
 }
 
-#Preview {
-    let scrum = CardDetail.sampleData[0]
-    TopicDetailView(scrum: scrum)
-        .environmentObject(AuthenticationManager(user: nil, isAuthenticated: false))
-        .environment(\.theme, .standard)
-        .frame(width: 340)
-        .padding()
-        .background(scrum.theme.secondaryColor)
-    
-}
+//#Preview {
+//    let scrum = CardDetail.sampleData[0]
+//    TopicDetailView(scrum: scrum)
+//        .environmentObject(AuthenticationManager(user: nil, isAuthenticated: false))
+//        .environment(\.theme, .standard)
+//        .frame(width: 340)
+//        .padding()
+//        .background(scrum.theme.secondaryColor)
+//}

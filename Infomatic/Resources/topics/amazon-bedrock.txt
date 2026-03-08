@@ -1,0 +1,19 @@
+Amazon Bedrock is a fully managed cloud computing service provided by Amazon Web Services (AWS) that enables developers to build and scale generative artificial intelligence applications. Launched in 2023, the platform provides a unified API to access high-performing foundation models (FMs) from several AI companies, alongside tools for model customization, security, and orchestration.
+Bedrock is a serverless computing service, meaning users do not need to manage the underlying hardware infrastructure. It competes with similar enterprise AI platforms such as Microsoft Foundry and Google Cloud Platform.
+
+History
+Amazon announced Bedrock on April 13, 2023. The announcement was seen as Amazon's entry into the generative AI "arms race" that followed the public success of ChatGPT. Unlike competitors who initially focused on a single proprietary model, Amazon adopted a "model-agnostic" strategy by hosting foundation models from several independent startups.
+The service became generally available on September 28, 2023. Throughout 2024 and 2025, AWS expanded the service to include AI agents, which allow models to execute multi-step business tasks by interacting with extrenal systems.
+
+Model providers
+Amazon Bedrock provides a centralized hub for several different model families:
+
+Amazon: The Titan and Nova series
+Anthropic: The Claude models
+Meta Platforms: The open-source Llama family
+Mistral AI: Models such as Mistral Large
+Cohere: Models specialized for enterprise search
+
+Features
+Knowledge Bases: a managed workflow for Retrieval-Augmented Generation (RAG), which allows models to pull facts from private data stored in Amazon S3.
+Guardrails: a security feature that allows administrators to set content filters and personally identifiable information redaction across all models in the platform to increase the safety and compliance of AI deployments.

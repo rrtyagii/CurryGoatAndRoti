@@ -1,0 +1,2 @@
+The parallel terraced scan is a multi-agent based search technique that is basic to cognitive architectures, such as Copycat, Letter-string, the Examiner, Tabletop, and others. It was developed by John Rehling and Douglas Hofstadter at the Center for Research on Concepts and Cognition at Indiana University, Bloomington.
+The parallel terraced scan builds on the concepts of the workspace, coderack, conceptual memory, and temperature. According to Hofstadter the parallel and random nature of the processing captures aspects of human cognition.

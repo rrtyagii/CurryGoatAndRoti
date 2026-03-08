@@ -1,0 +1,3 @@
+Ultra Hal is a chatbot intended to function as a virtual assistant. It was developed by Zabaware, Inc.
+Ultra Hal uses a natural language interface with animated characters using speech synthesis. Users can communicate with the chatterbot via typing or via a speech recognition engine.  It utilizes the WordNet lexical dictionary. Its name is an allusion to HAL 9000, the artificial intelligence from the movie 2001: A Space Odyssey.
+Ultra Hal won the 2007 Loebner Prize for "most human" chatterbot.

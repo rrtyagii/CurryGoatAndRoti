@@ -1,0 +1,13 @@
+The Dewey Decimal Classification (DDC) is structured around ten main classes covering the entire world of knowledge; each main class is further structured into ten hierarchical divisions, each having ten divisions of increasing specificity. As a system of library classification the DDC is "arranged by discipline, not subject", so a topic like clothing is classed based on its disciplinary treatment (psychological influence of clothing at 155.95, customs associated with clothing at 391, and fashion design of clothing at 746.92) within the conceptual framework. The list below presents the ten main classes, hundred divisions, and thousand sections.
+
+Class 000 – Computer science, information, and general works
+000 Computer science, knowledge, and systems
+000 Computer science, information and general works
+001 Knowledge
+002 The book (writing, libraries, and book-related topics)
+003 Systems
+004 Data processing and computer science
+005 Computer programming, programs, and data
+006 Special computer methods  (e.g. AI, multimedia, VR)
+007–009 [Unassigned]
+010 Bibliographies

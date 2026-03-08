@@ -1,0 +1,14 @@
+The Video and Image Retrieval and Analysis Tool (VIRAT) program is a video surveillance project funded by the Information Processing Technology Office of the Defense Advanced Research Projects Agency (DARPA).
+The purpose of the program was to create a database that could store large quantities of video, and make it easily searchable by intelligence agents to find "video content of interest" (e.g. "find all of the footage where three or more people are standing together in a group") -- this is known as "content-based searching".
+The other primary purpose was to create software that could provide "alerts" to intelligence operatives during live operations (e.g. "a person just entered the building").
+The focus of VIRAT is primarily on footage from UAVs such as the MQ-1 Predator. As of the writing of the project solicitation in March 2008, most analysis of drone footage is done in a very labor-intensive manner by humans, who have to do manual "fast-forwarding" searches through video, or perform search queries of metadata or annotations added to videos earlier. The goal of VIRAT is to change all of this and have a large portion of the burden taken off of humans, and automating the analysis of surveillance video.
+VIRAT will focus heavily on developing means to be able to search through databases containing thousands of hours of video, looking for footage where certain types of activities took place, such as:
+
+Single person: Digging, loitering, picking up, throwing, exploding/burning, carrying, shooting, launching, walking, limping, running, kicking, smoking, gesturing
+Person-to-person: Following, meeting, gathering, moving as a group, dispersing, shaking hands, kissing, exchanging objects, kicking, carrying an object together
+Person-to-vehicle: Driving, getting-in (out), loading (unloading), opening (closing) trunk, crawling under car, breaking window, shooting/launching, exploding/burning, dropping off, picking up
+Person-to-facility: Entering (exiting), standing, waiting at checkpoint, evading checkpoint, climbing atop, passing through gate, dropping off
+Vehicle: Accelerating (decelerating), turning, stopping, overtaking/passing, exploding/burning, discharging, shooting, moving together, forming into convoys, maintaining distance
+Other: VIP activities (convoy, parade, receiving line, troop formation, speaking to crowds), riding/leading animal, bicycling
+There are already highly developed object detection systems (e.g. programs that can determine whether an object in video footage is a "car" or a "person wearing a backpack"). VIRAT will utilize what is currently available for object detection. It is not within the scope of VIRAT to fund research in object detection, unless it is somehow related to identifying certain types of activities, like those mentioned above.
+The DARPA program manager for the VIRAT project is Dr. Mita Desai.

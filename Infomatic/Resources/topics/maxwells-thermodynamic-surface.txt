@@ -1,0 +1,28 @@
+Maxwell's thermodynamic surface is an 1874 sculpture made by Scottish physicist James Clerk Maxwell (1831–1879).  This model provides a three-dimensional space of the various states of a fictitious substance with water-like properties. This plot has coordinates volume (x), entropy (y), and energy (z).  It was based on the American scientist Josiah Willard Gibbs’ graphical thermodynamics papers of 1873. In Maxwell's words, the model allowed "the principal features of known substances [to] be represented on a convenient scale."
+
+Construction of the model
+Gibbs' papers defined what Gibbs called the "thermodynamic surface," which expressed the relationship between the volume, entropy, and energy of a substance at different temperatures and pressures. However, Gibbs did not include any diagrams of this surface. After receiving reprints of Gibbs' papers, Maxwell recognized the insight afforded by Gibbs' new point of view and set about constructing physical three-dimensional models of the surface. This reflected Maxwell's talent as a strong visual thinker and prefigured modern scientific visualization techniques.
+Maxwell sculpted the original model in clay and made several plaster casts of the clay model, sending one to Gibbs as a gift, keeping two in his laboratory at Cambridge University. Maxwell's copy is on display at the Cavendish Laboratory of Cambridge University, while Gibbs' copy is on display at the Sloane Physics Laboratory of Yale University, where Gibbs held a professorship. Two copies reside at the National Museum of Scotland, one via Peter Tait and the other via George Chrystal. Another was sent to Thomas Andrews. A number of historic photographs were taken of these plaster casts during the middle of the twentieth century – including one by James Pickands II, published in 1942 – and these photographs exposed a wider range of people to Maxwell's visualization approach.
+
+Uses of the model
+As explained by Gibbs and appreciated by Maxwell, the advantage of a U-V-S (energy-volume-entropy) surface over the usual P-V-T (pressure-volume-temperature) surface was that it allowed to geometrically explain sharp, discontinuous phase transitions as emerging from a purely continuous and smooth state function
+
+
+
+        U
+        (
+        V
+        ,
+        S
+        )
+
+
+    {\displaystyle U(V,S)}
+
+; Maxwell's surface demonstrated the generic behaviour for a substance that can exist in solid, liquid, and gaseous phases. The basic geometrical operation involved simply placing a tangent plane (such as a flat sheet of glass) on the surface and rolling it around, observing where it touches the surface. Using this operation, it was possible to explain phase coexistence, the triple point, to identify the boundary between absolutely stable and metastable phases (e.g., superheating and supercooling), the spinodal boundary between metastable and unstable phases, and to illustrate the critical point.
+Maxwell drew lines of equal pressure (isopiestics) and of equal temperature (isothermals) on his plaster cast by placing it in the sunlight, and "tracing the curve when the rays just grazed the surface." He sent sketches of these lines to a number of colleagues. For example, his letter to Thomas Andrews of 15 July 1875 included sketches of these lines. Maxwell provided a more detailed explanation and a clearer drawing of the lines (pictured) in the revised version of his book Theory of Heat, and a version of this drawing appeared on a 2005 US postage stamp in honour of Gibbs.
+As well as being on display in two countries, Maxwell's model lives on in the literature of thermodynamics, and books on the subject often mention it, though not always with complete historical accuracy. For example, the thermodynamic surface represented by the sculpture is often reported to be that of water, contrary to Maxwell's own statement.
+
+Related models
+Maxwell's model was not the first plaster model of a thermodynamic surface: in 1871, even before Gibbs' papers, James Thomson had constructed a plaster pressure-volume-temperature plot, based on data for carbon dioxide collected by Thomas Andrews.
+Around 1900, the Dutch scientist Heike Kamerlingh Onnes, together with his student Johannes Petrus Kuenen and his assistant Zaalberg van Zelst, continued Maxwell's work by constructing their own plaster thermodynamic surface models. These models were based on accurate experimental data obtained in their laboratory, and were accompanied by specialised tools for drawing the lines of equal pressure.

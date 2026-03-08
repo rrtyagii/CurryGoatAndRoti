@@ -1,0 +1,34 @@
+Rodney Allen Brooks (born 30 December 1954) is an Australian roboticist, Fellow of the Australian Academy of Science, author, and robotics entrepreneur, most known for popularizing the actionist approach to robotics. He was a Panasonic Professor of Robotics at the Massachusetts Institute of Technology and former director of the MIT Computer Science and Artificial Intelligence Laboratory. He is a founder and former Chief Technical Officer of iRobot and co-founder, Chairman and Chief Technical Officer of Rethink Robotics (formerly Heartland Robotics) and is the co-founder and Chief Technical Officer of Robust.AI (founded in 2019).
+
+Life
+Brooks received an M.A. in pure mathematics from Flinders University of South Australia. In 1981, he received a PhD in Computer Science from Stanford University under the supervision of Thomas Binford. He has held research positions at Carnegie Mellon University and MIT and a faculty position at Stanford University. He joined the MIT faculty in 1984. He was Panasonic Professor of Robotics at the Massachusetts Institute of Technology. He was director of the MIT Computer Science and Artificial Intelligence Laboratory (1997–2007), previously the "Artificial Intelligence Laboratory".
+In 1997, Brooks and his work were featured in the film Fast, Cheap & Out of Control.
+Brooks became a member of the National Academy of Engineering in 2004 for contributions to the foundations and applications of robotics, including establishing consumer and hazardous environment robotics industries.
+
+Work
+Academic work
+Instead of computation as the ultimate conceptual metaphor that helped artificial intelligence become a separate discipline in the scientific community, he proposed that action or behavior is more appropriate to be used in robotics. Critical of applying the computational metaphor, even to the fields where the action metaphor is more relevant, he wrote in 2008 that:
+
+Some of my colleagues have managed to recast Pluto's orbital behavior as the body itself carrying out computations on forces that apply to it. I think we are perhaps better off using Newtonian mechanics (with a little Einstein thrown in) to understand and predict the orbits of planets and others. It is so much simpler.
+In his 1990 paper, "Elephants Don't Play Chess", Brooks argued that for robots to accomplish everyday tasks in an environment shared by humans, their higher cognitive abilities, including abstract thinking emulated by symbolic reasoning, need to be based on the primarily sensory-motor coupling (action) with the environment, complemented by the proprioceptive sense which is a critical component in hand–eye coordination, pointing out that:
+
+Over time there's been a realization that vision, sound-processing, and early language are maybe the keys to how our brain is organized.
+
+Industrial work
+Brooks was an entrepreneur before leaving academia to found Rethink Robotics. He was one of ten founders of Lucid Inc., and worked with them until the company's closure in 1993. Before Lucid closed, Brooks had founded iRobot with former students Colin Angle and Helen Greiner.
+
+Robots
+He experimented with off-the-shelf components, such as Fischertechnik and Lego, and tried to make robots self-replicate by putting together clones of themselves using the components. His robots include mini-robots used in oil wells explorations without cables, the robots that searched for survivors at Ground Zero in New York, and the robots used in medicine doing robotic surgery.
+
+Allen
+In the late 1980s, Brooks and his team introduced Allen, a robot using subsumption architecture. As of 2012 Brooks' work focused on engineering intelligent robots to operate in unstructured environments and understanding human intelligence through building humanoid robots.
+
+Baxter
+
+Introduced in 2012 by Rethink Robotics, an industrial robot named Baxter was intended as the robotic analogue of the early personal computer designed to safely interact with neighbouring human workers and be programmable for the performance of simple tasks. The robot stops if it encounters a human in the way of its robotic arm and has a prominent off switch that its human partner can push if necessary. Costs were projected to be the equivalent of a worker making $4 an hour.
+
+Carter
+In 2024, Robust.AI introduced Carter, a mobile robot.
+
+AI
+In June 2024, Brooks said that humans overestimate generative artificial intelligence's abilities.

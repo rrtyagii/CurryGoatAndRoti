@@ -1,0 +1,55 @@
+RoboCup Junior (RCJ), sometimes stylised RobocupJunior, is a division of RoboCup, a not-for-profit robotics organisation.  It focuses on education and aims to introduce the larger goals of the RoboCup project (creating robots) to primary and secondary school aged children (technically up through age 19). Participants compete in one of three main leagues: Soccer, Rescue or Dance. Dance Theatre also exists as a sub-league of Dance, and Premier Rescue is part of the competition in Australia and New Zealand.
+
+History
+RoboCup Jr Soccer was invented and started back in 1998 with a demonstration held by Henrik Hautop Lund and Luigi Pagliarini  at the RoboCup international competition held in Paris, France. In 1999, an interactive workshop and competition was held by Henrik Hautop Lund and Luigi Pagliarini  at the RoboCup international competition in Stockholm, Sweden. The following year in 2000, the first international RoboCup Junior Educational competition was held in Melbourne, Australia. The format for RoboCup Junior was  devised by a Melbourne committee of teachers and industry representatives. The first competition introduced the three level competition of Dance, Sumo(later to become Rescue) and Soccer.
+Then-prime minister of Australia, John Howard, was impressed in 2001 when he visited students competing in a RoboCup Junior Australia competition, congratulating both teachers and students for their accomplishments.
+Queen Elizabeth II was also impressed in 2002 on a trip to Australia, pointing out the complexity of what students were accomplishing.
+
+International competitions
+Each year, an international competition is run around the same time, and at the same location, as the RoboCup competition. The location changes each year, and in the past has seen events held at:
+
+2000 - Melbourne, Victoria, Australia
+2001 - Seattle, Washington, United States of America
+2002 - Fukuoka, Japan
+2003 - Padua, Italy
+2004 - Lisbon, Portugal
+2005 - Osaka, Japan
+2006 - Bremen, Germany
+2007 - Atlanta, Georgia, United States of America
+2008 - Suzhou, China.
+2009 - Graz, Austria.
+2010 - Singapore.
+2011 - Istanbul, Turkey.
+2012 - Mexico City, Mexico.
+2013 - Eindhoven, the Netherlands.
+2014 - João Pessoa, Brazil.
+2015 - Hefei, China
+2016 - Leipzig, Germany
+2017 - Nagoya, Japan
+2018 - Montreal, Canada.
+2019 - Sydney, Australia.
+2022 - Bangkok,  Thailand.
+2023 - Bordeaux,  France.
+2024 - Eindhoven, the Netherlands.
+Besides the international competition there are national and regional competitions around the world. Often teams have to qualify at their local competition to be admitted to the world championship.  For example, in Germany, where RoboCup Junior is very popular, teams start on one of several qualification tournaments with over 300 teams, before advancing to the German Open and finally, the World Championships.
+
+Challenges
+Soccer challenge
+Two teams each place two robots (which they have designed and created) on a playing field. The aim of the game is for each team of robots to play a fully autonomous game of soccer.  The robots detect the infrared-emitting ball and use this as well as other specialised sensors, such as sonars, compasses and cameras to locate themselves and the opposition's goal.  These robots must each be able to fit into a cylinder which is 220 mm in diameter and height.
+Originally, the soccer field had a grayscale plastic floor allowing the robots to locate themselves along the field.  In 2007, this was replaced with the GENII (Generation 2) field which had different shades of green plastic, which allowed light sensors to be used to more accurately determine location (this field is still used in Australia, New Zealand, and is now also used in the World Robot Olympiad).  In 2009, the field was replaced with plain green felt.  This change was aimed at making the game more realistic by creating greater reliance on the goal location and walls rather than the ground.  The change, however, has been controversial with many teams having problems with quality of the felt.
+When RoboCup Junior was first formed, almost all teams used Lego Mindstorms construction kits to build their robots. In more recent years, especially at the World Championships, some teams have been using more advanced technology and designs in their robots. Custom printed circuit boards, actuator devices (for kicking), cameras and advanced micro controllers have become common place at the international competition.
+
+Rescue Line | Maze challenge
+Since inception, the rescue challenge has gone through a number of iterations, increasing in difficulty. A map of Australia was used to demo the rescue challenge initially (and was subsequently used in Australia for a number of years).  Subsequently, this was changed to a number of white tiles with black lines marked on them, which the robot had to follow.  Internationally, this was replaced with a set of "rooms" that the robot had to search and move through by following a line; then added with an evacuation room for "victims" (colored balls) recognition.   In 2011, Maze was introduced as an additional sub-league. Maze is new competition without lines where the robot had to detect heat-emitting  and visual "victims".  In additional robot is required to drop a "rescue-kit" to identify the victims as well.
+
+Premier Rescue challenge
+Premier Rescue is practiced in the Australian and New Zealand RoboCup Junior competitions. It is very similar to the Australian/New Zealand Rescue challenge except for some minor additions. The teams must capture the object within the marked area and place it on a platform. This is more difficult than the regular Australian/New Zealand Rescue challenge because the participants must construct a device to secure the object and lift it onto the platform.
+
+OnStage challenge
+Before 2015, it was divided into Dance and Dance Theatre Challenge.  After 2014, it merged to have a single division called OnStage.
+
+Dance challenge (before 2015)
+A team creates both a robot and a dance composition. The aim of the competition is to create a two-minute dance performance choreographed to music; with particular attention going to construction and programming.  Team members can join in to dance alongside the robot. A panel of judges decides the winner based on a number of different criteria. The dance competition is most popular amongst younger students, mostly of primary school ages.  The robots range in size from 10 cm tall to 2/3 meters tall with intricate mechanical details.
+
+Dance Theatre challenge (before 2015)
+In Dance Theatre, teams build and program robots that act out a story-based song. For example, robots could be different characters featured in it. This section of RoboCup Junior is more difficult than Dance, as the robots must complete more specialised actions.

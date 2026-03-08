@@ -1,0 +1,5 @@
+The Monarch Initiative is a large scale bioinformatics web resource focused on leveraging existing biomedical knowledge to connect genotypes with phenotypes in an effort to aid research that combats genetic diseases.
+Monarch does this by integrating multi-species genotype, phenotype, genetic variant and disease knowledge from various existing biomedical data resources into a centralized and structured database.  While this integration process has been traditionally done manually by basic researchers and clinicians on a case-by-case basis, The Monarch Initiative provides an aggregated and structured collection of data and tools that make biomedical knowledge exploration more efficient and effective.
+
+Mondo ontology
+Mondo ontology is product of the Monarch Initiative and provides harmonized disease content for diseases and disorders, both rare and common. The rare disease subset has been published with >10.5 rare diseases, and is maintained by the community.

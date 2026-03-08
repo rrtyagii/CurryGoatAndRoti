@@ -1,0 +1,91 @@
+OCR-A is a font issued in 1966 and first implemented in 1968. A special font was needed in the early days of computer optical character recognition, when there was a need for a font that could be recognized not only by the computers of that day, but also by humans. OCR-A uses simple, thick strokes to form recognizable characters.
+The font is monospaced (fixed-width), with the printer required to place glyphs 0.254 cm (0.10 inch) apart, and the reader required to accept any spacing between 0.2286 cm (0.09 inch) and 0.4572 cm (0.18 inch).
+
+Standardization
+The OCR-A font was standardized by the American National Standards Institute (ANSI)
+as ANSI X3.17-1981. X3.4 has since become the INCITS and the OCR-A standard is now called ISO 1073-1:1976.
+
+Implementations
+In 1968, American Type Founders produced OCR-A, one of the first optical character recognition typefaces to meet the criteria set by the U.S. Bureau of Standards. The design is simple so that it can be easily read by a machine, but it is more difficult for the human eye to read.
+As metal type gave way to computer-based typesetting, Tor Lillqvist used Metafont to describe the OCR-A font.  That definition was subsequently improved by Richard B. Wales. Their work is available from CTAN.
+To make the free version of the font more accessible to users of Microsoft Windows, John Sauter converted the Metafont definitions to TrueType using potrace and FontForge in 2004. In 2007, Gürkan Sengün created a Debian package from this implementation. In 2008. Luc Devroye corrected the vertical positioning in John Sauter's implementation, and fixed the name of lower case z.
+Independently, Matthew Skala used mftrace to convert the Metafont definitions to TrueType format in 2006. In 2011 he released a new version created by rewriting the Metafont definitions to work with METATYPE1, generating outlines directly without an intermediate tracing step. On September 27, 2012, he updated his implementation to version 0.2.
+In addition to these free implementations of OCR-A, there are also implementations sold by several vendors. As a joke, Tobias Frere-Jones in 1995 created Estupido-Espezial, a redesign with swashes and a long s. It was used in a "technology"-themed section of Rolling Stone.
+Maxitype designed the OCR-X typeface—based on the OCR-A typeface with OpenType features, alien/technology-themed dingbats and available in six weights (Thin, Light, Regular, Medium, Bold, Black).
+Japanese typeface foundry Visual Design Laboratory (VDL) designed two typefaces based on the OCR-A typeface: one  for Simplified Chinese characters named Jieyouti and one for Japanese characters named Yota G (ヨタG)
+, both available in five weights (Light, Regular, Medium, Semi Bold, Bold).
+
+Use
+Although optical character recognition technology has advanced to the point where such simple fonts are no longer necessary, the OCR-A font has remained in use. Its usage remains widespread in the encoding of checks around the world. Some lock box companies still insist that the account number and amount owed on a bill return form be printed in OCR-A. Also, because of its unusual look, it is sometimes used in advertising and display graphics.
+Notably, it is used for the subtitles in films and television series such as Blacklist and for the main titles in The Pretender. Additionally, OCR-A is used in the titles and subtitles for the films 13 Hours: The Secret Soldiers of Benghazi and Hoppers (film). It was also used for the logo, branding, and marketing material of the children's toy line Hexbug.
+
+Code points
+A font is a set of character shapes, or glyphs.  For a computer to use a font, each glyph must be assigned a code point in a character set.  When OCR-A was being standardized the usual character coding was the American Standard Code for Information Interchange or ASCII. Not all of the glyphs of OCR-A fit into ASCII, and for five of the characters there were alternate glyphs, which might have suggested the need for a second font. However, for convenience and efficiency all of the glyphs were expected to be accessible in a single font using ASCII coding, with the additional characters placed at coding points that would otherwise have been unused.
+The modern descendant of ASCII is Unicode, also known as ISO 10646.  Unicode contains ASCII and has special provisions for OCR characters, so some implementations of OCR-A have looked to Unicode for
+guidance on character code assignments.
+
+Pre-Unicode standard representation
+The ISO standard ISO 2033:1983, and the corresponding Japanese Industrial Standard JIS X 9010:1984 (originally JIS C 6229–1984), define character encodings for OCR-A, OCR-B and E-13B. For OCR-A, they define a modified 7-bit ASCII set (also known by its ISO-IR number ISO-IR-91) including only uppercase letters, digits, a subset of the punctuation and symbols, and some additional symbols. Codes which are redefined relative to ASCII, as opposed to simply omitted, are listed below:
+
+Additionally, the long vertical mark () is encoded at 0x7C, corresponding to the ASCII vertical bar (|).
+
+Dedicated OCR-A characters in Unicode
+The following characters have been defined for control purposes and are now in the "Optical Character Recognition" Unicode range 2440–245F:
+
+Space, digits, and unaccented letters
+All implementations of OCR-A use U+0020 for space,
+U+0030 through U+0039 for the decimal digits,
+U+0041 through U+005A for the unaccented upper case letters, and
+U+0061 through U+007A for the unaccented lower case letters.
+
+Regular characters
+In addition to the digits and unaccented letters, many of the characters of OCR-A have obvious code points in ASCII.
+Of those that do not, most, including all of OCR-A's accented letters, have obvious code points in Unicode.
+
+Remaining characters
+Linotype coded the remaining characters of OCR-A as follows:
+
+Additional characters
+The fonts that descend from the work of Tor Lillqvist and Richard B. Wales define four characters not in OCR-A to fill out the ASCII character set. These shapes use the same style as the OCR-A character shapes. They are:
+
+Linotype also defines additional characters.
+
+Exceptions
+Some implementations do not use the above code point assignments for some characters.
+
+PrecisionID
+The PrecisionID implementation of OCR-A has the following non-standard code points:
+
+OCR Hook at U+007E
+OCR Chair at U+00C1
+OCR Fork at U+00C2
+Euro Sign at U+0080
+
+Barcodesoft
+The Barcodesoft implementation of OCR-A has the following non-standard code points:
+
+OCR Hook at U+0060
+OCR Chair at U+007E
+OCR Fork at U+005F
+Long Vertical Mark at U+007C (agrees with Linotype)
+Character Erase at U+0008
+
+Morovia
+The Morovia implementation of OCR-A has the following non-standard code points:
+
+OCR Hook at U+007E (agrees with PrecisionID)
+OCR Chair at U+00F0
+OCR Fork at U+005F (agrees with Barcodesoft)
+Long Vertical Mark at U+007C (agrees with Linotype)
+
+IDAutomation
+The IDAutomation implementation of OCR-A has the following non-standard code points:
+
+OCR Hook at U+007E (agrees with PrecisionID)
+OCR Chair at U+00C1 (agrees with PrecisionID)
+OCR Fork at U+00C2 (agrees with PrecisionID)
+OCR Belt Buckle at U+00C3
+
+Sellers of font standards
+Hardcopy of ISO 1073-1:1976, distributed through ANSI, from Amazon.com
+ISO 1073-1 is also available from Techstreet, who distributes standards for ANSI and ISO

@@ -1,0 +1,80 @@
+hOCR is an open standard of data representation for formatted text obtained from optical character recognition (OCR). The definition encodes text, style, layout information, recognition confidence metrics and other information using Extensible Markup Language (XML) in the form of Hypertext Markup Language (HTML) or XHTML.
+
+Software
+The following OCR software can output the recognition result as hOCR file:
+
+OCRopus
+Tesseract
+Cuneiform
+ghostscript
+HebOCR
+gcv2hocr
+gImageReader
+
+Example
+The following example is an extract of an hOCR file:
+
+The recognized text is stored in normal text nodes of the HTML file. The distribution into separate lines and words is here given by the surrounding span tags. Moreover, the usual HTML entities are used, for example the p tag for a paragraph. Additional information is given in the properties such as:
+
+different layout elements such as "ocr_par", "ocr_line", "ocrx_word"
+geometric information for each element with a bounding box "bbox"
+language information "lang"
+some confidence values "x_wconf"
+
+bbox
+General
+The Layout of the Bounding Box Object or bbox Object is Grammar.
+
+property-name = "bbox"
+property-value = uint uint uint uint
+
+Example
+bbox 0 0 100 200
+
+The bbox - short for "bounding box" - of an element is a rectangular box around this element, which is defined by the upper-left corner (x0, y0) and the lower-right corner (x1, y1).
+the values are with reference to the top-left corner of the document image and measured in pixels
+the order of the values are x0 y0 x1 y1 = "left top right bottom"
+
+Usage
+Use x_bboxes below for character bounding boxes.
+Do not use bbox unless the bounding box of the layout component is, in fact, rectangular, some non-rectangular layout components may have rectangular bounding boxes if the non-rectangularity is caused by floating elements around which text flows.
+
+The bounding box bbox of this line is shown in blue and it is span by the upper-left corner (10, 20) and the lower-right corner (160, 30). All coordinates are measured with reference to the top-left corner of the document image which border is drawn in black.
+
+Searchable PDF files
+The hOCR format is most commonly used in order to make searchable PDF files or as an extracted metadata of the PDF file. In order to create searchable PDF files we can use a scanned document image and a .hocr file of the particular image. We can use the following open source tools in order to achieve that.
+
+hocr-tools
+Source:
+hocr-tools is an open source library written in Python. It has a command-line utility attached in the scripts called hocr-pdf  that enables us to convert standard hocr files to a searchable PDF file. It is also worth noting that the version for dealing with hocr files in RTL or non-Latin scripts like Arabic, we need to use the GitHub repository at the moment.
+hocr-pdf
+We can use the hocr-pdf utility using the following basic syntax.
+
+hocr-pdf—savefile final.pdf folder_images_and_hocr
+
+The folder_images_and_hocr must contain the respective .jpg and .hocr format files with their file extensions changed.
+
+Known issues
+Some of the known issues of hocr-pdf script in PyPI installation are the following.
+
+Not up to date with GitHub repository.
+hocr-pdf is broken on line 134 due to decodebytes() depreciated after Python 3.1
+
+Known fixes
+Compile hocr-tools using latest GitHub repository.
+
+hocr2pdf
+hocr2pdf is another library that supports the conversion of hocr files. It is written in C++ and is cross-compatible with other libraries. It also has support for UTF-8 languages but that may require some additional debugging and browsing through some google conversation records to achieve that.
+
+According to Ubuntu Manpages,ExactImage is a fast C++ image processing library. Unlike many other library frameworks it allows operation in several color spaces and bit depths natively, resulting in low memory and computational requirements. hocr2pdf creates well layouted, searchable PDF files from hOCR (annotated HTML) input obtained from an OCR system.
+
+hOCR to PDF attempts
+In addition to the following discussed and stable libraries there have been many contributions to the hOCR format over the years with support from many of the early adopters of this format. You can get access to inlaying text on an Image with hOCR and converting that in a PDF file using Python 2 with this 12-year-old script as of 2021. This script can also be updated and made functional by converting that Python 2 Source code to Python 3 Supported Context.
+- HOCRConverter by jbrinley (Documentation)
+
+HOCRConverter
+The HOCRConverter is a script written in Python 2.x that can used in order to convert a hOCR file with a specified image file in order to convert it to a searchable PDF file. You can see the documentation using the link above.
+
+Known issues
+Has not been tested.
+Does not natively support Python 3.x

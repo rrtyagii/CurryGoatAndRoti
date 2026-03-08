@@ -1,0 +1,12 @@
+Denis Yarats is a computer scientist and entrepreneur, best known as the co-founder and Chief Technology Officer (CTO) of Perplexity AI, an AI-powered search engine launched in 2022.
+
+Early life and education
+Yarats received his Ph.D. in computer science from New York University, where his research focused on reinforcement learning and natural language.
+
+Career
+In his early career, Yarats held research positions at several institutions, including Facebook AI Research (FAIR). His work during this time focused on developing scalable algorithms for learning and decision-making in complex environments.
+Later Yarats worked as a software engineer and research scientist at companies such as Quora and FAIR.
+Yarats co‑authored Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels (Yarats, Kostrikov & Fergus, ICLR 2021), which introduced the DrQ method using simple image-based data augmentations to enable model-free RL algorithms like SAC and DQN to learn directly from pixels and achieve state-of-the-art results on both DeepMind Control Suite and Atari 100k benchmarks.
+
+Perplexity AI
+In 2022, Yarats co-founded Perplexity AI alongside Aravind Srinivas, Johnny Ho and Andy Konwinski. As CTO, he led the development of the company's flagship product, an AI powered search engine designed to deliver concise, source-backed answers to user queries. The platform gained significant user traction and investment, with the company securing over $70 million in Series B funding and reaching millions of active users within two years of its launch.

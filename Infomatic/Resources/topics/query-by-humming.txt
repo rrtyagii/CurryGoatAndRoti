@@ -1,0 +1,4 @@
+Query by humming (QbH) is a music retrieval system that branches off the original classification systems of title, artist, composer, and genre. It normally applies to songs or other music with a distinct single theme or melody. The system involves taking a user-hummed or whistled melody (input query) and comparing it to an existing database. The system then returns a ranked list of music closest to the input query.
+One example of this would be a system involving a portable media player with a built-in microphone that allows for faster searching through media files.
+The MPEG-7 standard includes provisions for QbH music searches.
+Examples of QbH systems include ACRCloud, SoundHound, Musipedia, Tunebot and Google Search.

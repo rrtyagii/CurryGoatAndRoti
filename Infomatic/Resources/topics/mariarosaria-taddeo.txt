@@ -1,0 +1,23 @@
+Mariarosaria Taddeo is an Italian philosopher working on the ethics of digital technologies. She is Professor of Digital Ethics and Defence Technologies at the Oxford Internet Institute, University of Oxford. Between 2021 and 2025 she was Dstl (Defence science and technology lab) Ethics Fellow at the Alan Turing Institute, London. She is the author of 'The Ethics of Artificial Intelligence in Defence' (Oxford University Press, 2024).
+
+Education and early career
+Taddeo holds a MA in philosophy from the University of Bari and PhD in philosophy from the University of Padua. Prior to joining the Oxford Internet Institute, she was research fellow in cybersecurity and ethics at the University of Warwick. She has also held a Marie Curie Fellowship at the University of Hertfordshire, exploring information warfare.
+
+Career
+Her recent work focuses on the ethics and governance of digital technologies, and ranges from designing governance measures to leverage artificial intelligence (AI) to addressing the ethical challenges of using defence technology in defence, ethics of cybersecurity, and governance of cyber conflicts. She has published more than 150 articles in this area, focusing on topics like trustworthy digital technologies, governance of digital innovation, ethical governance of AI for national defence, ethics of cybersecurity (the complete list of her publications is available here). Her work has been published in major journals like Nature, Nature Machine Intelligence, Science, and Science Robotics.
+Professor Taddeo has led, leads, and co-leads several projects in the area of Digital Ethics successfully. Most notably, she is the PI of a current project on the ‘Ethical Principles for the Use of AI for National Security and Defence’ funded by Dstl (the UK Defence Science and Technology Laboratory). She was Co-I in an EPSRC project, which funded the PETRAS IoT Research Hub. She was PI on a project funded by the NATO Cooperative Cyber Defence Centre of Excellence (CDD COE) to define ethical guidance for the regulation of cyber conflicts.
+In September 2023 Taddeo was awarded a Title of Distinction of Professor of Digital Ethics and Defence Technologies by the University of Oxford.
+
+Service and awards
+Since 2022, she serves on the Ethics Advisory Panel of the UK Ministry of Defence. She was one of lead experts on the CEPS Task Force on ‘Artificial Intelligence and Cybersecurity’, CEPS is a major European think-tank informing EU policies on cybersecurity. Between 2018 and 2020 represented the UK of the NATO Human Factors and Medicine Exploratory Team (NATO HFM ETS) ‘Operational Ethics: Preparation and Interventions for the Future Security Environment’. Since 2016, she serves as editor-in-chief of Minds & Machines (SpringerNature). Between 2016 and 2018, she was the Oxford Fellow at the Future Council for Cybersecurity of the World Economic Forum, helping to identify the ethical and policy cybersecurity problems that could impair the development of future societies.
+In 2023, she received the title of Grand Ufficiale al Merito della Repubblica Italiana.
+In 2020, ORBIT listed her among the top 100 women working on Ethics of AI in the world.
+In the same year she was named one of the twelve 2020 “Outstanding Rising Talents” named by the Women’s Forum for Economy and Society.
+In 2018, InspiringFifty named her among the most inspiring 50 Italian women working in technology.
+She received the 2016 World Technology Award for Ethics; the 2010 Simon Award for Outstanding Research in Computing and Philosophy.
+
+Published works
+Taddeo has published two books.
+
+The Responsibilities of Online Service Providers, (2016) (2016) explores the responsibility of online service providers in contemporary societies, examining the complexity and global dimensions of the rapidly evolving challenges posed by the development of internet services.
+The Ethics of Information Warfare (2014), examines the ethical problems posed by information warfare and the different methods and approaches used to solve them.

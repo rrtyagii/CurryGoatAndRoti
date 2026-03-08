@@ -1,0 +1,26 @@
+The Data Management Association (DAMA), formerly known as the Data Administration Management Association, is a global not-for-profit organization which aims to advance concepts and practices about information management and data management. It describes itself as vendor-independent, all-volunteer organization,
+and has a membership consisting of technical and business professionals. Its international branch is called DAMA International (or DAMA-I), and DAMA also has various continental and national branches around the world.
+
+History
+The Data Management Association International was founded in 1980 in Los Angeles. Other early chapters were: San Francisco, Portland, Seattle, Minneapolis, New York, and Washington D.C.
+
+Data Management Body of Knowledge
+DAMA has published the Data Management Body of Knowledge (DMBOK), which contains suggestions on best practices and suggestions of a common vernacular for enterprise data management. The first edition (DAMA-DMBOK) was published on 2009 November 1, the second edition (DAMA-DMBOK2) was published on 2017 July 1., and the Revised second edition (DAMA-DMBOK2 rev.2) was published on 2019 March 19.
+DMBOK has been described by the authors as being an "equivalent" to the Project Management Body of Knowledge (PMBOK) and Business Analysis Body of Knowledge (BABOK). It encompasses topics such as data architecture, security, quality, modelling, governance, big data, data science, and more.
+DMBOK also includes the DAMA Data Wheel, an infographic which represents core data management practices. The center of the infographic is data governance, and the surrounding segments each represent a different aspect of data management:
+
+Data architecture
+Data modeling and design
+Data storage and operations
+Data security
+Data integration and interoperability
+Document management
+Content management
+Master data management
+Reference data and master data
+Data warehousing
+Metadata management
+Data quality
+Business intelligence
+Data science
+DAMA also provides a professional data management certification for individuals known as a Certified Data Management Professional (CDMP), which is based on the DMBOK as a study reference. It is an example of one of many competing certifications for data management professionals.

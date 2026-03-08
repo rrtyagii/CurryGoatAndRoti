@@ -1,0 +1,10 @@
+Terry R. Payne is a computer scientist and artificial intelligence researcher at the University of Liverpool. He works on the use of ontologies by Software Agents within decentralised environments.  He is best known for his work on Semantic Web Services and in particular for his work on OWL-S.
+
+Education
+Dr Payne received his Undergraduate Degree (BSc) in Computer Systems Engineering from University of Kent in 1990, an MSc in Applied Artificial Intelligence from University of Aberdeen in 1994, followed by his PhD from the same institution for his work "Dimensionality Reduction and Representation for Nearest Neighbour Learning".
+Between 1998 and 2002, he worked with Katia Sycara as a Project Scientist at the Robotics Institute of Carnegie Mellon University, before moving to the University of Southampton, and later joining the University of Liverpool in 2008.
+
+Research
+He has been conducting research into the Semantic Web since 2000, and was one of the founder members of the OWL-S coalition, jointly responsible for developing the OWL-S ontology within the OWL-based framework of the Semantic Web, that supported the description of Semantic Web Services.
+The OWL-S ontology facilitates the discovery, invocation, composition and monitoring of Web resources the offer services.  It was built on top of Web Ontology Language (OWL) by the DARPA DAML program.
+  He has also worked on various uses of decentralised knowledge negotiation in autonomous agent communities.

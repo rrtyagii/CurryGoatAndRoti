@@ -1,0 +1,20 @@
+Sébastien Bubeck (born April 16, 1985) is a French-American computer scientist. He was Microsoft's Vice President of Applied Research,  Distinguished Scientist, and led the Machine Learning Foundations group at Microsoft Research Redmond. Bubeck was formerly professor at Princeton University and a researcher at the University of California, Berkeley. He is known for his contributions to online learning, optimization and more recently studying deep neural networks, and in particular transformer models. Since 2024, he works for OpenAI.
+
+Work
+Bubeck's work spans a wide variety of topics in machine learning, theoretical computer science and artificial intelligence. Some of his most notable contributions include developing minimax rate for multi-armed bandits, linear bandits, developing an optimal algorithm for bandit convex optimization, and solving long-standing problems in k-server and metrical task systems. In regards to the mathematical theory of neural networks, Bubeck has both introduced and proved the law of robustness which links the number of parameters of a neural network and its regularity properties. Bubeck has also made contributions to convex optimization, network analysis, and information theory. Bubeck's papers have over 25,000 citations to date.
+Prior to joining Microsoft Research, Bubeck was an assistant professor at Princeton University in the Department of Operations Research and Financial Engineering. He received his PhD from the Lille 1 University of Science and Technology, and also studied at the Ecole Normale Supérieure de Cachan.
+Bubeck is the author of the book Convex optimization: Algorithms and complexity (2015). He has also been on the editorial board of several scientific journals and conferences, including the Journal of the ACM and Neural Information Processing Systems (NeurIPS) and was program committee chair for the 2018 Conference on Learning Theory (COLT)
+In 2023, Bubeck and his collaborators published a paper that claimed to observe "sparks of artificial general intelligence" in an early version of GPT-4, a large language model developed by OpenAI. The paper presented examples of GPT-4 performing tasks across various domains and modalities, such as mathematics, coding, vision, medicine, and law. The paper sparked wide interest and debate in the scientific community and the popular media, as it challenged the conventional understanding of learning and cognition in AI systems. Bubeck also investigated the potential use of GPT-4 as an AI chatbot for medicine in a paper that evaluated the strengths, weaknesses, and ethical issues of relying on such a tool for medical purposes
+In October 2024, Bubeck left Microsoft to join OpenAI.
+
+Honors and awards
+Bubeck has received numerous honors and awards for his work, including the Alfred P. Sloan Research Fellowship in Computer Science in 2015, and Best Paper Awards at the Conference on Learning Theory (COLT) in 2016, Neural Information Processing Systems (NeurIPS) in 2018 and 2021 and in the ACM Symposium on Theory of Computing (STOC) 2023. He has also received the Jacques Neveu prize for the best French PhD in Probability/Statistics, the runner-up prize in AfIA's 2011 French AI thesis awards, and one of the two second prizes in the 2010 Gilles Kahn prize for a French PhD in computer science.
+
+Selected publications
+Minimax policies for adversarial and stochastic bandits (2009), with Jean-Yves Audibert.
+Best arm identification in multi-armed bandits (2010), with Jean-Yves Audibert and Rémi Munos.
+Kernel-based methods for bandit convex optimization (2017), with Yin Tat Lee and Ronen Eldan.
+A universal law of robustness via isoperimetry (2020), with Mark Sellke.
+K-server via multiscale entropic regularization (2018), with Michael B. Cohen, Yin Tat Lee, James R. Lee, and Aleksander Madry.
+Competitively chasing convex bodies (2019), with Yin Tat Lee, Yuanzhi Li, and Mark Sellke.
+Regret analysis of stochastic and nonstochastic multi-armed bandit problems (2012), with Nicolò Cesa-Bianchi.

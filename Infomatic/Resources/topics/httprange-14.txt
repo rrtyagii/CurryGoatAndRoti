@@ -1,0 +1,20 @@
+httpRange-14 is a long-running logical conundrum or design problem in the semantic web. The problem arises because when HTTP is extended from referring only to documents to talking about real-world things (planets, flowers, emotions, Platonic forms, etc) the domain of HTTP GET becomes undefined.
+
+History
+The HTTP protocol was originally designed to transfer information objects, specifically Hypertext such as HTML. The GET request was issued by a client to retrieve data at a particular URL. Retrieving non-HTML information objects (images, Flash files, CSS files, streaming video, etc) was not a problem, since all of these could be streamed across the network using standard approaches developed by earlier protocols.
+The semantic web was invented, spearheaded by the W3C and Tim Berners-Lee, which used URLs to refer to real world things (planets, flowers, emotions, Platonic forms, etc) which could not be reduced to network streams. The question of what web servers should do when asked for one of these things arose.
+
+Use of #
+URIs of real world things can be limited to 'hash URIs', that is URIs containing a fragment identifier. These URIs cannot be directly deferenced via HTTP so the protocol does not need to worry about the conflict. In this approach a URI not ending in a hash is understood to refer to a document, whereas the same URI with a '#' appended can refer to an abstract concept.
+
+Use of HTTP Status Code 303 See Other
+The HTTP Status Code 303 See Other is to be interpreted as follows:
+
+A 303 response to a GET request indicates that the origin server does not have a representation of the target resource that can be transferred by the server over HTTP.  However, the Location field value refers to a resource that is descriptive of the target resource, such that making a retrieval request on that other resource might result in a representation that is useful to recipients without implying that it represents the original target resource.  Note that answers to the questions of what can be represented, what representations are adequate, and what might be a useful description are outside the scope of HTTP.
+By sending a 303 when asked for a non-information resource and redirecting to an information resource about the non-information resource, the server answers the requesters information need without having to supply the actual thing. This is recommended as good practice by the W3C August 2007 draft.
+
+Resolution
+The W3C's Cool URIs for the Semantic Web document recommends using one or other of these two methods, depending on the requirements of the project.
+
+Implications
+The impact of the issue (more correctly the impact of confusion around the issue) is greatest in semantic web communities whose models involve large numbers of abstract concepts which cannot be serialised, such as the FRBR community.

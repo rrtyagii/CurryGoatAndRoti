@@ -1,0 +1,34 @@
+Boi Volkert Faltings (born April 10, 1960) is a Swiss professor of artificial intelligence at École Polytechnique Fédérale de Lausanne.
+
+Education
+Faltings was born in Gelsenkirchen, Germany, and he received a diploma with distinction from ETH Zurich in 1983, where he studied electrical engineering with James Massey. He obtained a Ph.D. degree from the University of Illinois at Urbana–Champaign in 1987 under the supervision of Ken Forbus. His thesis was entitled "Qualitative kinematics in mechanisms" and showed for the first time how to derive kinematic interactions from object shapes.
+
+Work
+Faltings is noted for work in artificial intelligence, especially in qualitative reasoning about mechanisms, case-based reasoning in design, constraint satisfaction in design and logistics, and intelligent user interfaces. His recent work has centered on multi-agent systems, in particular the DPOP family of algorithms for distributed constraint optimization, the blocking island abstraction technique for network routing, and game-theoretic techniques for eliciting truthful information, in particular the peer truth serum.
+In 1997,  Faltings co-founded the company Iconomic Systems, known for development of  an agent-based paradigm for travel e-commerce. He subsequently co-founded 5 other  companies. Among them, in 2004 he co-founded NexThink, providing network security and data analytics. In 2007, he co-founded Prediggo, a company that provides  recommender systems.
+Faltings was nominated professor at the Ecole Polytechnique Fédérale de Lausanne in 1987 and promoted to full professor in 1993. He founded the Artificial Intelligence Laboratory and served as head for the Department of Computer Science. He has spent 6 months each as visiting professor at Stanford University and the Hong Kong University of Science and Technology. He has served as associate editor for numerous journals, including the Journal of Artificial Intelligence Research, the Artificial Intelligence, the ACM Transactions on Intelligent Systems and Technology, the ACM Transactions on Economics and Computation, and the ACM Transactions on Social Computing. He was president of the Swiss Group for Artificial Intelligence and Cognitive Science from 1995 to 2014, and member of the executive council of the Association for Advancement of Artificial Intelligence from 2014 to 2017.
+
+Honors
+In 1983, Faltings received the silver medal of the ETH Zurich for his diploma thesis. In 1984, he received an IBM graduate fellowship. In 2000, he received a distinguished service award from IFIP. In 2002, he was elected a Fellow of the European Coordinating Committee for Artificial Intelligence,  and in  2012, he was elected a Fellow of the Association for the Advancement of Artificial Intelligence.
+
+Selected publications
+He is the main author (with Goran Radanovic) of Game Theory for Data Science. Morgan Claypool, 2017,  which summarizes recent work on game-theoretic mechanisms for eliciting truthful information.
+Two representative publications on this topic are:
+
+"An incentive compatible reputation mechanism" (with Radu Jurca). in E-Commerce, 2003. CEC 2003. IEEE International Conference on Electronic Commerce 2003 Jun 24 (pp. 285–292). IEEE.
+"Incentives for effort in crowdsourcing using the peer truth serum"  (with Radu Jurca and Goran Radanovic). ACM Transactions on Intelligent Systems and Technology (TIST). 14;7(4):48, 2016
+His most cited work introduces the DPOP algorithm for distributed constraint optimization:
+
+"A scalable method for multiagent constraint optimization"(with Adrian Petcu), Proceedings of the 19th International Joint Conference on Artificial Intelligence (IJCAI), pp. 266–27, 2005.  [1] According to Google Scholar, this paper has been cited 642 times as of December 2018
+Important subsequent works on distributed constraint optimization include:
+
+The most general version of the DPOP algorithm: "MB-DPOP: A New Memory-Bounded Algorithm for Distributed Optimization " (with Adrian Petcu), Proceedings of the 20th International Joint Conference on Artificial Intelligence (IJCAI), pp. 1452–1457, 2007
+The first fully private version of the DPOP algorithm: "Privacy guarantees through distributed constraint satisfaction" (with Adrian Petcu and Thomas Léauté) WI-IAT 2008. IEEE/WIC/ACM International Conference on Intelligent Agent Technology (Vol. 2, pp. 350–358). IEEE, 2008
+Other important peer-reviewed publications are:
+
+Using qualitative reasoning for design: "FAMING: Supporting innovative mechanism shape design" (with Kun Sun). Computer-Aided Design, 28(3), pp. 207–216, 1996
+The main patent underlying the blocking islands method: "Method of management in a circuit-switched communication network and device which can be used as a node in a circuit-switched communication network," US patent No. 6,842,780
+The main patent underlying the company NexThink: "Method of detecting anomalous behaviour in a computer network." US Patent 8,631,464, 2014
+"A budget-balanced, incentive-compatible scheme for social choice."  Agent-Mediated Electronic Commerce VI. Theories for and Engineering of Distributed Mechanisms and Systems, pp. 30–43. Springer LNCS 3435, 2004.
+The ontology filtering technology underlying the company Prediggo: "OSS: A Semantic Similarity Function based on Hierarchical Ontologies" (with Vincent Schickel). Proceedings of the 20th International Joint Conference on Artificial Intelligence (IJCAI), pp. 551–556, 2007
+"Understanding and improving relational matrix factorization in recommender systems" (with Li Pu). In Proceedings of the 7th ACM Conference on Recommender Systems (pp. 41–48). ACM, 2013

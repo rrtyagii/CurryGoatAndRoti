@@ -1,0 +1,24 @@
+Martin Charles Golumbic (born 1948) is a mathematician and computer scientist known for his research on perfect graphs, graph sandwich problems, tolerance graphs, compiler optimization, and spatial-temporal reasoning. He is a professor emeritus of computer science at the University of Haifa, and was the founder of the journal Annals of Mathematics and Artificial Intelligence.
+
+Education and career
+Golumbic majored in mathematics at Pennsylvania State University, graduating in 1970 with bachelor's and master's degrees. He completed his Ph.D. at Columbia University in 1975, with the dissertation Comparability Graphs and a New Matroid supervised by Samuel Eilenberg.
+He became an assistant professor in the Courant Institute of Mathematical Sciences of New York University from 1975 until 1980, when he moved to Bell Laboratories. From 1983 to 1992 he worked for IBM Research in Israel, and from 1992 to 2000 he was a professor of mathematics and computer science at Bar-Ilan University. He moved to the University of Haifa in 2000, where he founded the Caesarea Edmond Benjamin de Rothschild Institute for Interdisciplinary Applications of Computer Science.
+In 1989, Golumbic founded the Bar-Ilan Symposium in Foundations of Artificial Intelligence, a leading artificial intelligence conference in Israel. In 1990 Golumbic became the founding editor-in-chief of the journal Annals of Mathematics and Artificial Intelligence, published by Springer.
+
+Recognition
+Golumbic is a fellow of the European Association for Artificial Intelligence (2005). He was elected to the Academia Europaea in 2013.
+At the 2019 Bar-Ilan Symposium in Foundations of Artificial Intelligence, Golumbic was given the Lifetime Achievement and Service Award of the Israeli Association for Artificial Intelligence.
+
+Selected publications
+Books
+Algorithmic Graph Theory and Perfect Graphs (Academic Press, 1980; 2nd ed., Elsevier, 2004)
+Tolerance Graphs (with Ann Trenk, Cambridge University Press, 2004)
+Fighting Terror Online: The Convergence of Security, Technology, and the Law (Springer, 2008)
+The Zeroth Book of Graph Theory: An Annotated Translation of Les Réseaux (ou Graphes)-André Sainte-Laguë (1926) (Springer, 2021)
+
+Other publications
+Bernstein, D.; Golumbic, M.; Mansour, Y.; Pinter, R.; Goldin, D.; Krawczyk, H.; Nahshon, I. (July 1989). "Spill code minimization techniques for optimizing compilers". ACM SIGPLAN Notices. 24 (7): 258–263. doi:10.1145/74818.74841.
+Golumbic, Martin Charles; Shamir, Ron (November 1993). "Complexity and algorithms for reasoning about time". Journal of the ACM. 40 (5): 1108–1133. doi:10.1145/174147.169675. MR 1368960. S2CID 15708027.
+Goldberg, Paul W.; Golumbic, Martin C.; Kaplan, Haim; Shamir, Ron (January 1995). "Four strikes against physical mapping of DNA". Journal of Computational Biology. 2 (1): 139–152. doi:10.1089/cmb.1995.2.139. PMID 7497116.
+Golumbic, Martin Charles; Kaplan, Haim; Shamir, Ron (1995). "Graph sandwich problems". Journal of Algorithms. 19 (3): 449–473. doi:10.1006/jagm.1995.1047. MR 1355650.
+Golumbic, Martin Charles; Rotics, Udi (2000). "On the clique-width of some perfect graph classes". International Journal of Foundations of Computer Science. 11 (3): 423–443. doi:10.1142/S0129054100000260. MR 1792124.

@@ -1,0 +1,23 @@
+Foundations of Genetic Algorithms (FOGA) is a biennial peer-reviewed research conference focusing on the theoretical principles underlying genetic algorithms, other evolutionary algorithms and related heuristics. It is organized by the ACM SIGEVO, the ACM special interest group on Genetic and Evolutionary Computation. Its relevance to the computer science research community has been reflected in an A-rating in the CORE computer science conference assessment system.
+
+History
+The Foundations of Genetic Algorithms (FOGA) conference originated as a workshop in 1990 in order to create an opportunity for researchers on genetic algorithms and related areas of evolutionary computation to focus on the theoretical principles underlying their field. From the start its multi-day duration made it comparable to conferences in the field, and since 2015 its proceedings have used conference rather than workshop in their titles.
+In 2005 ACM SIGEVO the Association for Computing Machinery Special Interest Group on Genetic and Evolutionary Computation was formed and every FOGA conference since then has been supported by SIGEVO. The table below shows FOGA conferences by year, location, websites (where available) and publisher of proceedings. A citation follows the reference to the publisher giving the full details of each FOGA proceedings.
+
+Format
+FOGA is a single-track three or more-day conference focusing on the theory underlying evolutionary algorithms and related heuristics. (See the conference proceedings or websites for the actual duration of each conference.)
+
+Keynote speakers
+Keynote speakers are invited to give presentations in addition to the main program. Keynote speakers at recent conferences are gven in the table below.
+
+Poster sessions
+Papers accepted at recent conferences have been presented as digital or print posters in poster sessions at the conference, before being published in written form in the conference proceedings.
+
+Awards
+Since 2019 a Best Paper Award has been presented at each FOGA conference.
+
+Relevance
+FOGA is comparable in its multi-day duration to other conferences on evolutionary computation such as CEC, GECCO and PPSN. The main difference is that FOGA focuses on the theoretical basis of evolutionary computation and related subjects. While the above conferences devote some time to theory they also cover a wide range of other topics including competitions and applications. This focus on theoretical computer science was reflected in the CORE computer science conference assessment exercise, where FOGA was given an A-ranking in the 2023 assessment. GECCO and PPSN also obtained A-rankings, but many other conferences in the field of evolutionary computation obtained lower rankings. This suggests that FOGA is a relevant conference in its field, comparable with others including the much larger CEC or GECCO.
+
+
+== References and notes ==

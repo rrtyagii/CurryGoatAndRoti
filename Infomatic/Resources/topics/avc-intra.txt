@@ -1,0 +1,61 @@
+AVC-Intra is a term used by Panasonic to refer to its profiles of the H.264/MPEG-4 AVC standard encapsulated in MXF-format files. Among other features, it records video with only intra coding, so as to make it possible to edit videos without loss of quality, and makes other simplifications such as making the size of each frame fixed. The original AVC-Intra defines 10-bit 4:2:0 coding at 50 Mbit/s or 10-bit 4:2:2 at 100 Mbit/s for 1080p/i or 720p/i video.
+AVC-Intra is available in Panasonic's high definition broadcast products such as their P2 card equipped broadcast cameras. Panasonic markets its storage products based on the level of AVC-Intra it can sustain.
+
+Technical details
+In April 2007, Panasonic announced AVC-Intra codec support. The use of AVC-Intra provides production quality HD video at bit rates more normally associated with electronic news gathering applications, permitting full resolution, 10-bit field capture of high quality HD imagery in one piece camera-recorders.
+Panasonic claims to follow the SMPTE RP 2027–2007 recommended practice specification. Analysis by the x264 project has shown that Panasonic does not comply with this specification
+AVC-Intra was intended for video professionals who have to store HD digital video for editing and archiving. According to Panasonic, the new technology significantly outperforms the older HDV (MPEG2 based) and DVCPRO HD (DV based) formats, allowing the codec in certain conditions to maintain better quality in half the storage space of DVCPRO HD.
+AVC-Intra defines two classes:
+
+AVC-Intra 50:
+nominally 50 Mbit/s, size of each frame is fixed
+CABAC entropy coding only.
+1920 × 1080 formats are High 10 Intra Profile, Level 4
+1280 × 720 formats are High 10 Intra Profile, Level 3.2
+4:2:0 chrominance sampling
+frames are horizontally scaled by 3/4 (1920x1080 is scaled to 1440x1080. 1280 × 720 is scaled to 960x720)
+AVC-Intra 100:
+nominally 100 Mbit/s, size of each frame is fixed
+CAVLC entropy coding only.
+All formats are High 4:2:2 Intra Profile, Level 4.1
+4:2:2 chrominance sampling
+frames are not scaled
+Common to both classes;
+
+Frame rates: 1920 × 1080 (23.98p / 25p / 29.97p / 50i / 59.94i), 1280 × 720 (23.98p / 25p / 29.97p / 50p / 59.94p)
+10 bit luma and chroma
+Panasonic's implementation of AVC-Intra codec has following limitations: 8 × 8 transform only, 8 × 8 intra prediction only, 10 slices per picture, MBAFF for interlace material, custom quantization matrices for each class and each resolution.
+
+AVC-Ultra
+The Panasonic AVC-Ultra family defines an additional three new encoding parameters within the MPEG-4 Part 10 (still H.264) standard, utilizing up to the 4:4:4 Intra Predictive Profile, as well as an additional low bitrate proxy recording mode. AVC-Ultra includes three parts: AVC-Intra, AVC-LongG, and AVC-Proxy.
+AVC-Intra is an expanded version of the existing AVC Intra. Changes include:
+
+Add Class 200, a 4:2:2 class with twice the bitrate budget of Class 100, up to 266 Mbit/s for 1080p{25,30} and 1080i{50,60}, or 452 Mbit/s for 1080p{50,60}.
+Add Class 4:4:4, a 12-bit VBR class with about the same bitrate budget as Class 200.
+Maximum budgets are changed for the older classes. For example, class 50 typically uses 54 Mbit/s now.
+AVC-LongG enables "long" (inter frame compression) for vastly increased compression rates at qualities comparable to AVC-Intra. It is intended for reducing operation costs in video production, and especially for transmitting HD video over 50 Mbps communication lines intended for SDTV. All levels are VBR. There are four levels: G6 (4:2:0 8-bit), G12 (4:2:0 8-bit), G25 (4:2:2 10-bit), G50 (4:2:2 10-bit) with the numbers corresponding to the bitrate at 1080i50/60 and 720p50/60. G6 and G12 support the mov format in addition to MXF.
+AVC-Proxy uses greatly reduced bitrates. All levels are VBR, 4:2:0 8-bit, and use the QuickTime mov format. The highest level is G6 (6 Mbps for all resolutions, no downscaling). The lower levels, SHQ, HQ, LOW, reduce the input stream's resolution to achieve 3.5, 1.5, and 0.8 Mbps respectively. A recoder can generate a higher-quality recording and AVC-Proxy at the same time. The smaller "proxy" recording is then useful in reviewing the content or off-line editing in a remote place.
+
+Third-party support
+Avid's Media Composer since v 3.5.0 provides support via Avid Media Access (AMA), a new plug-in architecture
+Apple's Final Cut Pro 7 provides native AVC-Intra decoding within a ProRes 422 timeline.
+Apple's Final Cut Pro X provides native editing of AVC-Intra, including AVC-Intra 100 and AVC-Intra 50, as well as AVC-LongG, with support for import and playback without transcoding within a ProRes 422 timeline.
+MXF4mac offers an AVC-Intra codec for QuickTime that allows to export AVC-Intra and to set up native AVC-Intra timelines in Final Cut Pro.
+EVS Broadcast Equipment has announced AVC-Intra 100 support for their XT[2]+, XT[3] and XS server family
+MainConcept offer an AVC-Intra encoder and decoder as part of their Codec SDK
+Harris Corporation announced AVC-Intra support for the NEXIO AMP line of video servers at NAB 2008
+Omneon announced AVC-Intra support for their Spectrum and MediaDeck products in 2007.
+Quantel demonstrated AVC-Intra workflow at NAB 2007, and released to customers in 2008 with their V4 software.
+Grass Valley has announced native support for AVC-Intra in Edius 4.5
+Adobe's After Effects CS5 provides native AVC-Intra decoding.
+Vanguard Software Solutions provides an H.264/AVC PC SDK capable of encoding at 100 Mbit/s in real-time
+FFmpeg and Libav support decoding of both forms of AVC-Intra
+ATEME AVC-I Contribution Encoders
+x264 can encode AVC-Intra
+Broadcast products based on SHINE Media Platform of GammaRED Engineering
+Several companies introduced AVC Intra codec semiconductor intellectual property cores.
+
+CoreEL Technologies provides AVC-Intra Class 50 and AVC-Intra Class 100 IP cores.
+Tata Elxsi provides AVC-Intra & AVC-Ultra fully optimizable class 50 and 100 IP.
+Vanguard Software Solutions provides AVC-Intra 50 and 100 encoder IP (up to AVC-Ultra: 1080p60 at 300 Mbit/s).
+Nethra Imaging provides AVC-Intra 50 and 100 encoder IP.

@@ -1,0 +1,8 @@
+Hussein A. Abbass is an Egyptian researcher into artificial intelligence and professor at the University of New South Wales. He joined the university in 2000 and became a professor in 2007. He is known for his research into the language Jingulu and its uses for artificial intelligence. He is the founder and first editor of the IEEE's Transactions on Artificial Intelligence journal. Abbass was made a fellow of the IEEE in 2020 "for contributions to evolutionary learning and optimization".
+In the past, Abbass served as the IEEE Computational Intelligence Society's vice-president of technical activities from 2016 to 2019 and the President of the Australian Society for Operations Research (2017–2019). He was a visiting fellow at Imperial College London (2003), visiting professor at University of Illinois Urbana-Champaign (2005), visiting professor at National Defence Academy, Japan (2013) and a visiting professor at the National University of Singapore (2014).
+
+Publications
+Green, David; Abbass, Hussain and Liu, Jing: Dual Phase Evolution. Springer, 2013. ISBN 9781441984234
+Abbass, Hussain: Computational Red Teaming. Springer, 2014. ISBN 9783319082813
+Liu, Jing; Abbass, Hussain and Chen Tan, Kay: Evolutionary Computation and Complex Networks. Springer, 2018. ISBN 9783319600000
+Tang, Jiangjun; Green, David and Abbass, Hussain: Simulation and Computational Red Teaming for Problem Solving. Wiley, 2019. ISBN 9781441984234

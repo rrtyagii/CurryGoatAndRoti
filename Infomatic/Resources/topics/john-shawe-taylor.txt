@@ -1,0 +1,11 @@
+John Stewart Shawe-Taylor (born 1953) is Director of the Centre for Computational Statistics and Machine Learning at University College, London (UK). His main research area is statistical learning theory. He has contributed to a number of fields ranging from graph theory through cryptography to statistical learning theory and its applications. However, his main contributions have been in the development of the analysis and subsequent algorithmic definition of principled machine learning algorithms founded in statistical learning theory. This work has helped to drive a fundamental rebirth in the field of machine learning with the introduction of kernel methods and support vector machines, including the mapping of these approaches onto novel domains including work in computer vision, document classification and brain scan analysis. More recently he has worked on interactive learning and reinforcement learning. He has also been instrumental in assembling a series of influential European Networks of Excellence (initially the NeuroCOLT projects and later the PASCAL networks). The scientific coordination of these projects has influenced a generation of researchers and promoted the widespread uptake of machine learning in both science and industry that we are currently witnessing. He has published over 300 papers with over 42000 citations. Two books co-authored with Nello Cristianini have become standard monographs for the study of kernel methods and support vector machines and together have attracted 21000 citations. He was Head of the Computer Science Department at University College London from 2010 to 2019, where he oversaw a significant expansion and witnessed its emergence as the highest ranked Computer Science Department in the UK in the 2014 UK Research Evaluation Framework (REF).
+
+Publications
+He has written with Nello Cristianini  two books on the theory of support vector machines and kernel methods:
+
+An introduction to support vector machines N.C. and J. S.T. Cambridge University Press, 2000.
+Kernel methods for pattern analysis J. S.T and N.C. Cambridge University Press, 2004.
+He has published research in neural networks, machine learning, and  graph theory.
+
+Schooling
+He was educated at Shrewsbury and graduated from the University of Ljubljana, Slovenia.

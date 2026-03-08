@@ -1,0 +1,21 @@
+The Bulgarian WordNet (BulNet) is an electronic multilingual dictionary of synonym sets along with their explanatory definitions and sets of semantic relations with other words in the language.
+It follows the Princeton WordNet (PWN) framework which implements the traditional semantic networks whose structure consists of nodes and relations between the nodes.
+
+General information
+BulNet was started within the EU-funded project BalkaNet - a Multilingual Semantic Network of the Balkan Languages. After BalkaNet's completion. development of BulNet continued with Bulgarian government support.
+
+Contents of BulNet
+Categories
+As of 2015, BulNet contained more than 80,000 synonym sets distributed into nine parts of speech - nouns, verbs, adjectives, adverbs, pronouns, prepositions, conjunctions, particles and interjections.
+The words included in BulNet have been selected according to different criteria.  The main criteria are the frequency analysis of the word occurrences in large text corpora and the inclusion of synsets.  The synsets include those already featured in the wordnets of other languages and synsets that correspond to high-frequency word senses found in parallel corpora.
+
+Synsets
+Each synset encodes the relation of equivalence between a number of lexical items — LITERALS (at least one should be explicitly represented in the SYNSET), each of them having a unique meaning (specified by the value of SENSE) — which pertain to one and the same part of speech (specified as the value of POS) and represent one and the same lexical meaning (specified as the value of DEF). Each synset is linked to its counterpart in PWN 3.0 by means of a unique identification number - ID. The common synsets in the Balkan languages are marked as common concepts subsets — BCS.
+In a monolingual database, a synset should be linked to at least one other synset through an intralingual relation. Non-obligatory information may also be encoded such as examples of usage, stylistic peculiarities, morphological or syntactic properties, author and last edit details.
+
+Semantic relations
+The large number of relations encoded in BulNet effectively illustrates the language's semantic and derivational richness that offers diverse opportunities for numerous applications of the multilingual database. BulNet offers linguistic solutions at the semantic level such as options for synonym selection, queries for semantic relations of a word in the language's lexical system (antonymy, holonymy, etc.), explanatory definition queries and translation equivalents for a lexical item.
+BulNet is an electronic multilingual dictionary of synonym sets along with their explanatory definitions and sets of semantic relations with other words in the language.
+
+Hydra
+Hydra is an OS-independent system designed for wordnet development, validation and exploration. The program enables users to browse and edit any number of monolingual wordnets at a time. The individual wordnets are synchronised, so that equivalent synonym sets, or synsets, may be viewed and explored in parallel.

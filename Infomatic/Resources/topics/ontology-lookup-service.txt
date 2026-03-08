@@ -1,0 +1,1 @@
+The Ontology Lookup Service (OLS) is a repository for biomedical ontologies, part of the ELIXIR infrastructure. It is supported by the European Bioinformatics Institute (EMBL-EBI).

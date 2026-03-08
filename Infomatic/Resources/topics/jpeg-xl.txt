@@ -1,0 +1,185 @@
+The JPEG XL Image Coding System (JPEG XL, sometimes shortened to JXL) is an image format that supports both lossy and lossless compression. It was developed by the Joint Photographic Experts Group (JPEG), Google and Cloudinary. It is a free and open standard defined by ISO/IEC 18181. The standard consists of four parts that cover the Core coding system, File format, Conformance testing, and Reference software, respectively.
+JPEG XL features a lossy compression mode called VarDCT built on block-based transform coding, which is similar to — but significantly improves and expands upon — the compression method of JPEG, and a modular mode that allows different features of the format to be combined in a "modular" way. Modular mode can be used either for lossless image compression, similar to PNG, or as a means to achieve lossy compression in a different way from VarDCT.
+The name refers to the design committee (JPEG), the X designates the series of its image coding standards published since 2000 (JPEG XT/XR/XS), and L stands for "long-term", highlighting the intent to create a future-proof, long-lived format to succeed JPEG/JFIF.
+The main authors of the specification are Jyrki Alakuijala, Jon Sneyers, Zoltan Szabadka, and Luca Versari. Other collaborators are Sami Boukortt, Alex Deymo, Moritz Firsching, Thomas Fischbacher, Eugene Kliuchnikov, Robert Obryk, Alexander Rhatushnyak, Lode Vandevenne, and Jan Wassenberg.
+
+Positioning
+JPEG XL was designed to become a universal replacement for all established raster formats for the Web.
+To reach widespread adoption (unlike previous attempts, including several JPEG standards), the designers hope for beneficial network effects by offering the single best option for as many popular use cases as possible.
+To that end the format offers significant improvements over all other (established) options with a comprehensive set of useful properties, geared especially towards accessibility over the Web and a smooth upgrade path, in combination with uncompromisingly powerful, yet efficiently computable compression and efficient data representation. Following a study about the most popular JPEG quality on the Web, developers paid special attention to the range with negligible or no perceived loss, and the default settings were adjusted accordingly. Several serious attempts at replacing JPEG that provided poor support for the high end of the quality range have failed.
+The JPEG XL call for proposals talks about the requirement of substantially better compression efficiency (60% improvement) comparing to JPEG. The standard is expected to outperform the still image compression performance shown by HEIC, AVIF, WebP, and JPEG 2000.
+
+History
+In 2015, Jon Sneyers of the company Cloudinary published his Free Lossless Image Format (FLIF) on which he based his standardization proposal, called the Free Universal Image Format (FUIF), that begot JXL's "modular mode".
+In 2017 Google's data compression research team in Zurich published the PIK format, the prototype for the frequency transform coding mode.
+In 2018, the Joint Photographic Experts Group (JTC1 / SC29 / WG1) published a call for proposals for JPEG XL, its next-generation image coding standard. The proposals were submitted by September 2018. From seven proposals, the committee selected two as the starting point for the development of the new format: FUIF and PIK. In July 2019 the committee published a draft, mainly based on a combination of the two proposals. The bitstream was informally frozen on 24 December 2020 with the release of version 0.2 of the libjxl reference software.
+The file format and core coding system were formally standardized on 13 October 2021 and 30 March 2022 respectively.
+
+Industry support and adoption
+Besides Cloudinary, throughout JPEG XL's preliminary implementation in web browsers, various representatives of well-known industry brand names have publicly voiced support for JPEG XL as their preferred choice, including Facebook, Adobe, Intel, the Video Electronics Standards Association, The Guardian, Flickr, SmugMug, Shopify, the Krita Foundation, and Serif Ltd.
+Google's stance on JPEG XL was historically ambiguous, as it contributed to the format but refrained from shipping an implementation of it in its browser. Support in Chromium and Chrome web browsers was introduced for testing April 1, 2021 and removed on December 9, 2022 – with support removed in version 110. The Chrome team cited a lack of interest from the ecosystem, insufficient improvements, and a wish to focus on improving existing formats as reasons for removing JPEG XL support.
+The decision was met with opposition from the community, with many voicing support for JPEG XL on Chromium's bug tracker. Jon Sneyers, co-author of the JPEG XL spec, has questioned the conclusions drawn by the Chrome team, saying: "I think there has been an unfortunate misinterpretation of the data ... which has unfortunately led to an incorrect decision." The decision was also criticized by Greg Farough from the Free Software Foundation, who said it demonstrated Google's "disturbing amount of control" over the web and web browsers.
+In November 2025, the Chrome team reverted their stance on JPEG XL and announced that it was open to contributions to integrate a memory safe and performant decoder in Blink. The team would require the decoder implementation to have commitment to long-term maintenance to ship it in Chrome.  In January 2026, JPEG XL decoding support was merged into Chromium.
+Mozilla expressed security concerns, as they feel that the rather bulky reference decoder would add a substantial amount of attack surface to Firefox. They expressed willingness to ship a decoder that meets their criteria if someone provides and integrates a suitable implementation. The JPEG XL team at Google Research has offered to write a decoder using the Rust programming language but maintains neutral position on supporting JPEG XL.
+
+An extension to enable JPEG XL support in Chrome and Firefox became available in January 2024.
+Apple Inc. included native JPEG XL file support starting with iOS/iPadOS 17, macOS 14 Sonoma, and Safari 17. iPhone 16 Pro supports JPEG XL compression when capturing ProRAW photos.
+Microsoft added support for opening and saving JPEG XL files for Windows 11 24H2 via the JPEG XL image extension in Microsoft Store. Also Microsoft Photos added native JPEG XL support in the 2025.11030.20006.0 build.
+The raw image format Digital Negative (DNG) allows image data contained within to be compressed using JPEG XL. Starting in version 1.7.0.0 from June 2023, JPEG XL compression was included as part of the specification. This created a basis for later use as part of "Expert RAW" in Samsung Galaxy smartphones and Apple's "ProRAW".
+The PDF Association has stated in the PDF Days Europe 2025 event that they selected JPEG XL as the preferred image format for HDR images embedded for PDF, although no timeline has been given.
+
+Standardization status
+Features
+JPEG XL has features aimed at web delivery such as advanced progressive decoding, embedded previews, and minimal header overhead, as well as features aimed at image editing and digital printing, such as support for multiple layers, CMYK, and spot colors. It also supports animated images.
+The main features are:
+Compression:
+
+Lossless encoding for any channel, including alpha.
+Support for both photographic and synthetic imagery: The format features two complementary modes that can be used depending on the image contents.
+Computationally efficient encoding and decoding without requiring specialized hardware: JPEG XL is about as fast to encode and decode as old JPEG using libjpeg-turbo and an order of magnitude faster to encode and decode compared to HEIC with x265.
+It is also parallelizable.
+Data reduction:
+
+Lossy compression is supported through the optional quantization of transform coefficients.
+High image fidelity is well supported.
+Graceful quality degradation across a large range of bitrates: Quality loss isn't as abrupt as with older formats.
+Perceptually optimized reference encoder which uses a perceptual color space, and adaptive quantization.
+Versatile and future-proof size limits:
+
+JPEG XL supports ultra-high-resolution images (up to 1 terapixel) with dimensions of over a billion (230-1) pixels per side,
+sample precision of up to 32 bits, e.g. for HDR content.
+up to 4099 channels/components: either one (grayscale), three (RGB), or four (CMYK) main channels. The rest of the channels are optional and can be used to store e.g. alpha for transparency/compositing (either "straight" or "premultiplied"), depth, or thermal data.
+There can be multiple frames, with non-zero duration (for animation) or with zero duration (for e.g. editing layers in graphics software or multi-page documents). Frames can be smaller or larger than the image canvas and can be blended in various ways. However, regular video codecs are still preferred for encoding realistic moving content.
+JPEG XL has built-in support for various color spaces, transfer curves, and high screen brightness. It is specifically designed to seamlessly handle wide color gamut color spaces with high dynamic range such as Rec. 2100 with the PQ or HLG transfer function.
+Data structuring:
+
+Tiles: Independent coding of sections of a large image by allowing images to be stored in tiles, e.g. for parallelization.
+Progressive decoding: Mode specifically designed for responsive loading of large images depending on the viewing device's resolution.
+Upgrade path:
+
+JPEG transcoding: Being a JPEG superset, JXL provides efficient lossless recompression options for images in the traditional/legacy JPEG format that can represent JPEG data in a more space-efficient way (~20% size reduction due to the better entropy coder) and can easily be reversed, e.g. on the fly. Wrapped inside a JPEG XL file/stream, it can be combined with additional elements, e.g. an alpha channel.
+The format is extensible.
+Freedom to use, batteries included:
+
+Royalty-free licensing of relevant (own) intellectual property/software patents.
+Production-ready open-source reference implementation available on GitHub under liberal licensing terms (3-clause BSD license).
+
+Technical details
+JPEG XL is based on ideas from Google's PIK format and Cloudinary's FUIF format (which was in turn based on FLIF).
+The format is mainly based on two encoding modes:
+
+VarDCT mode (variable-blocksize DCT) – it is based from the same DCT algorithm as legacy JPEG, but blocks, instead of being restricted to 8×8, come in various sizes (2×2 up to 256×256), non-square shapes (e.g. 16×8, 8×32, 32×64), or can use another transforms (AFV, Hornuss). It is only used for the 3 color channels, which typically use the XYB color space (although YCbCr is also supported in order to recompress legacy JPEG). The VarDCT mode is based on (lossy) PIK. Lossy modes typically use the XYB color space derived from LMS.
+Modular mode is responsible, among other things, for efficient lossless content encoding and also for lossy and near-lossless purposes. Modular can also be used internally in VarDCT to save 2D data, i.e. everything except the AC (high-frequency) DCT coefficients, including the DC image (which is always a 1:8 subsampled image so also includes low-frequency AC coefficients in case block sizes larger than 8×8 are used), the weights of adaptive quantization and filter strengths.
+Any additional/extra channels (e.g. alpha, depth, thermal, spot colors, etc.) are always encoded in the modular mode. It was based on FUIF, combined with elements of lossless PIK, lossless WebP, and new ideas that have been developed during the collaborative phase of the standardization process. Modular mode allows lossy compression with the help of the modified Haar transform called "squeeze" which has progressive properties, quality of the image increases with the amount of data loaded.
+One of the ways VarDCT-based images can be loaded more progressively is by saving the DC coefficients in a separate "DC frame" that uses modular squeeze: allowing previews corresponding to 1:16, 1:32 etc. subsampled images. A squeeze transform can also be used to encode the alpha channel progressively together with VarDCT-encoded color channels, making both modes work in tandem.
+JPEG XL defaults to a visually near-lossless setting that still provides good compression.
+These modes can be assisted by separate modeling of specific image features called:
+
+Splines for coding e.g. hairs (not yet used by the reference encoder).
+Repeating "patches" like text, dots, or sprites.
+Noise synthesis: since noise is hard to compress, it is better to separate it out and then regenerate it in the decoder. This is similar to film grain synthesis in modern video codecs like AV1, although JPEG XL's noise synthesis is not aiming to mimick the granularity of analog photographic film, but rather to model the photon noise at the pixel level, i.e. those visible with a digital camera at high ISO settings.
+JPEG XL codec can losslessly transcode a widely supported subset of JPEG files, by directly copying JPEG's DCT block coefficients to 8×8 VarDCT blocks, making smaller file sizes possible due to JPEG XL's superior entropy coding. This process is reversible and it allows for the original JPEG file to be reconstructed bit-for-bit, although constraints limit support for some files.
+Prediction is run using a pixel-by-pixel decorrelator without side information, including a parameterized self-correcting weighted ensemble of predictors. Context modeling includes specialized static models and powerful meta-adaptive models that take local error into account, with a signaled tree structure and predictor selection per context. Entropy coding is LZ77-enabled and can use either asymmetric numeral systems or prefix codes (useful for low-complexity encoders, or reducing the overhead of short streams).
+Animated (multi-frame) images do not perform advanced inter-frame prediction, though some rudimentary inter-frame coding tools are available:
+
+Frames can be smaller than the full canvas size, leaving other pixels untouched.
+Frames support several blending modes in addition to replacing previous frames, such as addition or multiplication.
+Up to four frames can be remembered and referenced by later frames, using the "patches" coding tool.
+
+Software
+Codec implementations
+The reference implementation software is called libjxl. It is written in C++ and published on GitHub as free software under the terms of the New BSD License (before 2021 the Apache License 2.0). It supports Unix-like operating systems, like Linux and Apple's OS family, as well as Windows systems. It is available from the standard software repositories of all major Linux and BSD distributions. In addition to the eponymous codec library, it packages a suite of auxiliary tools, like the command line encoder cjxl and decoder djxl, the image codec benchmarking tool (speed, quality) benchmark_xl, the image comparison tool of perceptual metric ssimulacra2, as well as the GIMP and gdk-pixbuf plugin file-jxl.
+
+J40: Independent, self-contained JPEG XL decoder.
+license: MIT License No Attribution
+C99 single header library (no dependencies)
+In Roman numerals, "XL" denotes 40, hence the name
+libjxl-tiny: a simpler encoder implementation of JPEG XL, aimed at photographic images without an alpha channel.
+license: New BSD License
+jxlatte: Java JPEG XL decoder.
+license: MIT License
+jxl_decode: A Python JPEG XL decoder.
+license: MIT License
+hydrium: Fast, ultra-low-memory, streaming JPEG XL encoder written in portable C.
+license: BSD License
+jxl-oxide: Small JPEG XL decoder written completely in Rust. Fully conforms to the specification.
+dual license: MIT License and Apache License 2.0
+An official Rust decoder written by the libjxl team is planned but is still incomplete. Work on it has been accelerated by Firefox suggesting they will more strongly consider support if an official Rust decoder is implemented.
+Since April 2023, the libjxl repository includes Jpegli, an improved JPEG codec that backports applicable new techniques of JPEG XL to the old format, offering image quality improvements even for the decoder. A separate repository is also created by Google after the announcement of Jpegli in April 2024.
+
+Official software support
+Operating systems
+Android
+One UI in Samsung Galaxy S24 – storage capacity in Expert Raw.
+Apple Inc.
+iOS/iPadOS 17 and later – system-wide reading including Files and Photos.
+macOS Sonoma (version 14) and later – reading on Finder and Preview.
+visionOS (presumed).
+watchOS 10 and later.
+Linux
+COSMIC desktop environment Alpha 3 and later.
+GNOME 45 and later.
+GTK via the GDK pixbuf plugin. Prior to 45, it wasn't supported officially.
+Shell – used to store the default wallpapers.
+Image Viewer via the Glycin image decoding library.
+Epiphany via the WebKitGTK engine.
+KDE applications can be built with KImageFormats plugin with native JPEG XL support. This gives most KDE apps native support for both read and writing and works with all apps from the Dolphin file manager including Gwenview image viewer, Krita digital painting tool and DigiKam photo manager.
+Windows
+File Explorer (Windows 11 24H2 and later) via the official image extension.
+Microsoft Photos (as of version 2025.11030.20006.0)
+
+Graphics editors
+ACDSee Photo Studio - reading and writing of JPEG XL images.
+Adobe Lightroom – reading and writing of JPEG XL images.
+Adobe Photoshop – reading and writing of JPEG XL images (version 26.8 onwards).
+Affinity suite – reading and writing of JPEG XL images.
+Darktable photography editor.
+GIMP 3.0 and later.
+ImageMagick – reading and writing of JPEG XL images.
+GraphicsMagick
+IrfanView – reading and writing of JPEG XL images.
+Krita – graphics editor.
+Paint.NET 5.1.5 – released on March 11th, 2025 and later.
+Pixelmator Pro (read-only)
+PureRef – supported image format in PureRef 2.
+Tachiyomi 0.12.1 and later.
+XnView – reading and writing of JPEG XL images.
+Zoner Studio – photo and video editing software.
+
+Libraries
+DICOM version 2024d introduced JPEG XL as a payload codec.
+FFmpeg library and video conversion application.
+imlib2 of Enlightenment/EFL, that many image viewers are based on.
+Simple DirectMedia Layer's image-loading subsystem.
+VIPS image processing software package.
+JDeli pure Java reading library.
+
+Services
+Amazon Photos – Amazon Prime Photo Storage.
+
+Web browsers
+Basilisk v2023.01.07 and later
+Orion Browser
+Pale Moon v31.4.0 and later (v31.4.1 fixed wrong color of decoded JPEG XL images, v31.4.2 fixed JPEG XL's transparency display for images with an alpha channel, and v32.0.0 support progressive decoding and animation for JPEG XL.).
+Safari 17 and later via the WebKit engine.
+Thorium, including JPEG XL animations.
+Waterfox G5.1.2 and later.
+Zen Browser
+
+Unofficial or indirect support
+Microsoft Windows – A 3rd-party Windows Imaging Component (WIC) plugin adds viewing to File Explorer, Microsoft Photos, Windows Photo Viewer, and thumbnails, and aware apps. Only on Windows 7/10.
+Another Windows Imaging Component plugin, jxl-winthumb.
+macOS (prior to 14.0 Sonoma) – via a standalone app and a plugin for Quick Look.
+Qt support can be added with the qt-jpegxl-image-plugin.
+jpeg-xl-encode: a PHP JPEG XL wrapper for the reference implementation.
+
+Preliminary web browser support
+Firefox web browser – introduced for testing in Firefox Nightly build.
+Google Chrome  (and other Chromium based web browser). Support restored in Chrome/Chromium 145.0.7632.0.. Still disabled by default, requires the enable-jxl-image-format experimental feature flag  turned on.
+
+Rivals
+The main competitor for JPEG XL is AVIF, which is based on the AV1 video codec in a HEIF container. JPEG XL beats AVIF for higher quality images, but AVIF will often outperform JPEG XL on low quality images in low-fidelity, high-appeal compression: low quality AVIF images will smooth out details and hide compression artifacts better, making them more visually appealing than JPEG XL images of the same size. However, it is unclear to what extent this results from inherent properties of the two image formats themselves, and to what extent this results from the engineering focus of the available encoders.
+Other rival formats include:
+
+HEIC – HEVC video codec in a HEIF container. The primary capture format used by Apple devices.
+WebP – VP8-based video codec in a RIFF container. Widely adopted in browsers and supported by many community optimization tools.

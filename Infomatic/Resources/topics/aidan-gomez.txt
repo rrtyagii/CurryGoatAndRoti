@@ -1,0 +1,15 @@
+Aidan Gomez is a British-Canadian computer scientist working in the field of artificial intelligence, with a focus on natural language processing. He is the co-founder and CEO of the technology company Cohere.
+
+Early life and education
+Gomez grew up in Brighton, Ontario. He graduated from the University of Toronto with a bachelor's degree in computer science and mathematics. He was pursuing a PhD in computer science from the University of Oxford. He paused his studies to launch Cohere. He was granted the PhD in 2024.
+
+Career
+In 2017, as a 20 year-old intern at Google Brain, Gomez was one of eight authors of the research paper "Attention Is All You Need", which is credited with changing the AI industry and helping lead to the creation of ChatGPT. The paper proposed a novel deep learning architecture called the transformer, that enables machine learning models to analyze large amounts of data for patterns, and then use those patterns to make predictions while leveraging GPU parallelization.  It has been commonly adopted for training large language models and in the development of generative AI.
+In the same year, Gomez founded FOR.ai, a program to help researchers learn machine learning techniques in a collaborative format. An outgrowth of this project was Cohere For AI (now Cohere Labs), which released Aya, an open-source multilingual LLM.
+As a PhD student, Gomez worked as a machine learning researcher at Google Brain. At that time, he co-authored the paper "One Model to Learn Them All" about multi-task learning by a single neural network.
+In 2019, Gomez left Google Brain to launch Cohere, an enterprise-focused company that helps businesses implement AI into chatbots, search engines, and other products. As of Sept 2025, Cohere has raised about US$1.6 billion at valuation north of $7 billion, as Gomez leads the company as its CEO.
+Gomez was named to the 2023 Time 100/AI list of the most influential people in the field of artificial intelligence. He and his fellow Cohere founders Ivan Zhang and Nick Frosst were named number 1 on 2023 Maclean's AI Trailblazers Power List.
+In April 2025, Gomez was elected to the board of Rivian.
+
+Views on AI
+Gomez has stated that warnings regarding the existential risk from artificial intelligence are overblown, and that real risks involve the automated spread of misinformation on social media. He said that the United States would win the AI arms race over China.

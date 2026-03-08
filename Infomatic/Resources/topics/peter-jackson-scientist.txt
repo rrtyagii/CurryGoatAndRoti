@@ -1,0 +1,9 @@
+Peter Eric Jackson (1949, Bridgetown, Barbados – August 3, 2011, Burnsville, Minnesota) was the chief scientist and head of research and development at Thomson Reuters.
+
+Biography
+He was born in 1949 in Bridgetown, Barbados, and graduated from University of Leeds with a Ph.D. in Artificial Intelligence. He died August 3, 2011, aged 62, at his home in Burnsville, Minnesota.
+
+Publications
+Introduction to Expert Systems, Addison Wesley (1986, 1992, 1999)
+Logic-Based Knowledge Representation, MIT Press (1989)
+Natural Language Processing for Online Applications, John Benjamins (2002, 2007)

@@ -1,0 +1,1559 @@
+A Hindley–Milner (HM) type system is a classical type system for the lambda calculus with parametric polymorphism. It is also known as Damas–Milner or Damas–Hindley–Milner. It was first described by J. Roger Hindley and later rediscovered by Robin Milner. Luis Damas contributed a close formal analysis and proof of the method in his PhD thesis.
+Among HM's more notable properties are its completeness and its ability to infer the most general type of a given program without programmer-supplied type annotations or other hints. Algorithm W is an efficient type inference method in practice and has been successfully applied on large code bases, although it has a high theoretical complexity. HM is preferably used for functional languages. It was first implemented as part of the type system of the programming language ML. Since then, HM has been extended in various ways, most notably with type class constraints like those in Haskell.
+
+Introduction
+As a type inference method, Hindley–Milner is able to deduce the types of variables, expressions and functions from programs written in an entirely untyped style. Being scope sensitive, it is not limited to deriving the types only from a small portion of source code, but rather from complete programs or modules. Being able to cope with parametric types, too, it is core to the type systems of many functional programming languages. It was first applied in this manner in the ML programming language.
+The origin is the type inference algorithm for the simply typed lambda calculus that was devised by Haskell Curry and Robert Feys in 1958.
+In 1969, J. Roger Hindley extended this work and proved that their algorithm always inferred the most general type.
+In 1978, Robin Milner, independently of Hindley's work, provided an equivalent algorithm, Algorithm W.
+In 1982, Luis Damas finally proved that Milner's algorithm is complete and extended it to support systems with polymorphic references.
+
+Monomorphism vs. polymorphism
+In the simply typed lambda calculus, types T are either atomic type constants or function types of form
+
+
+
+        T
+        →
+        T
+
+
+    {\displaystyle T\rightarrow T}
+
+.  Such types are monomorphic. Typical examples are the types used in arithmetic values:
+
+
+
+
+
+
+
+
+                3
+
+
+                :
+
+
+                    N
+                    u
+                    m
+                    b
+                    e
+                    r
+
+
+
+
+
+
+
+
+                    a
+                    d
+                    d
+
+
+
+                3
+
+                4
+
+
+                :
+
+
+                    N
+                    u
+                    m
+                    b
+                    e
+                    r
+
+
+
+
+
+
+
+
+                    a
+                    d
+                    d
+
+
+
+
+                :
+
+
+                    N
+                    u
+                    m
+                    b
+                    e
+                    r
+
+
+                →
+
+
+                    N
+                    u
+                    m
+                    b
+                    e
+                    r
+
+
+                →
+
+
+                    N
+                    u
+                    m
+                    b
+                    e
+                    r
+
+
+
+
+
+
+
+
+    {\displaystyle {\begin{array}{ll}3&:{\mathtt {Number}}\\{\mathtt {add}}\ 3\ 4&:{\mathtt {Number}}\\{\mathtt {add}}&:{\mathtt {Number}}\rightarrow {\mathtt {Number}}\rightarrow {\mathtt {Number}}\end{array}}}
+
+
+Contrary to this, the untyped lambda calculus is neutral to typing at all, and many of its functions can be meaningfully applied to all type of arguments. The trivial example is the identity function
+
+
+
+
+
+
+            i
+            d
+
+
+        ≡
+        λ
+        x
+        .
+        x
+
+
+    {\displaystyle {\mathtt {id}}\equiv \lambda x.x}
+
+
+which simply returns whatever value it is applied to. Less trivial examples include parametric types like lists.
+While polymorphism in general means that operations accept values of more than one type, the polymorphism used here is parametric. One finds the notation of type schemes in the literature, too, emphasizing the parametric nature of the polymorphism. Additionally, constants may be typed with (quantified) type variables.  For example, the following type schemes quantify universally over
+
+
+
+        α
+
+
+    {\displaystyle \alpha }
+
+, meaning that they are true for all possible
+
+
+
+        α
+
+
+    {\displaystyle \alpha }
+
+:
+
+
+
+
+
+
+
+
+
+
+                    c
+                    o
+                    n
+                    s
+
+
+
+
+                :
+                ∀
+                α
+                .
+                α
+                →
+
+
+                    L
+                    i
+                    s
+                    t
+
+
+
+                α
+                →
+
+
+                    L
+                    i
+                    s
+                    t
+
+
+
+                α
+
+
+
+
+
+
+                    n
+                    i
+                    l
+
+
+
+
+                :
+                ∀
+                α
+                .
+
+
+                    L
+                    i
+                    s
+                    t
+
+
+
+                α
+
+
+
+
+
+
+                    i
+                    d
+
+
+
+
+                :
+                ∀
+                α
+                .
+                α
+                →
+                α
+
+
+
+
+
+
+    {\displaystyle {\begin{array}{ll}{\mathtt {cons}}&:\forall \alpha .\alpha \rightarrow {\mathtt {List}}\ \alpha \rightarrow {\mathtt {List}}\ \alpha \\{\mathtt {nil}}&:\forall \alpha .{\mathtt {List}}\ \alpha \\{\mathtt {id}}&:\forall \alpha .\alpha \rightarrow \alpha \end{array}}}
+
+
+Polymorphic types can become monomorphic by consistent substitution of their variables. Examples of monomorphic instances are:
+
+
+
+
+
+
+
+
+
+
+
+                      i
+                      d
+
+
+                  ′
+
+
+
+                :
+
+
+                    S
+                    t
+                    r
+                    i
+                    n
+                    g
+
+
+                →
+
+
+                    S
+                    t
+                    r
+                    i
+                    n
+                    g
+
+
+
+
+
+
+
+
+
+                      n
+                      i
+                      l
+
+
+                  ′
+
+
+
+                :
+
+
+                    L
+                    i
+                    s
+                    t
+
+
+
+
+
+                    N
+                    u
+                    m
+                    b
+                    e
+                    r
+
+
+
+
+
+
+
+
+    {\displaystyle {\begin{array}{ll}{\mathtt {id}}'&:{\mathtt {String}}\rightarrow {\mathtt {String}}\\{\mathtt {nil}}'&:{\mathtt {List}}\ {\mathtt {Number}}\end{array}}}
+
+
+More generally, types are polymorphic when they contain type variables, while types without them are monomorphic.
+Contrary to the type systems used for example in Pascal (1970) or C (1972), which only support monomorphic types, HM is designed with emphasis on parametric polymorphism. The successors of the languages mentioned, like C++ (1985), focused on different types of polymorphism, namely subtyping in connection with object-oriented programming and overloading. While subtyping is incompatible with HM, a variant of systematic overloading is available in the HM-based type system of Haskell.
+
+Let-polymorphism
+When extending the type inference for the simply-typed lambda calculus towards polymorphism, one has to decide whether assigning a polymorphic type not only as type of an expression, but also as the type of a λ-bound variable is admissible. This would allow the generic identity type to be assigned to the variable 'id' in:
+
+ (λ id .  ... (id 3) ... (id "text") ... ) (λ x . x)
+
+Allowing this gives rise to the polymorphic lambda calculus; however, type inference in this system is not decidable. Instead, HM distinguishes variables that are immediately bound to an expression from more general λ-bound variables, calling the former let-bound variables, and allows polymorphic types to be assigned only to these. This leads to let-polymorphism where the above example takes the form
+
+ let id = λ x . x
+  in ... (id 3) ... (id "text") ...
+
+which can be typed with a polymorphic type for 'id'. As indicated, the expression syntax is extended to make the let-bound variables explicit, and by restricting  the type system to allow only let-bound variable to have polymorphic types, while the parameters in lambda-abstractions must get a monomorphic type, type inference becomes decidable.
+
+Overview
+The remainder of this article proceeds as follows:
+
+The HM type system is defined. This is done by describing a deduction system that makes precise what expressions have what type, if any.
+From there, it works towards an implementation of the type inference method. After introducing a syntax-driven variant of the above deductive system, it sketches an efficient implementation (algorithm J), appealing mostly to the reader's metalogical intuition.
+Because it remains open whether algorithm J indeed realises the initial deduction system, a less efficient implementation (algorithm W), is introduced and its use in a proof is hinted.
+Finally, further topics related to the algorithm are discussed.
+The same description of the deduction system is used throughout, even for the two algorithms, to make the various forms in which the HM method is presented directly comparable.
+
+The Hindley–Milner type system
+The type system can be formally described by syntax rules that fix a language for the expressions, types, etc. The presentation here of such a syntax is not too formal, in that it is written down not to study the surface grammar, but rather the depth grammar, and leaves some syntactical details open. This form of presentation is usual. Building on this, typing rules are used to define how expressions and types are related. As before, the form used is a bit liberal.
+
+Syntax
+The expressions to be typed are exactly those of the lambda calculus extended with a let-expression as shown in the adjacent table. Parentheses can be used to disambiguate an expression. The application is left-binding and binds stronger than abstraction or the let-in construct.
+Types are syntactically split into two groups, monotypes and polytypes.
+
+Monotypes
+Monotypes always designate a particular type. Monotypes
+
+
+
+        τ
+
+
+    {\displaystyle \tau }
+
+ are syntactically represented as terms.
+Examples of monotypes include type constants like
+
+
+
+
+
+            i
+            n
+            t
+
+
+
+
+    {\displaystyle {\mathtt {int}}}
+
+ or
+
+
+
+
+
+            s
+            t
+            r
+            i
+            n
+            g
+
+
+
+
+    {\displaystyle {\mathtt {string}}}
+
+, and parametric types like
+
+
+
+
+
+            M
+            a
+            p
+
+            (
+            S
+            e
+            t
+
+            s
+            t
+            r
+            i
+            n
+            g
+            )
+
+            i
+            n
+            t
+
+
+
+
+    {\displaystyle {\mathtt {Map\ (Set\ string)\ int}}}
+
+.   The latter types are examples of applications of type functions, for example, from the set
+
+
+
+
+        {
+
+
+            M
+            a
+
+              p
+
+                2
+
+
+            ,
+
+            S
+            e
+
+              t
+
+                1
+
+
+            ,
+
+            s
+            t
+            r
+            i
+            n
+
+              g
+
+                0
+
+
+            ,
+
+            i
+            n
+
+              t
+
+                0
+
+
+
+
+        ,
+
+
+          →
+
+            2
+
+
+        }
+
+
+    {\displaystyle \{{\mathtt {Map^{2},\ Set^{1},\ string^{0},\ int^{0}}},\ \rightarrow ^{2}\}}
+
+,
+where the superscript indicates the number of type parameters.  The complete set of type functions
+
+
+
+        C
+
+
+    {\displaystyle C}
+
+ is arbitrary in HM, except that it must contain at least
+
+
+
+
+          →
+
+            2
+
+
+
+
+    {\displaystyle \rightarrow ^{2}}
+
+, the type of functions.  It is often written in infix notation for convenience.  For example, a function mapping integers to strings has type
+
+
+
+
+
+            i
+            n
+            t
+
+
+        →
+
+
+            s
+            t
+            r
+            i
+            n
+            g
+
+
+
+
+    {\displaystyle {\mathtt {int}}\rightarrow {\mathtt {string}}}
+
+. Again, parentheses can be used to disambiguate a type expression. The application binds stronger than the infix arrow, which is right-binding.
+Type variables are admitted as monotypes. Monotypes are not to be confused with monomorphic types, which exclude variables and allow only ground terms.
+Two monotypes are equal if they have identical terms.
+
+Polytypes
+Polytypes (or type schemes) are types containing variables bound by zero or more for-all quantifiers, e.g.
+
+
+
+        ∀
+        α
+        .
+        α
+        →
+        α
+
+
+    {\displaystyle \forall \alpha .\alpha \rightarrow \alpha }
+
+.
+A function with polytype
+
+
+
+        ∀
+        α
+        .
+        α
+        →
+        α
+
+
+    {\displaystyle \forall \alpha .\alpha \rightarrow \alpha }
+
+ can map any value of the same type to itself,
+and the identity function is a value for this type.
+As another example,
+
+
+
+        ∀
+        α
+        .
+        (
+
+
+            S
+            e
+            t
+
+
+
+        α
+        )
+        →
+
+
+            i
+            n
+            t
+
+
+
+
+    {\displaystyle \forall \alpha .({\mathtt {Set}}\ \alpha )\rightarrow {\mathtt {int}}}
+
+ is the type of a function mapping all finite sets to integers. A function which returns the cardinality of a set would be a value of this type.
+Quantifiers can only appear top level. For instance, a type
+
+
+
+        ∀
+        α
+        .
+        α
+        →
+        ∀
+        α
+        .
+        α
+
+
+    {\displaystyle \forall \alpha .\alpha \rightarrow \forall \alpha .\alpha }
+
+ is excluded by the syntax of types. Also monotypes are included in the polytypes, thus a type has the general form
+
+
+
+        ∀
+
+          α
+
+            1
+
+
+        …
+        ∀
+
+          α
+
+            n
+
+
+        .
+        τ
+
+
+    {\displaystyle \forall \alpha _{1}\dots \forall \alpha _{n}.\tau }
+
+, where
+
+
+
+        n
+        ≥
+        0
+
+
+    {\displaystyle n\geq 0}
+
+ and
+
+
+
+        τ
+
+
+    {\displaystyle \tau }
+
+ is a monotype.
+Equality of polytypes is up to reordering the quantification and renaming the quantified variables (
+
+
+
+        α
+
+
+    {\displaystyle \alpha }
+
+-conversion). Further, quantified variables not occurring in the monotype can be dropped.
+
+Context and typing
+To meaningfully bring together the still disjoint parts (syntax expressions and types) a third part is needed: context. Syntactically, a context is a list of pairs
+
+
+
+        x
+        :
+        σ
+
+
+    {\displaystyle x:\sigma }
+
+, called assignments, assumptions or bindings, each pair stating that value variable
+
+
+
+
+          x
+
+            i
+
+
+
+
+    {\displaystyle x_{i}}
+
+has type
+
+
+
+
+          σ
+
+            i
+
+
+        .
+
+
+    {\displaystyle \sigma _{i}.}
+
+ All three parts combined give a typing judgment of the form
+
+
+
+        Γ
+
+        ⊢
+
+        e
+        :
+        σ
+
+
+    {\displaystyle \Gamma \ \vdash \ e:\sigma }
+
+, stating that under assumptions
+
+
+
+        Γ
+
+
+    {\displaystyle \Gamma }
+
+, the expression
+
+
+
+        e
+
+
+    {\displaystyle e}
+
+ has type
+
+
+
+        σ
+
+
+    {\displaystyle \sigma }
+
+.
+
+Free type variables
+In a type
+
+
+
+        ∀
+
+          α
+
+            1
+
+
+        …
+        ∀
+
+          α
+
+            n
+
+
+        .
+        τ
+
+
+    {\displaystyle \forall \alpha _{1}\dots \forall \alpha _{n}.\tau }
+
+, the symbol
+
+
+
+        ∀
+
+
+    {\displaystyle \forall }
+
+ is the quantifier binding the type variables
+
+
+
+
+          α
+
+            i
+
+
+
+
+    {\displaystyle \alpha _{i}}
+
+ in the monotype
+
+
+
+        τ
+
+
+    {\displaystyle \tau }
+
+. The variables
+
+
+
+
+          α
+
+            i
+
+
+
+
+    {\displaystyle \alpha _{i}}
+
+ are called quantified and any occurrence of a quantified type variable in
+
+
+
+        τ
+
+
+    {\displaystyle \tau }
+
+ is called bound and all unbound type variables in
+
+
+
+        τ
+
+
+    {\displaystyle \tau }
+
+ are called free. Additionally to the quantification
+
+
+
+        ∀
+
+
+    {\displaystyle \forall }
+
+ in polytypes, type variables can also be bound by occurring in the context, but with the inverse effect on the right hand side of the
+
+
+
+        ⊢
+
+
+    {\displaystyle \vdash }
+
+. Such variables then behave like type constants there. Finally, a type variable may legally occur unbound in a typing, in which case they are implicitly all-quantified.
+The presence of both bound and unbound type variables is a bit uncommon in programming languages. Often, all type variables are implicitly treated all-quantified. For instance, one does not have clauses with free variables in Prolog. Likewise in Haskell, where all type variables implicitly occur quantified, i.e. a Haskell type a -> a means
+
+
+
+        ∀
+        α
+        .
+        α
+        →
+        α
+
+
+    {\displaystyle \forall \alpha .\alpha \rightarrow \alpha }
+
+ here. Related and also very uncommon is the binding effect of the right hand side
+
+
+
+        σ
+
+
+    {\displaystyle \sigma }
+
+ of the assignments.
+Typically, the mixture of both bound and unbound type variables originate from the use of free variables in an expression. The constant function K =
+
+
+
+        λ
+        x
+        .
+        λ
+        y
+        .
+        x
+
+
+    {\displaystyle \lambda x.\lambda y.x}
+
+ provides an example. It has the monotype
+
+
+
+        α
+        →
+        β
+        →
+        α
+
+
+    {\displaystyle \alpha \rightarrow \beta \rightarrow \alpha }
+
+. One can force polymorphism by
+
+
+
+
+          l
+          e
+          t
+
+
+        k
+        =
+        λ
+        x
+        .
+        (
+
+          l
+          e
+          t
+
+
+        f
+        =
+        λ
+        y
+        .
+        x
+
+
+          i
+          n
+
+
+        f
+        )
+
+
+          i
+          n
+
+
+        k
+
+
+    {\displaystyle \mathbf {let} \ k=\lambda x.(\mathbf {let} \ f=\lambda y.x\ \mathbf {in} \ f)\ \mathbf {in} \ k}
+
+. Herein,
+
+
+
+        f
+
+
+    {\displaystyle f}
+
+ has the type
+
+
+
+        ∀
+        γ
+        .
+        γ
+        →
+        α
+
+
+    {\displaystyle \forall \gamma .\gamma \rightarrow \alpha }
+
+. The free monotype variable
+
+
+
+        α
+
+
+    {\displaystyle \alpha }
+
+ originates from the type of the variable
+
+
+
+        x
+
+
+    {\displaystyle x}
+
+ bound in the surrounding scope.
+
+
+
+        k
+
+
+    {\displaystyle k}
+
+ has the type
+
+
+
+        ∀
+        α
+        ∀
+        β
+        .
+        α
+        →
+        β
+        →
+        α
+
+
+    {\displaystyle \forall \alpha \forall \beta .\alpha \rightarrow \beta \rightarrow \alpha }
+
+. One could imagine the free type variable
+
+
+
+        α
+
+
+    {\displaystyle \alpha }
+
+ in the type of
+
+
+
+        f
+
+
+    {\displaystyle f}
+
+ be bound by the
+
+
+
+        ∀
+        α
+
+
+    {\displaystyle \forall \alpha }
+
+ in the type of
+
+
+
+        k
+
+
+    {\displaystyle k}
+
+. But such a scoping cannot be expressed in HM. Rather, the binding is realized by the context.
+
+Type order
+Polymorphism means that one and the same expression can have (perhaps infinitely) many types. But in this type system, these types are not completely unrelated, but rather orchestrated by the parametric polymorphism.
+As an example, the identity
+
+
+
+        λ
+        x
+        .
+        x
+
+
+    {\displaystyle \lambda x.x}
+
+ can have
+
+
+
+        ∀
+        α
+        .
+        α
+        →
+        α
+
+
+    {\displaystyle \forall \alpha .\alpha \rightarrow \alpha }
+
+ as its type as well as
+
+
+
+
+
+
+            string
+
+
+        →
+
+
+            string
+
+
+
+
+    {\displaystyle {\texttt {string}}\rightarrow {\texttt {string}}}
+
+ or
+
+
+
+
+
+            int
+
+
+        →
+
+
+            int
+
+
+
+
+    {\displaystyle {\texttt {int}}\rightarrow {\texttt {int}}}
+
+ and many others, but not
+
+
+
+
+
+            int
+
+
+        →
+
+
+            string
+
+
+
+
+    {\displaystyle {\texttt {int}}\rightarrow {\texttt {string}}}
+
+. The most general type for this function is
+
+
+
+
+        ∀
+        α
+        .
+        α
+        →
+        α
+
+
+    {\displaystyle \forall \alpha .\alpha \rightarrow \alpha }
+
+, while the
+others are more specific and can be derived from the general one by consistently
+replacing another type for the type parameter, i.e. the quantified
+variable
+
+
+
+        α
+
+
+    {\displaystyle \alpha }
+
+.  The counter-example fails because the
+replacement is not consistent.
+The consistent replacement can be made formal by applying a substitution
+
+
+
+        S
+        =
+
+          {
+
+
+
+              a
+
+                i
+
+
+            ↦
+
+              τ
+
+                i
+
+
+            ,
+
+            …
+
+
+          }
+
+
+
+    {\displaystyle S=\left\{\ a_{i}\mapsto \tau _{i},\ \dots \ \right\}}
+
+ to the term of a type
+
+
+
+        τ
+
+
+    {\displaystyle \tau }
+
+, written
+
+
+
+        S
+        τ
+
+
+    {\displaystyle S\tau }
+
+. As the example suggests, substitution is not only strongly related to an order, that expresses that a type is more or less special, but also with the all-quantification which allows the substitution to be applied.
+
+Formally, in HM, a type
+
+
+
+
+          σ
+          ′
+
+
+
+    {\displaystyle \sigma '}
+
+ is more general than
+
+
+
+        σ
+
+
+    {\displaystyle \sigma }
+
+, formally
+
+
+
+
+          σ
+          ′
+
+        ⊑
+        σ
+
+
+    {\displaystyle \sigma '\sqsubseteq \sigma }
+
+, if some quantified variable in
+
+
+
+
+          σ
+          ′
+
+
+
+    {\displaystyle \sigma '}
+
+ is consistently substituted such that one gains
+
+
+
+        σ
+
+
+    {\displaystyle \sigma }
+
+ as shown in the side bar. This order is part of the type definition of the type system.
+In our previous example, applying the substitution
+
+
+
+        S
+        =
+
+          {
+
+            α
+            ↦
+
+
+                string
+
+
+
+          }
+
+
+
+    {\displaystyle S=\left\{\alpha \mapsto {\texttt {string}}\right\}}
+
+ would result in
+
+
+
+        ∀
+        α
+        .
+        α
+        →
+        α
+        ⊑
+
+
+            string
+
+
+        →
+
+
+            string
+
+
+
+
+    {\displaystyle \forall \alpha .\alpha \rightarrow \alpha \sqsubseteq {\texttt {string}}\rightarrow {\texttt {string}}}
+
+.
+While substituting a monomorphic (ground) type for a quantified variable is
+straight forward, substituting a polytype has some pitfalls caused by the
+presence of free variables. Most particularly, unbound variables must not be
+replaced. They are treated as constants here. Additionally, quantifications can only occur top-level. Substituting a parametric type,
+one has to lift its quantifiers. The table on the right makes the rule precise.
+Alternatively, consider an equivalent notation for the polytypes without
+quantifiers in which quantified variables are represented by a different set of
+symbols. In such a notation, the specialization reduces to plain consistent
+replacement of such variables.
+The relation
+
+
+
+        ⊑
+
+
+    {\displaystyle \sqsubseteq }
+
+ is a partial order
+and
+
+
+
+        ∀
+        α
+        .
+        α
+
+
+    {\displaystyle \forall \alpha .\alpha }
+
+ is its smallest element.
+
+Principal type
+While specialization of a type scheme is one use of the order, it plays a
+crucial second role in the type system. Type inference with polymorphism
+faces the challenge of summarizing all possible types an expression may have.
+The order guarantees that such a summary exists as the most general type
+of the expression.
+
+Substitution in typings
+The type order defined above can be extended to typings because the implied all-quantification of typings enables consistent replacement:
+
+
+
+
+        Γ
+        ⊢
+        e
+        :
+        σ
+
+        ⟹
+
+        S
+        Γ
+        ⊢
+        e
+        :
+        S
+        σ
+
+
+    {\displaystyle \Gamma \vdash e:\sigma \quad \Longrightarrow \quad S\Gamma \vdash e:S\sigma }
+
+
+Contrary to the specialisation rule, this is not part of the definition, but like the implicit all-quantification rather a consequence of the type rules defined next.
+Free type variables in a typing serve as placeholders for possible refinement. The binding effect of the environment to free type
+variables on the right hand side of
+
+
+
+        ⊢
+
+
+    {\displaystyle \vdash }
+
+ that prohibits their substitution in the specialisation rule is again
+that a replacement has to be consistent and would need to include the whole typing.
+This article will discuss four different rule sets:
+
+
+
+
+
+          ⊢
+
+            D
+
+
+
+
+    {\displaystyle \vdash _{D}}
+
+ declarative system
+
+
+
+
+
+          ⊢
+
+            S
+
+
+
+
+    {\displaystyle \vdash _{S}}
+
+ syntactical system
+
+
+
+
+
+          ⊢
+
+            J
+
+
+
+
+    {\displaystyle \vdash _{J}}
+
+ algorithm J
+
+
+
+
+
+          ⊢
+
+            W
+
+
+
+
+    {\displaystyle \vdash _{W}}
+
+ algorithm W
+
+Deductive system
+The syntax of HM is carried forward to the syntax of the inference rules that form the body of the formal system, by using the typings as judgments. Each of the rules define what conclusion could be drawn from what premises. Additionally to the judgments, some extra conditions introduced above might be used as premises, too.
+A proof using the rules is a sequence of judgments such that all premises are listed before a conclusion. The examples below show a possible format of proofs. From left to right, each line shows the conclusion, the
+
+
+
+        [
+
+
+            N
+            a
+            m
+            e
+
+
+        ]
+
+
+    {\displaystyle [{\mathtt {Name}}]}
+
+ of the rule applied and the premises, either by referring to an earlier line (number) if the premise is a judgment or by making the predicate explicit.
+
+Typing rules

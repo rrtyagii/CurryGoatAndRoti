@@ -1,0 +1,6 @@
+WRITER is a generative artificial intelligence company based in San Francisco, California that offers a full-stack generative AI platform for enterprises. In September 2023, WRITER raised $100m in a Series B led by ICONIQ Growth with participation from Insight Partners, WndrCo, Balderton Capital, and Aspect Ventures. The co-founders also worked together on Qordoba, a previous startup.
+
+History
+Qordoba was incorporated in the U.S. in 2015 by May Habib, a Lebanese entrepreneur, and Waseem AlShikh, a Syrian entrepreneur. The two then started WRITER, Inc. in August 2020.
+In February 2023, WRITER launched three large language models — Palmyra-Small with 128 million parameters, Palmyra-Base with 5 billion parameters, and Palmyra-Large with 20 billion parameters (named after the ancient Syrian city of Palmyra). In May 2023, WRITER announced Knowledge Graph, a new offering that connects business data sources to its LLMs, and the ability for customers to self-host WRITER-built LLMs.
+WRITER is a privately held company, supported by investments from ICONIQ Growth, Insight Partners, WndrCo, Balderton Capital, Aspect Ventures, Gradient Ventures, Rincon Venture Partners, Upfront Ventures and Broadway Angels.

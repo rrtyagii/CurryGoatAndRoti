@@ -1,0 +1,936 @@
+In the analysis of social networks, the uniform-preferential-attachment model, or UPA model is a variation of the Barabási–Albert model in which the preferential attachment is perceived as having a double nature. New nodes joining the network may either attach themselves with high-degree nodes or with most recently added nodes. This behaviour can be noticed in some examples of social networks, such as the citation network of scientific publications.
+
+Model description
+For an UPA network with nodes
+
+
+
+        {
+
+          v
+
+            1
+
+
+        .
+        .
+        .
+
+          v
+
+            t
+
+
+        }
+
+
+    {\displaystyle \{v_{1}...v_{t}\}}
+
+, we define for an arriving node
+
+
+
+
+          v
+
+            t
+            +
+            1
+
+
+
+
+    {\displaystyle v_{t+1}}
+
+ a subset of nodes
+
+
+
+        {
+
+          v
+
+            t
+            −
+            w
+            +
+            1
+
+
+        .
+        .
+        .
+
+          v
+
+            t
+
+
+        }
+
+
+    {\displaystyle \{v_{t-w+1}...v_{t}\}}
+
+ with
+
+
+
+        w
+        ∈
+
+          N
+
+
+
+    {\displaystyle w\in \mathbb {N} }
+
+. This subset is called a window, which represents the w last nodes inserted into the network. A new node may link itself either with a node from the window subset, with probability p, or with any other node from
+
+
+
+        {
+
+          v
+
+            1
+
+
+        .
+        .
+        .
+
+          v
+
+            t
+
+
+        }
+
+
+    {\displaystyle \{v_{1}...v_{t}\}}
+
+ with probability 1-p. In the former case, the node probability distribution is uniform: each node has a probability
+
+
+
+        1
+
+          /
+
+        w
+
+
+    {\displaystyle 1/w}
+
+ of being chosen. In the latter, node selection follows a preferential attachment rule, as in the Barabási–Albert model.
+The window size
+
+
+
+        l
+
+
+    {\displaystyle l}
+
+ may be constant during the addition of new nodes, expressed by
+
+
+
+        w
+        :=
+        w
+        (
+        t
+        )
+        =
+        l
+
+
+    {\displaystyle w:=w(t)=l}
+
+, where
+
+
+
+        t
+
+
+    {\displaystyle t}
+
+ is a discrete time variable. It can also grow with time in accord to
+
+
+
+        w
+        :=
+        w
+        (
+        t
+        )
+        =
+        ⌈
+        α
+        t
+        ⌉
+
+
+    {\displaystyle w:=w(t)=\lceil \alpha t\rceil }
+
+, where
+
+
+
+        0
+        <
+        α
+        <
+        1
+
+
+    {\displaystyle 0<\alpha <1}
+
+, which means that window size growth is linear with the size of the network. The network keeps its asymptotic power law behavior in degree distribution for both cases.
+Note that when
+
+
+
+        l
+        =
+        1
+
+
+    {\displaystyle l=1}
+
+ and
+
+
+
+        p
+        =
+        0
+
+
+    {\displaystyle p=0}
+
+, the UPA model reduces to the Barabási–Albert model.
+
+Degree distribution
+The degree distribution for an UPA network is, considering
+
+
+
+        t
+        →
+        ∞
+
+
+    {\displaystyle t\rightarrow \infty }
+
+ and
+
+
+
+        l
+        =
+        1
+
+
+    {\displaystyle l=1}
+
+:
+
+
+
+
+        P
+        (
+        k
+        )
+        =
+
+
+            {
+
+
+
+
+
+
+
+                          2
+                          (
+                          1
+                          −
+                          p
+                          )
+
+
+                          3
+                          −
+                          p
+
+
+
+
+
+
+
+
+                       if
+
+
+                  k
+                  =
+                  1
+
+
+
+
+
+
+
+
+                          (
+                          1
+                          −
+                          p
+
+                            )
+
+                              2
+
+
+
+
+                          (
+                          2
+                          −
+                          p
+                          )
+                          (
+                          3
+                          −
+                          p
+                          )
+
+
+
+
+                  +
+
+
+
+                        p
+
+                          2
+                          −
+                          p
+
+
+
+
+
+
+
+
+                       if
+
+
+                  k
+                  =
+                  2
+
+
+
+
+                  (
+
+
+
+                        2
+
+                          1
+                          −
+                          p
+
+
+
+
+                  +
+                  2
+                  )
+                  (
+
+
+
+                        2
+
+                          1
+                          −
+                          p
+
+
+
+
+                  +
+                  1
+                  )
+                  B
+                  (
+                  k
+                  ,
+                  1
+                  +
+
+
+
+                        2
+
+                          1
+                          −
+                          p
+
+
+
+
+                  )
+
+
+
+                        P
+                        ¯
+
+
+
+                  (
+                  2
+                  )
+
+
+
+
+                       if
+
+
+                  k
+                  >
+                  2
+
+
+
+
+
+
+
+
+    {\displaystyle P(k)={\begin{cases}{\dfrac {2(1-p)}{3-p}}&{\mbox{ if }}k=1\\{\dfrac {(1-p)^{2}}{(2-p)(3-p)}}+{\dfrac {p}{2-p}}&{\mbox{ if }}k=2\\({\dfrac {2}{1-p}}+2)({\dfrac {2}{1-p}}+1)B(k,1+{\dfrac {2}{1-p}}){\bar {P}}(2)&{\mbox{ if }}k>2\end{cases}}}
+
+
+And for
+
+
+
+        l
+        >
+        1
+
+
+    {\displaystyle l>1}
+
+ we have:
+
+
+
+
+        P
+        (
+        k
+        )
+        =
+
+
+            {
+
+
+
+
+
+
+                        2
+
+                          (
+                          3
+                          −
+                          p
+                          )
+
+
+
+
+                  (
+                  1
+                  −
+
+
+
+                        p
+                        l
+
+
+
+
+                    )
+
+                      l
+
+
+
+
+
+
+                       if
+
+
+                  k
+                  =
+                  1
+
+
+
+
+
+
+
+                        2
+
+                          2
+                          +
+                          k
+                          (
+                          1
+                          −
+                          p
+                          )
+
+
+
+
+                  (
+
+
+
+                        p
+                        l
+
+
+
+                  (
+
+                    H
+
+                      k
+                      −
+                      1
+
+
+                  −
+
+                    H
+
+                      k
+
+
+                  )
+                  +
+
+
+
+
+                          (
+                          1
+                          −
+                          p
+                          )
+                          (
+                          k
+                          −
+                          1
+                          )
+
+                        2
+
+
+
+                  P
+                  (
+                  k
+                  −
+                  1
+                  )
+
+
+
+
+                       if
+
+
+                  2
+                  ≤
+                  k
+                  ≤
+                  l
+                  +
+                  1
+
+
+
+
+
+
+
+
+                          B
+                          (
+                          k
+                          ,
+                          l
+                          +
+                          2
+                          +
+
+
+
+                                2
+
+                                  1
+                                  −
+                                  p
+
+
+
+
+                          )
+
+
+                          B
+                          (
+                          l
+                          +
+                          1
+                          ,
+                          k
+                          +
+                          1
+                          +
+
+
+
+                                2
+
+                                  1
+                                  −
+                                  p
+
+
+
+
+                          )
+
+
+
+
+                  P
+                  (
+                  l
+                  +
+                  1
+                  )
+
+
+
+
+                       if
+
+
+                  k
+                  >
+                  l
+                  +
+                  1
+
+
+
+
+
+
+
+
+    {\displaystyle P(k)={\begin{cases}{\dfrac {2}{(3-p)}}(1-{\dfrac {p}{l}})^{l}&{\mbox{ if }}k=1\\{\dfrac {2}{2+k(1-p)}}({\dfrac {p}{l}}(H_{k-1}-H_{k})+{\dfrac {(1-p)(k-1)}{2}}P(k-1)&{\mbox{ if }}2\leq k\leq l+1\\{\dfrac {B(k,l+2+{\dfrac {2}{1-p}})}{B(l+1,k+1+{\dfrac {2}{1-p}})}}P(l+1)&{\mbox{ if }}k>l+1\end{cases}}}
+
+
+Where
+
+
+
+        B
+        (
+        x
+        ,
+        y
+        )
+
+
+    {\displaystyle B(x,y)}
+
+ is the Beta function and
+
+
+
+
+          H
+
+            k
+
+
+
+
+    {\displaystyle H_{k}}
+
+ is:
+
+
+
+
+
+          H
+
+            k
+
+
+        =
+
+
+            {
+
+
+
+                  (
+
+
+
+                        p
+                        l
+
+
+
+
+                    )
+
+                      k
+                      −
+                      1
+
+
+                  )
+
+                    ∑
+
+                      m
+                      =
+                      1
+
+
+                      l
+                      −
+                      (
+                      k
+                      −
+                      1
+                      )
+
+
+
+
+
+                        (
+
+
+
+                          l
+                          −
+                          m
+
+
+                          l
+                          −
+                          m
+                          −
+                          (
+                          k
+                          −
+                          1
+                          )
+
+
+
+                        )
+
+
+
+                  (
+                  1
+                  −
+
+
+
+                        p
+                        l
+
+
+
+
+                    )
+
+                      l
+                      −
+                      m
+                      −
+                      (
+                      k
+                      −
+                      1
+                      )
+
+
+
+
+
+
+                       if
+
+
+                  1
+                  ≤
+                  k
+                  ≤
+                  l
+
+
+
+
+                  0
+
+
+
+
+                       if
+
+
+                  k
+                  >
+                  l
+
+
+
+
+
+
+
+
+    {\displaystyle H_{k}={\begin{cases}({\dfrac {p}{l}})^{k-1})\sum _{m=1}^{l-(k-1)}{\binom {l-m}{l-m-(k-1)}}(1-{\dfrac {p}{l}})^{l-m-(k-1)}&{\mbox{ if }}1\leq k\leq l\\0&{\mbox{ if }}k>l\end{cases}}}
+
+
+The demonstration of these formulae involves the analysis of recursive functions and the Azuma-Hoeffding Inequality. It is observable that for
+
+
+
+        l
+        =
+        1
+
+
+    {\displaystyle l=1}
+
+ and
+
+
+
+        p
+        =
+        0
+
+
+    {\displaystyle p=0}
+
+, the degree distribution follows a power law with exponent
+
+
+
+        γ
+        =
+        −
+        3
+
+
+    {\displaystyle \gamma =-3}
+
+, as expected for the equivalent Barabási–Albert model. It is also proven that for every probability
+
+
+
+        p
+
+
+    {\displaystyle p}
+
+ and window size
+
+
+
+        l
+
+
+    {\displaystyle l}
+
+, the network asymptotically follows a power law and thus keeps its scale free behavior.
+
+Occurrences in real world
+Reddit
+An UPA network may be used to model Reddit positive votes (upvotes). Consider each node represented by a post
+
+
+
+
+          P
+
+
+
+    {\displaystyle \mathbb {P} }
+
+ and the links representing upvotes given by the author after posting
+
+
+
+
+          P
+
+
+
+    {\displaystyle \mathbb {P} }
+
+. Whenever a user posts a comment, he or she usually look in the same topic for another post to comment on, which characterizes a uniform attachment. However, this user may also find it more interesting to search for another topic to comment on, possibly a popular one. The latter represent a preferential attachment in the UPA network model.
+
+Citation network
+A citation network of scientific publications is usually represented by scientific papers as nodes and citations as links. Considering a network of papers from the same field of knowledge, whenever a new node is inserted into this network, it either attaches itself to the latest publications (uniform attachment) or to the most important papers in its field of expertise (preferential attachment). Thus, the general behavior of these networks can be described by an UPA model.
+
+Related work
+Instead of a double nature involving uniform and preferential attachment, a network may combine preferential and anti-preferential attachments. In this network model, nodes can either be inserted or removed from the network with the passing of time
+
+
+
+        t
+
+
+    {\displaystyle t}
+
+.

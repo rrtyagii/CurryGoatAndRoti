@@ -1,0 +1,10 @@
+Ocrad is an optical character recognition program and part of the GNU Project. It is free software licensed under the GNU GPL.
+Based on a feature extraction method, it reads images in portable pixmap formats known as Portable anymap and produces text in byte (8-bit) or UTF-8 formats. Also included is a layout analyser, able to separate the columns or blocks of text normally found on printed pages.
+
+User interface
+Ocrad can be used as a stand-alone command-line application or as a back-end to other programs.
+Kooka, which was the KDE environment's default scanning application until KDE 4, can use Ocrad as its OCR engine. Since conversion to newer Qt versions, current versions of KDE no longer contain Kooka; development continues in the KDE git repository. Ocrad can be also used as an OCR engine in OCRFeeder.
+
+History
+Ocrad has been developed by Antonio Diaz Diaz since 2003. Version 0.7 was released in February 2004, 0.14 in February 2006 and 0.18 in May 2009. It is written in C++.
+Archives of the bug-ocrad mailing list go back to October 2003.

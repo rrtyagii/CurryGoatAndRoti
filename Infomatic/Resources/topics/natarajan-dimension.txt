@@ -1,0 +1,215 @@
+In the theory of Probably Approximately Correct Machine Learning, the Natarajan dimension characterizes the complexity of learning a set of functions, generalizing from the Vapnik–Chervonenkis dimension for boolean functions to multi-class functions. Originally introduced as the Generalized Dimension by Natarajan, it was subsequently renamed the Natarajan Dimension by Haussler and Long.
+
+Definition
+Let
+
+
+
+        H
+
+
+    {\displaystyle H}
+
+ be a set of functions from a set
+
+
+
+        X
+
+
+    {\displaystyle X}
+
+ to a set
+
+
+
+        Y
+
+
+    {\displaystyle Y}
+
+.
+
+
+
+        H
+
+
+    {\displaystyle H}
+
+ shatters a set
+
+
+
+        C
+        ⊂
+        X
+
+
+    {\displaystyle C\subset X}
+
+
+if there exist two functions
+
+
+
+
+          f
+
+            0
+
+
+        ,
+
+          f
+
+            1
+
+
+        ∈
+        H
+
+
+    {\displaystyle f_{0},f_{1}\in H}
+
+ such that
+
+For every
+
+
+
+        x
+        ∈
+        C
+        ,
+
+          f
+
+            0
+
+
+        (
+        x
+        )
+        ≠
+
+          f
+
+            1
+
+
+        (
+        x
+        )
+
+
+    {\displaystyle x\in C,f_{0}(x)\neq f_{1}(x)}
+
+.
+For every
+
+
+
+        B
+        ⊂
+        C
+
+
+    {\displaystyle B\subset C}
+
+, there exists a function
+
+
+
+        h
+        ∈
+        H
+
+
+    {\displaystyle h\in H}
+
+ such that
+for all
+
+
+
+        x
+        ∈
+        B
+        ,
+        h
+        (
+        x
+        )
+        =
+
+          f
+
+            0
+
+
+        (
+        x
+        )
+
+
+    {\displaystyle x\in B,h(x)=f_{0}(x)}
+
+ and for all
+
+
+
+        x
+        ∈
+        C
+        −
+        B
+        ,
+        h
+        (
+        x
+        )
+        =
+
+          f
+
+            1
+
+
+        (
+        x
+        )
+
+
+    {\displaystyle x\in C-B,h(x)=f_{1}(x)}
+
+.
+The Natarajan dimension of H is the maximal cardinality of a set shattered by
+
+
+
+        H
+
+
+    {\displaystyle H}
+
+.
+It is easy to see that if
+
+
+
+
+          |
+
+        Y
+
+          |
+
+        =
+        2
+
+
+    {\displaystyle |Y|=2}
+
+, the Natarajan dimension collapses to the Vapnik–Chervonenkis dimension.
+Shalev-Shwartz and Ben-David  present comprehensive material on multi-class learning and the Natarajan dimension, including uniform convergence and learnability.

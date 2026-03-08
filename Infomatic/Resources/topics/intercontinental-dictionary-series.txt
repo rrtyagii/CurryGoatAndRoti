@@ -1,0 +1,291 @@
+The Intercontinental Dictionary Series (commonly abbreviated as IDS) is a large database of topical vocabulary lists in various world languages. The general editor of the database is Bernard Comrie of the Max Planck Institute for Evolutionary Anthropology, Leipzig. Mary Ritchie Key of the University of California, Irvine is the founding editor. The database has an especially large selection of indigenous South American languages and Northeast Caucasian languages.
+The Intercontinental Dictionary Series' advanced browsing function allows users to make custom tables which compare languages in side-by-side columns.
+Below are the languages that are currently included in the Intercontinental Dictionary Series. The languages are grouped by language families, some of which are still hypothetical.
+It is part of the Cross-Linguistic Linked Data project hosted by the Max Planck Institute for the Science of Human History.
+
+Amerindian
+North America
+Tlingit
+Haida
+Tsimshian
+Wakashan
+Nootka
+Salishan
+Bella Coola
+Chehalis
+Hokan?
+Karok
+Seri
+Zuni
+Nahuatl (Sierra de Zacapoaxtla, Puebla)
+Chatino, Zacatepec
+
+Northern South America
+Chocoan
+Emberá
+Embera – Colombia
+Epena – Colombia
+Chibchan
+Muisca – Colombia
+Barí (Tairona) – Colombia / Venezuela
+Cofán – Colombia / Ecuador
+Barbacoan
+Cayapa (Cha'palaachi) – Ecuador
+Colorado (Tsafiki) – Ecuador
+Páez – Colombia
+Yanomaman
+Yanomami
+Ninam
+Yaruro – Venezuela
+Tucanoan
+Siona – Ecuador
+Tuyuca – Colombia / Brazil
+Jivaroan
+Aguaruna – Peru / Ecuador
+Waorani (Huaorani) – Ecuador
+
+Amazonia
+Arawakan
+Goajiro (Wayuu) – Colombia
+Wapishana – Guyana / Brazil
+Yavitero – Venezuela (extinct)
+Mashco Piro (Yine) – Peru / Brazil
+Waurá – Brazil
+Baure – Bolivia
+Moxos – Bolivia
+Ignaciano – Bolivia
+Trinitario – Bolivia
+Macro-Gê
+Karajá
+Gê
+Kaingáng
+Canela
+Tupian
+Tupinambá – Brazil
+Guaraní – Paraguay
+Chiriguano – Bolivia
+Aché – Paraguay
+Mundurukú – Brazil
+Sirionó – Bolivia
+Wayampi – French Guiana
+Cariban
+Carib (De'kwana)
+Panare – Venezuela
+Macushi – Brazil / Guyana
+Wai Wai – Brazil / Guyana
+Panoan
+Cashibo – Peru
+Shipibo-Conibo – Peru
+Yaminahua – Peru
+Chácobo – Bolivia
+Pacahuara – Bolivia
+Tacanan
+Ese Ejja (Huarayo) – Peru / Bolivia
+Tacana – Bolivia
+Cavineña – Bolivia
+Araona – Bolivia
+Catuquina – Acre, Brazil
+Puinavean (Nadahup/Makú)
+Hup – Brazil / Colombia
+Yuwana (Hodï)? – Venezuela
+Peba-Yaguan
+Yagua – Brazil
+Chapacuran
+Pacaas Novos – Brazil
+Uru-Chipaya
+Chipaya – Bolivia
+Trumai – Brazil
+Aymara
+Cayuvava – Bolivia (extinct)
+Itonama – Bolivia
+Movima – Bolivia
+
+Southern South America
+Guaicuruan
+Pilagá – Argentina
+Toba – Argentina / Paraguay
+Mocoví – Argentina
+Matacoan
+Chorote – Argentina
+Maká – Paraguay
+Nivaclé – Paraguay
+Wichi – Argentina
+Zamucoan
+Ayoreo – Paraguay / Bolivia
+Mascoian
+Sanapaná – Paraguay
+Moseten
+Mosetén (Tsimané) – Bolivia
+Chon
+Selkʼnam (Ona)
+Tehuelche
+Qawasqar
+Puelche (Gününa Küne) – Argentina Pampas
+Kunza – Chile (extinct)
+Mapudungun – Chile / Argentina
+Yagán (Yaghan)
+
+Northeast Caucasian
+Northeast Caucasian
+Nakh
+Chechen
+Avar–Andic
+Avar
+Andi
+Botlikh
+Chamalal
+Ghodoberi
+Bagvalin (Bagvalal)
+Tindi
+Karata
+Akhvakh
+Tsezic
+Tsez
+Hinukh
+Bezhta
+Hunzib
+Khvarshi
+Lak (isolate)
+Khinalug (isolate)
+Dargi
+Dargwa
+Lezgic
+Archi
+Udi
+Lezgi
+Aghul
+Tabasaran
+Budukh
+Rutul
+Tsakhur
+
+Indo-European
+Indo-European
+Hittite
+Tocharian A/B
+Armenian (Eastern, Western)
+Albanian, Tosk
+Greek (Ancient, Modern)
+Indo-Iranian
+Persian
+Avestan
+Tats (Judeo-Tat)
+Sanskrit
+Romani
+Celtic
+Irish (Old, Modern)
+Breton
+Welsh
+Germanic
+Core Germanic
+English (Old, Middle, Modern)
+German (Old, Middle, Modern)
+Yiddish
+Dutch
+Gothic
+Scandinavian
+Old Norse
+Danish
+Swedish
+Balto-Slavic
+Baltic
+Lithuanian
+Latvian
+Prussian
+Slavic
+Russian
+Old Church Slavonic
+Bulgarian
+Serbo-Croatian
+Polish
+Czech
+Romance
+Latin
+Spanish
+Portuguese
+Catalan
+French
+Italian
+Romanian
+
+Uralic
+Uralic
+Finnic languages
+Finnish
+Estonian
+Võro
+Hungarian
+Mordvinic languages
+Erzya-Mordvin
+Komi
+Khanty
+Udmurt
+Mansi
+Mari
+Samic languages
+Northern Sami
+Samoyedic
+Nenets
+Selkup
+
+Tai-Kadai
+Tai-Kadai
+Kra
+Gelao (Qau)
+Gelao (Hakei)
+Buyang (Langjia)
+Buyang (Ecun)
+Hlai
+Li (Baoting)
+Kam-Sui
+Lakkja
+Mulam
+Maonan
+Chadong
+Kam, Southern
+Sui
+Tai
+Zhuang (Longzhou)
+Nung (Fengshan)
+Nung (Lazhai)
+Nung (Ningbei)
+Tai Khuen
+Tai Lue
+Dehong
+Shan
+Thai (standard)
+Thai (central)
+Thai (Khorat)
+Thai (Songkhla)
+
+Others
+Basque
+Elamite
+Turkic
+Azerbaijan
+Nogai
+Kumyk
+Chulym
+Austronesian
+Proto Austronesian
+Proto Polynesian
+Rotuman – Fiji
+Tongan
+Marquesan
+Tuamotuan
+Hawaiian
+Māori
+Rapa Nui
+Afro-Asiatic
+Semitic
+Arabic
+Aramaic
+Chadic
+Hausa
+Polci
+Nilo-Saharan
+Ghulfan
+Creoles
+Negerhollands (Dutch-based) – U.S. Virgin Islands
+Limonese Creole (English-based) – Costa Rica
+Lengua (Quechua-based) – Ecuador (mixed)

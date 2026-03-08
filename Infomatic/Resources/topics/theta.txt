@@ -1,0 +1,31 @@
+Theta* is an any-angle path planning algorithm that is based on the A* search algorithm. It can find near-optimal paths with run times comparable to those of A*.
+
+Description
+For the simplest version of Theta*, the main loop is much the same as that of A*. The only difference is the
+
+
+
+
+          update
+
+        _
+
+          vertex
+
+        (
+        )
+
+
+    {\displaystyle {\text{update}}\_{\text{vertex}}()}
+
+ function. Compared to A*, the parent of a node in Theta* does not have to be a neighbor of the node as long as there is a line-of-sight between the two nodes.
+
+Pseudocode
+Adapted from.
+
+Line-of-sight algorithm
+Variants
+The following variants of the algorithm exist:
+
+Lazy Theta* – Node expansions are delayed, resulting in fewer line-of-sight checks
+Incremental Phi* – A modification of Theta* that allows for dynamic path planning similar to D*

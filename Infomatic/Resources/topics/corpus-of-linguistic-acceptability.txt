@@ -1,0 +1,4 @@
+Corpus of Linguistic Acceptability (CoLA) is a dataset the primary purpose of which is to serve as a benchmark for evaluating the ability of artificial neural networks, including large language models, to judge the grammatical correctness of sentences. It consists of 10,657 English sentences from published linguistics literature that were manually labeled either as grammatical or ungrammatical.
+
+Public version
+The publicly available version of CoLA contains 9,594 sentences that belong to training and development sets. It excludes 1,063 sentences reserved for a held-out test set.

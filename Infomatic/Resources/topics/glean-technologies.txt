@@ -1,0 +1,19 @@
+Glean Technologies, Inc. is an American technology company specializing in enterprise-grade artificial intelligence (AI) and search capabilities.
+According to Reuters, its valuation is $7.2 billion as of June 2025.
+
+History
+The company was founded in 2019 in Palo Alto, California.
+In September 2021, Glean introduced its assistive search tool, designed to pull together information from dozens of disparate applications, streamlining access to critical data across various platforms, to the market.
+In February 2025, the company reported reaching $100 million in annual recurring revenue.
+At that time, the company also announced its agent platform, designed to automate workplace tasks beyond search. The platform became generally available in May 2025.
+In September 2025, Glean introduced a third-generation Glean Assistant and an Enterprise Graph focused on personalization and multi-step task execution.
+It was named CNBC's top 50 disruptor in 2025.
+
+Products and technology
+Glean’s platform combines enterprise search, an AI assistant, and AI agents. Its search product integrates with workplace applications to index company data and provide permission-aware results. The AI assistant, introduced in 2021, helps employees find and summarize information across connected systems. In 2025, the company expanded into agent technologies, allowing employees to create and deploy AI agents to automate workflows using natural language instructions.
+
+Funding rounds
+In March 2019, shortly after its establishment, Glean raised $15 million in Series A funding co-led by Kleiner Perkins and Lightspeed, which included participation from the Slack Fund. In March 2021, the company closed a Series B funding round of $40M led by General Catalyst.
+In May 2022, the company secured a $100M Series C led by Sequoia Capital at a $1B valuation and hit the Unicorn status. In February 2024, Glean raised over $200 million in Series D funding at a $2.2B valuation.
+In September 2024, Glean raised over $260 million in Series E funding, co-led by Altimeter Capital and DST Global, taking its valuation to $4.6 billion.
+In June 2025, Glean raised $150 million in Series F financing led by Wellington Management at a $7.2 billion valuation.

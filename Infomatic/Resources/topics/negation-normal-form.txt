@@ -1,0 +1,470 @@
+In mathematical logic, a formula is in negation normal form (NNF) if the negation operator (
+
+
+
+        ¬
+
+
+    {\displaystyle \lnot }
+
+, not) is only applied to variables and the only other allowed Boolean operators are conjunction (
+
+
+
+        ∧
+
+
+    {\displaystyle \land }
+
+, and) and disjunction (
+
+
+
+        ∨
+
+
+    {\displaystyle \lor }
+
+, or).
+Negation normal form is not a canonical form: for example,
+
+
+
+        a
+        ∧
+        (
+        b
+        ∨
+        ¬
+        c
+        )
+
+
+    {\displaystyle a\land (b\lor \lnot c)}
+
+ and
+
+
+
+        (
+        a
+        ∧
+        b
+        )
+        ∨
+        (
+        a
+        ∧
+        ¬
+        c
+        )
+
+
+    {\displaystyle (a\land b)\lor (a\land \lnot c)}
+
+ are equivalent, and are both in negation normal form.
+
+Definition
+The following is a context-free grammar for NNF:
+
+where Variable is any variable.
+
+Examples and counterexamples
+The following formulae are all in negation normal form:
+
+
+
+
+
+
+
+
+
+
+                (
+                (
+                A
+                ∨
+                B
+                )
+                ∧
+                C
+                )
+
+
+
+
+
+
+                (
+                A
+                ∨
+                ¬
+                B
+                )
+
+
+
+
+
+
+                (
+                A
+                ∧
+                ¬
+                B
+                )
+
+
+
+
+
+
+                (
+                (
+                A
+                ∧
+                (
+                ¬
+                B
+                ∨
+                C
+                )
+                )
+                ∧
+                ¬
+                C
+                )
+
+
+
+
+
+
+    {\displaystyle {\begin{aligned}&((A\lor B)\land C)\\&(A\lor \lnot B)\\&(A\land \lnot B)\\&((A\land (\lnot B\lor C))\land \lnot C)\end{aligned}}}
+
+
+The first example is also in conjunctive normal form, the next two are in both conjunctive normal form and disjunctive normal form, but the last example is in neither.
+The following formulae are not in negation normal form:
+
+
+
+
+
+
+
+
+                (
+                A
+
+
+
+                →
+                B
+                )
+
+
+
+
+                ¬
+                (
+                A
+
+
+
+                ∨
+                B
+                )
+
+
+
+
+                ¬
+                (
+                A
+
+
+
+                ∧
+                B
+                )
+
+
+
+
+                ¬
+                (
+                A
+
+
+
+                ∨
+                ¬
+                C
+                )
+
+
+
+
+
+
+    {\displaystyle {\begin{aligned}(A&\to B)\\\lnot (A&\lor B)\\\lnot (A&\land B)\\\lnot (A&\lor \lnot C)\end{aligned}}}
+
+
+They are however respectively equivalent to the following formulae in negation normal form:
+
+
+
+
+
+
+
+
+                (
+                ¬
+                A
+
+
+
+                ∨
+                B
+                )
+
+
+
+
+                (
+                ¬
+                A
+
+
+
+                ∧
+                ¬
+                B
+                )
+
+
+
+
+                (
+                ¬
+                A
+
+
+
+                ∨
+                ¬
+                B
+                )
+
+
+
+
+                (
+                ¬
+                A
+
+
+
+                ∧
+                C
+                )
+
+
+
+
+
+
+    {\displaystyle {\begin{aligned}(\lnot A&\lor B)\\(\lnot A&\land \lnot B)\\(\lnot A&\lor \lnot B)\\(\lnot A&\land C)\end{aligned}}}
+
+Conversion to NNF
+In classical logic and many modal logics, every formula can be brought into this form by replacing implications (
+
+
+
+        →
+
+
+    {\displaystyle \to }
+
+) and equivalences (
+
+
+
+        ↔
+
+
+    {\displaystyle \leftrightarrow }
+
+) by their definitions, using De Morgan's laws to push negation inwards, and eliminating double negations.  This process can be represented using the following rewrite rules:
+
+
+
+
+
+
+
+
+                A
+                →
+                B
+
+
+
+                ⇝
+
+                ¬
+                A
+                ∨
+                B
+
+
+
+
+                A
+                ↔
+                B
+
+
+
+                ⇝
+
+                (
+                ¬
+                A
+                ∨
+                B
+                )
+                ∧
+                (
+                A
+                ∨
+                ¬
+                B
+                )
+
+
+
+
+                ¬
+                (
+                A
+                ∨
+                B
+                )
+
+
+
+                ⇝
+
+                ¬
+                A
+                ∧
+                ¬
+                B
+
+
+
+
+                ¬
+                (
+                A
+                ∧
+                B
+                )
+
+
+
+                ⇝
+
+                ¬
+                A
+                ∨
+                ¬
+                B
+
+
+
+
+                ¬
+                ¬
+                A
+
+
+
+                ⇝
+
+                A
+
+
+
+
+                ¬
+                ∃
+                x
+                A
+
+
+
+                ⇝
+
+                ∀
+                x
+                ¬
+                A
+
+
+
+
+                ¬
+                ∀
+                x
+                A
+
+
+
+                ⇝
+
+                ∃
+                x
+                ¬
+                A
+
+
+
+
+
+
+    {\displaystyle {\begin{aligned}A\to B&~\rightsquigarrow ~\lnot A\lor B\\A\leftrightarrow B&~\rightsquigarrow ~(\lnot A\lor B)\land (A\lor \lnot B)\\\lnot (A\lor B)&~\rightsquigarrow ~\lnot A\land \lnot B\\\lnot (A\land B)&~\rightsquigarrow ~\lnot A\lor \lnot B\\\lnot \lnot A&~\rightsquigarrow ~A\\\lnot \exists xA&~\rightsquigarrow ~\forall x\lnot A\\\lnot \forall xA&~\rightsquigarrow ~\exists x\lnot A\end{aligned}}}
+
+
+Transformation into negation normal form can increase the size of a formula only linearly: the number of occurrences of atomic formulas remains the same, the total number of occurrences of
+
+
+
+        ∧
+
+
+    {\displaystyle \land }
+
+ and
+
+
+
+        ∨
+
+
+    {\displaystyle \lor }
+
+ is unchanged, and the number of occurrences of
+
+
+
+        ¬
+
+
+    {\displaystyle \lnot }
+
+ in the normal form is bounded by the length of the original formula.
+A formula in negation normal form can be put into the stronger conjunctive normal form or disjunctive normal form by applying distributivity. Repeated application of distributivity may exponentially increase the size of a formula. In the classical propositional logic, transformation to negation normal form does not impact computational properties: the satisfiability problem continues to be NP-complete, and the validity problem continues to be co-NP-complete. For formulas in conjunctive normal form, the validity problem is solvable in polynomial time, and for formulas in disjunctive normal form, the satisfiability problem is solvable in polynomial time.

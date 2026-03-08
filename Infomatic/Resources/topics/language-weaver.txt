@@ -1,0 +1,15 @@
+Language Weaver is the machine translation (MT) technology and brand of RWS. The brand name was revived in 2021 following the acquisition of SDL and Iconic Translation Machines Ltd. and the merging of the respective teams and technologies. Language Weaver was formerly a standalone company that was acquired by SDL in 2010.
+
+History
+Language Weaver was a Los Angeles, California–based company founded in 2002 as a spin-out company from the University of Southern California. The company was founded to commercialise a statistical approach to automatic language translation and natural language processing known as statistical machine translation (SMT).  The company's name is a reference to one of the pioneers of machine translation — Warren Weaver — who first proposed the idea of using computers to ‘decode’ or ‘decrypt’ language in a memorandum back in 1947.
+Language Weaver’s statistical approach to machine translation was cutting-edge at the time, and a significant improvement over previous approaches such as Rule-Based MT. Language Weaver grew steadily over an 8 year period, with staff numbers totalling 96 across offices in US, Europe, and Japan. The company had significant business with Government organisations where its name continues to hold strong recognition to this day.
+In July 2010, Language Weaver was acquired by SDL plc for $42.5 million and the company was renamed SDL Language Weaver.
+
+SDL Language Weaver
+SDL Language Weaver was the primary machine translation technology at SDL where, over time, it evolved from SMT to syntax-based MT, to Neural Machine Translation. The Language Weaver brand was retired in 2015 in favour of SDL BeGlobal for the cloud-based solution, and SDL Enterprise Translation Server for the on-premise solution. Later, these products were rebranded again as SDL Machine Translation Cloud and SDL Machine Translation Edge respectively.
+
+2021 Relaunch
+The Language Weaver brand was revived in 2021 following the acquisition of SDL by RWS, and the merger of the SDL MT and Iconic Translation Machines teams and technologies. The combined technologies of both companies, based on state-of-the-art Transformer-based Neural Machine Translation, are now sold as "Language Weaver" for cloud-based MT, and "Language Weaver Edge" for on-premise MT.
+
+Supported languages
+As of September 2021, Language Weaver supports the following languages and language varieties:

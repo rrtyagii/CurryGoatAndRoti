@@ -1,0 +1,14 @@
+Enterpret is an American software company that develops a platform for analyzing customer feedback from multiple sources. Founded in 2020 by brothers Varun Sharma and Arnav Sharma, it's headquartered in San Francisco, California, with an engineering office in Bengaluru, India.
+
+History
+Enterpret was founded in June 2020 by Varun Sharma and Arnav Sharma.
+In March 2022, Enterpret emerged from stealth mode and launched its natural language processing-powered feedback analytics platform. The company raised $4.3 million in seed funding led by Kleiner Perkins, with participation from Unusual Ventures and Peak XV Partners.
+In May 2023, Arnav Sharma was included in the ''Forbes'' 30 Under 30 Asia list in the Enterprise Technology category.
+In December 2023, Enterpret was awarded "Best Innovation leveraging AI/ML Service" in the startup segment by Amazon Web Services (AWS).
+In December 2024, Enterpret raised $20.8 million in Series A funding led by Canaan Partners, with participation from Kleiner Perkins, Peak XV Partners, Unusual Ventures, Wing Ventures, and Recall Capital. As of 2025, the company has 47 employees.
+In October 2025, Enterpret launched an agentic customer intelligence platform that unifies signals from more than 50 customer feedback channels and runs AI agents to detect and act on issues in real time.   The platform uses a Customer Knowledge Graph and Adaptive Taxonomy to map feedback to accounts, products, and revenue impact, integrating sources like Intercom, Zendesk, Gong, Reddit, Instagram, X and more.
+
+Products and services
+Enterpret provides a software-as-a-service platform that processes the voice of the customer from multiple customer feedback channels, including support tickets, social media, app store reviews, calls, and internal communications. The platform uses adaptive AI algorithms to unify and analyze unstructured feedback data, enabling the identification of themes, issues, and sentiment to inform product improvements and reduce churn.
+Enterpret's business model is based on usage, charging by the volume of feedback records processed.
+Its customers include Perplexity, Canva, Notion, Monday.com, Fanatics, Vimeo, Loom, Strava, Descript, and Linear.

@@ -1,0 +1,76 @@
+Program of Thought (PoT) prompting is a method designed to improve chain-of-thought prompting in computational tasks, that integrates programming into reasoning. LLMs are not ideal for solving mathematical tasks, it's trend to calculate error on large numbers and complex mathematical questions such as polynomial equations or even differential equations. Instead of producing only natural language explanations or reasoning from Chain of Thought, Program of Thought Prompting guides the model to generate a reasoning thought like a human, and ends with executable code (typically Python). The generated code is then executed by an interpreter to obtain more precise results than LLMs calculate itself.
+
+Prompting technique
+Prompting techniques are methods of guiding large language models (LLMs) to perform tasks by providing well designed via prompt engineering. Instead of training or fine-tuning, LLMs can be directed to solve problems through “in-context learning,” where a model is shown a small set of input and output exemplars call few shots.
+These exemplars often include intermediate reasoning steps or structured outputs, allowing the model to mimic problem-solving strategies. This approach has become foundational for techniques such as Chain of Thought and Program of Thought, which extend prompting to handle complex reasoning tasks.
+
+Chain of thought
+Chain-of-thought prompting is a technique in which LLMs are provided with demonstrations that include not only the input and output but also a series of intermediate reasoning steps. By imitating these step-by-step "thought processes", models can solve multi-step problems such as arithmetic word problems, commonsense reasoning, and symbolic manipulation.
+There are two types of CoT:
+
+few-shot prompting technique is accompanied by showing a set of input/output exemplars to demonstrate the desired model output for guiding LLMs.
+zero-shot prompting technique is just appending the words "Let's think step-by-step" to tell LLMs to show the thinking process step-by-step.
+An example format of few-shot CoT prompting with in-context exemplars:
+
+Q: {example question 1}
+A: {example answer 1}
+...
+Q: {example question n}
+A: {example answer n}
+
+Q: {question}
+A: {LLM output}
+
+An example format of zero-shot CoT prompting:
+
+Q: {question}. Let's think step by step.
+A: {LLM output}
+
+Code interpreter
+Code interpreters are external execution environments that can run generated code from an LLM. Instead of requiring the model to perform all calculations in natural language, the model can offload computational steps to tools such as a Python interpreter. This approach is more reliable for handling tasks involving large numbers, complex equations, or iterative processes. When integrated into prompting methods, code interpreters allow LLMs to focus on reasoning and structuring problems, while exact computation is delegated to external software.
+
+Examples
+For example, to solve a problem involving compound interest, the model can define variables such as interest_rate and use libraries like SymPy to solve equations programmatically. This approach reduces arithmetic errors and handles more complex tasks (e.g., polynomial equations, iterations) that are difficult for LLMs to compute directly
+
+Chain of Thought (CoT) approach
+Q: A bank deposits $2000 at an unknown annual interest rate. After 3 years,
+   the account grows to $2600. What is the interest rate?
+A: The equation is 2000 × (1 + x)^3 = 2600.
+   Expanding gives 2000 × (1 + 3x + 3x^2 + x^3).
+   Solving manually for x ≈ 0.091 → about 9.1%.
+
+Program of Thought (PoT) approach
+Q: A bank deposits $2000 at an unknown annual interest rate. After 3 years,
+   the account grows to $2600. What is the interest rate?
+A: Let's write a program of thought in Python.
+
+An example format of few-shot PoT prompting:
+
+Question: A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bolts in total does it take?
+# Python code, return ans
+bolts_of_blue_fiber = 2
+bolts_of_white_fiber = num_of_blue_fiber / 2
+ans = bolts_of_blue_fiber + bolts_of_white_fiber
+
+Question: {Question}
+# Python code, return ans
+{Python code that solve this question}
+
+Question: {Question}
+# Python code, return ans
+{Python code that solve this question}
+
+Question: {Question}
+# Python code, return ans
+{Python code that solve this question}
+An example format of zero-shot PoT prompting:
+
+Future work
+Research on Program of Thought (PoT) continues to evolve in multiple directions. Hybrid frameworks combine PoT with Chain of Thought (CoT), where PoT handles precise computation while CoT provides human-readable reasoning. Other advances explore integrating PoT with self-consistency decoding, sampling multiple reasoning paths and weighting them by execution correctness to improve robustness.
+A notable example of future work extends PoT into multilingual environments. Payoungkhamdee et al. (2025) proposed a framework for evaluating PoT across languages by separating multilingual reasoning from code execution
+Their study addressed two key challenges:
+
+Q–R alignment: aligning questions in different languages with effective reasoning steps.
+R–A association: measuring how the quality of generated reasoning code affects the correctness of answers.
+They found that fine-tuning PoT significantly improves multilingual reasoning performance, outperforming CoT in both cross-lingual and multilingual setups. Furthermore, they showed a strong correlation between code quality and answer accuracy, using ICE-Score as a heuristic to guide inference at test time. This approach improved multilingual PoT accuracy, particularly in low-resource languages.
+Such work highlights how PoT can be adapted to broaden accessibility and robustness across diverse linguistic contexts, suggesting that future research may combine PoT with translation models, specialized fine-tuning strategies, and advanced evaluation metrics to enhance reasoning in non-English languages.

@@ -1,0 +1,12 @@
+AllegroGraph is a closed source triplestore which is designed to store RDF triples, a standard format for Linked Data.
+It also operates as a document store designed for storing, retrieving and managing document-oriented information, in JSON-LD format.
+AllegroGraph is currently in use in commercial projects and a US Department of Defense project.   It is also the storage component for the TwitLogic project that is bringing the Semantic Web to Twitter data.
+
+Implementation
+AllegroGraph was developed to meet W3C standards for the Resource Description Framework, so it is properly considered an RDF Database. It is a reference implementation for the SPARQL protocol.  SPARQL is a standard query language for linked data, serving the same purposes for RDF databases that SQL serves for relational databases.
+Franz Inc. is the developer of AllegroGraph. It also develops Allegro Common Lisp, an implementation of Common Lisp, a dialect of Lisp (programming language). The functionality of AllegroGraph is made available through Java, Python, Common Lisp and other APIs.
+The first version of AllegroGraph was made available at the end of 2004.
+
+Languages
+AllegroGraph has client interfaces for Java, Python, Ruby, Perl, C#, Clojure, and Common Lisp.  The product is available for Windows, Linux, and Mac OS X platforms, supporting 32 or 64 bits.
+For query languages, besides SPARQL, AllegroGraph also supports Prolog and JavaScript.

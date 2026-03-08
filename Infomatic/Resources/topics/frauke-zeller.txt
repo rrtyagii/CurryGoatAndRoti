@@ -1,0 +1,25 @@
+Dr Frauke Zeller is Chair and Professor in Design Informatics, Co-Director of the Institute for Design Informatics at Edinburgh College of Art and The University of Edinburgh, co-creator of the first hitchhiking robot.
+
+Biography
+Dr. Frauke Zeller received her Ph.D. (Dr. phil.) from Kassel University, Germany, in English Linguistics and Computational Philology. After that, she worked in the Institute of Media and Communication Studies at Ilmenau University of Technology, Germany. Frauke's Habilitation (highest academic degree in Germany) research project dealt with methods to analyze online communities.
+From 2011 to 2013 she held a Marie Skłodowska-Curie Fellowship, funded by the European Commission, and was a researcher in Canada as well as the UK (University College London). She was offered a tenure track assistant professorship at Toronto Metropolitan University in 2013, where she stayed until 2022.
+She joined Edinburgh Napier University in 2023 as Professor of HCI & Creative Informatics in the School of Computing and Engineering & the Built Environment. In August 2024, she joined The University of Edinburgh and Edinburgh College of Art as Chair and Professor in Design Informatics.
+
+Other Positions
+Zeller has also held a range of research-related positions, such as director of the Centre for Communicating Knowledge, director of The Creative School Catalyst (a research catalyst and facilitator), DAAD Research Ambassador, and is still advisory council member of GAIN (the German Academic International Network).
+
+Research
+Zeller's research expertise spans several areas, such as methods for big data analyses in audience analytics, AI ethics and Human-Computer and -Robot Interaction. Zeller has been involved in multiple international research projects and was awarded a range of major research grants, among them a Tri-Council grant (Social Sciences and Humanities Research Council, SSHRC), and has been co-applicant and collaborator in a project that develops AI-based social robots for pediatric pain management, funded by the new UK-Canada AI Research programme.
+Other projects are related to AI, such as developing higher education training courses in Responsible AI (funded by NSERC), analyzing social media content related to human rights issues and youth in Central America (RCYP), the development of AI-based technologies like chatbots for news media outlets and knowledge translation (SSHRC funded Partnership project, GJIL and XJO). Other projects were funded by the European Commission (Network of Excellence) or the German Research Foundation. Zeller is also the co-creator of the first hitchhiking robot - hitchBOT. The project garnered broad public interest all around the world, and since then, she has been working on human-robot interaction and AI-related projects.
+
+Projects
+Creative Informatics: Data Driven Innovation for the Creative Industries
+
+Selected publications
+Dr. Frauke Zeller has published more than 30 academic papers with more than 250 citations including:
+
+Hudson, S., Nishat, F., Stinson, J., Litwin, S., Zeller, F., Wiles, B., Foster, M. E., & Ali, S. (2023). Perspectives of Healthcare Providers to Inform the Design of an AI-Enhanced Social Robot in the Pediatric Emergency Department. Children, 10(9), 1511. https://doi.org/10.3390/children10091511
+Revitalising Audience Research (November 2014), edited by Frauke Zeller, Cristina Ponte, Brian O'Neill (Routledge)
+Smith, David H. & Frauke Zeller (2017). The death and lives of hitchBOT: the design and implementation of a hitchhiking robot. Leonardo. 50(1): 77–8.
+Foster, Mary & Ali, Samina & Litwin, Sasha & Parker, Jennifer & Petrick, Ronald & Smith, David & Stinson, Jennifer & Zeller, Frauke. (2020). Using AI-Enhanced Social Robots to Improve Children’s Healthcare Experiences. https://doi.org/10.1007/978-3-030-62056-1_45.
+ Zeller, Frauke, and Lauren Dwyer. “Systems of Collaboration: Challenges and Solutions for Interdisciplinary Research in AI and Social Robotics.” Discover Artificial Intelligence 2.1 (2022): 1–12. Web. https://doi.org/10.1007/s44163-022-00027-3.pdf

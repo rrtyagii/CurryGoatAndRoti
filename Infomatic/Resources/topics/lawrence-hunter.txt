@@ -1,0 +1,31 @@
+Lawrence E. Hunter is a Professor at the University of Chicago. He was the founder and director of the Computational Bioscience Program at the University of Colorado School of Medicine and Professor of Computer Science at the University of Colorado Boulder.  He is an internationally known scholar, focused on computational biology, knowledge-driven extraction of information from the primary biomedical literature, the semantic integration of knowledge resources in molecular biology, and the use of knowledge in the analysis of high-throughput data, as well as for his foundational work in computational biology, which led to the genesis of the major professional organization in the field and two international conferences.
+
+Education
+Hunter completed his PhD at Yale University in 1989 with a thesis on Knowledge Acquisition Planning: Gaining Expertise Through Experience, on diagnosis of lung cancer from histological images using Case-based reasoning, under the guidance of Roger Schank.
+
+Career and research
+Faced with a choice between careers in the main applications of artificial intelligence---game programming and defense work—Hunter chose an emerging new discipline, bioinformatics.  From 1989 to 2000, Hunter worked as a computer scientist and section chief for National Institutes of Health sections devoted to statistical and bioinformatic research.  He was an adjunct faculty member at George Mason University from 1991 through 2000 and an associate professor in the University of Colorado Denver School of Medicine from 2000 to 2008.  He was promoted to professor in 2008. He moved to the University of Chicago in 2024.
+
+ISCB
+In 1997, Hunter founded what has become the largest professional organization in computational biology and bioinformatics, the International Society for Computational Biology (ISCB).
+
+Conferences
+Hunter was also a founder of three successful  international conferences in bioinformatics, the International  Conference on Intelligent Systems for Molecular Biology (ISMB) and the Pacific Symposium on Biocomputing (PSB) and the Rocky Mountain Bioinformatics Conference.  He is also a co-organizer of the biological visualization conference Vizbi. Hunter cofounded and was a member of the Board of Directors of the Molecular Mining Corporation from 1997 to 2003.
+
+Awards, honors and influence
+Hunter is a Fellow of the American College of Medical Informatics and the winner of the Association for the Advancement of Artificial Intelligence (AAAI) 2003 Engelmore Prize for Innovative Applications of Artificial Intelligence.
+Hunter is credited with being one of the founders of the field of bioinformatics.  Throughout his career Hunter has researched and directed research groups investigating the development and application of advanced computational techniques for biomedicine to high-throughput assays, particularly the application of statistical and knowledge-based techniques, in particular bio-ontologies, to the analysis of high-throughput data and of biomedical texts.  He has proposed neurobiologically and evolutionarily informed computational models of cognition, and ethical issues related to computational bioscience. He has argued for expansion data science activities in biomedicine to include knowledge-based methods.
+He became an ISCB Fellow in 2010. Other awards and honors include Regent's Award for Scholarship and Technical Achievement 1994 Meritorious Service Award, National Library of Medicine, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998 Excellence in Research Award, University of Colorado School of Medicine Department of Pharmacology, 2007 Excellence in Teaching Award, University of Colorado School of Medicine Department of Preventive Medicine and Biometrics, 2004.
+
+Publications
+Selected publications include:
+
+Rindflesch, T.; Tanabe, L.; Weinstein, J.; Hunter, L. (2000). "EDGAR: Extraction of drugs, genes and relations from the biomedical literature". Pacific Symposium on Biocomputing: 517–528. doi:10.1142/9789814447331_0049. ISBN 978-981-02-4188-9. PMC 2709525. PMID 10902199.
+Schank, R. C.; Collins, G. C.; Hunter, L. E. (1986). "Transcending inductive category formation in learning". Behavioral and Brain Sciences. 9 (4): 639. doi:10.1017/S0140525X00051578. S2CID 144458369.
+Rindflesch, T. C.; Rajan, J. V.; Hunter, L. (2000). "Extracting molecular binding relationships from biomedical text". Proceedings of the sixth conference on Applied natural language processing -. pp. 188–195. doi:10.3115/974147.974173. S2CID 16166432.
+Planning to learn  The Proceedings of the Twelfth Annual Conference of the Cognitive Science Society, Boston, MA., July 1990, pp. 26–34, Lawrence Erlbaum Associates, Hillsdale, NJ. in.
+Hunter, Lawrence (1993). Artificial intelligence and molecular biology. Menlo Park, Calif: AAAI Press. ISBN 978-0-262-58115-8.
+Baumgartner, W. A.; Cohen, K. B.; Fox, L. M.; Acquaah-Mensah, G.; Hunter, L. (2007). "Manual curation is not sufficient for annotation of genomic databases". Bioinformatics. 23 (13): i41–i48. doi:10.1093/bioinformatics/btm229. PMC 2516305. PMID 17646325.
+Hunter, L.; Lu, Z.; Firby, J.; Baumgartner Jr, W. A.; Johnson, H. L.; Ogren, P. V.; Cohen, K. B. (2008). "OpenDMAP: An open source, ontology-driven concept analysis engine, with applications to capturing knowledge regarding protein transport, protein interactions and cell-type-specific gene expression". BMC Bioinformatics. 9: 78. doi:10.1186/1471-2105-9-78. PMC 2275248. PMID 18237434.
+Leach, S. M.; Tipney, H.; Feng, W.; Baumgartner, W. A.; Kasliwal, P.; Schuyler, R. P.; Williams, T.; Spritz, R. A.; Hunter, L. (2009). Miyano, Satoru (ed.). "Biomedical Discovery Acceleration, with Applications to Craniofacial Development". PLOS Computational Biology. 5 (3) e1000215. Bibcode:2009PLSCB...5E0215L. doi:10.1371/journal.pcbi.1000215. PMC 2653649. PMID 19325874.
+Hunter, Lawrence (2009). The processes of life: an introduction to molecular biology. Cambridge, Massachusetts: MIT Press. ISBN 0-262-01305-3.

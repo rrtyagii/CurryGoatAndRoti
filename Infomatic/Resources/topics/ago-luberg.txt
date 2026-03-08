@@ -1,0 +1,23 @@
+Ago Luberg (born 27 March 1983) is an Estonian computer scientist and educator at Tallinn University of Technology (TalTech). He has been featured in Estonian media as an expert commentator on the impact of artificial intelligence on work and education.
+He has also been cited as the programme director for TalTech's informatics and artificial intelligence bachelor's-level curriculum, launched to train AI specialists for the Estonian labour market.
+
+Education
+Luberg studied at Tallinn University of Technology. In 2021, he defended a doctoral dissertation on consolidating crowd-sourced geo-tagged data for parameterized travel recommendations, supervised by Tanel Tammet.
+
+Career
+ERR Novaator has described Luberg as the head of Tallinn University of Technology’s Applied Artificial Intelligence group (rakendusliku tehismõistuse töörühm).
+Luberg has worked at TalTech in teaching and curriculum leadership roles, including as an informatics programme lead/manager in university communications and national media.
+In 2025, Tööstusuudised.ee quoted Luberg in connection with launching TalTech’s informatics and artificial intelligence bachelor’s curriculum, describing a shortage of higher-level specialists able to develop and evaluate AI systems.
+
+Research
+ERR Novaator has reported that Luberg’s doctoral work developed and evaluated algorithms for recommending sightseeing destinations using crowd-sourced geo-tagged data, and discussed his work with tourism recommendation systems (including designs and data integration for systems such as Sightsmap / Sightsplanner).
+
+Teaching and educational tooling
+Luberg has contributed to engineering tooling used in programming education at TalTech; TalTech’s public technical documentation for automated testing infrastructure credits him as an author/copyright holder.
+
+Awards and recognition
+In 2022, Luberg was nominated for Aasta õppejõud (Lecturer of the Year) at Estonia’s national Aasta õpetaja awards.
+
+Selected works
+Tammet, T.; Luberg, A.; Järv, P. (2013). "Sightsmap: Crowd-Sourced Popularity of the World Places." In Information and Communication Technologies in Tourism.
+Luberg, A. (2020). "Sights, titles and tags: mining a worldwide photo database for sightseeing." In Proceedings of WIMS 2020. doi:10.1145/3405962.3405987

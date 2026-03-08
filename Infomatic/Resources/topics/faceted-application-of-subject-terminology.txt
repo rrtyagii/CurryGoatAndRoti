@@ -1,0 +1,23 @@
+Faceted Application of Subject Terminology (FAST) is a general use controlled vocabulary based on the Library of Congress Subject Headings (LCSH). FAST is developed as a part of WorldCat by OCLC, Inc., with the goal of making subject cataloging less costly and easier to implement in online contexts. FAST headings separate topical data from non-topical data, such as information about a document's form, chronological coverage, or geographical coverage.
+Unlike LCSH headings, which are pre-coordinated (multiple terms are linked together by the cataloger in a specific order, e.g. "United States -- History"), FAST headings are post-coordinated (terms are singly assigned, so the user can mix and match, e.g. "United States" and "History").
+
+Use
+OCLC has been developing FAST since 1998, and originally intended the system to describe Web resources in simple metadata schemata, particularly Dublin Core.
+FAST separates headings into eight distinct facets: topical, geographic, personal name, corporate name, form, chronological, title as subject, and meeting name. Each facet can be mapped to a specific Dublin Core element. For example, the geographic facet can be mapped to the coverage element in the basic Dublin Core Metadata Element Set, and to the coverage.geographic element in qualified Dublin Core.
+In keeping with Dublin Core's simplicity, FAST headings are meant to be "simple and easy to apply and to comprehend." To facilitate subject assignment, OCLC has developed a tool called assignFast. This tool uses an autocomplete feature to assist catalogers with the details of FAST headings.
+OCLC has published FAST as linked data under an Open Data Commons Attribution (ODC-By) License.
+Organisations using the FAST vocabulary include:
+
+Analysis & Policy Observatory
+British Library
+Harvard University
+Informit (Australia)
+National Library of New Zealand
+The FAST Policy and Outreach Committee (FPOC) was established in 2018.
+
+Details
+The FAST authority file contains over 1,700,000 authority records.
+
+Reception
+FAST's chronological periods have been critiqued as making little sense outside the context of full LCSH.
+An OCLC study showed that several libraries that had adopted FAST were impressed by its "ease of use, simple syntax, [and] suitability for use by non-specialist staff." However, several libraries in the same study were discouraged by a lack of communication with OCLC.

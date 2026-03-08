@@ -1,0 +1,91 @@
+CrysTBox (Crystallographic Tool Box) is a suite of computer tools designed to accelerate material research based on transmission electron microscope images via highly accurate automated analysis and interactive visualization. Relying on artificial intelligence and computer vision, CrysTBox makes routine crystallographic analyses simpler, faster and more accurate compared to human evaluators. The high level of automation together with sub-pixel precision and interactive visualization makes the  quantitative crystallographic analysis accessible even for non-crystallographers allowing for an interdisciplinary research. Simultaneously, experienced  material scientists can take advantage of advanced functionalities for comprehensive analyses.
+CrysTBox is being developed in the Laboratory of electron microscopy at the Institute of Physics of the Czech Academy of Sciences. For academic purposes, it is available for free. As of 2022, the suite has been deployed at  research and educational facilities in more than 90 countries supporting research of ETH Zurich, Lawrence Berkeley National Laboratory, Max Planck Institutes, Chinese Academy of Sciences, Fraunhofer Institutes or Oxford University.
+
+Suite
+As a scientific tool, CrysTBox suite is freely available for academic purposes, it supports file formats widely used in the community and offers interconnection with other scientific software.
+
+Availability
+CrysTBox is freely available on demand for non-commercial use by non-commercial subjects. The only safe way to download CrysTBox installers is via a request form on the official website. Commercial use is not allowed due to the license of MATLAB used for CrysTBox compilation.
+
+Notable research and users
+Besides education, CrysTBox is mainly used in research with fields of application spanning from nuclear research to archaeology and paleontology. Among others, the suite was employed in development of additive manufacturing (including 3D printed biodegradable alloys, metallic glass or high-entropy alloys), resistant coatings, laser shock peening, water cleaning technologies or characterization of 50 million years old flint.
+Institutions whose research was supported by CrysTBox include educational facilities such as ETH Zurich, University of California, Uppsala University, Oxford University, University of Waterloo, Indian Institute of Technology, Nanyang Technological University or University of Tokyo as well as research institutes like Max Planck Institutes, Chinese Academy of Sciences, Fraunhofer Institutes or US national laboratories (NL) such as Oak Ridge NL, Lawrence Berkeley NL, Idaho NL and Lawrence Livermoore NL.
+
+Limitations and disadvantages
+CrysTBox is compiled to a stand-alone installers using MATLAB Compiler. Therefore, 1-2 GB of MATLAB libraries are installed together with the toolbox.
+The diffraction simulation used in cellViewer is based on kinematic diffraction theory. This allows for a real-time response to user interaction, but it does not cover advanced diffraction features like double diffraction covered by dynamical diffraction theory, even though some phenomena caused by multiple electron-matter interactions are visualized by CrysTBox - for instance Kikuchi lines.
+The analytical tools provide correction for scale calibration imperfections, but does not provide adjustment for image distortions such as elliptical distortion. If high-accuracy measurement is needed or if the distortion exceeds standard levels, appropriate tools should be applied prior to the analysis.
+
+Crystallographic visualization tools
+In order to  visualize functional relations and provide better understanding of experimental data, the graphical interface emphasize user interactivity and functional interconnection. There are two visualization tools in the suite: one depicting single material while another being focused on intergrowths of two different materials.
+
+cellViewer - single crystal visualization
+CellViewer allows to visualize the sample material in four modes widely used in material research:
+
+3D model of atomic structure (direct space),
+simulated diffraction pattern (reciprocal space),
+stereographic projection (projection of 3D space of crystallographic planes and directions to 2D),
+inverse pole figure (defined part of stereographic projection).
+Graphical user interface provides user with two interactive views side by side. These views can display arbitrary combination of the four aforementioned visualization modes allowing to perceive their mutual relations. For instance, rotation of the atomic structure in direct space leads (if set so) to an instant update of the simulated diffraction pattern. If any diffraction spot is selected, corresponding crystallographic planes are shown in the unit cell etc. Such interconnections are implemented for each pair of the four available visualization modes. The electronic visualization allows to simplify understanding of widely used, yet less intuitive representations such as the inverse pole figure. For instance by drawing the coloured triangle of the inverse pole figure into the stereographic projection or to the more intuitive 3D atomic structure.
+
+ifaceViewer - intergrowth visualization
+The ifaceViewer allows for visualization of two misoriented materials and their interface such as  crystal twins or grain boundaries. The user interface provides three views: two smaller views, each depicting one unit cell of selected material and orientation, and a larger view depicting an appropriate interface of the two structures. The interface can be visualized in four modes:
+
+3D model of both unit cells,
+wire-frame model of both unit cells,
+cross section of the interface,
+bulk representation (up to several hundred atoms).
+All three views in the user interface are functionally interconnected. If the content of one view is rotated by the user, the other views follow. If a crystallographic plane or direction is selected in one view, it is shown in other views and corresponding crystallographic indices are stated. The tool also allows to highlight coincident site lattice or calculate the list of planes and directions which are parallel or nearly parallel in the two misoriented materials.
+
+Automated analysis of TEM images
+CrysTBox offers tools for automated processing of diffraction patterns and high-resolution transmission electron microscope images. Since the tools employ algorithms of artificial intelligence and computer vision, they are designed to require minimal operator effort providing higher accuracy compared to manual evaluation. Four analytical tools can be used to index diffraction patterns, measure lattice constants (distances and angles), sample thickness etc. Despite the high level of automation, the user is able to control the whole process and perform individual steps manually if needed.
+
+diffractGUI - HRTEM and diffraction processing
+DiffractGUI allows for an automated analysis of  diffraction patterns and  high-resolution images of single crystal or limited number of crystallites. It is able to determine crystal orientation, index individual diffraction spots and measure interplanar angles and distances in picometric precision. The input image may depict:
+
+selected area diffraction pattern,
+high-resolution image,
+nanodiffraction pattern or
+convergent beam electron diffraction.
+The input image is processed in the following steps:
+
+Preprocessing with accordance to the settings and image nature (resolution and noise reduction, Fourier transform for direct space images etc.).
+Detection of diffraction reflections at various scales (difference of Gaussians typically used for spot detection, Hough transform for  CBED disk detection).
+The strongest detections are selected across the scale space.
+A regular lattice is fit to the set of the strongest detections using RANSAC algorithm.
+Lengths and angles of the  lattice basis vectors are measured.
+Crystal lattice orientation is determined and diffraction reflections are identified using theoretical parameters of the sample material.
+Compared to human evaluation, diffractGUI considers tens or even hundreds of diffraction spots at once and, therefore, can localize the pattern with sub-pixel precision.
+
+ringGUI - ring diffraction analysis
+RingGUI allows for an automated processing of ring diffraction images of polycrystalline or powder samples. It can be used to identify the diffraction rings, quantify the interplanar distances and thus characterize or identify the sample material. With known material, it can assist in microscope calibration. The input image is processed as follows:
+
+beam-stopper detection,
+localization of the ring center,
+quantification of the diffraction profile and estimation of its background intensity,
+identification of the rings in the image (peaks in the profile).
+The results can be further processed and visualized in two interactive, functionally interconnected graphical elements:
+
+Interactive diffraction image – allows the user to improve readability of the diffraction image by removing the beam-stopper, subtracting the background, revealing faint or spotty rings or by crystallographic identification of the depicted rings.
+Diffraction profile – circular average of the image intensities depicts the peaks corresponding to the rings and their match with theoretical values known for given sample material.
+Both, the diffraction image as well as diffraction profile can be used to select diffraction rings with a mouse click. The corresponding ring is then highlighted in both graphical representations and details are listed.
+
+twoBeamGUI - sample thickness estimation
+Sample thickness can be estimated using twoBeamGUI from a convergent beam electron diffraction pattern (CBED) in two beam approximation. The procedure is based on an automated extraction of the intensity profile across the diffracted disk in the following steps:
+
+diffraction disk radius is determined using multi-scale Hough transform,
+the transmitted and diffracted disks are localized and the reflection is indexed,
+the disks are horizontally aligned, cropped out and profiles are measured across the disks,
+the profile across the diffracted disk is matched with a series of profiles automatically simulated for given material, reflection and specified thickness range.
+Once the procedure is completed, the measured profile and the most similar simulated profile are displayed with the diffracted disk on the background. This allows the user to verify correctness of the automated estimate and easily check the similarity of other intensity profiles within the specified thickness range.
+
+gpaGUI - geometric phase analysis
+The tool called gpaGUI provides an interactive interface for geometric phase analysis. It allows to generate 2D maps of various crystallographic quantities using high-resolution images.
+Since the geometric phase analysis is performed in frequency domain, the high-resolution image needs to be transformed into frequential representation using Fourier transform. Mathematically, the frequential image is a  complex  matrix with the size equal to the original image. Crystallographically, it can be seen as an artificial  diffraction pattern of the original image depicting intensity peaks corresponding to the crystallographic planes present in the original image. After performing desired calculations, the frequential representation can be transformed back to the original spatial domain using inverse Fourier transform.
+Various crystallographic analyses can be performed using the frequential image. If it is filtered so that only the information from a region close to a particular diffraction spot is used (the rest is set to zero), a filtered direct image obtained by inverse Fourier transform then depicts only the planes corresponding to the selected diffraction spot. Moreover, due to its complex nature, the frequential image can be used to calculate amplitude and  phase. Together with a vector of one crystallographic plane depicted in the image, they can be used to generate a 2D map interplanar distance of given plane. If two vectors of non-parallel planes are known, the method can be used to generate maps of  strain and  displacement.
+Graphical user interface of gpaGUI is vertically divided into two halves, each of which contains:
+
+Diffractogram preview allowing to select one diffraction spot corresponding to a crystallographic plane.
+Visualization of a selected quantity (input image, filtered image or one of the maps mentioned above) allowing to select point of interest or region of interest for further analysis.
+Results of detailed analysis of point or region of interest. The point analysis allows the user to select any pixel of the visualized map to see exact values of the particular pixel and its closest  neighbourhood. If analysis of broader area is needed, a polygonal region can be outlined in the map allowing to enumerate its statistical details: mean, standard deviation, median, minimum, maximum and total area of the polygon.
+Since each half of the interface allows to specify one crystallographic plane, gpaGUI allows to calculate all the aforementioned crystallographic quantities including those which require two vectors. Precision and repeatability of the whole analysis relies on accuracy of the diffraction peak localization. To overcome inaccuracy of manual peak localization (with a mouse click), gpaGUI provides a possibility to process the input image with diffractGUI in order to accurately localize and index the peaks.

@@ -1,0 +1,76 @@
+The Genetic and Evolutionary Computation Conference (GECCO) is a peer-reviewed technical conference in the area of evolutionary computation, broadly interpreted. GECCO conferences have been held every year since 1999, when the first one was established as a recombination of the International Conference on Genetic Algorithms (ICGA) and the Annual Genetic Programming Conference (GP). Since 2005 it has been organised by the Association for Computing Machinery Special Interest Group on Genetic and Evolutionary Computation. In 2023 it obtained a CORE rank A in that conference ranking system, making it one of the most highly ranked in the field of evolutionary computation.
+
+History
+The first Genetic and Evolutionary Computation Conference (GECCO) was held in 1999 after two pre-existing conferences, the Annual Conference on Genetic Programming (GP, held since 1996), and the International Conference on Genetic Algorithms (ICGA, held biennially since 1985) merged.
+At the same time a new organisation, the International Society for Genetic and Evolutionary Computation (ISGEC) was created to manage this broader conference. In 2005 the ISGEC became a special interest group of the Association for Computing Machinery, assuming its present name of the Association for Computing Machinery Special Interest Group on Genetic and Evolutionary Computation (ACM SIGEVO). The ACM SIGEVO has organised every GECCO conference from 2005 onwards. For more information about each conference since 1999 see the table below.
+
+Format
+Because of the breadth of topics covered, GECCO conferences are organised in multiple parallel tracks, in order to create time for presentation even after peer-review has reduced the number of papers from those initially submitted. The slogan "One Conference: Many Mini-Conferences" appears on the website of GECCO 2004 and those of many other GECCO conferences.
+
+Tracks
+The tracks may change over time following trends in research and application of evolutionary computation. The 2025 GECCO conference provides recent examples:
+
+BBSR - Benchmarking, Benchmarks, Software and Reproducibility
+CS - Complex Systems
+ECOM - Evolutionary Combinational Optimisation and Metaheuristics
+EML - Evolutionary Machine Learning
+EMO - Evolutionary Multiobjective Optimisation
+ENUM - Evolutionary Numerical Optimisation
+GA - Genetic Algorithms
+GECH - General Evolutionary Computation and Hybrids
+GP - Genetic Programming
+L4EC - Learning for Evolutionary Computation
+NE - Neuroevolution
+RWA - Real World Applications
+SI - Swarm Intelligence
+THEORY - Theory
+
+Keynote speakers
+Each GECCO conference invites speakers with a considerable record in the field of evolutionary computation or in other aspects of public engagement to give keynote presentations. For example, at GECCO 2024 they were Toby Walsh, Suzie Sheehy and Una-May O'Reilly.
+
+Women+@GECCO
+Since 2013 there has been a workshop held at each GECCO conference to support women in evolutionary computation. It includes an interactive poster session.
+
+Workshops
+The workshop slots of GECCO conferences allows time to be devoted to subjects that might not be addressed fully in the main conference. Workshop organisers identify how their slot will be used and often issue a call for papers, separate from the main call for papers for the conference. In addition there is a Student Workshop allowing students of evolutionary computation early in their careers to engage in the conference.
+GECCO 2023 in Lisbon included 23 workshops, many of which were successors to ones held in earlier years.
+
+Tutorials
+Since evolutionary computation is very much about the implementation of novel solutions using software engineering techniques (with the exception of the theoretical aspect of the field) the tutorials section of a GECCO conference allows attendees to be introduced to areas of the field that they are not so familiar with. GECCO 2022 in Boston included 38 tutorials. Despite the mention of software engineering above some of these tutorials covered somewhat theoretical topics: A Gentle Introduction to Theory (for Non-Theoreticians) or Theory and Practice of Population Diversity in Evolutionary Computation.
+Tutorials and Workshops have in recent years taken place prior to the main conference, see the program of GECCO 2025 for an example. Tutorial abstracts and workshop proceedings are published in the companion volume.
+
+Late breaking papers/hot off the press
+Time was introduced in the earlier GECCO conferences for late submissions that could not go through the full peer review process to be published in the main proceedings. These were referred to as Late Breaking Papers, and in more recent GECCO conferences have been referred to as Hot Off the Press (HOP). The outline of the GECCO 2021 program shows where HOP papers appear in that year. HOP papers are published in the companion volume.
+
+Poster sessions
+Time has been made available in GECCO conferences for presentation of posters focused on the topics of the tracks of the main conference. Poster abstracts are published in the companion volume.
+
+Evolutionary computation in practise (ECiP)
+The ECiP track focuses on application of evolutionary computation in industry, or on applied collaboration between academia and industry in the use of evolutionary computation. Speakers in this track present real-world examples.
+
+Competitions
+In addition to the Humies contest referred to on the ACM SIGEVO website and in the Awards section below, other competitions are organised for GECCO conferences to stimulate solutions using evolutionary computation and related algorithms. During the conference time is available for the competitions in parallel with workshops and tutorials. Abstracts of competition entries are published in the companion volume.
+
+Awards
+ACM SIGEVO sponsors awards presented at each GECCO conference:
+
+The SIGEVO Outstanding Contribution Award recognises outstanding contributions in the field of evolutionary computation over at least 15 years.
+The GECCO Best Paper awards are awarded for each track of a GECCO conference.
+The SIGEVO Dissertation Award recognises thesis research within the scope of GECCO conferences carried out in the year prior to a conference.
+The SIGEVO Impact Award recognises papers that were published in a GECCO conference ten years earlier, that have been assessed to have had considerable impact on the field of evolutionary computation.
+The SIGEVO Chair Lecture is a lecture sponsored by ACM SIGEVO given by influential researchers in the field.
+The Humies Awards are presented at GECCO conferences for human-competitive results using any form of genetic or evolutionary computation published in the previous year. They are not sponsored by ACM SIGEVO but originated through a donation from the computer scientist John Koza.
+
+Significance
+GECCO conferences cover a very wide range of topics (see the Tracks described above).
+The length of the proceedings (the Proceedings of the GECCO 2025 conference is 1670 pages long when viewed in the ACM Digital Library) and the length of the companion volumes (the Companion Volume of the GECCO 2025 Proceedings is 2615 pages long when viewed in the ACM Digital Library) suggest a high level of participation even after peer review is carried out.
+The GECCO conferences have persisted over 27 years (see history above) and more are planned in the future. This suggests a major impact on the evolutionary computation community.
+GECCO conferences received an A rank in the CORE conference rating system when last carried out in 2023, making it one of the highest ranked conferences in evolutionary computation and related fields. (Parallel Problem Solving from Nature and Foundations of Genetic Algorithms, referred to below, also obtained a CORE rank A.)
+The IEEE Congress on Evolutionary Computation (also referred to as IEEE CEC or CEC) may be a comparable conference. There are other conferences in the field of evolutionary computation that are worth considering, including:
+
+Parallel Problem Solving from Nature (PPSN).
+EvoStar.
+Foundations of Genetic Algorithms (FOGA).
+
+
+== References and notes ==

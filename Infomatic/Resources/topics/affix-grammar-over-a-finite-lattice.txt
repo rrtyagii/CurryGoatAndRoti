@@ -1,0 +1,2 @@
+In linguistics, the affix grammars over a finite lattice (AGFL) formalism is a notation for context-free grammars with finite set-valued features, acceptable to linguists of many different schools.
+The AGFL-project aims at the  development of a technology for Natural language processing available under the GNU GPL.

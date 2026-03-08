@@ -1,0 +1,50 @@
+Alexey Yuryevich Mikhaylov (Russian: Алексей Юрьевич Михайлов) (31 March 1987) is a Russian economist and Artificial Intelligence researcher that is  Candidate of Economic Sciences.
+He has been an associate professor at the Financial University under the Government of the Russian Federation since 2013, Head of the Laboratory for the development of artificial intelligence algorithms since 2017. He has been an expert at the Russian Ministry of Education and Science, the Russian Science Foundation, and the Kuban Science Foundation since 2022. RBK's expert on artificial intelligence since 2023.
+He is also an employee of the Institute of China and Modern Asia of the Russian Academy of Sciences, a visiting professor at the China University of Petroleum and a visiting professor at the Universiti Brunei Darussalam since 2022. Researcher at the Western Caspian University and Baku Eurasian University since 2024.
+
+Early life
+Alexey Yuryevich Mikhailov was born on 31 March 1987 in Korolyov. In 2009, he graduated from the Financial Academy under the Government of the Russian Federation (FA) with a degree in Public and Municipal Administration. In 2013, he graduated from the Institute of Economics of the Russian Academy of Sciences with a degree in Economics.
+
+Career
+He was the economist at the Central Bank of Russia from 2007 to 2011. In 2013, he defended his PhD thesis in Finance, Money Circulation and Credit on the topic "Assessment of the effectiveness of the use of investment fund assets" (the scientific supervisor is Oleg Sukharev).
+Since 2013, he has been a researcher at the Center for Financial Research at the Financial Research Institute of the Russian Ministry of Finance. Since 2017, he has been Head of the Thomson Reuters Laboratory of the Department of Banking and Financial Markets at the FA. He is also the Deputy Director of the Monetary Relations Research Center.
+
+Scientific works
+He has worked in the field of research on various aspects of artificial intelligence (AI), decentralized finance, behavioral theory of economics, renewable energy sources, asset price forecasting models, innovation management, investment project evaluation, as well as new institutional economics, publishing articles in international peer-reviewed journals. His research interests include AI, machine learning, sustainable development, financial markets, cryptography, and innovation. He specializes in AI, energy, economics, econometrics and finance, business, management and accounting, ecology, materials science, mathematics, computer science, psychology, social sciences.
+In 2013-2025, he developed and teaches training courses: tokenomics, digital business, information technology in banks, derivative financial instruments, fundamentals of trading, financial markets, project management, creation of a project team, management of international projects.
+He is a guest editor of several special issues of international journals. He is or was on the editorial boards of the following international journals: International Journal of Energy Research, Journal of Open Innovation: Technology, Market, and Complexity, Orbis, Journal of Advanced Thermal Science Research, Thermal Science and Engineering, Green and Low-Carbon Economy, International Journal of Energy Economics and Policy. He also serves or has served on the editorial board of Russian journals such as Banking, E-management, Journal of Finance.
+Invited expert at the international conference REPA 2022. Keynote speaker at the 6th International Conference on Energy and Sustainable Development (ICES2024), Investfunds Forum (2024), SCO Digital Economy Forum (Tianjin, July 2025), Second Russian Industrial Mining Industry Forum (October 2025). Expert at RBK. Speaker at the international conference Mountains: Biodiversity, Landscapes and Cultures (Baku, November 2024), ESG Corporate Dynamics: the Challenges for Emerging Capital Markets (Moscow, November 2024).
+Visiting Professor of Renewable Energy Consumption and Economic Growth (2022), Energy Market Risks and Regulation at the School of Economics and Management, China University of Petroleum (2023, 2024). Invited Professor and Keynote Speaker at the Symposium at the Universiti Brunei Darussalam on 7 August 2024.
+Author of over 50 scientific publications and conference proceedings indexed in Scopus and Web of Science, author of over 200 scientific publications indexed in the relevant scientific databases, and author of 8 scientific monographs. He is also the author and co-author of several monographs and textbooks. As of July 2025, he has the highest Hirsch index among Russian economists: according to Web of Science - 29, according to Scopus - 51, according to Google Scholar - 58. He is in the top 2 % of the most cited scientists (as of August 2024), is among the top cited young scientists according to MDPI (2024).
+He participated in special sessions of the Korean Society for Open Innovation (SOI). He is a member of the Council of Young Scientists of the FA, the Financial Markets Association ACI Russia, the Financial Market Professional Qualifications Council, the Russian Association of Cryptoindustry and Blockchain.
+Together with his team, he formed the theory of cryptoasset prices and developed the theory of general artificial intelligence. With Y. N. Sotskov, he contributed to the development of the theory of schedules within the framework of the RNF project. He formed a database of renewable energy generation sources and carbon dioxide emissions used for analysis by artificial intelligence and fuzzy logic methods. He also created a database for forecasting BRENT, WTI, URALS oil prices and discounts and a database of performance indicators of pension systems of countries around the world obtained by artificial intelligence and fuzzy logic.
+He speaks and teaches fluently in English.
+
+Honours and awards
+Discovery of the Year Award from Knorus (2019)
+Award for the best scientific and educational publication of the V International Competition “Akademus” in the nomination "Economics and Management. Educational literature" (2019)
+Finuniversity Rector's Award in the nomination “For Contribution to the Development of Research Activities” (2020)
+Award for the Best Textbook (Study Guide) for Higher Education and Postgraduate Education at the VII All-Russian Innovative Public Competition for the Best Textbook, Study Guide and Monograph (2020)
+
+Publications
+Books, participation in creation of monographs
+Mikhaylov, A. Machine Learning Forecasting of Russian Economy, Energy Cooperation and Crypto Asset Fair Value. Vienna: Premier Publishing s.r.o., 2021. ISBN 978-3-903197-26-8.
+Mikhaylov, A. Capital and Crypto Markets: Institutional Investor Behavior and Strategies. Vienna: Premier Publishing s.r.o., 2019. ISBN 978-3-903197-60-2. doi:10.29013/MikhaylovA.CCM:IIBS.404.2019.
+Михайлов, А. Ю. Рынки капитала и криптоактивов: тренды и поведение инвесторов : монография. М.: ИНФРА-М, 2020. 220 с. (Научная мысль). doi:10.12737/996398
+* Криничанский, К. В. (под ред.) Финансовые рынки в условиях цифровизации. М.: Русайнс, 2020. 376 с. elibrary.ru
+Соколинская, Н. Э.; Халилова, М. Х.; Михайлов, А. Ю. Инвестиционная деятельность банка. М., 2019. 397 с.
+Современная теория денег. Том 1. Исследование на эндотерическом уровне. (Бакалавриат). Монография / Абрамова М. А. (под ред.) — Москва: Русайнс, 2020. — 216 с. ISBN 978-5-4365-5390-0.
+Современная теория денег. Том 1. Исследование на эндотерическом уровне. (Бакалавриат). Монография / Абрамова М. А. (под ред.) — Москва: Русайнс, 2020. — 216 с. ISBN 978-5-4365-5390-0.
+Современная теория денег. Том 2. Исследование на функциональном уровне (Бакалавриат). Монография / Абрамова М. А. (под ред.) — Москва: Русайнс, 2021. — 208 с. ISBN 978-5-406-08636-0.
+Современная теория денег. Том 3. Денежная система. Монография / Абрамова М. А. (под ред.) — Москва: Русайнс, 2022. — 194 с. ISBN 978-5-406-09996-4.
+Инвестиционная деятельность банка // учебник // Соколинская Н. Э., Халилова М. Х., Михайлов А. Ю. — М.: , 2019. — 397 с. ISBN 978-5-406-01407-3
+Финансовые рынки и банки-2018. Монография.: кол. авторов // под ред. Лаврушина О. И., Халиловой М. Х., М.: КНОРУС, 2019 // Кельмаева А. С., Михайлов А. Ю. Операции Банка России с ценными бумагами как инструмент денежно-кредитной политики. С. 169—190.
+Производные финансовые инструменты: Учебное пособие / Михайлов А. Ю. — М.:НИЦ ИНФРА-М, 2018. — 54 с.: 60x90 1/16. — (Высшее образование: Магистратура). ISBN 978-5-16-107300-1 (online).
+Современные проблемы и перспективы развития финансовых рынков и банков: монография / Н. Э. Соколинская. — Москва : КноРус, 2018. — 241 с. — ISBN 978-5-406-06235-7.
+Финансовый инжиниринг: Учебное пособие / Михайлов А. Ю. — М.:НИЦ ИНФРА-М, 2018. — 58 с.: 60x90 1/16. — (Высшее образование: Магистратура). ISBN 978-5-16-107301-8 (online).
+Технический анализ и трейдинг на финансовом рынке: учебное пособие / А. Ю. Михайлов. — М.: ИНФРА-М, 2020. — 97 с. ISBN 978-5-16-014681-2
+Управление портфелем в системе Thomson Reuters : учебное пособие / А. Ю. Михайлов. — Москва : ИНФРА-М, 2020. — 104 с. — (Высшее образование: Магистратура). — doi:10.12737/997026.— 92 с. ISBN 978-5-16-014680-5.
+Михайлов А. Ю., Данилина М. В. Особенности размещения активов институциональных инвесторов: монография. — Часть 1 // M: Русайнс, 2015. — 288 с.
+Михайлов А. Ю., Данилина М. В. Особенности размещения активов институциональных инвесторов: монография. — Часть 2 // M: Русайнс, 2015. — 340 с.
+Михайлов А. Ю., Данилина М. В. Аллокация активов институциональных инвесторов // M., 2015. — 417 с.
+Евразийский экономический союз (ЕАЭС): финансовая и промышленная политика. Под ред. И. Н. Рыковой. Коллективная монография. М.: Научно-исследовательский финансовый институт, 2015. 166 с.

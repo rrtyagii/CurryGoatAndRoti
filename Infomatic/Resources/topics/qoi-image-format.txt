@@ -1,0 +1,76 @@
+The Quite OK Image Format (QOI) is a specification for lossless image compression of 24-bit (8 bits per color RGB) or 32-bit (8 bits per color with 8-bit alpha channel RGBA) color raster (bitmapped) images, invented by Dominic Szablewski and first announced on 24 November 2021.
+
+Description
+It is an open source lossless compression method that is faster and easier to implement than PNG. Figures specified in the blog post announcing the format claim 20-50x faster encoding and 3-4x faster decoding speed compared to PNG, both with similar file sizes. The author has donated the specification to the public domain (CC0).
+
+Software and language support
+QOI is supported by FFmpeg (v5.1+), GIMP (v3.0+), GraphicConverter (v11.8+), ImageGlass (v8.5+, read-only), ImageMagick (v7.1.0-20+), Imagine (v1.3.9+), and IrfanView (v4.60+, with plugin). Microsoft PowerToys (v0.76+) for Windows 10 and 11 adds support for previewing QOI images to File Explorer. Community made plugins are available in GIMP, Paint.NET and XnView MP.
+The game engine GameMaker has used a combination of bzip2 and QOI as the default storage format for texture groups since version 2022.1.0.609. Despite being smaller, files in the format decompress faster than those in the PNG format it displaced. The engine also offers plain QOI for increased decompression performance, and PNG for compatibility with tooling and web platforms.
+There are also implementations for various languages such as Rust, Python, Java, C++, C# and more. A full list can be found on the project's Git(Hub) repository README.
+
+File format
+Header
+A QOI file consists of a 14-byte header, followed by any number of data “chunks” and an 8-byte end marker.
+
+The colorspace and channel fields are purely informative. They do not change the way data chunks are encoded.
+
+Encoding
+Images are encoded row by row, left to right, top to bottom. The
+decoder and encoder start with {r: 0, g: 0, b: 0, a: 255} as the previous pixel value. An image is complete when all pixels specified by width * height have been covered. Pixels are encoded as:
+
+Run-length encoding of the previous pixel (QOI_OP_RUN)
+an index into the array of previously seen pixels (QOI_OP_INDEX)
+a difference compared to the previous pixel value in r,g,b (QOI_OP_DIFF or QOI_OP_LUMA)
+Full r,g,b or r,g,b,a values (QOI_OP_RGB or QOI_OP_RGBA)
+The color channels are assumed to not be premultiplied with the alpha channel (“un-premultiplied alpha”). A running array[64] (zero-initialized) of previously seen pixel
+values is maintained by the encoder and decoder. Each pixel that is seen by the encoder and decoder is put into this array at the position formed by a hash function of the color value.
+In the encoder, if the pixel value at the index matches the current pixel, this index position is written to the stream as QOI_OP_INDEX. The hash function for the index is:
+
+Each chunk starts with a 2- or 8-bit tag, followed by a number of data bits. The bit length of chunks is divisible by 8 - i.e. all chunks are byte aligned. All values encoded in these data bits have the most significant bit on the left. The 8-bit tags have precedence over the 2-bit tags. A decoder must check for the presence of an 8-bit tag first. The byte stream's end is marked with 7 0x00 bytes followed by a single 0x01 byte.
+The possible chunks are:
+
+QOI_OP_RGB
+8-bit tag b11111110 (254)
+8-bit red channel value
+8-bit green channel value
+8-bit blue channel value
+The alpha value remains unchanged from the previous pixel.
+
+QOI_OP_RGBA
+8-bit tag b11111111 (255)
+8-bit red channel value
+8-bit green channel value
+8-bit blue channel value
+8-bit alpha channel value
+
+QOI_OP_INDEX
+2-bit tag b00
+6-bit index into the color index array: 0..63
+A valid encoder must not issue 2 or more consecutive QOI_OP_INDEX
+chunks to the same index. QOI_OP_RUN should be used instead.
+
+QOI_OP_DIFF
+2-bit tag b01
+2-bit red channel difference from the previous pixel -2..1
+2-bit green channel difference from the previous pixel -2..1
+2-bit blue channel difference from the previous pixel -2..1
+The difference to the current channel values are using a wraparound operation, so 1 - 2 will result in 255, while 255 + 1 will result in 0.
+Values are stored as unsigned integers with a bias of 2. E.g. −2 is stored as 0 (b00). 1 is stored as 3 (b11). The alpha value remains unchanged from the previous pixel.
+
+QOI_OP_LUMA
+2-bit tag b10
+6-bit green channel difference from the previous pixel -32..31
+4-bit red channel difference minus green channel difference -8..7
+4-bit blue channel difference minus green channel difference -8..7
+The green channel is used to indicate the general direction of change and is encoded in 6 bits. The red and blue channels (dr and db) base their diffs off of the green channel difference. I.e.:
+
+The difference to the current channel values are using a wraparound operation, so 10 - 13 will result in 253, while 250 + 7 will result in 1.
+Values are stored as unsigned integers with a bias of 32 for the green channel and a bias of 8 for the red and blue channel. The alpha value remains unchanged from the previous pixel.
+
+QOI_OP_RUN
+2-bit tag b11
+6-bit run-length repeating the previous pixel
+The run-length is stored with a bias of −1. Note that the runlengths 63 and 64 (b111110 and b111111) are illegal as they are occupied by the QOI_OP_RGB and QOI_OP_RGBA tags.
+
+History
+Dominic Szablewski, the developer, recognized that traditional file formats were complex, economically motivated, and paywalled, while other file formats were still incredibly complex or proprietary. He felt that there was a need to create a simpler file format that reduced compression ratio for performance, so he sought out initially creating a new video codec, instead creating an early version of QOI. While the file format was undergoing scrutiny from GitHub users, the creator actively rejected suggestions that made the format more complex. There will be no more improvement done to the file format, as it has been finalized.

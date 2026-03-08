@@ -1,0 +1,340 @@
+In applied mathematics, biorthogonal nearly coiflet bases are wavelet bases proposed by Lowell L. Winger. The wavelet is based on biorthogonal coiflet wavelet bases, but sacrifices its regularity to increase the filter's bandwidth, which might lead to better image compression performance.
+
+Motivation
+Nowadays, a large amount of information is stored, processed, and delivered, so the method of data compressing—especially for images—becomes more significant. Since wavelet transforms can deal with signals in both space and frequency domains, they compensate for the deficiency of Fourier transforms and emerged as a potential technique for image processing.
+Traditional wavelet filter design prefers filters with high regularity and smoothness to perform image compression. Coiflets are such a kind of filter which emphasizes the vanishing moments of both the wavelet and scaling function, and can be achieved by maximizing the total number of vanishing moments and distributing them between the analysis and synthesis low pass filters. The property of vanishing moments enables the wavelet series of the signal to be a sparse presentation, which is the reason why wavelets can be applied for image compression. Besides orthogonal filter banks, biorthogonal wavelets with maximized vanishing moments have also been proposed. However, regularity and smoothness are not sufficient for excellent image compression. Common filter banks prefer filters with high regularity, flat passbands and stopbands, and a narrow transition zone, while Pixstream Incorporated proposed filters with wider passband by sacrificing their regularity and passband flatness.
+
+Theory
+The biorthogonal wavelet base contains two wavelet functions,
+
+
+
+        ψ
+        (
+        t
+        )
+
+
+    {\displaystyle \psi (t)}
+
+ and its couple wavelet
+
+
+
+
+
+
+              ψ
+              ~
+
+
+
+        (
+        t
+        )
+
+
+    {\displaystyle {\tilde {\psi }}(t)}
+
+, while
+
+
+
+        ψ
+        (
+        t
+        )
+
+
+    {\displaystyle \psi (t)}
+
+ relates to the lowpass analysis filter
+
+
+
+        H
+        0
+
+
+    {\displaystyle H0}
+
+ and the high pass analysis filter
+
+
+
+        G
+        0
+
+
+    {\displaystyle G0}
+
+. Similarly,
+
+
+
+
+
+
+              ψ
+              ~
+
+
+
+        (
+        t
+        )
+
+
+    {\displaystyle {\tilde {\psi }}(t)}
+
+ relates to the lowpass synthesis filter
+
+
+
+
+
+
+              H
+              ~
+
+
+
+        0
+
+
+    {\displaystyle {\tilde {H}}0}
+
+ and the high pass synthesis filter
+
+
+
+
+
+
+
+                G
+                0
+
+              ~
+
+
+
+
+
+    {\displaystyle {\tilde {G0}}}
+
+. For biorthogonal wavelet base,
+
+
+
+        H
+        0
+
+
+    {\displaystyle H0}
+
+ and
+
+
+
+
+
+
+
+                G
+                0
+
+              ~
+
+
+
+
+
+    {\displaystyle {\tilde {G0}}}
+
+ are orthogonal; Likewise,
+
+
+
+        G
+        0
+
+
+    {\displaystyle G0}
+
+ and
+
+
+
+
+
+
+
+                H
+                0
+
+              ~
+
+
+
+
+
+    {\displaystyle {\tilde {H0}}}
+
+ are orthogonal, too.
+In order to construct a biorthogonal nearly coiflet base, the Pixstream Incorporated begins with the (max flat) biorthogonal coiflet base. Decomposing and reconstructing low-pass filters expressed by Bernstein polynomials ensures that the coefficients of filters are symmetric, which benefits the image processing: If the phase of real-valued function is symmetry, than the function has generalized linear phase, and since the human eyes are sensitive to symmetrical error, wavelet base with linear phase is better for image processing application.
+Recall that the Bernstein polynomials are defined as below:
+
+
+
+
+
+          B
+
+            k
+
+
+            n
+
+
+        (
+        x
+        )
+        =
+
+          (
+
+            k
+
+
+            n
+
+
+        )
+
+          x
+
+            k
+
+
+        (
+        1
+        −
+        x
+
+          )
+
+            n
+            −
+            k
+
+
+
+           for
+
+        k
+        =
+        1
+        ,
+        2
+        ,
+        …
+        ,
+        n
+        ,
+
+
+    {\displaystyle B_{k}^{n}(x)=(_{k}^{n})x^{k}(1-x)^{n-k}{\text{ for }}k=1,2,\ldots ,n,}
+
+
+which can be considered as a polynomial f(x) over the interval
+
+
+
+        x
+        ∈
+        [
+        0
+        ,
+        1
+        ]
+
+
+    {\displaystyle x\in [0,1]}
+
+. Besides, the Bernstein form of a general polynomial is expressed by
+
+
+
+
+        H
+        1
+        (
+        x
+        )
+        =
+
+          ∑
+
+            k
+            =
+            0
+
+
+            n
+
+
+        d
+        (
+        k
+        )
+
+          (
+
+            k
+
+
+            n
+
+
+        )
+
+          x
+
+            k
+
+
+        (
+        1
+        −
+        x
+
+          )
+
+            n
+            −
+            k
+
+
+        ,
+
+
+    {\displaystyle H1(x)=\sum _{k=0}^{n}d(k)(_{k}^{n})x^{k}(1-x)^{n-k},}
+
+
+where d(i) are the Bernstein coefficients. Note that the number of zeros in Bernstein coefficients determines the vanishing moments of wavelet functions. By sacrificing a zero of the Bernstein-basis filter at
+
+
+
+        ω
+        =
+        π
+
+
+    {\displaystyle \omega =\pi }
+
+ (which sacrifices its regularity and flatness), the filter is no longer coiflet but nearly coiflet. Then, the magnitude of the highest-order non-zero Bernstein basis coefficient is increased, which leads to a wider passband. On the other hand, to perform image compression and reconstruction, analysis filters are determined by synthesis filters. Since the designed filter has a lower regularity, worse flatness and wider passband, the resulting dual low pass filter has a higher regularity, better flatness and narrower passband. Besides, if the passband of the starting biorthogonal coiflet is narrower than the target synthesis filter G0, then its passband is widened only enough to match G0 in order to minimize the impact on smoothness (i.e. the analysis filter H0 is not invariably the design filter). Similarly, if the original coiflet is wider than the target G0, than the original filter's passband is adjusted to match the analysis filter H0. Therefore, the analysis and synthesis filters have similar bandwidth.
+The ringing effect (overshoot and undershoot) and shift-variance of image compression might be alleviated by balancing the passband of the analysis and synthesis filters. In other word, the smoothest or highest regularity filters are not always the best choices for synthesis low pass filters.
+
+Drawback
+The idea of this method is to obtain more free parameters by despairing some vanishing elements. However, this technique cannot unify biorthogonal wavelet filter banks with different taps into a closed-form expression based on one degree of freedom.

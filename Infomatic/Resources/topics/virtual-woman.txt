@@ -1,0 +1,23 @@
+Virtual Woman is a software program that has elements of a chatbot, virtual reality, artificial intelligence, a video game, and a virtual human. It claims to be the oldest form of virtual life in existence, as it has been distributed since the late 1980s. Recent releases of the program can update their intelligence by connecting online and downloading newer personalities and histories.
+
+Program play
+When Virtual Woman starts, the user is presented with a list of options and then may choose their Virtual Woman's ethnic type, personality, location, clothing, etc. or load a pre-built Virtual Woman from a Digital DNA file. Once the options are determined, the user is presented with a 3-D animated Virtual Woman of their selection and then can engage them in conversation, progressing in a manner similar to that of its predecessor, ELIZA and its successors, the chatbots. In most versions of Virtual Woman, this is done through the keyboard, but some versions also support voice input.
+
+In popular culture
+Software sales and usage statistics from private companies are difficult to verify. WinSite, an independent Internet shareware distribution site that does publish public download counts, has for some time now listed some version of Virtual Woman in their top three shareware downloads of all time with well over seven hundred thousand downloads.
+
+Compadre
+The group of beta testers and advisers for Virtual Woman are referred to as Compadre and have their own beta testing site and forum.
+
+Criticisms
+As Virtual Woman has developed the ability to conduct longer and more realistic interactions, particularly in recent beta releases, criticism has arisen that this may lead some users to social isolation, or to use the program as a substitute for real human interaction. However, these are criticisms that have been leveled at all video games and at the use of the Internet itself.
+
+Release history
+Versions of Virtual Woman with rough release dates and PC platforms for which they were designed:
+Virtual Woman (????) (DOS)
+Virtual Woman for Windows (1991) (Windows 3.0)
+Virtual Woman 95 (1995) (Windows 3X, Windows 95)
+Virtual Woman 98 (1998) (Windows 3X, Windows 95)
+Virtual Woman 2000 (2000) (Windows 95+)
+Virtual Woman Millennium (Windows 95, XP)
+Virtual Woman Net ( Windows XP/Vista specific)

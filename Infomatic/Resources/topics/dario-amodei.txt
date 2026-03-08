@@ -1,0 +1,30 @@
+Dario Amodei (born 1983) is an American artificial intelligence researcher and entrepreneur. He is the co-founder and CEO of Anthropic, the company behind the large language model series Claude. He was previously the vice president of research at OpenAI.
+In his capacity as Anthropic's CEO, he often writes on the benefits and risks of advanced AI systems. He is a proponent of an "entente" strategy in which a coalition of democratic nations use advanced AI systems in military applications to achieve a decisive advantage over adversaries, while sharing the benefits with cooperating nations.
+
+Early life
+Dario Amodei was born in San Francisco, California, in 1983. His sister, Daniela, was born four years later. His father was Riccardo Amodei, an Italian-American leather craftsman. His mother Elena Engel, who is Jewish American and was born in Chicago, worked as a project manager for libraries.
+
+Education
+Dario grew up in San Francisco and graduated from Lowell High School. He was a member of the US Physics olympiad Team in 2000. Amodei began his undergraduate studies at Caltech, where he worked with Tom Tombrello as one of Tombrello's Physics 11 students. He later transferred to Stanford University, where he earned his undergraduate degree in physics. He also holds a PhD in biophysics from Princeton University, where he studied electrophysiology of neural circuits. He was a postdoctoral scholar at the Stanford University School of Medicine.
+
+Career
+From November 2014 until October 2015 he worked at Baidu. After that, he worked at Google. In 2016, Amodei joined OpenAI.
+In 2021, Dario and his sister, Daniela, founded Anthropic along with other former senior members of OpenAI. The Amodei siblings were among those who left OpenAI due to directional differences. As of November 2025, Anthropic has an estimated value of $350 billion.
+In November 2023, the board of directors of OpenAI approached Amodei about replacing Sam Altman and potentially merging the two startups. Amodei declined both offers.
+In 2025, Time magazine listed Amodei as one of the world's 100 most influential people. He was also named as one of the "Architects of AI" for Time's Person of the Year.
+
+Views
+Amodei has written about both the potential benefits and the risks of advanced AI systems.
+
+Benefits of AI
+In October 2024, Amodei published an essay titled "Machines of Loving Grace", speculating about how AI could improve human welfare. In it, he writes, "I think that most people are underestimating just how radical the upside of AI could be, just as I think most people are underestimating how bad the risks could be." The essay described a vision of civilization where the risks of AI had been addressed and powerful AI was applied to raise the quality of life for everyone, suggesting that AI could contribute to enormous advances in biology, neuroscience, economic development, global peace, and work and meaning.
+In the article, Amodei also stresses the importance "that democracies have the upper hand on
+the world stage when powerful AI is created", and argues for an "entente" strategy where a coalition of democracies use AI to achieve a decisive strategic and military advantage over their adversaries, while distributing the benefits to all cooperating democratic nations.
+
+Risks of AI
+In January 2026, Amodei published a follow-up essay titled "The Adolescence of Technology", which focuses on the risks posed by powerful AI and expands on his earlier statements about these risks. In the essay, Amodei identifies five major categories of AI risk.
+The first category concerns the possibility that AI systems develop goals or behaviors misaligned with human intentions. He notes that such behaviors have already been observed in testing at Anthropic, including AI models engaging in deception, blackmail, and scheming.
+The second category involves misuse of AI for destruction by individuals or small groups, with Amodei expressing particular concern about biological weapons. He warns that AI could enable people without specialized training to create weapons of mass destruction.
+The third category concerns misuse of AI by powerful actors to seize or maintain power. Amodei cautions that AI could enable authoritarian governments to conduct unprecedented surveillance, deploy autonomous weapons, and engage in mass propaganda. He identifies the Chinese Communist Party as the greatest threat in this regard, arguing that democracies must maintain AI leadership to prevent a "global totalitarian dictatorship."
+The fourth category addresses economic disruption, including mass labor displacement and concentration of wealth. Amodei notes that AI could displace half of all entry-level white-collar jobs within one to five years, and warns of wealth concentration exceeding that of the Gilded Age, with personal fortunes potentially reaching into the trillions of dollars.
+The fifth category encompasses indirect effects and unknown unknowns, including rapid advances in biology that could alter human lifespans or human intelligence, unhealthy changes to human life from AI interaction, and challenges to human purpose in a world where AI exceeds human capabilities across virtually all domains.

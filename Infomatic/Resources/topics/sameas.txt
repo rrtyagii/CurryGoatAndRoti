@@ -1,0 +1,16 @@
+In data science, sameAs or exactMatch is a method of indicating that the subject of, or entity represented by, two resources is considered to be one and the same thing. It is a key part of the Semantic Web.
+
+Uses
+The concept of sameAs exists in a number of different schemas and systems:
+
+JSON-LD
+OWL - owl:sameAs
+schema.org
+SKOS - skos:exactMatch
+Wikidata - Property:P2888 "exact match", with the alias "sameas"
+The owl:sameAs predicate has been described as "an essential ingredient of the Semantic Web architecture".
+
+What is Phrase Match?
+Phrase Match: With this match type, you're capturing moderately specific search term phrases that closely relate to your targeted keyword. It provides a bit more flexibility by including variations and additional terms within the search query. This match type covers search terms that include your targeted keyword phrase, along with other words before or after it.
+When a shopper searches for a keyword phrase containing your targeted phrase and other terms, your ad may appear.
+For example, if your keyword is "Protein Powder," your ad could pop up for search queries like "Chocolate flavoured Protein Powder" or "Protein powder for weight loss."

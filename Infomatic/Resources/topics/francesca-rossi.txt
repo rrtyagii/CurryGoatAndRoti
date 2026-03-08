@@ -1,0 +1,55 @@
+Francesca Rossi (born December 7, 1962) is an Italian computer scientist, currently working at the IBM Thomas J. Watson Research Center (New York, USA) as an IBM Fellow and the IBM AI Ethics Global Leader.
+
+Education and career
+Francesca Rossi received her bachelor's and master's degrees in computer science from the University of Pisa in 1986, followed by a PhD in computer science from the same university in 1993. After completing her studies, she remained at the University of Pisa as an assistant professor until 1998. She then moved to the University of Padova where she served as an associate professor until 2001 and a full professor until 2018.
+In 2014–2015, Rossi took a sabbatical as a Fellow of the Radcliffe Institute for Advanced Studies, Harvard University. In 2015, she joined IBM Research at the T.J. Watson IBM Research Center in New York, USA, as a distinguished researcher. In 2020, she became an executive and was appointed as an IBM Fellow.
+
+Research interests
+Francesca Rossi's research interests lie in the field of artificial intelligence, with a particular focus on constraint programming, combinatorial optimization, preference modeling, reasoning and aggregation, knowledge representation, constrained reinforcement learning, ethically aligned AI, neuro-symbolic AI, and cognitive AI architectures. In the past, she has also worked on language semantics, graph grammars, logic programming, and Petri nets.
+Rossi is also interested in understanding how to embed ethical principles into decision-making systems, to support either individuals or groups make more ethical decisions. Specific topics of interest include detecting bias, defining distances between preference models, as well as embedding ethical behavioral constraints into reinforcement learning models. Most recently, her research interest is in leveraging cognitive theories of human reasoning and decision making, such as the thinking fast and slow theory of Daniel Kahneman, to advance AI's capabilities.
+Francesca Rossi has published over 230 articles in international journals and conferences on these topics. She has also edited over 20 volumes, including the Handbook of Constraint Programming. She co-authored the book "A Short Introduction to Preferences: Between Artificial Intelligence and Social Choice", published in the Synthesis Lectures on Artificial Intelligence and Machine Learning by Morgan & Claypool Publishers, July 2011. Additionally, she authored the book "Il confine del futuro – Possiamo fidarci dell'Intelligenza Artificiale?", published by Feltrinelli for the Italian market.
+
+Awards, honors, and appointments
+Association for the Advancement of Artificial Intelligence (AAAI), president, 2022–2024
+General chair, ACM/AAAI Conference on AI, Ethics, and Society, Montreal, August 2023.
+Women in Tech association, Tecnovisionarie award — Artificial Intelligence, AI ethics category, 2021
+General chair, AAAI conference, 2020
+Radcliffe Fellowship, 2014–2015
+President, International Joint Conference on Artificial Intelligence (IJCAI), 2013 – 2015
+Fellow, Association for the Advancement of Artificial Intelligence (AAAI), 2012
+Association for Constraint Programming, distinguished service award, 2010
+Fellow, European Association for Artificial Intelligence (EurAI), 2008
+President, Association for Constraint Programming, 2003–2007
+
+AI Ethics roles
+Francesca is a leader in the field of AI ethics, both through her AI research projects focused on embedding human values in AI systems and the many roles she has held—or currently holds—in this area:
+
+Board member, Partnership on AI, 2016-currently
+Distinguished Research Fellow, Institute for the Ethics of AI, Oxford University, 2023-currently
+Steering Committee member and expert, Global Partnership on AI, 2020-currently
+Co-chair, OECD expert group on AI futures, 2023
+Co-chair, World Economic Forum Global Future Council on AI for Humanity, 2020–2022
+Member, European Commission High Level Expert Group on AI, 2018–2019
+Member, scientific advisory board of the Future of Life Institute, 2015-currently
+Co-chair, IBM AI ethics board, 2019-currently
+Co-chair, IJCAI 2022 special track on AI for good, 2022
+Program co-chair, 1st AAAI/ACM conference on AI Ethics and Society, 2018
+Steering committee member, AAAI/ACM conference on AI Ethics and Society, 2018-currently
+IBM AI Ethics Global Leader, 2017-currently
+
+TEDx Talks
+Francesca has delivered 4 TEDx talks, on topics related to AI:
+
+"Sustainable AI", TEDx Osnabruck University, 2015
+"Ethical Artificial Intelligence", TEDx Ghent, 2015
+"Convivere con l’Intelligenza Artificiale", TEDx Lake Como, 2015
+"Macchine che aiutano a pensare", TEDx Reggio Emilia, 2022
+
+Podcasts
+She has delivered several online talks and podcast, including "Fast and Slow AI", (Francesca Rossi and Daniel Kahneman, CERN SPARK, 2021)
+
+Media coverage
+Francesca has been interviewed by several prominent media outlets, including: D di Repubblica (May 2021), The Nikkei (June 2021), Insider: Inside the Technology (September 2021), Fortune (December 2021), The Financial Times (September 2018), The Nikkei (January 2018), The Economist (June 2016), The Washington Post (May 2015), the Wall Street Journal (May 2015), Sydney Morning Herald (February 2015), Euronews (January 2015).
+She has also written some pieces for the media, such as:
+
+"How IBM is Working Towards a Fairer AI", Harvard Business Review, November 2020.

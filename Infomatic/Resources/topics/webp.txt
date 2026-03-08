@@ -1,0 +1,75 @@
+WebP ( WEP-ee) is a raster graphics file format developed by Google and intended as a replacement for the JPEG, PNG, and GIF file formats on the web. It supports image compression (both lossy and lossless), as well as animation and alpha compositing. The sister project for video is called WebM.
+Google announced the WebP format in September 2010; the company released the first stable version of its supporting library in April 2018. WebP has seen widespread adoption across the Internet in order to reduce image size, with all major browsers currently supporting the format.
+
+History
+WebP was first announced by Google on 30 September 2010 as a new open format for lossy compressed true-color graphics on the web, producing files that were smaller than JPEG files for comparable image quality. It was based on technology which Google had acquired with the purchase of On2 Technologies. As a derivative of the VP8 video format, it is a sister project to the WebM multimedia container format. WebP-related software is released under a BSD free software license.
+On 3 October 2011, Google added an "Extended File Format" allowing WebP support for animation, ICC profile, XMP and Exif metadata, and tiling (compositing very large images from maximum 16384 × 16384 tiles). Tiling support was never finalized and was removed from the spec again.
+On 18 November 2011, Google announced a new lossless compression mode, and support for transparency (alpha channel) in both lossless and lossy modes; support was enabled by default in libwebp 0.2.0 (16 August 2012). According to Google's measurements in November 2011, a conversion from PNG to WebP resulted in a 45% reduction in file size when starting with PNGs found on the web, and a 28% reduction compared to PNGs that are recompressed with pngcrush and PNGOUT.
+In July 2016, Apple added WebP support to early beta versions of macOS Sierra and iOS 10, but support was later removed in the GM seed versions of iOS 10 and macOS Sierra released in September 2016. In September 2020, WebP support was added in Safari version 14.
+The supporting libwebp library reached version 1.0 in April 2018.
+As of 2024, web browsers that support WebP had 97% market share.
+In November 2024, WebP was formally specified in and published as RFC 9649.
+
+Technology
+WebP's lossy compression algorithm is based on the intra-frame coding of the VP8 video format and the Resource Interchange File Format (RIFF) as a container format. As such, it is a block-based transformation scheme with eight bits of color depth and a luminance–chrominance model with chroma subsampling by a ratio of 1:2 (YCbCr 4:2:0). Without further content, the mandatory RIFF container has an overhead of only twenty bytes, though it can also hold additional metadata. The side length of WebP images is limited to 16383 pixels.
+WebP is based on block prediction. Each block is predicted on the values from the three blocks above it and from one block to the left of it (block decoding is done in raster-scan order: left to right and top to bottom). There are four basic modes of block prediction: horizontal, vertical, DC (one color), and TrueMotion. Mispredicted data and non-predicted blocks are compressed in a 4×4 pixel sub-block with a discrete cosine transform or a Walsh–Hadamard transform. Both transforms are done with fixed-point arithmetic to avoid rounding errors. The output is compressed with entropy encoding. WebP also has explicit support for parallel decoding.
+The reference implementation consists of converter software in the form of a command-line program for Linux (cwebp) and a programming library for the decoding, the same as for WebM. The open-source community ported the converter to other platforms, such as Windows.
+The WebP container (i.e., RIFF container for WebP) allows feature support over and above the basic use case of WebP (i.e., a file containing a single image encoded as a VP8 key frame). The WebP container provides additional support for:
+
+Metadata
+An image may have metadata stored in Exif or XMP formats.
+Transparency
+An image may have transparency, i.e., an alpha channel.
+Color profile
+An image may have an embedded ICC profile as described by the International Color Consortium.
+
+Lossless compression
+WebP's lossless compression, a newer algorithm unrelated to VP8, was designed by Google software engineer Jyrki Alakuijala. It uses advanced techniques such as dedicated entropy codes for different color channels, exploiting 2D locality of backward reference distances and a color cache of recently used colors. This complements basic techniques such as dictionary coding, Huffman coding and color indexing transform. This format uses a recursive definition: all of the control images, such as the local entropy code selection, are encoded the same way as the whole image itself.
+
+Animation
+Google has proposed using WebP for animated images as an alternative to the popular GIF format, citing the advantages of 24-bit color with transparency, combining frames with lossy and lossless compression in the same animation, and support for seeking to specific frames. Google reports a 64% reduction in file size for images converted from animated GIFs to lossy WebP, and a 19% reduction for lossless WebP.
+
+Support
+Web browsers
+Google actively promotes WebP. The proprietary PageSpeed Insights tool suggests that webmasters switch from JPEG and PNG to WebP in order to improve their website speed score.
+Google Chrome and all Chromium-based browsers support WebP. Lossy WebP support was added to Chrome for desktop in version 17 (released February 2012) and lossless WebP support was added in version 23 (released November 2012); lossy and lossless support was added in Google Chrome for Android in version 25 (released March 2013).
+Microsoft Edge versions released after January 2020 are based on the Chromium browser, and have native WebP support. EdgeHTML-based versions of Microsoft Edge support WebP through a platform extension (installed by default) (unless running in the security-hardened "Application Guard" mode, which does not support platform extensions).
+Safari added support for WebP in September 2020 with iOS 14 and macOS Big Sur.
+Mozilla Firefox officially supports WebP since January 2019. It was initially considered for implementation in 2013.
+Pale Moon implemented initial support for WebP in January 2016 with its version 26 milestone.
+SeaMonkey began supporting WebP with its version 2.53.5 released in November 2020.
+GNOME Web, Midori, and Falkon natively support WebP.
+WebP can also be displayed in all major browsers using the WebPJS JavaScript library, although support in Internet Explorer 6 and above is achieved using Flash.
+Support for WebP was added to Links in version 2.26.
+
+Graphics software
+After WebP was announced in September 2010, software gradually began to support it. By 2011, there were plugins for several popular graphics software programs to support WebP, and some programs such as Acorn and Pixelmator had added native support. Over time, support for the WebP format has grown.
+
+In 2019, Google released a free plug-in that enables WebP support in earlier versions of Adobe Photoshop. Free Photoshop plug-ins had been released by Telegraphics and fnordware before that. GIMP up to version 2.8 also supported WebP via a plugin; later, this plugin was shipped in GIMP 2.9 branch, and received multiple improvements. Google has also released a plug-in for Microsoft Windows that enables WebP support in Windows Photo Viewer, Microsoft Office 2010, FastPictureViewer, and any other application that uses Windows Imaging Component.
+
+Other programs
+FFmpeg linked with the VP8/VP9 reference codec library libvpx can extract VP8 key frames from WebM media and a script can then add the WebP RIFF header and the NUL pad byte for odd frame lengths. Meanwhile, FFmpeg supports libwebp directly.
+Gmail and Google Photos both support WebP. Support for WebP is also planned for Google App Engine. The Instant Previews feature of Google Search uses WebP internally to reduce disk space used by previews. Android 4.0 supports encoding and decoding WebP images (via bitmap and Skia). SDL_image supports the format since 1.2.11.
+Sumatra PDF supports WebP images for both standalone files and comic books since version 2.4.
+Telegram Messenger uses WebP for its Stickers, claiming they are displayed five times faster compared to the other formats usually used in messaging apps.
+Signal uses WebP for its non-animated stickers.
+LibreOffice supports the import of WebP images since version 7.4, so does the LibreOffice technology based online office Collabora Online.
+Godot Engine as of version 4.0 supports importing and exporting WebP images and uses WebP as its internal format for storing imported compressed textures.
+Content management systems (CMS) usually do not support WebP natively or by default. However, for most popular CMS, extensions are available for automated conversion from other image formats to WebP and delivering WebP images to compatible browsers. Since June 2021, WordPress supports WebP natively.
+Social media services known to natively support WebP in messages include Facebook, Slack, Discord and Element; however, some of these services only support static WebP, and not animated WebP.
+
+Disadvantages and criticism
+Like VP8 on which it is based, lossy WebP supports only 8-bit YUV 4:2:0 format, which may cause color loss on images with thin contrast elements (such as in pixel art and computer graphics) and ghosting in anaglyph. Lossless WebP supports VP8L encoding that works exclusively with 8-bit RGBA (red, green, blue, alpha) color space. It has no support for 10-bit color depth, while the successors
+HEIC and AVIF added 10-bit color depth support.
+Due to the complexity of their compression method, WebP files take significantly more time to create than other web image formats. It is therefore usually not advisable to process WebP images on demand, as is the case with Web Map Services.
+In October 2013, Josh Aas from Mozilla Research published a comprehensive study of current lossy encoding techniques and was not able to conclude that WebP outperformed JPEG by any significant margin.
+
+Vulnerability
+In September 2023, two critical vulnerabilities relating to WebP images were discovered by Apple Security Engineering and Architecture (SEAR) and the Citizen Lab, potentially affecting Google Chrome, Chromium-based browsers and the libwebp project from Google, among any application implementing libwebp.
+Among these vulnerabilities, CVE-2023-4863 was an actively exploited vulnerability with a high risk rating of CVSS 8.8. This could lead to an out of bounds/overflow condition in applications using the affected libwebp library, upon exploitation of a maliciously crafted .webp lossless file. This could result in a denial of service (DoS), or worse, enabling malicious remote code execution (RCE).
+The extensive use of libwebp packages across hundreds of applications, including many categories from web browsers to mobile apps, posed a major patching challenge to mitigate the vulnerability due to the demanding testing requirements before release, highlighting the implications of this vulnerability on a wide scale.
+Several web browsers, including Google Chrome, Firefox, Microsoft Edge, and Brave issued security patches following the discovery of the vulnerability. The vulnerability was patched in libwebp version 1.3.2.
+
+WebP 2
+Google began developing a second version of WebP in June 2021. The main goal of WebP 2 was to reach similar compression ratios as AVIF while remaining faster to encode and decode. Its reference implementation is libwebp2.
+On 12 October 2022, Google changed the README file in WebP 2's development repository to state "WebP 2 will not be released as an image format" and described WebP 2 as a "playground for image compression experiments".

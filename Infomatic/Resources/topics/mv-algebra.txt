@@ -1,0 +1,544 @@
+In abstract algebra, a branch of pure mathematics, an MV-algebra is an algebraic structure with a binary operation
+
+
+
+        ⊕
+
+
+    {\displaystyle \oplus }
+
+, a unary operation
+
+
+
+        ¬
+
+
+    {\displaystyle \neg }
+
+, and the constant
+
+
+
+        0
+
+
+    {\displaystyle 0}
+
+, satisfying certain axioms. MV-algebras are the algebraic semantics of Łukasiewicz logic; the letters MV refer to the many-valued logic of Łukasiewicz. MV-algebras coincide with the class of bounded commutative BCK algebras.
+
+Definitions
+An MV-algebra is an algebraic structure
+
+
+
+        ⟨
+        A
+        ,
+        ⊕
+        ,
+        ¬
+        ,
+        0
+        ⟩
+        ,
+
+
+    {\displaystyle \langle A,\oplus ,\lnot ,0\rangle ,}
+
+ consisting of
+
+a non-empty set
+
+
+
+        A
+        ,
+
+
+    {\displaystyle A,}
+
+
+a binary operation
+
+
+
+        ⊕
+
+
+    {\displaystyle \oplus }
+
+ on
+
+
+
+        A
+        ,
+
+
+    {\displaystyle A,}
+
+
+a unary operation
+
+
+
+        ¬
+
+
+    {\displaystyle \lnot }
+
+ on
+
+
+
+        A
+        ,
+
+
+    {\displaystyle A,}
+
+ and
+a constant
+
+
+
+        0
+
+
+    {\displaystyle 0}
+
+ denoting a fixed element of
+
+
+
+        A
+        ,
+
+
+    {\displaystyle A,}
+
+
+which satisfies the following identities:
+
+
+
+
+        (
+        x
+        ⊕
+        y
+        )
+        ⊕
+        z
+        =
+        x
+        ⊕
+        (
+        y
+        ⊕
+        z
+        )
+        ,
+
+
+    {\displaystyle (x\oplus y)\oplus z=x\oplus (y\oplus z),}
+
+
+
+
+
+        x
+        ⊕
+        0
+        =
+        x
+        ,
+
+
+    {\displaystyle x\oplus 0=x,}
+
+
+
+
+
+        x
+        ⊕
+        y
+        =
+        y
+        ⊕
+        x
+        ,
+
+
+    {\displaystyle x\oplus y=y\oplus x,}
+
+
+
+
+
+        ¬
+        ¬
+        x
+        =
+        x
+        ,
+
+
+    {\displaystyle \lnot \lnot x=x,}
+
+
+
+
+
+        x
+        ⊕
+        ¬
+        0
+        =
+        ¬
+        0
+        ,
+
+
+    {\displaystyle x\oplus \lnot 0=\lnot 0,}
+
+ and
+
+
+
+
+        ¬
+        (
+        ¬
+        x
+        ⊕
+        y
+        )
+        ⊕
+        y
+        =
+        ¬
+        (
+        ¬
+        y
+        ⊕
+        x
+        )
+        ⊕
+        x
+        .
+
+
+    {\displaystyle \lnot (\lnot x\oplus y)\oplus y=\lnot (\lnot y\oplus x)\oplus x.}
+
+
+By virtue of the first three axioms,
+
+
+
+        ⟨
+        A
+        ,
+        ⊕
+        ,
+        0
+        ⟩
+
+
+    {\displaystyle \langle A,\oplus ,0\rangle }
+
+ is a commutative monoid. Being defined by identities, MV-algebras form a variety of algebras. The variety of MV-algebras is a subvariety of the variety of BL-algebras and contains all Boolean algebras.
+An MV-algebra can equivalently be defined (Hájek 1998) as a prelinear commutative bounded integral residuated lattice
+
+
+
+        ⟨
+        L
+        ,
+        ∧
+        ,
+        ∨
+        ,
+        ⊗
+        ,
+        →
+        ,
+        0
+        ,
+        1
+        ⟩
+
+
+    {\displaystyle \langle L,\wedge ,\vee ,\otimes ,\rightarrow ,0,1\rangle }
+
+ satisfying the additional identity
+
+
+
+        x
+        ∨
+        y
+        =
+        (
+        x
+        →
+        y
+        )
+        →
+        y
+        .
+
+
+    {\displaystyle x\vee y=(x\rightarrow y)\rightarrow y.}
+
+Examples of MV-algebras
+A simple numerical example is
+
+
+
+        A
+        =
+        [
+        0
+        ,
+        1
+        ]
+        ,
+
+
+    {\displaystyle A=[0,1],}
+
+ with operations
+
+
+
+        x
+        ⊕
+        y
+        =
+        min
+        (
+        x
+        +
+        y
+        ,
+        1
+        )
+
+
+    {\displaystyle x\oplus y=\min(x+y,1)}
+
+ and
+
+
+
+        ¬
+        x
+        =
+        1
+        −
+        x
+        .
+
+
+    {\displaystyle \lnot x=1-x.}
+
+ In mathematical fuzzy logic, this MV-algebra is called the standard MV-algebra, as it forms the standard real-valued semantics of Łukasiewicz logic.
+The trivial MV-algebra has the only element 0 and the operations defined in the only possible way,
+
+
+
+        0
+        ⊕
+        0
+        =
+        0
+
+
+    {\displaystyle 0\oplus 0=0}
+
+ and
+
+
+
+        ¬
+        0
+        =
+        0.
+
+
+    {\displaystyle \lnot 0=0.}
+
+
+The two-element MV-algebra is actually the two-element Boolean algebra
+
+
+
+        {
+        0
+        ,
+        1
+        }
+        ,
+
+
+    {\displaystyle \{0,1\},}
+
+ with
+
+
+
+        ⊕
+
+
+    {\displaystyle \oplus }
+
+ coinciding with Boolean disjunction and
+
+
+
+        ¬
+
+
+    {\displaystyle \lnot }
+
+ with Boolean negation. In fact adding the axiom
+
+
+
+        x
+        ⊕
+        x
+        =
+        x
+
+
+    {\displaystyle x\oplus x=x}
+
+ to the axioms defining an MV-algebra results in an axiomatization of Boolean algebras.
+If instead the axiom added is
+
+
+
+        x
+        ⊕
+        x
+        ⊕
+        x
+        =
+        x
+        ⊕
+        x
+
+
+    {\displaystyle x\oplus x\oplus x=x\oplus x}
+
+, then the axioms define the MV3 algebra corresponding to the three-valued Łukasiewicz logic Ł3. Other finite linearly ordered MV-algebras are obtained by restricting the universe and operations of the standard MV-algebra to the set of
+
+
+
+        n
+
+
+    {\displaystyle n}
+
+ equidistant real numbers between 0 and 1 (both included), that is, the set
+
+
+
+        {
+        0
+        ,
+        1
+
+          /
+
+        (
+        n
+        −
+        1
+        )
+        ,
+        2
+
+          /
+
+        (
+        n
+        −
+        1
+        )
+        ,
+        …
+        ,
+        1
+        }
+        ,
+
+
+    {\displaystyle \{0,1/(n-1),2/(n-1),\dots ,1\},}
+
+ which is closed under the operations
+
+
+
+        ⊕
+
+
+    {\displaystyle \oplus }
+
+ and
+
+
+
+        ¬
+
+
+    {\displaystyle \lnot }
+
+ of the standard MV-algebra; these algebras are usually denoted MVn.
+Another important example is Chang's MV-algebra, consisting just of infinitesimals (with the order type ω) and their co-infinitesimals.
+Chang also constructed an MV-algebra from an arbitrary totally ordered abelian group G by fixing a positive element u and defining the segment [0, u] as { x ∈ G | 0 ≤ x ≤ u }, which becomes an MV-algebra with x ⊕ y = min(u, x + y) and ¬x = u − x. Furthermore, Chang showed that every linearly ordered MV-algebra is isomorphic to an MV-algebra constructed from a group in this way.
+Daniele Mundici extended the above construction to abelian lattice-ordered groups. If G is such a group with strong (order) unit u, then the "unit interval" { x ∈ G | 0 ≤ x ≤ u } can be equipped with ¬x = u − x, x ⊕ y = u ∧G (x + y), and x ⊗ y = 0 ∨G (x + y − u). This construction establishes a categorical equivalence between lattice-ordered abelian groups with strong unit and MV-algebras.
+An effect algebra that is lattice-ordered and has the Riesz decomposition property is an MV-algebra. Conversely, any MV-algebra is a lattice-ordered effect algebra with the Riesz decomposition property.
+
+Relation to Łukasiewicz logic
+C. C. Chang devised MV-algebras to study many-valued logics, introduced by Jan Łukasiewicz in 1920. In particular, MV-algebras form the algebraic semantics of Łukasiewicz logic, as described below.
+Given an MV-algebra A, an A-valuation is a homomorphism from the algebra of propositional formulas (in the language consisting of
+
+
+
+        ⊕
+        ,
+        ¬
+        ,
+
+
+    {\displaystyle \oplus ,\lnot ,}
+
+ and 0) into A. Formulas mapped to 1 (that is, to
+
+
+
+        ¬
+
+
+    {\displaystyle \lnot }
+
+0) for all A-valuations are called A-tautologies. If the standard MV-algebra over [0,1] is employed, the set of all [0,1]-tautologies determines so-called infinite-valued Łukasiewicz logic.
+Chang's (1958, 1959) completeness theorem states that any MV-algebra equation holding in the standard MV-algebra over the interval [0,1] will hold in every MV-algebra. Algebraically, this means that the standard MV-algebra generates the variety of all MV-algebras. Equivalently, Chang's completeness theorem says that MV-algebras characterize infinite-valued Łukasiewicz logic, defined as the set of [0,1]-tautologies.
+The way the [0,1] MV-algebra characterizes all possible MV-algebras parallels the well-known fact that identities holding in the two-element Boolean algebra hold in all possible Boolean algebras. Moreover, MV-algebras characterize infinite-valued Łukasiewicz logic in a manner analogous to the way that Boolean algebras characterize classical bivalent logic (see Lindenbaum–Tarski algebra).
+In 1984, Font, Rodriguez and Torrens introduced the Wajsberg algebra as an alternative model for the infinite-valued Łukasiewicz logic. Wajsberg algebras and MV-algebras are term-equivalent.
+
+MVn-algebras
+In the 1940s, Grigore Moisil introduced his Łukasiewicz–Moisil algebras (LMn-algebras) in the hope of giving algebraic semantics for the (finitely) n-valued Łukasiewicz logic. However, in 1956, Alan Rose discovered that for n ≥ 5, the Łukasiewicz–Moisil algebra does not model the Łukasiewicz n-valued logic. Although C. C. Chang published his MV-algebra in 1958, it is a faithful model only for the ℵ0-valued (infinitely-many-valued) Łukasiewicz–Tarski logic. For the axiomatically more complicated (finitely) n-valued Łukasiewicz logics, suitable algebras were published in 1977 by Revaz Grigolia and called MVn-algebras. MVn-algebras are a subclass of LMn-algebras; the inclusion is strict for n ≥ 5.
+The MVn-algebras are MV-algebras that satisfy some additional axioms, just like the n-valued Łukasiewicz logics have additional axioms added to the ℵ0-valued logic.
+In 1982, Roberto Cignoli published some additional constraints that added to LMn-algebras yield proper models for n-valued Łukasiewicz logic; Cignoli called his discovery proper n-valued Łukasiewicz algebras. The LMn-algebras that are also MVn-algebras are precisely Cignoli's proper n-valued Łukasiewicz algebras.
+
+Relation to functional analysis
+MV-algebras were related by Daniele Mundici to approximately finite-dimensional C*-algebras by establishing a bijective correspondence between all isomorphism classes of approximately finite-dimensional C*-algebras with lattice-ordered dimension group and all isomorphism classes of countable MV algebras. Some instances of this correspondence include:
+
+In software
+There are multiple frameworks implementing fuzzy logic (type II), and most of them implement what has been called a multi-adjoint logic. This is no more than the implementation of an MV-algebra.

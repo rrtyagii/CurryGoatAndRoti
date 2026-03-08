@@ -1,0 +1,9 @@
+Open Energy Information (OpenEI) is a website for policy makers, researchers, technology investors, venture capitalists, and market professionals with energy data, information, analyses, tools, images, maps, and other resources.  It was established by the United States Department of Energy on 9 December 2009.
+
+Description
+OpenEI provides two primary mechanisms for sharing structured information: a semantic wiki (using MediaWiki and the Semantic MediaWiki extension) for collaboratively-managed resources, and a dataset upload mechanism for contributor-controlled resources.  In both cases, the resulting data is made available via Linked Data standards whenever possible.  Development of the system is led by the National Renewable Energy Laboratory, in collaboration with other national laboratories. OpenEI, as part of the U.S. Department of Energy's effort to make data open, is in the public domain under the CC0 public domain dedication.
+Users search, edit, add and access data in OpenEI for free.  OpenEI serves researchers, entrepreneurs, policy makers, students, and more generally, consumers interested in renewable energy.  Region-specific data on OpenEI is organized on a world map.  These regional pages derive data from many sources including Reegle's policy information, census information and various energy datasets from the Energy Information Administration.
+The OpenEI utility rate database includes US utility rates.
+The incentive gateway at OpenEI allows users to browse and download data from the Database of State Incentives for Renewables and Efficiency (DSIRE), as well as crowd-sourced local incentives.
+The LatinoAmerica gateway on OpenEI is run by several members of the Centro de Energías Renovables (CER) in Chile. The goal is to link the national labs in Latin America together related to energy.
+OpenEI uses Amazon Web Services such as the Amazon Elastic Compute Cloud (EC2) and was featured in an Amazon EC2 case study.

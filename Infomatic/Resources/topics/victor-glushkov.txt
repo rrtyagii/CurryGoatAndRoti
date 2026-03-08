@@ -1,0 +1,22 @@
+Victor Mikhailovich Glushkov (Russian: Виктор Миха́йлович Глушко́в; August 24, 1923 – January 30, 1982) was a Soviet computer scientist. He is considered to be the founding father of information technology in the Soviet Union and one of the founding fathers  Soviet cybernetics.
+
+Biography
+He was born in Rostov-on-Don, Russian SFSR, in the family of a mining engineer. Glushkov graduated from Rostov State University in 1948, and in 1952 proposed solutions to Hilbert's fifth problem and defended his thesis at Moscow State University.
+In 1956, he began working with computers and worked in Kiev as a Director of the Computational Center of the Academy of Science of Ukraine. In 1958, he became a member of the Communist Party. In 1962, Glushkov established the famous Institute of Cybernetics of the National Academy of Science of Ukraine and became its first director.
+He made contributions to the theory of automata. He and his followers (Kapitonova, Letichevskiy and others) successfully applied that theory to enhance construction of computers. His book on that topic Synthesis of Digital Automata became well known. For that work, he was awarded the Lenin Prize in 1964 and elected as a member of the Soviet Academy of Sciences.
+He greatly influenced many other fields of theoretical computer science (including the theory of programming and artificial intelligence) as well as its applications in the Soviet Union. He published nearly 800 printed works.
+One of his great practical goals was the creation of the National Automated System for Computation and Information Processing (OGAS), consisting of a computer network to manage the allocation of resources and information among organizations in the national economy, which would represent a higher form of socialist planning than the extant centrally planned economy. This ambitious project was ahead of its time, first being proposed and modeled in 1962. It received opposition from many senior Communist Party leaders who felt the system threatened Party control of the economy. By the early 1970s, official interest in this system had ended.
+Glushkov founded the Chair of Theoretical Cybernetics and Methods of Optimal Control at the Moscow Institute of Physics and Technology in 1967, and the Chair of Theoretical Cybernetics at Kiev State University in 1969.
+The Institute of Cybernetics of the National Academy of Science of Ukraine, which he created, is named after him.
+
+Honors and awards
+Member of the National Academy of Science of Ukraine since 1961.
+Member of the USSR Academy of Sciences since 1964.
+Member of the German Academy of Sciences Leopoldina since 1970.
+Lenin Prize, 1964
+Order of Lenin, 1967, 1975
+USSR State Prize, 1968, 1977
+Hero of Socialist Labor, 1969
+Ukrainian State Prize, 1970, 1981
+Order of the October Revolution, 1973
+Computer Pioneer Award (IEEE), For digital automation of computer architecture, 1996.

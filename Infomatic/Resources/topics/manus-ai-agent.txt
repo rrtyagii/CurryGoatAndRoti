@@ -1,0 +1,11 @@
+Manus (meaning hand in Latin) is an autonomous artificial intelligence agent developed by Butterfly Effect Pte Ltd, before being aquired by Meta Platforms.
+The agent is designed to independently carry out complex real-world tasks without direct or continuous human guidance. Some within the media have touted it as one of the world's first autonomous agents that is seemingly capable of independent thinking, dynamic planning, and decision-making.
+
+History
+Manus was founded to create artificial intelligence agents capable of operating independently, based on large language models (LLM). The official launch of Manus was on March 6, 2025. VentureBeat described Manus as a major advance because it could autonomously handle complex tasks, including writing and deploying code. Manus was described as a turning point in the development of artificial intelligence due to its ability to operate entirely without direct human intervention and complete complex tasks autonomously, including writing and deploying code.
+
+Acquisition by Meta Platforms
+In December 2025,  Meta announced that it would acquire Manus, the company behind the Manus AI agent. Meta did not disclose financial terms; reporting suggests the deal is valued between US$2-3 billion. Meta said it would continue to operate and sell the Manus service and integrate its technology into products including Meta AI. Manus said it would continue offering subscriptions through its own app and website and remain based in Singapore. In January 2026, it was announced that Manus was the subject of an initial regulatory review by Chinese authorities following the proposed acquisition. The review focuses on whether artificial intelligence technologies developed by Manus while it was based in China fall under national security or technology export regulations.
+
+Founder
+Xiao Hong is the key person behind Manus.im. Early in his career, he founded Nightingale Technology, which created productivity tools like “Yi Ban Assistant” and “Wei Ban Assistant”, which are AI-driven platforms that have been widely utilized among enterprise users. Known for his “kitbashing” approach, Xiao focused on the goal of enhancing established platforms, such as WeChat, by integrating AI capabilities into their existing framework.

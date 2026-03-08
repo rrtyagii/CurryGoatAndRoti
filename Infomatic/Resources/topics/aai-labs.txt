@@ -1,0 +1,21 @@
+AAI Labs also known as Taikomasis dirbtinis intelektas is a Lithuanian artificial intelligence engineering and research company in Vilnius, Lithuania. Founded in 2018, the company develops applied artificial intelligence and machine learning solutions for public sector institutions and private enterprises. AAI Labs has participated in government technology (GovTech) initiatives and European innovation collaboration programmes.
+
+History
+AAI Labs was established in 2018 in Vilnius. The company focuses on applied artificial intelligence technologies, including predictive analytics, natural language processing, computer vision, and automation systems. AAI Labs operates as a small-to-medium enterprise employing AI engineers, data scientists, and software developers.
+The company is led by Aistis Raudys, who is listed as a representative of AAI Labs on European research and innovation collaboration platforms, including Horizon Europe networking initiatives.
+
+Public sector and GovTech projects
+AAI Labs has been involved in public sector innovation projects conducted under Lithuania's GovTech Lab initiative, which connects technology providers with public institutions to address government challenges.
+According to information published by the company, AAI Labs has developed artificial intelligence solutions for public sector use cases, including computer vision systems for infrastructure assessment, machine learning models for data analysis in healthcare contexts, and predictive analytics tools for transport optimisation.
+The company has also reported implementing AI-based systems to support fraud risk analysis and administrative process automation for Lithuanian public institutions.
+AAI Labs has been recognized for its participation in Lithuania's GovTech Lab innovation programme. The organisation's AI solution for identifying and preventing façade damage on historic buildings is listed on the GovTech Lab Lithuania platform as a winner in a public sector challenge. The system uses machine learning to analyse images and assist infrastructure maintenance and represents an example of GovTech collaboration between public institutions and technology providers.
+In addition, AAI Labs' AI solution for social benefit application processing is documented as part of the GovTech Lab Lithuania winners list. The social benefits assistant system automates aspects of benefit application handling to reduce administrative workload.
+
+European research and innovation
+AAI Labs has participated in European innovation initiatives involving artificial intelligence and advanced digital infrastructure, including projects combining AI technologies with 5G connectivity for transport and infrastructure-related applications.
+The company is listed on European collaboration platforms as a potential research and development partner in projects related to artificial intelligence applications for public services.
+AAI Labs has also reported involvement in the development of an artificial intelligence–based system intended to prevent double financing of public funds in Lithuania. According to information published by the company, the system integrates data from multiple public funding databases and applies automated analysis to identify potential overlaps or duplicate allocations in funding programmes administered by public institutions. The project was implemented in cooperation with Lithuania's Ministry of Finance and was designed to support compliance monitoring and improve the efficiency of public fund oversight.
+
+Industry context
+AAI Labs operates within Lithuania's artificial intelligence ecosystem, which has expanded alongside national digital policy initiatives and public sector innovation programmes. The Ministry of Economy and Innovation has identified artificial intelligence as a priority area within Lithuania's digital development strategy.
+AAI Labs is listed as a vendor on the Atlassian Marketplace, indicating its participation in international software ecosystems.

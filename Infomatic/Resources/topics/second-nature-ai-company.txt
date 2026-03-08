@@ -1,0 +1,10 @@
+Second Nature, founded in Israel in 2018, is a company that offers professional training software that uses artificial intelligence: software for sales, customer support, and other training use cases. The software includes AI-generated avatars used for training simulations, it was formally launched in 2022.  The company is headquartered in Tel Aviv, employs 45 people, and has raised $38 million in total funding.
+In 2025 it was included in the "50 most promising Israeli startups - 2025" list by Calcalist - number 37.
+
+History
+Second Nature was founded by Alon Shalita and Ariel Hitron, who met at their children’s kindergarten. Shalita was a lead engineer at Facebook, and Hitron was a VP for new markets at Kaltura.
+In 2018, Hitron and Shalita founded Second Nature, developing an AI-based platform featuring avatars designed to simulate sales training conversations in natural language. The company was among OpenAI’s first beta users, gaining access to its initial GenAI models.
+In its initial years, Second Nature reported customers that included Zoom and Check Point. The company formally launched in 2022.
+The company held a Series A funding round in January 2022, led by Signals VC, StageOne Ventures, Cardumen Capital, and Zoom Video Communications, Inc. via the Zoom Apps Fund, raising $12.5 million.
+In October 2025, a Series B funding round added $22 million,  bringing the company’s total funding to date to $38 million. The Series B round was led by Sienna VC and supported by BrightPixel, StageOne Ventures, Cardumen, Signals VC, and Zoom.
+More recently, the company expanded from a narrower emphasis on sales training to include a range of professional training use cases in large companies and enterprises. It offers training simulations for customer service teams, HR teams, and management roles in all departments as well as sales. It also added several additional avatars alongside “Jenny,” the company’s primary AI training avatar that is still used.

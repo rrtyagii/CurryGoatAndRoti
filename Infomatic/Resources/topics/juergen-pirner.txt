@@ -1,0 +1,3 @@
+Juergen Pirner (born 1956) is the German creator of Jabberwock, a chatterbot that won the 2003 Loebner prize.
+Pirner created Jabberwock modelling the Jabberwocky from Lewis Carroll's poem of the same name. Initially, Jabberwock would just give rude or fantasy-related answers; but over the years, Pirner has programmed better responses into it. As of 2007 he has taught it 2.7 million responses.
+Pirner lives in Hamburg, Germany.

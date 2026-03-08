@@ -1,0 +1,139 @@
+Computer shogi is a field of artificial intelligence concerned with the creation of computer programs which can play shogi. The research and development of shogi software has been carried out mainly by freelance programmers, university research groups and private companies. By 2017, the strongest programs were outperforming the strongest human players.
+
+Game complexity
+Shogi has the distinctive feature of reusing captured pieces. Therefore, shogi has a higher branching factor than other chess variants. The computer has more positions to examine because each piece in hand can be dropped on many squares. This gives shogi the highest number of legal positions and the highest number of possible games of all the popular chess variants. The higher numbers for shogi mean it is harder to reach the highest levels of play. The number of legal positions and the number of possible games are two measures of shogi's game complexity.
+The complexity of Go can be found at Go and mathematics.
+More information on the complexity of Chess can be found at Shannon number.
+
+Components
+The primary components of a computer shogi program are the opening book, the search algorithm and the endgame. The "opening book" helps put the program in a good position and saves time. Shogi professionals, however, do not always follow an opening sequence as in chess, but make different moves to create good formation of pieces. The "search algorithm" looks ahead more deeply in a sequence of moves and allows the program to better evaluate a move. The search is harder in shogi than in chess because of the larger number of possible moves. A program will stop searching when it reaches a stable position. The problem is many positions are unstable because of the drop move. Finally, the "endgame" starts when the king is attacked and ends when the game is won. In chess, there are fewer pieces which leads to perfect play by endgame databases; However, pieces can be dropped in shogi so there are no endgame databases. A tsumeshogi solver is used to quickly find mating moves.
+
+Computers versus humans
+In the 1980s, due to the immaturity of the technology in such fields as programming, CPUs and memory, computer shogi programs took a long time to think, and often made moves for which there was no apparent justification. These programs had the level of an amateur of kyu rank.
+In the first decade of the 21st century, computer shogi has taken large steps forward in software and hardware technology. In 2007, top shogi player Yoshiharu Habu estimated the strength of the 2006 world computer shogi champion Bonanza. He contributed to the  newspaper Nihon Keizai Shimbun evening edition on 26 March 2007 about the match between Bonanza and then Ryūō Champion Akira Watanabe. Habu rated Bonanza's game at the level of 2 dan shogi apprentice (shōreikai).
+In particular, computers are most suited to brute-force calculation, and far outperform humans at the task of finding ways of checkmating from a given position, which involves many fewer possibilities. In games with time limits of 10 seconds from the first move, computers are becoming a tough challenge for even professional shogi players. The past steady progress of computer shogi is a guide for the future. In 1996 Habu predicted a computer would beat him in 2015. Akira Watanabe gave an interview to the newspaper Asahi Shimbun in 2012. He estimated the computer played at the 4 dan professional level. Watanabe also said the computer sometimes found moves for him.
+On 23 October 2005, at the 3rd International Shogi Forum, the Japan Shogi Association permitted Toshiyuki Moriuchi, 2005 Meijin, to play computer shogi program YSS. Toshiyuki Moriuchi won the game playing 30 seconds per move with a Bishop handicap. In 2012, a retired professional lost a match with computer publicly first, and in 2013, active shogi professionals too.
+
+Bonanza versus Watanabe (2007)
+The Japan Shogi Association (JSA) gave reigning Ryuo Champion Watanabe permission to compete against the reigning World Computer Shogi Champion Bonanza on 21 March 2007. Daiwa Securities sponsored the match. Hoki Kunihito wrote Bonanza. The computer was an Intel Xeon 2.66 GHz 8 core with 8 gigabytes of memory and 160-gigabyte hard drive. The game was played with 2 hours each and 1 minute byo-yomi per move after that. Those conditions favor Watanabe because longer time limits mean there are fewer mistakes from time pressure. Longer playing time also means human players can make long-term plans beyond the computer's calculating horizon. The 2 players were not at the same playing level. Watanabe was the 2006 Ryuo Champion and he gave Bonanza a rating equivalent to first or third dan. Bonanza was a little stronger than before due to program improvements and a faster computer. Watanabe prepared for a weaker Bonanza as Watanabe studied old Bonanza game records.
+Bonanza moved first and played Fourth File Rook Bear-in-the-hole as Watanabe expected. Watanabe thought some of Bonanza's moves were inferior. However, Watanabe deeply analyzed these moves thinking that maybe the computer saw something that Watanabe did not
+see. Watanabe commented after the game that he could have lost if Bonanza had played defensive moves before entering the endgame. But the computer choose to attack immediately instead of taking its time (and using its impressive endgame strategies) which cost it the match. Bonanza resigned after move 112.
+After Bonanza's loss Watanabe commented on computers in his blog, "I thought they still had quite a way to go, but now we have to recognize that they've reached the point where they are getting to be a match for professionals." Watanabe further clarified his position on computers playing shogi in the Yomiuri Shimbun on 27 June 2008 when he said "I think I'll be able to defeat shogi software for the next 10 years". Another indication Bonanza was far below the level of professional Watanabe came 2 months after the match at the May 2007 World Computer Shogi Championship. Bonanza lost to the 2007 World Computer Shogi Champion YSS. Then YSS lost to amateur Yukio Kato in a 15-minute game.
+
+Annual CSA tournament exhibition games (2003–2009)
+The winners of CSA tournaments played exhibition games with strong players. These exhibition games started in 2003.
+
+In each succeeding year, the human competition was stronger to match the stronger programs. Yukio Kato was the Asahi Amateur Meijin champion. Toru Shimizugami was the Amateur Meijin champion. Eiki Ito, the creator of Bonkras, said in 2011, at present, top Shogi programs like Bonkras are currently at a level of lower- to middle-class professional players.
+
+Akara versus Shimizu (2010)
+The computer program Akara defeated the women's Osho champion Ichiyo Shimizu. Akara contained 4 computer engines: Gekisashi, GPS Shogi, Bonanza, and YSS. Akara ran on a network of 169 computers. The 4 engines voted on the best moves. Akara selects the move with the most votes. If there is a tie vote then Akara selects Gekisashi's move. Researchers at the University of Tokyo and the University of Electro-Communications developed Akara.
+Shimizu moved first and resigned in 86 moves after 6 hours and 3 minutes. Shimizu said she was trying to play her best as if she was facing a human player. She played at the University of Tokyo on 11 October 2010. The allotted thinking time per player is 3 hours and 60 seconds byoyomi. 750 fans attended the event. This is the third time since 2005 that the Japan Shogi Association granted permission to a professional to play a computer, and the first victory against a female professional.
+Akara aggressively pursued Shimizu from the start of the game. Akara played with a ranging rook strategy and offered an exchange of bishops. Shimizu made a questionable move partway though the game, and Akara went on to win. Ryuo champion, Akira Watanabe, criticized Shimizu's game. On 19 November 2010, the Daily Yomiuri quoted Watanabe. Watanabe said, "Ms. Shimizu had plenty of chances to win".
+
+Computers Bonanza and Akara beat amateurs Kosaku and Shinoda (2011)
+On 24 July 2011, there was a two-game amateur versus computer match. Two computer shogi programs beat a team of two amateurs. One amateur, Mr. Kosaku, was a Shoreikai three Dan player. The other amateur, Mr. Shinoda, was the 1999 Amateur Ryuo. The allotted time for the amateurs was main time 1 hour and then 3 minutes per move. The allotted time for the computer was main time 25 minutes and then 10 seconds per move.
+
+Bonkras versus Yonenaga (2011–2012)
+On 21 December 2011, computer program Bonkras crushed retired 68-year-old Kunio Yonenaga, the 1993 Meijin. They played 85 moves in 1 hour, 3 minutes 39 seconds on Shogi Club 24. Each player started with 15 minute time limit and an additional 60 seconds are added to each player's time limit per move. Yonenaga was gote (white) and played 2. K-62. This move was to confuse the computer by playing a move not in Bonkras's joseki (opening book). On 14 January 2012, Bonkras again defeated Yonenaga. This match is the first Denou-sen match. The game had 113 moves. Time allowed was 3 hours and then 1 minute per move. Bonkras moved first and used a ranging rook opening. Yonenaga made the same second move, K-6b, as in the previous game he lost. Bonkras ran on a Fujitsu Primergy BX400 with 6 blade servers to search 18,000,000 moves per second. Yonenaga used 2 hours 33 minutes. Bonkras used 1 hour 55 minutes.  Bonkras evaluated its game with Yonenaga in January 2012.
+
+Denou-sen (2013)
+Denou-sen was a shogi competition where humans faced off against machines. The second Denou-sen match was a five-game match sponsored by Niconico in which five professional shogi players played against five computers. The winners of the previous World Computer Shogi Championship played against professional shogi players. The primary time control was of 4 hours, and the secondary time control was 1 move in 60 seconds. Niconico broadcast the games live with commentary.
+
+Miura versus GPS Shogi
+Hiroyuki Miura said before his game he would play with "all his heart and soul". Miura decided to use trusted opening theory instead of an anti-computer strategy. The computer played book moves and they castled symmetrically to defend their kings. The computer attacked quickly and Miura counterattacked with a drop move. More than 8 hours later Miura resigned. After the game, Miura said that "he should not have prepared for the game the way he did. He should have prepared for the game with a genuine sense of urgency, if only he knew, the computer was so strong." Miura expressed disappointment and said he had yet to figure out where he went wrong. The evaluation of the game by GPS is on the GPS Shogi web site.
+
+Funae versus Tsutsukana (revenge match)
+On 31 December 2013, Funae and Tsutsukana played a second game. Tsutsukana was the same version that beat Funae on 6 April 2013. The computer was one Intel processor with 6 cores. Funae won.
+
+Denou-sen 3 (2014)
+In 2013, the Japan Shogi Association announced that five professional shogi players would play five computers from 15 March to 12 April 2014. On 7 October 2013, the Japan Shogi Association picked the five players.
+
+The professional shogi players played the winners of a preliminary computer tournament. The preliminary computer tournament was held 2–4 November 2013.
+
+Computer restrictions
+Each shogi program ran on a single Intel processor with 6 cores. No multiple processor systems were allowed.
+No changes were allowed to the shogi programs after the preliminary computer tournament.
+Professional shogi players trained with the shogi programs after the preliminary computer tournament.
+
+Each player started with 5 hours at 10 am. After the 5 hours, the player must complete each move in 1 minute. There was a 1 hour lunch break at 12:00 and a half hour dinner break at 5 pm. Niconico is broadcasting the games live with commentary. Japanese auto parts maker Denso developed a robotic arm to move the pieces for the computer.
+
+Yashiki versus Ponanza
+Ōshō and Kiō champion Akira Watanabe wrote in his blog that "a human cannot think of some of Ponanza's moves such as 60.L*16 and 88.S*79. I am not sure they were the best moves or not right now, but I feel like I'm watching something incredible." Kisei, Ōi and Ōza champion Yoshiharu Habu told The Asahi Shimbun, "I felt the machines were extraordinarily strong when I saw their games this time."
+
+Denou-sen 3.1: Sugai versus Shueso (revenge match)
+On Saturday 19 July 2014, Tatsuya Sugai once again got the chance to play against Shueso in what was billed as the "Shogi Denou-sen Revenge Match". Sugai had already been beaten by Shueso four months earlier in game one of Denou-sen 3, so this was seen as his chance to gain revenge for that loss. The game was sponsored by both the Japan Shogi Association and the telecommunications and media company Dwango and was held at the Tokyo Shogi Kaikan (the Japan Shogi Association's head office). Although the playing site was closed to the public, the game was streamed live via Niconico Live with commentary being provided by various shogi professionals and women's professionals. Shuesho's moves were made by Denso's robotic arm. The initial time control for each player was eight hours which was then followed by a 1-minute byoyomi. In addition, four 1-hour breaks were scheduled throughout the playing session to allow both sides time to eat and rest. The game lasted through the night and into the next day and finally finished almost 20 hours after it started when Sugai resigned after Shueso's 144 move.
+
+Programmer tools
+Shogidokoro
+Shogidokoro (将棋所) is a Windows graphical user interface (GUI) that calls a program to play shogi and displays the moves on a board. Shogidokoro was created in 2007. Shogidokoro uses the Universal Shogi Interface (USI). The USI is an open communication protocol that shogi programs use to communicate with a user interface. USI was designed by Norwegian computer chess programmer Tord Romstad in 2007. Tord Romstad based USI on Universal Chess Interface (UCI). UCI was designed by computer chess programmer Stefan Meyer-Kahlen in 2000. Shogidokoro can automatically run a tournament between two programs. This helps programmers to write shogi programs faster because they can skip writing the user interface part. It is also useful for testing changes to a program. Shogidokoro can be used to play shogi by adding a shogi engine to Shogidokoro. Some engines that will run under Shogidokoro are the following:
+
+Apery
+aperypaq (Apery SDT5 + Qhapaq SDT5)
+BlunderXX
+Bonanza
+elmo
+eloqhappa (elmo WCSC27 + Qhapaq WCSC27)
+Gikou (技巧)
+GPS Shogi
+Laramie
+Lesserkai
+Lightning
+Ponanza Quartet
+Qhapaq
+relmo (elmo WCSC27 + rezero8),
+rezero
+Silent Majority
+Spear
+SSP
+Tanuki (ナイツ・オブ・タヌキ WCSC27, 平成将棋合戦ぽんぽこ SDT5)
+TJshogi
+Ukamuse (浮かむ瀬 – the 2016 release of Apery)
+YaneuraOu (やねうら王)
+Yomita (読み太)
+The interface can also use tsumeshogi solver-only engines like SeoTsume (脊尾詰).
+The software's menus have both Japanese and English language options available.
+
+XBoard/WinBoard
+XBoard/WinBoard is another GUI that supports shogi and other chess variants including western chess and xiangqi. Shogi support was added to WinBoard in 2007 by H.G. Muller. WinBoard uses its own protocol (Chess Engine Communication Protocol) to communicate with engines, but can connect to USI engines through the UCI2WB adapter. Engines that can natively support WinBoard protocol are Shokidoki, TJshogi, GNU Shogi and Bonanza. Unlike Shogidokoro, WinBoard is free/libre and open source, and also available for the X Window System as XBoard (for Linux and Mac systems).
+A number of Shogi variants, such as Chu Shogi and Dai Shogi, are playable against AI using a forked version of Winboard. Included engines are: Shokidoki, which can play the smaller variants with drops (i.e. Minishogi); and HaChu, a large Shogi variant engine designed for playing Chu Shogi and has improved in strength over time.
+
+Shogi Browser Q
+将棋ぶらうざQ (Shogi Browser Q) is a free cross-platform (Java) GUI, that can run USI engines and compete on Floodgate.
+Since v3.7 both Japanese and English languages are available.
+
+BCMShogi
+BCMShogi is an English language graphical user interface for the USI protocol and the WinBoard shogi protocol. It is no longer developed and currently is unavailable from the author's website.
+
+Floodgate
+Floodgate is a computer shogi server for computers to compete and receive ratings. Programs running under Shogidokoro can connect to Floodgate. The GPS team created Floodgate. Floodgate started operating continuously in 2008. The most active players have played 4,000 games. From 2008 to 2010, 167 players played 28,000 games on Floodgate. Humans are welcome to play on Floodgate. The time limit is 15 minutes per player, sudden death. From 2011 to 2018, the Floodgate's number one program increased by 1184 points, an average of 169 points per year.
+
+World Computer Shogi Championship
+The annual computer vs computer world shogi championship is organized by the Computer Shogi Association (CSA) of Japan. The computers play automated games through a server. Each program has 25 minutes to complete a game. The first championship was in 1990 with six programs. In 2001, it grew to 55 programs. The championship is broadcast on the Internet. At the 19th annual CSA tournament, four programs (GPS Shogi, Otsuki Shogi, Monju and KCC Shogi) that had never won a CSA tournament defeated three of the previous year's strongest programs (Bonanza, Gekisashi and YSS). The top three winners of the 2010 CSA tournament are Gekisashi, Shueso and GPS Shogi.
+In 2011, Bonkras won the CSA tournament with five wins out of seven games. Bonkras ran on a computer with three processors containing 16 cores and six gigabytes of memory. Bonanza won second place on a computer with 17 processors containing 132 cores and 300 gigabytes of memory. Shueso won third place. The 2010 CSA winner, Gekisashi, won fourth place. Ponanza won fifth place. GPS Shogi won sixth place on a computer with 263 processors containing 832 cores and 1486 gigabytes of memory. In 2012, GPS Shogi searched 280,000,000 moves per second and the average search depth was 22.2 moves ahead. Hiroshi Yamashita, the author of YSS, maintains a list of all shogi programs that played in World Computer Shogi Championship by year and winning rank.
+
+Video game systems
+Some commercial game software which play shogi are Habu Meijin no Omoshiro Shōgi for Super Famicom, Clubhouse Games for Nintendo DS and Shotest Shogi for Xbox.
+
+Restrictions
+On 18 September 2005 a Japan Shogi Association professional 5 dan played shogi against a computer. The game was played at the 29th Hokkoku Osho-Cup Shogi Tournament in Komatsu, Japan. The Matsue National College of Technology developed the computer program Tacos. Tacos played first and chose the static rook line in the opening. Professional Hashimoto followed the opening line while changing his bishop with the bishop of Tacos. Tacos had a good development with some advantages in the opening and middle game even until move 80. Many amateur players expected Tacos to win. However, professional Hashimoto defended and Tacos played strange moves. Tacos lost.
+On 14 October 2005, the Japan Shogi Association banned professional shogi players from competing against a computer. The Japan Shogi Association said the rule is to preserve the dignity of its professionals, and to make the most of computer shogi as a potential business opportunity. The ban prevents the rating of computers relative to professional players.
+From 2008 to 2012, the Japan Shogi Association (with Kunio Yonenaga as president) did not permit any games between a professional and a computer.
+
+Milestones
+2005: at the Amateur Ryuo tournament, program Gekisashi defeated Eiji Ogawa in a 40-minute game of the first knockout round.
+2005: Program Gekisashi defeated amateur 6-dan Masato Shinoda in a 40-minute exhibition game.
+2007: highest rating for a computer on Shogi Club 24 is 2744 for YSS.
+2008: May, computer program Tanase Shogi beat Asahi Amateur Meijin title holder Yukio Kato. 75 moves played in a 15-minute exhibition game.
+2008: May, computer program Gekisashi beat Amateur Meijin Toru Shimizugami. 100 moves played in a 15-minute exhibition game.
+2008: November, Gekisashi beat Amateur Meijin Shimizugami in a 1-hour game with 1-minute byoyomi.
+2010: October, first time a computer beat a shogi champion. Akara beat the women's Osho champion Shimizu in 6 hours and 3 minutes.
+2011: May, highest rated player on Shogi Club 24 is computer program Ponanza, rated 3211.
+2011: December, highest rated player on Shogi Club 24 is computer program Bonkras, rated 3364 after 2116 games.
+2012: January, Bonkras defeated the 1993 Meijin Yonenaga. They played 113 moves with main time 3 hours and then 1 minute per move.
+2013: 20 April, GPS Shogi defeated Hiroyuki Miura, ranked 15. Game was 102 moves with main time 4 hours then 1 minute per move.
+2013: 12 May, highest rated player on Shogi Club 24 is computer program Ponanza, rated 3453.
+2014: 12 April, Ponanza defeated Yashiki Nobuyuki, ranked 12. Game was 130 moves with main time 5 hours then 1 minute per move.
+2016: 10 April, Ponanza defeated Takayuki Yamasaki, 8-dan. Game was 85 moves.  Takayuki used 7 hours 9 minutes.
+2017: 20 May, Ponanza defeated Meijin Amahiko Satō in 2 games.
+2017: Google DeepMind's AlphaZero convincingly defeats 2017 World Computer Shogi Champion program elmo
+2018: Yu Nasu publishes a paper on Efficiently updatable neural networks (NNUE), a technique which quickly leads to a jump in strength in the top shogi programs, and cross-pollinates to computer chess a few years later.

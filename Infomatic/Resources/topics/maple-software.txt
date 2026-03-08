@@ -1,0 +1,707 @@
+Maple is a symbolic and numeric computing environment as well as a multi-paradigm programming language. It covers several areas of technical computing, such as symbolic mathematics, numerical analysis, data processing, visualization, and others. A toolbox, MapleSim, adds functionality for multidomain physical modeling and code generation.
+Maple's capacity for symbolic computing include those of a general-purpose computer algebra system. For instance, it can manipulate mathematical expressions and find symbolic solutions to
+certain problems, such as those arising from ordinary and partial differential equations.
+Maple is developed commercially by the Canadian software company Maplesoft. The name 'Maple' is a reference to the software's Canadian heritage.
+
+Overview
+Core functionality
+Users can enter mathematics in traditional mathematical notation.  Custom user interfaces can also be created. There is support for numeric computations, to arbitrary precision, as well as symbolic computation and visualization.  Examples of symbolic computations are given below.
+Maple incorporates a dynamically typed imperative-style programming language (resembling Pascal), which permits variables of lexical scope. There are also interfaces to other languages (C, C#, Fortran, Java, MATLAB, and Visual Basic), as well as to Microsoft Excel.
+Maple supports MathML 2.0, which is a W3C format for representing and interpreting mathematical expressions, including their display in web pages. There is also functionality for converting expressions from traditional mathematical notation to markup suitable for the typesetting system LaTeX.
+
+Architecture
+Maple is based on a small kernel, written in C, which provides the Maple language. Most functionality is provided by libraries, which come from a variety of sources. Most of the libraries are written in the Maple language; these have viewable source code.  Many numerical computations are performed by the NAG Numerical Libraries, ATLAS libraries, or GMP libraries.
+Different functionality in Maple requires numerical data in different formats. Symbolic expressions are stored in memory as directed acyclic graphs. The standard interface and calculator interface are written in Java.
+
+History
+The first concept of Maple arose from a meeting in late 1980 at the University of Waterloo. Researchers at the university wished to purchase a computer powerful enough to run the Lisp-based computer algebra system Macsyma. Instead, they opted to develop their own computer algebra system, named Maple, that would run on lower cost computers. Aiming for portability, they began writing Maple in programming languages from the BCPL family (initially using a subset of B and C, and later on only C). A first limited version appeared after three weeks, and fuller versions entered mainstream use beginning in 1982. By the end of 1983, over 50 universities had copies of Maple installed on their machines.
+In 1984, the research group arranged with Watcom Products Inc to license and distribute the first commercially available version, Maple 3.3. In 1988 Waterloo Maple Inc. (Maplesoft) was founded. The company's original goal was to manage the distribution of the software, but eventually it grew to have its own R&D department, where most of Maple's development takes place today (the remainder being done at various university laboratories).
+In 1989, the first graphical user interface for Maple was developed and included with version 4.3 for the Macintosh. X11 and Windows versions of the new interface followed in 1990 with Maple V. In 1992, Maple V Release 2 introduced the Maple "worksheet" that combined text, graphics, and input and typeset output. In 1994 a special issue of a newsletter created by Maple developers called MapleTech was published.
+In 1999, with the release of Maple 6, Maple included some of the NAG Numerical Libraries.  In 2003, the current "standard" interface was introduced with Maple 9. This interface is primarily written in Java (although portions, such as the rules for typesetting mathematical formulae, are written in the Maple language). The Java interface was criticized for being slow; improvements have been made in later versions, although the Maple 11 documentation recommends the previous ("classic") interface for users with less than 500 MB of physical memory.
+Between 1995 and 2005 Maple lost significant market share to competitors due to a weaker user interface. With Maple 10 in 2005, Maple introduced a new "document mode" interface, which has since been further developed across several releases.
+In September 2009 Maple and Maplesoft were acquired by the Japanese software retailer Cybernet Systems.
+
+Version history
+Features
+Features of Maple include:
+
+Support for symbolic and numeric computation with arbitrary precision
+Elementary and special mathematical function libraries
+Complex numbers and interval arithmetic
+Arithmetic, greatest common divisors and factorization for multivariate polynomials over the rationals, finite fields, algebraic number fields, and algebraic function fields
+Limits, series and asymptotic expansions
+Gröbner basis
+Differential Algebra
+Matrix manipulation tools including support for sparse arrays
+Mathematical function graphing and animation tools
+Solvers for systems of equations, diophantine equations, ODEs, PDEs, DAEs, DDEs and recurrence relations
+Numeric and symbolic tools for discrete and continuous calculus including definite and indefinite integration, definite and indefinite summation, automatic differentiation and continuous and discrete integral transforms
+Constrained and unconstrained local and global optimization
+Statistics including model fitting, hypothesis testing, and probability distributions
+Tools for data manipulation, visualization and analysis
+Tools for probability and combinatoric problems
+Support for time-series and unit based data
+Connection to online collection of financial and economic data
+Tools for financial calculations including bonds, annuities, derivatives, options etc.
+Calculations and simulations on random processes
+Tools for text mining including regular expressions
+Tools for signal processing and linear and non-linear control systems
+Discrete math tools including number theory
+Tools for visualizing and analysing directed and undirected graphs
+Group theory including permutation and finitely presented groups
+Symbolic tensor functions
+Import and export filters for data, image, sound, CAD, and document formats
+Technical word processing including formula editing
+Programming language supporting procedural, functional and object-oriented constructs
+Tools for adding user interfaces to calculations and applications
+Tools for connecting to SQL, Java, .NET, C++, Fortran and http
+Tools for generating code for C, C#, Fortran, Java, JavaScript, Julia, Matlab, Perl, Python, R, and Visual Basic
+Tools for parallel programming
+
+Examples of Maple code
+The following code, which computes the factorial of a nonnegative integer, is an example of an imperative programming construct within Maple:
+
+Simple functions can also be defined using the "maps to" arrow notation:
+
+Integration
+Find
+
+
+
+
+        ∫
+        cos
+        ⁡
+
+          (
+
+
+              x
+              a
+
+
+          )
+
+        d
+        x
+
+
+    {\displaystyle \int \cos \left({\frac {x}{a}}\right)dx}
+
+.
+
+Output:
+
+
+
+
+        a
+        sin
+        ⁡
+
+          (
+
+
+              x
+              a
+
+
+          )
+
+
+
+    {\displaystyle a\sin \left({\frac {x}{a}}\right)}
+
+Determinant
+Compute the determinant of a matrix.
+
+
+
+
+
+
+            [
+
+
+
+                  1
+
+
+                  2
+
+
+                  3
+
+
+
+
+                  a
+
+
+                  b
+
+
+                  c
+
+
+
+
+                  x
+
+
+                  y
+
+
+                  z
+
+
+
+            ]
+
+
+
+
+    {\displaystyle {\begin{bmatrix}1&2&3\\a&b&c\\x&y&z\end{bmatrix}}}
+
+
+LinearAlgebra:-Determinant(M);
+
+
+
+
+        b
+        z
+        −
+        c
+        y
+        +
+        3
+        a
+        y
+        −
+        2
+        a
+        z
+        +
+        2
+        x
+        c
+        −
+        3
+        x
+        b
+
+
+    {\displaystyle bz-cy+3ay-2az+2xc-3xb}
+
+Series expansion
+x
+        −
+
+
+            1
+            3
+
+
+
+
+          x
+
+            3
+
+
+        +
+
+
+            2
+            15
+
+
+
+
+          x
+
+            5
+
+
+        −
+
+
+            17
+            315
+
+
+
+
+          x
+
+            7
+
+
+
+
+    {\displaystyle x-{\frac {1}{3}}\,x^{3}+{\frac {2}{15}}\,x^{5}-{\frac {17}{315}}\,x^{7}}
+
+
+
+
+
+
+
+
+        +
+
+
+            62
+            2835
+
+
+
+
+          x
+
+            9
+
+
+        −
+
+
+            1382
+            155925
+
+
+
+
+          x
+
+            11
+
+
+        +
+
+
+            21844
+            6081075
+
+
+
+
+          x
+
+            13
+
+
+        +
+
+
+            O
+
+
+
+          (
+
+            x
+
+              15
+
+
+          )
+
+
+
+    {\displaystyle {}+{\frac {62}{2835}}\,x^{9}-{\frac {1382}{155925}}\,x^{11}+{\frac {21844}{6081075}}\,x^{13}+{\mathcal {O}}\left(x^{15}\right)}
+
+Solve equations numerically
+The following code numerically calculates the roots of a high-order polynomial:
+
+The same command can also solve systems of equations:
+
+Plotting of function of single variable
+Plot
+
+
+
+        x
+        sin
+        ⁡
+        (
+        x
+        )
+
+
+    {\displaystyle x\sin(x)}
+
+ with x ranging from -10 to 10:
+
+Plotting of function of two variables
+Plot
+
+
+
+
+          x
+
+            2
+
+
+        +
+
+          y
+
+            2
+
+
+
+
+    {\displaystyle x^{2}+y^{2}}
+
+ with x and y ranging from -1 to 1:
+
+Animation of functions
+Animation of function of two variables
+
+
+
+
+        f
+        :=
+
+
+
+              2
+
+                k
+
+                  2
+
+
+
+
+
+                cosh
+
+                  2
+
+
+              ⁡
+
+                (
+
+                  x
+                  k
+                  −
+                  4
+
+                    k
+
+                      3
+
+
+                  t
+
+                )
+
+
+
+
+
+
+    {\displaystyle f:={\frac {2k^{2}}{\cosh ^{2}\left(xk-4k^{3}t\right)}}}
+
+
+Animation of functions of three variables
+
+Fly-through animation of 3-D plots.
+
+Laplace transform
+Laplace transform
+
+
+
+
+
+          (
+
+            1
+            +
+            A
+
+            t
+            +
+            B
+
+
+              t
+
+                2
+
+
+
+          )
+
+
+          e
+
+            c
+            t
+
+
+
+
+    {\displaystyle \left(1+A\,t+B\,t^{2}\right)e^{ct}}
+
+
+
+
+
+
+
+            1
+
+              s
+              −
+              c
+
+
+
+        +
+
+
+            A
+
+              (
+              s
+              −
+              c
+
+                )
+
+                  2
+
+
+
+
+
+        +
+
+
+
+              2
+              B
+
+
+              (
+              s
+              −
+              c
+
+                )
+
+                  3
+
+
+
+
+
+
+
+    {\displaystyle {\frac {1}{s-c}}+{\frac {A}{(s-c)^{2}}}+{\frac {2B}{(s-c)^{3}}}}
+
+
+inverse Laplace transform
+
+
+
+
+
+          e
+
+            a
+            x
+
+
+
+
+    {\displaystyle e^{ax}}
+
+Fourier transform
+Fourier transform
+
+
+
+
+
+          I
+
+        π
+
+        (
+
+          D
+          i
+          r
+          a
+          c
+
+        (
+        w
+        +
+        1
+        )
+        −
+
+          D
+          i
+          r
+          a
+          c
+
+        (
+        w
+        −
+        1
+        )
+        )
+
+
+    {\displaystyle \mathrm {I} \pi \,(\mathrm {Dirac} (w+1)-\mathrm {Dirac} (w-1))}
+
+Integral equations
+Find functions f that satisfy the integral equation
+
+
+
+
+        f
+        (
+        x
+        )
+        −
+        3
+
+          ∫
+
+            −
+            1
+
+
+            1
+
+
+        (
+        x
+        y
+        +
+
+          x
+
+            2
+
+
+
+          y
+
+            2
+
+
+        )
+        f
+        (
+        y
+        )
+        d
+        y
+        =
+        h
+        (
+        x
+        )
+
+
+    {\displaystyle f(x)-3\int _{-1}^{1}(xy+x^{2}y^{2})f(y)dy=h(x)}
+
+.
+
+
+
+
+        f
+
+          (
+          x
+          )
+
+        =
+
+          ∫
+
+            −
+            1
+
+
+            1
+
+
+
+
+          (
+
+            −
+            15
+
+
+
+                x
+
+
+                2
+
+
+
+
+                y
+
+
+                2
+
+
+            −
+            3
+
+            x
+            y
+
+          )
+
+        h
+
+          (
+          y
+          )
+
+
+          d
+          y
+
+        +
+        h
+
+          (
+          x
+          )
+
+
+
+    {\displaystyle f\left(x\right)=\int _{-1}^{1}\!\left(-15\,{x}^{2}{y}^{2}-3\,xy\right)h\left(y\right){dy}+h\left(x\right)}
+
+Use of the Maple engine
+The Maple engine is used within several other products from Maplesoft:
+
+MapleNet allows users to create JSP pages and Java Applets. MapleNet 12 and above also allow users to upload and work with Maple worksheets containing interactive components.
+MapleSim, an engineering simulation tool.
+Maple Quantum Chemistry Package from RDMChem computes and visualizes the electronic energies and properties of molecules.
+Listed below are third-party commercial products that no longer use the Maple engine:
+
+Versions of Mathcad released between 1994 and 2006 included a Maple-derived algebra engine (MKM, aka Mathsoft Kernel Maple), though subsequent versions use MuPAD.
+Symbolic Math Toolbox in MATLAB contained a portion of the Maple 10 engine, but now uses MuPAD (starting with MATLAB R2007b+ release).
+Older versions of the mathematical editor Scientific Workplace included Maple as a computational engine, though current versions include MuPAD.

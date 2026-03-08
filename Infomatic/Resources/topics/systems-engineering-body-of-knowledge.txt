@@ -1,0 +1,44 @@
+The Systems Engineering Body of Knowledge (SEBoK), formally known as Guide to the Systems Engineering Body of Knowledge, is a wiki-based collection of key knowledge sources and references for systems engineering. The SEBoK is a curated wiki meaning that the content is managed by an editorial board, and updated on a regular basis. This wiki is a collaboration of three organizations: 1) International Council on Systems Engineering (INCOSE), 2) IEEE Systems Council, and 3) Stevens Institute of Technology. The most recent version (v.2.11) was released on November 25, 2024.
+
+History
+The Guide was developed over three years, from 2009 to 2012, through the contributions of 70 authors worldwide. During this period, three prototype versions were created. The first prototype (v.0.25) was a document that was released for review in September 2010. However, the final versions were all published online as agreed by the authors in January 2011. This switch to a wiki-based SEBoK began with v.0.50.
+The first version of the SEBoK for public use was published online in September 2012. The initial release was named 2012 product of the year by the International Council on Systems Engineering. Since then, the guide had several revisions and minor updates leading to the 23rd release, as of Nov 2024. Version 1.7, released on October 27, 2016, added a new Healthcare Systems Engineering knowledge area.
+
+Knowledge areas
+According to the site, the guide has a total of 26 knowledge areas distributed among the different parts. However, the majority of these knowledge areas can be grouped to form nine general knowledge areas. The general and specific knowledge areas are:
+
+Science & Technology Knowledge
+Introduction to Life Cycle Processes
+Life Cycle Models
+Concept Definition
+Domain Technology Knowledge
+System Definition
+System Realization
+System Deployment and Use
+Operational Environment Knowledge
+Engineering Discipline/ Specialty Knowledge
+Systems Engineering and Software Engineering
+Systems Engineering and Project Management
+Systems Engineering and Industrial Engineering
+Systems Engineering and Specialty Engineering
+Sector & Enterprise Knowledge
+Product Systems Engineering
+Service Systems Engineering
+Enterprise Systems Engineering
+Systems of Systems (SoS)
+Healthcare Systems Engineering
+Management & Leadership Knowledge
+Enabling Businesses and Enterprises
+Enabling Teams
+Enabling Individuals
+Systems Engineering Management
+Product and Service Life Management
+Education & Training Knowledge
+People & Competency Knowledge
+Systems Engineering Standards
+Social/ Systems Science Knowledge
+Systems Fundamentals
+Systems Science
+Systems Thinking
+Representing Systems with Models
+Systems Approach Applied to Engineered Systems

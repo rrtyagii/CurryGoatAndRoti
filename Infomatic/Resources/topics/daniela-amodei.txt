@@ -1,0 +1,11 @@
+Daniela Amodei (born 1987) is an American entrepreneur. She is the president and co-founder of the AI company Anthropic, which develops the series of frontier large language models named Claude.
+
+Early life
+Her father, Riccardo Amodei, was a leather craftsman born in Italy. Her mother, Elena Engel, a Jewish American born in Chicago, was a project manager for libraries. She is the sister of Dario Amodei. Riccardo developed health problems during their childhood and died when they reached early adulthood. Daniela graduated from Lowell High School. She received a scholarship to study classical flute and studied liberal arts and music, graduating from the University of California, Santa Cruz with a Bachelor of Arts in English Literature.
+
+Career
+Amodei started her career in global health and politics, playing a role in a successful congressional campaign in Pennsylvania. She then briefly managed communications for House Representative Matt Cartwright in Washington D.C., before leaving politics for the tech industry. In 2013, she joined the financial service company Stripe as an early employee, before transitioning to OpenAI in 2018. At OpenAI, Amodei managed the team during GPT-2's development before moving into safety and policy. She was the vice president of safety and policy there, but left in 2020 to co-found Anthropic with her brother Dario Amodei. As president of Anthropic, she leads teams focused on AI safety and model alignment.
+In September 2023, Daniela and her brother were named as two of the Time 100 Most Influential People in AI (Time100 AI).
+
+Personal life
+In August 2017, Daniela married Holden Karnofsky, the co-founder of the effective altruism-based foundation Coefficient Giving (formerly Open Philanthropy). They have a son.
