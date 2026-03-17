@@ -30016,20 +30016,6 @@
         ]
     },
     {
-        "id": "multiple-instance-learning",
-        "title": "Multiple instance learning",
-        "preview": "In machine learning, multiple-instance learning (MIL) is a type of supervised learning.  Instead of receiving a set of instances which are individually labeled, the learner receives a set of labeled bags, each containing many instances. In the simple case of multiple-instance binary classification, ",
-        "content_file": "topics/multiple-instance-learning.txt",
-        "source": "Wikipedia",
-        "tags": [
-            "displaystyle",
-            "bag",
-            "instance",
-            "assumption",
-            "instances"
-        ]
-    },
-    {
         "id": "zhou-zhi-hua",
         "title": "Zhou Zhi-Hua",
         "preview": "Zhou Zhihua (\u5468\u5fd7\u534e; born November 20, 1973) is a Chinese computer scientist and Professor of Computer Science at Nanjing University. He is the Standing Deputy Director of the National Key Laboratory for Novel Software Technology, and Founding Director of the LAMDA Group. His research interests include",

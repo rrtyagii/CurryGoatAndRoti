@@ -195,4 +195,41 @@ class DataManager: ObservableObject { //swallowing error; may need to revisit
         request.sortDescriptors = [NSSortDescriptor(key: "timestamp", ascending: true)]
         return (try? context.fetch(request)) ?? []
     }
+    
+    //MARK: - Bookmark
+    
+    func fetchBookmark(contentType: String, contentId: String) -> Bookmark? {
+        let fetchRequest: NSFetchRequest<Bookmark> = Bookmark.fetchRequest()
+        fetchRequest.fetchLimit = 1
+        fetchRequest.predicate = NSPredicate(format: "contentType == %@ AND contentId == %@", contentType, contentId)
+        fetchRequest.sortDescriptors = [NSSortDescriptor(keyPath: \Bookmark.createdAt, ascending: true)]
+        
+        do {
+            return try context.fetch(fetchRequest).first
+        } catch let error as NSError {
+            print("Could not fetch bookmark: \(error)")
+            return nil
+        }
+    }
+    
+    func addBookmark(contentType:String, contentId: String) -> Bookmark {
+        if let existing = fetchBookmark(contentType: contentType, contentId: contentId) {
+            return existing
+        }
+        
+        let bookmark = Bookmark(context: context)
+        bookmark.id = UUID()
+        bookmark.contentId = contentId
+        bookmark.contentType = contentType
+        bookmark.createdAt = Date()
+        save()
+        return bookmark
+    }
+    
+    func deleteBookmark(contentType:String, contentId: String){
+        if let bookmark = fetchBookmark(contentType: contentType, contentId: contentId) {
+            context.delete(bookmark)
+            save()
+        }
+    }
 }

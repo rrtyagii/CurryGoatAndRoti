@@ -1,33 +1,33 @@
 //
-//  HomeScreen.swift
+//  BookmarkView.swift
 //  Infomatic
 //
-//  Created by Rishabh Tyagi on 2/21/26.
+//  Created by Rishabh Tyagi on 3/12/26.
 //
 
 import SwiftUI
+import Foundation
 
-struct HomeScreen: View {
+struct BookmarkView: View{
     var body: some View {
-        if #available(iOS 16.0, *){
+        if #available(iOS 16.0, *) {
             NavigationStack {
-                HomeScreenContent()
+                BookmarkViewContent()
             }
-        } else{
-            NavigationView{
-                HomeScreenContent()
+        } else {
+            NavigationView {
+                BookmarkViewContent()
             }
             .navigationViewStyle(.stack)
         }
     }
 }
 
-private struct HomeScreenContent: View {
-    @EnvironmentObject var authManager: AuthenticationManager
+private struct BookmarkViewContent: View {
     @EnvironmentObject var dataManager: DataManager
     @EnvironmentObject var topicLibrary: TopicLibrary
     @Environment(\.theme) var theme
-
+    
     @FetchRequest(
         sortDescriptors: [NSSortDescriptor(keyPath: \Bookmark.createdAt, ascending: false)],
         predicate: NSPredicate(format: "contentType == %@", CardDetail.bookmarkContentType),
@@ -38,6 +38,17 @@ private struct HomeScreenContent: View {
         Set(bookmarks.compactMap(\.contentId))
     }
 
+    private var bookmarkedCards: [CardDetail] {
+        let cardsById = Dictionary(
+            topicLibrary.cards.map { ($0.id, $0) },
+            uniquingKeysWith: {first, _ in first}
+        )
+        return bookmarks.compactMap { bookmark in
+            guard let id = bookmark.contentId else { return nil }
+            return cardsById[id]
+        }
+    }
+    
     private func toggleBookmark(for cardDetail: CardDetail) {
         if bookmarkedIds.contains(cardDetail.bookmarkContentId) {
             dataManager.deleteBookmark(contentType: cardDetail.bookmarkType, contentId: cardDetail.bookmarkContentId)
@@ -45,8 +56,8 @@ private struct HomeScreenContent: View {
             dataManager.addBookmark(contentType: cardDetail.bookmarkType, contentId: cardDetail.bookmarkContentId)
         }
     }
-    
-    private var topicContent: some View {
+
+    private var bookmarkContent: some View {
         ZStack{
             LinearGradient(
                 colors: [theme.primaryColor, theme.secondaryColor],
@@ -56,13 +67,13 @@ private struct HomeScreenContent: View {
             .ignoresSafeArea()
             
             VStack(spacing: 16) {
-                Text("Welcome, \(authManager.user?.name ?? "User")!")
+                Text("Bookmarks")
                     .font(.title3.weight(.semibold))
                     .foregroundStyle(theme.textColor)
                 
                 ScrollView {
                     LazyVStack(spacing: 14) {
-                        ForEach(topicLibrary.cards) { scrum in
+                        ForEach(bookmarkedCards) { scrum in
                             NavigationLink (destination: TopicDetailView(scrum: scrum)){
                                 CardView(
                                     scrum: scrum,
@@ -74,11 +85,12 @@ private struct HomeScreenContent: View {
                         }
                     }
                 }
+                
             }
         }
     }
 
     var body: some View {
-        topicContent
+        bookmarkContent
     }
 }

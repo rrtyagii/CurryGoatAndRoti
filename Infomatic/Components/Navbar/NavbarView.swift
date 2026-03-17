@@ -19,21 +19,10 @@ struct NavbarView: View {
             HomeScreen()
                 .tabItem {
                     Label("Learn", systemImage: "book")
-                }
-            
-            Text("Search")
-                .tabItem {
-                    Label("Search", systemImage: "magnifyingglass")
-                }
-            
-            Text("Bookmark")
+                }           
+            BookmarkView()
                 .tabItem {
                     Label("Bookmarks", systemImage: "bookmark")
-                }
-            
-            Text("Settings")
-                .tabItem {
-                    Label("Settings", systemImage: "gear")
                 }
         }
         .tint(theme.accentColor)

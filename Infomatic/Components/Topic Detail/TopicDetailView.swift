@@ -9,15 +9,35 @@ import SwiftUI
 
 struct TopicDetailView: View {
     let scrum: CardDetail
-    @State private var isBookmarked: Bool
-    @EnvironmentObject var authManager: AuthenticationManager
+    @EnvironmentObject var dataManager: DataManager
+    @EnvironmentObject var topicLibrary: TopicLibrary
     @Environment(\.theme) var theme
-    @State private var topicContent: String
-    
+    @State private var topicContent = ""
+    @FetchRequest private var bookmarks: FetchedResults<Bookmark>
+
     init(scrum: CardDetail) {
         self.scrum = scrum
-        _isBookmarked = State(initialValue: scrum.isBookmark)
-        _topicContent = State(initialValue: TopicLoader.loadTopicContent(from: scrum.contentFile))
+        _bookmarks = FetchRequest(
+            sortDescriptors: [NSSortDescriptor(keyPath: \Bookmark.createdAt, ascending: false)],
+            predicate: NSPredicate(
+                format: "contentType == %@ AND contentId == %@",
+                scrum.bookmarkType,
+                scrum.bookmarkContentId
+            ),
+            animation: .default
+        )
+    }
+
+    private var isBookmarked: Bool {
+        !bookmarks.isEmpty
+    }
+
+    private func toggleBookmark() {
+        if isBookmarked {
+            dataManager.deleteBookmark(contentType: scrum.bookmarkType, contentId: scrum.bookmarkContentId)
+        } else {
+            dataManager.addBookmark(contentType: scrum.bookmarkType, contentId: scrum.bookmarkContentId)
+        }
     }
     
     var body: some View {
@@ -38,11 +58,12 @@ struct TopicDetailView: View {
                     Spacer()
 
                     Button {
-                        isBookmarked.toggle()
+                        toggleBookmark()
                     }label: {
                         Image(systemName: isBookmarked ? "bookmark.fill" : "bookmark")
                             .foregroundStyle(scrum.theme.accentColor)
                     }
+                    .buttonStyle(.plain)
                 }
                 ScrollView{
                     LazyVStack(spacing: 14){
@@ -60,6 +81,11 @@ struct TopicDetailView: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
             .background(scrum.theme.primaryColor.opacity(0.95))
             .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+            .onAppear {
+                if topicContent.isEmpty {
+                    topicContent = topicLibrary.content(for: scrum)
+                }
+            }
             .overlay(
                 RoundedRectangle(cornerRadius: 16, style: .continuous)
                     .stroke(scrum.theme.lightColor.opacity(0.35), lineWidth: 1)
@@ -68,13 +94,3 @@ struct TopicDetailView: View {
         }
     }
 }
-
-//#Preview {
-//    let scrum = CardDetail.sampleData[0]
-//    TopicDetailView(scrum: scrum)
-//        .environmentObject(AuthenticationManager(user: nil, isAuthenticated: false))
-//        .environment(\.theme, .standard)
-//        .frame(width: 340)
-//        .padding()
-//        .background(scrum.theme.secondaryColor)
-//}
