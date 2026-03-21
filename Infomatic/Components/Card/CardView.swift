@@ -9,11 +9,13 @@ import SwiftUI
 
 struct CardView: View {
     let cardDetail: CardDetail
-    @State private var isBookmarked: Bool
+    let isBookmarked: Bool
+    let onToggleBookmark: () -> Void
 
-    init(scrum: CardDetail) {
+    init(scrum: CardDetail, isBookmarked: Bool, onToggleBookmark: @escaping () -> Void) {
         self.cardDetail = scrum
-        _isBookmarked = State(initialValue: scrum.isBookmark)
+        self.isBookmarked = isBookmarked
+        self.onToggleBookmark = onToggleBookmark
     }
 
     var body: some View {
@@ -24,21 +26,19 @@ struct CardView: View {
                     .foregroundStyle(cardDetail.theme.textColor)
 
                 Spacer()
-
-                Button {
-                    isBookmarked.toggle()
-                } label: {
+                
+                Button(action: onToggleBookmark){
                     Image(systemName: isBookmarked ? "bookmark.fill" : "bookmark")
                         .foregroundStyle(cardDetail.theme.accentColor)
                 }
+                .buttonStyle(.plain)
             }
 
             Text(cardDetail.tags.joined(separator: " • "))
                 .font(.caption)
                 .foregroundStyle(cardDetail.theme.textColor.opacity(0.8))
 
-            Text(
-                cardDetail.preview
+            Text(cardDetail.preview
                     .replacingOccurrences(of: #"\s+"#, with: " ",
             options: .regularExpression)
                     .trimmingCharacters(in: .whitespacesAndNewlines)
