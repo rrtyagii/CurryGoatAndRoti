@@ -24,6 +24,20 @@ struct SignInView: View {
 
     private func handleSuccessfulLogin(with authorization: ASAuthorization) {
         print("Apple Sign In Clicked")
+        
+        
+//
+//      if let userCredential = authorization.credential as? ASAuthorizationAppleIDCredential {..
+        
+//       Equivalent longer version:
+//
+//        let possibleCredential = authorization.credential as? ASAuthorizationAppleIDCredential
+//
+//        if possibleCredential != nil {
+//            let userCredential = possibleCredential!
+//            // use userCredential here
+//        }
+        
         if let userCredential = authorization.credential as? ASAuthorizationAppleIDCredential {
             print("\(String(describing: userCredential.fullName?.givenName))")
             let name = userCredential.fullName?.givenName ?? "Apple User"

@@ -26,9 +26,6 @@ enum TopicLoader{
         let trimmedPath = path.trimmingCharacters(in: .whitespacesAndNewlines)
         let fileName = URL(fileURLWithPath: trimmedPath).lastPathComponent
 
-        // Your bundle currently flattens resources, so both lookups are needed:
-        // 1) "topics/foo.txt" (if folder is preserved)
-        // 2) "foo.txt" (current flattened bundle layout)
         let url = Bundle.main.url(forResource: trimmedPath, withExtension: nil)
             ?? Bundle.main.url(forResource: fileName, withExtension: nil)
 
