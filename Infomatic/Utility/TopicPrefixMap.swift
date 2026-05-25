@@ -7,88 +7,120 @@
 
 import Foundation
 
-struct PrefixMapType: Codable {
-    let prefix: String
-    let words: Set<String>
-    
-    init(prefix: String, words: Set<String>){
-        self.prefix = prefix
-        self.words = words
-    }
+struct PrefixMapCache: Codable {
+    let vocabularyFingerprint: String
+    let entries: [String: Set<String>]
 }
 
 struct TopicPrefixMap {
     private let MINIMUM_LENGTH = 2
     private let MAXIMUM_LENGTH = 5
-    
-    static let DOCUMENT_URL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
-    let INFOMATIC_RESOURCES_URL = TopicPrefixMap.DOCUMENT_URL.appendingPathComponent("Infomatic/Resources")
-    
-    private var vocabulary: [String]
-    var prefixMap: [ PrefixMapType ]
-    
-    init(with vocabulary: [String]) {
-        self.vocabulary = vocabulary
-        self.prefixMap = []
-        readJsonData()
+
+    static let documentDirectoryURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
+    let cacheDirectoryURL = TopicPrefixMap.documentDirectoryURL.appendingPathComponent("Infomatic/PrefixMapCache")
+
+    private var prefixMap: [String: Set<String>]
+
+    init(with vocabulary: [String] = []) {
+        self.prefixMap = [:]
+        readJsonData(vocabulary: vocabulary)
     }
-    
-    private func writeJsonData(to filename:String, with data: [PrefixMapType]) -> Void {
+
+    private func vocabularyFingerprint(for vocabulary: [String]) -> String {
+        return vocabulary.sorted().joined(separator: "|")
+    }
+
+    private func writeJsonData(to filename: String, with cache: PrefixMapCache) {
         do {
-            /// grabbing the first item from the list and boldly telling the compiler that it isn't empty so open it.
-            /// FileManager.default.urls(for: .documentDirectory, in: .userDomainMask) return an Array of URLs.
-            /// ! is forced Unwrap.
-            try FileManager.default.createDirectory(at: INFOMATIC_RESOURCES_URL, withIntermediateDirectories: true)
-            
-            var fileNameUrl = INFOMATIC_RESOURCES_URL.appendingPathComponent(filename)
-        
-            if fileNameUrl.pathExtension != "json"{
+            try FileManager.default.createDirectory(at: cacheDirectoryURL, withIntermediateDirectories: true)
+            var fileNameUrl = cacheDirectoryURL.appendingPathComponent(filename)
+
+            if fileNameUrl.pathExtension != "json" {
                 fileNameUrl = fileNameUrl.appendingPathExtension("json")
             }
-            
+
             let jsonEncoder = JSONEncoder()
-            let jsonData = try jsonEncoder.encode(data)
-            
+            let jsonData = try jsonEncoder.encode(cache)
+
             try jsonData.write(to: fileNameUrl)
-            
+
         } catch {
             print("Error while writingJsonData to \(filename): \(error)")
         }
     }
-    
-    private mutating func readJsonData(){
-        let filename: URL = INFOMATIC_RESOURCES_URL.appendingPathComponent("prefix_map.json")
-        
+
+    private mutating func readJsonData(vocabulary: [String]) {
+        guard !vocabulary.isEmpty else {
+            self.prefixMap = [:]
+            return
+        }
+
+        let signature = vocabularyFingerprint(for: vocabulary)
+
+        let filename: URL = cacheDirectoryURL.appendingPathComponent("prefix_map.json")
+
+        func rebuildAndWriteCache() {
+            self.prefixMap = computePrefix(from: vocabulary)
+            let cache = PrefixMapCache(
+                vocabularyFingerprint: signature,
+                entries: self.prefixMap
+            )
+            writeJsonData(to: "prefix_map.json", with: cache)
+        }
+
         do {
             let jsonData = try Data(contentsOf: filename)
             let jsonDecoder = JSONDecoder()
-            let readingData = try jsonDecoder.decode([PrefixMapType].self, from: jsonData)
-            self.prefixMap = readingData
+            let readingData = try jsonDecoder.decode(PrefixMapCache.self, from: jsonData)
+
+            let isDataValid = readingData.vocabularyFingerprint == signature && !readingData.entries.isEmpty
+
+            if isDataValid {
+                self.prefixMap = readingData.entries
+            } else {
+                rebuildAndWriteCache()
+            }
+
         } catch {
             print("Error while readingJsonData from \(filename): \(error)")
-            self.prefixMap = self.computePrefix()
-            self.writeJsonData(to: "prefix_map.json", with: self.prefixMap)
+            rebuildAndWriteCache()
         }
     }
-    
-    private func computePrefix () -> [ PrefixMapType ]{
-        var prefixMap : [String: Set<String>] = [:]
-        var result : [ PrefixMapType ] = []
-        
-        for word in self.vocabulary {
+
+    private func computePrefix(from vocabulary: [String]) -> [String: Set<String>] {
+        var prefixMap: [String: Set<String>] = [:]
+
+        for word in vocabulary {
             for position in MINIMUM_LENGTH...MAXIMUM_LENGTH {
-                if (position > word.count) {
+                if position > word.count {
                     continue
                 }
-                let current_prefix = String(word.prefix(position)).lowercased()
-                prefixMap[current_prefix, default: []].insert(word)
+
+                let currentPrefix = String(word.prefix(position)).lowercased()
+                prefixMap[currentPrefix, default: []].insert(word)
             }
         }
-        
-        for(key, value) in prefixMap {
-            result.append(PrefixMapType(prefix: key, words: value))
+
+        return prefixMap
+    }
+
+    func expand(_ query: String) -> [String] {
+        let tokens = SearchTextUtility.normalizeAndTokenize(query)
+
+        guard !tokens.isEmpty else {
+            return []
         }
-    
+
+        var result: [String] = []
+
+        for token in tokens {
+            if let words = prefixMap[token] {
+                result.append(contentsOf: words)
+            } else {
+                result.append(token)
+            }
+        }
+
         return result
     }
 }

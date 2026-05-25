@@ -70,14 +70,6 @@ struct TopicInvertedIndex {
         }
     }
 
-    static let stopWords: Set<String> = [
-        "a", "an", "the", "and", "or", "but", "if", "then", "else", "of", "in", "on", "at", "to", "for", "from", "by", "with", "without", "into", "onto", "over", "under", "between", "through", "during", "before", "after", "about", "as", "is", "are", "was", "were", "be", "been", "being", "it", "its", "this", "that", "these", "those", "there", "their", "they", "them", "he", "she", "his", "her", "we", "our", "you", "your", "i", "me", "my", "who", "which", "what", "when", "where", "why", "how", "do", "does", "did", "done", "can", "could", "would", "should", "may", "might", "not", "no", "yes", "also", "such", "other", "some", "more", "most", "many", "much", "one", "two", "three", "first", "second", "third"
-    ]
-
-    private static let punctuationAndControlScalars = CharacterSet.punctuationCharacters
-        .union(.newlines)
-        .union(CharacterSet(charactersIn: "\t\r")) // immutable static constant of punctuation characters, newlines, tabs
-
     private(set) var postings: [String: [String: Metadata]] = [:]// Nested dictionary
     // [ keyword 1: [
     //              document A: Metadata (),
@@ -93,15 +85,7 @@ struct TopicInvertedIndex {
     }
     
     static func normalizeAndTokenize(_ text: String) -> [String] {
-        let hyphenNormalized = text.replacingOccurrences(of: "-", with: " ").lowercased()
-        let cleaned = String(
-            hyphenNormalized.unicodeScalars.filter { !punctuationAndControlScalars.contains($0) }
-        )
-
-        return cleaned
-            .split(whereSeparator: \.isWhitespace)
-            .map(String.init)
-            .filter { !stopWords.contains($0) }
+        SearchTextUtility.normalizeAndTokenize(text)
     }
     
     // posting is a mutable Nested dictionary
@@ -176,5 +160,9 @@ struct TopicInvertedIndex {
                 }
                 return $0.score > $1.score
             }
+    }
+
+    func getVocabulary() -> [ String ] {
+        return Array(postings.keys)
     }
 }

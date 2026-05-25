@@ -25,19 +25,27 @@ final class TopicLibrary: ObservableObject {
     
     private var contentCache: [String: String] = [:]
     private var searchIndex = TopicInvertedIndex()
+    private var prefixMap: TopicPrefixMap?
     
-    init(){
+    init() {
         loadIndexIfNeeded()
+    }
+
+    init(cards: [CardDetail]) {
+        self.cards = cards
+        searchIndex.rebuild(using: cards)
+        prefixMap = TopicPrefixMap(with: searchIndex.getVocabulary())
     }
     
     func loadIndexIfNeeded() {
         guard cards.isEmpty else { return }
         cards = TopicLoader.loadIndex()
         searchIndex.rebuild(using: cards)
+        prefixMap = TopicPrefixMap(with: searchIndex.getVocabulary())
     }
     
     func content(for card: CardDetail) -> String {
-        if let cached = contentCache[card.contentFile]{
+        if let cached = contentCache[card.contentFile] {
             return cached
         }
         
@@ -58,12 +66,30 @@ final class TopicLibrary: ObservableObject {
         }
 
         let cardsByID = Dictionary(uniqueKeysWithValues: cards.map { ($0.id, $0) })
-        return searchIndex.search(query).compactMap { result in
-            guard let card = cardsByID[result.cardID] else {
-                return nil
-            }
+        let expandedTerms = prefixMap?.expand(query) ?? [query]
 
-            return SearchResult(card: card, score: result.score)
+        var scoresByCardID: [String: Int] = [:]
+
+        for term in expandedTerms {
+            for result in searchIndex.search(term) {
+                scoresByCardID[result.cardID, default: 0] += result.score
+            }
         }
+
+        return scoresByCardID
+            .compactMap { cardID, score in
+                guard let card = cardsByID[cardID] else {
+                    return nil
+                }
+
+                return SearchResult(card: card, score: score)
+            }
+            .sorted {
+                if $0.score == $1.score {
+                    return $0.card.id < $1.card.id
+                }
+
+                return $0.score > $1.score
+            }
     }
 }
