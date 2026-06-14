@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct TopicChunk: Identifiable {
     let id: UUID
@@ -15,12 +16,11 @@ struct TopicChunk: Identifiable {
 }
 
 class TopicChunker {
-    private let topicLibrary:TopicLibrary
+    @EnvironmentObject var topicLibrary: TopicLibrary
     private let card: CardDetail
     
-    init(with card: CardDetail, topicLibrary: TopicLibrary) {
+    init(with card: CardDetail) {
         self.card = card
-        self.topicLibrary = topicLibrary
     }
     
     func chunkContent() -> [TopicChunk] {

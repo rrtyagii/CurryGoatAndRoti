@@ -45,6 +45,15 @@ struct BottomSheetView: View{
     @Environment(\.theme) var theme
     @State private var messages: [Messages] = [Messages(text: "How can I help you today", isFromUser: false)]
     @State private var userInputText: String = ""
+    @State private var chunks: [TopicChunk] = []
+     
+    private var topicChunker: TopicChunker
+    
+    init(card: CardDetail){
+        self.topicChunker = TopicChunker(with: card)
+    }
+    
+    
     
     private func sendMessage(){
         let trimmedText = userInputText.trimmingCharacters(in: .whitespacesAndNewlines)
@@ -60,6 +69,10 @@ struct BottomSheetView: View{
             let botMessage = Messages(text: "This is an automated response to: \"\(trimmedText)\"", isFromUser: false)
             messages.append(botMessage)
         }
+    }
+    
+    private func getChunks(){
+        self.chunks = self.topicChunker.chunkContent()
     }
     
     var body: some View{
@@ -179,7 +192,7 @@ struct TopicDetailView: View {
                     showAskSheet.toggle()
                 }
                 .sheet(isPresented: $showAskSheet) {
-                    BottomSheetView()
+                    BottomSheetView(card: self.scrum)
                 }
             }
             .padding(18)
