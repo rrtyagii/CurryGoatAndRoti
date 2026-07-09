@@ -1,4 +1,5 @@
 An emergent algorithm is an algorithm that exhibits emergent behavior.  In essence an emergent algorithm implements a set of simple building block behaviors that when combined exhibit more complex behaviors.  One example of this is the implementation of fuzzy motion controllers used to adapt robot movement in response to environmental obstacles.
+
 An emergent algorithm has the following characteristics:
 
 it achieves predictable global effects

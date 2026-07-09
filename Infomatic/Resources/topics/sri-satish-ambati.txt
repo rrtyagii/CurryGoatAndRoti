@@ -1,16 +1,23 @@
 Sri Satish Ambati is an Indian-American technology executive and entrepreneur. He is the co-founder and CEO of H2O.ai, a company specializing in open-source artificial intelligence (AI) and machine learning software. Prior to H2O.ai, he co-founded Platfora, a big data analytics company later acquired by Workday, Inc.
 
 Early life and education
+
 Ambati was born in India. He attended the University of Memphis, where he earned a Master of Science degree in Mathematics and Computer Science. He later pursued academic sabbaticals focused on theoretical neuroscience at Stanford University and the University of California, Berkeley.
 
 Career
+
 Ambati's early career included engineering and leadership roles at several technology startups, including RightOrder, where he worked on NoSQL indexing, and Azul Systems, where he was a partner and performance engineer focused on Java scalability. He also served as the director of engineering at DataStax.
+
 In 2011, Ambati founded Platfora, a company specializing in big data analytics tools for Apache Hadoop. Platfora was later acquired by Workday in 2016.
+
 In 2012, Ambati co-founded H2O.ai (originally 0xdata) with Cliff Click. Under his leadership as CEO, the company developed the H2O open-source platform, which became widely used for distributed machine learning. He has advocated for the "democratization of AI," aiming to make machine learning tools accessible to non-experts through products like H2O Driverless AI.
 
 Philanthropy
+
 During the Delta wave of the COVID-19 pandemic in India, Ambati spearheaded the "o2forindia.org" initiative. The project sourced and distributed oxygen concentrators to more than 200 public health organizations in rural and Tier 2 cities across India.
 
 Awards and recognition
+
 2019: Named one of the "12 People to Watch" by Datanami
+
 2021: Named "AI Person of the Year" at the 5th Annual AI Achievement Awards.

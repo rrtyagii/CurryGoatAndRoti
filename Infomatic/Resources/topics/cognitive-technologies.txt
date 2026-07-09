@@ -1,4 +1,5 @@
 Cognitive Technologies  is a Russian software corporation that develops corporate business applications, AI-based advanced driver assistance systems.
+
 Founded in 1993 in Moscow (Russia), the company has offices in Eastern Europe, with R&D Centers in Russia.
 
 History
@@ -7,6 +8,7 @@ In February 2015 Cognitive Technologies and Kamaz, Russian Dakar Rally-winning t
 In 2015 Andrey Chernogorov was appointed CEO of the company.
 
 Products
+
 Cognitive Technologies develops business application software and self-driving vehicle artificial intelligence. The main products are:
 
 C-pilot, AI-based ADAS
@@ -14,10 +16,15 @@ E1 Evfrat – electronic workflow system
 CognitiveLot – e-purchasing systems
 
 Cooperation with global companies
+
 Under the contract signed between Cognitive Technologies and Hewlett-Packard, all scanners sold in Russia had text recognition software developed by Cognitive Technologies. It was the first contract with HP for an Eastern European company.
+
 Afterwards, Cognitive Technologies signed OEM contracts and business agreements with several global IT-companies, including IBM, Canon, Corel, Samsung, Xerox, Brother, Epson, and Olivetti.
+
 In 1998 Cognitive Technologies became the first company in Eastern Europe to get the Oracle Complementary Software Provider status.
+
 In 2001 Cognitive Technologies sold its Russian language speech corpus to Intel.
+
 In 2010 Cognitive Technologies sold its text parsing module to Yandex. The company also signed an agreement with NVIDIA join efforts in the development of intelligent document recognition technologies.
 
 Self-driving car project
@@ -27,13 +34,17 @@ C-Pilot ADAS project
 In August 2016 Cognitive Technologies started its own ADAS development project C-Pilot for ground transport control automation.
 
 Self-driving tractors and harvesters project
+
 The experts from Cognitive Technologies claim that the system will track stones, poles, and other obstacles that might be dangerous for the vehicles. This data will enable the engineers to develop an interactive field map, with GPS coordinates for stones and other obstacles.  Eventually, this will result in an alteration of the harvester's movement pattern preventing it from running into stones or other objects that may inflict damage. Harvesters will work autonomously on the field, on the territory that is narrowed by radio beacons.
 
 Present international activities
+
 In 2016 Cognitive Technologies has joined the international community OpenPower Foundation, a consortium of open source solutions to developers based on POWER technology from IBM, which includes the world's leading IT map of Google, NVidia, Mellanox, etc.
+
 Within the consortium Cognitive Technologies is the initiator of forming of an international working group to develop a single software standard for the self-driving vehicle control.
 
 Awards
+
 In 2016, the leading Russian business newspaper Kommersant, announced that Cognitive Technologies is the TOP-2 Russian software company.
 TOP-6 Russian software company in 2015 according to Russoft
 TOP-500 biggest Russian companies according to RBC

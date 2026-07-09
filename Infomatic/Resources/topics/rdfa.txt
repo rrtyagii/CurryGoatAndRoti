@@ -1,39 +1,57 @@
 RDFa or Resource Description Framework in Attributes is a W3C Recommendation that adds a set of attribute-level extensions to HTML, XHTML and various XML-based document types for embedding rich metadata within web documents. The Resource Description Framework (RDF) data-model mapping enables the use of RDFs for embedding RDF subject-predicate-object expressions within XHTML documents. RDFa also enables the extraction of RDF model triples by compliant user agents.
+
 The RDFa community runs a wiki website to host tools, examples, and tutorials.
 
 History
+
 RDFa was first proposed by Mark Birbeck in the form of a W3C note entitled XHTML and RDF, which was then presented to the Semantic Web Interest Group at the W3C's 2004 Technical Plenary. Later that year the work became part of the sixth public Working Draft of XHTML 2.0.
+
 Although it is generally assumed that RDFa was originally intended only for XHTML 2, in fact the purpose of RDFa was always to provide a way to add metadata to any XML-based language. Indeed, one of the earliest documents bearing the RDF/A Syntax name has the sub-title A collection of attributes for layering RDF on XML languages. The document was written by Mark Birbeck and Steven Pemberton, and was made available for discussion on October 11, 2004.
+
 In April 2007 the XHTML 2 Working Group produced a module to support RDF annotation within the XHTML 1 family. As an example, it included an extended version of XHTML 1.1 dubbed XHTML+RDFa 1.0. Although described as not representing an intended direction in terms of a formal markup language from the W3C, limited use of the XHTML+RDFa 1.0 DTD did subsequently appear on the public Web.
+
 October 2007 saw the first public Working Draft of a document entitled RDFa in XHTML: Syntax and Processing. This superseded and expanded upon the April draft; it contained rules for creating an RDFa parser, as well as guidelines for organizations wishing to make practical use of the technology.
+
 In October 2008 RDFa 1.0 reached recommendation status.
+
 RDFa 1.1 reached recommendation status in June 2012. It differs from RDFa 1.0 in that it no longer relies on the XML-specific namespace mechanism. Therefore, it is possible to use RDFa 1.1 with non-XML document types such as HTML 4 or HTML 5. Details can be found in an appendix to HTML 5.
+
 An additional RDFa 1.1 Primer document was last updated 17 March 2015. (The first public Working Draft dates back to 10 March 2006.)
 
 Versions and variants
+
 There are some main well-defined variants of the basic concepts, that are used as reference and as abbreviation to the W3C standards.
 
 HTML+RDFa
+
 RDFa was defined in 2008 with the "RDFa in XHTML: Syntax and Processing" Recommendation. Its first application was to be a module of XHTML.
+
 The HTML applications remained, "a collection of attributes and processing rules for extending XHTML to support RDF" expanded to HTML5, are now expressed in a specialized standard, the "HTML+RDFa" (the last is "HTML+RDFa 1.1 - Support for RDFa in HTML4 and HTML5").
 
 RDFa 1.0
+
 The "HTML+RDFa" syntax of 2008 was also termed "RDFa 1.0", so, there is no "RDFa Core 1.0" standard.
+
 In general this 2008's RDFa 1.0 is used with the old XHTML standards (as long as RDFa 1.1 is used with XHTML5 and HTML5).
 
 RDFa 1.1
+
 Is the first generic (for HTML and XML) RDFa standard; the "RDFa Core 1.1" is in the Third Edition, since 2015.
 
 RDFa Lite
+
 RDFa Lite is a W3C Recommendation (1.0 and 1.1) since 2009, where it is described as follows:
 
 RDFa Lite is minimal subset of RDFa ... consisting of a few attributes that may be used to express machine-readable data in Web documents like HTML, SVG, and XML. While it is not a complete solution for advanced data markup tasks, it does work for most day-to-day needs and can be learned by most Web authors in a day.
 
 RDFa Lite consists of five attributes: vocab, typeof, property, resource, and prefix. RDFa 1.1 Lite is upwards compatible with RDFa 1.1.
+
 In 2009 the W3C was positioned to retain RDFa Lite as unique and definitive standard alternative to Microdata. The position was confirmed with the publication of the HTML5 Recommendation in 2014.
 
 Essence
+
 The essence of RDFa is to provide a set of attributes that can be used to carry metadata in an XML language (hence the 'a' in RDFa).
+
 These attributes are:
 
 about
@@ -69,24 +87,31 @@ As of 2013 these standards were encoding events, contact information, products, 
 The statistics of 2017 show that usage of HTML+RDFa is now less than that of Microformats.
 
 RDFa editors
+
 Web-based RDFa editors
 There are already a few RDFa editors available online. RDFaCE (RDFa Content Editor) is a WYSIWYM editor based on TinyMCE to support RDFa content authoring. It supports manual and semi-automatic generation of RDFa with the support of annotation services such as DBpedia Spotlight, OpenCalais, Alchemy API, among others. RDFaCE-Lite is a version of RDFaCE also supporting Microdata and available as a WordPress plugin.
 Desktop RDFa editors
+
 AutôMeta is an environment for semi-automatic (or automatic) annotation of documents for publishing on the Web using RDFa. It also includes an RDFa extraction tool to provide the user with a view of the annotated triples. It is available in both CLI and GUI interfaces.
 
 Examples
+
 The following is an example of adding Dublin Core metadata to an XML element in an XHTML file.  Dublin Core data elements are data typically added to a book or article (title, author, subject etc.)
 
 Moreover, RDFa allows the passages and words within a text to be associated with semantic markup:
 
 XHTML + RDFa 1.0
+
 The following is an example of a complete XHTML+RDFa 1.0 document. It uses Dublin Core and FOAF, an ontology for describing people and their relationships with other people and things:
 
 In the example above, the document URI can be seen as representing an HTML document, but the document URI plus the "#me" string http://example.org/john-d/#me represents the actual person, as distinct from a document about them. The foaf:primaryTopic in the header tells us the URI of the person the document is about. The foaf:nick property (in the first span element) contains a nickname for this person, and the dc:creator property (in the meta element) tells us who created the document. The hyperlink to the Einstürzende Neubauten website contains rel="foaf:interest", suggesting that John Doe is interested in this band. The URI of their website is a resource.
+
 The foaf:interest inside the second p element is referring to a book by ISBN. The resource attribute defines a resource in a similar way to the href attribute, but without defining a hyperlink. Further into the paragraph, a span element containing an about attribute defines the book as another resource to specify metadata about. The book title and author are defined within the contents of this tag using the dc:title and dc:creator properties.
+
 Here are the same triples when the above document is automatically converted to RDF/XML:
 
 HTML5 + RDFa 1.1
+
 The above example can be expressed without XML namespaces in HTML5:
 
 Note how the prefix foaf is still used without declaration. RDFa 1.1 automatically includes prefixes for popular vocabularies such as FOAF.
@@ -94,6 +119,7 @@ Note how the prefix foaf is still used without declaration. RDFa 1.1 automatical
 The minimal  document is:
 
 That is, it is recommended that all of these attributes are used: vocab, typeof, property; not only one of them.
+
 RDFa Structured Data Example
 
 Person Schema in RDFa.

@@ -1,9 +1,15 @@
 The Dalle Molle Institute for Artificial Intelligence (Italian: Istituto Dalle Molle di Studi sull'Intelligenza Artificiale, IDSIA) is a research institute in the Lugano district of Canton Ticino, in southern Switzerland. It was founded in 1988 by Angelo Dalle Molle through the private Fondation Dalle Molle, and in 2000 became a public research institute, affiliated with the Università della Svizzera italiana and SUPSI in Ticino.
+
 It is one of four Swiss research organisations founded by the Dalle Molle foundation, of which three are in the field of artificial intelligence.
 
 History
+
 The institute was founded in 1988 by Angelo Dalle Molle through the private Fondation Dalle Molle, and in 2000 became a public research institute, affiliated with the Università della Svizzera italiana and SUPSI in Ticino.
+
 In 1997 it was listed among the top ten artificial intelligence laboratories, and among the top four in the field of biologically-inspired AI.
+
 In 2007, a robotics lab was established, with a focus on intelligent and learning robots, especially in the fields of swarm and humanoid robotics.
+
 Between 2009 and 2012, artificial neural networks developed at the institute won eight international competitions in pattern recognition and machine learning.
+
 In 2024, development began on a wheelchair designed to be guided by drones and artificial intelligence.

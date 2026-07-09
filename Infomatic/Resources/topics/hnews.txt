@@ -1,3 +1,5 @@
 hNews is a microformat for news content developed by the Associated Press and the Media Standards Trust. hNews extends hAtom, introducing a number of fields that more completely describe a journalistic work. hNews also introduces rel-principles (a format that describes the journalistic principles upheld by the journalist or news organization that has published the news item). hNews will be one of several microformats open standards.
+
 In July 2009, the Associated Press announced its plans to use the format for all of its text content.
+
 In 2010, the John S. and James L. Knight Foundation awarded the Media Standards Trust a $350,000 Knight News Challenge grant to create hNews.

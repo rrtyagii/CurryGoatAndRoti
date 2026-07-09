@@ -1,48 +1,72 @@
 Christian Guttmann is an entrepreneur, business executive and scientist in Artificial Intelligence, Multi-Agent Systems, and Quantum AI. He is a German, Swedish and Australian citizen. He has been the vice president in Engineering and Artificial Intelligence at Pegasystems responsible for the development of AI Agent Systems, Large Language Models and Generative AI. He is an adjunct associate professor at the University of New South Wales, Australia and Adjunct senior researcher at the Karolinska Institute, Sweden. Guttmann has edited and authored 7 books, several publications and patents in the field of Artificial Intelligence. He is a keynote speaker at international events, including CeBIT and is cited by MIT Sloan Management review and Wall Street Journal.
 
 Biography
+
 Christian Guttmann grew up in Germany and Australia, and spent much of his life in Sweden, where he studied Artificial Intelligence, Quantum technology and Psychology in the late 90s. He moved back to Australia around the millennium, completed his PhD in Distributed Artificial Intelligence and after an extended period in Melbourne and Sydney in Australia, he moved again to Sweden in 2014.
+
 In 2019, the research firm Deep Knowledge Analytics included Guttmann in its report ''Top 100 AI Leaders". He has worked scientifically, entrepreneurially, and industrially in AI for over 25 years, starting with PhD, scientific degrees in Artificial Intelligence and Psychology at Australian, Swedish and German universities (Monash University, Stockholm University, Royal Institute of Technology and Paderborn University). His PhD research focused on Artificial Intelligence and Multi-Agent Systems, e.g. how artificial agents make optimal decisions together, and was nominated for the Australasian Dissertation Award.
+
 According to the 2022 “TwiLi Index” compiled by Mike Young Academy - which ranks Swedish scientists by combined Twitter‑and‑LinkedIn reach - Guttmann placed fourth out of 100.
 
 Industry Leadership Contributions
+
 Guttmann has held vice president and senior technology roles at TietoEvry (Finland / Sweden), IBM (Australia), HP (USA), Ericsson (Sweden), and Etisalat and British Telecom (United Arab Emirates). He led multi disciplinary teams in the delivery of large client projects, e.g. for governmental organisations, hospitals and large industry clients.
+
 Guttmann was the global head of Artificial Intelligence and Chief Artificial Intelligence and Data officer at Tietoevry. At Tietoevry, he was responsible for strategy and execution globally of Artificial Intelligence Innovation and Business.
 
 Professional Services
+
 Alongside his academic and industry posts, Guttmann holds advisory and board roles in organisations that shape AI policy and talent development.
 
 Vice‑president and board member, Swedish AI Society (2014 – present).
+
 Advisory‑board member, KI Park e.V. - a German and European AI innovation centre (2022 – present).
+
 Jury member, “Årets AI svensk” (AI Swede of the Year) - TechSverige’s expert panel, 2020–2022.
 
 Media and commentary
+
 Mainstream and trade outlets have featured Guttmann’s views on scaling AI systems from lab to industry.
 
 Sky News spoke with him in 2023 before the UK AI Safety Summit; he argued that healthcare AI will stall unless regulators give innovators predictable guard‑rails.
+
 The Guardian in 2023 quoted his call for open post‑deployment audits so public projects can prove real‑world impact.
+
 Finnish tech monthly Tivi profiled him in 2019 on driving AI ethics at Tieto and again in 2021 on getting EU companies “from pilot to production.”
 Sweden’s Dagens Industri and Svenskt Näringsliv covered his forecasts for a Nordic AI scale‑up boom in 2020 and 2021.
+
 MIT Sloan Management Review featured his 2018 playbook for turning R&D prototypes into enterprise platforms.
 
 Recent public speaking
+
 Keynote at the Medica‑AI Symposium, Champalimaud Foundation, Lisbon (2025), discussing the future of Multi Agent Systems and Quantum technology in health care and lifescience.
+
 Keynote speaker at the Rise of AI Conference, Berlin (regular appearances since 2018; keynote in 2025 on Quantum AI and single agent to multi agent systems.
+
 Invited speaker at the OECD‑hosted Global Partnership on AI Summit, Belgrade (2024), where he presented case studies on hospital‑grade AI deployment.
 
 Entrepreneurship
+
 Guttmann founded and worked in several startups that use Artificial Intelligence, machine learning and natural language understanding. These startups worked in industries such as health care, finance, retail and music recommendation, including HealthiHabits, AgentArts, IVBAR and OneStone Technology. Most of the startups that Guttmann founded or led the AI technology team, were acquired by e.g. Lotus Notes (IBM) and Fast (Microsoft).
+
 Guttmann is a Non Executive Board member of Intelligent Ultrasound Group Plc - a company in clinical ultrasound technology using Artificial Intelligence. The company provides clinicians with real-time support in classrooms and clinics with high-fidelity simulators to train clinicians, and AI image analysis software to support and guide them in the clinic.
 
 Non-Profit Activities
+
 The Nordic Artificial Intelligence Institute (NAII) is an international and independent non-profit organisation focusing on the use of Artificial Intelligence for social and economic prosperity. The NAII is an alliance of global AI leaders, including people from countries such as the United States of America, China, Sweden, Germany, and Australia. Guttmann co-founded this institute as there is a need in understanding Artificial Intelligence in a business and societal context. The NAII support government and industry leaders in making strategic decisions on AI for societal and economic frameworks.
+
 Guttmann actively supports awareness campaigns on cancer. One reason is that his father died of cancer.
 
 Research and innovation contribution
+
 Guttmann is an adjunct associated professor at the University of New South Wales in Australia as an adjunct faculty member. Guttmann is currently an adjunct senior researcher at the Karolinska Institute in Sweden, he supervises PhD students and research projects in Artificial Intelligence, medical care, diagnosis and treatments, as well as health care management and services.
+
 He has been a visiting scholar and invited speaker regarding Artificial Intelligence at several international institutes, universities, and companies, including Harvard University (USA), Stanford University (USA), Sony Research (Japan), University of Rey Juan Carlos (Spain), University of Frankfurt (Germany), University of Canterbury (New Zealand), University of Rio Grande do Sul (Porto Alegre, Brazil), British Telecom Research Laboratories (United Kingdom), University of Utrecht (Netherlands), IBM Research (China and Japan), and Hewlett Packard Laboratories (Palo Alto, USA).
+
 Guttmann has been in many organisational and programme committees for scientific and industrial AI and Machine Learning conferences, including the International Joint Conference on Artificial Intelligence, the International Conference of Autonomous Agents and Multi Agent Systems.
+
 His PhD research thesis work focuses on "Distributed Artificial Intelligence" related to Multi-Agent Systems. This research was nominated for the Autonomous Agent and Multi Agent Systems Award and the Australasian Dissertation Award. His PhD supervisor and intellectual role models have been Prof. Dr. Michael Georgeff, and his PhD "grand supervisor" Prof. Dr. Judea Pearl. Guttmann's Master thesis was on building a strategic decision making architecture for fully autonomous four-legged robot team - this research received a national Artificial Intelligence award by the Swedish Artificial Intelligence Society in 1999. He collaborates with other leaders in AI, such as Professor Yann LeCun (a primary driver of Convolutional Neural Networks).
 
 Filmography
+
 Guttmann was a side actor in movies and developed an interest in directing movies on societal issues and science fiction. An example of his production includes the movie "The Dream Children", 2015, playing the role of the Man in the Park.

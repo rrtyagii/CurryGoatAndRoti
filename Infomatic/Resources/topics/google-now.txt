@@ -1,23 +1,35 @@
 Google Now was a feature of Google Search of the Google app for Android and iOS. Google Now proactively delivered information to users to predict (based on search habits and other factors) information they might need in the form of informational cards. Google Now branding is no longer used, but the functionality continues in the Google app and its Discover tab.
+
 Google first included Google Now in Android 4.1 ("Jelly Bean"), which launched on July 9, 2012, and the Galaxy Nexus smartphone was the first to support it. The service became available for iOS on April 29, 2013, without most of its features. In 2014, Google added Now cards to the notification center in ChromeOS and in the Chrome browser. Later, however, they removed the notification center entirely from Chrome. Popular Science named Google Now the "Innovation of the Year" for 2012.
+
 Since 2015, Google gradually phased out references to "Google Now" in the Google app, largely removing the remaining use of "Now" in October 2016, including replacing Now cards with Feed. At Google I/O 2016, Google showcased its new intelligent personal assistant Google Assistant, in some ways an evolution of Google Now. Unlike Google Now, however, Assistant can engage in a two-way dialogue with the user.
 
 History
+
 In late 2011, reports surfaced that Google was enhancing its product Google Voice Search for the next version of Android. It was originally codenamed "Majel" after Majel Barrett, the wife of Gene Roddenberry and the voice of computer systems in the Star Trek franchise; it was also codenamed "assistant".
+
 On June 27, 2012, Google unveiled Google Now as part of the premier demonstration of Android 4.1 Jelly Bean at Google I/O 2012.
+
 On October 29, 2012, Google Now received an update through Google Play bringing the addition of Gmail cards. Google Now displays cards with information pulled from the user's Gmail account, such as flight information, package tracking information, hotel reservations and restaurant reservations (as long as the Gmail account is not a Google Workspace account). Other additions were movies, concerts, stock, and news cards based on the users' location and search history. Also included was the facility to create calendar events using voice input, for instance, "Make a new appointment for dinner with Steve next Thursday at 7 pm".
+
 On December 5, 2012, an update to the Google Search application brought several new features to Google Now, including cards for nearby events, searching by the camera when at a museum or shop, airplane boarding passes found from e-mail (United Airlines in the first instance, more airlines followed). In addition, Google Now would show cards for the weather for upcoming travel destinations, birthday reminders; and monthly summaries of biking and walking activities. New voice action features included with this update include the ability to post to Google+, song recognition capabilities, and the ability to scan bar codes. However, when the Search 2.5 update hit, Google removed the "Search With Camera" feature.
+
 On March 21, 2013, the Executive Chairman of Google, Eric Schmidt, stated that Google had submitted an iOS version of Google Now to Apple for review and that the app was awaiting approval, but he later said that this was not true after Apple denied this was the case. Despite this, on April 29, 2013, Google Now was made available for iOS in an update to the operating system's Google Search application.
+
 Based on Google Chrome code review in December 2012, Google Now was expected to be integrated into the desktop version of Google Chrome. According to Seth Rosenblatt of CNET, it is rumored that Google Now will also serve as iGoogle's replacement in November 2013. On May 15, 2013, at Google I/O 2013, Google announced the upcoming release of Google Now on desktop platforms—the feature would be accessible only via Google Chrome or Google ChromeOS. On January 16, 2014, an alpha version of the Google Now was made available on desktop through the Google Chrome Canary release, although this app lacks some of the cards available on mobile version of Google Now such as public alerts, nearby photos, activity summary and stocks. On March 24, 2014, Google started rolling out Google Now for Google Chrome users who are signed into their Google account on the browser.
 
 Functionality
+
 Google Now was implemented as an aspect of the Google Search application. It recognizes repeated actions that a user performs on the device (common locations, repeated calendar appointments, search queries, etc.) to display more relevant information to the user in the form of "cards". The system leveraged the Google Knowledge Graph project, a system used to assemble more detailed search results by analyzing their meaning and connections.
+
 Specialized cards currently comprise:
 
 In January 2015, Google introduced the ability for participating, installed third-party apps to generate cards; on launch, this included apps such as Airbnb, EBay, The Guardian, Pandora, and Lyft among others.
 
 Now on Tap
+
 On Android 6.0 "Marshmallow", Google Now supported an additional feature known as Now On Tap, which lets a user perform searches within the context of information currently displayed in an app. When a user activates the feature, by holding the "Home" button, or using a voice command, the text content of the current screen is parsed for keywords and other information (names of people, television programs, and films, etc.)—which then generate cards that display related information, suggestions, and actions. Users can also voice questions related to the subjects of these cards.
 
 Reception
+
 Scott Webster of CNET praised Google Now for its ability to remind users of events based on past location histories and check-ins, and further commended it for providing "information instantly in a clean, intuitive manner" without the user's requesting it. A review by Ryan Paul of Ars Technica claims that like most other voice activated apps, including Siri, voice recognition is a major issue, but notes that the ability to type queries provides users with alternatives. Some commentators noted that Google Now's predictive power reveals "exactly how much data and information Google actually has about [users'] routines and daily lives." An October 2014 review on Android Central showed Google Now outperforming its competition, Siri and Cortana.

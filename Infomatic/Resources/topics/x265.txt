@@ -1,20 +1,28 @@
 x265 is an encoder for creating digital video streams in the High Efficiency Video Coding (HEVC/H.265) video compression format developed by the Joint Collaborative Team on Video Coding (JCT-VC). It is available as a command-line app or a software library, under the terms of GNU General Public License (GPL) version 2 or later; however, customers may request a commercial license.
 
 History
+
 x265 builds on source code from x264, an open-source video encoder for the previous MPEG video coding standard, H.264/MPEG-4 AVC. The project has licensed the rights to use the x264 source code. Development on x265 began in March 2013. MulticoreWare made the source code for x265 publicly available on July 23, 2013.
+
 The x265 project was initially funded by a small group of charter licensee companies that direct the development requirements and receive commercial licenses to use x265 in their products without having to release their products under the GPL 2 license. In February 2014, x265 was integrated into the popular multimedia transcoding tool FFmpeg and its fork Libav.
+
 Version 1.0 was completed in May 2014. The stable version (2.0) was released on July 14, 2016.
 
 Technical details
+
 x265 source code is written in C++ and x86 assembly.
 x265 supports the Main, Main 10, Main 12 and Main Still Picture profiles of HEVC (including intra-only profiles), utilizing a bit depth of either 8 bits or 10 bits per sample YCbCr with 4:2:0, 4:2:2 or 4:4:4 chroma subsampling. x265 supports most of the features of x264 including all rate control modes: Constant QP (CQP), Constant Rate Factor (CRF), Average Bit Rate (ABR), 2-pass or multi-pass and video buffering verifier rate control. Visual quality algorithms include CU-Tree (the successor to x264's macroblock-tree), adaptive quantization, b-pyramid, weighted prediction and psycho-visual optimizations (psy-rd and psy-rdoq). A fully lossless mode is also supported. Temporal scalability is supported, allowing for a video to be encoded into a base layer HEVC bitstream that is half the frame rate of the input video frame rate, and an enhancement layer that can be decoded along with the base layer to enable playback at the full frame rate.
+
 In April 2015, at the NAB Show in Las Vegas, MulticoreWare demonstrated high quality real-time 4K 10-bit HEVC encoding at frame rates in excess of 60 FPS on a dual Intel Xeon E5 v3 server, occupying only one standard rack unit.
 
 Quality and efficiency
+
 Judged by the objective quality metric VQM in 2015, x265 delivered video quality on par with the reference encoder of the royalty-free VP9 format that competes with HEVC.
+
 A codec comparison from 2015 found x265 to be a leading HEVC implementation measured by SSIM metric. In August 2016, Netflix published a comparison of x264, VP9, and x265 using video clips from 500 movies and TV shows using 6 different quality metrics and found that both VP9 and x265 have 40%–50% better quality at 1080p than x264. Netflix stated that with the VMAF metric (which closely mirrors human visual experience according to the author) x265 performed substantially (19% to 22%) better than VP9.
 
 Usage
+
 x265 can be invoked as a command-line app or integrated into another application through the application programming interface.
 
 Open-source adopters

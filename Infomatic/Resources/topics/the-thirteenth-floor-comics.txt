@@ -1,33 +1,51 @@
 "The Thirteenth Floor" is a British science fiction strip character, appearing in titles published by IPC Magazines. The strip debuted in the weekly anthology Scream! on 24 March 1984, before continuing in Eagle until 28 February 1987. The stories were written by John Wagner and Alan Grant; art was provided by José Ortiz. Since 2016 the property has been owned by Rebellion Developments, who have revived the strip in several specials. The plot was set in a tower block called Maxwell Tower, controlled by an experimental sentient computer called Max located on the 13th floor of the flats. Max himself narrated the strip, and as befitting a computerised custodian of hundreds of people, was quite chatty and light-hearted. However, he was also portrayed as having a programming flaw; programmed to love and protect his tenants, he could remorselessly kill anyone who threatened or even just annoyed them.
 
 Creation
+
 Assigned to create Scream!, Barrie Tomlinson and Gil Page found themselves walking a tightrope over the horror level of the contents so they were not in violation of the Children and Young Persons (Harmful Publications) Act 1955, or ended up generating negative press attention like that suffered by Action in 1976.
+
 Writers John Wagner and Alan Grant devised "The Thirteenth Floor" for the new title. At the time the pair contributed so many stories to IPC that managing editor John Sanders insisted they use pseudonyms for many of their scripts;  as such on "The Thirteenth Floor" they were credited as 'Ian Holland'.
+
 Grant would recall that "Both John and I genuinely liked Max... who is perhaps one of the cruellest characters we'd ever devised. I was disappointed nobody ever picked the story up for a kids' television show". Art duties went to José Ortiz, whose body of work had included the urban gothic "The Tower King" and Wagner/Grant story "The House of Daemon" for the revived Eagle after a stint working in the American market for Warren Publishing.
 
 Publishing history
+
 Scream!
+
 IPC management were nervous about Scream! from the start, and the strip was plagued with interference. Following the 1984 National Union of Journalists strike the title was cancelled, reportedly due to low sales, though Tomlinson and Scream! assistant editor Simon Furman were among those who believe management were looking for an excuse to cancel it.
 
 Eagle
+
 "The Thirteenth Floor" took a three-month hiatus before - along with one other Scream! strip, "Monster" - returning as part of Eagle (retitled Eagle and Scream!) in September 1984. The strip would run in 1987; alongside the strip, Max also began acting as the fictional 'editor' and host of Eagle, in a similar fashion to the character-editors of Tharg the Mighty (2000 AD), Starlord (Starlord)), The Big E (Tornado) and Scream!'s own Ghastly McNasty. Following the end of new episodes of the strip, "The Thirteenth Floor" continued as reprints, starting with the Scream! strips. In July 1987, IPC would consolidate its ongoing titles into the revived Fleetway Publications holding and sell them to Egmont Publishing; Max would continue to host Eagle until it was cancelled in January 1994.
+
 As "The Thirteenth Floor" had begun in Scream! it was not among the properties sold to the Dan Dare Corporation when they purchased both versions of Eagle from Egmont in 1998. In 2007, Irish publisher Hibernia Books licensed the first 11 Scream! episodes from Egmont, and published a collected edition limited to 700 copies. A second volume followed in 2014, along with a reprint of the first.
 
 Rebellion Developments
+
 In 2016, the post-1970 IPC material owned by Egmont Publishing, including the complete run of "The Thirteenth Floor" from Scream! and Eagle, was purchased by Rebellion Developments.
+
 The following year Rebellion reactivated several of the purchased properties for the 2017 Scream and Misty Halloween Special. The new story was written by 2000 AD regular Guy Adams, who had asked to resurrect "The Thirteenth Floor" after being tapped for the special by Rebellion editor Keith Richardson, feeling "it's a brilliantly simple idea but so rich with possibilities, and Max is fascinating too - a kindly, benevolent mass murderer". Adams intended the story as a sequel to the original strips, feeling Maxwell Towers wasn't destroyed by the fire in the final Eagle story but heavily damaged and hurriedly patched up for use as cheap council housing. Veteran John Stokes illustrated the "realist" early pages of the new story, drawing on Ortiz for inspiration, with Frazer Irving (another 2000 AD regular, and a fan of the comic growing up) handling the virtual reality sequence. Both the special and the story were well-received, and the same team reunited for the 2018 special.
+
 Again reception was strong, and Richardson felt there was a strong enough demand for "The Thirteenth Floor" to front its own special edition, Scream! Presents The Thirteenth Floor: Home Sweet Home, in 2019. The main strip completed the storyline from the previous two specials, and was partly motivated by the slow progress the annual specials forced upon the storytelling. Writer Adams was joined by the returning Stokes and Irving, with Henrik Sahlström, Tom Paterson, Abigail Harding, Vince Locke, Jimmy Broxton, V.V. Glass and Kelley Jones also contributing art. Max also appeared as a character in The Vigilant, a crossover between several revived properties; Maxwell Towers' 13th floor functioned as the eponymous team's headquarters, with Max helping Doctor Sin and the rest of the team battle threats.
+
 Parallel to the specials, Rebellion also collected the entire original run of "The Thirteenth Floor" across three trade paperbacks under their Treasury of British Comics imprint, issued in 2018, 2020 and 2021. Each also featured a limited edition hardcover variant, exclusive to Rebellion's online webshop.
+
 In 2023, Rebellion published a fourth volume, The Return of Max, which compiled the material from Scream & Misty Special 2017, Scream & Misty Special 2018, The Thirteenth Floor: Home Sweet Home and Scream! Spinechillers Holiday Special 1989 (this was not, in fact, a Thirteenth Floor story, but another Scream story entitled Museum of Horror).
 
 Plot summary
+
 Maxwell Tower had been built without a thirteenth floor (going straight from 12 to 14) for reasons of superstition; however due to a faulty Integrated Functions (I.F.) module, Max had the inexplicable ability to 'create' a 13th floor of his own, containing anything he desired and accessible from the building's lifts. Max used the 13th floor to punish and torture anybody he felt deserved such treatment - often creating such fear and distress that they suffered a fatal heart attack or were driven insane. Typically Max would notice a burglar, vandal or con-man through one of the many viewscreens, lure them into the lift, and take them to the 13th floor. Often their experience would contain subtle irony; for example a con-man claiming to be a pest controller would be chased by giant rats, or incompetent repairmen would be stuck in a burning facsimile of Maxwell Tower, in which all the doors and windows were jammed.
+
 Max's controller Jerry Knight and local police became suspicious, so Max hypnotized a resident named Bert Runch, directing him to dispose of the corpses of his victims. After Jerry discovered the 13th Floor, Max hypnotised Jerry, effectively reversing the role of controller and controlled. Local policeman Sgt. Ingram discovered Max's actions and shut the computer down, causing Runch to disappeared along with the floor. Jerry then switched Max back on, and assisted in imprisoning Ingram on the 13th Floor before the policeman could tell anyone of the secret. The 13th Floor was finally discovered by others in Ingram's police department and Max was de-activated - losing Ingram, who was 'inside' him at the time.
+
 Max was subsequently re-programmed, and installed to run Pringles Department Store. However, the computer's new controller Gwyn inadvertently triggered a backup mechanism, re-activating Max's sentience, and before long he had deliberately burnt out his I.F. module and re-created the 13th Floor - this time accessible via the top of an escalator. Max now saw anybody as a potential Pringle's customer, and thus a 'tenant' deserving of his care, rather than of punishment. Max uncovered secret activity by MI5 within the store, and programmed to be a patriotic computer, offered the 13th floor's services to the intelligence agency for purposes such as interrogation, and even created a pocket-size version of himself, Minimax, to go on spy missions accompanied by the hypnotized local MI5 director, Auberon Hedges. Max eventually became homesick and used his government contacts to arrange a return to Maxwell Tower, where he yet again resumed punishing people he felt harmed his tenants. Eventually, many of the building's tenants suffered a wave of madness resulting from paint fumes in the building affecting their minds and took to setting the block on fire, resulting in Maxwell Towers burning down.
 
 Collected editions
+
 For each volume, a limited edition hardcover edition was available exclusively from the 2000 AD and Treasury of British Comics webstores.
+
 For the first three volumes, the ISBN was the same for both the standard paperback edition and the hardcover version; the fourth volume had different ISBNs for each edition.
 
 Reception
+
 The character of Max has been compared to HAL 9000, the homicidal computer from 2001: A Space Odyssey. Andy Oliver reviewed the first of the Rebellion collected editions for Broken Frontier, concluding the volume "underlines that the strip’s reputation as one of the better 1980s UK comics serials is well deserved". Ian Keogh of Slings & Arrows was also positive, praising "the elastic premise of The Thirteenth Floor, unpredictability and dark humour". He was less impressed by the stories set in Pringles that made up much of the second collection but felt the third concluded "The Thirteenth Floor" with a return to form. The third volume was also highly praised by Mark Scott of Big Comic Page, describing the strip as "a title that is very important in the development of British comics during the 1980s".

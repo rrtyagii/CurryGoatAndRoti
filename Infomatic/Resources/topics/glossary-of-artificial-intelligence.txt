@@ -1,6 +1,7 @@
 This glossary of artificial intelligence is a list of definitions of terms and concepts relevant to the study of artificial intelligence (AI), its subdisciplines, and related fields. Related glossaries include Glossary of computer science, Glossary of robotics, Glossary of machine vision, and Glossary of logic.
 
 A
+
 A* search
 Pronounced "A-star".
 A graph traversal and pathfinding algorithm which is used in many fields of computer science due to its completeness, optimality, and optimal efficiency.
@@ -10,6 +11,7 @@ A high-level knowledge-representation framework that can be used to solve proble
 
 abductive reasoning
 Also abduction.
+
 A form of logical inference which starts with an observation or set of observations then seeks to find the simplest and most likely explanation. This process, unlike deductive reasoning, yields a plausible conclusion but does not positively verify it. abductive inference, or retroduction
 
 ablation
@@ -41,6 +43,7 @@ An algorithm that changes its behavior at the time it is run, based on a priori 
 
 adaptive neuro fuzzy inference system (ANFIS)
 Also adaptive network-based fuzzy inference system.
+
 A kind of artificial neural network that is based on Takagi–Sugeno fuzzy inference system. The technique was developed in the early 1990s. Since it integrates both neural networks and fuzzy logic principles, it has potential to capture the benefits of both in a single framework. Its inference system corresponds to a set of fuzzy IF–THEN rules that have learning capability to approximate nonlinear functions. Hence, ANFIS is considered to be a universal estimator. For using the ANFIS in a more efficient and optimal way, one can use the best parameters obtained by genetic algorithm.
 
 admissible heuristic
@@ -48,15 +51,18 @@ In computer science, specifically in algorithms related to pathfinding, a heuris
 
 affective computing
 Also artificial emotional intelligence or emotion AI.
+
 The study and development of systems and devices that can recognize, interpret, process, and simulate human affects. Affective computing is an interdisciplinary field spanning computer science, psychology, and cognitive science.
 
 agent architecture
 A blueprint for software agents and intelligent control systems, depicting the arrangement of components. The architectures implemented by intelligent agents are referred to as cognitive architectures.
 
 AI accelerator
+
 A class of microprocessor or computer system designed as hardware acceleration for artificial intelligence applications, especially artificial neural networks, machine vision, and machine learning.
 
 AI-complete
+
 In the field of artificial intelligence, the most difficult problems are informally known as AI-complete or AI-hard, implying that the difficulty of these computational problems is equivalent to that of solving the central artificial intelligence problem—making computers as intelligent as people, or strong AI. To call a problem AI-complete reflects an attitude that it would not be solved by a simple specific algorithm.
 
 algorithm
@@ -153,6 +159,7 @@ The self-managing characteristics of distributed computing resources, adapting t
 
 autonomous car
 Also self-driving car, robot car, and driverless car.
+
 A vehicle that is capable of sensing its environment and moving with little or no human input.
 
 autonomous robot
@@ -170,6 +177,7 @@ A gradient-based technique for training certain types of recurrent neural networ
 
 backward chaining
 Also backward reasoning.
+
 An inference method described colloquially as working backward from the goal. It is used in automated theorem provers, inference engines, proof assistants, and other artificial intelligence applications.
 
 bag-of-words model
@@ -182,6 +190,7 @@ batch normalization
 A technique for improving the performance and stability of artificial neural networks. It is a technique to provide any layer in a neural network with inputs that are zero mean/unit variance. Batch normalization was introduced in a 2015 paper. It is used to normalize the input layer by adjusting and scaling the activations.
 
 Bayesian programming
+
 A formalism and a methodology for having a technique to specify probabilistic models and solve problems when less than the necessary information is available.
 
 bees algorithm
@@ -203,6 +212,7 @@ big data
 A term used to refer to data sets that are too large or complex for traditional data-processing application software to adequately deal with. Data with many cases (rows) offer greater statistical power, while data with higher complexity (more attributes or columns) may lead to a higher false discovery rate.
 
 Big O notation
+
 A mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity. It is a member of a family of notations invented by Paul Bachmann, Edmund Landau, and others, collectively called Bachmann–Landau notation or asymptotic notation.
 
 binary tree
@@ -213,6 +223,7 @@ An artificial intelligence approach based on the blackboard architectural model,
 
 Boltzmann machine
 Also stochastic Hopfield network with hidden units.
+
 A type of stochastic recurrent neural network and Markov random field.  Boltzmann machines can be seen as the stochastic, generative counterpart of Hopfield networks.
 
 Boolean satisfiability problem
@@ -228,6 +239,7 @@ A machine learning ensemble metaheuristic for primarily reducing variance (as op
 
 brain technology
 Also self-learning know-how system.
+
 A technology that employs the latest findings in neuroscience. The term was first introduced by the Artificial Intelligence Laboratory in Zurich, Switzerland, in the context of the ROBOY project. Brain Technology can be employed in robots, know-how management systems and any other application with self-learning capabilities. In particular, Brain Technology applications allow the visualization of the underlying learning architecture often coined as "know-how maps".
 
 branching factor
@@ -246,6 +258,7 @@ Broadly construed, the process of solving new problems based on the solutions of
 
 chatbot
 Also smartbot, talkbot, chatterbot, bot, IM bot, interactive agent, conversational interface, or artificial conversational entity.
+
 A computer program or an artificial intelligence which conducts a conversation via auditory or textual methods.
 
 cloud robotics
@@ -253,6 +266,7 @@ A field of robotics that attempts to invoke cloud technologies such as cloud com
 
 cluster analysis
 Also clustering.
+
 The task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense) to each other than to those in other groups (clusters). It is a main task of exploratory data mining, and a common technique for statistical data analysis, used in many fields, including machine learning, pattern recognition, image analysis, information retrieval, bioinformatics, data compression, and computer graphics.
 
 Cobweb
@@ -287,6 +301,7 @@ Focuses on classifying computational problems according to their inherent diffic
 
 computational creativity
 Also artificial creativity, mechanical creativity, creative computing, or creative computation.
+
 A multidisciplinary endeavour that includes the fields of artificial intelligence, cognitive psychology, philosophy, and the arts.
 
 computational cybernetics
@@ -354,6 +369,7 @@ A programming paradigm wherein relations between variables are stated in the for
 
 constructed language
 Also conlang.
+
 A language whose phonology, grammar, and vocabulary are consciously devised, instead of having developed naturally. Constructed languages may also be referred to as artificial, planned, or invented languages.
 
 control theory
@@ -368,9 +384,11 @@ In genetic algorithms and evolutionary computation, a genetic operator used to c
 
 D
 Darkforest
+
 A computer go program developed by Facebook, based on deep learning techniques using a convolutional neural network. Its updated version Darkfores2 combines the techniques of its predecessor with Monte Carlo tree search. The MCTS effectively takes tree search methods commonly seen in computer chess programs and randomizes them. With the update, the system is known as Darkfmcts3.
 
 Dartmouth workshop
+
 The Dartmouth Summer Research Project on Artificial Intelligence was the name of a 1956 summer workshop now considered by many (though not all) to be the seminal event for artificial intelligence as a field.
 
 data augmentation
@@ -394,9 +412,11 @@ A collection of data. Most commonly a data set corresponds to the contents of a 
 
 data warehouse (DW or DWH)
 Also enterprise data warehouse (EDW).
+
 A system used for reporting and data analysis. DWs are central repositories of integrated data from one or more disparate sources. They store current and historical data in one single place
 
 Datalog
+
 A declarative logic programming language that syntactically is a subset of Prolog. It is often used as a query language for deductive databases. In recent years, Datalog has found new application in data integration, information extraction, networking, program analysis, security, and cloud computing.
 
 decision boundary
@@ -407,6 +427,7 @@ An information system that supports business or organizational decision-making a
 
 decision theory
 Also theory of choice.
+
 The study of the reasoning underlying an agent's choices. Decision theory can be broken into two branches: normative decision theory, which gives advice on how to make the best decisions given a set of uncertain beliefs and a set of values, and descriptive decision theory which analyzes how existing, possibly irrational agents actually make decisions.
 
 decision tree learning
@@ -419,18 +440,21 @@ deductive classifier
 A type of artificial intelligence inference engine. It takes as input a set of declarations in a frame language about a domain such as medical research or molecular biology. For example, the names of classes, sub-classes, properties, and restrictions on allowable values.
 
 Deep Blue
+
 was a chess-playing computer developed by IBM. It is known for being the first computer chess-playing system to win both a chess game and a chess match against a reigning world champion under regular time controls.
 
 deep learning
 A subset of machine learning that focuses on utilizing neural networks to perform tasks such as classification, regression, and representation learning. The field takes inspiration from biological neuroscience and is centered around stacking artificial neurons into layers and "training" them to process data. The adjective "deep" refers to the use of multiple layers (ranging from three to several hundred or thousands) in the network. Methods used can be either supervised, semi-supervised, or unsupervised.
 
 DeepMind Technologies
+
 A British artificial intelligence company founded in September 2010, currently owned by Alphabet Inc. The company is based in London, with research centres in Canada, France, and the United States. Acquired by Google in 2014, the company has created a neural network that learns how to play video games in a fashion similar to that of humans, as well as a neural Turing machine, or a neural network that may be able to access an external memory like a conventional Turing machine, resulting in a computer that mimics the short-term memory of the human brain. The company made headlines in 2016 after its AlphaGo program beat human professional Go player Lee Sedol, the world champion, in a five-game match, which was the subject of a documentary film. A more general program, AlphaZero, beat the most powerful programs playing Go, chess, and shogi (Japanese chess) after a few days of play against itself using reinforcement learning.
 
 default logic
 A non-monotonic logic proposed by Raymond Reiter to formalize reasoning with default assumptions.
 
 Density-based spatial clustering of applications with noise (DBSCAN)
+
 A clustering algorithm proposed by Martin Ester, Hans-Peter Kriegel, Jörg Sander, and Xiaowei Xu in 1996.
 
 description logic (DL)
@@ -438,6 +462,7 @@ A family of formal knowledge representation languages. Many DLs are more express
 
 developmental robotics (DevRob)
 Also epigenetic robotics.
+
 A scientific field which aims at studying the developmental mechanisms, architectures, and constraints that allow lifelong and open-ended learning of new skills and new knowledge in embodied machines.
 
 diagnosis
@@ -445,6 +470,7 @@ Concerned with the development of algorithms and techniques that are able to det
 
 dialogue system
 Also conversational agent (CA).
+
 A computer system intended to converse with a human with a coherent structure. Dialogue systems have employed text, speech, graphics, haptics, gestures, and other modes for communication on both the input and output channel.
 
 diffusion model
@@ -455,6 +481,7 @@ An algorithm for finding the shortest paths between nodes in a weighted graph, w
 
 dimensionality reduction
 Also dimension reduction.
+
 The process of reducing the number of random variables under consideration by obtaining a set of principal variables. It can be divided into feature selection and feature extraction.
 
 discrete system
@@ -462,6 +489,7 @@ Any system with a countable number of states. Discrete systems may be contrasted
 
 distributed artificial intelligence (DAI)
 Also decentralized artificial intelligence.
+
 A subfield of artificial intelligence research dedicated to the development of distributed solutions for problems. DAI is closely related to and a predecessor of the field of multi-agent systems.
 
 double descent
@@ -469,6 +497,7 @@ A phenomenon in statistics and machine learning where a model with a small numbe
 
 dropout
 Also dilution.
+
 A regularization technique for reducing overfitting in artificial neural networks by preventing complex co-adaptations on training data.
 
 dynamic epistemic logic (DEL)
@@ -482,6 +511,7 @@ early stopping
 A regularization technique often used when training a machine learning model with an iterative method such as gradient descent.
 
 Ebert test
+
 A test which gauges whether a computer-based synthesized voice can tell a joke with sufficient skill to cause people to laugh. It was proposed by film critic Roger Ebert at the 2011 TED conference as a challenge to software developers to have a computerized voice master the inflections, delivery, timing, and intonations of a speaking human. The test is similar to the Turing test proposed by Alan Turing in 1950 as a way to gauge a computer's ability to exhibit intelligent behavior by generating performance indistinguishable from a human being.
 
 echo state network (ESN)
@@ -489,6 +519,7 @@ A recurrent neural network with a sparsely connected hidden layer (with typicall
 
 embodied agent
 Also interface agent.
+
 An intelligent agent that interacts with the environment through a physical body within that environment. Agents that are represented graphically with a body, for example a human or a cartoon animal, are also called embodied agents, although they have only virtual, not physical, embodiment.
 
 embodied cognitive science
@@ -533,6 +564,7 @@ In machine learning, pattern recognition, and image processing, feature extracti
 
 feature learning
 Also representation learning.
+
 In machine learning, feature learning or representation learning is a set of techniques that allows a system to automatically discover the representations needed for feature detection or classification from raw data. This replaces manual feature engineering and allows a machine to both learn the features and use them to perform a specific task.
 
 feature selection
@@ -543,6 +575,7 @@ A machine learning technique that allows for training models on multiple devices
 
 first-order logic
 Also first-order predicate calculus or predicate logic.
+
 A collection of formal systems used in mathematics, philosophy, linguistics, and computer science. First-order logic uses quantified variables over non-logical objects and allows the use of sentences that contain variables, so that rather than propositions such as Socrates is a man one can have expressions in the form "there exists X such that X is Socrates and X is a man" and there exists is a quantifier while X is a variable. This distinguishes it from propositional logic, which does not use quantifiers or relations.
 
 fluent
@@ -553,6 +586,7 @@ A set of words whose letters are taken from an alphabet and are well-formed acco
 
 forward chaining
 Also forward reasoning.
+
 One of the two main methods of reasoning when using an inference engine and can be described logically as repeated application of modus ponens. Forward chaining is a popular implementation strategy for expert systems, businesses and production rule systems. The opposite of forward chaining is backward chaining. Forward chaining starts with the available data and uses inference rules to extract more data (from an end user, for example) until a goal is reached. An inference engine using forward chaining searches the inference rules until it finds one where the antecedent (If clause) is known to be true. When such a rule is found, the engine can conclude, or infer, the consequent (Then clause), resulting in the addition of new information to its data.
 
 frame
@@ -566,6 +600,7 @@ The problem of finding adequate collections of axioms for a viable description o
 
 friendly artificial intelligence
 Also friendly AI or FAI.
+
 A hypothetical artificial general intelligence (AGI) that would have a positive effect on humanity. It is a part of the ethics of artificial intelligence and is closely related to machine ethics. While machine ethics is concerned with how an artificially intelligent agent should behave, friendly artificial intelligence research is focused on how to practically bring about this behaviour and ensuring it is adequately constrained.
 
 futures studies
@@ -657,6 +692,7 @@ A decision boundary in machine learning classifiers that partitions the input sp
 
 I
 IEEE Computational Intelligence Society
+
 A professional society of the Institute of Electrical and Electronics Engineers (IEEE) focussing on "the theory, design, application, and development of biologically and linguistically motivated computational paradigms emphasizing neural networks, connectionist systems, genetic algorithms, evolutionary programming, fuzzy systems, and hybrid intelligent systems in which these paradigms are contained".
 
 incremental learning
@@ -669,10 +705,12 @@ information integration (II)
 The merging of information from heterogeneous sources with differing conceptual, contextual and typographical representations. It is used in data mining and consolidation of data from unstructured or semi-structured resources. Typically, information integration refers to textual representations of knowledge but is sometimes applied to rich-media content. Information fusion, which is a related term, involves the combination of information into a new set of information towards reducing redundancy and uncertainty.
 
 Information Processing Language (IPL)
+
 A programming language that includes features intended to help with programs that perform simple problem solving actions such as lists, dynamic memory allocation, data types, recursion, functions as arguments, generators, and cooperative multitasking. IPL invented the concept of list processing, albeit in an assembly-language style.
 
 intelligence amplification (IA)
 Also cognitive augmentation, machine augmented intelligence, and enhanced intelligence.
+
 The effective use of information technology in augmenting human intelligence.
 
 intelligence explosion
@@ -686,6 +724,7 @@ A class of control techniques that use various artificial intelligence computing
 
 intelligent personal assistant
 Also virtual assistant or personal digital assistant.
+
 A software agent that can perform tasks or services for an individual based on verbal commands. Sometimes the term "chatbot" is used to refer to virtual assistants generally or specifically accessed by online chat (or in some cases online chat programs that are exclusively for entertainment purposes). Some virtual assistants are able to interpret human speech and respond via synthesized voices. Users can ask their assistants questions, control home automation devices and media playback via voice, and manage other basic tasks such as email, to-do lists, and calendars with verbal commands.
 
 interpretation
@@ -708,6 +747,7 @@ kernel method
 In machine learning, kernel methods are a class of algorithms for pattern analysis, whose best known member is the support vector machine (SVM). The general task of pattern analysis is to find and study general types of relations (e.g., cluster analysis, rankings, principal components, correlations, classifications) in datasets.
 
 KL-ONE
+
 A well-known knowledge representation system in the tradition of semantic networks and frames; that is, it is a frame language. The system is an attempt to overcome semantic indistinctness in semantic network representations and to explicitly represent conceptual information as a structured inheritance network.
 
 k-nearest neighbors
@@ -748,6 +788,7 @@ lazy learning
 In machine learning, lazy learning is a learning method in which generalization of the training data is, in theory, delayed until a query is made to the system, as opposed to in eager learning, where the system tries to generalize the training data before receiving queries.
 
 Lisp (programming language) (LISP)
+
 A family of programming languages with a long history and a distinctive, fully parenthesized prefix notation.
 
 logic programming
@@ -764,6 +805,7 @@ machine vision (MV)
 The technology and methods used to provide imaging-based automatic inspection and analysis for such applications as automatic inspection, process control, and robot guidance, usually in industry. Machine vision is a term encompassing a large number of technologies, software and hardware products, integrated systems, actions, methods and expertise. Machine vision as a systems engineering discipline can be considered distinct from computer vision, a form of computer science. It attempts to integrate existing technologies in new ways and apply them to solve real world problems. The term is the prevalent one for these functions in industrial automation environments but is also used for these functions in other environments such as security and vehicle guidance.
 
 Markov chain
+
 A stochastic model describing a sequence of possible events in which the probability of each event depends only on the state attained in the previous event.
 
 Markov decision process (MDP)
@@ -771,6 +813,7 @@ A discrete time stochastic control process. It provides a mathematical framework
 
 mathematical optimization
 Also mathematical programming.
+
 In mathematics, computer science, and operations research, the selection of a best element (with regard to some criterion) from some set of available alternatives.
 
 machine learning (ML)
@@ -788,6 +831,7 @@ A field in economics and game theory that takes an engineering approach to desig
 
 mechatronics
 Also mechatronic engineering.
+
 A multidisciplinary branch of engineering that focuses on the engineering of both electrical and mechanical systems, and also includes a combination of robotics, electronics, computer, telecommunications, systems, control, and product engineering.
 
 metabolic network reconstruction and simulation
@@ -810,6 +854,7 @@ In computer science, Monte Carlo tree search (MCTS) is a heuristic search algori
 
 multi-agent system (MAS)
 Also self-organized system.
+
 A computerized system composed of multiple interacting intelligent agents. Multi-agent systems can solve problems that are difficult or impossible for an individual agent or a monolithic system to solve. Intelligence may include methodic, functional, procedural approaches, algorithmic search or reinforcement learning.
 
 multilayer perceptron (MLP)
@@ -836,6 +881,7 @@ In programming languages, name binding is the association of entities (data and/
 
 named-entity recognition (NER)
 Also entity identification, entity chunking, and entity extraction.
+
 A subtask of information extraction that seeks to locate and classify named entity mentions in unstructured text into pre-defined categories such as the person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc.
 
 named graph
@@ -871,6 +917,7 @@ A direct communication pathway between an enhanced or wired brain and an externa
 
 neuromorphic engineering
 Also neuromorphic computing.
+
 A concept describing the use of very-large-scale integration (VLSI) systems containing electronic analog circuits to mimic neuro-biological architectures present in the nervous system. In recent times, the term neuromorphic has been used to describe analog, digital, mixed-mode analog/digital VLSI, and software systems that implement models of neural systems (for perception, motor control, or multisensory integration). The implementation of neuromorphic computing on the hardware level can be realized by oxide-based memristors, spintronic memories, threshold switches, and transistors.
 
 node
@@ -883,6 +930,7 @@ nouvelle AI
 Nouvelle AI differs from classical AI by aiming to produce robots with intelligence levels similar to insects. Researchers believe that intelligence can emerge organically from simple behaviors as these intelligences interacted with the "real world", instead of using the constructed worlds which symbolic AIs typically needed to have programmed into them.
 
 NP
+
 In computational complexity theory, NP (nondeterministic polynomial time) is a complexity class used to classify decision problems. NP is the set of decision problems for which the problem instances, where the answer is "yes", have proofs verifiable in polynomial time.
 
 NP-completeness
@@ -905,15 +953,19 @@ A method of machine learning in which data becomes available in a sequential ord
 
 ontology learning
 Also ontology extraction, ontology generation, or ontology acquisition.
+
 The automatic or semi-automatic creation of ontologies, including extracting the corresponding domain's terms and the relationships between the concepts that these terms represent from a corpus of natural language text, and encoding them with an ontology language for easy retrieval.
 
 OpenAI
+
 The for-profit corporation OpenAI LP, whose parent organization is the non-profit organization OpenAI Inc that conducts research in the field of artificial intelligence (AI) with the stated aim to promote and develop friendly AI in such a way as to benefit humanity as a whole.
 
 OpenCog
+
 A project that aims to build an open-source artificial intelligence framework. OpenCog Prime is an architecture for robot and virtual embodied cognition that defines a set of interacting components designed to give rise to human-equivalent artificial general intelligence (AGI) as an emergent phenomenon of the whole system.
 
 Open Mind Common Sense
+
 An artificial intelligence project based at the Massachusetts Institute of Technology (MIT) Media Lab whose goal is to build and utilize a large commonsense knowledge base from the contributions of many thousands of people across the Web.
 
 open-source software (OSS)
@@ -934,6 +986,7 @@ A computational method that optimizes a problem by iteratively trying to improve
 
 pathfinding
 Also pathing.
+
 The plotting, by a computer application, of the shortest route between two points. It is a more practical variant on solving mazes. This field of research is based heavily on Dijkstra's algorithm for finding a shortest path on a weighted graph.
 
 pattern recognition
@@ -944,6 +997,7 @@ An algorithm for supervised learning of binary classifiers.
 
 predicate logic
 Also first-order logic, predicate logic, and first-order predicate calculus.
+
 A collection of formal systems used in mathematics, philosophy, linguistics, and computer science. First-order logic uses quantified variables over non-logical objects and allows the use of sentences that contain variables, so that rather than propositions such as Socrates is a man one can have expressions in the form "there exists x such that x is Socrates and x is a man" and there exists is a quantifier while x is a variable. This distinguishes it from propositional logic, which does not use quantifiers or relations; in this sense, propositional logic is the foundation of first-order logic.
 
 predictive analytics
@@ -954,6 +1008,7 @@ A statistical procedure that uses an orthogonal transformation to convert a set 
 
 principle of rationality
 Also rationality principle.
+
 A principle coined by Karl R. Popper in his Harvard Lecture of 1963, and published in his book Myth of Framework. It is related to what he called the 'logic of the situation' in an Economica article of 1944/1945, published later in his book The Poverty of Historicism. According to Popper's rationality principle, agents act in the most adequate way according to the objective situation. It is an idealized conception of human behavior which he used to drive his model of situational logic.
 
 probabilistic programming (PP)
@@ -966,16 +1021,19 @@ programming language
 A formal language, which comprises a set of instructions that produce various kinds of output. Programming languages are used in computer programming to implement algorithms.
 
 Prolog
+
 A logic programming language associated with artificial intelligence and computational linguistics.  Prolog has its roots in first-order logic, a formal logic, and unlike many other programming languages, Prolog is intended primarily as a declarative programming language: the program logic is expressed in terms of relations, represented as facts and rules. A computation is initiated by running a query over these relations.
 
 propositional calculus
 Also propositional logic, statement logic, sentential calculus, sentential logic, and zeroth-order logic.
+
 A branch of logic which deals with propositions (which can be true or false) and argument flow. Compound propositions are formed by connecting propositions by logical connectives. The propositions without logical connectives are called atomic propositions. Unlike first-order logic, propositional logic does not deal with non-logical objects, predicates about them, or quantifiers. However, all the machinery of propositional logic is included in first-order logic and higher-order logics. In this sense, propositional logic is the foundation of first-order logic and higher-order logic.
 
 proximal policy optimization (PPO)
 A reinforcement learning algorithm for training an intelligent agent's decision function to accomplish difficult tasks.
 
 Python
+
 An interpreted, high-level, general-purpose programming language created by Guido van Rossum and first released in 1991. Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.
 
 PyTorch
@@ -983,6 +1041,7 @@ A machine learning library based on the Torch library, used for applications suc
 
 Q
 Q-learning
+
 A model-free reinforcement learning algorithm for learning the value of an action in a particular state.
 
 qualification problem
@@ -999,6 +1058,7 @@ Query languages or data query languages (DQLs) are computer languages used to ma
 
 R
 R programming language
+
 A programming language and free software environment for statistical computing and graphics supported by the R Foundation for Statistical Computing. The R language is widely used among statisticians and data miners for developing statistical software and data analysis.
 
 radial basis function network
@@ -1006,6 +1066,7 @@ In the field of mathematical modeling, a radial basis function network is an art
 
 random forest
 Also random decision forest.
+
 An ensemble learning method for classification, regression, and other tasks that operates by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees. Random decision forests correct for decision trees' habit of overfitting to their training set.
 
 reasoning system
@@ -1033,15 +1094,18 @@ reservoir computing
 A framework for computation that may be viewed as an extension of neural networks. Typically an input signal is fed into a fixed (random) dynamical system called a reservoir and the dynamics of the reservoir map the input to a higher dimension. Then a simple readout mechanism is trained to read the state of the reservoir and map it to the desired output. The main benefit is that training is performed only at the readout stage and the reservoir is fixed. Liquid-state machines and echo state networks are two major types of reservoir computing.
 
 Resource Description Framework (RDF)
+
 A family of World Wide Web Consortium (W3C) specifications originally designed as a metadata data model. It has come to be used as a general method for conceptual description or modeling of information that is implemented in web resources, using a variety of syntax notations and data serialization formats. It is also used in knowledge management applications.
 
 restricted Boltzmann machine (RBM)
 A generative stochastic artificial neural network that can learn a probability distribution over its set of inputs.
 
 Rete algorithm
+
 A pattern matching algorithm for implementing rule-based systems. The algorithm was developed to efficiently apply many rules or patterns to many objects, or facts, in a knowledge base. It is used to determine which of the system's rules should fire based on its data store, its facts.
 
 Retrieval augmented generation (RAG)
+
 A technique that enables large language models (LLMs) to retrieve and incorporate new information.
 
 robotics
@@ -1069,6 +1133,7 @@ A knowledge base that represents semantic relations between concepts in a networ
 
 semantic reasoner
 Also reasoning engine, rules engine, or simply reasoner.
+
 A piece of software able to infer logical consequences from a set of asserted facts or axioms. The notion of a semantic reasoner generalizes that of an inference engine, by providing a richer set of mechanisms to work with. The inference rules are commonly specified by means of an ontology language, and often a description logic language. Many reasoners use first-order predicate logic to perform reasoning; inference commonly proceeds by forward chaining and backward chaining.
 
 semantic query
@@ -1079,6 +1144,7 @@ In programming language theory, semantics is the field concerned with the rigoro
 
 semi-supervised learning
 Also weak supervision.
+
 A machine learning training paradigm characterized by using a combination of a small amount of human-labeled data (used exclusively in supervised learning), followed by a large amount of unlabeled data (used exclusively in unsupervised learning).
 
 sensor fusion
@@ -1117,6 +1183,7 @@ An RDF query language—that is, a semantic query language for databases—able 
 
 sparse dictionary learning
 Also sparse coding or SDL.
+
 A feature learning method aimed at finding a sparse representation of the input data in the form of a linear combination of basic elements as well as those basic elements themselves.
 
 speech recognition
@@ -1182,6 +1249,7 @@ tensor network theory
 A theory of brain function (particularly that of the cerebellum) that provides a mathematical model of the transformation of sensory space-time coordinates into motor coordinates and vice versa by cerebellar neuronal networks. The theory was developed as a geometrization of brain function (especially of the central nervous system) using tensors.
 
 TensorFlow
+
 A free and open-source software library for dataflow and differentiable programming across a range of tasks. It is a symbolic math library, and is also used for machine learning applications such as neural networks.
 
 theoretical computer science (TCS)
@@ -1191,6 +1259,7 @@ theory of computation
 In theoretical computer science and mathematics, the theory of computation is the branch that deals with how efficiently problems can be solved on a model of computation, using an algorithm. The field is divided into three major branches: automata theory and languages, computability theory, and computational complexity theory, which are linked by the question: "What are the fundamental capabilities and limitations of computers?".
 
 Thompson sampling
+
 A heuristic for choosing actions that addresses the exploration-exploitation dilemma in the multi-armed bandit problem. It consists in choosing the action that maximizes the expected reward with respect to a randomly drawn belief.
 
 time complexity
@@ -1204,6 +1273,7 @@ A type of deep learning architecture that exploits a multi-head attention mechan
 
 transhumanism
 Abbreviated H+ or h+.
+
 An international philosophical movement that advocates for the transformation of the human condition by developing and making widely available sophisticated technologies to greatly enhance human intellect and physiology.
 
 transition system
@@ -1211,15 +1281,18 @@ In theoretical computer science, a transition system is a concept used in the st
 
 tree traversal
 Also tree search.
+
 A form of graph traversal and refers to the process of visiting (checking and/or updating) each node in a tree data structure, exactly once. Such traversals are classified by the order in which the nodes are visited.
 
 true quantified Boolean formula
 In computational complexity theory, the language TQBF is a formal language consisting of the true quantified Boolean formulas. A (fully) quantified Boolean formula is a formula in quantified propositional logic where every variable is quantified (or bound), using either existential or universal quantifiers, at the beginning of the sentence. Such a formula is equivalent to either true or false (since there are no free variables). If such a formula evaluates to true, then that formula is in the language TQBF. It is also known as QSAT (Quantified SAT).
 
 Turing machine
+
 A mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules. Despite the model's simplicity, it is capable of implementing any algorithm.
 
 Turing test
+
 A test of a machine's ability to exhibit intelligent behaviour equivalent to, or indistinguishable from, that of a human, developed by Alan Turing in 1950. Turing proposed that a human evaluator would judge natural language conversations between a human and a machine designed to generate human-like responses. The evaluator would be aware that one of the two partners in conversation is a machine, and all participants would be separated from one another. The conversation would be limited to a text-only channel such as a computer keyboard and screen so the result would not depend on the machine's ability to render words as speech. If the evaluator cannot reliably tell the machine from the human, the machine is said to have passed the test. The test results do not depend on the machine's ability to give correct answers to questions, only how closely its answers resemble those a human would give.
 
 type system
@@ -1250,5 +1323,7 @@ word embedding
 A representation of a word in natural language processing. Typically, the representation is a real-valued vector that encodes the meaning of the word in such a way that words that are closer in the vector space are expected to be similar in meaning.
 
 X
+
 XGBoost
+
 Short for eXtreme Gradient Boosting, XGBoost is an open-source software library which provides a regularizing gradient boosting framework for multiple programming languages.

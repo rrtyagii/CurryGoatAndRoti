@@ -1,25 +1,37 @@
 Maria Virgínia Ferreira de Almeida Júdice Gamito Dignum (born 2 May 1964, in Lisbon, Portugal) is a Dutch-Portuguese researcher on Artificial Intelligence. She is Professor of Computer Science at Umeå University, and an Guest Professor at University of Amsterdam. She leads the Responsible Artificial intelligence research group and is director of the AI Policy Lab. Her research and writing considers responsible AI and the development evaluation of human-agent team work, thereby aligning with Human-Centered Artificial Intelligence themes.
 
 Education and early career
+
 After graduating from the University of Lisbon in 1987, Dignum moved to Amsterdam where she completed a MSc in Computer  science at the Free University of Amsterdam in 1989. She then worked in consultancy and system development. In 2003 Dignum returned to academic computer science and she earned her doctorate in computer science at Utrecht University in 2004. She was appointed as an associate professor at Delft University of Technology. She was made a Netherlands Organisation for Scientific Research Veni laureate in 2006 for her work in agent-based organisational frameworks.
 
 Research
+
 She was made an associate professor at Delft University of Technology in 2009. In 2011 she was appointed Vice President of the Benelux Vereniging voor Kunstmatige Intelligentie (BNVKI), the Benelux Association for AI, a position she held until 2017.
+
 In 2018, Dignum joined Umeå University as a Professor of AI and Society. Her research is supported by the Wallenberg AI, Autonomous Systems and Software Program. She is interested in the ethical and cultural impacts of artificial intelligence, and ways to make AI both optimised and transparent for the people who are impacted by it. She is a Fellow of the European Association for Artificial Intelligence. She hopes that AI will not be seen as only a computer science discipline, but one which interacts with all academic areas.
 
 Policy work
+
 Dignum was appointed to the European Commission High Level Expert Group in Artificial Intelligence, in which she capacity she helps create guidelines and policy on the European Union AI strategy. The recommendations from the group are included in the European Commission's five-year plan, and will be part of the Multiannual Financial Framework up until 2027. In 2018 the group delivered the Ethical Guidelines of Artificial Intelligence as well as a series of recommendations to guide trustworthy AI. She serves on the board of AllAI, a collective of researchers bringing stakeholders together to monitor the usage of AI.
+
 In 2019, Dignum was elected to the World Economic Forum Global AI Council. Dignum provides expert commentary on AI at conferences and public events.
+
 In 2023, United Nations Secretary General António Guterres appointed Dignum to his Artificial Intelligence Advisory Body on risks, opportunities and international governance of artificial intelligence, co-chaired by Carme Artigas and James Manyika.
 
 Selected publications
+
 Her publications include;
 
 Books
+
 Dignum, Virginia (2019). Responsible Artificial Intelligence. Springer. ISBN 978-3-030-30371-6.
+
 Dignum, Virginia (2009). Handbook of Research on Multi-agent Systems: Semantics and Dynamics of Organizational Models. Information Science Reference. ISBN 978-1605662565.
 
 Papers
+
 Dignum, Virginia (2004). "A model for organizational interaction: based on agents, founded in logic" (PDF). PhD Thesis.
+
 Dignum, Virginia (2005-11-11). "Organizing multiagent systems". Autonomous Agents and Multi-Agent Systems. 11 (3): 307–360. doi:10.1007/s10458-005-1673-9. hdl:1874/18027. S2CID 7412987.
+
 Dignum, Virginia (2004). "OMNI: Introducing Social Structure, Norms and Ontologies into Agent Organizations". Programming Multi-Agent Systems. Lecture Notes in Computer Science. Vol. 3346. pp. 183–200. doi:10.1007/978-3-540-32260-3_10. hdl:1874/11498. ISBN 978-3-540-24559-9. S2CID 14651448.

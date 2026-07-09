@@ -1,6 +1,7 @@
 XHTML Meta Data Profiles (XMDP) is a format for defining metadata 'profiles' or formats in a machine-readable fashion,  while also enabling people to see a description of the definition visually in a web browser. XMDP definitions are expressed in XHTML (or possibly HTML). Examples of applications that use XMDP include XFN and hCard.
 
 Example
+
 To apply, use the profile attribute in the head element of your document:
 
 Where URL denotes the full address of your XMDP profile resource.

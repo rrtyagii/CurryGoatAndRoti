@@ -1,6 +1,7 @@
 The memory-prediction framework is a theory of brain function created by Jeff Hawkins and described in his 2004 book On Intelligence. This theory concerns the role of the mammalian neocortex and its associations with the hippocampi and the thalamus in matching sensory inputs to stored memory patterns and how this process leads to predictions of what will happen in the future.
 
 Overview
+
 The theory is motivated by the observed similarities between the brain structures (especially neocortical tissue) that are used for a wide range of behaviours available to mammals. The theory posits that the remarkably uniform physical arrangement of cortical tissue reflects a single principle or algorithm which underlies all cortical information processing. The basic processing principle is hypothesized to be a feedback/recall loop which involves both cortical and extra-cortical participation (the latter from the thalamus and the hippocampi in particular).
 
 The basic theory: recognition and prediction in bi-directional hierarchies
@@ -15,6 +16,7 @@ The relationship between sensory and motor processing is an important aspect of 
 Finally, it is important to note that all the memories in the cortical hierarchy have to be learnt – this information is not pre-wired in the brain. Hence, the process of extracting this representation from the flow of inputs and behaviours is theorized as a  process that happens continually during cognition.
 
 Other terms
+
 Hawkins has extensive training as an electrical engineer.  Another way to describe the theory (hinted at in his book) is as a learning hierarchy of feed forward stochastic state machines.  In this view, the brain is analyzed as an encoding problem, not too dissimilar from future-predicting error-correction codes.  The hierarchy is a hierarchy of abstraction, with the higher level machines' states representing more abstract conditions or events, and these states predisposing lower-level machines to perform certain transitions.  The lower level machines model limited domains of experience, or control or interpret sensors or effectors.  The whole system actually controls the organism's behavior.  Since the state machine is "feed forward", the organism responds to future events predicted from past data.  Since it is hierarchical, the system exhibits behavioral flexibility, easily producing new sequences of behavior in response to new sensory data.  Since the system learns, the new behavior adapts to changing conditions.
 That is, the evolutionary purpose of the brain is to predict the future, in admittedly limited ways, so as to change it.
 
@@ -28,34 +30,49 @@ Thalamus
 To account for storage and recognition of sequences of patterns, a combination of two processes is suggested. The nonspecific thalamus acts as a 'delay line' – that is, L5 activates this brain area, which re-activates L1 after a slight delay. Thus, the output of one column generates L1 activity, which will coincide with the input to a column which is temporally subsequent within a sequence. This time ordering operates in conjunction with the higher-level identification of the sequence, which does not change in time; hence, activation of the sequence representation causes the lower-level components to be predicted one after the other. (Besides this role in sequencing, the thalamus is also active as sensory waystation – these roles apparently involve distinct regions of this anatomically non-uniform structure.)
 
 Hippocampus
+
 Another anatomically diverse brain structure which is hypothesized to play an important role in hierarchical cognition is the hippocampus. It is well known that damage to both hippocampi impairs the formation of long-term declarative memory; individuals with such damage are unable to form new memories of episodic nature, although they can recall earlier memories without difficulties and can also learn new skills. In the current theory, the hippocampi are thought of as the top level of the cortical hierarchy; they are specialized to retain memories of events that propagate all the way to the top. As such events fit into predictable patterns, they become memorizable at lower levels in the hierarchy. (Such movement of memories down the hierarchy is, incidentally, a general prediction of the theory.) Thus, the hippocampi continually memorize 'unexpected' events (that is, those not predicted at lower levels); if they are damaged, the entire process of memorization through the hierarchy is compromised.
 
 In 2016 Hawkins hypothesized that cortical columns did not just capture a sensation, but also the relative location of that sensation, in three dimensions rather than two (situated capture), in relation to what was around it. "When the brain builds a model of the world, everything has a location relative to everything else"  —Jeff Hawkins.
+
 Some neuroscience research with animals supports the idea that the hippocampus integrates new information with existing memories to form predictive models. This process enables more efficient problem-solving and adaptation to new tasks.
 
 Explanatory successes and predictions
+
 The memory-prediction framework explains a number of psychologically salient aspects of cognition. For example, the ability of experts in any field to effortlessly analyze and remember complex problems within their field is a natural consequence of their formation of increasingly refined conceptual hierarchies. Also, the procession from 'perception' to 'understanding' is readily understandable as a result of the matching of top-down and bottom-up expectations. Mismatches, in contrast, generate the exquisite ability of biological cognition to detect unexpected perceptions and situations. (Deficiencies in this regard are a common characteristic of current approaches to artificial intelligence.)
 Besides these subjectively satisfying explanations, the framework also makes a number of testable predictions. For example, the important role that prediction plays throughout the sensory hierarchies calls for anticipatory neural activity in certain cells throughout sensory cortex. In addition, cells that 'name' certain invariants should remain active throughout the presence of those invariants, even if the underlying inputs change. The predicted patterns of bottom-up and top-down activity – with former being more complex when expectations are not met – may be detectable, for example by functional magnetic resonance imaging (fMRI).
 Although these predictions are not highly specific to the proposed theory, they are sufficiently unambiguous to make verification or rejection of its central tenets possible. See  On Intelligence for details on the predictions and findings.
 
 Contribution and limitations
+
 By design, the current theory builds on the work of numerous neurobiologists, and it may be argued that most of these ideas have already been proposed by researchers such as Grossberg and Mountcastle. On the other hand, the novel separation of the conceptual mechanism (i.e., bidirectional processing and invariant recognition) from the biological details (i.e., neural layers, columns and structures) lays the foundation for abstract thinking about a wide range of cognitive processes.
+
 The most significant limitation of this theory is its current lack of detail. For example, the concept of invariance plays a crucial role; Hawkins posits "name cells" for at least some of these invariants. (See also Neural ensemble#Encoding for grandmother neurons which perform this type of function, and mirror neurons for a somatosensory system viewpoint.) But it is far from obvious how to develop a mathematically rigorous definition, which will carry the required conceptual load across the domains presented by Hawkins. Similarly, a complete theory will require credible details on both the short-term dynamics and the learning processes that will enable the cortical layers to behave as advertised.
+
 IBM is implementing Hawkins' model.
 
 Machine learning models
+
 The memory-prediction theory claims a common algorithm is employed by all regions in the neocortex. The theory has given rise to a number of software models aiming to simulate this common algorithm using a hierarchical memory structure. The year in the list below indicates when the model was last updated.
 
 Models based on Bayesian networks
+
 The following models use belief propagation or belief revision in singly connected Bayesian networks.
 
 Hierarchical Temporal Memory (HTM), a model, a related development platform and source code by Numenta, Inc. (2008).
+
 HtmLib, an alternative implementation of HTM algorithms by Greg Kochaniak with a number of modifications for improving the recognition accuracy and speed (2008).
+
 Project Neocortex, an open source project for modeling memory-prediction framework (2008).
+
 Saulius Garalevicius' research page, research papers and programs presenting experimental results with a model of the memory-prediction framework, a basis for the Neocortex project (2007).
+
 George, Dileep (2005). "A Hierarchical Bayesian Model of Invariant Pattern Recognition in the Visual Cortex" (Document). IEEE. pp. 1812–1817. a paper describing earlier pre-HTM Bayesian model by the co-founder of Numenta. This is the first model of memory-prediction framework that uses Bayesian networks and all the above models are based on these initial ideas. Matlab source code of this model had been freely available for download for a number of years.
 
 Other models
+
 Implementation of MPF, a paper by Saulius Garalevicius describing a method of classification and prediction in a model that stores temporal sequences and employs unsupervised learning (2005).
+
 M5, a pattern machine for Palm OS that stores pattern sequences and recalls the patterns relevant to its present environment (2007).
+
 BrainGame, open source predictor class which learns patterns and can be linked to other predictors (2005).

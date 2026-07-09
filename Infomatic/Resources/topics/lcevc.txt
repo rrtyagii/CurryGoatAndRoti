@@ -1,29 +1,47 @@
 Low Complexity Enhancement Video Coding (LCEVC) is a ISO/IEC video coding standard developed by the Moving Picture Experts Group (MPEG) under the project name MPEG-5 Part 2 LCEVC.
 
 Concept
+
 LCEVC specifies an enhancement layer which, when combined with a base video encoded with a separate codec, produces an enhanced video stream. The base layer is decodable by a hardware decoder, and the enhancement layer is suitable for software processing implementation with sustainable power consumption. The enhancement layer provides improved features to existing codecs, such as compression capability extension and lower encoding/decoding complexity, for live streaming or broadcasting applications.
+
 LCEVC leverages a base video codec (e.g., AVC, HEVC, VP9, AV1, EVC or VVC) and employs an efficient low-complexity enhancement that adds up to two layers of encoded residuals, along with normative signalled up-sampling methods, that correct artifacts produced by the base video codec and add detail and sharpness for the final output video.
+
 It provides additional compression efficiency to any existing or future video codec and reduces the processing complexity of encoding and decoding.
+
 LCEVC can be implemented with software updates for encoders and decoders, and was designed to leverage available hardware acceleration for graphics processing.
 
 Availability
+
 It is possible for licensed users of the V-NOVA P+ codec to encode LCEVC files.
 
 History
+
 In October 2018, MPEG issued a set of requirements for a new video coding standard and a Call for Proposals for Low Complexity Enhancement Video Coding.
+
 At IBC 2019 a preliminary implementation for encoding and decoding the forthcoming MPEG-5 Part 2 LCEVC was demonstrated.
+
 October 2020 at the 132nd MPEG meeting, LCEVC is completed reaching Final Draft stage.
+
 In April 2021, MPEG Video validated the Verification Test of LCEVC (Low Complexity Enhancement Video Coding) standard (ISO/IEC 23094-2). Test results tended to indicate an overall benefit also when using LCEVC to enhance AVC, HEVC, EVC and VVC.
+
 In May 2021, V-NOVA LCEVC Licensing Terms were announced for Entertainment Video Services. It is a software development kit and a wide range of reference integrations that add MPEG-5 Part 2 LCEVC (ISO/IEC 23094-2) encoding and decoding to any existing video delivery workflow. V-NOVA LCEVC is an implementation of MPEG-5 Part 2 LCEVC, the codec-agnostic (ISO/IEC) enhancement standard capable of providing higher quality at up to 40% lower bitrates than codecs used natively.
+
 As per Jan Ozer's report, LCEVC Technology entitled LCEVC x264 Report: Live Sports & eGames, ABR Ladder.
+
 In January 2022, SBTVD Forum approved a selection of technologies for SBTVD 3.0 which include MPEG-5 LCEVC, V-NOVA & Harmonic's submission.
+
 In January 2022, ISO/IEC published a set of tests and procedures to verify whether bitstreams and decoders meet normative requirements specified in the MPEG-5 LCEVC part 2 standard in order for implementers of LCEVC to be able to test the functioning and verify the conformance of their implementations.
+
 Stefano Battista, Guido Meardi, Simone Ferrara, Lorenzo Ciccarelli, Massimo Conti and Simone Orcioni are the co-authors of Low Complexity Enhancement Video Coding (LCEVC) Standard.
 
 License
+
 LCEVC is proprietary to V-Nova and subject to V-Nova's proprietary licence. Therefore, distribution of any pre-compiled subsystem is strictly prohibited, even between group companies.
+
 In August 2025, V-Nova rolled out two licensing programs for MPEG-5 LCEVC, with terms crafted for both video distribution services and consumer device makers. Public reporting indicates the service program bases royalties on active user counts (with a waiver for free-to-air broadcasting), while the device program starts at about US $0.20 per unit (and includes discounts for open-access configurations).
 
 Software support
+
 FFmpeg version 7.1 officially supports decoding using official external library: LCEVCdec.
+
 GStreamer supports LCEVC since version 1.26 released on March 11, 2025.

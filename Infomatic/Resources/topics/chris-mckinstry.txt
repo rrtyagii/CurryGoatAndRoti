@@ -1,25 +1,38 @@
 Kenneth Christopher McKinstry (February 12, 1967 – January 23, 2006) was a Canadian researcher in artificial intelligence. He led the development of the MISTIC project which was launched in May 1996.  He founded the Mindpixel project in July 2000, and closed it in December 2005. McKinstry's AI work and similar early death dovetailed with another contemporary AI researcher, Push Singh and his MIT Open Mind Common Sense Project.
 
 Life
+
 McKinstry was a Canadian citizen. Born in Winnipeg, he resided several years in Chile. From 1999, he lived in Antofagasta as a VLT operator for the European Southern Observatory. At the end of 2004, he moved back to Santiago, Chile. Suffering from bipolar disorder, McKinstry had an armed standoff with police in Toronto in 1990, with it lasting 7 1/2 hours. It ultimately concluded with McKinstry being hit with tear gas, but ending with no casualties
 In February 1997, Chris McKinstry started an online soap opera, CR6 (Clickable Reality 6). According to journalist Bartley Kives, around 700 people auditioned for the show, which only lasted for two months, before McKinstry left Winnipeg with "estimated debts in excess of $100,000". McKinstry later claimed to have lost $1 million in the CR6 failure, and the many people he recruited to build the soap opera, including photographers, writers, a director, and several prominent businesses, never received any of the money owed to them for their work. As of 2025, the show is considered lost media as none of the episodes have been archived.
+
 Before his death, McKinstry designed an experiment with two cognitive scientists to study the dynamics of thought processes using data from his Mindpixel project. This work was later published in Psychological Science in its January 2008 issue, with McKinstry as posthumous first author.
 
 Mental health
+
 Chris McKinstry had a long struggle with his mental health, with him admitting to being diagnosed with bipolar disorder. McKinstry, as a result, suffered from frequent suicidal thoughts and a long-standing depression, discussing it in his suicide note. In his teen years, McKinstry had attempted suicide, intentionally overdosing on drugs, another issue McKinstry struggled with. His bipolar disorder is often attributed to the reason for his standoff in 1990.
 
 Death
+
 Chris McKinstry was found dead in his apartment on January 23, 2006, with a plastic bag over his head, connected to the stove gas line with a hose. He was found to have posted a suicide note online. McKinstry wrote, "I am tired of feeling the same feelings and experiencing the same experiences. It is time to move on and see what is next if anything...This Louis Vuitton, Prada, Montblanc commercial universe is not for me. If only I was loved as much a Montblanc pen..."'
+
 There was some public note of the similarity between the suicide of Chris McKinstry and that of Push Singh, another AI researcher, a little over a month later. Both of their AI projects, McKinstry's Mindpixel project and Singh's MIT-backed Open Mind Common Sense, had similar trajectories over the last six years.
 
 In media
+
 McKinstry is the subject of a 2010 documentary called The Man Behind the Curtain directed by Michael Beach Nichols and Joshua Woltermann which recounts his innovative work and his struggle with mental health issues.
 
 Articles
+
 "Minimum Intelligent Signal Test: An Alternative Turing Test", Canadian Artificial Intelligence, No.41.
+
 "A Closer Look at Life in the Summer of '76", Mindjack, 2001.
+
 "Passage through science", Mindjack, 2001.
+
 "Twenty Twenty: Astronomical Vision", Mindjack, 2002.
+
 "A Hacker Goes to Iraq", 2600: The Hacker Quarterly, 2003.
+
 Epstein, Robert; Roberts, Gary; Beber, Grace, eds. (December 1, 2008). "Mind as Space". Parsing the Turing Test: Philosophical and Methodological Issues in the Quest for the Thinking Computer. Springer Science & Business Media. p. 283. ISBN 978-1-4020-9624-2.
+
 McKinstry, Chris; Dale, Rick; Spivey, Michael J. (January 1, 2008). "Action dynamics reveal parallel competition in decision making". Psychological Science. 19 (1): 22–24. doi:10.1111/j.1467-9280.2008.02041.x. PMID 18181787. S2CID 25789465.

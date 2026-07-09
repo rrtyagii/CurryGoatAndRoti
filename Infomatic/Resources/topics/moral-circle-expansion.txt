@@ -1,48 +1,66 @@
 Moral circle expansion is an increase over time in the number and type of entities given moral consideration. The general idea of moral inclusion was discussed by ancient philosophers and since the 19th century has inspired social movements related to human rights and animal rights. Especially in relation to animal rights, the philosopher Peter Singer has written about the subject since the 1970s, and since 2017 so has the think tank Sentience Institute, part of the 21st-century effective altruism movement. There is significant debate on whether humanity actually has an expanding moral circle, considering topics such as the lack of a uniform border of growing moral consideration and the disconnect between people's moral attitudes and their behavior. Research into the phenomenon is ongoing.
 
 History
+
 Early discussions of the moral circle
+
 The moral circle was discussed as early as the 2nd century by Stoic philosopher Hierocles, who described in On Appropriate Acts the concentric social circles of a human being, for whom duty to the innermost circle was strongest. The concept was developed more fully by William Lecky in his 1869 work History of European morals from Augustus to Charlemagne.
 
 Early advocacy for moral circle expansion
+
 Edward Payson Evans, an early advocate for animal rights, published Evolutional Ethics and Animal Psychology in 1897. He argued that humans need to move past anthropocentric conceptions that view humans as fundamentally different and separate to all other beings and that, as a result, humans have no moral obligations toward them. The utilitarian philosopher and animal rights advocate J. Howard Moore argued for a sentientist philosophy in his 1906 book The Universal Kinship, asserting that humans should care about all sentient life based on shared evolutionary kinship:
 
 The partially emancipated human being who extends his moral sentiments to all the members of his own species, but denies to all other species the justice and humanity he accords to his own, is making on a larger scale the same ethical mess of it as the savage. The only consistent attitude, since Darwin established the unity of life (and the attitude we shall assume, if we ever become really civilised), is the attitude of universal gentleness and humanity.
 
 Peter Singer and The Expanding Circle
+
 The concept was notably developed by the utilitarian philosopher Peter Singer in his 1981 book The Expanding Circle, which is titled after the concept of moral circle expansion. This book sets out a common theory of the expanding circle: humans started by only valuing those most similar to themselves, such as their family or social group, but then humans began to value other residents of their nation and finally humanity as a whole; the same process of expansion is now taking place with respect to animal rights. Singer wrote in the book that "The only justifiable stopping place for the expansion of altruism is the point at which all whose welfare can be affected by our actions are included within the circle of altruism." Singer also references the expanding circle in some of his other works.
 
 Alternative views and later developments
+
 Moral circle expansion has also been addressed by some later writers, whose definitions of it may not be exactly the same as Singer's. Robert Wright responds to Singer with a more critical conception in his 1994 book The Moral Animal:
 
 The most cynical explanation of why so many sages have urged an expanded moral compass is the one set out near the beginning of this chapter: a large compass expands the power of the sages doing the urging.
+
 Philosopher Jeff Sebo's 2025 book, The Moral Circle, argues for expanding the scope of ethics to include not only humans but also animals, insects, artificial intelligence, and microbes. He critiques the concept of human exceptionalism, examining how human practices such as factory farming, captivity, and technological development often fail to consider the interests of nonhuman entities. Sebo explores these ideas through case studies on captive elephants, farmed insects, and the ethical issues surrounding the creation of digital minds. The book calls for a reconsideration of ethical responsibilities and advocates for systemic changes to create a more inclusive and equitable future.
 
 Moral circle expansion in effective altruism
+
 The effective altruism movement, particularly the Sentience Institute, regularly discusses moral circle expansion as a part of its philosophy. Launched in 2017 as a spinoff of the Effective Altruism Foundation, the Sentience Institute describes itself as a "think tank dedicated to the expansion of humanity's moral circle." Its website provides a more detailed model of the circle itself, including concentric circles: the innermost represents full moral consideration, the outermost represents minimal consideration, and some entities fall entirely outside the circles. They additionally distinguish between a moral circle for attitudes and one for actions, and between a societal moral circle and an individual one. Moral circle expansion as a concept per se was developed in a 2021 paper in the journal Futures entitled "Moral Circle Expansion: A Promising Strategy to Impact the Far Future" by Sentience Institute co-founder Jacy Reese Anthis and philosopher Eze Paez.
 
 Claimed expansions
+
 Many different entities have arguably entered, and sometimes exited, the moral circle at some point during human history:
 
 Humans of other genders (feminism, women's rights, opposition to the patriarchy, transgender rights)
 Humans of other nationalities (xenophobia)
+
 Humans of other races and ethnic groups (anti-racism)
+
 Humans of other families, tribes or social groups
+
 Non-human animals, especially mammals (anti-speciesism, sentientism)
 Ecosystems and species (rights of nature)
 Plants (plant rights)
+
 Artificial intelligence (AI rights and their potential welfare)
+
 Future people (longtermism)
 Deities
 Past people (i.e., ancestors)
+
 Any given entity or group of entities may enter the moral circle at different times for different people. This current expansion of the moral circle to include animals is referred to by Kasperbauer as an expansion from a circle of all humans to a circle of all sentient things. Sigal Samuel has also suggested that plants, nature and robots may be beginning to enter the moral circle. Anthis and Paez refer to the circle as a "multidimensional gradient" that ranges from wishing harm on someone to caring about someone even more than one's self.
 
 Counterarguments
+
 Kasperbauer and others point out that it is not entirely clear whether the actual conditions of animals used for food or scientific research are improving, despite claims that they are entering the moral circle. A related criticism is that religion gave some animals a protected status that they no longer have, so they have experienced moral circle contraction. Other suggested groups that have left the moral circle or gone farther from the center are gods and ancestors, whereas infants and fetus have had different moral standings in different societies.
+
 The idea of a moral circle has also been criticized as based in Western morality and so not reflecting the diversity of moral views found in the rest of the world, including concepts such as ahimsa that give greater value to animals than found in Western culture.
 
 Causes of expansion
+
 The question of what causes the expansion of the moral circle is an active topic of debate among the idea's proponents. The inclusion of animals within the moral circle has been credited to various traits that some animals possess, such as being cute or intelligent or having relationships with humans. By contrast, Peter Singer has emphasized the importance of rationality among humans as a way in which the moral circle is expanded. Another theory is that moral circle expansion is related to climbing Maslow's hierarchy of needs and so being able to focus on others to a greater extent once more personal needs have been fulfilled. The relationship between laws and what people consider to be part of their moral circle is also a subject of inquiry. Ideological differences in moral circle expansion were found.
 
 In psychology
+
 The concept of a moral circle and its expansion, including the causes of its expansion, has been the subject of much recent work in the field of moral psychology. Psychologists have found significant biases in how people think of their moral circle based on the way that the question is framed, as well as that people tend to give more moral consideration to high-sentience animals than to low-sentience animals, more moral consideration to animals than to plants, and more moral consideration to plants than to "villains" such as murderers. The Moral Expansiveness Scale (MES), developed by Charlie R. Crimston, is a psychological measure of altruism that developed from thinking about moral circle expansion.

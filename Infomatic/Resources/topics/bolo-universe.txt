@@ -1,56 +1,85 @@
 The Bolo universe is a fictional universe based on a series of military science fiction books by author Keith Laumer. It primarily revolves around the eponymous "Bolo", a type of self-aware tank. They first appeared in the short story Combat Unit (1960), and have since been featured in science fiction novels and short story anthologies by him and others.
 
 Themes
+
 The story of the books takes place in various times from the near-future (2018, 2068), the mid-range future (27th up to 37th century) and even farther in one case (118th century). The overall plot features mostly military themes and includes space exploration, alien races and some advances in human society.
+
 Many Bolo stories are told from the point of view of the Bolo itself, with its internal thoughts printed in italics throughout the text.
+
 One theme in Bolo works is the portrayal of valiant, tragic, self-sacrificing heroes, such as Bolo "Nike" in the story "Miles to Go" (Weber 1995, in Bolos Book III). Another concept explored by stories such as "Miles to Go" is the use (and abuse) of safeguards to prevent artificial intelligence from hurting its creators.
+
 Their overall programming involves large amounts of human military history, and often they draw conclusions from that information which puts them at odds with their commanders. Sometimes Bolos develop senses of honor and nobility that would bring their actions into conflict with orders given by their human superiors. One of the stories in Rogue Bolo chronicles the actions of Combat Unit CSR, who identifies an alien threat to humanity but is forced to go "rogue" in order to defeat it (possibly for dramatic effect, as it does not appear to be explained why the bolo did not simply inform its commanders of the threat).
 
 Description
+
 Bolos as envisioned by Laumer in his future history military SF are described as autonomous armoured fighting vehicles of immense size.
+
 While the early versions are in the range of a few hundred tons, the "Mark XXXIII", a standard model appearing in the series, weighs 32,000 tons:
 
 Their increasingly complex AI: Where first models are controlled by programming intended to reduce the need for a human crew, later models mimic human thought patterns, feature strong AIs and finally Psychotronic circuitry, enabling self-awareness, strategic planning and decision-making, and even conscience.
+
 Minimized human crew, often consisting only of a single human commander who can either directly control all aspects of his unit thanks to an advanced interface, or who communicates with his unit, giving it instructions to carry out.
 
 Offensive systems
+
 Weapon systems described as part of early Bolo marks include mostly real-world weaponry; the more futuristic settings of the novels describe them carrying advanced nuclear weapons. The main gun of a Bolo is usually a variant of the Hellbore system which is described in the Bolo story-universe as a long-range deuterium-initiated fusion pulse. Hellbores were meant as weapons for interstellar vessels, and the versions mounted on Bolos were modified to fit.
+
 Secondary weapons cover a wide field of weapon systems, as Bolos were supposed to address most combat situations, including land, sea and air battles, sometimes including space/orbit. While Bolo models generally opted for a "balanced" approach to offensive and defensive capabilities, there were often specialised variations on the base model, such as heavy siege units, scout units and ECM platforms. The additional weaponry thus includes but isn't restricted to: A high-speed auto-cannon which was recurringly referred to as "Infinite Repeaters" (the 'infinite' referring to the fact that the Bolo can create its own ammunition from metals found in the environment, thus not having an ammo count in the true sense of the word), firing systems such as a combination of Gatling guns with mortars similar to the 2S4 Tyulpan; VLS (also for launch of drones etc.); as well as tank guns or railguns similar to secondary armament, which includes additional Hellbores of a smaller caliber. Projectiles include KEP projectiles, DSFSLRP (futuristic APFSDS), other missiles and anti-personnel flechettes. Bolos may carry different types of drones (UAVs, hover-UGVs, even satellites) for maintenance, reconnaissance (sometimes including spy satellites) and providing additional offense.
 
 Defensive and other systems
+
 The armor of a Bolo unit is designed to withstand direct hits from all weapons, including in some of the stories nuclear weapons. The armor consists of composite materials that are named in the books as "durachrome", "flintsteel", "duralloy" and "endurachrome". Many models would also use ablative or ceramic tiles to provide additional protection against plasma weapons.
+
 Bolos are also described as having reactive armor (to stop penetrator missiles that could bore through their regular armor), and energy battlescreens; battlescreens convert an enemy weapon fire into energy which could then be redirected to the Bolo's own systems and weapons. Also, beginning with the Mark XXIII, internal disruptor fields were added to limit damage to vital systems from any attacks which did manage to penetrate the Bolo's outer defenses.
+
 Each unit is also equipped with passive and active sensors, as well as stealth and ECW capabilities. Later Marks were often also equipped with FTL comm.
+
 Power for weapons, battlescreens, and mobility is most often provided by one or more fission or fusion energy sources, in conjunction with high-capacity batteries which are used as secondary or emergency power supplies. A Bolo's command center can remain operational for decades or centuries after reactor fuel is exhausted. As a last resort, Bolos may detonate their reactors to destroy an enemy, or prevent their capture.
 
 Artificial intelligence
+
 Early Bolo models are described as not self-aware artificial intelligences. Up to the Mark IX, they are only systems which automate the functioning of the vehicle under direct human command. Beginning with the Mark X, Bolos begin to use limited AI systems using pre-packaged battle plans which allows them to function relatively independently provided the situation on the battlefield falls within the parameters of its pre-loaded plan. If not, the human commander needs to directly intervene either selecting a new battle plan or taking over the functions of the Bolo personally. This system is further advanced beginning with the Mark XV-R which is given a basic AI core capable of choosing between various pre-loaded plans based upon actual battlefield conditions. However, what these earlier Bolos are not capable of doing is developing their own independent battle plans.
+
 Beginning with the Mark XX, Bolos are equipped with a psychotronic brain which gives them artificial intelligence. Analogous to human minds, psychotronic brains do turn insane when damaged, which requires their creators to restrict the awareness and initiative at all times except during battle. This is accomplished by separating main processing from personality. The two are integrated (enabling the Bolo to come into possession of its full faculties) only when battle preconditions are met, such as the approach of an enemy or the order of a human officer. In later models, added redundancy reduces the likelihood of insanity and the restriction is relaxed to enhance intelligence. As a final safeguard, Bolos are equipped with a Total Systems Override Program (nicknamed Omega Worm) which erases the Bolo's software, rendering it brain-dead. This is triggered if a Bolo refuses an authorized order or if executed by a human operator.
+
 The cognitive inhibitions are completely removed after a review of the combat performance, at the Battle of Santa Cruz (c. A.D. 3030), of experimental unit 23/B-0075-NKE (Nike). Nike's performance demonstrates the capabilities and reliability of fully autonomous psychotronics. Nike herself dies by Omega Worm as a result of refusing to obey an officer who is a traitor. This leads to a revision of the parameters for execution of Omega Worm in later model Bolos.
+
 Beginning with the Mark XXV models, Bolos become completely autonomous, capable of full self-direction in all situations. However, it is found that the intuitive capabilities of human commanders working in conjunction with intelligent Bolos increases the effectiveness of the units and so, with some exceptions, human commanders continue to be assigned to, fight with and if necessary, die with their Bolos. This partnership is further enhanced with the introduction of the Mark XXXII which pioneers a neural interface which allows the Bolo and its human commander to mentally merge human intuition and Bolo processing speed.
 
 Computing design structure
+
 Most later mark Bolos have several processing centers, the main core, the personality center, the damage control core (in later models) and the survival center. Some Bolos are given a secondary main core, but this was not typical. Of these, the survival center is the most heavily protected. In the event of the destruction of the Bolo, the survival center is designed to protect the Bolo's core personality and programming for later retrieval and reactivation.
+
 Each Bolo contains several computer "cores" with different functions, each of which contains multiple fully functional duplicates in case of failure. If a Bolo's logic becomes dysfunctional enough, it regresses to the original Resartus protocol, which is embedded in all self-aware models just for such a case, which essentially shuts down the Bolo's "mind".
 
 Safeguards
+
 A key factor in Bolo psychotronic design is the need to address public and military concern over the potential catastrophe which could be unleashed in the event of a Bolo disobeying orders or being suborned. To mitigate this, a number of safeguards are included in the psychotronic design—specifically a focus on loyalty, honour and a strong sense of duty, as well as a restriction on the level of awareness and processing power made available to the Bolo outside of combat. These safeguards often combine with the prejudices of ranking officers to cause the unnecessary destruction of a Bolo during combat. With Bolos being able to survive for centuries, older Marks often end up scattered across the galaxy abandoned on old warfields or retrofitted for use in farming or heavy construction. On several occasions obsolete Bolos go rogue, causing significant destruction, loss of life and bad publicity for the Dinochrome Brigade: as a result, a special unit was set up to find all such units and burn out their control centers.
+
 On several occasions, Bolos have turned against their commanders during combat: in Bolo!, a damaged Mark XXV (Unit LNC/Lance) loses its IFF capability, causing it to attack a fellow Bolo. Similarly, a Mark XXXIII (Unit HCT/Hector) was subverted by an alien AI and turned into a prison guard in Bolo Rising. Conversely, Bolos have occasionally refused to carry out illegal, treasonous, or dishonourable orders, such as Unit NKE (Nike) in The Triumphant or Unit SOL (Surplus On Loan) in The Road to Damascus.
 
 Command structure and deployment
+
 Bolos and their human commanders are assigned to an elite Concordiat unit called the "Dinochrome Brigade", which traces its lineage back to various units on Earth. Individual Bolos are generally identified by a three-letter prefix which is generally extrapolated into a given name—this name is generally used as the default access code for a new commander. Often, Bolos on garrison duty are described as older surplus or reserve units on loan, in which case their three-letter prefix is changed to "SOL".
 
 Bolos are generally deployed in groups to provide fire support, though individual units are occasionally detached to perform garrison duty—later marks of Bolo are considered to be so capable that a single unit can be assigned to guard an entire planet, even during periods when a human commander is not available. When deployed by the Dinochrome Brigade for major combat operations, Bolos usually serve with "Planetary Siege Regiments". Before the development of higher marks of Bolos, powerful enough to often allow a single Bolo to conduct major planetary operations without support, the regiments are only called "siege regiments".
 
 Fictional history
+
 Laumer included a history of the Bolo as an appendix to one of his books. The Mark I is described as conventional large (150 tonne) tank equipped with various servos and mechanical devices to reduce crew requirements. It is developed around the year 2000 by the fictional Bolo Division of General Motors.
+
 By the time of the development of the 300-tonne Mark III, its AI allows limited independent action, and is powered by "ionic" batteries able to support combat-level activity for up to ten years and enabling operation even when fully submerged.
+
 The AI increases until the incorporation of Psychotronic circuitry in the Mark XX leads to Bolos becoming self-aware and capable of fully independent operation. The Mark XXVI is described as capable of true independent strategic planning, while the final standardised Bolo, the 32,000-tonne Mark XXXIII is described as fully self-willed and able to operate indefinitely without external support.
+
 As humanity spreads beyond Earth, Bolos are used to protect first the Empire, and then the Concordiat of Man. For millennia, each successive mark of Bolo proves to be the lynchpin of humanity's ground-based defenses, especially in the numerous and protracted wars against various aliens, most notably the Deng and the Melconians in the 30th century. Bolos are also used in smaller scale raids, skirmishes and internal conflicts between warring human parties.
+
 The Mark XXXIII Bolo is the last standard Bolo built by the Concordiat prior to the Melconian destruction of Earth. Following the genocide of the "Final War" with the Melconians, surviving Bolos are described as crucial in sheltering and protecting the few scattered remnants of humanity during the long slow process of rebuilding. A number of seed corn colonies survive the genocide policies carried out by both sides and go on to produce new models of Bolo: these are even larger in size, design and capabilities.
 
 Species introduced in the Bolo Universe
+
 Books
+
 Bolos appear in these books by Keith Laumer and others; almost all published by Baen Books:
 
 Keith Laumer stories (1970s–1990)
@@ -60,25 +89,40 @@ The Stars Must Wait. Baen Books. January 1990. ISBN 0-671-69859-1.
 The Compleat Bolo. Baen Books. May 1990. ISBN 0-671-69879-6. - includes Bolo and Rogue Bolo
 
 Anthologies (1990s–2002)
+
 Stirling, S. M.; S.N. Lewitt; J. Andrew Keith; Todd Johnson; Mike Resnick; Barry N. Malzberg; Christopher Stasheff; Mercedes Lackey; Larry Dixon; David Drake (August 1993). Bill Fawcett (ed.). Bolos Book I: Honor of the Regiment. cover by Paul Alexander. Baen Books. ISBN 0-671-72184-4.
+
 Stasheff, Christopher; S. M. Stirling; S. N. Lewitt; Shirley Meier; Karen Wehrstein; Todd Johnson; William R. Forstchen (October 1994). Bill Fawcett (ed.). Bolos Book II: The Unconquerable. cover by Paul Alexander. Baen Books. ISBN 0-671-87629-5.
+
 Evans, Linda; Robert R. Hollingsworth; David Weber (1995). Bill Fawcett (ed.). Bolos Book III: The Triumphant. cover by Paul Alexander. Baen Books. ISBN 0-671-87683-X.
+
 Weber, David M.; S. M. Stirling; John Mina; William R. Forstchen; Robert Greenberger; William H. Keith Jr.; Todd Johnson; Steve Perry; John DeCamp; Mark Thies; Linda Evans (February 1997). Bill Fawcett (ed.). Bolos Book IV: Last Stand. Baen Books. ISBN 0-671-87760-7.
+
 Keith, William H.; Mark Thies; John Mina; J. Steven York; Dean Wesley Smith (January 2001). Bill Fawcett (ed.). Bolos Book V: Old Guard. cover by Dru Blair. Baen Books. ISBN 0-671-31957-4.
+
 Smith, Dean Wesley; J. Steven York; Linda Evans (July 2002). Bill Fawcett (ed.). Bolos Book VI: Cold Steel. cover by David Mattingly. Baen Books. ISBN 0-7434-3549-4.
+
 Weber, David M.; Mercedes Lackey; S. M. Stirling; David Drake; Keith Laumer (September 2010). The Best of the Bolos: Their Finest Hour. ISBN 978-1-4391-3375-0.
 
 Novels (1997–2000s)
+
 Keith, William H. (April 1997). Bill Fawcett (ed.). Bolo Brigade. cover by C. W. Kelly. Baen Books. ISBN 0-671-87781-X.
+
 Keith, William H. (November 1998). Bill Fawcett (ed.). Bolo Rising. cover by Charles Keegan. Baen Books. ISBN 0-671-57779-4. Retrieved 2006-12-24.
+
 Keith, William H. (September 2001). Bill Fawcett (ed.). Bolo Strike. cover by Dru Blair. Baen Books. ISBN 0-671-31835-7.
+
 Ringo, John; Linda Evans (March 2004). The Road to Damascus. cover by David Mattingly. Baen Books. ISBN 0-7434-7187-3.
+
 Weber, David M. (January 2005). Bolo!. cover by Carol Russo Design, illustration by David Mattingly. Baen Books. ISBN 0-7434-9872-0.
+
 Weber, David M. (September 2005). Old Soldiers. cover by David Mattingly. ISBN 1-4165-0898-8.
 
 In other media
+
 The Bolo stories inspired the board game Ogre, whose creators originally intended to license the stories. For cost reasons this did not occur and a different background was invented for the game, with its titular tank deliberately being made self-unaware in order to differentiate it.
 
 Video games
 Bolo (1982 video game)
+
 Bolo (1987 video game)

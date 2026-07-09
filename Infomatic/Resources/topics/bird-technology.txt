@@ -1,7 +1,9 @@
 Bird is an interactive input device designed by Israel-based startup, MUV Interactive, which develops technology for wearable interfaces.  Bird connects to computers to make any surface an interactive 3D environment. The device features remote touch, touchpad swipe control, gesture control, touchscreen capabilities, voice command recognition, a laser pointer, and other advanced options.
 
 History
+
 Rami Parham, CEO and founder of MUV Interactive, established the company in 2011 with his brother and aimed to create an advanced way of interacting with connected devices. Parham founded MUV Interactive in Herzliya, Israel with COO Yuval Ben-Zeev.
+
 In 2013, MUV Interactive raised seed funding from investors, including the OurCrowd funding platform, for the development of Bird. Pre-orders for Bird began in 2015, and the device shipped to thousands worldwide the following year.  Bird is currently used in corporate, educational, and personal settings.
 
 Technology

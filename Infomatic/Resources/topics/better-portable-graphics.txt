@@ -1,27 +1,41 @@
 Better Portable Graphics (BPG) is a file format for coding digital images, which was created by programmer Fabrice Bellard in 2014. He has proposed it as a replacement for the JPEG image format as the more compression-efficient alternative in terms of image quality or file size. It is based on the intra-frame encoding of the High Efficiency Video Coding (HEVC) video compression standard. Tests on photographic images in July 2014 found that BPG produced smaller files for a given quality than JPEG, JPEG XR and WebP.
+
 The format has been designed to be portable and work in low memory environments, and used in portable handheld and IoT devices, where those properties are particularly important. In 2015 research was working on designing and developing more energy-efficient BPG hardware which could potentially then be integrated in portable devices such as digital cameras.
+
 While there is no built-in native support for BPG in any mainstream browsers, websites can still deliver BPG images to all browsers by including a JavaScript library written by Bellard. Others followed Bellard's idea and created the AVIF image format based on the AV1 video codec, which is patent free and therefore got implemented in browsers.
 
 Origin in HEVC
+
 HEVC has several profiles defined for extending its intra-frame encoding to still images at various bit depths and color formats, including "Main Still Picture," "Main 4:4:4 Still Picture," and "Main 4:4:4 16 Still Picture profiles." BPG is a wrapper for the "Main 4:4:4 16 Still Picture" profile up to 14 bits per sample.
 
 Specifications
+
 BPG's container format is intended to be more suited to a generic image format than the raw bitstream format used in HEVC (which is otherwise ordinarily used within some other wrapper format, such as the .mp4 file format).
+
 BPG supports the color formats known as 4:4:4, 4:2:2, and 4:2:0. Support for a separately coded extra channel is also included for an alpha channel or the fourth channel of a CMYK image. Metadata support is included for Exif, ICC profiles, and XMP.
+
 Color space support is included for YCbCr with ITU-R BT.601, BT.709, and BT.2020 (non-constant luminance) definitions, YCgCo, RGB, CMYK, and grayscale.
+
 Support for HEVC's lossy and lossless data compression is included.
+
 BPG supports animation.
 
 Patents
 According to Bellard's site BPG may be covered by some of the patents on HEVC, but any device licensed to support HEVC will also be covered for BPG. Patent issues may prevent JPEG replacement by BPG despite BPG's better technical performance.
 
 Other proposed JPEG replacements
+
 Several other image formats have also been proposed as JPEG replacements, including:
 
 AVIF, image format based on the AV1 video codec
+
 FLIF
+
 HEIF, another container for HEVC intra-frames
+
 JPEG 2000
+
 JPEG XL
 JPEG XR
+
 WebP, image format based on VP8

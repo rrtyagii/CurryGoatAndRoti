@@ -1,37 +1,59 @@
 DataWorks Plus LLC is a privately held biometrics systems integrator based in Greenville, South Carolina. The company started in 2000 and originally focused on mugshot management, adding facial recognition in 2005. Brad Bylenga is the CEO, and Todd Pastorini is the EVP and GM. Usage of the technology by police departments has resulted in wrongful arrests.
 
 Products
+
 The company focuses on biometrics storage and matching, including fingerprints, palm prints, irises, tattoos, and mugshots.
+
 Face Watch can continuously detect on live video streams, recognizing faces on individual video frames and cataloging timestamps.
+
 FACE Plus is the company's photo (still image) facial recognition program. It includes advanced filtering and can reconstruct a 3D model from photos to correct their angle, a feature called pose correction.
+
 DataWorks uses facial recognition algorithms from NEC, Rank One Computing (of Colorado, CEO Brendan Klare), and Cognitec. Both the NEC and Rank One algorithms showed algorithmic bias in a NIST study. DataWorks' EVP and GM, Todd Pastorini, told New York Times that although the company doesn't formally measure the accuracy or bias, DataWorks has "become a pseudo-expert in the technology".
 
 Installations
+
 California
+
 DataWorks created the California Facial Recognition Interconnect. This statewide face recognition network is used by the Los Angeles County Sheriff (9 million images), San Diego County Sheriff (2.5 million images), Sacramento County Sheriff (1.75 million images), San Bernardino County Sheriff's Department/Riverside County Sheriff's Department (2.7 million images), Santa Barbara County Sheriff's Office (since 2012, 1 million images), San Francisco Police Department (1 million images; see below), and unidentified agencies in San Mateo County and San Joaquin County.
+
 The Los Angeles County Sheriff, using Cognitec's algorithm, acquired in 2008 on a seven-year contract, and signed a seven-year, $3.5m contract extension in 2015. The contract renewal was approved unanimously by the Los Angeles County Board of Supervisors. In addition to Interconnect, Los Angeles County has access to fingerprinting, facial recognition, tattoo matching (2 million images or templates), composite drawing, and access to DMV images in the unrelated Cal-Photo.
 
 Other California uses
+
 The San Diego County Sheriff's use of DataWorks is well established to at least 2007. A report discussed DataWorks installing a trial of Face Plus for facial recognition that year. In 2010, the facial recognition system was in place and being upgraded to use Cognitec's algorithm.
+
 The San Francisco Police's most recent three-year contract was signed in 2017 for $150k per year. It included what was labeled FR Software and a Face Plus server. It also included the "Mugshot database". Beginning in May 2019, San Francisco banned government usage of facial recognition software. Pastorini said that the company's tools don't use neural nets or machine learning like Microsoft's Face API or Amazon Rekognition, stating, "The Amazon searches are not the best forensic searches". He also said that the ban is unfortunate because there wasn't evidence of misuse in San Francisco.
+
 San Jose Police Department has been using the DataWorks fingerprint biometric system since at least 2011.
 
 Florida
+
 DataWorks says that it has sold over 5000 fingerprint devices in the state of Florida.
 
 Michigan
+
 DataWorks has worked with the Michigan DMV (Department of Public Safety) and the Michigan State Police since 2001. Their database contains at least 8 million criminal images and 32 million DMV photos. DataWorks and Michigan State Police integrated with the FBI's Next Generation Identification facial recognition pilot. Later, they added the Maryland Department of Public Safety's system to the FBI system. This system includes 25 agencies and over 1000 users.
+
 The City of Detroit and Detroit Police Department, with access to at least 500k mugshots, signed a 3-year $1m contract with DataWorks for "FACE Watch Plus real-time video surveillance". It consumes feeds from Project Green Light, which is a network of over 500 cameras on public and private property.  It includes cameras on stoplights as well as gas stations, pharmacies, health clinics, churches, apartments, hotels, and (beginning in 2018) schools. The 2017 DataWorks contract references being used for 100 video feeds. Additionally, the Crime Intelligence Unit is licensed to use the Michigan's Statewide Network of Agency Photos (SNAP) with DataWorks, adding access to DMV photos. DataWorks is integrated with Motorola's Command Central Aware Console.
+
 In a June 29, 2020 meeting, Detroit's police chief said Dataworks failed to make a correct identification 96% of the time. In a report, the Detroit police tally indicated they had used the Dataworks facial recognition for 70 images by June 22, year-to-date (2020). At least 68 of the 70 were on Black people, and 65 of the 70 were on men. Dataworks' Pastorini said they don't keep statistics, nor do they tell their customers how to use their software.
+
 In February 2023, a Black woman, eight months pregnant, was arrested for carjacking based on a DataWorks facial recognition match.. This was the third wrongful arrest in Detroit using the technology
 
 Chicago
+
 The Chicago Police Department and Chicago Transit Authority are using "FACE Watch Plus" (realtime recognition) on Chicago's security camera network, which includes approximately 20,000 video cameras. This is integrated with Genetec's Omnicast. DataWorks noted they provide both "Real Time Screening" and "Facial Recognition". Their system includes 7 million criminal photos and states they use "the system primarily to solve crimes using probes generated from street cameras, Facebook, and other sources."
 
 Others
+
 In Maryland, DataWorks created a statewide system integrating DMV photos (7 million) and criminal photos (2 million) from Maryland Department of Public Safety and Correctional Services. The FBI's facial recognition system is also integrated. They also supplied three mobile license plate recognition systems purchased in 2007 for $60k.
+
 In Pennsylvania, on their JNET (Justice Network) system, DataWorks created the JNET Facial Recognition System (JFRS), which is integrated with PENN DOT's DMV photos (from MorphoTrust) and the Commonwealth Photo Imaging System (CPIN). This is used by the Pennsylvania State Police, Pennsylvania Department of Corrections, Pennsylvania Board of Probation and Parole, and Philadelphia Police Department. During the George Floyd Protests in June 2020, Harrisburg, Pennsylvania police commissioner Thomas Carter asked for images showing vandalism and assault on a police officer, stating "Hopefully, we can pick her image up. If we can, we can do facial recognition".
+
 South Carolina Law Enforcement Division (SLED) and South Carolina DMV uses the FACE Plus system, which includes the state's 8.5 million DMV images. Charleston County, South Carolina Sheriff is also a customer.
+
 The New York Police Department uses facial recognition from DataWorks Plus.
+
 A national system upgrade in New Zealand is scheduled to be completed by late 2020 for an estimated NZ$5 million. It would include facial recognition from security camera still images, criminal images, firearms license holders, missing persons, and registered sex offenders. DataWorks's Pastorini said "we don't make accuracy statements" when asked about the reliability of the system. NZ's Privacy Commissioner wasn't even aware of the installation. When asked, Pastorini said he wasn't familiar with New Zealand's Privacy Act.
+
 DataWorks Plus claims "over 1000 agencies", which includes the Virginia State Police, Wake County CCBI and Raleigh Police Department, Miami Dade Police Department, Collier County Sheriff's Office (Naples, Florida), Columbus Police Department (Ohio), Irving, Texas Police Department, and the New Jersey/New York High Intensity Drug Trafficking Area.

@@ -1,4 +1,5 @@
 The New Classification Scheme for Chinese Libraries is a system of library classification developed by Lai Yung-hsiang since 1956. It is modified from "A System of Book Classification for Chinese Libraries" of Liu Guojun, which is based on the Dewey Decimal System.
+
 The scheme is developed for Chinese books and commonly used in Taiwan, Hong Kong and Macau.
 
 Main classes

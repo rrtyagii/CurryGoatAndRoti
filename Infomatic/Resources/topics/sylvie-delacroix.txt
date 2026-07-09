@@ -1,12 +1,17 @@
 Sylvie Delacroix is a British Artificial Intelligence (AI) ethicist, legal expert and professor at Kings College, London, who is the first Jeff Price Chair in Digital Law. She is a former fellow of the Alan Turing Institute.
 
 Biography
+
 Delacroix began her university studies in Belgium at the Saint-Louis University, Brussels and Université de Louvain-la-Neuve. With a Knox scholarship in hand, she attended Trinity College at Cambridge University in England, where she completed her doctorate in philosophy of law. Then she was appointed as a lecturer at the University of Kent (UK) before accepting a post-doctoral fellowship opportunity at Radcliffe College, in Cambridge, Massachusetts. She moved back to England to become a professor in Law and Ethics at the University of Birmingham. In January 2024, she was appointed the inaugural Jeff Price Chair in Digital Law at Kings College, London.
+
 Her AI research focuses on: the role played by habit within ethical agency; the social sustainability of the data ecosystem that makes generative AI possible; and, bottom-up (user-centered) data empowerment. This latter study led to the first data trusts pilots worldwide being launched in 2022, called the Data Trusts Initiative. Delacroix co-chaired the Initiative with Turing AI Fellow Neil Lawrence. Data trusts are systems that are designed to offer a way for individuals or groups to choose how they want the data that exists about them to be used. The Data Trusts Initiative combines the use of technology, policy and the law to create these data trusts that can empower individuals and communities, even as they support the use of data for the benefit of society.
+
 For example, the British GP Data Trust pilot was launched in 2022 to find ways to "give back control of their data to over a million people who have opted out of NHS Digital’s General Practice concerned about how their data will be managed and used by the NHS (GPDPR) programme, and enable them an opportunity to participate in life-saving research."
+
 Delacroix's AI and ethics research has led to many invitations to participate on policy initiative teams. She has also testified for public commissions to explore the ways in which judicial systems use algorithms.
 
 Selected works
+
 Books:
 S. Delacroix, Habitual Ethics?, Bloomsbury/ Hart Publishing, 2022 (Book review)
 S. Delacroix, Legal Norms and Normativity: an Essay in Genealogy, Hart Publishing, 2006

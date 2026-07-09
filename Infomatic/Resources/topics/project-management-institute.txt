@@ -1,37 +1,61 @@
 The Project Management Institute (PMI, legally Project Management Institute, Inc.) is a U.S.-based not-for-profit professional organization for project management.
 
 Overview
+
 PMI serves more than five million professionals including over 680,000 members in 217 countries and territories around the world, with 304 chapters and 14,000 volunteers serving local members in over 180 countries.
+
 Its services include the development of standards, research, education, publication, networking opportunities in local chapters, hosting conferences and training seminars, and providing accreditation in project management.
+
 PMI has recruited volunteers to create industry standards, such as "A Guide to the Project Management Body of Knowledge", which has been recognized by the American National Standards Institute (ANSI). In 2012, ISO adapted the project management processes from the PMBOK Guide 4th edition.
 
 History
+
 In the 1960s, project management as such began to be used in the US aerospace, construction, and defense industries. The Project Management Institute was founded by Ned Engman (McDonnell Douglas Automation), James Snyder, Susan Gallagher (SmithKline & French Laboratories), Eric Jenett (Brown & Root), and J Gordon Davis (Georgia Institute of Technology) at the Georgia Institute of Technology in 1969 as a nonprofit organization. It was incorporated in the state of Pennsylvania in the same year. PMI described its objectives in 1975 as to "foster recognition of the need for professionalism in project management; provide a forum for the free exchange of project management problems, solutions, and applications; coordinate industrial and academic research efforts; develop common terminology and techniques to improve communications; provide an interface between users and suppliers of hardware and software systems; and to provide guidelines for instruction and career development in the field of project management."
+
 In the 1970s, standardization efforts represented 10 to 15 percent of the institute's efforts. The functions were performed through the Professional Liaison Committee which called on and coordinated with the Technology, Research Policy, and Education Committees. The institute participated in national activities through the American National Standards Committee XK 36.3 and internationally, through liaison with an appointed observer to Europe's International Project Management Association, then called INTERNET. PMI did not deal with the US federal government directly; several members were federal employees in agencies involved with project management.
+
 In the 1980s, efforts were made to standardize project management procedures and approaches. The PMI produced the first Project Management Body of Knowledge (PMBOK) in 1996.
+
 In the late 1990s, Virgil R. Carter became president of the PMI. In 2002, Carter was succeeded by Gregory Balestrero, who directed the institute until his retirement in January 2011. He was succeeded as president and CEO by Mark A. Langley. From March 2019 through December 2021, the president and CEO was Sunil Prashara. Pierre Le Manh was appointed CEO on September 1, 2022.
 
 Certifications
+
 Launched in 1984, PMI's first credential was the PMP. It has since become a de facto standard certification in project management. In 2007 it earned the ANSI/ISO/IEC 17024 accreditation from the International Organization for Standardization (ISO). As of May 2020, over one million people held the PMP credential.
+
 PMI later introduced other certifications.  Credential holders do not have to be members of PMI.
+
 To initially obtain a PMI credential, candidates must first document that they have met the required education and experience requirements.  They must then pass an examination consisting of multiple-choice questions.  To maintain most PMI credentials, holders must earn Professional Development Units (PDUs), which can be earned in a variety of ways such as taking classes, attending PMI global congresses, contributing to professional research, or writing and publishing papers on the subject.  Most credentials must be renewed every three years. These are the certifications and credentials offered by PMI:
 
 1984: Project Management Professional (PMP)
+
 2003: Certified Associate in Project Management (CAPM)
+
 2007: Program Management Professional (PgMP)
+
 2008: PMI Scheduling Professional (PMI-SP)
+
 2008: PMI Risk Management Professional (PMI-RMP)
+
 2011: PMI Agile Certified Practitioner (PMI-ACP)
+
 2014: PMI Professional in Business Analysis (PMI-PBA)
+
 2014: Portfolio Management Professional (PfMP)
+
 2020: PMI Project Management Ready
+
 2020: Disciplined Agile Scrum Master (DASM)
+
 2021: Disciplined Agile Senior Scrum Master (DASSM)
+
 2021: Disciplined Agile Value Stream Consultant (DAVSC)
+
 2021: Disciplined Agile Coach (DAC)
+
 PMI also provided a Certified OPM3 Professional credential which was officially discontinued on March 1, 2017.  PMI no longer allows the use of the credential's designation by individuals who formerly obtained it.  OPM3, even though no longer neither a credential nor a publication, remains a registered mark of PMI.
 
 Micro-Credentials
+
 List of PMI Micro-Credentials - subject to change:
 
 Agile Hybrid Project Pro
@@ -47,21 +71,32 @@ PMI Citizen Developer Business Architect
 Value Stream Management Micro-Credential
 
 Standards
+
 The standards PMI develops and publishes fall into three main categories:
 
 Foundational Standards.  These standards provide a foundation for project management knowledge and represent the four areas of the profession: project, program, portfolio, and the organizational approach to project management. They are the foundation on which practice standards and industry-specific extensions are built. According to PMI, standards are developed by volunteers in an open, consensus-based process including a public exposure draft process that allows the standard draft to be viewed and changes suggested.
+
 Practice Standards and Frameworks.  Practice standards describe the use of a tool, technique, or process identified in the PMBOK® Guide or other foundational standards.
+
 Practice Guides. Practice guides provide supporting information and instruction to help one apply PMI's standards.  Practice guides may become potential standards and if so, would undergo the process for the development of full consensus standards.
+
 Here is a list of the current standards or guides in each category:
+
 Foundational Standards
 
 A Guide to the Project Management Body of Knowledge (PMBOK Guide) – Seventh Edition (2021). Recognized by the American National Standards Institute (ANSI) as American National Standard ANSI/PMI 99-001-2021.
 The Standard for Program Management—Fourth Edition (2017). Recognized by ANSI as American National Standard ANSI/PMI 08-002-2017.
+
 The Standard for Portfolio Management—Fourth Edition (2017). Recognized by ANSI as American National Standard ANSI/PMI 08-003-2017.
+
 The Standard for Earned Value Management (2019).  Recognized by ANSI as American National Standard ANSI/PMI 19-006-2019.
+
 The Standard for Risk Management in Portfolios, Programs, and Projects (2019).
+
 The Standard for Organizational Project Management (2018).
+
 The PMI Guide to Business Analysis (2017), which includes The Standard for Business Analysis.
+
 Practice Standards and Frameworks
 
 Practice Standard for Project Estimating—Second Edition (2019).
@@ -72,14 +107,23 @@ Project Manager Competency Development Framework—Third Edition (2017).
 Practice Guides
 
 Benefits Realization Management: A Practice Guide (2019).
+
 Agile Practice Guide (2017).
+
 Requirements Management: A Practice Guide (2016).
+
 Governance of Portfolios, Programs, and Projects: A Practice Guide (2016).
+
 Business Analysis for Practitioners: A Practice Guide (2015).
+
 Navigating Complexity: A Practice Guide (2014).
+
 Managing Change in Organizations: A Practice Guide (2013).
+
 PMI Lexicon of Project Management Terms
+
 While not a standard, framework, or practice guide, the PMI Lexicon of Project Management Terms offers clear and concise definitions for nearly 200 of the profession's frequently used terms.  Definitions in the Lexicon were developed by volunteer experts, and PMI standards committees are chartered to use the Lexicon terms without modification. Version 3.2 contains numerous revised terms based on requests from the 2017 foundational standard committees.
 
 Awards
+
 PMI honors project management excellence in various categories, like project professionals, organizations, scholars, authors, and continuing professional education providers.

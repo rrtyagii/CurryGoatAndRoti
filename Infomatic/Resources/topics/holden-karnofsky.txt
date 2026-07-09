@@ -1,22 +1,31 @@
 Holden G. Karnofsky (born 1980 or 1981) is an American nonprofit executive. Karnofsky co-founded the charity evaluator GiveWell with Elie Hassenfeld in 2007. He co-founded in 2014 the grantmaking organization Open Philanthropy (now called Coefficient Giving), and was its CEO and later co-CEO until 2023. He joined Anthropic in 2025.
 
 Biography
+
 Education and early career
+
 Karnofsky attended Stevenson High School in Lincolnshire, Illinois, and was named a National Merit Scholar. He graduated from Harvard University with a degree in social studies in 2003. At Harvard, he was a member of the Harvard Lampoon. After graduating, he worked at Bridgewater Associates, an investment management fund based in Westport, Connecticut.
 
 GiveWell
+
 At Bridgewater, Karnofsky met his future GiveWell co-founder Elie Hassenfeld. In 2006, Karnofsky and Hassenfeld started a charity club where they and other Bridgewater employees pooled in money and investigated the best charities to donate the money to. In mid-2007, with donations from their colleagues, Karnofsky and Hassenfeld formed a fund called "The Clear Fund", and quit their jobs to work full time on GiveWell, whose goal was to allocate the money in the Clear Fund to the best charities.
+
 In June 2012, GiveWell announced a close partnership with Good Ventures, the philanthropic foundation tasked with giving away Facebook co-founder Dustin Moskovitz's wealth. Good Ventures has been one of GiveWell's main funders since then as well as a major donor to GiveWell-recommended charities.
+
 Under Karnofsky's leadership, the annual money moved to GiveWell-recommended charities increased from $1.6 million in 2010 to $110 million in 2015. Until 2023, he was vice chair of its board of directors.
 
 Astroturfing incident
+
 In December 2007, Karnofsky was discovered posting a question about the organization to MetaFilter using another individual's name, and then posting an answer about GiveWell with his own name but without disclosing his affiliation with GiveWell. The negative publicity led Karnofsky to resign from the role of executive director, though he was later reinstated. The board cut $5000 from his salary to pay for a professional development course he would be required to take. The incident had negative repercussions on GiveWell's reputation. Karnofsky's claim that the incident had been due to sleep deprivation and offer to donate to MetaFilter were mocked by users of the site.
 
 Open Philanthropy
+
 Karnofsky was CEO and then co-chief executive officer of Open Philanthropy, a research and grantmaking foundation whose main funders are Cari Tuna and Dustin Moskovitz. Open Philanthropy is an outgrowth of GiveWell Labs, a collaboration of GiveWell and Good Ventures for more speculative giving. As of August 2019, Open Philanthropy has made around 650 grants to over 370 unique organizations, disbursing a total of $857 million.
+
 In 2023, Karnofsky first took a leave of absence from his co-CEO role and then moved to a new role as Director of AI Strategy to focus on AI safety. In 2024, he became a Visiting Scholar at the Carnegie Endowment for International Peace. As of January 2025, he had left Carnegie.
 
 Anthropic
+
 Karnofsky joined Anthropic in January 2025 as member of the technical staff, working on Anthropic's responsible scaling policies (a set of protocols to manage risks associated with increasingly powerful AI models) and other safety planning aspects.
 
 Other activities
@@ -26,7 +35,11 @@ Personal life
 In August 2017, Karnofsky married  Anthropic co-founder Daniela Amodei. Karnofsky and Dario Amodei—Daniela's brother—were former roommates. Karnofsky is ethnically Jewish.
 
 Views
+
 Karnofsky identifies with the ideas of effective altruism and has both represented and engaged with the effective altruist community. Earlier in his career, Karnofsky said he subscribed to a consequentialist moral framework that hoped to "give people more power to live the life they want to live". In recent years, he has written about the importance of extending empathy to all beings deserving of moral consideration, even when it is unusual or seems strange to do so. He believes that it is important for GiveWell to increase the racial and gender diversity of its employees, towards which the organization has taken steps.
+
 He has debated other nonprofit leaders on the importance of field visits, which he believes are important but not sufficient in evaluating the effectiveness of charitable programs.
+
 In August 2014, after the William and Flora Hewlett Foundation announced the end of its Nonprofit Marketplace Initiative (one of GiveWell's major early funders), Karnofsky wrote a post on the GiveWell blog offering his thoughts on the program, informed by his experience as a recipient of its largesse. The Hewlett Foundation responded in a comment on the post, and Jacob Harold responded on the GuideStar blog.
+
 Karnofsky has shared his thoughts on altruistic career choice and elaborated on Open Philanthropy's approach to cause prioritization in an interview with Robert Wiblin for the 80,000 Hours podcast as well as elsewhere.

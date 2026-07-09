@@ -1,7 +1,9 @@
 Visakan Kadirkamanathan (born 1962) is a professor of Signal and Information Processing at the Department of Automatic Control and Systems Engineering at the University of Sheffield, United Kingdom. He is director of the Rolls-Royce supported University Technology Centre in Control, Monitoring and Systems Engineering and is a founding member of the University Centre for Signal Processing and Complex Systems. From April 2009 to August 2014, he was Head of the Department of Automatic Control and Systems Engineering. He is known for his contribution to the field of statistical signal processing applied to system identification, signal estimation, and fault detection. Kadirkamanathan is the Co-editor of International Journal of Systems Science.
 
 Education and career
+
 Kadirkamanathan was born in Jaffna, Sri Lanka. He is one of six children. He completed his school education in Jaffna at St John's College Jaffna before moving to the United Kingdom to pursue an engineering education. He received his graduate degree in Electrical and Information Sciences and Ph.D. in Information Engineering, both from the Cambridge University, at Christ's College.  He joined University of Sheffield in 1993 as lecturer in the Department of Automatic Control and Systems Engineering. He was subsequently promoted to senior lecturer, then reader, and finally professor in 2007. From April 2009 to August 2014, he served as the Head of Department of Automatic Control and Systems Engineering.
+
 Kadirkamanathan's primary area of research is in the field of signal and information processing, including signal estimation and fault detection. He also works in the area of autonomous systems and swarm intelligence.
 
 Selected books

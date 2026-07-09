@@ -2,309 +2,123 @@ In proof compression LowerUnits (LU) is an algorithm used to compress propositio
 
 Theorem: Let
 
-
-
         φ
-
-
     {\displaystyle \varphi }
-
  be a potentially redundant proof, and
-
-
-
         η
-
-
     {\displaystyle \eta }
-
  be the redundant proof | redundant node. If
-
-
-
         η
-
-
     {\displaystyle \eta }
 
 ’s clause is a unit clause,
 then
 
-
-
         φ
-
-
     {\displaystyle \varphi }
-
  is redundant.
 
 The algorithm targets exactly the class of  global redundancy stemming from multiple resolutions with unit clauses. The algorithm takes its name from the fact that, when this rewriting is done and the resulting proof is displayed as a DAG (directed acyclic graph), the unit node
 
-
-
         η
-
-
     {\displaystyle \eta }
-
  appears lower (i.e., closer to the root) than it used to appear in the original proof.
 A naive implementation exploiting theorem would require the proof to be traversed and fixed after each unit node is lowered. It is possible, however, to do better by first collecting and removing all the unit nodes in a single traversal, and afterwards fixing the whole proof in a single second traversal. Finally, the collected and fixed unit nodes have to be reinserted at the bottom of the proof.
+
 Care must be taken with cases when a unit node
 
-
-
-
           η
-
             ′
-
-
-
-
     {\displaystyle \eta ^{\prime }}
-
  occurs above in the subproof that derives another unit node
-
-
-
         η
-
-
     {\displaystyle \eta }
 
 . In such cases,
 
-
-
         η
-
-
     {\displaystyle \eta }
-
  depends on
-
-
-
-
           η
-
             ′
-
-
-
-
     {\displaystyle \eta ^{\prime }}
 
 . Let
 
-
-
         ℓ
-
-
     {\displaystyle \ell }
-
  be the single literal of the unit clause of
-
-
-
-
           η
-
             ′
-
-
-
-
     {\displaystyle \eta ^{\prime }}
 
 . Then any occurrence of
 
-
-
-
-
             ℓ
             ¯
-
-
-
-
     {\displaystyle {\overline {\ell }}}
-
  in the subproof above
-
-
-
         η
-
-
     {\displaystyle \eta }
-
  will not be cancelled by resolution inferences with
-
-
-
-
           η
-
             ′
-
-
-
-
     {\displaystyle \eta ^{\prime }}
-
  anymore. Consequently,
-
-
-
-
-
             ℓ
             ¯
-
-
-
-
     {\displaystyle {\overline {\ell }}}
-
  will be propagated downwards when the proof is fixed and will appear in the clause of
-
-
-
         η
-
-
     {\displaystyle \eta }
 
 . Difficulties with such dependencies can be easily avoided if we reinsert the upper unit node
 
-
-
-
           η
-
             ′
-
-
-
-
     {\displaystyle \eta ^{\prime }}
-
  after reinserting the unit node
-
-
-
         η
-
-
     {\displaystyle \eta }
-
  (i.e. after reinsertion,
-
-
-
-
           η
-
             ′
-
-
-
-
     {\displaystyle \eta ^{\prime }}
-
  must appear below
-
-
-
         η
-
-
     {\displaystyle \eta }
 
 , to cancel the extra literal
 
-
-
-
-
             ℓ
             ¯
-
-
-
-
     {\displaystyle {\overline {\ell }}}
-
  from
-
-
-
         η
-
-
     {\displaystyle \eta }
 
 ’s clause). This can be ensured by collecting the unit nodes in a queue during a bottom-up traversal of the proof and reinserting them in the order they were queued.
+
 The algorithm for fixing a proof containing many roots performs a top-down traversal of the proof, recomputing the resolvents and replacing broken nodes (e.g. nodes having deletedNodeMarker as one of their parents) by their surviving parents (e.g. the other parent, in case one parent was deletedNodeMarker).
+
 When unit nodes are collected and removed from a proof of a clause
 
-
-
         κ
-
-
     {\displaystyle \kappa }
-
  and the proof is fixed, the clause
-
-
-
-
           κ
-
             ′
-
-
-
-
     {\displaystyle \kappa ^{\prime }}
-
  in the root node of the new proof is not equal to
-
-
-
         κ
-
-
     {\displaystyle \kappa }
-
  anymore, but contains (some of) the duals of the literals of the unit clauses that have been removed from the proof. The reinsertion of unit nodes at the bottom of the proof resolves
-
-
-
-
           κ
-
             ′
-
-
-
-
     {\displaystyle \kappa ^{\prime }}
-
  with the clauses of (some of) the collected unit nodes, in order to obtain a proof of
-
-
-
         κ
-
-
     {\displaystyle \kappa }
-
  again.
 
 Algorithm
@@ -313,6 +127,5 @@ General structure of the algorithm
 We collect the unit clauses as follow
 
 Then we reinsert the units
-
 
 == Notes ==

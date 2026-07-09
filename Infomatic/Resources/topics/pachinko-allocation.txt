@@ -10,37 +10,24 @@ The idea was extended with hierarchical Pachinko allocation by Li, McCallum, and
 on a variant of the hierarchical Dirichlet process (HDP).  The algorithm has been implemented in the MALLET software package published by McCallum's group at the University of Massachusetts Amherst.
 
 Model
+
 PAM connects words in V and topics in T with an arbitrary directed acyclic graph (DAG), where topic nodes occupy the interior levels and the leaves are words.
+
 The probability of generating a whole corpus is the product of the probabilities for every document:
-
-
-
 
         P
         (
-
           D
-
-
           |
-
         α
         )
         =
-
           ∏
-
             d
-
-
         P
         (
         d
-
           |
-
         α
         )
-
-
     {\displaystyle P(\mathbf {D} |\alpha )=\prod _{d}P(d|\alpha )}

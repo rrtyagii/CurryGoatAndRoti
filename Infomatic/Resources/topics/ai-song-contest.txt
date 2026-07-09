@@ -1,13 +1,17 @@
 The AI Song Contest (Dutch: AI Songfestival) is an international music competition for songs that have been composed using artificial intelligence (AI). The inaugural edition took place on 12 May 2020 and was organised by the Dutch public broadcaster VPRO, in collaboration with NPO 3FM and NPO Innovation. Since 2021, the contest has been organised annually by Stichting AI Song Contest.
 
 Format
+
 The format of the competition was created by the Dutch programme creator Karen van Dijk (VPRO) and was inspired by the Eurovision Song Contest. Participating teams are tasked with the composition of a song using artificial intelligence. Each submission is then evaluated by a jury, which assesses the use of AI in the songwriting process, and by the public, which assesses the quality of the song through online ratings. The team that receives the most votes from the public wins the audience trophy, while the overall winner is determined through a combination of jury scores and audience votes.
+
 Countries can be represented by multiple teams. While the 2020 edition only allowed teams from "Eurovision countries" to compete, this rule was dropped in 2021 to allow teams from outside Europe and Australia to enter as well. In addition, entries would no longer be judged for their "Eurovision-ness", and the maximum song length was extended from three to four minutes. A semifinal was introduced in 2022, in which the jury selects a dozen of entries to advance to the final.
 
 History
+
 The AI Song Contest began in 2020 as an experiment in human–AI co-creativity, launched by Dutch public broadcaster VPRO in collaboration with NPO 3FM and NPO Innovation. The first edition was held on 12 May 2020 in the Netherlands and was presented by Lieven Scheire. Thirteen teams from eight countries participated, each attempting to create a Eurovision-style hit using machine learning models trained on Eurovision songs. Australia's team, Uncanny Valley, won the inaugural contest with "Beautiful the World". The event was produced as an online show inspired by the Eurovision Song Contest, which had been cancelled that year due to the COVID-19 pandemic.
 The second edition, held in 2021, marked a shift in both organisation and scale. It was independently organised by a group of researchers and AI music specialists – John Ashley Burgoyne, Ryan Groves, Anna Huang, Rujing Stacy Huang, Hendrik Vincent Koops and Rebecca Leger – and was supported by the technology hubs Wallifornia MusicTech, DeepMusic.ai and Amsterdam Music Lab. The contest featured 38 entries from around the world, reflecting the broadened eligibility rules introduced that year, and the results were announced during a virtual conference that formed part of Wallifornia's four-day Music & Innovation Summit.
 In 2022, the contest continued to grow, featuring 46 entries from a wide range of musical cultures and genres. The award ceremony again took place during the Wallifornia MusicTech Summit, streamed live from Liège, Belgium. In 2023, the contest was held in A Coruña, Spain with the support of RTVE Play, while the 2024 edition took place at the Swiss Innovation Park in Zurich, Switzerland. The 2025 edition brought the contest back to the Netherlands for the first time since 2020. The award show was held on 16 November at the Melkweg music venue in Amsterdam, featuring live performances by the ten finalists.
 
 Competition overview
+
 Awards and nominations

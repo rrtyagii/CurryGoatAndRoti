@@ -1,13 +1,21 @@
 Semantic Application Design Language (SADL) is an English-like open source language for building formal models composed of an OWL ontology, rules expressed in terms of the ontological concepts, queries for retrieving information from the model, and tests to validate and re-validate model content and entailments (implications).
+
 The SADL-IDE is an Eclipse-based integrated development environment(IDE) which  facilitates authoring and maintaining models expressed in the SADL language.
 
 Motivation
+
 The Semantic Technology stack offers significant potential for knowledge capture and usage in many domains. However, native representations (OWL, SWRL, Jena Rules, SPARQL) are unfriendly to domain experts who are not computer scientists and not knowledgeable in the intricacies of artificial intelligence and formal logic. Furthermore, in the opinion of the creator, the tools available to build, test, maintain, and apply knowledge bases (models) over their life cycle are inadequate. SADL attempts to bridge these gaps.
 
 How
+
 SADL attempts to meet the needs identified above in several ways.
+
 The SADL grammar tries to use common words to express formal model relationships. These key words and phrases are mapped unambiguously into the formalisms of OWL, SWRL or Jena Rules, and SPARQL.
+
 SADL allows statement combinations for more concise and understandable groupings. Examples include listing the properties that "describe" a class as part of the class definition, identifying multiple subclasses in a single statement, chaining triple patterns in rules and queries to eliminate variables and make the overall pattern more readable, listing the attributes and relationships of an instance together with a single subject, and optionally named instances.
+
 The SADL-IDE provides templates, content assistance, quick fixes, hyper linking of concepts to their definitions, folding, and other aids to make it easier for domain experts to view and understand, create, and maintain models.
+
 The close integration of Eclipse with source code control systems such as CVS, SVN, or GIT allow SADL models to be versioned and more easily managed over their life cycle. The sequential nature of the language makes differences between model versions easy to compute and view. A set of models may be easily tagged as a particular release and retrieved as a compete set at any time.
+
 Integration of reasoners/rules engines with the SADL-IDE allows the model developer to exercise the model, query results and create test cases for validation and regression testing.

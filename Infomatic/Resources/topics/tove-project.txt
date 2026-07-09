@@ -1,12 +1,17 @@
 The TOVE project ("Toronto Virtual Enterprise") is a project to develop an ontological framework for enterprise integration (EI) based on and suited for enterprise modeling. In the beginning of the 1990s it was initiated by Mark S. Fox and others at the University of Toronto.
 
 Overview
+
 The original goal of the project was fourfold:
 
 Create a shared representation or ontology of the enterprise that each agent in the distributed enterprise can jointly understand and use
 Define the meaning of each description or semantics
+
 Implement the semantics in a set of axioms that will enable TOVE to automatically deduce the answer to many "common sense" questions about the enterprise, and
 Define a symbology for depicting a concept in a graphical context
+
 Eventually the ongoing project aims to develop a set of integrated ontologies for the modelling of both commercial and public enterprises.
+
 The model according to Ted Williams (2000) is "multi-level, spanning conceptual, generic and applications layers. The generic and applications layers all also stratified and composed of micro theories spanning, for example, activities, time, resources, constraints, etc. At the generic level. Critical to the TOVE effort is enabling the easy instantiation of the model for a particular enterprise TOVE models will be automatically created as a by product of the enterprise design function". At the turn of the millennium TOVE has been used to model a computer manufacturer and an aerospace engineering firm.
+
 The TOVE enterprise models is presented by Fox et al. (1995) as second generation knowledge engineering approach. A first generation knowledge engineering approach "is extracting rules from experts, while second generation is ontology engineering: They develop comprehensive ontologies for all the aspects of an organization they find necessary (necessity is decided based on competency requirements to the model, i.e., what are the questions the model will have to answer, either by ordinary look-up or by deduction). The background of TOVE is clearly knowledge engineering and to some degree Computer Integrated Manufacturing".

@@ -1,11 +1,15 @@
 The Rule Interchange Format (RIF) is a W3C Recommendation.  RIF is part of the infrastructure for the semantic web, along with (principally) SPARQL, RDF and OWL.  Although originally envisioned by many as a "rules layer" for the semantic web, in reality the design of RIF is based on the observation that there are many "rules languages" in existence, and what is needed is to exchange rules between them.
+
 RIF includes three dialects, a Core dialect which is extended into a Basic Logic Dialect (BLD) and Production Rule Dialect (PRD).
 
 History
+
 The RIF working group was chartered in late 2005. Among its goals was drawing in members of the commercial rules marketplace.  The working group started with more than 50 members and two chairs drawn from industry, Christian de Sainte Marie of ILOG, and Chris Welty of IBM.  The charter, to develop an interchange format between existing rule systems was influenced by a workshop in the spring of 2005 in which it was clear that one rule language would not serve the needs of all interested parties (Dr. Welty described the outcome of the workshop as Nash Equilibrium).
+
 RIF became a W3C Recommendation on June 22, 2010.
 
 Rules and rule systems
+
 A rule is perhaps one of the simplest notions in computer science: it is an IF - THEN construct.  If some condition (the IF part) that is checkable in some dataset holds, then the conclusion (the THEN part) is processed.  Deriving somewhat from its roots in logic, rule systems use a notion of predicates that hold or not of some data object or objects.  For example, the fact that two people are married might be represented with predicates as:
 
 MARRIED(LISA,JOHN)
@@ -15,46 +19,59 @@ MARRIED is a predicate that can be said to hold between LISA and JOHN.  Adding t
 IF MARRIED(?x, ?y) THEN LOVES(?x, ?y)
 
 We would expect that for every pair of ?x and ?y (e.g. LISA and JOHN) for which the MARRIED predicate holds, some computer system that could understand this rule would conclude that the LOVES predicate holds for that pair as well.
+
 Rules are a simple way of encoding knowledge, and are a drastic simplification of first order logic, for which it is relatively easy to implement inference engines that can process the conditions and draw the right conclusions.  A rule system is an implementation of a particular syntax and semantics of rules, which may extend the simple notion described above to include existential quantification, disjunction, logical conjunction, negation, functions, non monotonicity, and many other features.  Rule systems have been implemented and studied since the mid-1970s and saw significant uptake in the 1980s during the height of so-called Expert Systems.
 
 Standard RIF dialects
+
 The standard RIF dialects are Core, BLD and PRD.  These dialects depend on an extensive list of datatypes with builtin functions and predicates on those datatypes.
+
 Relations of various RIF dialects are shown in the following Venn diagram.
 
 DTB
+
 Datatypes and Built-Ins (DTB) specifies a list of datatypes, built-in functions and built-in predicates expected to be supported by RIF dialects. Some of the datatypes are adapted from XML Schema Datatypes, XPath functions and rdf:PlainLiteral functions.
 
 Core
+
 The Core dialect comprises a common subset of most rule dialect. RIF-Core is a subset of both RIF-BLD and RIF-PRD.
 
 FLD
+
 Framework for Logic Dialects (FLD) describes mechanisms for specifying the syntax and semantics of logic RIF dialects, including the RIF-BLD and RIF-Core, but not RIF-PRD which is not a logic-based RIF dialect.
 
 BLD
+
 The Basic Logic Dialect (BLD) adds features to the Core dialect that are not directly available such as: logic functions, equality in the then-part and named arguments. RIF BLD corresponds to positive datalogs, that is, logic programs without functions or negations.
+
 RIF-BLD has a model-theoretic semantics.
+
 The frame syntax of RIF BLD is based on F-logic, but RIF BLD doesn't have the non-monotonic reasoning features of F-logic.
 
 PRD
+
 The Production Rules Dialect (PRD) can be used to model production rules. Features that are notably in PRD but not BLD include negation and retraction of facts (thus, PRD is not monotonic). PRD rules are order dependent, hence conflict resolution strategies are needed when multiple rules can be fired. The PRD specification defines one such resolution strategy based on forward chaining reasoning.
+
 RIF-PRD has an operational semantics, whereas the condition formulas also have a model-theoretic semantics.
+
 Example (Example 1.2 in )
 
 Non-standard RIF dialects
+
 Several other RIF dialects exist. None of them are officially endorsed by W3C and they are not part of the RIF specification.
 
 CASPD
+
 The Core Answer Set Programming Dialect (CASPD) is based on answer set programming, that is, declarative logic programming based on the answer set semantics (stable model semantics).
+
 Example:
 
 Document(
       Prefix(ex <http://example.com/concepts#>)
-
       Group (
           Forall ?S (
               ex:afraid(?S ex:Math) :- And ( ?S#ex:Student (Naf Neg ex:afraid(?S ex:Math)) )
 	  )
-
 	  Forall ?S (
 	      Neg ex:afraid(?S ex:Math) :- And ( ?S#ex:Student ?S[ex:majors -> ex:Math] )
 	  )

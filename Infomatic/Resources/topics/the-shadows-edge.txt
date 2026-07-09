@@ -1,33 +1,49 @@
 The Shadow's Edge (simplified Chinese: 捕风追影; traditional Chinese: 捕風追影) is a 2025 action thriller film directed and written by Larry Yang. Co-produced by China and Hong Kong, the film is loosely adapted from the Hong Kong action thriller Eye in the Sky (2007) by Yau Nai-hoi. It stars Jackie Chan as a retired surveillance expert who returns to investigate a series of heists orchestrated by a long-time fugitive played by Tony Leung Ka-fai, and in turn he is joined by a rookie policewoman played by Zhang Zifeng. The cast also includes Ci Sha and Wen Junhui.
+
 The film entered pre-production in 2023 and marks the second collaboration between Larry Yang and Jackie Chan after Ride On (2023). Principal photography began in October 2024, primarily in Macau, and wrapped in January 2025. Post-production continued until mid-2025, featuring a score composed by French musician Nicolas Errèra. The film had its world premiere at Emperor Cinemas, Taikoo Li Sanlitun, Beijing on 3 August 2025, followed by theatrical releases in China on 16 August and in Hong Kong on 11 September.
 
 Plot
+
 In Macau, the police are hot on the trail of a heist crew led by longtime fugitive The Shadow, ultimately identified as former intelligence officer Fu Lang-seng, which includes his five adoptive sons. The crew, featuring ringleader Xi Wang, hacker Xi Meng, and muscle Hu Feng, break into a bank vault to steal a notebook and escape undetected by hacking the surveillance system. The police discover that the vault belongs to a wealthy businessman and learn the notebook contains an encryption key to his cryptocurrency wallet. They deduce that the crew will target a digital asset management company at Macau Tower. As the heist crew infiltrates the Tower, they find an unexpected HK$1.5 billion worth of cryptocurrency in the same virtual vault. They steal the currency despite Fu's objections, which allows the police to arrive on the scene and force them to parachute into Wynn Macau. When the crew is cornered, Fu enters the hotel to provide cover, enabling their escape with varying disguises. A barista in the Tower inadvertently captures Fu's image when taking a picture of the commotion.
+
 With no leads following the nearly flawless heist, Wang decides to enlist retired surveillance expert Wong Tak-chong for help. Wong, skeptical of modern technology, prefers old-school methods and assembles a surveillance team, including He Qiuguo, whom he believes can approach Fu unnoticed. With Wong's guidance, the police quickly identify the disguised crew members through surveillance footage and connect Fu to a series of heists committed by a criminal known as Shadow twenty years earlier. Initially, He is cold towards Wong, revealing that her father died during an operation involving Wong, whom she blames for his death. However, during a night watch, she breaks cover to protect a woman from thugs and nearly gets hurt, only to be saved by Wong. Wong reveals that her father was killed after Wong also broke cover to act heroically, and the two reconcile.
+
 Meanwhile, Fu is enraged by his sons' disobedience and punishes them, causing tension with Xi Meng and Fu, although Xi Wang remains loyal. After realizing his identity has been compromised, Fu goes into hiding. Wong's team soon locate him at a market, and begin to follow him back to his lair. He volunteers to tail Fu, who is initially wary but later relaxes when Wong, posing as He's father, arrives to defuse the situation. The next day, Wong invites Fu over for dinner at a police-occupied apartment, where Fu tests their intentions. During the dinner, He learns that Wong has been secretly watching over her since her father's death. That night, an attempt on their lives by Xi Wang fails, leading them to suspect their cover has been blown.
+
 On their way back to headquarters, Wong's vehicle is ambushed by mercenaries, but the police manage to fend them off. Meanwhile, Xi Meng lures Fu to an orphanage, where he finds thugs waiting to kill him. After a fierce fight, Fu defeats them. Xi Wang then appears to hold off Fu and instructs Xi Meng to detonate the orphanage before dying in the blast, but Fu survives the explosion and is arrested by the police.The police believe the adoptive sons will flee Macau through shipments leaving Wynn Palace. While being transported, Fu escapes, prompting his crew to flee as well. Hu and the others are subdued by Wong, while at the nearby Cotai East station Fu fatally stabs a policeman and Xi Meng. As he dies, Xi Meng recites the key to the cryptocurrency account, consisting of a passphrase of 12 English words. The remaining two adoptive sons are arrested in the hotel.
+
 In the post-credits scene, a third twin brother of Xi Wang and Xi Meng is revealed and he places a bounty on Wong, He, and Fu.
 
 Cast
+
 Jackie Chan as Wong Tak-chong, a Macanese cyber-intelligence expert who comes out of retirement
 Zhang Zifeng as He Qiuguo, a young police officer on Wong's elite team
+
 Tony Leung Ka-fai as Fu Lung-sang, a criminal mastermind who has been a fugitive for over 20 years
 Ci Sha as:
+
 Xi Wang, Fu's favorite adoptive son and his right-hand man in the heist crew
+
 Xi Meng, the twin brother of Xi Wang and Fu's adoptive son, who serves as the hacker for the crew
 Xi Tai, the third twin brother of Xi Wang and Xi Meng, who receives the encryption from Xi Meng in the post-credits scene
 Also appearing in the film are Wen Junhui as Hu Feng, an adoptive son of Fu and the muscle of his heist crew; Lang Yueting as Wang Xuemei, the police inspector in charge of the Shadow case; Melvin Wong as a high-ranking police officer; Leo Wang as Wu, a police detective and Wang's right-hand man; and Chaney Lin and Zhou Zhengjie as Xiao Xin and Liu Jinxiao, Fu's adoptive sons and members of his heist crew. Yuen Qiu made a cameo appearance but was ultimately cut from the film.
 
 Production
+
 Background, conception and writing
+
 Larry Yang had previously directed Adoring (2019) and Ride On (2023), two films that both explored interspecies friendship between humans and animals. The director also liked the Hong Kong film Eye in the Sky (2007) by Yau Nai-hoi, emotionally connecting with its characters and story. After  Eye in the Sky was first remade into the South Korean film Cold Eyes (2013), Yang saw commercial potential in adapting the original film's story to address the technological advancements in modern-day surveillance.
+
 After buying the rights to remake the 2007 film, Yang worked on the script for years. While he retained the original's narrative structure, including the idea of a surveillance team searching for an unknown suspect on foot, he wanted to avoid rehashing the story. Instead, Yang ended up writing approximately 85 to 90% new material. Yang updated the film to be set in present-day Macao, incorporating themes about technology and debates on whether traditional police tracking methods are still effective in the era of artificial intelligence. For the film's adversary Fu Longsheng, Yang based him on the antagonist of the original film, re-envisioning him as a survivor of the events in Eye in the Sky.
 
 Development and pre-production
+
 Victoria Hon, a producer on the film, acknowledged it was difficult finding financing for the project due to investors' pessimistic outlook on action films in the current Chinese market. She said, "To make investors believe in this genre, we worked hard on the script and building the characters." In 2023, The Shadow's Edge was registered with the National Radio and Television Administration, with Yang as director and Hairun Pictures as the producer. Jackie Chan was also announced for the lead role, marking his second collaboration with Yang after the commercially successful Ride On. In January 2025, Tony Leung Ka-fai and Wen Junhui, a member of the K-pop group Seventeen, were announced to star. Leung, who played the antagonist in the original film, reprised his role. Wen was personally invited to audition by Yang, who had seen some of his previous works.
+
 The film was in pre-production for around five months. During this time, most of the action scenes were mapped out with storyboards, and shot as demos to be shown to Chan for feedback. The production team also went location scouting for eight months, with some scenes being naturally developed from the places they came across. The team reached out to Wynn Macau for filming permission after noticing that the hotel was in close proximity to the heist crew's escape from the Macau Tower.
 
 Filming and post-production
+
 Principal photography began in October 2024 in Macau, with shooting locations including the Macau Tower, Coloane, and Wynn Macau. Qian Tiantian, who has previously collaborated with Larry Yang and Jackie Chan on a short film, served as the cinematographer, joining the project just 48 hours before shooting commenced. The film was shot on the CineAlta V2, which Qian noted was advantageous for capturing close-ups and quick movements during action sequences. Chan, then 71, performed all his own stunts without using doubles. Filming wrapped in January 2025, after 84 days. A total of 5,000 frames were shot, but only about 3,000 frames remained after post-production editing. Yuen Qiu, a fellow member of the Seven Little Fortunes alongside Chan, was slated for a cameo appearance but was ultimately cut from the film. By May 2025, the film was in post-production and was presented at the Cannes Film Market by Global Network Asia, where it was acquired by Plaion Pictures for Germany, SPI International for Eastern Europe, and ATV for Turkey. The film was also picked up for distribution in the United Kingdom by Trinity CineAsia. The Shadow's Edge featured a music score by French composer Nicolas Errèra.
 
 Release
@@ -35,12 +51,17 @@ The Shadow's Edge had its world premiere at Emperor Cinemas Taikoo Li Sanlitun i
 
 Reception
 Box office
+
 The Shadow's Edge generated over RMB$11 million in presales on its first day, and grossed over RMB$77 million on its opening day. By its tenth day of release, it had climbed to RMB$577 million, and earned RMB$182.9 million in its second week, topping the box office. The film continued to perform well in its third weekend, bringing in RMB$191 million and remaining at the top of the weekly charts, which raised the total gross to approximately RMB$767 million.
 
 Critical response
+
 On the review aggregator website Rotten Tomatoes, 80% of 10 critics' reviews are positive.
+
 James Marsh of the South China Morning Post gave The Shadow's Edge 3/5 stars and found it to be somewhat improved compared to recent Jackie Chan films, particularly in its action scenes, although he ultimately criticizes it for being bogged down by "excessive melodrama" and "unnecessary twists". Tay Yek Keak of 8days gave the film 3.5/5 stars and praised it as "Jackie Chan's best action movie in years" and "Tony Leung [Ka-fai]'s best action flick ever", highlighting their intense on-screen rivalry, thrilling surveillance cat-and-mouse chase, and exhilarating fight scenes, despite some over-the-top plot elements.
+
 John Lui of The Straits Times gave the film 2/5 stars and considered that, despite the star power of Jackie Chan and Tony Leung Ka-fai, the film is an "aimless bloat" plagued by clichés, lazy screenwriting, and unwieldy sentimentality that ultimately fails to deliver the excitement or coherence it promises. Jayanty Nada Shofa of Jakarta Globe viewed the film as an engaging Jackie Chan film that combines intense action, emotional father-and-daughter moments, and some humor, though it may be confusing at times due to narrative shifts and subplot complexities.
 
 Future
+
 On 7 January 2026, Jackie Chan announced plans to produce a sequel.

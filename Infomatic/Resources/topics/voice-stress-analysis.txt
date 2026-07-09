@@ -1,10 +1,15 @@
 Voice stress analysis (VSA) and computer voice stress analysis (CVSA) are collectively a pseudoscientific technology that aims to infer deception from stress measured in the voice. The CVSA records the human voice using a microphone, and the technology is based on the tenet that the non-verbal, low-frequency content of the voice conveys information about the physiological and psychological state of the speaker. Typically utilized in investigative settings, the technology aims to differentiate between stressed and non-stressed outputs in response to stimuli (e.g., questions posed), with high stress seen as an indication of deception.
 
 Scientific findings
+
 The use of voice stress analysis (VSA) for the detection of deception is controversial. Discussions about the application of VSA have focused on whether this technology can indeed reliably detect stress, and, if so, whether deception can be inferred from this stress. Critics have argued that—even if stress could reliably be measured from the voice—this would be highly similar to measuring stress with the polygraph, for example, and that all critiques centered on polygraph testing apply to VSA as well. A 2002 review of the state of the art conducted for the United States Department of Justice found several technical challenges to the technology, including the same problem of determining deception. When reviewing the literature on the effectiveness of VSA in 2003, the National Research Council concluded, "Overall, this research and the few controlled tests conducted over the past decade offer little or no scientific basis for the use of the computer voice stress analyzer or similar voice measurement instruments". A 2013 paper published in Proceedings of Meetings on Acoustics reviewed the "scientific implausibility" of its principles and "ungrounded claims of the aggressive propaganda from sellers of voice stress analysis gadgets".
 
 Notable cases
+
 Confession made following a voice stress examination was allowed to be used as evidence in a Wisconsin case in 2014.
+
 In the case of the 1998 murder of 12-year-old Stephanie Crowe, confessions were made while three suspects were undergoing VSA, which were later found to be false by a judge. In 2005 the manufacturer of the VSA equipment later settled a lawsuit that alleged that it was liable for the harm the three suspects suffered.
+
 In a similar 2000 case in Washington state, Donovan Allen falsely confessed to killing his mother after failing a VSA test. He was acquitted 15 years later based on exonerating DNA evidence.
+
 George Zimmerman was given a VSA after he fatally shot Florida teenager Trayvon Martin in Sanford, Florida in 2012.

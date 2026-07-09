@@ -1,9 +1,13 @@
 Akinator is a video game developed by the French company Elokence. During gameplay, it attempts to determine what fictional or real-life character, object, or animal the player is thinking of by asking a series of questions (similar to the game Twenty Questions). The system learns the best questions to ask through experience from past players. Implementation details are not shared but they fall in the field of statistical classification or expert systems.
 
 Gameplay
+
 Before beginning the questionnaire, the players must think of a character, object, or animal. Akinator initiates a series of questions, with "Yes," "No," "Probably," "Probably not," and "Don't know" as possible answers, to narrow down the potential item. If the answer is narrowed down to a single likely option before 25 questions are asked, the program will automatically ask whether the item it chose is correct. If it is guessed wrong a few times in a row, the game will prompt the user to input the item's name to expand its database of choices.
+
 The game is based on the Limule program made by Elokence, and runs on an internally designed algorithm.
 
 Reception
+
 L'Express rated Akinator a 5 out of 5 on their list of iPhone Apps of the Week for September 9, 2009. Excite France called the game "revolutionary, attractive, and entertaining."
+
 In Europe, the game reached its peak popularity in 2021

@@ -1,6 +1,7 @@
 Universal Networking Language (UNL) is a declarative formal language specifically designed to represent semantic data extracted from natural language texts. It can be used as a pivot language in interlingual machine translation systems or as a knowledge representation language in information retrieval applications.
 
 Structure
+
 In UNL, the information conveyed by the natural language is represented sentence by sentence as a hypergraph composed of a set of directed binary labeled links between nodes or hypernodes. As an example, the English sentence "The sky was blue?!" can be represented in UNL as follows:
 
 In the example above, sky(icl>natural world) and blue(icl>color), which represent individual concepts, are UW's attributes of an object directed to linking the semantic relation between the two UWs; "@def", "@interrogative", "@past", "@exclamation" and "@entry" are attributes modifying UWs.
@@ -9,6 +10,9 @@ Relations are intended to represent semantic links between words in every existi
 Within the UNL program, the process of representing natural language sentences in UNL graphs is called UNLization, and the process of generating natural language sentences out of UNL graphs is called NLization. UNLization is intended to be carried out semi-automatically (i.e., by humans with computer aids), and NLization is intended to be carried out automatically.
 
 History
+
 The UNL program started in 1996 as an initiative of the Institute of Advanced Studies (IAS) of the United Nations University (UNU) in Tokyo, Japan. In January 2001, the United Nations University set up an autonomous and non-profit organization, the UNDL Foundation, to be responsible for the development and management of the UNL program. It inherited from the UNU/IAS the mandate of implementing the UNL program.
+
 The overall architecture of the UNL System has been developed with a set of basic software and tools.
+
 It was recognized by the Patent Cooperation Treaty (PCT) for the "industrial applicability" of the UNL, which was obtained in May 2002 through the World Intellectual Property Organization (WIPO); the UNL acquired the US patents 6,704,700 and 7,107,206.

@@ -10,4 +10,5 @@ Utility systems
 Dialogue tree (for selecting what to say)
 
 Related concepts
+
 In application programming, run-time selection of the behavior of a specific method is referred to as the strategy design pattern.

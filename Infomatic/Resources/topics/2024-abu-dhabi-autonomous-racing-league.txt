@@ -1,12 +1,16 @@
 On 27 April 2024, the inaugural race of the Abu Dhabi Autonomous Racing League was held at the Yas Marina Circuit in Abu Dhabi. The race, originally scheduled to last eight laps, was ultimately shortened to six laps due to various complications, including subpar performance. It involved four self-driving race cars, only two of which – German cars Hailey and Constructor AI – finished the race; the other two did not finish.
 
 Background
+
 Abu Dhabi Autonomous Racing League (A2RL)
 The A2RL is an autonomous racing championship based in Abu Dhabi and organized by ASPIRE, part of the Advanced Technology Research Council. It is one of two active autonomous car racing championships, the second being the US-based Indy Autonomous Challenge.
+
 Unlike the IAC, which primarily focuses on time trials, simulated races, and challenges for teams, the A2RL's car races are closer to a standard grand prix formula race format. Both use Dallara-supplied racecars; the IAC uses the AV-24 chassis derived from Indy NXT's IL-15, while the A2RL chassis is designated EAV-24 and is derived from the SF-23 chassis used in Japanese Super Formula races.
 
 Entrants
+
 In total, eight teams were part of the A2RL in 2024, but only four would compete in the race proper.
+
 The list of teams in 2024 is:
 
 Fly Eagle (China/UAE)
@@ -18,33 +22,51 @@ PoliMove (Italy)
 Unimore (Italy)
 Technical University of Munich (Germany)
 Most teams come from universities and many, such as PoliMove and TUM, already have experience with autonomous racing, primarily from competing in the IAC.
+
 All teams had two months to code and test their AIs. Unlike most international open-wheel racing tournaments, such as Formula 1 or Formula E, no free practice sessions were undertaken.
 
 TII Pre-race demonstration
+
 Prior to the race itself, a mock 1v1 duel between former F1 driver Danill Kvyat and a self-driving car from the non-competing TII Racing team took place; the autonomous car was green and had number 01, while Kvyat's car was red and had number 00. Kvyat spent most of the duel in the pits. Kvyat himself said: "I'm not racing autonomous cars here. It won't be a flat-out race".
 
 Qualifying
+
 Qualifying report
+
 As only four of the eight entrants would compete in the main event, qualifying time trials were held to determine the four main race competitors, as well as their positions in the grid. Only the cars with the four best lap times over three time trial sessions held on Friday and Saturday would qualify.
+
 Multiple errors and setbacks occurred during qualifying. In the first session, Maveric AI, Code19's car, left the track and stopped just after turn 14 due to connectivity issues. Fly Eagle's car, Feiying, had multiple upsets; at one point, Feiying ran into localization issues and began swerving left and right before stopping just before turn 10. Later, Feiying swerved again and nearly hit the wall at the back straight, near the support pits, due to further localization issues. Sparkz, the Kinetiz team's car, swerved and crashed into the wall near yacht berths 51-56 after turn 11, damaging the front right wheel's axle and partially detaching the forward wings. Sparkz would be the only car to not have a set time at the end of the time trials. PoliMove car Eva braked hard without warning at the straight, the LED status indicator turning off, suggesting the AI computer had a system crash or shut itself down.
+
 After the sun went down, during the second session, Hailey, the car from the TUM team, went off-track after turn 9 and stopped, its status indicator flashing red, meaning Hailey's AI disengaged itself. Eva had further issues, once again braking hard and spinning out into turn 1. Later, the same thing happened to Feiying; it later swerved left and right and stopped due to further localization issues.
+
 The morning after, during the third and final session, Hailey went off-track after turn 5, and were unable to regain the pole position.
 
 Qualifying classification
+
 Attack/Defend challenge
+
 Attack/Defend challenge report
 In this part of the event, cars would be put on a series of 1v1 duels to see how well they could defend their position or attack to gain one higher.
 During one such duel, an incident occurred where Hailey rear-ended Eva, sending both off the track and prematurely ending the duel. The challenge was otherwise uneventful.
 
 Attack/Defend challenge results
+
 Main race
+
 Race report
+
 Eventually, at around 20:30 Gulf Standard Time on the night of 27 April, the main event (termed the "Grand Final" on-stream) would begin. The starting order was Eva first, Gianna second, Hailey third, and Constructor AI last.
+
 The race began with a rolling start. As a safety measure, the first two laps were conducted under virtual safety car (VSC) to make sure the cars stayed together, making them de facto formation laps, even if they counted towards race distance. However, Hailey ended up stopping at the final turn and strayed too far from the cars ahead, and as a result, the VSC conditions were extended for another lap. According to the livestream's on-screen graphics, Hailey was upwards of one minute and 22.3 seconds behind Gianna after the former started moving again.
+
 On lap 4, halfway through the planned race, and with Hailey more than 30 seconds behind Gianna, the VSC was lifted, and the green flag finally dropped. At first, the two Italian cars were leading the pack, Eva was the race leader with Gianna 3.2 seconds behind, however, as it entered the chicane, Eva hit the brakes and spun out, with Gianna briefly stopping as it passed Eva.
+
 Eva's spin automatically triggered a full-course yellow flag. Normally, under yellow flag conditions, overtaking is not permitted, but with Eva stopped and being moved off the track, it was theoretically permitted to overtake Eva. However, presumably due to an oversight in the AI's code, the cars assumed overtaking Eva, despite being off the track, was not permitted. As a result, both Gianna and Constructor AI stopped as they did not want to overtake Eva due to the yellow flag, with Hailey following suit as it approached. Constructor AI's status indicator was solid red, suggesting the AI had disengaged; however, Gianna's status indicator remained solid purple, showing the AI was still in control. Eva's status indicator was also solid purple, but was soon flashing green, suggesting the AI had disengaged but was ready to take control again.
+
 With all cars stalled, and Eva being off the track, the race was effectively red-flagged and suspended. Hailey, Gianna, and Constructor AI drove themselves back to their team's pits; Eva did not, it was towed to the main pits on a flatbed truck. Constructor was the first to arrive at the pits, followed by Gianna and Hailey, in that order. This incident, combined with loss of internet connection, led to Eva retiring - it did not finish the race.
+
 Eventually, it was decided to resume the race. With Eva retired, the restart order was Gianna first, Hailey second, and Constructor AI third. The race was also shortened - from eight laps to six. With lap 5 under full-course yellow, this meant all three remaining teams would effectively restart the race on the sixth and final lap. The trio left the pits at 22:25 Gulf Standard Time, and the race resumed two minutes later. At first, Gianna was winning with Hailey 2.6 seconds behind, but then Gianna stopped on turn 5, giving Hailey the lead. Constructor AI also overtook Gianna, but not without briefly stopping. Gianna remained stopped, its status indicator solid red - it did not finish either.
+
 With both Italian teams out of the picture, Hailey finished first and won A2RL 2024, with Constructor AI finishing second, 27.2 seconds behind.
 
 Final race classification

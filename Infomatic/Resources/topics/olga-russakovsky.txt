@@ -1,19 +1,25 @@
 Olga Russakovsky is an associate professor of computer science at Princeton University. Her research investigates computer vision and machine learning. She was one of the leaders of the ImageNet Large Scale Visual Recognition challenge and has been recognised by MIT Technology Review as one of the world's top young innovators.
 
 Early life and education
+
 Russakovsky studied mathematics at Stanford University and remained there for her doctoral studies. When she finished her undergraduate degree she had dismissed computer science and felt disconnected from research and the only woman in her laboratory. Then Fei-Fei Li arrived at Stanford. Russakovsky eventually completed her PhD in computer vision in 2015, during which she worked with Fei-Fei Li on image classification. She developed an algorithm that could separate selected objects from the background, which made her acutely aware of human bias. She worked on mechanisms to reduce the burden of image classification on human annotators, by asking fewer, and more generalised, questions about the images being inspected. Together with Fei-Fei Li, Russakovsky developed ImageNet, a database of millions of images that is now widely used in computer vision. Russakovsky is Ukrainian-American.
 
 Research and career
+
 After her PhD, she was a postdoctoral research fellow at Carnegie Mellon University. Russakovsky works on computer vision and machine learning. She is an associate professor of computer science at Princeton University. Her research has investigated the historical and societal bias within visual recognition and the development of computational solutions that promote algorithmic fairness. For example, in 2015, a new photo identification application developed by Google labeled a black couple as "gorillas". At the time only 2% of their workforce were African American. Russakovsky has emphasised that whilst the workforces designing artificial intelligence systems are not diverse enough, only improving the diversity of computer scientists will not be sufficient for rectifying algorithmic bias. Instead, she has involved training deep learning models that de-correlate protected characteristics such as race or gender. In 2019 she was awarded a Schmidt DataX grant to study accuracy in image captioning systems.
 
 Public engagement
+
 Russakovsky has been involved in several initiatives to improve access to computer science and public understanding of artificial intelligence. She serves on the board of AI4ALL foundation, which looks to improve diversity in artificial intelligence. As part of AI4ALL Russakovsky led a summer camp for high school girls. She ran the first summer camp in 2015, named the Stanford Artificial Intelligence Laboratory's Outreach Summer Program (SAILORS). By 2018 it had expanded into six other US campuses. She has launched similar initiatives at Princeton University. The summer camp looks to keep bias out of artificial intelligence by educating people from diverse backgrounds about computer science, machine learning and policy.
 
 Selected publications
+
 Russakovsky is the lead author of Imagenet large scale visual recognition challenge, which was published in the International Journal of Computer Vision in 2015. The paper describes the creation of a publicly available dataset of millions of images of everyday objects and scenes, and its use in an annual competition between the visual recognition algorithms of participating institutions. The paper discusses the challenges of creating such a large dataset, the developments in algorithmic object classification and detection that have resulted from the competition, and the current (at time of publication) state of the object recognition field. According to the journal website, the article has been cited over 5,000 times. According to Google Scholar, which includes citations of the pre-print of the article on arXiv, the article has been cited over 13,000 times in total.
+
 Russakovsky is the author of more than 20 other academic articles, six of which have been cited more than 100 times each, according to Google Scholar.
 
 Awards and honours
+
 Russakovsky's awards and honours include:
 
 2015 Foreign Policy 100 Leading Global Thinkers

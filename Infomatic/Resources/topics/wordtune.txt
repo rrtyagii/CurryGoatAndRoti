@@ -1,6 +1,9 @@
 Wordtune is an AI powered reading and writing companion capable of fixing grammatical errors, understanding context and meaning, suggesting paraphrases or alternative writing tones, and generating written text based on context. It is developed by the Israeli AI company AI21 Labs.
 
 History
+
 Wordtune was released in October 2020 by AI21 Labs. It was released just as the company came out of stealth mode. Wordtune can be used as a standalone editor, or added as an extension for the Chrome browser. Users can use the tool to paraphrase text being composed on services like Gmail, Google Docs, Facebook, Twitter, and LinkedIn.
+
 On November 14, 2021, AI21 released Wordtune Read — an AI-powered Chrome extension and standalone app designed to process large amounts of written text from websites, documents, or YouTube videos, and summarize them into short and easily digestible pieces of text.
+
 In January 2023, AI21 released Wordtune Spices — a generative-AI toolkit designed to help writers write faster. Wordtune Spices can generate sentences or whole paragraphs in tune with whatever the user is writing. VentureBeat compared it with AI-powered Grammarly while The New York Times and some other media called Wordtune a rival to ChatGPT.

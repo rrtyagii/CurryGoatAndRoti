@@ -1,18 +1,27 @@
 David Vernon (born 1958) is the Coordinator of the European Network for the Advancement of Artificial Cognitive Systems and he is a research professor at the Institute for Artificial Intelligence, University of Bremen. He is also a member of the management team of the RobotCub integrated working on the development of open-source cognitive humanoid robot.
 
 Career
+
 Vernon has held positions at Westinghouse Electric, Trinity College Dublin, the European Commission, the National University of Ireland Maynooth, Science Foundation Ireland,  Etisalat University College, Etisalat University College, and the University of Skövde.
+
 During his tenure as Head of School of Computer Science in the National University of Ireland Maynooth he was responsible for introducing the first stand-alone Computer Science degree programme to that university.
+
 He has authored two and edited three books on computer vision and has published over eighty papers in the fields of Computer Vision, Robotics, and Cognitive Systems. His research interests include Fourier-based computer vision and enactive approaches to cognition.
+
 Before moving to Bremen, he was a professor at Carnegie Mellon University in Kigali, Rwanda, focusing on Masters programs by research in Computing fields.".
 
 Cognitive system framework
+
 Vernon's objective is to provide a framework to design cognitive system by elaborating a comprehensive and structured overview of the entire research area concerned with cognitive systems; referring to it as a pre-paradigmatic discipline.
+
 He differentiates two global approaches: the cognitivist and the emergent. As the first one has its origins in cybernetics (1943-53) and is based on logical calculus immanent in nervous activity, the second one comes from the study of self-organized systems (1958), focuses on embodiment and can be refined in three subcategorizes: Connectionist, Dynamical, and Enactive.
+
 While he is engaged in measuring up those four foregoing paradigms, he is also advocating the Enactive Systems Model to offer the framework by which successively richer orders of cognitive capability can be achieved, and by which the system itself will become part of an existing world of meaning (ontogeny) or shapes a new one (phylogeny).
 
 Works
+
 Machine Vision - Automated Visual Inspection and Robot Vision, Prentice Hall Europe, 1991. ISBN 978-0-13-543380-5
 Fourier Vision - Segmentation and Velocity Measurement Using the Fourier Transform, Springer, 2001. ISBN 978-0-7923-7413-8
 A short Course on Cognitive Systems, version 2.0, University of Genoa, Italy
+
 Artificial Cognitive Systems: A Primer, MIT Press, 2014. ISBN 978-0-26-202838-7

@@ -1,11 +1,14 @@
 Game Description Language (GDL) is a specialized logic programming language designed by Michael Genesereth. The goal of GDL is to allow the development of AI agents capable of general game playing. It is part of the General Game Playing Project at Stanford University. GDL is a tool for expressing the intricacies of game rules and dynamics in a form comprehensible to artificial intelligence (AI) systems through a combination of logic-based constructs and declarative principles.
+
 In practice, GDL is often used for General Game Playing competitions and research endeavours. In these contexts, GDL is used to specify the rules of games that AI agents are expected to play. AI developers and researchers harness GDL to create algorithms that can comprehend and engage with games based on their rules. The use of GDL allows for the development of highly adaptable AI agents, capable of competing in diverse scenarios.
 
 Purpose of GDL
+
 Quoted in an article in New Scientist, Genesereth pointed out that although Deep Blue can play chess at a grandmaster level, it is incapable of playing checkers at all because it is a specialized game player. Both chess and checkers can be described in GDL. This enables general game players to be built that can play both of these games, and any other game that can be described using GDL.
 
 Specification
 Syntax
+
 GDL is a variant of Datalog, and the syntax is largely the same. It is usually given in prefix notation. Variables begin with ?.
 
 Keywords
@@ -34,34 +37,46 @@ Rules
 A game description in GDL provides complete rules that define the game's players, initial state, valid moves, how the game state is updated, how the game ends, and how a winner is determined.
 
 Players
+
 Facts that define the roles in a game. For example, the two-player game tic-tac-toe could define players in GDL with (role xplayer) and (role oplayer).
 
 Initial state
+
 Rules that entail all facts about the initial game state. The following example describes an empty three-by-three tic-tac-toe board, with player x making the starting move:
 
 Legal moves
+
 Rules that describe each move which can be taken by a player, based on the current game conditions. A tic-tac-toe player can mark a cell if it is currently blank, and it is the player's turn to move. In GDL:
 
 Game state update
+
 Rules that describe all facts about the next state relative to the current state and the moves taken by the players. For example:
 
 Termination
+
 Rules that describe the conditions under which the game ends. In tic-tac-toe, the game is over if either player makes three marks in a line, or there are no more blank spaces:
 
 Goal states
 The values that determine which player wins in an end state. An example is:
 
 Extensions
+
 GDL-II
+
 GDL can describe finite games with an arbitrary number of players. However, GDL cannot describe games that contain an element of chance (for example, rolling dice) or games where players have incomplete information about the current state of the game (for example, in many card games, the opponents' cards are not visible). An extension of GDL known as the Game Description Language for Incomplete Information Games (GDL-II) extends the language by two keywords, sees and random, that allow for the description of elements of chance and incomplete information. The statement (sees ?r ?p) means that role ?r perceives ?p in the next game state. The random constant refers to a pre-defined player who chooses moves randomly.
+
 The following is an example from a GDL-II description of the card game Texas hold 'em:
 
 GDL-III
+
 Michael Thielscher also created a further extension, GDL-III, a general GDL with imperfect information and introspection, that supports the specification of epistemic games—those characterized by rules that depend on the knowledge of players.
 
 Other methods of game representation
+
 In classical game theory, games can be formalized in extensive and normal forms. For cooperative game theory, games are represented using characteristic functions. Some subclasses of games allow special representations in smaller sizes, also known as succinct games. Over time, other formalisms and languages for representing different game types have been developed, due in part to the needs of interdisciplinary research. Some of these alternative representations include time-related aspects:
 
 Applications
+
 A 2016 paper "describes a multilevel algorithm compiling a general game description in GDL into an optimized reasoner in a low level language".
+
 A 2017 paper uses GDL to model the process of mediating a resolution to a dispute between two parties and presented an algorithm that uses available information to efficiently do so.

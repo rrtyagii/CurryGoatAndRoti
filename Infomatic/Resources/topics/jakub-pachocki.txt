@@ -1,21 +1,32 @@
 Jakub Pachocki (born 1991) is a Polish computer scientist and former competitive programmer. He is best known as OpenAI's chief scientist and for his role in overseeing development of GPT-4.
 
 Background
+
 Pachocki was born in 1991 in Gdańsk, Poland. In high school, he was a six-time finalist of the International Olympiad in Informatics. He won a silver medal in 2009.
+
 Pachocki obtained his undergraduate degree in Computer Science from the University of Warsaw. He represented his university at the International Collegiate Programming Contest with his team winning a gold medal and coming second place overall in 2012. In the same year he was also the champion of the Google Code Jam.
+
 From 2011 to 2012, Pachocki worked at Facebook as a software engineering intern.
+
 Pachocki attended graduate school at Carnegie Mellon University, where he obtained his PhD under the supervision of Gary Miller.
 
 Career
+
 After graduation, Pachocki did postdoc work at Harvard University and Simons Institute for the Theory of Computing.
 
 OpenAI
+
 In 2017, Pachocki joined OpenAI. In 2021, he became OpenAI's research director where he led the development of  GPT-4 and OpenAI Five. In May 2024, he became chief scientist after his mentor Ilya Sutskever left the company. OpenAI CEO Sam Altman has called Pachocki "easily one of the greatest minds of our generation".
 
 Competitive programming achievements
+
 International Olympiad in Informatics: Silver medal (2009)
+
 International Collegiate Programming Contest World Finals: Gold medal (second place overall in 2012)
 Google Code Jam: Champion (2012), Third place (2011)
+
 Facebook Hacker Cup: Second place (2013)
+
 TopCoder Open Algorithm: Second place (2012)
+
 A more comprehensive list of achievements can be found at the Competitive Programming Hall Of Fame website.

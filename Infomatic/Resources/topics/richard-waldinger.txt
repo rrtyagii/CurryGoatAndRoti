@@ -1,25 +1,35 @@
 Richard Jay Waldinger is a computer science researcher at SRI International's Artificial Intelligence Center (where he has worked since 1969) whose interests focus on the application of automated deductive reasoning to problems in software engineering and artificial intelligence.
 
 Early life and education
+
 In his thesis (Carnegie Mellon University, 1969), which concerned the extraction of computer programs from proofs of theorems, he found that the application of the resolution rule accounted for the appearance of a conditional branch in the extracted program, while the use of the mathematical induction principle caused the introduction of recursion and other repetitive constructs.
 
 Career
+
 Waldinger started at SRI International, then known as the Stanford Research Institute, in 1969, and has remained there since then. He has served coffee and cookies in his office at SRI twice a week since 1970.
 
 QA4
+
 Waldinger collaborated with Cordell Green, Robert Yates, Jeff Rulifson, and Jan Derksen on QA4, a PLANNER-like artificial intelligence language geared towards automatic planning and theorem proving. QA4 introduced the notion of context and also of associative-commutative unification, which made the associative and commutative axioms for operators not only unnecessary but also inexpressible. They applied the language to planning for the SRI robot, Shakey. With Bernie Elspas and Karl Levitt, Waldinger used QA4 for program verification (proving that a program does what it's supposed to), obtaining automatic verifications for the unification algorithm and Hoare's FIND program.
 
 Program synthesis
+
 While Waldinger's thesis had dealt with the synthesis of applicative programs, which return an output but produce no side effects, Waldinger then turned to the synthesis of imperative programs, which do both. To deal with the problem of achieving simultaneously goals that interfere with each other, he introduced the notion of goal regression, which was obtained from earlier work in program verification by Floyd, King, Hoare, and Dijkstra. Since imperative programs are analogous to plans, the approach was also applicable to classical AI planning problems.
+
 In collaboration with Zohar Manna, of Stanford University, Waldinger developed nonclausal resolution, a form of resolution that did not require the translation of logical sentences into a restricted clausal form. Not only was the translation expensive, but also it sometimes pathologically complicated the proof of the resulting theorem; these problems were circumvented by the new rule. They applied the rule on paper to produce a detailed synthesis of a unification algorithm. In a separate paper, they synthesized a novel square-root algorithm; they found that the notion of binary search appears spontaneously by a single application of the resolution rule to the specification of the square root.
 
 SNARK
+
 Some of Manna and Waldinger's theorem proving ideas were incorporated into the design of Mark Stickel's SNARK theorem prover. NASA researchers, led by Mike Lowry, used SNARK in the implementation of the software-development environment Amphion, which has been used to construct programs to analyze data from NASA missions for planetary astronomers. Software constructed automatically by Amphion has been used to plan photography for the Cassini-Huygens NASA mission; this is perhaps the most practical application to date of software constructed automatically by deductive methods.
+
 The SNARK system has been incorporated by the Kestrel Institute into their software development environment Specware, which has been used by Waldinger for the validation of the first-order axiomatization of DAML, the DARPA agent markup language, and its successor, OWL. SNARK uncovered inconsistencies not only in the axioms for DAML, but also in the axioms for the foundational language KIF, on which the DAML axiomatization was based. Recently, Waldinger has worked on the application of deductive methods to answer questions in geography, biology, and intelligence analysis. In collaboration with the Kestrel Institute, he has been using SNARK to authenticate security protocols.
 
 Memberships and awards
+
 In 1991, Waldinger was elected as a fellow of the Association for the Advancement of Artificial Intelligence.
 
 Personal life
+
 In his personal life, Waldinger is a student of aikido, yoga, and meditation. A member of an established writing group, he has published food journalism and erotic fiction.
+
 He is married and has two children and three grandchildren.

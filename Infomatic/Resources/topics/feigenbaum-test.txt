@@ -1,2 +1,3 @@
 A Feigenbaum test is a variation of the Turing test where a computer system attempts to replicate an expert in a given field such as chemistry or marketing. It is also known, as a subject matter expert Turing test and was proposed by Edward Feigenbaum in a 2003 paper.
+
 The concept is also described by Ray Kurzweil in his 2005 book The Singularity is Near. Kurzweil argues that machines who pass this test are an inevitable consequence of Moore's Law.

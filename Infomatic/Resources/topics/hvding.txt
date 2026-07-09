@@ -1,39 +1,57 @@
 Hövding ("Chieftain" in Swedish) is an airbag for cyclists, launched in November 2011.
+
 It was invented by Anna Haupt and Terese Alstin in Malmö, Sweden in 2005 as a thesis for the founders' Master of Industrial Design at the Faculty of Engineering at Lund University in Sweden. Their studies included the comparison of accelerometer data from bicycle crashes against 'typical' cycling. The Hövding contains accelerometers that detect unusual movements which then deploys the airbag if the movement patterns match the profile of a crash. Each Hövding airbag also contains an event data recorder which records the accelerometer data 10 seconds before a deployment. The Hövding collar is made of waterproof material, and has interchangeable fabric shells to allow colour selection.
+
 Founders Anna Haupt and Terese Alstin left the company in 2015. Following a mandatory recall in 2023, the company went bankrupt. In August 2025 it was announced that the brand and patents were bought by iSi Group under the division iSi Wearables and that Hövding 4 was in development.
 
 Model chronology
+
 In March 2015, the Hövding 2.0 was released, with improvements to the weight and comfort, and a relocated USB port.
+
 The Hövding 3.0 was introduced in September 2019, with new features such as a dial-based adjustment for universal fit, and Bluetooth connectivity to smartphones for firmware updates and automatically sending crash notifications to emergency contacts after a deployment.
+
 Hövding 4.0 is set to be released in 2026.
 
 Certification and safety tests
+
 The Hövding has a CE mark, constituting the maker's declaration to authorities that the helmet meets applicable EC Directives.
 
 Folksam
+
 In 2012, Swedish insurance company Folksam tested 13 cycle helmets on the market. They carried out an impact test on the same principles as for CE marking but with a higher impact speed, 25 instead of 20 km/h.
+
 All the traditional helmets yielded G-forces ranging from 196 to 294 G; lower values signify better protection of the cyclist’s head in an accident. The Hövding yielded 65 G, providing at least three times better shock absorption than the other helmets.
 
 Que Choisir
+
 A test by French Que Choisir concluded that the Hövding did not meet international safety requirements. The criticism was that the Hövding helmet did not fully protect against impact with hard, narrow objects, such as curbstones or metal posts. Hövding refuted the objection, saying the tests was irrelevant as the helmet is so different in design that normal standards cannot be used, and pointed to the tests performed during the CE certification, which showed the Hövding to be far safer than a regular bike helmet. Que Choisir rebutted that the laboratory they used is highly reputable, and that the standards are relevant regardless of helmet design. Que Choisir also criticised the Hövding helmet's inflation time, which they measured at 382 ms, while airbags for motorcycles must inflate within 200 ms. There is, however, a difference in crash velocities between motorcycles and bicycles, and tests showed the Hövding deployed properly in a test crash by a stunt person. The test by Que Choisir was performed on a Hövding 1.0; whether their objections were addressed in later versions is unknown, as no subsequent tests were done.
 
 Stanford University
+
 A team of bioengineers performed a series of drop tests and concluded that the Hövding offers an eight-fold reduction in the risk of concussion compared to traditional helmets. The thickness and stiffness of the Hövding was described as "near perfect" in protecting against concussion and head injury. They noted that the air pressure inside the helmet was critical for optimum performance; partial inflation could cause the helmet to bottom out, and then it would give less protection than a conventional expanded-polystyrene helmet.
 
 Certimoov
+
 In 2021, French helmet testing organization Certimoov ranked the Hövding best of the 156 bicycle helmets they had tested at the time. They gave the Hövding an overall safety rating of 4.5 out of 5, the only helmet to score higher than 4.
 
 Awards
+
 Anna Haupt and Terese Alstin won the Index:Award 2011,  and D&AD Award in 2012.
 
 Criticism
+
 Criticism has focused on the price of the Hövding, and some have raised questions about its functionality during certain types of crashes.
 
 Bicycle Helmet Safety Institute
+
 Early on, the privately funded and in the cycling industry respected U.S.-based Bicycle Helmet Safety Institute (BHSI) took notice of the development of the Hövding helmet. The institute, which had been awarded the Award of Merit by the leading standards organization ASTM in 2014 and is frequently cited in scientific and popular literature, closely followed both the technical development and marketing of the product.
+
 The product received particular attention when, on December 17, 2017, the manufacturer submitted a petition to exempt the product from the U.S. CPSC bicycle helmet standard. The BHSI contributed to the discussion by submitting a scientific comment in which it rejected the exemption request. The rejection was substantiated by the institute's own testing based on conventional helmet test criteria, by referencing Hövding’s submitted test results, and by general considerations regarding the protective principles of airbag-based helmets.
+
 However, the BHSI also pointed to alternative foldable helmet models that could potentially play a meaningful role, especially in shared bicycle programs.
 
 Sales ban and bankruptcy
+
 In November 2023, the Swedish Consumer Agency temporarily banned the manufacturer from selling the Hövding 3.0 in Sweden, following an Uppdrag granskning investigation into the company's decision not to recall helmets with a known manufacturing defect which could cause them not to activate in an accident.
+
 On 15 December, the Swedish Consumer Agency announced that the Hövding 3.0 was to be recalled and permanently banned from sale in Sweden due to the safety concerns. The recall and sales stop were overturned on 22 December. The day before, on 21 December, Hövding had applied for bankruptcy proceedings. The application proceeded, and the company entered bankruptcy from which they did not emerge.

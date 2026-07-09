@@ -1,71 +1,119 @@
 EvoStar, or Evo*, is an international scientific event devoted to evolutionary computation held in Europe. Its structure has evolved over time and it currently comprises four conferences: EuroGP the annual conference on Genetic Programming, EvoApplications, the International Conference on the Applications of Evolutionary Computation, EvoCOP, European Conference on Evolutionary Computation in Combinatorial Optimisation, and EvoMUSART, the International Conference on Computational Intelligence in Music, Sound, Art and Design. According to a 2016 study EvoApplications is a Q1 conference, while EuroGP and EvoCOP are both Q2. In 2021, EuroGP, EvoApplications and EvoCOP obtained a CORE rank B.
+
 Other conferences in the area include the ACM Genetic and Evolutionary Computation Conference (GECCO), the IEEE Congress on Evolutionary Computation (CEC) and the bi-annual Parallel Problem Solving from Nature (PPSN).
 
 History
+
 Originally run under the name of EvoWorkshops, the event was an outcome of EvoNet, the Network of Excellence in Evolutionary Computing, funded by the European Commission under the Information Societies Technology Programme, FP5-IST. EvoNet was coordinated by Terry Fogarty and managed by Jennifer Willies, both at Edinburgh Napier University at the time, and had more than 100 participating nodes.
+
 After EvoNet funding ended, support was provided by Edinburgh Napier University to help EvoStar to continue over the years.  In 2014 the SPECIES Society was set up to provide an appropriate legal structure for future organisation and support of the EvoStar conferences. SPECIES support of EvoStar became effective in 2017, with Edinburgh Napier University taking a sponsoring role.
 
 Editions
+
 The first edition was held in Paris in 1998. Subsequent editions took place in Göteborg (1999), Edinburgh (2000), Lake Como (2001), Kinsale (2002), Essex (2003), Coimbra (2004), Lausanne (2005), Budapest (2006), Valencia (2007, first edition under the name EvoStar), Napoli (2008), Tübingen (2009), Istanbul (2010), Torino (2011), Málaga (2012), Vienna (2013), Granada (2014), Copenhagen (2015), Porto (2016), Amsterdam (2017), Parma (2018) and Leipzig (2019). In 2020, Evostar was to be held in Seville, Spain, but due to COVID-19 pandemic, it was finally held as an online conference. In 2021 Evostar was expected to be held in Seville, but was again held as an online conference. In 2022 Evostar was held in Madrid, Spain, as a hybrid event (in person and online). It was followed in 2023 by Brno in the Czech Republic,
 in 2024 by Aberystwyth, and in 2025 by University of Trieste, again in person and via the Internet. In 2026, EvoStar will take place in Toulouse, France.
 
 Toulouse / Hybrid event (2026)
+
 The 29th edition will take place during 8-10 April and will be held at Toulouse Capitole University and also online (Zoom).
 
 Trieste / Hybrid event (2025)
+
 The 28th edition took place during 23-25 April and was held in University of Trieste but also online (Zoom).
+
 EuroGP: Bing Xue, Mario Giacobini and Luca Manzoni.
+
 EvoCOP: Martin S. Krejca and Markus Wagner.
+
 EvoMusArt: Penousal Machado, Colin Johnson and Iria Santos.
+
 EvoApplications:  Pablo García-Sánchez, Emma Hart and Sarah L. Thomson.
+
 There were two keynotes:
+
 Tea Tušar, assistant professor Jožef Stefan Institute, Slovenia,
+
 presented "Ideals and Realities of Benchmarking in Evolutionary Multiobjective Optimization".
+
 Daniela Besozzi, associate professor University of Milano-Bicocca, Italy, delivered the closing keynote
 "Mathematical modelling, computational intelligence and machine learning in biomedicine: it takes (at least) three to tango".
 
 Aberystwyth/ Hybrid event (2024)
+
 The 27th edition took place during 3-5 April and was held in Aberystwyth but also online (Zoom).
+
 EuroGP: Bing Xue, Mario Giacobini and Luca Manzoni.
+
 EvoCOP: Thomas Stützle and Markus Wagner.
+
 EvoMusArt: Colin Johnson, Sérgio Rebelo and Iria Santos.
+
 EvoApplications:  Stephen Smith, João Correia and Christian Cintrano.
+
 For the third time there was a joint event Evolutionary computation and machine learning
 (EML)
+
 between EuroGP and EvoApps: Penousal Machado and Mengjie Zhang.
+
 There were two keynotes:
+
 Jon Timmis, vice chancellor of Aberystwyth University,
+
 presented "Evolution, immunity and robots: An interdisciplinary adventure",
 on his research inspired by the immune system and natural swarms.
+
 The conference was closed by Sabine Hauert
+
 "Evolving swarms across scales: from nanomedicine to city logistics".
+
 Between these two invited plenary talks,
+
 Marc Schoenauer moderated a plenary "Coffee" with Dario Floreano and Hod Lipson,
+
 joint winners of this year's
 Julian Francis Miller award.
 
 Brno / Hybrid event (2023)
+
 The 26th edition took place during 12-14 April and was held mostly in Brno but also online (Zoom and YouTube).
+
 EuroGP: Gisele Pappa, Mario Giacobini and Zdenek Vasicek.
+
 EvoCOP: Leslie Pérez Cáceres and Thomas Stützle.
+
 EvoMusArt: Colin Johnson, Nereida Rodríguez-Fernández and Sérgio M. Rebelo.
+
 EvoApplications:  João Correia, Stephen Smith and Raneem Qaddoura.
+
 For the second time there was a joint event Evolutionary computation and machine learning between EuroGP and EvoApps, Wolfgang Banzhaf and Penousal Machado.
+
 This time there were three keynotes:
+
 Marek Vacha "Gregor Mendel: a story beyond peas" and
+
 Evelyne Lutton "Exploring the Interplay of Cooperation and Competition in evolutionary computation".
+
 This year they were joined by Susan Stepney, the winner of the Julian Francis Miller award.
+
 Posters were on site and on line via Gather Town.
 
 Madrid / Hybrid event (2022)
+
 The 25th edition took place on 20-22 April and was held in Madrid and online (Zoom and YouTube).
+
 EuroGP: Eric Medvet, Gisele Pappa and Bing Xue.
+
 EvoCOP: Leslie Pérez Cáceres and Sébastien Verel.
+
 EvoMusArt: Tiago Martins, Nereida Rodríguez-Fernández and Sérgio M. Rebelo.
+
 EvoApplications: Juan Luis Jiménez Laredo, J. Ignacio Hidalgo and Kehinde Oluwatoyin Babaagba.
+
 For the first time joint event Evolutionary computation and machine learning between EuroGP and EvoApps,
 Wolfgang Banzhaf and Penousal Machado.
+
 As usual there were two keynotes:
+
 Gabriela Ochoa "Illuminating search spaces" on
 YouTube
 and Pedro Larrañaga
@@ -75,68 +123,96 @@ Posters were on site and on line via Gather Town.
 
 Online event (2021)
 The 24th edition took place on 7–9 April and was held as an online event.
+
 Many of the online presentations were recorded and are available via the
+
 organisers' "SPECIES Society" YouTube https://www.youtube.com/c/SPECIESSociety/featured channel.
+
 EuroGP: Ting Hu, Nuno Lourenço, Eric Medvet.
+
 EvoApps: Pedro Castillo, Juanlu Jiménez-Laredo.
+
 EvoCOP: Christine Zarges, Sébastien Verel.
+
 EvoMUSART: Juan Romero, Tiago Martins, Nereida Rodríguez-Fernández.
+
 Late-breaking Abstracts: A.M. Mora, A.I. Esparcia-Alcázar
+
 https://arxiv.org/abs/2106.11804
 
 Online event (2020)
+
 The 23rd edition took place on 15–17 April and was for the first time in history held as an online event. Sessions were available via videoconferencing for registered participants, who could remotely present their work and interact during question time. Conference program chairs were Ting Hu and Nuno Lourenço for EuroGP, Pedro Castillo-Valdivieso for EvoApplications, Luís Paquete and Christine Zarges for EvoCOP and Anikó Ekárt and Juan Romero for EvoMUSART. Anna Esparcia-Alcázar was Coordinator, João Correia was Publicity Chair and Francisco Chicano was Electronic Media Chair. Invited speakers were José Antonio Lozano (talk on The Essence of Combinatorial Optimization Problems, video available on) and Roberto Serra (Dynamically Critical Networks)
 
 Leipzig (2019)
+
 The 22nd edition took place from 24 to 26 April in the premises of Leipzig University of Applied Sciences in Leipzig, with Hendrik Richter as local chair. Conference program chairs were Lukas Sekanina and Ting Hu for EuroGP, Paul Kaufmann and Pedro Castillo-Valdivieso for EvoApplications, Arnaud Liefooghe and Luís Paquete for EvoCOP and Anikó Ekárt and Antonios Liapis for EvoMUSART. Anna Esparcia-Alcázar was Coordinator and Pablo García Sánchez was Publicity Chair. A total of 98 papers, short papers and late-breaking abstracts were presented in 22 conference sessions plus a general poster session The opening invited speaker was Risto Miikkulainen (on Creative AI through Evolutionary Computation) while Manja Marz gave the closing keynote (on RNA evolution with long read sequencing methods).
 
 Parma (2018)
+
 The 2018 edition took place on April 4–6 in the premises of the Università degli Studi di Parma in Parma, with Stefano Cagnoni as local chair. Conference program chairs were Mauro Castelli and Lukas Sekanina for EuroGP, Kevin Sim and Paul Kaufmann for EvoApplications, Arnaud Liefooghe and Manuel López-Ibáñez for EvoCOP and Juan Romero and Antonios Liapis for EvoMUSART. Coordinators were Jennifer Willies and Anna Esparcia-Alcázar and Pablo García Sánchez was Publicity Chair. A total of 116 papers, short papers and late-breaking abstracts were presented in 24 conference sessions plus a general poster session. The opening invited speaker was Una-May O'Reilly (whose talk versed on adversarial dynamics), while Penousal Machado delivered the closing keynote (on evolution art and sex).
 
 Amsterdam (2017)
+
 The 20th edition took place on 19–21 April in De Bazel in Amsterdam (Netherlands) with Evert Haasdijk and Jacqueline Heinerman serving as local chair. Conference program chairs were James McDermott and Mauro Castelli for EuroGP; Bin Hu and Manuel López-Ibáñez for EvoCOP; João Correia and Vic Ciesielski for EvoMUSART; Giovanni Squillero for EvoApplications. Lukáš Sekanina, Antonios Liapis, and Kevin Sim served as Publication Chairs of the different events. Pablo García Sánchez was the Publicity Chair, while Jennifer Willies, the Coordinator. The invited speakers were Kenneth De Jong (EC: Past, Present and Future) and Arthur Kordon (Evolutionary Computation in Industry: A Realistic Overview). A total of 210 papers were presented: 108 in EvoApplications, 34 in EuroGP, 39 in EvoCOP, and 29 in EvoMUSART.
 
 Porto (2016)
+
 The 19th edition took place between March 30 and April 1 in Seminário de Vilar Rua Arcediago Van Zeller in Porto (Portugal) with Penousal Machado and Ernesto Costa serving as local chair. Conference program chairs were Malcolm Heywood and James McDermott for EuroGP; Bin Hu and Francisco Chicano for EvoCOP; Colin Johnson and Vic Ciesielski for EvoMUSART; Giovanni Squillero for EvoApplications. Mauro Castelli, João Correia, and Paolo Burelli were Publication Chairs of the different events. Pablo García Sánchez was the Publicity Chair, while Jennifer Willies, the Coordinator. The invited speakers were Richard Forsyth (The evolution of BEAGLE: Confessions of a mongrel rule-breeder) and Kenneth Sörensen (Metaphors in metaheuristics - a symptom of a deeper ailment?). A total of 218 papers were presented: 113 in EvoApplications, 36 in EuroGP, 44 in EvoCOP, and 25 in EvoMUSART.
 
 Copenhagen (2015)
+
 The 18th edition took place between 08 and 10 April in the National Museum of Denmark in Copenhagen (Denmark) with Paolo Burelli and Sebastian Risi serving as local chair. Conference program chairs were Penousal Machado and Malcolm Heywood for EuroGP; Gabriela Ochoa and Francisco Chicano for EvoCOP; Colin Johnson and Adrián Carballal for EvoMUSART; Antonio Mora for EvoApplications. Giovanni Squillero, João Correia, and James McDermott were Publication Chairs of the different events. Pablo García Sánchez was the Publicity Chair, while Jennifer Willies, the Coordinator. The invited speakers were Pierre-Yves Oudeyer (Open-Source Baby Robots for Science, Education and Art) and Paulien Hogeweg (Non-random random mutations: Evolution of Genotype-Phenoptype mapping). A total of 133 papers were presented: 73 in EvoApplications, 18 in EuroGP, 19 in EvoCOP, and 23 in EvoMUSART.
 
 Málaga (2012)
+
 EvoStar 2012 took place in Málaga (Spain), in the premises of the School of Computer Science and Telecommunications (Spanish: ETSI Informática y Telecomunicaciones) of the University of Málaga, 11–13 April. This edition was locally chaired by Carlos Cotta, and comprised five conferences, namely EuroGP, EvoCOP, EvoMUSART, EvoApplications (which in turn comprised 11 tracks), and EvoBIO, as well as a novel event termed EvoTransfer, oriented to present prospects for practical applications to an audience composed of company representatives. The global conference programme was composed of 144 articles, arranged in 42 sessions, plus two plenary talks by Dario Floreano (on bio-inspired flying robots) and by Marco Tomassini (on evolutionary game theory). During the conference gala dinner held in St. Katherine's Castle Castillo de Santa Catalina, Günther R. Raidl received the 2012 Award for Outstanding Contribution to EC in Europe for his championing role in evolutionary combinatorial optimization.
 
 Torino (2011)
+
 EvoStar 2011 took place in Turin (Italy), in the premises of the Molecular Biotechnology Center of the University of Turin, 27–29 April. This edition was locally chaired by Mario Giacobini, and comprised four conferences, namely EuroGP, EvoCOP, EvoBio, EvoApplications (which in turn comprised 13 tracks). The global conference programme was composed of 157 articles (29 in EuroGP, 22 in EvoCOP, 19 in EvoBio and 87 in EvoApplication),  plus two plenary talks by Craig Reynolds (computer graphics) (on Goal-oriented texture synthesis) and by Jean-Pierre Changeux (on Models of the brain: from genes to consciousness).
 
 Istanbul (2010)
+
 EvoStar 2010 took place in Istanbul (Turkey), in the premises of the ITU Suleyman Demirel Cultural Center  of the Istanbul Technical University, 7–9 April. The conference was locally chaired by Şima Uyar. Stephen Dignum served as Publicity Chair and Jennifer Willies as coordinator. It consisted of three conferences, EuroGP, EvoCOP and EvoBIO, a series of 11 EvoWorkshops and EvoPhD, the Graduate Student Workshop on Evolutionary Computation. Invited plenary speakers were Kevin Warwick, Jens Gottlieb and Günther Raidl.
 
 Tübingen (2009)
+
 EvoStar 2009 took place in Tübingen (Germany), at Eberhard-Karls-Universität Tübingen, 15-17 April. The conference was locally chaired by Marc Ebner. Leonardo Vanneschi and Steven Gustafson served as EuroGP Program Chairs. Ivanoe De Falco and Antonio Della Cioppa served as Publicity Chairs and Jennifer Willies as coordinator. It consisted of three conferences, EuroGP, EvoCOP and EvoBIO, a series of 11 EvoWorkshops. Invited plenary speakers were Stuart Hameroff and Peter Schuster. EuroGP Proceedings were published in LNCS 5481.
 
 Naples (2008)
+
 The 2008 edition of EvoStar took place in Naples (Italy), in the premises of the Centro Congressi Federico II  of the University of Naples Federico II, 26–28 March. The conference was locally chaired by Ivanoe De Falco, Antonio Della Cioppa and Ernesto Tarantino. Anna I Esparcia-Alcázar served as Publicity Chair and Jennifer Willies as coordinator. It consisted of three conferences, EuroGP, EvoCOP and EvoBIO, and a series of 8 EvoWorkshops. Invited plenary speaker were Hans-Paul Schwefel and Stefano Nolfi.
 
 Valencia (2007)
+
 The first edition under the umbrella name EvoStar took place in Valencia (Spain) in the Universitat Politécnica de Valencia (UPV), with Anna I Esparcia-Alcázar as local chair, Leonardo Vanneschi as Publicity Chair and Jennifer Willies as coordinator. It consisted of three conferences, EuroGP, EvoCOP and EvoBIO and the series of EvoWorkshops. Marc Ebner and Michael O'Neill were co-chairs of EuroGP, with Anikó Ekárt as Publication chair; Carlos Cotta and Jano van Hemert were co-chairs of EvoCOP; Elena Marchiori, Jason H Moore and Jagath C. Rajapakse were co-chairs of EvoBIO and Mario Giacobini was coordinator of EvoWorkshops, which consisted of seven workshops: EvoCOMNET, EvoFIN, EvoIASP, EvoINTERACTION, EvoMUSART, EvoSTOC and EvoTRANSLOG. A total of 163 papers were presented: 35 in EuroGP, 21 in EvoCOP, 28 in EvoBIO and 79 in EvoWorkshops. Invited speakers were Ricard Solé, Alan Bundy and Chris Adami.
 
 Areas
+
 The areas covered include both theoretical aspects and applications of evolutionary computation, in particular genetic programming, and hybridization with other metaheuristics.
 
 Competitions
 A number of competitions have been held throughout the history of EvoStar, specifically in 2010 and 2011. These have been frequently related to the evolutionary games and arts and design areas.
+
 Of particular relevance has been the Mario AI Championship
 
 Art exhibitions
+
 The first curated evolutionary art exhibition linked to EvoStar was held in Budapest in 2006, in the ArtPool P60 space, and run under the title Process revealed. Nineteen works from 8 different countries were presented, with Janis Jefferies and Tim Blackwell acting as curators.
+
 The following year, ArtEscapes - Variations of life in the media arts was launched in Valencia in conjunction with the 2007 edition of EvoStar, and spanning 5 more weeks. Anna I Esparcia-Alcázar and Paulo Urbano curated 22 works, with artists coming from 11 countries around the globe.
 
 Proceedings
+
 Proceedings of the EvoStar conferences are published by Springer in the Lecture Notes in Computer Science (LNCS) series.
+
 EuroGP - EvoAPPLICATIONS (formerly evoWorkshops)- EvoCOP -- EvoMUSART
 
 2025 LNCS 15612: EuroGP 2025, LNCS 15609: EvoAPPS 2025, LNCS 15612 and 15613: EvoCOP 2025 LNCS 15610: EvoMUSART 2025 LNCS 15611:
+
 2024 LNCS 14631: EuroGP 2024, LNCS 14631: EvoAPPS 2024, LNCS 14634 and 14635: EvoCOP 2024, LNCS 14632: EvoMUSART 2024, LNCS 14633:
+
 2023 LNCS 13986: EuroGP 2023, LNCS 13989: EvoAPPS 2023, LNCS 13987: EvoCOP 2023,  LNCS 13988: EvoMUSART 2023
 2022 LNCS 13223: EuroGP 2022, LNCS 13224: EvoAPPS 2022, LNCS 13222: EvoCOP 2022, LNCS 13221: EvoMUSART 2022
 2021 LNCS 12691: EuroGP 2021, LNCS 12694: EvoAPPS 2021, 12692: EvoCOP 2021, LNCS 12693: EvoMUSART 2021
@@ -148,39 +224,63 @@ EuroGP - EvoAPPLICATIONS (formerly evoWorkshops)- EvoCOP -- EvoMUSART
 2015 LNCS 9025 EuroGP 2015, LNCS 9026 EvoCOP 2015, LNCS 9027 EvoMUSART 2015, LNCS 9028 EvoApplications 2015,
 2014 LNCS 8599 EuroGP 2014 LNCS 8600 EvoCOP 2014 LNCS 8601 EvoMUSART 2014 LNCS 8602 EvoApplications 2014
 2013 LNCS 7831 - 7835
+
 2012 LNCS 7244 EuroGP 2012, 7245 EvoCOP 2012, 7246 EvoBIO 2012, 7247 EvoMUSART 2012, 7248 EvoApplications 2012
 2011 LNCS 6621 EuroGP 2011 LNCS 6622 EvoCOP 2011 LNCS 6623 EvoBIO 2011 LNCS 6624 EvoApplications 2011 (part I) LNCS 6625 EvoApplications 2011 (part II)
 2010 LNCS 6021, 6022, 6023, 6024, 6025
+
 2009 LNCS 5481 - 5484
+
 2008 LNCS 4971, 4972, 4973, 4974
+
 2007 LNCS 4445, 4446, 4447, 4448
+
 2006 LNCS 3905, 3906 3907
+
 2005 LNCS 3447, 3448, 3449
+
 2004 LNCS 3003, 3004, 3005
+
 2003 LNCS 2610, 2611
+
 2002 LNCS 2278, 2279
+
 2001 LNCS 2037 2038
+
 2000 LNCS 1802, 1803
+
 1999 LNCS 1596, 1598
+
 1998 LNCS 1391
 
 Current chairs
+
 EuroGP: Luca Manzoni & Sylvain Cussat-Blanc & Qi Chen
+
 EvoApplications: Pablo García-Sánchez & Josefa Díaz-Álvarez & Aidan Murphy
+
 EvoCOP: Martin Krejca & Nelishia Pillay
+
 EvoMUSART:  Penousal Machado & Juan J. Romero & Sérgio Rebelo
+
 Coordinator: Anna Esparcia-Alcázar
+
 Publicity chair: João Correia
+
 Web & Media chair: Francis Chicano
+
 Electronic resources coordinator: Nuno Lourenço
 
 EvoStar Award
+
 The EvoStar Award for Outstanding Contribution to Evolutionary Computation in Europe was established in 2006 and its first recipient was Jennifer Willies.
 
 The full list of recipients is as follows:
 
 Keynote speakers
+
 Outstanding Students
+
 The EvoStar Outstanding Student Mentions were established in 2018 in order to recognise the good work of EvoStar students, who represent the future of the evolutionary computation community. Papers were selected that had obtained an overall review score greater than or equal to a given mark or that had been nominated for a Best Paper Award, and whose first author was a student registered to attend EvoStar. In 2020 a new category was added, Recent Graduates, to include authors who had carried out the work presented as students and who had graduated since the time of submission. Following these rules the Outstanding Students mentions were as follows:
 
 2018 :   Filipe Assunção, Mosab Bazargani,  Alexander Berman,    Sondre Engebraten,  Tiago Martins,   Almuth Meier,   Rafaela Priscila Cruz Moreira,     Robert Jacob Smith,    Sara Tari,    Sarah Louise Thomson,    Laura Sani

@@ -1,18 +1,29 @@
 Dia is a proprietary, Chromium-based web browser developed by The Browser Company of New York. The browser integrates an AI assistant that users can interact with through the browser interface, including asking questions about open tabs and generating text based on tab content. In 2025, the company introduced a paid subscription tier for expanded AI usage. The Browser Company was acquired by Atlassian in 2025.
 
 History
+
 Dia was first publicly revealed in late 2024 as The Browser Company's next browser after Arc, with an emphasis on making AI a core part of the browsing experience.
+
 In 2025, The Browser Company announced it would stop developing new features for Arc and shift its focus toward Dia, while continuing to provide maintenance updates for Arc.
+
 Dia entered beta in June 2025. TechCrunch reported that Dia is based on Chromium and that its AI assistant is integrated into the browser's URL bar, supporting chat and web search behaviors in one interface.
+
 In August 2025, The Browser Company introduced a paid subscription tier, Dia Pro, priced at US$20 per month, which provides expanded or unlimited access to certain AI features.
+
 In September 2025, Atlassian announced an agreement to acquire The Browser Company for US$610 million. Atlassian later announced it had completed the acquisition in October 2025.
+
 In October 2025, Dia became broadly available to macOS users without an invitation, following an earlier waitlist period.
 
 Features
+
 TechCrunch described Dia as presenting a conventional browser layout while centering its AI assistant as a primary interaction point, including the ability to ask questions about open tabs and generate drafts based on tab content.
+
 Dia includes a feature called "Skills" for task-oriented shortcuts. MacRumors reported that Skills include both built-in and user-created actions for workflows such as summarization, outlining, planning, writing, and coding.
+
 TechCrunch also reported optional features for personalization, including allowing the assistant to use a limited amount of browsing history as context for responses.
 
 Availability and pricing
+
 As of October 2025, Dia was available to the general public on macOS. MacRumors reported that it requires macOS 14 or later and Apple silicon hardware.
+
 The Browser Company introduced a free tier and a paid subscription, Dia Pro, priced at US$20 per month. The Verge reported that the paid tier provides expanded or unlimited access to the browser's AI chat features, while the free tier remains available with usage limitations.

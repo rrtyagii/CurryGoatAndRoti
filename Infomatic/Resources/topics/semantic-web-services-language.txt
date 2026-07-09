@@ -1,6 +1,9 @@
 The Semantic Web Services Language (SWSL) is a general-purpose logical language for specifying Semantic Web Services Ontologies (SWSOs), as well as individual Web services. The Semantic Web Services Language (SWSL) describes the syntax elements of SWSL and its semantic and semantic foundations. It can be used with the underlying language and network structure of Semantic Web Services. Syntactically, first-order logic (including all connections used in first-order logic) is a subset of the Semantic Web Services Language (SWSL).
+
 The Semantic Web Services Language consists of two different basic languages: Declarative Logic Programs (SWSL Rule) and First Order Classical Logic (SWSL-FOL). Semantically, the two sub-language of SWSL are incompatible, but the two sub-language can cooperate.
+
 SWSL-Rules is a non-monotonic semantic and rule-based language. SWSL-FOL is a complete first word logic language.
+
 SWSL-FOL and SWSL-Rules follow the semantics of the Semantic Web Services Language (SWSL).
 
 Background
@@ -8,72 +11,111 @@ Twelve authors from the National Institute of Standards and Technology (NIST), N
 
 Semantic Web Services Language (SWSL)
 Semantic Web Services Framework (SWSF) Overview
+
 Semantic Web Services Ontology (SWSO)
+
 SWSF Application Scenarios
+
 The four documents defined the Semantic Web Services Framework (SWSF). The Semantic Web Services Framework (SWSF) includes Ontology Semantic Web Services Ontology (SWSO) and Descriptive Language Semantic Web Services Language (SWSL) . The Semantic Web Service Ontology (SWSO) and Semantic Web Services Language (SWSL) semantics can work together to accomplish tasks.
+
 The Semantic Web Services Ontology (SWSO) is expressed in both FLOWS and ROWS. FLOWS is the First-order Logic Ontology for Web Services; ROWS is the Rules Ontology for Web Services.
+
 Semantic Web Services Ontology (SWSO) develops a first-order logic language along with its sister general-purpose logic language Semantic Web Services Language (SWSL). The expected semantics of the concepts in FLOWS in the Semantic Web Services Ontology (SWSO) can be used in SWSL-FOL; partial semantics of ROWS can also be used in SWSL-Rules.
 
 Uses of SWSL
+
 The Semantic Web Services Language (SWSL) features include URIs, integration of XML built-in types, and XML-compatible namespaces and import mechanisms. Semantic Web Services Language (SWSL) works with the basic language of the Web to meet the requirements of a single Semantic Web Service and Semantic Web Service Ontology (SWSO).
+
 The use of The Semantic Web Services Language (SWSL) also includes helping SWSL-Rules work with SWSL-FOL.
+
 Developed with Semantic Web Services Language (SWSL) is FLOWS, which provides a framework for description and reasoning services.
 
 The cases of Semantic Web Services Language (SWSL)
+
 Negotiation and contracting
+
 When shopping online, buyers and sellers represent “a financing service” and “a delivery service”  respectively. When there is a natural conflict of interest between the parties: the seller wants to sell the goods, the buyer wants to benefit from the loss of the goods.
+
 Process Modeling
+
 Process Modeling can be easily divided into three steps: Generic Planning Services; Single or Multiagent Plan Coordination Service and e-Service Composition in a Behavior based Framework.
 1. Generic Planning Services: "This is an example of a service to support the selection or generation of plans and their reliable execution."
 2.Single or Multiagent Plan Coordination Service: Single or Multiagent Plan The nature of the Coordination Service is a service, which is designed to coordinate multiple or one plan, handle conflicts and take advantage of collaboration opportunities.
+
 3.e-Service Composition in a Behavior based Framework: e-Service is an operation of outputting and inputting parameters. Under the conditions and effects of both message-based and activity-based, the interactive e-Service can have different combinations. The result of composition can be divided into one-time and reusable. One-time means that the combined results can only be used once and cannot be used for requests from other users. Reusable means that the combined result can be used multiple times and can be used for requests from other users.
+
 Process Enactment
+
 This section shows an example of SWSL using DAML-S, and the services of federated resource coordination operations are constrained by heterogeneous distributed policy sets.
 
 SWSL-FOL
+
 Definition
+
 SWSL-FOL, which is SWSL-First-order Logic, is a complete first word logic language that extends HiLog's functionality and F-Logic's frame syntax. SWSL-FOL has a Layers structure.
+
 SWSL-FOL and SWSL-Rules are sub-language of the Semantic Web Services Language. There is a grammatical overlap between the two. Although each connection used by SWSL-FOL can be used for SWSL-Rules, this does not mean that SWSL-FOL is a subset of the SWSL rules.
 
 The Syntax And Semantic Extension Of SWSL-FOL
+
 The most basic syntax and semantics of SWSL-FOL's syntax and semantics is SWSL-FOL. Three other enhancements based on SWSL-FOL include: SWSL-FOL + Equality, SWSL-FOL + HiLog and SWSL-FOL + Frames. This helps the SWSL-FOL language to have more powerful features.
 
 The SWSL-FOL + Equality formula adds an equality operator based on SWSL-FOL:=:.In this situation, the end of the SWSL-FOL formula uses the (".") symbol.The SWSL-FOL + HiLog formula extends the object-oriented syntax of the Frames layer of SWSL-Rules.This formula extends the semantics and syntax usage rules of the HiLog and HiLog atomic formulas to extend SWSL-FOL. The combination of SWSL-FOL + Equality and SWSL-FOL + HiLog can also extend the syntax and semantics of SWSL-FOL + HiLog, but this does not help SWSL-FOL + Equality upgrade syntax and semantics.The SWSL-FOL + Frames formula extends the object-oriented syntax of the HiLog layer of SWSL-Rules.The combination of SWSL-FOL + Equality and SWSL-FOL + Frame can extend the semantics and syntax of both formulas simultaneously.
 
 Uses
+
 SWSL-FOL is mainly used to express the formal characteristics of Web services concepts and Semantic Web services, especially the process model:
+
 The composition of the service and the process model;
+
 Verification and verification services after analysis of the process model;
+
 SWSL-FOL is in the form of first-order classical logic.
+
 SWSL-FOL applies the ability to oppose reasoning and/or presence to many use case scenarios and can be used to formally specify service features.
 
 SWSL-Rules
+
 Definition
+
 SWSL-Rules, which is Declarative Logic Programs, is a non-monotonic semantic and rule-based language. SWSL-Rules is not first-order. SWSL-Rules has a Layers structure.
+
 Among them, the pure Horn subset in SWSL-Rules constitutes the core of the SWSL-Rules.
 
 The Syntax And Semantic Extension Of SWSL-Rules
+
 SWSL-Rules is a Declarative Logic Programs that combines different layers of SWSL-Rules syntax and semantics into a knowledge representation language. The structure of SWSL-Rules can be easily divided into NAF, Courteous, HiLog, Frames and Reification layers. In the SWSL-Rules different branches are orthogonal and can be combined.
+
 NAF indicates the negation and failure of SWSL-Rules in the semantic sense. The Courteous extension features SWSL-Rules, adding syntax to limit classic negation and priority rules. Nonmon LT extends the semantics and syntax of SWSL-Rules by extending the meaning of quantifiers and rule bodies. HiLog belongs to the first order, enabling highly metaprogramming by allowing variables to transcend predicate symbols, function symbols, and formulas.
+
 Frames layer introduces the most common object-oriented features. Both the HiLog and Frames layers extend the syntax and semantics of SWSL-Rules at different levels in different ways. The Reification layer is used to create objects with WSL-Rules formulas. The Lloyd-Topor extension and the Courteous rule extension provide all normal first-order connections for SWSL rules.
+
 Therefore, the syntax SWSL rule contains all the connections of the complete first-order logic, which provides a bridge for SWSL-FOL.
 
 Uses
+
 SWSL-Rules is mainly used to express the formal characteristics of Web services concepts and Semantic Web services, especially the process model:
 
 rust in security, privacy and confidentiality authorization policies;
 Contracts and advertising;
+
 Supervise certain procedures for identifying and resolving anomalies;
+
 Semantic mediation of translation between different ontology or context;
+
 Use an object-oriented ontology with default inheritance with priority and/or cancellation (for example, in the Program Manual. The logically non-monotonic nature of SWSL rules is widely used for negative failures and/or polite priority conflict handling and similar events.
+
 SWSL-FOL applies the ability to oppose reasoning and/or presence to many use-case scenarios that can be used to formalize service features, while SWSL rules are used to infer these features and perform service.
 
 Language
+
 The Layered Structure
+
 The semantics and syntax within the layer enhance the language modeling capabilities of SWSL. It makes it easier for learners and administrators to learn and manipulate the language and understand the relationships between different functions within the layer.
 In addition, the semantics and syntax of the sub-language SWSL-Rules or SWSL-FOL inside SWSL is usually extended by updating most of the layers that are the core of the language. The layers are independent of each other, but can be combined with each other, and the specific combination is different in the two sub-language. This can provide some guidance for vendors who may only be interested in a particular subset of features.
 
 Main layers
+
 The Monotonic Lloyd-Topor Layer
 The Monotonic Lloyd-Topor Layer extends the Horn layer by using Disjunction in the rule body; Conjunction in the rule head; and allowing new symbols of classical implication to be used in the rule head.
 
@@ -81,11 +123,15 @@ The forms of classical implication: formula1 ==> formula2; formula1 <== formula2
 The new symbols of classical implication in Monotonic Lloyd-Topor Layer: formula1 <==> formula2
 
 The NAF Layer
+
 The NAF layer add the negation-as-failure symbol, naf.
+
 The form of NAF layer: p(?X,?Y) :- q(?X,?Z) and naf r(?Z,?Y)
+
 The NAF layer extends the semantics of SWSL-Rules by adding a negative failure symbol naf. The main advantage of this semantic is that it is easy to calculate, and the definition of its model is unique.
 
 The form before the NAF layer extends naf syntax: ... :- ... and naf r(?X) and ...
+
 The form after the NAF layer extends naf syntax: ... :- ... and ∃ X (naf r(?X)) and ...  or  ... :- ... and ∀ X (naf r(?X)) and ...
 
 The Nonmonotonic Lloyd-Topor Layer
@@ -93,16 +139,21 @@ The Nonmonotonic Lloyd-Topor Layer introduces explicit bounded quantifiers: <==,
 For example, classical implication A <== B is interpreted in a non-classical way: as (A or naf B) rather than (A or neg B).
 
 The Courteous Rules Layer
+
 The Courteous Rules Layer is upgraded for conflict handling, and syntax and semantics extend four new features:
 
 Rule labels: The name that prioritizes between rules. The form of rule labels in Courteous Rules Layer :{label} head :- body.
+
 Classical negation of atoms; prioritization predicate: rules can be sorted by priority
 
 The HiLog Layer
+
 The HiLog Layer extends the first-order syntax of Semantic Web Services Language (SWSL)  by allowing variables to be used beyond the function notation, predicate symbol, and atomic formula range. The expanded functionality of The HiLog Layer supports materialization and plays a key role in exploring unknown knowledge structures.
+
 "HiLog term (abbr., H-term): A HiLog term is either a first-order term or an expression of the following form: t(t1,...,tn), where t, t1, ..., tn are HiLog terms."
 
 The Equality Layer
+
 The Equality Layer adds a complete equality predicate to the Semantic Web Services Language (SWSL)  that obeys the equal congruence axioms of equality, :=: .
 
 The equality predicates in The Equality Layer are transitive and symmetrical.

@@ -1,10 +1,13 @@
 HKChat (Chinese: 港話通) is a large language model-based chatbot developed by HKChat OmniServe Limited in Hong Kong (Chinese: 港話通全維服務有限公司).
 
 History
+
 The public beta version of HKChat was released on 20 November 2025. However, it was not released without instability and hallucinations.
 
 Features
 
 On 29 August 2025, SUNeVision established HKChat OmniServe Limited, by successfully developing a AI large language model specifically designed for Hong Kong.
+
 HKChat is based on the HKGAI V1 model developed by the Hong Kong Generative AI R&D Center (Chinese: 香港生成式人工智能研發中心) which is essentially the localized DeepSeek model with Hong Kong data and values.
+
 HKChat is designated to answer questions related to daily life in Hong Kong while being capable of providing preliminary legal advice and translating texts in English and Chinese.

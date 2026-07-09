@@ -1,4 +1,7 @@
 A fuzzy relation is the cartesian product of mathematical fuzzy sets. Two fuzzy sets are taken as input, the fuzzy relation is then equal to the cross product of the sets which is created by vector multiplication. Usually, a rule base is stored in a matrix notation which allows the fuzzy controller to update its internal values.
+
 From a historical perspective, the first fuzzy relation was mentioned in the year 1971 by Lotfi A. Zadeh.
+
 A practical approach to describe a fuzzy relation is based on a 2d table. At first, a table is created which consists of fuzzy values from 0..1. The next step is to apply the if-then-rules to the values. The resulting numbers are stored in the table as an array.
+
 Fuzzy relations can be utilized in fuzzy databases.

@@ -1,26 +1,39 @@
 Effective accelerationism (e/acc) is a 21st-century ideological movement that advocates for an explicitly pro-technology stance. Its proponents believe that unrestricted technological progress, especially driven by artificial intelligence, is a solution to universal human problems, such as poverty, war, and climate change. They perceive themselves as a counterweight to more cautious views on technological innovation and often label their opponents derogatorily as "doomers" or "decels" (short for decelerationists).
+
 The movement carries utopian undertones and advocates for faster AI progress to ensure human survival and propagate consciousness throughout the universe.
+
 Although effective accelerationism has been described as a fringe movement and as cult-like, it has gained mainstream visibility in 2023. A number of high-profile Silicon Valley figures, including investors Marc Andreessen and Garry Tan, explicitly endorsed it by adding "e/acc" to their public social media profiles.
 
 Etymology and central beliefs
+
 Effective accelerationism, a portmanteau of "effective altruism" and "accelerationism", is a fundamentally techno-optimist movement. According to Guillaume Verdon, one of the movement's founders, its aim is for human civilization to "clim[b] the Kardashev gradient", meaning its purpose is for human civilization to rise to next levels on the Kardashev scale by maximizing energy usage.
+
 To achieve this goal, effective accelerationism wants to accelerate technological progress. It is strongly focused on artificial general intelligence (AGI), because it sees AGI as fundamental for climbing the Kardashev scale. The movement therefore advocates for unrestricted development and deployment of artificial intelligence. Regulation of artificial intelligence and government intervention in markets more generally is met with opposition. Many of its proponents have libertarian views and think that AGI will be most aligned if many AGIs compete against each other on the marketplace.
+
 The founders of the movement see it as rooted in Jeremy England's theory on the origin of life, which is focused on entropy and thermodynamics. According to them, the universe aims to increase entropy, and life is a way of increasing it. By spreading life throughout the universe and making life use up ever increasing amounts of energy, the universe's purpose would thus be fulfilled.
 
 History
+
 Intellectual origins
+
 While Nick Land is seen as the intellectual originator of contemporary accelerationism in general, the precise origins of effective accelerationism remain unclear. The earliest known reference to the movement can be traced back to a May 2022 newsletter published by four pseudonymous authors known by their X (formerly Twitter) usernames @BasedBeffJezos, @bayeslord, @zestular and @creatine_cycle.
+
 Effective accelerationism is an extension of the TESCREAL movement, being etymologically derived from Effective Altruism and heavily rooted in the older Silicon Valley subcultures of transhumanism and extropianism (which similarly emphasized the value of progress and resisted efforts to restrain the development of technology), alongside elements of singularitarianism, cosmism, and longtermism. It is also often considered to have emerged at least in part from the work of the Cybernetic Culture Research Unit (of which Nick Land was a leading member, alongside writers such as Mark Fisher and Sadie Plant). It is sometimes compared and contrasted with the work of philosopher Benjamin Bratton on planetary computation.
 
 Disclosure of the identity of BasedBeffJezos
+
 Forbes disclosed in December 2023 that the @BasedBeffJezos persona is maintained by Guillaume Verdon, a Canadian former Google quantum computing engineer and theoretical physicist. The revelation was supported by a voice analysis conducted by the National Center for Media Forensics of the University of Colorado Denver, which further confirmed the match between Jezos and Verdon. The magazine justified its decision to disclose Verdon's identity on the grounds of it being "in the public interest".
+
 On 29 December 2023 Guillaume Verdon was interviewed by Lex Fridman on the Lex Fridman Podcast and introduced as the "creator of the effective accelerationism movement."
 
 Second Trump presidency
+
 Following Donald Trump's victory in the 2024 U.S. presidential election, several prominent tech industry figures expressed support for positions aligned with effective accelerationism, particularly regarding deregulation and technological advancement. The potential appointment of Elon Musk to government roles focused on auditing federal programs drew support from venture capitalists who anticipated reduced regulatory oversight of the technology sector.
+
 Notable tech figures publicly connected these developments to the movement's principles. Aaron Levie, CEO of Box, expressed support for "removing unnecessary red tape and over-regulation", while Mark Pincus, early Facebook investor and Zynga founder, explicitly referenced "effective accelerationism" in his post-election commentary. Venture capitalists viewed the incoming administration as an opportunity to ease regulations that had affected technology mergers and acquisitions during the previous years.
 
 Relation to other movements
+
 Traditional accelerationism
 Traditional accelerationism, as developed by the British philosopher Nick Land, sees the acceleration of technological change as a way to bring about a fundamental transformation of current culture, society, and the political economy. This is done through capitalism, which Land views as "an autonomous force that’s reconfiguring society" that can overcome its limits if intensified. Land's work has also been characterized as concerning "the supposedly inevitable 'disintegration of the human species' when artificial intelligence improves sufficiently." While both concern ideas like a technocapital singularity and AGI progress, effective accelerationism focuses on using AGI for the greatest ethical good for conscious life and civilization (whether human or machine), as well as expanding civilization and maximizing energy usage in order to align with the "will of the universe". Land focuses on capitalist self-optimization as the driver of modernity, progress, and the eroding of existing social orders. Land has expressed support for effective accelerationism, while Thomas Murphy referred to the movement as "Nick Land diluted for LinkedIn."
 
@@ -31,5 +44,7 @@ Degrowth
 Effective accelerationism also stands in stark contrast with the degrowth movement, sometimes described by it as "decelerationism" or "decels". The degrowth movement advocates for reducing economic activity and consumption to address ecological and social issues. Effective accelerationism on the contrary embraces technological progress, energy consumption and the dynamics of capitalism, rather than advocating for a reduction in economic activity.
 
 Reception
+
 The "Techno-Optimist Manifesto", a 2023 essay by Marc Andreessen, has been described by the Financial Times and the German Süddeutsche Zeitung as espousing the views of effective accelerationism. Mother Jones also characterized it as expressing effective accelerationism and reported that Andressen cited Land's work.
+
 David Swan of The Sydney Morning Herald has criticized effective accelerationism due to its opposition to government and industry self-regulation. He argues that "innovations like AI needs thoughtful regulations and guardrails [...] to avoid the myriad mistakes Silicon Valley has already made." During the 2023 Reagan National Defense Forum, U.S. Secretary of Commerce Gina Raimondo cautioned against embracing the "move fast and break things" mentality associated with "effective acceleration [sic]". She emphasized the need to exercise caution in dealing with AI, stating "that's too dangerous. You can't break things when you are talking about AI." In a similar vein, Ellen Huet argued on Bloomberg News that some of the ideas of the movement were "deeply unsettling", focusing especially on Guillaume Verdon's "post-humanism" and the view that "natural selection could lead AI to replace us as the dominant species."

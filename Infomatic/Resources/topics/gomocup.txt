@@ -1,16 +1,23 @@
 Gomocup is a worldwide tournament of artificial intelligences (AI) playing Gomoku and Renju. The tournament has been played since 2000 and takes place every year.  As of 2016, it is the most famous and largest Gomoku AI tournament in the world, with around 40 participants from about 10 countries.
 
 Rules
+
 Gomocup has been played in the freestyle Gomoku rule with the board size of 20 since it was started in 2000. In 2009, the standard Gomoku rule was added into Gomocup as a tournament, in which the board size is 15 and more than five in a row is not considered to be a win. In 2016, the Renju rule was also added into Gomocup, with a board size of 15 and forbidden moves for black. In particular, since there are a large number of participants in the freestyle Gomoku tournament, the freestyle Gomoku tournament is divided into several leagues, and the fast game tournament is introduced.
+
 To get rid of the fact that there is a winning strategy for the player who plays first in Gomoku, balanced openings have been prepared by Gomoku experts since 2006. Games would be started from these balanced openings, and neither side would have a big advantage from the very beginning.
 
 AI vs. Human Tournament
+
 There were two AI vs. Human tournaments held in the Czech Republic in 2006 and 2011.
+
 In 2006, the top 3 programs in Gomocup had a tournament with 3 of the top 10 players in Piškvorky online. There were 2 games between each pair of AI and human players. The result was one win, one draw and one loss for AIs, and the total score was 3:3.
+
 In 2011, the tournament was between the top 4 programs in Gomocup and 4 players at the top of the Czech Gomoku rating list. Similar to the 1st tournament, there were 2 games between each pair of AI. This time there were 3 draws and 1 win for AIs, and the total score was 5:3.
 
 Elo Rating
+
 The Elo rating system for Gomocup was built in 2016 and calculated with all the historical tournament results ever since. The rating is calculated with the open-source tool BayesElo, with a few parameters modified to get adapted to the Gomoku game. There is a rating list for each game rule. The Elo ratings are updated every year after the Gomocup tournament finishes.
 
 Results
+
 The results for the Gomocup tournaments since 2000 is in the following.

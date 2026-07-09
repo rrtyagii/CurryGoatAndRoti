@@ -1,32 +1,51 @@
 Babak Hodjat (Persian: بابک حجت; born November 1, 1967) is a British computer scientist, entrepreneur, and writer. He was the co-founder and CEO of Sentient Technologies and now holds the position of Chief Technology Officer AI at Cognizant. He is a specialist in the field of artificial intelligence and machine learning. In 1998 Hodjat co-founded Dejima Inc and served as CEO and CTO, his patented work on artificial intelligence led to the technology used by Apple for their digital assistant Siri.
 
 Biography
+
 Early life
+
 Babak Hodjat was born on November 1, 1967, in Wimbledon. His father was a retired university professor in entomology who worked at the British Museum. As a child, he did not like insects and would wander off to the nearby science museum, where he would spend long hours in front of a computer they had on display. He attended middle school in the United States. He studied at the Sharif University of Technology from 1986 to 1995, and received his Master of Science degree in software engineering. In 1994, together with another computer department student Hormoz Shahrzad  presented their research titled Introducing a dynamic problem solving scheme based on a learning algorithm in artificial life environments at the first IEEE Conference on Computational Intelligence held at Orlando.
+
 Hodjat received a PhD in machine intelligence from Kyushu University in 2003  During his time there, he published several works on adaptive agent oriented software architecture and natural language user interfaces.
 
 Career in science and business
+
 Hodjat moved to Silicon Valley, California in 1998 and founded Dejima Inc. (named after the historic Japanese Dejima artificial island). The firm was based on a patented adaptive agent-oriented software engineering platform developed by Hodjat, Christopher Savoie and Makoto Amamiya. Hodjat served as the CTO and as the CEO for 9 months from October 2000. By 2000 the company had offices in San Jose, London and  Tokyo.
 In 2002, the company developed a voice control Natural Interaction Platform (NPI) in collaboration with the Stanford University's research group Archimedes Project. During these years Hodjat continued his research on agent oriented software architecture and natural language user interfaces. In July 2003, Dejima got funding from SRI International within the Cognitive Assistant that Learns and Organizes (CALO) project of DARPA and worked on a Perceptive Assistant that Learns (PAL) initiative.  Hodjat was the primary inventor of the firm's  agent-oriented technology applied to intelligent interfaces for mobile and enterprise computing – a technology that eventually led to Siri.
 In April 2004, Dejima was acquired by Sybase iAnywhere.  Hodjat served as senior director of engineering at Sybase iAnywhere from 2004 to 2008, where he developed  AvantGo Platform, mBusiness Anywhere, and Answers Anywhere. In 2006, he co-founded MobileVerbs Inc., a mobile marketing service company, which was  acquired by iLoop Mobile in February 2010.
+
 In 2007, he teamed with Antoine Blondeau (former CEO of Dejima) and Adam Cheyer (Dejima's vice president and Chief Architect of the CALO project) to establish Genetic Finance Holding Ltd. (where he began as CTO). In 2014 the firm became Sentient Technologies. Hodjat was joined by his long-time research fellow Hormoz Shahrzad who became principal scientist, while Hodjat held the position of chief scientist.
+
 In the following years Hodjat has worked on developing massively distributed computing technology and improving machine-learning technique known as evolutionary algorithms. One area that gained special attention from the press was applying Sentient Technologies algorithms to a stock market trading through specially created Sentient Investment Management hedge fund.
+
 Following the management change within Sentient Technologies, Hodjat became the company's CEO in February 2017. He continues his business and educational projects (he was on the jury of IBM Watson AI XPRIZE and the Merit Awards committee for the ISAL Award).
 
 Writing
+
 Hodjat is the author of The Konar and the Apple: Fun, Beauty, and Dread--From Ahwaz to California (January 2022; ISBN 978-1-7354860-1-7). An eight-year-old boy assigned the task of throwing flowers during the Shah's visit. A teenager in boot camp eager to catch episodes of a popular Japanese TV show. An adult coming to the United States, ready to make his mark in the tech world.
+
 These are just some of the personal experiences shaping Hodjat's intimate narrative of a boy growing up in post-revolutionary Iran. The stories paint a picture of a middle-class, westernized boy experiencing all the common—and uncommon—adventures of childhood and self-discovery.
+
 Blending both humor and insight, The Konar and the Apple transcends culture to celebrate the fun, innocence, and anticipation of growing up that unite us all.
+
 Hodjat has also written a science-fiction novella, "The Narrator" (March 2023; ISBN 978-1-7354860-0-0). Set in the near future, "The Narrator" is about an app that creates a story based on one’s life, complete with genres and characters to choose from. Fraught with suspense, The Narrator is a foreboding of the power of technology, and asks the urgent question: How much of our lives is guided by free will and can we get back control before it’s too late?
 
 Selected publications
+
 Hodjat, B.; Shahrzad, H. (1994). "Introducing a dynamic problem solving scheme based on a learning algorithm in artificial life environments". IEEE International Joint Conference on neural networks (IJCNN-94). Vol. 4. IEEE International Joint Conference on neural networks. pp. 2333–2338. doi:10.1109/ICNN.1994.374583. ISBN 978-0-7803-1901-1. S2CID 60497133.
+
 Hodjat, B.; Savoie, C.J.; Amamiya, M. (2006) [1998]. "An adaptive agent oriented software architecture". PRICAI'98: Topics in Artificial Intelligence. Springer. pp. 33–46. arXiv:cs/9812014. doi:10.1007/BFb0095256. ISBN 978-3-540-49461-4. S2CID 5317786.
+
 Hodjat, B.; Amamiya, M. (2000-05-25). "Applying the Adaptive Agent Oriented Software Architecture to the Parsing of Context Sensitive Grammars". IEICE Transactions on Information and Systems. E83-D (5): 1142–1152. ISSN 0916-8532. Retrieved 2017-12-14.
+
 Hodjat, Babak; Hodjat, Siamak; Treadgold, Nick; Jonsson, Ing-Marie (2006). "CRUSE: a context reactive natural language mobile interface". Proceedings of the 2nd annual international workshop on Wireless internet. WICON. doi:10.1145/1234161.1234181. ISBN 978-1-59593-510-6. S2CID 2388254.
+
 O'Reilly, Una-May; Wagy, Mark; Hodjat, Babak (2013). "Chapter 6: EC-Star: A Massive-Scale, Hub and Spoke, Distributed Genetic Programming System". In Riolo, R.; Vladislavleva, E.; Ritchie, M.; Moore, J.H. (eds.). Genetic Programming Theory and Practice X. Springer-Verlag New York. pp. 73–85. doi:10.1007/978-1-4614-6846-2. ISBN 978-1-4614-6845-5. S2CID 39650969. Retrieved 2017-12-14.
+
 Hodjat, Babak; Hemberg, Erik; Shahrzad, Hormoz; O'Reilly, Una-May (2014). "Chapter 4: Maintenance of a Long Running Distributed Genetic Programming System for Solving Problems Requiring Big Data". In Riolo, Rick; Moore, Jason H.; Kotanchek, Mark (eds.). Genetic Programming Theory and Practice XI. Springer-Verlag New York. pp. 65–83. doi:10.1007/978-1-4939-0375-7. ISBN 978-1-4939-0374-0. S2CID 28843739. Retrieved 2017-12-14.
+
 Shahrzad, Hormoz; Hodjat, Babak; Miikkulainen, Risto (2016). "Estimating the Advantage of Age-Layering in Evolutionary Algorithms". Proceedings of the Genetic and Evolutionary Computation Conference 2016. Genetic and Evolutionary Computation Conference. pp. 693–699. doi:10.1145/2908812.2908911. ISBN 978-1-4503-4206-3. S2CID 215516530.
 
 Patents
+
 Babak Hodjat holds 21 patents in the fields of agent-oriented programming, natural language decision engines, distributed evolutionary algorithms for asset management and trading and data mining.

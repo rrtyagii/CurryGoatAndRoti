@@ -1,21 +1,31 @@
 Context-adaptive binary arithmetic coding (CABAC) is a form of entropy encoding used in the H.264/MPEG-4 AVC and High Efficiency Video Coding (HEVC) standards. It is a lossless compression technique, although the video coding standards in which it is used are typically for lossy compression applications. CABAC is notable for providing much better compression than most other entropy encoding algorithms used in video encoding, and it is one of the key elements that provides the H.264/AVC encoding scheme with better compression capability than its predecessors.
+
 In H.264/MPEG-4 AVC, CABAC is only supported in the Main and higher profiles (but not the extended profile) of the standard, as it requires a larger amount of processing to decode than the simpler scheme known as context-adaptive variable-length coding (CAVLC) that is used in the standard's Baseline profile. CABAC is also difficult to parallelize and vectorize, so other forms of parallelism (such as spatial region parallelism) may be coupled with its use. In HEVC, CABAC is used in all profiles of the standard.
 
 Algorithm
+
 CABAC is based on arithmetic coding, with a few innovations and changes to adapt it to the needs of video encoding standards:
 
 It encodes binary symbols, which keeps the complexity low and allows probability modelling for more frequently used bits of any symbol.
+
 The probability models are selected adaptively based on local context, allowing better modelling of probabilities, because coding modes are usually locally well correlated.
+
 It uses a multiplication-free range division by the use of quantized probability ranges and probability states.
+
 CABAC has multiple probability modes for different contexts.  It first converts all non-binary symbols to binary. Then, for each bit, the coder selects which probability model to use, then uses information from nearby elements to optimize the probability estimate.  Arithmetic coding is finally applied to compress the data.
 
 The context modeling provides estimates of conditional probabilities of the coding symbols. Utilizing suitable context models, a given inter-symbol redundancy can be exploited by switching between different probability models according to already-coded symbols in the neighborhood of the current symbol to encode. The context modeling is responsible for most of CABAC's roughly 10% savings in bit rate over the CAVLC entropy coding method.
+
 Coding a data symbol involves the following stages.
 
 Binarization: CABAC uses Binary Arithmetic Coding which means that only binary  decisions (1 or 0) are encoded. A non-binary-valued symbol (e.g. a transform  coefficient or motion vector) is "binarized" or converted into a binary code prior to arithmetic coding. This process is similar to the process of converting a data symbol into a variable length code but the binary code is further encoded (by the arithmetic coder) prior to transmission.
+
 Stages are repeated for each bit (or "bin") of the binarized symbol.
+
 Context model selection: A "context model" is a probability model for one or more bins of the binarized symbol. This model may be chosen from a selection of available models depending on the statistics of recently coded data symbols. The context model stores the probability of each bin being "1" or "0".
+
 Arithmetic encoding: An arithmetic coder encodes each bin according to the selected probability model. Note that there are just two sub-ranges for each bin (corresponding to "0" and "1").
+
 Probability update: The selected context model is updated based on the actual coded value (e.g. if the bin value was "1", the frequency count of "1"s is increased).
 
 Example
@@ -30,17 +40,25 @@ If ek is small, then there is a high probability that the current MVD will have 
 4. Update the context models. For example, if context model 2 was selected for bin 1 and the value of bin 1 was "0", the frequency count of "0"s is incremented. This means that the next time this model is selected, the probability of a "0" will be slightly higher. When the total number of occurrences of a model exceeds a threshold value, the frequency counts for "0" and "1" will be scaled down, which in effect gives higher priority to recent observations.
 
 The arithmetic decoding engine
+
 The arithmetic decoder is described in some detail in the Standard. It has three distinct properties:
 
 Probability estimation is performed by a transition process between 64 separate probability states for "Least Probable Symbol" (LPS, the least probable of the two binary decisions "0" or "1").
+
 The range R representing the current state of the arithmetic coder is quantized to a small range of pre-set values before calculating the new range at each step, making it possible to calculate the new range using a look-up table (i.e. multiplication-free).
+
 A simplified encoding and decoding process is defined for data symbols with a near uniform probability distribution.
+
 The definition of the decoding process is designed to facilitate low-complexity
+
 implementations of arithmetic encoding and decoding. Overall, CABAC provides
 improved coding efficiency compared with CAVLC-based coding, at the expense of greater
 computational complexity.
 
 History
+
 In 1986, IBM researchers Kottappuram M. A. Mohiuddin and Jorma Johannes Rissanen filed a patent for a multiplication-free binary arithmetic coding algorithm. In 1988, an IBM research team including R.B. Arps, T.K. Truong, D.J. Lu, W. B. Pennebaker, L. Mitchell and G. G. Langdon presented an adaptive binary arithmetic coding (ABAC) algorithm called Q-Coder.
+
 The above patents and research papers, along several others from IBM and Mitsubishi Electric, were later cited by the CCITT and Joint Photographic Experts Group as the basis for the JPEG image compression format's adaptive binary arithmetic coding algorithm in 1992. However, encoders and decoders of the JPEG file format, which has options for both Huffman encoding and arithmetic coding, typically only support the Huffman encoding option, which was originally because of patent concerns, although JPEG's arithmetic coding patents have since expired due to the age of the JPEG standard. The first reported use of adaptive binary arithmetic coding in motion video compression was in a proposal by IBM researchers to the MPEG group in 1989. This proposal extended the use of arithmetic coding from intraframe JPEG to interframe video coding.
+
 In 1999, Youngjun Yoo (Texas Instruments), Young Gap Kwon and Antonio Ortega (University of Southern California) presented a context-adaptive form of binary arithmetic coding. The modern context-adaptive binary arithmetic coding (CABAC) algorithm was commercially introduced with the H.264/MPEG-4 AVC format in 2003. The majority of patents for the AVC format are held by Panasonic, Godo Kaisha IP Bridge and LG Electronics.

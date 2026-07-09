@@ -1,16 +1,23 @@
 Inioluwa Deborah Raji (born 1995/1996) is a Nigerian-Canadian computer scientist and socio-tech leader who works on algorithmic bias, AI accountability, and algorithmic auditing. A current Mozilla fellow, she has been recognized by MIT Technology Review and Forbes as one of the world's top young innovators.
+
 Raji has previously worked with Joy Buolamwini, Timnit Gebru, and the Algorithmic Justice League on researching gender and racial bias in facial recognition technology. She has also worked with Google’s Ethical AI team and been a research fellow at the Partnership on AI and AI Now Institute at New York University working on how to operationalize ethical considerations in machine learning engineering practice.
 
 Early life and education
+
 Raji was born in Port Harcourt, Nigeria, and moved to Mississauga, Ontario, Canada, when she was four years old. Eventually her family moved to Ottawa. She attended Colonel By Secondary School and completed the International Baccalaureate programme. She studied Engineering Science at the University of Toronto, graduating in 2019. In 2015, she founded Project Include, a nonprofit providing increased student access to engineering education, mentorship, and resources in low income and immigrant communities in the Greater Toronto Area. She started a Doctor of Philosophy - PhD, in Computer Science from the University of California, Berkeley  in Aug 2021.
 
 Career and research
+
 Raji worked with Joy Buolamwini at the MIT Media Lab and Algorithmic Justice League, where she audited commercial facial recognition technologies from Microsoft, Amazon, IBM, Face++, and Kairos. They found that these technologies were significantly less accurate for darker-skinned women than for white men. With support from other top AI researchers and increased public pressure and campaigning, their work led IBM and Amazon to agree to support facial recognition regulation and later halt the sale of their product to police for at least a year. Raji also interned at machine learning startup Clarifai, where she worked on a computer vision model for flagging images.
+
 She participated in a research mentorship program at Google and worked with their Ethical AI team on creating model cards, a documentation framework for more transparent machine learning model reporting. She also co-led the development of  internal auditing practices at Google. Her contributions at Google were separately presented and published at the AAAI conference and ACM Conference on Fairness, Accountability, and Transparency.
+
 In 2019, Raji was a summer research fellow at The Partnership on AI working on setting industry machine learning transparency standards and benchmarking norms. Raji was a Tech Fellow at the AI Now Institute worked on algorithmic and AI auditing. Currently, she is a fellow at the Mozilla Foundation researching algorithmic auditing and evaluation.
+
 Raji's work on bias in facial recognition systems has been highlighted in the 2020 documentary Coded Bias directed by Shalini Kantayya.
 
 Selected awards
+
 2019 Venture Beat AI Innovations Award in category AI for Good (received with Joy Buolamwini and Timnit Gebru)
 2020 MIT Technology Review 35 Under 35 Innovator Award
 2020 EFF Pioneer Award (received with Buolamwini and Gebru)

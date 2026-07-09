@@ -1,6 +1,11 @@
 Isomorphic Labs Limited is a British multinational artificial intelligence company based in London, United Kingdom.  Isomorphic Labs was founded by Demis Hassabis, who is the CEO. The company was incorporated on February 24, 2021 and announced on November 4, 2021. It was established under Alphabet Inc. as a spin-off from its AI research lab DeepMind, of which Hassabis is also founder and CEO.
+
 The company draws upon DeepMind's AlphaFold technology, which can be used to predict protein structures in the human body with high accuracy, allowing its researchers to find new target pathways for drug delivery.
+
 In December 2022, Isomorphic Labs announced its second office location in Lausanne, Switzerland.
+
 In January 2024, Isomorphic Labs partnered with Novartis AG and Eli Lilly and Company to work together on AI drug discovery and research.
+
 In May 2024, Google DeepMind and Isomorphic Labs announced the release of AlphaFold 3, an artificial intelligence and foundation model platform. Available for free on the AlphaFold server for non-commercial research, the platform was developed by training it with nearly 100,000 known proteins. AlphaFold 3 can predict how proteins fold and the interactions with molecules typically found in drugs such as ligands or antibodies, which is expected to significantly accelerate drug discovery.
+
 In November 2024, preliminary results of CASP16 showed AlphaFold 3-based models did not significantly outperform older methods for predicting protein-ligand interactions. The top performing models in the CASP16 Pose Prediction for Pharma Targets section were ClusPro and CoDock utilizing AlphaFold 2 based predictions, human visual inspection, and manual adjustments. Despite these results, in April 2025 Isomorphic Labs raised $600 Million in its first ever external funding round, led by Thrive Capital.

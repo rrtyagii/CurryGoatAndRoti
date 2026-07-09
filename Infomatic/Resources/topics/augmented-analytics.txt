@@ -1,4 +1,5 @@
 Augmented Analytics is an approach of data analytics that employs the use of machine learning and natural language processing to automate analysis processes normally done by a specialist or data scientist. The term was introduced in 2017 by Rita Sallam, Cindi Howson, and Carlie Idoine in a Gartner research paper.
+
 Augmented analytics is based on business intelligence and analytics. In the graph extraction step, data from different sources are investigated.
 
 Defining Augmented Analytics
@@ -9,10 +10,13 @@ Natural Language Query – enabling users to query data using business terms tha
 
 Data Democratization
 Data Democratization is the democratizing data access in order to relieve data congestion and get rid of any sense of data "gatekeepers". This process must be implemented alongside a method for users to make sense of the data. This process is used in hopes of speeding up company decision making and uncovering opportunities hidden in data.
+
 There are three aspects to democratising data:
 
 Data Parameterisation and Characterisation.
+
 Data Decentralisation using an OS of blockchain and DLT technologies, as well as an independently governed secure data exchange to enable trust.
+
 Consent Market-driven Data Monetisation.
 When it comes to connecting assets, there are two features that will accelerate the adoption and usage of data democratisation: decentralized identity management and business data object monetization of data ownership. It enables multiple individuals and organizations to identify, authenticate, and authorize participants and organizations, enabling them to access services, data or systems across multiple networks, organizations, environments, and use cases. It empowers users and enables a personalized, self-service digital onboarding system so that users can self-authenticate without relying on a central administration function to process their information. Simultaneously, decentralized identity management ensures the user is authorized to perform actions subject to the system’s policies based on their attributes (role, department, organization, etc.) and/ or physical location.
 

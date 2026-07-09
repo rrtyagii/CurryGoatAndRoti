@@ -1,25 +1,33 @@
 Friend (stylized as friend) is a wearable artificial intelligence device released by a startup company with the same name. Avi Schiffmann, a Harvard University dropout, designed and released its first product in October 2023. Friend received significant backlash following a marketing campaign in 2025 that featured 11,000 advertisements in New York City.
 
 History
+
 Founder Avi Schiffmann began pitching his idea for the product in 2023, at the age of 21. The project was initially called "Tab" and had received over $250,000 in investments by the end of the year. In 2024, Schiffmann spent $1.8 million on the domain "friend.com", which had been unclaimed for 17 years.
 
 Products
+
 While Friend offers an online, LLM-powered chatbot, its flagship product is a pendant with a microphone that incorporates the chatbot. The device is just under two inches in size. The product has drawn comparisons to Tamagotchis. The device does not speak back, rather it communicates by sending text messages to the user's phone in real time.
 
 Reception and controversy
+
 The Friend wearable AI companion has been the subject of significant public debate and criticism since its introduction. Concerns have centered on privacy, psychological effects, marketing ethics, and the broader social implications of AI companionship technologies.
 
 2025 New York subway campaign
+
 Friend spent over $1 million on advertisements with the Metropolitan Transportation Authority, the corporation in charge of public transportation in New York City. In total, the campaign included advertisements in over 11,000 rail cars, over 1,000 platform posters, and 130 urban panels. Schiffmann claimed it was the largest marketing campaign in NYC subway history, describing it as a "takeover", saying further that "it almost felt illegal". People vandalized many of the ads with criticism of the product.
 
 Marketing and social response
+
 The company's marketing campaign; featuring slogans emphasizing reliability and emotional availability, provoked mixed reactions. Some commentators viewed the messaging as trivializing human relationships or exploiting loneliness as a business opportunity. The campaign's founder, Avi Schiffmann, later stated that the advertising strategy was intended to provoke discussion about modern social isolation rather than replace friendship. Public installations and billboards associated with the launch in New York City were reportedly defaced by critics, reflecting a polarized reception. Heineken had made a response to this by parodying the ad with the tagline "The best way to make a friend is over a beer".
 
 Privacy and data collection
+
 Critics have raised questions about the device's constant audio monitoring and data-handling practices. Because the pendant uses cloud connectivity to process voice interactions, privacy advocates have warned that it could record sensitive information without users’ full awareness or consent. Schiffmann, who holds Israeli citizenship and is reported to maintain connections with the Israeli tech ecosystem, has faced additional scrutiny in light of Israel's evolving regulatory regime for artificial-intelligence and data-privacy frameworks.
 
 Emotional and psychological impact
+
 Observers have also questioned the psychological consequences of marketing an artificial intelligence as a "friend." Commentators in outlets such as The Guardian and Wired argued that AI companions could encourage emotional dependence or provide an illusion of companionship without genuine empathy or reciprocity. Mental health experts have suggested that while such devices may offer short-term comfort, they could also discourage users from seeking human connection or professional help. Supporters of the technology contend that Friend is designed to complement, not replace, human relationships, and may provide comfort to individuals experiencing loneliness.
 
 Reception and public debate
+
 Early product reviews were mixed to negative, with some testers describing interactions with the AI as socially awkward or emotionally unsatisfying. Others praised the device's ambition and conversational fluidity but questioned its practicality in everyday settings. The debate surrounding Friend has been cited in broader discussions about the ethical design of AI companions and the role of artificial intelligence in addressing loneliness and mental health.

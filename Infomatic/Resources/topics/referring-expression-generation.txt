@@ -1,36 +1,53 @@
 Referring expression generation (REG) is the subtask of natural language generation (NLG) that received most scholarly attention. While NLG is concerned with the conversion of non-linguistic information into natural language, REG focuses only on the creation of referring expressions (noun phrases) that identify specific entities called targets.
+
 This task can be split into two sections. The content selection part determines which set of properties distinguish the intended target and the linguistic realization part defines how these properties are translated into natural language.
+
 A variety of algorithms have been developed in the NLG community to generate different types of referring expressions.
 
 Types of referring expressions
+
 A referring expression (RE), in linguistics, is any noun phrase, or surrogate for a noun phrase, whose function in discourse is to identify some individual object (thing, being, event...) The technical terminology for identify differs a great deal from one school of linguistics to another. The most widespread term is probably refer, and a thing identified is a referent, as for example in the work of John Lyons. In linguistics, the study of reference relations belongs to pragmatics, the study of language use, though it is also a matter of great interest to philosophers, especially those wishing to understand the nature of knowledge, perception and cognition more generally.
+
 Various devices can be used for reference: determiners, pronouns, proper names... Reference relations can be of different kinds; referents can be in a "real" or imaginary world, in discourse itself, and they may be singular, plural, or collective.
 
 Pronouns
+
 The simplest type of referring expressions are pronoun such as he and it.  The linguistics and natural language processing communities have developed various models for predicting anaphor referents, such as centering theory, and ideally referring-expression generation would be based on such models.  However most NLG systems use much simpler algorithms, for example using a pronoun if the referent was mentioned in the previous sentence (or sentential clause), and no other entity of the same gender was mentioned in this sentence.
 
 Definite noun phrases
+
 There has been a considerable amount of research on generating definite noun phrases, such as the big red book.  Much of this builds on the model proposed by Dale and Reiter. This has been extended in various ways, for example Krahmer et al. present a graph-theoretic model of definite NP generation with many nice properties.  In recent years a shared-task event has compared different algorithms for definite NP generation, using the TUNA corpus.
 
 Spatial and temporal reference
+
 Recently there has been more research on generating referring expressions for time and space.  Such references tend to be imprecise (what is the exact meaning of tonight?), and also to be interpreted in different ways by different people.  Hence it may be necessary to explicitly reason about false positive vs false negative tradeoffs, and even calculate the utility of different possible referring expressions in a particular task context.
 
 Criteria for good expressions
+
 Ideally, a good referring expression should satisfy a number of criteria:
 
 Referential success: It should unambiguously identify the referent to the reader.
+
 Ease of comprehension: The reader should be able to quickly read and understand it.
+
 Computational complexity: The generation algorithm should be fast
+
 No false inferences: The expression should not confuse or mislead the reader by suggesting false implicatures or other pragmatic inferences.  For example, a reader may be confused if he is told Sit by the brown wooden table in a context where there is only one table.
 
 History
+
 Pre-2000 era
+
 REG goes back to the early days of NLG. One of the first approaches was done by Winograd in 1972 who developed an "incremental" REG algorithm for his SHRDLU program. Afterwards researchers started to model the human abilities to create referring expressions in the 1980s. This new approach to the topic was influenced by the researchers Appelt and Kronfeld who created the programs KAMP and BERTRAND and considered referring expressions as parts of bigger speech acts.
+
 Some of their most interesting findings were the fact that referring expressions can be used to add information beyond the identification of the referent as well as the influence of communicative context and the Gricean maxims on referring expressions. Furthermore, its skepticism concerning the naturalness of minimal descriptions made Appelt and Kronfeld's research a foundation of later work on REG.
+
 The search for simple, well-defined problems changed the direction of research in the early 1990s. This new approach was led by Dale and Reiter who stressed the identification of the referent as the central goal.
+
 Like Appelt they discuss the connection between the Gricean maxims and referring expressions in their culminant paper in which they also propose a formal problem definition. Furthermore, Reiter and Dale discuss the Full Brevity and Greedy Heuristics algorithms as well as their Incremental Algorithm(IA) which became one of the most important algorithms in REG.
 
 Later developments
+
 After 2000 the research began to lift some of the simplifying assumptions, that had been made in early REG research in order to create more simple algorithms. Different research groups concentrated on different limitations creating several expanded algorithms. Often these extend the IA in a single perspective for example in relation to:
 
 Reference to Sets like "the t-shirt wearers" or "the green apples and the banana on the left"
@@ -38,15 +55,21 @@ Relational Descriptions like "the cup on the table" or "the woman who has three 
 Context Dependency, Vagueness and Gradeability include statements like "the older man" or "the car on the left" which are often unclear without a context
 Salience and Generation of Pronouns are highly discourse dependent making for example "she" a reference to "the (most salient) female person"
 Many simplifying assumptions are still in place or have just begun to be worked on. Also a combination of the different extensions has yet to be done and is called a "non-trivial enterprise" by Krahmer and van Deemter.
+
 Another important change after 2000 was the increasing use of empirical studies in order to evaluate algorithms. This development took place due to the emergence of transparent corpora. Although there are still discussions about what the best evaluation metrics are, the use of experimental evaluation has already led to a better comparability of algorithms, a discussion about the goals of REG and more task-oriented research.
+
 Furthermore, research has extended its range to related topics such as the choice of Knowledge Representation(KR) Frameworks. In this area the main question, which KR framework is most suitable for the use in REG remains open. The answer to this question depends on how well descriptions can be expressed or found. A lot of the potential of KR frameworks has been left unused so far.
+
 Some of the different approaches are the usage of:
 
 Graph search which treats relations between targets in the same way as properties.
+
 Constraint Satisfaction which allows for a separation between problem specification and the implementation.
+
 Modern Knowledge Representation which offers logical inference in for example Description Logic or Conceptual Graphs.
 
 Problem definition
+
 Dale and Reiter (1995) think about referring expressions as distinguishing descriptions.
 They define:
 
@@ -56,227 +79,115 @@ The contrast set or potential distractors as all elements of the context set exc
 A property as a reference to a single attribute–value pair
 Each entity in the domain can be characterised as a set of attribute–value pairs for example
 
-
-
         ⟨
-
-
     {\displaystyle \langle }
 
 type, dog
 
-
-
         ⟩
-
-
     {\displaystyle \rangle }
 
 ,
 
-
-
         ⟨
-
-
     {\displaystyle \langle }
 
 gender, female
 
-
-
         ⟩
-
-
     {\displaystyle \rangle }
-
  or
-
-
-
         ⟨
-
-
     {\displaystyle \langle }
 
 age, 10 years
 
-
-
         ⟩
-
-
     {\displaystyle \rangle }
 
 .
+
 The problem then is defined as follows:
+
 Let
 
-
-
         r
-
-
     {\displaystyle r}
-
  be the intended referent, and
-
-
-
         C
-
-
     {\displaystyle C}
-
  be the contrast set. Then, a set
-
-
-
         L
-
-
     {\displaystyle L}
-
  of attribute–value pairs will represent a distinguishing description if the following two conditions hold:
 
 Every attribute–value pair in
 
-
-
         L
-
-
     {\displaystyle L}
-
  applies to
-
-
-
         r
-
-
     {\displaystyle r}
 
 : that is, every element of
 
-
-
         L
-
-
     {\displaystyle L}
-
  specifies an attribute–value that
-
-
-
         r
-
-
     {\displaystyle r}
-
  possesses.
 For every member
 
-
-
         c
-
-
     {\displaystyle c}
-
  of
-
-
-
         C
-
-
     {\displaystyle C}
 
 , there is at least one element
 
-
-
         l
-
-
     {\displaystyle l}
-
  of
-
-
-
         L
-
-
     {\displaystyle L}
-
  that does not apply to
-
-
-
         c
-
-
     {\displaystyle c}
 
 :  that is, there is an
 
-
-
         l
-
-
     {\displaystyle l}
-
  in
-
-
-
         L
-
-
     {\displaystyle L}
-
  that specifies an attribute–value that
-
-
-
         c
-
-
     {\displaystyle c}
-
  does not  possess.
-
-
-
         l
-
-
     {\displaystyle l}
-
  is said to rule out
-
-
-
         c
-
-
     {\displaystyle c}
 
 .
+
 In other words, to generate a referring expression one is looking for a set of properties that apply to the referent but not to the distractors.
+
 The problem could be easily solved by conjoining all the properties of the referent which often leads to long descriptions violating the second Gricean Maxim of Quantity. Another approach would be to find the shortest distinguishing description like the Full Brevity algorithm does.
+
 Yet in practice it is most common to instead include the condition that referring expressions produced by an algorithm should be as similar to human-produced ones as possible although this is often not explicitly mentioned.
 
 Basic algorithms
+
 Full Brevity
+
 The Full Brevity algorithm always finds a minimal distinguishing description meaning there is no shorter distinguishing description in regard to properties used.
+
 Therefore, it iterates over
-
-
 
         n
         =
@@ -291,147 +202,77 @@ Therefore, it iterates over
         .
         .
         .
-
-
     {\displaystyle n=1,2,3,4,...}
-
  and checks every description of a length of
-
-
-
         n
-
-
     {\displaystyle n}
-
  properties until a distinguishing description is found.
 Two problems arise from this way of creating referring expressions. Firstly the algorithm has a high complexity meaning it is NP-hard which makes it impractical to use. Secondly human speakers produce descriptions that are not minimal in many situations.
 
 Greedy Heuristics
+
 The Greedy Heuristics algorithm approximates the Full Brevity algorithm by iteratively adding the most distinguishing property to the description. The most distinguishing property means the property that rules out most of the remaining distractors. The Greedy Heuristics algorithm is more efficient than the Full Brevity algorithm.
+
 Dale and Reiter(1995) present the following algorithm for the Greedy Heuristic:
+
 Let
 
-
-
         L
-
-
     {\displaystyle L}
-
  be the set of properties to be realised in our description; let
-
-
-
         P
-
-
     {\displaystyle P}
-
  be the set of properties known to be true of our intended referent
-
-
-
         r
-
-
     {\displaystyle r}
-
  (we assume that
-
-
-
         P
-
-
     {\displaystyle P}
-
  is non-empty); and let
-
-
-
         C
-
-
     {\displaystyle C}
-
  be the set of distractors (the contrast set). The initial conditions are thus as follows:
-
-
-
-
         C
         =
         {
         ⟨
-
-
     {\displaystyle C=\{\langle }
 
 all distractors
 
-
-
         ⟩
         }
-
-
     {\displaystyle \rangle \}}
 
 ;
-
-
-
 
         P
         =
         {
         ⟨
-
-
     {\displaystyle P=\{\langle }
 
 all properties true of
 
-
-
         r
         ⟩
         }
-
-
     {\displaystyle r\rangle \}}
 
 ;
-
-
-
 
         L
         =
         {
         }
-
-
     {\displaystyle L=\{\}}
-
 
 In order to describe the intended referent
 
-
-
         r
-
-
     {\displaystyle r}
-
  with respect to the contrast set
-
-
-
         C
-
-
     {\displaystyle C}
 
 , we do the
@@ -439,205 +280,96 @@ following:
 
 1. Check Success:
    if
-
-
-
-
           |
-
         C
-
           |
-
         =
         0
-
-
     {\displaystyle |C|=0}
-
  then return
-
-
-
         L
-
-
     {\displaystyle L}
-
  as a distinguishing description
    elseif
-
-
-
         P
         =
         ∅
-
-
     {\displaystyle P=\emptyset }
-
  then fail
    else goto Step 2.
 2. Choose Property:
    for each
-
-
-
-
           p
-
             i
-
-
         ∈
         P
-
-
     {\displaystyle p_{i}\in P}
-
  do:
-
-
-
-
           C
-
             i
-
-
         ←
         C
         ∩
         {
         x
-
           |
-
-
           p
-
             i
-
-
         (
         x
         )
         }
-
-
     {\displaystyle C_{i}\leftarrow C\cap \{x|p_{i}(x)\}}
-
-
    Chosen property is
-
-
-
-
           p
-
             j
-
-
-
-
     {\displaystyle p_{j}}
-
  , where
-
-
-
-
           C
-
             j
-
-
-
-
     {\displaystyle C_{j}}
-
  is the smallest set.
    goto Step 3.
 3. Extend Description (wrt the chosen
-
-
-
-
           p
-
             j
-
-
-
-
     {\displaystyle p_{j}}
 
 ):
-
-
-
 
         L
         ←
         L
         ∪
         {
-
           p
-
             j
-
-
         }
-
-
     {\displaystyle L\leftarrow L\cup \{p_{j}\}}
-
-
-
-
-
-
         C
         ←
-
           C
-
             j
-
-
-
-
     {\displaystyle C\leftarrow C_{j}}
-
-
-
-
-
-
         P
         ←
         P
         −
         {
-
           p
-
             j
-
-
         }
-
-
     {\displaystyle P\leftarrow P-\{p_{j}\}}
-
-
    goto Step 1.
 
 Incremental Algorithm
+
 The Incremental Algorithm (IA) by Dale and Reiter was the most influential algorithm before 2000. It is based on the idea of a preferential order of attributes or properties that speakers go by. So in order to run the Incremental Algorithm, first a preference order of attributes has to be given. Now the algorithm follows that order and adds those properties to the description which rule out any remaining distractors. Furthermore, Dale and Reiter stress the attribute type which is always included in their descriptions even if it does not rule out any distractors.
+
 Also the type values are part of a subsumption hierarchy including some basic level values. For example, in the pet domain chihuahua is subsumed by dog and dog by animal. Because dog is defined as a basic level dog would be preferred by the algorithms, if chihuahua does not rule out any distractors.
+
 The Incremental Algorithm is easy to implement and also computationally efficient running in polynomial time. The description generated by the IA can contain redundant properties that are superfluous because of later added properties. The creators do not consider this as a weakness, but rather as making the expressions less "psycholinguistically implausible".
+
 The following algorithm is a simplified version of Dale and Reiter's Incremental Algorithm by Krahmer and van Deemter that takes as input the referent r, the D containing a collection of domain objects and a domain-specific ordered list Pref of preferred attributes. In the notation L is the description, C the context set of distractors and the function RulesOut(⟨Ai, V⟩) returns the set of objects which have a value different to V for attribute Ai.
 
 IncrementalAlgorithm ({r}, D, Pref)
@@ -658,12 +390,19 @@ Evaluation of REG systems
 Before 2000 evaluation of REG systems has been of theoretical nature like the one done by Dale and Reiter. More recently, empirical studies have become popular which are mostly based on the assumption that the generated expressions should be similar to human-produced ones. Corpus-based evaluation began quite late in REG due to a lack of suitable data sets. Still corpus-based evaluation is the most dominant method at the moment though there is also evaluation by human judgement.
 
 Corpus-based evaluation
+
 First the distinction between text corpora and experimental corpora has to be made. Text corpora like the GNOME corpus can contain texts from all kind of domains. In REG they are used to evaluate the realization part of algorithms. The content selection part of REG on the other hand requires a corpus that contains the properties of all domain objects as well as the properties used in references. Typically those fully "semantically transparent" created in experiments using simple and controlled settings.
+
 These experimental corpora once again can be separated into General-Purpose Corpora that were collected for another purpose but have been analysed for referring expressions and Dedicated Corpora that focus specifically on referring expressions. Examples of General-Purpose Corpora are the Pear Stories, the Map Task corpus or the Coconut corpus while the Bishop corpus, the Drawer corpus and the TUNA corpus count to the Dedicated Corpora.
+
 The TUNA corpus which contains web-collected data on the two domains furniture and people has been used in three shared REG challenges already.
 
 Evaluation metrics
+
 To measure the correspondence between corpora and the results of REG algorithms several Metrics have been developed.
+
 To measure the content selection part the Dice coefficient or the MASI (Measuring Agreement on Set-valued Items) metric are used. These measure the overlap of properties in two descriptions. In an evaluation the scores are usually averaged over references made by different human participants in the corpus. Also sometimes a measure called Perfect Recall Percentage (PRP) or Accuracy is used which calculates the percentage of perfect matches between an algorithm-produced and a human-produced reference.
+
 For the linguistic realization part of REG the overlap between strings has been measured using metrics like BLEU or NIST. A problem that occurs with string-based metrics is that for example "The small monkey" is measured closer to "The small donkey" than to "The little monkey".
+
 A more time consuming way to evaluate REG algorithms is by letting humans judge the Adequacy (How clear is the description?) and Fluency (Is the description given in good and clear English?) of the generated expression. Also Belz and Gatt evaluated referring expressions using an experimental setup. The participants get a generated description and then have to click on the target. Here the extrinsic metrics reading time, identification time and error rate could be evaluated.

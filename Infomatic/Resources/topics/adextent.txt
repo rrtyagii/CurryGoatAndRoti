@@ -1,20 +1,28 @@
 AdExtent (formally Semantinet) was an Israeli startup company dedicated to developing RTB Display technologies for various ad platforms.
 
 History
+
 The brainchild of Tal Muskal, who initially intended to create a development platform for the seamless integration of data, Semantinet was incorporated as a company in December 2006, after receiving a preseed investment from Yossi Vardi.
+
 The company completed hiring its development team in January 2008, and by April the same year the team completed development of the company's initial semantic web engine. Three months later, in July 2008, Semantinet released its first product, the Headup client, as a private Alpha. In October the client was deemed ready for Beta and in February 2009 it was approved for distribution via Mozilla's Firefox Addon directory.
+
 In March 2009 Semantinet began the transition from client to server based solutions and in July it started a pilot of a semantic web WordPress plugin for bloggers. The product was made publicly available via the WordPress plugin directory in October 2009. In January 2010 the server based Headup solution was made available as a Joomla extension and in March it became available as a Drupal module. AdExtent went out of business in February 2017. The company's operating status was changed to "permanently closed" at that time.
 
 Products and services
+
 Semantinet had released two applications to Beta. The company's first application, the Headup Semantic Web Firefox extension enabled users to highlight terms appearing in web content in order to discover related content provided in the extension's overlay window user interface.
+
 The company's second application was the Headup website and blog extension, which automatically identified and highlighted topics appearing in a publisher's web content. Users that interacted with the plugin's highlights were provided related articles, images, videos, Tweets, etcetera, via one of three configurable interfaces.
 
 Management
+
 Semantinet was founded and was managed by Tal Keinan and Tal Muskal, who, like many of Israel's startup community members, served in the IDF in information technology related roles. Keinan, who assumed the role of CEO and served on the company's board, worked at Morgan Stanley's Risk Management Department prior to founding Semantinet, while Muskal, who invented Semantinet's core technology and served as its CTO, worked as an R&D engineer at Go Networks, where he made his first pitch about the technology to Oz Leave, Go Networks' CEO, who served as the Chairman of Semantinet's Board of Directors.
 
 Board of directors
 Semantinet's Board of Directors was composed of one member besides Tal Keinan.
+
 Eyal Niv of Giza Venture Capital. Eyal Niv funded XtremIO, which was acquired by EMC, and became the fastest growing business ever for EMC.
 
 Funding
+
 Semantinet was backed by Giza Venture Capital and a number of Angel Investors including Yossi Vardi, Jeff Pulver and Sir Ronald Cohen. The company had raised US$5,100,000.

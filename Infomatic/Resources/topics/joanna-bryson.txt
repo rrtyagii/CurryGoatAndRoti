@@ -1,15 +1,21 @@
 Joanna Joy Bryson (born 1965) is professor at Hertie School in Berlin. She works on Artificial Intelligence, ethics and collaborative cognition. She has been a British citizen since 2007.
 
 Education
+
 Bryson attended Glenbard North High School and graduated in 1982. She studied Behavioural Science at the University of Chicago, graduating with an AB in 1986. In 1991 she moved to the University of Edinburgh where she completed an MSc in Artificial Intelligence before an MPhil in Psychology. Bryson moved to MIT to complete her PhD, earning a doctorate under Lynn Andrea Stein in 2001 for her thesis "Intelligence by Design: Principles of Modularity and Coordination for Engineering Complex Adaptive Agents". In 1995 she worked for LEGO Futura in Boston, and then in 1998 she worked for LEGO Digital as an AI consultant with Kristinn R. Thórisson on cognitive architectures for autonomous LEGO characters in the Wizard Group. She completed a postdoctoral fellowship in Marc Hauser's Primate Cognitive Neuroscience at the Harvard University in 2002.
 
 Career
+
 Bryson joined the Department of Computer Science at the University of Bath in 2002. At Bath, Bryson founded the Intelligent Systems research group. In 2007 she joined the University of Nottingham as a visiting research fellow in the Methods and Data Institute. During this time, she was a Hans Przibram Fellow at the Konrad Lorenz Institute for Evolution and Cognition. She joined Oxford University as a visiting research fellow in 2010, working with Harvey Whitehouse on the impact of religion on societies.
+
 In 2010 Bryson published Robots Should Be Slaves, which selected as a chapter in Yorick Wilks' "Close Engagements with Artificial Companions: Key Social, Psychological, Ethical and Design Issues". She helped the EPSRC to define the Principles of Robotics in 2010. In 2015 she was a Visiting Academic at the University of Princeton Center for Information Technology Policy, where she remained an affiliate through 2018. At CITP she worked on "Standardizing Ethical Design for Artificial Intelligence and Autonomous Systems" and coauthored a seminal paper on algorithmic bias with Aylin Caliskan and Arvind Narayanan. In 2020 she became Professor of Ethics and Technology at Hertie School of Governance in Berlin.
 
 Public engagements
+
 Bryson's research has appeared in Science and on Reddit. She has consulted The Red Cross on autonomous weapons and contributed to an All Party Parliamentary Group on Artificial Intelligence.
+
 In 2022, Bryson published an article for Wired magazine titled "One Day, AI Will Seem as Human as Anyone. What Then?". In the article she discussed the current limits of and future of AI, how the general public define and think about AI, and how AI interacts with people via Language and touches upon the topics of natural language processing, ethics and Human-computer interaction. Bryson also dissusses the recent EU AI Act.
 
 Honors and awards
+
 In 2017, Bryson won an Outstanding Achievement award from Cognition X. She regularly appears in national media, talking about human-robot relationships and the ethics of AI. In 2025, Bryson was one of the awardees of Doctorats Honoris Causa by UCLouvain in celebration of the university's 600th anniversary.

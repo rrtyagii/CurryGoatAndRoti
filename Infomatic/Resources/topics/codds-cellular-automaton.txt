@@ -1,12 +1,15 @@
 Codd's cellular automaton is a cellular automaton (CA) devised by the British computer scientist Edgar F. Codd in 1968. It was designed to recreate the computation- and construction-universality of von Neumann's CA but with fewer states: 8 instead of 29. Codd showed that it was possible to make a self-reproducing machine in his CA, in a similar way to von Neumann's universal constructor, but never gave a complete implementation.
 
 History
+
 In the 1940s and '50s, John von Neumann posed the following problem:
 
 What kind of logical organization is sufficient for an automaton to be able to reproduce itself?
+
 He was able to construct a cellular automaton with 29 states, and with it a universal constructor. Codd, building on von Neumann's work, found a simpler machine with eight states. This modified von Neumann's question:
 
 What kind of logical organization is necessary for an automaton to be able to reproduce itself?
+
 Three years after Codd's work, Edwin Roger Banks showed a 4-state CA in his PhD thesis that was also capable of universal computation and construction, but again did not implement a self-reproducing machine. John Devore, in his 1973 masters thesis, tweaked Codd's rules to greatly reduce the size of Codd's design. A simulation of Devore's design was demonstrated at the third Artificial Life conference in 1992, showing the final steps of construction and activation of the offspring pattern, but full self-replication was not simulated until the 2000s using Golly. Christopher Langton made another tweak to Codd's cellular automaton in 1984 to create Langton's loops, exhibiting self-replication with far fewer cells than that needed for self-reproduction in previous rules, at the cost of removing the ability for universal computation and construction.
 
 Comparison of CA rulesets
@@ -15,4 +18,5 @@ Codd's CA has eight states determined by a von Neumann neighborhood with rotatio
 The table below shows the signal-trains needed to accomplish different tasks. Some of the signal trains need to be separated by two blanks (state 1) on the wire to avoid interference, so the 'extend' signal-train used in the image at the top appears here as '70116011'.
 
 Universal computer-constructor
+
 Codd designed a self-replicating computer in the cellular automaton, based on Wang's W-machine. However, the design was so colossal that it evaded implementation until 2009, when Tim Hutton constructed an explicit configuration. There were some minor errors in Codd's design, so Hutton's implementation differs slightly, in both the configuration and the ruleset.

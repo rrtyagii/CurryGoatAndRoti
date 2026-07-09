@@ -2,7 +2,9 @@ Apache cTAKES: clinical Text Analysis and Knowledge Extraction System is an open
 cTAKES was built using the  UIMA Unstructured Information Management Architecture framework and OpenNLP natural language processing toolkit.
 
 Components
+
 Components of cTAKES are specifically trained for the clinical domain, and create rich linguistic and semantic annotations that can be utilized by clinical decision support systems and clinical research.
+
 These components include:
 
 Named Section identifier
@@ -27,10 +29,17 @@ Development of cTAKES began at the Mayo Clinic in 2006. The development team, le
 When Dr. Savova's moved to Boston Children's Hospital in early 2010, the core development team grew to include members there. Further external collaborations include:
 
 University of Colorado
+
 Brandeis University
+
 University of Pittsburgh
+
 University of California at San Diego
+
 Such collaborations have extended cTAKES' capabilities into other areas such as Temporal Reasoning, Clinical Question Answering, and coreference resolution for the clinical domain.
+
 In 2010, cTAKES was adopted by the i2b2 program and is a central component of the SHARP Area 4.
+
 In 2013, cTAKES released their first release as an Apache Software Foundation incubator project: cTAKES 3.0.
+
 In March 2013, cTAKES became an Apache Software Foundation Top Level Project (TLP).

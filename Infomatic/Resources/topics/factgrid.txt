@@ -1,17 +1,27 @@
 FactGrid provides projects with historical research interests with a collectively organized Wikibase graph database, allowing them to interconnect research data both on the platform and into external research repositories. Persistent identifiers for previously undocumented objects of research, the use of competing ontologies, the multilingual availability of data sets, and the long-term maintenance of the data sets, which remain collectively editable, are key features of the platform.
+
 The platform was initiated by Olaf Simons in 2017/2018 in a cooperation between the Gotha Research Centre of the University of Erfurt and Wikimedia Germany. It is currently (as of January 2026) supported by around 700 users in about 50 projects ranging from Assyriology to Contemporary History. The number of 1 million database items was passed on 13 October 2024. All services are free and - since March 2023 financed by the NFDI4Memory consortium of the German National Research Data Infrastructure (NFDI). The Historical Data Center of Saxony-Anhalt and the NFDI4Memory data connectivity team working there under Katrin Moeller are playing a key role in project support since April 2023.
 
 Technical basis
+
 FactGrid uses Wikidata's Wikibase software without major modifications of the user interface (Horace-Bénédict de Saussure's Cyanometer is providing the logo motif). The instance is set up without a docker image. The MediaWiki platform includes a WordPress blog as well as the FactGrid Viewer developed by Bruno Belhoste, (a tool similar to Magnus Manske's Reasonator) which presents database information in structured compilations in a direct communication with the database. The FactGrid Viewer offers the special service of fusing transcript pages from MediaWiki text pages into the information stored on the Wikibase items.
 
 Development
+
 The main incentive to create FactGrid as a sister platform to Wikidata was in 2016/2017 the idea of a platform that will focus on “original research” and that will work without further “notability criteria” - solely organised by the scientific community. Wikimedia projects would be able, so the aim, to cited FactGrid data as “externally published” together with information about the projects and the project teams that produced the data. The greater freedom that is granted to users on FactGrid is balanced by the greater transparency under which user are acting on the platform: The use of registered real name accounts is mandatory and all projects are requested to state their research interests with data they are generating on the platform.
+
 First reservations about the risks of data theft and plagiarism on the openly visible platform have lost their initial importance. FactGrid data are CC0 licensed and open to any download, while they come with research metadata which can be easily quoted in external presentations; the platform is thus an interesting tool to move fresh data into public reception. The software, so the corresponding awareness, does not incite edit wars. Allowing the display of conflicting information with the respective sources Wikibase is rather an interesting medium to map complex data situations.
+
 The resource's size growth was approximately 100,000 database objects annually between 2018 and 2023. The current growth rate appears to be growing to 200,000 database objects per year with tailwind of the ongoing the NFDI process in Germany. The database fully supports the four languages of the bigger user groups: German, French, Spanish and English. Most of the properties are also available in Hungarian and Chinese.
 
 Applications
+
 FactGrid Wikibase Datenbase: https://database.factgrid.de/wiki/Main_Page
+
 FactGrid Viewer: https://database.factgrid.de/viewer/
+
 Project blog: https://blog.factgrid.de/
+
 Projekt space: https://database.factgrid.de/wiki/FactGrid:Projects
+
 Sample queries https://database.factgrid.de/wiki/FactGrid:Sample_queries

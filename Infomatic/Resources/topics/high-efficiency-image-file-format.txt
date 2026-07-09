@@ -1,37 +1,60 @@
 High Efficiency Image File Format (HEIF) is a digital container format for storing individual digital images and image sequences. The standard covers multimedia files that can also include other media streams, such as timed text, audio and video.
+
 HEIF can store images encoded with multiple coding formats, for example both SDR and HDR images.  HEVC is an image and video encoding format and the default image codec used with HEIF. HEIF files containing HEVC-encoded images are also known as HEIC files and are mandated to use the .heic filename extension or .heics as stated in the standard. Such files require less storage space than the equivalent quality JPEG.
+
 HEIF files are a special case of the ISO base media file format (ISOBMFF, ISO/IEC 14496-12), first defined in 2001 as a shared part of MP4 and JPEG 2000. Introduced in 2015, it was developed by the Moving Picture Experts Group (MPEG) and is defined as Part 12 within the MPEG-H media suite (ISO/IEC 23008-12).
 
 History
+
 The requirements and main use cases of HEIF were defined in 2013.
+
 The technical development of the specification took about one and a half years and was finalized in the middle of 2015.
+
 Apple was the first major adopter of the format in 2017 with the introduction of iOS 11 using the HEIC variant. While HEIC became the default for iPhones, it is possible to revert the settings to allow photos to be recorded in the JPEG format.
+
 Android devices containing the appropriate hardware encoders received support for HEIC files with the release of Android 10 (2019).
+
 On some systems, pictures stored in the HEIC format are converted automatically to the older JPEG format when they are sent outside of the system, although incompatibility has led to problems such as US Advanced Placement test takers failing due to their phones uploading unsupported HEIC images by default, leading the College Board to request students change the settings to send only JPEG files.
+
 Although HEIC is gaining in popularity, it is not universally supported; Adobe Photoshop is an example of a popular image editing software that only supports HEIC with color depth of 8-bit but not 10- or 12-bit.
+
 As of 2022 camera hardware (including on mobile devices) is increasingly supporting HEIC file output, with color depth often higher than 8-bit color.
 
 Specifications
+
 HEIF files can store the following types of data:
 
 Image items
+
 Storage of individual images, image properties and thumbnails.
+
 Image derivations
+
 Derived images enable non-destructive image editing, and are created on the fly by the rendering software using editing instructions stored separately in the HEIF file. These instructions (rectangular cropping, rotation by one, two or three quarter-turns, timed graphic overlays, etc.) and images are stored separately in the HEIF file, and describe specific transformations to be applied to the input images. The storage overhead of derived images is small.
+
 Image sequences
+
 Storage of multiple time-related and/or temporally predicted images (like a burst-photo shot or cinemagraph animation), their properties and thumbnails. Different prediction options can be used in order to exploit the temporal and spatial similarities between the images. Hence, file sizes can be drastically reduced when many images are stored in the same HEIF file.
+
 Auxiliary image items
+
 Storage of image data, such as an alpha plane or a depth map, which complements another image item. These data are not displayed as such, but used in various forms to complement another image item.
+
 Image metadata
+
 Storage of Exif, XMP and similar metadata which accompany the images stored in the HEIF file.
 
 Encodings inside the container
 The HEIF container can store files encoded with various codecs, including:
 
 JFIF (JPEG)
+
 AV1
+
 HEVC
+
 As users cannot easily tell what encoding and encoding parameters an image was stored in, the HEIF container format can be confusing and makes comparison statements like “HEIF is better than JPEG” vague and inaccurate.
+
 Simply knowing a file is in the HEIF container does not reveal much information, as it could be:
 
 a JFIF (JPEG);
@@ -41,68 +64,106 @@ an HEVC with poor quality parameters; or
 an HEVC with high quality parameters.
 
 MIAF
+
 The Multi-Image Application Format (MIAF) is a restricted subset of HEIF specified as part of MPEG-A.
+
 It defines a set of additional constraints to simplify format options, specific alpha plane formats, profiles and levels as well as metadata formats and brands, and rules for how to extend the format.
 
 HEIC: HEVC in HEIF
+
 High Efficiency Video Coding (HEVC, ITU-T H.265) is an encoding format for graphic data, first standardized in 2013.
+
 It is the primarily used and implied default codec for HEIF as specified in the normative Annex B to ISO/IEC 23008-12 HEVC Image File Format.
+
 While not introduced formally in the standard, the acronym HEIC (High-Efficiency Image Codec) is used as a brand and in the MIME subtypes image/heic and image/heic-sequence. If the content conforms to certain HEVC profiles, more specific brands can be used: HEIX for Main 10 of HEVC, HEIM for (Multiview) Main profile, and HEIS for (Scalable) Main (10) profile of L-HEVC.
+
 A HEIC photo takes up about half the space of an equivalent quality JPEG file. The initial HEIF specification already defined the means of storing HEVC-encoded intra images (i-frames) and HEVC-encoded image sequences in which inter prediction is applied in a constrained manner.
+
 HEVC image players are required to support rectangular cropping and rotation by one, two, and three quarter-turns. The primary use case for the mandatory support for rotation by 90 degrees is for images where the camera orientation is incorrectly detected or inferred. The rotation requirement makes it possible to manually adjust the orientation of a still image or an image sequence without needing to re-encode it. Cropping enables the image to be re-framed without re-encoding. The HEVC file format also includes the option to store pre-derived images.
+
 Samples in image sequence tracks must be either intra-coded images or inter-picture predicted images with reference to only intra-coded images. These constraints of inter-picture prediction reduce the decoding latency for accessing any particular image within a HEVC image sequence track.
+
 The .heic and .heics file name extensions are conventionally used for HEVC-coded HEIF files. Apple products, for instance, will only produce files with these extensions, which indicate clearly that the data went through HEVC encoding.
 
 AVCI: AVC in HEIF
+
 Advanced Video Coding (AVC, ITU-T H.264) is an older encoding format for video and images, first standardized in 2003.
+
 It is also specified as a codec to be supported in HEIF in normative Annex 5 to ISO/IEC 23008-12.
+
 The registered MIME types are image/avci for still images and image/avcs for sequences. The format is simply known as AVCI.
+
 Apple products support playback of AVC-encoded .avci still image files and .avcs image sequence files but will only generate .heic files.
 
 AVIF: AV1 in HEIF
+
 AV1 is a video encoding format that is intended to be royalty-free, developed by the Alliance for Open Media (AOMedia). AV1 Image File Format (AVIF) is an image format based on this codec.
+
 The registered MIME type is image/avif for both still images and image sequences, and .avif is the file name extension.
 
 JPEG compression formats in HEIF files
+
 The original JPEG standard is the most commonly used and widely supported lossy image coding format. It was first released in 1992 by ITU-T and ISO/IEC. Although Annex H to ISO/IEC 23008-12 specifies JPEG (and indirectly Motion JPEG) as a possible format for HEIF coded image data, it is used in HEIF only for thumbnails and other secondary images. Therefore, neither a dedicated MIME subtype nor a special file extension is available for storage of JPEG files in HEIF container files.
+
 Several other compression formats defined by the JPEG group can be stored in HEIF files:
 
 Part 16 of the JPEG 2000 standard suite (ISO/IEC 15444-16 and ITU-T Rec. T.815) defines how to store JPEG 2000 images in HEIF container files. Part 2 of the JPEG 2000 suite (ISO/IEC 15444-2 and ITU-T Rec. T.801) also defines a different format for storing JPEG 2000 images in files that is also based on ISOBMFF.
+
 Annex F of the JPEG XR image coding standard (ISO/IEC 29199-2 and ITU-T Rec. T.832) defines how to store JPEG XR images in HEIF container files. Annex A of JPEG XR also defines a different file format for storing JPEG XR images in files that is TIFF-based, and Part 2 of the JPEG 2000 suite (ISO/IEC 15444-2 and ITU-T Rec. T.801) also supports a third file format for storing JPEG XR images in files that is based on ISOBMFF.
+
 JPEG XS has its HEIF container support defined in ISO/IEC 21122-3.
+
 In 2017, Apple announced that it would adopt HEIC as the default image format in its new operating systems, gradually replacing JPEG.
 
 WXAM, SharpP
+
 The proprietary image format WXAM (or wxHEPC) developed by Tencent (used within, e.g., WeChat) is apparently based upon HEVC, as is SharpP, which was developed by their SNG (Social Network Group) division. However, their container format may not be HEIF-compatible. In March 2017, SharpP switched to AVS2 and was renamed TPG (Tiny Portable Graphics).
 
 Support
+
 Nokia provides an open source C++ HEIF decoder, that also has a Java API.
+
 The open source library "libheif" supports reading and writing HEIF files. From version 1.8.0, both reading and writing HEIC and AVIF are supported.
+
 An image codec called CopyTrans HEIC, which is free for personal use and available for Windows versions 7 through 10, supports opening HEIF files in Windows Photo Viewer without the Microsoft codec installed. (The Microsoft HEIC codec is only available for Windows 10, version 1803 and up in the Photos UWP app.)
 
 Operating systems
+
 Windows 10 version 1803 and later (HEIC), version 1903 and later (AVIF): HEIF Image Extension is needed to read and write files that use the HEIF format.  HEVC Video Extensions is needed to play and produce HEVC-encoded video content.  A small amount of money is charged for the use of the HEVC codec, whereas support for the generic HEIF format and the AVC and AV1 extensions are free.
+
 Windows 11: since 22H2, Windows 11 has HEIF Image Extension built-in by default.
 macOS High Sierra and later (HEIC only) Since macOS Mojave, Apple uses HEIF in creating the Dynamic Desktop feature.
 iOS 11 and later (HEIC only) iOS 16 and later AVIF
 Apple supports playback of .heif for still image files and .heifs for image sequence files created on other devices that are encoded using any codec, provided that codec is supported by the operating system.
+
 Android 8 (Oreo) and later (HEIF), Android 10 and later (HEIC), Android 12 and later (AVIF). Android 13 and higher support 10-bit camera output.
+
 Ubuntu 20.04 and later (HEIC)
 Debian 10.13 ("buster") or later
+
 Fedora 36 or later
 
 Web browsers
 As of November 2025, only Safari supports HEIC format natively.
+
 Edge, Chrome, Firefox, Opera, and Safari support AVIF.
 
 Image editing software
+
 Adobe Lightroom (macOS 10.13+, iOS 11+, Windows 10+, and Android 9+)
+
 Adobe Photoshop
+
 (Note that Photoshop for Windows requires the installation of both the HEIF and HEVC CODECs available from Microsoft.)
+
 Photoshop reads HEIC files, but as of 2022 does not allow saving to that format.
+
 Corel PHOTO-PAINT
+
 As of 2021, Corel PHOTO-PAINT reads HEIF/HEIC files, but does not allow saving to that format.
+
 Affinity Photo
+
 GIMP supports reading and exporting to HEIF since version 2.10.2, released in May 2018.
 Darktable
 Digikam (supports 10-bit HEIC)
@@ -126,20 +187,30 @@ JDeli - Java Image library with HEIC support
 Nokiatech - Nokia's HEIF library with Java wrapper
 
 Hardware
+
 The Canon EOS-1D X Mark III, Canon EOS R5, Canon EOS R6 and Canon EOS R8 cameras use the HEIF format to capture images in an HDR display format that use the PQ tone curve, BT.2100 color primaries and 10-bit. "We've moved on to HEIF files," Canon said in 2019.
+
 The Sony α1 and Sony α7 IV offer capturing images in 10-bit HEIF format with an HDR format that uses HLG.
+
 The Fujifilm X-H2S, Fujifilm X-H2, Fujifilm X-T5, and Fujifilm X100VI offers a choice of JPEG or 10-bit HEIF file formats.
+
 The Nikon Z9 and Nikon Z8 offer 10-bit HEIF file formats.
+
 Several Qualcomm Snapdragon SoCs support capturing images in HEIC format (e.g. Snapdragon 865+, Snapdragon 662). Some of their latest SoCs also support capturing in HEIC with HDR (e.g. Snapdragon 8 Gen 1, Snapdragon 780).
+
 The iPhone 7 and later devices from Apple can capture media in HEIF or HEVC format.
+
 Android smartphones like Xiaomi 12, OPPO Reno 7 5G, Samsung Galaxy S21 5G can capture images in HEIF format. Android 13 and higher support 10-bit camera output.
+
 The Hasselblad X2D camera following updates had been updated to support 10-bit HEIF output. The CFV 100C digital back was released also supporting the HEIF format.
 
 Websites
+
 In May 2020, online Advanced Placement exams allowed students to submit photos of handwritten responses. Because the website was unable to process HEIF images, students whose phones defaulted to this image format were considered to have not submitted any response, often failing the exam in consequence. College Board, which administers the exams, later provided a system for users to submit photos of answers via email; the iOS Mail app automatically converts HEIF images to JPEG, working round the problem.
 Facebook supports the upload of HEIC but converts it to JPEG or WebP on display.
 Discord does not support HEIC.
 HEIC is not listed as supported by Wikimedia Commons.
 
 Patent licensing
+
 HEIF itself is a container that may not be subject to additional royalty fees for commercial ISOBMFF licensees. Nokia also grants its patents on a royalty-free basis for non-commercial purposes. When containing images and image sequences encoded in a particular format (e.g., HEVC or AVC) its use becomes subject to the licensing of patents on the coding format.

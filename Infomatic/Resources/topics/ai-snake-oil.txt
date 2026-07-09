@@ -1,41 +1,59 @@
 AI Snake Oil: What Artificial Intelligence Can Do, What It Can't, and How to Tell the Difference is a 2024 non-fiction book written by scholars Arvind Narayanan and Sayash Kapoor. It is a critique of the tech industry's overly inflated promises and capabilities of artificial intelligence (AI) as well as a debunking of the flawed science fueling AI hype while attempting to outline both the potential positives and negatives that come with different modes of the technology.
 
 Contents
+
 Publication
+
 The book was published in 2024 by the Princeton University Press. AI Snake Oil consists of 360 pages and features eight chapters, and sections for acknowledgements, references, and an index. The authors use the term "AI snake oil" derived from the U.S. idiom for a fraudulent remedy, to describe overhyped AI systems.
 
 Chapter one: Introduction
+
 Narayanan and Kapoor argue that many individuals do not yet have the literacy to detect functioning aspects of AI compared to potential snake oil, which they identify as "AI that does not and cannot work as advertised". Some of the major examples utilized by the authors include Allstate's 2013 use of predictive AI, as well as the concern surrounding actors and AI attempting to replicate or use their likeness.
+
 Important discussions regarding discrimination are brought up and explored in the first chapter, including the false arrests of six Black individuals due to errors with AI facial recognition tools. The chapter concludes with a comparison to the Industrial Revolution, where Narayanan and Kapoor highlight the extensive human labour that is necessary for artificial intelligence technologies to function.
 
 Chapter two: How Predictive AI Goes Wrong
+
 Chapter two focuses on predictive artificial intelligence, and criticizes the overestimation of the capabilities of the technology.
 
 Chapter three: Why Can't AI Predict the Future?
+
 Chapter three works to inform the reader about the history of early computational prediction attempts, with examples from companies like Simulatics.
 
 Chapter four: The Long Road to Generative AI
+
 The fourth chapter goes in more in-depth in explorations of generative AI. Generative AI software examples include ChatGPT, Midjourney, and DALL-E. The section begins with a positive example of generative AI. As the chapter progresses, the authors begin to provide examples of harm produced by generative AI, including the suicide of a Belgian man after connecting with Chai, a generative chatbot. Issues of deepfakes and preservation of artistic property are also discussed. The use of generative AI to create non-consensual pornographic deepfake content is discussed in relation to female celebrities.
 
 Chapter five: Is Advanced AI an Existential Threat?
+
 The fifth chapter draws attention the AGI, or Artificial General Intelligence. The authors describe AGI as "AI that can perform most or economically relevant tasks as effectively as any human". They summarize that many contributors to the field of artificial intelligence believe AGI to be an impending threat that demands attention. However, they argue that the perceived threat of AGI would only exist if the technology continually functioned reliably.
+
 In order to better illustrate the hype surrounding AGI, Narayanan and Kapoor use the Ladder of Generality, which is described as a visual tool in which "each rung represents a way of computing that is more flexible, and more general, than the previous one". They note that we are not yet aware of the next rungs on the ladder, of if the ladder will eventually result in a dead end. The rungs that have been identified so far are as follows: (0, or floor) special purpose hardware, (1) programmable computers, (2) stored program computers, (3) machine learning, (4) deep learning, (5) pretrained models, and, finally, (6) instruction-tuned models. The potential for future rungs and what those rungs might be are currently undetermined.
+
 The chapter also discusses the ELIZA effect, which Lawrence Switzky discusses in his article "ELIZA Effects". Switzky attributes the coined term ELIZA Effect to Sherry Turke, who defined it as "our more general tendency to treat responsive computer programs as more intelligent than they really are".
 
 Chapter six: Why Can't AI Fix Social Media?
+
 The sixth chapter focuses on content moderation, why it is important, and how it has been and could be affected by artificial automation. The first issue raised in regard to AI-driven content moderation is the inability for computers and machines to understand context and nuance, resulting in potential for discriminatory moderation and shadow banning. While they note that there are issues with automating content moderation, Narayanan and Kapoor also highlight the psychological impact on human content moderators and their labour. They indicate the hidden labour behind moderation, which is often outsourced to less developed countries, where labourers sort through potentially traumatizing content for pay. However, the discussion focuses more heavily on why automated moderation can be problematic, including discriminatory algorithms and lack of nuance. To balance their argument, issues of discrimination and bias are also discussed in relation the human content moderators. To automate moderation, there are two types of AI used, which are fingerprint matching and machine learning.
 
 Chapter seven: Why Do Myths about AI Persist?
+
 The seventh chapter outlines possible factors that contribute to hype surrounding AI. Narayanan and Kapoor explain how companies often promote their new AI models without properly disclosing how the model works, and what it is learning from. They attribute hype to several different groups, including journalists, researchers, and companies. They explain the impact of companies and the misplaced hype that they spread can be attributed to greed and a desire to grow corporate funds. For journalists, one of the stated sources of hype, they argue that news media has a tendency to prioritize financial incentives over validity and quality of writing. As well, Narayanan and Kapoor point out the emergence of company statement regurgitation in news media, leading to clickbait. Hype from researchers is potentially linked to lack of reproducibility in studies as well as leakage, which occurs when AI models are tested on their training data.
 
 Chapter eight: Where do we go from here?
+
 The final chapter, chapter eight, turns its attention to the future. The authors express their ideas and predictions for how the technology will evolve and be utilized in the upcoming years.
 
 Authors
+
 Author Narayanan is a computer science professor at Princeton University. Kapoor is a doctoral candidate at the same university, and both scholars are located at the Center for Information Technology at Princeton. In 2023, Narayanan and Kapoor appeared on the TIME100 Artificial Intelligence list, which features influential figures in the field.
 
 Reception
+
 Nature, a science and technology peer-reviewed journal, released an article highlighting the top "10 essential reads from the past year", listing Arvind Narayanan and Sayash Kapoor's AI Snake Oil. The article states the that text is "one of the best on this controversial subject".
+
 Elizabeth Quill, in her review of the text in Science News, writes that the authors "squarely achieve their stated goal: to empower people to distinguish AI that works well from AI snake oil".
+
 Joshua Rothman of The New Yorker writes that "compared with many technologists, Narayanan, Kapoor, and Vallor [Shannon Vallor, University of Edinburgh], are deeply skeptical about today's A.I. technology and what it can achieve. Perhaps they shouldn't be". Rothman argues, following an interview with prominent computer scientist Geoffrey Hinton of University of Toronto, that the potential for AI to replicate complexity is already here and continues to be heavily funded, enhancing the prospective capabilities of the technology. However, he does praise the author's ability to address questions regarding the existential human experience.
+
 Alexya Martinez discusses the text in a book review for Journalism and Mass Communication Quarterly, critiquing AI Snake Oil for its extensive focus on the West. Martinez writes that Narayanan and Kapoor "do not fully explore how AI impacts other countries", and suggests more focus on countries outside of the United States to enhance their argument.

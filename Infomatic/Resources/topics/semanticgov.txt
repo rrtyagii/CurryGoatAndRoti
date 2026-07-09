@@ -1,7 +1,9 @@
 SemanticGov  was a European Union-funded research and development project that lasted from 2006 to 2009, aimed at building the infrastructure (software, models, services, etc.) necessary for enabling the offering of Semantic Web Services by public administration (PA). SemanticGov aimed to address longstanding challenges faced by public administrations such as achieving interoperability amongst PA agencies both within a country as well as amongst countries, easing the discovery of PA services by its customers, facilitating the execution of complex services often involving multiple PA agencies in interworkflows.
+
 The SemanticGov project aimed at capitalizing on the Service Oriented Architectures paradigm, implemented through state-of-the-art Semantic Web Services  technology and supported by rigorous and reusable public administration domain analysis and modelling, while being in line with all major European programmes and initiatives in the field e.g. the European Interoperability Framework and the previous work conducted by the EU IDABC Programme, the i2010 group of Member States representatives and the Competitiveness & Innovation (CIP) Programme.
 
 Objectives
+
 The SemanticGov project objectives were:
 I.	To support the PA client to:
 a.	Identify the needed services by providing an infrastructure for mapping client needs to PA services;
@@ -16,10 +18,14 @@ Consortium partners
 A list of consortium partners follows:
 
 Centre of Research and Technology Hellas
+
 National University of Ireland, Galway Archived 2005-09-24 at the Wayback Machine
 Leopold-Franzens University, Innsbruck
+
 Ontotext Lab, Sirma Group Corp.
+
 CAPGEMINI
+
 SOFTWARE AG
 University of Rome "La Sapienza"
 ALTEC S.A Archived 2007-10-17 at the Wayback Machine

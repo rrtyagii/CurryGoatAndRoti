@@ -1,18 +1,27 @@
 Indic OCR refers to the process of converting text images written in Indic scripts into e-text using Optical character recognition (OCR) techniques. Broadly, it can also refer to the OCR systems of Brahmic scripts for languages of South Asia and Southeast Asia, not just the scripts of the Indian subcontinent, which are all written in an abugida-based writing system.
+
 OCR for Latin characters is still not 100% accurate but a relatively high degree of accuracy in conversion has been able to be achieved. Such accuracy has not yet been able to be achieved for Indic scripts using OCR. This is due in part to the writing systems of Indic languages as well as a lack of standard representation, encoding, and support among operating systems and keyboards.
+
 The Centre for Development of Advanced Computing (C-DAC) and Technology Development for Indian Languages, the premier R&D organisation of the Ministry of Electronics and Information Technology (also known as MeitY) of India have carried out many projects relating to OCR. Their projects include OCR for Malayalam, Odia, Punjabi, Telugu and Devanagari script.
 
 Properties of Indian writing systems
+
 There are 22 officially recognised languages in India. Of these, Hindi, Bengali and Punjabi are the most widely spoken Indo-Aryan languages and are also the fourth, seventh and tenth most widely spoken languages in the world respectively. Two or more languages can be written with same script. For example, Devanagari is used to write Hindi, Marathi, Rajasthani, Sanskrit, Bhojpuri and others, while Eastern Nagari is used to write Bengali, Assamese, Manipuri and others.
+
 Apart from basic characters as consonants and vowels, most Indic languages combine 2 or more basic characters to form compound characters. The shape of a compound character is more complex than the constituent basic characters. Some Indo-Aryan languages (including Hindi and Punjabi) have a horizontal line over the characters, while other languages (including Gujarati) and Dravidian languages (Malayalam, Kannada, Tamil, and Telugu) do not. These are some of the main challenges for creating a single OCR for all Indic languages.
+
 Indic OCR also generally includes support for recently invented scripts in India like Ol Chiki, Warang Citi, Mundari Bani, etc. which are mainly created for writing Munda languages of Austroasiatic family.
+
 The concept of upper/lower case is absent in Indic scripts. Apart from Urdu, Sindhi, Kashmiri and Thaana, all other Indic languages are written from left to right.
 
 Examples
+
 SanskritOCR - OCR software for Sanskrit, Hindi and other Indo-Aryan languages based on the Devanagari script. Sanskrit OCR is developed by a Sanskrit scholar from Germany - Dr. Oliver Hellwig of Department for Languages and Cultures of Southern Asia, Freie Universität Berlin. The official website is in German. The interface of earlier versions of the software was also in German, but later versions have an English interface too.
+
 E-aksharayan - Optical character recognition engine for Indian languages
 Chitrankan - This technology was developed by ISI, Kolkata, and transferred to C-DAC. It processes printed Hindi text from a scanner or from an image.
 Indic OCR models for Tesseract (software)
 
 OCR in use
+
 OCR has been used for Wikisource and other projects.

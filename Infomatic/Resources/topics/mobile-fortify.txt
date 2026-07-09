@@ -1,19 +1,28 @@
 Mobile Fortify is a mobile app used by United States Immigration and Customs Enforcement (ICE) on their government-issued phones. The app allows agents to take a photo, ostensibly from their work-issued mobile phone, in order to gather biometrics, including contactless fingerprints and faceprints, for the purpose of identifying an individual and their potential immigration status. The app was created by NEC.
 
 History
+
 In June 2025, use of Mobile Fortify by ICE was uncovered through leaked emails and the user manual, reported by 404 Media. The app is internally developed, and details of the parent company and developer were initially unknown. Later, the Washington Post reported the app was created by NEC.
+
 Later that month, several senators demanded transparency around the app and its origins, and that ICE stop using it. A second letter was sent again in November, after hearing no response to the previous letter from ICE.
+
 In January 2026, the DHS's 2025 AI Use Case Inventory revealed the vendor as NEC Corporation , an international conglomerate with subsidiaries in Argentina, Australia, China, India and Malaysia.
 
 Technology
+
 Unlike other facial recognition software, Fortify uses federally linked databases. By contrast, Clearview AI uses public social media databases for biometric scanning. Federal databases include DHS's automated biometric identification system (IDENT), containing more than 270 million biometric records, and Customs and Border Protection's Traveler Verification Service. The State Department's visa and passport photo database, the FBI's National Crime Information Center, National Law Enforcement Telecommunications Systems, and CBP's TECS and Seized Assets and Case Tracing System (SEACATS).
 
 Oversight
+
 Several senators urged ICE to stop using the app for fear of infringing on fourth amendment and first amendment rights, and requested details on who developed the app, when it was deployed, whether the app was tested for accuracy, and policies and practices governing its use. On June, 2025, they sent an open letter to Todd Lyons, ICE acting director, signed by senators Cory Booker, Chris Van Hollen, Ed Markey, Bernie Sanders, Adam Schiff, Tina Smith, Elizabeth Warren, and Ron Wyden. On November 3rd, a second letter was sent to the ICE by senators, after not receiving answers to questions from the previous letter deadlined for October 2nd.
 
 Criticism
+
 Mobile Fortify, and ICE's use of similar biometric identification technologies (such as Mobile Identify, an app similar to Mobile Fortify to be used by local or regional law enforcement to assist in immigration enforcement ) has faced scrutiny from a variety of digital rights organizations, politicians, and news outlets.
+
 Facial recognition technologies are known to produce false-positives and generally unreliable results, especially on those with darker skin tones. ICE has already previously mistakenly arrested a U.S. citizen under the belief he was illegally in the country, and later stated that he "could be deported based on biometric confirmation of his identity" prior to his release.
+
 U.S. representative Bennie Thompson, ranking member of the House Homeland Security Committee has previously commented that "ICE officials have told us that an apparent biometric match by Mobile Fortify is a ‘definitive’ determination of a person’s status and that an ICE officer may ignore evidence of American citizenship—including a birth certificate—if the app says the person is an alien," and that "Mobile Fortify is a dangerous tool in the hands of ICE, and it puts American citizens at risk of detention and even deportation,"
 On Jan 19, 2026, 404 Media reported on a case where a woman, identified in court documents as "MJMA", was scanned by Mobile Fortify twice in the same interaction, and two entirely different names were provided by the app. According to the Innovation Law Lab, whose attorneys are representing MJMA, both of the names were incorrect.
+
 ICE has stated that they will not allow people to decline to be scanned by Mobile Fortify, and that photos taken, even those of U.S. citizens, will be stored for 15 years, something that has been criticized primarily because ICE has not performed a Privacy Impact Assessment (PIA) for Mobile Fortify, the right to decline other forms of biometric verification to the U.S. government is often available under other circumstances, and the 15 year window is viewed as unnecessarily large.

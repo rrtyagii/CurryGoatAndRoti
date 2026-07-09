@@ -1,16 +1,22 @@
 JPEGmini is a photo compression tool developed by Beamr Imaging Ltd released in 2012 for Mac and Windows. It designed to reduce the file size of images and videos with limited quality reduction.
 
 Background of Beamr Imaging Ltd
+
 Beamr was founded by Sharon Carmel, an entrepreneur with a background in image and video processing. Beamr’s clients include companies like Netflix, Viacom CBS, and Snapfish. Its technology is backed by 53 internationally granted patents and was awarded a Technology and Engineering Emmy in 2021. This technology is integrated into JPEGmini Pro allowing users to reduce the file size of their photos and videos with limited quality reduction. JPEGmini technology is built around a perceptually aligned image quality measure, which reliably determines the maximum amount of compression which can be applied to each individual image or video frame without introducing visible artifacts. This engine does the image transformation and generates an output that complies with all standards when paired with encode and decode blocks. With the use of this technique, JPEGmini Pro may reduce JPEG picture quality by up to 80%, or 5 times, while minimizing visual imperfections in digital photos.
 
 Features
+
 Image optimization: Can compresses file size of JPEG images by up to 80% without compromising image quality. It also optimizes high-resolution photos, with a resolution of up to 256MP.
+
 Video optimization: Since version 3.3 the software can reduce the size of videos by up to 50% while maintaining original quality. It also supports high bitrate videos, H.264/AVC and H.265/HEVC video tracks, AAC audio tracks in MP4, M4V or MOV containers, with files up to 800 Mbps.
+
 HEIC to JPEG support: Supports HEIC (High Efficiency Image Format), which is an image format that was adopted by iOS. However, not all devices, browsers, and applications support this image format, allowing the batch processing of HEIC files to optimized JPEG files. (Batch processing is a way of applying the same edits or adjustments to multiple digital images at once )
 
 Resizing Configurations: Supports multiple batches of images and videos, Provides a range of predefined image sizes, as well as the ability to define specific dimensions.
+
 Plugins for image manipulation tools: Supports additional plugins for Adobe© Lightroom, Capture One© and Adobe© Photoshop in the JPEGmini Pro Suite
 Platforms: It is compatible with both Mac and Windows operating systems.
 
 Versions
+
 Since its initial release in 2012, JPEGmini has undergone several updates and releases. In 2020, the company released JPEGmini Pro 3, with support for video files HEIC to JPEG optimization and custom resizing.

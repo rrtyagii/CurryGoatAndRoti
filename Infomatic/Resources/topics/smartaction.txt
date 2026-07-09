@@ -1,9 +1,13 @@
 SmartAction Company LLC is a U.S.-based software company that develops artificial intelligence–driven virtual agents for customer service applications, including voice-based interactive voice response (IVR) systems, chat, and SMS. The company was founded in 2009 by inventor and entrepreneur Peter Voss and is headquartered in Fort Worth, Texas.
 
 History
+
 In 2001, Peter Voss founded Adaptive AI, Inc., a research and development company focused on artificial intelligence concepts. In 2009, Voss founded SmartAction Company, LLC to commercialize customer-service automation software derived from this work. The company’s initial products focused on automating inbound and outbound calls for contact center environments.
+
 In November 2022, Kyle Johnson was appointed chief executive officer, succeeding Gary Davis, who had served as CEO since 2020.
+
 In 2024, SmartAction was acquired by Capacity, an AI-powered customer support automation company based in St. Louis, Missouri.
 
 Technology
+
 SmartAction develops cloud-based voice automation software that integrates speech recognition and natural language processing to support automated customer interactions in contact center environments. The platform supports automated handling of common customer service tasks and is designed to integrate with enterprise systems.

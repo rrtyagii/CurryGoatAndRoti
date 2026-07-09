@@ -1,9 +1,13 @@
 A chain code is a lossless compression based image segmentation method for binary images based upon tracing image contours. The basic principle of chain coding, like other contour codings, is to separately encode each connected component, or "blob", in the image.
+
 For each such region, a point on the boundary is selected and its coordinates are transmitted. The encoder then moves along the boundary of the region and, at each step, transmits a symbol representing the direction of this movement.
+
 This continues until the encoder returns to the starting position, at which point the blob has been completely described, and encoding continues with the next blob in the image.
+
 This encoding method is particularly effective for images consisting of a reasonably small number of large connected components.
 
 Variations
+
 Some popular chain codes include:
 
 the Freeman Chain Code of Eight Directions (FCCE)
@@ -16,11 +20,15 @@ Predator-Prey System Chain Code (PPSCC)
 Beaver Territories Chain Code (BTCC)
 Biological Reproduction Chain Code (BRCC)
 Agent-Based Modeling Chain Code (ABMCC)
+
 In particular, FCCE, VCC, 3OT and DFCCE can be transformed from one to another
 
 A related blob encoding method is crack code. Algorithms exist to convert between chain code, crack code, and run-length encoding.
+
 A new trend of chain codes involve the utilization of biological behaviors. This started by the work of Mouring et al. who developed an algorithm that takes advantage of the pheromone of ants to track image information. An ant releases a pheromone when they find a piece of food. Other ants use the pheromone to track the food. In their algorithm, an image is transferred into a virtual environment that consists of food and paths according to the distribution of the pixels in the original image. Then, ants are distributed and their job is to move around while releasing pheromone when they encounter food items. This helps other ants identify information, and therefore, encode information.
 
 In use
+
 Recently, the combination of move-to-front transform and adaptive run-length encoding accomplished efficient compression of the popular chain codes.
+
 Chain codes also can be used to obtain high levels of compression for image documents, outperforming standards such as DjVu and JBIG2.

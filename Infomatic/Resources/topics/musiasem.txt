@@ -1,17 +1,23 @@
 MuSIASEM or Multi-Scale Integrated Analysis of Societal and Ecosystem Metabolism, is a method of accounting used to analyse socio-ecosystems and to simulate possible patterns of development. It is based on maintaining coherence across scales and different dimensions (e.g. economic, demographic, energetic) of quantitative assessments generated using different metrics.
 
 History
+
 MuSIASEM is designed to detect and analyze patterns in the societal use of resources making a distinction between:
 
 the internal end uses (who is using which resources, how much, how, and why);
 the resulting internal environmental pressures associated with the various end uses, allowing an analysis of the impacts they create on the environment; and
 the level of externalization through trade of both requirements of additional end uses and resulting environmental pressures that are moved to the social-ecological systems producing the imports.
+
 The ability to integrate quantitative assessments across dimensions and scales makes MuSIASEM particularly suited for different types of sustainability analysis: the nexus between food, energy, water and land uses; urban metabolism; waste metabolism; tourism metabolism; and rural development.
+
 The approach was created around 1997 by Mario Giampietro and Kozo Mayumi, and has been developed since then by the members of the IASTE (Integrated Assessment: Sociology, Technology and the Environment) group at the Institute of Environmental Science and Technology of the Autonomous University of Barcelona and its external collaborators.
+
 The purpose of MuSIASEM is to characterize metabolic patterns of socio-ecological systems (how and why humans use resources and how this use depends on and affects the stability of the ecosystems embedding the society). This integrated approach allows for a quantitative implementation of the DPSIR framework (Drivers, Pressures, States, Impacts and Responses) and application as a decision support tool. Different alternatives of the option space can be checked in terms of feasibility (compatibility with processes outside human control), viability (compatibility with processes under human control) and desirability (compatibility with normative values and institutions).
+
 The original version of the accounting scheme has been improved using theoretical concepts from complex systems theory leading to the generation of MuSIASEM version 2.0, tested in several case studies.
 
 Applications
+
 MuSIASEM accounting has been used for the integrated assessment of agricultural systems, biofuels
 , nuclear power
 , energetics, sustainability of water use, mining, urban waste management systems, and urban metabolism in developing countries. Moreover, the methodology has been applied to assess societal metabolism at the municipal, regional (rural Laos, Catalonia, China, Europe, Galapagos Islands), national, and supernational scale. An application of MuSIASEM to the nexus between natural resources is in the book Resource Accounting for Sustainability: The Nexus between Energy, Food, Water and Land Use. This work has been tested in collaboration with FAO. The Ecuadorian National Secretariat for Development and Planning (SENPLADES) has included the MuSIASEM approach in the training of its personnel. Finally, several master courses about the application to the approach to energy system in various Southern African Universities have been elaborated under the Participia project. MuSIASEM has been applied to the analysis of Shanghai's urban metabolism.

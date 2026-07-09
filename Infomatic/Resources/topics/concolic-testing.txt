@@ -1,14 +1,19 @@
 Concolic testing (a portmanteau of concrete and symbolic, also known as dynamic symbolic execution) is a hybrid software verification technique that performs symbolic execution, a classical technique that treats program variables as symbolic variables, along a concrete execution (testing on particular inputs) path. Symbolic execution is used in conjunction with an automated theorem prover or constraint solver based on constraint logic programming to generate new concrete inputs (test cases) with the aim of maximizing code coverage. Its main focus is finding bugs in real-world software, rather than demonstrating program correctness.
+
 A description and discussion of the concept was introduced in "DART: Directed Automated Random Testing" by Patrice Godefroid, Nils Klarlund, and Koushik Sen. The paper "CUTE: A concolic unit testing engine for C", by Koushik Sen, Darko Marinov, and Gul Agha, further extended the idea to data structures, and first coined the term concolic testing. Another tool, called EGT (renamed to EXE and later improved and renamed to KLEE), based on similar ideas was independently developed by Cristian Cadar and Dawson Engler in 2005, and published in 2005 and 2006. PathCrawler first proposed to perform symbolic execution along a concrete execution path, but unlike concolic testing PathCrawler does not simplify complex symbolic constraints using concrete values. These tools (DART and CUTE, EXE) applied concolic testing to unit testing of C programs and concolic testing was originally conceived as a white box improvement upon established random testing methodologies. The technique was later generalized to testing multithreaded Java programs with jCUTE, and unit testing programs from their executable codes (tool OSMOSE). It was also combined with fuzz testing and extended to detect exploitable security issues in large-scale x86 binaries by Microsoft Research's SAGE.
+
 The concolic approach is also applicable to model checking. In a concolic model checker, the model checker traverses states of the model representing the software being checked, while storing both a concrete state and a symbolic state. The symbolic state is used for checking properties on the software, while the concrete state is used to avoid reaching unreachable states. One such tool is ExpliSAT by Sharon Barner, Cindy Eisner, Ziv Glazberg, Daniel Kroening and Ishai Rabinovitz
 
 Birth of concolic testing
+
 Implementation of traditional symbolic execution based testing requires the implementation of a full-fledged symbolic interpreter for a programming language. Concolic testing implementors noticed that implementation of full-fledged symbolic execution can be avoided if symbolic execution can be piggy-backed with the normal execution of a program through instrumentation. This idea of simplifying implementation of symbolic execution gave birth to concolic testing.
 
 Development of SMT solvers
+
 An important reason for the rise of concolic testing (and more generally, symbolic-execution based analysis of programs) in the decade since it was introduced in 2005 is the dramatic improvement in the efficiency and expressive power of SMT solvers. The key technical developments that lead to the rapid development of SMT solvers include combination of theories, lazy solving, DPLL(T) and the huge improvements in the speed of SAT solvers. SMT solvers that are particularly tuned for concolic testing include Z3, STP, Z3str2, and Boolector.
 
 Example
+
 Consider the following simple example, written in C:
 
 Simple random testing, trying random values of x and y, would require an impractically large number of tests to reproduce the failure.
@@ -17,28 +22,40 @@ Since we'd like the program to follow a different execution path on the next run
 Running the program on this input allows it to reach the inner branch on line 4, which is not taken since 100000 (x) is not less than 0 (z = 2y). The path conditions are x = 100000 and x ≥ z. The latter is negated, giving x < z. The theorem prover then looks for x, y satisfying x = 100000, x < z, and z = 2y; for example, x = 100000, y = 50001. This input reaches the error.
 
 Algorithm
+
 Essentially, a concolic testing algorithm operates as follows:
 
 Classify a particular set of variables as input variables. These variables will be treated as symbolic variables during symbolic execution. All other variables will be treated as concrete values.
+
 Instrument the program so that each operation which may affect a symbolic variable value or a path condition is logged to a trace file, as well as any error that occurs.
+
 Choose an arbitrary input to begin with.
+
 Execute the program.
+
 Symbolically re-execute the program on the trace, generating a set of symbolic constraints (including path conditions).
+
 Negate the last path condition not already negated in order to visit a new execution path. If there is no such path condition, the algorithm terminates.
+
 Invoke an automated satisfiability solver on the new set of path conditions to generate a new input. If there is no input satisfying the constraints, return to step 6 to try the next execution path.
+
 Return to step 4.
+
 There are a few complications to the above procedure:
 
 The algorithm performs a depth-first search over an implicit tree of possible execution paths. In practice programs may have very large or infinite path trees – a common example is testing data structures that have an unbounded size or length. To prevent spending too much time on one small area of the program, the search may be depth-limited (bounded).
 Symbolic execution and automated theorem provers have limitations on the classes of constraints they can represent and solve. For example, a theorem prover based on linear arithmetic will be unable to cope with the nonlinear path condition xy = 6. Any time that such constraints arise, the symbolic execution may substitute the current concrete value of one of the variables to simplify the problem. An important part of the design of a concolic testing system is selecting a symbolic representation precise enough to represent the constraints of interest.
 
 Commercial success
+
 Symbolic-execution based analysis and testing, in general, has witnessed a significant level of interest from industry. Perhaps the most famous commercial tool that uses dynamic symbolic execution (aka concolic testing) is the SAGE tool from Microsoft. The KLEE and S2E tools (both of which are open-source tools, and use the STP constraint solver) are widely used in many companies including Micro Focus Fortify, NVIDIA, and IBM. Increasingly these technologies are being used by many security companies and hackers alike to find security vulnerabilities.
 
 Limitations
+
 Concolic testing has a number of limitations:
 
 If the program exhibits nondeterministic behavior, it may follow a different path than the intended one. This can lead to nontermination of the search and poor coverage.
+
 Even in a deterministic program, a number of factors may lead to poor coverage, including imprecise symbolic representations, incomplete theorem proving, and failure to search the most fruitful portion of a large or infinite path tree.
 Programs which thoroughly mix the state of their variables, such as cryptographic primitives, generate very large symbolic representations that cannot be solved in practice. For example, the condition if (sha256_hash(input) == 0x12345678) { ... } requires the theorem prover to invert SHA-256, which is an open problem.
 
@@ -46,11 +63,18 @@ Tools
 pathcrawler-online.com is a restricted version of the current PathCrawler tool which is publicly available as an online test-case server for evaluation and education purposes.
 jCUTE is available as binary under a research-use only license by Urbana-Champaign for Java.
 CREST is an open-source solution for C that replaced CUTE (modified BSD license).
+
 KLEE is an open source solution built on-top of the LLVM infrastructure (UIUC license).
+
 CATG is an open-source solution for Java (BSD license).
 Jalangi is an open-source concolic testing and symbolic execution tool for JavaScript.  Jalangi supports integers and strings.
+
 Microsoft Pex, developed at Microsoft Rise, is publicly available as a Microsoft Visual Studio 2010 Power Tool for the NET Framework.
+
 Triton is an open-source concolic execution library for binary code.
+
 CutEr is an open-source concolic testing tool for the Erlang functional programming language.
+
 Owi is an open-source concolic engine for C, C++, Rust, WebAssembly and Zig.
+
 Many tools, notably DART and SAGE, have not been made available to the public at large. Note however that for instance SAGE is "used daily" for internal security testing at Microsoft.

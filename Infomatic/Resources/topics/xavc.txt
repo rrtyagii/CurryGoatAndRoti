@@ -1,23 +1,37 @@
 XAVC is a recording format that was introduced by Sony on October 30, 2012. It is licensed to companies that want to make XAVC products.
 
 Technical details
+
 XAVC can use level 5.2 of H.264/MPEG-4 AVC, which, when XAVC was introduced, was the highest level supported by H.264 and which they now call XAVC S 4K/XAVC S HD. In addition, their XAVC HS 4K or 8K versions can use the MPEG-H HEVC/H.265 codec with 10-bit color sampling. XAVC can support 4K resolution (4096×2160 and 3840×2160) at up to 60 frames per second (fps). XAVC supports color depths of 8, 10, and 12 bits. Chroma subsampling can be 4:2:0, 4:2:2, or 4:4:4. The Material Exchange Format (MXF) can be used for the digital container format.
+
 XAVC allows for a wide range of content production including intra frame recording and long group of pictures (GOP) recording.
 
 XAVC S
+
 On April 7, 2013, Sony announced that it had expanded XAVC to the consumer market with the release of XAVC S. XAVC S supports resolutions up to 3840×2160, uses MP4 as the container format, and uses either AAC or LPCM for the audio.
+
 It is used e.g. in the Sony FDR-AX100 4K Ultra HD consumer camcorder and Sony HDR-AS100V action camera. The Sony α7S as well as some consumer stills cameras with movie support (e.g. the Sony RX10) also offer XAVC-S.
 
 Hardware
+
 Sony announced that cameras that will support XAVC include two CineAlta cameras, which are the Sony PMW-F55 and Sony PMW-F5. Both cameras record XAVC with a color depth of 10-bits and 4:2:2 chroma subsampling. The Sony PMW-F55 can record XAVC with 4K resolution at 60 fps at 600 Mbit/s and 2K resolution at 120 fps at 400 Mbit/s. The Sony PMW-F5 can record XAVC with 2K resolution at 120 fps at 400 Mbit/s.
+
 XAVC can record 4K resolution at 60 fps with 4:2:2 chroma subsampling at 600 Mbit/s. A 128 Gigabyte SxS PRO+ media card can record up to 20 minutes of 4K resolution XAVC video at 60 fps, up to 40 minutes of 4K resolution XAVC video at 30 fps, and up to 120 minutes of 2K resolution XAVC video at 30 fps.
+
 The PXW-Z100 is a 7 lbs handheld camcorder with an integrated 20× 4K-compatible zoom lens. The PXW-Z100 is the first "prosumer" camera that uses Sony's XAVC recording format. MPEG-4 AVC/H.264 compression is used for HD (1920×1080), QFHD (3840×2160) and 4K (4096×2160) content. Image sampling is 4:2:2 10-bit, with an intra-frame system that compresses each frame individually at a maximum bit rate of 500 Mbit/s or 600 Mbit/s during 4K 50fps or 60fps recording, respectively, and 223 Mbit/s during HD 50fps or 60fps recording.
+
 On November 14, 2012, Sony stated that it might release consumer products that use XAVC.
+
 In March 2014, Sony launched the consumer video camera, FDR-AX100, which uses XAVC S. It provides a maximum resolution of 3840×2160 with a 60 Mbit/s bit rate. It provides 12× optical zoom and records to a SDXC memory card.
+
 In February 2015, Sony launched the consumer video camera, FDR-AX33, which uses XAVC S. It provides a maximum resolution of 3840×2160 and increased the bit rate to 100 Mbit/s. It provides 10X optical zoom and records to a SDXC memory card.
+
 In late fall, 2015, Sony released a firmware update Archived 2015-12-22 at the Wayback Machine (Version 2.0) for the HXR-NX3 Archived 2015-12-22 at the Wayback Machine camcorder which gives the camcorder the option of recording in XAVC S format in addition to AVCHD.
 
 Software
+
 Software that supports XAVC include Sony Vegas Pro, Adobe Creative Suite 6, Avid, Blackmagic Design's DaVinci Resolve, Grass Valley's EDIUS Pro 7, Quantel, Rovi and MainConcept SDK. Sony announced that XAVC licensing information and a software development kit (SDK) would be released in November 2012.
+
 Sony offers the free XAVC plugin PDZK-LT2 for Apples Final Cut Pro X downloadable at http://www.sonycreativesoftware.com Archived 2014-03-07 at the Wayback Machine. Version 10.2 of Final Cut Pro X supports XAVC-S natively.
+
 For XAVC S, CyberLink PowerDirector, Adobe Premiere Elements, Apple's iMovie 10, Pinnacle Studio 18 Ultimate and Sony Movie Studio Platinum support it for editing and production.

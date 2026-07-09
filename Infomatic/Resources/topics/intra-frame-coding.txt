@@ -1,11 +1,15 @@
 Intra-frame coding is a data compression technique used within a video frame, enabling smaller file sizes and lower bitrates. Since neighboring pixels within an image are often very similar, rather than storing each pixel independently, the frame image is divided into blocks and the typically minor difference between each pixel can be encoded using  fewer bits.
+
 Intra-frame prediction exploits spatial redundancy, i.e. correlation among pixels within one frame, by calculating prediction values through extrapolation from already coded pixels for effective delta coding. It is one of the two classes of predictive coding methods in video coding. Its counterpart is inter-frame prediction which exploits temporal redundancy. Temporally independently coded so-called intra frames use only intra coding. The temporally coded predicted frames (e.g. MPEG's P- and B-frames) may use intra- as well as inter-frame prediction.
 
 Usually only few of the spatially closest known samples are used for the extrapolation. Formats that operate sample by sample like Portable Network Graphics (PNG) can usually use one of four adjacent pixels (above, above left, above right, left) or some function of them like e.g. their average. Block-based (frequency transform) formats prefill whole blocks with prediction values extrapolated from usually one or two straight lines of pixels that run along their top and left borders.
+
 Inter frame has been specified by the CCITT in 1988–1990 by H.261 for the first time. H.261 was meant for teleconferencing and ISDN telephoning.
 
 Coding process
+
 Data is usually read from a video camera or a video card in the YCbCr data format (often informally called YUV for brevity). The coding process varies greatly depending on which type of encoder is used (e.g., JPEG or H.264), but the most common steps usually include: partitioning into macroblocks, transformation (e.g., using a DCT or wavelet), quantization and entropy encoding.
 
 Applications
+
 It is used in codecs like ProRes: a group of pictures codec without inter frames.

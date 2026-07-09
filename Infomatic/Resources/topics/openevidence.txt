@@ -1,15 +1,23 @@
 OpenEvidence is an American artificial intelligence company that develops a medical search engine used by physicians for clinical decision support. The company was founded in 2022 by entrepreneur Daniel Nadler and is headquartered in Miami, Florida.
 
 History
+
 OpenEvidence was founded in 2022 by Daniel Nadler, a Harvard Ph.D. and former founder of Kensho, a financial analytics firm acquired by S&P Global in 2018. Nadler launched the company with co-founder Zack Ziegler, a machine learning researcher from Harvard, to address the challenge physicians face in keeping up with the growing volume of medical literature.
+
 In 2023, OpenEvidence reported that its artificial intelligence model achieved a 90 percent score on the United States Medical Licensing Examination (USMLE). During the same year, the company participated in the Mayo Clinic health-technology accelerator. In 2025, the company stated that the model had reached a 100 percent score on the same examination.
+
 In February 2025, OpenEvidence raised $75 million in a Series A round led by Sequoia Capital, valuing the company at $1 billion. In July 2025, the company secured $210 million in funding from a round led by GV (Google Ventures) and Kleiner Perkins, with participation from Coatue, Conviction, and Thrive Capital. This round valued the company at $3.5 billion.
+
 In April 2025, OpenEvidence was featured in the Forbes AI 50 list.
+
 OpenEvidence has also announced partnerships with organizations including the American Medical Association, The New England Journal of Medicine, and several specialty journals published by the JAMA Network.
+
 On 20 October 2025, the company announced a US$200 million Series C funding round, valuing the company at US$6 billion. In January 2026, OpenEvidence raised $250 million in a Series D funding round at a $12 billion valuation.
 
 Product and technology
+
 OpenEvidence provides an artificial intelligence-based platform that analyzes and organizes peer-reviewed medical literature from clinical journals such as The New England Journal of Medicine and The Journal of the American Medical Association. According to the company, access is available at no cost to verified physicians, with revenue derived from advertising. As of July 2025, the company reported more than 430,000 registered U.S. physicians (about 40% of U.S. physicians) and use in over 8.5 million consultations per month. In the same month, OpenEvidence introduced a feature called DeepConsult, described as employing reasoning models to synthesize findings across multiple studies.
 
 Recognition
+
 In 2025, Daniel Nadler, co-founder of OpenEvidence, was named to the TIME100 Health list of the 100 most influential people in global health.

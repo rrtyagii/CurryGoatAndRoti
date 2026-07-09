@@ -1,11 +1,14 @@
 The Munich Center for Machine Learning (MCML) is a joint research institution of LMU Munich and the Technical University of Munich in the field of machine learning (ML) and artificial intelligence (AI), based in Munich. Founded in 2018, the MCML is one of six German "AI competence centers." It is funded by the Federal Ministry of Research, Technology and Space and the State of Bavaria.
 
 Research
+
 Over 600 scientists work at the MCML in three research areas:
 
 Foundations of ML
 Perception, Vision, and Natural Language Processing
+
 Domain-specific ML.
 
 Leadership
+
 The MCML is headed by the four directors Bernd Bischl, Daniel Cremers, Daniel Rückert and Thomas Seidl, as well as the managing directors Elke Achtert (LMU) and Alexandra Stang (TUM).

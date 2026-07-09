@@ -1,955 +1,395 @@
 Minimax (sometimes Minmax, MM or saddle point) is a decision rule used in artificial intelligence, decision theory, combinatorial game theory, statistics, and philosophy for minimizing the possible loss for a worst case (maximum loss) scenario. When dealing with gains, it is referred to as "maximin" – to maximize the minimum gain. Originally formulated for several-player zero-sum game theory, covering both the cases where players take alternate moves and those where they make simultaneous moves, it has also been extended to more complex games and to general decision-making in the presence of uncertainty.
 
 Game theory
+
 In general games
+
 The maximin value is the highest value that the player can be sure to get without knowing the actions of the other players; equivalently, it is the lowest value the other players can force the player to receive when they know the player's action. Its formal definition is:
 
-
-
-
-
-
-
               v
-
                 i
-
-
             _
-
-
         =
-
           max
-
-
               a
-
                 i
-
-
-
-
-
           min
-
-
               a
-
                 −
                 i
-
-
-
-
-
-
             v
-
               i
-
-
           (
-
             a
-
               i
-
-
           ,
-
             a
-
               −
               i
-
-
           )
-
-
-
     {\displaystyle {\underline {v_{i}}}=\max _{a_{i}}\min _{a_{-i}}{v_{i}(a_{i},a_{-i})}}
-
 
 Where:
 
 i is the index of the player of interest.
 
-
-
-
         −
         i
-
-
     {\displaystyle -i}
-
  denotes all other players except player i.
-
-
-
-
-
           a
-
             i
-
-
-
-
     {\displaystyle a_{i}}
-
  is the action taken by player i.
-
-
-
-
-
           a
-
             −
             i
-
-
-
-
     {\displaystyle a_{-i}}
-
  denotes the actions taken by all other players.
-
-
-
-
-
           v
-
             i
-
-
-
-
     {\displaystyle v_{i}}
-
  is the value function of player i.
 Calculating the maximin value of a player is done in a worst-case approach: for each possible action of the player, we check all possible actions of the other players and determine the worst possible combination of actions – the one that gives player i the smallest value. Then, we determine which action player i can take in order to make sure that this smallest value is the highest possible.
 For example, consider the following game for two players, where the first player ("row player") may choose any of three moves, labelled T, M, or B, and the second player ("column player") may choose either of two moves, L or R. The result of the combination of both moves is expressed in a payoff table:
 
-
-
-
-
-
-
-
-
-
                   L
-
-
                   R
-
-
-
-
                   T
-
-
                   3
                   ,
                   1
-
-
                   2
                   ,
                   −
                   20
-
-
-
-
                   M
-
-
                   5
                   ,
                   0
-
-
                   −
                   10
                   ,
                   1
-
-
-
-
                   B
-
-
                   −
                   100
                   ,
                   2
-
-
                   4
                   ,
                   4
-
-
-
-
-
-
-
     {\displaystyle {\begin{array}{c|cc}\hline &L&R\\\hline T&3,1&2,-20\\M&5,0&-10,1\\B&-100,2&4,4\\\hline \end{array}}}
 
-
 (where the first number in each of the cell is the pay-out of the row player and the second number is the pay-out of the column player).
+
 For the sake of example, we consider only pure strategies. Check each player in turn:
 
 The row player can play T, which guarantees them a payoff of at least 2 (playing B is risky since it can lead to payoff −100, and playing M can result in a payoff of −10). Hence:
 
-
-
-
-
-
               v
-
                 r
                 o
                 w
-
-
             _
-
-
         =
         2
-
-
     {\displaystyle {\underline {v_{row}}}=2}
 
 .
+
 The column player can play L and secure a payoff of at least 0 (playing R puts them in the risk of getting
-
-
 
         −
         20
-
-
     {\displaystyle -20}
 
 ). Hence:
 
-
-
-
-
-
               v
-
                 c
                 o
                 l
-
-
             _
-
-
         =
         0
-
-
     {\displaystyle {\underline {v_{col}}}=0}
 
 .
+
 If both players play their respective maximin strategies
-
-
 
         (
         T
         ,
         L
         )
-
-
     {\displaystyle (T,L)}
 
 , the payoff vector is
-
-
 
         (
         3
         ,
         1
         )
-
-
     {\displaystyle (3,1)}
 
 .
+
 The minimax value of a player is the smallest value that the other players can force the player to receive, without knowing the player's actions; equivalently, it is the largest value the player can be sure to get when they know the actions of the other players. Its formal definition is:
 
-
-
-
-
-
-
               v
-
                 i
-
-
             ¯
-
-
         =
-
           min
-
-
               a
-
                 −
                 i
-
-
-
-
-
           max
-
-
               a
-
                 i
-
-
-
-
-
-
             v
-
               i
-
-
           (
-
             a
-
               i
-
-
           ,
-
             a
-
               −
               i
-
-
           )
-
-
-
     {\displaystyle {\overline {v_{i}}}=\min _{a_{-i}}\max _{a_{i}}{v_{i}(a_{i},a_{-i})}}
-
-
 The definition is very similar to that of the maximin value – only the order of the maximum and minimum operators is inverse. In the above example:
 
 The row player can get a maximum value of 4 (if the other player plays R) or 5 (if the other player plays L), so:
 
-
-
-
-
-
               v
-
                 r
                 o
                 w
-
-
             ¯
-
-
         =
         4
-
         .
-
-
     {\displaystyle {\overline {v_{row}}}=4\ .}
-
 
 The column player can get a maximum value of 1 (if the other player plays T), 1 (if M) or 4 (if B). Hence:
 
-
-
-
-
-
               v
-
                 c
                 o
                 l
-
-
             ¯
-
-
         =
         1
-
         .
-
-
     {\displaystyle {\overline {v_{col}}}=1\ .}
-
 
 For every player i, the maximin is at most the minimax:
 
-
-
-
-
-
-
               v
-
                 i
-
-
             _
-
-
         ≤
-
-
-
               v
-
                 i
-
-
             ¯
-
-
-
-
     {\displaystyle {\underline {v_{i}}}\leq {\overline {v_{i}}}}
-
-
 Intuitively, in maximin the maximization comes after the minimization, so player i tries to maximize their value before knowing what the others will do; in minimax the maximization comes before the minimization, so player i is in a much better position – they maximize their value knowing what the others did.
 Another way to understand the notation is by reading from right to left: When we write
 
-
-
-
-
-
-
               v
-
                 i
-
-
             ¯
-
-
         =
-
           min
-
-
               a
-
                 −
                 i
-
-
-
-
-
           max
-
-
               a
-
                 i
-
-
-
-
-
-
             v
-
               i
-
-
           (
-
             a
-
               i
-
-
           ,
-
             a
-
               −
               i
-
-
           )
-
         =
-
           min
-
-
               a
-
                 −
                 i
-
-
-
-
-
-
             (
-
-
-
           max
-
-
               a
-
                 i
-
-
-
-
-
-
             v
-
               i
-
-
           (
-
             a
-
               i
-
-
           ,
-
             a
-
               −
               i
-
-
           )
-
-
-
             )
-
-
-
-
     {\displaystyle {\overline {v_{i}}}=\min _{a_{-i}}\max _{a_{i}}{v_{i}(a_{i},a_{-i})}=\min _{a_{-i}}{\Big (}\max _{a_{i}}{v_{i}(a_{i},a_{-i})}{\Big )}}
-
 
 the initial set of outcomes
 
-
-
-
-
           v
-
             i
-
-
         (
-
           a
-
             i
-
-
         ,
-
           a
-
             −
             i
-
-
         )
-
-
-
     {\displaystyle \ v_{i}(a_{i},a_{-i})\ }
-
  depends on both
-
-
-
-
-
-
             a
-
               i
-
-
-
-
-
-
     {\displaystyle \ {a_{i}}\ }
-
  and
-
-
-
-
-
-
             a
-
               −
               i
-
-
-
-
         .
-
-
     {\displaystyle \ {a_{-i}}\ .}
-
  We first marginalize away
-
-
-
-
-
             a
-
               i
-
-
-
-
-
     {\displaystyle {a_{i}}}
-
  from
-
-
-
-
           v
-
             i
-
-
         (
-
           a
-
             i
-
-
         ,
-
           a
-
             −
             i
-
-
         )
-
-
     {\displaystyle v_{i}(a_{i},a_{-i})}
 
 , by maximizing over
 
-
-
-
-
-
             a
-
               i
-
-
-
-
-
-
     {\displaystyle \ {a_{i}}\ }
-
  (for every possible value of
-
-
-
-
-
             a
-
               −
               i
-
-
-
-
-
     {\displaystyle {a_{-i}}}
 
 ) to yield a set of marginal outcomes
 
-
-
-
-
           v
-
             i
-
           ′
-
         (
-
           a
-
             −
             i
-
-
         )
-
         ,
-
-
     {\displaystyle \ v'_{i}(a_{-i})\,,}
-
  which depends only on
-
-
-
-
-
-
             a
-
               −
               i
-
-
-
-
         .
-
-
     {\displaystyle \ {a_{-i}}\ .}
-
  We then minimize over
-
-
-
-
-
-
             a
-
               −
               i
-
-
-
-
-
-
     {\displaystyle \ {a_{-i}}\ }
-
  over these outcomes. (Conversely for maximin.)
 Although it is always the case that
 
-
-
-
-
-
-
               v
-
                 r
                 o
                 w
-
-
             _
-
-
         ≤
-
-
-
               v
-
                 r
                 o
                 w
-
-
             ¯
-
-
-
-
-
     {\displaystyle \ {\underline {v_{row}}}\leq {\overline {v_{row}}}\ }
-
  and
-
-
-
-
-
-
-
               v
-
                 c
                 o
                 l
-
-
             _
-
-
         ≤
-
-
-
               v
-
                 c
                 o
                 l
-
-
             ¯
-
-
-
         ,
-
-
     {\displaystyle \ {\underline {v_{col}}}\leq {\overline {v_{col}}}\,,}
-
  the payoff vector resulting from both players playing their minimax strategies,
-
-
-
-
         (
         2
         ,
         −
         20
         )
-
-
-
     {\displaystyle \ (2,-20)\ }
-
  in the case of
-
-
-
-
         (
         T
         ,
         R
         )
-
-
-
     {\displaystyle \ (T,R)\ }
-
  or
-
-
-
         (
         −
         10
         ,
         1
         )
-
-
     {\displaystyle (-10,1)}
-
  in the case of
-
-
-
-
         (
         M
         ,
         R
         )
-
         ,
-
-
     {\displaystyle \ (M,R)\,,}
-
  cannot similarly be ranked against the payoff vector
-
-
-
-
         (
         3
         ,
         1
         )
-
-
-
     {\displaystyle \ (3,1)\ }
-
  resulting from both players playing their maximin strategy.
 
 In zero-sum games
+
 In two-player zero-sum games, the minimax solution is the same as the Nash equilibrium.
+
 In the context of zero-sum games, the minimax theorem is equivalent to:
 
 For every two-person zero-sum game with finitely many strategies, there exists a value V and a mixed strategy for each player, such that

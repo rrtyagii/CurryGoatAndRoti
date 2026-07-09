@@ -1,26 +1,41 @@
 In natural language processing, linguistics, and neighboring fields, Linguistic Linked Open Data (LLOD) describes a method and an interdisciplinary community concerned with creating, sharing, and (re-)using language resources in accordance with Linked Data principles. The Linguistic Linked Open Data Cloud was conceived and is being maintained by the Open Linguistics Working Group (OWLG) of the Open Knowledge Foundation, but has been a point of focal activity for several W3C community groups, research projects, and infrastructure efforts since then.
 
 Definition and Development
+
 Linguistic Linked Open Data describes the publication of data for linguistics and natural language processing using the following principles:
 
 Data should be openly licensed using licenses such as the Creative Commons licenses.
+
 The elements in a dataset should be uniquely identified by means of a URI.
+
 The URI should resolve, so users can access more information using web browsers.
+
 Resolving an LLOD resource should return results using web standards such as the Resource Description Framework (RDF).
+
 Links to other resources should be included to help users discover new resources and provide semantics.
+
 The primary benefits of LLOD have been identified as:
 
 Representation: Linked graphs are a more flexible representation format for linguistic data.
+
 Interoperability: Common RDF models can easily be integrated.
+
 Federation: Data from multiple sources can trivially be combined.
+
 Ecosystem: Tools for RDF and linked data are widely available under open source licenses.
+
 Expressivity: Existing vocabularies help express linguistic resources.
+
 Semantics: Common links express what you mean.
+
 Dynamicity: Web data can be continuously improved.
+
 The home of the LLOD cloud diagram is under linguistic-lod.org
 
 LLOD vocabularies
+
 Aside from gathering metadata and generating the LLOD cloud diagram, the LLOD community is driving the development of community standards with respect to vocabularies, metadata and best practice recommendations.
+
 According to the state-of-the-art overview by Cimiano et al. (2020), these include:
 
 for modelling lexical resources
@@ -41,29 +56,42 @@ for metadata
 Dublin Core, a community standard of terms that can be used to describe web resources
 Data Catalog Vocabulary (DCAT), a W3C standard for data catalogs published on the web
 METASHARE-OWL, vocabulary for language resource metadata
+
 As of mid-2020, most of these community standards are actively worked on. Particularly problematic is the existence of multiple incompatible standards for linguistic annotations, and in early 2020, the W3C Community Group Linked Data for Language Technology has begun to work towards a consolidation of these (and other) vocabularies for linguistic annotations on the web.
 
 Community
+
 The LLOD cloud diagram has been developed and is maintained by the Open Linguistics Working Group (OWLG) of the Open Knowledge Foundation (since 2014 Open Knowledge), an open and interdisciplinary of experts in language resources.
+
 The OWLG organizes community events and coordinates LLOD developments and facilitates interdisciplinary communication between and among LLOD contributors and users.
+
 Several W3C Business and Community Groups focus on specialized aspects of LLOD:
 
 The W3C Ontology-Lexica Community Group (OntoLex) develops and maintains specifications for machine-readable dictionaries in the LLOD cloud.
+
 The W3C Best Practices for Multilingual Linked Open Data Community Group gathers information on best practices for producing multilingual linked open data.
+
 The W3C Linked Data for Language Technology Community Group assembles user cases and requirements for language technology applications that use Linked Data.
+
 LLOD development is driven forward by and documented in a series of international workshops, datathons, and associated publications. Among others, these include
 
 Linked Data in Linguistics (LDL), annual scientific workshop, started 2012
+
 Multilingual Linked Open Data for Enterprises (MLODE), bi-annual community meeting (2012 and 2014)
 Summer Datathon on Linguistic Linked Open Data (SD-LLOD), bi-annual datathon, since 2015
 
 Applications of LLOD
+
 Linguistic Linked Open Data is applied to address a number of scientific research problems:
 
 In all areas of empirical linguistics, computational philology, and natural language processing, linguistic annotation and linguistic markup represent central elements of analysis. However, progress in this field is being hampered by interoperability challenges, most notably differences in vocabularies and annotation schemes used for different resources and tools. Using Linked Data to connect language resources and ontologies/terminology repositories facilitate re-using shared vocabularies and interpreting them against a common basis.
+
 In corpus linguistics and computational philology, overlapping markup represents a notorious problem to conventional XML formats. Hence, graph-based data models have been suggested since the late 1990s. These are traditionally represented by means of multiple, interlinked XML files (standoff XML), which are poorly supported by off-the-shelf XML technology. Modeling such complex annotations as Linked Data represents a formalism semantically equivalent to standoff XML, but eliminates the need for special-purpose technology, and, instead, relies on the existing RDF ecosystem.
+
 Multilingual issues, including the linking of lexical resources such as WordNet as performed in the Interlingual Index of the Global WordNet Association and interconnecting heterogeneous resources such as WordNet and Wikipedia, as was done in BabelNet.
+
 Providing forums for standardization of linguistic resource information
+
 Linguistic Linked Open Data is closely related with the development of
 
 best practices for linking lexical data on the web (for data published in accordance with OntoLex conventions)
@@ -71,6 +99,7 @@ best practices for creating annotations on the web (e.g., using the Web Annotati
 best practices for modelling and sharing textual resources with overlapping markup
 
 Selected research projects
+
 Uses and development of LLOD have been subject to several large-scale research projects, including
 
 LOD2. Creating Knowledge out of Interlinked Data (11 EU countries + Korea, 2010–2014)
@@ -82,9 +111,11 @@ FREME. Open Framework of E-Services for Multilingual and Semantic Enrichment of 
 POSTDATA. Poetry Standardization and Linked Open Data (ERC Starting Grant, UNED, Spain, 2016–2021)
 Linking Latin (ERC Consolidator Grant, Universita Cattolica del Sacro Cuore, Italy, 2018–2023)
 Pret-a-LLOD (5 EU countries, 2019–2021)
+
 NexusLinguarum. European network for Web-centred linguistic data science (COST Action, 35 COST countries, 2 near neighboring countries, one international partner country, 2019–2023)
 
 Selected resources
+
 As of October 2018, the 10 most frequently linked resources in the LLOD diagram are (in order of the number of linked datasets):
 
 The Ontologies of Linguistic Annotation (OLiA, linked with 74 datasets) provide reference terminology for linguistic annotations and grammatical metadata;
@@ -97,13 +128,17 @@ The ISO 12620 Data Category Registry (ISOcat; RDF edition, linked with 10 datase
 UBY (RDF edition lemon-Uby, linked with 9 datasets), a lexical network for English, aggregated from various lexical resources;
 Glottolog (linked with 7 datasets) provides fine-grained language identifiers for low-resource languages, in particular, many not covered by lexvo.org;
 Wiktionary-DBpedia links (wiktionary.dbpedia.org, linked with 7 datasets), Wiktionary-based lexicalizations for DBpedia concepts.
+
 DBnary an RDF version of 23 Wiktionary Language Editions.
 
 Aspects
+
 There are a number of recurring discussions regarding the different aspects of the term, its applicability and for a particular type of resources.
 
 Linguistic Data: Scope and Classification
+
 Aside from resources used in and created for linguistic research, the LLOD cloud diagram also includes ontologies, terminologies and general knowledge bases whose development was not originally driven by interest in language sciences or language technology, e.g., the DBpedia. As a criterion for inclusion into the LLOD diagram, the OWLG requires "linguistic relevance": "[A] dataset is linguistically relevant if it provides or describes language data that can be used for the purpose of linguistic research or natural language processing." This does include linguistic resources in a strict sense ("condition 1": an annotated or otherwise structured resource created for application in language sciences or language technology, as demonstrated, for example, by a scientific publication at a linguistics-related journal or conference), but also resources "that can be used for annotating, enriching, retrieving or classifying language resources ... [if their relevance] can be verified by the existence of links between a resource (whose linguistic relevance is to be confirmed) and resources fulfilling condition (1)" ("condition 2").
+
 A related issue is the classification of linguistically relevant datasets (or language resources in general). The OWLG developed the following classification for the LLOD cloud diagram:
 
 corpora: linguistically analyzed collection of language data
@@ -118,31 +153,42 @@ other (placeholder for resources that are not (yet) classified)
 Note that in this classification, term bases might be slightly different in that they do not provide grammatical information, however, since they formalize semantic knowledge, they are of immanent relevance for natural language processing tasks, such as named entity recognition or anaphora resolution.
 
 Open Data: Availability
+
 LLOD is defined in relation to Linked Open Data, and LLOD resources (data) should thus conform to licenses in accordance with the Open Definition. For generating the LLOD cloud diagram (and the LOD diagram), this does, however, not seem to be enforced yet, so that the technical criterion is availability over the web and a metadata entry. In the OWLG, it has been repeatedly discussed whether non-commercial (academic) resources could be included with a general consensus of admitting them for the moment (2015) but subsequently enforcing stricter requirements along with the growth of the LLOD cloud. As of January 2018, it was not agreed upon yet when this move was about to happen. As of January 2020, machine-readable license metadata was available for 86 LLOD resources, of these, 82 adopted open licenses, 4 adopted non-commercial licenses.
+
 In a broader sense, the term LLOD technology (infrastructures, tools, vocabularies) can also used to refer to the technology independently from whether actually open resources are involved, e.g., in the name of the EU project Pret-a-LLOD that features several commercial business cases. This is justified for applications that consume (rather than provide) open data, but moreover, also when linked data technology and the adoptation of other LLOD conventions (esp., the use of RDF vocabularies developed in the context of LLOD) are applied in order to facilitates the seamless integration of LLOD resources (open resources).
+
 The abbreviation "LLOD" can be used to refer to either LLOD technology (use of Linked Data and LLOD vocabularies, independent from the legal status of the data being processed) and LLOD resources (open data). For disambiguation, the terms "LLOD resources" and "LLOD technology" can be used. For emphasizing application or applicability to non-open resources, also "LLD" (Linguistic Linked Data) has been used. A possible compromise is the acronym "LL(O)D" for the technology. A "Licensed Linguistic Linked Data" cloud that contains non-open resources does currently (June 2020) not exist.
 
 Linked Data: Formats
+
 The definition of Linked Data requires the application of RDF or related standards. This includes the W3C recommendations SPARQL, Turtle, JSON-LD, RDF-XML, RDFa, etc. In language technology and the language sciences, however, other formalisms are currently more popular, and the inclusion of such data into the LLOD cloud diagram has been occasionally requested. For several such languages, W3C-standardized wrapping mechanisms exist (e.g., for XML, CSV or relational databases, see Knowledge extraction#Extraction from structured sources to RDF), and such data can be integrated under the condition that the corresponding mapping is provided along with the source data.
 
 Selected literature
+
 A 2022 review paper is:
 
 Anas Fahad Khan; Christian Chiarcos; Thierry Declerck; et al. (26 September 2022). "When linguistics meets web technologies. Recent advances in modelling linguistic linked data". Semantic Web. 13 (6): 987–1050. doi:10.3233/SW-222859. ISSN 1570-0844. Wikidata Q118877323.
+
 An exhaustive description on the state of the art on LLOD is provided by
 
 Cimiano, Philipp; Chiarcos, Christian; McCrae, John P.; Gracia, Jorge (2020). Linguistic Linked Data: Representation, Generation and Applications. Springer International Publishing
 The concept of a Linguistic Linked Open Data cloud has been originally introduced by
 
 Chiarcos, Christian, Hellmann, Sebastian, and Nordhoff, Sebastian (2011). Towards a Linguistic Linked Open Data cloud: The Open Linguistics Working Group. TAL (Traitement Automatique des Langues), 52(3), 245–275.
+
 The first book on the topic is
 
 Christian Chiarcos, Sebastian Nordhoff, and Sebastian Hellmann (eds., 2012). Linked Data in Linguistics. Representing and Connecting Language Data and Language Metadata. Springer, Heidelberg.
+
 According to Cimiano et al. (2020), other seminal publications since then include
 
 Christian Chiarcos, Steven Moran, Pablo N. Mendes, Sebastian Nordhoff, and Richard Littauer. Building a Linked Open Data cloud of linguistic resources: Motivations and developments. In Iryna Gurevych and Jungi Kim (eds.), The People's Web Meets NLP. Collaboratively Constructed Language Resources.Springer, Heidelberg, 2013.
+
 Christian Chiarcos, John McCrae, Philipp Cimiano, and Christiane Fellbaum. Towards open data for linguistics: Lexical Linked Data. In Alessandro Oltramari, Piek Vossen, Lu Qin, and Eduard Hovy (eds.), New Trends of Research in Ontologies and Lexical Resources. Springer, Heidelberg, 2013.
+
 Jorge Gracia, Elena Montiel-Ponsoda, Philipp Cimiano, Asunción Gómez-Pérez, Paul Buitelaar, and John McCrae. Challenges for the multilingual Web of Data.Journal of Web Semantics, vol. 11, pp. 63–71. Elsevier B.V., 2012.
+
 Developments from 2015 to 2019 are summarized in the collected volume by
 
 Pareja-Lora, Antonio; Lust, Barbara; Blume, Maria; Chiarcos, Christian (eds., 2020). Development of Linguistic Linked Open Data Resources for Collaborative Data-Intensive Research in the Language Sciences. The MIT Press

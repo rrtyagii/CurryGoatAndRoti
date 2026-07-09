@@ -1,42 +1,63 @@
 An Emotion Markup Language (EML or EmotionML) has first been defined by the W3C Emotion Incubator Group (EmoXG) as a general-purpose emotion annotation and representation language, which should be usable in a large variety of technological contexts where emotions need to be represented. Emotion-oriented computing (or "affective computing") is gaining importance as interactive technological systems become more sophisticated. Representing the emotional states of a user or the emotional states to be simulated by a user interface requires a suitable representation format; in this case a markup language is used.
+
 EmotionML version 1.0 was published by the group in May 2014.
 
 Example
+
 Here is an example of an EmotionML document describing emotions expressed in a video recording of the interaction between a teacher, Alice, and a student, Bob.
 
 History
+
 In 2006, a first W3C Incubator Group, the Emotion Incubator Group (EmoXG), was set up "to investigate a language to represent the emotional states of users and the emotional states simulated by user interfaces" with the final Report published on 10 July 2007.
+
 In 2007, the Emotion Markup Language Incubator Group (EmotionML XG) was set up as a follow-up to the Emotion Incubator Group, "to propose a specification draft for an Emotion Markup Language, to document it in a way accessible to non-experts, and to illustrate its use in conjunction with a number of existing markups." The final report of the Emotion Markup Language Incubator Group, Elements of an EmotionML 1.0, was published on 20 November 2008.
+
 The work then was continued in 2009 in the frame of the W3C's Multimodal Interaction Activity, with the First Public Working Draft of "Emotion Markup Language (EmotionML) 1.0" being published on 29 October 2009. The Last Call Working Draft of "Emotion Markup Language 1.0", was published on 7 April 2011. The Last Call Working Draft addressed all open issues that arose from feedback of the community on the First Call Working Draft as well as results of a workshop held in Paris in October 2010. Along with the Last Call Working Draft, a list of vocabularies for EmotionML has been published to aid developers using common vocabularies for annotating or representing emotions.
+
 Annual draft updates were published until the 1.0 version was finished in 2014.
 
 Reasons for defining an emotion markup language
+
 A standard for an emotion markup language would be useful for the following purposes:
 
 To enhance computer-mediated human-human or human-machine communication. Emotions are a basic part of human communication and should therefore be taken into account, e.g. in emotional Chat systems or emphatic voice boxes. This involves specification, analysis and display of emotion related states.
+
 To enhance systems' processing efficiency. Emotion and intelligence are strongly interconnected. The modeling of human emotions in computer processing can help to build more efficient systems, e.g. using emotional models for time-critical decision enforcement.
+
 To allow the analysis of non-verbal behavior, emotion, mental states that can be provided using web services to enable data collection, analysis, and reporting.
+
 Concrete examples of existing technology that could apply EmotionML include:
 
 Opinion mining / sentiment analysis in Web 2.0, to automatically track customer's attitude regarding a product across blogs;
 Affective monitoring, such as ambient assisted living applications, fear detection for surveillance purposes, or using wearable sensors to test customer satisfaction;
 Wellness technologies that provide assistance according to a person's emotional state with the goal to improve the person's well-being;
 Character design and control for games and virtual worlds;
+
 Building web services to capture, analysis, and report data of non-verbal behavior, emotion and mental states of an individual or group across the internet using standard web technologies such as HTML5 and JSON.
+
 Social robots, such as guide robots engaging with visitors;
+
 Expressive speech synthesis, generating synthetic speech with different emotions, such as happy or sad, friendly or apologetic; expressive synthetic speech would for example make more information available to blind and partially sighted people, and enrich their experience of the content;
 Emotion recognition (e.g., for spotting angry customers in speech dialog systems, to improve computer games or e-Learning applications);
 Support for people with disabilities, such as educational programs for people with autism. EmotionML can be used to make the emotional intent of content explicit. This would enable people with learning disabilities (such as Asperger syndrome) to realise the emotional context of the content;
 EmotionML can be used for media transcripts and captions. Where emotions are marked up to help deaf or hearing impaired people who cannot hear the soundtrack, more information is made available to enrich their experience of the content.
+
 The Emotion Incubator Group has listed 39 individual use cases for an Emotion markup language.
+
 A standardised way to mark up the data needed by such "emotion-oriented systems" has the potential to boost development primarily because data that was annotated in a standardised way can be interchanged between systems more easily, thereby simplifying a market for emotional databases, and the standard can be used to ease a market of providers for sub-modules of emotion processing systems, e.g. a web service for the recognition of emotion from text, speech or multi-modal input.
 
 The challenge of defining a generally usable emotion markup language
+
 Any attempt to standardize the description of emotions using a finite set of fixed descriptors is doomed to failure, as there is no consensus on the number of relevant emotions, on the names that should be given to them or how else best to describe them. For example, the difference between ":)" and "(:" is small, but using a standardized markup it would make one invalid. Even more basically, the list of emotion-related states that should be distinguished varies depending on the application domain and the aspect of emotions to be focused. Basically, the vocabulary needed depends on the context of use.
+
 On the other hand, the basic structure of concepts is less controversial: it is generally agreed that emotions involve triggers, appraisals, feelings, expressive behavior including physiological changes, and action tendencies; emotions in their entirety can be described in terms of categories or a small number of dimensions; emotions have an intensity, and so on. For details, see the Scientific Descriptions of Emotions in the Final Report of the Emotion Incubator Group.
+
 Given this lack of agreement on descriptors in the field, the only practical way of defining an emotion markup language is the definition of possible structural elements and to allow users to "plug in" vocabularies that they consider appropriate for their work.
+
 An additional challenge lies in the aim to provide a markup language that is generally usable. The requirements that arise from different use cases are rather different. Whereas manual annotation tends to require all the fine-grained distinctions considered in the scientific literature, automatic recognition systems can usually distinguish only a very small number of different states and affective avatars need yet another level of detail for expressing emotions in an appropriate way.
+
 For the reasons outlined here, it is clear that there is an inevitable tension between flexibility and interoperability, which need to be weighed in the formulation of an EmotionML. The guiding principle in the following specification has been to provide a choice only where it is needed, and to propose reasonable default options for every choice.
 
 Applications and web services benefiting from an emotion markup language
+
 There are a range of existing projects and applications to which an emotion markup language will enable the building of webservices to measure capture data of individuals non-verbal behavior, mental states, and emotions and allowing results to be reported and rendered in a standardized format using standard web technologies such as JSON and HTML5. One such project is measuring affect data across the Internet using EyesWeb.

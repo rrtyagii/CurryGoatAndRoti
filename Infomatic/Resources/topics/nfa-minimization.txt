@@ -1,4 +1,5 @@
 In automata theory (a branch of theoretical computer science), NFA minimization is the task of transforming a given nondeterministic finite automaton (NFA) into an equivalent NFA that has a minimum number of states, transitions, or both. While efficient algorithms exist for DFA minimization, NFA minimization is PSPACE-complete. No efficient (polynomial time) algorithms are known, and under the standard assumption P ≠ PSPACE, none exist. The most efficient known algorithm is the Kameda‒Weiner algorithm.
 
 Non-uniqueness of minimal NFA
+
 Unlike deterministic finite automata, minimal NFAs may not be unique. There may be multiple NFAs of the same size which accept the same regular language, but for which there is no equivalent NFA or DFA with fewer states.

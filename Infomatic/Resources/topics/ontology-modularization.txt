@@ -1,2 +1,3 @@
 The notion of ontology modularization refers to a methodological principle in ontology engineering. The idea is that an ontology is built in a modular manner, i.e. developed as a set of small modules and later composed to form, and be used as, one modular ontology.
+
 One of the major research meetings on ontology modularization is the International Workshop on Modular Ontologies series.

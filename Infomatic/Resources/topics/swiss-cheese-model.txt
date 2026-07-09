@@ -1,19 +1,31 @@
 The Swiss cheese model of accident causation is a model used in risk analysis and risk management. It likens human systems to multiple slices of Swiss cheese, which have randomly placed and sized holes in each slice, stacked side by side, in which the risk of a threat becoming a reality is mitigated by the different types of defenses which are "layered" behind each other. Therefore, in theory, lapses and weaknesses in one defense (e.g. a hole in one slice of cheese) do not allow a risk to materialize, since other defenses also exist (e.g. other slices of cheese), to prevent a single point of failure.
+
 The model was originally formally propounded by James T. Reason of the University of Manchester, and has since gained widespread acceptance. It is sometimes called the "cumulative act effect". Applications include aviation safety, engineering, healthcare, emergency service organizations, and as the principle behind layered security, as used in computer security and defense in depth.
+
 Although the Swiss cheese model is respected and considered a useful method of relating concepts, it has been subject to criticism that it is used too broadly, and without enough other models or support.
 
 Holes and slices
+
 In the Swiss cheese model, an organization's defenses against failure are modeled as a series of imperfect barriers, represented as slices of cheese, specifically Swiss cheese with holes known as "eyes", such as Emmental cheese. The holes in the slices represent weaknesses in individual parts of the system and are continually varying in size and position across the slices. The system produces failures when holes in each slice momentarily align, permitting (in Reason's words) "a trajectory of accident opportunity", so that a hazard passes through holes in all of the slices, leading to a failure.
+
 Frosch described Reason's model in mathematical terms as a model in percolation theory, which he analyses as a Bethe lattice.
 
 Active and latent failures
+
 The model includes active and latent failures. Active failures encompass the unsafe acts that can be directly linked to an accident, such as (in the case of aircraft accidents) a navigation error. Latent failures include contributory factors that may lie dormant for days, weeks, or months until they contribute to the accident. Latent failures span the first three domains of failure in Reason's model.
+
 In the early days of the Swiss cheese model, late 1980 to about 1992, attempts were made to combine two theories: James Reason's multi-layer defence model and Willem Albert Wagenaar's tripod theory of accident causation. This resulted in a period in which the Swiss cheese diagram was represented with the slices of cheese labelled 'active failures', 'preconditions' and 'latent failures'.
+
 The attempts to combine these theories still cause confusion today. A more correct version of the combined theories is shown with the active failures (now called immediate causes), preconditions and latent failures (now called underlying causes) shown as the reason each barrier (slice of cheese) has a hole in it, and the slices of cheese as the barriers.
 
 Examples of applications
+
 The framework has been applied to a range of areas including aviation safety, various engineering domains, emergency service organizations, and as the principle behind layered security, as used in computer security and defense in depth.
+
 The model was used in some areas of healthcare. For example, a latent failure could be the similar packaging of two drugs that are then stored close to each other in a pharmacy. This failure would be a contributory factor in the administration of the wrong drug to a patient. Such research led to the realization that medical error can be the result of "system flaws, not character flaws", and that greed, ignorance, malice or laziness are not the only causes of error.
+
 The Swiss cheese model is nowadays widely used within process safety. Each slice of cheese is usually associated to a safety-critical system, often with the support of bow-tie diagrams. This use has become particularly common when applied to oil and gas drilling and production, both for illustrative purposes and to support other processes, such as asset integrity management and incident investigation.
+
 Lubnau, Lubnau II, and Okray apply the model to the engineering of firefighting systems, aiming to reduce human errors by "inserting additional layers of cheese into the system", namely the techniques of Crew Resource Management.
+
 Olson and Raz apply the model to improve deception in the methodology of experimental studies, with multiple thin layers of cheese representing subtle components of deception which hide the study hypothesis.

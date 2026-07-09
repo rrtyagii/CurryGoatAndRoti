@@ -1,80 +1,46 @@
 In mathematics, the spiral optimization (SPO) algorithm is a metaheuristic inspired by spiral phenomena in nature.
+
 The first SPO algorithm was proposed for two-dimensional unconstrained optimization
 based on two-dimensional spiral models. This was extended to n-dimensional problems by generalizing the two-dimensional spiral model to an n-dimensional spiral model.
+
 There are effective settings for the SPO algorithm: the periodic descent direction setting
 and the convergence setting.
 
 Metaphor
+
 The motivation for focusing on spiral phenomena was due to the insight that the dynamics that generate logarithmic spirals share the diversification and intensification behavior. The diversification behavior can work for a global search (exploration) and the intensification behavior enables an intensive search around a current found good solution (exploitation).
 
 Algorithm
+
 The SPO algorithm is a multipoint search algorithm that has no objective function gradient, which uses multiple spiral models that can be described as deterministic dynamical systems. As search points follow logarithmic
 spiral trajectories towards the common center, defined as the current best point, better solutions can be found and the common center can be updated.
+
 The general SPO algorithm for a minimization problem under the maximum iteration
 
-
-
-
           k
-
             max
-
-
-
-
     {\displaystyle k_{\max }}
-
  (termination criterion) is as follows:
-
 0) Set the number of search points
-
-
-
         m
         ≥
         2
-
-
     {\displaystyle m\geq 2}
-
  and the maximum iteration number
-
-
-
-
           k
-
             max
-
-
-
-
     {\displaystyle k_{\max }}
 
 .
 1) Place the initial search points
-
-
-
-
           x
-
             i
-
-
         (
         0
         )
         ∈
-
-
             R
-
-
             n
-
-
-
         (
         i
         =
@@ -84,59 +50,28 @@ The general SPO algorithm for a minimization problem under the maximum iteration
         ,
         m
         )
-
-
     {\displaystyle x_{i}(0)\in \mathbb {R} ^{n}~(i=1,\ldots ,m)}
-
  and determine the center
-
-
-
-
           x
-
             ⋆
-
-
         (
         0
         )
         =
-
           x
-
-
               i
-
                 b
-
-
-
-
         (
         0
         )
-
-
     {\displaystyle x^{\star }(0)=x_{i_{\text{b}}}(0)}
 
 ,
 
-
-
-
-
             i
-
               b
-
-
           =
-
-
               argmin
-
-
               i
               =
               1
@@ -144,75 +79,45 @@ The general SPO algorithm for a minimization problem under the maximum iteration
               …
               ,
               m
-
-
           ⁡
           {
           f
           (
-
             x
-
               i
-
-
           (
           0
           )
           )
           }
-
-
-
     {\displaystyle \displaystyle i_{\text{b}}=\mathop {\text{argmin}} _{i=1,\ldots ,m}\{f(x_{i}(0))\}}
 
 , and then set
 
-
-
         k
         =
         0
-
-
     {\displaystyle k=0}
 
 .
 2) Decide the step rate
-
-
-
         r
         (
         k
         )
-
-
     {\displaystyle r(k)}
-
  by a rule.
 3) Update the search points:
-
-
-
-
           x
-
             i
-
-
         (
         k
         +
         1
         )
         =
-
           x
-
             ⋆
-
-
         (
         k
         )
@@ -226,27 +131,18 @@ The general SPO algorithm for a minimization problem under the maximum iteration
         θ
         )
         (
-
           x
-
             i
-
-
         (
         k
         )
         −
-
           x
-
             ⋆
-
-
         (
         k
         )
         )
-
         (
         i
         =
@@ -257,72 +153,32 @@ The general SPO algorithm for a minimization problem under the maximum iteration
         m
         )
         .
-
-
     {\displaystyle x_{i}(k+1)=x^{\star }(k)+r(k)R(\theta )(x_{i}(k)-x^{\star }(k))\quad (i=1,\ldots ,m).}
-
-
 4) Update the center:
-
-
-
-
           x
-
             ⋆
-
-
         (
         k
         +
         1
         )
         =
-
-
             {
-
-
-
-
                     x
-
-
                         i
-
                           b
-
-
-
-
                   (
                   k
                   +
                   1
                   )
-
-
-
-
                       (
-
-
-
                     if
-
                   f
                   (
-
                     x
-
-
                         i
-
                           b
-
-
-
-
                   (
                   k
                   +
@@ -332,78 +188,29 @@ The general SPO algorithm for a minimization problem under the maximum iteration
                   <
                   f
                   (
-
                     x
-
                       ⋆
-
-
                   (
                   k
                   )
                   )
-
-
                       )
-
-
                   ,
-
-
-
-
-
                     x
-
                       ⋆
-
-
                   (
                   k
                   )
-
-
-
-
                       (
-
-
-
                     otherwise
-
-
-
                       )
-
-
                   ,
-
-
-
-
-
-
-
-
     {\displaystyle x^{\star }(k+1)={\begin{cases}x_{i_{\text{b}}}(k+1)&{\big (}{\text{if }}f(x_{i_{\text{b}}}(k+1))<f(x^{\star }(k)){\big )},\\x^{\star }(k)&{\big (}{\text{otherwise}}{\big )},\end{cases}}}
-
  where
-
-
-
-
-
             i
-
               b
-
-
           =
-
-
               argmin
-
-
               i
               =
               1
@@ -411,18 +218,12 @@ The general SPO algorithm for a minimization problem under the maximum iteration
               …
               ,
               m
-
-
           ⁡
           {
           f
           (
-
             x
-
               i
-
-
           (
           k
           +
@@ -430,99 +231,59 @@ The general SPO algorithm for a minimization problem under the maximum iteration
           )
           )
           }
-
-
-
     {\displaystyle \displaystyle i_{\text{b}}=\mathop {\text{argmin}} _{i=1,\ldots ,m}\{f(x_{i}(k+1))\}}
 
 .
 5) Set
-
-
-
         k
         :=
         k
         +
         1
-
-
     {\displaystyle k:=k+1}
 
 . If
 
-
-
         k
         =
-
           k
-
             max
-
-
-
-
     {\displaystyle k=k_{\max }}
-
  is satisfied then terminate and output
-
-
-
-
           x
-
             ⋆
-
-
         (
         k
         )
-
-
     {\displaystyle x^{\star }(k)}
 
 . Otherwise, return to Step 2).
 
 Setting
+
 The search performance depends on setting the composite rotation matrix
-
-
 
         R
         (
         θ
         )
-
-
     {\displaystyle R(\theta )}
 
 , the step rate
-
-
 
         r
         (
         k
         )
-
-
     {\displaystyle r(k)}
 
 , and the initial points
 
-
-
-
           x
-
             i
-
-
         (
         0
         )
-
         (
         i
         =
@@ -532,8 +293,6 @@ The search performance depends on setting the composite rotation matrix
         ,
         m
         )
-
-
     {\displaystyle x_{i}(0)~(i=1,\ldots ,m)}
 
 .
@@ -542,44 +301,23 @@ The following settings are new and effective.
 Setting 1 (Periodic Descent Direction Setting)
 This setting is an effective setting for high dimensional problems under the maximum iteration
 
-
-
-
           k
-
             max
-
-
-
-
     {\displaystyle k_{\max }}
 
 . The conditions on
-
-
 
         R
         (
         θ
         )
-
-
     {\displaystyle R(\theta )}
-
  and
-
-
-
-
           x
-
             i
-
-
         (
         0
         )
-
         (
         i
         =
@@ -589,132 +327,58 @@ This setting is an effective setting for high dimensional problems under the max
         ,
         m
         )
-
-
     {\displaystyle x_{i}(0)~(i=1,\ldots ,m)}
-
  together ensure that the spiral models generate descent directions periodically. The condition of
-
-
-
         r
         (
         k
         )
-
-
     {\displaystyle r(k)}
-
  works to utilize the periodic descent directions under the search termination
-
-
-
-
           k
-
             max
-
-
-
-
     {\displaystyle k_{\max }}
 
 .
 
 Set
 
-
-
         R
         (
         θ
         )
-
-
     {\displaystyle R(\theta )}
-
  as follows:
-
-
-
         R
         (
         θ
         )
         =
-
-
             [
-
-
-
-
                     0
-
                       n
                       −
                       1
-
-
                       ⊤
-
-
-
-
                   −
                   1
-
-
-
-
-
                     I
-
                       n
                       −
                       1
-
-
-
-
-
                     0
-
                       n
                       −
                       1
-
-
-
-
-
             ]
-
-
-
-
     {\displaystyle R(\theta )={\begin{bmatrix}0_{n-1}^{\top }&-1\\I_{n-1}&0_{n-1}\\\end{bmatrix}}}
-
  where
-
-
-
-
           I
-
             n
             −
             1
-
-
-
-
     {\displaystyle I_{n-1}}
-
  is the
-
-
-
         (
         n
         −
@@ -726,30 +390,14 @@ Set
         −
         1
         )
-
-
     {\displaystyle (n-1)\times (n-1)}
-
  identity matrix and
-
-
-
-
           0
-
             n
             −
             1
-
-
-
-
     {\displaystyle 0_{n-1}}
-
  is the
-
-
-
         (
         n
         −
@@ -757,41 +405,19 @@ Set
         )
         ×
         1
-
-
     {\displaystyle (n-1)\times 1}
-
  zero vector.
 Place the initial points
 
-
-
-
           x
-
             i
-
-
         (
         0
         )
         ∈
-
-
             R
-
-
             n
-
-
-
-
     {\displaystyle x_{i}(0)\in \mathbb {R} ^{n}}
-
-
-
-
-
         (
         i
         =
@@ -801,18 +427,9 @@ Place the initial points
         ,
         m
         )
-
-
     {\displaystyle (i=1,\ldots ,m)}
-
  at random to satisfy the following condition:
-
-
-
-
-
           min
-
             i
             =
             1
@@ -820,12 +437,8 @@ Place the initial points
             …
             ,
             m
-
-
         {
-
           max
-
             j
             =
             1
@@ -833,155 +446,83 @@ Place the initial points
             …
             ,
             m
-
-
-
-
             {
-
-
-
           rank
-
-
-
             [
-
-
-
           d
-
             j
             ,
             i
-
-
         (
         0
         )
-
         R
         (
         θ
         )
-
           d
-
             j
             ,
             i
-
-
         (
         0
         )
-
-
         ⋯
-
-
         R
         (
         θ
-
           )
-
             2
             n
             −
             1
-
-
-
           d
-
             j
             ,
             i
-
-
         (
         0
         )
-
-
             ]
-
-
-
-
             }
-
-
-
-
             }
-
-
         =
         n
-
-
     {\displaystyle \min _{i=1,\ldots ,m}\{\max _{j=1,\ldots ,m}{\bigl \{}{\text{rank}}{\bigl [}d_{j,i}(0)~R(\theta )d_{j,i}(0)~~\cdots ~~R(\theta )^{2n-1}d_{j,i}(0){\bigr ]}{\bigr \}}{\bigr \}}=n}
-
 
 where
 
-
-
-
           d
-
             j
             ,
             i
-
-
         (
         0
         )
         =
-
           x
-
             j
-
-
         (
         0
         )
         −
-
           x
-
             i
-
-
         (
         0
         )
-
-
     {\displaystyle d_{j,i}(0)=x_{j}(0)-x_{i}(0)}
 
 . Note that this condition is almost all satisfied by a random placing and thus no check is actually fine.
 
 Set
 
-
-
         r
         (
         k
         )
-
-
     {\displaystyle r(k)}
-
  at Step 2) as follows:
-
-
-
         r
         (
         k
@@ -989,123 +530,57 @@ Set
         =
         r
         =
-
-
             δ
-
-
                 k
-
                   max
-
-
-
-
-
-
-
-
-
-
           (constant value)
-
-
-
     {\displaystyle r(k)=r={\sqrt[{k_{\max }}]{\delta }}~~~~{\text{(constant value)}}}
-
  where a sufficiently small
-
-
-
         δ
         >
         0
-
-
     {\displaystyle \delta >0}
-
  such as
-
-
-
         δ
         =
         1
-
           /
-
-
           k
-
             max
-
-
-
-
     {\displaystyle \delta =1/k_{\max }}
-
  or
-
-
-
         δ
         =
-
           10
-
             −
             3
-
-
-
-
     {\displaystyle \delta =10^{-3}}
 
 .
 
 Setting 2 (Convergence Setting)
+
 This setting ensures that the SPO algorithm converges to a stationary point under the maximum iteration
 
-
-
-
           k
-
             max
-
-
         =
         ∞
-
-
     {\displaystyle k_{\max }=\infty }
 
 . The settings of
-
-
 
         R
         (
         θ
         )
-
-
     {\displaystyle R(\theta )}
-
  and the initial points
-
-
-
-
           x
-
             i
-
-
         (
         0
         )
-
         (
         i
         =
@@ -1115,70 +590,38 @@ This setting ensures that the SPO algorithm converges to a stationary point unde
         ,
         m
         )
-
-
     {\displaystyle x_{i}(0)~(i=1,\ldots ,m)}
-
  are the same with the above Setting 1. The setting of
-
-
-
         r
         (
         k
         )
-
-
     {\displaystyle r(k)}
-
  is as follows.
 
 Set
 
-
-
         r
         (
         k
         )
-
-
     {\displaystyle r(k)}
-
  at Step 2) as follows:
-
-
-
         r
         (
         k
         )
         =
-
-
             {
-
-
-
                   1
-
-
                   (
-
                     k
-
                       ⋆
-
-
                   ≦
                   k
                   ≦
-
                     k
-
                       ⋆
-
-
                   +
                   2
                   n
@@ -1186,66 +629,28 @@ Set
                   1
                   )
                   ,
-
-
-
-
                   h
-
-
                   (
                   k
                   ≧
-
                     k
-
                       ⋆
-
-
                   +
                   2
                   n
                   )
                   ,
-
-
-
-
-
-
-
-
     {\displaystyle r(k)={\begin{cases}1&(k^{\star }\leqq k\leqq k^{\star }+2n-1),\\h&(k\geqq k^{\star }+2n),\end{cases}}}
-
  where
-
-
-
-
           k
-
             ⋆
-
-
-
-
     {\displaystyle k^{\star }}
-
  is an iteration when the center is newly updated at Step 4) and
-
-
-
         h
         =
-
-
             δ
-
               2
               n
-
-
-
         ,
         δ
         ∈
@@ -1254,119 +659,67 @@ Set
         ,
         1
         )
-
-
     {\displaystyle h={\sqrt[{2n}]{\delta }},\delta \in (0,1)}
-
  such as
-
-
-
         δ
         =
         0.5
-
-
     {\displaystyle \delta =0.5}
 
 . Thus we have to add the following rules about
 
-
-
-
           k
-
             ⋆
-
-
-
-
     {\displaystyle k^{\star }}
-
  to the Algorithm:
 •(Step 1)
 
-
-
-
           k
-
             ⋆
-
-
         =
         0
-
-
     {\displaystyle k^{\star }=0}
 
 .
 •(Step 4) If
 
-
-
-
           x
-
             ⋆
-
-
         (
         k
         +
         1
         )
         ≠
-
           x
-
             ⋆
-
-
         (
         k
         )
-
-
     {\displaystyle x^{\star }(k+1)\neq x^{\star }(k)}
-
  then
-
-
-
-
           k
-
             ⋆
-
-
         =
         k
         +
         1
-
-
     {\displaystyle k^{\star }=k+1}
 
 .
 
 Future works
+
 The algorithms with the above settings are deterministic. Thus, incorporating some random operations make this algorithm powerful for global optimization. Cruz-Duarte et al. demonstrated it by including stochastic disturbances in spiral searching trajectories. However, this door remains open to further studies.
+
 To find an appropriate balance between diversification and intensification spirals depending on the target problem class (including
 
-
-
-
           k
-
             max
-
-
-
-
     {\displaystyle k_{\max }}
 
 ) is important to enhance the performance.
 
 Extended works
+
 Many extended studies have been conducted on the SPO due to its simple structure and concept; these studies have helped improve its global search performance and proposed novel applications.

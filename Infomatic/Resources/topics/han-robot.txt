@@ -1,3 +1,5 @@
 Han is a social humanoid robot created by the Hong Kong–based company Hanson Robotics. He was first activated in 2015 and debuted the same year at the Global Sources Electronics Fair. His skin is made of Frubber. He can detect people and their gender, age, and emotional expression. He mainly consists of a head that can be mounted on a transparent body allowing people to see his circuitry. According to AI magazine, its main purpose is to help humans find contentment.
+
 Through a mobile phone, Han can make different facial expressions, and can also make basic conversations. He has 40 motors inside his head to make those facial expressions, and multiple cameras inside his eyes and chest.
+
 At RISE conference 2017 in Hong Kong, Han debated with Sophia, another robot by Hanson Robotics about different topics such as the singularity and robot consciousness.

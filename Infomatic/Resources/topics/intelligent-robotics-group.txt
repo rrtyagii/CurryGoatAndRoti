@@ -1,3 +1,5 @@
 The Intelligent Robotics Group (IRG) is a research organization within the Intelligent Systems Division at the NASA Ames Research Center in California's Silicon Valley.
+
 IRG conducts applied research in the area of robotics and autonomy and is one of the principal organizations at NASA responsible for robotics expertise, along with groups at the Jet Propulsion Laboratory and Johnson Space Center. The group's portfolio includes robotics in support of human exploration, perception and navigation, user interfaces, software architectures, and simulation. IRG developed the Astrobee free-flying robots on the International Space Station and was a primary contributor to the VIPER lunar rover in the areas of flight software, navigation, simulation, and mission operations.
+
 IRG has also conducted many robotic field test campaigns in support of spaceflight mission concept developments. These experiences led to the commercialization of the GigaPan system in collaboration with Carnegie Mellon University.

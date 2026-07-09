@@ -1,18 +1,25 @@
 Violence against robots, also known as anti-robot attacks and robot abuse, is violence committed by humans against robots. These attacks can be motivated by personal emotions as well as practical or political concerns. Methods of violence include physically breaking the robot, tricking or confusing the robot, and impairing the robot's awareness of its environment.
+
 Examples of attacks against robots have been widely publicised in the press, including attacks against the hitchhiker robot hitchBOT, Knightscope K5 security robots, and at least two dozen attacks on self-driving cars. Some companies, such as Starship Technologies, have attempted to discourage violence by creating robots that react in pain or distress when abused; however, researchers disagree on the ethical use of this strategy.
 
 Definition
+
 Brščić et al. define robot abuse as "persistent offensive action, either verbal or non-verbal, or physical violence that violates the robot's role or its human-like (or animal-like) nature".
 
 Types
+
 The types of attacks include ones that aim for the robots to stop working, ones that impair the robot's sensors to weaken its awareness of the environment, ones that attempt to cause humans to believe that the robot has felt some form of humiliation or weakened social status (e.g. defacement) and ones that verbally attack the robot. Another type of attack is causing the robots to be confused, with an example being to trick "a mobile food delivery robot to engage in dangerous traffic maneuvers". Robots may also be hacked, causing them to perform unexpected actions. An attack against a robot may either be an act of vandalism against the organisation that owns it (an attack on property) or may be a committed against the robot as if it were an individual.
 
 History
+
 Factory workers have caused damage to autonomous machines since at least the 19th century. The Luddites in England, a movement of textile workers who opposed automation in their factories, often destroyed sewing and cropping machines in organised raids to express their political beliefs.
 
 Examples
+
 A widely publicised attack against the hitchhiker robot hitchBOT occurred in Philadelphia in 2015, where attackers stripped, dismembered, and decapitated the robot. Similar attacks have taken place against Knightscope K5 security robots. In December 2017, San Francisco's Society for the Prevention of Cruelty to Animals removed its Knightscape surveillance robot from the streets after nearby homeless people accused it of harassment, and reportedly "put a tarp over it, knocked it over and put barbecue sauce on all the sensors".
+
 At least two dozen attacks on driverless cars occurred within two years in Chandler, Arizona, after Waymo began testing its vehicles in the city in 2017. People threw rocks at them, attempted to run them off the road, and threatened violence against passengers of Waymo vehicles. Human-on-robot attacks have occurred in San Francisco, with residents slapping and shouting at driverless vehicles in 2018. In late 2025, a group vandalised a Waymo in Los Angeles shortly after one of the company's driverless vehicles reportedly killed the cat KitKat in San Francisco. Children have been observed standing in front of robots to obstruct them, verbally bullying robots and physically punching or kicking robots, despite pleas from the robots to stop.
 
 Mitigation
+
 The Starship Technologies food-delivery robots make a "screeching" sound when they are picked up, deterring theft or vandalism. Researchers have proposed making the robots appear as if they are experiencing pain to stop people from attacking them. Marieke Wieringa has warned against the misuse of this strategy, which may be used to emotionally manipulate consumers, such as creating virtual pets that display distress when not fed, but must be paid to be fed.

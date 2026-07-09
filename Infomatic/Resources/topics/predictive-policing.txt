@@ -1,41 +1,64 @@
 Predictive policing is the usage of mathematics, predictive analytics, and other analytical techniques in law enforcement to identify potential criminal activity. A report published by the RAND Corporation identified four general categories predictive policing methods fall into: methods for predicting crimes, methods for predicting offenders, methods for predicting perpetrators' identities, and methods for predicting victims of crime.
 
 Methodology
+
 Predictive policing uses data on the times, locations and nature of past crimes to provide insight to police strategists concerning where, and at what times, police patrols should patrol, or maintain a presence, in order to make the best use of resources or to have the greatest chance of deterring or preventing future crimes. This type of policing detects signals and patterns in crime reports to anticipate if crime will spike, when a shooting may occur, where the next car will be broken into, and who the next crime victim will be. Algorithms are produced by taking into account these factors, which consist of large amounts of data that can be analyzed. The use of algorithms creates a more effective approach that speeds up the process of predictive policing since it can quickly factor in different variables to produce an automated outcome. From the predictions the algorithm generates, they should be coupled with a prevention strategy, which typically sends an officer to the predicted time and place of the crime.
+
 Police may also use data accumulated on shootings and the sounds of gunfire to identify locations of shootings. The city of Chicago uses data blended from population mapping crime statistics to improve monitoring and identify patterns.
 
 Other approaches
+
 Rather than predicting crime, predictive policing can be used to prevent it. The "AI Ethics of Care" approach recognizes that some locations have greater crime rates as a result of negative environmental conditions. Artificial intelligence can be used to minimize crime by addressing the identified demands.
 
 History
 Iraq
+
 At the conclusion of intense combat operations in April 2003, Improvised Explosive Devices (IEDs) were dispersed throughout Iraq's streets. These devices were deployed to monitor and counteract U.S. military activities using predictive policing tactics. However, the extensive areas covered by these IEDs made it impractical for Iraqi forces to respond to every American presence within the region. This challenge led to the concept of Actionable Hot Spots—zones experiencing high levels of activity yet too vast for effective control. This situation presented difficulties for the Iraqi military in selecting optimal locations for surveillance, sniper placements, and route patrols along areas monitored by IEDs.
 
 China
+
 The roots of predictive policing can be traced to the policy approach of social governance, in which leader of the Chinese Communist Party Xi Jinping announced at a security conference in 2016 is the Chinese regime's agenda to promote a harmonious and prosperous country through an extensive use of information systems. A common instance of social governance is the development of the social credit system, where big data is used to digitize identities and quantify trustworthiness. There is no other comparably comprehensive and institutionalized system of citizen assessment in the West.
+
 The increase in collecting and assessing aggregate public and private information by China's police force to analyze past crime and forecast future criminal activity is part of the government's mission to promote social stability by converting intelligence-led policing (i.e. effectively using information) into informatization (i.e. using information technologies) of policing. The increase in employment of big data through the police geographical information system (PGIS) is within China's promise to better coordinate information resources across departments and regions to transform analysis of past crime patterns and trends into automated prevention and suppression of crime. PGIS was first introduced in 1970s and was originally used for internal government management and research institutions for city surveying and planning. Since the mid-1990s PGIS has been introduced into the Chinese public security industry to empower law enforcement by promoting police collaboration and resource sharing. The current applications of PGIS are still contained within the stages of public map services, spatial queries, and hot spot mapping. Its application in crime trajectory analysis and prediction is still in the exploratory stage; however, the promotion of informatization of policing has encouraged cloud-based upgrades to PGIS design, fusion of multi-source spatiotemporal data, and developments to police spatiotemporal big data analysis and visualization.
+
 Although there is no nationwide police prediction program in China, local projects between 2015 and 2018 have also been undertaken in regions such as Zhejiang, Guangdong, Suzhou, and Xinjiang, that are either advertised as or are building blocks towards a predictive policing system.
+
 Zhejiang and Guangdong had established prediction and prevention of telecommunication fraud through the real-time collection and surveillance of suspicious online or telecommunication activities and the collaboration with private companies such as the Alibaba Group for the identification of potential suspects. The predictive policing and crime prevention operation involves forewarning to specific victims, with 9,120 warning calls being made in 2018 by the Zhongshan police force along with direct interception of over 13,000 telephone calls and over 30,000 text messages in 2017.
+
 Substance-related crime is also investigated in Guangdong, specifically the Zhongshan police force who were the first city in 2017 to utilize wastewater analysis and data models that included water and electricity usage to locate hotspots for drug crime. This method led to the arrest of 341 suspects in 45 different criminal investigations by 2019.
+
 In China, Suzhou Police Bureau has adopted predictive policing since 2013. During 2015–2018, several cities in China have adopted predictive policing. China has used predictive policing to identify and target people for sent to Xinjiang internment camps.
+
 The integrated joint operations platform (IJOP) predictive policing system is operated by the Central Political and Legal Affairs Commission.
 
 Europe
+
 In Europe there has been significant pushback against predictive policing and the broader use of artificial intelligence in policing on both a national and European Union level.
+
 The Danish POL-INTEL project has been operational since 2017 and is based on the Gotham system from Palantir Technologies. The Gotham system has also been used by German state police and Europol.
+
 Predictive policing has been used in the Netherlands.
 
 United States
+
 In the United States, the practice of predictive policing has been implemented by police departments in several states such as California, Washington, South Carolina, Alabama, Arizona, Tennessee, New York, and Illinois.
+
 In New York, the NYPD has begun implementing a new crime tracking program called Patternizr. The goal of the Patternizr was to help aid police officers in identifying commonalities in crimes committed by the same offenders or same group of offenders. With the help of the Patternizr, officers are able to save time and be more efficient as the program generates the possible "pattern" of different crimes. The officer then has to manually search through the possible patterns to see if the generated crimes are related to the current suspect. If the crimes do match, the officer will launch a deeper investigation into the pattern crimes.
 
 India
+
 In India, various state police forces have adopted AI technologies to enhance their law enforcement capabilities. For instance, the Maharashtra Police have launched Maharashtra Advanced Research and Vigilance for Enhanced Law Enforcement (MARVEL), the country's first state-level police AI system, to improve crime prediction and detection. Additionally, the Uttar Pradesh Police utilize the AI-powered mobile application 'Trinetra' for facial recognition and criminal tracking.
 
 Concerns
+
 Predictive policing faces issues that affect its effectiveness. Obioha mentions several concerns raised about predictive policing. High costs and limited use prevent more widespread use, especially among poorer countries. Another issue that affects predictive policing is that it relies on human input to determine patterns. Flawed data can lead to biased and possibly racist results. Though such data is claimed to be unbiased, communities of color and low income are the most targeted. Furthermore, some crime remains unreported, making the data vulnerable to selection bias, which can be inaccurate.
+
 These biases may be more than just a data quality problem. Mathematical analysis shows that even with perfectly unbiased data, neighborhoods subjected to higher surveillance rates will experience exponentially more false alerts—not because of differing crime rates, but because of how probabilities compound at scale. A neighborhood monitored four times as intensively can see over twenty times more false flags. Such systems also hit critical thresholds beyond which false alerts become essentially certain. This suggests that differential impact on minority communities may be structurally inevitable as a matter of mathematics, not fixable through better algorithms or cleaner data.
+
 In 2020, following protests against police brutality, a group of mathematicians published a letter in Notices of the American Mathematical Society urging colleagues to stop work on predictive policing. Over 1,500 other mathematicians joined the proposed boycott.
+
 Some applications of predictive policing have targeted minority neighborhoods and lack feedback loops.
+
 Cities throughout the United States are enacting legislation to restrict the use of predictive policing technologies and other "invasive" intelligence-gathering techniques within their jurisdictions.
+
 Following the introduction of predictive policing as a crime reduction strategy, via the results of an algorithm created through the use of the software PredPol, the city of Santa Cruz, California experienced a decline in the number of burglaries reaching almost 20% in the first six months the program was in place. Despite this, in late June 2020 in the aftermath of the murder of George Floyd in Minneapolis, Minnesota along with a growing call for increased accountability amongst police departments, the Santa Cruz City Council voted in favor of a complete ban on the use of predictive policing technology.

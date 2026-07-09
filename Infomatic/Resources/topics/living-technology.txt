@@ -1,28 +1,42 @@
 Living technology is the field of technology that derives its functionality and usefulness from the properties that make natural organisms alive (see life).  It may be seen as a technological subfield of both artificial life and complex systems and is relevant beyond biotechnology to nanotechnology, information technology, artificial intelligence, environmental technology and socioeconomic technology for managing human society.
 
 Overview
+
 Living technology is broadly defined as technology that derives its usefulness primarily from its life-like properties.
+
 Living technologies are "characterized by robustness, autonomy, energy efficiency, sustainability, local intelligence, self-repair, adaptation, self-replication and evolution, all properties current technology lack, but living systems possess." Thus, the potential usefulness of technologies that are engineered to become more life-like stem from the properties of life itself.
+
 The word “technology,” from the Greek techne, usually evokes physical technologies like artificial intelligence, smartphones or genetically engineered organisms. But there is an older meaning. By Jacob Bigelow’s 1829 definition, technology can describe a process that benefits society. In that sense, social institutions, like governments and healthcare systems, can be seen, and studied as technologies.  Physical technologies may be defined as tools for transforming matter, energy or information in pursuit of our goals while social technologies are tools for organizing people in pursuit of our goals. Under this definition, our social institutions, economy, and laws are technologies that, like physical technologies, can be studied and improved. In the broadest sense living technology are technologies that possess properties that characterize living processes.
 
 History
+
 The term "living technology" was coined by Mark Bedau, John McCaskill, Norman Packard and Steen Rasmussen in 2001, in a pitch to form a center for living technology. The ideas mainly grew out of the conceptual foundations of Artificial Life and Complex Systems, but with an engineering focus where engineering aims at developing technologies with life-like properties mainly using bottom up design approaches.
+
 Based on the living technology ideas a number of projects were initiated, including the European Commission sponsored project, Programmable Artificial Cell Evolution (PACE), that in part co-sponsored the European Centre for Living Technology (ECLT) in Venice, Italy in 2004. Also the Protocell Assembly project at Los Alamos National Laboratory, USA, was based on these ideas and also sponsored in 2004. A number of successive EC sponsored projects followed including a EC call for proposals on Living Technology in 2009. In 2007 the Center for Fundamental Living Technology (FLinT)
  was established at the University of Southern Denmark co-sponsored by the Danish National Science Foundation (Grundforskningsfonden).
 An EC Flagship project based on further developing living technologies, Sustainable Programmable Living Technologies (SPLiT) was submitted in 2010 and ranked within the top 15 proposals, but did not obtain funding.
+
 It is obvious that technology in particular over recent years has become both more life-like and more intelligent. This is enabling technology to both become more powerful and to meet societal challenges of being less disruptive to the environment, more sustainable, less subject to failure and more akin to human needs and accepted modes of interaction. This development is only expected to continue.
 
 Research and range of living technology
+
 The research perspectives and methods for living technologies are usually bottom up in opposition to top down. Thus, there is focus on engineering design without an explicit blueprint, which means the desired system properties emerge from the subsystem interactions. It is an ambition for engineering living technologies to create systems that are adaptive and can develop in an openended way over time as seen in ecological systems. The development of living technologies pose a number of ethical issues that in part has to be addressed in the engineering design process and in part through legislation.
+
 As with biotechnology, there is a range of technology that might be considered as versions of living technology.  Below is a list, beginning with rather trivial versions, and ending with more modern, sophisticated versions.  Generally the term is widely understood to apply to technology that does not merely have living properties or involve life, but rather technology that derives is principal functionality from its living properties.
 
 Use of living organisms for functionality unrelated to life-like properties (e.g., guiding growth of a tree to become a bridge).
+
 Use of living organisms without modification for functionality that intrinsically uses life-like properties (e.g., brewing).
+
 Modification of living organisms for new functionality (biotechnology, bioengineering, genetic engineering, synthetic biology)
 Creation of new technology independent of existing living organisms, whose functionality depends on life-like properties.
+
 Protocells, spanning a range of realizations:
+
 Assembly of nonliving matter to form a living cell  (still an unachieved research vision).
+
 Construction of vesicles with intrinsic life-like properties such as metabolism and motility.
+
 Construction of vesicles filled with components harvested from living cells.
 Modifying existing cells with a complete programmable genome.
 Synergetic combinations of electronic, chemical, and biological components
@@ -31,7 +45,9 @@ Organizations and institutions with focus on their life-like properties
 Non-biochemical instantiations of technology with life-like properties, e.g. the World Wide Web
 
 Open problems
+
 Ethical issues with living technology
+
 Ethical issues in living technology are of several kinds:
 (i) issues related to the creation of life-like or living entities like artificial cells
 (ii) safety issues related to the release of entities potentially capable of proliferation into the environment

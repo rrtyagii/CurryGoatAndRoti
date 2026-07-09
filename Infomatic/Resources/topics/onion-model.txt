@@ -1,13 +1,19 @@
 The onion model is a graph-based diagram and conceptual model for describing relationships among levels of a hierarchy, evoking a metaphor of the layered "shells" exposed when an onion (or other concentric assembly of spheroidal objects) is bisected by a plane that intersects the center or the innermost shell. The outer layers in the model typically add size and/or complexity, incrementally, around the inner layers they enclose.
+
 An onion diagram can be represented as an Euler or Venn diagram composed of a hierarchy of sets, A1...Ak (but perhaps potentially or conceptually infinite) where each set An+1 is a strict subset of An (and by recursion, of all Am where in each case m > n). (Some applications of the concept, however, may fail to benefit from the mathematical and otherwise rigorous properties of the model.)
+
 Such formats supported by Microsoft PowerPoint's SmartArt wizard invoke the term "stacked Venn".
 
 In business
+
 An onion diagram is a kind of chart that shows the dependencies among parts of an organization or process. The chart displays items in concentric circles, where the items in each ring depend on the items in the smaller rings.
+
 The onion diagram is able to show layers of a complete system in a few circles. Each of the circles is able to represent a component that is dependent upon the component on the inside of it shown by the circle inside of it. The main concept of the diagram is shown by the center circle of the diagram. This chart is used due to the fact that it has a clear visual representation that is easy to read, and it has a strong visual impact.
 
 In computing
+
 The onion model in computing is used as a metaphor for the complex structure of information systems. The system is split into layers to make it easier to understand. A simple example is to start with the program, operating system and hardware layers. Each of these layers can then be subdivided.
 
 In psychology
+
 There is also the cultural or personal identity onion model which has various layers such as environment, behaviors, feelings, beliefs, worldview, and ultimate allegiance or mission. These layers organize a person's reality and life. The outermost layers are the most visible to other people while the in-depth ones can only be inferred.

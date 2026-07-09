@@ -1,68 +1,93 @@
 Intermittent computing is a computing paradigm tailored for systems that operate under unreliable or irregular power supply conditions. These systems, often powered by ambient energy sources such as solar, radio frequency, kinetic energy, or piezoelectric energy, experience frequent power losses that disrupt continuous execution. Intermittent computing ensures that computation can proceed effectively despite such power failures, enabling devices to make forward progress and maintain useful operations.
+
 Traditional computing systems assume a stable and continuous power supply. However, in many emerging applications, especially those involving the Internet of Things (IoT), devices are deployed in environments where consistent power is unavailable. These devices rely on energy harvested from their surroundings, leading to intermittent power availability. Intermittent computing addresses the challenges posed by such environments by enabling systems to retain computational progress across power cycles, ensuring reliability and efficiency in energy-constrained scenarios.
+
 This approach is particularly beneficial for applications in remote or inaccessible locations, where replacing or recharging batteries is impractical. By leveraging energy harvesting and non-volatile memory technologies, intermittent computing facilitates the development of sustainable and maintenance-free devices capable of operating effectively in diverse and challenging environments.
 
 Energy harvesting
+
 Energy harvesting is the process of capturing and converting ambient energy from the environment into electrical power to operate electronic systems. It serves as a sustainable alternative to conventional power sources, particularly in scenarios where replacing or recharging batteries is impractical. Despite its promise, energy harvesting introduces several challenges, including low conversion efficiency, unpredictable availability, and significant temporal variation in energy supply.
+
 Several energy harvesting methods are used to support embedded and intermittent computing systems. While technologies such as wind and hydro-based harvesters exist, their size and deployment requirements often make them unsuitable for compact Internet of Things (IoT) applications. Characteristics and limitations of each method need to be considered for energy-aware system designs to enhance computational progress under constrained energy conditions.
 
 Photovoltaic
+
 Photovoltaic (PV) energy harvesting is one of the most common approaches for powering wireless sensor systems. It utilizes solar panels to convert sunlight into electrical energy. Under sufficient lighting conditions, PV systems can support perpetual operation. However, their effectiveness is significantly reduced at night or in dim environments. Recent developments have focused on indoor PV cells tailored for converting artificial light, making them ideal for deployment in controlled indoor environments such as hospitals, factories, and commercial spaces.
 
 Radio frequency (RF)
+
 Radio frequency (RF) energy harvesting converts electromagnetic waves into electrical energy using specially designed antennas. While ambient RF energy levels are generally low, dedicated wireless energy transmission—either integrated with communication signals or sent separately—can deliver sufficient power to operate low-power devices. In networked applications, this enables distributed power sharing across multiple nodes.
 
 Kinetic
+
 Kinetic energy harvesting involves transforming mechanical motion into electricity. This method is particularly well-suited for environments with regular movement—such as wearable technology, transportation systems, or rotating machinery. Inertial generators, which rely on the relative displacement between a suspended mass and a stationary frame, are often employed and optimized to resonate with the frequency of motion for greater efficiency.
 
 Piezoelectric
+
 Piezoelectric generators make use of materials that generate electrical voltage when subjected to mechanical stress or deformation. These devices typically produce high voltage but low current and are effective in systems exposed to repetitive mechanical vibrations. Their passive operation and compact size make them useful for embedding in small-scale sensing platforms.
 
 Intermittent computing techniques
+
 Intermittent computing systems are designed to operate reliably despite frequent and unpredictable power losses, which often result from reliance on ambient energy harvesting. To maintain computational progress under such constraints, several software and architectural techniques have been developed. These include checkpointing, task-based execution, and reactive energy-aware methods, each offering different trade-offs between complexity, efficiency, and reliability.
 
 Checkpointing
+
 Checkpointing is one of the foundational strategies for ensuring progress in intermittently powered systems. In this approach, the system periodically saves its computational state—including register values, memory contents, and control flow data—to non-volatile memory (NVM). After a power failure, the system can resume execution from the last checkpoint without starting over. This method is appealing due to its simplicity and minimal requirements on the programmer. However, checkpointing incurs significant overhead due to frequent memory operations, and failures that occur during a checkpoint may corrupt the saved state or lead to wasted energy.
 
 Task-based execution
+
 Task-based execution breaks a program into discrete, atomic tasks that can be executed independently. Each task is designed to be completed within a single power cycle based on the device’s energy budget. Instead of saving the full system state, only minimal data is preserved at task boundaries, significantly reducing the overhead compared to traditional checkpointing. This approach improves energy efficiency but increases programming complexity, as developers must ensure tasks are idempotent and identify the precise state that needs to be retained.
 
 Reactive approaches
+
 Reactive checkpointing enhances adaptability by responding dynamically to changes in energy conditions. Systems employing this strategy monitor energy indicators, such as supply voltage, to anticipate power failure. When energy falls below a critical threshold, the system initiates a checkpoint to preserve its state before shutdown occurs.
+
 In some implementations, the system uses voltage threshold triggers to automatically enter low-power mode and save critical data when a drop is detected. Advanced techniques refine this model by tracking which memory blocks have been modified, reducing the need to back up unchanged data and thereby saving energy. Nonetheless, reactive schemes must ensure sufficient residual energy is available to complete the checkpoint and handle challenges such as preserving failure-atomic sections (FASEs), which must execute without interruption.
 
 Applications
+
 Intermittent computing supports systems operating in environments with scarce or unpredictable power supplies. It is particularly well-suited for low-power, autonomous devices deployed in remote or inaccessible areas, where conventional energy infrastructure is unavailable. These systems benefit from long operational lifetimes, minimal maintenance, and the ability to function even when energy harvesting is intermittent.
 
 Environmental and industrial monitoring
+
 One of the most common use cases for intermittent computing is in wireless sensor networks deployed for environmental monitoring. Sensors used for measuring temperature, humidity, air quality, or water pollution often operate in vast outdoor areas where battery replacement is impractical. These devices harvest ambient energy—such as sunlight or mechanical vibrations—and intermittently transmit data when energy permits. Similarly, in industrial settings, intermittent systems are embedded into equipment to monitor vibration, structural integrity, or fault detection without requiring a wired power supply.
 
 Medical and wearable devices
+
 Wearable technologies and implantable medical devices benefit significantly from intermittent computing. These devices, which prioritize compact design and low energy consumption, use harvested energy from body motion or ambient light to perform tasks such as vital signs monitoring, step tracking, and scheduled drug delivery. Intermittent computing ensures these systems can remain functional and reliable even when energy is limited, improving user safety and comfort.
 
 Smart buildings and infrastructure
+
 In smart building environments, intermittent computing systems support applications like lighting control systems, HVAC automation, and occupancy detection. These devices harvest energy from indoor light or structural vibrations and can operate without a direct connection to a power grid. By executing tasks only when energy is available, they reduce energy consumption and maintenance needs, supporting sustainable building operations.
 
 Agricultural technologies
+
 In precision agriculture, sensor nodes scattered across farmland monitor factors such as soil moisture, temperature, nutrient levels, and crop health. Intermittent computing enables these systems to run on solar or kinetic energy, reducing reliance on batteries and manual servicing. This local data processing also increases the system’s resilience to network disruptions and reduces communication overhead.
 
 Space and remote exploration
+
 Intermittent computing is valuable in space missions and remote sensing systems, where energy availability is extremely constrained. For instance, in small satellites (such as CubeSats) and planetary probes, power can be inconsistent due to environmental conditions or prioritization of mission-critical subsystems. By preserving execution progress across power cycles, intermittent systems ensure robustness and reduce failure risks during long-duration exploration missions.
 
 Research labs
+
 Intermittent computing has been advanced significantly by several research laboratories focused on energy‑harvesting, intermittent execution, hardware‑software co‑design, and resilient systems:
 
 Georgia Tech KA MOAMOA Lab
+
 The KA MOAMOA Lab, directed by Assoc. Prof. Josiah Hester, specializes in battery‑free embedded systems, intermittent computing, sustainable sensors, and energy‑autonomous wearables.
 
 Carnegie Mellon University Abstract Lab
+
 The Abstract Lab, led by Prof. Brandon M. Lucia, conducts research in intermittent and energy‑harvesting task runtimes, compiler‑ and runtime‑assisted intermittent systems, and formal methods for energy‑constrained computing.
 
 University of Wisconsin–Madison eLab
+
 At UW–Madison, the Energy‑Efficient Embedded Exploration Lab (eLab) is headed by Assoc. Prof. Umit Y. Ogras. The lab focuses on energy‑aware architectures, embedded systems, and power‑efficient design techniques for IoT and intermittently powered devices.
 
 UIC SIRIUS Lab
+
 The SIRIUS (Self‑sustainable Intelligent Resilient Ubiquitous Systems) Lab at the University of Illinois Chicago is led by Assoc. Prof. Arman Roohi, who directs research in energy‑harvesting systems, intermittent computing platforms, and resilient architectures for low‑power and distributed environments.
 
 UC Riverside Energy‑Adaptive IoT Lab
+
 At UC Riverside, Assoc. Prof. Hyoseung Kim leads research in energy‑adaptive IoT systems, real‑time scheduling for intermittent power, and resilient computation for battery‑free sensing environments.

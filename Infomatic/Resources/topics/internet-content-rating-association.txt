@@ -1,17 +1,25 @@
 Internet Content Rating Association (ICRA) was an international non-profit organization with offices in the United States and the United Kingdom. In October 2010, the ICRA rating system, and the organization, was discontinued.
+
 Its mission was to help users find the content they want, to trust what they find and to filter out what they do not want for themselves or for their children. ICRA also acted as a forum through which both political and technical infrastructure are defined to help shape the way that the World Wide Web and content distribution channels work.
 
 Methods
 ICRA created a content description system which allowed webmasters and digital content creators to self-label their content in categories such as nudity, sex, language (profanity etc.), violence, other potentially undesired material and online interactivity such as social networking and chat. There are context variables such as art, medicine and news—for example, a piece of content or site can be described as having depictions of nudes, but they are in an artistic context. A key point is that ICRA does not rate internet content, nor do it make value judgements about sites – the content providers self-label, and then parents and other concerned adults make a value judgement as to what is or is not appropriate content.
 The labelling was done using a web-based questionnaire. The content creators checked which of the elements in the questionnaire are present or absent from their Web sites, and a small file is automatically generated using the RDF format, which is then linked to the content on one or more domains. Formerly, the system was based on PICS.
+
 Users could then use content filtering software to censor various types of content. One such application, ICRAplus, was maintained by ICRA itself. ICRA also had a validator which tested all versions of ICRA and old RSACi labels.
+
 The content descriptions were revised in 2005 to enable easier application to a wide range of digital content, not just websites.
+
 The ICRA also intended to launch a service to verify the accuracy of ICRA labels and to provide this information to third-party tools and services, such as search engines.
+
 Alternative labelling projects include Quatro, an EU-funded project which integrates content labels with quality and trust marks, and its successor, QuatroPlus.
 
 Members
+
 ICRA's corporate members included: AOL, British Telecom, Microsoft, T-Online, Verizon, Cable & Wireless, Demon Internet, IBM, Bertelsmann Foundation, Internet Watch Foundation (IWF), and Software and Information Industry Association. ICRA has been supported by the European Union's Internet Action Plan and various trusts and foundations.
 
 Discontinuation
+
 In 2007, Family Online Safety Institute (FOSI) was created and subsumed the ICRA and its day-to-day operations. In October 2010, the ICRA labeling engine was discontinued by FOSI. Additionally, FOSI has withdrawn all support for the ICRA rating system and taken down all documentation for labeling websites with ICRA ratings. The reason is that the ICRA label failed to gain widespread acceptance.
+
 The Association of Sites Advocating Child Protection launched the launched the RTA ("Restricted to Adults") website labeling system in 2006, which is still in wide use.

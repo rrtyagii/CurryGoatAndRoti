@@ -1,17 +1,26 @@
 Huawei HiCar is a mobile app developed by Huawei to mirror features of an Android EMUI and HarmonyOS device, such as a smartphone, on a car's dashboard information and entertainment head unit.
+
 Once an HarmonyOS device is paired with the car's head unit, the system can mirror some apps on the vehicle's display. Supported apps include GPS mapping and navigation, music playback, SMS, telephony, and Web search. The system supports both touchscreen and button-controlled head units. Hands-free operation through voice commands via Celia is available and recommended to reduce driver distraction.
 
 Functionality
+
 Huawei HiCar runs on Huawei EMUI Android and HarmonyOS operating systems, enabling a mobile device to act as a master to a vehicle's dashboard head unit. Once the user's mobile device is connected to the vehicle, the head unit serves as an external display for the device, presenting supported software in a car-specific user interface provided by the Huawei HiCar app. It can be tethered wirelessly via Bluetooth, NFC or USB support.
 
 History
+
 Huawei HiCar was launched on May 9, 2020, with 18 car manufacturers joining Huawei's tethered head unit platform.
+
 On September 10, 2020, post-launch, Huawei announced the HiCar platform was expanded to 20 car manufacturers targeting 5 million car units.
+
 On July 9, 2021,  BYD Han EV systems were updated with the new HiCar platform via OTA update.
+
 In December 2022, Huawei HiCar update brings super home screen with QQ Music service in Chinese markets.
+
 In May 2023, German car maker Volkswagen was in talks to Huawei to use HiCar platform as part of its market expansion in China.
+
 In China, in December 2023 Baidu Maps update brings night driving mode for Huawei HiCar
 In March 2024, various GWM vehicle models adapted for Huawei HiCar 4.0 system in Chinese markets.
 
 Head unit support
+
 On January 31, 2022, Huawei HiCar vehicles exceeds 10 million units with 34 car makers with 112 models and products since launch with plans to expand.

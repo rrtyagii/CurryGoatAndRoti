@@ -1,51 +1,75 @@
 A smart speaker is a type of loudspeaker and voice command device with an integrated virtual assistant that offers interactive actions and hands-free activation with the help of one "wake word" (or several "wake words"). Some smart speakers also act as smart home hubs by using Wi-Fi, Bluetooth, Thread, and other protocol standards to extend usage beyond audio playback and control home automation devices connected through a local area network.
 
 History
+
 Early voice-activated devices began in 2013 with MIT's Jasper project, which used multiple microphones and cloud software to power hands-free interactions from across a room.
+
 The first commercial smart speaker was the Amazon Echo, which was released in 2014 powered by Alexa and a ring of far-field microphones. Google followed in 2016 with Home, powered by Google Assistant. By 2017, devices like the Echo Show and Home Hub (later called Nest Hub) added touchscreens and video, creating the "smart display" subcategory. In 2018, Apple joined the smart speaker trend by launching the HomePod, which focused on high-quality audio alongside their built-in assistant Siri.
+
 ASUS release its own smart Speaker Xiao-Bu in 2019 with Artificial Intelligence, it terminates the Cloud Service on June 1st, 2025, which means all real-time service such as weather, news, currency conversion is affected. Sonos's 1st smart speaker Sonos One released in 2017, powered by Alexa. Invoke by Harman Kardon was powered by Microsoft's intelligent personal assistant, Cortana.
+
 In the early 2020s, smart speakers gained on-device voice processing for faster responses and improved privacy. New standards such as Matter and Thread allowed multitudes of smart-home devices (even from completely different brands) to work together.
 
 Features
+
 Audio and Voice
+
 Smart speakers use multiple microphones along with noise-cancelling software to pick up your voice from across the room, even when music is playing or the assistant is already talking. Noise suppression and echo cancellation is also used by the speaker so it can focus in on who is talking and ignore any background noises. Most smart speaker models can recognize who is speaking by voiceprint, which allows the speaker to grab information from that person's calendar, preferences, or music playlists.
+
 Listening to music on a speaker is when importance for good audio quality becomes apparent. Entry-level (cheaper) speakers such as the Home Mini or the Echo Dot have a single full-range driver. These lower-end speakers typically aren't great for listening to music as the audio quality is pretty poor. More advanced units such as the Home Max or Echo Studio have separate tweeters and woofers meant for listening to music in high quality.
 
 Connectivity and smart-home control
+
 Most connect over Wi-Fi or Bluetooth and support hub protocols like Thread and Matter. That lets them not only stream and play music but also allows you to control various brands of smart lights, thermostats, door locks, cameras, and much more-all from one point of control. Each can have its own designated interface and features in-house, usually launched or controlled via application or home automation software. These devices are able to communicate with each other via peer-to-peer connection through mesh networking. These speakers and related smart devices are typically controlled with one smartphone application.
 
 Assistant services and skills
+
 The built-in assistants handle timers, alarms, reminders, news briefings, weather updates, send messages to other smart devices, send texts, make calls, and simple questions. You can combine actions together in what are typically known as routines (for example saying "good morning" turns on lights, starts the coffee, says the weather, and reads the news) and add extra functions known as skills or actions (for things like ordering food or playing trivia games). This hands-free use of smart speakers can help assist those with disabilities. Most other technologies need the user to be able to physically interact with the device. Smart speakers are not bound by these limitations and can serve as an excellent tool for those who are unable to use their arms or legs or have vision issues.
+
 Although these tasks can be completed by a phone or computer, consumers tend to lean towards smart speakers due to factors such as their range being much greater than that of a phone and the need to not have to physically interact with the speaker to get the voice assistant as with most smartphones, certain parts of a phone may need to be interacted with to activate the speaking assistant.
 
 Smart displays
+
 Some smart speakers also include a screen to show the user a visual response. A smart speaker with a touchscreen is known as a smart display; these integrate a conversational user interface with display screens to augment voice interaction with images and video. They are powered by one of the common voice assistants and offer additional controls for smart home devices, feature streaming apps, and web browsers with touch controls for selecting content. The first smart displays were introduced in 2017 by Amazon (Amazon Echo Show) and Google (Google/Nest Home Hub).
+
 Hotel chain Marriott International partnered with Amazon to install Echo devices in select hotels since 2018.
+
 A Taiwanese startup, Aiello, launched the Aiello Voice Assistant (AVA) in the Asian hotel market in 2019, claiming it is powered by a multi-AI model system.
+
 Angie by Nomadix, which is similar to the Amazon Echo, launched its first product in 2017, specifically targeting hotel properties in the North America. In May 2019, Angie Hospitality acquired the assets of Roxy, a competitor that also built its own speech-enabled virtual assistant technology for hotels. This acquisition merged two proprietary NLP stacks into the current Nomadix product.
 
 Artificial intelligence
+
 The newest speakers can use on-device AI or cloud-based generative models to allow the smart speaker to carry on much more natural conversations, draft emails or recipes, suggest ideas based on context, or even create short pieces of music or art. This AI evolution allows these speakers to do far more than what they could do before.
 
 Accuracy
+
 According to a study by Proceedings of the National Academy of Sciences of the United States of America released In March 2020, the six biggest tech development companies, Amazon, Apple, Google, Yandex, IBM and Microsoft, have misidentified more words spoken by "black people" than "white people". The systems tested errors and unreadability, with a 19 and 35 percent discrepancy for the former and a 2 and 20 percent discrepancy for the latter.
+
 The North American Chapter of the Association for Computational Linguistics (NAACL) also identified a discrepancy between male and female voices. According to their research, Google's speech recognition software is 13 percent more accurate for men than women. It performs better than the systems used by Bing, AT&T, and IBM.
 
 Privacy concerns
+
 The built-in microphone in smart speakers is continuously listening for wake words followed by a command. However, these continuously listening microphones also raise privacy concerns among users. According to a survey taken by 1,007 people in Western Europe, it is clear that privacy is the biggest concern holding consumers back from buying "smart" products. these concerns include what is being recorded, how the data will be used, how it will be protected, and whether it will be used for invasive advertising. Furthermore, an analysis of Amazon Echo Dots showed that 30–38% of "spurious audio recordings were human conversations", suggesting that these devices capture audio other than strictly detection of the wake word.
 
 As a wiretap
+
 There are strong concerns that the ever-listening microphone of smart speakers presents a perfect candidate for wiretapping. In 2017, British security researcher Mark Barnes showed that pre-2017 Echos have exposed pins which allow for a compromised OS to be booted.
+
 According to Umar Iqbal, an assistant professor at Washington University in St. Louis, research indicates that data from consumer interactions with Alexa was used to targeted advertisements and products to consumer with over 40% of transmitted data lacking proper encryption raising privacy concerns. Further data indicates that due to the Smart Speakers ability to always capture audio, it begins to pick up on external conversations from consumers not related to commands given to the smart speaker. Things such as other members in the household, consumers on the phone and even TV audio can be picked up by these speakers and stored for future use by companies.
 
 Voice assistance vs privacy
+
 While voice assistants provide a valuable service, there can be some hesitation towards using them in various social contexts, such as in public or around other users. However, only more recently have users begun interacting with voice assistants through an interaction with smart speakers rather than an interaction with the phone. On the phone, most voice assistants have the option to be engaged by a physical button (e.g., Siri with a long press of the home button) rather than solely by wake word-based engagement in a smart speaker. While this distinction increases the privacy by limiting when the microphone is on, users felt that having to press a button first removed the convenience of voice interaction. This trade-off is not unique to voice assistants; as more and more devices come online, there is an increasing trade-off between convenience and privacy.
 
 Security concerns
+
 When configured without authentication, smart speakers can be activated by people other than the intended user or owner. For example, visitors to a home or office, or people in a publicly accessible area outside an open window, partial wall, or security fence, may be able to be heard by a speaker. This may allow others to access personal information of the owner without the owner's permission. One team demonstrated the ability to stimulate the microphones of smart speakers and smartphones through a closed window, from another building across the street, using a laser.
+
 Smart speakers are typically forgotten about when it comes to home network security concerns because of their convenience and simplicity. However one in three breaches now involves an IoT device. The risk of getting hacked through a smart speaker can be greatly mitigated by following some simple steps. For one, it is necessary that a trustworthy brand is chosen when purchasing a smart speaker. Doing research to find a brand that aligns with your needs/wants while being secure can relieve stresses in the long run. It is also extremely important to keep your smart devices up-to-date to the latest firmware version as these updates will have patches for any known exploits. Deliberately going through the settings once the device is up-to-date will allow you to turn off settings you don't need or want to use further minimizing security risks.
 
 Usage statistics
+
 As of summer 2022, it is estimated by NPR and Edison Research that 91 million Americans (35% of the population over 18) own a smart speaker.
 
 Gallery

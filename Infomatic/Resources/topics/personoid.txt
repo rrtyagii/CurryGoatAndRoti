@@ -1,8 +1,13 @@
 Personoid is the concept coined by Stanisław Lem, a Polish science-fiction writer, in Non Serviam, from his book A Perfect Vacuum (1971). His personoids are an abstraction of functions of human mind and they live in computers; they do not need any human-like physical body.
+
 In cognitive and software modeling, personoid is a research approach to the development of intelligent autonomous agents.
+
 In frame of the IPK (Information, Preferences, Knowledge) architecture, it is a framework of abstract intelligent agent with a  cognitive and structural intelligence. It can be seen as an essence of high intelligent entities.
+
 From the philosophical and systemics perspectives, personoid societies can also be seen as the carriers of a culture. According to N. Gessler, the personoids study can be a base for the research on artificial culture and culture evolution.
 
 Personoids on TV and cinema
+
 Welt am Draht (1973)
+
 The Thirteenth Floor (1999)

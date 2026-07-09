@@ -1,17 +1,23 @@
 William Eric Leifur Grimson (born 1953) is a Canadian-born computer scientist and professor at the Massachusetts Institute of Technology, where he served as Chancellor from 2011 to 2014. An expert in computer vision, he headed MIT's Department of Electrical Engineering and Computer Science from 2005 to 2011 and currently serves as its Chancellor for Academic Advancement.
 
 Early life and education
+
 Grimson was born in 1953 in Estevan, Saskatchewan. His father William was the principal of Estevan Collegiate Institute, the local high school, and his mother was an eminent musician and taught piano performance and music theory. The family later moved to Regina, where he attended Campbell Collegiate and the University of Regina, graduating in 1975 with a Bachelor of Science degree in mathematics and physics with high honours. In 1980, he received his PhD in mathematics from MIT. His doctoral dissertation, "Computing Shape Using a Theory of Human Stereo Vision", was on computer vision, a field that would become the focus of his research career. An expanded version of the dissertation was published by MIT Press in 1981 as From Images to Surfaces: A Computational Study of the Human Early Vision System, which was endorsed by Tomaso Poggio and Noam Chomsky.
 
 Academia
+
 After completing his PhD, Grimson worked as a research scientist at the MIT Artificial Intelligence Laboratory (now CSAIL) before joining the university's faculty in 1984. He eventually rose to Bernard Gordon Chair of Medical Engineering and holds a joint appointment as a Radiology Lecturer at Harvard Medical School and Brigham and Women's Hospital. After serving as Education Officer and Associate Department Head, he was appointed Head of the Department of Electrical Engineering and Computer Science (EECS) and served from 2005 to 2011. In February 2011, he was appointed Chancellor of MIT, succeeding Phillip Clay, and took up his post the following month and served until 2014 when he was replaced by Cynthia Barnhart.
+
 Grimson has "long prized teaching" and has taught introductory computer science courses for 25 years, in addition to advising doctoral students and teaching advanced classes. He also teaches two introductory computer science courses on edX.
+
 In his current position as Chancellor for Academic Advancement, Grimson reports directly to MIT President Sally Kornbluth. His role is to gather faculty and student input on MIT's fundraising priorities and to communicate these priorities to donors and alumni.
 
 Personal life
+
 Grimson is married to Wellesley College professor Ellen Hildreth. The couple have two sons.
 
 Honors and awards
+
 Association for Computing Machinery Fellow (2014): For contributions to computer vision and medical image computing
 Institute of Electrical and Electronics Engineers Fellow (2004): For contributions to surface reconstruction, object-recognition, image database indexing, and medical applications
 Association for the Advancement of Artificial Intelligence Fellow (2000): For contributions to the theory and application of computer vision, ranging from algorithms for binocular stereo, surface interpolation, and object recognition to deployed systems for computer-assisted surgery
@@ -22,4 +28,5 @@ Grimson, W. Eric L. (2001) "Image Guided Surgery" (abstract). Stanford Universit
 1989. AI in the 1980s and Beyond: An MIT Survey. (Ed. with Ramesh S. Patil) MIT press
 1981. From Images to Surfaces: A Computational Study of the Human Early Visual System. MIT press
 Endorsed by Tomaso Poggio and Noam Chomsky;
+
 Dedicated to David Marr.

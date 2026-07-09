@@ -1,11 +1,17 @@
 This article documents the effort of the Health Level Seven(HL7) community and specifically the former HL7 Architecture Board  (ArB) to develop an interoperability framework that would support services, messages, and  Clinical Document Architecture(CDA) ISO 10871.
+
 HL7 provides a framework and standards for the exchange, integration, sharing, and retrieval of electronic health information.
 
 SAIF Overview
+
 The HL7 Services-Aware Interoperability Framework Canonical Definition (SAIF-CD)  provides consistency between all artifacts, and enables a standardized approach to enterprise architecture (EA) development and implementation, and a way to measure the consistency.
+
 SAIF is a way of thinking about producing specifications that explicitly describe the governance, conformance, compliance, and behavioral semantics that are needed to achieve computable semantic working interoperability. The intended information transmission technology might use a messaging, document exchange, or services approach.
+
 SAIF is the framework that is required to rationalize interoperability of standards. SAIF is an architecture for achieving interoperability, but it is not a whole-solution design for enterprise architecture management.
+
 The informative document may be found at Public SAIF CD. Since the release of this document, the SAIF-CD has been balloted as a Draft Standard for Trial Use. The document will be made available by the end of May, 2012.
+
 A Short introduction to SAIF was made to provide insight to users of the SAIF-CD.
 
 Document Divisions
@@ -46,4 +52,5 @@ Interoperability Specification Matrix (ISM)
 The Interoperability Specification Matrix (ISM) defines a 5-column-by-3-row matrix (“table”) which distributes the multiple aspects of a given component's specification across the various cells of the matrix. The structure of the ISM is based on proven cognitive models for describing complex systems which revolve around the notion of partitioning complexity based on a number of Dimensions while simultaneously viewing each of these dimensions from multiple Perspectives.
 
 Compliant SAIF Implementation Guides
+
 This section defines the creation of a compliant implementation guide.

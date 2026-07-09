@@ -1,23 +1,37 @@
 Palladyne AI Corp. (formerly Sarcos Technology and Robotics Corporation) is an American company known for most of its existence primarily as a developer of robots. Palladyne was founded in 1983 as Sarcos Research Corporation. In 2023, Sarcos shifted its business focus to the development of artificial intelligence (AI) software for robotic applications, discontinuing its hardware operations. In March 2024, the company changed its name to Palladyne AI.
 
 History
+
 Early history
+
 Sarcos Research Corporation was founded in 1983 by University of Utah professor Stephen Jacobsen and operated initially as a bioengineering research institution. By 1990, Jacobsen had expanded the company's attention to include commercial interests in areas as diverse as theme-park robots, animatronic film props, actuated prostheses, personal drug-delivery systems, various miniaturized technologies, and steerable catheters.  However, the company's core competency centered on creating robotic systems. Sarcos's work was found in a wide variety of applications, including entertainment animatronics such as the life-sized robotic dinosaurs of Jurassic Park: The Ride of Universal Studios Hollywood, robotic displays (e.g., the fountains of Bellagio Hotel in Las Vegas, NV), NASA space-suit-testing equipment, motorized prosthetic limbs, and even MEMS actuators and sensors.
+
 In 2001, Sarcos was awarded a multi-phase research grant from DARPA of the United States Department of Defense (DoD) to design a powered exoskeleton suitable for military applications. DARPA accepted the Sarcos design in 2006, and in that same year the firm began developing prototypes of the exoskeleton based on this design.
+
 In November 2007, American defense contractor Raytheon purchased Sarcos, seeking to expand its business into robotics research and production. From 2007 until 2015, Sarcos operated as the robotics division of Raytheon under the name "Raytheon Sarcos."  At the time of the purchase by Raytheon, the exoskeleton designed under the DARPA grant had been slated to begin production as early as 2008 for the United States Army. However, the Raytheon Sarcos exoskeleton operated on a tether that severely limited its mobility, and as a result, manufacture of the exoskeleton never progressed beyond the prototypical stage due to a lack of continued interest from the DoD.
+
 Not long after the acquisition by Raytheon, Jacobsen left Sarcos in 2009 to start a new company, Sterling Technologies (now defunct). Upon Jacobsen's departure, longtime Sarcos employee and manager Fraser Smith assumed the role of President of Raytheon Sarcos.
+
 In 2015, Smith and intellectual-property strategist Ben Wolff led a consortium that acquired the business from Raytheon, with Smith as the newly acquired company's chief executive officer (CEO) and Wolff as its chairman. Sometime between 2015 and 2016, Wolff became CEO of Sarcos. Starting in 2016, a number of companies and institutional investors began participating in a series of investment rounds with the goal of providing Sarcos with the necessary capital for commercializing a suite of robotic exoskeletons and manipulators, all to be marketed under the product-line name "Guardian."  In September 2021, Sarcos Corp. merged with Rotor Acquisition Corp., a publicly traded special-purpose acquisition company that was then renamed Sarcos Technology and Robotics Corporation.  As a consequence of this merger, Sarcos began being listed under ticker symbol STRC on the Nasdaq stock exchange.
+
 In December 2021, Kiva Allgood, an executive with experience in the commercial development of technology, was named CEO of Sarcos.
+
 In April 2022, Sarcos acquired Pittsburgh-based robotics company RE2, Inc. Before its purchase by Sarcos, RE2 developed and produced autonomous and teleoperated mobile robots for a variety of industries; after the purchase, these robots became part of Sarcos's Guardian line of products.
 
 Financial difficulties and shift to software development
+
 Following its listing on Nasdaq, Sarcos faced ongoing financial challenges and did not generate sufficient cash flow to support operations at its existing staffing level.
+
 In May 2023, Laura Peterson, a former Boeing Vice President and executive, replaced Kiva Allgood as "interim" CEO of Sarcos (Peterson was later made "permanent" CEO in October of that year).
+
 Sarcos in November 2021 had estimated that the company would be shipping its robotic units, by October 2023 two units were shipped (the two units were Guardian "Sea Class" robots that had been developed primarily at RE2 prior to its acquisition by Sarcos).  In September 2023 Sarcos was awarded a four-year 13.8-million-dollar (USD) Phase II SBIR contract by the United States Air Force for the development of AI and machine-learning software specific to the Sarcos line of Guardian robots.
+
 After the company received the SBIR contract, Sarcos's board of directors elected in November 2023 to shift from hardware development and production activities.    At the same time, Sarcos management announced that the company had pivoted to become solely a developer of AI software for use in robotic systems.
+
 In January 2024, former CEO Ben Wolff was once again appointed CEO of Sarcos, taking over the duties of chief executive officer from Laura Peterson.
 
 Name change
+
 In March 2024, the company announced that Sarcos would change its name to Palladyne AI, and its ticker symbol would change in April 2024 from STRC to PDYN. The company news release about this name change states, "[Palladyne AI] reflects the company's narrowed focus on commercializing the artificial intelligence and machine learning software that it has been developing since 2020."
 
 Creation of Palladyne Defense
@@ -25,10 +39,13 @@ In 2025, Palladyne AI established Palladyne Defense, a division focused on AI so
 
 Products and services
 Palladyne IQ
+
 Palladyne IQ is a closed loop autonomy software that uses artificial intelligence and machine learning to give industrial robots and collaborative robots human like reasoning capabilities.  It enables robots to perceive and adapt to changes in unstructured, dynamic environments in real time through continuous feedback, supports low code and no-code training for faster deployment, and allows AI based decision making for complex tasks that are traditionally difficult to automate.
 
 Palladyne Pilot
+
 Palladyne Pilot is an intelligent flight system that handles complex tasks for unmanned aerial vehicles (UAVs) and small drones. It combines data from multiple sensors to help the aircraft "see" and track its surroundings, which is especially useful for navigating tricky spots where GPS signals drop out.
 
 SwarmOS
+
 SwarmOS is a distributed autonomy operating system, which acts like a collective brain for groups of drones, robots, and sensors. It coordinates multiple autonomous units, such as drones, robots, and sensors into an intelligent swarm with shared mission context and teamwork execution. SwarmOS supports mission critical operations, including environmental monitoring, defense reconnaissance, industrial warehouse management, and agricultural automation.

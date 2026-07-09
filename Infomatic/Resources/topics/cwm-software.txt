@@ -2,7 +2,10 @@ Cwm (pronounced koom) is a general-purpose data processing software for the Sema
 cwm can perform the following tasks:
 
 Parse and pretty-print the following RDF formats: XML RDF, Notation3, and N-Triples.
+
 Store triples in a queryable triplestore (a triples' database).
+
 Perform inferences as a forward chaining FOPL inference engine.
+
 Perform builtin functions such as comparing strings, retrieving resources, all using an extensible builtins suite.
 cwm was written in Python from 2000–10 onwards by Tim Berners-Lee and Dan Connolly of the W3C.

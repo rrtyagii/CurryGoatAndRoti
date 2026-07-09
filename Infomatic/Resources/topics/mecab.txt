@@ -1,10 +1,15 @@
 MeCab is an open-source text segmentation library for Japanese written text. It was originally developed by the Nara Institute of Science and Technology and is maintained by Taku Kudou (工藤 拓) as part of his work on the Google Japanese Input project. The name derives from the developer's favorite food, mekabu (和布蕪), a Japanese dish made from wakame leaves.
+
 The software was originally based on ChaSen and was developed under the name ChaSenTNG, but now it is developed independently from ChaSen and was rewritten from scratch. MeCab's analysis accuracy is comparable to ChaSen, and it is about 3–4 times faster.
+
 MeCab analyzes and segments a sentence into its parts of speech. There are several dictionaries available for MeCab, but IPADIC is the most commonly used one as with ChaSen.
+
 In 2007, Google used MeCab to generate n-gram data for a large corpus of Japanese text, which it published on its Google Japan blog.
+
 MeCab is also used for Japanese input on Mac OS X 10.5 and 10.6, and in iOS since version 2.1.
 
 Example
+
 Input:
 
 ウィキペディア（Ｗｉｋｉｐｅｄｉａ）は誰でも編集できるフリー百科事典です
@@ -26,6 +31,7 @@ Results in:
 EOS
 
 Besides segmenting the text, MeCab also lists the part of speech of the word, and, if applicable and in the dictionary, its pronunciation. In the above example, the verb できる (dekiru, "to be able to") is classified as an ichidan (一段) verb (動詞) in the infinitive tense (基本形). The word でも (demo) is identified as an adverbial particle (副助詞). As not all columns apply to all words, when a column does not apply to a word, an asterisk is used; this makes it possible to format the information after the word and the tab character as  the comma-separated values.
+
 MeCab also supports several output formats; one of which, chasen, outputs tab-separated values in a format that programs written for ChaSen can use. Another format, yomi (from 読む yomu, to read), outputs the pronunciation of the input text as katakana, as shown below.
 
 ウィキペディア（Ｗｉｋｉｐｅｄｉａ）ハダレデモヘンシュウデキルフリーヒャッカジテンデス

@@ -1,17 +1,25 @@
 The Amarakosha (Devanagari: अमरकोशः, IAST: Amarakośaḥ, ISO: Amarakōśaḥ) is the popular name for Namalinganushasanam (Devanagari: नामलिङ्गानुशासनम्, IAST: Nāmaliṅgānuśāsanam, ISO: Nāmaliṅgānuśāsanam, which means "instruction concerning nouns and gender") a thesaurus in Sanskrit written by the ancient Indian scholar Amarasimha. The name Amarakosha derives from the Sanskrit words amara ("immortal") and kosha ("treasure, casket, pail, collection, dictionary").
+
 According to Arthur Berriedale Keith, this is one of the oldest extant Sanskrit lexicons (kosha). According to Keith, Amarasiṃha, who possibly flourished in the 6th century, " knew the Mahāyāna and used Kālidāsa."
+
 The author himself mentions 18 prior works, but they have all been lost. There have been more than 40 commentaries on the Amarakosha.
 
 Author
+
 Amarasimha is said to have been one of the Navaratnas ("nine gems") at the court of Vikramaditya, the legendary king inspired by Chandragupta II, a Gupta king who reigned around AD 400. Some sources indicate that he belonged to the period of Vikramaditya of the 7th century.
+
 Mirashi examines the question of the date of composition of Amarakosha. He finds the first reliable mention in Amoghavritti of Shakatayana composed during the reign of Amoghavarsha (814-867 CE).
 
 Textual organisation
+
 The Amarakośa consists of verses that can be easily memorized. It is divided into three kāṇḍas or chapters. The first, svargādi-kāṇḍa ("heaven and others") has words about heaven and the Gods and celestial beings who reside there. The second, bhūvargādi-kāṇḍa ("earth and others") deals with words about earth, towns, animals, and humans. The third, sāmānyādi-kāṇḍa ("common") has words related to grammar and other miscellaneous words.
+
 Svargādikāṇḍa, the first kāṇḍa of the Amarakośa begins with the verse 'Svar-avyayaṃ-Svarga-Nāka-Tridiva-Tridaśālayāḥ' describing various names of Heaven viz. Svaḥ, Svarga, Nāka, Tridiva, Tridaśālaya, etc. The second verse 'Amarā Nirjarā DevāsTridaśā Vibudhāḥ Surāḥ’ describes various words that are used for the hindu Deva-s (Gods). The fifth and sixth verses give various names of Buddha and Śākyamuni (i.e. Gautama Buddha). The following verses give the different names of Brahmā, Viṣṇu, Vasudeva, Balarāma, Kāmadeva, Lakṣmī, Kṛṣṇa, Śiva, Indra, etc. All these names are treated with great reverence. Amarakośa reflects the period before the rise of sectarianism. Commentaries on Amarakosha have been written by Hindu, Jain and well as Buddhist scholars.
+
 It is still used as one of the major source of Sanskrit grammar. It was widely taught in gurukulas.
 
 Commentaries
+
 Amarakoshodghātana by  Kṣīrasvāmin (11th century CE, the earliest commentary)
 Tīkāsarvasvam by Vandhyaghatīya Sarvānanda (12th century)
 Rāmāsramī (Vyākhyāsudha) by Bhānuji Dīkshita
@@ -21,4 +29,5 @@ Pārameśwari by Parameswaran Mōsad in Malayalam
 A Telugu commentary by Linga Bhatta (12th century)
 
 Translations
+
 The Pali thesaurus Abhidhānappadīpikā, composed in the twelfth century by the grammarian Moggallāna Thera, is based on the Amarakosha.

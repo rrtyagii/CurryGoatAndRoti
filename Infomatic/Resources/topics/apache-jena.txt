@@ -1,5 +1,7 @@
 Apache Jena is an open source Semantic Web framework for Java. It provides an API to extract data from and write to RDF graphs. The graphs are represented as an abstract "model". A model can be sourced with data from files, databases, URLs or a combination of these. A model can also be queried through SPARQL 1.1.
+
 Jena is similar to RDF4J (formerly OpenRDF Sesame); though, unlike RDF4J, Jena provides support for OWL (Web Ontology Language). The framework has various internal reasoners and the Pellet reasoner (an open source Java OWL-DL reasoner) can be set up to work in Jena.
+
 Jena supports serialisation of RDF graphs to:
 
 a relational database
@@ -14,10 +16,12 @@ After Apache integration
 Jena was integrated as a project under the umbrella of The Apache Software Foundation in April 2012, after having been in the Apache Incubator since November 2010.
 
 Before Apache integration
+
 Jena was created by HP Labs and was on SourceForge since 2001, and was donated to The Apache Software Foundation in November 2010.
 
 Fuseki
 Fuseki is an HTTP interface to RDF data. It supports SPARQL for querying and updating. The project is a sub-project of Jena and is developed as servlet. Fuseki can also be run stand-alone server as it ships preconfigured with the Jetty web server.
 
 ARQ
+
 ARQ is a query engine within Jena that supports SPARQL.

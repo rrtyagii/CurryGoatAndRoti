@@ -1,39 +1,58 @@
 Animator vs. Animation (AvA) is an American animated web series created by Alan Becker. The original animation was first published on Newgrounds on June 3, 2006, with a sequel following five months later. Almost every installment is animated in either Adobe Animate or Blender, with live-action scenes also being incorporated into the series, starting with the fourth episode.
+
 The premise of the web series is a stick figure attempting to escape the animation program in which it was created, either by using the built-in animation tools or through sheer brute force. The series contains almost no spoken dialogue.
+
 Known for its unique concept and high-quality animation, it became an immediate internet hit, receiving 4.78 stars on Newgrounds and 80 million views on YouTube. The fourth installment gained almost 5 million views on YouTube within a month.
+
 A Kickstarter campaign for a reboot episode of the series was created on July 10, 2013, reaching their $10,000 funding goal on August 9, 2013. The episode was released on October 2, 2014.
+
 Multiple browser game adaptations of the series have been created, including one in 2006 titled Animator vs. Animation Game: SE, developed by Charles Yeh.
 
 Characters
+
 Humans
 "The Animator" (a self-insert of Alan Becker): The titular character. He was initially an antagonist who showed disdain towards his creations, before redeeming himself and showing more care to them after learning that one of them (The Second Coming) was sentient and could talk through text.
 
 Artificial stick figures
+
 Four hollow-headed stick figures all created by the Animator at different points in the story.
 
 H4CK3R (formerly victim) [sic]: A black, later dull gray stick figure created in June 3, 2006 by the Animator. He debuted in "Animator vs. Animation" before seemingly being killed off in the same episode. Nearly seventeen years later, he was revealed to have narrowly escaped the computer after being recreated and tortured by his creator countless times throughout 2006 and 2007, being marooned alongside fellow stick figure Mitsi and founding a technology company called Rocket Corp alongside her. Once Mitsi was killed by what appeared to be The Chosen One, victim decided to avenge her death over the coming years with the help of four mercenaries. He later tricks the Animator into changing his name to H4CK3R, granting him tech-based reality-warping abilities before teaming up with The Dark Lord.
+
 NO ONE (formerly The Chosen One (TCO)): A black stick figure, originally almost identical in appearance to victim, created in 2007 by the Animator. He has several superpowers, including fire-breathing, laser vision, superhuman strength, and creating ice, among others. He debuted in "Animator vs. Animation II" as a villain and was presumed dead after the next episode before reappearing at the end of "The Virus", having redeemed himself to defeat The Dark Lord. In "Animator vs. Animation 12", H4CK3R downgrades The Chosen One by changing his name to NO ONE.
+
 The Dark Lord (TDL): A red stick figure, created by the Animator in 2011, programmed solely with the mission of destroying The Chosen One. He debuted in "Animator vs. Animation III". He was presumed dead in the same episode, only to reappear in "The Flashback" as a villain seeking to spread havoc across the internet with his army of computer viruses. He was killed by The Second Coming in "The Showdown", but was revealed in "Hacker" to have been resurrected by his minions, the ViraBots, reprising his role as an antagonist by teaming up with H4CK3R.
+
 The Second Coming (TSC) / Orange: He is an orange stick figure accidentally created by the Animator in 2014 and the leader of the Stick Gang. In almost all animations he appears in, The Second Coming is depicted as being a completely normal stick figure, much like the other figures he meets the same episode in which he is introduced, albeit with far more honed fighting abilities. However, he has hidden powers and capabilities that make him one of the most potent figures currently introduced in the series. These powers include telekinesis, flight, laser vision, extremely powerful strength, and regeneration. These abilities have only surfaced temporarily through vague means. He can also talk through text, but only when inside Adobe Animate.
 
 Fighting Stick Figures
+
 A group of four solid-headed stick figures consisting of Red, Blue, Yellow, and Green was introduced in 2014. Residing on sticksfight.com, they escaped with the help of The Second Coming before each being terminated by the Animator, then subsequently revived. They were later killed by The Dark Lord during "The Showdown", only to be revived again by The Second Coming.
 
 Red: A red stick figure that loves animals. He is reckless and most impulsive of the Stick Gang.
+
 Blue: A cyan stick figure that likes farming and brewing potions. He's been described as a "hippie" and has an addiction to nether wart in the Animation vs. Minecraft spin-off.
+
 Yellow: A yellow stick figure that likes computer programming. In "The Box" he is kidnapped by victim's company, Rocket Corp, so they could learn how to manifest the Animator in the Outernet.
+
 Green: A lime stick figure who likes music and is The Second Coming's best friend. He is arrogant and, as karma, suffers the most out of the Stick Gang.
 
 Mercenaries
+
 A group of four stick figures with unique designs and fighting styles. Excluding Ballista, the mercenaries lack official names and are only being referred to with community-created nicknames.
 
 "Agent": A thin, dark gray stick figure of above average height who wears sunglasses. He has a solid white head with a dark gray outline, identical to his body, and possesses a toolbar that gives him the powers of an animator. Despite being grouped as part of the mercenaries, the episode "Victim" reveals he is victim's full-time employee, security guard and best friend who watched victim's lover Mitsi die at The Chosen One's hands and wants to avenge her death. It was revealed in a Q&A that his non-canon production name is G.U.I..
+
 "Hazard": A pictogram portrayed as uncommitted and comical, but also loyal to victim. He has control over any and all pictogram signs, allowing him to use electrokinesis; clone himself; or summon an atomic bomb, among many other powers.
+
 "Primal": A tall, brown stick figure (similar to stick figure drawings by cavemen) that embodies a wild and untamed nature, often acting on immediate instinct and raw power while having a stronger, more powerful form. His non-canon production name is Lasco, after the cave system he was based on.
+
 Ballista: A pixelated stick figure that can shapeshift and is short-tempered. He's a crossover character from the 2003 animation Stick Figure vs Door. His non-canon production name is EZToon, after the animation program he was created in.
 
 Others
+
 ViraBots: The Dark Lord's minions, a species of computer viruses that take the form of robotic spiders. The majority of them are killed by The Second Coming in "The Showdown", but "Hacker" reveals that a few of them have survived and have resurrected The Dark Lord.
+
 Mitsi: Victim's first friend and lover, and the co-founder of Rocket Corp. She helped Victim overcome his trauma caused by the Animator's abuse of him. She is killed by what appears to be The Chosen One in "Victim", which motivates Victim and Agent into avenging her death. Victim, as H4CK3R, later teams up with The Dark Lord under the promise of resurrecting her.
 
 Episodes
@@ -42,20 +61,28 @@ Season 2 (2018–20)
 Season 3 (2023–)
 Development and history
 Becker was inspired by many popular animations and stories, such as Duck Amuck and the 1959 animated version of Harold and the Purple Crayon. Many other Flash games, such as Cursor Thief on Newgrounds, also gave him the spark to create the animation. Approximately three months after starting the animation, Becker posted it to Newgrounds. The next day, the animation received second place for the entire day. Becker began receiving numerous emails and instant messages from website owners who wanted to host the animation on their websites, with one of the websites even offering $75, provided they received exclusive rights to the animation. Becker declined after reading an email above from Steven Lerner, the owner of Albino Blacksheep.
+
 AtomFilms offered to fund the making of a sequel, which was released on November 4, 2006. Becker used his real AIM username in the animation, which made him unable to use the service without his desktop screen being flooded by hundreds of fans who attempted to message him online. Becker began uploading the videos to YouTube, manually reporting clones of the videos using YouTube's copyright report system, but it reportedly took several years. Becker uploaded "Animator vs. Animation 3" onto Atom.com on October 4, 2010, intending for it to be the final episode. He then went on to study animation at the Columbus College of Art and Design and tried to get an internship at Pixar but was rejected. Becker launched a Kickstarter campaign for the funding of Animator vs. Animation 4 after being motivated by his teacher's words and encouragement to keep going. The campaign launched on July 10, 2013, and the $10,000 funding goal was reached on August 9, 2013. On October 2, 2014, "Animator vs. Animation 4" was released onto YouTube. It reportedly gained almost five million views on YouTube within a month.
 
 eBaum's World controversy
 "Animator vs. Animation" was uploaded to eBaum's World without Becker's permission and proper credit. Legal action was threatened against eBaum's World under the Digital Millennium Copyright Act of 1998. eBaum's World later contacted Becker, offering him $250 as compensation and pressuring Becker into a false testimonial. Becker later retracted the statement and officially requested that eBaum's World remove the animation and testimonial from the website.
 
 Other media
+
 Game adaptations
+
 In 2006, a browser game adaptation titled Animator vs. Animation Game: SE was released for Adobe Flash Player, developed by Charles Yeh.
+
 On March 26, 2025, a Kickstarter campaign was launched for Animation VERSUS, a fighting game slated for release in June 2028. The game is being developed with the help of Muno, who created a Rivals of Aether mod featuring characters from the series.
 
 Spin-offs
+
 The series has had multiple spin-offs, under the Animation vs. label, with some of them gaining more views than the original series itself.
+
 A spinoff called "Animation vs. Minecraft" was uploaded on December 14, 2015. The video briefly had the title of the most popular Minecraft video on the internet for a month. A companion series, "Animation vs. Minecraft Shorts" (AvM Shorts), which alternates between slice-of-life and serialized storytelling, debuted on November 17, 2017. Its fourteenth episode briefly became the most popular Minecraft video on the internet, and it remains Becker's most popular video.
+
 Another spinoff, "Animation vs. YouTube", featured cameo appearances from numerous YouTubers, including PewDiePie and Markiplier. Actual Shorts are shorts formatted for YouTube Shorts, with the name referencing the fact that most episodes in the Animation vs. Minecraft Shorts series are too long to be considered "shorts", with running times of up to thirty minutes.
+
 Other miscallenous spin-offs include:
 
 Animation vs. League of Legends

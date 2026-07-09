@@ -3,7 +3,9 @@ The futures wheel is a method for graphical visualisation of direct and indirect
 The Futures Wheel is a way of organizing thinking and questioning about the future – a kind of structured brainstorming. (Jerome C. Glenn (1994) The Futures Wheel)
 
 Description
+
 To start a futures wheel the central term describing the change to evaluate is positioned in the center of the page (or drawing area). Then, events or consequences following directly from that development are positioned around it. Next, the (indirect) consequences of the direct consequences are positioned around the first level consequences. The terms may be connected as nodes in a tree (or even a web). The levels will often be marked by concentric circles.
 
 Usage
+
 The futures wheel is usually used to organize thoughts about a future development or trend. With it, possible impacts can be collected and put down in a structured way. The use of interconnecting lines makes it possible to visualize interrelationships of the causes and resulting changes. Thus, futures wheels can assist in developing multi-concepts about possible future development by offering a futures-conscious perspective and aiding in the group brainstorming.

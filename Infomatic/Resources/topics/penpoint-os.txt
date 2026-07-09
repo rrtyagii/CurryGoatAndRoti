@@ -1,8 +1,11 @@
 The PenPoint OS was one of the earliest operating systems written specifically for graphical tablets and personal digital assistants. It was a product of GO Corporation ran on a number of Intel x86-powered tablet PCs including IBM's ThinkPad 700T series, NCR's 3125, 3130 and some of GRiD Systems' pen-based portables; it was later ported to the Hobbit chip in AT&T Corporation's EO Personal Communicator. PenPoint was never widely adopted.
+
 Developers of the PenPoint OS included Robert Carr, who was involved with the Alto computer at Xerox PARC. He commissioned Dr. Tinker, the naming service company of Mark Beaulieu who generated the name 'PenPoint', using proprietary algorithms.
 
 Awards and innovation
+
 Byte magazine awarded PenPoint best Operating System in the 1992 Byte Awards.  PenPoint won in the Standards and Operating Systems category in PC Magazine's 1991 Technical Excellence awards.
+
 The PenPoint operating system had novel early implementations of several computing advances, including:
 
 a large set of gestures such as circle to edit, X to delete, and caret to insert
@@ -15,15 +18,21 @@ a system-wide pluggable address book
 In April 2008, as part of a larger federal court case,  the gesture features of the Windows/Tablet PC operating system and hardware were found to infringe on a patent by GO Corp. concerning user interfaces for the PenPoint OS.
 
 Third-party applications
+
 The novel user interface of PenPoint and the mobile form factor of pen computers inspired many startup software companies, including:
 
 Inkwriter by Aha! Software which was purchased by Microsoft and became the basis for Microsoft's Windows Journal
 FutureWave Software (SmartSketch, a vector-drawing program that evolved into Adobe Flash)
 Glyphic Technology (Glyphic Script prototype-based programming language, with Codeworks direct interactive programming environment)
 PenMagic (Numero spreadsheet and LetterExpress document fill-in templates)
+
 Pensoft (Perspective personal data manager, winner of a BYTE award in 1992). Pensoft was acquired by Eo.
+
 Slate (several pen applications).  Slate's founders included industry luminaries Dan Bricklin and Bob Frankston.
+
 Gaia Software (Personal Media personal productivity applications)
+
 Conic Systems (LocatorGIS survey/mapping application that briefly went into production at Ordnance Survey in the UK)
 Ink Development released InkWare NoteTaker and InkWare Photo. Pierre Omidyar and Greg Stein were two of the founders. Ink Development renamed themselves eShop when they pivoted to electronic commerce software and was later acquired by Microsoft.
+
 Marathon Development created QuikScript, the original script handwriting word processor.  QuikScript was later ported to Palm and Windows devices under the name PenScript.  Patents acquired by Microsoft.

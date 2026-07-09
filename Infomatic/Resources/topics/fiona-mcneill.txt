@@ -1,15 +1,23 @@
 Fiona McNeill is a Professor in Computer Science Education at the School of Informatics, University of Edinburgh. She is co-chair of the British Computer Society's Scottish Computing Education Committee and Chairs the BCS in the Royal Society of Edinburgh's Learned Societies' Group.
+
 McNeill researches computer science and STEM education, particularly in inequalities affecting access to education. She has also contributed to research on data integration and matching and in Semantic Web technology.
 
 Career
+
 McNeill gained her PhD in artificial intelligence from the University of Edinburgh in 2006, focussing on dynamic data integration and ontology matching. She was a research fellow at Edinburgh from 2005 until 2013.
+
 After working as Assistant Professor, and then Associate Professor in Computer Sciences at Heriot Watt University, she was Reader of Computing Education at the University of Edinburgh in 2020. In 2025 she was appointed as Professor of Computing Education at Edinburgh University
 
 Honours and awards
+
 In 2018, McNeill was elected as a Fellow of the British Computer Society. In 2023, she was elected a Fellow of the Royal Society of Edinburgh. She is a Principal Fellow of the Higher Education Academy.
+
 In 2021, McNeill was awarded the University of Edinburgh's Principal's Medal for her development of the Informatics Connect programme, helping students adapt to hybrid education.
 
 Selected publications
+
 McNeill, Fiona; Bundy, Alan (2007). "Dynamic, automatic, first-order ontology repair by diagnosis of failed plan execution" (PDF). International Journal on Semantic Web and Information Systems. 3 (3): 1–35. doi:10.4018/jswis.2007070101.
+
 McNeill, Fiona; Gabor, Bella; Giunchiglia, Fausto (2017). "Language and domain aware lightweight ontology matching". Journal of Web Semantics. 43: 1–17. doi:10.1016/j.websem.2017.03.003. hdl:20.500.11820/45cc404b-7af5-4ef0-93b0-1c84fb02f7c7.
+
 McNeill, Fiona; Abaci, Serdar; Robertson, Judy; Linklater, Holly (2021). "Supporting school teachers' rapid engagement with online education". Educational Technology Research and Development. 69 (1): 29–34. doi:10.1007/s11423-020-09839-5. PMC 7543955. PMID 33052183.

@@ -1,37 +1,55 @@
 Bill Stasior (William F. Stasior Jr.) is an American computer scientist and technology executive. He best known for leading Apple's virtual-assistant group, Siri, from 2012 to 2019 and for subsequent senior artificial-intelligence roles at Microsoft.
+
 Prior to joining Apple, he co-founded and ran Amazon's search-technology subsidiary A9.com, serving on Jeff Bezos's  senior "S-Team".
 
 Early life and education
+
 Stasior earned his B.S., M.S. and Ph.D. in Electrical Engineering and Computer Science at the Massachusetts Institute of Technology (MIT).
+
 His doctoral research focused on interactive video processing and software-radio systems, with several technical reports published through MIT's Laboratory for Computer Science.
 
 Career
+
 Early work (1995–2003)
+
 After graduate school, Stasior joined Oracle as a senior engineer and later became Director of Advanced Development at AltaVista, where he worked on large-scale web-search and contextual-advertising platforms.
 
 Amazon and A9.com (2003–2012)
+
 Stasior joined Amazon in 2003 as Director of Search & Navigation and co-founded A9.com in 2004; he became its president and CEO in 2006.
+
 At A9 he oversaw product-search ranking, search advertising, and acquisitions such as the image-recognition start-up SnapTell in 2009.
+
 A 2009 Puget Sound Business Journal profile noted that A9 handled billions of product-search queries daily across Amazon's e-commerce sites.
 
 Apple (2012–2019)
+
 Apple recruited Stasior in October 2012 as Vice President, Siri & Search, to rebuild the assistant's natural-language and machine-learning teams.
+
 Under his leadership Siri expanded to more than 30 languages and shipped across iPhone, iPad, Watch, Mac and HomePod.
+
 He stepped down amid a broader AI re-organization in early 2019 and departed Apple that May.
 
 Microsoft (2019–present)
+
 Microsoft announced in August 2019 that Stasior would join as Corporate Vice President of Technology, reporting to chief technology officer Kevin Scott and focusing on company-wide AI strategy.
 
 Board and advisory roles
+
 In 2019, Stasior was appointed to the executive advisory committee at Avellino Labs.
+
 In 2024, he was made a senior advisor at the Ontario Teachers' Pension Plan.
 
 Patents and publications
+
 Stasior is listed as inventor on more than 50 U.S. patents spanning search ranking, vision-based commerce and conversational interfaces.
+
 He co-authored early peer-reviewed papers on multimedia systems while at MIT.
 
 Recognition
+
 Technology media describe Stasior as a "search guru" and "prominent technologist" for his contributions to commercial search and voice AI.
 
 Personal life
+
 According to public filings and professional profiles, Stasior resides in the San Francisco Bay Area and mentors early-stage technology founders.

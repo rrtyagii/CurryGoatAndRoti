@@ -1,56 +1,58 @@
 The Ramsey test (also called the Ramsey test for conditionals) is a proposal for how to evaluate and accept conditional sentences of the form if p (then) q. Informally, the guiding idea is that, to decide whether to accept a conditional if-p-then-q in a given belief state K, one must hypothetically add p to K and revise K in a minimal and rational way to accommodate p; then, one must accept if-p-then-q if, and only if, q would be accepted in the resulting belief state. In contemporary formulations, the "minimal" change of belief is made precise by a belief revision operation or by a rule for changing probabilities or possible-world rankings, depending on the framework.
+
 The test originates in a brief footnote in Frank P. Ramsey's 1929 essay General Propositions and Causality, but has since been developed in several overlapping research traditions, namely, in the theory of § Belief revision, in § Probabilistic approaches to conditionals, in § Possible-worlds semantics, and in dynamic and non-monotonic logics. The Ramsey test has also been shown to generate various "triviality" results when combined with seemingly natural constraints on rational belief change, leading to an extensive literature on how it should be formulated and where its limits lie.
 
 Historical background
+
 Ramsey's footnote
+
 Ramsey's discussion of conditionals appears in a single footnote to General Propositions and Causality (1929), posthumously published in The Foundations of Mathematics and Other Logical Essays:If two people are arguing "If p will q?" and are both in doubt as to p, they are adding p hypothetically to their stock of knowledge and arguing on that basis about q; so that in a sense "If p, q" and "If p, ¬q" are contradictories. We can say they are fixing their degrees of belief in q given p. If p turns out false, these degrees of belief are rendered void. If either party believes ¬p for certain, the question ceases to mean anything to him except as a question about what follows from certain laws or hypotheses.Ramsey connects conditionals with what he calls "variable hypotheticals", general rules of the form "if anything is F it is G", which, on his view, function as laws or policies guiding future judgement and action. To Ramsey, believing a conditional is adopting a rule such that, under the supposition of p together with one's background information and laws, one is disposed to accept q.
+
 Although Ramsey's writings on conditionals attracted relatively little attention at first, the footnote was rediscovered in the later twentieth century, where it came to be seen as a key inspiration for non-material accounts of conditionals in philosophy of language, epistemology, and formal logic.
 
 Later developments
+
 From the 1960s onwards, Ramsey's idea was taken up in at least three overlapping research programmes:
 
 In possible-worlds semantics, philosophers Robert Stalnaker and David Lewis model the hypothetical addition of p by selecting a "closest" or most plausible p-world to evaluate q at, which is an approach to conditionals inspired by the Ramsey test.
+
 In probabilistic approaches, the Ramsey test is read as a recipe for tying the acceptability of conditionals to conditional probabilities.
+
 In belief revision theory, especially the AGM framework, the Ramsey test is the inspiration for an equivalence between a belief set's acceptance of a conditional and the consequent's membership in belief set after it is revised by the antecedent.
+
 Subsequent work has elaborated versions of the Ramsey test in dynamic epistemic logic, non-monotonic reasoning, game theory, and artificial intelligence, often under the heading of "epistemic" or "subjunctive" conditionals. The precise formulations vary; Bradley argues that the Ramsey test should be seen as a schema that can be instantiated in different ways for different kinds of conditionals and different models of belief change.
 
 Formalizations
+
 Belief revision
+
 In AGM belief revision, a belief state is represented by a deductively closed set of sentences K, and revision by a new sentence p is represented by an operator * that outputs a new belief set K* p. The Ramsey test is then commonly expressed as a definitional equivalence for an epistemic conditional connective >:
 
 Ramsey test (AGM form).
+
 K accepts the conditional p > q if and only if q is a member of the revised belief set K * p. That is,
-
-
 
         p
         >
         q
         ∈
         K
-
-
           iff
-
-
         q
         ∈
         K
         ∗
         p
         .
-
-
     {\displaystyle p>q\in K\quad {\text{iff}}\quad q\in K*p.}
-
 
 This formulation connects a logic of conditionals with a belief revision theory, so that principles about the conditional connective > can be translated into postulates on the revision operation *, and conversely.
 
 Probabilistic approaches to conditionals
+
 Some formulations read the Ramsey test as inherently probabilistic. On this view, to evaluate if p, q one should adjust one's credence function as if p were known and then look at the resulting probability of q.
+
 An influential proposal, called "the Ramsey–Adams thesis" or "Adams's thesis", holds that, for suitable indicative conditionals, the acceptability or assertability of if p, q is governed by the conditional probability
-
-
 
         P
         (
@@ -58,19 +60,13 @@ An influential proposal, called "the Ramsey–Adams thesis" or "Adams's thesis",
         ∣
         p
         )
-
-
     {\displaystyle P(q\mid p)}
 
 . Some proposals, such as Robert Stalnaker's, go further and identify the probability of the conditional with the corresponding conditional probability, e.g.
 
-
-
         P
         (
-
           if
-
         p
         ,
         q
@@ -82,31 +78,40 @@ An influential proposal, called "the Ramsey–Adams thesis" or "Adams's thesis",
         ∣
         p
         )
-
-
     {\displaystyle P({\text{if }}p,q)=P(q\mid p)}
 
 . However, in 1976, philosopher David Lewis proved a famous series of triviality results which show that, under plausible assumptions, such equations cannot hold generally for non-trivial probability functions, motivating weaker connections between conditional probability and conditional acceptability.
+
 A related line of work studies how probabilities for compounds and embeddings of conditionals can be assigned while avoiding triviality, for example by restricting the language or weakening closure assumptions.
 
 Possible-worlds semantics
+
 In conditional logics with possible-worlds semantics, the idea of a selection function, introduced by Robert Stalnaker, assigns to each world w and antecedent p a set of "closest" or most plausible p-worlds, and the conditional "if p, q" is true at w when all of these selected worlds satisfy q. Stalnaker explicitly claimed that the idea was inspired by the Ramsey test. Stalnaker assumed a unique closest world, while David Lewis weakened this to a set of closest worlds.
 
 Triviality theorem in belief revision
+
 When the AGM form of the Ramsey test is combined with the standard AGM postulates for rational belief revision, one obtains strong constraints on the interaction between conditionals and revision. Gärdenfors showed that combining (i) the Ramsey-test link between an epistemic conditional and revision, (ii) standard AGM postulates, and (iii) the assumption that conditionals can appear as ordinary beliefs and as inputs to revision, yields "triviality" or "impossibility" results: the only revision operators satisfying all constraints behave degenerately or collapse distinctions between belief states.
+
 In subsequent work, Gärdenfors proposed weakened versions of the test and explored further triviality theorems, including results for negative conditionals ("the negative Ramsey test").
 
 Responses and modifications
+
 A large literature investigates how to preserve the explanatory appeal of Ramsey testing while avoiding triviality. Prominent strategies include:
 
 Restricting the language so that conditionals are not themselves items that can be straightforwardly revised upon (or limiting which embeddings are allowed).
+
 Weakening or modifying revision postulates (for example, weakening strong preservation/minimal-change requirements for conditionals).
+
 Weakening the Ramsey test itself, such as by limiting it to certain classes of conditionals (for example, epistemic rather than metaphysical conditionals), or reinterpreting the test as an assertability norm rather than as defining truth conditions for a conditional proposition.
+
 Replacing belief sets with richer epistemic states, such as plausibility orderings or ranking functions, allowing more fine-grained "minimal change" dynamics compatible with the Ramsey test.
 
 Negative and iterated Ramsey tests
+
 Besides the positive Ramsey test for accepting if p, q, there are proposals for "negative Ramsey tests" that aim to characterise when a conditional of the form if p, not q should be rejected or accepted. These have been shown to generate further triviality results when combined with standard belief-revision postulates, prompting more fine-grained treatments of denial and of conditionals with negative consequents.
+
 A further extension concerns iterated Ramsey tests, where conditionals are evaluated relative to sequences of revisions rather than single steps. This connects the Ramsey test with work on iterated belief revision and dynamic epistemic logics, in which the evolution of an agent's plausibility ordering under multiple pieces of information is explicitly modelled.
 
 Applications
+
 The Ramsey test is a strategy to develop a semantics for conditionals. As such, it is part of the philosophy of language as well as the linguistic semantics of natural language. Due to the importance of hypothetical conditionals for reasoning, the Ramsey test is also applied in formal epistemology and belief revision (representation theorems and postulates governing rational change of view), artificial intelligence and non-monotonic belief management systems (defaults, conditional rules, and systems for reasoning under hypothetical assumptions), and dynamic logics of information (iterated revision and the semantics/pragmatics of conditional discourse). It plays a role in many current approaches to modelling learning, decision-making under uncertainty, and the social aggregation of conditional opinions.

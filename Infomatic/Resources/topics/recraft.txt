@@ -1,47 +1,73 @@
 Recraft is a generative artificial intelligence program and service developed by the London-based startup Recraft, Inc. The company also offers Recraft Studio, a web-based workspace that lets users create and edit images, vectors, and mockups using various text-to-image models.
+
 Like models such as Midjourney and DALL-E, the Recraft model generates digital images from natural language prompts, and is specifically tailored for creative workflows, with features that emphasize brand consistency, text fidelity, and layout control.
 
 History and background
+
 Recraft, Inc. was founded in 2022 by machine learning scientist Anna Veronika Dorogush, best known for co-creating the CatBoost machine learning library at Yandex.
+
 The company emerged from stealth on May 31, 2023, with a public release of its vector graphics generation capability on Product Hunt. On January 17, 2024, TechCrunch profiled Recraft’s foundational model for graphic design, noting its emphasis on addressing copyright and ethical concerns associated with AI-generated imagery.
+
 On October 28, 2024, TechCrunch reported that Recraft's third major model, V3, had topped a crowdsourced benchmark, surpassing Midjourney and OpenAI's DALL-E in overall image quality.
+
 On May 5, 2025, Recraft announced a $30 million Series B funding round led by Accel, reporting more than four million registered users at the time of the announcement.
 
 Models
+
 Recraft has developed multiple generations of its text-to-image models since 2022. Each generation reflects improvements in fidelity, controllability, and support for both raster and vector outputs. The models are proprietary and accessible through the Recraft API, Recraft Studio. Recraft models are also hosted as an image generation API on fal, Replicate, Prodia, and others.
 
 Recraft V2
+
 Recraft V2 was released in March 2024 and was the company’s first model trained from scratch. It contained roughly 20 billion parameters and introduced native vector image generation, brand-color conditioning, and improved stylistic consistency for icons and illustrations.
 
 Recraft V3
+
 Recraft V3 was released in October 2024 and achieved first place on the Artificial Analysis benchmark hosted on Hugging Face. The model introduced advances in photorealism, improved rendering of multi-word text, and increased responsiveness to detailed descriptive prompts. It also added the “Artistic” parameter, which allowed users to adjust stylistic intensity within generated images.
 
 Features
+
 Vectorization: Recraft’s models can generate and convert images into native vector formats, producing scalable graphics composed of editable paths rather than fixed pixels.
+
 Style reference: The models support the use of reference images to guide stylistic characteristics such as color palette, line quality, composition, or visual tone.
+
 Style mixing: Recraft models can combine multiple stylistic inputs within a single generation. By blending attributes from different references or stylistic instructions, the system produces images that reflect hybrid visual characteristics while maintaining internal consistency.
+
 Inpainting editing: The models support localized image modification through inpainting, enabling users to regenerate selected regions of an image while preserving surrounding content.
 
 Model capabilities
+
 Recraft’s models generate raster and vector images from natural-language prompts and are designed to interpret detailed descriptions with attention to composition, style, and text placement.
+
 The models support controlled stylistic variation through preset or reference-based guidance and can maintain coherent line, color, or layout structure across multiple outputs. They produce scalable vector graphics alongside high-resolution raster images, and include features for localized image modification through inpainting or outpainting operations.
 
 Technology
+
 Recraft has not publicly disclosed the detailed technical architecture of its models. However, third-party reviews and benchmarks have noted that its performance resembles diffusion models such as Midjourney and Stable Diffusion.
+
 The model is designed for creative workflows requiring visual consistency and flexible output formats. Reviewers have noted its ability to generate legible multi-line text, produce high-resolution imagery at various canvas sizes, and to maintain alignment with user-defined brand palettes and design themes.
+
 Though not open-source, Recraft's models are accessible through a web interface and commercial API. Advanced features such as style settings and positioning control differentiate it from general-purpose text-to-image models.
 
 Recraft Studio
+
 Recraft Studio is a web-based workspace for generating and editing images using Recraft’s image models and selected external models. The infinite canvas interface provides access to a range of creation and refinement tools within a single environment.
+
 Raster and vector generation with styles: Recraft Studio supports the generation of both raster and vector images. Users can apply predefined or reference-based styles during generation, allowing for visual consistency across multiple outputs.
+
 Mockups: The studio includes mockup tools that allow generated designs to be placed onto predefined surfaces or templates for visualization and presentation purposes.
+
 Vectorization: Recraft Studio provides vectorization tools that convert raster images into editable vector graphics, enabling further modification of shapes, colors, and layout.
+
 Image upscaling: The workspace includes image upscaling functionality for increasing resolution while preserving visual detail.
+
 Editing tools and natural-language editing: Recraft Studio offers a set of editing tools for modifying images within the canvas, including localized adjustments and natural-language–based editing commands that allow users to describe changes using text.
 
 Supported models
+
 Recraft Studio provides access to Recraft’s proprietary image models as well as other external frontier image models such as Nano Banana, GPT 4-o, Imagen, Flux, and others.
 
 Business model
+
 Recraft develops proprietary image models that are accessible through Recraft Studio and the Recraft API. Recraft Studio operates on a freemium model, offering a free tier with limited daily credits and paid subscriptions for access to additional features. The API follows a credit-based system in which units are purchased separately for programmatic image generation.
+
 A team plan supports collaborative use, and the API enables organizations and developers to integrate Recraft’s image generation and editing capabilities into their own systems and workflows.

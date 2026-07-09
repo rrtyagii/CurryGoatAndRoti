@@ -1,7 +1,9 @@
 In computer science and mathematical logic, a proof assistant or interactive theorem prover is a software tool to assist with the development of formal proofs by human–machine collaboration. This involves some sort of interactive proof editor, or other interface, with which a human can guide the search for proofs, the details of which are stored in, and some steps provided by, a computer.
+
 A recent effort within this field is making these tools use artificial intelligence to automate the formalization of ordinary mathematics.
 
 History
+
 Automath, which was developed by Nicolaas Govert de Bruijn starting in 1967, is often considered the first proof checker and the first system to utilize the Curry–Howard correspondence between programs and proofs.
 
 System comparison
@@ -25,10 +27,13 @@ Theorem Proving System (TPS) and ETPS – Interactive theorem provers also based
 
 User interfaces
 A popular front-end for proof assistants is the Emacs-based Proof General, developed at the University of Edinburgh.
+
 Rocq includes RocqIDE, which is based on OCaml/Gtk. Isabelle includes Isabelle/jEdit, which is based on jEdit and the Isabelle/Scala infrastructure for document-oriented proof processing. More recently, Visual Studio Code extensions have been developed for Rocq, Isabelle by Makarius Wenzel, and for Lean 4 by the leanprover developers.
 
 Formalization extent
+
 Freek Wiedijk has been keeping a ranking of proof assistants by the amount of formalized theorems out of a list of 100 well-known theorems. As of September 2025, only six systems have formalized proofs of more than 70% of the theorems, namely Isabelle, HOL Light, Lean, Rocq, Metamath and Mizar.
 
 Notable formalized proofs
+
 The following is a list of notable proofs that have been formalized within proof assistants.

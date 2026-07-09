@@ -1,8 +1,11 @@
 Ismat Beg, FPAS, FIMA, (Urdu: عصمت بیگ; born January 1951) is a Pakistani mathematician and researcher. Beg is a Distinguished National Professor at Lahore School of Economics, Higher Education Commission and an honorary full professor at the Mathematics Division at the Ruggero Santilli Institute for Basic Research, Florida, US.
+
 Beg's scientific contributions cover a wide range of topics spanning fixed point theory and approximations, order structure, fuzzy sets and systems, artificial intelligence and multicriteria decision theory.
 
 Early life and education
+
 Ismat Beg was born in the small hilly village of Mohri Sharif, west of Kharian in 1951 to an immigrant Kashmiri family. He got his primary schooling in a village school "sitting under the trees". In 1961 his father took him to Risalpur and he was sent to Sapper Boys High School, Risalpur Cantt. After completing his matriculation 1966, he joined Zamindar College, Bhimber Road, Gujrat (now Government Zamindar College, Gujrat) for his Higher Secondary School Certificate and undergraduate degree. He obtained his master's from Government College, Lahore  (now Government College University).
+
 In 1977, Beg travelled to Romania on a scholarship and attended the West University of Timișoara for Romanian language and pre-doctoral courses and passed the PhD entrance exam for the University of Bucharest. He started his PhD in fall of 1978 under the supervision of academician and famous mathematician Romulus Cristescu. His area of research is ordered vector spaces and linear operators with specialization in integral representation of linear operators. He defended his thesis in December 1981 and the degree was awarded in 1982.
 
 Academic career
@@ -25,9 +28,13 @@ Punjab University Journal of Mathematics
 Military Technical Courier (journal)
 
 Awards and honours
+
 Distinguished National Professor, Higher Education Commission (Pakistan)
+
 Prize, National Book Council of Pakistan, 1986
+
 Gold Medal, Pakistan Academy of Sciences 2008
+
 Visiting Mathematician / Associate Group Member / Senior Mathematician / Senior Guest Scientist, International Centre for Theoretical Physics Trieste, Italy, 1990–2010
 Academic Roll of Honor from Government College University (Lahore) 1972
 

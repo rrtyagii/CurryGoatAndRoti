@@ -1,6 +1,7 @@
 The IJCAI Award for Research Excellence is a biannual award before given at the IJCAI conference to researcher in artificial intelligence as a recognition of excellence of their career. Beginning in 2016, the conference is held annually and so is the award.
 
 Laureates
+
 The recipients of this award have been:
 
 John McCarthy (1985)

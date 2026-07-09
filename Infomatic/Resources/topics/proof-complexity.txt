@@ -1,70 +1,46 @@
 In logic and theoretical computer science, and specifically proof theory and computational complexity theory, proof complexity is the field aiming to understand and analyse the computational resources that are required to prove or refute statements. Research in proof complexity is predominantly concerned with proving proof-length lower and upper bounds in various propositional proof systems. For example, among the major challenges of proof complexity is showing that the Frege system, the usual propositional calculus, does not admit polynomial-size proofs of all tautologies. Here the size of the proof is simply the number of symbols in it, and a proof is said to be of polynomial size if it is polynomial in the size of the tautology it proves.
+
 Systematic study of proof complexity began with the work of Stephen Cook and Robert Reckhow (1979) who provided the basic definition of a propositional proof system from the perspective of computational complexity. Specifically Cook and Reckhow observed that proving proof size lower bounds on stronger and stronger propositional proof systems can be viewed as a step towards separating NP from coNP (and thus P from NP), since the existence of a propositional proof system that admits polynomial size proofs for all tautologies is equivalent to NP=coNP.
+
 Contemporary proof complexity research draws ideas and methods from many areas in computational complexity, algorithms and mathematics. Since many important algorithms and algorithmic techniques can be cast as proof search algorithms for certain proof systems, proving lower bounds on proof sizes in these systems implies run-time lower bounds on the corresponding algorithms. This connects proof complexity to more applied areas such as SAT solving.
+
 Mathematical logic can also serve as a framework to study propositional proof sizes. First-order theories and, in particular, weak fragments of Peano arithmetic, which come under the name of bounded arithmetic, serve as uniform versions of propositional proof systems and provide further background for interpreting short propositional proofs in terms of various levels of feasible reasoning.
 
 Proof systems
+
 A propositional proof system is given as a proof-verification algorithm P(A,x) with two inputs.  If P accepts the pair (A,x) we say that x is a P-proof of A. P is required to run in polynomial time, and moreover, it must hold that A has a P-proof if and only if A is a tautology.
+
 Examples of propositional proof systems include sequent calculus, resolution, cutting planes and Frege systems. Strong mathematical theories such as ZFC induce propositional proof systems as well: a proof of a tautology
 
-
-
         τ
-
-
     {\displaystyle \tau }
-
  in a propositional interpretation of ZFC is a ZFC-proof of a formalized statement '
-
-
-
         τ
-
-
     {\displaystyle \tau }
-
  is a tautology'.
 
 Proofs of polynomial size and the NP versus coNP problem
+
 Proof complexity measures the efficiency of the proof system usually in terms of the minimal size of proofs possible in the system for a given tautology. The size of a proof (respectively formula) is the number of symbols needed to represent the proof (respectively formula). A propositional proof system P is polynomially bounded if there exists a constant
 
-
-
         c
-
-
     {\displaystyle c}
-
  such that every tautology of size
-
-
-
         n
-
-
     {\displaystyle n}
-
  has a P-proof of size
-
-
-
         (
         n
         +
         c
-
           )
-
             c
-
-
-
-
     {\displaystyle (n+c)^{c}}
 
 . A central question of proof complexity is to understand if tautologies admit polynomial-size proofs. Formally,
 
 Problem (NP vs. coNP)
+
 Does there exist a polynomially bounded propositional proof system?
 
 Cook and Reckhow (1979) observed that there exists a polynomially bounded proof system if and only if NP=coNP. Therefore, proving that specific proof systems do not admit polynomial size proofs can be seen as a partial progress towards separating NP and coNP (and thus P and NP).
@@ -75,228 +51,134 @@ For example, sequent calculus is p-equivalent to (every) Frege system.
 A proof system is p-optimal if it p-simulates all other proof systems, and it is optimal if it simulates all other proof systems. It is an open problem whether such proof systems exist:
 
 Problem (Optimality)
+
 Does there exist a p-optimal or optimal propositional proof system?
 
 Every propositional proof system P can be simulated by Extended Frege extended with axioms postulating soundness of P. The existence of an optimal (respectively p-optimal) proof system is known to follow from the assumption that NE=coNE (respectively E=NE).
 For many weak proof systems it is known that they do not simulate certain stronger systems (see below). However, the question remains open if the notion of simulation is relaxed. For example, it is open whether Resolution effectively polynomially simulates Extended Frege.
 
 Automatability of proof search
+
 An important question in proof complexity is to understand the complexity of searching for proofs in proof systems.
 
 Problem (Automatability)
+
 Are there efficient algorithms searching for proofs in standard proof systems such as Resolution or the Frege system?
 
 The question can be formalized by the notion of automatability (also known as automatizability).
+
 A proof system P is automatable if there is an algorithm that given a tautology
 
-
-
         τ
-
-
     {\displaystyle \tau }
-
  outputs a P-proof of
-
-
-
         τ
-
-
     {\displaystyle \tau }
-
  in time polynomial in the size of
-
-
-
         τ
-
-
     {\displaystyle \tau }
-
  and the length of the shortest P-proof of
-
-
-
         τ
-
-
     {\displaystyle \tau }
 
 . Note that if a proof system is not polynomially bounded, it can still be automatable. A proof system P is weakly automatable if there is a proof system R and an algorithm that given a tautology
 
-
-
         τ
-
-
     {\displaystyle \tau }
-
  outputs an R-proof of
-
-
-
         τ
-
-
     {\displaystyle \tau }
-
  in time polynomial in the size of
-
-
-
         τ
-
-
     {\displaystyle \tau }
-
  and the length of the shortest P-proof of
-
-
-
         τ
-
-
     {\displaystyle \tau }
 
 .
+
 Many proof systems of interest are believed to be non-automatable. However, currently only conditional negative results are known.
 
 Krajíček and Pudlák (1998) proved that Extended Frege is not weakly automatable unless RSA is not secure against P/poly.
+
 Bonet, Pitassi and Raz (2000) proved that the
 
-
-
         T
-
           C
-
             0
-
-
-
-
     {\displaystyle TC^{0}}
 
 -Frege system is not weakly automatable unless the Diffie–Hellman scheme is not secure against P/poly. This was extended by Bonet, Domingo, Gavaldá, Maciel and Pitassi (2004) who proved that constant-depth Frege systems of depth at least 2 are not weakly automatable unless the Diffie–Hellman scheme is not secure against nonuniform adversaries working in subexponential time.
+
 Alekhnovich and Razborov (2008) proved that tree-like Resolution and Resolution are not automatable unless FPT=W[P]. This was extended by Galesi and Lauria (2010) who proved that Nullstellensatz and Polynomial Calculus are not automatable unless the fixed-parameter hierarchy collapses. Mertz, Pitassi and Wei (2019) proved that tree-like Resolution and Resolution are not automatable even in certain quasi-polynomial time assuming the exponential time hypothesis.
+
 Atserias and Müller (2019) proved that Resolution is not automatable unless P=NP. This was extended by de Rezende, Göös, Nordström, Pitassi, Robere and Sokolov (2020) to NP-hardness of automating Nullstellensatz and Polynomial Calculus; by Göös, Koroth, Mertz and Pitassi (2020) to NP-hardness of automating Cutting Planes; and by Garlík (2020) to NP-hardness of automating k-DNF Resolution.
+
 It is not known if the weak automatability of Resolution would break any standard complexity-theoretic hardness assumptions.
+
 On the positive side,
 
 Beame and Pitassi (1996) showed that tree-like Resolution is automatable in quasi-polynomial time and Resolution is automatable on formulas of small width in weakly subexponential time.
 
 Bounded arithmetic
+
 Propositional proof systems can be interpreted as nonuniform equivalents of theories of higher order. The equivalence is most often studied in the context of theories of bounded arithmetic. For example, the Extended Frege system corresponds to Cook's theory
-
-
-
-
 
             P
             V
-
-
             1
-
-
-
-
     {\displaystyle \mathrm {PV} _{1}}
-
  formalizing polynomial-time reasoning and the Frege system corresponds to the theory
-
-
-
-
-
             V
             N
             C
-
-
             1
-
-
-
-
     {\displaystyle \mathrm {VNC} ^{1}}
-
  formalizing
-
-
-
-
-
-
               N
               C
-
-
-
             1
-
-
-
-
     {\displaystyle {\mathsf {NC}}^{1}}
-
  reasoning.
 The correspondence was introduced by Stephen Cook (1975), who showed that coNP theorems, formally
 
-
-
-
           Π
-
             1
-
-
             b
-
-
-
-
     {\displaystyle \Pi _{1}^{b}}
-
  formulas, of the theory
-
-
-
-
-
             P
             V
-
-
             1
-
-
-
-
     {\displaystyle \mathrm {PV} _{1}}
-
  translate to sequences of tautologies with polynomial-size proofs in Extended Frege. Moreover, Extended Frege is the weakest such system: if another proof system P has this property, then P simulates Extended Frege.
 An alternative translation between second-order statements and propositional formulas given by Jeff Paris and Alex Wilkie (1985) has been more practical for capturing subsystems of Extended Frege such as Frege or constant-depth Frege.
+
 While the above-mentioned correspondence says that proofs in a theory translate to sequences of short proofs in the corresponding proof system, a form of the opposite implication holds as well. It is possible to derive lower bounds on size of proofs in a proof system P by constructing suitable models of a theory T corresponding to the system P. This allows to prove complexity lower bounds via model-theoretic constructions, an approach known as Ajtai's method.
 
 SAT solvers
+
 Propositional proof systems can be interpreted as nondeterministic algorithms for recognizing tautologies. Proving a superpolynomial lower bound on a proof system P thus rules out the existence of a polynomial-time algorithm for SAT based on P. For example, runs of the DPLL algorithm on unsatisfiable instances correspond to tree-like Resolution refutations. Therefore, exponential lower bounds for tree-like Resolution (see below) rule out the existence of efficient DPLL algorithms for SAT. Similarly, exponential Resolution lower bounds imply that SAT solvers based on Resolution, such as CDCL algorithms cannot solve SAT efficiently (in worst-case).
 
 Lower bounds
+
 Proving lower bounds on lengths of propositional proofs is generally very difficult. Nevertheless, several methods for proving lower bounds for weak proof systems have been discovered.
 
 Haken (1985) proved an exponential lower bound for Resolution and the pigeonhole principle.
+
 Ajtai (1988) proved a superpolynomial lower bound for the constant-depth Frege system and the pigeonhole principle. This was strengthened to an exponential lower bound by Krajíček, Pudlák and Woods and by Pitassi, Beame and Impagliazzo. Ajtai's lower bound uses the method of random restrictions, which was used also to derive AC0 lower bounds in circuit complexity.
+
 Krajíček (1994) formulated a method of feasible interpolation and later used it to derive new lower bounds for Resolution and other proof systems.
+
 Pudlák (1997) proved exponential lower bounds for cutting planes via feasible interpolation.
+
 Ben-Sasson and Wigderson (1999) provided a proof method reducing lower bounds on size of Resolution refutations to lower bounds on width of Resolution refutations, which captured many generalizations of Haken's lower bound.
+
 It is a long-standing open problem to derive a nontrivial lower bound for the Frege system.
 
 Feasible interpolation
+
 Consider a tautology of the form
-
-
 
         A
         (
@@ -311,62 +193,32 @@ Consider a tautology of the form
         ,
         z
         )
-
-
     {\displaystyle A(x,y)\rightarrow B(y,z)}
 
 .  The tautology is true for every choice of
 
-
-
         y
-
-
     {\displaystyle y}
 
 , and after fixing
 
-
-
         y
-
-
     {\displaystyle y}
-
  the evaluation of
-
-
-
         A
-
-
     {\displaystyle A}
-
  and
-
-
-
         B
-
-
     {\displaystyle B}
-
  are independent because they are defined on disjoint sets of variables.  This means that it is possible to define an interpolant circuit
-
-
-
         C
         (
         y
         )
-
-
     {\displaystyle C(y)}
 
 , such that both
 
-
-
         A
         (
         x
@@ -378,14 +230,8 @@ Consider a tautology of the form
         (
         y
         )
-
-
     {\displaystyle A(x,y)\rightarrow C(y)}
-
  and
-
-
-
         C
         (
         y
@@ -397,51 +243,29 @@ Consider a tautology of the form
         ,
         z
         )
-
-
     {\displaystyle C(y)\rightarrow B(y,z)}
-
  hold.  The interpolant circuit decides either if
-
-
-
         A
         (
         x
         ,
         y
         )
-
-
     {\displaystyle A(x,y)}
-
  is false or if
-
-
-
         B
         (
         y
         ,
         z
         )
-
-
     {\displaystyle B(y,z)}
-
  is true, by only considering
-
-
-
         y
-
-
     {\displaystyle y}
 
 .  The nature of the interpolant circuit can be arbitrary.  Nevertheless, it is possible to use a proof of the initial tautology
 
-
-
         A
         (
         x
@@ -455,35 +279,19 @@ Consider a tautology of the form
         ,
         z
         )
-
-
     {\displaystyle A(x,y)\rightarrow B(y,z)}
-
  as a hint on how to construct
-
-
-
         C
-
-
     {\displaystyle C}
 
 .  A proof systems P is said to have feasible interpolation if the interpolant
 
-
-
         C
         (
         y
         )
-
-
     {\displaystyle C(y)}
-
  is efficiently computable from any proof of the tautology
-
-
-
         A
         (
         x
@@ -497,15 +305,10 @@ Consider a tautology of the form
         ,
         z
         )
-
-
     {\displaystyle A(x,y)\rightarrow B(y,z)}
-
  in P.  The efficiency is measured with respect to the length of the proof: it is easier to compute interpolants for longer proofs, so this property seems to be anti-monotone in the strength of the proof system.
 The following three statements cannot be simultaneously true: (a)
 
-
-
         A
         (
         x
@@ -519,26 +322,16 @@ The following three statements cannot be simultaneously true: (a)
         ,
         z
         )
-
-
     {\displaystyle A(x,y)\rightarrow B(y,z)}
-
  has a short proof in a some proof system; (b) such proof system has feasible interpolation; (c) the interpolant circuit solves a computationally hard problem. It is clear that (a) and (b) imply that there is a small interpolant circuit, which is in contradiction with (c).  Such relation allows the conversion of proof length upper bounds into lower bounds on computations, and dually to turn efficient interpolation algorithms into lower bounds on proof length.
 Some proof systems such as Resolution and Cutting Planes admit feasible interpolation or its variants.
+
 Feasible interpolation can be seen as a weak form of automatability. In fact, for many proof systems, such as Extended Frege, feasible interpolation is equivalent to weak automatability. Specifically, many proof systems P are able to prove their own soundness, which is a tautology
 
-
-
-
-
             R
             e
             f
-
-
             P
-
-
         (
         π
         ,
@@ -546,70 +339,34 @@ Feasible interpolation can be seen as a weak form of automatability. In fact, fo
         ,
         x
         )
-
-
     {\displaystyle \mathrm {Ref} _{P}(\pi ,\phi ,x)}
-
  stating that `if
-
-
-
         π
-
-
     {\displaystyle \pi }
-
  is a P-proof of a formula
-
-
-
         ϕ
         (
         x
         )
-
-
     {\displaystyle \phi (x)}
-
  then
-
-
-
         ϕ
         (
         x
         )
-
-
     {\displaystyle \phi (x)}
-
  holds'. Here,
-
-
-
         π
         ,
         ϕ
         ,
         x
-
-
     {\displaystyle \pi ,\phi ,x}
-
  are encoded by free variables. Moreover, it is possible to generate P-proofs of
-
-
-
-
-
             R
             e
             f
-
-
             P
-
-
         (
         π
         ,
@@ -617,68 +374,41 @@ Feasible interpolation can be seen as a weak form of automatability. In fact, fo
         ,
         x
         )
-
-
     {\displaystyle \mathrm {Ref} _{P}(\pi ,\phi ,x)}
-
  in polynomial-time given the length of
-
-
-
         π
-
-
     {\displaystyle \pi }
-
  and
-
-
-
         ϕ
-
-
     {\displaystyle \phi }
 
 . Therefore, an efficient interpolant resulting from short P-proofs of soundness of P would decide whether a given formula
 
-
-
         ϕ
-
-
     {\displaystyle \phi }
-
  admits a short P-proof
-
-
-
         π
-
-
     {\displaystyle \pi }
 
 . Such an interpolant can be used to define a proof system R witnessing that P is weakly automatable. On the other hand, weak automatability of a proof system P implies that P admits feasible interpolation. However, if a proof system P does not prove efficiently its own soundness, then it might not be weakly automatable even if it admits feasible interpolation.
+
 Many non-automatability results provide evidence against feasible interpolation in the respective systems.
 
 Krajíček and Pudlák (1998) proved that Extended Frege does not admit feasible interpolation unless RSA is not secure against P/poly.
+
 Bonet, Pitassi and Raz (2000) proved that the
 
-
-
         T
-
           C
-
             0
-
-
-
-
     {\displaystyle TC^{0}}
 
 -Frege system does not admit feasible interpolation unless the Diffie–Helman scheme is not secure against P/poly.
+
 Bonet, Domingo, Gavaldá, Maciel, Pitassi (2004) proved that constant-depth Frege systems of do not admit feasible interpolation unless the Diffie–Helman scheme is not secure against nonuniform adversaries working in subexponential time.
 
 Non-classical logics
+
 The idea of comparing the size of proofs can be used for any automated reasoning procedure that generates a proof. Some research has been done about the size of proofs for propositional non-classical logics, in particular, intuitionistic, modal, and non-monotonic logics.
+
 Hrubeš (2007–2009) proved exponential lower bounds on size of proofs in the Extended Frege system in some modal logics and in intuitionistic logic using a version of monotone feasible interpolation.

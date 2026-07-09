@@ -1,6 +1,7 @@
 A Fuel Model is a stylized set of fuel bed characteristics used as input for a variety of wildfire modeling applications. Wildfire behavior models, such as those of Rothermel, take into account numerous empirical variables. While these inputs are important for equation outputs, they are often difficult and time-consuming, if not impossible, to measure for each fuel bed. A fuel model defines these input variables for a stylized set of quantitative vegetation characteristics that can be visually identified in the field.  Depending on local conditions, one of several fuel models may be appropriate.  As Anderson states "Fuel models are simply tools to help the user realistically estimate fire behavior. The user must maintain a flexible frame of mind and an adaptive method of operating to totally utilize these aids". Furthermore, depending on the application, the user must choose a fuel model classification system. The major classification systems for use in the United States include the National Fire Danger Rating System, the 13 'original' fuel models of Anderson and Albini, the subsequent set of 40 fuels produced by Scott and Burgan, and the Fuel Characteristics Classification System.
 
 National Fire Danger Rating System
+
 The concept of a fuel model was first introduced in 1972 with the National Fire Danger Rating System. The first system of its kind, the NFDRS was a standardized set of equations to determine fire danger at specific points on the landscape.  Fuel models were at the core of these calculations, with each of its 20 models containing information about the relative loading of different fuel components.  Each model is described by the volume of 1-hr, 10-hr, 100-hr, and 1000-hr dead fuels, herbaceous and woody live fuels present as well as the fuel bed depth and moisture of extinction.
 
 Albini and Anderson's Models
@@ -12,6 +13,7 @@ Total Mineral Content = 5.55%
 Silica-free ash content/effective mineral content = 1.00%
 
 These models quantitatively describe the same fuel loading components as the NFDRS models, and are grouped into four classes: grass, shrub, timber, and slash.
+
 Grass Group:
 
 Shrub Group:
@@ -21,27 +23,23 @@ Timber Group:
 Slash Group:
 
 Scott and Burgan's Dynamic Models
+
 Scott and Burgan's Dynamic Fuel Models were published in 2005 to eliminate the assumption that the fuel bed was uniform during the dry season.  This is done through the use of dynamic herbaceous fuel beds, where the "live herbaceous load is transferred to dead as a function of the live herbaceous moisture content."  The use of a curing coefficient allows more realistic modeling of fire behaviors in herbaceous fuel beds.  Furthermore, these models aim to move away from the correlation between vegetation type and fuel bed characteristics.  For example, the original 'chaparral' model becomes the 'heavy load, tall brush" model.  Like the NFDRS conversion crosswalk in Albini and Anderson's models, Scott and Burgan include a crosswalk between the original 13 and their set of 40 new models.  Furthermore, they include the original 13 as models 1–13 to allow backwards compatibility in newer modeling software.
 
 Key to selecting a dynamic fuel model
 1. Nearly pure grass and/or forb type (Grass)
-
 a. Arid to semiarid climate (rainfall deficient in summer). Extinction moisture content is 15 percent.
 b. Sub-humid to humid climate (rainfall adequate in all seasons). Extinction moisture content is 30 to 40 percent.
 2. Mixture of grass and shrub, up to about 50 percent shrub coverage (Grass-Shrub)
-
 a. Arid to semiarid climate (rainfall deficient in summer). Extinction moisture content is 15 percent.
 b. Sub-humid to humid climate (rainfall adequate in all seasons). Extinction moisture content is 30 to 40 percent.
 3. Shrubs cover at least 50 percent of the site; grass sparse to nonexistent (Shrub)
-
 a. Arid to semiarid climate (rainfall deficient in summer). Extinction moisture content is 15 percent.
 b. Sub-humid to humid climate (rainfall adequate in all seasons). Extinction moisture content is 30 to 40 percent.
 4. Grass or shrubs mixed with litter from forest canopy (Timber-Understory)
-
 a. Semiarid to sub-humid climate. Extinction moisture content is 20 percent.
 b. Humid climate. Extinction moisture content is 30 percent.
 5. Dead and down woody fuel (litter) beneath a forest canopy (Timber Litter)
-
 a. Fuel bed is recently burned but able to carry wild-land fire.
 b. Fuel bed not recently burned.
 i. Fuel bed composed of broad-leaf (hardwood) litter.
@@ -50,10 +48,10 @@ iii. Fuel bed not composed broad-leaf or long-needle pine litter.
 1. Fuel bed includes both fine and coarse fuels.
 2. Fuel bed does not include coarse fuels.
 6. Activity fuel (slash) or debris from wind damage (blowdown) (Slash-Blowdown)
-
 a. Fuel bed is activity fuel.
 b. Fuel bed is blowdown.
 7. Insufficient wildland fuel to carry wildland fire under any condition (non burnable)
 
 Fuel Characteristic Classification System (FCCS)
+
 Developed in 2007, the Fuel Characteristic Classification System expands upon the existing fuel models to produce a set of stylized fuel beds with quantitative data on their ability to support Wild-land fire and the degree to which such a fire would consume the fuel lying within the bed.  Regionally developed by teams of experts, these models were "compiled from scientific literature, fuels photo series, fuels data sets, and expert opinion."  In addition to the standard dead and live components, the FCCS scheme reports assigned and calculated fuel characteristics for each existing fuel bed stratum including the canopy, shrubs, non-woody, woody, litter-lichen-moss, and duff," allowing a more comprehensive analysis of material within a fuel bed.  Furthermore, "the system classifies each fuel bed by calculating fire potentials that provide  an index of the intrinsic capacity of each fuel bed to support surface fire behavior, support crown fire, and provide fuels for flaming, smoldering, and residual consumption."  The FCCS has significant potential, but has not be integrated into mainstream modeling software such as Flammap or Farsite.  However, they are gaining popularity in modeling wildland fire emissions and in the development of fuel bed, fire hazard, and treatment effectiveness maps on several national forests. Unlike the Scott and Burgan Models which move away from the use of vegetation type as a proxy for fuel type, the FCCS relies heavily on vegetation type in the formation of its models.

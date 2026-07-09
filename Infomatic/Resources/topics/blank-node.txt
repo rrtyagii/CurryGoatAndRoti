@@ -1,11 +1,15 @@
 In RDF, a blank node (also called bnode) is a node in an RDF graph representing a resource for which a URI or literal is not given. The resource represented by a blank node is also called an anonymous resource. According to the RDF standard a blank node can only be used as subject or object of an RDF triple.
 
 Notation in serialization formats
+
 Blank nodes can be denoted through blank node identifiers in the following formats, RDF/XML, RDFa, Turtle, N3 and N-Triples.
+
 The following example shows how it works in RDF/XML.
 
 The blank node identifiers are only limited in scope to a serialization of a particular RDF graph, i.e. the node _:b in the subsequent example does not represent the same node as a node named _:b in any other graph.
+
 Blank nodes can also be denoted through nested elements (in RDF/XML, RDFa, Turtle and N3).
+
 Here is the same triples with the above.
 
 Below is the same example in RDFa.
@@ -13,32 +17,44 @@ Below is the same example in RDFa.
 Below is the same example in Turtle.
 
 Usability
+
 Blank nodes are treated as simply indicating the existence of a thing, without using a URI (Uniform Resource Identifier) to identify any particular thing. This is not the same as assuming that the blank node indicates an 'unknown' URI.
 
 Anonymous resources in RDF
+
 From a technical perspective they give the capability to:
 
 describe multi-component structures, like the RDF containers,
 describe reification (i.e. provenance information),
 represent complex attributes without having to name explicitly the auxiliary node (e.g. the address of a person consisting of the street, the number, the postal code and the city) and
 offer protection of the inner information (e.g. protecting the sensitive information of the customers from the browsers).
+
 Below there is an example where blank nodes are used to represent resources in the aforementioned ways. In particular, the blank node with the identifier '_:students' represents a Bag RDF Container, the blank node with the identifier '_:address' represents a complex attribute and those with the identifiers '_:activity1' and '_:activity2' represent events in the lifecycle of a digital object.
 
 Anonymous classes in OWL
+
 The ontology language OWL uses blank nodes to represent anonymous classes such as unions or intersections of classes, or classes called restrictions, defined by a constraint on a property.
+
 For example, to express that a person has at most one birth date, one will define the class "Person" as a subclass of an anonymous class of type "owl:Restriction". This anonymous class is defined by two attributes specifying the constrained property and the constraint itself (cardinality ≤ 1)
 
 Blank nodes in published data
+
 Blank node prevalence
+
 According to an empirical survey in Linked Data published on the Web,
+
 out of the 783 domains contributing to the corpus, 345 (44.1%) did not publish any blank nodes. The
 average percentage of unique terms which were blank nodes for each domain was 7.5%, indicating that although a small
 number of high-volume domains publish many blank nodes, many other domains publish blank nodes more infrequently.
+
 From the 286.3 MB unique terms found in data-level positions the 165.4 MB (57.8%) were blank nodes, 92.1 MB (32.2%) were URIs, and 28.9 MB (10%) were literals. Each blank node had on average 5.2 data-level occurrences.
+
 It occurred, on average, 0.99 times in the object position of a non-rdf:type
+
 triple, and 4.2 times in the subject position of a triple.
 
 Structure of blank nodes
+
 According to the same empirical survey of linked data published on the Web, the majority of documents surveyed contain tree-based blank node structures. A small fraction contain complex blank node structures for which various tasks are potentially very expensive to compute.
 
 Sensitive tasks
@@ -55,5 +71,6 @@ BNodeLand is a framework that deals with this problem and proposes solutions thr
 
 Entailment checking
 Regarding the entailment problem it is proved that (a) deciding
+
 simple or RDF/S entailment of RDF graphs is NP-Complete, and (b) deciding
 equivalence of simple RDF graphs is Isomorphism-Complete.

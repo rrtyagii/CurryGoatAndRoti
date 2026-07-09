@@ -3,20 +3,29 @@ OWL-S is an ontology built on top of Web Ontology Language (OWL) by the DARPA DA
 It replaces the former DAML-S ontology. "OWL-S is an ontology, within the OWL-based framework of the Semantic Web, for describing Semantic Web Services. It will enable users and software agents to automatically discover, invoke, compose, and monitor Web resources offering services, under specified constraints."
 
 The OWL-S Ontology
+
 Development of OWL-S aims to enable the following tasks:
 
 Automatic Web service discovery: with the development of the Semantic Web, many Web Services will be available on the Web, performing the most various tasks. OWL-S will help software agents to discover the Web Service that would fulfill a specific need within some quality constraints, without the need for human intervention.
+
 Automatic Web service invocation: generally, it is necessary to write a specific program to invoke a Web Service, using its WSDL description. OWL-S will open the possibility for a software agent to automatically read the description of the Web Service's inputs and outputs and invoke the service.
+
 Automatic Web service composition and interoperation: in a Web where many services are available, it should be possible to perform a complex task, involving the coordinated invocation of various Web Services, based solely on the high-level description of the objective. OWL-S will help in the composition and interoperation of the Services in a way that will enable the automatic execution of this tasks.
+
 The OWL-S ontology has three main parts: the service profile, the process model and the grounding.
 
 The service profile is used to describe what the service does. This information is primary meant for human reading, and includes the service name and description, limitations on applicability and quality of service, publisher and contact information.
+
 The process model describes how a client can interact with the service. This description includes the sets of inputs, outputs, pre-conditions and results of the service execution.
+
 The service grounding specifies the details that a client needs to interact with the service, as communication protocols, message formats, port numbers, etc.
 
 OWL-S and WSDL
+
 OWL-S requires an additional description for a full specification of the grounding, the most commonly used being WSDL. Although both languages target at different levels of specification, there is an intersection between them:
 
 An OWL-S atomic process corresponds to a WSDL operation;
+
 The inputs and outputs of an OWL-S atomic process correspond to WSDL messages;
+
 The types of the inputs and outputs of an OWL-S atomic process correspond to WSDL abstract types.

@@ -1,53 +1,34 @@
 In formal reasoning, in particular in mathematical logic, computer algebra, and automated theorem proving, a fresh variable is a variable that did not occur in the context considered so far.
+
 The concept is often used without explanation.
+
 Fresh variables may be used to replace other variables, to eliminate variable shadowing or capture. For instance, in alpha-conversion, the processing of terms in the lambda calculus into equivalent terms with renamed variables, replacing variables with fresh variables can be helpful as a way to avoid accidentally capturing variables that should be free. Another use for fresh variables involves the development of loop invariants in formal program verification, where it is sometimes useful to replace constants by newly introduced fresh variables.
 
 Example
+
 For example, in term rewriting, before applying a rule
-
-
 
         l
         →
         r
-
-
     {\displaystyle l\to r}
-
  to a given term
-
-
-
         t
-
-
     {\displaystyle t}
 
 , each variable in
 
-
-
         l
         →
         r
-
-
     {\displaystyle l\to r}
-
  should be replaced by a fresh one to avoid clashes with variables occurring in
-
-
-
         t
-
-
     {\displaystyle t}
 
 .
+
 Given the rule
-
-
-
 
         append
         ⁡
@@ -76,15 +57,9 @@ Given the rule
         z
         )
         )
-
-
     {\displaystyle \operatorname {append} (\operatorname {cons} (x,y),z)\to \operatorname {cons} (x,\operatorname {append} (y,z))}
 
-
 and the term
-
-
-
 
         append
         ⁡
@@ -99,11 +74,9 @@ and the term
         (
         y
         ,
-
           n
           i
           l
-
         )
         )
         ,
@@ -112,22 +85,15 @@ and the term
         (
         3
         ,
-
           n
           i
           l
-
         )
         )
         ,
-
-
     {\displaystyle \operatorname {append} (\operatorname {cons} (x,\operatorname {cons} (y,\mathrm {nil} )),\operatorname {cons} (3,\mathrm {nil} )),}
 
-
 attempting to find a matching substitution of the rule's left-hand side,
-
-
 
         append
         ⁡
@@ -142,14 +108,10 @@ attempting to find a matching substitution of the rule's left-hand side,
         ,
         z
         )
-
-
     {\displaystyle \operatorname {append} (\operatorname {cons} (x,y),z)}
 
 , within
 
-
-
         append
         ⁡
         (
@@ -163,11 +125,9 @@ attempting to find a matching substitution of the rule's left-hand side,
         (
         y
         ,
-
           n
           i
           l
-
         )
         )
         ,
@@ -176,50 +136,30 @@ attempting to find a matching substitution of the rule's left-hand side,
         (
         3
         ,
-
           n
           i
           l
-
         )
         )
-
-
     {\displaystyle \operatorname {append} (\operatorname {cons} (x,\operatorname {cons} (y,\mathrm {nil} )),\operatorname {cons} (3,\mathrm {nil} ))}
-
  will fail, since
-
-
-
         y
-
-
     {\displaystyle y}
-
  cannot match
-
-
-
         cons
         ⁡
         (
         y
         ,
-
           n
           i
           l
-
         )
-
-
     {\displaystyle \operatorname {cons} (y,\mathrm {nil} )}
 
 .
+
 However, if the rule is replaced by a fresh copy
-
-
-
 
         append
         ⁡
@@ -227,118 +167,68 @@ However, if the rule is replaced by a fresh copy
         cons
         ⁡
         (
-
           v
-
             1
-
-
         ,
-
           v
-
             2
-
-
         )
         ,
-
           v
-
             3
-
-
         )
         →
         cons
         ⁡
         (
-
           v
-
             1
-
-
         ,
         append
         ⁡
         (
-
           v
-
             2
-
-
         ,
-
           v
-
             3
-
-
         )
         )
-
-
     {\displaystyle \operatorname {append} (\operatorname {cons} (v_{1},v_{2}),v_{3})\to \operatorname {cons} (v_{1},\operatorname {append} (v_{2},v_{3}))}
-
 
 before, matching will succeed with the answer substitution
 
-
-
-
         {
-
           v
-
             1
-
-
         ↦
         x
         ,
-
-
           v
-
             2
-
-
         ↦
         cons
         ⁡
         (
         y
         ,
-
           n
           i
           l
-
         )
         ,
-
-
           v
-
             3
-
-
         ↦
         cons
         ⁡
         (
         3
         ,
-
           n
           i
           l
-
         )
         }
         .
-
-
     {\displaystyle \{v_{1}\mapsto x,\;v_{2}\mapsto \operatorname {cons} (y,\mathrm {nil} ),\;v_{3}\mapsto \operatorname {cons} (3,\mathrm {nil} )\}.}

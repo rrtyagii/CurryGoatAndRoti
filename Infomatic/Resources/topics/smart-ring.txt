@@ -1,22 +1,31 @@
 A smart ring is a compact wearable electronic device that resembles a jewellery ring. They are often fitness and sleep trackers that wirelessly pair with a smartphone to transfer data. Many can also alert the wearer to smartphone push notifications. Some smart rings are used for near-field communication (NFC) applications such as contactless payment and access control, similarly to chip cards. Smart rings may include other sensors such as GPS trackers.
+
 Smart rings can connect to smartphones or other devices, and some can operate independently, communicating with cloud computing systems or performing standalone tasks. Although many are displayless, they respond to contextual cues, such as gesture controls or proximity to NFC touchpoints, and can give haptic feedback.
 
 Uses
+
 Use cases for smart rings are varied, and comparable to those of smartwatches.
 
 Health
+
 Many smart rings have sensors to track health metrics such as steps, heart rate, temperature, sleep (through heart and motion sensing), and blood flow. Due to size constraints, smart rings typically include smaller and less accurate accelerometers, and smaller batteries, than smartwatches.
 
 Communications and socialization
+
 Many smart rings can connect to the Internet and cellular radio, typically through a paired smartphone, to deliver or alert of notifications by vibrating or lighting up. Some use microphones or bone conduction to function as a handset.
+
 Some rings can display or vibrate in sync with the heartbeat of another wearer, based on vena amoris, a belief cited for the designation of the ring finger for engagement and wedding rings.
 
 Security
+
 Some smart rings are NFC devices that can be used in physical and financial security, as an alternative to carrying items such as credit cards, door keys, car keys, and potentially even ID cards or driver's licenses.
+
 Smart rings were first used for secure access control, such as for company entry and exit, home access, cars, and electronic devices. They may be considered more difficult to lose, since they are worn directly on the hand. They can include two-factor authentication mechanisms such as biometrics and key code entry.
 
 Payments and ticketing
+
 Some smart rings can perform cashless payments and metro ticketing similar to contactless cards, smart cards, and mobile phones. Security of the transaction is equal to or greater than contactless cards. The first smart ring to support contactless payment, the NFC Payment Ring, was unveiled at the 2016 Summer Olympics.
 
 Gesture control
+
 Some smart rings can act as gesture-based controllers, to perform various actions with simple hand motions.

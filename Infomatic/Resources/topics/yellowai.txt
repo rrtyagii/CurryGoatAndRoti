@@ -1,15 +1,21 @@
 Yellow.ai, formerly Yellow Messenger, is a multinational company headquartered in San Mateo, California focused on customer service automation. It was founded in 2016 and provides an AI platform for automating customer support experiences across chat and voice. The platform supports more than 135 languages across more than 35 channels.
 
 History
+
 Yellow.ai was founded in 2016 by Raghu Ravinutala, Jaya Kishore Reddy Gollareddy, and Rashid Khan in Bangalore, India. Raghavendra Ravinutala and Jaya Kishore Reddy Gollareddy left their full-time jobs to establish Yellow.ai, and they met Rashid Khan at a college hackathon, where he began working with them. By January 2016, Yellow.ai had acquired 50,000 customers. The same year, the company rolled out a model of the application for B2B companies. This version of the software and platform was intended to support voice and chat interactions for enterprises. In 2016, the company joined Microsoft's accelerator program and SAP Startup Studio.
+
 In April 2021, amid the COVID-19 pandemic, the company developed chatbots to assist governments with vaccinations. It launched Yellow Messenger Care to create omnichannel chatbots related to COVID-19 assistance, which helped NGOs and hospitals in their crisis management efforts. In June 2021, the company rebranded itself from Yellow Messenger to Yellow.ai. In 2022, Yellow.ai launched DynamicNLP, which was designed to eliminate the necessity for NLP model training. In 2023, Yellow.ai announced the launch of its Dynamic Automation Platform (DAP) and revealed a new logo as part of a larger rebranding strategy. In May 2023, the company also launched a proprietary small language model called as YellowG, a generative AI platform for automation workflows. The company deployed over 120 generative AI bots for businesses in 2023.
 
 Partnership and client base
+
 In January 2019, the company collaborated with Microsoft to work on transforming its voice automation using Azure Al Speech Services and Natural language processing (NLP) tools. In February 2022, the company partnered with Tech Mahindra to develop enterprise AI technology. It partnered with the e-commerce company Unicommerce in July 2020. In February 2022, Edelweiss General Insurance launched its AI Voice Bot, using Yellow.ai's technology. Yellow.ai implemented its AI-based customer service technology in Urja, a virtual assistant launched by the public sector company BPCL. The company has also formed partnerships with Accenture, Infosys, TCS, and Wipro.
+
 Its clients include Sony, Flipkart, Grab, Skoda, Honda, Domino's Pizza, Bajaj Finance, Volkswagen, HDFC Bank, Ferrellgas, Indigo, Adani Capital, Haldiram, Lulu Group, Bharat Petroleum Corporation Limited, Dr. Reddy's Laboratories and Concentrix.
 
 Funding
+
 In June 2019, Yellow.ai completed a series A funding of $4 million led by Lightspeed Venture Partners and angel investors such as Phanindra Sama, founder of RedBus, Anand Swaminathan, senior partner, McKinsey & Company, Limeroad founder Prashant Malik, and Snapdeal founder Kunal Bahl.
+
 In April 2020, it raised $20 million in a series B round led by Lightspeed Ventures Partners and Lightspeed India Partners. In August 2021, the company raised $78.15 million in its Series C funding round led by WestBridge Capital, Sapphire Ventures, Salesforce Ventures, and Lightspeed Venture Partners. The company has raised a total of $102 million so far.
 
 Awards

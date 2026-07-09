@@ -1,12 +1,15 @@
 scikit-mutliflow (also known as skmultiflow) is a free and open source software machine learning library for multi-output/multi-label and stream data written in Python.
 
 Overview
+
 scikit-multiflow allows to easily design and run experiments and to extend existing stream learning algorithms. It features a collection of classification, regression, concept drift detection and anomaly detection algorithms. It also includes a set of data stream generators and evaluators. scikit-multiflow is designed to interoperate with Python's numerical and scientific libraries NumPy and SciPy and is compatible with Jupyter Notebooks.
 
 Implementation
+
 The scikit-multiflow library is implemented under the open research principles and is currently distributed under the BSD 3-clause license. scikit-multiflow is mainly written in Python, and some core elements are written in Cython for performance. scikit-multiflow integrates with other Python libraries such as Matplotlib for plotting, scikit-learn for incremental learning methods compatible with the stream learning setting, Pandas for data manipulation, Numpy and SciPy.
 
 Components
+
 The scikit-multiflow is composed of the following sub-packages:
 
 anomaly_detection: anomaly detection methods.
@@ -22,4 +25,5 @@ transform: perform data transformations.
 trees: tree-based methods, e.g. Hoeffding trees which are a type of decision tree for data streams.
 
 History
+
 scikit-multiflow started as a collaboration between researchers at Télécom Paris (Institut Polytechnique de Paris) and École Polytechnique. Development is currently carried by the University of Waikato, Télécom Paris,  École Polytechnique and the open research community.

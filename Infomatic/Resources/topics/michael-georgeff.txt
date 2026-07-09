@@ -1,12 +1,19 @@
 Michael Peter Georgeff is a computer scientist and entrepreneur who has made contributions in the areas of Intelligent Software Agents and eHealth.
+
 Georgeff is a former program director in the Artificial Intelligence Center at SRI International, Menlo Park, California, and former director of the Australian Artificial Intelligence Institute Ltd., at the University of Melbourne. Georgeff is founder and chief executive officer of Precedence Health Care and Professor in the Faculty of Medicine, Nursing and Health Sciences at Monash University.
 
 Early life and education
+
 Georgeff has a BSc in Physics and Mathematics from Melbourne University, Australia, a B.E. in Aeronautical Engineering from Sydney University, and a PhD from Imperial College London.
 
 Career
+
 While at SRI International, Georgeff was involved in the development of the Procedural Reasoning System and its application to monitor the Reaction Control System of the NASA Space Shuttle Discovery in 1997. Georgeff's work on PRS popularized the field of Intelligent agents and defined the Belief–Desire–Intention (BDI) software model for programming intelligent agents. In 1988, Georgeff was invited back to Australia to start the Australian Artificial Intelligence Institute which continued work developing and commercializing intelligent agent technology. While at the AAII, Georgeff started Agentis International to explore the commercialization of intelligent agent technology.
+
 Georgeff was instrumental in at least the following contributions to the field of Intelligent Software Agents: Procedural Reasoning System: An intelligent agent architecture and framework and seminal example of the BDI software model; and Belief–Desire–Intention: An intentional software framework for programming intelligent agents based on the BDI cognitive model.
+
 In the early 2000s, Georgeff joined Monash University as director of the e-Health Research Unit of the Monash Institute of Health Services Research, to investigate the application of advanced ICT to health and medicine. Georgeff founded and is CEO of Precedence Health Care, a company dedicated to investigating the commercialization of eHealth technology.
+
 He was the academic supervisor of Rodney Brooks (former director of the MIT Media lab, and founder of IRobot), and Christian Guttmann (global head of Artificial Intelligence and Vice President at Tieto, professor at UNSW).
+
 He was elected an AAAI Fellow in 1995.

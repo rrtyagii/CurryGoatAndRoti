@@ -1,9 +1,13 @@
 Tailent is a Romanian software company that develops robotic process automation (RPA) technology. Founded by Mario Popescu and Cristian Oftez, the company is headquartered in Bucharest. Its software is used to automate repetitive and rule-based business processes. In 2020, Tailent was named among the 40 startups in Startup Spotlight Online.
 
 History
+
 Tailent was founded in 2015 in Bucharest, Romania as Mission Critical, by Mario Popescu and Cristian Oftez. In 2020, the name changed to Tailent, once with the launch of Tailent Automation Platform (TAP), and with entering the international market.
 
 Products
+
 Tailent develops software that is used to automate repetitive tasks, normally performed by people.
+
 The technology combines how humans read the computer displays with prebuilt components that can be combined to automate specific processes. This type of software can be used to automate any tasks performed by other business software such as CRM or ERP, or it can be used to simplify front office repetitive tasks.
+
 Tailent's main product is Tailent Automation Platform (TAP). It combines a low-code Integrated Development Environment (IDE) called Studio, used for process creation with agents called Robots to execute the processes. Everything is managed and monitored in a management tool called Orchestrator.

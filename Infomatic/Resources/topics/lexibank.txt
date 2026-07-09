@@ -7,4 +7,5 @@ The datasets are publicly accessible and are archived at Zenodo and are also pub
 Applications of the database include historical linguistics and comparative phonology.
 
 List of datasets
+
 The following is a list of Lexibank (version 0.2) datasets as of 17 June 2022.

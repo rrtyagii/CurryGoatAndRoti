@@ -1,40 +1,61 @@
 Mark Coeckelbergh (born 1975) is a Belgian philosopher of technology. He is Professor of Philosophy of Media and Technology at the Department of Philosophy of the University of Vienna. He currently holds the ERA Chair at the Institute of Philosophy of the Czech Academy of Sciences in Prague and is Guest Professor at WASP-HS and University of Uppsala.
+
 He is an expert in ethics of artificial intelligence and is best known for his work in philosophy of technology and ethics of robotics. He has also published in the areas of moral philosophy, environmental philosophy, and, most recently, political philosophy. He is the author of several books and numerous articles in these fields, with an h-index of 62 (August 2025).
+
 He is a member of national and international committees with direct impact on policy and contributes to public discourse on these topics in the popular press.
 
 Early life and education
+
 Mark Coeckelbergh was born in 1975 in Leuven, Belgium. He was first educated in social sciences and political sciences at the University of Leuven (Licentiaat, 1997), before moving to the UK, where he studied philosophy. He received his master's degree from the University of East Anglia (MA in Social Philosophy, 1999)  and his PhD from the University of Birmingham (PhD in Philosophy, 2003). During the time of his PhD study he also painted, wrote poems, played piano, and worked on engineering ethics at the University of Bath (UK) and at the Belgian nuclear research centre SCK-CEN.
 
 Career and previous positions
 In 2003 he started teaching at the University of Maastricht in the Netherlands and in 2007 he was assistant professor at the Philosophy Department of the University of Twente, also in the Netherlands. In the same year he received the Prize of the Dutch Society for Bioethics (with J. Mesman). In Twente he started working on the ethics of robotics. In 2013 he became Managing Director of the 3TU Centre for Ethics and Technology. In 2014 he was appointed full professor at the Centre of Computing and Social Responsibility, De Montfort University in Leicester, UK, a position he held through early 2019. In 2014 and 2017 he was nominated for the World Technology Awards in the Ethics category. In 2015 he joined the Department of Philosophy of the University of Vienna as full Professor of Philosophy of Media and Technology.
+
 Coeckelbergh is the former President of the Society for Philosophy and Technology.
 
 Policy
+
 Coeckelbergh has membership in numerous domestic and international committees with direct impact on policyis a member of the Expert Council Ethics of AI of the Austrian Unesco Commission,  He previously served as a member of the High Level Expert Group on Artificial Intelligence for the European Commission, the Austrian robotics council (Rat für Robotik), inaugurated by the Austrian Ministry for Transport, Innovation and Technology, and a member of the Austrian Advisory Council on Automated Mobility.
 
 Outreach
+
 Coeckelbergh has published opinion articles in The Guardian, Neue Zürcher Zeitung, De Morgen, De Standaard, Der Standard, and Wired; co-authored opinion articles have appeared in La Libre, Morgenbladet, and Der Tagesspiegel, among others.
+
 Coeckelbergh has also been interviewed or served as expert for articles published in Christian Science Monitor, CNN, De Morgen, De Standaard, De Tijd, Der Spiegel, Der Standard, Die Presse, El Independiente, El Mundo, El País, Folha de S. Paulo, Handelsblatt, Infobae, Neue Zürcher Zeitung, Salzburger Nachrichten, The New Yorker, The Sydney Morning Herald, The Times, and others.
 
 Research
+
 Following his articles on robot ethics and his book Growing Moral Relations, Coeckelbergh has been attributed a 'relational turn' in thinking about moral status. In his articles Coeckelbergh argues for a phenomenological and relational approach.
+
 His book AI Ethics is a popular introduction to the topic and has been widely praised.
+
 In his recent work he has argued for more cultural approaches to the meaning of technology that bring out technologies' “grammar” or conditions of possibility and for using political philosophy to better understand the politics of AI.
 
 Books
+
 Introduction to the Ethics of Emerging Technologies, with Wessel Reijers and Mark Thomas Young. Palgrave Macmillan. 2025. ISBN 978-3-031-85886-4.
+
 Communicative AI, with David Gunkel. Polity. 2025. ISBN 9781509567607.
+
 Why AI Undermines Democracy and What To Do About It. Cambridge: Polity. 2024. ISBN 9781509560936.
+
 Digital Technologies, Temporality, and the Politics of Co-Existence. Palgrave Macmillan. 2023. ISBN 9783031179815.
+
 Robot Ethics. MIT Press. 2022. ISBN 9780262544092.
+
 The Political Philosophy of AI. Polity. 2022. ISBN 9781509548545.
+
 Self-Improvement: Technologies of the Soul in the Age of Artificial Intelligence. Columbia University Press. 2022. ISBN 9780231206556.
+
 Green Leviathan or The Poetics of Political Liberty: Navigating Freedom in the Age of Climate Change and Artificial Intelligence. Routledge. 2021. ISBN 9780367747794
 Narrative and Technology Ethics, with Wessel Reijers. Springer. 2020. ISBN 9783030602710.
+
 AI Ethics. MIT Press. 2020 ISBN 9780262538190
+
 Introduction to Philosophy of Technology. Oxford University Press. 2019 ISBN 9780190939809
 Moved by Machines: Performance Metaphors and Philosophy of Technology Routledge. 2019. ISBN 9780367245573
 Using Words and Things: Language and Phliosophy of Technology. Routledge. 2017. ISBN 9780367595029.
+
 New Romantic Cyborgs: Romanticism, Information Technology, and the End of the Machine. MIT Press. 2017. ISBN 9780262035460
 Money Machines: Electronic Financial Technologies, Distancing, and Responsibility in Global Finance Archived 2015-02-24 at the Wayback Machine. Ashgate. 2015. ISBN 978-1-4724-4508-7
 Environmental Skill: Motivation, Knowledge, and the Possibility of a Non-Romantic Environmental Ethics. Routledge. 2015. ISBN 978-1-13-888557-8

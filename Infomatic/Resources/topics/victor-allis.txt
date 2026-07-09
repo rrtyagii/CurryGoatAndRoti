@@ -1,9 +1,15 @@
 Louis Victor Allis (born 19 May 1965) is a Dutch computer scientist and co-founder of the election information technology firm Activote. In his graduate work, he revealed AI solutions for Connect Four, Qubic, and Gomoku. His dissertation introduced two new game search techniques: proof-number search and dependency-based search. Proof-number search has seen further successful application in computer Go tactical search and many other games.
 
 Career
+
 Allis holds a Ph.D. in Artificial Intelligence from Maastricht University, The Netherlands, and graduated cum laude with a M. Sc. in Computer Science from the Vrije Universiteit, The Netherlands. He has more than 30 publications to his name; the majority of his published work reports on research in search technologies.
+
 He started his career in 1987 as a freelance teacher, course developer and mentor of various AMBI courses for NOVI. Allis has lectured at the Vrije Universiteit in Amsterdam as an assistant professor in artificial intelligence. In 1992, his program Victoria won the 4th Computer Olympiad in the game of Gomoku without losing a single game. His programs had also won first places at the Computer Olympiad in games of Connect Four (1989), Awari (1990, 1991, 1992), and Qubic (1991), thus making him winner of all four early Computer Olympiads.
+
 He co-authored a solution of 4×4×4 Qubic game using his proof-number search technique.
+
 In 1995 he joined Bolesian (a knowledge technology firm in the Netherlands which is a daughter company of Capgemini and specialized in developing advanced systems based on artificial intelligence) as a senior consultant and manager. In 1997 he co-founded Quintiq and was appointed as the company's CEO.
+
 Allis relocated to the Philadelphia office Quintiq in 2010, remaining CEO and a co-owner. Quintiq was acquired by Dassault Systèmes in July 2014.
+
 In 2019, Allis and Sara Gifford co-founded Activote, a Boston-based election information technology company.

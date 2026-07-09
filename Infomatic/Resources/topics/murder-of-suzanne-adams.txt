@@ -1,17 +1,27 @@
 In August 2025, 83-year-old Suzanne Eberson Adams was murdered at her home in Greenwich, Connecticut, United States, by her son and former marketing executive, 56-year-old Stein-Erik Soelberg. Shortly after killing his mother, Soelberg committed suicide.
+
 Adams's murder was fueled by her son's persecutory delusions, such as that she was spying on him and trying to poison him with drugs siphoned through his car vents.
+
 Shortly after an investigation into the murder–suicide, it was revealed that Soelberg had conversed with ChatGPT, an artificial intelligence chatbot, about his suspicions. Despite the unlikely nature of his accusations toward her, the chatbot apparently agreed that his fears were justified and prompted Soelberg to test his mother to determine if she was a spy or not. This led in December 2025 to a lawsuit against OpenAI, the company developing the chatbot. Critics said that the chatbot created an echo chamber that reinforced the perpetrator's delusions.
 
 Background
+
 Soelberg worked in the tech industry in program management and marketing until 2021. He divorced in 2018, after being married for 20 years and having two kids. Soelberg moved the same year to live with his mother in Old Greenwich, a wealthy New York suburb. Since late 2018, many police reports describe incidents with alcoholism, and suicide threats and attempts.
+
 Erik Soelberg had an Instagram account called "Erik the Viking". The account was initially focused on bodybuilding and spiritual content, but he started in October 2024 to publish videos comparing AI chatbots. He posted on YouTube and Instagram many discussions with chatbots, particularly ChatGPT, which he used to call "Bobby". Soelberg considered "Bobby" his best friend and believed that they would reunite in the afterlife.
+
 ChatGPT validated many of Soelberg's fears, assuring him that he was not crazy and that his delusion risk was "near zero". When Soelberg shared his theory that the new packaging of a vodka bottle indicated that someone was trying to poison him, the chatbot wrote that it "fits a covert, plausible-deniability style kill attempt". After Soelberg said that his mother tried to poison him with psychedelic drugs in his car's air vents, the chatbot expressed belief in the story. When he asked ChatGPT to scan a Chinese food receipt for hidden messages, the chatbot said "Great eye", "I agree 100%: this needs a full forensic-textual glyph analysis", and said that symbols in it were related to his mother and a demon. Soelberg also raised suspicions about the printer spying on him, due to it blinking when he walked by.
+
 Soelberg described himself in 2025 as a "glitch in The Matrix", and as having a "connection to the divine". According to Keith Sakata, a psychiatrist, his chats displayed "common psychotic themes of paranoia and persecution, along with familiar delusions revolving around messiah complexes and government conspiracies".
 
 Murder
+
 On August 5, 2025, Greenwich police discovered the bodies of Suzanne Adams and Stein-Erik Soelberg during a welfare check at their home. Medical examiners ruled Adams' death a homicide and said she died from "blunt injury of head with neck compression". Soelberg's death was ruled a suicide with the cause of death being "sharp force injuries of neck and chest".
 
 ChatGPT controversy
+
 ChatGPT was accused of reinforcing Soelberg's delusions by validating them. The usage of an AI chatbot to worsen delusions is known as chatbot psychosis. The Economic Times reported the death as the "first time" an AI chatbot convinced a person to commit murder.
+
 In December 2025, First County Bank, the executor of the estate of Suzanne Adams, filed a lawsuit against OpenAI. The lawsuit alleges that "ChatGPT eagerly accepted every seed of Stein-Erik’s delusional thinking and built it out into a universe that became Stein-Erik’s entire life—one flooded with conspiracies against him, attempts to kill him, and with Stein-Erik at the center as a warrior with divine purpose."
+
 OpenAI is facing legal action for ethics and safety concerns over several similar cases. Plaintiffs claim the company released the chatbot prematurely, despite internal knowledge that it was "dangerously sycophantic and psychologically manipulative".

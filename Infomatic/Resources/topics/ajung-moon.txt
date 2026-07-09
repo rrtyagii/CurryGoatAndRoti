@@ -1,11 +1,15 @@
 AJung Moon is a Korean-Canadian experimental roboticist specializing in ethics and responsible design of interactive robots and autonomous intelligent systems. She is an assistant professor of electrical and computer engineering at McGill University and the Director of the McGill Responsible Autonomy & Intelligent System Ethics (RAISE) lab. Her research interests lie in human-robot interaction, AI ethics, and robot ethics.
+
 Prior to joining McGill University, she served as a senior advisor for the UN Secretary-General’s High-level Panel on Digital Cooperation and ran a start-up AI ethics consultancy, Generation R Consulting. She also founded the nonprofit Open Roboethics Institute. She currently serves on the Government of Canada Advisory Council on Artificial Intelligence among others.
 
 Education and career
+
 Originally from Gyeongsangnam-do, South Korea, Moon received her Doctor of Philosophy in Mechanical Engineering at the University of British Columbia in 2014, focusing on human-robot interaction and robot ethics. According to Moon, relationships between humans and machines will need to consider the potential conflicts between the two entities. She argues, people naturally negotiate for solutions. However, robots do not have the ability to understand morals and how this will weigh into how they negotiate and how decisions are made. In 2012, she completed her M.A.Sc. thesis at the University of British Columbia: What Should a Robot Do?: Design and Implementation of Human-like Hesitation Gestures as a Response Mechanism for Human-robot Resource Conflicts, Her Ph.D. research thesis focused on the "interactive paradigm of human-robot conflict resolution".
+
 Moon is currently an associate professor at the Department of Electrical and Computer Engineering at McGill University.
 
 Collaboration
+
 Moon has collaborated on the following projects:
 
 Focus on Technology and Application of Autonomous Weapons – as part of the Int'l Panel of the Regulation of Autonomous Weapons, 2017
@@ -14,9 +18,13 @@ The Ethics and Governance of Lethal Autonomous Weapons Systems – as a lead res
 Cooperative Gestures for Industry: Exploring the Efficacy of Robot Hand Configurations in Expression of Instructional Gestures for Human-Robot Interaction – Int'l Journal of Robotics Research with Sheikholeslami, S., and E.A. Croft, 2017
 
 Media
+
 The Cobot Experience: AJung Moon & Resolving Human-Cobot Resource Conflicts, Emmet Cole, Robotiq Blog
 Robots Can Be A Force for Good CBC News, May 21, 2018
+
 Should We Fear the Robots?  Georgia Straight, May 9, 2018
+
 Best Practices in Designing Effective Road Maps for Robotic Innovation Robohub, Jan. 22, 2018
 A newcomer's guide to #ICRA2022: A primer 27 April 2022
+
 A newcomer's guide to #ICRA2022: Tutorials 2 May 2022

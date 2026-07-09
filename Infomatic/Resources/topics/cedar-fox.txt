@@ -1,37 +1,54 @@
 This is a software system for forensic comparison of handwriting. It was developed at CEDAR, the Center of Excellence for Document Analysis and Recognition at the University at Buffalo. CEDAR-FOX has capabilities for interaction with the questioned document examiner to go through processing steps such as extracting regions of interest from a scanned document, determining lines and words of text, recognize textual elements. The final goal is to compare two samples of writing to determine the log-likelihood ratio under the prosecution and defense hypotheses. It can also be used to compare signature samples. The software, which is protected by a United States Patent  can be licensed from Cedartech, Inc.
 
 Details
+
 Writer verification is the task to determine whether two handwritten samples are written by the same writer or not. It is used in questioned document examiner. By using a set of metrics, CedarFox can associate a measure of confidence whether two documents are written by the same individual or by different individuals. CedarFox allows you to select either the entire document or a specific region of a document in order to obtain the comparison. The comparison is based on macro features (which measure global characteristics such as slant, connectivity, etc.), micro features (which are based on individual character shapes), and style features (e.g., shapes of character pairs, or bigrams). Two different modes of writer verification are available: (i) a questioned document is compared against a single known document (the basis of this comparison are statistics based on how much variation a person can have), and (ii) a questioned document is compared against "multiple known" documents. Here the system learns from the known documents about the writer's habits. At least four known documents have to be available to use this mode. The task of identifying the user is split into two parts,
 
 Document processing and feature extraction
+
 CEDAR-FOX performs variety of operations on document to make them ready for comparison. They include thresholding, line removal, line segmentation, word segmentation and transcript mapping.
 
 Image Processing
+
 Thresholding converts a gray scale image to binary for separating the foreground pixel from background pixel. The thresholding methods used are Otsu's thresholding, Adaptive thresholding and texture thresholding.
+
 If document is written using rule line paper, user can perform an underline removal operation. Hough transform is applied for this operation and user can select the correct threshold for the same. Selecting high threshold will result in removing some of the character strokes and user has to come up with correct value for the threshold.
+
 Line segmentation separates each line in the document and uses the concept of Bi-Variate Gaussian Densities. Word segmentation acts in similar way and separates each word within the document.
+
 Transcript Matching is a ground truth matching where the software is provided a text file containing the transcript of the handwritten image. This is useful when different subjects are required to handwrite the same content and then it is matched with the unknown document. It finds the best word level alignment between transcript and the handwritten image. The character images are extracted and can be used to compare the similarity between the document.
 
 System Utilities
+
 CedarFox has user interfaces for scanning documents directly as well as for entering the results directly into spread-sheets and for printing intermediate results. A database access is also available for storing document meta-data.
 
 Document Comparison
+
 Many options are available with CEDAR-FOX for document comparison. The four major verification model used are
 
 Identifying discriminating elements.
+
 Features are split into Macro(global) and Micro(local) features. Macro features are calculated on entire document whereas Micro features are calculated on selected characters/bi-grams/words. Macro features are gray scale based, contour based, slope based, stroke-width, slant, height, and word-gap. These features are used for comparison.
+
 Mapping from feature to distance space by using similarity measure.
+
 The comparison of document maps from feature space to distance space. The macro features are real valued and so the mapping to distance space is absolute difference between two features. Similarity for binary valued feature can be calculates using Hamming distance, Euclidean distance and etcetera. Correlation similarity measure is recommended as the best measure.
+
 Parametric modelling of the distance space distribution using pdf.
+
 Distribution for distance space is modeled using probability density function which are represented as Gaussian or Gamma distribution. the nature of documents affects the micro features but not the macro features. Likelihood Ratio(LR) is calculated followed by Log Likelihood Ratio(LLR).
+
 Computing a 9-point strength of evidence.
+
 LLR is mapped to a 9 point qualitative scale. This scale corresponds to the strength of evidence that is associated with the LLR value. It follows the 9 point scale from the ASTM technology. [1- Identified as same, 2-Highly probable, 3-Probably did, 4-Indications did, 5-No conclusion, 6-Indication did not, 7-Probably did not, 8-Highly probable did not, 9-Identified as Elimination ].
 
 Searching
+
 CedarFox has several modalities for searching handwritten documents for the presence of key-words. Word spotting allows the user to select a word image as a query, which is used to find similar word images in a specified document. Another type of search allows the user to type in a word which is used to rank all words in the document(s) as to how likely the word matches the query.
 
 Handwriting Recognition
 CedarFox has automatic character recognition capability. Word recognition with a pre-specified lexicon is also built-in. The user can also manually input character identities if the highest character recognition accuracy is desired for the purpose of writer verification/identification.
 
 Legibility and Readability Analysis
+
 Word gap comparison and comparison with Palmer metrics is supported.

@@ -1,22 +1,31 @@
 The Data Analysis and Real World Interrogation Network (DARWIN EU) is a European Union (EU) initiative coordinated by the European Medicines Agency (EMA) to generate and utilize real world evidence (RWE) to support the evaluation and supervision of medicines across the EU. The project aims to enhance decision-making in regulatory processes by drawing on anonymized data from routine healthcare settings.
 
 Overview
+
 DARWIN EU was officially launched in 2022 as part of the EMA's broader strategy to harness big data for public health benefits. The network facilitates access to real-world data from a wide array of sources, including Electronic health records, Disease registries, hospital databases, and Biobanks. These data are standardized using the OMOP (Observational Medical Outcomes Partnership) common data model to ensure interoperability and comparability across datasets.
 
 Objectives
+
 The key goals of DARWIN EU include:
 
 Supporting the EMA and national regulatory agencies in conducting non-interventional studies.
+
 Informing regulatory decisions related to Drug safety, efficacy, and utilization.
+
 Enabling faster and more reliable assessments of health interventions, such as vaccines and therapeutics.
+
 Contributing to the development of the European Health Data Space (EHDS).
 
 Activities and governance
+
 DARWIN EU is managed by a coordination center based at Erasmus University Medical Center in Rotterdam, Netherlands. The center is responsible for expanding the network of data partners, managing study requests, and ensuring the scientific quality of outputs.
+
 As of early 2024, DARWIN EU had completed 14 studies and had 11 more underway. The EMA plans to scale up DARWIN EU's capacity to deliver over 140 studies annually by 2025.
 
 Applications and collaborations
+
 As part of the DARWIN EU project scientists at Honeywell's Brno branch have developed an AI-powered monitoring system designed to detect early signs of Pilot fatigue, inattention, or health issues. Using a camera equipped with artificial intelligence, the system continuously observes the pilot's condition and responds with alerts or wake-up calls if necessary. Even though designed for aviation safety, these technologies could be used in the future to contribute valuable physiological data to the DARWIN EU network—supporting proactive health interventions and contributing to the long-term goals of the European Health Data Space.
 
 Significance
+
 DARWIN EU plays a crucial role in the EU's regulatory ecosystem by integrating real-world data into evidence-based healthcare policymaking. It is instrumental in advancing Personalized medicine, pharmacovigilance, and pandemic preparedness through timely, data-driven insights.

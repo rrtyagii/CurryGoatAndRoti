@@ -1,2 +1,3 @@
 Hierarchical classification is a system of grouping things according to a hierarchy.
+
 In the field of machine learning, hierarchical classification is sometimes referred to as instance space decomposition, which splits a complete multi-class problem into a set of smaller classification problems.

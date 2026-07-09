@@ -1,22 +1,33 @@
 Sam McCandlish is a machine learning researcher and theoretical physicist who co-founded Anthropic. He previously worked at OpenAI, where he co-authored research on large-batch training and scaling behaviour in neural language models.
 
 Education
+
 Brandeis University listed him (as Samuel McCandlish) among recipients of its physics department's Berko Memorial Prize (2012).
+
 In 2017, Stanford University's Department of Physics announced McCandlish's Ph.D. dissertation defense, titled Depth Perception in Holography.
 
 Career
+
 Theoretical physics
+
 McCandlish co-authored work in high-energy theory and holography, including papers on integral geometry and AdS/CFT. He was also a co-author of Modular Berry Connection for Entangled Subregions in AdS/CFT, which was published in Physical Review Letters.
 
 OpenAI
+
 At OpenAI, McCandlish was credited as an author of the company's 2018 post How AI training scales describing empirical results on training efficiency and batch-size effects. He also co-authored OpenAI research on large-batch training and scaling behaviour in neural language models.
 
 Anthropic
+
 In 2023, VentureBeat interviewed McCandlish about Anthropic's Responsible Scaling Policy (RSP), a framework intended to manage catastrophic-risk thresholds for frontier AI systems.
+
 In 2024, Business Insider described McCandlish as Anthropic's chief technology officer and said he served as the company's Responsible Scaling Officer. In October 2024, Anthropic announced an updated RSP and said that co-founder Jared Kaplan would serve as the company's Responsible Scaling Officer, succeeding McCandlish in that role.
+
 In October 2025, TechCrunch reported that McCandlish moved from CTO to a new role as chief architect when Anthropic hired Rahul Patil as chief technology officer; Anthropic also announced the transition.
 
 Selected works
+
 McCandlish, S.; Kaplan, J.; Amodei, D. (with the OpenAI Dota Team) (2018). An Empirical Model of Large-Batch Training. arXiv:1812.06162.
+
 Kaplan, J.; McCandlish, S.; Henighan, T.; Brown, T. B.; et al. (2020). Scaling Laws for Neural Language Models. arXiv:2001.08361.
+
 Czech, B.; Lamprou, L.; McCandlish, S.; Sully, J. (2018). "Modular Berry Connection for Entangled Subregions in AdS/CFT". Physical Review Letters 120 (9): 091601.

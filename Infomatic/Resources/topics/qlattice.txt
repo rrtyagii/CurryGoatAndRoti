@@ -1,8 +1,11 @@
 The QLattice is a software library which provides a framework for symbolic regression in Python. It works on Linux, Windows, and macOS. The QLattice algorithm is developed by the Danish/Spanish AI research company Abzu. Since its creation, the QLattice has attracted significant attention, mainly for the inherent explainability of the models it produces.
+
 At the GECCO conference in Boston, MA in July 2022, the QLattice was announced as the winner of the synthetic track of the SRBench competition.
 
 Features
+
 The QLattice works with data in categorical and numeric format. It allows the user to quickly generate, plot and inspect mathematical formulae that can potentially explain the generating process of the data. It is designed for easy interaction with the researcher, allowing the user to guide the search based on their preexisting knowledge.
 
 Scientific results
+
 The QLattice mainly targets scientists, and integrates well with the scientific workflow. It has been used in research into many different areas, such as energy consumption in buildings, water potability, heart failure, pre-eclampsia, Alzheimer's disease, hepatocellular carcinoma, and breast cancer.

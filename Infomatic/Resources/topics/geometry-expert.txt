@@ -1,3 +1,5 @@
 Geometry Expert (GEX) is a Chinese software package for dynamic diagram drawing and automated geometry theorem proving and discovering.
+
 There's a new Chinese version of Geometry Expert, called MMP/Geometer.
+
 Java Geometry Expert is free under GNU General Public License.

@@ -1,11 +1,15 @@
 The Vector Institute (French: Institut Vecteur) is a private, non-profit artificial intelligence research institute in Toronto founded in 2017, focusing primarily on machine learning and deep learning research. As of 2023, it consists of 143 faculty members and affiliates — 38 of whom are CIFAR AI chairs — 57 postdoctoral fellows, and 502 students. Along with the University of Toronto, the Vector Institute is affiliated with faculty from universities across Ontario, as well as British Columbia and Nova Scotia.
+
 Along with Montreal's Mila and Alberta's Amii, the Vector Institute is a member of the Pan-Canadian Artificial Intelligence Strategy.
 
 History
+
 Vector was established by Brendan Frey, Geoffrey Hinton, Raquel Urtasun in 2017 with the objectives of retaining and recruiting researchers in Toronto and encouraging companies to establish labs in the city.
+
 On January 2, 2018, Garth Gibson became Vector's first president and CEO, and in 2023, was replaced by Tony Gaffney. The institute was housed in the MaRS Discovery District and, in 2024, moved to the Schwartz Reisman Innovation Campus.
 
 Funding
+
 At the end of its founding, the Vector Institute received a combined total of $200 million CAD from private and public sectors. The sources of its private sector funding include, among others, Uber, Google, and Shopify. In 2019, the Government of Ontario cut its funding of CIFAR and the Vector Institute by $24 million CAD. As part of the Pan-Canadian Artificial Intelligence strategy, the Vector Institute, Mila, and Amii received another $60 million CAD in 2021 from the Government of Canada.
 
 Operations
@@ -18,9 +22,11 @@ AI for Health
 Trustworthy AI
 Foundation Models
 One of the goals of the institute is to support AI adoption in industries. They have helped reduce energy consumption at Telus, built recommendation systems with Wahi, and partnered with Kids Help Phone to build tools that help guide councillors during conversations with children. They have built open source tools to monitor clinical models in production.
+
 The institute has given out $2 million CAD in masters scholarships, valued at $17,500 each.
 
 Faculty
+
 As of June 2024, Vector's research is led by Chief Scientific Advisor Geoffrey Hinton and Research Director Daniel Roy. Other faculty members include, among many others, Alán Aspuru-Guzik, Sanja Fidler, Brendan Frey, Gillian Hadfield, Sheila McIlraith, Raquel Urtasun, and Richard Zemel.
 
 Board of Directors

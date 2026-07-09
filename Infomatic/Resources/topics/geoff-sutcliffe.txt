@@ -1,4 +1,6 @@
 Geoff Sutcliffe is a US-based computer scientist working in the field of automated reasoning. He was born in the former British colony of Northern Rhodesia (now Zambia),
 grew up in South Africa, and earned his PhD in Australia. Sutcliffe currently works at the University of Miami, and is of both British and Australian nationality.
+
 Geoff Sutcliffe is the developer of the Thousands of Problems for Theorem Provers (TPTP) problem library, and of the TPTP language for formal specification of Automated theorem proving problems and solutions. Since 1996 he has been organizing the annual CADE ATP System Competition (CASC), associated with the Conference on Automated Deduction and International Joint Conference on Automated Reasoning. He has been a co-organizer of several Automated reasoning challenges, including the Modal Logic $100 Challenge, the MPTP $100 Challenges, and the SUMO $100 Challenges. Together with Stephan Schulz, Sutcliffe founded and has been organizing the ES* Workshop series, a venue for presentation and publishing of practically oriented Automated Reasoning research.
+
 In 2025 Sutcliffe went to Federal University of Goiás and gave a two-day lecture about TPTP.

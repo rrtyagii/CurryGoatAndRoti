@@ -1,7 +1,9 @@
 Adaption is an artificial intelligence (AI) company based in San Francisco. the company was founded in 2025 by Sara Hooker and Sudip Roy, former Cohere executives. It specializes in creating AI capable of efficient, real-time learning, a concept it terms "adaptable intelligence."
 
 History
+
 Adaption , an AI company based in San Francisco, it was founded in 2025 by Sara Hooker and Sudip Roy, former Cohere executives. Both founders previously held research roles at Google. The startup began operations and recruitment with a hybrid workforce spanning multiple countries.
 
 Technology and Products
+
 Adaption focuses on overcoming traditional gradient-based AI training limitations. Its goal is to develop systems that adapt dynamically with minimal computational demand and energy use, reducing costs and enabling continuous learning. Research centers on foundational methods for efficient, hardware-aware algorithm design.

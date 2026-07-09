@@ -1,33 +1,53 @@
 The Microsoft text-to-speech voices are speech synthesizers provided for use with applications that use the Microsoft Speech API (SAPI) or the Microsoft Speech Server Platform.
+
 There are client, server, and mobile versions of Microsoft text-to-speech voices. Client voices are shipped with Windows operating systems; server voices are available for download for use with server applications such as Speech Server, Lync etc. for both Windows client and server platforms, and mobile voices are often shipped with more recent versions.
 
 Voices
+
 Windows 2000 and Windows XP
+
 Microsoft Sam is the default text-to-speech male voice in Microsoft Windows 2000 and Windows XP. It is used by Narrator, the screen reader program built into the operating system.
+
 Microsoft Mike and Microsoft Mary are optional male and female voices respectively, available for download from the Microsoft website. Michael and Michelle are also optional male and female voices licensed by Microsoft from Lernout & Hauspie, and are available through Microsoft Office XP and Microsoft Office 2003 or Microsoft Reader. The SAPI 5.1 SDK also includes an additional voice for testing purposes known as "Sample TTS Voice", which utilizes recorded voice samples for use with the text-to-speech engine using a predefined set of words rather than synthesized speech.
+
 There have been both SAPI 4 and SAPI 5 versions of these text-to-speech voices that were released. These two versions are different from each other in terms of the speech patterns, pronunciation of certain words, and changes to some words spoken by the text-to-speech engine. SAPI 4 voices are only available on Windows 2000 and later Windows NT-based operating systems. Redistributable versions of the SAPI 4 voices were available for download on Windows 9x operating systems, however they are no longer offered from the Microsoft website. While the SAPI 5 versions of Microsoft Mike and Microsoft Mary are only downloadable as a Merge Module, the installable versions may be installed on end users' systems by speech applications such as Microsoft Reader. The "Sample TTS Voice" test voice was only ever distributed in the SAPI 5 format.
+
 The SAPI 4 versions of Microsoft Sam, Microsoft Mike and Microsoft Mary can be used on Windows XP, Windows Vista, and later with a third-party program (like Speakonia and TTSReader) installed on the machine that supports these operating systems. In addition, Carol and Peter, the British English SAPI 4 versions of the American English Michael and Michelle SAPI 5 voices from Lernout & Hauspie can also be used on Windows Vista and later with a third-party program like Speakonia (Conversely, said voices are also compatible with XP and prior as well).
+
 The SAPI 5 versions of Microsoft Sam, Microsoft Mike and Microsoft Mary (as well as the "Sample TTS Voice" test voice) can also be used on Windows Vista and later by installing the SAPI 5.1 SDK, which can also be installed in versions of Windows prior to XP beginning with Windows NT 4.0 SP6a and Windows 98. These voices (apart from the "Sample TTS Voice" test voice) can also be installed separately without installing the SDK via a manually defined batch script. Furthermore, the Michael and Michelle voices from Lernout & Hauspie can also be installed via programs such as Microsoft Office XP or Microsoft Office 2003, however they cannot be chosen under normal means.
 
 Windows Vista and Windows 7
+
 Beginning with Windows Vista and Windows 7, Microsoft Anna is the default English voice. It is a SAPI 5-only female voice and is designed to sound more natural than Microsoft Sam. Microsoft Streets & Trips 2006 and later install the Microsoft Anna voice on Windows XP systems for the voice-prompt direction feature. There are no male voices shipping with Windows Vista and Windows 7, and neither Microsoft Mike or Mary will work on Windows 7.
+
 A female voice called Microsoft Lili that replaces the earlier male SAPI 5 voice "Microsoft Simplified Chinese" is available in Chinese versions of Windows Vista and Windows 7. It can also be obtained in non-Chinese versions of Windows 7 or Vista by installing the Chinese language pack.
+
 In 2010, Microsoft released the newer Speech Platform compatible voices for Speech Recognition and Text-to-Speech for use with client and server applications. These voices are available in 26 languages and can be installed on Windows client and server operating systems. Speech Platform voices, unlike SAPI 5 voices, are female-only; no male voices were ever released.
 
 Windows 8 and Windows 8.1
+
 In Windows 8, there are three new client (desktop) voices - Microsoft David (US male), Hazel (UK female) and Zira (US female) which are intended to sound more natural than Microsoft Anna. The server versions of these voices are available via the above-mentioned Speech Platform for operating systems earlier than Windows 8. Other voices are available for specific language versions of either Windows 8 or Windows 8.1.
+
 Unlike Windows 7 or Vista, one cannot use any third-party program for Microsoft Anna because there is no official Anna Voice API for download (especially because Microsoft Anna was only available in SAPI 5 and no SAPI 4 version of the voice exists).
 
 Windows 10
+
 In Windows 10, Microsoft Hazel was removed from the US English Language Pack and the Microsoft voices for Mobile (Phone/tablet) are available (Microsoft Mark and Microsoft Zira). These are the same voices found on Windows Phone 8, Windows Phone 8.1 and Windows 10 Mobile.
+
 Also with these voices language packs are also available for a variety of voices similar to that of Windows 8 and 8.1. None of these voices match the Cortana text-to-speech voice which can be found on Windows Phone 8.1, Windows 10, and Windows 10 Mobile.
+
 In an attempt to unify its software with Windows 10, all of Microsoft's current platforms use the same text-to-speech voices except for Microsoft David and a few others.
 
 Mobile
+
 Every mobile voice package has the combination of male/female, while most of the desktop voice packages have only female voices. All mobile voices have been made universal and any user who downloads the language pack of that choice will have one extra male and female voice per that package.
+
 A hidden text-to-speech voice in Windows 10 called Microsoft Eva Mobile is present within the system. Microsoft Eva is the voice primarily used by Cortana for organic responses while many of the responses were voiced by Jen Taylor. Microsoft Eva also made a brief appearance in later versions of Windows 11 during the beginning of the OOBE process. Users can download a pre-packaged registry file from the windowsreport.com website, which will allow it to be used within the operating system.
+
 These voices are updated with Windows to sound more natural than in the original version as seen in updated retail builds of Windows 10.
 
 Windows 11
+
 Windows 11 introduced three new "natural voices" borrowed from Microsoft's Azure cloud computing platform exclusively for Narrator starting with version 22H2: Microsoft Aria, Jenny, and Guy, with later updates adding more voices. These voices are intended to sound more natural than previous text-to-speech voices. As of 2024, no other third-party applications are able to use these voices in any way, shape or form.
+
 The voices from Windows 10 are reclassified as "legacy voices", however Microsoft David was still used as the default for the desktop client.

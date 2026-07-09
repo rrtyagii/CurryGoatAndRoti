@@ -1,22 +1,30 @@
 The LC Linked Data Service is an initiative of the Library of Congress that publishes authority data as linked data.
+
 It is commonly referred to by its URI: id.loc.gov.
+
 The first offering of the LC Linked Data Service was the Library of Congress Subject Headings (LCSH) dataset, which was released in April 2009.
 
 Datasets
+
 Library of Congress Subject Headings (LCSH)
 Library of Congress Name Authority File (LCNAF)
 Library of Congress Classification—because LC Classification uses a different MARC format than LC Authorities, mapping LC Classification to MADS/RDF was more difficult than mapping LCSH or LCNAF.
 Library of Congress Thesaurus for Graphic Materials
 Various MARC codes
 Various preservation vocabularies
+
 The Library of Congress offers users the opportunity to create their own datasets with library application profiles (APIs). Create your own datasets
 
 Formats
+
 The service presents data in MADS/RDF and SKOS where appropriate, but also uses its own ontology to describe classification resources and relationships more accurately.  All records are available individually via content negotiation as XHTML/RDFa, RDF/XML, N-Triples, and JSON.
+
 Each vocabulary is also available to download in its entirety. Id.loc.gov does not currently provide a SPARQL endpoint.
 
 Uses
+
 All of LCSH are crosslinked with RAMEAU (Répertoire d’autorité-matière encyclopédique et alphabétique unifié), an authority file from the Bibliothèque nationale de France.
 
 Technical aspects
+
 The id.loc.gov site initially used a fairly lightweight Python program to serve linked data.

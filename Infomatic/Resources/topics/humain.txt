@@ -1,5 +1,7 @@
 Humain is a Saudi artificial intelligence company established under the Public Investment Fund to drive the Kingdom's AI strategy. Launched on May 12, 2025, by Mohammed bin Salman, Crown Prince of Saudi Arabia, Humain aims to position Saudi Arabia as a global leader in AI innovation and infrastructure.
 
 History
+
 Humain was founded as part of Arabian peninsula's broader efforts to diversify its economy and reduce dependence on oil revenues through technological innovation. It was announced during a Saudi-U.S. investment forum in Riyadh. Saudi Arabia boasts abundant sunlight and fossil reserves, providing favorable conditions for AI data centers requiring significant computing power.
+
 In May 2025, Humain secured partnerships with American technology companies Nvidia, AMD, and Qualcomm.

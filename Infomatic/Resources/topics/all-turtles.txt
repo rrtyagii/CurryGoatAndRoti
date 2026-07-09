@@ -1,9 +1,12 @@
 All Turtles is an AI startup studio based in San Francisco, Paris, and Tokyo. It "specializes in developing practical AI products".
 
 History
+
 All Turtles was founded in June 2017 by Phil Libin, Jon Cifuentes, and Jessica Collier.
 
 Model
+
 The All Turtles startup studio focuses on practical artificial intelligence and works with founders to build AI products that "solve vexing everyday problems." Rather than emphasizing company building, it prioritized products first, based on Libin's observation that "few visionaries are primarily motivated by making a company".
+
 Based on the model of Hollywood studios, All Turtles gives AI entrepreneurs support and distribution so they are able to "focus on creating a new product rather than starting a new company for each new product.”
 For its studio teams, All Turtles provides entrepreneurs with "funding and resources such as engineers and working spaces".

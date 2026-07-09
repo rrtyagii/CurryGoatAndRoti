@@ -1,14 +1,21 @@
 PICO 4 is a virtual reality headset developed by ByteDance. It is designed for virtual reality games and is only available in Europe and East Asia (China, South Korea, Japan, Malaysia and Singapore). It is currently not available in the United States. PICO 4 is a competitor of Quest 2.
 
 Specifications
+
 The PICO 4 uses pancake lenses in combination with two small LCD displays, one for each eye, in the head-mounted display. This technology allows for a lighter headset with an increased image resolution.
+
 The pancake lenses have some drawbacks introduced by the light bouncing between the lens layers, but are generally considered to have fewer artifacts than the previously used Fresnel lens.
+
 There are a few features that have been introduced in this product: real-time hand tracking and a see-through mode in low resolution.
 
 Images
+
 PICO 4 Ultra
+
 On September 2, 2024 ByteDance released the PICO 4 Ultra for €549. It has the new Snapdragon XR2 Gen 2 chip (same as in the Meta Quest 3), 12 GB of RAM, 45W charging speed and spatial video capture.
 
 Reception
+
 PC Gamer writer Katie Wickens noted that PICO 4 has sharp visual quality, lower price compared to Meta Quest 2 while still retaining similar or higher performance than the Quest 2, accurate tracking, easy IPD and headset adjustment, and good color passthrough. They also pointed out that the headset is slightly front-weighted and also struggled to stream wirelessly. Finally, they mentioned that getting a PICO 4 headset may be difficult for citizens in the U.S.
+
 IGN Southeast Asia writer Syazwan Bahri claims that the PICO 4 headset “blew his socks away,” adding that the headset offers comfort with balanced weight, since the headset has its battery embedded in the strap adjuster of the headband while all the other hardware is stored in the goggle. The writer also mentions that the padded foam helped secure the headset firmly without feeling restrictive. However, the writer stated that PICO 4 lacked content in the store and also mentions the company’s efforts in growing the store. He also mentioned that although battery was not as much of an issue, battery life could have some room for improvement.

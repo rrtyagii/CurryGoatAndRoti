@@ -1,5 +1,9 @@
 The Glasgow Face Matching Test (GFMT) was a cognitive test designed to determine a person's ability to match different images of unfamiliar faces. Created by researchers Michael Burton (Mike Burton) of the University of York, David White of the University of New South Wales and Allan McNeill of Glasgow Caledonian University, the test was designed for use in academic research and in applied security settings, where reliable human performance on this task is a common requirement of identity management systems.
+
 The test was created using a database of photographs, taken of a demographically heterogeneous sample of 300 people. Images of the individuals were captured in a fifteen-minute session on two digital cameras (one video, one still). Similar individuals were paired to make "different" pairs and "same" pairs were made by pairing images from the two different cameras. All images used were high quality, with the subject standing face on and looking straight at the camera lens, which was positioned at head height.
+
 In 2022, an updated version of the GFMT was published in the journal Behavior Research Methods. The GFMT2 replaces the earlier GFMT which has been discontinued.
+
 The GFMT2 uses the same source database of photographs as the original test, but draws on images from video files that were not used in the original GFMT. There are three GFMT2 subtests: (i) GFMT2-S is an 80-item test, (ii) GFMT2-High is a 40 item test for studies targeting high performing participants, (iii) GFMT2-Low is a 40 item test for studies targeting low performing participants.
+
 In 2025, a paper by David White and colleagues found that average test scores attained on the GFMT2 subtests varied considerably depending on how these participants were recruited. In light of these findings, GFMT2-High is now considered the standard Glasgow Face Matching Test version as it provides the most optimal psychometric properties.

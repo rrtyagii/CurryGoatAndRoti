@@ -1,8 +1,13 @@
 Daniel Kokotajlo is an artificial intelligence (AI) researcher. He was a researcher in the governance division of OpenAI from 2022 to 2024, and currently leads the AI Futures Project.
 
 Biography
+
 Kokotajlo is a former philosophy PhD candidate at the University of North Carolina at Chapel Hill where he was a recipient of the 2018–2019 Maynard Adams Fellowship for the Public Humanities. In 2022, he became a researcher in the governance division of OpenAI.
+
 Kokotajlo is one of the organizers of a group of OpenAI employees that claimed the company has a secretive and reckless culture that is taking grave risks in the rush to achieve artificial general intelligence (AGI). When he resigned in 2024, he refused to sign OpenAI's non-disparagement clause, which could have cost him approximately $2 million in equity. As of May 2024, Kokotajlo confirmed he retained the vested equity. In June 2024, he, with other former OpenAI employees, signed a letter arguing that top frontier AI companies have strong financial incentives to avoid oversight, and calling for a "right to warn" about AI risks without fear of reprisal and while protecting anonymity.
+
 In 2021, Kokotajlo wrote a blog post named "What 2026 Looks Like". In 2025, Kevin Roose commented that "A number of his predictions proved prescient."
+
 He cofounded and leads the AI Futures Project, a nonprofit based in Berkeley, California which researches the future impact of artificial intelligence.
+
 In April 2025, it released AI 2027, a detailed forecast scenario predicting rapid progress in the automation of coding and AI research, followed by AGI. It laid out a scenario in which fully autonomous AI agents will be better than humans at "everything" around the end of 2027, imagining its impacts on the economy, domestic politics and international relations. In November 2025, Kokotajlo clarified that his AGI median estimate had shifted to the 2030s.

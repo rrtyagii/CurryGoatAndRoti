@@ -1,26 +1,36 @@
 Yandex Translate (Russian: Яндекс Переводчик, romanized: Yandeks Perevodchik) is a web service provided by Yandex, intended for the translation of web pages into another language.
+
 The service uses a self-learning statistical machine translation, developed by Yandex. The system constructs the dictionary of single-word translations based on the analysis of millions of translated texts. In order to translate the text, the computer first compares it to a database of words. The computer then compares the text to the base language models, trying to determine the meaning of an expression in the context of the text.
+
 In September 2017, Yandex.Translate switched to a hybrid approach incorporating both statistical machine translation and neural machine translation models.
+
 The translation page first appeared in 2009, utilizing PROMT, and was also built into Yandex Browser itself, to assist in translation for websites.
 
 Supported languages
+
 Immediately after the launch of the translator in beta mode in the spring of 2010, it was only available in three languages — English, Russian and Ukrainian, with a limit of 10,000 characters.
+
 Yandex.Translate has some languages that are missing from Google Translate, such as Russia's national minority languages.
+
 As of February 2026, translation is available in 111 languages:
 
 The translation direction is determined automatically. It is possible to translate words, sentences, or web pages if needed. There is also the option to view both the translation and the original at the same time in a two-window view. In addition to machine translation, there is also an accessible and complete English-Russian and Russian-English dictionary. There is an app for devices based on the iOS software, Windows Phone and Android. You can listen to the pronunciation of the translation and the original text using a text to speech converter built in.
+
 Translations of sentences and words can be stored to a "Favorites" section located below the input field.
 
 Limitations
+
 Yandex.Translate, like other automatic translation tools, has its limitations. When the online service was first introduced, the head of Yandex.Translate, Alexei Baitin, stated that although machine translation cannot be compared to a literary text, the translations produced by the system can provide a convenient option for understanding the general meaning of the text in a foreign language.
 
 Translation methodology
+
 According to Arkady Volozh, founder and CEO of Yandex, the mechanism of Translate is as follows:
 
 Previously, machine translation was based on "the meaning of the text" model: take any language, translate the words in the universal language of the senses, and then translate these meanings in the words of another language – and obtain the translated text. This model prevailed in the 1970s-1980s and automated in the 1990s. All translations of the 1990s built on this ideology. In the 2000s, there was a search, and it became clear: to translate the text, does not necessarily understand the meaning. Humanity has translated so much already that the probability of finding two similar network in the text in different languages is quite large. How to determine that it is the same text? Very simple. They contain many of the same words. If the document of 1,000 words dictionary 800 are a pair, then most likely, it is a translation from one language to another. And then it is already possible to break the text into paragraphs, to offer and something to do with this work. That is, the machine translations are not words, but finished pieces, the machine is capable of doing. In fact, if you think about it, this method of translation even more consistent with the way a person learns the language as a child in real life. After all, we hardly think in terms of "meaning-text", when we say, for example: "Take a pear".
 In addition to the free version for users, there is a commercial API online translator (free up to 10 million characters, then paid), designed primarily for the localization of sites of Internet shops and travel companies.
 
 Features
+
 the mobile app for iOS is available for the transliteration of the Arabic, Armenian, Chinese (Pinyin), Georgian, Greek, Hebrew, Japanese, Korean and Persian languages;
 voice input;
 photo text translation feature (uses its own OCR (optical character recognition) technology) – in apps for mobile phones;

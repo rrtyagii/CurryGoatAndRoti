@@ -1,6 +1,7 @@
 hOCR is an open standard of data representation for formatted text obtained from optical character recognition (OCR). The definition encodes text, style, layout information, recognition confidence metrics and other information using Extensible Markup Language (XML) in the form of Hypertext Markup Language (HTML) or XHTML.
 
 Software
+
 The following OCR software can output the recognition result as hOCR file:
 
 OCRopus
@@ -12,6 +13,7 @@ gcv2hocr
 gImageReader
 
 Example
+
 The following example is an extract of an hOCR file:
 
 The recognized text is stored in normal text nodes of the HTML file. The distribution into separate lines and words is here given by the surrounding span tags. Moreover, the usual HTML entities are used, for example the p tag for a paragraph. Additional information is given in the properties such as:
@@ -36,12 +38,15 @@ the values are with reference to the top-left corner of the document image and m
 the order of the values are x0 y0 x1 y1 = "left top right bottom"
 
 Usage
+
 Use x_bboxes below for character bounding boxes.
+
 Do not use bbox unless the bounding box of the layout component is, in fact, rectangular, some non-rectangular layout components may have rectangular bounding boxes if the non-rectangularity is caused by floating elements around which text flows.
 
 The bounding box bbox of this line is shown in blue and it is span by the upper-left corner (10, 20) and the lower-right corner (160, 30). All coordinates are measured with reference to the top-left corner of the document image which border is drawn in black.
 
 Searchable PDF files
+
 The hOCR format is most commonly used in order to make searchable PDF files or as an extracted metadata of the PDF file. In order to create searchable PDF files we can use a scanned document image and a .hocr file of the particular image. We can use the following open source tools in order to achieve that.
 
 hocr-tools
@@ -77,4 +82,5 @@ The HOCRConverter is a script written in Python 2.x that can used in order to co
 
 Known issues
 Has not been tested.
+
 Does not natively support Python 3.x

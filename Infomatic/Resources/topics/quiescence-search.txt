@@ -1,11 +1,15 @@
 Quiescence search is an algorithm typically used to extend search at unstable nodes in minimax game trees in game-playing computer programs. It is an extension of the evaluation function to defer evaluation until the position is stable enough to be evaluated statically, that is, without considering the history of the position or future moves from the position.  It mitigates the effect of the horizon problem faced by AI engines for various games like chess and Go.
+
 Human players usually have enough intuition to decide whether to abandon a bad-looking move, or search a promising move to a great depth. A quiescence search attempts to emulate this behavior by instructing a computer to search "volatile" positions to a greater depth than "quiet" ones to make sure there are no hidden traps and to get a better estimate of its value.
+
 Any sensible criterion may be used to distinguish "quiet" positions from "volatile" positions.  One common criterion is that moves exist in the position that can dramatically change the valuation of the position, such as captures in chess or Go.  As the main motive of quiescence search is to get a stable value out of a static evaluation function, it may also make sense to detect wide fluctuations in values returned by a simple heuristic evaluator over several ply, i.e. a history criterion. The quiescence search continues as long as the position remains volatile according to the criterion. In order to get the quiescence search to terminate, plies are usually restricted to moves that deal directly with the threat, such as moves that capture and recapture (often called a 'capture search') in chess. In highly "unstable" games like Go and reversi, a rather large proportion of computer time may be spent on quiescence searching.
 
 The horizon effect
+
 The horizon effect is a problem in artificial intelligence which can occur when all moves from a given node in a game tree are searched to a fixed depth. Threats and opportunities beyond the search depth will remain undetected.  This can result in the peculiar ploy of a program making delaying moves that degrade the position until it pushes a threat beyond the search depth or "horizon". By the time the threat must be dealt with, the position has become too degraded to be salvageable.  Quiescence search attempts to mitigate this issue by extending the search depth in volatile positions where the heuristic value may have significant fluctuations between moves.
 
 Pseudocode
+
 This pseudocode illustrates the concept algorithmically:
 
 function quiescence_search(node, (optional) depth) is

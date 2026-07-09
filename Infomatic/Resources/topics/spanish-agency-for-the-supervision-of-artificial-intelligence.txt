@@ -1,30 +1,51 @@
 The Spanish Agency for the Supervision of Artificial Intelligence (Spanish: Agencia Española de Supervisión de la Inteligencia Artificial, AESIA) is an autonomous agency of the Spanish Department of Digital Transformation responsible for the oversight, counseling, awareness and training regarding the proper use and development of artificial intelligence systems, more specifically, algorithms. In addition, the Agency has also responsibilities of inspection, verification and sanction.
+
 Thus, the ultimate goal of this Agency is the minimization of the risks that the use of this new technology may entail, the adequate development and enhancement of artificial intelligence systems.
 
 History
+
 With the formation of the second government of Pedro Sánchez in January 2020, the areas related to new technologies that, since 2018, were in the Ministry of Economy, were strengthened. Thus, in 2020 the Secretariat of State for Digitalization and Artificial Intelligence (SEDIA) was created. From this higher body, following the recommendations made by the R&D Strategy on Artificial Intelligence of 2018, the National Artificial Intelligence Strategy (2020) was developed, which already provided for actions concerning the governance of artificial intelligence and the ethical standards that should govern its use. This project was also included within the Recovery, Transformation and Resilience Plan (2021).
+
 During 2021, the Government revealed that these ideas would be developed through a new government agency, and the General State Budget for 2022 authorized its creation and allocated five million euros for its development.
+
 The Council of Ministers, at its meeting on 13 September 2022, began the process for the election of the AESIA headquarters. 16 Spanish provinces presented candidatures, with the Government opting for A Coruña, which proposed the La Terraza building.
+
 On 22 August 2023, the Government approved the internal regulations of the Agency. With this, Spain became the first European country with an agency dedicated to the supervision of AI, anticipating the entry into force of the future European Regulation on Artificial Intelligence, which establishes the need for Member States to have with a supervisory authority in this matter.
+
 The agency officially launched its operations on 19 June 2024. In April 2025, it became the reinforcing body for Spain's new law against unlabeled AI-generated content.
 
 Organization
+
 The Agency is structured as follows:
 
 The President. The presidency is assumed by the head of the Secretariat of State for Digitalization and Artificial Intelligence.
+
 The Governing Council. It is the collective governing body of the Agency, made up of its president and director, as well as representatives of the ministries of Economy, Finance, and Industry. Also, there will be an expert member on the subject, appointed at the proposal of the Artificial Intelligence Advisory Council and the Standing Commission on the Digitalization of the Economy, Administration and Citizenship.
+
 The Director. The director is the executive body of the Agency, on which the rest of the administrative departments depend.
+
 The Deputy Directorate for Reports and Testing Infrastructures.
+
 The Department for Innovation of Artificial Intelligence Systems.
+
 The Department for Artificial Intelligence Systems aimed at Public Administrations.
+
 The Deputy Directorate for Certification, Trend Evaluation, Coordination and Training in Artificial Intelligence.
+
 The Department for Certification, Instruction and Supervision.
+
 The Department for Instrumentalization of Trend Identification Mechanisms and Social Impact Assessment in the Artificial Intelligence Scope.
+
 The Department for Alignment and Coordination with Third Party Initiatives Related to the Application of Artificial Intelligence Systems.
+
 The Department for Awareness, Training, Dissemination and Promotion.
+
 The General Secretariat. It is responsible for the management of human, economic, financial, IT, logistical and material resources.
+
 The Division for Human Resources.
+
 The Division for Economic and Budgetary Management.
+
 The Legal Division and for Institutional Relations.
 The Division for General Affairs.
 In addition, to ensure the correct functioning of the Agency, there is a Control Committee that collects information, supervises the agency's actions and inform of its conclusions to the Governing Council.

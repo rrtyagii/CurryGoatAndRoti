@@ -1,42 +1,65 @@
 JPEG XS (standardized as ISO/IEC 21122) is an image and video codec that offers both visually and mathematically lossless quality. It is a special-purpose codec that is specifically designed to allow for low-complexity and low-latency implementations. Target applications of the standard include streaming high-quality content for professional video over IP (SMPTE ST 2022 and ST 2110) in broadcast and other applications, virtual reality, drones, autonomous vehicles using cameras, gaming. Although there is not an official acronym definition, XS was chosen to highlight the extra small and extra speed characteristics of the codec.
 
 Features
+
 Three main features are key to JPEG XS:
 
 Visually transparent compression: XS compressed content is indistinguishable from the original uncompressed content (passing ISO/IEC 29170-2 tests, also called AIC-2) for compression ratios between 2:1 and 10:1.
+
 Low latency: The total end-to-end latency, introduced by the JPEG XS compression-decompression cycle, is minimal. Depending on the configuration, XS typically imposes only between 1 and 32 lines of additional end-to-end latency, when compared to the same system using uncompressed video.
+
 Lightweight: JPEG XS is designed to have low computational and memory complexity, allowing for efficient low-power and low-resource implementations on various platforms such as CPU, GPU, FPGA and ASIC.
+
 Relying on these key features, JPEG XS is suitable for any application where uncompressed content is the norm, yet still allowing for significant savings in the required bandwidth usage, preserving quality and low latency. Among the targeted use cases are video transport over professional video links (like SDI and professional video over IP), real-time video storage, memory buffers, omnidirectional video capture and rendering, and image sensor compression (for example in cameras and in the automotive industry). JPEG XS favors visually lossless quality in combination with low latency and low complexity, over data reduction through compression. It is not a direct competitor to alternative image codecs like JPEG 2000 and JPEG XL or video codecs like AV1, AVC/H.264 and HEVC/H.265 which tend to focus on compression efficiency.
+
 Other important features are:
 
 Exact bitrate allocation: JPEG XS allows an accurately targeted bitrate to perfectly match the available bandwidth (also referred to as constant bitrate).
+
 Multi-generation robustness: JPEG XS allows for at least 10 encoding-decoding cycles, without significant quality degradation. This feature allows for example transparently chaining of multiple devices that recompress the signal, without any significant quality degradation taking place.
+
 Multi-platform interoperability: The algorithms used in JPEG XS allow for efficient implementations on different platforms, like CPU, GPU, FPGA and ASIC. Each of these platform architectures is best exploited when a specific degree of parallelism is available in the implementation. For instance, a multi-core CPU implementation will leverage a coarse-grained parallelism, while GPU or FPGA will work better with a fine-grained parallelism. Moreover, the choice of parallelism used in the implementation at the encoder will not affect that of the decoder. This means that real-time encoding and decoding between platforms is possible, without sacrificing the low-complexity, low-latency or high-quality properties.
+
 Support for mathematical lossless coding (MLS): JPEG XS is also capable of coding images in a mathematically lossless way, to achieve perfect reconstruction at the decoder side (new profile supported by 2nd edition).
+
 Support for High Dynamic Range (HDR) content: The current version of JPEG XS supports bit-depths of up to 16 bits per component, and it provides several parameterizable non-linear transforms to efficiently compress HDR content.
+
 Support for RAW Bayer/CFA compression: JPEG XS has also the capability to compress color filter array (CFA) content, such as RAW Bayer content produced by digital cameras. A special color transform, called Star-Tetrix, allows for efficient and direct compression of the original RAW sample values, without the need for converting the Bayer samples to RGB samples first.
+
 Accurate flow control: A JPEG XS encoder continuously monitors the amount of bits sent out, and adjusts its rate allocation process to neither overflow nor underflow a normatively defined decoder input buffer.
 
 Application domains
+
 JPEG XS is actively used in several application domains.
 
 Transport over video links and IP networks
+
 Video bandwidth requirements are growing as video resolutions, frame rates, bit depths, and the number of video streams are constantly increasing. Although the capacities of video links and communication channels are also growing, there are applications where the reduced data rate afforded by JPRG-XS is advantageous.
+
 Both the broadcast and pro-AV markets are shifting towards AV-over-IP-based infrastructure, with a preference going to Gigabit Ethernet links for remote production and faster fiber-based Ethernet for in-house facilities. Given the available bandwidth and infrastructure cost, relying on uncompressed video may be cost-prohibitive if 4K, 8K, increased bit depths for HDR, and higher framerates need to be supported.
+
 With XS, it is for example possible to repurpose existing SDI cables to transport 4K60 over a single 3G-SDI (at 4:1 compression ratio), and even over a single HD-SDI (at 8:1 compression ratio). Similar scenarios can be used to transport 8K60 content over various SDI cable types (e.g. 6G-SDI and 12G-SDI). Alternatively, XS enables transporting 4K60 content over Gigabit Ethernet and 8K60 over 5G or 10 Gigabit Ethernet, which would be impossible without compression.
+
 The following table shows expected compression ranges for some typical use cases.
 
 Real-time video storage and playout
+
 Related to the transport of video streams is the storage and retrieval of high-resolution streams where bandwidth limitations similarly apply. For instance, video cameras use internal storage like SSD drives or SD cards to record high-resolution streams of images, yet the maximum data rates of such storage devices may be below that required to store uncompressed video in real time.
 
 Sensor compression
+
 JPEG XS has built-in support for the direct compression of RAW Bayer/CFA images using the Star-Tetrix Color Transform. This transform takes a RAW Bayer pattern image and decorrelates the samples into a 4-component image with each component having only a quarter of the resolution. This means that the total amount of samples to further process and compress remains the same, yet the values are decorrelated similarly to a classical Multiple Component Transform.
+
 Avoiding such conversion prevents information loss and allows this processing step to be done outside of the camera. This is advantageous because it allows deferring demosaicing the Bayer content from the moment of capturing to the production phase, where choices regarding artistic intent and various settings can be better made; The demosaicing process is irreversible and requires certain choices, like the choice of interpolation algorithm or the level of noise reduction, to be made upfront. The demosaicing process can be power-hungry and will also introduce extra latency and complexity.
 
 Standards
+
 JPEG XS (ISO/IEC 21122)
+
 The JPEG XS coding system is an ISO/IEC suite of standards that consists of the following parts:
 
 RFC9134 - RTP Payload Format for ISO/IEC 21122 (JPEG XS)
+
 RFC 9134 describes a payload format for the Real-Time Transport Protocol (RTP) to carry JPEG XS encoded video. In addition, the recommendation also registers the official media type registration for JPEG XS video as video/jxsv, along with its mapping of all parameters into the Session Description Protocol (SDP).
+
 The RTP payload format for JPEG XS, in turn, enables the use of JPEG XS in SMPTE 2110 environments using SMPTE ST 2110-22 for CBR compressed video transport.

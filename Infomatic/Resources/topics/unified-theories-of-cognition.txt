@@ -1,23 +1,36 @@
 Unified Theories of Cognition is a 1990 book by Allen Newell. Newell argues for the need of a set of general assumptions for cognitive models that account for all of cognition: a unified theory of cognition,  or cognitive architecture. The research started by Newell on unified theories of cognition represents a crucial element of divergence with respect to the vision of his long-term collaborator, and AI pioneer, Herbert Simon  for what concerns the future of artificial intelligence research. Antonio Lieto recently drew attention to such a discrepancy, by pointing out that Herbert Simon decided to focus on the construction of single simulative programs  (or microtheories/"middle-range" theories) that were considered a sufficient mean to enable the generalisation of “unifying” theories of cognition  (i.e. according to Simon the "unification" was assumed to be derivable from a body of qualitative generalizations coming from the study of individual simulative programs). Newell, on the other hand, didn’t consider the construction of single simulative microtheories a sufficient mean to enable the generalisation of “unifying” theories of cognition and, in fact, started the enterprise of studying and developing integrated and multi-tasking intelligence via cognitive architectures that would have led to the development of the Soar cognitive architecture.
 
 Contents
+
 Newell argues that the mind functions as a single system. He also claims the established cognitive models are vastly underdetermined by experimental data. By cognition, Newell means:
 
 Problem solving, decision making, routine action
+
 Memory, learning, skill
+
 Perception, motor behavior
+
 Language
+
 Motivation, emotion
+
 Imagining, dreaming, daydreaming
+
 After arguing in favor of the development of unified theories of cognition, Newell puts forward a list of constraints to any unified theory, in that a theory should explain how a mind does the following:
 
 Behave flexibly as a function of the environment
+
 Exhibit adaptive (rational, goal-oriented) behavior
+
 Operate in real time
+
 Operate in a rich, complex, detailed environment (Perceive an immense amount of changing detail; use vast amounts of knowledge; and control a motor system of many degrees of freedom)
 Use symbols and abstractions
+
 Use language, both natural and artificial
+
 Learn from the environment and from experience
+
 Acquire capabilities through development
 Operate autonomously, but within a social community
 Be self-aware and have a sense of self

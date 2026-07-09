@@ -6,4 +6,5 @@ defeasible rules
 specify that a fact is typically a consequence of another;
 undercutting defeaters
 specify exceptions to defeasible rules.
+
 A priority ordering over the defeasible rules and the defeaters can be given. During the process of deduction, the strict rules are always applied, while a defeasible rule can be applied only if no defeater of a higher priority specifies that it should not.

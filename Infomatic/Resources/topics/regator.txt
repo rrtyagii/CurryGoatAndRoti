@@ -1,27 +1,40 @@
 Regator.com was a curated blog directory and search engine. Founded in 2007 by Scott Lockhart, Chris Turner, and Kimberly Turner and going live with Regator.com in August 2008, Regator LLC also produces Regator Breaking News and the Regator iPhone App for iOS. The API platform also allows for detailed trend tracking and analyzing text. The Breaking News app regularly breaks stories faster than news outlets such as CNN, FoxNews.com, the Huffington Post, and Twitter trending topics.
+
 ReadWriteWeb named Regator one of the top 100 web products of 2009, and Mashable awarded Regator.com third place in the category of Social News in its 2008 Open Web Awards. CNET named the free Regator iPhone app one of the top 10 iPhone apps of 2009.
 
 History
+
 Regator was founded in 2007 by Scott Lockhart, Chris Turner, and Kimberly Turner. It publicly launched in August 2008, and was headquartered in Atlanta, Georgia.
+
 Lockhart was a former technology executive and consultant on building online businesses for large companies. He worked for various large real estate companies, Wells Fargo, and was a co-founder of the hardware company HardwareOne, which was based in Sydney, Australia. Chris Turner was a programmer with experience in web, mobile, and video game development. He graduated with a BFA in Studio Art from Truman State University, and has been active in the independent video game community.
+
 Kimberly Turner was a magazine editor and journalist, with pieces appearing in American and Australian magazines such as Atlanta, Business to Business, Outdoor, Massive, ADB, and Roost,
 among others. She earned a master's degree in Applied Linguistics from the University of New South Wales, and was a regular contributor to ProBlogger.net.
 
 Recognition
+
 Regator.com was named by ReadWriteWeb as one of the top 100 web products of 2009, one of the top tools for tracking topics on the web, and received an honorable mention for top RSS & syndication technologies of 2009. Mashable awarded Regator.com third-place in the category of Social News in its 2008 Open Web Awards.
+
 CNET named the free Regator iPhone app one of the top 10 iPhone apps of 2009, and Marshall Kirkpatrick of ReadWriteWeb put it among his top 5 iPhone apps of 2009. Regator for iPhone also received an honorable mention (along with apps from NPR, New York Times, USA Today, and the Washington Post) in the news category of the 2010 Best App Ever awards.
 
 Technology
+
 Regator.com
+
 Regator serves as an interactive blog directory, and all blogs are curated by human editors for quality. About 18% of blogs that are nominated for inclusion on the site are approved. The included blogs generate tens of thousands of new posts daily. Regator also has an archive of curated content going back to 2007. Blogs that are un-updated for a long period of time without an explanation are removed from Regator.com.
+
 The site allows readers to add non-Regator blogs to view on their personalized My Regator page, though these blogs are not shared with the Regator community.
+
 Regator also has free widgets so bloggers can display Regator trends, searches, or posts on their website.
 
 Regator Platform
+
 Regator's semantic API uses proprietary algorithms to produce metadata such as past and present trends. The API provides time-sensitive results so users can see what topics or terms are most closely related to a search term in the past or present. The Regator can also tag, categorize, and provide data about any block of text, and has tools for creating graphs of historical coverage, social media monitoring, etc.
 
 Regator Breaking News
+
 In June 2011, Regator launched Regator Breaking News, a subscription service for journalists and bloggers that provides breaking stories in real-time. Regator Breaking News was an Adobe Air app that works with Mac, Linux, and Windows. According to Turner, the app uses algorithms to analyze social media (chiefly the curated Regator blogs) and identify and separate breaking stories from normal internet activity. According to Mashable, in trials the app delivered a breaking story faster than CNN by 29 minutes, FoxNews.com by eight minutes, the Huffington Post email alert by 57 minutes, and Twitter trending topics by 11 minutes.
 
 Regator for iPhone
+
 The Regator iPhone apps (Lite and Premium) allow for reading, searching, and sharing blog content via iOS. They also include real-time and historical trend tracking, sharing mechanisms, monitoring tools, and others.

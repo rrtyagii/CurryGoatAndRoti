@@ -1,10 +1,15 @@
 Rose Dieng-Kuntz (1956–2008) was a Senegalese computer scientist specializing in artificial intelligence. She was the first African woman to enroll in the École polytechnique.
 
 Life and career
+
 Rose Sophie Fatima Dieng-Kuntz was born on March 27, 1956, in Dakar, Senegal. She excelled in her studies at Van Vollenhoven High School in Dakar, where she won several first prizes in the Senegalese General Competition and obtained her baccalaureate with highest honors.
+
 In 1976, at the age of 20, she became the first African woman admitted to the École polytechnique in France. She continued her studies at the École Nationale Supérieure des Télécommunications (now Télécom Paris), where she obtained an engineering degree in 1980. Dieng-Kuntz also completed a DEA (diploma of advanced studies) in computer science, followed by a PhD at the University of Paris-Sud.
+
 Her professional career began in 1985 at INRIA (National Institute for Research in Computer Science and Control) in France. In 1992, she became only the second woman to lead a research project at INRIA. Her research focused on knowledge sharing on the web, particularly in the early days of the semantic web.
+
 Her area of specialization for her PhD was the specification of parallelism. She worked for the National Institute for Research in Computer Science and Control (INRIA) in France, a French national research institution focusing on computer science, control theory and applied mathematics, where her research specialization was on the sharing of knowledge over the World Wide Web.
+
 She died in 2008 after a long illness. Her death received national media coverage. France's Minister of Higher Education and Research, Valérie Pécresse, expressed sadness, and released a statement announcing the death of Rose Dieng Kuntz: "France and the world of science have just lost a visionary mind and an immense talent".
 
 Her last research focused on knowledge management and the semantic Web. She was active in reaching out to students, and female students in particular, about her passion for science. In her words: As far as the future is concerned, my vision is that of a web of knowledge linking individuals, organisations, countries and continents. The research we are aiming for seeks to improve cooperation between business and the community by building “knowledge webs,” a goal that is in phase with the Europe's target of evolving from an “information society” to a “knowledge society.”
@@ -14,6 +19,7 @@ Irène Joliot-Curie Prize in 2005
 Chevalier de la Légion d’Honneur in 2006.
 
 Publications (selected)
+
 (in English) (ed., in collaboration with Heinz Jürgen Müller), Computational conflicts : conflict modeling for distributed intelligent systems, 2000
 (in English) Designing cooperative systems : the use of theories and models, 2000
 (in English) (ed., in collaboration with Nada Mata), Knowledge management and organizational memories, 2002

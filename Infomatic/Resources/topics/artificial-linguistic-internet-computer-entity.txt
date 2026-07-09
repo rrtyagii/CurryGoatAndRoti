@@ -1,7 +1,11 @@
 A.L.I.C.E. (Artificial Linguistic Internet Computer Entity), also referred to as Alicebot, or simply Alice, is a natural language processing chatbot—a program that engages in a conversation with a human by applying some heuristical pattern matching rules to the human's input. It was inspired by Joseph Weizenbaum's classical ELIZA program.
+
 It is one of the strongest programs of its type and has won the Loebner Prize, awarded to accomplished humanoid, talking robots, three times (in 2000, 2001, and 2004). The program is unable to pass the Turing test, as even the casual user will often expose its mechanistic aspects in short conversations.
+
 Alice was originally composed by Richard Wallace; it "came to life" on November 23, 1995.  The program was rewritten in Java beginning in 1998. The current incarnation of the Java implementation is Program D.  The program uses an XML Schema called AIML (Artificial Intelligence Markup Language) for specifying the heuristic conversation rules.
+
 Alice code has been reported to be available as open source. The AIML source is available from ALICE A.I. Foundation on Google Code and from the GitHub account of Richard Wallace. These AIML files can be run using an AIML interpreter like Program O or Program AB.
 
 In popular culture
+
 Spike Jonze has cited ALICE as the inspiration for his academy award-winning film Her, in which a human falls in love with a chatbot. In a New Yorker article titled “Can Humans Fall in Love with Bots?” Jonze said “that the idea originated from a program he tried about a decade ago called the ALICE bot, which engages in friendly conversation.” The Los Angeles Times reported:Though the film’s premise evokes comparisons to Siri, Jonze said he actually had the idea well before the Apple digital assistant came along, after using a program called Alicebot about ten years ago. As geek nostalgists will recall, that intriguing if at times crude software (it flunked the industry-standard Turing Test) would attempt to engage users in everyday chatter based on a database of prior conversations. Jonze liked it, and decided to apply a film genre to it. “I thought about that idea, and what if you had a real relationship with it?” Jonze told reporters. “And I used that as a way to write a relationship movie and a love story.”

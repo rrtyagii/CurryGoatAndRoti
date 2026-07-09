@@ -1,5 +1,7 @@
 In information retrieval, an index term (also known as subject term, subject heading, descriptor, or keyword) is a term that captures the essence of the topic of a document. Index terms make up a controlled vocabulary for use in bibliographic records. They are an integral part of bibliographic control, which is the function by which libraries collect, organize and disseminate documents. They are used as keywords to retrieve documents in an information system, for instance, a catalog or a search engine.  A popular form of keywords on the web are tags, which are directly visible and can be assigned by non-experts. Index terms can consist of a word, phrase, or alphanumerical term. They are created by analyzing the document either manually with subject indexing or automatically with automatic indexing or more sophisticated methods of keyword extraction. Index terms can either come from a controlled vocabulary or be freely assigned.
+
 The term "descriptor" was  by Calvin Mooers in 1948. It is in particular used about a preferred term from a thesaurus.
+
 The Simple Knowledge Organization System language (SKOS) provides a way to express index terms with Resource Description Framework for use in the context of the Semantic Web.
 
 In web search engines
@@ -9,10 +11,15 @@ Author keywords
 Author keywords are an integral part of literature. Many journals and databases provide access to index terms made by authors of the respective articles. How qualified the provider is decides the quality of both indexer-provided index terms and author-provided index terms. The quality of these two types of index terms is of research interest, particularly in relation to information retrieval. In general, an author will have difficulty providing indexing terms that characterize his or her document relative to other documents in the database.
 
 Keyword stuffing
+
 Most search engines are designed to look for words anywhere in a document — in the title, text, etc. In this case, a keyword can be any term that exists in the document. However, priority is given to words that appear in the title, words that are repeated many times, and words that are explicitly designated as keywords in the markup. Keyword stuffing is a method of search engine optimization (SEO) where keywords are loaded into the web page’s meta tags, visible content, or backlink anchor text in an attempt to gain an unfair advantage in search engine rankings. Most permanent ranking improvements after adding secondary keywords occur within the first 2–4 weeks. But overall, optimization using secondary keywords should be monitored for 8 weeks.
+
 Keyword stuffing can lead to temporary or permanent banning or penalizing of the website in major search engines. Repetition of words in meta tags may explain why many search engines no longer use these tags. Currently, search engines focus more on unique, comprehensive, relevant, and useful content, which overall improves quality, making keyword stuffing useless, yet it is still practiced by many webmasters.
+
 Many major search engines have implemented algorithms that recognize keyword stuffing and reduce or eliminate any unfair advantage in search that might have been gained through this tactic, and often they also penalize, downgrade, or remove from their indexes websites that use keyword stuffing.
+
 Changes and algorithms specifically designed to punish or block sites using keyword stuffing include the Google Florida update (November 2003), Google Panda (February 2011), Google Hummingbird (August 2013), and the Bing update from September 2014.
+
 Headlines on online news sites are increasingly filled only with search-friendly keywords that identify the story. Traditional reporters and editors do not approve of this practice, but it is effective for optimizing news stories for search.
 
 Examples

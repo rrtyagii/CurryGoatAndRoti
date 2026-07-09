@@ -1,50 +1,81 @@
 Alice AI (formerly Alice and Alice Neural Network) is a Russian generative artificial intelligence chatbot and intelligent personal assistant for Android, iOS and Windows operating systems and Yandex's own devices developed by Yandex. Alice was officially introduced on 10 October 2017. Aside from common tasks, such as internet search or weather forecasts, it can also create texts in various styles, come up with ideas and concepts, generate images, work with files, run applications and chit-chat. Alice is also the virtual assistant used for the Yandex Station smart speaker.
 
 History
+
 The development of Alice began at the end of 2016, when the IT market was trending toward the development of virtual assistants: the market already had Siri from Apple, Google Assistant, Alexa, and Cortana from Microsoft. At that time, Yandex had already implemented voice control in Search, Navigator, and other applications, and was busy creating a voice assistant capable of interacting with humans in a meaningful dialogue - a fundamentally more complex system that uses a multilayer neural network.
+
 The official launch of Alice was announced on October 10, 2017: the assistant appeared in the Yandex search app for Android and iOS and a beta version of the voice assistant for Microsoft Windows.
+
 According to Yandex statistics published in May 2018, Alice is installed in 53% of smartphones in Russia and is available in the navigator in more than 20 million cars.
 
 Name and personality
+
 A special feature of Alice was the personality developed by the Yandex team together with journalist and former head of the company's marketing group Vladimir Guriev. It was decided that the voice assistant would be a young, ironic girl, ready to help the owner of a smartphone. The voice of "Alice" was dubbing actress Tatiana Shitova, who voiced most of Scarlett Johansson's characters and the voice of OS1, who called herself "Samantha", in the Russian dubbing of Spike Jonze's "Her".
+
 Choosing a name for the voice assistant went through several stages. First, a list of requirements was formed: the name should not contain the letter "er", which is not pronounced by small children, and the name should not be part of common phrases. To reduce the number of false positives, the name should not have been one of the most common. First, Yandex staff compiled a list of names that they thought were appropriate for the voice assistant in character. Based on this list, a poll was made for "Yandex.Toloka" users, the participants of which were required to determine the character traits of a girl by name. In the final survey with a large margin won the name Alice. In the testing of the name, which was held for five months, several tens of thousands of people took part. For families with other Alices, the voice assistant added an optional activation by the "Listen, Yandex" command.
 
 Technologies
+
 "Alice AI" is built into various Yandex applications: search application, Yandex.Navigator, and in the mobile and desktop versions of Yandex.Browser.
+
 It is possible to communicate with the assistant by voice and by entering requests from the keyboard. Alice AI answers either directly in the dialog interface, or shows search results for a query or the desired application. In addition to answering questions, Alice AI can solve applied tasks: turn on music, set the alarm clock, call a cab or play games.
 
 Request analysis and response generation
+
 Alice AI is helped by SpeechKit technology to recognize the voice request. At this stage, the voice is separated from the background noise. The algorithms are able to sort out accents, dialects, slangs, and Anglicisms from the database of billions of phrases spoken in different conditions, accumulated by Yandex.
+
 At the next stage, the Turing technology, which in its name refers to Alan Turing and his test, makes it possible to give meaning to the query and find the right answer. Thanks to it, Alice AI can give answers to specific questions, and also communicate with the user on abstract topics. To do this, the text of the request is divided into tokens, usually individual words, which are then analyzed separately. For the most accurate response, Alice AI takes into account the history of interaction with it, the intonation of the request, previous phrases and geo-positioning. This explains the fact that different users can get different answers to the same question.
+
 Initially, the Alice AI neural network was trained on an array of texts from the classics of Russian literature, including works by Leo Tolstoy, Fyodor Dostoevsky, and Nikolai Gogol, and then on arrays of live texts from the Internet. As Mikhail Bilenko, the head of Yandex Machine Learning, told Meduza in an interview, during the early tests impertinence appeared in Alice's communication style, which surprised and amused users. To prevent impertinence from turning into rudeness, and to limit Alice's reasoning on topics related to violence, hatred or politics, a system of filters and stop words was implemented in the voice assistant.
+
 The last stage, the voice-over, is implemented using Text-to-speech technology. The basis is 260 thousand words and phrases recorded in the studio, which were then "cut up" into phonemes. From this audio database, the neural network collects the answer, and then the intonation gradients in the finished phrase are smoothed by the neural network, which brings Alice's speech closer to human speech.
 
 Skills
+
 In addition to Yandex services, third-party services can be integrated into Alice AI. In 2018, the company expanded the capabilities of Alice through a system of "skills" that use the voice assistant platform to interact with the user. "Skills" are chatbots and other Internet services that are activated by a key phrase and work in the interface of Alice. The first "skill" was announced by Yandex in February 2018: the voice assistant learned to order pizza from Papa John's restaurants.
+
 In October 2017, the voice assistant Alice together with the service Flowwow in closed mode began testing the skill for flower delivery. In May 2018, at the Yandex conference, the product became available to all users with the ability to pay for flower delivery within the skill.
+
 In March 2018, Yandex opened the Yandex. Dialogs, designed to publish new "skills" and connect them to Alice. Dialogues also allows you to connect chats with operators to Yandex services. Already by April 2018 on the platform Yandex. Dialogs published more than 3 thousand skills, more than 100 passed moderation. Thanks to the skills, Alice was trained to work as an announcer: the Yandex voice assistant took part in the April Total Dictation literacy test and read the dictation at Novosibirsk State University.
+
 At the end of May at Yet Another Conference 2018, Yandex reported that thanks to its skills, Alice has learned to understand what is depicted in a photo and can recognize the make of a car, the breed of cat or dog, an unfamiliar building or monument, and is able to name a celebrity or a work of art. For products, Alice will find similar options on Yandex.Market or in a Yandex search. In November 2018, Yandex trained Alice to order products on its new Beru marketplace.
+
 In October 2018, when Alice turned one year old, Yandex launched the "Alice Prize" program. Within its framework, the company planned to reward the authors of the best skills every month and pay more than a million rubles by the end of the year. According to the company, from March to November 2018, developers created 33 thousand skills.
+
 In early November, "Yandex" allowed the authors of "skills" to choose the voice of "Alice" to voice messages, adding four new options: Jane, Ermil, Zahara and Ercan Java.
+
 In August 2019, Tele2, together with Yandex, launched a skill for Alice that allows subscribers of any operator to find a lost phone at home or in the office for free. The user can use the voice command "Alice, ask Tele2 to find my phone" on any gadget with Alice, and Tele2 will call the number tied to the device.
+
 Since 2023 Alisa has been featuring the YandexGPT neural network capable of writing texts and generating ideas.
 
 Devices with Alice
+
 In mid-April 2018, Kommersant newspaper published an article about the Yandex.io hardware platform under development, designed to integrate Alice-based voice control into user electronics. The company did not disclose the list of manufacturers it was negotiating with.
+
 The first hardware development based on Yandex.io with built-in Alice was the Yandex.Station smart speaker, which the company presented in late May at the Yet Another Conference 2018 in Moscow. The speaker has five speakers with a combined power of 50 watts and seven microphones.
+
 In August 2018, wearable electronics manufacturer Elari released the Elari KidPhone 3G children's smartwatch with built-in Alice. The watch was the first device with a built-in Yandex voice assistant released by a third-party company.
+
 On November 19, 2018, Yandex introduced two budget speakers equipped with Alice. The manufacturers were the companies Irbis and DEXP. Compared to the Yandex.Station for 9990 rubles, the speakers differ by three times lower price (3290 rubles), less powerful sound (Irbis has only one speaker of 2 watts and two microphones) and smaller size.
+
 On December 5, 2018, Yandex introduced its first smartphone, Yandex.Phone. Alice took center stage in its interface. Its informer on the home screen can show information about the weather, traffic jams, etc. The voice assistant can answer a request even when the phone's screen is locked.
+
 On October 9, 2019, Yandex introduced its new smart speaker, Station Mini. Compared to the Yandex.Station, the speaker differs in a lower price, and it is also possible to interact with it using gestures.
+
 On June 9, 2020, audio equipment manufacturer JBL introduced in Russia two new models of smart speakers with support of the voice assistant Alice - a stationary model JBL Link Music and a portable JBL Link Portable. The devices feature 360° surround sound and 20W speaker power. The portable model is water-resistant and works for up to eight hours without recharging. Using the docking station, it can be used stationary.
+
 On November 25, 2020, Yandex introduced its new smart speaker, Yandex.Station Max. It retained the body of the previous model, received an LED display, three-way sound with a combined power of 65 watts, and supports video in 4k.
 
 Development
+
 A beta version of Alice was released in May 2017. Later a neural network-based "chit-chat" engine was added allowing Russian-speaking users to have free conversations with Alice about anything. Speech recognition was found to be particularly challenging for the Russian language due to its grammatical and morphological complexities. To handle it, Alice was equipped with Yandex’s SpeechKit, which, according to word error rate, provides the highest accuracy for spoken Russian recognition. Alice's voice is based on that of the Russian voice actress Tatyana Shitova.
+
 Voice requests to Alice AI are processed by Yandex cloud servers to retain some of them with the aim of expanding Alisa's training set data. According to Denis Filippov, head of Yandex Speech Technologies, the retained voice data are completely anonymous and without any association with users' accounts.
 
 Skill Builders
+
 Skill constructors can be used to create skills for Alice. To create a skill, you need to set its algorithm in a special constructor. The constructor is a tree with many conditional transitions (branches). You can send requests from clients from Alice to amoCRM, Bitrix24, Google Sheets and email.
 
 In other languages
+
 As of March 2019, Alice is available in Turkish in the Yandex.Navigator app under the name Alisa with the stress on the last syllable. Alisa was voiced by Turkish dubbing actress Selyay Taşdoğen.

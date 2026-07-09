@@ -1,9 +1,15 @@
 io Products, Inc. is an American artificial intelligence hardware company founded in 2024 by Jony Ive, Scott Cannon, Evans Hankey and Tang Tan. The company was acquired by OpenAI in May 2025 to lead its hardware product development.
 
 History
+
 io was founded in 2024 by Jony Ive, Scott Cannon, Evans Hankey and Tang Tan to develop a range of hardware products that use artificial general intelligence.
+
 In September 2024, the New York Times reported that Ive and his design collective LoveFrom was working with OpenAI on the development of an artificial intelligence hardware device that is "less socially disruptive than the iPhone".
+
 In 2024, io raised $225 million from multiple investors including Sutter Hill Ventures, the Emerson Collective, SV Angel, Maverick Ventures and Thrive Capital, as well as Ive who reportedly owned an 11 per cent stake. It was reported that OpenAI founder Sam Altman did not have equity in the company. The company also received an investment that year from OpenAI’s Startup Fund before it acquired a 23 per cent stake in the company for $1.5 billion in late 2024.
+
 On May 21, 2025, OpenAI announced the full acquisition of io and the merger of both companies. The deal valued the company at $6.5 billion making it OpenAI’s largest acquisition to date. In an announcement by Sam Altman and Jony Ive, io will merge with OpenAI to "work more intimately with the research, engineering and product teams in San Francisco." The merger was announced with a nine-minute film shot in Cafe Zoetrope, San Francisco, in which Altman and Ive discussed their friendship and how they aim to "create a family of devices that would let people use AI to create all sorts of wonderful things." On July 9, 2025, OpenAI and io announced the completion of the merger.
+
 At the point of acquisition io had 55 employees, all of which joined OpenAI including founders Scott Cannon, Evans Hankey and Tang Tan. Ive and LoveFrom will remain independent and take on creative and design responsibilities at OpenAI.
+
 It was reported that OpenAI and io will release the first of its devices in 2026.

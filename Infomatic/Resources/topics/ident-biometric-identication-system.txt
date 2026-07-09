@@ -1,14 +1,21 @@
 The Automated Biometric Identification System, commonly known as IDENT, is an automated biometric identification system used by the U.S. Department of Homeland Security (DHS) to process and store biometric data, along with other relevant information (such as name, address, or date of capture, among others) for the purposes of "national security; law enforcement; immigration and border management; intelligence; background investigations for national security positions and certain positions of public trust"  and "associated testing, training, management reporting, planning and analysis, or other administrative uses."
 
 History
+
 IDENT began operation in 1994  and was developed by the now-dissolved Immigration and Naturalization Service (INS).
+
 IDENT was later transferred to the DHS, where it was used as part of the US-VISIT program, but it later became more widely used by DHS as their central system for biometric data.
+
 The GAO has previously claimed IDENT is outdated, and DHS intends to replace it with the Homeland Advanced Recognition Technology (HART), which is not yet operational. DHS initiated development of HART in 2016, but it has faced many delays  and budget cuts.
 
 Use
+
 IDENT is used by a variety of U.S. agencies, including ICE, USCG, USCIS, DoS, DOD, and the DOJ, as well as investigative agencies at the federal, state, and local level. IDENT is also used by some foreign partners and international entities, such as INTERPOL. These agencies both search and submit their own data to IDENT.
+
 During the enrollment process, IDENT captures and processes fingerprints, faceprints, and iris scans. It generates a personal identifier or "enumerator" attached to biometric records to tie them to a given individual. If biometric data is later captured for an individual already in the system, that data will be attached to their enumerator.
 
 Criticism
+
 IDENT and HART have faced scrutiny from civil and digital rights groups for collecting too much data, potentially chilling First Amendment protected speech, and posing a threat to civil liberties at large, as well as reinforcing biases, and being an invasive means of identification.
+
 HART is proposed to collect more data than IDENT, potentially including scars/marks/tattoos, DNA, voiceprints, and a blanket category titled "other modalities." It may also collect "relationship patterns" from individuals or organizations they believe "are indicative of violations of the customs and immigration laws, including possible terrorist threats".

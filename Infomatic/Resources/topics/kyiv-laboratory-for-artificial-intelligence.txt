@@ -1,21 +1,35 @@
 The Kyiv Laboratory for Artificial Intelligence (NeuroTechnica) is a research institute in Kyiv, the capital of Ukraine.
 
 Research
+
 Speech recognition,
+
 Speech synthesis,
+
 Prototype of the system to understand text in a natural language,
+
 Recognition of the hand-written information,
+
 Optical character recognition,
+
 System of the automatic construction of
+
 Spellcheckers for arbitrary linear languages,
+
 Translation systems with elements of the semantic analysis,
+
 Translation memory,
+
 Vocabularies,
+
 Systems of training to languages,
+
 Web robots,
+
 and others.
 
 Current project "Veliar-3"
+
 the system to understand text in a natural language,
 program-instrumental system of automatisation of programming
 ("PICAP"):
@@ -33,7 +47,10 @@ database support BerkeleyDB,
 connection support with С-compilers.
 
 Previous projects
+
 "Veliar-2" - further development of the basis project,
+
 "Veliar" - programming language, for developing systems of "Artificial Intelligence" class,
 "Gebe Deutschunterricht" (Teaching German) - multimedia system,
+
 Cossack "3D speaking head" (Cossack - multimedia program with mimics for speech synthesis)

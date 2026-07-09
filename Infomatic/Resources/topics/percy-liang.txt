@@ -1,18 +1,25 @@
 Percy Liang is an American computer scientist whose research focuses on machine learning, natural language processing, and foundation models. He is an Associate Professor of Computer Science at Stanford University and is the Director of the Center for Research on Foundation Models (CRFM).
 
 Education
+
 Liang received a Bachelor of Science degree in 2004 and a Master of Engineering degree in 2005 from Massachusetts Institute of Technology. He received bronze and silver medals at the International Olympiad in Informatics (IOI). He earned his Ph.D. in Computer Science from the University of California, Berkeley in 2011, where his doctoral advisors were Michael I. Jordan and Dan Klein.
 
 Academic career
+
 After completing his doctorate, Liang held a postdoctoral position at Google. He later joined the faculty at Stanford University, where he conducts research and teaches courses in artificial intelligence, machine learning, statistical learning theory, and language modeling.
+
 Liang is known for his work on semantic parsing, weak and indirect supervision, robustness and generalization in machine learning, and the study of large-scale foundation models. He has also been an advocate for efficient and reproducible research, and is one of the developers of CodaLab Worksheets, a platform for managing computational experiments.
 
 Center for Research on Foundation Models
+
 Liang is the founding Director of the Center for Research on Foundation Models (CRFM) at Stanford. The center focuses on the development, evaluation, and governance of foundation models, including technical, social, and policy considerations. CRFM operates as an interdisciplinary research initiative within Stanford HAI.
+
 With CRFM, Liang has supported the development of open source large language models.
 
 Research
+
 Liang has authored peer-reviewed publications in artificial intelligence and machine learning venues, including ACL, EMNLP, ICML, and COLT. His work has influenced both theoretical and applied research in natural language understanding and machine learning systems.
 
 Recognition
+
 Liang has received awards for his research contributions, including the National Science Foundation CAREER Award, the Presidential Early Career Award for Scientists and Engineers, the IJCAI Computers and Thought Award, and the Sloan Research Fellowship.

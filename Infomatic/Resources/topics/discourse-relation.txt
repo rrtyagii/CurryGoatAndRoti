@@ -1,10 +1,15 @@
 A discourse relation (also coherence relation or rhetorical relation) is a description of how two segments of discourse are logically and/or structurally connected to one another.
+
 A widely upheld position is that in coherent discourse, every individual utterance is connected by a discourse relation with a context element, e.g., another segment that corresponds to one or more utterances. An alternative view is that discourse relations correspond to the sense (semantic meaning or pragmatic function) of discourse connectives (discourse markers, discourse cues, e.g., conjunctions, certain adverbs), so that every discourse connective elicits at least one discourse relation. Both views converge to some extent in that the same underlying inventory of discourse relations is assumed.
+
 There is no general agreement on the exact inventory of discourse relations, but current inventories are specific to theories or frameworks. With ISO/TS 24617-5 (Semantic annotation framework; Part 5: Discourse structure, SemAF-DS), a standard has been proposed, but it is not widely used in existing annotations or by tools. Yet another proposal to derive at a generalized discourse relation inventory is the cognitive approach to coherence relations (CCR) proposed by Ted Sanders and collegues. This theory reduces discourse relations to a combination of five parameters.
+
 In addition to a discourse relation inventory, some (but not all) theories postulate structural constraints on discourse relations, and if paratactic (coordinate) or hypotactic (subordinate) relations are distinguished that hold across two or more text spans, coherence in discourse can be modelled as a tree (as in RST, see below) or over a tree (as in SDRT, see below).
 
 Hobbs's coherence relations
+
 In a series of seminal papers, Jerry Hobbs  investigated the interplay of discourse relations and coherence since the late 1970s. His work has been the basis for most subsequent theories and annotation frameworks of discourse relations.
+
 He proposed the following relations:
 
 occasion (change of state)
@@ -22,9 +27,11 @@ violated expectation
 
 Rhetorical Structure Theory (RST)
 Introduced in 1987, Rhetorical Structure Theory (RST) uses rhetorical relations as a systematic way for an analyst to annotate a given text. An analysis is usually built by reading the text and constructing a tree using the relations. RST has been designed as a framework for the principled annotation discourse, driven by theoretical considerations, but with an applied perspective.
+
 There is some variation among RST relations in different applications and annotated corpora, but the core inventory formulated by Mann and Thompson (1987) is generally considered as the basis.
 
 Segmented Discourse Representation Theory (SDRT)
+
 In its original motivation, SDRT attempts to complement Discourse Representation Theory (DRT) with RST-style discourse relations. Asher and Lascarides (2003) categorize SDRT discourse relations into several classes:
 
 Content-level relations
@@ -39,6 +46,9 @@ Explanation*q(α,β)
 Result*(α,β)
 
 Penn Discourse Treebank (PDTB)
+
 In the early days of computational discourse, the study of discourse relations was closely entangled with the study of discourse structure, so that theories such as RST and SDRT effectively postulate tree structures. (SDRT permits relations between independent nodes in a tree, but the tree still defines accessibility domains.) For practical annotation, however, this was felt to be a disadvantage because discourse relations could only be annotated after the global coherence of a particular text has been understood, and annotators disagreed widely (as already observed by Mann and Thompson 1987). For theoretical reasons, the tree model was criticized because at least some types of discourse relations (especially what Hobbs referred to as elaboration) was apparently not constrained by tree structures but could connect elements disconnected in the tree (Knott et al. 2001).
+
 This has been the motivation to perform the annotation of discourse relations independently from discourse structure, and this "shallow" model of discourse coherence could be annotated from local context alone. The most prominent of these models has been the Penn Discourse Treebank (PDTB). PDTB is focusing on the annotation of discourse cues (discourse markers, discourse connectives), which are assigned an internal argument (to which the discourse marker is attached), an external argument (target or attachment point of the relation) and a sense (discourse relation). Both arguments are defined as the smallest string that expresses the meaning of the utterances to be connected. Unlike RST and SDRT, PDTB does not postulate any structural constraints on discourse relations, but only defines a limit for the search space for a possible external argument. Starting with PDTB v.2.0, also implicit cues have been annotated, i.e., for utterances without discourse markers, annotators were asked to decide whether and which known discourse cue could be inserted and what its form, arguments and discourse relation would be.
+
 In practice, PDTB is widely used for creating discourse resources. In comparison to RST and SDRT, it provides less information.

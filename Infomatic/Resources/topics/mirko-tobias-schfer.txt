@@ -1,20 +1,30 @@
 Mirko Tobias Schäfer is a media scholar at Utrecht University. He is an Associate Professor for AI, Data & Society at the Department for Information & Computing Sciences and the Sciences Lead of the Data School.
 
 Biography
+
 Schäfer studied theater and media studies and communication science at the University of Vienna and digital culture at Utrecht University. He obtained a Ph.D. in 2008 at Utrecht University. Schäfer's research revolves around (digital) technology, and how it transform society. He publishes on digital culture, cultural theory, new media, big data, and artificial intelligence. In 2011 he was awarded a fellowship at the University of Applied Arts Vienna to study technology use and epistemic practices in art. He has been postdoctoral fellow at the Centre for Humanities at Utrecht University under Rosi Braidotti and a Mercator Research Fellow at the NRW School of Governance. From 2022 to 2025 he was appointed visiting professor at the University of Helsinki. Schäfer also serves on the Advisory Council Analytics of the Ministry of Finance (Netherlands).
 
 Research activity
+
 Schäfer investigates the transformational impact of artificial intelligence and data practices on the public sphere and public management. Earlier, Schäfer conducted research on hacker communities, user participation and their impact on cultural industries.
+
 In stark contrast to the general field of new media studies his research on participatory culture provides a critical deconstruction of user participation. Coining the term of an extended culture industry he builds upon the cultural critique of the Frankfurt School, most notably Adorno and Horkheimer. Developing the concept of an extended culture industry, Schäfer could show to what extent appropriation of design by users is embedded into corporate production. Through distinguishing user participation into explicit participation and implicit participation, Schäfer delivers a terminology to separate conscious and active user engagement from user activities that are channeled by user interface design.
+
 Schäfer's contribution to the field of participatory culture was his distinction of implicit and explicit participation. Explicit participation refers to the conscious activities of cultural production and social interaction as it has been covered by Henry Jenkins in his work on fan culture. Implicit participation refers to the subtle ways of channeling user activities through interface design. Schäfer considers strategies of implicit participation as key aspect in popular social media application He argues that media practices that had been developed in using the world wide web, now are implemented in easy to use interfaces and new business models. Schäfer's analysis of participatory culture depicts an accurate "shift within the commercial media industries to embrace certain conceptions of the fan as an idealized consumer of transmedia entertainment."
+
 In his analysis, Schäfer focused on the role of user interface design, platform governance and methods of controlling and channeling user activities.
+
 Since 2015 his research is situated in the field of critical data studies and revolves around investigating the impact of datafication and AI on citizenship and democracy. Schäfer is investigating how data practices and artificial intelligence are affecting democracy and citizenship, and how it transforms public management. He is a co-author of the Fundamental Rights & Algorithms Impact Assessment (FRAIA)  developed by an interdisciplinary team of scholars at Utrecht University.
 
 Data School
+
 Together with Thomas Boeschoten, at the time MA student, Schäfer founded the Utrecht Data School in 2013. It is a platform for teaching data analysis and digital methods. Initially a lack of funding pushed the founders to reach out to external partners, e.g. corporations, government organisations and NGO's, to finance the courses through commissioned research projects. That allowed them and their students to work on actual projects and experience how datafication manifests and transforms organisations. Consequently, the Utrecht Data School developed services and products that would enable researchers to enter societal fields as "experts and not as mere researchers." Schäfer dubbed this approach entrepreneurial research. An example for this is their Data Ethics Decision Aid (DEDA), which is a dialogic process for evaluating data projects and develop value-sensitive design. While organizations using DEDA can review and improve their data practices considering values and responsibilities, the researchers who function as workshop moderators can gather empirical data about the participants' awareness for data ethics, the organization's operational capacities and their data practices.
 
 Publications
+
 Schäfer, M.T.; Van Es, K.; Lauriault, T.P. (2024) Collaborative Research in the Datafied Society. Methods and Practices for Investigation and Intervention. Amsterdam: Amsterdam University Press. ISBN 9789463727679
 Schäfer, Mirko Tobias; Es, Karin (2017). The Datafied Society: Studying Culture through Data. Amsterdam University Press. doi:10.5117/9789048531011. ISBN 978-94-6298-717-3.
+
 Bastard Culture!: How User Participation Transforms Cultural Production. Amsterdam University Press. 2011-12-31. doi:10.1515/9789048513154. ISBN 978-90-485-1315-4.
+
 Schäfer, M.T.; Van den Boomen, M; Lehmann, AS; Lammes, S.; Raessens, J. (2009) Digital Material. Tracing New Media in Everyday Life and Technology. Amsterdam: Amsterdam University Press. ISBN 978-90-8964-068-0.

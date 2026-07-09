@@ -1,17 +1,27 @@
 Joaquim Armando Pires Jorge is a Portuguese computer scientist whose work spans virtual reality, computer graphics, human–computer interaction, and artificial intelligence. He holds the UNESCO Chair on Artificial Intelligence and Extended Reality. He is a University Professor in the Department of Computer Science and Engineering at Instituto Superior Técnico, University of Lisbon, and a senior researcher at INESC-ID.
+
 Jorge was voted President-Elect of the IEEE Computer Society for 2026 and will serve as the Society’s President in 2027. He has served as an elected member of the IEEE Computer Society Board of Governors since 2023. He is an adjunct professor at Victoria University of Wellington (since 2022) and an honorary invited professor at the Pontifical Catholic University of Rio de Janeiro (since 2022).
+
 He is a Fellow of the Eurographics Association, an ACM Distinguished Member, a Distinguished Visitor and Distinguished Contributor of the Institute of Electrical and Electronics Engineers (IEEE), and a Membre Libre of the Académie nationale de chirurgie (French National Academy of Surgery). He serves as Editor-in-Chief of the Elsevier journal Computers & Graphics.
 
 Education
+
 Jorge received a Bachelor of Engineering degree from Instituto Superior Técnico in 1984. He completed his M.Sc. (1992) and Ph.D. (1995) in Computer and Systems Engineering at Rensselaer Polytechnic Institute, where his dissertation, Parsing Adjacency Grammars for Calligraphic Interfaces, was supervised by Ephraim Glinert. He obtained his Agregação (habilitation) from Instituto Superior Técnico in 2002.
 
 Career and research
+
 After completing his Ph.D., Jorge joined the Department of Computer Science and Engineering at Instituto Superior Técnico as an assistant professor. He was promoted to associate professor in 2004 and full professor in 2008.
+
 He was a visiting professor at the Technical University of Darmstadt (1999–2000), the University of Calgary (2006–2018), and the Technical University of Vienna (2013–2014). He has been an adjunct professor at Victoria University of Wellington since 2022 and an honorary invited professor at the Pontifical Catholic University of Rio de Janeiro since 2022.
+
 From 2015 to 2019, Jorge served as an elected Executive Member of the ACM Europe Council. He was Journal Papers Chair of IEEE VR 2020, and Conference Co-Chair for IEEE VR 2021 and 2022. He also co-chaired the Scientific Program of Eurographics 2016, held in Lisbon.
+
 Jorge has published more than 300 scholarly works, including journal articles, conference papers, and books. His research focuses on human–computer interaction, sketch-based interfaces, and immersive technologies. As of 2023, he has supervised 17 Ph.D. theses.
+
 He is listed among the top computer science researchers in Portugal (2022–2024) and ranked among the world’s top 2% most-cited computer scientists according to a 2022 Stanford University study. His publications have received more than 12,000 citations, with an h-index of 56.
+
 His bibliographic records appear in Scopus, DBLP, and ORCID.
+
 He co-edited the book Digital Anatomy (Springer, 2022) and co-authored the survey Sketch-Based Modeling: A Survey in Computers & Graphics (2009).
 
 Honors and awards

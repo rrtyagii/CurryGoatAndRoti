@@ -1,12 +1,19 @@
 Noriko H. Arai (Japanese: 新井紀子, romanized: Arai Noriko, born 1962) is a Japanese researcher in mathematical logic and artificial intelligence, known for her work on a project to develop robots that can pass the entrance examinations for the University of Tokyo. She is a professor in the information and society research division of the National Institute of Informatics.
 
 Education and career
+
 Arai was born in Tokyo. She earned a law degree from Hitotsubashi University and then, in 1985, a mathematics degree magna cum laude from the University of Illinois at Urbana–Champaign. Her doctorate is from the Tokyo Institute of Technology.
+
 She joined the National Institute of Informatics in 2001.
 
 Contributions
+
 Arai's Todai Robot Project aims to build a robot that can pass the entrance examinations for the University of Tokyo (commonly known as Todai) by 2021.
+
 Arai became director of the project in 2011.
+
 At a 2017 TED Talk, she reported that her system could achieve a score better than 80% of the applicants to the university; however, this was still not a passing score.
+
 Arai sees the success of the project as evidence that human education should concentrate more on problem solving and creativity, and less on rote learning.
+
 Arai is also the founder of Researchmap, "the largest social network for researchers in Japan". She was one of 15 top artificial intelligence researchers invited by French president Emmanuel Macron to join him in March 2018 for the announcement of a major new French initiative for artificial intelligence research.

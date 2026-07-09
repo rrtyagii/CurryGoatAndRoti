@@ -1,12 +1,17 @@
 SimDec, or Simulation decomposition, is a hybrid uncertainty and sensitivity analysis method, for visually examining the relationships between the output and input variables of a computational model.
+
 SimDec maps multivariable scenarios onto the distribution of the model output. This visual analytics approach exposes the underlying nature of the model behavior, including its nonlinear and multivariate interaction effects.
+
 SimDec can be used in any range of science, engineering, and social domains. Existing applications include business and environmental issues.
 
 Method
+
 SimDec operates on Monte Carlo simulation (or measured) data where both output and input values are recorded. At least one thousand observations (or simulated iterations) are typically recommended to preserve the readability of the resulting histograms. An outline of the decomposition algorithm, which is readily available in multiple programming languages, proceeds as follows:
 
 Select the input variables for decomposition. One can use sensitivity indices (see variance-based sensitivity analysis) to define the most influential variables for decomposition or choose them manually according to the decision-problem context (for example, only those input variables that the decision-maker can act upon). Two to three input variables, ordered by decreasing value of their sensitivity indices, usually provide the most meaningful decomposition results.
+
 Divide the inputs into states. The numeric ranges of the inputs are split into several intervals with an equal number of observations in each. For categorical variables, the categories represent states.
+
 Form scenarios. All combinations of states of the selected input variables produce unique scenarios or subsets of the data. For example, if the range of X2 is divided into low, medium and high, and X3 takes values of 1 or 2, six scenarios are formed:
 (i) X2 low & X3 = 1,
 (ii) X2 low & X3 = 2,
@@ -15,10 +20,13 @@ Form scenarios. All combinations of states of the selected input variables produ
 (v) X2 high & X3 = 1, and
 (vi) X2 high & X3 = 2.
 Assign scenarios to each output value. The simulation data is used to define the scenario index for each simulation run. For example, if an X2 value falls into the low state and X3 is equal to 2, the corresponding scenario, defined in Step 3, is (ii).
+
 Color-code the output distribution. When all output values are assigned scenario indices, they are plotted as series in a stacked histogram, visually separated by color-coding. For ease of visual perception, the states of the most influential input variable are assigned distinct colors, and all the remaining partitions take shades of those colors (see Figure).
+
 All of these steps can be run automatically on the given data using the open-source SimDec packages currently available in Python, R, Julia, and Matlab. A SimDec template in Excel runs a Monte Carlo simulation of a spreadsheet model but possesses only a manual option for input selection.
 
 How to read SimDec
+
 Histogram
 Histogram is an approximate representation of the distribution of numerical data. Its horizontal axis shows the range of the variable of interest, and its vertical axis denotes count, also called frequency, or, if divided by the total number of data points, probability.
 The distribution alone can supply only limited information about the data – its minimum, maximum, and shape (where the most of data occurs).
@@ -28,13 +36,17 @@ If an input variable has no effect on the output, its states (e.g., low & high) 
 While the horizontal displacement of sub-distributions on the SimDec histogram is the key to interpreting the results, the vertical disposition of sub-distributions is just a technical matter of the order of plotting the series of the stacked histogram.
 
 Exploring the interaction of inputs
+
 When two or more input variables are used for decomposition, it becomes possible to examine their joint effects. A schematic visualization portrays how different types of joint effects of input variables on the output appear on SimDec visualization.
 
 Understanding the nature of interaction effects in a computational model and its behavior in general is crucial for effective decision-making.
 
 Limitations
+
 The SimDec method has several limitations:
 
 It is based on Monte Carlo simulation and thus requires running a computational model a thousand of times or more. To models that take hours to evaluate once, it would be impossible to use SimDec (unless a supercomputer and/or large of time are available).
+
 SimDec is based on a histogram, thus, for binary or categorical output variables, the visualization would be very limited (e.g., only a few bins).
+
 The more input variables one selects for the decomposition, the less readable the histogram becomes. Only cases with two and three input variables are presented in.

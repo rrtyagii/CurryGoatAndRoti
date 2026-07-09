@@ -1,17 +1,25 @@
 Visual servoing, also known as vision-based robot control and abbreviated VS, is a technique which uses feedback information extracted from a vision sensor (visual feedback) to control the motion of a robot. One of the earliest papers that talks about visual servoing was from the SRI International Labs in 1979.
 
 Visual servoing taxonomy
+
 There are two fundamental configurations of the robot end-effector (hand) and the camera:
 
 Eye-in-hand, or end-point open-loop control, where the camera is attached to the moving hand and observing the relative position of the target.
+
 Eye-to-hand, or end-point closed-loop control, where the camera is fixed in the world and observing the target and the motion of the hand.
+
 Visual Servoing control techniques are broadly classified into the following types:
 
 Image-based (IBVS)
+
 Position/pose-based (PBVS)
+
 Hybrid approach
+
 IBVS  was proposed by Weiss and Sanderson.  The control law is based on the error between current and desired features on the image plane, and does not involve any estimate of the pose of the target. The features may be the coordinates of visual features, lines or moments of regions.  IBVS has difficulties with motions very large rotations, which has come to be called camera retreat.
+
 PBVS is a model-based technique (with a single camera). This is because the pose of the object of interest is estimated with respect to the camera and then a command is issued to the robot controller, which in turn controls the robot. In this case the image features are extracted as well, but are additionally used to estimate 3D information (pose of the object in Cartesian space), hence it is servoing in 3D.
+
 Hybrid approaches use some combination of the 2D and 3D servoing. There have been a few different approaches to hybrid servoing
 
 2-1/2-D Servoing
@@ -26,14 +34,20 @@ Various features used and their impacts on visual servoing.
 Error and stability analysis of visual servoing schemes.
 
 Survey of existing visual servoing methods
+
 Visual servo systems, also called servoing, have been around since the early 1980s
 , although the term visual servo itself was only coined in 1987.
+
 Visual Servoing is, in essence, a method for robot control where the sensor used is a camera (visual sensor).
+
 Servoing consists primarily of two techniques,
+
 one involves using information from the image to directly control the degrees of freedom (DOF) of the robot, thus referred to as Image Based Visual Servoing (IBVS).
+
 While the other involves the geometric interpretation of the information extracted from the camera, such as estimating the pose of the target and parameters of the camera (assuming some basic model of the target is known). Other servoing classifications exist based on the variations in each component of a servoing system
 ,
 e.g. the location of the camera, the two kinds are eye-in-hand and hand–eye configurations.
+
 Based on the control loop, the two kinds are end-point-open-loop and end-point-closed-loop. Based on whether the control is applied to the joints (or DOF)
 directly or as a position command to a robot controller the two types are
 direct servoing and dynamic look-and-move.
@@ -65,19 +79,24 @@ model of the target velocity is developed and used as a feed-forward input
 in the control loop. Also, mentions the importance of looking into kinematic
 discrepancy, dynamic effects, repeatability, settling time oscillations and lag
 in response.
+
 Corke  poses a set of very critical questions on visual servoing and tries
+
 to elaborate on their implications. The paper primarily focuses the dynamics
 of visual servoing. The author tries to address problems like lag and stability,
 while also talking about feed-forward paths in the control loop. The paper
 also, tries to seek justification for trajectory generation, methodology of axis
 control and development of performance metrics.
+
 Chaumette in  provides good insight into the two major problems with
+
 IBVS. One, servoing to a local minima and second, reaching a Jacobian singularity. The author show that image points alone do not make good features
 due to the occurrence of singularities. The paper continues, by discussing the
 possible additional checks to prevent singularities namely, condition numbers
 of J_s and Jˆ+_s, to check the null space of ˆ J_s and J^T_s . One main point that
 the author highlights is the relation between local minima and unrealizable
 image feature motions.
+
 Over the years many hybrid techniques have been developed. These
 involve computing partial/complete pose from Epipolar Geometry using multiple views or multiple cameras. The values are obtained by direct estimation or through a learning or a statistical scheme. While others have used
 a switching approach that changes between image-based and position-based
@@ -99,6 +118,7 @@ view and that a depth estimate be predetermined by some off-line technique.
 preceded it. Another interesting observation with this formulation is that
 the authors claim that the visual Jacobian will have no singularities during
 the motions.
+
 The hybrid technique developed by Corke and Hutchinson, popularly called portioned approach partitions the visual (or image) Jacobian into
 motions (both rotations and translations) relating X and Y axes and motions related to the Z axis. outlines the technique, to break out columns
 of the visual Jacobian that correspond to the Z axis translation and rotation
@@ -127,10 +147,15 @@ This section discusses the work done in the field of visual servoing. We try
 to track the various techniques in the use of features. Most of the work
 has used image points as visual features. The formulation of the interaction
 matrix in  assumes points in the image are used to represent the target.
+
 There has some body of work that deviates from the use of points and use
+
 feature regions, lines, image moments and moment invariants.
+
 In, the authors discuss an affine based tracking of image features.
+
 The image features are chosen based on a discrepancy measure, which is
+
 based on the deformation that the features undergo. The features used were
 texture patches. One of key points of the paper was that it highlighted the
 need to look at features for improving visual servoing.
@@ -183,6 +208,7 @@ authors carry out experimental evaluation of a few uncalibrated visual servo
 systems that were popular in the 90’s. The major outcome was the experimental evidence of the effectiveness of visual servo control over conventional
 control methods.
 Kyrki et al. analyze servoing errors for position based and 2-1/2-D
+
 visual servoing. The technique involves determining the error in extracting
 image position and propagating it to pose estimation and servoing control.
 Points from the image are mapped to points in the world a priori to obtain a mapping (which is basically the homography, although not explicitly stated
@@ -216,4 +242,5 @@ pose.
 Software
 Matlab toolbox for visual servoing.
 Java-based visual servoing simulator. Archived 2010-09-24 at the Wayback Machine
+
 ViSP (ViSP states for "Visual Servoing Platform") is a modular software that allows fast development of visual servoing applications.

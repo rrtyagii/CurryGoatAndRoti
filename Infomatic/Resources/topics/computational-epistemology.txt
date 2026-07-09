@@ -1,6 +1,7 @@
 Computational epistemology is a subdiscipline of formal epistemology that studies the intrinsic complexity of inductive problems for ideal and computationally bounded agents. In short, computational epistemology is to induction what recursion theory is to deduction. It has been applied to problems in philosophy of science.
 
 Themes
+
 Some of the themes of computational epistemology include:
 
 the essential likeness of induction and deduction (as illustrated by systematic analogies between their respective complexity classes)
@@ -13,6 +14,7 @@ a set of admissible methods
 the notion of logical reliability for inductive problems
 
 Quotations
+
 Computational epistemology definition:
 
 "Computational epistemology is an interdisciplinary field that concerns itself with the relationships and constraints between reality, measure, data, information, knowledge, and wisdom" (Rugai, 2013)

@@ -1,21 +1,29 @@
 The reality-virtuality continuum is a theoretical framework that describes the continuous scale between the completely virtual, a virtuality, and the completely real, reality. The reality-virtuality continuum therefore encompasses all possible variations and compositions of real and virtual objects. It has been described as a concept in new media and computer science.
+
 The concept was first introduced in 1994 by Paul Milgram, a professor at University of Toronto that pioneered wearable computing research. Since the inception of the continuum, scholars have argued the continuum should be updated to match the current state of wearable computing systems.
+
 The area between the two extremes, where both the real and the virtual are mixed, is called mixed reality. This in turn is said to consist of both augmented reality, where the virtual augments the real, and augmented virtuality, where the real augments the virtual. This continuum has been extended into a two-dimensional plane of virtuality and mediality.
+
 The development of virtual reality products has allowed society to integrate and apply AR and AV into various industries like education, e-commerce, entertainment, gaming, and many more. Products such as VR headsets, haptic suits, digital measuring devices, green screens, and smart glasses allow users to interact with reality and virtual objects simultaneously.
 
 Components across the continuum
+
 The reality-virtuality continuum is a continuous scale ranging from the real environment to virtual environment. Mixed reality is the variation between the two environments, based on the composition of real and virtual objects. Augmented reality (AR) and augmented virtuality (AV) are mixed realities on the continuum, located based on their composition towards the two extremes.
 
 Real Environments
+
 The real environment contains the physical and tangible world, where all things occur naturally, and not artificially made. The interaction of biotic factors such as animals, plants, and abiotic factors such as water, air, natural resources, are naturally occurring and physical. In contrast to the real environment, is the virtual environment which synthetically builds virtual content through computers. The real environment includes the interaction of individuals with the physical aspects of the environment.
 
 Virtual Environments
+
 A virtual environment simulates aspects of human sensory using digital information through computer networks. Users are able to interact with computer environments such as emails, chatlogs, and documented sharing through the web at a surface level. Virtual environments can progress to immersive virtual environments (IVEs) when individuals are in a psychological state perceiving themselves existing within the virtual environment.
 
 Mixed Reality
+
 Mixed reality is the application of technology that merges the virtual and real environment by simulating physical environments in the digital world. Human senses such as sight, hearing, and touch can be replicated and simulated by technology to simulate real world occurrences. An individual's perception of reality shifts based on the composition of real and virtual objects implemented. Virtual content blends real and virtual environments by adapting and responding to user interactions to simulate realities.
 
 Augmented Reality
+
 Augmented reality (AR) applies digital information onto the real world, enhancing human perception of real physical surroundings overlaid with digital content. AR is positioned towards the real environment as virtual objects are integrated into the real environment. The main focus of AR applications is to enhance and augment the real environment, with virtual objects. Virtual objects are spatially registered to the real world, where users can see and interact with the real environment continuously.
 
 Augmented Virtuality
@@ -23,34 +31,50 @@ Augmented virtuality (AV) integrates real-world objects to the virtual environme
 
 History
 Predating the Continuum
+
 Early characterizations of technologies within the continuum can be dated back to the 1970s when Myron Krueger first introduced the terms 'artificial reality` and `video place`. While earning his Computer Science Ph.D at the University of Wisconsin-Madison, his early interactive computer graphics work marks him as a first generation researcher in the space. In the 1980s, the "God-father of VR", Jarod Lainer founded VPL Research, one of the earliest companies to develop and sell VR products. During his 20s, he conducted a widely distributed interview with Whole Earth Review, where he shares ideas of the possible applications for virtual reality as well as dissecting a framework for virtual reality.
 
 Origins of the Reality–Virtuality Continuum
 In 1994, Paul Milgram, Haruo Takemura, Akira Utsumi and Fumio Kishino published "Augmented Reality: A class of displays on the reality-virtuality continuum". They were the first to coin the term 'virtuality-reality continuum' in this article, defining the continuum as a continuous line, where the endpoints consist of the real environment and the virtual environment. The article categorized existing mixed reality hardware within the continuum based on a three dimensional framework based on extent of world knowledge, reproduction fidelity and extent of presence.
 
 Applications
+
 AR Technology
+
 Current applications of hardware including Augmented Reality (AR) technologies, mixing real and virtual environments can start even inside classrooms. For example, some online science textbooks today may include interactive pop-up simulations. Additionally, children use AR technology in classrooms to build their own 3D story books by using various programs downloaded into computers. One of the most used includes the program known as Zooburst.
+
 More complex applications of AR technologies include the innovation of Augmented Reality through Graphic Overlays on Stereovideo (ARGOS), a system that was made to get real world information out of online machinery. The most notable applications of this technology come from digital measuring devices such as rulers and tape measures, often used in current telephone applications, as well as online technology companies such as Amazon’s “try on” methods, allowing users to measure products in a real environment before purchasing anything.
 
 AV Technology
+
 Augmented Virtuality (AV) technologies aim to do the inverse of AR, that is, to bring the real world into a virtual space/environment. The most advertised technologies in today’s world include the use of green screen, where a real object is placed in a completely virtual environment and is often seen in weather forecasting or online meeting applications such as Zoom or Apple’s FaceTime.
 
 VR Technology
+
 Current Virtual Reality(VR) tools include 3D modeling softwares such as AutoDesk applications such as AutoCAD, as well as the 3D animation software Cinema4D. In the world of completely virtual environments, VR headsets are also a crucial part in describing the virtual side of the continuum. As the name describes, VR technologies aim to synthesize the real world, where humans are immersed into the said “cyberspace” to satisfy sensory stimuli to a sense of reality.
+
 VR headsets also utilize stimuli techniques known as Haptic Sensing and Haptic Feedback. Haptic Sensing uses real time information that is gathered from human interaction and produces virtual results. An example of this in Human Machine Interaction (HMI) derives from virtual instrument applications where users' hand movement produces sounds in real time.  Haptic Feedback is the inverse interaction technique, creating a stimuli that is felt by the user as a result of virtual interactions that makes the environment seem as real as possible. Some VR games that include more intense scenes and gameplay are programmed to create vibrational stimuli felt by the user.
 
 Military Applications
+
 Within the military, training and simulation is currently the primary application of XR/AR systems. Live-fire drills are replaced through virtual scenarios, making the training process much more efficient and cost effective. Smart glasses can also be utilized in high-risk situations for maintenance to improve accuracy and safety.
+
 The United States Army is also actively funding research and development of XR/AR technologies for eventual military deployment. In 2018 Microsoft was awarded a $22 billion Other Transaction Agreement (OTA) over the next 10 years to develop the Integrated Visual Augmentation System (IVAS), an AR system for improving situational awareness in combat. The headsets are able to display information traditionally only available to commanders directly to individual combat units, improving the capabilities of dismounted soldiers. There have been several variants of the IVAS since its inception, each adding incremental improvements to the user comfort, communication, and night-vision capabilities.
+
 In 2025 the IVAS contract was transferred through a contract novation to Anduril Industries and Rivet Industries under a new name, the Soldier Borne Mission Command (SBMC) program. Anduril now oversees the development and production of the IVAS system, taking over the original contract from Microsoft, alongside an additional $159 million contract. IVAS will be built upon Anduril’s Lattice platform and Microsoft Azure, allowing the IVAS headsets to leverage sensor fusion, computer vision, machine learning, and artificial intelligence capabilities.
+
 In October 2025, Anduril announced EagleEye in partnership with Meta, Oakley, Qualcomm and Gentex. The EagleEye headset enhances visual perception and improves battlefield communication by providing soldiers with combat information and mission objectives. In an announcement video a soldier can be seen interacting with the headset through the heads-up display, using the headset to plan a mission, place visual markers in connection with his rifle, and observe enemies and fellow soldiers through a physical wall.
 
 Future considerations
+
 Privacy concerns
+
 As with any software systems, devices across the virtuality-reality continuum pose a data privacy risk for users. In August 2022, Meta removed the Facebook login requirement for Quest headset users, replacing it with a new Meta Horizon profile. Users no longer needed to tie their real names to their Quest accounts, and any previous users who had logged into Quest systems through Facebook could decouple their identity information by creating a new Meta Horizon account.
+
 Wearable devices can also be utilized to counteract modern surveillance systems. Mann describes different methods of counteracting surveillance by using wearable cameras and screens to extend reality. By repositioning surveillance technologies onto the user, such devices can playfully counteract the modern panopticon of social surveillance in public spaces, as to "surveil the surveillance”.
 
 Motion sickness
+
 Developing immersive consumer virtual reality/augmented reality systems is a highly complex hardware engineering problem. As companies seek to improve the hardware specifications, user experience can be improved and virtual reality motion sickness  can be mitigated.
+
 Advancing optics and display systems can advance stereoscopic image quality and improve immersion. Current top of the line consumer devices like the Bigscreen Beyond, utilizes aspheric lenses to minimize the physical lens system whilst maintaining a wide field of view. Maximizing field of view in these systems can mitigate the tunnel-vision effect that causes VR motion sickness. Improving the display systems of XR headsets can help mitigate motion sickness. LCD and OLED displays with high refresh rates and high resolution can reduce visual artifacts and mitigate the screen-door effect.

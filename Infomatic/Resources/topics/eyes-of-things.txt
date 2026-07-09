@@ -1,7 +1,9 @@
 Eyes of Things (EoT) is the name of a project funded by the European Union’s Horizon 2020 Research and Innovation Programme under grant agreement number 643924. The purpose of the project, which is funded under the Smart Cyber-physical systems topic, is to develop a generic hardware-software platform for embedded, efficient (i.e. battery-operated, wearable, mobile), computer vision, including deep learning inference.
+
 On November 29, 2018, the European Space Agency announced that it was testing the suitability of the device for space applications in advance of a flight in a Cubesat.
 
 Motivation
+
 EoT is based on the following tenets:
 
 Future embedded systems will have more intelligence and cognitive functionality. Vision is paramount to such intelligent capacity

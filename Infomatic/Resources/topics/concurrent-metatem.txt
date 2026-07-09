@@ -1,15 +1,21 @@
 Concurrent MetateM is a multi-agent language in which each agent is programmed using a set of (augmented) temporal logic specifications of the behaviour it should exhibit. These specifications are executed directly to generate the behaviour of the agent. As a result, there is no risk of invalidating the logic as with systems where logical specification must first be translated to a lower-level implementation.
+
 The root of the MetateM concept is Gabbay's separation theorem; any arbitrary temporal logic formula can be rewritten in a logically equivalent past → future form. Execution proceeds by a process of continually matching rules against a history, and firing those rules when antecedents are satisfied. Any instantiated future-time consequents become commitments which must subsequently be satisfied, iteratively generating a model for the formula made up of the program rules.
 
 Temporal Connectives
+
 The Temporal Connectives of Concurrent MetateM can divided into two categories, as follows:
 
 Strict past time connectives: '●' (weak last), '◎' (strong last), '◆' (was), '■' (heretofore), 'S' (since), and 'Z' (zince, or  weak since).
+
 Present and future time connectives: '◯' (next), '◇' (sometime), '□' (always), 'U' (until), and 'W' (unless).
+
 The connectives {◎,●,◆,■,◯,◇,□} are unary; the remainder are binary.
 
 Strict past time connectives
+
 Weak last
+
 ●ρ is satisfied now if ρ was true in the previous time. If ●ρ is interpreted at the beginning of time, it is satisfied despite there being no actual previous time.  Hence "weak" last.
 
 Strong last

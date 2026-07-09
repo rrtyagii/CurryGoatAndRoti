@@ -1,5 +1,7 @@
 Irene Solaiman is an American artificial intelligence and public policy researcher. She serves as Chief Policy Officer at Hugging Face since 2025, previously serving as Head of Global Policy at Hugging Face since 2022. She was previously a researcher at OpenAI where she was the first person to test for social-impact bias on large language models.
 
 Life
+
 Solaiman obtained her education from the Harvard Kennedy School getting a master's in public policy and before that a bachelor's in international relations from the University of Maryland.
+
 In 2019, Solaiman was an artificial intelligence (AI) researcher and served as a public policy manager at OpenAI. While there, she worked on GPT-2 and GPT-3. Of Bangladeshi descent, Solaiman tested the Bengali language on the GPT language models. She was the first person to test for social-impact bias on large language models. She was later an AI policy manager at Zillow for almost a year. In April 2022, Solaiman became the head of global policy at Hugging Face.

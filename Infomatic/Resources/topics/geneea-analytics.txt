@@ -1,10 +1,17 @@
 Geneea Analytics s.r.o. (Geneea) is a software company based in Prague, Czech Republic, specializing in NLP and AI solutions for news media.
+
 The company was founded in 2014 by Jiří Hana and Petr Hamerník with the aim of applying computational linguistics to commercial software.
+
 In 2019, the company formalised a cooperation agreement with Charles University.
 
 Products and activities
+
 Since 2018, the company has focused on "robotic journalism" and editorial automation. Its tools include a semantic tagger for metadata enrichment and a research assistant using retrieval-augmented generation (RAG) to query news archives.
+
 Geneea provides automation for international publishers, including The Atlantic, The Hindu, and Mediahuis.
+
 In 2025, it became a technology partner for Stibo DX, integrating its AI tools into the CUE content management system. The technology is also used by Newton Media, a media monitoring provider in Central and Southeast Europe, to recognize and link named entities in a large amount of news content.
+
 Since 2020, the company has collaborated with the Czech News Agency (ČTK) to generate automated reports on election results and economic data. This project represented the first commercial application of natural language generation in the Czech Republic.
+
 Apart from media, the company provides automated review summarization for the price comparison site Heureka.cz and customer feedback analysis. It has been cooperating with Keboola, a cloud-based data analytics platform, on GenAI solutions.

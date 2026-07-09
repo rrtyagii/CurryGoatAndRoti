@@ -1,6 +1,9 @@
 Qizx is a proprietary XML database that provides native storage for XML data.
+
 Qizx was initially developed by Xavier Franc of Axyana and was purchased by Qualcomm in 2013.  Qizx was re-released by Qualcomm in late 2014 on Amazon Web Services.
 
 Packaging and bindings
+
 The Qizx database can be configured to run embedded into an application, in a hosted client-server environment, or as a software service hosted on Amazon Web Services.  The client-server version supports database clustering for both load balancing and data redundancy.  Qizx is bundled with a multi-platform GUI client and can also be accessed through a RESTful API that includes embedded online documentation.
+
 Qizx includes bindings in Java, Python, C and C# as well as native XPath and XQuery support.  Qizx also provides a number of extensions to the XQuery language for updating documents, accessing document metadata and various other tasks.

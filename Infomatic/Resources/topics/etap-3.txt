@@ -1,14 +1,19 @@
 ETAP-3 is a proprietary linguistic processing system focusing on English and Russian. It was developed in Moscow, Russia at the Institute for Information Transmission Problems (ru:Институт проблем передачи информации им. А. А. Харкевича РАН). It is a rule-based system which uses the Meaning-Text Theory as its theoretical foundation. At present, there are several applications of ETAP-3, such as a machine translation tool, a converter of the Universal Networking Language, an interactive learning tool for Russian language learners and a syntactically annotated corpus of Russian language. Demo versions of some of these tools are available online.
 
 Machine translation tool
+
 The ETAP-3 machine translation tool can translate text from English into Russian and vice versa. It is a rule-based system, which makes it different from the most present-day systems that are predominantly statistical-based. The system makes a syntactical analysis of the input sentence, which can be visualized as a syntax tree.
+
 The machine translation tool uses bilingual dictionaries which contain more than 100,000 lexical entries.
 
 UNL converter
+
 The UNL converter based on ETAP-3 can transform English and Russian sentences into their representations in UNL (Universal Networking Language) and generate English and Russian sentences from their UNL representations.
 
 Russian language treebank
+
 A syntactically annotated corpus (treebank) is a part of Russian National Corpus. It contains 40,000 sentences (600,000 words) which are fully syntactically and morphologically annotated. The primary annotation was made by ETAP-3 and then manually verified by competent linguists. This makes the syntactically annotated corpus a reliable tool for linguistic research.
 
 Lexical functions learning tool
+
 The ETAP-3 system makes extensive use of lexical functions explored in  the Meaning-Text Theory. For this reason, an interactive tool for Russian language learners aiming at the acquisition of lexical functions has been developed. Such learning tools are now being created for German, Spanish and Bulgarian

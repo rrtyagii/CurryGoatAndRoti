@@ -1,45 +1,71 @@
 DeviantArt (formerly styled as deviantART and thus abbreviated as dA) is an American online community that features artwork, videography, photography, and literature, launched on August 7, 2000, by Mathew Stephens, Scott Jarkoff and Angelo Sotira, among others.
+
 DeviantArt is headquartered in the Hollywood area of Los Angeles, California. DeviantArt had about 36 million visitors annually by 2008. In 2010, DeviantArt users were submitting about 1.4 million favorites and about 1.5 million comments daily. In 2011, it was the thirteenth largest social network with about 3.8 million weekly visits. Several years later, in 2017, the site had more than 25 million members and more than 250 million submissions. In 2025, it reached a new milestone with 100 million registered users.
+
 In February 2017, the website was acquired by Israeli software company Wix.com in a $36 million deal. Since 2020, the site has seen an exodus of much of its userbase following decisions related to site design, AI, NFTs, and a large number of scam accounts populating the site.
 
 History
+
 Creation
+
 DeviantArt (initially written Deviant Art, and later deviantART) started as a site connected with people who took computer applications and modified them to their own tastes, or who posted the applications from the original designs. As the site grew, members in general became known as artists and submissions as arts. Deviant Art was originally launched on August 7, 2000, by Scott Jarkoff, Matt Stephens, Angelo Sotira, and others, as part of a larger network of music-related websites called the Dmusic Network. The site flourished largely because of its unique offering and the contributions of its core member base and a team of volunteers after its launch, but it was officially incorporated in 2001 about eight months after launch. DeviantArt introduced various logo redesigns over the years, among those the iconic "dA" (short for deviantART) arc used as backdrop for the wordmark as well as their logo.
+
 DeviantArt was loosely inspired by projects like Winamp facelift, customize.org, deskmod.com, screenphuck.com, and skinz.org, all application skin-based websites. Sotira entrusted all public aspects of the project to Scott Jarkoff as an engineer and visionary to launch the early program. All three co-founders shared backgrounds in the application skinning community, but it was Matt Stephens whose major contribution to DeviantArt was the suggestion to take the concept further than skinning and more toward an art community. Many of the individuals involved with the initial development and promotion of DeviantArt still hold positions with the project. Angelo Sotira was the chief executive officer until June 2022 and was succeeded by Moti Levy.
+
 On November 14, 2006, DeviantArt introduced the option to submit their works under Creative Commons licenses giving the artists the right to choose how their works can be used. A Creative Commons license is one of several public copyright licenses that allow the distribution of copyrighted works. On September 30, 2007, a film category was added to DeviantArt, allowing artists to upload videos. An artist and other viewers can add annotations to sections of the film, giving comments or critiques to the artist about a particular moment in the film. In 2007, DeviantArt received $3.5 million in Series A (first round) funding from undisclosed investors, and in 2013, it received $10 million in Series B funding.
+
 On December 4, 2014, the site unveiled a new logo, with sharp lines and angles (visually similar to the not-equal sign ≠), and announced the release of an official mobile app on both iOS and Android, released on December 10, 2014. On February 23, 2017, DeviantArt was acquired by Wix.com, Inc. for $36 million. The site plans to integrate DeviantArt and Wix functionality, including the ability to utilize DeviantArt resources on websites built with Wix, and integrating some of Wix's design tools into the site. As of March 1, 2017, Syria was banned from accessing DeviantArt's services entirely, citing US and Israeli sanctions and aftermath on February 19, 2018. After Syrian user Mythiril used a VPN to access the site and disclosed the geoblocking in a journal, titled "The hypocrisy of deviantArt," DeviantArt ended the geoblocking except for commercial features.
+
 In autumn of 2018, spambots began hacking into an indeterminately large number of long-inactive accounts and placing spam Weblinks in their victims' About sections (formerly known as DeviantIDs), where users of the site display their public profile information. An investigation into this matter began in January 2019. This situation ended sometime in late 2021, however other forms of spam accounts have since been a common occurrence on the site ongoing as of 2025.
+
 In November 2022, DeviantArt launched DreamUp, an artificial intelligence image-generation tool based on Stable Diffusion. The release of DreamUp led to DeviantArt’s inclusion in a copyright infringement lawsuit, alongside Stability AI and Midjourney.
+
 In 2024, DeviantArt reported its creators sold over $14 million, and that more than 220,000 users purchased artworks from over 26,000 sellers.
+
 In 2025, Wix announced that DeviantArt would discontinue DeviantArt Muro on July 15 and switch to DeviantArt Draw.
 
 Copyright and licensing issues
+
 There is no review for potential copyright and Creative Commons licensing violations when a work is submitted to DeviantArt, so potential violations can remain unnoticed until reported to administrators using the mechanism available for such issues. Some members of the community have been the victims of copyright infringement from vendors using artwork illegally on products and prints, as reported in 2007. The reporting system in which to counteract copyright infringement directly on the site has been subject to a plethora of criticism from members of the site, given that it may take weeks, or even a month before a filed complaint for copyright infringement is answered.
 
 Contests for companies and academia
+
 Due to the nature of DeviantArt as an art community with a worldwide reach, companies use DeviantArt to promote themselves and create more advertising through contests. CoolClimate is a research network connected with the University of California, and they held a contest in 2012 to address the impact of climate change. Worldwide submissions were received, and the winner was featured in The Huffington Post.
+
 Various car companies have held contests. Dodge ran a contest in 2012 for art of the Dodge Dart and over 4,000 submissions were received. Winners received cash and item prizes, and were featured in a gallery at Dodge-Chrysler headquarters. Lexus partnered with DeviantArt in 2013 to run a contest for cash and other prizes based on their Lexus IS design; the winner's design became a modified Lexus IS and was showcased at the SEMA 2013 show in Los Angeles, California.
+
 DeviantArt hosts contests for upcoming movies, such as Riddick. Fan art for Riddick was submitted, and director David Twohy chose the winners, who would receive cash prizes and some other DeviantArt-related prizes, as well as having their artwork made into official fan-art posters for events. A similar contest was held for Dark Shadows where winners received cash and other prizes. Video games also conduct contests with DeviantArt, such as the 2013 Tomb Raider contest. The winner had their art made into an official print sold internationally at the Tomb Raider store and received cash and other prizes. Other winners also received cash and DeviantArt-related prizes.
 
 Litigation
+
 In January of 2023, three artists Sarah Andersen, Kelly McKernan, and Karla Ortiz filed a copyright infringement lawsuit against Stability AI, Midjourney, and DeviantArt, claiming that these companies have infringed the rights of millions of artists by training AI tools on five billion images scraped from the web without the consent of the original artists. In July 2023, U.S. District Judge William Orrick inclined to dismiss most of the lawsuit filed by Andersen, McKernan, and Ortiz but allowed them to file a new complaint.
 
 Website
+
 The site has over 550 million images which have been uploaded by its over 75 million registered members. By July 2011, DeviantArt was the largest online art community. Members of DeviantArt may leave comments and critiques on individual deviation pages, allowing the site to be called "a [free] peer evaluation application." Along with textual critique, DeviantArt now offers the option to leave a small picture as a comment. This can be achieved using an option of DeviantArt Muro, which is a browser-based drawing tool that DeviantArt has developed and hosts. However, only members of DeviantArt can save their work as deviations. Another feature of Muro is what is called "Redraw"; it records the user as they draw their image, and the user can then post the entire process as a film deviation. Some artists in late 2013 began experimenting with the use of breakfast cereal as the subject of their pieces, although this trend has only started spreading.
+
 Individual deviations are displayed on their own pages, with a list of statistical information about the image, as well as a place for comments by the artist and other members, and the option to share through other social media (Facebook, Twitter, etc.). Prior to Version 9, Deviations were required to be organized into categories when a member uploaded an image and this allowed DeviantArt's search engine to find images concerning similar topics.
+
 Individual members can organize their own deviations into folders on their personal pages. The member pages (profiles) show a member's personally uploaded deviations and journal postings. Journals are like personal blogs for the member pages, and the choice of topic is up to each member; some use it to talk about their personal or art-related lives, others use it to spread awareness or marshal support for a cause. Also displayed are a member's favorites, a collection of other users' images from DeviantArt that a member saves to its own folder. Another thing found on the profile page is a member's watchers; a member adds another member to their watch list in order to be notified when that member uploads something. The watcher notifications are gathered in a member's Message Center with other notices, like when other users comment on that member's deviations, or when the member's image has been put in someone's favorites.
+
 Members can build groups that any registered member of the site can join. These groups are usually based on an artist's chosen medium and content. Some examples of these are Literature (poetry, prose, etc.), Drawing (traditional, digital, or mixed-media), Photography (macro, nature, fashion, stills), and many others. Within these groups are where users do collaborations and have their art featured and introduced to artists of the same kind. DeviantArt does not allow pornographic, sexually explicit and/or obscene material to be submitted; however, "tasteful" nudity is allowed, even as photographs. To view mature artwork and content, members must be at least 18 years of age and to enable the content, they have to make an account. In order to communicate on a more private level, Notes can be sent between individual members, like an email, or direct message, within the site. The other opportunities for communication between members are DeviantArt's forums, for more structured, long-term discussions, and chat rooms, for group instant messaging.
 
 Versions
+
 DeviantArt has been revising the website in "versions," with each version releasing multiple new features. Coincidentally, the third, fourth and fifth versions of the site were all released on August 7, the "birthday" of the website's founding.
 
 Eclipse (Version 9)
+
 In early November 2018, DeviantArt released a promo site showcasing a new update, titled 'Eclipse'. The site showed that the update would include a minimalist design strategy, a dark mode option, modified CSS editing, improved filtering through a 'Love Meter,' profile headers, and other cosmetic changes and improvements. The update would also include no third-party advertisements and improved features for the site's Core users.
+
 On November 14, 2018, a beta version of the Eclipse site was made available for Core Members who marked their accounts for beta testing. As of November 21, 2018, the site reported that over 4,000 users tried Eclipse and that the site received almost 1,700 individual feedback reports; these included bug reports, feature requests, and general commentary. On March 6, 2019, DeviantArt officially released Eclipse to all users, with a toggle to switch back to the old site. On May 20, 2020, the previous User Interface was discontinued from access, leaving only Eclipse available.
+
 In July 2021, a feature called DeviantArt Protect was added that notifies members if their copyright has potentially been infringed. This feature was extended to include tracking non-fungible tokens on Web3 marketplaces in May 2022.
+
 More selling options for members were added between 2022 and 2023. In September 2022, DeviantArt introduced a subscription service, allowing members to receive funding from their fans. DeviantArt charges a commission of 2.5 to 12 percent, as well as payment processing fees, on this funding. In March 2023, a way to sell ownership of individual artwork called Adoptables, named after the well-established onsite practice of artists selling premade character designs, was released. The Adoptables tool was later renamed to Exclusives in October 2023.
 
 Live events
+
 deviantART Summit
 On June 17 and 18, 2005, DeviantArt held their first convention, the deviantART Summit, at the Palladium in the Hollywood area of Los Angeles, California, United States. The summit consisted of several exhibitions by numerous artists, including artscene groups old and new at about 200 different booths. Giant projection screens displayed artwork as it was being submitted live to DeviantArt, which was receiving 50,000 new images daily at the time.
 
@@ -47,4 +73,5 @@ deviantART World Tour
 Starting May 13, 2009, DeviantArt embarked on a world tour, visiting cities around the world, including Sydney, Singapore, Warsaw, Istanbul, Berlin, Paris, London, New York City, Toronto and Los Angeles. During the world tour, the new "Portfolio" feature of DeviantArt was previewed to attendees.
 
 "Birthday Bashes" and deviantMEET
+
 Occasionally, DeviantArt hosts a meeting for members to come together in real life and interact, exchange, and have fun. There have been meetings for the birthday of DeviantArt, called "Birthday Bashes," as well as simple general get-togethers around the world. In 2010, European DeviantArt members held a deviantMEET to celebrate DeviantArt's birthday in August. There was also a celebration that year in the House of Blues in Hollywood, California.

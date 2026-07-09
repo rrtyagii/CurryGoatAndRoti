@@ -1,8 +1,13 @@
 Daniel Polani is a professor of Artificial Intelligence and Director of the Centre for Computer Science and Informatics Research (CCSIR), and Head of the Adaptive Systems Research Group, and leader of the SEPIA (Sensor Evolution, Processing, Information and Actuation) Lab at the University of Hertfordshire.
+
 Daniel Polani is best known for his work in artificial intelligence, cognitive science and robotics, applying the tools of information theory to cognitive modelling and analysing intelligent agent behaviour and decision making in complex adaptive systems and sensor evolution.
+
 Rooted in embodied cognition and dynamical systems Polani's work on relevant information and empowerment stem from the concept of organisms as Shannon information processing entities and the treatment of the perception-action loop as an information channel.
 
 Editorial positions
+
 Associate Editor of Journal of Autonomous Agents and Multi-Agent Systems
+
 Associate Editor of Advances in Complex Systems
+
 Editorial Board Member of Paladyn, Journal of Behavioral Robotics

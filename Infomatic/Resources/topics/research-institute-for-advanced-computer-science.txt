@@ -1,6 +1,9 @@
 The Research Institute for Advanced Computer Science (RIACS) was founded June 1, 1983 as a joint collaboration between the  Universities Space Research Association (USRA) and the  NASA Ames Research Center. The Institute was created to conduct basic and applied research in computer science, covering a broad range of research topics of interest to the aerospace community including supercomputing, computational fluid dynamics, computational chemistry, high performance networking, and artificial intelligence.
+
 Since its inception, a goal of the Institute’s research has been to support scientific research and engineering from problem formulation to results dissemination, combining concurrent processing systems with intelligent systems to allow users to interact in the language of their discipline.  This goal has since expanded to support a broad range of activities associated with space exploration and science, including mission operations and innovative information systems for technology research and development.
+
 An underlying philosophy and approach of the Institute is that successful research is interdisciplinary, and that challenging applications associated with NASA’s mission provide a driving force for developing innovative information systems and advancing computer science. To implement this approach, research staff undertakes collaborative projects with research groups at NASA, integrating computer science with other disciplines to support NASA’s mission.
+
 Over its nearly twenty five-year history, RIACS has acted as a bridge between academia and government research, engaging talented researchers from around the world to collaborate with NASA on challenging research topics. RIACS has also acted as a bridge between industry and the government to mature information technologies for infusion into NASA operations, enabling broader public benefit from research results.
 For  NASA, RIACS has collaborated most closely with the Intelligent Systems Division and the  NASA Advanced Supercomputing Division (NAS) at the  NASA Ames Research Center – NASA’s Center for Excellence in Information Technology. RIACS, which was formed the same year as the NAS, worked closely with the division in its early years to develop a strong competency in supercomputing and computational fluid dynamics at NASA.  RIACS helped establish the Intelligent Systems Division, and has since collaborated closely with the division to develop and infuse a number of software innovations in the areas of autonomous systems; intelligent information management and data understanding; and human-centered computing.
 
@@ -14,12 +17,19 @@ Clarissa voice-operated procedure browser – used on the  International Space S
 Program Management Tool – used to manage billions of dollars of  NASA programs and projects with case studies showing 85% reduction in financial reporting time, elimination of 40% discrepancy rates in non-advocate review milestone data, and elimination of 30% error rates in baseline project plans.
 
 Purpose and Charter
+
 The stated purpose of RIACS since its formation is to:
 
 Provide an interface between the NASA Ames Research Center and the academic community and serve as a center of cooperation for activities conducted in areas of advanced computer science and engineering, applied mathematics, and the application of computers to NASA’s scientific and engineering challenges.
+
 Conduct independent research activities with the objective of developing concepts, techniques, or prototypes in computationally related disciplines to enhance problem-solving capabilities in scientific and engineering fields of interest to the aerospace community.
+
 Improve cooperative research efforts of government, industry, and academia toward the solution of problems requiring advanced computational facilities.
+
 Enhance technology transfer between universities, industry and other government agencies by conventional means, including encouragement of the rapid dissemination of preprint reports by institute personnel, presentations at symposia and publications in appropriate journals.
+
 Strengthen ties between the general academic and industrial communities and  NASA’s Ames Research Center to further develop in-house programmatic activities in computer science and technology.
+
 Carry out a variety of additional activities, including lecture programs and visiting scientist programs,  as well as provide consultation and collaboration with NASA Ames on topics in the fields of computer science and applied mathematics.  RIACS personnel may lend support to local universities through the direction of dissertations, service on research committees, and participation in research seminars.
+
 Engage and leverage an eminent Science Council appointed by USRA to review progress of RIACS, including its research, reports, publications, and other matters that would affect or influence the purpose of the Institute. The Science Council also advises the RIACS Director on research projects, priorities, and resource requirements, and reports to USRA on the scientific activity of the Institute.

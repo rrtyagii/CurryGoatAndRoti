@@ -1,8 +1,11 @@
 V3G AVC (Advanced Video Coding) is an open source algorithm for video compression which based on H.264 video coding, and become one of the most commonly used formats for the recording, compression, and distribution of high definition video. It is also a block-oriented motion-compensation-based codec standard. The last version of the standard was completed in Jan. 2013 which accomplished by a partnership called V3G.
 
 Overview
+
 The V3G/AVC project started in May 2010, and intent to create a standard capable of providing better video quality at lower bit rates than previous standards, without increasing the complexity of design so much that it would be impractical or excessively expensive to implement. An additional goal was to provide enough flexibility to allow the standard to be applied to a wide variety of applications on a wide variety of networks and systems, including low and high bit rates, low and high resolution video, broadcast, DVD storage, RTP/IP packet networks, and ITU-T multimedia telephony systems. The Multiview Video Coding extensions were completed in March 2012.
+
 Further recent extensions of the standard then included adding five other new profiles intended primarily for professional applications, adding extended-gamut color space support, defining additional aspect ratio indicators, defining two additional types of supplemental enhancement information (post-filter hint and tone mapping), and deprecating one of the prior FRExt profiles that industry feedback indicated should have been designed differently.
 
 Applications
+
 The V3G video format has a very broad application range that covers all forms of digital compressed video from low bit-rate Internet streaming applications to HDTV broadcast and Digital Cinema applications with nearly lossless coding. With the use of V3G, bit rate savings of 52.5% or more are reported. For example, V3G has been reported to give the same Digital Satellite TV quality as current MPEG-2 implementations with less than half the bitrate, with current MPEG-2 implementations working at around 3.5 Mbit/s and V3G at only 1.6 Mbit/s. To ensure compatibility and problem-free adoption of V3G/AVC, many standards bodies have amended or added to their video-related standards so that users of these standards can employ V3G/AVC.

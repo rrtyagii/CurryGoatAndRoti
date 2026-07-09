@@ -1,20 +1,26 @@
 Vijaye Raji is an Indian-origin technology executive and entrepreneur based in the United States. He is the founder and former chief executive of the software experimentation platform Statsig and the original creator of Small Basic. In September 2025, following OpenAI’s agreement to acquire Statsig in an all-stock transaction valued at about $1.1 billion, Raji was appointed OpenAI's Chief Technology Officer of Applications, overseeing engineering for ChatGPT and Codex.
 
 Early life and education
+
 Raji was born into a Tamil family and earned a Bachelor of Engineering degree from Pondicherry University in 1999.
 
 Career
 Microsoft
+
 Raji began his career at Microsoft in the 2000s, working on the Windows Application Framework, SQL Server Modeling Language/Runtime, and the Visual Studio editor. As a side project at Microsoft he created Small Basic, an educational programming language and IDE for beginners.
 
 Facebook/Meta
+
 Raji later joined Facebook (now Meta), where he held senior engineering leadership roles. Facebook's engineering blog profiled him in 2012 while he worked on the Messenger team in Seattle, and regional tech coverage identified him as one of the leaders of Facebook's Seattle engineering office in 2015. Indian business media have also summarized later leadership titles he held at the company.
 
 Statsig
+
 In 2021 Raji founded Statsig, a platform providing A/B testing, feature flags, and real-time decisioning tools used by software teams. Statsig announced a p. $10.4 million Series A funding round in August 2021 led by Sequoia Capital with participation from Madrona Venture Group, followed by a p. $43 million Series B in April 2022, and a p. $100 million Series C at a p. $1.1 billion valuation in May 2025 led by ICONIQ Growth, with Sequoia and Madrona participating. Bloomberg reporting noted that Statsig's services were used by employees at OpenAI, Eventbrite and SoundCloud.
 
 OpenAI
+
 On 2 September 2025, OpenAI announced it would acquire Statsig in an all-stock deal valued at about $1.1 billion, and that Raji would become the company's CTO of Applications. The French wire translation carried by Boursorama likewise confirmed the price and title change, as did Spanish-language Bloomberg coverage. OpenAI stated that Raji would report to Fidji Simo and head product engineering for ChatGPT and Codex, with responsibilities spanning core systems and product lines including infrastructure and integrity; Statsig would continue operating out of its Seattle office.
 
 Small Basic
+
 While at Microsoft, Raji originated Small Basic, a simplified dialect of BASIC with a minimal keyword set and a beginner-friendly IDE. Microsoft's developer community has featured Raji discussing Small Basic's design goals and educational focus.

@@ -1,8 +1,11 @@
 hCard is a microformat for publishing the contact details (which might be no more than the name) of people, companies, organizations, and places, in HTML, Atom, RSS, or arbitrary XML. The hCard microformat does this using a 1:1 representation of vCard (RFC 2426) properties and values, identified using HTML classes and rel attributes.
+
 It allows parsing tools (for example other websites, or Firefox's Operator extension) to extract the details, and display them, using some other websites or mapping tools, index or search them, or to load them into an address-book program.
+
 In May 2009, Google announced that they would be parsing the hCard and hReview and hProduct microformats, and using them to populate search-result pages. In September 2010 Google announced their intention to surface hCard, hReview information in their local search results. In February 2011, Facebook began using hCard to mark up event venues.
 
 Example
+
 Consider the HTML:
 
 With microformat markup, that becomes:
@@ -14,9 +17,11 @@ It is now possible for software, for example browser plug-ins, to extract the in
 
 Geo and adr
 The Geo microformat is a part of the hCard specification, and is often used to include the coordinates of a location within an hCard.
+
 The adr part of hCard can also be used as a stand-alone microformat.
 
 Live example
+
 Here are the Wikimedia Foundation's contact details as of February 2023, as a live hCard:
 
 The mark-up (wrapped for clarity) used is:

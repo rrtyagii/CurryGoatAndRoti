@@ -1,30 +1,46 @@
 A cellular model or virtual cell is a computational model of aspects of a biological cell, for the purposes of in silico research.
+
 Developing such models has been a task of systems biology and mathematical biology. It involves developing efficient algorithms, data structures, visualization and communication tools to orchestrate the integration of large quantities of biological data with the goal of computer modeling. It involves the use of computer simulations of cellular subsystems, such as the networks of metabolites and enzymes which comprise metabolism, signal transduction pathways and gene regulatory networks.
 
 Overview
+
 The eukaryotic cell cycle is very complex and is one of the most studied topics, since its misregulation leads to cancers. It is possibly a good example of a mathematical model as it deals with simple calculus but gives valid results. Two research groups have produced several models of the cell cycle simulating several organisms. They have recently produced a generic eukaryotic cell cycle model which can represent a particular eukaryote depending on the values of the parameters, demonstrating that the idiosyncrasies of the individual cell cycles are due to different protein concentrations and affinities, while the underlying mechanisms are conserved (Csikasz-Nagy et al., 2006).
+
 By means of a system of ordinary differential equations these models show the change in time (dynamical system) of the protein inside a single typical cell; this type of model is called a deterministic process (whereas a model describing a statistical distribution of protein concentrations in a population of cells is called a stochastic process).
+
 To obtain these equations an iterative series of steps must be done: first the several models and observations are combined to form a consensus diagram and the appropriate kinetic laws are chosen to write the differential equations, such as rate kinetics for stoichiometric reactions, Michaelis-Menten kinetics for enzyme substrate reactions and Goldbeter–Koshland kinetics for ultrasensitive transcription factors, afterwards the parameters of the equations (rate constants, enzyme efficiency coefficients and Michaelis constants) must be fitted to match observations; when they cannot be fitted the kinetic equation is revised and when that is not possible the wiring diagram is modified. The parameters are fitted and validated using observations of both wild type and mutants, such as protein half-life and cell size.
+
 In order to fit the parameters the differential equations need to be studied. This can be done either by simulation or by analysis.
+
 In a simulation, given a starting vector (list of the values of the variables), the progression of the system is calculated by solving the equations at each time-frame in small increments.
+
 In analysis, the properties of the equations are used to investigate the behavior of the system depending on the values of the parameters and variables. A system of differential equations can be represented as a vector field, where each vector described the change (in concentration of two or more protein) determining where and how fast the trajectory (simulation) is heading. Vector fields can have several special points: a stable point, called a sink, that attracts in all directions (forcing the concentrations to be at a certain value), an unstable point, either a source or a saddle point which repels (forcing the concentrations to change away from a certain value), and a limit cycle, a closed trajectory towards which several trajectories spiral towards (making the concentrations oscillate).
+
 A better representation which can handle the large number of variables and parameters is called a bifurcation diagram (bifurcation theory): the presence of these special steady-state points at certain values of a parameter (e.g. mass) is represented by a point and once the parameter passes a certain value, a qualitative change occurs, called a bifurcation, in which the nature of the space changes, with profound consequences for the protein concentrations: the cell cycle has phases (partially corresponding to G1 and G2) in which mass, via a stable point, controls cyclin levels, and phases (S and M phases) in which the concentrations change independently, but once the phase has changed at a bifurcation event (cell cycle checkpoint), the system cannot go back to the previous levels since at the current mass the vector field is profoundly different and the mass cannot be reversed back through the bifurcation event, making a checkpoint irreversible. In particular the S and M checkpoints are regulated by means of special bifurcations called a Hopf bifurcation and an infinite period bifurcation.
 
 Molecular level simulations
+
 Cell Collective is a modeling software that enables one to house dynamical biological data, build computational models, stimulate, break and recreate models. The development is led by Tomas Helikar, a researcher within the field of computational biology. It is designed for biologists, students learning about computational biology, teachers focused on teaching life sciences, and researchers within the field of life science. The complexities of math and computer science are built into the backend and one can learn about the methods used for modeling biological species, but complex math equations, algorithms, programming are not required and hence won't impede model building.
+
 The mathematical framework behind Cell Collective is based on a common qualitative (discrete) modeling technique where the regulatory mechanism of each node is described with a logical function [for more comprehensive information on logical modeling, see ].
+
 In the July 2012 issue of Cell, a team led by Markus Covert at Stanford published the most complete computational model of a cell to date. The model of the roughly 500-gene Mycoplasma genitalium contains 28 algorithmically-independent components incorporating work from over 900 sources. It accounts for interactions of the complete genome, transcriptome, proteome, and metabolome of the organism, marking a significant advancement for the field.
+
 Most attempts at modeling cell cycle processes have focused on the broad, complicated molecular interactions of many different chemicals, including several cyclin and cyclin-dependent kinase molecules as they correspond to the S, M, G1 and G2 phases of the cell cycle. In a 2014 published article in PLOS computational biology, collaborators at University of Oxford, Virginia Tech and Institut de Génétique et Développement de Rennes produced a simplified model of the cell cycle using only one cyclin/CDK interaction. This model showed the ability to control totally functional cell division through regulation and manipulation only the one interaction, and even allowed researchers to skip phases through varying the concentration of CDK. This model could help understand how the relatively simple interactions of one chemical translate to a cellular level model of cell division.
 
 Projects
+
 Multiple projects are in progress.
 
 CytoSolve - Commercial platform, possibly using MATLAB
 Synthecell - Experimental group
 Karyote - Indiana University - No longer active
 E-Cell Project - Last updated 2020
+
 VCell - University of Connecticut Health Center - Simulation platform rather than a build a cell project
 Silicon Cell - No longer active
+
 WholeCell - Stanford University - No longer active
+
 MCell - National Center for Multiscale Modeling of Biological Systems (MMBioS) - Active as of 2023
 Virtual Cell Challenge - competition to develop predictive models of single-cell transcriptional responses to CRISPR perturbations, hosted by Arc Institute and sponsored by Nvidia, 10x Genomics, and Ultima Genomics

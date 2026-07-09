@@ -1,11 +1,15 @@
 Furhat is a back-projected humanoid social robot developed by the Swedish company Furhat Robotics. It is used to facilitate face-to-face interaction between humans and AI by using a combination of projection technology, speech capabilities, and simulated social behaviors that mimic lifelike conversations. It has been deployed in sectors including education, healthcare, recruitment, and transport, and has been used in studies of social robotics at several universities.
 
 Design and features
+
 Furhat consists of a 3D-printed humanoid bust with a translucent mask. Facial expressions are back-projected onto this mask, allowing for the robot to change personas and emotional expressions without mechanical actuators. The robot can communicate through facial expressions, head movements, eye gaze, and eyebrow raising. It is also equipped with computer vision for face tracking and can analyze the expressions of and interact with up to ten people simultaneously.
+
 The robot has a human-like neck design and can mimic human head movement. It includes a 135-degree field-of-view camera, stereo microphones, and a speaker. These features can detect user gaze, speech, and proximity. Its software platform supports speech recognition and synthesis in over 30 languages and developers can build conversational flows using a no-code or Software Development Kit (SDK)  interface.
+
 Furhat's design was the subject of research into socially intelligent robots, particularly in terms of its adaptability and ability to simulate eye contact, emotional responses, and group engagement. Subsequent studies explored design adaptation for personalization that might support Furhat's use and efficiency in educational and service contexts.
 
 Software and integration
+
 Furhat is used for prototype and application development, with researchers and developers able to update Furhat's code to test out verbal and non-verbal features. The robot operates using a modular software platform supported by an official SDK and developer tools provided by Furhat Robotics. Developers can build applications using a domain-specific language based on Kotlin, with built-in support for dialogue flows, intent recognition, and multimodal interaction. The SDK includes a simulator that mirrors the robot's behavior and facial animations, allowing for local testing before deployment. Furhat also provides a Remote API compatible with Python, C#, and JavaScript, enabling control of the robot from external systems over a network. Applications can be developed using integrated development environments such as IntelliJ IDEA and integrated with third-party services such as Amazon Polly and ElevenLabs. Furhat can also be integrated with generative AI models such as OpenAI's GPT-3.5. for creating conversational flows.
 
 Applications
@@ -31,6 +35,9 @@ Public reception
 Heba Soffar of Science Online wrote that Furhat's mechanical abilities were limited by its lack of limbs and mobility and that its cost was higher compared to other social robots. Other commentators noted that hyperrealistic features—such as simulated empathy and personalized dialogue—may raise ethical concerns, particularly in emotionally sensitive contexts like hiring and healthcare. Studies have linked these reactions to the "uncanny valley" effect. Opinion is divided about whether Furhat succeeds to evade the "uncanny valley" effect, or whether users find it unsettling to engage with it.  These discussions align with wider debates in AI ethics around transparency, overtrust, and anthropomorphism in social robots.
 
 In popular culture
+
 Furhat has been featured in various media and demonstration settings that lean into popular culture. In one research study, the robot was programmed to display the face of former U.S. President Barack Obama as part of an experiment on non-verbal behavior.
+
 Furhat was featured as the central character in Arise Amazons, a feminist theatre production staged at Orionteatern in Stockholm. The performance, directed by Karin Victorin, integrated Furhat as a speaking, emotive robotic head interacting with both performers and audience members. Described as a robot "driven by its desire for a body", Furhat was presented in a symbolic narrative exploring themes of embodiment, gender, and posthuman identity through live performance involving opera singers, dancers, drag artists, and horses. The production forms the subject of Victorin's master's thesis on social robotics and feminist technoscience.
+
 In 2019, Furhat Robotics partnered with Bandai Namco to develop a Furhat-based version of Mirai Komachi, a Japanese virtual pop idol. The robot was used in amusement parks and entertainment venues in Japan, merging anime aesthetics with social robotics to explore new forms of character embodiment and fan engagement. Furhat has also been interviewed on The Millennial Way Show and mentioned in an episode of Last Week Tonight with John Oliver that explored the ethical and social implications of AI.

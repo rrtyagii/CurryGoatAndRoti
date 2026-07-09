@@ -1,38 +1,62 @@
 William L. "Red" Whittaker (born 1948) is an American roboticist and research professor of robotics at Carnegie Mellon University. He led Tartan Racing to its first-place victory in the DARPA Grand Challenge (2007) Urban Challenge  and brought Carnegie Mellon University the two million dollar prize. Previously, Whittaker also competed in the DARPA Grand Challenge, placing second and third place simultaneously in the Grand Challenge Races.
+
 Whittaker is currently the Fredkin Research Professor at Carnegie Mellon University's Robotics Institute as well as the Director of the Field Robotics Center and Chief Scientist of the Robotics Engineering Consortium, both located at the university.
+
 Red founded and led Carnegie Mellon University's team in the Google Lunar X Prize. from its inception in 2007 until its ultimate closure in 2018. Today, Whittaker continues this work through NASA contracts in the form of MoonRanger, a planetary rover in development designed to quickly and autonomously explore the surface of the Moon.
 
 Biography
+
 Whittaker spent his childhood in Hollidaysburg, Pennsylvania, where his father was an explosives salesman and his mother was a chemist. He matriculated at Princeton University, but interrupted his studies to join the United States Marines. He returned to Princeton to earn his bachelor's degree in civil engineering in 1973 and then attended Carnegie Mellon University, where he earned his master's degree in 1975 and his Ph.D. in 1979, both in civil engineering.
 
 Robotics
+
 In March of the year he received his Ph.D., the nuclear reactor at nearby Three Mile Island Nuclear Generating Station nearly experienced a meltdown. Within a budget of $1.5 million, Whittaker and his colleagues at Carnegie Mellon built robots to inspect and perform repairs in the reactor's damaged basement, and their experiences with that project resulted in the creation of the Field Robotics Center at Carnegie Mellon University. Whittaker's later teams would also develop robots to help with the aftermath of the nuclear reactor accident at Chernobyl in 1986. In 1987, Whittaker co-founded RedZone Robotics to develop and sell (or lease) robots that could operate in hazardous environments and situations too dangerous for humans.
+
 Whittaker has led teams that have created robots designed to search for fallen meteorites in the ice fields of Antarctica, climb into the craters of active volcanoes in Alaska and Antarctica, and explore the terrain of Mars. The accident at the Quecreek Coal Mine in nearby Somerset County, Pennsylvania compelled Whittaker and his colleague Scott Thayer to develop robots that could map collapsed or abandoned mines for accident prevention or rescue purposes; they were joined in this endeavor by CMU colleague Sebastian Thrun. Whittaker's robots have also explored the Atacama Desert.
 
 DARPA Grand Challenge
+
 Whittaker has led teams at Carnegie Mellon to build self-driving cars that have participated in the DARPA Grand Challenge since the contest's inception. In the first competition held in 2004, his Red Team's vehicle "Sandstorm" traveled 7.4 miles, the farthest of any participant, but no prize was awarded to any team. In the second competition in 2005, Whittaker led two teams, whose vehicles "Sandstorm" and "H1ghlander" captured 2nd place and 3rd place, respectively, behind the vehicle of his colleague, former Carnegie Mellon professor Sebastian Thrun. (Thrun's software development leader, Michael Montemerlo, was also a former student of Whittaker.)
+
 In the third competition held in 2007, Whittaker's team "Tartan Racing" captured first place with their vehicle "Boss", winning the $2 million prize.
 
 Professional activities
+
 Fellow, American Association for Artificial Intelligence
+
 Member, National Research Council, Commission on Engineering and Technical Systems, Committee on Advanced Space Technologies
 Member, American Nuclear Society; Robotics and Remote Systems Division
+
 Member, National Academy of Sciences Peer Review Committee on DOE Environmental Management Technologies, 1994–1995.
+
 Member, National Academy of Sciences Committee to Provide Interim Oversight of the DOE Nuclear Weapons Complex, 1988–1989.
 
 Awards and honors
+
 IEEE Simon Ramo Medal, 2012
+
 ASCE Columbia Medal, 2012
+
 Inaugural AAAI Feigenbaum Prize, 2011
+
 Elected to National Academy of Engineering, 2009
+
 Named University Professor, the highest faculty rank at Carnegie Mellon University, 2007
 Design News Special Achievement Award, 1998
+
 Vector/Pittsburgh, Man of the Year in Technology for 1994
+
 Laurels Award, Aviation Week and Space Technology for outstanding achievement, 1994
 American Association of Artificial Intelligence, AAAI Fellow, 1993
+
 Carnegie Mellon University Alumni Merit Award for Outstanding Achievement, 1992
+
 Computerworld, Smithsonian Award 1992
+
 Science Digest's Top 100 US Innovators for robotics work, 1987
+
 Teare Award for Teaching Excellence, Carnegie Mellon University
+
 National Science Foundation Fellowship, Carnegie Mellon University
+
 CIT Fellowship, Carnegie Mellon University

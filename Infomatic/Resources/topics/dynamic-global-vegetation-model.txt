@@ -1,12 +1,15 @@
 A Dynamic Global Vegetation Model (DGVM) is a computer program that simulates shifts in potential vegetation and its associated biogeochemical and hydrological cycles as a response to shifts in climate. DGVMs use time series of climate data and, given constraints of latitude, topography, and soil characteristics, simulate monthly or daily dynamics of ecosystem processes.  DGVMs are used most often to simulate the effects of future climate change on natural vegetation and its carbon and water cycles.
 
 Model development
+
 DGVMs generally combine biogeochemistry, biogeography, and disturbance submodels.  Disturbance is often limited to wildfires, but in principle could include any of: forest/land management decisions, windthrow, insect damage, ozone damage etc.  DGVMs usually "spin up" their simulations from bare ground to equilibrium vegetation (e.g. climax community) to establish realistic initial values for their various "pools": carbon and nitrogen in live and dead vegetation, soil organic matter, etc. corresponding to a documented historical vegetation cover.
 
 DGVMs are usually run in a spatially distributed mode, with simulations carried out for thousands of "cells", geographic points which are assumed to have homogeneous conditions within each cell.  Simulations are carried out across a range of spatial scales, from global to landscape.  Cells are usually arranged as lattice points; the distance between adjacent lattice points may be as coarse as a few degrees of latitude or longitude, or as fine as 30 arc-seconds.  Simulations of the conterminous United States in the first DGVM comparison exercise (LPJ and MC1) called the VEMAP project, in the 1990s used a lattice grain of one-half degree. Global simulations by the PIK group and collaborators, using 6 different DGVMs (HYBRID, IBIS, LPJ, SDGVM, TRIFFID, and VECODE) used the same resolution as the general circulation model (GCM) that provided the climate data, 3.75 deg longitude x 2.5 deg latitude, a total of 1631 land grid cells.  Sometimes lattice distances are specified in kilometers rather than angular measure, especially for finer grains, so a project like VEMAP  is often referred to as 50 km grain.
+
 Several DGVMs appeared in the middle 1990s.  The first was apparently IBIS (Foley et al., 1996), VECODE (Brovkin et al., 1997), followed by several others described below:
 
 Groups
+
 Several DGVMs have been developed by various research groups around the world:
 
 LPJ – Germany, Sweden
@@ -22,4 +25,5 @@ Ecosystem Demography (ED, ED2)
 VEGAS – U.S.
 The next generation of models – Earth system models (ex. CCSM, ORCHIDEE, JULES, CTEM ) – now includes the important feedbacks from the biosphere to the atmosphere so that vegetation shifts and changes in the carbon and hydrological cycles affect the climate.
 DGVMs commonly simulate a variety of plant and soil physiological processes. The processes simulated by various DGVMs are summarized in the table below.
+
 Abbreviations are: NPP, net primary production; PFT, plant functional type; SAW, soil available water; LAI, leaf area index; I, solar radiation; T, air temperature; Wr, root zone water supply; PET, potential evapotranspiration; vegc, total live vegetation carbon.

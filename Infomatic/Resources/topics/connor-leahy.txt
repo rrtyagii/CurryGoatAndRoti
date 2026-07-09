@@ -1,7 +1,10 @@
 Connor Leahy is a German-American artificial intelligence researcher and entrepreneur known for cofounding EleutherAI and being CEO of AI safety research company Conjecture. He has warned of the existential risk from artificial general intelligence, and has called for regulation such as "a moratorium on frontier AI runs" implemented through a cap on compute.
 
 Career
+
 In 2019, Leahy reverse-engineered GPT-2 in his bedroom, and later co-founded EleutherAI to attempt to replicate GPT-3.
+
 Leahy is skeptical of reinforcement learning from human feedback as a solution to the alignment problem. “These systems, as they become more powerful, are not becoming less alien. If anything, we’re putting a nice little mask on them with a smiley face. If you don't push it too far, the smiley face stays on. But then you give it [an unexpected] prompt, and suddenly you see this massive underbelly of insanity, of weird thought processes and clearly non-human understanding.”
 He was one of the signatories of the 2023 open letter from the Future of Life Institute calling for "all AI labs to immediately pause for at least 6 months the training of AI systems more powerful than GPT-4."
+
 In November 2023, Leahy was invited to speak at the inaugural AI Safety Summit. He worried that the summit would fail to deal with the risks from "god like AI" stemming from the AI alignment problem, arguing that “If you build systems that are more capable than humans at manipulation, business, politics, science and everything else, and we do not control them, then the future belongs to them, not us.” He cofounded the campaign group ControlAI to advocate for governments to implement a pause on the development of artificial general intelligence. Leahy has likened the regulation of artificial intelligence to that of climate change, arguing that "it's not the responsibility of oil companies to solve climate change", and that governments must step in to solve both issues.

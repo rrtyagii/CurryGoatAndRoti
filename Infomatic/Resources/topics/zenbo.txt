@@ -3,15 +3,23 @@ Zenbo is designed to provide assistance, entertainment, and companionship across
 In homes with children, Zenbo can serve as a storyteller, educational companion, and entertainer, equipped with interactive games, songs, and responsive expressions on its touchscreen face.
 
 Release and reception
+
 Zenbo launched for pre-order in Taiwan on January 1, 2017, backed by partnerships across government, education, and security sectors — including an emergency app linked to the National Police Agency.
+
 While early reviews praised its affordability, comparable to premium smartphones, and its robust feature set, critics pointed to limitations in speech recognition and navigation accuracy. ASUS expressed hopes that Zenbo would evolve through developer contributions and ecological growth.
 
 Features
+
 Mobility: Autonomous navigation using onboard camera and sensors.
+
 Voice Interaction: Hands-free control for reminders, web queries, and smart device commands.
+
 Communication and Multimedia: Supports video calls, music playback, streaming, and home appliance control.
+
 Security and Monitoring: Able to detects fall and suspicious events, notifying family via a smartphone app.
+
 Developer Platform: Offers an open software development kit and partner program, inviting third-party app development.
 
 Legacy
+
 In December 2017, ASUS enhanced Zenbo for medical contexts, integrating it with healthcare platforms for use in smart hospital environments alongside Swiss data provider Clinerion. By late 2023–2024, community feedback — including technical issues and discontinued updates — suggested that Zenbo had fallen into limited support phases, but has later been confirmed as a misunderstanding.

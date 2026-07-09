@@ -1,11 +1,15 @@
 Semantic computing is a field of computing that combines elements of semantic analysis, natural language processing, data mining, knowledge graphs, and related fields.
+
 Semantic computing addresses three core problems:
 
 Understanding the (possibly naturally-expressed) intentions (semantics) of users and expressing them in a machine-processable format
 Understanding the meanings (semantics) of computational content (of various sorts, including, but is not limited to, text, video, audio, process, network, software and hardware) and expressing them in a machine-processable format
 Mapping the semantics of user with that of content for the purpose of content retrieval, management, creation, etc.
+
 The IEEE has held an International Conference on Semantic Computing since 2007.  A conference on Knowledge Graphs and Semantic Computing has been held since 2015.
 
 Background
+
 The field of Semantic Computing was coined by Phillip Sheu in 2007 when he launched the first IEEE International Conference on Semantic Computing (ICSC) and the International Journal of Semantic Computing (IJSC). As stated in the inaugural issue of IJSC, "..., the field Semantic Computing addresses the computing technologies, and their interactions, that may be used to extract or process the Contents and Semantics of active services and passive data that are unstructured, semi-structured as well as structured,... Semantic Computing extends Semantic Web (in the narrow sense of ontology-based augmentation of web pages) both in breadth (to include multimedia and services as well as structured data that may or may not be web-based) and depth (to address the access, use, synthesis, integration as well as analysis of data and services). Semantic Computing bridges, and integrates, technologies such as soft-ware engineering, user interface, natural-language processing, artificial intelligence, programming language, grid computing and pervasive computing, among others, into a complete theme."
+
 The article defines Semantic Computing as a multi-layered architecture designed to process, integrate, and utilize semantic information. Initially, it describes four layers: Semantic Analysis, which interprets signals such as pixels and words to extract meaning; Semantic Integration, which unifies contents and semantics from diverse sources; Applications, which leverage these contents and semantics to solve problems and may also provide services to other applications; and Semantic Interface, which enables users to access and manipulate semantic content across sources. The architecture was later revised into a five-layer model, where the original Applications layer was divided into Semantic Services—which address specific problems through web search, question answering, content-based multimedia retrieval, and semantic synthesis—and Service Integration, which coordinates multiple semantic services to offer more comprehensive and interoperable solutions.

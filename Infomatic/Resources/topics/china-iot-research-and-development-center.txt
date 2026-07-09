@@ -1,5 +1,7 @@
 The China IoT Research and Development Center (Chinese: 中国物联网研究发展中心) is a national R&D organization situated in the Xinwu District, Wuxi, Jiangsu Province, People's Republic of China.
 
 History
+
 In August 2009, Premier of China Wen Jiabao introduced the notion of "Sensing China" at a visit to the IoT Industry Research Institute of the Chinese Academy of Sciences (CAS) in Wuxi. This signified the formal incorporation of the Internet of Things (IoT) into China's strategic developing sectors.
+
 On November 12, 2009, the Jiangsu Provincial People's Government, the Chinese Academy of Sciences, and the Wuxi Municipal Government collectively executed an agreement to establish the China IoT Research and Development Center. The center, based in Wuxi, initially functioned through the Jiangsu IoT Research and Development Center and the CAS IoT Development Center. It operates under the direct oversight of the Chinese Academy of Sciences, with a primary objective to spearhead national IoT research, promote industrial application, and advance the establishment of IoT standards and technologies in China.

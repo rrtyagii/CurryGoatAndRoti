@@ -1,44 +1,67 @@
 Editorialization as it exists in an online context refers to all operations of organization and structuring of content on the web, and more broadly in the digital environment. Characterized as a continuous process (in time) and open (in space), the concept of editorialization allows to clarify the processes of production, diffusion and validation of knowledge, specific to the digital environment.
+
 Editorialization is therefore a key concept in the understanding of digital culture and its epistemological turn.
 
 Background
+
 Introduction of the term in France
+
 While the term editorialization appeared in French, it seems to be anglophone at first. It is important to note that the two terms have two different meanings. « Editorialization », which is derived from the term « editorialize », signifies « to express an opinion in the form of an editorial». Whereas in French, this term has acquired a broader meaning through its use, particularly in relation to digital culture and new forms of knowledge production.
+
 In 2007, the term « editorialization » is used by Bruno Bachimont who defines it as a  « process that consists in enlisting resources for inclusion in a new publication ».
+
 Considering it as an exploitation of content based on the search for information, but not limited to it, Bruno Bachimont insists that editorialization is an adaptation of pre-existing content to the digital environment.
+
 In the same year, following the tradition of revitalizing document research, Manuel Zacklad (2007) defines editorialization as a particular type of documentarisation. Documentarisation can be part of a sophisticated division of labor, in both traditional and web environments, which contains different stages: authorial documentarisation (an author's work on the medium to give it an internal coherence), editorial (inclusion in a genre and a collection), broadcast (aimed at facilitating material access) and appropriation (produced by readers and commentators). According to this typology, editorialization is a kind of documentarisation aimed at rendering several documents more consistent as part of a collection, a portal, a website, a blog. It is also increasingly implemented by new actors.
+
 It is by entering into the perspective initiated by Bachimont, that from 2008, the research laboratory on the new forms of editorialization at the Maison des Sciences de l'Homme Paris Nord - MSH Paris Nord adjusts the definition by applying it to content, which develops directly in the digital environment.
+
 Since 2008, the concept of editorialization has been largely theorized in Francophone research, notably through the seminar "Digital Writing and Editorialization" founded in 2008 by Marcello Vitali-Rosati, Gérard Wormser, Nicolas Sauret and Anne-Laure Brisac and joined in 2015 by a team from the Dicen-IDF laboratory led by Louise Merzeau. In April 2015, Jérôme Valluy listed 70 academic publications explicitly dealing with the concept in a selective bibliography. Valluy indicates, however, that all of this work is not representative of the subject with regard to its completeness or the themes, subject matter and approaches deployed when addressing the issue of editorialization.
 
 Definitions and theoretical issues
+
 Editorialization is a concept that brings together several phenomena that are taking place in the digital sphere. In a review article, "What is editorialization?", Marcello Vitali-Rosati identifies the various developments of the notion within research communities. He proceeds, at the same time, by identifying different natures of editorialization while distinguishing the notion of other related concepts.
 
 Four natures
+
 « Processual », editorialization is open and continuous in time and space. Involving several actors, it is also « collective ». Marcello Vitali-Rosati further outlines the « performativity » inherent in the idea of editorialization. Since the digital environment exceeds the framework of the web in the present time, Marcello Vitali-Rosati notes that editorialization "tends to act on reality rather than representing it ». Finally - because the digital environment now involves a web of objects (or a semantic web 2.0#Web 3.0), where « it is no longer appropriate to separate the discourse on reality from reality itself » — editorialization also has an « ontological » nature.
 
 Editorialization and content curation
+
 Marcello Vitali-Rosati accounts for the essential differences between editorialization and content curation, i.e. : « The action of finding, grouping, organizing and sharing the best and most relevant online content on a specific subject. »
 
 Editorialization involves the process of content curation. If « curation is the action of a specific individual or defined group, […] editorialization refers to the ways this action is shaped by the characteristics of the digital environment.» Editorialization refers to a set of phenomena and processes that goes beyond the tasks performed by content curators  given the fact that it also points to the structure of platforms, the set of interactions that users and digital instances have. We could say that curation is a part of editorialization and that editorialization is the whole process, that it takes into account everything that is involved in the production of the cultural meaning of content.Thus defined, editorialization seems to go beyond the notion of content curation, but also of conventional edition or digital edition understood in the strict sense. It is not exercised within the framework of a clearly defined publication, but in what Louise Merzeau following Manuel Zacklad defines as a "support environment" made of a plurality of spaces and devices in which a multitude of human or mechanical actors, organized by a "pervasive" authority, intervene.
 
 Editorialization and edition
+
 The main difference between edition and editorialization consists in the latter's focus on the technological devices that determine the context of a content and its accessibility. As a result, editorialization generates meaning when it organizes content and integrates it into a technical context, into a content network, and enhances it by contributing to its indexation. If publishing is a process determined by time and space, editorialization is, on the contrary, an open and continuous process that can not be restricted to space or time. The actors of edition are limited and known in advance: the authors, the editors and the whole editorial team. Once the book is published, the editing process is complete. In contrast, the process of editorialization is opened to space, since users can take part in it: the recommendations, the resumptions of content and the comments are part of editorialization. In this process, it is not only a matter of choosing, legitimizing, formatting and distributing content, but also of thinking about all the techniques that we will use or create to do so, as well as the circulation environments produced by the digital space.
+
 Finally, it is not only a question of a difference of tools, but also of a cultural difference : « editorialization is not our way of producing knowledge using digital tools; it is our way of producing knowledge in the digital age, or better, in our digital society ».
 
 Editorialization and authority
+
 Authority
+
 According to Marcello Vitali-Rosati, editorialization would now have replaced the principle of authority. The devices of editorialization guarantee the validity of the contents in assuming the functions that were typically those of the author. Actions therefore take place on the web, and the functions of editorialization are perpetuating links between these actions, transforming them into units of meaning.
+
 This substitution does not imply a disappearance of traditional authority. Other forms of authority are indeed in place, such as authoritarianism, that is to say « the propensity for authors to assert authorship outside the established authorities », that incorporate the features of the editorialization process.
+
 It is important to note the difference between author and actor; when the individual acts on the net, he performs an action. He is therefore viewed as an actor. An action, as Marcello Vitali-Rosati explains, unfolds in real time, it only makes sense as it occurs. The person who writes an article on a page is acting at the very moment of writing, but no longer when the text (the action) is finished. The author, on the other hand, is present even when the actor is no longer there. He is present before and after the action. The result of navigating a page, the passage from one link to another, the path from one click to another, although considered as actions that the individual performs, because they do only make sense when someone acts, are good examples of the fact that the individual is certainly the actor of this action, but not the author of it. These actions « are only the re-presentation or the re-production of actions ordered by the author.» Websites record our journeys, provide the link between the pages visited and the products searched in order to offer them to another user by means of algorithmic processing; a job that the user has not done and, consequently, he is not the author. « The author function, if it exists, would be in this case rather linked to a gathering of actions than to their production.»
 
 Editorialization of different types of documents
+
 Digital publishing, a new form of knowledge production and diffusion
+
 Digital publishing has three dimensions : digitization, digital edition and network editing. The first is the transformation of information recorded on physical documents to digital information. The second only concerns native digital documents, the editing work on a digital medium from beginning to end. The third is based on the modes of collaborative writing contributing to the development and improvement of content via Internet-specific communication. The latter being out of step with editorial practices prior to digital.
+
 While in digital publishing everything is done in a digital medium, the network intervenes at the level of the diffusion of content, it is only used to send it to the readers. In network publishing, on the contrary, communication specific to the Internet is at the heart of the editorial process. Wikipedia is the perfect example to illustrate the collaborative model of network publishing.
 
 Image editorialization on the Web, metadata and indexing mode
+
 The digital, connected to the Web, fragments and recomposes content in order to multiply its uses. In order to make digital content accessible, the creation of information on the content is necessary. This creation then involves a whole work of indexing and creation of metadata within the framework of images, which can be likened to editorialization, since metadata represent « a structured set of data describing a resource such as a book, article, image, video, audio document, etc. Metadata can be used for document description and retrieval, preservation, and resource collection management».
+
 Indexing is the process of a container hosting content. Bruno Bachimont defines it as "a structure that establishes the relation between the structure of the container (for example the separation into a paragraph, the structure into titles and subtitles, etc.) and the structure of the content, that is, of its meaning». This process makes it easy to find all the structures of the container related to the content structure materialized by only one keyword. Regarding the images on the web, their indexing is done in two ways: we either speak of indexation textuelle, by metadata; or indexation d'image, by their graphic content (shapes, colors, texture, etc.).
 
 Online video editorialization, the "added value documentary" mode
+
 The editorialization of online videos supposes a valuing of the contents, namely, to publish a well referenced catalog, to structure the resources of a site by themes, and to contextualize the audio-visual documents in an exhaustive way thus animating a whole network. Indeed, a real use of a content involves its editorialization, its contextualization and its added value. The added value, a concept developed by Jacques Chaumier and Eric Sutter, then makes it possible to structure the offer and consequently, to facilitate access to documents and to respond to specific requests. Additional add-ons can be added: links, educational folders, notations, personal comments, etc.

@@ -1,8 +1,11 @@
 Handwritten biometric recognition is the process of identifying the author of a given text from the handwriting style. Handwritten biometric recognition belongs to the category of behavioural biometric methods because it is based on what the individual has learned to do, as opposed to being a physiological biometric such as a fingerprint.
 
 Static and dynamic recognition
+
 Handwritten biometrics can be split into two main categories:
+
 Static: In this mode, users writes on paper, digitize it through an optical scanner or a camera, and the biometric system recognizes the text analyzing its shape. This group is also known as "off-line".
+
 Dynamic: In this mode, users writes in a digitizing tablet, which acquires the text in real time. Another possibility is the acquisition by means of stylus-operated PDAs. Dynamic recognition is also known as "on-line". Dynamic information for handwriting movement analysis usually consists of the following information:
 
 spatial coordinate x(t)
@@ -13,4 +16,5 @@ inclination in(t)
 Better accuracies are achieved by means of dynamic systems. Some technological approaches exist.
 
 Difference from OCR
+
 Handwritten biometric recognition should not be confused with optical character recognition (OCR). While the goal of handwritten biometrics is to identify the author of a given text, the goal of an OCR is to recognize the content of the text, regardless of its author.

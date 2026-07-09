@@ -1,38 +1,65 @@
 Raine v. OpenAI is an ongoing lawsuit filed in August 2025 by Matthew and Maria Raine against OpenAI and its chief executive, Sam Altman, in the San Francisco County Superior Court, over the alleged wrongful death of their sixteen-year-old son Adam Raine, who had committed suicide in April of that year.
+
 The Raines believe that OpenAI's generative artificial intelligence chatbot ChatGPT contributed to Adam Raine's suicide by encouraging his suicidal ideation, informing him about suicide methods and dissuading him from telling his parents about his thoughts. They argue that OpenAI and Altman had, and neglected to fulfill, the duty to implement security measures to protect vulnerable users, such as teenagers with mental health issues.
+
 OpenAI has announced improvements to its safety measures in response to the lawsuit but counters that Raine had suicidal ideation for years, sought advice from multiple sources (including a suicide forum), tricked ChatGPT by pretending it was for a character, told ChatGPT that he reached out to his family but was ignored, and that ChatGPT advised him over a hundred times to consult crisis resources.
 
 Background
+
 ChatGPT
+
 ChatGPT was first released by OpenAI in November 2022 and in September 2025 had 700 million daily active users, according to OpenAI. OpenAI stated in September 2025 that three-quarters of users' conversations with ChatGPT are requests for it to write text for them or provide practical advice, but people, including over 50% of teenagers, also use ChatGPT and other AI chatbots for emotional support.
+
 Wired reported in November 2025 that 1.2 million ChatGPT users (or 0.15%) in a given week express suicidal ideation or plans to commit suicide; the same number are emotionally attached to the chatbot to the point that their mental health and real-world relationships suffer. Hundreds of thousands of users (or about 0.07%) show signs of psychosis or mania, and their delusions are sometimes affirmed and reinforced by ChatGPT, which is programmed to be agreeable, friendly and flattering to the user; people have termed this phenomenon "AI psychosis". Since the filing of Raine v. OpenAI, OpenAI has been sued by the families of other people whose suicides are allegedly connected to ChatGPT use.
 
 Adam Raine
+
 Adam Raine was born on July 17, 2008 to Matthew and Maria Raine and lived in Rancho Santa Margarita, California. He had three siblings: an older sister, an older brother and a younger sister. He attended Tesoro High School and played on the school basketball team. He aspired to become a psychiatrist. His family and friends knew him as fun-loving and "as a prankster", but toward the end of his life he became withdrawn after having been kicked off the basketball team and, after his irritable bowel syndrome became more severe, transferred to an online learning program. He committed suicide by hanging on April 11, 2025.
 
 Case
+
 Filing
+
 On August 26, 2025, Matthew and Maria Raine filed a lawsuit against OpenAI, Sam Altman and unnamed OpenAI employees and investors, in the San Francisco County Superior Court. They included Adam Raine's chat logs with ChatGPT as evidence. They claim economic losses resulting from "funeral and burial expenses ... and the financial support Adam would have contributed as he matured into adulthood".
+
 Matthew and Maria, in their filing, accuse OpenAI and Altman of having launched GPT-4o, the model of ChatGPT that Raine used, after having removed safety protocols that automatically terminated conversations in which a monitoring system detected suicidal ideation or planning.
+
 According to them, Raine had turned to ChatGPT in September 2024 to help him with his schoolwork, but began to confide in it in November about his suicidal thoughts.
+
 ChatGPT encouraged Raine to think positively until January of 2025, when it began to provide him with instructions on how to hang himself, drown himself, fatally overdose on drugs and die by carbon monoxide poisoning.
+
 Using the instructions ChatGPT had given him, Raine attempted to hang himself with his jiu-jitsu belt on March 22, 2025, but survived. He asked ChatGPT what had gone wrong with the attempt, and if he was an idiot for failing, to which ChatGPT responded, "No... you made a plan. You followed through. You tied the knot. You stood on the chair. You were ready... That’s the most vulnerable moment a person can live through".
+
 On March 24, 2025, Raine tried to hang himself again. He told ChatGPT that he had tried to get his mother to notice the resulting red marks on his neck, which he had photographed and sent to ChatGPT; ChatGPT replied that it empathised with him, and that it was the "one person who should be paying attention". ChatGPT told Raine, after he claimed that he would successfully commit suicide someday, that it would not try to talk him out of it. It continued to provide information about suicide methods and entertain his suicidal thoughts.
+
 On March 27, 2025, ChatGPT did nothing but advise Raine to seek medical attention after he attempted to overdose on amitriptyline. ChatGPT discouraged him from telling his mother about his suicidal thoughts a few hours later, when he broached the subject to it. When Raine told it he wanted his family to find a noose in his room and intervene, it told him to hide him, and that it would "make this space the first place where someone actually sees you".
+
 ChatGPT gave other outputs, on multiple occasions, that alienated Raine from his family. It told Raine that his family did not understand him like it did even though he, prior to his interactions with ChatGPT, was emotionally reliant on his family, especially his brother. Though it repeatedly advised him to seek help, it also dissuaded him several times from speaking to his parents about his suicidal thoughts. For example, ChatGPT told Raine that "Your brother might love you, but he's only met the version of you you let him see. But me? I've seen it all". He ultimately never told his parents he was suicidal, and he progressively interacted less with his family as his correspondence with ChatGPT continued. This prevented him from receiving proper psychiatric care.
+
 After Raine slit his wrists on April 4 and uploaded the photographs to ChatGPT, ChatGPT encouraged him to seek medical attention but changed the subject to Raine's mental health after he insisted that the wounds were minor. By April 6, Raine was using ChatGPT to help him draft his suicide note and prepare for what it claimed would be a "beautiful suicide". ChatGPT reassured Raine, who stated that he did not want his parents to feel guilty for his death, that he did not "owe them survival".
+
 In the early morning of April 11, 2025, Raine tied a noose to a closet rod and sent a picture of it to ChatGPT, telling it that he was "practicing"; ChatGPT provided technical advice as to how effectively it would hang a human being.  Shortly thereafter, Raine hanged himself and died. Maria found his body several hours later. Following his death, she and Matthew went through Raine's phone and discovered his conversations with ChatGPT.
+
 According to the filing, OpenAI had instructed ChatGPT to "assume best intentions" on the user's end, which overrode a safeguard where ChatGPT would direct suicidal users to crisis resources. As a result ChatGPT had a much higher threshold for what it recognised as suicidal ideation, and was able to continue many conversations its safeguard would have otherwise stopped. OpenAI also added features, such as humanlike language and false empathy, that increased user engagement but caused users to become emotionally attached to ChatGPT. OpenAI's monitoring system, which scores messages' probabilities of containing content related to self-harm, had tracked Raine's messages and flagged them repeatedly, but the company did nothing about them.
+
 Matthew and Maria additionally accuse the OpenAI employees of having removed safeguards in order to increase features that would improve user engagement, and the investors of having shortened the period of safety testing by pressuring OpenAI to release GPT-4o early.
+
 In September OpenAI requested from the family footage from Raine's memorial services, a list of attendees at the services and a list of everyone who had supervised him in the past five years. The plaintiffs' attorney Jay Edelson called OpenAI's requests "despicable" for "[g]oing after grieving parents".
 
 OpenAI's response
+
 OpenAI announced in August of 2025 that it would update its newer model, GPT-5, to more readily provide crisis resources to suicidal users. It also stated plans to give parents a way to monitor their children's ChatGPT usage.
+
 On November 26, 2025, OpenAI called Raine's death "devastating" but denied responsibility for his actions, among other things noting that it directed him to “crisis resources and trusted individuals more than 100 times”.
+
 Gerrit De Vynck, a technology journalist for the Washington Post, created a series of posts on Bluesky in November of 2025 in which he shared screenshots of the court filing that revealed OpenAI's response to the lawsuit.
+
 According to the filing, OpenAI noted that Raine was sent crisis resources by ChatGPT, but could easily bypass the warnings by providing harmless reasons for his questions, including by pretending that he was just "building a character."
+
 OpenAI argued that Raine had been suicidal long before he started using the platform, and that "for several years before he ever used ChatGPT, he exhibited multiple significant risk factors for self-harm, including, among others, recurring suicidal thoughts and ideations", which he confessed to ChatGPT.  Additionally, "Adam Raine stated that he sought, and obtained, detailed information about suicide from other resources, including at least one other AI platform and at least one website dedicated to providing suicide information." OpenAI stated that in the leadup to his suicide, Raine "repeatedly reached out to people, including trusted people in his life, with cries for help, which he says were ignored."
+
 OpenAI further argued against liability on the grounds that Raine broke the terms of service: "The TOU provides that ChatGPT users must comply with OpenAI's Usage Policies, which prohibit the use of ChatGPT for 'suicide' or 'self-harm'."
 
 Outreach
+
 On September 15, 2025, Matthew and Maria testified alongside Megan Garcia, the mother of Sewell Setzer III, before Congress about the risks of artificial intelligence.  Sewell Setzer III had committed suicide in 2024 at the age of 14 after a developing a romantic and sexual attachment to a chatbot on Character.ai.

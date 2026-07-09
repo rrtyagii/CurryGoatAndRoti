@@ -1,29 +1,45 @@
 Speaker recognition is the identification of a person from characteristics of voices. It is used to answer the question "Who is speaking?" The term voice recognition can refer to speaker recognition or speech recognition. Speaker verification (also called speaker authentication) contrasts with identification, and speaker recognition differs from speaker diarisation (recognizing when the same speaker is speaking).
+
 Recognizing the speaker can simplify the task of translating speech in systems that have been trained on specific voices or it can be used to authenticate or verify the identity of a speaker as part of a security process. Speaker recognition has a history dating back some four decades as of 2019 and uses the acoustic features of speech that have been found to differ between individuals. These acoustic patterns reflect both anatomy and learned behavioral patterns.
 
 Verification versus identification
+
 There are two major applications of speaker recognition technologies and methodologies. If the speaker claims to be of a certain identity and the voice is used to verify this claim, this is called verification or authentication. On the other hand, identification is the task of determining an unknown speaker's identity. In a sense, speaker verification is a 1:1 match where one speaker's voice is matched to a particular template whereas speaker identification is a 1:N match where the voice is compared against multiple templates.
+
 From a security perspective, identification is different from verification. Speaker verification is usually employed as a "gatekeeper" in order to provide access to a secure system. These systems operate with the users' knowledge and typically require their cooperation. Speaker identification systems can also be implemented covertly without the user's knowledge to identify talkers in a discussion, alert automated systems of speaker changes, check if a user is already enrolled in a system, etc.
+
 In forensic applications, it is common to first perform a speaker identification process to create a list of "best matches" and then perform a series of verification processes to determine a conclusive match. Working to match the samples from the speaker to the list of best matches helps figure out if they are the same person based on the amount of similarities or differences. The prosecution and defense use this as evidence to determine if the suspect is actually the offender.
 
 Training
+
 One of the earliest training technologies to commercialize was implemented in Worlds of Wonder's 1987 Julie doll. At that point, speaker independence was an intended breakthrough, and systems required a training period.  A 1987 ad for the doll carried the tagline "Finally, the doll that understands you." - despite the fact that it was described as a product "which children could train to respond to their voice." The term voice recognition, even a decade later, referred to speaker independence.
 
 Variants of speaker recognition
+
 Each speaker recognition system has two phases: enrollment and verification. During enrollment, the speaker's voice is recorded and typically a number of features are extracted to form a voice print, template, or model. In the verification phase, a speech sample or "utterance" is compared against a previously created voice print. For identification systems, the utterance is compared against multiple voice prints in order to determine the best match(es) while verification systems compare an utterance against a single voice print. Because of the process involved, verification is faster than identification.
+
 Speaker recognition systems fall into two categories: text-dependent and text-independent.  Text-dependent recognition requires the text to be the same for both enrollment and verification. In a text-dependent system, prompts can either be common across all speakers (e.g. a common pass phrase) or unique. In addition, the use of shared-secrets (e.g.: passwords and PINs) or knowledge-based information can be employed in order to create a multi-factor authentication scenario.  Conversely, text-independent systems do not require the use of a specific text.  They are most often used for speaker identification as they require very little if any cooperation by the speaker. In this case the text during enrollment and test is different. In fact, the enrollment may happen without the user's knowledge, as in the case for many forensic applications. As text-independent technologies do not compare what was said at enrollment and verification, verification applications tend to also employ speech recognition to determine what the user is saying at the point of authentication. In text independent systems both acoustics and speech analysis techniques are used.
 
 Technology
+
 Speaker recognition is a pattern recognition problem. The various technologies used to process and store voice prints include frequency estimation, hidden Markov models, Gaussian mixture models, pattern matching algorithms, neural networks, matrix representation, vector quantization and decision trees. For comparing utterances against voice prints, more basic methods like cosine similarity are traditionally used for their simplicity and performance. Some systems also use "anti-speaker" techniques such as cohort models and world models. Spectral features are predominantly used in representing speaker characteristics. Linear predictive coding (LPC) is a speech coding method used in speaker recognition and speech verification.
+
 Ambient noise levels can impede both collections of the initial and subsequent voice samples. Noise reduction algorithms can be employed to improve accuracy, but incorrect application can have the opposite effect. Performance degradation can result from changes in behavioural attributes of the voice and from enrollment using one telephone and verification on another telephone. Integration with two-factor authentication products is expected to increase. Voice changes due to ageing may impact system performance over time. Some systems adapt the speaker models after each successful verification to capture such long-term changes in the voice, though there is debate regarding the overall security impact imposed by automated adaptation
 
 Legal implications
+
 Due to the introduction of legislation like the General Data Protection Regulation in the European Union and the California Consumer Privacy Act in the United States, there has been much discussion about the use of speaker recognition in the work place. In September 2019 Irish speech recognition developer Soapbox Labs warned about the legal implications that may be involved.
 
 Applications
+
 The first international patent was filed in 1983, coming from the telecommunication research in CSELT (Italy) by Michele Cavazza and Alberto Ciaramella as a basis for both future telco services to final customers and to improve the noise-reduction techniques across the network.
+
 Between 1996 and 1998, speaker recognition technology was used at the Scobey–Coronach Border Crossing to enable enrolled local residents with nothing to declare to cross the Canada–United States border when the inspection stations were closed for the night.  The system was developed for the U.S. Immigration and Naturalization Service by Voice Strategies of Warren, Michigan.
+
 In 2013 Barclays Wealth, the private banking division of Barclays, became the first financial services firm to deploy voice biometrics as the primary means of identifying customers to their call centers. The system used passive speaker recognition to verify the identity of telephone customers within 30 seconds of normal conversation. It was developed by voice recognition company Nuance (that in 2011 acquired the company Loquendo, the spin-off from CSELT itself for speech technology), the company behind Apple's Siri technology. 93% of customers gave the system at "9 out of 10" for speed, ease of use and security.
+
 Speaker recognition may also be used in criminal investigations, such as those of the 2014 executions of, amongst others, James Foley and Steven Sotloff.
+
 In February 2016 UK high-street bank HSBC and its internet-based retail bank First Direct announced that it would offer 15 million customers its biometric banking software to access online and phone accounts using their fingerprint or voice.
+
 In 2023 Vice News and The Guardian separately demonstrated they could defeat standard financial speaker-authentication systems using AI-generated voices generated from about five minutes of the target's voice samples.

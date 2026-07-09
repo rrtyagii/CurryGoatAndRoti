@@ -1,24 +1,32 @@
 AI for Good was established in 2017 by the International Telecommunication Union (ITU), the United Nations (UN) agency for digital technologies. The platform is co-convened with the Government of Switzerland and in partnership UN agencies. Its founding mission is to identify innovative applications of artificial intelligence (AI) to solve global challenges.
+
 AI for Good arose from collaboration between ITU and IBM Watson AI XPRIZE. The first AI for Good Global Summit 2017 was held in Geneva, Switzerland and is since held annually.
 
 Activity
+
 With the impact of the Covid-19 pandemic and global shutdowns, AI for Good moved online in March 2020. The platform has 37,000 contributors from more than 180 countries. Since 2023 AI for Good hosts a physical Global Summit in Geneva again annually.
+
 AI for Good has supported Global Initiatives on AI and Data Commons, AI for Health (in partnership with WHO), on Resilience to Natural Hazards through AI Solutions (former ITU/WMO/UNEP Focus Group on Artificial Intelligence for Natural Disaster Management (FG-AI4NDM)
 ), AI and Multimedia authenticity standards collaboration (under the World Standards Cooperation), AI for Road Safety (in partnership with UNECE) and pre-standardization focus groups on Artificial Intelligence Native for Telecommunication Networks (FG-AINN), AI and Internet of Things (IoT) for Digital Agriculture (in partnership with FAO), concluded focus groups on AI and Environmental Efficiency, Machine Learning and 5G.
+
 AI for Good is guided by Resolution 214 of the ITU Plenipotentiary Conference, and amplified by Resolution A/78/L.49 of the UN General Assembly. The adoption of Resolution COM4/AI at WTSA-24 describes ITU's mandate and AI for Good's role in AI development.
 
 Global summit 2017
+
 The first AI for Good Global summit took place from 7 to 9 June 2017. Speakers at the event included:
 
 One of the outcomes of the 2017 Global Summit was the creation of an ITU-T Focus Group on Machine Learning for 5G.
 
 Global summit 2018
+
 The second AI for Good Global Summit took place from 15 to 17 May 2018 at the ITU headquarters in Geneva, Switzerland and generated 35 AI project proposals. Speakers included:
 
 Global summit 2019
+
 The third AI for Good Global Summit took place from 28 May to 31 May, and gave rise to the ITU Focus Group on Artificial Intelligence for Autonomous and Assisted Driving with several Day 0 workshops and VIP events having taken place on May 27. Some of the speakers included:
 
 2020, 2022
+
 In 2020 the Global Summit was an online-only event. In 2022, the summit moved to the "Neural Network" community platform. Speakers included:
 
 Global Summit 2023
@@ -35,10 +43,12 @@ Machine Learning 5G
 The ITU-T Focus Group on Machine Learning for 5G Networks (FG-ML5G) was created following discussions at the 2017 AI for Good Global Summit. The FG-ML5G is produced several technology standards in this domain, including Y.3172, Y.3173, Y.3176, which were adopted by ITU-T Study Group 13. The FG-ML5G created the impetus for a new ITU-T Focus Group on Autonomous Networks, which is responsible for i.a. Y.3181.
 
 AI for Health
+
 The 2018 Global Summit led to the creation of the ITU-WHO Focus Group on Artificial Intelligence for Health with the World Health Organization, which created the AI for Health Framework.
 
 ITU Journal "ICT Discoveries"
 The ITU relaunched its Journal ICT Discoveries during the 2018 Global Summit, with the first edition being a special on Artificial Intelligence.
 
 Criticism
+
 Payal Arora criticized AI for Good for its paternalism towards the Global South.

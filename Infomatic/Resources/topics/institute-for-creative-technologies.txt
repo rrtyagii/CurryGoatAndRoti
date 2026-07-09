@@ -1,6 +1,7 @@
 The Institute for Creative Technologies (ICT) is a University Affiliated Research Center at the University of Southern California located in Playa Vista, California. ICT was established in 1999 with funding from the US Army.
 
 Dr. Mike Andrews, chief scientist of the US Army is described as "founder of and inspiration behind" the ICT.  He followed up on discussions between US Army leadership (four-star general Paul J. Kern) and Disney Imagineering president Bran Ferren, on how to gain access to Hollywood entertainment industry expertise in high-technology areas such as computer-based Modeling & Simulation, and Virtual Reality.  The name was derived from Ferren's title at the Walt Disney Company.
+
 It was created to combine the assets of a major research university with the creative resources of Hollywood and the game industry to advance the state-of-the-art in training and simulation. The institute's research has also led to applications for education, entertainment and rehabilitation, including virtual patients, virtual museum guides and visual effects technologies. Core areas include virtual humans, graphics, mixed-reality, learning sciences, games, storytelling and medical virtual reality.
 
 Honors and awards
@@ -10,6 +11,7 @@ Honors and awards
 
 Army affiliation
 ICT is a DoD-sponsored University Affiliated Research Center (UARC) working in collaboration with the U.S. Army DEVCOM Soldier Center.  The ICT is one of the Army’s four University Affiliated Research Centers (UARC).  UARCs are a strategic United States Department of Defense (DoD) Research Center associated with an American university.  UARCs are formally established by the Under Secretary of Defense for Research and Engineering (USD(R&E)) to ensure that essential engineering and technology capabilities of particular importance to the DoD are maintained and readily available.  The mission of the ICT UARC is to conduct basic, applied, and advanced demonstration research to develop the new tools, methods, and technologies required to improve military training, education, and combat operations.  The ICT UARC accomplishes this mission by employing a resident faculty that leverages government research with the research capabilities of academia, private industry, and the commercial entertainment industry (e.g., Hollywood, theme parks, and the commercial gaming industry).
+
 Army program managers include Mr. Mark McAuliffe, Dr. Jim Blake, Dr. Jeff Wilkinson, Dr. John Hart (2008-2022) and Dr. Keith Brawner (2022–present).
 
 Major projects and accomplishments

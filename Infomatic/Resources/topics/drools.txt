@@ -1,11 +1,15 @@
 Drools is a business rule management system (BRMS) with a forward and backward chaining inference-based rules engine, more correctly known as a production rule system, using an enhanced implementation of the Rete algorithm.
+
 Drools supports the Java Rules Engine API (Java Specification Request 94) standard for its business rule engine and enterprise framework for the construction, maintenance, and enforcement of business policies in an organization, application, or service.
 
 Drools in Apache Kie
+
 Drools, as part of the Kie Community has entered Apache Incubator in January, 2023.
 
 Red Hat Decision Manager
+
 Red Hat Decision Manager (formerly Red Hat JBoss BRMS) is a business rule management system and reasoning engine for business policy and rules development, access, and change management. JBoss Enterprise BRMS is a productized version of Drools with enterprise-level support available. JBoss Rules is also a productized version of Drools, but JBoss Enterprise BRMS is the flagship product.
+
 Components of the enterprise version:
 
 JBoss Enterprise Web Platform – the software infrastructure, supported to run the BRMS components only
@@ -23,9 +27,13 @@ Drools Fusion (event processing/temporal reasoning) – provides for complex eve
 Drools Planner/OptaPlanner (automated planning) – optimizes automated planning, including NP-hard planning problems
 
 Example
+
 This example illustrates a simple rule to print out information about a holiday in July. It checks a condition on an instance of the Holiday class, and executes Java code if that condition is true.
 
 The purpose of dialect "mvel" is to point the getter and setters of the variables of your Plain Old Java Object (POJO) classes.
+
 Consider the above example, in which a Holiday class is used and inside the circular brackets (parentheses) "month" is used. So with the help of dialect "mvel" the getter and setters of the variable "month" can be accessed.
+
 Dialect "java" is used to help us write our Java code in our rules. There is one restriction or characteristic on this. We cannot use Java code inside the "when" part of the rule but we can use Java code in the "then" part.
+
 We can also declare a Reference variable $h1 without the $ symbol. There is no restriction on this. The main purpose of putting the $ symbol before the variable is to mark the difference between variables of POJO classes and Rules.

@@ -1,29 +1,44 @@
 Optical mark recognition  (OMR) collects data from people by identifying markings on a paper.
+
 OMR enables the hourly processing of hundreds or even thousands of documents. A common application of this technology is used in exams, where students mark cells as their answers. This allows for very fast automated grading of exam sheets.
 
 Background
+
 Many OMR devices have a scanner that shines a light onto a form. The device then looks at the contrasting reflectivity of the light at certain positions on the form.  It will detect the black marks because they reflect less light than the blank areas on the form.
+
 Some OMR devices use forms that are printed on transoptic paper. The device can then measure the amount of light that passes through the paper. It will pick up any black marks on either side of the paper because they reduce the amount of light passing through.
+
 In contrast to the dedicated OMR device, desktop OMR software allows a user to create their own forms in a word processor or computer and print them on a laser printer. The OMR software then works with a common desktop image scanner with a document feeder to process the forms once filled out.
+
 OMR is generally distinguished from optical character recognition (OCR) by the fact that a complicated pattern recognition engine is not required. That is, the marks are constructed in such a way that there is little chance that the OMR device will not read them correctly. This does require the image to have high contrast and an easily recognizable or irrelevant shape. A related field to OMR and OCR is the recognition of barcodes, such as the UPC bar code found on product packaging.
+
 One of the most familiar applications of OMR is the use of #2 pencil (HB in Europe) bubble optical answer sheets in multiple choice question examinations.  Students mark their answers, or other personal information, by darkening circles on a forms.  The sheet is then graded by a scanning machine.
 
 In the United States and most European countries, a horizontal or vertical "tick" in a rectangular "lozenge" is the most commonly used type of OMR form;
 The most familiar form in the United Kingdom is the UK National lottery form.
+
 Lozenge marks represent a later technology that is easier to mark and easier to erase.  The large "bubble" marks are legacy technology from very early OMR machines that were so insensitive a large mark was required for reliability.  In most Asian countries, a special marker is used to fill in an optical answer sheet.  Students, likewise, mark answers or other information by darkening circles marked on a pre-printed sheet.  Then the sheet is automatically graded by a scanning machine.
+
 Many of today's OMR applications involve people filling in specialized forms. These forms are optimized for computer scanning, with careful registration in the printing, and careful design so that ambiguity is reduced to the minimum possible. Due to its extremely low error rate, low cost and ease-of-use, OMR is a popular method of tallying votes.
+
 OMR marks are also added to items of printed mail so folder inserter equipment can be used. The marks are added to each (normally facing/odd) page of a mail document and consist of a sequence of black dashes that folder inserter equipment scans in order to determine when the mail should be folded then inserted in an envelope.
 
 Optical answer sheet
+
 An optical answer sheet or bubble sheet is a special type of form used in multiple choice question examinations. OMR is used to detect answers. The Scantron Corporation creates many optical answer sheets, although certain uses require their own customized system.
+
 Optical answer sheets usually have a set of blank ovals or boxes that correspond to each question, often on separate sheets of paper. Bar codes may mark the sheet for automatic processing, and each series of ovals filled will return a certain value when read. In this way students' answers can be digitally recorded, or identity given.
 
 Reading
+
 The first optical answer sheets were read by shining a light through the sheet and measuring how much of the light was blocked using phototubes on the opposite side. As some phototubes are mostly sensitive to the blue end of the visible spectrum, blue pens could not be used, as blue inks reflect and transmit blue light. Because of this, number two pencils had to be used to fill in the bubbles—graphite is a very opaque substance which absorbs or reflects most of the light which hits it.
+
 Modern optical answer sheets are read based on reflected light, measuring lightness and darkness. They do not need to be filled in with a number two pencil, though these are recommended over other types (this is due to the lighter marks made by higher-number pencils and the smudges from number 1 pencils). Black ink will be read, though many systems will ignore marks that are the same color the form is printed in. This also allows optical answer sheets to be double-sided because marks made on the opposite side will not interfere with reflectance readings as much as with opacity readings.
+
 Most systems accommodate for human error in filling in ovals imprecisely—as long as they do not stray into the other ovals and the oval is almost filled, the scanner will detect it as filled in.
 
 Designing and printing
+
 There are specific dimensions of designing OMR sheets with 0.05 mm precision on scale. If the dimensions are not up to the precision scale, the accuracy of the OMR sheet may vary, so the sheet should be designed, printed and cut perfectly.
 
 Single Part – Sheets are printed on 105 gsm to 120 gsm paper on A4/Legal sheets.
@@ -34,25 +49,39 @@ Errors
 It is possible for optical answer sheets to be printed incorrectly, such that all ovals will be read as filled.  This occurs if the outline of the ovals is too thick, or is irregular.  During the 2008 U.S. presidential election, this occurred with over 19,000 absentee ballots in the Georgia county of Gwinnett, and was discovered after around 10,000 had already been returned.  The slight difference was not apparent to the naked eye, and was not detected until a test run was made in late October.  This required all ballots to be transferred to correctly printed ones, by sequestered workers of the board of elections, under close observation by members of the Democratic and Republican (but not other) political parties, and county sheriff deputies.  The transfer, by law, could not occur until election day (November 4).
 
 OMR software
+
 OMR software is a computer software application that makes OMR possible on a desktop computer by using an Image scanner to process surveys, tests, attendance sheets, checklists, and other plain-paper forms printed on a laser printer.
+
 OMR software is used to capture data from OMR sheets. While data capturing scanning devices focus on many factors like thickness of paper dimensions of OMR sheet and the designing pattern.
 
 Commercial OMR software
+
 One of the first OMR software packages that used images from common image scanners was Remark Office OMR, made by Gravic, Inc. (originally named Principia Products, Inc.). Remark Office OMR 1.0 was released in 1991.
+
 The need for OMR software originated because early optical mark recognition systems used dedicated scanners and special pre-printed forms with drop-out colors and registration marks. Such forms typically cost US$0.10 to $0.19 a page. In contrast, OMR software users design their own mark-sense forms with a word processor or built-in form editor, print them locally on a printer, and can save thousands of dollars on large numbers of forms.
+
 Identifying optical marks within a form, such as for processing census forms, has been offered by many forms-processing (Batch Transaction Capture) companies since the late 1980s.  Mostly this is based on a bitonal image and pixel count with minimum and maximum pixel counts to eliminate extraneous marks, such as those erased with a dirty eraser that when converted into a black-and-white image (bitonal) can look like a legitimate mark.  So this method can cause problems when a user changes their mind, and so some products started to use grayscale to better identify the intent of the marker—internally scantron and NCS scanners used grayscale.
+
 OMR software is also used for adding OMR marks to mail documents so they can be scanned by folder inserter equipment. An example of OMR software is Mail Markup from UK developer Funasset Limited. This software allows the user to configure and select an OMR sequence then apply the OMR marks to mail documents prior to printing.
 
 History
+
 Optical mark recognition (OMR) is the scanning of paper to detect the presence or absence of a mark in a predetermined position. Optical mark recognition has evolved from several other technologies. In the early 19th century and 20th century patents were given for machines that would aid the blind.
+
 OMR is now used as an input device for data entry. Two early forms of OMR are paper tape and punch cards which use actual holes punched into the medium instead of pencil filled circles on the medium. Paper tape was used as early as 1857 as an input device for telegraph. Punch cards were created in 1890 and were used as input devices for computers. The use of punch cards declined greatly in the early 1970s with the introduction of personal computers. With modern OMR, where the presence of a pencil filled in bubble is recognized, the recognition is done via an optical scanner.
+
 The first mark sense scanner was the IBM 805 Test Scoring Machine; this read marks by sensing the electrical conductivity of graphite pencil lead using pairs of wire brushes that scanned the page. In the 1930s, Richard Warren at IBM experimented with optical mark sense systems for test scoring, as documented in US Patents 2,150,256 (filed in 1932, granted in 1939) and 2,010,653 (filed in 1933, granted in 1935). The first successful optical mark-sense scanner was developed by Everett Franklin Lindquist as documented in US Patent 3,050,248 (filed in 1955, granted in 1962). Lindquist had developed numerous standardized educational tests, and needed a better test scoring machine than the then-standard IBM 805. The rights to Lindquist's patents were held by the Measurement Research Center until 1968, when the University of Iowa sold the operation to Westinghouse Corporation.
+
 During the same period, IBM also developed a successful optical mark-sense test-scoring machine, as documented in US Patent 2,944,734 (filed in 1957, granted in 1960). IBM commercialized this as the IBM 1230 Optical mark scoring reader in 1962. This and a variety of related machines allowed IBM to migrate a wide variety of applications developed for its mark sense machines to the new optical technology. These applications included a variety of inventory management and trouble reporting forms, most of which had the dimensions of a standard punched card.
+
 While the other players in the educational testing arena focused on selling scanning services, Scantron Corporation, founded in 1972, had a different model;  it would distribute inexpensive scanners to schools and make profits from selling the test forms. As a result, many people came to think of all mark-sense forms (whether optically sensed or not) as scantron forms.
+
 In 1983, Westinghouse Learning Corporation was acquired by National Computer Systems (NCS). In 2000, NCS was acquired by Pearson Education, where the OMR technology formed the core of Pearson's Data Management group.  In February 2008, M&F Worldwide purchased the Data Management group from Pearson; the group is now part of the Scantron brand.
+
 OMR has been used in many situations as mentioned below. The use of OMR in inventory systems was a transition between punch cards and bar codes and is not used as much for this purpose. OMR is still used extensively for surveys and testing though.
 
 Usage
+
 The use of OMR is not limited to schools or data collection agencies; many businesses and health care agencies use OMR to streamline their data input processes and reduce input error. OMR, OCR, and ICR technologies all provide a means of data collection from paper forms. OMR may also be done using an OMR (discrete read head) scanner or an imaging scanner.
 
 Applications
@@ -72,19 +101,29 @@ Geocoding (e.g. postal codes)
 Mortgage loan, banking, and insurance applications
 
 Field types
+
 OMR has different fields to provide the format the questioner desires. These fields include:
 
 Multiple, where there are several options but only one is chosen. For example, the form might ask for one of the options ABCDE; 12345; completely disagree, disagree, indifferent, agree, completely agree; or similar.
+
 Grid: the bubbles or lines are set up in a grid format for the user to fill in a phone number, name, ID number and so on.
+
 Add, total the answers to a single value
+
 Boolean, answering yes or no to all that apply
+
 Binary, answering yes or no to only one
+
 Dotted lines fields, developed by Smartshoot OMR, allow border dropping like traditional color dropping.
 
 Capabilities/requirements
+
 In the past and presently, some OMR systems require special paper, special ink and a special input reader (Bergeron, 1998). This restricts the types of questions that can be asked and does not allow for much variability when the form is being input. Progress in OMR now allows users to create and print their own forms and use a scanner (preferably with a document feeder) to read the information. The user is able to arrange questions in a format that suits their needs while still being able to easily input the data. OMR systems approach one hundred percent accuracy and only take 5 milliseconds on average to recognize marks. Users can use squares, circles, ellipses and hexagons for the mark zone. The software can then be set to recognize filled in bubbles, crosses or check marks.
+
 OMR can also be used for personal use. There are all-in-one printers in the market that will print the photos the user selects by filling in the bubbles for size and paper selection on an index sheet that has been printed. Once the sheet has been filled in, the individual places the sheet on the scanner to be scanned and the printer will print the photos according to the marks that were indicated.
 
 Disadvantages
+
 There are also some disadvantages and limitations to OMR. If the user wants to gather large amounts of text, then OMR complicates the data collection. There is also the possibility of missing data in the scanning process, and incorrectly or unnumbered pages can lead to their being scanned in the wrong order. Also, unless safeguards are in place, a page could be rescanned, providing duplicate data and skewing the data.
+
 As a result of the widespread adoption and ease of use of OMR, standardized examinations can consist primarily of multiple-choice questions, changing the nature of what is being tested.

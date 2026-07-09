@@ -1,21 +1,31 @@
 The Xeelee Sequence (; ZEE-lee) is a series of hard science fiction novels, novellas, and short stories written by British author Stephen Baxter. The series spans billions of years of fictional history, exploring humanity's future expansion into the universe, its intergalactic war with the Xeelee, a supremely advanced Kardashev Type V alien civilization, and the Xeelee's own conflict with dark matter entities known as Photino Birds. The Xeelee are described as symbiotic entities composed of spacetime defects, Bose–Einstein condensates, and baryonic matter.
 
 Overview
+
 As of August 2018, the series comprises nine novels and 53 shorter works, including short stories and novellas (most collected in three anthologies). All are set within a fictional chronology that spans from the Big Bang to the eventual heat death of the universe and the singularity portrayed in Timelike Infinity. An omnibus edition of the first four novels (Raft, Timelike Infinity, Flux, and Ring), entitled Xeelee: An Omnibus, was released in January 2010. In August 2016, the entire series of novels and stories (up to that date) was released in a single e-book volume, Xeelee Sequence: The Complete Series. Baxter's Destiny's Children series is also part of the Xeelee Sequence.
 
 Conception
+
 Baxter first conceived of the Xeelee while writing a short story in the summer of 1986 as a hobby (eventually published in Interzone as "The Xeelee Flower" the following year). He introduced powerful off-stage aliens to explain the story's titular artifact. In developing the backstory, he began to outline the elements that would later define the Sequence: a universe populated by intelligent species living in the shadow of the incomprehensible Xeelee.
 
 Setting and Themes
+
 The series introduces several notable species and civilizations, including the Squeem, a group-mind aquatic species; the Qax, whose biology depends on the interactions of convection cells; and the Silver Ghosts, colonies of symbiotic organisms encased in reflective skins.
+
 Several stories explore humans and posthumans in extreme environments: at the heart of a neutron star (Flux), in a parallel universe where gravity is much stronger (Raft), and within eusocial hive societies (Coalescent).
+
 The Xeelee Sequence explores numerous ideas from theoretical physics and futurology, including artificial wormholes, time travel, exotic-matter physics, naked singularities, closed timelike curves, multiple universes, advanced computing and artificial intelligence, faster-than-light travel, spacetime engineering, quantum wave function entities, and the higher levels of the Kardashev scale.
+
 Thematically, the series addresses existential and philosophical issues such as the struggle for survival in an unknowable universe, the impact of war and militarism on society, and the consequences of an unpredictable technological future for humanity.
 
 Plot summary
+
 The overarching plot of the Xeelee Sequence involves an intergalactic war between humanity and the Xeelee, as well as a cosmic conflict between the Xeelee and the Photino Birds. Both are alien species that originated in the early universe. The technologically advanced Xeelee inhabit supermassive black holes, manipulating their event horizons to create habitats, construction materials, tools, and computing devices. The Photino Birds are a species based on dark matter that live in the gravity wells of stars. Because dark matter interacts only weakly with normal matter, they are likely unaware of baryonic life. To avoid losing their habitats to supernovae and stellar evolution, the Photino Birds interfere with nuclear fusion in stellar cores, prematurely aging stars into stable white dwarfs. These dwarfs provide long-lasting refuges for the Birds, but at the expense of other forms of life on surrounding planets. Their activities also halt the formation of new black holes by preventing Type II supernovae, thereby threatening the Xeelee and their cosmic projects.
+
 After enduring several brutal occupations by alien civilizations, humanity expands into the galaxy with a xenophobic and militaristic outlook, seeking to eradicate other species. Humans eventually become the second-most advanced and widespread civilization in the Milky Way, after the Xeelee. Unaware of the war between the Photino Birds and the Xeelee, and its cosmic stakes, humanity wrongly concludes that the Xeelee are a sinister threat to their hegemony. Through a long war of attrition, humans contain the Xeelee to the galactic core. Both sides use time travel and closed timelike curves as war tactics, producing a stalemate that lasts thousands of years. Eventually, humanity develops defensive, movable pocket universes to safeguard information and an exotic weapon capable of destabilizing the core’s supermassive black hole. After the first successful strike, the Xeelee abruptly withdraw from the galaxy, ceding the Milky Way to human control.
+
 Over the next 100,000 years, humanity continues to advance technologically, becoming a Type III civilization. They spread across the Local Group of galaxies and wage further wars against the Xeelee. However, even at this peak, humans remain a minor distraction, unable to meaningfully challenge Xeelee dominance across the wider universe.
+
 Although the Xeelee master space and time and can even influence their own evolution, they ultimately fail to stop the Photino Birds. Instead, they construct a colossal ring-like structure made of cosmic strings. This construction, known as Bolder’s Ring (or simply “the Ring”), enables escape to other universes. Despite their aloofness and superiority, the Xeelee show compassion toward younger species. For example, they create a tailored universe for the nearly extinct Silver Ghosts, and they allow humans to use the Ring despite their long hostility.
 
 Novels
@@ -35,15 +45,19 @@ Limited edition novellas
 Limited editions distributed by UK-based PS Publishing. Mayflower II won the 2004 BSFA Award for Best Short Fiction.
 
 Old Earth (2004–2009)
+
 Short stories published as "A Tale of Old Earth". Stories are collected in Xeelee: Endurance (2015).
 
 Chronology and reading order
+
 The novels in chronological order (as opposed to publication order) are given below. Some of the novels contain elements occurring at different points in the timeline. The story anthologies (Vacuum Diagrams, Resplendent, and Xeelee: Endurance) each contain stories taking place across the entire chronology.
 
 In 2009, Baxter posted a detailed chronology of the Xeelee Sequence explaining the proper chronological reading order of all the novels, novellas, and short stories up to that year.  The timeline was updated in September 2015.
+
 When asked directly for a suggested reading order, the author wrote: "I hope that all the books and indeed the stories can be read stand-alone. I'm not a great fan of books that end with cliff-hangers. So you could go in anywhere. One way would be to start with Vacuum Diagrams, a collection that sets out the overall story of the universe. Then Timelike Infinity and Ring which tell the story of Michael Poole, then Raft and Flux which are really incidents against the wider background, and finally Destiny's Children."
 
 Reception
+
 Science fiction author Paul J. McAuley has praised Baxter and the series, saying:
 
 It is great, heady, mind-bending stuff, meticulously mapped onto cutting edge speculations about the birth pangs of the universe and the ultimate fate of all known time and space, constantly enlivened and driven forward by the narratives that its vast range of life generates.

@@ -1,11 +1,15 @@
 Henry A. Kautz (born 1956) is a computer scientist and a professor of computer science at the University of Virginia. He formerly served as the Founding Director of Institute for Data Science and Professor at University of Rochester. He is interested in knowledge representation, artificial intelligence, data science and pervasive computing.
 
 Biography
+
 Kautz was born in 1956 in Youngstown, Ohio.
+
 Kautz entered the Case Institute of Technology in 1974, then a year later, transferred to Cornell University and got his B.A. in English and in mathematics in 1978 there. He wrote plays during a one-year fellowship creative writing program at Johns Hopkins University and got an M.A. by the Writing Seminars in 1980. As a foreign student supported by the Connaught Fellowship, he enrolled at University of Toronto in 1980. Kautz completed his master thesis A First-Order Dynamic Logic for Planning under the supervision of C. Raymond Perrault, and then received his M.S. in computer science in 1982. Before receiving his Ph.D. from University of Rochester in 1987 he was a teaching assistant for Patrick Hayes and a teaching assistant and research assistant for his thesis advisor James F. Allen. His PhD thesis was titled A Formal Theory of Plan Recognition (1987).
+
 Kautz was a professor of computer science at University of Washington (2000-2006) after worked at AT&T Bell Labs and AT&T Laboratories. He then became a professor at the University of Rochester in 2007 and Founding Director of the Institute for Data Science after working as a director of Intelligent Systems at Kodak Research Laboratories (2006-2007). In 2024, he moved to the University of Virginia where he is a professor of computer science.
 
 Selected works
+
 Kautz works on wide areas ranging from planning, knowledge representation and artificial Intelligence to data mining, human computation and crowdsourcing, ubiquitous computing, wearable computers, assistive technology and health.
 
 Books

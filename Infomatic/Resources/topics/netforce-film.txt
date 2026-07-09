@@ -1,6 +1,7 @@
 NetForce is a 1999 American made-for-television science fiction action drama film directed by Robert Lieberman, written by Lionel Chetwynd, and starring Scott Bakula. Based on the Tom Clancy's Net Force series of novels created by Tom Clancy and Steve Pieczenik, it was broadcast on ABC in 1999.
 
 Plot
+
 In 2005, Alex Michaels is deputy head of a new division of the FBI called "Netforce" which investigates computer crime and polices the Internet. When his boss and mentor, Steve Day, is assassinated, the evidence points to Web pioneer and owner of the company Januscorp, Will Stiles, a character said to be Bill Gates' apprentice. Stiles is about to release a new web browser that may allow him to hack into any computer in the world and to gain control of the Internet. Michaels is appointed acting Commander of Netforce, and leads his people on the hunt for Stiles.
 
 Cast
@@ -19,4 +20,5 @@ Production
 NetForce was shot in Los Angeles, Virginia, and Washington, DC.
 
 Reception
+
 Bruce Fretts of Entertainment Weekly called it "boring cyber-nonsense". William McDonald of The New York Times wrote, "The movie does gather suspense and momentum in Part II, but so much is going on, and so much dialogue is devoted to explaining it, that no one has time to be interesting." Steve Johnson of the Chicago Tribune called it "pretty silly stuff".

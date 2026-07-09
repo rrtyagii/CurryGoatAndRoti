@@ -1,26 +1,19 @@
 Evolutionary programming is an evolutionary algorithm, where a share of new population is created by mutation of previous population without crossover. Evolutionary programming differs from evolution strategy ES(
 
-
-
         μ
         +
         λ
-
-
     {\displaystyle \mu +\lambda }
 
 ) in one detail. All individuals are selected for the new population, while in ES(
 
-
-
         μ
         +
         λ
-
-
     {\displaystyle \mu +\lambda }
 
 ), every individual has the same probability to be selected. It is one of the four major evolutionary algorithm paradigms.
 
 History
+
 It was first used by Lawrence J. Fogel in the US in 1960 in order to use simulated evolution as a learning process aiming to generate artificial intelligence. It was used to evolve finite-state machines as predictors.

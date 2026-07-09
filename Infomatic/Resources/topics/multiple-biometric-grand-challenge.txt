@@ -1,6 +1,7 @@
 Multiple Biometric Grand Challenge (MBGC) is a biometric project. Its primary goal is to improve performance of face and iris recognition technology on both still and video imagery with a series of challenge problems and evaluation.
 
 Background
+
 Over the last decade, numerous government and industry organizations have moved or are moving toward deploying automated biometric technologies to provide increased security for their systems and facilities. Six U.S. Government organizations recently sponsored the Face Recognition Grand Challenge (FRGC), Face Recognition Vendor Test (FRVT) 2006 and the Iris Challenge Evaluation (ICE) 2006. Results from the FRGC and FRVT 2006 documented two orders of magnitude improvement in the performance of face recognition under full-frontal, controlled conditions over the last 14 years. For the first time, ICE 2006 provided an independent assessment of multiple iris recognition algorithms on the same data set. However, further advances in these technologies are needed to meet the full range of operational requirements. Many of these requirements focus on biometric samples taken under less than ideal conditions, for example:
 
 Low quality still images
@@ -10,21 +11,29 @@ Off-angle or occluded images
 Building on the challenge problem and evaluation paradigm of FRGC, FRVT 2006, ICE 2005 and ICE 2006, the Multiple Biometric Grand Challenge (MBGC) will address these problem areas.
 
 Overview
+
 The primary goal of the MBGC is to investigate, test and improve performance of face and iris recognition technology on both still and video imagery through a series of challenge problems and evaluation. The MBGC seeks to reach this goal through several technology development areas:
 
 Face recognition on still frontal, real-world-like high and low resolution imagery
 Iris recognition from video sequences and off-angle images
+
 Fusion of face and iris (at score and image levels)
+
 Unconstrained face recognition from still and video
+
 Recognition from near infrared (NIR) and high definition (HD) video streams taken through portals
 The MBGC will consist of a set of challenge problems designed to advance the current state of technology and conclude with a planned independent evaluation. Challenge problems will focus on three major areas:
 
 Iris and Face Recognition from Portal Video: the goal is to develop algorithms that recognize people from near infrared image sequences and high definition video sequences. The sequences will be acquired as people walk through a portal.
+
 Iris and Face Recognition from Controlled Images: the goal is to improve performance on iris and face imagery. Face data will be real-world-like high and low resolution images of frontal faces. Iris images will consist of still and video iris sequences.
+
 Still and Video Face: the goal is to advance recognition from unconstrained outdoor video sequences and still images.
+
 These challenge problems will allow for fusion of face and iris at both the score level and the image level.
 
 Challenge Problem structure overview
+
 The Multiple Biometric Grand Challenge is based on previous challenges directed by Dr. P. Jonathon Phillips. Specifically the Facial Recognition Grand Challenge (FRGC) and the Iris Challenge Evaluation (ICE 2005). The programmatic process of a Challenge Problem is as follows. The Challenge Team designs the protocols, challenge problems, prepares challenge infrastructure, and composes the necessary data sets. Organizations then sign licenses to receive the data and begin to develop technology (mostly computer algorithms) in an attempt to solve the various challenges laid out by the Challenge Team. To advance and inform the various participants and interested parties the Team hosts workshops. The first workshop gives an overview of the challenge and introduces the first set of challenge problems (typically referred to as Version 1). The data sets are then released to participating organizations who develop their algorithms and submit self reported results back to the Challenge Team in the form of similarity matrices. The Team analyzes these results and then hosts another workshop. At the 2nd Workshop the Challenge Team reports the results from Challenge Version 1 and releases the Challenge Version 2. The cycle is repeated, finishing with a final workshop. At this stage the Participants are requested to submit not their self reported results, but the actual executables (or SDKs) to their algorithms. The Challenge Team then runs these algorithms through a battery of tests on large sequestered datasets. This phase ultimately determines the performance levels of the participant's algorithms. A final report is issued by the Team which is used by Industries and Governments to determine the actual state of the art in a given field and to provide participating organizations a basis for showing their performance within that field.
 
 MBGC Challenge Version 1
@@ -46,6 +55,7 @@ Still Face / Video Iris versus Near Infrared (NIR) / High Definition (HD) Video
 Version 1 results were submitted in November 2008, and reported at the MBGC 2nd Workshop in December 2008.
 
 MBGC Challenge Version 2
+
 The MBGC Challenge Version 2 was released in January 2009. Results were reported at a workshop in December 2009.
 
 Multiple Biometric Evaluation (MBE)

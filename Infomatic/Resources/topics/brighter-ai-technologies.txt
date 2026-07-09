@@ -1,17 +1,27 @@
 Brighter AI Technologies GmbH or branded brighter AI is a German technology company that develops privacy-preserving image and video anonymization software based on deep learning. It builds tools intended to redact personally identifiable information (for example, faces and license plates) in images and video while preserving visual utility for analytics and machine-learning use cases.
 
 History
+
 brighter AI was founded by Marian Gläser, Patrick Kern and Asaf Birnhack as the first spin-off from the automotive supplier Hella’s incubator in Berlin in 2017.
+
 In May 2018, the EU General Data Protection Regulation (GDPR) came into enforcement, a development that strongly shaped Brighter AI Technologies GmbH’s strategic focus on privacy-preserving video and image anonymization.
+
 In 2019, brighter AI participated in Deutsche Bahn’s Mindbox program and received early investment from eCAPITAL and G+D Ventures. Also in 2019, it was named "Europe's Hottest AI Startup" by Nvidia and “Most Innovative ADAS Technology” from Automotive Tech.AD.
+
 Also in 2019, brighter AI received The Spark — The German Digital Award, presented by Handelsblatt and McKinsey. The following year, the firm was awarded the Deep Tech Award in the “AI” category by the Berlin Senate.
+
 On 30 June 2022, the company closed a financing round led by Armilar Venture Partners with participation from existing investors. In the same year, it won the AUREA Award in the “Impact” category.
+
 In September 2024, it received the German AI Start-Up Award, and the Tiger Awards: AI Visionary Awards, presented by Contra. In April 2025, Brighter AI Technologies was acquired by Milestone Systems, a Danish video-software company and subsidiary of Canon Inc.
 
 Products and services
+
 brighter AI develops commercial software and services to anonymize images and video so that datasets can be used for analytics and machine learning while reducing privacy risk. Key product concepts and offerings described by the company include:
 
 Precision Blur is an automated face and object redaction tool that applies targeted blurring to detected objects; the company frames this as a high-accuracy redaction option.
+
 Deep Natural Anonymization (DNAT) is a generative anonymization approach that replaces faces and license plates with synthetic, non-reversible overlays intended to preserve visual context and enable downstream analytics. The company positions DNAT as an alternative to traditional pixelation or blur.
+
 Brighter AI Technologies GmbH holds four registered patents covering methods for privacy-preserving anonymization and selective image/video modification.
+
 The company offers on-premises, cloud and edge deployment options and publishes case studies showing integrations with automotive, public transport, and security workflows.

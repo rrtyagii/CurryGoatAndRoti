@@ -5,7 +5,9 @@ Some modern video encoding standards, such as H.264/AVC, allow the use of multip
 
 Disadvantages
 Encoding
+
 Multiple reference frames can considerably increase encoding time because many of the decisions, such as motion estimation, that are ordinarily carried out only on one reference frame have to be repeated on all of the reference frames. Heuristics can be used to reduce this speed cost at the cost of quality. Very high numbers of reference frames are rarely useful in terms of quality for live-action material because frames from further back in time generally have less and less correlation with the current frame. This is not as true for animated sources, where repetitive motion can make high numbers of reference frames more useful.
 
 Decoding
+
 When decoding, reference frames must be stored in memory until they are no longer needed for further decoding. This can considerably raise the memory usage of the decoder for videos with large numbers of reference frames. The use of several reference frames also decreases locality of reference, which might cause a speed impact. Stand-alone players that can play AVC/MKV files from recorded DVDs or USB sticks may not be able to handle the maximum possible 16 reference frames.

@@ -1,5 +1,6 @@
 RoboCup is an annual international robotics competition founded in 1996 by a group of university professors (including Hiroaki Kitano, Manuela M. Veloso, Itsuki Noda and Minoru Asada). The aim of the competition is to promote robotics and AI research by offering a publicly appealing – but formidable – challenge.
 The name RoboCup is a contraction of the competition's full name, "Robot World Cup Initiative" (based on the FIFA World Cup), but there are many other areas of competition such as "RoboCupRescue", "RoboCup@Home" and "RoboCupJunior". Claude Sammut is the current president of RoboCup, and has been since 2019.
+
 The official goal of the project is:
 
 "By the middle of the 21st century, a team of fully autonomous humanoid robot soccer players shall win a soccer game, complying with the official rules of FIFA, against the winner of the most recent World Cup."
@@ -20,19 +21,25 @@ Rescue Simulation League
 Rapidly Manufactured Robot Challenge
 RoboCup@Home, which debuted in 2006, focuses on the introduction of autonomous robots to human society
 RoboCup@Home Open Platform League (formerly just RoboCup@Home)
+
 Robocup@Home Domestic Standard Platform League
+
 RoboCup@Home Social Standard Platform League
+
 RoboCup Logistics League, which debuted in 2012, is an application-driven league inspired by the industrial scenario of a smart factory
 RoboCup@Work, which debuted in 2016, "targets the use of robots in work-related scenarios"
 RoboCup Junior
 Soccer League
+
 OnStage (formerly Dance) League
 Rescue League
 Rescue CoSpace League
 Each team is fully autonomous in all RoboCup leagues. Once the game starts, the only input from any human is from the referee.
 
 RoboCup editions
+
 The formal RoboCup competition was preceded by the (often unacknowledged) first International Micro Robot World Cup Soccer Tournament (MIROSOT) held by KAIST in Taejon, Korea, in November 1996. This was won by an American team from Newton Labs, and the competition was shown on CNN.
+
 RoboCup was canceled in 2020 due to the COVID-19 pandemic. The planned host location of Bordeaux went on to host in 2023.
 
 RoboCup Asia-Pacific editions
@@ -49,77 +56,129 @@ German open in Kassel
 German open
 
 2021
+
 RoboCup Kazakhstan, Nur-Sultan, Kazakhstan
+
 RoboCup Portugal Open, virtual
+
 RoboCup Russia Open, Tomsk, Russia
+
 RoboCup Brazil Open, virtual
 
 2020
+
 RoboCup Japan Open 2020, virtual
+
 RoboCup China Open 2020, virtual
+
 RoboCup Brazil Open 2020, virtual
+
 Events were cancelled due to COVID-19
 
 2019
+
 RoboCup Portuguese Open 2019, Gondomar, Portugal
+
 RoboCup Brazil Open 2019, Rio Grande, Brazil
+
 RoboCup Asia Pacific 2019, Moscow, Russia
+
 RoboCup German Open 2019, Magdeburg, Germany
+
 RoboCup China Open 2019, Shaoxing, China
 
 2018
+
 RoboCup Portugal Open 2018, Torres Vedras, Portugal
+
 RoboCup Asia Pacific 2018, Kish Island, Iran
+
 RoboCup Iran Open 2018, Tehran, Iran
+
 RoboCup UAE 2018, Abu Dhabi, United Arab Emirates
+
 RoboCup German Open 2018, Magdeburg, Germany
 
 2017
+
 RoboCup Portugal Open 2017, Coimbra, Portugal
+
 RoboCup Iran Open 2017, Tehran, Iran
+
 RoboCup German Open 2017, Magdeburg, Germany
+
 RoboCup Russia Open 2017, Tomsk, Russia
+
 RoboCup US Open 2017, Miami, United States
+
 RoboCup China Open 2017, Shaoxing, China
 
 2016
+
 RoboCup Portugal Open 2016, Bragança, Portugal
+
 RoboCup China Open 2016, Hefei, China
+
 RoboCup European Open 2016, Eindhoven, Netherlands
 
 2015
+
 RoboCup Portugal Open 2015, Vila Real, Portugal
+
 RoboCup China Open 2015, Guiyang, China
+
 RoboCup Iran Open 2015, Tehran, Iran
+
 GermanOpen 2015, Magdeburg, Germany
 
 2014
+
 RoboCup Portugal Open 2014, Espinho, Portugal
+
 RoboCup China Open 2014, Hefei, China
+
 RoboCup Iran Open 2014, Tehran, Iran
+
 RoboCup German Open, Magdeburg, Germany
 
 2013
+
 RoboCup Portugal Open 2013, Lisbon, Portugal
+
 RoboCup Iran Open 2013, Tehran, Iran
+
 RoboCup German Open, Magdeburg, Germany
 
 2012
+
 RoboCup Portugal Open 2012, Guimarães, Portugal
+
 RoboCup Dutch Open, Eindhoven, Netherlands
+
 RoboCup German Open, Magdeburg, Germany
+
 RoboCup Iran Open, Tehran, Iran
+
 RoboCup SSL North American Open, Vancouver, Canada
 
 2011
+
 RoboCup German Open, Magdeburg, Germany
+
 RoboCup Portugal Open, Lisbon, Portugal
+
 RoboCup Iran Open 2011, Tehran, Iran
 
 2010
+
 RoboCup Portugal Open, Leiria, Portugal
+
 Iran Open 2010, Tehran, Iran
+
 Latin America & Brazil Open 2010, São Bernardo do Campo, Brazil
+
 RoboCup Mediterranean Open 2010, Rome, Italy
+
 RoboCup German Open (unofficial all-European tournament), Magdeburg, Germany
+
 AUT Cup 2010, Tehran, Iran

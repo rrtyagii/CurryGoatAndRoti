@@ -1,35 +1,51 @@
 A computer poker player is a computer program designed to play the game of poker (generally the Texas hold 'em version), against human opponents or other computer opponents. It is commonly referred to as pokerbot or just simply bot. As of 2019, computers can beat any human player in poker.
 
 On the Internet
+
 These bots or computer programs are used often in online poker situations as either legitimate opponents for humans players or a form of cheating.  As of 2020, all use of Real-Time Assistance (RTA) or automated bots is considered cheating by all online poker sites, although the level of enforcement from site operators varies considerably.
 
 Player bots
+
 Use of player bots or computer assistance while playing online poker is prohibited by most, if not all, online sites. Actions taken for breaches are a permanent ban and confiscation of winnings.  One kind of bot can interface with the poker client (in other words, play by itself as an auto player) without the help of its human operator. Real-Time Assistance (RTA) is another method of using computer programs. RTA is when a human player uses program called a “solver” such as PioSOLVER or PokerSnowie, running on a different computer, to make their decisions.
+
 The issue of unfair advantage is twofold. For one, bots can play for many hours at a time without human weaknesses such as fatigue and can endure the natural variances of the game without being influenced by human emotion (or "tilt"). Secondly, since 2019, the computer program Pluribus (poker bot) is successful enough at reading bluffs, calculating odds, and adjusting to strategy that it consistently beats professional poker players at 6-player no-limit Hold’em.
 
 House enforcement
+
 While the terms and conditions of poker sites generally forbid the use of bots, the level of enforcement depends on the site operator.  Some will seek out and ban bot users through the utilization of a variety of software tools.  The poker client can be programmed to try to detect bots although this is controversial in its own right as it might be seen as tantamount to embedding spyware in the client software.  Another method is to use CAPTCHAs at random intervals during play to catch automated bots, although isn’t effective against Real-Time Assistance.
 
 House bots
+
 “House bots” can pose a conflict of interest.  By the strictest definition, a house bot is an automated player operated by the online poker room itself.  These types of bots would be the equivalent of brick and mortar shills.
+
 Both brick and mortar casino shills and online house bots are not supposed to have access to any information that is not also available to any other player in the hand. The problem is that in an online setting the house has no way to prove their bots are not receiving sensitive information from the card server. This is further exacerbated by the ease with which clandestine information sharing can be accomplished in a digital environment. It is essentially impossible even for the house to prove that they do not control some players.
 
 Artificial Intelligence
+
 Like in the games of chess, Go (game), and many other games, artificial intelligence systems beat even the best humans at poker. Poker is a game of imperfect information (because some cards in play are concealed) thus making it harder for anyone (including a computer) to deduce the final outcome of the hand. Because of this lack of information, the computer's programmers used to have to implement systems based on the Bayes' theorem, Nash equilibrium, Monte Carlo simulation or neural networks, all of which are imperfect techniques. Pluribus, however, perfected poker by only looking ahead a few moves to determine what action to take, rather than attempting to evaluate all moves until the end of the game.
+
 Older AIs like PokerSnowie and Claudico were created by allowing the computer to determine the best possible strategy by letting it play itself an enormous number of times. For years, this was the approach to poker AI, as opposed to attempting to make a computer that plays like a human. This resulted in odd bet sizing and a much different strategy than humans are used to seeing.
+
 Methods were first developed to approximate perfect poker strategy from the game theory perspective in the heads-up (two player) game, and then for the multi-player game. Perfect strategy has multiple meanings in this context.  From a game-theoretic optimal point of view, a perfect strategy is one that cannot expect to lose to any other player's strategy; however, optimal strategy can vary in the presence of sub-optimal players who have weaknesses that can be exploited. In this case, a perfect strategy is one that correctly or closely models those weaknesses and takes advantage of them to make a profit, such as those explained above.
+
 AI broke through to superhuman performance in poker during the 2010s, with the following timeline. In 2015, computers solved heads-up limit hold'em via Cepheus. The breakthrough was achieved using the CFR+ (Counterfactual Regret Minimization Plus) algorithm, which analyzed 3.19×10^14 decision points to effectively solve the game. CFR+ works by iteratively playing against itself and analyzing counterfactual regret - the difference between the expected value of an action taken and the best possible action that could have been taken. Around 2018, Libratus demonstrated superhuman ability in heads-up no-limit hold'em. In 2019, Pluribus (a newer version of Libratus) demonstrated superhuman ability at six-player no-limit hold'em, the most commonly played single variety of poker in the world. In 2021, Microsoft released the older poker-playing program, Libratus, commercially, which then beat four professional poker players in a 20-day long poker competition at Rivers Casino.
+
 Recent developments have introduced Large Language Model (LLM) approaches to poker AI, most notably PokerGPT. Unlike traditional Counterfactual Regret Minimization (CFR) systems that require extensive computational resources, PokerGPT represents a paradigm shift toward lightweight, text-based poker AI. This approach leverages fine-tuned language models trained on millions of real poker hand histories, enabling the AI to make human-readable decisions while consuming significantly fewer computational resources than traditional methods.
 
 Research groups
+
 Neo Poker Laboratory
+
 Neo Poker Lab was an established science team focused on the research of poker artificial intelligence. For several years it  developed and applied state-of-the-art algorithms and procedures like regret minimization and gradient search equilibrium approximation, decision trees, recursive search methods as well as expert algorithms to solve a variety of problems related to the game of poker. Neo Poker Lab’s website, neopokerlab.com is no longer running.
 
 The University of Auckland Game AI Group
+
 Until 2017, a team from the University of Auckland consisted of a small number of scientists who employ case-based reasoning to create and enhance Texas Hold’em poker agents. The group applied different AI techniques to a number of games including participation in the commercial projects Small Worlds and Civilization (video game).
 
 Computer Poker Research Group (University of Alberta, Canada)
+
 Until 2019, a large amount of the research into computer poker players was being performed at the University of Alberta by the Computer Poker Research Group, led by Dr. Michael Bowling.  The group developed the agents Poki, PsOpti, Hyperborean and Polaris.  Poki has been licensed for the entertainment game STACKED featuring Canadian poker player Daniel Negreanu.  PsOpti was available under the name "SparBot" in the poker training program "Poker Academy".  The series of Hyperborean programs have competed in the Annual Computer Poker Competition, most recently taking three gold medals out of six events in the 2012 competition.  The same line of research also produced Polaris, which played against human professionals in 2007 and 2008, and became the first computer poker program to win a meaningful poker competition.
+
 In January 2015, an article in Science by Michael Bowling, Neil Burch, Michael Johanson, and Oskari Tammelin claimed that their poker bot Cepheus had "essentially weakly solved" the game of heads-up limit Texas hold 'em.
 
 School of Computer Science from Carnegie Mellon University
@@ -38,38 +54,57 @@ In 2017 the program's software, Libratus, faced off against four professional po
 In 2019, Libratus was replaced by the final version called Pluribus (poker bot).
 
 Historic contests
+
 ICCM 2004 PokerBot competition
+
 One of the earliest no-limit poker bot competitions was organized in 2004 by International Conference on Cognitive Modelling. The tournament hosted five bots from various universities from around the world. The winner was Ace Gruber, from University of Toronto.
 
 ACM competitions
+
 The Association for Computing Machinery (ACM) used to host competitions where the competitors submit a piece of software capable of playing poker on their specific platform. The event hosts conducted the contests by operating the software and reporting the results.
 
 The 2005 World Series of Poker Robots
+
 In the summer 2005, the online poker room Golden Palace hosted a promotional tournament in Las Vegas, at the old Binions, with a $100k giveaway prize. It was billed as the 2005 World Series of Poker Robots.  The tournament was bots only with no entry fee.  The bot developers were computer scientists from six nationalities who traveled at their own expense.  The host platform was Poker Academy.  The event also featured a demonstration heads-up event with Phil Laak.
 
 University of Alberta's Man V Machine experiments
+
 In the summer 2007, the University of Alberta hosted a highly specialized heads-up tournament between humans and their Polaris bot, at the AAAI conference in Vancouver, BC, Canada. The host platform was written by the University of Alberta. There was a $50k maximum giveaway purse with special rules to motivate the humans to play well.  The humans paid no entry fee.  The unique tournament featured four duplicate style sessions of 500 hands each.  The humans won by a narrow margin.
+
 In the summer of 2008, the University of Alberta and the poker coaching website Stoxpoker ran a second tournament during the World Series of Poker in Las Vegas.  The tournament had six duplicate sessions of 500 hands each, and the human players were Heads-Up Limit specialists.  Polaris won the tournament with 3 wins, 2 losses and a draw.  The results of the tournament, including the hand histories from the matches, are available on the competition website.
 
 The 2015 Brains vs AI competition by Rivers Casino, CMU and Microsoft
+
 From April–May 2015, Carnegie Mellon University Sandholm's bot, Claudico, faced off against four human opponents, in a series of no-limit Texas Hold'em matches. Finally, after playing 80,000 hands, humans were up by a combined total of $732,713. But even though humans technically won, scientists considered the win as statistically insignificant (rather, a statistical tie) when that $732,713 is compared to the total betting amount of $170,000,000 ($170 million). However, some have determined this claim to be disingenuous. Statistically insignificant here means that the programmers of Claudico can not say with 95% confidence (a 95% confidence interval) that humans are better than the computer program. However, it is a statistically significant win on a 90% confidence interval. This means that the human players are somewhere between a 10 to 1 and 20 to 1 favorite.
+
 The way the tournament was structured was in two sets of two players each. In each of the two sets, the players got the opposite cards. Meaning if the computer has As9c (Ace of Spades & Nine of Clubs) and the human has Jh8d on one computer, the other of the two players in the set will have As9c up against the computer's Jh8d. However, even with the human players winning more than the computer—not all of the players were positive in their head-to-head match ups.
+
 The totals for each of the players winnings were as follows:
 
 Douglas Polk: +$213,671
+
 Dong Kim: +$70,491
+
 Bjorn Li: +$529,033
+
 Jason Les: -$80,482
 
 The Annual Computer Poker Competition
+
 From 2006 to 2018, the Annual Computer Poker Competition ran a series of competitions for poker programs.  Since 2010, three types of poker were played: Heads-Up Limit Texas Hold'em, Heads-Up No-Limit Texas Hold'em, and 3-player Limit Texas Hold'em.  Within each event, two winners are named: the agent that wins the most matches (Bankroll Instant Run-off), and the agent that wins the most money (Total Bankroll).  These winners are often not the same agent, as Bankroll Instant Run-off rewards robust players, and Total Bankroll rewards players that are good at exploiting the other agents' mistakes.  The competition was motivated by scientific research, and there was an emphasis on ensuring that all of the results are statistically significant by running millions of hands of poker. The 2012 competition had the same formats with more than 70 million hands played to eliminate luck factor.
+
 Some researchers developed web application where people could play and assess quality of the AI. So as of December 2012 the following top groups and individual researchers’ agents could be found:
 
 Hyperborean (9 gold, 5 silver and 3 bronze)
+
 Bluffbot (1 gold, 3 silver and 2 bronze medals)
+
 Sartre (1 gold, 5 silver and 3 bronze medals)
+
 Neo Poker Bot (1 gold, 5 bronze medals)
 
 Results
+
 Pluribus
+
 The final poker contest was not public. When the Pluribus (poker bot) program consistently beat professionals at 6-hand no-limit Hold’em, the result was quietly announced on a Facebook post.

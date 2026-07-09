@@ -1,69 +1,34 @@
 In mathematics and philosophy, Łukasiewicz logic ( WUUK-ə-SHEV-itch, Polish: [wukaˈɕɛvitʂ]) is a non-classical, many-valued logic. It was originally defined in the early 20th century by Jan Łukasiewicz as a three-valued modal logic; it was later generalized to n-valued (for all finite n) as well as infinitely-many-valued (ℵ0-valued) variants, both propositional and first order. The ℵ0-valued version was published in 1930 by Łukasiewicz and Alfred Tarski; consequently it is sometimes called the Łukasiewicz–Tarski logic. It belongs to the classes of t-norm fuzzy logics and substructural logics.
 Łukasiewicz logic was motivated by Aristotle's suggestion that bivalent logic was not applicable to future contingents, e.g. the statement "There will be a sea battle tomorrow". In other words, statements about the future were neither true nor false, but an intermediate value could be assigned to them, to represent their possibility of becoming true in the future.
+
 This article presents the Łukasiewicz(–Tarski) logic in its full generality, i.e. as an infinite-valued logic. For an elementary introduction to the three-valued instantiation Ł3, see three-valued logic.
 
 Language
+
 The propositional connectives of Łukasiewicz logic are
 
-
-
         →
-
-
     {\displaystyle \rightarrow }
-
  ("implication"), and the constant
-
-
-
         ⊥
-
-
     {\displaystyle \bot }
-
  ("false").  Additional connectives can be defined in terms of these:
-
-
-
-
-
-
-
-
                 ¬
                 A
-
-
-
-
                   =
-
                     d
                     e
                     f
-
-
                 A
                 →
                 ⊥
-
-
-
-
                 A
                 ∨
                 B
-
-
-
-
                   =
-
                     d
                     e
                     f
-
-
                 (
                 A
                 →
@@ -71,24 +36,13 @@ The propositional connectives of Łukasiewicz logic are
                 )
                 →
                 B
-
-
-
-
                 A
                 ∧
                 B
-
-
-
-
                   =
-
                     d
                     e
                     f
-
-
                 ¬
                 (
                 ¬
@@ -97,24 +51,13 @@ The propositional connectives of Łukasiewicz logic are
                 ¬
                 B
                 )
-
-
-
-
                 A
                 ↔
                 B
-
-
-
-
                   =
-
                     d
                     e
                     f
-
-
                 (
                 A
                 →
@@ -126,98 +69,44 @@ The propositional connectives of Łukasiewicz logic are
                 →
                 A
                 )
-
-
-
-
                 ⊤
-
-
-
-
                   =
-
                     d
                     e
                     f
-
-
                 ⊥
                 →
                 ⊥
-
-
-
-
-
-
     {\displaystyle {\begin{aligned}\neg A&=_{def}A\rightarrow \bot \\A\vee B&=_{def}(A\rightarrow B)\rightarrow B\\A\wedge B&=_{def}\neg (\neg A\vee \neg B)\\A\leftrightarrow B&=_{def}(A\rightarrow B)\wedge (B\rightarrow A)\\\top &=_{def}\bot \rightarrow \bot \end{aligned}}}
-
 
 The
 
-
-
         ∨
-
-
     {\displaystyle \vee }
-
  and
-
-
-
         ∧
-
-
     {\displaystyle \wedge }
-
  connectives are called weak disjunction and conjunction, because they are non-classical, as the law of excluded middle does not hold for them.  In the context of substructural logics, they are called additive connectives.  They also correspond to lattice min/max connectives.
 In terms of substructural logics, there are also strong or multiplicative disjunction and conjunction connectives, although these are not part of Łukasiewicz's original presentation:
-
-
-
-
-
-
-
 
                 A
                 ⊕
                 B
-
-
-
-
                   =
-
                     d
                     e
                     f
-
-
                 ¬
                 A
                 →
                 B
-
-
-
-
                 A
                 ⊗
                 B
-
-
-
-
                   =
-
                     d
                     e
                     f
-
-
                 ¬
                 (
                 A
@@ -225,102 +114,48 @@ In terms of substructural logics, there are also strong or multiplicative disjun
                 ¬
                 B
                 )
-
-
-
-
-
-
     {\displaystyle {\begin{aligned}A\oplus B&=_{def}\neg A\rightarrow B\\A\otimes B&=_{def}\neg (A\rightarrow \neg B)\end{aligned}}}
-
 
 There are also defined modal operators, using the Tarskian Möglichkeit:
 
-
-
-
-
-
-
-
                 ◊
                 A
-
-
-
-
                   =
-
                     d
                     e
                     f
-
-
                 ¬
                 A
                 →
                 A
-
-
-
-
                 ◻
                 A
-
-
-
-
                   =
-
                     d
                     e
                     f
-
-
                 ¬
                 ◊
                 ¬
                 A
-
-
-
-
-
-
     {\displaystyle {\begin{aligned}\Diamond A&=_{def}\neg A\rightarrow A\\\Box A&=_{def}\neg \Diamond \neg A\end{aligned}}}
 
 Axioms
+
 The original system of axioms for propositional infinite-valued Łukasiewicz logic used implication and negation as the primitive connectives, along with modus ponens:
 
-
-
-
-
-
-
-
                 A
-
-
-
                 →
                 (
                 B
                 →
                 A
                 )
-
-
-
-
                 (
                 A
                 →
                 B
                 )
-
-
-
                 →
                 (
                 (
@@ -335,10 +170,6 @@ The original system of axioms for propositional infinite-valued Łukasiewicz log
                 C
                 )
                 )
-
-
-
-
                 (
                 (
                 A
@@ -348,9 +179,6 @@ The original system of axioms for propositional infinite-valued Łukasiewicz log
                 →
                 B
                 )
-
-
-
                 →
                 (
                 (
@@ -361,10 +189,6 @@ The original system of axioms for propositional infinite-valued Łukasiewicz log
                 →
                 A
                 )
-
-
-
-
                 (
                 ¬
                 B
@@ -372,9 +196,6 @@ The original system of axioms for propositional infinite-valued Łukasiewicz log
                 ¬
                 A
                 )
-
-
-
                 →
                 (
                 A
@@ -382,21 +203,11 @@ The original system of axioms for propositional infinite-valued Łukasiewicz log
                 B
                 )
                 .
-
-
-
-
-
-
     {\displaystyle {\begin{aligned}A&\rightarrow (B\rightarrow A)\\(A\rightarrow B)&\rightarrow ((B\rightarrow C)\rightarrow (A\rightarrow C))\\((A\rightarrow B)\rightarrow B)&\rightarrow ((B\rightarrow A)\rightarrow A)\\(\neg B\rightarrow \neg A)&\rightarrow (A\rightarrow B).\end{aligned}}}
-
 
 Propositional infinite-valued Łukasiewicz logic can also be axiomatized by adding the following axioms to the axiomatic system of monoidal t-norm logic:
 
 Divisibility
-
-
-
 
         (
         A
@@ -413,15 +224,9 @@ Divisibility
         B
         )
         )
-
-
     {\displaystyle (A\wedge B)\rightarrow (A\otimes (A\rightarrow B))}
 
-
 Double negation
-
-
-
 
         ¬
         ¬
@@ -429,37 +234,31 @@ Double negation
         →
         A
         .
-
-
     {\displaystyle \neg \neg A\rightarrow A.}
 
-
 That is, infinite-valued Łukasiewicz logic arises by adding the axiom of double negation to basic fuzzy logic (BL), or by adding the axiom of divisibility to the logic IMTL.
+
 Finite-valued Łukasiewicz logics require additional axioms.
 
 Proof Theory
+
 A hypersequent calculus for three-valued Łukasiewicz logic was introduced by Arnon Avron in 1991.
+
 Sequent calculi for finite and infinite-valued Łukasiewicz logics as an extension of linear logic were introduced by A. Prijatelj in 1994.  However, these are not cut-free systems.
+
 Hypersequent calculi for Łukasiewicz logics were introduced by A. Ciabattoni et al in 1999. However, these are not cut-free for
-
-
 
         n
         >
         3
-
-
     {\displaystyle n>3}
-
  finite-valued logics.
 A labelled tableaux system was introduced by Nicola Olivetti in 2003.
 A hypersequent calculus for infinite-valued Łukasiewicz logic was introduced by George Metcalfe in 2004.
 
 Real-valued semantics
+
 Infinite-valued Łukasiewicz logic is a real-valued logic in which sentences from sentential calculus may be assigned a truth value of not only 0 or 1 but also any real number in between (e.g. 0.25). Valuations have a recursive definition where:
-
-
-
 
         w
         (
@@ -468,12 +267,8 @@ Infinite-valued Łukasiewicz logic is a real-valued logic in which sentences fro
         ϕ
         )
         =
-
           F
-
             ∘
-
-
         (
         w
         (
@@ -485,36 +280,19 @@ Infinite-valued Łukasiewicz logic is a real-valued logic in which sentences fro
         ϕ
         )
         )
-
-
     {\displaystyle w(\theta \circ \phi )=F_{\circ }(w(\theta ),w(\phi ))}
-
  for a binary connective
-
-
-
         ∘
         ,
-
-
     {\displaystyle \circ ,}
-
-
-
-
-
         w
         (
         ¬
         θ
         )
         =
-
           F
-
             ¬
-
-
         (
         w
         (
@@ -522,66 +300,32 @@ Infinite-valued Łukasiewicz logic is a real-valued logic in which sentences fro
         )
         )
         ,
-
-
     {\displaystyle w(\neg \theta )=F_{\neg }(w(\theta )),}
-
-
-
-
-
         w
-
           (
-
-
               0
               ¯
-
-
           )
-
         =
         0
-
-
     {\displaystyle w\left({\overline {0}}\right)=0}
-
  and
-
-
-
         w
-
           (
-
-
               1
               ¯
-
-
           )
-
         =
         1
         ,
-
-
     {\displaystyle w\left({\overline {1}}\right)=1,}
-
 
 and where the definitions of the operations hold as follows:
 
 Implication:
 
-
-
-
           F
-
             →
-
-
         (
         x
         ,
@@ -598,21 +342,12 @@ Implication:
         +
         y
         }
-
-
     {\displaystyle F_{\rightarrow }(x,y)=\min\{1,1-x+y\}}
-
 
 Equivalence:
 
-
-
-
           F
-
             ↔
-
-
         (
         x
         ,
@@ -621,30 +356,17 @@ Equivalence:
         =
         1
         −
-
           |
-
         x
         −
         y
-
           |
-
-
-
     {\displaystyle F_{\leftrightarrow }(x,y)=1-|x-y|}
-
 
 Negation:
 
-
-
-
           F
-
             ¬
-
-
         (
         x
         )
@@ -652,21 +374,12 @@ Negation:
         1
         −
         x
-
-
     {\displaystyle F_{\neg }(x)=1-x}
-
 
 Weak conjunction:
 
-
-
-
           F
-
             ∧
-
-
         (
         x
         ,
@@ -679,21 +392,12 @@ Weak conjunction:
         ,
         y
         }
-
-
     {\displaystyle F_{\wedge }(x,y)=\min\{x,y\}}
-
 
 Weak disjunction:
 
-
-
-
           F
-
             ∨
-
-
         (
         x
         ,
@@ -706,21 +410,12 @@ Weak disjunction:
         ,
         y
         }
-
-
     {\displaystyle F_{\vee }(x,y)=\max\{x,y\}}
-
 
 Strong conjunction:
 
-
-
-
           F
-
             ⊗
-
-
         (
         x
         ,
@@ -737,21 +432,12 @@ Strong conjunction:
         −
         1
         }
-
-
     {\displaystyle F_{\otimes }(x,y)=\max\{0,x+y-1\}}
-
 
 Strong disjunction:
 
-
-
-
           F
-
             ⊕
-
-
         (
         x
         ,
@@ -767,21 +453,12 @@ Strong disjunction:
         y
         }
         .
-
-
     {\displaystyle F_{\oplus }(x,y)=\min\{1,x+y\}.}
-
 
 Modal functions:
 
-
-
-
           F
-
             ◊
-
-
         (
         x
         )
@@ -794,12 +471,8 @@ Modal functions:
         x
         }
         ,
-
           F
-
             ◻
-
-
         (
         x
         )
@@ -813,50 +486,20 @@ Modal functions:
         −
         1
         }
-
-
     {\displaystyle F_{\Diamond }(x)=\min\{1,2x\},F_{\Box }(x)=\max\{0,2x-1\}}
-
 
 The truth function
 
-
-
-
           F
-
             ⊗
-
-
-
-
     {\displaystyle F_{\otimes }}
-
  of strong conjunction is the Łukasiewicz t-norm and the truth function
-
-
-
-
           F
-
             ⊕
-
-
-
-
     {\displaystyle F_{\oplus }}
-
  of strong disjunction is its dual t-conorm. Obviously,
-
-
-
-
-
           F
-
             ⊗
-
-
         (
         .5
         ,
@@ -864,22 +507,12 @@ The truth function
         )
         =
         0
-
-
     {\displaystyle F_{\otimes }(.5,.5)=0}
-
 
 and
 
-
-
-
-
           F
-
             ⊕
-
-
         (
         .5
         ,
@@ -887,29 +520,20 @@ and
         )
         =
         1
-
-
     {\displaystyle F_{\oplus }(.5,.5)=1}
 
 ,
 so if
 
-
-
         T
         (
         p
         )
         =
         .5
-
-
     {\displaystyle T(p)=.5}
 
 , then
-
-
-
 
         T
         (
@@ -928,15 +552,9 @@ so if
         )
         =
         0
-
-
     {\displaystyle T(p\wedge p)=T(\neg p\wedge \neg p)=0}
 
-
 while the respective logically-equivalent propositions have
-
-
-
 
         T
         (
@@ -955,201 +573,106 @@ while the respective logically-equivalent propositions have
         )
         =
         1
-
-
     {\displaystyle T(p\vee p)=T(\neg p\vee \neg p)=1}
 
 .
+
 The truth function
 
-
-
-
           F
-
             →
-
-
-
-
     {\displaystyle F_{\rightarrow }}
-
  is the residuum of the Łukasiewicz t-norm. All truth functions of the basic connectives are continuous.
 By definition, a formula is a tautology of infinite-valued Łukasiewicz logic if it evaluates to 1 under each valuation of propositional variables by real numbers in the interval [0, 1].
 
 Finite-valued and countable-valued semantics
+
 Using exactly the same valuation formulas as for real-valued semantics Łukasiewicz (1922) also defined (up to isomorphism) semantics over
 
 any finite set of cardinality n ≥ 2 by choosing the domain as { 0, 1/(n − 1), 2/(n − 1), ..., 1 }
 any countable set by choosing the domain as { p/q | 0 ≤ p ≤ q where p is a non-negative integer and q is a positive integer }.
 
 General algebraic semantics
+
 The standard real-valued semantics determined by the Łukasiewicz t-norm is not the only possible semantics of Łukasiewicz logic. General algebraic semantics of propositional infinite-valued Łukasiewicz logic is formed by the class of all MV-algebras. The standard real-valued semantics is a special MV-algebra, called the standard MV-algebra.
+
 Like other t-norm fuzzy logics, propositional infinite-valued Łukasiewicz logic enjoys completeness with respect to the class of all algebras for which the logic is sound (that is, MV-algebras) as well as with respect to only linear ones. This is expressed by the general, linear, and standard completeness theorems:
 
 The following conditions are equivalent:
 
-
-
-
         A
-
-
     {\displaystyle A}
-
  is provable in propositional infinite-valued Łukasiewicz logic
-
-
-
-
         A
-
-
     {\displaystyle A}
-
  is valid in all MV-algebras (general completeness)
-
-
-
-
         A
-
-
     {\displaystyle A}
-
  is valid in all linearly ordered MV-algebras (linear completeness)
-
-
-
-
         A
-
-
     {\displaystyle A}
-
  is valid in the standard MV-algebra (standard completeness).
 Here valid means necessarily evaluates to 1.
 Font, Rodriguez and Torrens introduced in 1984 the Wajsberg algebra as an alternative model for the infinite-valued Łukasiewicz logic.
 A 1940s attempt by Grigore Moisil to provide algebraic semantics for the n-valued Łukasiewicz logic by means of his Łukasiewicz–Moisil (LM) algebra (which Moisil called Łukasiewicz algebras) turned out to be an incorrect model for n ≥ 5. This issue was made public by Alan Rose in 1956.  C. C. Chang's MV-algebra, which is a model for the ℵ0-valued (infinitely-many-valued) Łukasiewicz–Tarski logic, was published in 1958. For the axiomatically more complicated (finite) n-valued Łukasiewicz logics, suitable algebras were published in 1977 by Revaz Grigolia and called MVn-algebras. MVn-algebras are a subclass of LMn-algebras, and the inclusion is strict for n ≥ 5. In 1982 Roberto Cignoli published some additional constraints that added to LMn-algebras produce proper models for n-valued Łukasiewicz logic; Cignoli called his discovery proper Łukasiewicz algebras.
 
 Complexity
+
 Łukasiewicz logics are co-NP complete.
 
 Modal Logic
+
 Łukasiewicz logics can be seen as modal logics, a type of logic that addresses possibility, using the defined operators,
-
-
-
-
-
-
-
 
                 ◊
                 A
-
-
-
-
                   =
-
                     d
                     e
                     f
-
-
                 ¬
                 A
                 →
                 A
-
-
-
-
                 ◻
                 A
-
-
-
-
                   =
-
                     d
                     e
                     f
-
-
                 ¬
                 ◊
                 ¬
                 A
-
-
-
-
-
-
     {\displaystyle {\begin{aligned}\Diamond A&=_{def}\neg A\rightarrow A\\\Box A&=_{def}\neg \Diamond \neg A\\\end{aligned}}}
-
 
 A third doubtful operator has been proposed,
 
-
-
         ⊙
         A
-
           =
-
             d
             e
             f
-
-
         A
         ↔
         ¬
         A
-
-
     {\displaystyle \odot A=_{def}A\leftrightarrow \neg A}
 
 .
+
 From these we can prove the following theorems, which are common axioms in many modal logics:
 
-
-
-
-
-
-
-
                 A
-
-
-
                 →
                 ◊
                 A
-
-
-
-
                 ◻
                 A
-
-
-
                 →
                 A
-
-
-
-
                 A
-
-
-
                 →
                 (
                 A
@@ -1157,19 +680,12 @@ From these we can prove the following theorems, which are common axioms in many 
                 ◻
                 A
                 )
-
-
-
-
                 ◻
                 (
                 A
                 →
                 B
                 )
-
-
-
                 →
                 (
                 ◻
@@ -1178,19 +694,12 @@ From these we can prove the following theorems, which are common axioms in many 
                 ◻
                 B
                 )
-
-
-
-
                 ◻
                 (
                 A
                 →
                 B
                 )
-
-
-
                 →
                 (
                 ◊
@@ -1199,89 +708,51 @@ From these we can prove the following theorems, which are common axioms in many 
                 ◊
                 B
                 )
-
-
-
-
-
-
     {\displaystyle {\begin{aligned}A&\rightarrow \Diamond A\\\Box A&\rightarrow A\\A&\rightarrow (A\rightarrow \Box A)\\\Box (A\rightarrow B)&\rightarrow (\Box A\rightarrow \Box B)\\\Box (A\rightarrow B)&\rightarrow (\Diamond A\rightarrow \Diamond B)\\\end{aligned}}}
-
 
 We can also prove distribution theorems on the strong connectives:
 
-
-
-
-
-
-
-
                 ◻
                 (
                 A
                 ⊗
                 B
                 )
-
-
-
                 ↔
                 ◻
                 A
                 ⊗
                 ◻
                 B
-
-
-
-
                 ◊
                 (
                 A
                 ⊕
                 B
                 )
-
-
-
                 ↔
                 ◊
                 A
                 ⊕
                 ◊
                 B
-
-
-
-
                 ◊
                 (
                 A
                 ⊗
                 B
                 )
-
-
-
                 →
                 ◊
                 A
                 ⊗
                 ◊
                 B
-
-
-
-
                 ◻
                 A
                 ⊕
                 ◻
                 B
-
-
-
                 →
                 ◻
                 (
@@ -1289,32 +760,15 @@ We can also prove distribution theorems on the strong connectives:
                 ⊕
                 B
                 )
-
-
-
-
-
-
     {\displaystyle {\begin{aligned}\Box (A\otimes B)&\leftrightarrow \Box A\otimes \Box B\\\Diamond (A\oplus B)&\leftrightarrow \Diamond A\oplus \Diamond B\\\Diamond (A\otimes B)&\rightarrow \Diamond A\otimes \Diamond B\\\Box A\oplus \Box B&\rightarrow \Box (A\oplus B)\end{aligned}}}
-
 
 However, the following distribution theorems also hold:
 
-
-
-
-
-
-
-
                 ◻
                 A
                 ∨
                 ◻
                 B
-
-
-
                 ↔
                 ◻
                 (
@@ -1322,18 +776,11 @@ However, the following distribution theorems also hold:
                 ∨
                 B
                 )
-
-
-
-
                 ◻
                 A
                 ∧
                 ◻
                 B
-
-
-
                 ↔
                 ◻
                 (
@@ -1341,18 +788,11 @@ However, the following distribution theorems also hold:
                 ∧
                 B
                 )
-
-
-
-
                 ◊
                 A
                 ∨
                 ◊
                 B
-
-
-
                 ↔
                 ◊
                 (
@@ -1360,18 +800,11 @@ However, the following distribution theorems also hold:
                 ∨
                 B
                 )
-
-
-
-
                 ◊
                 A
                 ∧
                 ◊
                 B
-
-
-
                 ↔
                 ◊
                 (
@@ -1379,18 +812,9 @@ However, the following distribution theorems also hold:
                 ∧
                 B
                 )
-
-
-
-
-
-
     {\displaystyle {\begin{aligned}\Box A\vee \Box B&\leftrightarrow \Box (A\vee B)\\\Box A\wedge \Box B&\leftrightarrow \Box (A\wedge B)\\\Diamond A\vee \Diamond B&\leftrightarrow \Diamond (A\vee B)\\\Diamond A\wedge \Diamond B&\leftrightarrow \Diamond (A\wedge B)\end{aligned}}}
 
-
 In other words, if
-
-
 
         ◊
         A
@@ -1398,13 +822,9 @@ In other words, if
         ◊
         ¬
         A
-
-
     {\displaystyle \Diamond A\wedge \Diamond \neg A}
 
 , then
-
-
 
         ◊
         (
@@ -1413,14 +833,11 @@ In other words, if
         ¬
         A
         )
-
-
     {\displaystyle \Diamond (A\wedge \neg A)}
 
 , which is counter-intuitive.
+
 However, these controversial theorems have been defended as a modal logic about future contingents by A. N. Prior. Notably,
-
-
 
         ◊
         A
@@ -1431,8 +848,6 @@ However, these controversial theorems have been defended as a modal logic about 
         ↔
         ⊙
         A
-
-
     {\displaystyle \Diamond A\wedge \Diamond \neg A\leftrightarrow \odot A}
 
 .

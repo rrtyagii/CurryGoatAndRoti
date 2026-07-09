@@ -1,21 +1,14 @@
 In mathematics, the Sugeno integral, named after M. Sugeno, is a type of integral with respect to a fuzzy measure.
+
 Let
-
-
 
         (
         X
         ,
         Ω
         )
-
-
     {\displaystyle (X,\Omega )}
-
  be a measurable space and let
-
-
-
         h
         :
         X
@@ -25,60 +18,28 @@ Let
         ,
         1
         ]
-
-
     {\displaystyle h:X\to [0,1]}
-
  be an
-
-
-
         Ω
-
-
     {\displaystyle \Omega }
 
 -measurable function.
+
 The Sugeno integral over the crisp set
-
-
 
         A
         ⊆
         X
-
-
     {\displaystyle A\subseteq X}
-
  of the function
-
-
-
         h
-
-
     {\displaystyle h}
-
  with respect to the fuzzy measure
-
-
-
         g
-
-
     {\displaystyle g}
-
  is defined by:
-
-
-
-
-
           ∫
-
             A
-
-
         h
         (
         x
@@ -86,31 +47,17 @@ The Sugeno integral over the crisp set
         ∘
         g
         =
-
-
             sup
-
               E
               ⊆
               X
-
-
-
-
           [
-
             min
-
               (
-
-
                   min
-
                     x
                     ∈
                     E
-
-
                 h
                 (
                 x
@@ -122,17 +69,10 @@ The Sugeno integral over the crisp set
                 ∩
                 E
                 )
-
               )
-
-
           ]
-
         =
-
-
             sup
-
               α
               ∈
               [
@@ -140,117 +80,55 @@ The Sugeno integral over the crisp set
               ,
               1
               ]
-
-
-
-
           [
-
             min
-
               (
-
                 α
                 ,
                 g
                 (
                 A
                 ∩
-
                   F
-
                     α
-
-
                 )
-
               )
-
-
           ]
-
-
-
     {\displaystyle \int _{A}h(x)\circ g={\sup _{E\subseteq X}}\left[\min \left(\min _{x\in E}h(x),g(A\cap E)\right)\right]={\sup _{\alpha \in [0,1]}}\left[\min \left(\alpha ,g(A\cap F_{\alpha })\right)\right]}
-
 
 where
 
-
-
-
           F
-
             α
-
-
         =
-
           {
-
             x
-
               |
-
             h
             (
             x
             )
             ≥
             α
-
           }
-
-
-
     {\displaystyle F_{\alpha }=\left\{x|h(x)\geq \alpha \right\}}
 
 .
+
 The Sugeno integral over the fuzzy set
-
-
-
-
-
 
               A
               ~
-
-
-
-
-
     {\displaystyle {\tilde {A}}}
-
  of the function
-
-
-
         h
-
-
     {\displaystyle h}
-
  with respect to the fuzzy measure
-
-
-
         g
-
-
     {\displaystyle g}
-
  is defined by:
-
-
-
-
-
           ∫
-
             A
-
-
         h
         (
         x
@@ -258,21 +136,11 @@ The Sugeno integral over the fuzzy set
         ∘
         g
         =
-
           ∫
-
             X
-
-
-
           [
-
-
               h
-
                 A
-
-
             (
             x
             )
@@ -281,50 +149,26 @@ The Sugeno integral over the fuzzy set
             (
             x
             )
-
           ]
-
         ∘
         g
-
-
     {\displaystyle \int _{A}h(x)\circ g=\int _{X}\left[h_{A}(x)\wedge h(x)\right]\circ g}
-
 
 where
 
-
-
-
           h
-
             A
-
-
         (
         x
         )
-
-
     {\displaystyle h_{A}(x)}
-
  is the membership function of the fuzzy set
-
-
-
-
-
-
               A
               ~
-
-
-
-
-
     {\displaystyle {\tilde {A}}}
 
 .
 
 Usage and Relationships
+
 Sugeno integral is related to h-index.

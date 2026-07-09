@@ -1,30 +1,44 @@
 The Répertoire de vedettes-matière de l'Université Laval (RVM) is a controlled vocabulary made up of four mostly bilingual thesauruses. It is designed for document indexers, organizations that want to describe the content of their documents or of their products and services, as well as anyone who wants to clarify vocabulary in English and French as part of their work or research.
+
 RVM was created and is updated by the Répertoire de vedettes-matière section of the Université Laval Library in Québec City, and it contains over 300,000 authority records. It is used by over 200 public and private libraries and documentation centres in Québec, across Canada and some other countries, mostly in Europe.
 
 History
+
 The Répertoire de vedettes-matière was created in 1946, when Université Laval librarians took the initiative to reuse the catalogue records from the Library of Congress's National Union Catalog to describe the documents in their collection. Before the copy cataloguing movement, the practice of reusing these records provided considerable savings despite the time needed to translate them. A list of subject headings was gradually compiled in French to provide descriptions of and access to local documentary resources.
+
 After the first official edition of the Répertoire was published in 1962, RVM attracted the attention of major documentary institutions in Québec and across Canada that recognized it as an essential tool for systemizing and standardizing methods for representing the content of their collections. The National Library of Canada adopted RVM in the French version of Canadiana, the National Bibliography of Canada, and gave it national standard status in 1974. A formal collaboration agreement between the two institutions was signed, and the first team of librarians dedicated solely to the intellectual management of RVM was established at Université Laval.
+
 It was also in 1974 that the Bibliothèque publique d'information in Paris started using RVM, which was emerging on the scene both in French-speaking countries and around the world. In 1980 the Université Laval Library signed a collaboration agreement with France's National Library, Bibliothèque nationale de France (BnF), allowing it to use RVM as the basic corpus for creating its subject headings authority index, known as Répertoire d'autorité matière encyclopédique et alphabétique unifié (RAMEAU), the only French-language equivalent of RVM still in use today.
+
 RVM's content and structure reflect its close relationship to the Library of Congress Subject Headings (LCSH), but RVM has nonetheless maintained its independence. In addition to developing original headings, RVM has expanded by adding subject headings whose English equivalents come from other source files more specialized than the LCSH. This expansion began in 1978 with the Canadian Subject Headings, followed in 1994 by the Medical Subject Headings from the United States National Library of Medicine and the Art & Architecture Thesaurus (AAT) from the J. Paul Getty Trust.
+
 The 9th and final paper edition of RVM was published in 1983 and so was the first user manual. In 2008 Université Laval and ASTED (Association pour l'avancement des sciences et des techniques de la documentation) jointly published a practical guide on the Répertoire de vedettes-matière.
+
 In 2010 the first RVM website was launched. In 2017 it launched its new Web platform, which provides access to more powerful search and display features, new indexing support tools, and translations and adaptations of three new thesauruses developed by the Library of Congress: the Library of Congress Genre/Form Terms (LCGFT), the Library of Congress Medium of Performance Thesaurus for Music (LCMPT), and the Library of Congress Demographic Group Terms (LCDGT).
 
 The thesauruses
+
 RVM (Topics)
 RVM (Topics) is an encyclopedic thesaurus whose terms are classified according to a specific syntax. It is a translation and adaptation of the following thesauruses :
 
 Library of Congress Subject Headings (LCSH)
 Canadian Subject Headings (CSH) of Library and Archives Canada
+
 Medical Subject Headings (MeSH) of the National Library of Medicine
 Art & Architecture Thesaurus (AAT) of the J. Paul Getty Trust
+
 It also contains original authorities exclusive to RVM, as well as equivalence with RAMEAU of Bibliothèque nationale de France.
+
 RVM (Topics) includes:
 
 Subject headings (topical and geographic names, buildings, events, and certain other categories of proper names : gods, dukes, last names, programming languages, fictional and legendary characters, sects, etc.). A subject heading is an indexing term (consisting of a heading by itself or a heading followed by one or more subdivisions) used to accurately represent the topic of a document.
+
 Subdivisions (topical, form, chronological, and geographic). A subdivision is a component of a subject heading that supplements the main heading to clarify the concept or topic it represents.
+
 Here are a few examples of subject headings used in the Université Laval Library catalogue. These headings appear as is in the topic field in the bibliographic records :
 
 Réseaux sociaux--Histoire--21e siècle (Social networks—History—21st century)
+
 Agriculture--Aspect économique--Modèles mathématiques (Agriculture—Economic aspects—Mathematical models)
 Canada--Accords commerciaux--Mexique--Congrès (Canada—Commercial treaties—Mexico—Congresses)
 Écriture--Philosophie--Ouvrages avant 1800 (Writing—Philosophy—Early works to 1800)

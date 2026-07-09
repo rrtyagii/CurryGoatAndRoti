@@ -1,28 +1,41 @@
 The Open Semantic Framework (OSF) is an integrated software stack using semantic technologies for knowledge management. It has a layered architecture that combines existing open source software with additional open source components developed specifically to provide a complete Web application framework. OSF is made available under the Apache 2 license.
+
 OSF is a platform-independent Web services framework for accessing and exposing structured data, semi-structured data, and unstructured data using ontologies to reconcile semantic heterogeneities within the contributing data and schema. Internal to OSF, all data is converted to RDF to provide a common data model. The OWL 2 ontology language is used to describe the data schema overlaying all of the constituent data sources.
+
 The architecture of OSF is built around a central layer of RESTful web services, designed to enable most constituent modules within the software stack to be substituted without major adverse impacts on the entire stack. A central organizing perspective of OSF is that of the dataset. These datasets contain the records in any given OSF instance. One or more domain ontologies is used by a given OSF instance to define the structural relationships amongst the data and their attributes and concepts.
+
 Some of the use applications for OSF include local government, health information systems, community indicator systems, eLearning, citizen engagement, or any domain that may be modeled by ontologies.
+
 Documentation and training videos are provided with the open-source OSF application.
 
 History
+
 Early components of OSF were provided under the names of structWSF and conStruct starting in June 2009. The first version 1.x of OSF was announced in August 2010. The first automated OSF installer was released in March 2012. OSF was expanded with an ontology manager, structOntology in August 2012. The version 2.x developments of OSF occurred for enterprise sponsors in the period of early 2012 until the end of 2013. None of these interim 2.x versions were released to the public. Then, at the conclusion of this period, Structured Dynamics, the main developer of OSF, refactored these specific enterprise developments to leapfrog to a new version 3.0 of OSF, announced in early 2014. These public releases were last updated to OSF version 3.4.0 in August 2016.
 
 Architecture and technologies
+
 The Open Semantic Framework has a basic three-layer architecture. User interactions and content management are provided by an external content management system, which is currently Drupal (but does not depend on it). This layer accesses the pivotal OSF Web Services; there are now more than 20 providing OSF's distributed computing functionality. Full CRUD access and user permissions and security is provided to all digital objects in the stack. This middleware layer then provides a means to access the third layer, the engines and indexers that drive the entire stack. Both the top CMS layer and the engines layer are provided by existing off-the-shelf software. What makes OSF a complete stack are the connecting scripts and the intermediate Web services layer.
+
 The premise of the OSF stack is based on the RDF data model. RDF provides the means for integrating existing structured data assets in any format, with semi-structured data like XML and HTML, and unstructured documents or text. The OSF framework is made operational via ontologies that capture the domain or knowledge space, matched with internal ontologies that guide OSF operations and data display. This design approach is known as ODapps, for ontology-driven applications.
 
 Content management layer
+
 OSF delegates all direct user interactions and standard content management to an external CMS. In the case of Drupal, this integration is tighter, and supports connectors and modules that can replace standard Drupal storage and databases with OSF triplestores.
 
 Web services layer
+
 This intermediate OSF Web Services layer may also be accessed directly via API or command line or utilities like cURL, suitable for interfacing with standard content management systems (CMSs), or via a dedicated suite of connectors and modules that leverage the open source Drupal CMS. These connectors and modules, also part of the standard OSF stack and called OSF for Drupal, natively enable Drupal's existing thousands of modules and ecosystem of developers and capabilities to access OSF using familiar Drupal methods.
+
 The OSF middleware framework is generally RESTful in design and is based on HTTP and Web protocols and W3C open standards. The initial OSF framework comes packaged with a baseline set of more than 20 Web services in CRUD, browse, search, tagging, ontology management, and export and import. All Web services are exposed via APIs and SPARQL endpoints. Each request to an individual Web service returns an HTTP status and optionally a document of resultsets. Each results document can be serialized in many ways, and may be expressed as either RDF, pure XML, JSON, or other formats.
 
 Engines layer
+
 The engines layer represents the major workflow requirements and data management and indexing of the system. The premise of the Open Semantic Framework is based on the RDF data model. Using a common data model means that all Web services and actions against the data only need to be programmed via a single, canonical form. Simple converters convert external, native data formats to the RDF form at time of ingest; similar converters can translate the internal RDF form back into native forms for export (or use by external applications). This use of a canonical form leads to a simpler design at the core of the stack and a uniform basis to which tools or other work activities can be written.
+
 The OSF engines are all open source and work to support this premise. The OSF engines layer governs the index and management of all OSF content. Documents are indexed by the Solr engine for full-text search, while information about their structural characteristics and metadata are stored in an RDF triplestore database provided by OpenLink's Virtuoso software. The schema aspects of the information (the "ontologies") are separately managed and manipulated with their own W3C standard application, the OWL API. At ingest time, the system automatically routes and indexes the content into its appropriate stores. Another engine, GATE (General Architecture for Text Engineering), provides semi-automatic assistance in tagging input information and other natural language processing (NLP) tasks.
 
 Alternatives
+
 OSF is sometimes referred to as a linked data application. Alternative applications in this space include:
 
 Callimachus

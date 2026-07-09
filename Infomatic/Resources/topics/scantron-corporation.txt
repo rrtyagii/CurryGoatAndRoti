@@ -1,5 +1,9 @@
 Scantron is an American company based in Eagan, Minnesota. Scantron provides assessment products and technology services for business, education, certification, and government clients.
+
 Scantron Assessment Solutions deals with scanner manufacturing, forms printing, computer-based testing, and the creation of test questions by psychometricians. It operates in 98% of the US school districts, 56 countries, 48 ministries of education, and 94 of the top 100 US universities. The company is well known for their machine-readable paper forms on which students mark answers to multiple-choice test questions and the optical mark recognition (OMR) and imaging scanners that read them. To analyze those answers, the machines use OMR- and image-based data collection software. In addition to its forms and scanners, Scantron provides web- and desktop-based assessment software, such as Performance Series.
+
 Scantron Technology Solutions provides managed technology support for IT endpoints and devices.  In 2022, Scantron acquired ServRight to further extend its technology capabilities.
+
 Scantron was a member of the American Legislative Exchange Council (ALEC) from 2010 until it resigned from the organization in 2012.
+
 Scantron became wholly owned by Transom Capital Group in December 2019. In May 2023, The Technology Solutions division of Scantron rebranded itself as Secur-Serv. In August 2024, Regent LP acquired the Assessment Solutions division of Scantron from Transom, leaving Transom with Secur-Serv.

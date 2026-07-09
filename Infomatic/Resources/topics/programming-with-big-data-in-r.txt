@@ -1,11 +1,15 @@
 Programming with Big Data in R (pbdR) is a series of R packages and an environment for statistical computing with big data by using high-performance statistical computation. The pbdR uses the same programming language as R with S3/S4 classes and methods which is used among statisticians and data miners for developing statistical software. The significant difference between pbdR and R code is that pbdR mainly focuses on distributed memory systems, where data are distributed across several processors and analyzed in a batch mode, while communications between processors are based on MPI that is easily used in large high-performance computing (HPC) systems. R system mainly focuses on single multi-core machines for data analysis via an interactive mode such as GUI interface.
+
 Two main implementations in R using MPI are Rmpi and pbdMPI of pbdR.
 
 The pbdR built on pbdMPI uses SPMD parallelism where every processor is considered as worker and owns parts of data. The SPMD parallelism introduced in mid 1980 is particularly efficient in homogeneous computing environments for large data, for example, performing singular value decomposition on a large matrix, or performing clustering analysis on high-dimensional large data. On the other hand, there is no restriction to use manager/workers parallelism in SPMD parallelism environment.
+
 The Rmpi uses manager/workers parallelism where one main processor (manager) serves as the control of all other processors (workers). The manager/workers parallelism introduced around early 2000 is particularly efficient for large tasks in small clusters, for example, bootstrap method and Monte Carlo simulation in applied statistics since i.i.d. assumption is commonly used in most statistical analysis. In particular, task pull parallelism has better performance for Rmpi in heterogeneous computing environments.
+
 The idea of SPMD parallelism is to let every processor do the same amount of work, but on different parts of a large data set. For example, a modern GPU is a large collection of slower co-processors that can simply apply the same computation on different parts of relatively smaller data, but the SPMD parallelism ends up with an efficient way to obtain final solutions (i.e. time to solution is shorter).
 
 Package design
+
 Programming with pbdR requires usage of various packages developed by pbdR core team. Packages developed are the following.
 
 Among these packages, pbdMPI provides wrapper functions to MPI library, and it also produces a shared library and a configuration file for MPI environments. All other packages rely on this configuration for installation and library loading that avoids difficulty of library linking and compiling. All other packages can directly use MPI functions easily.
@@ -35,7 +39,9 @@ and use the command
 to execute the code where Rscript is one of command line executable program.
 
 Example 2
+
 The following example modified from pbdMPI illustrates the basic syntax of the language of pbdR.
+
 Since pbdR is designed in SPMD, all the R scripts are stored in files and executed from the command line via mpiexec, mpirun, etc. Save the following code in a file called "demo.r"
 
 and use the command

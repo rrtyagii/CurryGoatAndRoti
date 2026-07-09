@@ -1,37 +1,28 @@
 In proof theory, the semantic tableau (; plural: tableaux), also called an analytic tableau, truth tree, or simply tree, is a decision procedure for sentential and related logics, and a proof procedure for formulae of first-order logic. An analytic tableau is a tree structure computed for a logical formula, having at each node a subformula of the original formula to be proved or refuted. Computation constructs this tree and uses it to prove or refute the whole formula. The tableau method can also determine the satisfiability of finite sets of formulas of various logics. It is the most popular proof procedure for modal logics.
+
 A method of truth trees contains a fixed set of rules for producing trees from a given logical formula, or set of logical formulas. Those trees will have more formulas at each branch, and in some cases, a branch can come to contain both a formula and its negation, which is to say, a contradiction. In that case, the branch is said to close. If every branch in a tree closes, the tree itself is said to close. In virtue of the rules for construction of tableaux, a closed tree is a proof that the original formula, or set of formulas, used to construct it was itself self-contradictory, and therefore false. Conversely, a tableau can also prove that a logical formula is tautologous: if a formula is tautologous, its negation is a contradiction, so a tableau built from its negation will close.
 
 History
+
 In his Symbolic Logic Part II, Charles Lutwidge Dodgson (also known by his literary pseudonym, Lewis Carroll) introduced the Method of Trees, the earliest modern use of a truth tree.
+
 The method of semantic tableaux was invented independently by the Dutch logician Evert Willem Beth (Beth 1955), the Finnish logician and philosopher Jaakko Hintikka, and the Swedish philosopher Stig Kanger, and simplified, for classical logic, by Raymond Smullyan (Smullyan 1968, 1995). Smullyan's simplification, "one-sided tableaux", is described here. Smullyan's method has been generalized to arbitrary many-valued propositional and first-order logics by Walter Carnielli (Carnielli 1987).
+
 Tableaux can be intuitively seen as sequent systems upside-down. This symmetrical relation between tableaux and sequent systems was formally established in (Carnielli 1991).
 
 Propositional logic
+
 Definitions
+
 Assume an infinite set
-
-
 
         P
         V
-
-
     {\displaystyle PV}
-
  of propositional variables and define the set
-
-
-
         Φ
-
-
     {\displaystyle \Phi }
-
  of formulae by induction, represented by the following grammar:
-
-
-
-
         Φ
         ::=
         P
@@ -57,696 +48,338 @@ Assume an infinite set
         ∧
         Φ
         )
-
-
     {\displaystyle \Phi ::=PV\mid \neg \Phi \mid (\Phi \to \Phi )\mid (\Phi \lor \Phi )\mid (\Phi \land \Phi )}
 
 .
+
 That is, the basic connectives are: negation
 
-
-
         ¬
-
-
     {\displaystyle \neg }
 
 , implication
 
-
-
         →
-
-
     {\displaystyle \to }
 
 , disjunction
 
-
-
         ∨
-
-
     {\displaystyle \lor }
 
 , and conjunction
 
-
-
         ∧
-
-
     {\displaystyle \land }
 
 .
+
 The truth or falsehood of a formula is called its truth value. A formula, or set of formulas, is said to be satisfiable if there is a possible assignment of truth-values to the propositional variables such that the entire formula, which combines the variables with connectives, is itself true as well. Such an assignment is said to satisfy the formula.
 
 General method
+
 A tableau checks whether a given set of formulae is satisfiable or not. It can be used to check either validity or entailment: a formula is valid if its negation is unsatisfiable, and formulae
 
-
-
-
           A
-
             1
-
-
         ,
         …
         ,
-
           A
-
             n
-
-
-
-
     {\displaystyle A_{1},\ldots ,A_{n}}
-
  imply
-
-
-
         B
-
-
     {\displaystyle B}
-
  if
-
-
-
         {
-
           A
-
             1
-
-
         ,
         …
         ,
-
           A
-
             n
-
-
         ,
         ¬
         B
         }
-
-
     {\displaystyle \{A_{1},\ldots ,A_{n},\neg B\}}
-
  is unsatisfiable.
 
 For any formulae
 
-
-
         X
-
-
     {\displaystyle X}
 
 ,
 
-
-
         Y
-
-
     {\displaystyle Y}
-
  the following facts hold:
 
 If a conjunction
 
-
-
         X
         ∧
         Y
-
-
     {\displaystyle X\land Y}
-
     is true, then
-
-
-
         X
-
-
     {\displaystyle X}
 
 ,
 
-
-
         Y
-
-
     {\displaystyle Y}
-
  are both true;    is false, then either
-
-
-
         X
-
-
     {\displaystyle X}
-
  is false or
-
-
-
         Y
-
-
     {\displaystyle Y}
-
  is false.
 If a disjunction
-
-
 
         X
         ∨
         Y
-
-
     {\displaystyle X\lor Y}
-
     is true, then either
-
-
-
         X
-
-
     {\displaystyle X}
-
  is true or
-
-
-
         Y
-
-
     {\displaystyle Y}
-
  is true;    is false, then
-
-
-
         X
-
-
     {\displaystyle X}
 
 ,
 
-
-
         Y
-
-
     {\displaystyle Y}
-
  are both false.
 If a conditional
-
-
 
         X
         →
         Y
-
-
     {\displaystyle X\to Y}
-
     is true, then either
-
-
-
         X
-
-
     {\displaystyle X}
-
  is false or
-
-
-
         Y
-
-
     {\displaystyle Y}
-
  is true;    is false, then
-
-
-
         X
-
-
     {\displaystyle X}
-
  is true and
-
-
-
         Y
-
-
     {\displaystyle Y}
-
  is false.
 If a negation
 
-
-
         ¬
         X
-
-
     {\displaystyle \neg X}
-
     is true, then
-
-
-
         X
-
-
     {\displaystyle X}
-
  is false;    is false, then
-
-
-
         X
-
-
     {\displaystyle X}
-
  is true.
 The method of analytic tableaux is based on these facts. The main principle of propositional tableaux is to attempt to "break" complex formulae into smaller ones until complementary pairs of literals are produced or no further expansion is possible.
 
 The method works on a tree whose nodes are labeled with formulae. At each step, this tree is modified; in the propositional case, the only allowed changes are additions of a node as descendant of a leaf. The procedure starts by generating the tree made of a chain of all formulae in the set to prove unsatisfiability. Then, the following procedure may be repeatedly applied nondeterministically:
 
 Pick an open leaf node. (The leaf node in the initial chain is marked open).
+
 Pick an applicable node on the branch above the selected node.
+
 Apply the applicable node, which corresponds to expanding the tree below the selected leaf node based on some expansion rule (detailed below).
+
 For every newly created node that is both a literal/negated literal, and whose complement appears in a prior node on the same branch, mark the branch as closed. Mark all other newly created nodes as open.
 
 If a branch of the tableau contains a formula ...
 
-
-
-
-
-
             T
-
-
         (
         X
         ∧
         Y
         )
-
-
     {\displaystyle {\boldsymbol {\mathsf {T}}}(X\land Y)}
 
 , add to its leaf the chain of two nodes containing the formulae
 
-
-
-
-
             T
-
-
         (
         X
         )
-
-
     {\displaystyle {\boldsymbol {\mathsf {T}}}(X)}
-
  and
-
-
-
-
-
             T
-
-
         (
         Y
         )
-
-
     {\displaystyle {\boldsymbol {\mathsf {T}}}(Y)}
 
 ;
 
-
-
-
-
-
             F
-
-
         (
         X
         ∧
         Y
         )
-
-
     {\displaystyle {\boldsymbol {\mathsf {F}}}(X\land Y)}
 
 , create two sibling children to its leaf, containing the formulae
 
-
-
-
-
             F
-
-
         (
         X
         )
-
-
     {\displaystyle {\boldsymbol {\mathsf {F}}}(X)}
-
  and
-
-
-
-
-
             F
-
-
         (
         Y
         )
-
-
     {\displaystyle {\boldsymbol {\mathsf {F}}}(Y)}
-
  respectively;
-
-
-
-
-
-
             T
-
-
         (
         X
         ∨
         Y
         )
-
-
     {\displaystyle {\boldsymbol {\mathsf {T}}}(X\lor Y)}
 
 , create two sibling children to its leaf, containing the formulae
 
-
-
-
-
             T
-
-
         (
         X
         )
-
-
     {\displaystyle {\boldsymbol {\mathsf {T}}}(X)}
-
  and
-
-
-
-
-
             T
-
-
         (
         Y
         )
-
-
     {\displaystyle {\boldsymbol {\mathsf {T}}}(Y)}
-
  respectively;
-
-
-
-
-
-
             F
-
-
         (
         X
         ∨
         Y
         )
-
-
     {\displaystyle {\boldsymbol {\mathsf {F}}}(X\lor Y)}
 
 , add to its leaf the chain of two nodes containing the formulae
 
-
-
-
-
             F
-
-
         (
         X
         )
-
-
     {\displaystyle {\boldsymbol {\mathsf {F}}}(X)}
-
  and
-
-
-
-
-
             F
-
-
         (
         Y
         )
-
-
     {\displaystyle {\boldsymbol {\mathsf {F}}}(Y)}
 
 ;
 
-
-
-
-
-
             T
-
-
         (
         X
         →
         Y
         )
-
-
     {\displaystyle {\boldsymbol {\mathsf {T}}}(X\to Y)}
 
 , create two sibling children to its leaf, containing the formulae
 
-
-
-
-
             F
-
-
         (
         X
         )
-
-
     {\displaystyle {\boldsymbol {\mathsf {F}}}(X)}
-
  and
-
-
-
-
-
             T
-
-
         (
         Y
         )
-
-
     {\displaystyle {\boldsymbol {\mathsf {T}}}(Y)}
-
  respectively;
-
-
-
-
-
-
             F
-
-
         (
         X
         →
         Y
         )
-
-
     {\displaystyle {\boldsymbol {\mathsf {F}}}(X\to Y)}
 
 , add to its leaf the chain of two nodes containing the formulae
 
-
-
-
-
             T
-
-
         (
         X
         )
-
-
     {\displaystyle {\boldsymbol {\mathsf {T}}}(X)}
-
  and
-
-
-
-
-
             F
-
-
         (
         Y
         )
-
-
     {\displaystyle {\boldsymbol {\mathsf {F}}}(Y)}
 
 ;
 
-
-
-
-
-
             T
-
-
         (
         ¬
         X
         )
-
-
     {\displaystyle {\boldsymbol {\mathsf {T}}}(\neg X)}
 
 , add to its leaf the node containing the formula
 
-
-
-
-
             F
-
-
         (
         X
         )
-
-
     {\displaystyle {\boldsymbol {\mathsf {F}}}(X)}
 
 ;
 
-
-
-
-
-
             F
-
-
         (
         ¬
         X
         )
-
-
     {\displaystyle {\boldsymbol {\mathsf {F}}}(\neg X)}
 
 , add to its leaf the node containing the formula
 
-
-
-
-
             T
-
-
         (
         X
         )
-
-
     {\displaystyle {\boldsymbol {\mathsf {T}}}(X)}
 
 .
+
 The breakdown process terminates after a finite number of steps, because each application of a rule eliminates a connective, and there are only finitely many connectives in any formula.
 
 Note: In systems based on the grammar
-
-
-
 
         Φ
         ::=
@@ -772,312 +405,146 @@ Note: In systems based on the grammar
         ∧
         Φ
         )
-
-
     {\displaystyle \Phi ::=\bot \mid PV\mid (\Phi \to \Phi )\mid (\Phi \lor \Phi )\mid (\Phi \land \Phi )}
 
 ,
 that do not treat negation as primitive but define it in terms of implication and falsity (
 
-
-
         ¬
         Φ
-
-
-
             =
             def
-
-
-
         Φ
         →
         ⊥
-
-
     {\displaystyle \neg \Phi \,{\overset {\text{def}}{=}}\,\Phi \to \bot }
 
 ),the tableau rules for
 
-
-
         ¬
-
-
     {\displaystyle \neg }
-
  are replaced by
 
 The principle of tableau is that formulae in nodes of the same branch are considered in conjunction while the different branches are considered to be disjuncted. As a result, a tableau is a tree-like representation of a formula that is a disjunction of conjunctions. This formula is equivalent to the set to prove unsatisfiability. The procedure modifies the tableau in such a way that the formula represented by the resulting tableau is equivalent to the original one. One of these conjunctions may contain a pair of complementary literals, in which case that conjunction is proved to be unsatisfiable. If all conjunctions are proved unsatisfiable, the original set of formulae is unsatisfiable.
 
 Closure
+
 Every tableau can be considered as a graphical representation of a formula, which is equivalent to the set the tableau is built from. This formula is as follows: each branch of the tableau represents the conjunction of its formulae; the tableau represents the disjunction of its branches. The expansion rules transforms a tableau into one having an equivalent represented formula. Since the tableau is initialized as a single branch containing the formulae of the input set, all subsequent tableaux obtained from it represent formulae which are equivalent to that set (in the variant where the initial tableau is the single node labeled true, the formulae represented by tableaux are consequences of the original set.)
 
 The method of tableaux works by starting with the initial set of formulae and then adding to the tableau simpler and simpler formulae until contradiction is shown in the simple form of opposite literals. Since the formula represented by a tableau is the disjunction of the formulae represented by its branches, contradiction is obtained when every branch contains a pair of opposite literals.
+
 Once a branch contains a literal and its negation, its corresponding formula is unsatisfiable. As a result, this branch can be now "closed", as there is no need to further expand it. If all branches of a tableau are closed, the formula represented by the tableau is unsatisfiable; therefore, the original set is unsatisfiable as well. Obtaining a tableau where all branches are closed is a way for proving the unsatisfiability of the original set. In the propositional case, one can also prove that satisfiability is proved by the impossibility of finding a closed tableau, provided that every expansion rule has been applied everywhere it could be applied. In particular, if a tableau contains some open (non-closed) branches and every formula that is not a literal has been used by a rule to generate a new node on every branch the formula is in, the set is satisfiable.
+
 This rule takes into account that a formula may occur in more than one branch (this is the case if there is at least a branching point "below" the node). In this case, the rule for expanding the formula has to be applied so that its conclusion(s) are appended to all of these branches that are still open, before one can conclude that the tableau cannot be further expanded and that the formula is therefore satisfiable.
 
 Propositional tableau with unification
+
 The above rules for propositional tableau can be simplified by using uniform notation. In uniform notation, each formula is either of type
 
-
-
         α
-
-
     {\displaystyle \alpha }
-
  (alpha) or of type
-
-
-
         β
-
-
     {\displaystyle \beta }
-
  (beta). Each formula of type alpha is assigned the two components
-
-
-
-
           α
-
             1
-
-
         ,
-
           α
-
             2
-
-
-
-
     {\displaystyle \alpha _{1},\alpha _{2}}
 
 , and each formula of type beta is assigned the two components
 
-
-
-
           β
-
             1
-
-
         ,
-
           β
-
             2
-
-
-
-
     {\displaystyle \beta _{1},\beta _{2}}
 
 . Formulae of type alpha can be thought of as being conjunctive, as both
 
-
-
-
           α
-
             1
-
-
-
-
     {\displaystyle \alpha _{1}}
-
  and
-
-
-
-
           α
-
             2
-
-
-
-
     {\displaystyle \alpha _{2}}
-
  are implied by
-
-
-
         α
-
-
     {\displaystyle \alpha }
-
  being true. Formulae of type beta can be thought of as being disjunctive, as either
-
-
-
-
           β
-
             1
-
-
-
-
     {\displaystyle \beta _{1}}
-
  or
-
-
-
-
           β
-
             2
-
-
-
-
     {\displaystyle \beta _{2}}
-
  is implied by
-
-
-
         β
-
-
     {\displaystyle \beta }
-
  being true. The below tables shows how to determine the type, and the components, of any given propositional formula.
 
 In each table, the left-most column shows all the possible structures for the formulae of type alpha or beta, and the right-most columns show their respective components.
+
 When constructing a propositional tableau using the above notation, whenever one encounters a formula of type alpha, its two components
 
-
-
-
           α
-
             1
-
-
         ,
-
           α
-
             2
-
-
-
-
     {\displaystyle \alpha _{1},\alpha _{2}}
-
  are added to the current branch that is being expanded. Whenever one encounters a formula of type beta on some branch
-
-
-
         θ
-
-
     {\displaystyle \theta }
 
 , one can split
 
-
-
         θ
-
-
     {\displaystyle \theta }
-
  into two branches, one with the set {
-
-
-
         θ
-
-
     {\displaystyle \theta }
 
 ,
 
-
-
-
           β
-
             1
-
-
-
-
     {\displaystyle \beta _{1}}
 
 } of formulae, and the other with the set {
 
-
-
         θ
-
-
     {\displaystyle \theta }
 
 ,
 
-
-
-
           β
-
             2
-
-
-
-
     {\displaystyle \beta _{2}}
-
 } of formulae.
 
 Set-labeled tableau
+
 A variant of tableau is to label nodes with sets of formulae rather than single formulae. In this case, the initial tableau is a single node labeled with the set to be proved satisfiable. The formulae in a set are therefore considered to be in conjunction.
+
 The rules of expansion of the tableau can now work on the leaves of the tableau, ignoring all internal nodes. For conjunction, the rule is based on the equivalence of a set containing a conjunction
-
-
 
         A
         ∧
         B
-
-
     {\displaystyle A\land B}
-
  with the set containing both
-
-
-
         A
-
-
     {\displaystyle A}
-
  and
-
-
-
         B
-
-
     {\displaystyle B}
-
  in place of it. In particular, if a leaf is labeled with
-
-
-
         X
         ∪
         {
@@ -1085,13 +552,9 @@ The rules of expansion of the tableau can now work on the leaves of the tableau,
         ∧
         B
         }
-
-
     {\displaystyle X\cup \{A\land B\}}
 
 , a node can be appended to it with label
-
-
 
         X
         ∪
@@ -1100,21 +563,13 @@ The rules of expansion of the tableau can now work on the leaves of the tableau,
         ,
         B
         }
-
-
     {\displaystyle X\cup \{A,B\}}
 
 :
 
-
-
-
         (
         ∧
         )
-
-
-
               X
               ∪
               {
@@ -1122,8 +577,6 @@ The rules of expansion of the tableau can now work on the leaves of the tableau,
               ∧
               B
               }
-
-
               X
               ∪
               {
@@ -1131,17 +584,9 @@ The rules of expansion of the tableau can now work on the leaves of the tableau,
               ,
               B
               }
-
-
-
-
-
     {\displaystyle (\land ){\frac {X\cup \{A\land B\}}{X\cup \{A,B\}}}}
 
-
 For disjunction, a set
-
-
 
         X
         ∪
@@ -1150,47 +595,27 @@ For disjunction, a set
         ∨
         B
         }
-
-
     {\displaystyle X\cup \{A\lor B\}}
-
  is equivalent to the disjunction of the two sets
-
-
-
         X
         ∪
         {
         A
         }
-
-
     {\displaystyle X\cup \{A\}}
-
  and
-
-
-
         X
         ∪
         {
         B
         }
-
-
     {\displaystyle X\cup \{B\}}
 
 . As a result, if the first set labels a leaf, two children can be appended to it, labeled with the latter two formulae.
 
-
-
-
         (
         ∨
         )
-
-
-
               X
               ∪
               {
@@ -1198,41 +623,25 @@ For disjunction, a set
               ∨
               B
               }
-
-
               X
               ∪
               {
               A
               }
-
                 |
-
               X
               ∪
               {
               B
               }
-
-
-
-
-
     {\displaystyle (\lor ){\frac {X\cup \{A\lor B\}}{X\cup \{A\}|X\cup \{B\}}}}
 
-
 Finally, if a set contains both a literal and its negation, this branch can be closed:
-
-
-
 
         (
         i
         d
         )
-
-
-
               X
               ∪
               {
@@ -1241,27 +650,17 @@ Finally, if a set contains both a literal and its negation, this branch can be c
               ¬
               p
               }
-
-
               c
               l
               o
               s
               e
               d
-
-
-
-
-
     {\displaystyle (id){\frac {X\cup \{p,\neg p\}}{closed}}}
 
-
 A tableau for a given finite set X is a finite (upside down) tree with root X in which all child nodes are obtained by applying the tableau rules to their parents. A branch in such a tableau is closed if its leaf node contains "closed". A tableau is closed if all its branches are closed. A tableau is open if at least one branch is not closed.
+
 Below are two closed tableaux for the set
-
-
-
 
         X
         =
@@ -1271,7 +670,6 @@ Below are two closed tableaux for the set
         ¬
         r
         ,
-
         p
         ∧
         (
@@ -1286,32 +684,15 @@ Below are two closed tableaux for the set
         q
         )
         }
-
-
     {\displaystyle X=\{r\land \neg r,\;p\land ((\neg p\lor q)\land \neg q)\}}
-
 
 Each rule application is marked at the right hand side. Both achieve the same effect; the first closes faster. The only difference is the order in which the reduction is performed.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
                         r
                         ∧
                         ¬
                         r
                         ,
-
                         p
                         ∧
                         (
@@ -1325,16 +706,11 @@ Each rule application is marked at the right hand side. Both achieve the same ef
                         ¬
                         q
                         )
-
-
-
                         r
                         ,
-
                         ¬
                         r
                         ,
-
                         p
                         ∧
                         (
@@ -1348,59 +724,27 @@ Each rule application is marked at the right hand side. Both achieve the same ef
                         ¬
                         q
                         )
-
-
-
-
                 (
                 ∧
                 )
-
-
                 c
                 l
                 o
                 s
                 e
                 d
-
-
-
-
         (
         ∧
         )
-
-
     {\displaystyle {\dfrac {\quad {\dfrac {\quad r\land \neg r,\;p\land ((\neg p\lor q)\land \neg q)\quad }{r,\;\neg r,\;p\land ((\neg p\lor q)\land \neg q)}}(\land )}{closed}}(\land )}
-
 
 and second, longer one, with the rules applied in a different order:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                                 r
                                 ∧
                                 ¬
                                 r
                                 ,
-
                                 p
                                 ∧
                                 (
@@ -1414,18 +758,13 @@ and second, longer one, with the rules applied in a different order:
                                 ¬
                                 q
                                 )
-
-
-
                                 r
                                 ∧
                                 ¬
                                 r
                                 ,
-
                                 p
                                 ,
-
                                 (
                                 (
                                 ¬
@@ -1437,25 +776,16 @@ and second, longer one, with the rules applied in a different order:
                                 ¬
                                 q
                                 )
-
-
-
-
                         (
                         ∧
                         )
-
-
-
                         r
                         ∧
                         ¬
                         r
                         ,
-
                         p
                         ,
-
                         (
                         ¬
                         p
@@ -1463,235 +793,119 @@ and second, longer one, with the rules applied in a different order:
                         q
                         )
                         ,
-
                         ¬
                         q
-
-
-
-
                 (
                 ∧
                 )
-
-
-
-
-
-
-
-
                         r
                         ∧
                         ¬
                         r
                         ,
-
                         p
                         ,
-
                         ¬
                         p
                         ,
-
                         ¬
                         q
-
-
-
                         c
                         l
                         o
                         s
                         e
                         d
-
-
-
-
                 (
                 i
                 d
                 )
-
-
-
-
-
-
-
                         r
                         ∧
                         ¬
                         r
                         ,
-
                         p
                         ,
-
                         q
                         ,
-
                         ¬
                         q
-
-
-
                         c
                         l
                         o
                         s
                         e
                         d
-
-
-
-
                 (
                 i
                 d
                 )
-
-
-
-
         (
         ∨
         )
-
-
     {\displaystyle {\dfrac {\quad {\dfrac {\quad {\dfrac {\quad r\land \neg r,\;p\land ((\neg p\lor q)\land \neg q)\quad }{r\land \neg r,\;p,\;((\neg p\lor q)\land \neg q)}}(\land )\quad }{r\land \neg r,\;p,\;(\neg p\lor q),\;\neg q}}(\land )}{\quad {\dfrac {\quad r\land \neg r,\;p,\;\neg p,\;\neg q\quad }{closed}}(id)\quad \quad {\dfrac {\quad r\land \neg r,\;p,\;q,\;\neg q\quad }{closed}}(id)}}(\lor )}
 
-
 The first tableau closes after only one rule application while the second one misses the mark and takes much longer to close. Clearly, one would prefer to always find the shortest closed tableau but it can be shown that one single algorithm that finds the shortest closed tableau for all input sets of formulae cannot exist.
+
 The three rules
-
-
 
         (
         ∧
         )
-
-
     {\displaystyle (\land )}
 
 ,
 
-
-
         (
         ∨
         )
-
-
     {\displaystyle (\lor )}
-
  and
-
-
-
         (
         i
         d
         )
-
-
     {\displaystyle (id)}
-
  given above are then enough to decide whether a given set
-
-
-
-
           X
           ′
-
-
-
     {\displaystyle X'}
-
  of formulae in negated normal form are jointly satisfiable:
 
 Just apply all possible rules in all possible orders until we find a closed tableau for
 
-
-
-
           X
           ′
-
-
-
     {\displaystyle X'}
-
  or until we exhaust all possibilities and conclude that every tableau for
-
-
-
-
           X
           ′
-
-
-
     {\displaystyle X'}
-
  is open.
 
 In the first case,
 
-
-
-
           X
           ′
-
-
-
     {\displaystyle X'}
-
  is jointly unsatisfiable and in the second the case the leaf node of the open branch gives an assignment to the atomic formulae and negated atomic formulae which makes
-
-
-
-
           X
           ′
-
-
-
     {\displaystyle X'}
-
  jointly satisfiable. Classical logic actually has the rather nice property that we need to investigate only (any) one tableau completely: if it closes then
-
-
-
-
           X
           ′
-
-
-
     {\displaystyle X'}
-
  is unsatisfiable and if it is open then
-
-
-
-
           X
           ′
-
-
-
     {\displaystyle X'}
-
  is satisfiable. But this property is not generally enjoyed by other logics.
 These rules suffice for all of classical logic by taking an initial set of formulae X and replacing each member C by its logically equivalent negated normal form C'  giving a set of formulae X' . We know that X is satisfiable if and only if X'  is
 satisfiable, so it suffices to search for a closed tableau for X'  using the procedure outlined above.
+
 By setting
-
-
 
         X
         =
@@ -1699,56 +913,36 @@ By setting
         ¬
         A
         }
-
-
     {\displaystyle X=\{\neg A\}}
-
  one can test whether the formula A is a tautology of classical logic:
 
 If the tableau for
 
-
-
         {
         ¬
         A
         }
-
-
     {\displaystyle \{\neg A\}}
-
  closes then
-
-
-
         ¬
         A
-
-
     {\displaystyle \neg A}
-
  is unsatisfiable and so A is a tautology since no assignment of truth values will ever make A false. Otherwise any open leaf of any open branch of any open tableau for
-
-
-
         {
         ¬
         A
         }
-
-
     {\displaystyle \{\neg A\}}
-
  gives an assignment that falsifies A.
 
 First-order logic tableau
+
 Tableaux are extended to first-order predicate logic by two rules for dealing with universal and existential quantifiers, respectively. Two different sets of rules can be used; both employ a form of Skolemization for handling existential quantifiers, but differ on the handling of universal quantifiers.
 The set of formulae to check for validity is here supposed to contain no free variables; this is not a limitation as free variables are implicitly universally quantified, so universal quantifiers over these variables can be added, resulting in a formula with no free variables.
 
 First-order tableau without unification
+
 A first-order formula
-
-
 
         ∀
         x
@@ -1757,42 +951,20 @@ A first-order formula
         (
         x
         )
-
-
     {\displaystyle \forall x.\gamma (x)}
-
  implies all formulae
-
-
-
         γ
         (
         t
         )
-
-
     {\displaystyle \gamma (t)}
-
  where
-
-
-
         t
-
-
     {\displaystyle t}
-
  is a ground term. The following inference rule is therefore correct:
-
-
-
-
         (
         ∀
         )
-
-
-
               ∀
               x
               .
@@ -1800,32 +972,16 @@ A first-order formula
               (
               x
               )
-
-
               γ
               (
               t
               )
-
-
-
-
-
     {\displaystyle (\forall ){\frac {\forall x.\gamma (x)}{\gamma (t)}}}
-
  where
-
-
-
         t
-
-
     {\displaystyle t}
-
  is an arbitrary ground term
 Contrarily to the rules for the propositional connectives, multiple applications of this rule to the same formula may be necessary. As an example, the set
-
-
 
         {
         ¬
@@ -1848,38 +1004,20 @@ Contrarily to the rules for the propositional connectives, multiple applications
         x
         )
         }
-
-
     {\displaystyle \{\neg P(a)\lor \neg P(b),\forall x.P(x)\}}
-
  can only be proved unsatisfiable if both
-
-
-
         P
         (
         a
         )
-
-
     {\displaystyle P(a)}
-
  and
-
-
-
         P
         (
         b
         )
-
-
     {\displaystyle P(b)}
-
  are generated from
-
-
-
         ∀
         x
         .
@@ -1887,14 +1025,11 @@ Contrarily to the rules for the propositional connectives, multiple applications
         (
         x
         )
-
-
     {\displaystyle \forall x.P(x)}
 
 .
+
 Existential quantifiers are dealt with by means of Skolemization. In particular, a formula with a leading existential quantifier like
-
-
 
         ∃
         x
@@ -1903,42 +1038,22 @@ Existential quantifiers are dealt with by means of Skolemization. In particular,
         (
         x
         )
-
-
     {\displaystyle \exists x.\delta (x)}
-
  generates its Skolemization
-
-
-
         δ
         (
         c
         )
-
-
     {\displaystyle \delta (c)}
 
 , where
 
-
-
         c
-
-
     {\displaystyle c}
-
  is a new constant symbol.
-
-
-
-
         (
         ∃
         )
-
-
-
               ∃
               x
               .
@@ -1946,61 +1061,28 @@ Existential quantifiers are dealt with by means of Skolemization. In particular,
               (
               x
               )
-
-
               δ
               (
               c
               )
-
-
-
-
-
     {\displaystyle (\exists ){\frac {\exists x.\delta (x)}{\delta (c)}}}
-
  where
-
-
-
         c
-
-
     {\displaystyle c}
-
  is a new constant symbol
 
 The Skolem term
 
-
-
         c
-
-
     {\displaystyle c}
-
  is a constant (a function of arity 0) because the quantification over
-
-
-
         x
-
-
     {\displaystyle x}
-
  does not occur within the scope of any universal quantifier. If the original formula contained some universal quantifiers such that the quantification over
-
-
-
         x
-
-
     {\displaystyle x}
-
  was within their scope, these quantifiers have evidently been removed by the application of the rule for universal quantifiers.
 The rule for existential quantifiers introduces new constant symbols. These symbols can be used by the rule for universal quantifiers, so that
-
-
 
         ∀
         y
@@ -2009,35 +1091,18 @@ The rule for existential quantifiers introduces new constant symbols. These symb
         (
         y
         )
-
-
     {\displaystyle \forall y.\gamma (y)}
-
  can generate
-
-
-
         γ
         (
         c
         )
-
-
     {\displaystyle \gamma (c)}
-
  even if
-
-
-
         c
-
-
     {\displaystyle c}
-
  was not in the original formula but is a Skolem constant created by the rule for existential quantifiers.
 The above two rules for universal and existential quantifiers are correct, and so are the propositional rules: if a set of formulae generates a closed tableau, this set is unsatisfiable. Completeness can also be proved: if a set of formulae is unsatisfiable, there exists a closed tableau built from it by these rules. However, actually finding such a closed tableau requires a suitable policy of application of rules. Otherwise, an unsatisfiable set can generate an infinite-growing tableau. As an example, the set
-
-
 
         {
         ¬
@@ -2057,14 +1122,8 @@ The above two rules for universal and existential quantifiers are correct, and s
         x
         )
         }
-
-
     {\displaystyle \{\neg P(f(c)),\forall x.P(x)\}}
-
  is unsatisfiable, but a closed tableau is never obtained if one unwisely keeps applying the rule for universal quantifiers to
-
-
-
         ∀
         x
         .
@@ -2072,13 +1131,9 @@ The above two rules for universal and existential quantifiers are correct, and s
         (
         x
         )
-
-
     {\displaystyle \forall x.P(x)}
 
 , generating for example
-
-
 
         P
         (
@@ -2105,38 +1160,26 @@ The above two rules for universal and existential quantifiers are correct, and s
         )
         ,
         …
-
-
     {\displaystyle P(c),P(f(c)),P(f(f(c))),\ldots }
 
 . A closed tableau can always be found by ruling out this and similar "unfair" policies of application of tableau rules.
+
 The rule for universal quantifiers
-
-
 
         (
         ∀
         )
-
-
     {\displaystyle (\forall )}
-
  is the only non-deterministic rule, as it does not specify which term to instantiate with.  Moreover, while the other rules need to be applied only once for each formula and each path the formula is in, this one may require multiple applications.  Application of this rule can however be restricted by delaying the application of the rule until no other rule is applicable and by restricting the application of the rule to ground terms that already appear in the path of the tableau. The variant of tableaux with unification shown below aims at solving the problem of non-determinism.
 
 First-order tableau with unification
+
 The main problem of tableau without unification is how to choose a ground term
 
-
-
         t
-
-
     {\displaystyle t}
-
  for the universal quantifier rule. Indeed, every possible ground term can be used, but clearly most of them might be useless for closing the tableau.
 A solution to this problem is to "delay" the choice of the term to the time when the consequent of the rule allows closing at least a branch of the tableau. This can be done by using a variable instead of a term, so that
-
-
 
         ∀
         x
@@ -2145,48 +1188,24 @@ A solution to this problem is to "delay" the choice of the term to the time when
         (
         x
         )
-
-
     {\displaystyle \forall x.\gamma (x)}
-
  generates
-
-
-
         γ
         (
-
           x
           ′
-
         )
-
-
     {\displaystyle \gamma (x')}
 
 , and then allowing substitutions to later replace
 
-
-
-
           x
           ′
-
-
-
     {\displaystyle x'}
-
  with a term. The rule for universal quantifiers becomes:
-
-
-
-
         (
         ∀
         )
-
-
-
               ∀
               x
               .
@@ -2194,41 +1213,22 @@ A solution to this problem is to "delay" the choice of the term to the time when
               (
               x
               )
-
-
               γ
               (
-
                 x
                 ′
-
               )
-
-
-
-
-
     {\displaystyle (\forall ){\frac {\forall x.\gamma (x)}{\gamma (x')}}}
-
  where
-
-
-
-
           x
           ′
-
-
-
     {\displaystyle x'}
-
  is a variable not occurring everywhere else in the tableau
 While the initial set of formulae is supposed not to contain free variables, a formula of the tableau may contain the free variables generated by this rule. These free variables are implicitly considered universally quantified.
+
 This rule employs a variable instead of a ground term. What is gained by this change is that these variables can be then given a value when a branch of the tableau can be closed, solving the problem of generating terms that might be useless.
 
 As an example,
-
-
 
         {
         ¬
@@ -2245,97 +1245,53 @@ As an example,
         x
         )
         }
-
-
     {\displaystyle \{\neg P(a),\forall x.P(x)\}}
-
  can be proved unsatisfiable by first generating
-
-
-
         P
         (
-
           x
-
             1
-
-
         )
-
-
     {\displaystyle P(x_{1})}
 
 ; the negation of this literal is unifiable with
-
-
 
         ¬
         P
         (
         a
         )
-
-
     {\displaystyle \neg P(a)}
 
 , the most general unifier being the substitution that replaces
 
-
-
-
           x
-
             1
-
-
-
-
     {\displaystyle x_{1}}
-
  with
-
-
-
         a
-
-
     {\displaystyle a}
 
 ; applying this substitution results in replacing
 
-
-
         P
         (
-
           x
-
             1
-
-
         )
-
-
     {\displaystyle P(x_{1})}
-
  with
-
-
-
         P
         (
         a
         )
-
-
     {\displaystyle P(a)}
 
 , which closes the tableau.
+
 This rule closes at least a branch of the tableau—the one containing the considered pair of literals. However, the substitution has to be applied to the whole tableau, not only on these two literals. This is expressed by saying that the free variables of the tableau are rigid: if an occurrence of a variable is replaced by something else, all other occurrences of the same variable must be replaced in the same way. Formally, the free variables are (implicitly) universally quantified and all formulae of the tableau are within the scope of these quantifiers.
+
 Existential quantifiers are dealt with by Skolemization. Contrary to the tableau without unification, Skolem terms may not be simple constants. Indeed, formulae in a tableau with unification may contain free variables, which are implicitly considered universally quantified. As a result, a formula like
-
-
 
         ∃
         x
@@ -2344,21 +1300,11 @@ Existential quantifiers are dealt with by Skolemization. Contrary to the tableau
         (
         x
         )
-
-
     {\displaystyle \exists x.\delta (x)}
-
  may be within the scope of universal quantifiers; if this is the case, the Skolem term is not a simple constant but a term made of a new function symbol and the free variables of the formula.
-
-
-
-
         (
         ∃
         )
-
-
-
               ∃
               x
               .
@@ -2366,284 +1312,129 @@ Existential quantifiers are dealt with by Skolemization. Contrary to the tableau
               (
               x
               )
-
-
               δ
               (
               f
               (
-
                 x
-
                   1
-
-
               ,
               …
               ,
-
                 x
-
                   n
-
-
               )
               )
-
-
-
-
-
     {\displaystyle (\exists ){\frac {\exists x.\delta (x)}{\delta (f(x_{1},\ldots ,x_{n}))}}}
-
  where
-
-
-
         f
-
-
     {\displaystyle f}
-
  is a new function symbol and
-
-
-
-
           x
-
             1
-
-
         ,
         …
         ,
-
           x
-
             n
-
-
-
-
     {\displaystyle x_{1},\ldots ,x_{n}}
-
  the free variables of
-
-
-
         δ
-
-
     {\displaystyle \delta }
-
 
 This rule incorporates a simplification over a rule where
 
-
-
-
           x
-
             1
-
-
         ,
         …
         ,
-
           x
-
             n
-
-
-
-
     {\displaystyle x_{1},\ldots ,x_{n}}
-
  are the free variables of the branch, not of
-
-
-
         δ
-
-
     {\displaystyle \delta }
-
  alone. This rule can be further simplified by the reuse of a function symbol if it has already been used in a formula that is identical to
-
-
-
         δ
-
-
     {\displaystyle \delta }
-
  up to variable renaming.
 The formula represented by a tableau is obtained in a way that is similar to the propositional case, with the additional assumption that free variables are considered universally quantified. As for the propositional case, formulae in each branch are conjoined and the resulting formulae are disjoined. In addition, all free variables of the resulting formula are universally quantified. All these quantifiers have the whole formula in their scope. In other words, if
 
-
-
         F
-
-
     {\displaystyle F}
-
  is the formula obtained by disjoining the conjunction of the formulae in each branch, and
-
-
-
-
           x
-
             1
-
-
         ,
         …
         ,
-
           x
-
             n
-
-
-
-
     {\displaystyle x_{1},\ldots ,x_{n}}
-
  are the free variables in it, then
-
-
-
         ∀
-
           x
-
             1
-
-
         ,
         …
         ,
-
           x
-
             n
-
-
         .
         F
-
-
     {\displaystyle \forall x_{1},\ldots ,x_{n}.F}
-
  is the formula represented by the tableau. The following considerations apply:
 
 The assumption that free variables are universally quantified is what makes the application of a most general unifier a sound rule: since
 
-
-
         γ
         (
-
           x
           ′
-
         )
-
-
     {\displaystyle \gamma (x')}
-
  means that
-
-
-
         γ
-
-
     {\displaystyle \gamma }
-
  is true for every possible value of
-
-
-
-
           x
           ′
-
-
-
     {\displaystyle x'}
 
 , then
 
-
-
         γ
         (
         t
         )
-
-
     {\displaystyle \gamma (t)}
-
  is true for the term
-
-
-
         t
-
-
     {\displaystyle t}
-
  that the most general unifier replaces
-
-
-
         x
-
-
     {\displaystyle x}
-
  with.
 Free variables in a tableau are rigid: all occurrences of the same variable have to be replaced all with the same term. Every variable can be considered a symbol representing a term that is yet to be decided. This is a consequence of free variables being assumed universally quantified over the whole formula represented by the tableau: if the same variable occurs free in two different nodes, both occurrences are in the scope of the same quantifier. As an example, if the formulae in two nodes are
-
-
 
         A
         (
         x
         )
-
-
     {\displaystyle A(x)}
-
  and
-
-
-
         B
         (
         x
         )
-
-
     {\displaystyle B(x)}
 
 , where
 
-
-
         x
-
-
     {\displaystyle x}
-
  is free in both, the formula represented by the tableau is something in the form
-
-
-
         ∀
         x
         .
@@ -2666,14 +1457,10 @@ Free variables in a tableau are rigid: all occurrences of the same variable have
         .
         .
         )
-
-
     {\displaystyle \forall x.(...A(x)...B(x)...)}
 
 . This formula implies that
 
-
-
         (
         .
         .
@@ -2693,23 +1480,13 @@ Free variables in a tableau are rigid: all occurrences of the same variable have
         .
         .
         )
-
-
     {\displaystyle (...A(x)...B(x)...)}
-
  is true for any value of
-
-
-
         x
-
-
     {\displaystyle x}
 
 , but does not in general imply
 
-
-
         (
         .
         .
@@ -2723,77 +1500,42 @@ Free variables in a tableau are rigid: all occurrences of the same variable have
         .
         A
         (
-
           t
           ′
-
         )
         .
         .
         .
         )
-
-
     {\displaystyle (...A(t)...A(t')...)}
-
  for two different terms
-
-
-
         t
-
-
     {\displaystyle t}
-
  and
-
-
-
-
           t
           ′
-
-
-
     {\displaystyle t'}
 
 , as these two terms may in general take different values. This means that
 
-
-
         x
-
-
     {\displaystyle x}
-
  cannot be replaced by two different terms in
-
-
-
         A
         (
         x
         )
-
-
     {\displaystyle A(x)}
-
  and
-
-
-
         B
         (
         x
         )
-
-
     {\displaystyle B(x)}
 
 .
+
 Free variables in a formula to check for validity are also considered universally quantified. However, these variables cannot be left free when building a tableau, because tableau rules works on the converse of the formula but still treats free variables as universally quantified. For example,
-
-
 
         P
         (
@@ -2804,14 +1546,8 @@ Free variables in a formula to check for validity are also considered universall
         (
         c
         )
-
-
     {\displaystyle P(x)\to P(c)}
-
  is not valid (it is not true in the model where
-
-
-
         D
         =
         {
@@ -2837,24 +1573,16 @@ Free variables in a formula to check for validity are also considered universall
         c
         =
         1
-
-
     {\displaystyle D=\{1,2\},P(1)=\bot ,P(2)=\top ,c=1}
 
 , and the interpretation where
 
-
-
         x
         =
         2
-
-
     {\displaystyle x=2}
 
 ). Consequently,
-
-
 
         {
         P
@@ -2868,57 +1596,29 @@ Free variables in a formula to check for validity are also considered universall
         c
         )
         }
-
-
     {\displaystyle \{P(x),\neg P(c)\}}
-
  is satisfiable (it is satisfied by the same model and interpretation). However, a closed tableau could be generated with
-
-
-
         P
         (
         x
         )
-
-
     {\displaystyle P(x)}
-
  and
-
-
-
         ¬
         P
         (
         c
         )
-
-
     {\displaystyle \neg P(c)}
 
 , and substituting
 
-
-
         x
-
-
     {\displaystyle x}
-
  with
-
-
-
         c
-
-
     {\displaystyle c}
-
  would generate a closure. A correct procedure is to first make universal quantifiers explicit, thus generating
-
-
-
         ∀
         x
         .
@@ -2933,29 +1633,35 @@ Free variables in a formula to check for validity are also considered universall
         c
         )
         )
-
-
     {\displaystyle \forall x.(P(x)\to P(c))}
 
 .
+
 The following two variants are also correct.
 
 Applying to the whole tableau a substitution to the free variables of the tableau is a correct rule, provided that this substitution is free for the formula representing the tableau. In other worlds, applying such a substitution leads to a tableau whose formula is still a consequence of the input set.  Using most general unifiers automatically ensures that the condition of freeness for the tableau is met.
+
 While in general every variable has to be replaced with the same term in the whole tableau, there are some special cases in which this is not necessary.
+
 Tableaux with unification can be proved complete: if a set of formulae is unsatisfiable, it has a tableau-with-unification proof. However, actually finding such a proof may be a difficult problem. Contrarily to the case without unification, applying a substitution can modify the existing part of a tableau; while applying a substitution closes at least a branch, it may make other branches impossible to close (even if the set is unsatisfiable).
+
 A solution to this problem is delayed instantiation: no substitution is applied until one that closes all branches at the same time is found. With this variant, a proof for an unsatisfiable set can always be found by a suitable policy of application of the other rules. This method however requires the whole tableau to be kept in memory: the general method closes branches, which can be then discarded, while this variant does not close any branch until the end.
+
 The problem that some tableaux that can be generated are impossible to close even if the set is unsatisfiable is common to other sets of tableau expansion rules: even if some specific sequences of application of these rules allow constructing a closed tableau (if the set is unsatisfiable), some other sequences lead to tableaux that cannot be closed. General solutions for these cases are outlined in the "Searching for a tableau" section.
 
 Tableau calculi and their properties
+
 A tableau calculus is a set of rules that allows building and modification of a tableau.  Propositional tableau rules, tableau rules without unification, and tableau rules with unification, are all tableau calculi. Some important properties a tableau calculus may or may not possess are completeness, destructiveness, and proof confluence.
+
 A tableau calculus is called complete if it allows building a tableau proof for every given unsatisfiable set of formulae. The tableau calculi mentioned above can be proved complete.
+
 A remarkable difference between tableau with unification and the other two calculi is that the latter two calculi only modify a tableau by adding new nodes to it, while the former one allows substitutions to modify the existing part of the tableau. More generally, tableau calculi are classed as destructive or non-destructive depending on whether they only add new nodes to tableau or not. Tableau with unification is therefore destructive, while propositional tableau and tableau without unification are non-destructive.
+
 Proof confluence is the property of a tableau calculus being able to obtain a proof for an arbitrary unsatisfiable set from an arbitrary tableau, assuming that this tableau has itself been obtained by applying the rules of the calculus. In other words, in a proof confluent tableau calculus, from an unsatisfiable set one can apply whatever set of rules and still obtain a tableau from which a closed one can be obtained by applying some other rules.
 
 Proof procedures
+
 A tableau calculus is simply a set of rules that prescribes how a tableau can be modified. A proof procedure is a method for actually finding a proof (if one exists). In other words, a tableau calculus is a set of rules, while a proof procedure is a policy of application of these rules. Even if a calculus is complete, not every possible choice of application of rules leads to a proof of an unsatisfiable set. For example,
-
-
 
         {
         P
@@ -2994,203 +1700,112 @@ A tableau calculus is simply a set of rules that prescribes how a tableau can be
         x
         )
         }
-
-
     {\displaystyle \{P(f(c)),R(c),\neg P(f(c))\lor \neg R(c),\forall x.Q(x)\}}
-
  is unsatisfiable, but both tableaux with unification and tableaux without unification allow the rule for the universal quantifiers to be applied repeatedly to the last formula, while simply applying the rule for disjunction to the third one would directly lead to closure.
 For proof procedures, a definition of completeness has been given: a proof procedure is strongly complete if it allows finding a closed tableau for any given unsatisfiable set of formulae. Proof confluence of the underlying calculus is relevant to completeness: proof confluence is the guarantee that a closed tableau can be always generated from an arbitrary partially constructed tableau (if the set is unsatisfiable). Without proof confluence, the application of a 'wrong' rule may result in the impossibility of making the tableau complete by applying other rules.
+
 Propositional tableaux and tableaux without unification have strongly complete proof procedures. In particular, a complete proof procedure is that of applying the rules in a fair way. This is because the only way such calculi cannot generate a closed tableau from an unsatisfiable set is by not applying some applicable rules.
+
 For propositional tableaux, fairness amounts to expanding every formula in every branch. More precisely, for every formula and every branch the formula is in, the rule having the formula as a precondition has been used to expand the branch. A fair proof procedure for propositional tableaux is strongly complete.
+
 For first-order tableaux without unification, the condition of fairness is similar, with the exception that the rule for universal quantifiers might require more than one application. Fairness amounts to expanding every universal quantifier infinitely often. In other words, a fair policy of application of rules cannot keep applying other rules without expanding every universal quantifier in every branch that is still open once in a while.
 
 Searching for a closed tableau
+
 If a tableau calculus is complete, every unsatisfiable set of formulae has an associated closed tableau. While this tableau can always be obtained by applying some of the rules of the calculus, the problem of which rules to apply for a given formula still remains. As a result, completeness does not automatically imply the existence of a feasible policy of application of rules that always leads to a closed tableau for every given unsatisfiable set of formulae. While a fair proof procedure is complete for ground tableau and tableau without unification, this is not the case for tableau with unification.
 
 A general solution for this problem is that of searching the space of tableaux until a closed one is found (if any exists, that is, the set is unsatisfiable). In this approach, one starts with an empty tableau and then recursively applies every possible applicable rule. This procedure visits a (implicit) tree whose nodes are labeled with tableaux, and such that the tableau in a node is obtained from the tableau in its parent by applying one of the valid rules.
+
 Since each branch can be infinite, this tree has to be visited breadth-first rather than depth-first. This requires a large amount of space, as the breadth of the tree can grow exponentially. A method that may visit some nodes more than once but works in polynomial space is to visit in a depth-first manner with iterative deepening: one first visits the tree depth first up to a certain depth, then increases the depth and perform the visit again. This particular procedure uses the depth (which is also the number of tableau rules that have been applied) for deciding when to stop at each step. Various other parameters (such as the size of the tableau labeling a node) have been used instead.
 
 Reducing search
+
 The size of the search tree depends on the number of (children) tableaux that can be generated from a given (parent) one. Reducing the number of such tableaux therefore reduces the required search.
+
 A way for reducing this number is to disallow the generation of some tableaux based on their internal structure. An example is the condition of regularity: if a branch contains a literal, using an expansion rule that generates the same literal is useless because the branch containing two copies of the literals would have the same set of formulae of the original one. This expansion can be disallowed because if a closed tableau exists, it can be found without it. This restriction is structural because it can be checked by looking at the structure of the tableau to expand only.
+
 Different methods for reducing search disallow the generation of some tableaux on the ground that a closed tableau can still be found by expanding the other ones. These restrictions are called global. As an example of a global restriction, one may employ a rule that specifies which of the open branches is to be expanded. As a result, if a tableau has for example two non-closed branches, the rule specifies which one is to be expanded, disallowing the expansion of the second one. This restriction reduces the search space because one possible choice is now forbidden; completeness is however not harmed, as the second branch will still be expanded if the first one is eventually closed. As an example, a tableau with root
-
-
 
         ¬
         a
         ∧
         ¬
         b
-
-
     {\displaystyle \neg a\land \neg b}
 
 , child
 
-
-
         a
         ∨
         b
-
-
     {\displaystyle a\lor b}
 
 , and two leaves
 
-
-
         a
-
-
     {\displaystyle a}
-
  and
-
-
-
         b
-
-
     {\displaystyle b}
-
  can be closed in two ways: applying
-
-
-
         (
         ∧
         )
-
-
     {\displaystyle (\land )}
-
  first to
-
-
-
         a
-
-
     {\displaystyle a}
-
  and then to
-
-
-
         b
-
-
     {\displaystyle b}
 
 , or vice versa. There is clearly no need to follow both possibilities; one may consider only the case in which
 
-
-
         (
         ∧
         )
-
-
     {\displaystyle (\land )}
-
  is first applied to
-
-
-
         a
-
-
     {\displaystyle a}
-
  and disregard the case in which it is first applied to
-
-
-
         b
-
-
     {\displaystyle b}
 
 . This is a global restriction because what allows neglecting this second expansion is the presence of the other tableau, where expansion is applied to
 
-
-
         a
-
-
     {\displaystyle a}
-
  first and
-
-
-
         b
-
-
     {\displaystyle b}
-
  afterwards.
 
 Clause tableaux
+
 When applied to sets of clauses (rather than of arbitrary formulae), tableaux methods allow for a number of efficiency improvements. A first-order clause is a formula
 
-
-
         ∀
-
           x
-
             1
-
-
         ,
         …
         ,
-
           x
-
             n
-
-
-
           L
-
             1
-
-
         ∨
         ⋯
         ∨
-
           L
-
             m
-
-
-
-
     {\displaystyle \forall x_{1},\ldots ,x_{n}L_{1}\lor \cdots \lor L_{m}}
-
  that does not contain free variables and such that each
-
-
-
-
           L
-
             i
-
-
-
-
     {\displaystyle L_{i}}
-
  is a literal. The universal quantifiers are often omitted for clarity, so that for example
-
-
-
         P
         (
         x
@@ -3205,14 +1820,8 @@ When applied to sets of clauses (rather than of arbitrary formulae), tableaux me
         x
         )
         )
-
-
     {\displaystyle P(x,y)\lor Q(f(x))}
-
  actually means
-
-
-
         ∀
         x
         ,
@@ -3232,13 +1841,9 @@ When applied to sets of clauses (rather than of arbitrary formulae), tableaux me
         x
         )
         )
-
-
     {\displaystyle \forall x,y.P(x,y)\lor Q(f(x))}
 
 . Note that, if taken literally, these two formulae are not the same as for satisfiability: rather, the satisfiability
-
-
 
         P
         (
@@ -3254,14 +1859,8 @@ When applied to sets of clauses (rather than of arbitrary formulae), tableaux me
         x
         )
         )
-
-
     {\displaystyle P(x,y)\lor Q(f(x))}
-
  is the same as that of
-
-
-
         ∃
         x
         ,
@@ -3281,304 +1880,145 @@ When applied to sets of clauses (rather than of arbitrary formulae), tableaux me
         x
         )
         )
-
-
     {\displaystyle \exists x,y.P(x,y)\lor Q(f(x))}
 
 . That free variables are universally quantified is not a consequence of the definition of first-order satisfiability; it is rather used as an implicit common assumption when dealing with clauses.
+
 The only expansion rules that are applicable to a clause are
-
-
 
         (
         ∀
         )
-
-
     {\displaystyle (\forall )}
-
  and
-
-
-
         (
         ∨
         )
-
-
     {\displaystyle (\lor )}
 
 ; these two rules can be replaced by their combination without losing completeness. In particular, the following rule corresponds to applying in sequence the rules
 
-
-
         (
         ∀
         )
-
-
     {\displaystyle (\forall )}
-
  and
-
-
-
         (
         ∨
         )
-
-
     {\displaystyle (\lor )}
-
  of the first-order calculus with unification.
-
-
-
-
         (
         C
         )
-
-
-
-
                 L
-
                   1
-
-
               ∨
               ⋯
               ∨
-
                 L
-
                   n
-
-
-
-
-
                 L
-
                   1
-
                 ′
-
-
                 |
-
               ⋯
-
                 |
-
-
                 L
-
                   n
-
                 ′
-
-
-
-
-
-
     {\displaystyle (C){\frac {L_{1}\lor \cdots \lor L_{n}}{L_{1}'|\cdots |L_{n}'}}}
-
  where
-
-
-
-
           L
-
             1
-
           ′
-
         ∨
         ⋯
         ∨
-
           L
-
             n
-
           ′
-
-
-
     {\displaystyle L_{1}'\lor \cdots \lor L_{n}'}
-
  is obtained by replacing every variable with a new one in
-
-
-
-
           L
-
             1
-
-
         ∨
         ⋯
         ∨
-
           L
-
             n
-
-
-
-
     {\displaystyle L_{1}\lor \cdots \lor L_{n}}
-
 
 When the set to be checked for satisfiability is only composed of clauses, this and the unification rules are sufficient to prove unsatisfiability. In other worlds, the tableau calculi composed of
 
-
-
         (
         C
         )
-
-
     {\displaystyle (C)}
-
  and
-
-
-
         (
         σ
         )
-
-
     {\displaystyle (\sigma )}
-
  is complete.
 Since the clause expansion rule only generates literals and never new clauses, the clauses to which it can be applied are only clauses of the input set. As a result, the clause expansion rule can be further restricted to the case where the clause is in the input set.
-
-
-
 
         (
         C
         )
-
-
-
-
                 L
-
                   1
-
-
               ∨
               ⋯
               ∨
-
                 L
-
                   n
-
-
-
-
-
                 L
-
                   1
-
                 ′
-
-
                 |
-
               ⋯
-
                 |
-
-
                 L
-
                   n
-
                 ′
-
-
-
-
-
-
     {\displaystyle (C){\frac {L_{1}\lor \cdots \lor L_{n}}{L_{1}'|\cdots |L_{n}'}}}
-
  where
-
-
-
-
           L
-
             1
-
           ′
-
         ∨
         ⋯
         ∨
-
           L
-
             n
-
           ′
-
-
-
     {\displaystyle L_{1}'\lor \cdots \lor L_{n}'}
-
  is obtained by replacing every variable with a new one in
-
-
-
-
           L
-
             1
-
-
         ∨
         ⋯
         ∨
-
           L
-
             n
-
-
-
-
     {\displaystyle L_{1}\lor \cdots \lor L_{n}}
 
 , which is a clause of the input set
 Since this rule directly exploits the clauses in the input set there is no need to initialize the tableau to the chain of the input clauses. The initial tableau can therefore be initialize with the single node labeled
 
-
-
         t
         r
         u
         e
-
-
     {\displaystyle true}
 
 ; this label is often omitted as implicit. As a result of this further simplification, every node of the tableau (apart from the root) is labeled with a literal.
+
 A number of optimizations can be used for clause tableau. These optimization are aimed at reducing the number of possible tableaux to be explored when searching for a closed tableau as described in the "Searching for a closed tableau" section above.
 
 Connection tableau
+
 Connection is a condition over tableau that forbids expanding a branch using clauses that are unrelated to the literals that are already in the branch. Connection can be defined in two ways:
 
 strong connectedness
@@ -3586,11 +2026,12 @@ when expanding a branch, use an input clause only if it contains a literal that 
 weak connectedness
 allow the use of clauses that contain a literal that unifies with the negation of a literal on the branch
 Both conditions apply only to branches consisting not only of the root. The second definition allows for the use of a clause containing a literal that unifies with the negation of a literal in the branch, while the first only further constraint that literal to be in leaf of the current branch.
+
 If clause expansion is restricted by connectedness (either strong or weak), its application produces a tableau in which substitution can applied to one of the new leaves, closing its branch. In particular, this is the leaf containing the literal of the clause that unifies with the negation of a literal in the branch (or the negation of the literal in the parent, in case of strong connection).
+
 Both conditions of connectedness lead to a complete first-order calculus: if a set of clauses is unsatisfiable, it has a closed connected (strongly or weakly) tableau. Such a closed tableau can be found by searching in the space of tableaux as explained in the "Searching for a closed tableau" section. During this search, connectedness eliminates some possible choices of expansion, thus reducing search. In other worlds, while the tableau in a node of the tree can be in general expanded in several different ways, connection may allow only few of them, thus reducing the number of resulting tableaux that need to be further expanded.
+
 This can be seen on the following (propositional) example. The tableau made of a chain
-
-
 
         t
         r
@@ -3598,14 +2039,8 @@ This can be seen on the following (propositional) example. The tableau made of a
         e
         −
         a
-
-
     {\displaystyle true-a}
-
  for the set of clauses
-
-
-
         {
         a
         ,
@@ -3622,26 +2057,17 @@ This can be seen on the following (propositional) example. The tableau made of a
         ¬
         b
         }
-
-
     {\displaystyle \{a,\neg a\lor b,\neg c\lor d,\neg b\}}
-
  can be in general expanded using each of the four input clauses, but connection only allows the expansion that uses
-
-
-
         ¬
         a
         ∨
         b
-
-
     {\displaystyle \neg a\lor b}
 
 . This means that the tree of tableaux has four leaves in general but only one if connectedness is imposed. This means that connectedness leaves only one tableau to try to expand, instead of the four ones to consider in general. In spite of this reduction of choices, the completeness theorem implies that a closed tableau can be found if the set is unsatisfiable.
+
 The connectedness conditions, when applied to the propositional (clausal) case, make the resulting calculus non-confluent. As an example,
-
-
 
         {
         a
@@ -3651,388 +2077,179 @@ The connectedness conditions, when applied to the propositional (clausal) case, 
         ¬
         b
         }
-
-
     {\displaystyle \{a,b,\neg b\}}
-
  is unsatisfiable, but applying
-
-
-
         (
         C
         )
-
-
     {\displaystyle (C)}
-
  to
-
-
-
         a
-
-
     {\displaystyle a}
-
  generates the chain
-
-
-
         t
         r
         u
         e
         −
         a
-
-
     {\displaystyle true-a}
 
 , which is not closed and to which no other expansion rule can be applied without violating either strong or weak connectedness. In the case of weak connectedness, confluence holds provided that the clause used for expanding the root is relevant to unsatisfiability, that is, it is contained in a minimally unsatisfiable subset of the set of clauses. Unfortunately, the problem of checking whether a clause meets this condition is itself a hard problem. In spite of non-confluence, a closed tableau can be found using search, as presented in the "Searching for a closed tableau" section above. While search is made necessary, connectedness reduces the possible choices of expansion, thus making search more efficient.
 
 Regular tableaux
+
 A tableau is regular if no literal occurs twice in the same branch. Enforcing this condition allows for a reduction of the possible choices of tableau expansion, as the clauses that would generate a non-regular tableau cannot be expanded.
+
 These disallowed expansion steps are however useless. If
 
-
-
         B
-
-
     {\displaystyle B}
-
  is a branch containing a literal
-
-
-
         L
-
-
     {\displaystyle L}
 
 , and
 
-
-
         C
-
-
     {\displaystyle C}
-
  is a clause whose expansion violates regularity, then
-
-
-
         C
-
-
     {\displaystyle C}
-
  contains
-
-
-
         L
-
-
     {\displaystyle L}
 
 . In order to close the tableau, one needs to expand and close, among others, the branch where
 
-
-
         B
         −
         L
-
-
     {\displaystyle B-L}
 
 , where
 
-
-
         L
-
-
     {\displaystyle L}
-
  occurs twice. However, the formulae in this branch are exactly the same as the formulae of
-
-
-
         B
-
-
     {\displaystyle B}
-
  alone. As a result, the same expansion steps that close
-
-
-
         B
         −
         L
-
-
     {\displaystyle B-L}
-
  also close
-
-
-
         B
-
-
     {\displaystyle B}
 
 . This means that expanding
 
-
-
         C
-
-
     {\displaystyle C}
-
  was unnecessary; moreover, if
-
-
-
         C
-
-
     {\displaystyle C}
-
  contained other literals, its expansion generated other leaves that needed to be closed. In the propositional case, the expansion needed to close these leaves are completely useless; in the first-order case, they may only affect the rest of the tableau because of some unifications; these can however be combined to the substitutions used to close the rest of the tableau.
 
 Tableaux for modal logics
+
 In a modal logic, a model comprises a set of possible worlds, each one associated to a truth evaluation; an accessibility relation specifies when a world is accessible from another one. A modal formula may specify not only conditions over a possible world, but also on the ones that are accessible from it. As an example,
-
-
 
         ◻
         A
-
-
     {\displaystyle \Box A}
-
  is true in a world if
-
-
-
         A
-
-
     {\displaystyle A}
-
  is true in all worlds that are accessible from it.
 As for propositional logic, tableaux for modal logics are based on recursively breaking formulae into its basic components. Expanding a modal formula may however require stating conditions over different worlds. As an example, if
 
-
-
         ¬
         ◻
         A
-
-
     {\displaystyle \neg \Box A}
-
  is true in a world then there exists a world accessible from it where
-
-
-
         A
-
-
     {\displaystyle A}
-
  is false. However, one cannot simply add the following rule to the propositional ones.
-
-
-
-
-
-
-
               ¬
               ◻
               A
-
-
               ¬
               A
-
-
-
-
-
     {\displaystyle {\frac {\neg \Box A}{\neg A}}}
 
-
 In propositional tableaux all formulae refer to the same truth evaluation, but the precondition of the rule above holds in one world while the consequence holds in another. Not taking this into account would generate incorrect results. For example, formula
-
-
 
         a
         ∧
         ¬
         ◻
         a
-
-
     {\displaystyle a\land \neg \Box a}
-
  states that
-
-
-
         a
-
-
     {\displaystyle a}
-
  is true in the current world and
-
-
-
         a
-
-
     {\displaystyle a}
-
  is false in a world that is accessible from it. Simply applying
-
-
-
         (
         ∧
         )
-
-
     {\displaystyle (\land )}
-
  and the expansion rule above would produce
-
-
-
         a
-
-
     {\displaystyle a}
-
  and
-
-
-
         ¬
         a
-
-
     {\displaystyle \neg a}
 
 , but these two formulae should not in general generate a contradiction, as they hold in different worlds. Modal tableaux calculi do contain rules of the kind of the one above, but include mechanisms to avoid the incorrect interaction of formulae referring to different worlds.
+
 Technically, tableaux for modal logics check the satisfiability of a set of formulae: they check whether there exists a model
 
-
-
         M
-
-
     {\displaystyle M}
-
  and world
-
-
-
         w
-
-
     {\displaystyle w}
-
  such that the formulae in the set are true in that model and world. In the example above, while
-
-
-
         a
-
-
     {\displaystyle a}
-
  states the truth of
-
-
-
         a
-
-
     {\displaystyle a}
-
  in
-
-
-
         w
-
-
     {\displaystyle w}
 
 , the formula
 
-
-
         ¬
         ◻
         a
-
-
     {\displaystyle \neg \Box a}
-
  states the truth of
-
-
-
         ¬
         a
-
-
     {\displaystyle \neg a}
-
  in some world
-
-
-
-
           w
           ′
-
-
-
     {\displaystyle w'}
-
  that is accessible from
-
-
-
         w
-
-
     {\displaystyle w}
-
  and which may in general be different from
-
-
-
         w
-
-
     {\displaystyle w}
 
 . Tableaux calculi for modal logic take into account that formulae may refer to different worlds.
+
 This fact has an important consequence: formulae that hold in a world may imply conditions over different successors of that world. Unsatisfiability may then be proved from the subset of formulae referring to a single successor. This holds  if a world may have more than one successor, which is true for most modal logics. If this is the case, a formula like
-
-
 
         ¬
         ◻
@@ -4041,73 +2258,35 @@ This fact has an important consequence: formulae that hold in a world may imply 
         ¬
         ◻
         B
-
-
     {\displaystyle \neg \Box A\land \neg \Box B}
-
  is true if a successor where
-
-
-
         ¬
         A
-
-
     {\displaystyle \neg A}
-
  holds exists and a successor where
-
-
-
         ¬
         B
-
-
     {\displaystyle \neg B}
-
  holds exists. In the other way around, if one can show unsatisfiability of
-
-
-
         ¬
         A
-
-
     {\displaystyle \neg A}
-
  in an arbitrary successor, the formula is proved unsatisfiable without checking for worlds where
-
-
-
         ¬
         B
-
-
     {\displaystyle \neg B}
-
  holds. At the same time, if one can show unsatisfiability of
-
-
-
         ¬
         B
-
-
     {\displaystyle \neg B}
 
 , there is no need to check
 
-
-
         ¬
         A
-
-
     {\displaystyle \neg A}
 
 . As a result, while there are two possible way to expand
-
-
 
         ¬
         ◻
@@ -4116,363 +2295,184 @@ This fact has an important consequence: formulae that hold in a world may imply 
         ¬
         ◻
         B
-
-
     {\displaystyle \neg \Box A\land \neg \Box B}
 
 , one of these two ways is always sufficient to prove unsatisfiability if the formula is unsatisfiable. For example, one may expand the tableau by considering an arbitrary world where
 
-
-
         ¬
         A
-
-
     {\displaystyle \neg A}
-
  holds. If this expansion leads to unsatisfiability, the original formula is unsatisfiable. However, it is also possible that unsatisfiability cannot be proved this way, and that the world where
-
-
-
         ¬
         B
-
-
     {\displaystyle \neg B}
-
  holds should have been considered instead. As a result, one can always prove unsatisfiability by expanding either
-
-
-
         ¬
         ◻
         A
-
-
     {\displaystyle \neg \Box A}
-
  only or
-
-
-
         ¬
         ◻
         B
-
-
     {\displaystyle \neg \Box B}
-
  only; however, if the wrong choice is made the resulting tableau may not be closed. Expanding either subformula leads to tableau calculi that are complete but not proof-confluent. Searching as described in the "Searching for a closed tableau" may therefore be necessary.
 Depending on whether the precondition and consequence of a tableau expansion rule refer to the same world or not, the rule is called static or transactional. While rules for propositional connectives are all static, not all rules for modal connectives are transactional: for example, in every modal logic including axiom T, it holds that
 
-
-
         ◻
         A
-
-
     {\displaystyle \Box A}
-
  implies
-
-
-
         A
-
-
     {\displaystyle A}
-
  in the same world. As a result, the relative (modal) tableau expansion rule is static, as both its precondition and consequence refer to the same world.
 
 Formula-deleting tableau
+
 A method for avoiding formulae referring to different worlds interacting in the wrong way is to make sure that all formulae of a branch refer to the same world. This condition is initially true as all formulae in the set to be checked for consistency are assumed referring to the same world. When expanding a branch, two situations are possible: either the new formulae refer to the same world as the other one in the branch or not. In the first case, the rule is applied normally. In the second case, all formulae of the branch that do not also hold in the new world are deleted from the branch, and possibly added to all other branches that are still relative to the old world.
+
 As an example, in S5 every formula
 
-
-
         ◻
         A
-
-
     {\displaystyle \Box A}
-
  that is true in a world is also true in all accessible worlds (that is, in all accessible worlds both
-
-
-
         A
-
-
     {\displaystyle A}
-
  and
-
-
-
         ◻
         A
-
-
     {\displaystyle \Box A}
-
  are true). Therefore, when applying
-
-
-
-
-
-
               ¬
               ◻
               B
-
-
               ¬
               B
-
-
-
-
-
     {\displaystyle {\frac {\neg \Box B}{\neg B}}}
 
 , whose consequence holds in a different world, one deletes all formulae from the branch, but can keep all formulae
 
-
-
         ◻
         A
-
-
     {\displaystyle \Box A}
 
 , as these hold in the new world as well. In order to retain completeness, the deleted formulae are then added to all other branches that still refer to the old world.
 
 World-labeled tableau
+
 A different mechanism for ensuring the correct interaction between formulae referring to different worlds is to switch from formulae to labeled formulae: instead of writing
 
-
-
         A
-
-
     {\displaystyle A}
 
 , one would write
 
-
-
         w
         :
         A
-
-
     {\displaystyle w:A}
-
  to make it explicit that
-
-
-
         A
-
-
     {\displaystyle A}
-
  holds in world
-
-
-
         w
-
-
     {\displaystyle w}
 
 .
+
 All propositional expansion rules are adapted to this variant by stating that they all refer to formulae with the same world label. For example,
-
-
 
         w
         :
         A
         ∧
         B
-
-
     {\displaystyle w:A\land B}
-
  generates two nodes labeled with
-
-
-
         w
         :
         A
-
-
     {\displaystyle w:A}
-
  and
-
-
-
         w
         :
         B
-
-
     {\displaystyle w:B}
 
 ; a branch is closed only if it contains two opposite literals of the same world, like
 
-
-
         w
         :
         a
-
-
     {\displaystyle w:a}
-
  and
-
-
-
         w
         :
         ¬
         a
-
-
     {\displaystyle w:\neg a}
 
 ; no closure is generated if the two world labels are different, like in
 
-
-
         w
         :
         a
-
-
     {\displaystyle w:a}
-
  and
-
-
-
-
           w
           ′
-
         :
         ¬
         a
-
-
     {\displaystyle w':\neg a}
 
 .
+
 A modal expansion rule may have a consequence that refers to different worlds. For example, the rule for
-
-
 
         ¬
         ◻
         A
-
-
     {\displaystyle \neg \Box A}
-
  would be written as follows
-
-
-
-
-
-
-
               w
               :
               ¬
               ◻
               A
-
-
-
                 w
                 ′
-
               :
               ¬
               A
-
-
-
-
-
     {\displaystyle {\frac {w:\neg \Box A}{w':\neg A}}}
-
 
 The precondition and consequent of this rule refer to worlds
 
-
-
         w
-
-
     {\displaystyle w}
-
  and
-
-
-
-
           w
           ′
-
-
-
     {\displaystyle w'}
 
 , respectively. The various calculi use different methods for keeping track of the accessibility of the worlds used as labels. Some include pseudo-formulae like
 
-
-
         w
         R
-
           w
           ′
-
-
-
     {\displaystyle wRw'}
-
  to denote that
-
-
-
-
           w
           ′
-
-
-
     {\displaystyle w'}
-
  is accessible from
-
-
-
         w
-
-
     {\displaystyle w}
 
 . Some others use sequences of integers as world labels, this notation implicitly representing the accessibility relation (for example,
-
-
 
         (
         1
@@ -4483,14 +2483,8 @@ The precondition and consequent of this rule refer to worlds
         ,
         3
         )
-
-
     {\displaystyle (1,4,2,3)}
-
  is accessible from
-
-
-
         (
         1
         ,
@@ -4498,455 +2492,229 @@ The precondition and consequent of this rule refer to worlds
         ,
         2
         )
-
-
     {\displaystyle (1,4,2)}
 
 .)
 
 Set-labeling tableaux
+
 The problem of interaction between formulae holding in different worlds can be overcome by using set-labeling tableaux. These are trees whose nodes are labeled with sets of formulae; the expansion rules explain how to attach new nodes to a leaf, based only on the label of the leaf (and not on the label of other nodes in the branch).
+
 Tableaux for modal logics are used to verify the satisfiability of a set of modal formulae in a given modal logic. Given a set of formulae
 
-
-
         S
-
-
     {\displaystyle S}
 
 , they check the existence of a model
 
-
-
         M
-
-
     {\displaystyle M}
-
  and a world
-
-
-
         w
-
-
     {\displaystyle w}
-
  such that
-
-
-
         M
         ,
         w
         ⊨
         S
-
-
     {\displaystyle M,w\models S}
 
 .
+
 The expansion rules depend on the particular modal logic used. A tableau system for the basic modal logic K can be obtained by adding to the propositional tableau rules the following one:
-
-
-
 
         (
         K
         )
-
-
-
               ◻
-
                 A
-
                   1
-
-
               ;
               …
               ;
               ◻
-
                 A
-
                   n
-
-
               ;
               ¬
               ◻
               B
-
-
-
                 A
-
                   1
-
-
               ;
               …
               ;
-
                 A
-
                   n
-
-
               ;
               ¬
               B
-
-
-
-
-
     {\displaystyle (K){\frac {\Box A_{1};\ldots ;\Box A_{n};\neg \Box B}{A_{1};\ldots ;A_{n};\neg B}}}
-
 
 Intuitively, the precondition of this rule expresses the truth of all formulae
 
-
-
-
           A
-
             1
-
-
         ,
         …
         ,
-
           A
-
             n
-
-
-
-
     {\displaystyle A_{1},\ldots ,A_{n}}
-
  at all accessible worlds, and truth of
-
-
-
         ¬
         B
-
-
     {\displaystyle \neg B}
-
  at some accessible worlds. The consequence of this rule is a formula that must be true at one of those worlds where
-
-
-
         ¬
         B
-
-
     {\displaystyle \neg B}
-
  is true.
 More technically, modal tableaux methods check the existence of a model
 
-
-
         M
-
-
     {\displaystyle M}
-
  and a world
-
-
-
         w
-
-
     {\displaystyle w}
-
  that make set of formulae true. If
-
-
-
         ◻
-
           A
-
             1
-
-
         ;
         …
         ;
         ◻
-
           A
-
             n
-
-
         ;
         ¬
         ◻
         B
-
-
     {\displaystyle \Box A_{1};\ldots ;\Box A_{n};\neg \Box B}
-
  are true in
-
-
-
         w
-
-
     {\displaystyle w}
 
 , there must be a world
 
-
-
-
           w
           ′
-
-
-
     {\displaystyle w'}
-
  that is accessible from
-
-
-
         w
-
-
     {\displaystyle w}
-
  and that makes
-
-
-
-
           A
-
             1
-
-
         ;
         …
         ;
-
           A
-
             n
-
-
         ;
         ¬
         B
-
-
     {\displaystyle A_{1};\ldots ;A_{n};\neg B}
-
  true. This rule therefore amounts to deriving a set of formulae that must be satisfied in such
-
-
-
-
           w
           ′
-
-
-
     {\displaystyle w'}
 
 .
+
 While the preconditions
 
-
-
         ◻
-
           A
-
             1
-
-
         ;
         …
         ;
         ◻
-
           A
-
             n
-
-
         ;
         ¬
         ◻
         B
-
-
     {\displaystyle \Box A_{1};\ldots ;\Box A_{n};\neg \Box B}
-
  are assumed satisfied by
-
-
-
         M
         ,
         w
-
-
     {\displaystyle M,w}
 
 , the consequences
 
-
-
-
           A
-
             1
-
-
         ;
         …
         ;
-
           A
-
             n
-
-
         ;
         ¬
         B
-
-
     {\displaystyle A_{1};\ldots ;A_{n};\neg B}
-
  are assumed satisfied in
-
-
-
         M
         ,
-
           w
           ′
-
-
-
     {\displaystyle M,w'}
 
 : same model but possibly different worlds. Set-labeled tableaux do not explicitly keep track of the world where each formula is assumed true: two nodes may or may not refer to the same world. However, the formulae labeling any given node are assumed true at the same world.
+
 As a result of the possibly different worlds where formulae are assumed true, a formula in a node is not automatically valid in all its descendants, as every application of the modal rule corresponds to a move from a world to another one. This condition is automatically captured by set-labeling tableaux, as expansion rules are based only on the leaf where they are applied and not on its ancestors.
+
 Notably,
-
-
 
         (
         K
         )
-
-
     {\displaystyle (K)}
-
  does not directly extend to multiple negated boxed formulae such as in
-
-
-
         ◻
-
           A
-
             1
-
-
         ;
         …
         ;
         ◻
-
           A
-
             n
-
-
         ;
         ¬
         ◻
-
           B
-
             1
-
-
         ;
         ¬
         ◻
-
           B
-
             2
-
-
-
-
     {\displaystyle \Box A_{1};\ldots ;\Box A_{n};\neg \Box B_{1};\neg \Box B_{2}}
 
 : while there exists an accessible world where
 
-
-
-
           B
-
             1
-
-
-
-
     {\displaystyle B_{1}}
-
  is false and one in which
-
-
-
-
           B
-
             2
-
-
-
-
     {\displaystyle B_{2}}
-
  is false, these two worlds are not necessarily the same.
 Differently from the propositional rules,
-
-
 
         (
         K
         )
-
-
     {\displaystyle (K)}
-
  states conditions over all its preconditions. For example, it cannot be applied to a node labeled by
-
-
-
         a
         ;
         ◻
@@ -4962,245 +2730,123 @@ Differently from the propositional rules,
         ¬
         ◻
         c
-
-
     {\displaystyle a;\Box b;\Box (b\to c);\neg \Box c}
 
 ; while this set is inconsistent and this could be easily proved by applying
 
-
-
         (
         K
         )
-
-
     {\displaystyle (K)}
 
 , this rule cannot be applied because of formula
 
-
-
         a
-
-
     {\displaystyle a}
 
 , which is not even relevant to inconsistency. Removal of such formulae is made possible by the rule:
 
-
-
-
         (
         θ
         )
-
-
-
-
                 A
-
                   1
-
-
               ;
               …
               ;
-
                 A
-
                   n
-
-
               ;
-
                 B
-
                   1
-
-
               ;
               …
               ;
-
                 B
-
                   m
-
-
-
-
-
                 A
-
                   1
-
-
               ;
               …
               ;
-
                 A
-
                   n
-
-
-
-
-
-
-
     {\displaystyle (\theta ){\frac {A_{1};\ldots ;A_{n};B_{1};\ldots ;B_{m}}{A_{1};\ldots ;A_{n}}}}
 
-
 The addition of this rule (thinning rule) makes the resulting calculus non-confluent: a tableau for an inconsistent set may be impossible to close, even if a closed tableau for the same set exists.
+
 Rule
-
-
 
         (
         θ
         )
-
-
     {\displaystyle (\theta )}
-
  is non-deterministic: the set of formulae to be removed (or to be kept) can be chosen arbitrarily; this creates the problem of choosing a set of formulae to discard that is not so large it makes the resulting set satisfiable and not so small it makes the necessary expansion rules inapplicable. Having a large number of possible choices makes the problem of searching for a closed tableau harder.
 This non-determinism can be avoided by restricting the usage of
 
-
-
         (
         θ
         )
-
-
     {\displaystyle (\theta )}
-
  so that it is only applied before a modal expansion rule, and so that it only removes the formulae that make that other rule inapplicable. This condition can be also formulated by merging the two rules in a single one. The resulting rule produces the same result as the old one, but implicitly discard all formulae that made the old rule inapplicable. This mechanism for removing
-
-
-
         (
         θ
         )
-
-
     {\displaystyle (\theta )}
-
  has been proved to preserve completeness for many modal logics.
 Axiom T expresses reflexivity of the accessibility relation: every world is accessible from itself. The corresponding tableau expansion rule is:
-
-
-
 
         (
         T
         )
-
-
-
-
                 A
-
                   1
-
-
               ;
               …
               ;
-
                 A
-
                   n
-
-
               ;
               ◻
               B
-
-
-
                 A
-
                   1
-
-
               ;
               …
               ;
-
                 A
-
                   n
-
-
               ;
               ◻
               B
               ;
               B
-
-
-
-
-
     {\displaystyle (T){\frac {A_{1};\ldots ;A_{n};\Box B}{A_{1};\ldots ;A_{n};\Box B;B}}}
-
 
 This rule relates conditions over the same world: if
 
-
-
         ◻
         B
-
-
     {\displaystyle \Box B}
-
  is true in a world, by reflexivity
-
-
-
         B
-
-
     {\displaystyle B}
-
  is also true in the same world. This rule is static, not transactional, as both its precondition and consequent refer to the same world.
 This rule copies
 
-
-
         ◻
         B
-
-
     {\displaystyle \Box B}
-
  from the precondition to the consequent, in spite of this formula having been "used" to generate
-
-
-
         B
-
-
     {\displaystyle B}
 
 . This is correct, as the considered world is the same, so
 
-
-
         ◻
         B
-
-
     {\displaystyle \Box B}
-
  also holds there. This "copying" is necessary in some cases. It is for example necessary to prove the inconsistency of
-
-
-
         ◻
         (
         a
@@ -5209,13 +2855,9 @@ This rule copies
         ◻
         a
         )
-
-
     {\displaystyle \Box (a\land \neg \Box a)}
 
 : the only applicable rules are in order
-
-
 
         (
         T
@@ -5232,151 +2874,74 @@ This rule copies
         (
         K
         )
-
-
     {\displaystyle (T),(\land ),(\theta ),(K)}
 
 , from which one is blocked if
 
-
-
         ◻
         a
-
-
     {\displaystyle \Box a}
-
  is not copied.
 
 Auxiliary tableaux
+
 A different method for dealing with formulae holding in alternate worlds is to start a different tableau for each new world that is introduced in the tableau. For example,
-
-
 
         ¬
         ◻
         A
-
-
     {\displaystyle \neg \Box A}
-
  implies that
-
-
-
         A
-
-
     {\displaystyle A}
-
  is false in an accessible world, so one starts a new tableau rooted by
-
-
-
         ¬
         A
-
-
     {\displaystyle \neg A}
 
 . This new tableau is attached to the node of the original tableau where the expansion rule has been applied; a closure of this tableau immediately generates a closure of all branches where that node is, regardless of whether the same node is associated other auxiliary tableaux. The expansion rules for the auxiliary tableaux are the same as for the original one; therefore, an auxiliary tableau can have in turns other (sub-)auxiliary tableaux.
 
 Global assumptions
+
 The above modal tableaux establish the consistency of a set of formulae, and can be used for solving the local logical consequence problem. This is the problem of telling whether, for each model
 
-
-
         M
-
-
     {\displaystyle M}
 
 , if
 
-
-
         A
-
-
     {\displaystyle A}
-
  is true in a world
-
-
-
         w
-
-
     {\displaystyle w}
 
 , then
 
-
-
         B
-
-
     {\displaystyle B}
-
  is also true in the same world. This is the same as checking whether
-
-
-
         B
-
-
     {\displaystyle B}
-
  is true in a world of a model, in the assumption that
-
-
-
         A
-
-
     {\displaystyle A}
-
  is also true in the same world of the same model.
 A related problem is the global consequence problem, where the assumption is that a formula (or set of formulae)
 
-
-
         G
-
-
     {\displaystyle G}
-
  is true in all possible worlds of the model. The problem is that of checking whether, in all models
-
-
-
         M
-
-
     {\displaystyle M}
-
  where
-
-
-
         G
-
-
     {\displaystyle G}
-
  is true in all worlds,
-
-
-
         B
-
-
     {\displaystyle B}
-
  is also true in all worlds.
 Local and global assumption differ on models where the assumed formula is true in some worlds but not in others. As an example,
-
-
 
         {
         P
@@ -5389,226 +2954,95 @@ Local and global assumption differ on models where the assumed formula is true i
         Q
         )
         }
-
-
     {\displaystyle \{P,\neg \Box (P\land Q)\}}
-
  entails
-
-
-
         ¬
         ◻
         Q
-
-
     {\displaystyle \neg \Box Q}
-
  globally but not locally. Local entailment does not hold in a model consisting of two worlds making
-
-
-
         P
-
-
     {\displaystyle P}
-
  and
-
-
-
         ¬
         P
         ,
         Q
-
-
     {\displaystyle \neg P,Q}
-
  true, respectively, and where the second is accessible from the first; in the first world, the assumptions are true but
-
-
-
         ¬
         ◻
         Q
-
-
     {\displaystyle \neg \Box Q}
-
  is false. This counterexample works because
-
-
-
         P
-
-
     {\displaystyle P}
-
  can be assumed true in a world and false in another one. If however the same assumption is considered global,
-
-
-
         ¬
         P
-
-
     {\displaystyle \neg P}
-
  is not allowed in any world of the model.
 These two problems can be combined, so that one can check whether
 
-
-
         B
-
-
     {\displaystyle B}
-
  is a local consequence of
-
-
-
         A
-
-
     {\displaystyle A}
-
  under the global assumption
-
-
-
         G
-
-
     {\displaystyle G}
 
 . Tableaux calculi can deal with global assumption by a rule allowing its addition to every node, regardless of the world it refers to.
 
 Notations
+
 The following conventions are sometimes used.
 
 Uniform notation
+
 When writing tableaux expansion rules, formulae are often denoted using a convention, so that for example α is always considered to be
 
-
-
-
           α
-
             1
-
-
         ∧
-
           α
-
             2
-
-
-
-
     {\displaystyle \alpha _{1}\land \alpha _{2}}
 
 . The following table provides the notation for formulae in propositional, first-order, and modal logic.
 
 Each label in the first column is taken to be either formula in the other columns. An overlined formula such as
 
-
-
-
-
-
               α
-
                 1
-
-
             ¯
-
-
-
-
     {\displaystyle {\overline {\alpha _{1}}}}
-
  indicates that
-
-
-
-
           α
-
             1
-
-
-
-
     {\displaystyle \alpha _{1}}
-
  is the negation of whatever formula appears in its place, so that for example in formula
-
-
-
         ¬
         (
         a
         ∨
         b
         )
-
-
     {\displaystyle \neg (a\lor b)}
-
  the subformula
-
-
-
-
           α
-
             1
-
-
-
-
     {\displaystyle \alpha _{1}}
-
  is the negation of a.
 Since every label indicates many equivalent formulae, this notation allows writing a single rule for all these equivalent formulae. For example, the conjunction expansion rule is formulated as:
-
-
-
 
         (
         α
         )
-
-
             α
-
-
-
-
                     α
-
                       1
-
-
-
-
-
-
-
                     α
-
                       2
-
-
-
-
-
-
-
-
-
     {\displaystyle (\alpha ){\frac {\alpha }{\begin{array}{c}\alpha _{1}\\\alpha _{2}\end{array}}}}

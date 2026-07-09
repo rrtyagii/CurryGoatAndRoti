@@ -1,12 +1,17 @@
 Dicta, The Center for Text Analysis is an Israeli non-profit organization focused on research and education in the field of computational linguistics and its application to the Hebrew language, including the religious literature across generations.
+
 The organization provides tools that utilize artificial intelligence algorithms, machine learning, natural language processing, and language models for the purpose of researching, processing, and analyzing Hebrew texts and creating Hebrew content. These tools are available for free use and open source for the benefit of the public.
 
 Services
+
 Dicta-LM 2.0 Model
+
 In 2024, the organization, together with Maf'at, the Israeli Association for Human Language Technologies, and a team of researchers from Intel, introduced a large language model (LLM) for commercial and research use under the Apache 2.0 license. This model, specifically adapted for Hebrew, can be used for various applications such as chatbots and translation tools.
 
 Nakdan
+
 The "Nakdan" is an advanced system for the automatic Niqqud (adding diacritics) of Hebrew text, developed by Dr. Avi Shmidman, a researcher in the Department of Hebrew Literature at Bar-Ilan University and an advisor at the academy of the Hebrew Language, Elthiel Shmidman, Professor Moshe Koppel, a computer science professor, and Professor Yoav Goldberg, an expert in computer science and linguistics. Unlike other Niqqud software available on the market, Nekdan is designed to "understand human language" rather than merely holding a database of Niqqud words and attempting to match unNiqqud words with appropriate Niqqud ones. Therefore, Nekdan usually chooses the correct Niqqud for a word. The system uses modern neural network models along with extensive linguistic knowledge and manually collected resources to achieve high accuracy in placing diacritics. The system supports modern, rabbinic, and poetic Hebrew and includes features for manual correction, making it useful for creating academic editions of historical texts. The system is freely accessible on the internet for public use.
 
 Advanced Search Engines in Jewish Sources
+
 Dicta provides a variety of advanced search options for searching words and phrases in the Bible, Talmud, and other rabbinic texts. The search includes context-based search, search by similar words, ignoring spelling and inflection differences, optical character recognition, automatic correction of recognition errors based on context, and more.

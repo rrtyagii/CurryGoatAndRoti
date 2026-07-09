@@ -1,33 +1,48 @@
 Artificial intelligence in education (often abbreviated as AIEd) is a subfield of educational technology that studies how to use artificial intelligence, such as generative AI chatbots, to create learning environments.
+
 Considerations in the field include data-driven decision-making, AI ethics, data privacy and AI literacy. Concerns include the potential for cheating, over-reliance, equity of access, reduced critical thinking, and the perpetuation of misinformation and bias.
 
 History
+
 Efforts to integrate AI into educational contexts have often followed technological advancement in the history of artificial intelligence.
+
 In the 1960s, educators and researchers began developing computer-based instruction systems, such as PLATO, developed by the University of Illinois.
+
 In the 1970s and 1980s, intelligent tutoring systems (ITS) were being adapted for classroom instruction.
+
 The International Artificial Intelligence in Education Society was founded in 1993.
+
 In the late 2010s and 2020s, large language models (LLMs) and other generative AI technologies have become focuses of AIEd conversations. During this time, AI content detectors have been developed and employed to detect and/or punish unsanctioned AI use in educational contexts, although their accuracy is limited. Some schools banned LLMs, but many bans were later lifted.
 
 Theory
+
 AIEd applies theory from education studies, machine learning, and related fields.
 
 Three paradigms of AIEd
+
 One posited model suggests the following three paradigms for AI in education, which follow roughly from least to most learner-centered and from requiring least to most technical complexity from the AI systems:
+
 AI-Directed, Learner-as-recipient: AIEd systems present a pre-set curriculum based on statistical patterns that do not adjust to learner’s feedback.
+
 AI-Supported, Learner-as-collaborator: Systems that incorporate responsiveness to learner’s feedback through, for example, natural language processing, wherein AI can support knowledge construction.
+
 AI-Empowered, Learner-as-leader: This model seeks to position AI as a supplement to human intelligence wherein learners take agency and AI provides consistent and actionable feedback.
 
 Socio-technical imaginaries
+
 Some scholars frame AI in education within the concept of the socio-technical imaginary, defined as collective visions and aspirations that shape societal transformations and governance through the interplay of technology and social norms. This framing positions AI in the history of “emerging technologies” that have and will transform education, such as computing, the internet, or social media.
 
 Applications
 AI-based tutoring systems
+
 AI-based tutoring systems, or intelligent tutoring systems (ITS), in the 1970s with systems such as SCHOLAR. These systems are designed to offer an interaction between a student and a simulated teacher.
 
 Adaptive learning platforms
+
 Adaptive learning is a methodology that uses computer algorithms and machine learning to organize customized educational resources and activities. These systems, often called Adaptive Learning Platforms (ALPs), attempt to analyze a student's performance, behavior, and prior knowledge. ALPs function by creating and maintaining a student model, which tracks individual progress, knowledge gaps, and preferred learning styles. They use predictive analytics to forecast potential areas of struggle and automatically intervene by adjusting the difficulty, pace, or format of the educational content. For example, if a student quickly masters a concept, the system accelerates the pace or introduces more complex topics. Conversely, if a student struggles, the platform provides feedback or offers supplementary materials like videos or interactive simulations. ALPs has shown positive results in improving academic outcomes and test scores, student engagement, and motivation.
 
 Generative AI
+
 Uses of generative AI chatbots in education have included assessment and feedback, machine translations, proof-reading and copy editing, or as virtual assistants.
 
 Emotional AI
@@ -35,29 +50,39 @@ Emotional AI in education is the study and development of systems that can detec
 
 Perspectives
 Commercial perspectives
+
 The AI in education community has grown rapidly in the global north, driven by venture capital, big tech, and open educationalists. In the 2020s, companies who create AI services are targeting students and educational institutions as consumers and enterprise partners. Similarly, pre-AI boom educational companies are expanding their AI integration or AI-powered services.  These commercial incentives for AIEd innovation may be related to a potential AI bubble. In the U.S., bipartisan support of AI development in K-12 education has been expressed, but specific implementations and best practices remain contentious.
 
 Institutional perspectives
+
 Starting in the 2020s, higher-education institutions have begun to develop guidelines and policies to account for AI. Governmental and non-governmental organizations such as UNESCO, Article 4 of the European Union's AI Act, and the U.S. Department of Education have published reports advocating for specific AIEd approaches. In 2024, UNESCO released updated global guidance for generative AI in education, emphasizing ethical use, teacher training, and data protection to ensure responsible integration of AI tools in learning environments.
 
 Educator perspectives
+
 Research and reporting from 2024 onward suggest that the number of higher education instructors using LLMs for grading, research, and/or curricular design has increased. However, studies indicate that many pre-service teachers remain hesitant about widespread AI adoption due to concerns about reliability, bias, and insufficient preparation. These findings highlight the need for stronger AI literacy training in teacher preparation programs.
 
 Student perspectives
+
 Reporting has indicated that students' use of AI in higher education has been increasing since 2022 and is relatively commonplace. The evidence suggests students believe their college education has been changed rather than "ruined" by AI and that they want instructors and themselves to have ongoing AI guidance.
+
 In September 2025, The Atlantic published an op-ed from a high school senior arguing that the normalization of AI cheating was eroding critical thinking, academic integrity, creativity, and the shared student experience.
 
 Challenges and ethical concerns
+
 The advancement and adoption of AI in education comes with criticisms and ethical challenges.
 
 Over-reliance, inaccuracy, and academic integrity
+
 Some critics believe that reliance on the technology could lead students to develop less creativity, critical thinking, and/or problem-solving abilities. Reliance on generative AI has been linked with reduced academic self-esteem and performance, and heightened learned helplessness. Algorithm errors and hallucinations are common flaws in AI agents, making them less trustworthy and reliable. These limitations underscore concerns regarding academic integrity, skill development, and information accuracy regarding AI use in academic settings. A major gap in current AI-in-education research is the limited focus on educators’ needs and perspectives. A review of over a decade of studies found that most research prioritizes technological design over pedagogical integration, underscoring the need for deeper collaboration between computer scientists and educators.
 
 Accessibility
+
 While AIEd technologies may be able to improve an individual user's access to education by serving as an assistive technology, the proliferation or need for AI in education continues to raise concerns about equal access to technology. For example, lower-income or rural areas may have more limited access to the computing hardware or paid software subscriptions needed for AIEd platform use. This might widen the digital divide or create further gaps in terms of access to education. Some AIEd practitioners believe that global efforts should be made towards increasing accessibility and training educators to serve underprivileged areas.
 
 Bias
+
 AI agents might be trained on biased data sets, and thus continue to perpetuate societal biases. Since LLMs were created to produce human-like text, algorithmic bias can easily and unintentionally be introduced and reproduced. Some critics also argue that AI's data processing and monitoring reinforce neoliberal approaches to education rather than addressing inequalities.
 
 Data privacy and intellectual property
+
 Data privacy and intellectual property are further ethical concerns of AIEd. Contemporary LLMs are trained on datasets that are often proprietary and may contain copyrighted or theoretically private materials (e.g. personal emails). Further, many LLMs are regularly trained with data from end users.

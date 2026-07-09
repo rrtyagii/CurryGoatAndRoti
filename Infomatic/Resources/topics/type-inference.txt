@@ -1,52 +1,80 @@
 Type inference, sometimes called type reconstruction, refers to the automatic detection of the type of an expression in a formal language. These include programming languages and mathematical type systems, but also natural languages in some branches of computer science and linguistics.
+
 Typeability is sometimes used quasi-synonymously with type inference, however some authors make a distinction between typeability as a decision problem (that has yes/no answer) and type inference as the computation of an actual type for a term.
 
 Nontechnical explanation
+
 In a typed language, a term's type determines the ways it can and cannot be used in that language. For example, consider the English language and terms that could fill in the blank in the phrase "sing _." The term "a song" is of singable type, so it could be placed in the blank to form a meaningful phrase: "sing a song." On the other hand, the term "a friend" does not have the singable type, so "sing a friend" is nonsense. At best it might be metaphor; bending type rules is a feature of poetic language.
+
 A term's type can also affect the interpretation of operations involving that term. For instance, "a song" is of composable type, so we interpret it as the thing created in the phrase "write a song". On the other hand, "a friend" is of recipient type, so we interpret it as the addressee in the phrase "write a friend". In normal language, we would be surprised if "write a song" meant addressing a letter to a song or "write a friend" meant drafting a friend on paper.
+
 Terms with different types can even refer to materially the same thing. For example, we would interpret "to hang up the clothes line" as putting it into use, but "to hang up the leash" as putting it away, even though, in context, both "clothes line" and "leash" might refer the same rope, just at different times.
+
 Typings are often used to prevent an object from being considered too generally. For instance, if the type system treats all numbers as the same, then a programmer who accidentally writes code where 4 is supposed to mean "4 seconds" but is interpreted as "4 meters" would have no warning of their mistake until it caused problems at runtime. By incorporating units into the type system, these mistakes can be detected much earlier. As another example, Russell's paradox arises when anything can be a set element and any predicate can define a set, but more careful typing gives several ways to resolve the paradox. In fact, Russell's paradox sparked early versions of type theory.
+
 There are several ways that a term can get its type:
 
 The type might be provided from somewhere outside the passage. For instance, if a speaker refers to "a song" in English, they generally do not have to tell the listener that "a song" is singable and composable; that information is part of their shared background knowledge.
+
 The type can be declared explicitly. For example, a programmer might write a statement like delay: seconds := 4 in their code, where the colon is the conventional mathematical symbol to mark a term with its type. That is, this statement is not only setting delay to the value 4, but the delay: seconds part also indicates that delay's type is an amount of time in seconds.
+
 The type can be inferred from context. For example, in the phrase "I bought it for a song", we can observe that trying to give the term "a song" types like "singable" and "composable" would lead to nonsense, whereas the type "amount of currency" works out. Therefore, without having to be told, we conclude that "song" here must mean "little to nothing", as in the English idiom "for a song", not "a piece of music, usually with lyrics".
+
 Especially in programming languages, there may not be much shared background knowledge available to the computer. In manifestly typed languages, this means that most types have to be declared explicitly. Type inference aims to alleviate this burden, freeing the author from declaring types that the computer should be able to deduce from context.
 
 Type-checking vs. type-inference
+
 In a typing, an expression E is opposed to a type T, formally written as E : T. Usually a typing only makes sense within some context, which is omitted here.
+
 In this setting, the following questions are of particular interest:
 
 E : T? In this case, both an expression E and a type T are given. Now, is E really a T? This scenario is known as type-checking.
+
 E : _? Here, only the expression is known. If there is a way to derive a type for E, then we have accomplished type inference.
 _ : T? The other way round. Given only a type, is there any expression for it or does the type have no values? Is there any example of a T? This is known as type inhabitation.
+
 For the simply typed lambda calculus, all three questions are decidable. The situation is not as comfortable when more expressive types are allowed.
 
 Types in programming languages
+
 Types are a feature present in some strongly statically typed languages. It is often characteristic of functional programming languages in general. Some languages that include type inference include C (since C23), C++ (since C++11), C# (starting with version 3.0), Chapel, Clean, Crystal, D, Dart, F#, FreeBASIC, Go, Haskell, Java (starting with version 10), Julia, Kotlin, ML, Nim, OCaml, Opa, Q#, RPython, Rust, Scala, Swift, TypeScript, Vala, Zig, and Visual Basic (starting with version 9.0).
+
 The majority of them use a simple form of type inference; the Hindley–Milner type system can provide more complete type inference. The ability to infer types automatically makes many programming tasks easier, leaving the programmer free to omit type annotations while still permitting type checking.
+
 In some programming languages, all values have a data type explicitly declared at compile time, limiting the values a particular expression can take on at run-time. Increasingly, just-in-time compilation blurs the distinction between run time and compile time. However, historically, if the type of a value is known only at run-time, these languages are dynamically typed. In other languages, the type of an expression is known only at compile time; these languages are statically typed. In most statically typed languages, the input and output types of functions and local variables ordinarily must be explicitly provided by type annotations. For example, in ANSI C:
 
 The signature of this function definition, int add_one(int x), declares that add_one is a function that takes one argument, an integer, and returns an integer. int result; declares that the local variable result is an integer. In a hypothetical language supporting type inference, the code might be written like this instead:
 
 This is identical to how code is written in the language Dart, except that it is subject to some added constraints as described below. It would be possible to infer the types of all the variables at compile time. In the example above, the compiler would infer that result and x have type integer since the constant 1 is type integer, and hence that add_one is a function int -> int. The variable result2 isn't used in a legal manner, so it wouldn't have a type.
+
 In the imaginary language in which the last example is written, the compiler would assume that, in the absence of information to the contrary, + takes two integers and returns one integer. (This is how it works in, for example, OCaml.) From this, the type inferencer can infer that the type of x + 1 is an integer, which means result is an integer and thus the return value of add_one is an integer. Similarly, since + requires both of its arguments be of the same type, x must be an integer, and thus, add_one accepts one integer as an argument.
+
 However, in the subsequent line, result2 is calculated by adding a decimal 1.0 with floating-point arithmetic, causing a conflict in the use of x for both integer and floating-point expressions. The correct type-inference algorithm for such a situation has been known since 1958 and has been known to be correct since 1982. It revisits the prior inferences and uses the most general type from the outset: in this case floating-point. This can however have detrimental implications, for instance using a floating-point from the outset can introduce precision issues that would have not been there with an integer type.
+
 Frequently, however, degenerate type-inference algorithms are used that cannot backtrack and instead generate an error message in such a situation. This behavior may be preferable as type inference may not always be neutral algorithmically, as illustrated by the prior floating-point precision issue.
+
 An algorithm of intermediate generality implicitly declares result2 as a floating-point variable, and the addition implicitly converts x to a floating point. This can be correct if the calling contexts never supply a floating point argument. Such a situation shows the difference between type inference, which does not involve type conversion, and implicit type conversion, which forces data to a different data type, often without restrictions.
+
 Finally, a significant downside of complex type-inference algorithm is that the resulting type inference resolution is not going to be obvious to humans (notably because of the backtracking), which can be detrimental as code is primarily intended to be comprehensible to humans.
+
 The recent emergence of just-in-time compilation allows for hybrid approaches where the type of arguments supplied by the various calling context is known at compile time, and can generate a large number of compiled versions of the same function. Each compiled version can then be optimized for a different set of types. For instance, JIT compilation allows there to be at least two compiled versions of add_one:
 
 A version that accepts an integer input and uses implicit type conversion.
+
 A version that accepts a floating-point number as input and uses floating point instructions throughout.
 
 Technical description
+
 Type inference is the ability to automatically deduce, either partially or fully, the type of an expression at compile time. The compiler is often able to infer the type of a variable or the type signature of a function, without explicit type annotations having been given. In many cases, it is possible to omit type annotations from a program completely if the type inference system is robust enough, or the program or language is simple enough.
+
 To obtain the information required to infer the type of an expression, the compiler either gathers this information as an aggregate and subsequent reduction of the type annotations given for its subexpressions, or through an implicit understanding of the type of various atomic values (e.g. true : Bool; 42 : Integer; 3.14159 : Real; etc.). It is through recognition of the eventual reduction of expressions to implicitly typed atomic values that the compiler for a type inferring language is able to compile a program completely without type annotations.
+
 In complex forms of higher-order programming and polymorphism, it is not always possible for the compiler to infer as much, and type annotations are occasionally necessary for disambiguation. For instance, type inference with polymorphic recursion is known to be undecidable. Furthermore, explicit type annotations can be used to optimize code by forcing the compiler to use a more specific (faster/smaller) type than it had inferred.
+
 Some methods for type inference are based on constraint satisfaction or satisfiability modulo theories.
 
 High-Level Example
+
 As an example, the Haskell function map applies a function to each element of a list, and may be defined as:
 
 (Recall that : in Haskell denotes cons, structuring a head element and a list tail into a bigger list or destructuring a nonempty list into its head element and its tail. It does not denote "of type" as in mathematics and elsewhere in this article; in Haskell that "of type" operator is written :: instead.)
@@ -56,9 +84,11 @@ Putting the parts together leads to map :: (d -> e) -> [d] -> [e]. Nothing is sp
 It turns out that this is also the most general type, since no further constraints apply. As the inferred type of map is parametrically polymorphic, the type of the arguments and results of f are not inferred, but left as type variables, and so map can be applied to functions and lists of various types, as long as the actual types match in each invocation.
 
 Detailed Example
+
 The algorithms used by programs like compilers are equivalent to the informally structured reasoning above, but a bit more verbose and methodical. The exact details depend on the inference algorithm chosen (see the following section for the best-known algorithm), but the example below gives the general idea. We again begin with the definition of map:
 
 (Again, remember that the : here is the Haskell list constructor, not the "of type" operator, which Haskell instead spells ::.)
+
 First, we make fresh type variables for each individual term:
 
 α shall denote the type of map that we want to infer.
@@ -103,31 +133,37 @@ Substituting ζ for η, [ζ] for θ and λ, ι for ν, and [ι] for ξ and ο, a
 α ~ β -> [γ] -> [δ]
 α ~ ε -> [ζ] -> [ι]
 ε ~ ζ -> ι
-
 Substituting ζ -> ι for ε and β -> [γ] -> [δ] for α, keeping the second constraint around so that we can recover α at the end:
-
 α ~ (ζ -> ι) -> [ζ] -> [ι]
 β -> [γ] -> [δ] ~ (ζ -> ι) -> [ζ] -> [ι]
 
 And, finally, substituting (ζ -> ι) for β as well as ζ for γ and ι for δ because a type constructor like [·] is invertible eliminates all the variables specific to the second constraint:
 
 α ~ (ζ -> ι) -> [ζ] -> [ι]
-
 No more substitutions are possible, and relabeling gives us map :: (a -> b) -> [a] -> [b], the same as we found without going into these details.
 
 Hindley–Milner type inference algorithm
+
 The algorithm first used to perform type inference is now informally termed the Hindley–Milner algorithm, although the algorithm should properly be attributed to Damas and Milner.
+
 It is also traditionally called type reconstruction. If a term is well-typed in accordance with Hindley–Milner typing rules, then the rules generate a principal typing for the term. The process of discovering this principal typing is the process of "reconstruction".
+
 The origin of this algorithm is the type inference algorithm for the simply typed lambda calculus that was devised by Haskell Curry and Robert Feys in 1958.
+
 In 1969 J. Roger Hindley extended this work and proved that their algorithm always inferred the most general type.
+
 In 1978 Robin Milner, independently of Hindley's work, provided an equivalent algorithm, Algorithm W.
+
 In 1982 Luis Damas finally proved that Milner's algorithm is complete and extended it to support systems with polymorphic references.
 
 Side-effects of using the most general type
+
 By design, type inference will infer the most general type appropriate. However, many languages, especially older programming languages, have slightly unsound type systems, where using a more general types may not always be algorithmically neutral. Typical cases include:
 
 Floating-point types being considered as generalizations of integer types. Actually, floating-point arithmetic has different precision and wrapping issues than integers do.
+
 Variant/dynamic types being considered as generalizations of other types in cases where this affects the selection of operator overloads. For example, the + operator may add integers but may concatenate variants as strings, even if those variants hold integers.
 
 Type inference for natural languages
+
 Type inference algorithms have been used to analyze natural languages as well as programming languages. Type inference algorithms are also used in some grammar induction and constraint-based grammar systems for natural languages.

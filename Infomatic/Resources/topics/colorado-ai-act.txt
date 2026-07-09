@@ -1,44 +1,69 @@
 Consumer Protections for Artificial Intelligence, also known as the Colorado AI Act (CAIA), is a Colorado state law that regulates the development and deployment of high-risk artificial intelligence (AI) systems. The CAIA places obligations on deployers and developers of high-risk AI systems to protect Colorado residents from algorithmic discrimination in the context of employment, education, financial services, government services, healthcare, housing, insurance, or legal services. The CAIA drew national attention for being the first comprehensive, state-level framework in the United States that legislates high-risk AI systems.
 
 Provisions
+
 The CAIA covers high-risk AI systems that play a substantial role in making a "consequential decision" that impacts Colorado residents. Consequential decisions are defined as those with significant impacts related to education, employment, financial services, government services, healthcare, housing, insurance, or legal services. The bill takes effect on June 30, 2026.
+
 The CAIA places obligations on developers and deployers who conduct business in Colorado to avoid algorithmic discrimination against Colorado residents. Developers are entities who "develop or intentionally and substantially" modify high-risk AI systems. Deployers are organizations who use high-risk AI systems. Algorithmic discrimination is defined as "any condition in which the use of an artificial intelligence system results in an unlawful differential treatment or impact that disfavors an individual or group of individuals on the basis of" protected characteristics.
 
 Developer duty
+
 Under CAIA, developers must produce documentation for the deployers or other developers that outlines the purpose, purported benefits, limitations, and foreseeable risks of their high-risk systems, as well as the data used to train them. They also must document how they evaluated their systems, how these should or shouldn’t be used, measures taken to mitigate harms, and other materials to assist deployers in upholding their legal obligations. Developers must disclose the types of high-risk systems they provide and how they manage discrimination risks on their websites or in other public repositories.
+
 Finally, if developers learn that their high-risk AI systems may have caused algorithmic discrimination, they must alert the Colorado Attorney General and all known deployers within 90 days.
 
 Deployer duty
+
 Deployers covered by the CAIA must create risk management policies that include details on the internal processes employed to mitigate the harm of high-risk AI systems, which should be updated and reviewed regularly. Policies should be reasonable considering existing frameworks, such as the AI Risk Management Framework by the National Institute of Standards and Technology (NIST) or ISO/IEC 42001. These policies can vary depending on deployers' operations and their use of high-risk AI systems.
+
 Developers or third parties must complete regular impact assessments. These should include, among other criteria, the purpose, use case, and benefit of high-risk AI systems, the known risks and steps to mitigate harms, metrics used to evaluate them, and a description of safeguards.
+
 Deployers must disclose to consumers if a high-risk AI system is a substantial factor in making a consequential decision. The notification should provide a plain language description of the system and the nature of the decision, contact information of the deployer, and the right to opt out. If consequential decisions are adverse, deployers must provide consumers with a description of the reasons for the decision, the degree to which AI contributed to it, and the type and source of data used. Where applicable, consumers have the right to correct personal data used by the system and appeal the decisions made.
+
 Deployers must notify the Colorado Attorney General within 90 days if they learn that their high-risk AI systems caused algorithmic discrimination.
 
 Enforcement
+
 Enforcement of the CAIA rests with the Colorado Attorney General. Under Colorado's consumer protection legislation, a violation of the CAIA can incur a maximum $20,000 fine per violation.
 
 Exemptions
+
 The CAIA doesn’t include systems that perform "narrow procedural tasks" or those that supplement, but don’t replace, human decision-making. The bill states that certain technologies, unless substantially involved in making a consequential decision, are exempt, including anti-fraud, cybersecurity, spam filters, and other kinds of software.
+
 The CAIA's transparency requirements do not require deployers or developers to share trade secrets, information protected by other federal or state legislation, or information that would present security risks for developers.
+
 Deployers are exempt from creating risk management policies, impact assessments, and certain transparency disclosures if they don’t train their high-risk systems with their own data, have fewer than 50 full-time staff members, use the system for the intended uses as per developer documentation, and publish impact assessments from developers.
 
 History
+
 On April 10, 2024, Colorado State Senator Robert Rodriguez introduced Consumer Protections for Artificial Intelligence (Senate Bill 205), which passed the Senate Judiciary Committee 3-2 along party lines. Rodriguez described the bill as a "framework for accountability, for biases and discrimination and just making sure that people know when they’re interacting with" high-risk AI systems.
+
 Although it was initially unclear whether Governor Jared Polis would sign the bill, he did so on May 17, 2024 with the expectation that it would be further revised before going into effect on February 1, 2026. In an accompanying letter, he expressed his concern "about the impact this law may have on an industry that is fueling critical technological advancements across our state for consumers and enterprises alike."
+
 After facing pressure from the business and technology community, Governor Polis, Senator Rodriguez, and Attorney General Phil Weiser committed to revising the CAIA to address the concerns of the business community, including by lessening the disclosure obligations on smaller companies.
+
 On April 28, 2025, shortly before the end of the year’s legislative session, Senator Rodriguez and Representative Brianna Titone introduced Senate Bill 318. The bill would have delayed implementation of the CAIA and expanded exemptions for companies based on their size and revenue, as well as narrow the scope of the CAIA. The bill did not advance, as consumer rights advocates, industry groups, and policymakers proved unable to reach consensus. Shortly after, Governor Polis and other lawmakers called on the Colorado General Assembly to use the final hours of the legislative session to delay the implementation of the CAIA.
+
 When Senate Bill 318 was abandoned, several Democrats sought to postpone the implementation date of the CAIA by introducing an amendment through Senate Bill 322. However, Representative Titone filibustered the attempt.
+
 In early August 2025, Governor Polis called for a special legislative session to address the budget shortfall caused by the One Big Beautiful Bill and consider revisions to the CAIA. Senate Bill 4, called the Colorado Artificial Intelligence Sunshine Act, was introduced by Senator Rodriguez, Representative Titone, and Representative Jennifer Bacon. It passed with a 4-3 vote out of the Senate Business, Labor and Technology Committee. Under Senate Bill 4, Colorado residents who receive adverse decisions from employers, insurers, and other covered industries could request a list of up to 20 personal characteristics that most influenced the decision. It also proposed creating joint and several liability for developers and deployers, alongside safe harbor provisions. While it was supported by consumer and labor rights organizations, business associations argued that the proposed liability regime would pose heavy burdens for companies.
+
 House Bill 1008, introduced by Representative William Lindstedt, Representative Michael Carter, State Senator Judy Amabile, and State Senator Lisa Frizell, proposed reducing compliance requirements and clarifying that the state Attorney General, rather than consumers, can sue for rights violations. This was supported primarily by tech and business industry groups, while opponents criticized House Bill 1008 for limiting the public’s ability to pursue legal action. The bill ultimately cleared the House Business Affairs and Labor Committee on an 8-5 vote with bipartisan support.
+
 Both bills underwent revisions during the special session; however, amid unresolved debates between stakeholders, lawmakers ultimately abandoned efforts to negotiate substantive compromises. In its final form, Senate Bill 4 delayed enforcement of the Act from February 1, 2026 to June 30, 2026. The bill was signed into law on August 28, 2025. Legislators may make further adjustments to the Act.
+
 In December 2024, the Trump administration issued the executive order "Ensuring a National Policy Framework for Artificial Intelligence," which sought to establish a national approach to AI governance and preempt state-level AI regulations. The order specifically criticized the Colorado AI Act, stating that its requirements could be onerous and "may even force AI models to produce false results in order to avoid a 'differential treatment or impact' on protected groups."
 
 Reception
+
 Colorado received national media and legal attention for being the first state to pass a comprehensive law specific to AI. Especially given the difficulty of passing AI legislation in Congress, the CAIA serves as a model for other states. Colorado’s approach also stands out because other states have pursued narrower, sector-specific regulations.
+
 The legislative process also drew notice for the scale of involvement by industry representatives, consumer advocacy groups, and other stakeholders. According to Axios, "more than 100 companies and organizations hired roughly 150 lobbyists to shape" the bill. Other states, including Connecticut, have introduced AI legislation but have faced difficulties advancing proposals in the face of industry lobbying.
 
 Business and technology community
+
 The business and technology community was generally critical of the CAIA, contending that the provisions would curtail innovation, cause companies to leave the state, create a fragmented national legislative landscape, and place disproportionate financial strain on small businesses and startups. The Chamber of Progress, for instance, argued that "pinpointing the sorts of catalysts of discriminatory outcomes of AI systems is not always possible, nor is consistently determining who or what is responsible for the act of discrimination." The organization instead urged policymakers to strengthen existing civil rights legislation. The Colorado Technology Association, which represents over 300 companies based in the state, criticized the bill for being "vague and very broad" and for creating legal uncertainty. Whereas local technology and business associations were most opposed to the legislation, Google, IBM, and Microsoft were generally supportive, but provided suggestions for narrowing certain provisions. With the enforcement date postponed, these stakeholders hope to further revise the bill.
 
 Civil society
+
 Civil society organizations, including the Center for Democracy and Technology (CDT), Consumer Reports, the Electronic Privacy Information Center (EPIC), the American Federation of Labor and Congress of Industrial Organizations (AFL-CIO), and others, were broadly supportive of the CAIA for establishing foundational protections and providing some degree of transparency to consumers. According to CDT, the law represents an "important basic step for AI accountability." On the other hand, these groups contend that the bill could be strengthened by closing exemption loopholes, more precisely defining "narrow procedural tasks," requiring independent auditing, and having stronger enforcement mechanisms and transparency provisions. Several organizations also noted that the industry interest groups mischaracterized the CAIA’s provisions and disproportionately influenced legislative discussions.

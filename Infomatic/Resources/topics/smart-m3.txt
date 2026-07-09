@@ -1,35 +1,55 @@
 Smart-M3 is a name of an open-source software project that aims to provide a Semantic Web information sharing infrastructure between software entities and devices. It combines the ideas of distributed, networked systems and semantic web. The ultimate goal is to enable smart environments and linking of real and virtual worlds.
+
 The key idea in Smart-M3 is that devices and software entities can publish their embedded information for other devices and software entities through simple, shared information brokers - a push-based information sharing model rather than specific publish-subscribe. The understandability of information is based on common ontology models common data formats. Another key idea is that Smart-M3 is device, domain, and vendor independent. It is free to use, open-source solution available in BSD license. So, Smart-M3 refers to a piece of software technology, several software products encoding this software technology, a computing platform that the software products make available, and any computing system that has been developed and deployed by using this computing platform.
+
 The Smart-M3 software technology is an evolving development of the Semantic Web with some specialized properties. The Smart-M3 software products are open-source software. They are available at SourceForge. The Smart-M3 software products enable implementation of a Smart-M3 computing platform. The Smart-M3 computing platform allows to store and retrieve information based on tuple space mechanisms. Like in Linda (coordination language), a small defined set of semantically based interaction capabilities exists. A programmer can develop pieces of software that will make use of these interaction capabilities. A number of Smart-M3 software products are available that support such software development. Any such software must comply to the defined interface of the Smart-M3 computing platform, the defined communication protocol and the general design principles. A Smart-M3 system is existing when such pieces of software have been built and deployed together with the Smart-M3 computing platform.
+
 The Smart-M3 is being developed at Nokia Research Center within Artemis JU programme in Sofia (smart objects for intelligent applications) and in Finnish national DIEM (Device interoperability ecosystem) research projects.
 
 Technology
+
 Smart-M3 takes aim of the multi-vendor, multi-device and multi-part issue (that's where the term M3 comes from). This M3 issue means that many kinds of devices shall interact with each other, for instance a mobile phone, a television set and a laptop. A device may be composed of parts that are considered as individual partners for interaction with another device. For instance, a user makes use of the keyboard of a desktop computer for typing input to a mobile phone. Further, the user shall be free in choosing the manufacturer.
+
 Any piece of software engaging this M3 issue must at least be able to work properly in an environment constrained by these issues. Moreover, the Smart-M3 technology allows to build pieces of software that are able to take advantage of the opportunities such an environment offers.
+
 When humans make use of the Web, they produce and consume human readable information and exchange this information based on the paradigm of 'persistently publish and actually read'. A piece of software executing in a device used by humans may transform, render, analyze and index that human readable information, but this software will not understand the information. Also the technology of the Smart-M3 approach does not make such human-human communication machine-understandable. Instead, Smart-M3 follows the principle of the Semantic Web that machine-understandable information has to be prepared explicitly for software reasoning. However, instead of specifying explicitly the means of interaction between a piece of software producing data and sending it across the internet to a piece of software consuming that data, Smart-M3 follows exactly the human-human interaction paradigm of 'persistently publish and actually read' also when software interacts with software across the internet.
+
 While the notion of the Semantic Web embodies the vision of a single, universal web of machine-understandable information, Smart-M3 organizes the machine-machine communication by setting up in the Web many distinct spots of information exchange. At each spot a number of pieces of software executing in potentially many devices of potentially many kinds may publish and read information. This information has been prepared not only explicitly in machine readable form but also explicitly for each particular spot. Any particular spot of information exchange has a particular purpose or focus.  All information that a particular spot of information exchange makes available will be dedicated to the particular purpose or focus of that spot. The number of pieces of software exchanging information at a particular spot is consequently limited to those that share this dedication.
+
 At the core of the M3 issue is the issue of interoperability. The Smart-M3 approach deviates direct point-to-point interoperability because it applies the 'publish and read' mechanism at dedicated spots of information exchange in the Web. The publishing entity does not need to be interoperable with the reading entity. In fact the two even do not need to know about each other. Instead, Smart-M3 simply takes means that the publisher is able to publish at the selected spot of information exchange and the reader is able to read there.
 
 System decomposition
+
 Figure 1 shows a top view of a single system based on the software technology of the Smart-M3 approach. At the heart of the system is the corpus-M3 which decomposes further into a semantic information broker (SIB) and the real physical storage of data. Of course, this corpus-M3 must be hosted by a device. A number of devices hosts many M3-agents, including optionally the device already hosting the corpus-M3.
 
 The SIB is the access point for receiving information to be stored or retrieving such stored information. In the data storage all this information is stored as a graph that conforms to the rules of the Resource Description Framework (RDF).
+
 A M3-agent is a piece of software that has been produced and deployed for the purpose of communicating with a SIB and publishing or reading information there. A particular M3-agent is in range of a particular SIB if this M3-agent physically is able to communicate with this SIB by using one of the potentially many communication means this SIB is capable of and this M3-agent has been produced and deployed explicitly for publishing or reading information at this SIB. A particular M3-agent is associated with a particular SIB if this M3-agent is in range of this particular SIB and this M3-agent has been accepted by this SIB for publishing or reading information due to a positive result of some negotiation performed when this M3-agent made the initial communication attempt.
+
 Various domains and application areas involve devices of many kinds and these devices may have different communication capabilities. To achieve interoperability in such an heterogeneous situation, the SIB supports multiple transport mechanisms, such as TCP/IP, HTTP, Bluetooth and NoTA. Depending on the actual operating environment the most suitable transport technology is selected.
 
 Notion of application
+
 Applications are not constructed in the monolithic manner but rather from collaborating - through information sharing - sets of agents (M3-agents). Said set of agents depends upon the particular situation and context that the user is either experiencing or requires at that time. Agents may by provide a monolithic style user-interface but this is purely a user-interface and not functionality concept. The programming model is analogous to that of the actor model.
+
 The Smart-M3 approach envisions computing beyond the traditional monolithic application program. Instead, scenarios are considered in which a set of M3-agents executing in various devices mash-up the information that these M3-agents store and retrieve in/from a particular SIB. This collaboration of M3-agents forms the application. Which collaboration and mash-up of information occurs depends on the data available and is not even known a priori.
+
 Based on the data available within a space, a Smart-M3 system allows maintenance of an up-to-date digital representation of an environment covered by a set of devices executing M3-agents. If any information about the surrounding environment is easily available, an unlimited number of mash-up scenarios can be imagined that benefit from this information.
 
 Development of technology and software products
+
 The anonymous agent coordination technology for knowledge processors in smart spaces has been proposed and documented.
+
 Three examples of the application of this technology have been demonstrated in so called smart home environments, in the environment of smart room” and in social networking situations.
 
 Smart-M3 in Academia
 
 The technology is among key focus areas of Finnish-Russian University Cooperation in Telecommunication (FRUCT).
+
 There is an intensive R&D work in mobile software and services laboratory (MSSLab) in Saint Petersburg State University of Aerospace Instrumentation (Saint Petersburg, Russia) regarding the technology and concept in common. Main research topics are information search and access control in distributed smart spaces. PhD thesis work and several master's degree works are in progress. Development activities include CoffeeBreak Assistant application, which intended to provide information support, communication and expert-finding services during conferences and other events.
+
 The project SmartSlog in the wireless and mobile technology laboratory of Petrozavodsk State University (Petrozavodsk, Russia) develops an ANSI C ontology library generator. It maps a Web Ontology Language (OWL) description to ANSI C code (ontology library). The library provides API for programming M3-agents in high-level terms of ontology entities instead of low-level triplet-based terms. The ontology library is between an agent application and a low-level (mediator) library. Currently, SmartSlog employs the KPI_low interface (oriented to small embedded devices) for triplet-based communications with SIB.
+
 The project SmartConference is an intelligent system for automation of processes during conference. It provides conference participants possibilities to control their presentations using their mobile devices, automated scheduling system and other useful services.
+
 The project SmartScribo in the wireless and mobile technology laboratory of Petrozavodsk State University (Petrozavodsk, Russia) develops an ANSI C, C#, Python mobile distributed system for multiblogging.

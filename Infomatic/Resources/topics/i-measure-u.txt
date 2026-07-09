@@ -1,3 +1,5 @@
 IMeasureU, Ltd. (IMU) is a company that specializes in wearable technology. They develop inertial measurement units that analyze body movements in sports. The company combines sensor data with computational models to model human body movement. IMeasureU has collaborated with Athletics Australia runners.
+
 In July 2017, the company was acquired by Vicon, an English company specializing in motion capture. The acquisition aimed to integrate Vicon's camera systems with IMeasureU's sensors.
+
 On 23 June 2015, IMeasureU launched an Indiegogo campaign seeking to raise US $200,000 to develop a consumer product.

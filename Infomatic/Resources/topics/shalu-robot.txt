@@ -1,22 +1,31 @@
 Robot Shalu is a social and educational humanoid robot developed by Dinesh Kunwar Patel, an Indian computer science teacher from Mumbai, using waste materials.
 
 History
+
 Dinesh Patel has cited the 2010 film Enthiran and Hanson Robotics’ humanoid robot Sophia as his main inspirations for developing Shalu. He worked on the project for three years, and the first version was unveiled to the public on 23 November 2020 during a telecast on DD News.
 
 The robot was made at home using waste materials, aluminium, plastic, cardboard, wood, newspapers, and other items readily available in the local market. No 3D-printed components were used, keeping the cost relatively low at approximately ₹50,000 (equivalent to $675 or €572).  Shalu’s software was designed and developed by Patel using open-source  libraries TensorFlow and Natural Language Toolkit. Work on the next version of the robot is currently underway.
+
 The name Shalu is an acronym: ‘S’ for Scientifically and Technically, ‘H ‘for Highly Reciprocal, ‘A’ for Advanced Humanoid, ‘L’ for Language Communicator, and ‘U’ for Uniquely Designed.
 
 Features
+
 Shalu can reportedly speak nine Indian languages, namely Hindi, Bhojpuri, Bengali, Gujarati, Malayalam, Marathi, Tamil, Telugu, Urdu, Nepali, as well as 38 foreign languages, including English, Japanese, German, French, Italian, Chinese, and Spanish.
+
 The robot can recognize and remember people and identify many common objects. It can understand basic human emotions such as anger, happiness, laughter, and jealousy, and respond accordingly. Shalu can greet people, shake hands, recite poems, answer factual questions, conduct verbal quizzes and interviews, forecast the weather for up to ten days, read horoscopes based on birth dates, solve simple mathematical problems, and engage in casual scripted conversations using artificial intelligence to interpret meaning.
+
 Shalu can be used as a robot teacher in schools to deliver lectures from a slide show created by a human instructor. It can answer students’ questions, pose its own questions, and assess responses. It can also work as a receptionist, responding to customer queries verbally and via email or SMS, or serve as a conversational companion for senior citizens and a learning partner for young children.
 
 Reception
+
 Robot Shalu is dedicated to India’s "Beti Bachao Beti Padhao" campaign and is presented as a step toward the Atmanirbhar Bharat and Digital India missions.
 
 In education
+
 Robot Shalu has been included in the syllabus for the Artificial Intelligence subject for Class 9 by the Central Board of Secondary Education (CBSE) and in the computer science syllabus for Class 6 at Kendriya Vidyalaya Sangathan.
+
 Shalu is described as the world’s first robot teacher capable of teaching more than six subjects in 47 languages. It is currently used to teach Classes 6 to 11 at a Kendriya Vidyalaya in Mumbai, India. During a classroom inspection, the school principal stated that integrating technology such as Robot Shalu could enhance the teaching–learning process and lead to better educational outcomes.
 
 Awards
+
 On 25 March 2021, Robot Shalu and its creator, Dinesh Patel, were presented with the Jagran Josh Education Award 2021 for Innovation in Science and Technology by the Education Minister of India, Dr. Ramesh Pokhriyal.

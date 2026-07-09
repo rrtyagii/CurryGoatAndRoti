@@ -1,30 +1,45 @@
 The Minimum Information Required About a Glycomics Experiment (MIRAGE) initiative is part of the Minimum Information Standards and specifically applies to guidelines for reporting (describing metadata) on a glycomics experiment. The initiative is supported by the Beilstein Institute for the Advancement of Chemical Sciences. The MIRAGE project focuses on the development of publication guidelines for interaction and structural glycomics data as well as the development of data exchange formats. The project was launched in 2011 in Seattle and set off with the description of the aims of the MIRAGE project.
 
 Organization
+
 The MIRAGE Commission consists of three groups which tightly interact with each other.
+
 The advisory board consists of leading scientists in glycobiology, who, for example, critically review the outcomes of the working group and promote the reporting guidelines within the community.
+
 The working group seeks for external consultation and directly interacts with the glycomics community. The group members carry out defined subprojects (e.g. development and revision of guidelines) by focusing on specific research areas to fulfill the overall aims of the MIRAGE project.
+
 The co-ordination team links the subprojects from the working group together and passes the outcomes to the advisory board for review.
 
 Reporting guidelines
+
 The following reporting guidelines were developed and published:
 
 MIRAGE MS guidelines for reporting mass spectrometry-based glycan analysis. These guidelines are based on the MIAPE guideline template, i.e. MIAPE-MS version 2.24.
+
 MIRAGE Sample preparation guidelines which are considered a common basis for any further MIRAGE reporting guidelines in order to keep the requirements for data analysis short and consistent.
+
 MIRAGE Glycan microarray guidelines for the comprehensive description of Glycan array experiments the reporting guidelines for glycan microarray analysis have been developed. In order to assist the authors to reporting in compliance with these guidelines, exemplar publications and a template with a data example is provided.
+
 MIRAGE Liquid chromatography guidelines for reporting of liquid chromatography (LC) glycan data.
 
 Derivatives
+
 The MIRAGE reporting guidelines provide essential frameworks for subsequent projects related with the development of both software tools for the analysis of experimental glycan data and databases for the deposition of interaction analysis data (e.g. from glycan microarray experiments) and structural analysis data (e.g. from mass spectrometry and liquid chromatography experiments). As the guidelines include the definitions of the minimum information required for reporting glycomics experiments comprehensively, this information is incorporated in database structures, data acquisition forms and data exchange formats.
+
 The following databases comply with the MIRAGE guidelines:
 
 UniCarb-DB, which stores curated data and information on glycan structures and associated fragment data characterised by LC-Tandem_mass spectrometry strategies.
+
 GlycoStore a curated Chromatography, Electrophoresis and Mass spectrometry derived composition database of N-, O-, glycosphingolipid (GSL) glycans and free oligosaccharides associated with a range of glycoproteins, glycolipids and biotherapeutics.
+
 UniCarb-DR a MSn data repository for glycan structures
+
 GlycoPOST a mass spectra repository for glycomics and glycoproteomics
+
 The following projects refer to the MIRAGE standards:
 
 GlyTouCan is a glycan structure repository where unique identifiers are assigned to individually reported glycan structures
 UniCarbKB a database of glycans and glycoproteins
+
 GlyGen, a data integration and dissemination project for carbohydrate and glycoconjugate related data
 GlyConnect, an integrated platform  for glycomics and glycoproteomics

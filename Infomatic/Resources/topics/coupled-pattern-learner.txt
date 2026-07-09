@@ -1,6 +1,7 @@
 Coupled Pattern Learner (CPL) is a machine learning algorithm which couples the semi-supervised learning of categories and relations to forestall the problem of semantic drift associated with boot-strap learning methods.
 
 Coupled Pattern Learner
+
 Semi-supervised learning approaches using a small number of labeled examples with many unlabeled examples are usually unreliable as they produce an internally consistent, but incorrect set of extractions. CPL solves this problem by simultaneously learning classifiers for many different categories and relations in the presence of an ontology defining constraints that couple the training of these classifiers. It was introduced by Andrew Carlson, Justin Betteridge, Estevam R. Hruschka Jr. and Tom M. Mitchell in 2009.
 
 CPL overview
@@ -20,6 +21,7 @@ Relation argument type-checking
 This is a type checking information used to couple the learning of relations and categories. For example, the arguments of the ‘ceoOf’ relation are declared to be of the categories ‘person’ and ‘company’. CPL does not promote a pair of noun phrases as an instance of a relation unless the two noun phrases are classified as belonging to the correct argument types.
 
 Algorithm description
+
 Following is a quick summary of the CPL algorithm.
 
 Input: An ontology O, and a text corpus C
@@ -48,15 +50,19 @@ Candidate filtering
 Candidate instances and patterns are filtered to maintain high precision, and to avoid extremely specific patterns. An instance is only considered for assessment if it co-occurs with at least two promoted patterns in the text corpus, and if its co-occurrence count with all promoted patterns is at least three times greater than its co-occurrence count with negative patterns.
 
 Candidate ranking
+
 CPL ranks candidate instances using the number of promoted patterns that they co-occur with so that candidates that occur with more patterns are ranked higher. Patterns are ranked using an estimate of the precision of each pattern.
 
 Candidate promotion
+
 CPL ranks the candidates according to their assessment scores and promotes at most 100 instances and 5 patterns for each predicate. Instances and patterns are only promoted if they co-occur with at least two promoted patterns or instances, respectively.
 
 Meta-Bootstrap Learner
+
 Meta-Bootstrap Learner (MBL) was also proposed by the authors of CPL. Meta-Bootstrap learner couples the training of multiple extraction techniques with a multi-view constraint, which requires the extractors to agree. It makes addition of coupling constraints on top of existing extraction algorithms, while treating them as black boxes, feasible. MBL assumes that the errors made by different extraction techniques are independent. Following is a quick summary of MBL.
 
 Input: An ontology O, a set of extractors ε
+
 Output: Trusted instances for each predicate
 for i=1,2,...,∞ do
     foreach predicate p in O do
@@ -71,4 +77,5 @@ end
 Subordinate algorithms used with MBL do not promote any instance on their own, they report the evidence about each candidate to MBL and MBL is responsible for promoting instances.
 
 Applications
+
 In their paper  authors have presented results showing the potential of CPL to contribute new facts to existing repository of semantic knowledge, Freebase

@@ -1,56 +1,81 @@
 César Augusto Hidalgo Ramaciotti (born December 22, 1979) is a Chilean born, Chilean-Spanish-American physicist, author, and entrepreneur. He is a tenured professor at the department of social and behavioral sciences at the Toulouse School of Economics and director of the Center for Collective Learning, a multidisciplinary research laboratory with offices at the Toulouse School of Economics and at Corvinus University of Budapest. He is also an Honorary Professor at the University of Manchester's Alliance Manchester Business School. Hidalgo is known for pioneering the field of economic complexity by developing concepts and methods such as relatedness and the Economic Complexity Index. He is also known for the creation of public data infrastructure, as a co-creator of The Observatory of Economic Complexity, as well as several national scale economic data visualization platforms including Data USA, Data Mexico, and Data Saudi. Hidalgo works also on applied artificial intelligence and digital democracy. Before moving to France, to found the Center for Collective Learning, Hidalgo was a professor at MIT where he directed the Collective Learning group. He is also a founder and partner at Datawheel, a data visualization and distribution company.
+
 Hidalgo works broadly in the field of collective intelligence. His contributions to the field includes the introduction of methods to measure economic complexity and relatedness, the study of people's perception of A.I., the study of collective memory, and the development of multiple data visualization platforms, including The Observatory of Economic Complexity, DataUSA, DataViva, DataMexico, DataAfrica, Pantheon, and Rankless, among others. He is the author of dozens of academic papers in complex systems, networks, and economic development, and has created applications of data science and artificial intelligence to understand urban perception and to explore the idea of augmented democracy.
+
 Hidalgo has published four books. He co-authored The Atlas of Economic Complexity and How Humans Judge Machines  together with teams of collegues. He is also the author of Why Information Grows, and The Infinite Alphabet, and the laws of knowledge.
+
 His work was honored with the Bicentennial Medial from the Chilean Congressin 2011, the Lagrange Prize in 2018, and the Centennial Medal from the University of Concepcion in 2019. His data visualization and distribution platforms include three Webbys, one Information is Beautiful award, and one Indigo Design Award.
 
 Early life and education
+
 Hidalgo was born in Santiago de Chile in 1979 to Cesar E. Hidalgo and Nuria Ramaciotti. His father was a publicist and journalist and his mother a K-12 school administrator. He has two siblings Caterina and Nuria.
+
 Hidalgo attended The Grange School until the age of fourteen. He completed his high school education at The British High School. From 1998 to 2003 he studied physics at Pontifical Catholic University of Chile. From 2004 to 2008 he obtained a PhD in physics from The University of Notre Dame with Albert-László Barabási as his PhD advisor. From 2008 to 2010 he was a postdoctoral research fellow at Harvard University.
 
 Economic complexity
+
 The Economic Complexity Index (ECI) is a method to estimate the availability of factors present in an economy without having to define them. While it was originally introduced using trade data, the method has been more recently validated using data on employment, patents, and research, showing that it can be applied to a wide variety of matrices summarizing productive structures. ECI estimates are based on an spectral approach introduced by Hidalgo and colleagues in 2009, and empirical studies have shown that it is a robust and reproducible predictor of future economic growth,, including subnational applications such as Mexico. or historical reconstructions using alternative data sources.
+
 In recent work, researchers have expanded economic complexity beyond trade. For example, services have been incorporated into complexity measures and shown to add information relevant for growth predictions. Multidimensional approaches have also combined trade-based measures with economic complexity measures derived from patents and research publications, improving the ability of complexity metrics to explain variations in growth and other development outcomes, such as income inequality
  and greenhouse gas emissions .
 Economic complexity has also received attention in the popular press, including coverage by *The Economist* and *The New York Times*, which have discussed its implications for economic development and policy.
 
 Books
+
 The Atlas of Economic Complexity (2011, 2014)
+
 The Atlas of Economic Complexity: Mapping Paths to Prosperity is a collaborative book that presents a data-driven framework for understanding economic development through the lens of productive capabilities and network science. The book introduces visual representations of international trade data, including the Product Space, to explain patterns of diversification and structural transformation across countries. First released in 2011 and expanded in a second edition published by MIT Press in 2014, the Atlas has been used by researchers, policymakers, and international organizations as a reference for development analysis. The ideas and visualizations developed for the Atlas have also been disseminated through online platforms and public data tools.
 
 Why Information Grows (2015)
+
 In Why Information Grows: The Evolution of Order, from Atoms to Economies, Hidalgo explains economic growth as a consequence of the accumulation of information and computation in physical and social systems. The book connects concepts from information theory, physics, and economics to argue that economic development depends on the ability of societies to embed computation in networks of people and institutions.
+
 Following its release, the book received positive attention from economists and science writers, including Paul Romer, Eric Beinhocker, and Tim Harford. The book was also reviewed in *The Economist*, *Nature*, and *Kirkus Reviews*.
 
 How Humans Judge Machines (2021)
+
 In How Humans Judge Machines, Hidalgo examines how people evaluate artificial intelligence systems by comparing how people react to the same action when this is performed by a human or an AI. Drawing on over 80 scenarios, the book studies how humans judge machines in the context of accidents, labor displacement, fairness, and privacy. It concludes that people judge human and machines through different "moral functions," judging humans by their intentions and machines by their outcomes. This generates a gap in moral judgment that biases people against machines in the case of accidents.
 
 The Infinite Alphabet (2025)
 The Infinite Alphabet, and the laws of knowledge is a solo-authored book by Hidalgo that explores the principles governing how societies grow, diffuse, and value knowledge. Unlike his previous book, The Infinite Alphabet draws on dozens of historical examples, making the book relevant for innovation policy.
 
 Data visualization and distribution platforms
+
 Economic Data Observatories
+
 Hidalgo has co-developed a family of open data visualization and distribution platforms that integrate large public datasets and make them accessible through interactive profiles, maps, and network visualizations. Early work includes the Observatory of Economic Complexity (OEC, 2011), an online platform for exploring the geography and dynamics of global trade and productive capabilities. Visualizations associated with economic complexity have been featured in outlets such as The Economist and The New York Times.
+
 Through subsequent collaborations—often implemented through Datawheel—these platforms have been extended to national and subnational contexts, including Brazil's DataViva (2013), the United States' Data USA (2016), and additional country platforms such as DataAfrica, DataChile, and DataMexico. Data USA received a 2016 Kantar Information is Beautiful Award and a 2017 Webby Award (Government & Civil Innovation). Data Africa won a 2018 Webby Award (Government & Civil Innovation). DataChile received an Indigo Design Award (2018).
+
 In the 2020s, Hidalgo has continued to support the development of related platforms focused on economic structure and cross-border production networks. These include DataSaudi, a public platform developed with Saudi Arabia's Ministry of Economy and Planning to support data-driven policymaking aligned with Vision 2030, the Mapa de complejidad económica de España created with Fundación Cotec (complejidadeconomica.cotec.es), and Border Value, an interactive site on U.S.–Mexico co-production developed with support from the Open Society Foundations.
 
 Team Communication Data
+
 Immersion (2013) and Open Teams (2019)
+
 Immersion is a data visualization engine for email metadata. Immersion helps uncover the networks people form while interacting through email. Immersion was co-authored by Hidalgo together with Daniel Smilkov and Deepak Jagsdish, while both Smilkov and Jagdish were working as students in Hidalgo's Macro Connections group. Immersion was released in 2013, and quickly became popular as a way to demonstrate what people can learn by looking only at email metadata.
 Immersion was then rebuilt and expanded by Jingxian Zhang during her master's thesis work in Hidalgo's group at the MIT Media Lab to create Open Teams, a visualization suite for communication data designed for teams.
 
 Collective Memory
+
 Pantheon (2013)
 Pantheon is a data visualization engine focused on historical cultural production and impact. Pantheon helps users explore metadata on globally famous biographies as a means to understand the process of collective memory and of the role of languages and communication technologies in the production and diffusion of cultural information. Amy Yu, Kevin Hu, and Cesar Hidalgo developed pantheon in the Macro Connections group at MIT.
 
 Academic Impact
 Rankless (2024)
+
 Rankless is a data visualization platform that allows people to explore the publication impact of countries, universities, journals, and scholars. Unlike other academic impact projects, Rankless skews away from the concept of rankings by showing impact that is specific to topics and geographies. Rankless was developed by Endre Borza, an economist and data scientist, working in Hidalgo's Center for Collective Learning at Corvinus University of Budapest.
 
 Urban Perception
+
 Place Pulse, Streetscore, and Streetchange
+
 Place Pulse, Streetscore, and Streetchange are tools created to map people's perceptions of urban environments. Place Pulse has been featured in The Guardian and Fast Company. Streetscore has been featured in The Economist and New Scientist, among others.
 
 Augmented Democracy
+
 In 2018, Hidalgo presented at TED the idea of augmented democracy, proposing that citizens could be represented in some decision-making processes by personalized digital agents (or "digital twins") supported by artificial intelligence. The proposal has been discussed in public debate about the role of AI and digital twins in democratic participation and governance.
+
 In 2024, Hidalgo and collaborators were awarded an ERC Synergy Grant for the project ADDI (Advancing Digital Democratic Innovation), which studies digitally augmented forms of civic participation, including preference elicitation and the design and evaluation of participation platforms.
+
 Hidalgo has also participated in the creation of civic participation platforms designed to collect structured information about citizens' policy preferences, including MonProgramme2022, developed during the 2022 French presidential election, and Brazucracia, an online experiment conducted during Brazil's 2022 presidential election and has used this data to explore simple forms of augmented democracy  and to introduce measures of political divisivenessdesigned to identify proposals that generate unusually high disagreement among participants in preference-elicitation platforms.

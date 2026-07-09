@@ -1,9 +1,13 @@
 GoodRelations is a Web Ontology Language-compliant ontology for Semantic Web online data, dealing with business-related goods and services. It handles the individual relationships between a buyer, a seller and the products and services offered. In November 2012, it was integrated into the Schema.org ontology.
 
 Usage
+
 GoodRelations became popular owing to its success in improving search engine results.
+
 By 2009, the ontology's Product concept was being used to describe over a million products and their prices. By 2013, GoodRelations had been adopted by the search engines Yahoo!, Google, and Bing. An analysis of online e-commerce data providers at that time found it to be the most prevalent ontology in use. As of mid-2015, GoodRelations had become the de facto ontology for e-commerce, and was in widespread use, having been adopted by retailers such as Best Buy.
+
 GoodRelations is additionally used in academic studies of the Semantic Web, as a core ontology.
 
 Example
+
 A shop, restaurant, or store, and its opening hours, may be specified using GoodRelations as in this example, which also uses vCard and FOAF:

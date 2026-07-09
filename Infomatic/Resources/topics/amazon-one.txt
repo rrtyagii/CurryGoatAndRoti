@@ -1,13 +1,19 @@
 Amazon One is a biometrics system offered by Amazon, which uses images of the user's palm print to provide payments and authentication. It is used by retailers like Whole Foods Market, Amazon Go and Amazon Go Grocery, as well as third-party retailers who purchased the technology from Amazon.
 
 History
+
 Amazon filed for a patent for a "Non-contact biometric identification system" in 2018. The patent was granted in late 2019, and describes a system that analyzes multiple images of a user's palm, including skin creases and the position of veins. Amazon publicly announced the technology as Amazon One in September 2020, debuting it to the public in two Amazon Go stores near the company's headquarters in Seattle.
 
 Amazon One readers for payments were piloted at stores of Amazon subsidiary Whole Foods Market beginning in early 2022. Whole Foods announced that it would implement the technology in all 65 of its stores in California in the summer of 2022, and it was rolled out across the company's over 500 U.S. stores in 2023.
+
 In addition to its own properties, Amazon has also provided Amazon One technology to retailers, entertainment venues, and healthcare systems. Red Rocks Amphitheatre in the Denver metropolitan area began using Amazon One as an option for ticketing in 2021, in partnership with its ticketing operator AXS. Panera Bread installed Amazon One equipment at multiple stores near its St. Louis headquarters in 2023, allowing customers to look up their MyPanera loyalty information and pay with their palm scan. In 2025, Amazon One was introduced as an option for patient check-in at NYU Langone Health offices and hospitals.
+
 Amazon announced that they are shutting down the palm biometric authentication services on June 3, 2026, for retail businesses.
 
 Reception
+
 Shortly after the technology's announcement in 2020, Barron's reported that Amazon's development of palm scanning technology could potentially also be integrated into its Amazon Key brand, which provides access control hardware and services for indviduals and businesses.
+
 In August 2021, U.S. Senators Amy Klobuchar, Bill Cassidy, and Jon Ossoff sent a letter to Amazon CEO Andy Jassy, questioning the safety of the Amazon One users concerning the biometrics and cloud storage.
+
 After Amazon One technology was introduced at Red Rocks Amphitheatre in 2021, Fight for the Future led a protest against the technology, citing broad privacy and security concerns. Fight for the Future's open letter condemning the technology was signed by over 300 musicians, including Tom Morello, Kathleen Hanna, and Mannequin Pussy. Amazon One hardware was removed from Red Rocks after its 2021 season. The City of Denver, the operator of the Red Rocks Amphitheatre, claimed that the removal of Amazon One hardware was due to facility limitations and said that the technology could return.

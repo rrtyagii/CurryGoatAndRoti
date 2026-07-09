@@ -1,11 +1,15 @@
 Space-based data centers or orbital AI infrastructure are proposed concepts to build AI data centers in the sun-synchronous orbit or other orbits utilizing space-based solar power.  Electric power has become the main bottleneck for terrestrial AI infrastructure. Building AI data centers in space off-the-grid could become cost competitive with advancements in reusable rockets.
 
 History of space-based data center proposals and deployment
+
 Early thinking about space-based computing infrastructure grew out of mid-20th-century visions for large orbital industrial systems, most notably proposals for space-based solar power, which were popularized in both technical literature and science writing by figures such as Isaac Asimov in the 1940s. These ideas emphasized exploiting the vacuum, continuous solar energy, and thermal characteristics of space to support power-intensive activities that would be difficult or inefficient on Earth.
+
 In the 21st century, advances in small satellites, reusable launch vehicles, and high-performance computing revived interest in space-based data centers, with governments and private companies exploring orbital or near-space platforms for edge computing, secure data handling, and low-latency processing of Earth-observation data.
+
 In September 2024, Y Combinator-backed Starcloud released a white paper detailing plans to build multiple gigawatts of AI compute in orbit. It was the first widely cited proposal to actually start building large orbital data centers.
 
 In 2025, Starcloud deployed an NVIDIA H100-class system and became the first company to train an LLM in space and run a version of Google Gemini in space.
+
 In January 2026, SpaceX filed plans with the Federal Communications Commission (FCC) for millions of satellites, leveraging reusable launches and Starlink integration to extend cloud and AI computing into orbit. Around the same time, Blue Origin announced the TeraWave constellation of about 5,400 satellites, designed to provide high‑throughput networking for data centers, enterprise, and government customers. Meanwhile, China announced a 200,000‑satellite constellation, focusing on state coordination, data sovereignty, and in-orbit processing for secure, time-critical applications.
 
 Advantages

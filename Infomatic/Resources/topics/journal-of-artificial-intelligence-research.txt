@@ -1,16 +1,23 @@
 The Journal of Artificial Intelligence Research (JAIR) is an open access peer-reviewed scientific journal covering research in all areas of artificial intelligence.
 
 History
+
 It was established in 1993 as one of the first scientific journals distributed online. Paper volumes were printed by the AAAI Press. The Journal for Artificial Intelligence Research (JAIR) is one of the premier publication venues in artificial intelligence. JAIR also stands out in that, since its launch in 1993, it has been 100% open-access and non-profit, a diamond open access journal.
 
 Content
+
 The Journal of Artificial Intelligence Research (JAIR) is dedicated to the rapid dissemination of important research results to the global artificial intelligence (AI) community. The journal's scope encompasses all areas of AI, including agents and multi-agent systems, automated reasoning, constraint processing and search, knowledge representation, machine learning, natural language, planning and scheduling, robotics and computer vision, uncertainty in AI, generative AI, human-AI interaction and ethical issues in AI.
 
 Special Tracks
+
 JAIR publishes articles in several special tracks, in addition to its main track for regular scientific articles. These include a track for survey papers, a track for award-winning conference papers, a track on AI & Society, and time-limited tracks dedicated to other special topics.
 
 Abstracting and indexing
+
 The journal is abstracted and indexed by Inspec, Science Citation Index, and MathSciNet. According to the Journal Citation Reports, the journal had a 2024 impact factor of 4.
+
 As of 2025, according to the SciMago Journal and Country Rank (SJR), the journal is ranked 6th among all diamond, open-access artificial intelligence subdomain (within the computer science domain) journals with an H-index of 143, which merits the top quarter tiering (Q1) of journals ranked by the SJR.
+
 Also as of 2025, according to Google Scholar, it has an h5-index of 62 and h5-median index of 134.
+
 The journal is also available via the ACM Digital Library.

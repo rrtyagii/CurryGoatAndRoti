@@ -1,6 +1,7 @@
 Natural language processing is computer activity in which computers are entailed to analyze, understand, alter, or generate natural language.  This includes the automation of any or all linguistic forms, activities, or methods of communication, such as conversation, correspondence, reading, written composition, dictation, publishing, translation, lip reading, and so on.  Natural-language processing is also the name of the branch of computer science, artificial intelligence, and linguistics concerned with enabling computers to engage in communication using natural language(s) in all forms, including but not limited to speech, print, writing, and signing. The following outline is provided as an overview of and topical guide to natural-language processing:
 
 Natural-language processing
+
 Natural-language processing can be described as all of the following:
 
 A field of science – systematic enterprise that builds and organizes knowledge in the form of testable explanations and predictions about the universe.
@@ -207,7 +208,6 @@ W-shingling – set of unique "shingles"—contiguous subsequences of tokens in 
 
 Component processes of natural-language generation
 Natural-language generation – task of converting information from computer databases into readable  human language.
-
 Automatic taxonomy induction (ATI) – automated building of tree structures from a corpus. While ATI is used to construct the core of ontologies (and doing so makes it a component process of natural-language understanding), when the ontologies being constructed are end user readable (such as a subject outline), and these are used for the construction of further documentation (such as using an outline as the basis to construct a report or treatise) this also becomes a component process of natural-language generation.
 Document structuring –
 
@@ -398,8 +398,10 @@ Ultra Hal – 2007 Loebner Prize winner, by Robert Medeksza.
 Verbot
 
 Instant messenger chatterbots
+
 GooglyMinotaur, specializing in Radiohead, the first bot released by ActiveBuddy (June 2001-March 2002)
 SmarterChild, developed by ActiveBuddy and released in June 2001
+
 Infobot, an assistant on IRC channels such as #perl, primarily to help out with answering Frequently Asked Questions (June 1995-today)
 Negobot, a bot designed to catch online pedophiles by posing as a young girl and attempting to elicit personal details from people it speaks to.
 

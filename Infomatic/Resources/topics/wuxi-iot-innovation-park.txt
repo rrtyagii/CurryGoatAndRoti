@@ -1,8 +1,11 @@
 The Wuxi IoT Innovation Park (Chinese: 中国物联网国际创新园), or Wuxi China IoT International Innovation Park, Micro-Nano Park (Chinese: 微纳园), created in 2009, functions as the principal platform for Wuxi's recognition as China's sole National Innovation Demonstration Zone for the Internet of Things (IoT). The park was established pursuant to a strategic initiative by Premier Wen Jiabao during his 2009 visit to Wuxi, when he advocated for the creation of a "Sensing China" center. In that same year, the park commenced operations, establishing itself as the inaugural national-level science and technology incubator in China dedicated solely to IoT innovations. In 2010, it was declared a pilot national regional brand for IoT and has since regularly ranked as a premier national incubator (Class A), thereby reinforcing Wuxi's status as the "Capital of IoT."
 
 Sector Emphasis
+
 The park focuses on three critical sectors: Internet of Things, photonics (comprising optoelectronic chips and silicon photonics), and the metaverse (superintelligence and human-computer interaction). It has developed a strong ecosystem featuring over 100 high-tech firms, more than 100 industry-leading professionals, and an output value above 10 billion RMB. As of 2024, the park encompasses 400,000 square meters, accommodates over 1,500 enterprises, and reported an industrial output of 18.5 billion RMB along with tax revenues of 1.1 billion RMB in 2022.
 
 Innovation Ecosystem
+
 Utilizing a comprehensive platform that encompasses chip design, manufacturing, and testing, the park has fostered the development of 123 high-tech enterprises, 17 pre-IPO companies, and 4 national-level "Little Giant" enterprises focused on specialized, advanced technologies. Zhongke Xibei Xing exemplifies an exemplary case, providing smart senior care solutions to over 3,500 institutions and 340,000 beds in China.
+
 The park has garnered multiple accolades, including designation by the Ministry of Industry and Information Technology (MIIT) as one of the Top 10 Sensor Industry Parks in China and recognized as Asia's Best Incubator by Asian Association of Business Incubation. It has been designated as one of Wuxi's inaugural prominent industrial parks.

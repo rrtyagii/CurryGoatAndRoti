@@ -1,9 +1,13 @@
 Humans in the Loop is a 2024 Indian independent drama film written and directed by Aranya Sahay and produced by Storiculture's Museum of Imagined Futures. The film follows an Adivasi woman, Nehma, from Jharkhand who unexpectedly finds herself interacting with artificial intelligence, unraveling its hidden biases and ethical dilemmas. Inspired by a 2022 article by journalist Karishma Mehrotra in Fifty Two (52) titled "Human Touch", the film sheds light on AI bias and its disproportionate impact on women in technology. It highlights the contributions of women in the field of data annotation and algorithmic development while questioning the growing intersection of AI and marginalised communities.
+
 The film received the Film Independent Sloan Distribution Grant. The grant, administered by Film Independent and the Alfred P. Sloan Foundation, supports narrative features that engage meaningfully with science or technology themes, providing strategic release support to help films reach wider audiences. The Sloan Film program has backed more than 850 screenplays, short films and features over the past two decades, including “The Imitation Game,” “Hidden Figures,” “The Man Who Knew Infinity” and “Oppenheimer.” The award makes director Aranya Sahay and producer Mathivanan Rajendran Film Independent Fellows.
+
 It was released on limited screens all across major cities in India on 5 September 2025. The film premiered at MAMI in 2024 and globally on Netflix on 31 October 2025.
 
 Plot
+
 Nehma, an Adivasi woman of the Oraon tribe, returns to her native village in Jharkhand from Ranchi, with her daughter Dhaanu and infant son Guntu after the breakdown of her ‘dhuku’ marriage (live-in relationship). To support her family, Nehma takes up work at a local data-labelling centre, where employees annotate images and videos to train artificial intelligence systems for international clients. Soon she starts noticing a troubling gap between the rigid categories demanded by the AI system and the ecological wisdom of her own community.
+
 Meanwhile, her daughter Dhaanu struggles to adjust to the family’s new life in the village, missing the urban world she has left behind. She even makes a futile attempt to escape from the village.
 Humans in the Loop is a social film that happens to be about AI: With its focus on indigenous women’s labour and the mother-daughter relationship, it insists that the ethics of AI cannot be separated from questions of caste, gender, and geography. The film asks us to recognise that intelligence – artificial or otherwise – carries the imprint of its teachers. And if those teachers are invisible, uncredited or culturally misunderstood, the intelligence learnt will only reproduce their absence.
 
@@ -18,37 +22,61 @@ Anurag Lugun
 Release
 Humans in the Loop premiered at the MAMI before being screened at the IFFK. It received critical acclaim for its compelling storytelling and unique perspective on gender representation in AI. The film also received a nomination for Gender Sensitivity from the Film Critics Guild.
 The film was developed as part of the Storiculture Impact Fellowship, which supports socially relevant storytelling in media. It was produced by the Museum of Imagined Futures (MOIF), a speculative media space that brings creators and technologists together to reimagine the future and create media at the intersection of tech, culture, and impact.
+
 The film released worldwide on 31 October 2025 by Netflix.
 
 U.S. Film Launch
+
 The US film launch of Humans in the Loop took place in Los Angeles over a week-long theatrical screening. Director Aranya Sahay was present from November 7–13 in the Beverly Hills area at the Lumière Cinema. This venue, known for showcasing independent films, has long been a staple of the Los Angeles community and a respected space for independent cinema. Executive Producer Misaq Kazimi directed the launch strategy which included three distinct elements: onboarding the support of 10 local organizations who brought their communities, inviting 10 panelists to explore the topics of the film after the screenings, and highlighting local talent by playing 7 short films by local LA filmmakers that played before the evening screenings.
+
 The audience came from a wide range of communities, including the South Asian community, the technology/AI community, and those interested in Indigenous culture and voices.
+
 Two unique elements helped bring these communities together. First, the screening of a short film by a Los Angeles–based filmmaker before the main feature, creating a valuable opportunity for short filmmakers to have their work shown on a large cinema screen, an experience that is often rare for short films. This also allowed their audiences to discover Humans in the Loop, creating a meaningful cross-pollination of viewership.
+
 Second, the inclusion of daily panel discussions held after each film. These panels included academic professors, industry professionals from the film and technology sectors, technologists, and artists such as muralists and mixed-media creators alongside the director. These conversations grounded the film in the social and technological landscape of the US, making it both locally relevant and globally impactful.
+
 Several audience members returned multiple times and brought friends and family, demonstrating how deeply they connected with the film’s subject matter and wanted to expand the conversation. Los Angeles, being the central hub of the American film industry, marked the film’s first major presentation in the United States to audiences beyond the South Asian community. People from all walks of life attended, helping the film expand its reach and establish a meaningful presence within the city.
+
 The film's launch also partnered with local organizations who helped bring their audiences: IFFLA, Film Independent, and Artists of LA. Supporting organizations included Astralab, Rangeela Dance Company, Tasveer Film Festival, American South Asian Network, and UCLA Department of Information Technology.
 
 Humans in the Loop Festivals & Accolades
+
 Following its US theatrical release and meeting other eligibility criteria, Humans in the Loop officially qualified to be a contender for the 98th Academy Awards. It will compete to be nominated in the Best Original Screenplay category.
 
 Film Independent's 'Sloan Distribution Grant';
+
 FIPRESCI Award for Best Feature Film (International Critic's Guild Award), 2025 jointly shared with 'All We Imagine As Light';
 New York Indian Film Festival (NYIFF '25);
+
 Won 'Best Debut Film' Indian Film Festival of Los Angeles (IFFLA '25);
+
 Won the Grand Jury Award for Best Feature Film International Film Festival of Bengaluru (BIFFes '25);
 Won 'Best Film' and FIPRESCI Award Best Film at Celebrating India Film Festival;
+
 International Film Festival of Kerala (IFFK, '24);
+
 Cinevesture International Film Festival;
+
 Dialogue Film Festival of Kerala '24;
+
 Bhubaneshwar Film Festival '24;
+
 Mumbai Film Festival (MAMI '24);
+
 Nominated for the Gender Sensitivity Award
 
 Reception
+
 The film received widespread critical acclaim for its thought-provoking narrative and strong visual storytelling. Critics praised its nuanced exploration of AI biases and the gendered implications of technology. High on Films rated it 4.5/5, calling it "an essential and timely film on the intersection of ethics and technology." The Hindu highlighted its "sharp social critique wrapped in a visually immersive experience." Indian Express praised its "meticulous research and emotionally compelling storytelling." The film holds an 85% rating on Rotten Tomatoes, based on early festival reviews.
+
 Deccan Herald described it as "an ode to the women who are redefining technology from behind the screens."
+
 Nandini Ramnath of the Scroll.in observed that "Humans in the Loop suggests that Indians can domesticate all manner of beasts, whether personified or machine-led."
+
 Abhishek Srivastava of The Times of India awarded 3.5 stars out of 5 and said that "Director Aranya Sahay, who also appears briefly as a government officer in the film, occasionally slips into preachy moments, but when the film simply observes, it feels like a fresh voice—a story about AI that is profoundly human."
+
 Rahul Desai of The Hollywood Reporter India writes in his review that "Most film-makers might have rested on the multitudes of this premise. The movie itself might have felt incidental, like a medium to platform all those blatant metaphors. But Aranya Sahay crafts a thoughtful, curious and wonderfully observed narrative that marries the language of storytelling with the grammar of living."
+
 Sahir Avik D’souza of The Quint rated it 4 stars out of 5 and wrote that "the film is dedicated to the women of Jharkhand. It highlights the unsung human labour that quietly powers the global artificial intelligence industry."
+
 Alaka Sahani, writing for The Indian Express stated that "Humans in the Loop reminds us that though we are not unfamiliar with the threat that AI algorithms pose to cultural homogeneity, we still have to get rid of our existing biases."

@@ -1,12 +1,17 @@
 Jeff Clune is an American computer scientist and researcher who is known for his contributions in artificial intelligence and deep learning. He currently works as a Professor of Computer Science at the University of British Columbia in Canada and as Canada CIFAR AI Chair at the Vector Institute. He also works as a researcher in the Google Deepmind. He previously worked at OpenAI and Uber.
 
 Education
+
 Jeff Clune earned his Bachelor of Arts degree in Philosophy from University of Michigan. After completing graduation, Clune was in California and in the midst of the dot-com bubble he read an article on the work of Hod Lipson about the stimulation of robots at Cornell University. This sparked his interest towards the field of artificial intelligence for which he pursued a Master of Arts degree in Philosophy and his PhD in computer science from Michigan State University in 2010.
 
 Research
+
 As of early 2026, Clune is a well cited AI researchers with an H-index number of 61  and has got more than 43000 citations. His contributions are mostly centred around the field of robotics and deep learning within the broader spectrum of artificial intelligence.
+
 After completing his PhD Clune went for post doctoral research at Cornell University under Hod Lipson where they collaborated in several research projects together. One of those was their work was to improve the results of evolutionary algorithms for designing elegant and natural robotic bodies published in 2013 and won the SIGEVO Impact Award.
 
 Recognition
+
 On 2 July 2019, Jeff Clune received a Presidential Early Career Award for Scientists and Engineers. At that time he was serving as the assistant professor of Department of Computer Science of the University of Wyoming.
+
 Before this he was also awarded a National Science Foundation CAREER Award in 2015.

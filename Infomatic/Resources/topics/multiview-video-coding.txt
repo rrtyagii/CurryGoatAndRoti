@@ -1,16 +1,25 @@
 Multi View Video Coding (MVC, also known as MVC 3D) is a stereoscopic video coding standard for video compression that allows for encoding  video sequences captured simultaneously from multiple camera angles in a single video stream. It uses the 2D plus Delta method and it is an amendment to the H.264 (MPEG-4 AVC) video compression standard, developed jointly by MPEG and VCEG, with the contributions from a number of companies, such as Panasonic and LG Electronics.
+
 MVC formatting is intended for encoding stereoscopic (two-view) 3D video, as well as free viewpoint television and multi-view 3D television. The Stereo High profile has been standardized in June 2009; the profile is based on the MVC tool set and is used in stereoscopic Blu-ray 3D releases.
 
 Technical overview
+
 MVC is based on the idea that video recordings of the same scene from multiple angles share many common elements. It is possible to encode all simultaneous frames captured in the same elementary stream and to share as much information as possible across the different layers. This can reduce the size of the encoded video.
+
 Multiview video contains a large amount of inter-view statistical dependencies, since all cameras capture the same scene from different viewpoints. Therefore, combined temporal and inter-view prediction is important for efficient MVC encoding. A frame from a certain camera can be predicted not only from temporally related frames from the same camera, but also from the frames of neighboring cameras. These interdependencies can be used for efficient prediction.
+
 The method for this used in Multiview Video Coding for Blu-ray 3D movies is known as the 2D plus Delta algorithm, and the MVC specification itself is part of the H.264 standard as an amendment in H.264 “Annex H” of the specification.
 
 Open source support mostly missing
+
 As of April 2015, there is no free and open-source software that supports software decoding of the MVC video compression standard. Popular open source H.264 and HEVC (H.265) decoders, such as those used in the FFmpeg and Libav libraries, simply ignore the second view and thus do not show the second view for stereoscopic views. In most cases, the reason for this support not being added is that MVC was not considered when the initial core H.264 and HEVC decoders code was written. Later amendment would as such often mean a lot of prerequisite code refactoring work and large changes its current architecture, with major work in untangling and reordering some code, and splitting different functions in existing decoder code into smaller chunks for simpler handling to in turn then make amendments such as MVC easier to add.
+
 Some proof-of-concept work has however been done downstream in the past, but never made it upstream into official releases of FFmpeg or Libav.
+
 On March 8, 2016, the situation improved. Version 0.68 of the DirectShow Media Splitter and Decoders Collection LAV Filters was released by developer "Nevcairiel" (who also works for Media Player Classic — Home Cinema (MPC-HC)) with support of H.264 MVC 3D demuxing and decoding. With the aid of this release and FRIM  written by a programmer named “videohelp3d”  it is possible to write an AviSynth script to pre process a H.264 MVC 3D video clip which can then be opened by free 3D video player Bino and then shown as red — cyan anaglyph video for example.
+
 The usage of the FRIM AviSynth plugin (FRIMSource) is described on “videohelp3d” home page. LAV Filters can be used to get audio from H.264 MVC 3D video clip. The developer  posted that in a future release of, it might be possible that LAV Video renders the video as Side-by-Side directly.
 
 Patent holders
+
 The following organizations hold patents that contributed to the development of MVC technology, listed in a patent pool by MPEG LA.

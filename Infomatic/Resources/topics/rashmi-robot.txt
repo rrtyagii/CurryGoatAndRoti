@@ -1,6 +1,7 @@
 Rashmi is an Indian lip-syncing humanoid robot  developed by Ranjit Shrivastava, a programmer from Ranchi, India.
 
 History
+
 This robot was launched on 1 August 2018, 2 years after the start of its development. Its development started as a hobby when Shrivastava's son challenged him after seeing a movie about robots. Ranjit worked alone, without a technical team or research lab.
 
 Events
@@ -11,11 +12,15 @@ As Red FM RJ
 Rashmi appeared on Red FM from December 3, 2018. The robot hosted an “Ask Rashmi” segment where it replied to listener's queries on radio. Robot Rashmi also hosted a show with RJ Raunac aka Baua in the morning from 10 AM to 11 AM and 'Dilli ke kadak launde' RJ Kisna and Ashish in the evening 5 to 6 p.m.
 
 Gaganyaan Mission
+
 Indian Space Research Organisation (Isro) approached the robot's developer to inquire about using it in uncrewed missions in preparation for India's first crewed mission in space, called Gaganyaan, in 2022. Two ISRO scientists, met Shrivastava to determine if the existing robot could be upgraded with certain simulated features resembling human physiology ISRO later developed their own Vyommitra robot for this purpose.
 
 As guest in engineering colleges
+
 Rashmi was invited to IIT, Delhi in December, 2018. Later Rashmi was invited in many engineering colleges as the guest of honour or chief guest including Government Engineering College, Amravati, College of Engineering, Pune,  Veermata Jijabai Technological Institute Mumbai, IIITDM Kanchieeuram and Don Bosco College of Engineering, Mumbai
 
 Features
+
 The robot delivers lip-synced speech. It makes facial expressions and it can also move its neck in 6 axes. It can display 83 facial expressions. Rashmi can speak four languages - English, Hindi, Marathi and Bhojpuri.
+
 Rashmi works on four layers including speech recognition, APIs and AI through which It interprets conversational moods. It has a camera built in the eyes with facial recognition, 3D Mapping and OCR. The Robot also has a functional hand with finger movement. Rashmi does not have legs.

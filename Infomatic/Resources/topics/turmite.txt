@@ -1,32 +1,43 @@
 In computer science, a turmite is a Turing machine which has an orientation in addition to a current state and a "tape" that consists of an infinite two-dimensional grid of cells. The terms ant and vant are also used. Langton's ant is a well-known type of turmite defined on the cells of a square grid. Paterson's worms are a type of turmite defined on the edges of a triangular tiling.
+
 It has been shown that turmites in general are exactly equivalent in power to one-dimensional Turing machines with an infinite tape, as either can simulate the other.
 
 History
+
 Langton's ants were invented in 1986 and declared "equivalent to Turing machines". Independently, in 1988, Allen H. Brady considered the idea of two-dimensional Turing machines with an orientation and called them "TurNing machines".
+
 Apparently independently of both of these, Greg Turk investigated the same kind of system and wrote to A. K. Dewdney about them. A. K. Dewdney named them "tur-mites" in his "Computer Recreations" column in Scientific American in 1989. Rudy Rucker relates the story as follows:
 
 Dewdney reports that, casting about for a name for Turk's creatures, he thought, "Well, they're Turing machines studied by Turk, so they should be tur-something. And they're like little insects, or mites, so I'll call them tur-mites! And that sounds like termites!" With the kind permission of Turk and Dewdney, I'm going to leave out the hyphen, and call them turmites.
 
 Relative vs. absolute turmites
+
 Turmites can be categorised as being either relative or absolute. Relative turmites, alternatively known as "turning machines", have an internal orientation. Langton's ant is such an example. Relative turmites are, by definition, isotropic; rotating the turmite does not affect its outcome. Relative turmites are so named because the directions are encoded relative to the current orientation, equivalent to using the words "left" or "backwards". Absolute turmites, by comparison, encode their directions in absolute terms: a particular instruction may direct the turmite to move "north". Absolute turmites are two-dimensional analogues of conventional Turing machines, so are occasionally referred to as simply "two-dimensional Turing machines". The remainder of this article is concerned with the relative case.
 
 Specification
+
 The following specification is specific to turmites on a two-dimensional square grid, the most studied type of turmite. Turmites on other grids can be specified in a similar fashion.
+
 As with Langton's ant, turmites perform the following operations each timestep:
 
 turn on the spot (by some multiple of 90°)
 change the color of the square
 move forward one square.
+
 As with Turing machines, the actions are specified by a state transition table listing the current internal state of the turmite and the color of the cell it is currently standing on. For example, the turmite shown in the image at the top of this page is specified by the following table:
 
 The direction to turn is one of L (90° left), R (90° right), N (no turn) and U (180° U-turn).
 
 Examples
+
 Starting from an empty grid or other configurations, the most commonly observed behaviours are chaotic growth, spiral growth and 'highway' construction. Rare examples become periodic after a certain number of steps.
 
 Busy Beaver game
+
 Allen H. Brady searched for terminating turmites (the equivalent of busy beavers) and found a 2-state 2-color machine that printed 37 1's before halting, and another that took 121 steps before halting. He also considered turmites that move on a triangular grid, finding several busy beavers here too.
+
 Ed Pegg, Jr. considered another approach to the busy beaver game. He suggested turmites that can turn for example both left and right, splitting in two. Turmites that later meet annihilate each other. In this system, a Busy Beaver is one that from a starting pattern of a single turmite lasts the longest before all the turmites annihilate each other.
 
 Other grids
+
 Following Allen H. Brady's initial work of turmites on a triangular grid, hexagonal tilings have also been explored. Much of this work is due to Tim Hutton, and his results are on the Rule Table Repository. He has also considered Turmites in three dimensions, and collected some preliminary results. Allen H. Brady and Tim Hutton have also investigated one-dimensional relative turmites on the integer lattice, which Brady termed flippers. (One-dimensional absolute turmites are of course simply known as Turing machines.)

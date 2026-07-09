@@ -1,13 +1,21 @@
 Shanghai Jieyue Xingchen Intelligent Technology Co., Ltd (known as StepFun) is an artificial intelligence (AI) company based in Shanghai, China. It has been dubbed one of China's "AI Tiger" companies by investors.
 
 Background
+
 StepFun was founded in April 2023 by former Microsoft employees. Investors include Tencent, Qiming Venture Partners and Shanghai State-owned Capital Investment.
+
 In July 2025 at the World Artificial Intelligence Conference, StepFun announced the "Model-Chip Ecosystem Innovation Alliance" which consisted of Chinese developers of large language models (LLMs) and AI chip manufacturers. This included companies such as Huawei, Biren Technology, Moore Threads and Enflame. Another second alliance named the "Shanghai General Chamber of Commerce AI Committee" was also established that included StepFun, SenseTime, MiniMax, MetaX and Iluvatar CoreX.
+
 StepFun focuses on multimodal models which are designed to understand multiple types of input data such as text, video and audio.
 
 Products
+
 In July 2024 at the World Artificial Intelligence Conference, StepFun officially launched Step-2, a trillion-parameter LLM, along with the Step-1.5V multimodal model and the Step-1X image generation model.
+
 In February 2025, StepFun and Geely jointly announced the open-sourcing of two multimodal large models to global developers. They were Step-Video-T2V and Step-Audio.
+
 In July 2025, StepFun released Step 3. The Model-Chip Ecosystem Innovation Alliance aimed to optimize Step 3 for domestic chips.
+
 In April 2025, Step-R1-V-Mini was released. It is a multimodal reasoning model designed for visual interpretation and image understanding.
+
 In February 2026 Step 3.5 Flash, a Mixture of Experts model with 196 billion parameters and 11 billion active parameters was released under the Apache 2.0 license. It supports tool use and a 256k token context window.

@@ -1,5 +1,7 @@
 Gemini 3 is a family of large language models developed by Google DeepMind, released on November 18, 2025. It is the successor to the Gemini 2.5 series. The initial release included two primary variants: Gemini 3 Pro and Gemini 3 Pro DeepThink. A third variant, the Flash version, was launched on December 17. Google also released Antigravity, an AI-assisted software development (also known as vibe coding) platform based on Gemini 3. According to Wired, Google has describing Gemini 3 as being integral to their to the company's business model despite wide-spread public concerns over an AI bubble in the industry at-large.
 
 Release
+
 The Gemini 3 Pro model was released seven months after the previous Gemini 2.5 Pro/Flash model. The model provides a 1 million-token context window.
+
 Google released Gemini 3 Pro on November 18, 2025. The Antigravity coding agent was released on the same day. The Gemini 3 Pro DeepThink started rolling out in December 5. Gemini 3 Flash, which is cheaper but has near-same capability as the Pro model, was made available on December 17. The model was also integrated into Google search as "AI mode".

@@ -1,12 +1,21 @@
 Geshe Lobsang Monlam (Tibetan: དགེ་བཤེས་བློ་བཟང་སྨོན་ལམ, Wylie: dge bshes blo bzang smon lam), born in 1976 in Ngawa eastern Tibet, is a Tibetan Buddhist scholar and programmer who uses digital technologies to preserve the Tibetan language and culture.. He is best known for developing Tibetan typefaces and for the multi-volume Great Monlam Tibetan Dictionary. In 2025, he received the Snow Lion Award for Human Rights from the International Campaign for Tibet. He is also working on developing a "Dalai Lama AI," a specialized language model.
 
 Biography
+
 Lobsang Monlam was born in 1976 in Ngawa, eastern Tibet, anciently Tibetan Amdo, where he became a monk at the age of 12..
+
 At the age of 17, in 1993, Lobsang Monlam fled Tibet by crossing the Himalayas to reach southern India and discovered computer science in a monastery.
+
 In 1993, he was ordained monk in the Sera Mey College in Bylakuppe, Karnataka, India, where he obtained a Geshe title in 2013..
+
 By the early 2000s, Lobsang Monlam had already learned to paint thangkas and to compose plans and drawings. He used this knowledge to design a new assembly hall for Sera Mey, which the monks needed. Thanks to his work, Lobsang Monlam received donations from patrons of the monastery, which he was able to use to buy his first computer.
+
 He bought his first laptop in 2002 and largely taught himself how to use the hardware and software with the help of manuals. As a Buddhist scholar, he combines meditation practice with his digital work. In 2012, he founded and directs the Monlam Tibetan Information Technology Research Center in Dharamsala, which specializes in Tibetan language and software projects. Since then, he is its director, researching Tibetan language-related software. In 2019, advised by the 14th Dalai Lama, he fonded Monlam IT and Research (OPC) Private Limited.
+
 Since the 2000s, Monlam has been developing Tibetan typefaces; the first Monlam Tibetan font was created in 2005. Under his direction, the Monlam Great Tibetan Dictionary was created, comprising 223 printed volumes and over 300,000 entries; approximately 150 people worked on this project for over nine years. On May 27, 2022, the Dalai Lama inaugurated the Monlam Tibetan Dictionary, produced by the  Monlam Tibetan Information Technology Research Center, at Namgyal Monastery in McLeod Ganj. According to Penpa Tsering, this is the world's largest dictionary, created with guidance from the Dalai Lama, based on proposals from Lobsang Monlam and his team under the direction of Samdhong Rinpoche, and other lamas from all schools of Tibetan Buddhism and Yungdrung Bön. On December 5, 2024, Lobsang Monlam testified at a hearing of the US Congressional-Executive Commission on China in Washington, chaired by Christopher Smith, on the difficulties of preserving the Tibetan language and culture in Tibet and the Tibetan diaspora, and on the interest of the Monlam Tibetan Informatics Research Center in developing technologies for the preservation of the Tibetan language. On December 12, 2024, the work was presented to the Library of Congress in Washington, D.C., and launched at an event. The free Monlam Great Tibetan Dictionary app is available in several languages; the German version was created in collaboration with the Tibet Institute Rikon and has been downloaded millions of times. In total, Monlam has created over 37 apps related to the Tibetan language and translation; In 2023, its center launched the Monlam artificial intelligence platform, equipped with modules for machine translation, optical character recognition, speech transcription and speech synthesis.. For their efforts, he and Sophie Richardson received the Snow Lion Award in 2025, which was presented by Richard Gere and came with a prize of €3,000.
+
 In 2019, he started a PhD at Bangalore University on Library Science. He obtained his doctorate on November 30, 2023.
+
 Currently, he spearheads Monlam AI.
+
 Lobsang Monlam is developing "Dalai Lama AI" to digitally preserve the teachings of the 14th Dalai Lama, now 90 years old, for future generations. Lobsang Monlam states, "If we succeed in preserving the Dalai Lama, we also preserve the movement."

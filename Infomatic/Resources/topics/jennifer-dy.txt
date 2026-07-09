@@ -1,8 +1,11 @@
 Jennifer Guani Dy is a Filipino-American computer scientist specializing in machine learning, with varied applications including the physiological effects of emotion, and the effects of the El Niño–Southern Oscillation on weather patterns. She is a COE Distinguished Professor at Northeastern University in Boston.
 
 Education and career
+
 Dy was an electrical engineering student at the University of the Philippines Diliman, where she graduated magna cum laude in 1993. After working for two more years as an instructor at the University of the Philippines, she came to the US for graduate study in electrical and computer engineering at Purdue University. She earned a master's degree in 1997, with a research project supervised by Jan P. Allebach, and completed her Ph.D. in 2001, advised jointly by Carla Brodley and Avinash Kak.
+
 She became an assistant professor at Northeastern University in 2002, was promoted to associate professor in 2008, and became full professor in 2015, jointly appointed in the Department of Electrical and Computer Engineering and the Khoury College of Computer Sciences. She is the director of experiential AI postdoc education in the Roux Institute, and director of AI faculty in the Institute for Experiential AI.
 
 Recognition
+
 Dy was named a Fellow of the Association for the Advancement of Artificial Intelligence in 2024, "for significant contributions to unsupervised and interpretable machine learning, advancing AI to address health care challenges, and service to the AI community".

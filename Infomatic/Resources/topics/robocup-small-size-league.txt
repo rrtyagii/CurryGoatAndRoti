@@ -1,13 +1,17 @@
 The RoboCup Small Size League (SSL) is a RoboCup soccer league.
 
 Old format
+
 Two teams of six robots which are limited to an 18 cm diameter and 15 cm height play soccer with an orange golf ball. They are identified and tracked by four overhead cameras connected to an off-field computer. The field size is 9metersx6meters. Then robots' and balls' status including their position and id are sent to teams' computers. Their AI software sends commands to the robots based on the vision data.
 
 New format
+
 As of 2018, there are now two divisions, the B division that continued to use the same parameters as before (6 robots, 9x6 meter field, etc) and the A division that changed a lot of parameters. This change was brought to improve the tournament experience by making the more experienced teams face each other while letting the newer teams improve their algorithms with more balanced face offs.
 
 Division A new parameters
+
 A software referee now calls automatically the penalties and a human referee only supervises the calls and corrects them if need be.
+
 Robots are fully autonomous, they have to place the ball where the auto referee commands (when the ball leaves the field for example)
 Field is now 12x9 meters.
 Games oppose 2 teams of 11 robots. (Prior to 2021 it was 8 vs. 8)

@@ -1,15 +1,24 @@
 Yun Sing Koh (born 1978) is a New Zealand computer science academic, and is a full professor at the University of Auckland, specialising in machine learning and artificial intelligence. She is a co-director of the Centre of Machine Learning for Social Good, and the Advanced Machine Learning and Data Analytics Research (MARS) Lab at Auckland.
 
 Academic career
+
 Koh earned a Bachelor of Science with Honours and a Master of Software Engineering at the University of Malaya. She then completed a PhD titled Generating sporadic association rules at the University of Otago in 2007. Koh joined the faculty of the University of Auckland in 2010, rising to full professor. As of 2024, she is director of the Centre of Machine Learning for Social Good at Auckland, alongside Gillian Dobbie and Daniel Wilson, and is director of the Master of AI course at the university. Koh also co-directs the Advanced Machine Learning and Data Analytics Research (MARS) Lab.
+
 Koh's research covers machine learning and artificial intelligence. She is especially interested in designing machine learning algorithms for data streams, and has led research using AI systems to identify individual stoats for pest population research. In 2018 she was awarded a Marsden grant for a research project "An Adaptive Predictive System for Life-long Learning on Data Streams", and has been part of three MBIE projects.
+
 Koh was a finalist in the AI in Climate section of the Women in AI Australia and New Zealand Awards in 2022. She was a 2023 Fellow at the United States National Science Foundation-funded Convergence Research (CORE) Institute. Koh has chaired a number of sessions at international conferences on data mining.
 
 Selected works
+
 Shafiq Alam; Gillian Dobbie; Yun Sing Koh; Patricia Riddle; Saeed Ur Rehman (August 2014). "Research on particle swarm optimization based clustering: A systematic review of literature and techniques". Swarm and evolutionary computation. 17: 1–13. doi:10.1016/J.SWEVO.2014.02.001. ISSN 2210-6502. Wikidata Q125185161.
+
 Yun Sing Koh; Nathan Rountree; Richard O’Keefe (1 April 2006). "Finding Non-Coincidental Sporadic Rules Using Apriori-Inverse". International Journal of Data Warehousing and Mining (in Ndonga). 2 (2): 38–54. doi:10.4018/JDWM.2006040102. ISSN 1548-3924. Wikidata Q125185222.
+
 Russel Pears; Sripirakas Sakthithasan; Yun Sing Koh (11 January 2014). "Detecting concept change in dynamic data streams". Machine Learning. 97 (3): 259–293. doi:10.1007/S10994-013-5433-9. ISSN 1573-0565. Zbl 1319.68186. Wikidata Q125185156.
+
 David Tse Jung Huang; Yun Sing Koh; Gillian Dobbie; Russel Pears (December 2014), Detecting Volatility Shift in Data Streams, Institute of Electrical and Electronics Engineers, doi:10.1109/ICDM.2014.50, Wikidata Q125185151
 Sidney Tsang; Yun Sing Koh; Gillian Dobbie (2011). "RP-Tree: Rare Pattern Tree Mining". Lecture Notes in Computer Science: 277–288. doi:10.1007/978-3-642-23544-3_21. ISSN 0302-9743. Wikidata Q125185206.
+
 Yun Sing Koh; Sri Devi Ravana (24 May 2016). "Unsupervised Rare Pattern Mining". ACM Transactions on Knowledge Discovery from Data. 10 (4): 1–29. doi:10.1145/2898359. ISSN 1556-4681. Wikidata Q125185136.
+
 Yun Sing Koh; Nathan Rountree (2010). Rare Association Rule Mining and Knowledge Discovery: Technologies for Infrequent and Critical Event Detection. IGI Global. doi:10.4018/978-1-60566-754-6. ISBN 978-1-60566-754-6. Wikidata Q125185213.

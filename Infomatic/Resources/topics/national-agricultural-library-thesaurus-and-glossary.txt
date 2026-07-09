@@ -1,26 +1,43 @@
 The National Agricultural Library Thesaurus Concept Space (abbreviated NALT) is a controlled vocabulary of terms related to agricultural, biological, physical and social sciences. NALT is used by the National Agricultural Library (NAL) to annotate peer reviewed journal articles for NAL’s bibliographic citation database, AGRICOLA, PubAg, and Ag Data Commons. The Food Safety Research Information Office (FSRIO) and Agriculture Network Information Center (AgNIC) also use the NALT as the indexing vocabulary for their information systems. In addition, the NALT is used as an aid for locating information at the Agricultural Research Service (ARS) and the Economic Research Service (ERS) web sites and databases.
 
 Historical overview
+
 The NAL staff originally developed and funded NALT to meet the needs of the ARS of the United States Department of Agriculture (USDA). NALT referenced databases such as the AlgaeBase, BioTech life science dictionary, Cambridge dictionary, Index Fungorum, NCBI Taxonomy Database and Integrated Taxonomic Information System in its formation. The thesaurus was rigorously reviewed and tested by ARS scientists and specialists throughout its early developments.
+
 The first edition was published by the National Agricultural Library on January 1, 2002. Since May 2007, NALT has been available in English and Spanish in cooperation with the Inter-American Institute for Cooperation on Agriculture (IICA), as well as other Latin American agricultural institutions belonging to the Agriculture Information and Documentation Service of the Americas (SIDALC).
+
 NALT is mapped to resources such as the Library of Congress Subject Headings, CAB Thesaurus, AGROVOC and Wikidata. NALT, along with the two other major agricultural thesauri, AGROVOC and CAB-Thesaurus, make up the Global Agricultural Concept Space (GACS), which was the first known concept space formed in March 2014. NALT has been endorsed by AGNIC, Research Data Alliance Wheat Data Interoperability Group (RDA WDI) and the Alliance on Agricultural Information and Documentation Services (SIDALC).
 
 Technical advances
+
 The thesaurus was made available as Linked Open Data in 2010, assigning persistent URI labels for preferred label concepts to create meaningful relationships between different information resources (such as Web pages, datasets and research articles). These URIs are required for NALT concepts to be used as a global metadata reference, enabling aggregation of content so that related content could be located more efficiently. Its knowledge graph, a SKOS concept scheme, enables these data mappings.
+
 The "NALT For the Machine Age" (N4MA) initiative was launched in June 2020, transforming the thesaurus into a state-of-the-art multischeme "NALT Concept Space" which captures human conceptual knowledge in machine readable form. This data standard is inspired by GACS and expands on the preexisting hierarchical structure of a thesaurus by creating alternative hierarchical arrangements in sub-schemes within the overall hierarchy. The N4MA vision is to use NALT and other semantic innovations to normalize and connect agricultural data, allowing for machine integration and increased automation to manage and advance agricultural research.
+
 An alternative hierarchical arrangement has since been created though structural features "NALT Core" and "NALT Full". The NALT Core is a trim NALT subscheme with 13,791 frequently used agricultural concepts, including 4,396 agriculturally important organisms (taxa) and structural updates. The NALT Full is a more granular knowledge base, containing the NALT Core in addition to 48,000 additional agricultural related organisms (taxa), in addition to several thousand less frequently used concepts for a total of 76,933 concepts. There are 11 concept types (Organism, Chemical, Product, Geographical, Topic) which express the most salient features of the concept space.
 
 Animals, Livestock, One Health
+
 Economics, Trade, Law, Business, Industry
+
 Farms, Agricultural Production Systems
+
 Fields of Study
+
 Forestry, Wildland Management
+
 Geographical Locations
+
 Human Nutrition, Food Safety and Quality
+
 Natural Resources, Conservation, Environment
+
 Plant Production, Gardening
+
 Research, Technology, Methods
+
 Rural Development, Communities, Education, Extension
 
 Availability
+
 NALT schemes are available for download, as published and maintained by NAL. The Thesaurus and Glossary can be downloaded in three editions of SKOS: RDF-XML, RDF-Ntriples and RDF-Turtle. The U.S. Government waives copyright and related rights in this work worldwide through the CC0 1.0 Universal Public Domain Dedication, allowing for it to be in the nation’s public domain.

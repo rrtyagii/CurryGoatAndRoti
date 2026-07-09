@@ -1,7 +1,9 @@
 The 2025 season of the Abu Dhabi Autonomous Racing League began in 11 April 2025 in Abu Dhabi. This year marks the first multi-format season of the A2RL, racing both drones and self-driving cars. The venue of choice for the Car Race, set for 15 November 2025, is the Yas Marina Circuit, same as the previous year, while the Drone Race was held at the ADNEC Marina Hall.
 
 Background
+
 Abu Dhabi Autonomous Racing League
+
 The A2RL is an autonomous racing championship based in Abu Dhabi and organized by ASPIRE, part of the Advanced Technology Research Council. It is one of two active autonomous car racing championships, the second being the US-based Indy Autonomous Challenge. However, it was a shame fans were unable to follow the live stream on YouTube as promised. Unlike the IAC, which primarily focuses on time trials and simulated races, the A2RL's car races are closer to a standard grand prix formula race format. Both use Dallara-supplied racecars; the IAC uses the AV-24 chassis derived from Indy NXT's IL-15, while the A2RL chassis is designated EAV-24 and is derived from the SF-23 chassis used in Japanese Super Formula races.
 
 Entrants
@@ -23,22 +25,34 @@ As part of the build-up to the race, the SIM Sprint series is a series of simula
 
 SIM Sprint standings
 Qualifying
+
 Qualifying took place in October 2025. The top 6 in the 3-kilometer short-course time trials  qualified for the main race.
 
 Qualifying report
 Once the qualifying cars were determined, there were a pair of sprint races to set the grid for the main event. One race was disputed by the top three qualifying teams and determined the pole-sitting car and the other two cars' starting positions, the other was disputed among the teams that scored P4 though P6 in the time trials and determined the remaining grid positions.
 
 Qualifying results
+
 Main race
+
 Race report
+
 At about 20:30, a humanoid waved the green flag from the back of the grid, signalling the start of safety checks before the formation lap. It was a rolling start.
+
 On Lap 1, just a few corners after crossing the line, Hailey (for team Technical University of Munich, or TUM) and Gianna (for team Unimore) quickly pushed out front, with what the commentators described as “aggressive” from Gianna.
+
 On Lap 2 at Turn 6, Gianna dives up the inside of Hailey to take the lead. Hailey takes evasive action and slows down slightly.
+
 At the end of Lap 6/start of Lap 7, both Gianna and Hailey lap slow-moving Constructor AI (for Constructor University), now 35 seconds behind Eva (team PoliMove). Gianna was slowed down by Constructor AI, causing Hailey to close the gap to Gianna.
+
 On Lap 12, while trying to lap Constructor AI again and simultaneously defend from Hailey, Gianna rear-ended Constructor AI, causing Gianna to run into the barriers at Turn 1 and both cars to retire. This brought out a red flag, followed by a Full Course Yellow.
+
 During the Full Course Yellow, on Lap 13, Turn 5, Sparkz (for team Kinetiz) span, presumably from cold tyre temperatures (a big concern after 2024’s race), and dropping from second place down to fourth and last of the remaining cars.
+
 On Lap 15, the green flag was shown, and the race was resumed.
+
 On Lap 20, Hailey took the chequered flag and won the race for team TUM, as they did in 2024. Musa for TII Racing came second, over 47 seconds behind Hailey. Eva for PoliMove finished third.
 
 Final race classification
+
 Source:

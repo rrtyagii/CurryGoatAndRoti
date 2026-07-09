@@ -1,27 +1,43 @@
 Versatile Video Coding (VVC), also known as H.266, ISO/IEC 23090-3, and MPEG-I Part 3, is a video compression standard finalized on 6 July 2020, by the Joint Video Experts Team (JVET) of the VCEG working group of ITU-T Study Group 16 and the MPEG working group of ISO/IEC JTC 1/SC 29. It is the successor to High Efficiency Video Coding (HEVC, also known as ITU-T H.265 and MPEG-H Part 2). It was developed with two primary goals – improved compression performance and support for a very broad range of applications.
 
 Concept
+
 In October 2015, the MPEG and VCEG formed the Joint Video Exploration Team (JVET) to evaluate available compression technologies and study the requirements for a next-generation video compression standard. The new standard has about 50% better compression rate for the same perceptual quality compared to HEVC, with support for lossless and lossy compression. It supports resolutions ranging from very low resolution up to 4K and 16K as well as 360° videos. VVC supports YCbCr 4:4:4, 4:2:2 and 4:2:0 with 8–10 bits per component, BT.2100 wide color gamut and high dynamic range (HDR) of more than 16 stops (with peak brightness of 1,000, 4,000 and 10,000 nits), auxiliary channels (for depth, transparency, etc.), variable and fractional frame rates from 0 to 120 Hz and higher, scalable video coding for temporal (frame rate), spatial (resolution), SNR, color gamut and dynamic range differences, stereo/multiview coding, panoramic formats, and still-picture coding. Work on high bit depth support (12 to 16 bits per component) started in October 2020 and was included in the second edition published in 2022. Encoding complexity of several times (up to ten times) that of HEVC is expected, depending on the quality of the encoding algorithm (which is outside the scope of the standard). The decoding complexity is about twice that of HEVC.
+
 VVC development has been made using the VVC Test Model (VTM), a reference software codebase that was started with a minimal set of coding tools. Further coding tools have been added after being tested in Core Experiments (CEs). Its predecessor was the Joint Exploration Model (JEM), an experimental software codebase that was based on the reference software used for HEVC.
+
 Like its predecessor, VVC uses motion-compensated DCT video coding. While HEVC supports integer discrete cosine transform (DCT) square block sizes between 4×4 and 32×32, VVC adds support for non-square DCT rectangular block sizes. VVC also introduces several intra-frame prediction modes based on these rectangular DCT blocks to provide improved motion compensation prediction.
 
 History
+
 JVET issued a final Call for Proposals in October 2017, and the standardization process officially began in April 2018 when the first working draft of the standard was produced.
+
 At IBC 2018, a preliminary implementation based on VVC was demonstrated that was said to compress video 40% more efficiently than HEVC.
+
 The content of the final standard was approved on 6 July 2020.
 
 Schedule
+
 October 2017: Call for proposals
+
 April 2018: Evaluation of the proposals received and first draft of the standard
+
 July 2019: Ballot issued for committee draft
+
 October 2019: Ballot issued for draft international standard
+
 6 July 2020: Completion of final standard
 
 Licensing
+
 To reduce the risk of the problems seen when licensing HEVC implementations, for VVC a new group called the Media Coding Industry Forum (MC-IF) was founded. However, MC-IF had no power over the standardization process, which was based on technical merit as determined by consensus decisions of JVET.
+
 Four companies were initially vying to be patent pool administrators for VVC, in a situation similar to the previous AVC and HEVC codecs. Two companies later formed patent pools: Access Advance and MPEG LA (now known as Via-LA).
+
 Access Advance published their licensing fee in April 2021. Via-LA published their licensing fee in January 2022.
+
 Companies known not to be a part of the Access Advance or Via-LA patent pools as of May 2025 are: Apple, Broadcom, Canon, Ericsson, Fraunhofer, Google, Huawei, Intel, Interdigital, LG, Maxell, Microsoft, Nokia, Oppo, Qualcomm, Samsung, Sharp and Sony. Access Advance promotes a standalone VVC licensing program under the name of VVC Advance, while Via-LA is promoting a combined HEVC/VVC licensing program; until April 2024, Via-LA was licensing VVC standalone.
+
 In December 2025 Access Advance acquired Via Licensing Alliance’s HEVC and VVC patent pools but that still doesn't resolve the licensing situation because multiple companies beyond the former two patent pools administrators hold patents for the codec.
 
 Adoption
@@ -32,12 +48,17 @@ Fraunhofer HHI released a source-available encoder called VVenC and decoder call
 Fraunhofer Versatile Video Encoder (VVenC)
 Fraunhofer Versatile Video Decoder (VVdeC)
 VVC VTM reference software
+
 Tencent Media Lab offers a real time decoder and the Tencent Cloud service offers transcoding and streaming in its cloud infrastructure.
 uvg266 open source encoder
 ffmpeg starting with version 7.0 supports experimental decoding. Version 7.1 elevated support to official status. As of July 2025, ffmpeg has two decoders available: one software decoder and one qsv decoder.
+
 LAV Filters, ffmpeg based DirectShow splitter and decoders for Windows, supports demuxing and decoding starting with version 0.79.
+
 OpenVVC, an incomplete open-source VVC decoder library licensed under LGPLv2.1
+
 Spin Digital offers a real-time software encoder that supports 8K@60 and 4K@120, both 4:2:0 10-bit.
+
 Players
 
 Spin Digital sells a real time decoder and player for Linux and Windows devices.
@@ -47,7 +68,11 @@ MPC-BE starting with version 1.7.0.
 Zoom Player Steam Edition starting with version v19 beta 6 with the help of LAV Filters v0.79.
 
 Hardware
+
 Broadcast
+
 The Brazilian SBTVD Forum adopted the MPEG-I VVC codec in broadcast television system, TV 3.0, launched in August 2025. It is used alongside MPEG-5 LCEVC as a video base layer encoder for broadcast and broadband delivery.
+
 The European organization DVB Project, which governs digital television broadcasting standards, announced 24 February 2022 that VVC was now part of its tools for broadcasting.
+
 The DVB tuner specification used throughout Europe, Australia, and many other regions has been revised to support the VVC (H.266) video codec, the successor to HEVC.

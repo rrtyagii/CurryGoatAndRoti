@@ -1,34 +1,47 @@
 The Technology Innovation Institute (TII) is an Abu Dhabi government funded research institution that operates in the areas of artificial intelligence, quantum computing, autonomous robotics, cryptography, advanced materials, digital science, directed energy, secure systems, and more recently also: biotechnology, renewable and sustainable energy, and propulsion and space. The institute is a part of the Abu Dhabi Government's Advanced Technology Research Council (ATRC).
 
 Formation and activities
+
 TII was founded in May 2020 and its first board meeting took place in August 2020. Dr Najwa Aaraj is currently serving as the 2nd CEO of the institute, following Dr. Ray O. Johnson's tenure as the inaugural CEO until 2024. In April 2020, the institute started Citizen Science, an initiative to address the need for specialized medical equipment, data analysis and related technical support in the wake of COVID-19 pandemic. In October 2020, it granted $2.3 million fund to a research group of Purdue University to explore the secure and efficient operations of drones. In December 2020, it announced collaboration with Virgin Hyperloop to explore and implement "localisation of the futuristic transportation method.” In March 2021, the institute signed a memorandum of understanding  with Mohamed bin Zayed University of Artificial Intelligence to augment research in Artificial Intelligence.
+
 The institute has ten research centres:
 
 Quantum Research Centre
+
 The quantum research centre has been established with the aim to develop UAE's first quantum computer. In March 2021, it was announced that the first quantum computer will be developed at the institute's Quantum Research Centre under the supervision of chief researcher Jose Ignacio Latorre and in collaboration with Spanish organization Qilimanjaro Quantum Tech. The area of operations of Quantum Research Centre includes quantum cryptography, quantum algorithms, quantum communications and quantum sensing.
 
 Autonomous Robotics Research Centre
+
 Autonomous robotics research centre deals with the automation and robotics related research and development.
 
 Cryptography Research Centre
+
 The cryptography research centre dealing in the area of cryptography has developed The National Crypto Library, in December 2020, to secure medical records pertaining to the COVID-19 pandemic. Najwa Aaraj is presently serving as the chief researcher of the centre. During April 2021, the centre developed its second library, a Post-Quantum Cryptography which is a "collection of algorithms to safeguard confidential data and information" keeping the focus on prospective post-quantum era.
 
 Advanced Materials Research Centre
+
 The AMRC is the department of TII that deals with nanomaterials, self healing materials, smart materials, meta materials, additive manufacturing and energy-absorbing materials and structures. The centre is presently headed by chief researcher Dr. Vincenzo Gianini.
 
 AI and Digital Science Research Centre
+
 The primary domains of operation of the AI and Digital Science Research Centre are in the fields of data science, computing science, telecommunications and cyber security. It was founded by Professor Merouane Debbah.
+
 The center has three units: the AI Cross-Center Unit, the Digital Security Unit and the Digital Telecom Unit. The AI Cross-Center Unit does work involving Large Language Model training, evaluation, deployment, and alignment. The Digital Security Unit devises automated and autonomous vulnerability detection and mitigation techniques for software and embedded devices. Finally, The Digital Telecom Unity develops advances communication systems for 5G and 6G systems as well as connected vehicles.
+
 In 2022, the center launched 'Noor,' which at the time was the world's largest Arabic natural language processing model. They have also released a number of large language models under the name 'Falcon', including Falcon H1 Arabic and Falcon Reasoning.
 
 Directed Energy Research Centre
+
 The domain of operation of DERC happen to be electromagnetics, photonics and acoustics. The centre is known for developing the electromagnetic compatibility labs, which is first of its kind in gulf region. The DERC centre is composed of three facilities namely, EMC semi-anechoic chamber, a pulsed power laboratory, and a low-noise emanation laboratory.  The centre is known for working in collaboration with Gulf Cooperation Council, anechoic chambers etc. Presently, the centre is headed by chief researcher Chaouki Kasmi. In May 2021, the centre forged partnership with a number of academic institutions including Ruhr University, Helmut Schmidt University, University Clermont Auvergne, National University of Colombia etc.
 
 Secure Systems Research Centre
+
 The secure system research centre is known for its operation in hardware hardening, software hardening, system integrity, network resilience etc. The centre is currently headed by chief researcher Shreekant Thakkar. During September 2021, the centre launched the first motion capture (MOCAP) facility outside the United States. The system is supposed to aid the research related to testing of Unmanned Aerial Vehicles in an augmented reality or virtual reality. In October 2021, the centre announced its partnership with Khalifa University of Science and Technology, University of Turku and Graz University of Technology in relation to the ongoing research projects in secure mesh communications.
+
 In 2022, three additional research centres were established:
 
 Biotechnology Research Centre
+
 Headed by chief researcher Dr. Thomas Launey, the BRC is developing products across all branches of biotechnology, in Biomedicine, Biorobotics, Environmental Biotech, Molecular Biology and Genomics and Bioinformatics for biomedical and healthcare applications, agritech, pharma and biopharma, bioproduction and industrial solutions, aquaculture, synthetic biology, in-silico and AI products. Its research facilities opened in 2024.
 
 Renewable and Sustainable Energy Research Centre
@@ -38,4 +51,5 @@ Propulsion and Space Research Center
 The centre is presently headed by acting chief researcher Gustavo dos Santos.
 
 Events
+
 In 2024, a new large language model in the Falcon series was launched, Falcon Mamba (7B), which is an open source language model of the SSLM type.

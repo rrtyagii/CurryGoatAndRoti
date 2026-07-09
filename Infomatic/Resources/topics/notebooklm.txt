@@ -1,26 +1,43 @@
 NotebookLM (Google NotebookLM; LM short for "Language Model") is a research and note-taking online tool developed by Google Labs that uses artificial intelligence (AI), specifically Google Gemini, to assist users in interacting with their documents.
+
 Google describes NotebookLM as a "virtual research assistant". The team building the product includes popular science author Steven Johnson and product manager Raiza Martin.
 
 History
+
 NotebookLM was first introduced in May 2023 under the experimental name Project Tailwind, presented as an AI-driven notebook capable of learning from user-provided documents.
+
 In 2024, Google rebranded the tool as NotebookLM and began rolling it out more broadly to researchers, students, and enterprise testers.
+
 On October 17, 2024, Google removed the software’s “experimental” status, signaling its transition into a stable product.
+
 In December 2024, the company launched a paid tier named NotebookLM Plus for enterprise customers and Gemini Advanced subscribers via Google Workspace and Google Cloud.
 
 Additional developments (2023–2025)
+
 Throughout late 2024 and early 2025, Google continued expanding NotebookLM’s availability and feature set.
+
 On February 10, 2025, Google extended NotebookLM Plus to individual users through the Google One AI Premium subscription plan, following its initial enterprise-only launch in December 2024.
+
 As part of its broader AI strategy, Google introduced deeper integrations with Gemini, allowing NotebookLM to leverage multimodal reasoning, audio generation, and improved long-context processing in early 2025. These updates made the platform more competitive within enterprise research, academic workflows, and professional documentation management.
 
 Usage
+
 NotebookLM can generate summaries, explanations, and answers based on content uploaded by users. It analyzes the provided sources to extract key ideas and present them in a simplified and structured manner.
+
 In addition to text files, NotebookLM can process PDFs, Google Docs, websites, and Google Slides. The system can also handle video files, but only when transcripts or subtitles are provided, as it cannot automatically extract transcripts from videos that lack them.
+
 The "Audio Overviews" feature, released in September 2024, converts documents into a conversational, podcast-like discussion between two AI hosts. The feature received attention for its ability to condense complex or lengthy documents into accessible audio summaries.
+
 In December 2024, Google introduced *interactive Audio Overviews*, allowing users to join the AI-generated conversation by tapping the “Join” option. Users can ask questions directly and participate in the discussion with the AI hosts.
+
 In 2025, NotebookLM added a new "Video Overviews" feature, which transforms document summaries into visual slide-style videos combining AI narration, images, diagrams, and structured explanations. Google later expanded both audio and video overviews to more than 80 languages.
+
 In early 2025, Google launched *NotebookLM Plus*, a premium version included in the Google One AI Premium plan. The upgraded tier provides higher usage limits, support for longer documents, collaborative notebooks, and enhanced output controls.
+
 In November 2025, NotebookLM added a new "Infographics" and "Slide Deck" feature. These features, powered by Google's Nano Banana Pro image model, allow users to visualize their source material as presentations or detailed infographics.
 
 Adoption
+
 The 2024 Spotify Wrapped used this feature to generate podcast-style personalized overviews of individual listening habits.
+
 Initially intended for researchers, NotebookLM has also been adopted by companies and students.

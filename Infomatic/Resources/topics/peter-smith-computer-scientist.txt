@@ -3,41 +3,64 @@ Smith was a Principal Fellow of The Higher Education Academy and Fellow of the B
 In 2022 he was awarded an Honorary Doctorate of Technology by the University of Sunderland.
 
 Career
+
 University of Sunderland
 In 1978, Smith graduated with a BSc in Computing and Mathematics from University of Sunderland. In 1981 he completed his PhD in Modelling and Computer Simulation, also at University of Sunderland. Smith then went on to hold a number of positions at the University. He spent 11 years as a lecturer before being made a professor in 1992. He went on to become Dean of Computing and Technology from 1999 until 2007. In 2012, Smith retired from the University and was made Emeritus Professor.
+
 In July 2022, University of Sunderland recognised and commemorated Smith's significant contribution to academia, awarding him an Honorary Doctorate of Technology.
 
 Publications
+
 Smith was a prolific writer and published over 300 academic contributions including books, book chapters and academic papers. He also spoke at conferences around the world, including presentations in many cities in the UK, Europe, United States and Hong Kong. Many of these have been invited papers. He wrote on a variety of topics including mathematics and software engineering.
 
 Other professional roles
+
 For many years, Smith was a visiting professor at the Dublin Institute of Technology. His involvement with the Dublin Institute of Technology began in 2000 with an invitation to join a staff development programme initiated by the Head of School. This involved bringing in Visiting Professors in Computer Science with proven records of supervising PhD candidates to supervise staff for PhDs. In 2018, Dublin Institute of Technology became one of Ireland's first Technological Universities, the Technological University Dublin.
+
 Smith was a Visiting Professor with the University of Cumbria and an adjunct professor with the University of Limerick. He also supervised students at the University of Central Lancashire.
+
 He was a Chartered Engineer, Chartered Mathematician, Chartered Statistician, Chartered Manager and a Chartered IT Professional.
+
 Smith was a professional reviewer and Membership assessor for the British Computer Society, interviewing candidates for Professional Membership and Chartered Engineer Status.
+
 In 2020 Smith became one of the founding editors of the new Springer journal AI and Ethics.
 
 Doctoral education
+
 Smith supervised over 60 PhD and DProf candidates and attended over 200 viva examinations in the UK. He was an external examiner at over 30 universities around the world, including examinations in the UK, Ireland, Spain, India and Hong Kong. He also chaired over 100 PhD examinations. In 2014 Smith wrote a text book for PhD students, specifically based on the viva examination. From 2007 to 2012 Smith was programme leader for the professional doctorate programme at University of Sunderland. In 2013, he, along with three colleagues, wrote one of the first text books for professional doctorate students.
 
 Projects
+
 Smith worked on a number of collaborative projects throughout his career. This included the European ESPRIT project CIM-REFLEX. The objective of CIM-REFLEX was to facilitate the timely and flexible execution of small production batches in small and medium-sized enterprises (SMEs). It built on the data storage and acquisition capabilities provided by existing MRP and shopfloor data acquisition equipment, and provided support for high level decisions concerning product configuration, costing and scheduling.
+
 He also worked on a number of conditioning monitoring and machine maintenance projects with his colleague Professor John Macintyre.
+
 Smith worked with colleagues in International Paint to develop an early knowledge management system, which used semantic networks to model the knowledge within the organisation.
+
 He also worked on a project with British Gas which build an early expert system to forecast gas demand.
+
 Smith was also a coinvestigator on the £2 million+ SERC (now EPSRC) project the Engineering Design Centre, based at Newcastle University which was at the forefront of design methods in marine design and naval architecture.
+
 He is best known for his contributions to Artificial Intelligence and Doctoral education.
 
 Digital inclusion
+
 Smith was involved in a number of projects which promoted the use of computers to the residents of Sunderland.
+
 In 2007, Smith was part of a small team which bid for the national Digital Challenge competition, consisting of Age UK Sunderland, the University of Sunderland and Sunderland City Council. Sunderland was successful in winning the national competition. This programme brokered £5 million into the city, going to community groups and widening access to technology. The programme consisted of a suite of projects to provide computer facilities and support to the digitally excluded in the city.
+
 In 2025, Smith contributed significantly to the TechBrief, Advancing Accessibility in the Digital World, published by the Association of Computing Machinery, encouraging policymakers to draft policies, laws, and regulations prioritizing digital accessibility to ensure that technology serves everyone.
 
 Music
+
 From the late 1960s, Smith attended thousands of popular music gigs all around the UK. In 2011 he began a blog, documenting the gigs he had attended and his many musical experiences. During the past decade, Smith published numerous papers and books relating to music. He wrote about the development of rock venues, particularly arenas,   classic rock including book chapters on the Rolling Stones and The Who and punk rock, including a book chapter on the Clash and a paper and book on the Sex Pistols.
 
 Personal life and death
+
 Peter Smith was born on 19 September 1956. He always lived in Sunderland, where he and his late wife Marie raised three children, two daughters and one son. He had a granddaughter and grandson and greatly enjoyed his family life.
+
 In 2016 Smith fell down the stairs at his family home, sustaining a spinal cord injury which left him paralysed from the neck down. He had 24-hour care at home and since his injury, he worked closely with the Spinal Injuries Association (SIA) who have supported him in regaining his independence.
+
 Despite his injury, Smith still continued to work, having published several books and papers after his accident and continued to lecture and coach students online. He continued to publish, and had begun to write articles about his disability, one of which he co-authored with his younger daughter Laura, who is blind.
+
 Smith died on 27 May 2025, at the age of 68. Following his death, the University of Sunderland paid tribute, with Sir David Bell, the University's Vice-Chancellor and Chief Executive, saying: "Peter Smith was University of Sunderland through-and-through. From graduating here in the late 1970s through to occupying the role of Dean of Computing and Technology, Peter was devoted to the University and its students and staff. ... The University will be a poorer place without Peter Smith. We mourn his passing and express our deepest condolences to his family and all those, worldwide, who knew and respected him."

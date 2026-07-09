@@ -1,9 +1,13 @@
 H Company, also known simply as H, is a French artificial intelligence startup which develops "action-oriented" artificial intelligence agents for enterprise automation and productivity. In May 2024, H Company closed a record-setting $220 million seed round, at the time the largest AI raise in Europe.
 
 History
+
 H Company was founded in 2023 in Paris by Laurent Sifre, Charles Kantor, and three DeepMind veterans: Daan Wiestra, Karl Tuyls, Julien Perollat. In May 2024, the firm secured what was then the largest European AI seed round, totaling $220 million led by US investors including Eric Schmidt (former Google CEO), Amazon, and backed by Accel, Bpifrance, UiPath, Eurazeo, Xavier Niel, Yuri Milner, Bernard Arnault, Samsung and others. In August 2024, three cofounders (Wiestra, Tuyls, Perollat) left the company over operational disagreements.
+
 In November 2024, H launched Runner H, its first agentic-API platform, which combined a large language model (LLM) and a reduced, 2-billion parameter vision-language model (VLM). In  May 2025, H Company acquired Mithril Security, and in June 2025 the company widened its offering for agentic models. In June 2025, Gaultier Cloix (formerly CEO Palantir France) replaced Charles Kantor as CEO of H Company, aiming to pivot the company towards a "forward deployed engineers" model. In July 2025, H Company introduced Surfer-H-CLI, an open-source, web-native Chrome agent designed for browser-based automation—able to search, scroll, click, and type on behalf of users and controllable via any visual language model (VLM). When paired with its June 2025 open-sourced 3B-parameter Holo-1 model, Surfer-H-CLI achieved 92.2% WebVoyager benchmark accuracy.
 
 Activity
+
 H Company creates enterprise AI models and agents (agentic AI) to automate and optimize complex workflows. H Company specifically designs AI agents called computer use capable of autonomously interfacing with any software (local or cloud-based) to detect and automate repetitive operations.
+
 H Company is based in Paris, France, with international offices in London and New York. H Company raised $220 million since its inception. Gaultier Cloix is President and CEO of the company. H Company client include the French national lottery FDJ United.

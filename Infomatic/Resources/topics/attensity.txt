@@ -1,6 +1,9 @@
 Attensity was an American company that provided social analytics and engagement applications for social customer relationship management (social CRM). Attensity's text analytics software applications extracted facts, relationships and sentiment from unstructured data.
 
 History
+
 Attensity was founded in 2000. An early investor in Attensity was In-Q-Tel, which funds technology to support the missions of the US Government and the broader DOD.  InTTENSITY, an independent company that has combined Inxight with Attensity Software (the only joint development project that combines two InQTel funded software packages), was the exclusive distributor and outlet for Attensity in the Federal Market. In 2009, Attensity Corp., then based in Palo Alto, merged with Germany's Empolis and Living-e AG to form Attensity Group. In 2010, Attensity Group acquired Biz360, a provider of social media monitoring and market intelligence solutions. In early 2012, Attensity Group divested itself of the Empolis business unit via a management buyout; that unit currently conducts business under its pre-merger name.
+
 Attensity Group was a closely held private company. Its majority shareholder was Aeris Capital, a private Swiss investment office advising a high-net-worth individual and his charitable foundation. Foundation Capital, Granite Ventures, and Scale Venture Partners were among Biz360's investors and thus became shareholders in Attensity Group.
+
 In February 2016, Attensity's IP assets were acquired by InContact, and Attensity closed.

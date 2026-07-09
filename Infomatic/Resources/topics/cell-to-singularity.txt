@@ -1,12 +1,17 @@
 Cell to Singularity (also known as Cell to Singularity: Evolution Never Ends), is an incremental game released by Computer Lunch in 2018. It utilizes idle game mechanics and teaches players about evolution, science and the humanities.
 
 Game mechanics
+
 Cell to Singularity begins in the main simulation and features an artificial intelligence called Semblance, who requests that the player helps her with an experiment, which is the game.
+
 The player starts with a view of a tech tree and can click or tap the screen (depending on the device) to generate a currency called entropy, which is used to purchase generators representing life forms or objects in the evolutionary pathway, or upgrade nodes that represent other evolutionary adaptations. Generators generate currency online or offline, while nodes can do nothing or increase the efficiency of a generator. This continues until the player unlocks a new type of currency called ideas and unlocks a new part of the tree dedicated to human civilization. The player can view the unlocked generators and objects in a 3D "garden".
+
 After unlocking the Singularity, the simulation prestiges in the form of a simulation crash, and the Reality Engine is unlocked, where players can use a prestige currency called Metabits (generated from entropy) and Knowledge (from ideas that run off the simulation) to unlock nodes to increase speed, boost time, or unlock and upgrade Nanobots, which can provide a sort of temporary auto-click function. The player then starts again, but with much greater speed, or with boosts and enhancements, and can reboot the simulation as much as they like. The Main Simulation tree ends with the colonization and terraforming of Mars. Occasionally, speed boosts may become available, which allow the player to gain a slight increase of speed in the game, but it requires Darwinium or the watching of advertisements.
+
 An update in November 9, 2020 added mammals to the game in the form of glitches in the simulation, which can be unlocked using Metabits. Other updates added the reptiles, added to the Main Simulation after some progress was made in the Mesozoic Valley.  This game also has a premium currency, called Darwinium, named after Charles Darwin, and can be obtained via in-app purchases, points throughout the game, the news tab, or completing various achievements. It can also be acquired via the Darwinium synthesizer.
 
 Exploration events
+
 Cell to Singularity is still in active development, with updates releasing regularly. Beginning in early 2022, the first exploration event was added to the game. These "Exploration Events" are limited time events featuring miniature simulations about specific topics in science, technology, and the humanities. A leaderboard/friend system (Science points and the Neural Network respectively) has been added. There are currently 18 exploration events, which are:
 
 Expansions (other simulations)
@@ -18,9 +23,15 @@ Cell to Singularity began development in 2017, inspired by Computer Lunch co-fou
 The game was initially released in early access on Android in 2018. It was later also released in early access on iOS and Steam. The game was officially released on iOS in August 2019, and Android in April 2020. Finally, it left Steam Early Access in November 2021.
 
 Updates
+
 Reception
+
 Katherine Franklin of BigBossBattle.com called the game "a commendable delve into a fun representation of evolution on (and off) Earth."
+
 Early reviews praised the game’s atmosphere, with one from BlueMoonGames.com declaring, "The visual presentation makes the game feel like an interactive animated educational tutorial through the [historical] periods described..."
+
 Michael Zegar of GamePressure.com compared the game favorably to Spore, Cookie Clicker, and Plague Inc.
+
 The Beyond expansion, released in November 2021, also received positive reviews. Catherine Ng Dellosa of PocketGamer.com called it, "...a refreshing change of pace from the numerous mobile titles out in the market today."
+
 As of May 2025, the game has a 4.6 rating on the Google Play Store, a 4.8 rating on the iOS App Store, and a very positive review rating on Steam based on over 23,462 reviews.

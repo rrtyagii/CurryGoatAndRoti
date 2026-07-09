@@ -1,10 +1,13 @@
 John Schulman (born 1987 or 1988) is an American artificial intelligence researcher and co-founder of OpenAI. In August 2024, he announced he would be joining Anthropic. In February 2025, he announced he was leaving to join Thinking Machines Lab, where he is chief scientist.
 
 Early life and education
+
 Schulman had an interest in science and math from a young age. He enjoyed science fiction, especially the work of Isaac Asimov. When he was in seventh grade, he became deeply interested in the television program BattleBots, which featured combat between remote-controlled robots. In what he said was his first self-directed study, he read extensively in subject areas that would help him design a superior robot, but the robot he and his friends worked on was never built. He attended Great Neck South High School. He was a member of the US Physics olympiad Team  in 2005. In 2010, he graduated from Caltech with a degree in physics. He has a PhD in electrical engineering and computer sciences from the University of California, Berkeley, where he was advised by Pieter Abbeel.
 
 Career
+
 In December 2015, shortly before finishing his PhD, Schulman co-founded OpenAI with Sam Altman, Elon Musk, Ilya Sutskever, Greg Brockman, Trevor Blackwell, Vicki Cheung, Andrej Karpathy, Durk Kingma, Pamela Vagata, and Wojciech Zaremba, with Sam Altman and Elon Musk as the co-chairs.  There, he led the reinforcement learning team that created ChatGPT. He has been referred to as the "architect" of ChatGPT. In August 2024, Schulman announced he would be joining Anthropic. He stated his move was to allow him to deepen his focus on AI alignment and return to more hands-on technical work. In February 2025, he announced he was leaving to join Thinking Machines Lab, where he is chief scientist.
 
 Awards and honors
+
 In 2025, Schulman received the Mark Bingham Award for Excellence in Achievement by Young Alumni from his alma mater, UC Berkeley.

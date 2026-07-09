@@ -1,29 +1,43 @@
 Marina Denise Anne Jirotka is professor of human-centered computing at the University of Oxford, director of the Responsible Technology Institute, governing body fellow at St Cross College, board member of the Society for Computers and Law and a research associate at the Oxford Internet Institute. She leads a team that works on responsible innovation, in a range of ICT fields including robotics, AI, machine learning, quantum computing, social media and the digital economy. She is known for her work with Alan Winfield on the 'Ethical Black Box'. A proposal that robots using AI should be fitted with a type of inflight recorder, similar to those used by aircraft, to track the decisions and actions of the AI when operating in an uncontrolled environment and to aid in post-accident investigations.
 
 Education
+
 Jirotka obtained her BSc in psychology and social anthropology from Goldsmiths College in 1985 and her Master's in Computing and Artificial Intelligence from the University of South Bank in 1987. Her doctorate in Computer Science, An Investigation into Contextual Approaches to Requirements Capture, was completed at the University of Oxford in 2000.
 
 Career
+
 In 1987 Jirotka was appointed research fellow in the University of Surrey Social and Computer Sciences Research Group. In 1991 she joined the University of Oxford as a senior researcher in the Department of Computer Science, becoming a university lecturer and governing body fellow of St Cross College in 2003. In 2008 she became reader in requirements engineering and was promoted to professor of human-centred computing in 2014.
 
 Research
+
 Jirotka's most recent work centres around the 'ethical black box' - a way of making algorithmic decisions explainable after an unexpected event or accident. The model for this approach is the aviation industry that uses inflight recording systems to provide evidence after an accident.
+
 This approach to explainability in robotics is developed from Jirotka's earlier work on Responsible Research and Innovation (RRI), a research method supported by the EU's Horizon 2020 theme and the UK research councils, particularly the EPSRC. RRI includes the use of reflection, stakeholder involvement and anticipatory governance to try to ameliorate potential negative effects of research and development. It is considered to be particularly applicable in ICT disciplines where failing to consider possible negative outcomes can have serious repercussions. Jirotka contributed significantly to the evolution of RRI after her work on the Framework for Responsible Research and Innovation in ICT project (FRRIICT) that was adopted for rollout in the UK by EPSRC.
+
 Jirotka's other projects include:
 
 UnBias and ReEnTrust - research projects that examine the way algorithms are used online. The projects seek to raise awareness of algorithmic bias and to find ways of reducing bias such that public trust in algorithmic calculations can be justified.
+
 RoboTIPS - a project in partnership with the Bristol Robotics Lab looking at how robots can be developed using the 'ethical black box' concept.
 
 Expert opinion
+
 Jirotka has frequently given evidence to Select Committees, Advisory Boards, All-Party Parliamentary Groups and industry bodies. She sits on the Steering Committee of the APPG on Data Analytics and the Advisory Board of the Society for Computers and Law. She regularly appears on expert panels to discuss ethical approaches to innovation and is also an international speaker on the issues arising from a lack of diversity in science.
 
 Novel contributions
+
 Along with members of her team, Jirotka formulated the concept of the Ethical Hackathon. This is a technique based on the traditional type of hackathon that additionally incorporates a focus on ethical issues such as assessing the work's impact on (for example) minority groups or vulnerable users. The concept was trialled during work on the UnBias project and has since been used in a Zimbabwe LabHack  and in training doctoral students at Oxford.
 
 Publications
+
 Winfield, Alan F. T.; Jirotka, Marina (15 October 2018). "Ethical governance is essential to building trust in robotics and artificial intelligence systems". Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences. 376 (2133) 20180085. Bibcode:2018RSPTA.37680085W. doi:10.1098/rsta.2018.0085. PMC 6191667. PMID 30323000.
+
 De La Flor, Grace; Ojaghi, Mobin; Martínez, Ignacio Lamata; Jirotka, Marina; Williams, Martin S.; Blakeborough, Anthony (13 September 2010). "Reconfiguring practice: the interdependence of experimental procedure and computing infrastructure in distributed earthquake engineering". Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences. 368 (1926): 4073–4088. Bibcode:2010RSPTA.368.4073D. doi:10.1098/rsta.2010.0140. PMID 20679123.
+
 D'Agostino, Giuseppina; Hinds, Chris; Jirotka, Marina; Meyer, Charles; Piper, Tina; Rahman, Mustafizur; Vaver, David (June 2008). "On the importance of intellectual property rights for e-science and the integrated health record". Health Informatics Journal. 14 (2): 95–111. doi:10.1177/1081180X08089318. PMID 18477597. S2CID 7934521.
+
 Geddes, J; Mackay, C; Lloyd, S; Simpson, A; Power, D; Russell, D; Jirotka, M; Katzarova, M; Rossor, M; Fox, N; Fletcher, J; Hill, D; McLeish, K; Chen, Y; Hajnal, JV; Lawrie, S; Job, D; McIntosh, A; Wardlaw, J; Sandercock, P; Palmer, J; Perry, D; Procter, R; Ure, J; Hartswood, M; Slack, R; Voss, A; Ho, K; Bath, P; Clarke, W; Watson, G (2006). "Designing for e-Health: recurring scenarios in developing grid-based medical imaging systems". Studies in Health Technology and Informatics. 120: 336–47. PMID 16823151.
+
 Welsh, E; Jirotka, M; Gavaghan, D (15 June 2006). "Post-genomic science: cross-disciplinary and large-scale collaborative research and its organizational and technological challenges for the scientific research process". Philosophical Transactions. Series A, Mathematical, Physical, and Engineering Sciences. 364 (1843): 1533–49. Bibcode:2006RSPTA.364.1533W. doi:10.1098/rsta.2006.1785. PMID 16766359. S2CID 22817487.
+
 Hartswood, M; Jirotka, M; Procter, R; Slack, R; Voss, A; Lloyd, S (2005). "Working IT out in e-Science: experiences of requirements capture in a HealthGrid project". Studies in Health Technology and Informatics. 112: 198–209. PMID 15923729.

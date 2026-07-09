@@ -1,4 +1,7 @@
 An aspiration window is a heuristic used in pair with alpha-beta pruning in order  to reduce search time for combinatorial games by supplying a window (or range) around an estimated score guess. Use of an aspiration window allows alpha-beta search to compete in the terms of efficiency against other pruning algorithms.
+
 Alpha-beta pruning achieves its performance by using cutoffs from its original range. Aspiration windows take advantage of this by supplying a smaller initial window, which increases the amount of cutoffs and therefore efficiency.
+
 However, due to search instability, the score may not always be in the window range. This may lead to a costly re-search that can penalize performance. Despite this, popular engines such as Stockfish still use aspiration windows.
+
 The guess that aspiration windows use is usually supplied by the last iteration of iterative deepening.

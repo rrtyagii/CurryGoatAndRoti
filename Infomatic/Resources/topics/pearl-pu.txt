@@ -1,34 +1,48 @@
 Pearl Pu is a Chinese-born Swiss computer scientist. After completing her Ph.D. from the University of Pennsylvania, she obtained the Research Initiation Award (known as the Career Award) from NSF before moving to Switzerland. She has been a faculty member and senior scientist at École Polytechnique Fédérale de Lausanne, where she founded the Human-Computer Interaction Group in 2000.
+
 In 1997,  she co-founded the company, Iconomic Systems SA, known for the development of  an agent-based paradigm for travel e-commerce and was chairperson until its sale to i:FAO in 2001. She spent 6 months each as visiting scholar at Stanford University in 2001 and at the Hong Kong University of Science and Technology in 2010.
 
 Work
+
 Pu is noted for her work on human-computer interaction with Artificial Intelligence systems, starting with work on  using case-based reasoning for intelligent Computer-aided design.  Her work showed how to use visualization and explanation to make users understand and trust Artificial Intelligence. She pioneered methods for obtaining accurate user preferences through dialogue-based recommender systems, and developed in particular the example-critiquing paradigm. She showed how behavior recommendation systems can make use of interventions to convince people to adopt healthier lifestyles.
+
 Pu's most cited work is on how to evaluate human-centric recommender systems and in particular the ResQue model she developed in 2010. According to Google Scholar, her publications were cited a total of 7580 times as of January 2022.
+
 Pu has served on many editorial boards and conference committees such as the International Joint Conference on Artificial Intelligence, AAAI Conference on Artificial Intelligence, The Web Conference, and Conference on Human Factors in Computing Systems. She was general or program chair of the ACM conferences on Electronic Commerce, Recommender Systems, and Adaptive hypermedia, and track or area chair at many other scientific conferences.
 
 Honors
+
 In 2014, Pu was winner of the French "2030 World Innovation Challenge" for the Livelyplanet project.
 
 Her technology found particular echo in the French press.
+
 Pu was made a EurAI fellow in 2021 and named a distinguished speaker of the Association for Computing Machinery.
 
 Selected publications
+
 Pu's most cited work is on the ResQue framework for evaluating recommender systems:
 
 "A user-centric evaluation framework for recommender systems" (with Li Chen and Rong Hu), Proceedings of the fifth ACM Conference on Recommender Systems, pp. 157–164, 2011.
+
 Representative of her work in intelligent Computer-aided design and case-based reasoning:
 
 "Issues and Applications of Case-Based Reasoning to Design" (with Mary-Lou Maher), Psychology Press, 1997. ISBN 978-0805823134
 "COMPOSER: A case-based reasoning system for engineering design" (with Lisa Purvis), Robotica 16(3), pp. 285–295., 1998. doi:10.1017/S0263574798000368.
+
 Representative of her work on humans interacting with Artificial Intelligence through explanation and visualization:
 
 "Visualizing Resource Allocation Tasks" (with George Melissargos). IEEE Computer Graphics and Applications. IEEE Computer Society Press. 17(4), pp. 6–9, 1997.
+
 "Trust-inspiring explanation interfaces for recommender systems" (with Li Chen), Knowledge-Based Systems (journal) 20(6), pp. 542–556, 2007.
+
 Representative of her work on interactive recommender systems and example-critiquing:
 
 "Preference-based search using example-critiquing with suggestions" (with Paolo Viappiani and Boi Faltings), Journal of Artificial Intelligence Research 27, pp. 465–503, 2006.
+
 "Critiquing-based recommenders: survey and emerging trends" (with Li Chen), User Modeling and User-Adapted Interaction 22(1-2), pp. 125–150, 2012.
+
 Representative of her work on behavior recommender systems:
 
 "HealthyTogether: exploring social incentives for mobile fitness applications" (with Yu Chen), Proceedings of the Second International Symposium of Chinese CHI, pp. 25–34, 2014.
+
 "Can Fitness Trackers Help Diabetic and Obese Users Make and Sustain Lifestyle Changes?" (with Yu Chen and Mirana Randriambelonoro), IEEE COMPUTER 50(3), pp. 20–29, 2017.

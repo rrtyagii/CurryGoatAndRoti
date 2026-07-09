@@ -1,11 +1,17 @@
 Ronen Eldan (Hebrew: רונן אלדן) is an Israeli mathematician, working at OpenAI. Previously, Eldan was a professor at the Weizmann Institute of Science working on probability theory, mathematical analysis, theoretical computer science and the theory of machine learning. He received the 2018 Erdős Prize, the 2022 Blavatnik Award for Young Scientists and the 2023 New Horizons Breakthrough Prize in Mathematics. He was a speaker at the 2022 International Congress of Mathematicians.
 
 Selected works
+
 Eldan, Ronen (19 February 2011). "A Polynomial Number of Random Points Does Not Determine the Volume of a Convex Body". Discrete & Computational Geometry. 46 (1). Springer Science and Business Media LLC: 29–47. arXiv:0903.2634. doi:10.1007/s00454-011-9328-x. ISSN 0179-5376. S2CID 16096886.
+
 Eldan, Ronen (22 March 2013). "Thin Shell Implies Spectral Gap Up to Polylog via a Stochastic Localization Scheme". Geometric and Functional Analysis. 23 (2). Springer Science and Business Media LLC: 532–569. arXiv:1203.0893. doi:10.1007/s00039-013-0214-y. ISSN 1016-443X. S2CID 253637768.
+
 Eldan, Ronen (30 October 2014). "A two-sided estimate for the Gaussian noise stability deficit". Inventiones Mathematicae. 201 (2). Springer Science and Business Media LLC: 561–624. arXiv:1307.2781. doi:10.1007/s00222-014-0556-6. ISSN 0020-9910. S2CID 253737938.
+
 Sébastien Bubeck, Ronen Eldan: “Multi-scale exploration of convex functions and bandit convex optimization”, 2015; arXiv:1507.06580.
+
 Sébastien Bubeck, Ronen Eldan, Yin Tat Lee: “Kernel-based methods for bandit convex optimization”, 2016; arXiv:1607.03084.
+
 Eldan, Ronen; Lee, James R. (1 April 2018). "Regularization under diffusion and anticoncentration of the information content". Duke Mathematical Journal. 167 (5). Duke University Press. arXiv:1410.3887. doi:10.1215/00127094-2017-0048. ISSN 0012-7094. S2CID 119657905.
 
 Awards

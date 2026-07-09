@@ -1,5 +1,7 @@
 Google Cloud Search (formerly known as Google Springboard) is an enterprise search tool integrated with Google Workspace. It allows users to search for content in Google apps including Gmail, Google Docs, Google Drive, Google Calendar, Google Contacts, and Google Sites. It also provides “actionable information & recommendations” to users based on machine learning.
+
 In February 2017, Google Springboard was renamed Google Cloud Search.
 
 Release
+
 At the time of launch (June 13, 2016), Google had its Springboard broadly at an "Invite-only" access and at the moment, it has closed the applications towards its Early Adopter Program.

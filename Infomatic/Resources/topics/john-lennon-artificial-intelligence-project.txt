@@ -1,2 +1,3 @@
 The John Lennon Artificial Intelligence Project is a chatbot designed to simulate a conversation with John Lennon, in development since 1997. It was developed as a "Persona-Bot" by Triumph PC Online, based in Washington, D.C.  Triumph PC's "Persona-Bots" are software programs that attempt to mimic the personalities or quirks of particular historical figures in conversation. The code is based on Richard Wallace's Alicebot.
+
 The JLAI Project (originally called the Plastic Digital Karma Project) developed the chatbot as one of several "Persona-Bots". The Austin Chronicle described the software in 2003 as giving a "lifelike impersonation" of Lennon, but felt that it had "a way to go" before it would feel like a conversation with a real person.

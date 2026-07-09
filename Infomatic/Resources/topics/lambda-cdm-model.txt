@@ -3,72 +3,68 @@ The Lambda-CDM, Lambda cold dark matter, or ΛCDM model is a mathematical model 
 a cosmological constant, denoted by lambda (Λ), associated with dark energy;
 the postulated cold dark matter, denoted by CDM;
 ordinary matter.
+
 It is the current standard model of Big Bang cosmology, as it is the simplest model that provides a reasonably good account of:
 
 the existence and structure of the cosmic microwave background;
 the large-scale structure in the distribution of galaxies;
 the observed abundances of hydrogen (including deuterium), helium, and lithium;
 the accelerating expansion of the universe observed in the light from distant galaxies and supernovae.
+
 The model assumes that general relativity is the correct theory of gravity on cosmological scales. It emerged in the late 1990s as a concordance cosmology, after a period when disparate observed properties of the universe appeared mutually inconsistent, and there was no consensus on the makeup of the energy density of the universe.
+
 The ΛCDM model has been successful in modeling a broad collection of astronomical observations over decades. Remaining issues challenge the assumptions of the ΛCDM model and have led to many alternative models.
 
 Overview
+
 The ΛCDM model is based on three postulates on the structure of spacetime:
 
 The cosmological principle, that the universe is the same everywhere and in all directions, and that it is expanding,
 A postulate by Hermann Weyl that the lines of spacetime (geodesics) intersect at only one point, where time along each line can be synchronized; the behavior resembles an expanding perfect fluid,
 General relativity that relates the geometry of spacetime to the distribution of matter and energy.
+
 This combination greatly simplifies the equations of general relativity into a form called the Friedmann equations. These equations specify the evolution of the scale factor of the universe in terms of the pressure and density of a perfect fluid. The evolving density is composed of different kinds of energy and matter, each with its own role in affecting the scale factor. For example, a model might include baryons, photons, neutrinos, and dark matter.  These component densities become parameters extracted when the model is constrained to match astrophysical observations. The model aims to describe the observable universe from approximately 0.1 s to the present.
+
 The most accurate observations which are sensitive to the component densities are consequences of statistical inhomogeneity called "perturbations" in the early universe. Since the Friedmann equations assume homogeneity, additional theory must be added before comparison to experiments. Inflation is a simple model producing perturbations by postulating an extremely rapid expansion early in the universe that separates quantum fluctuations before they can equilibrate. The perturbations are characterized by additional parameters also determined by matching observations.
+
 Finally, the light which will become astronomical observations must pass through the universe. The latter part of that journey will pass through ionized space, where the electrons can scatter the light, altering the anisotropies. This effect is characterized by one additional parameter.
+
 The ΛCDM model includes an expansion of the spatial metric that is well documented, both as the redshift of prominent spectral absorption or emission lines in the light from distant galaxies, and as the time dilation in the light decay of supernova luminosity curves. Both effects are attributed to a Doppler shift in electromagnetic radiation as it travels across expanding space. Although this expansion increases the distance between objects that are not under shared gravitational influence, it does not increase the size of the objects (e.g. galaxies) in space. Also, since it originates from ordinary general relativity, it, like general relativity, allows for distant galaxies to recede from each other at speeds greater than the speed of light; local expansion is less than the speed of light, but expansion summed across great distances can collectively exceed the speed of light.
+
 The letter Λ (lambda) represents the cosmological constant, which is associated with a vacuum energy or dark energy in empty space that is used to explain the contemporary accelerating expansion of space against the attractive effects of gravity. A cosmological constant has negative pressure,
-
-
 
         p
         =
         −
         ρ
-
           c
-
             2
-
-
-
-
     {\displaystyle p=-\rho c^{2}}
 
 , which contributes to the stress–energy tensor that, according to the general theory of relativity, causes accelerating expansion. The fraction of the total energy density of our (flat or almost flat) universe that is dark energy,
 
-
-
-
           Ω
-
             Λ
-
-
-
-
     {\displaystyle \Omega _{\Lambda }}
 
 , is estimated to be 0.669 ± 0.038 based on the 2018 Dark Energy Survey results using Type Ia supernovae or 0.6847±0.0073 based on the 2018 release of Planck satellite data, or more than 68.3% (2018 estimate) of the mass–energy density of the universe.
+
 Dark matter is postulated in order to account for gravitational effects observed in very large-scale structures (the "non-keplerian" rotation curves of galaxies;                                                                                                                                   the gravitational lensing of light by galaxy clusters; and the enhanced clustering of galaxies) that cannot be accounted for by the quantity of observed matter.
+
 The ΛCDM model proposes specifically cold dark matter, hypothesized as:
 
 Non-baryonic: Consists of matter other than protons and neutrons (and electrons, by convention, although electrons are not baryons)
 Cold: Its velocity is far less than the speed of light at the epoch of radiation–matter equality (thus neutrinos are excluded, being non-baryonic but not cold)
 Dissipationless: Cannot cool by radiating photons
+
 Collisionless: Dark matter particles interact with each other and other particles only through gravity and possibly the weak force
 Dark matter constitutes about 26.5% of the mass–energy density of the universe. The remaining 4.9% comprises all ordinary matter observed as atoms, chemical elements, gas and plasma, the stuff of which visible planets, stars and galaxies are made. The great majority of ordinary matter in the universe is unseen, since visible stars and gas inside galaxies and clusters account for less than 10% of the ordinary matter contribution to the mass–energy density of the universe.
+
 The model includes a single originating event, the "Big Bang", which was not an explosion but the abrupt appearance of expanding spacetime containing radiation at temperatures of around 1015 K. This was immediately (within 10−29 seconds) followed by an exponential expansion of space by a scale multiplier of 1027 or more, known as cosmic inflation. The early universe remained hot (above 10,000 K) for several hundred thousand years, a state that is detectable as a residual cosmic microwave background, or CMB, a very low-energy radiation emanating from all parts of the sky. The "Big Bang" scenario, with cosmic inflation and standard particle physics, is the only cosmological model consistent with the observed continuing expansion of space, the observed distribution of lighter elements in the universe (hydrogen, helium, and lithium), and the spatial texture of minute irregularities (anisotropies) in the CMB radiation. Cosmic inflation also addresses the "horizon problem" in the CMB; indeed, it seems likely that the universe is larger than the observable particle horizon.
 
 Cosmic expansion history
+
 The expansion of the universe is parameterized by a dimensionless scale factor
-
-
 
         a
         =
@@ -76,752 +72,319 @@ The expansion of the universe is parameterized by a dimensionless scale factor
         (
         t
         )
-
-
     {\displaystyle a=a(t)}
-
  (with time
-
-
-
         t
-
-
     {\displaystyle t}
-
  counted from the birth of the universe), defined relative to the present time, so
-
-
-
-
           a
-
             0
-
-
         =
         a
         (
-
           t
-
             0
-
-
         )
         =
         1
-
-
     {\displaystyle a_{0}=a(t_{0})=1}
 
 ; the usual convention in cosmology is that subscript 0 denotes present-day values, so
 
-
-
-
           t
-
             0
-
-
-
-
     {\displaystyle t_{0}}
-
  denotes the age of the universe. The scale factor is related to the observed redshift
-
-
-
         z
-
-
     {\displaystyle z}
-
  of the light emitted at time
-
-
-
-
           t
-
-
               e
               m
-
-
-
-
-
     {\displaystyle t_{\mathrm {em} }}
-
  by
-
-
-
-
         a
         (
-
           t
-
             em
-
-
         )
         =
-
-
             1
-
               1
               +
               z
-
-
-
-
         .
-
-
     {\displaystyle a(t_{\text{em}})={\frac {1}{1+z}}\,.}
 
-
 The expansion rate is described by the time-dependent Hubble parameter,
-
-
 
         H
         (
         t
         )
-
-
     {\displaystyle H(t)}
 
 , defined as
-
-
-
 
         H
         (
         t
         )
         ≡
-
-
-
-
                 a
                 ˙
-
-
             a
-
-
         ,
-
-
     {\displaystyle H(t)\equiv {\frac {\dot {a}}{a}},}
-
 
 where
 
-
-
-
-
-
               a
               ˙
-
-
-
-
-
     {\displaystyle {\dot {a}}}
-
  is the time-derivative of the scale factor.  The first Friedmann equation gives the expansion rate in terms of the matter+radiation density
-
-
-
         ρ
-
-
     {\displaystyle \rho }
 
 , the curvature
 
-
-
         k
-
-
     {\displaystyle k}
 
 , and the cosmological constant
 
-
-
         Λ
-
-
     {\displaystyle \Lambda }
 
 ,
 
-
-
-
-
           H
-
             2
-
-
         =
-
-
             (
-
-
-
-
                     a
                     ˙
-
-
                 a
-
-
             )
-
-
             2
-
-
         =
-
-
-
               8
               π
               G
-
             3
-
-
         ρ
         −
-
-
-
               k
-
                 c
-
                   2
-
-
-
-
               a
-
                 2
-
-
-
-
         +
-
-
-
               Λ
-
                 c
-
                   2
-
-
-
             3
-
-
         ,
-
-
     {\displaystyle H^{2}=\left({\frac {\dot {a}}{a}}\right)^{2}={\frac {8\pi G}{3}}\rho -{\frac {kc^{2}}{a^{2}}}+{\frac {\Lambda c^{2}}{3}},}
-
 
 where, as usual
 
-
-
         c
-
-
     {\displaystyle c}
-
  is the speed of light and
-
-
-
         G
-
-
     {\displaystyle G}
-
  is the gravitational constant.
 A critical density
 
-
-
-
           ρ
-
-
               c
               r
               i
               t
-
-
-
-
-
     {\displaystyle \rho _{\mathrm {crit} }}
-
  is the present-day density, which gives zero curvature
-
-
-
         k
-
-
     {\displaystyle k}
 
 , assuming the cosmological constant
 
-
-
         Λ
-
-
     {\displaystyle \Lambda }
-
  is zero, regardless of its actual value. Substituting these conditions to the Friedmann equation gives
-
-
-
-
-
           ρ
-
-
               c
               r
               i
               t
-
-
-
         =
-
-
-
               3
-
                 H
-
                   0
-
-
                   2
-
-
-
-
               8
               π
               G
-
-
-
         =
         1.878
-
         47
         (
         23
         )
         ×
-
           10
-
             −
             26
-
-
-
-
           h
-
             2
-
-
-
-
           k
           g
-
             ⋅
-
-
             m
-
               −
               3
-
-
-
         ,
-
-
     {\displaystyle \rho _{\mathrm {crit} }={\frac {3H_{0}^{2}}{8\pi G}}=1.878\;47(23)\times 10^{-26}\;h^{2}\;\mathrm {kg{\cdot }m^{-3}} ,}
-
 
 where
 
-
-
         h
         ≡
-
           H
-
             0
-
-
-
           /
-
         (
         100
-
-
           k
           m
-
             ⋅
-
-
             s
-
               −
               1
-
-
-
             ⋅
-
           M
           p
-
             c
-
               −
               1
-
-
-
         )
-
-
     {\displaystyle h\equiv H_{0}/(100\;\mathrm {km{\cdot }s^{-1}{\cdot }Mpc^{-1}} )}
-
  is the reduced Hubble constant.
 If the cosmological constant were actually zero, the critical density would also mark the dividing line between eventual recollapse of the universe to a Big Crunch, or unlimited expansion. For the Lambda-CDM model with a positive cosmological constant (as observed), the universe is predicted to expand forever regardless of whether the total density is slightly above or below the critical density; though other outcomes are possible in extended models where the dark energy is not constant but actually time-dependent.
+
 The present-day density parameter
 
-
-
-
           Ω
-
             x
-
-
-
-
     {\displaystyle \Omega _{x}}
-
  for various species is defined as the dimensionless ratio
-
-
-
-
-
           Ω
-
             x
-
-
         ≡
-
-
-
-
                 ρ
-
                   x
-
-
               (
               t
               =
-
                 t
-
                   0
-
-
               )
-
-
               ρ
-
-
                   c
                   r
                   i
                   t
-
-
-
-
-
         =
-
-
-
               8
               π
               G
-
                 ρ
-
                   x
-
-
               (
               t
               =
-
                 t
-
                   0
-
-
               )
-
-
               3
-
                 H
-
                   0
-
-
                   2
-
-
-
-
-
         ,
-
-
     {\displaystyle \Omega _{x}\equiv {\frac {\rho _{x}(t=t_{0})}{\rho _{\mathrm {crit} }}}={\frac {8\pi G\rho _{x}(t=t_{0})}{3H_{0}^{2}}},}
-
 
 where the subscript
 
-
-
         x
-
-
     {\displaystyle x}
-
  is one of
-
-
-
-
           b
-
-
-
     {\displaystyle \mathrm {b} }
-
  for baryons,
-
-
-
-
           c
-
-
-
     {\displaystyle \mathrm {c} }
-
  for cold dark matter,
-
-
-
-
           r
           a
           d
-
-
-
     {\displaystyle \mathrm {rad} }
-
  for radiation (photons plus relativistic neutrinos), and
-
-
-
         Λ
-
-
     {\displaystyle \Lambda }
-
  for dark energy.
 Since the densities of various species scale as different powers of
 
-
-
         a
-
-
     {\displaystyle a}
 
 , e.g.
 
-
-
-
           a
-
             −
             3
-
-
-
-
     {\displaystyle a^{-3}}
-
  for matter etc.,
 the Friedmann equation can be conveniently rewritten in terms of the various density parameters as
-
-
-
 
         H
         (
         a
         )
         ≡
-
-
-
-
                 a
                 ˙
-
-
             a
-
-
         =
-
           H
-
             0
-
-
-
-
             (
-
               Ω
-
-
                   c
-
-
-
             +
-
               Ω
-
-
                   b
-
-
-
             )
-
               a
-
                 −
                 3
-
-
             +
-
               Ω
-
-
                   r
                   a
                   d
-
-
-
-
               a
-
                 −
                 4
-
-
             +
-
               Ω
-
                 k
-
-
-
               a
-
                 −
                 2
-
-
             +
-
               Ω
-
                 Λ
-
-
-
               a
-
                 −
                 3
                 (
@@ -829,174 +392,77 @@ the Friedmann equation can be conveniently rewritten in terms of the various den
                 +
                 w
                 )
-
-
-
-
         ,
-
-
     {\displaystyle H(a)\equiv {\frac {\dot {a}}{a}}=H_{0}{\sqrt {(\Omega _{\rm {c}}+\Omega _{\rm {b}})a^{-3}+\Omega _{\mathrm {rad} }a^{-4}+\Omega _{k}a^{-2}+\Omega _{\Lambda }a^{-3(1+w)}}},}
-
 
 where
 
-
-
         w
-
-
     {\displaystyle w}
-
  is the equation of state parameter of dark energy, and assuming negligible neutrino mass (significant neutrino mass requires a more complex equation). The various
-
-
-
         Ω
-
-
     {\displaystyle \Omega }
-
  parameters add up to
-
-
-
         1
-
-
     {\displaystyle 1}
-
  by construction. In the general case this is integrated by computer to give the expansion history
-
-
-
         a
         (
         t
         )
-
-
     {\displaystyle a(t)}
-
  and also observable distance–redshift relations for any chosen values of the cosmological parameters, which can then be compared with observations such as supernovae and baryon acoustic oscillations.
 In the minimal 6-parameter Lambda-CDM model, it is assumed that curvature
 
-
-
-
           Ω
-
             k
-
-
-
-
     {\displaystyle \Omega _{k}}
-
  is zero and
-
-
-
         w
         =
         −
         1
-
-
     {\displaystyle w=-1}
 
 , so this simplifies to
-
-
-
 
         H
         (
         a
         )
         =
-
           H
-
             0
-
-
-
-
-
               Ω
-
-
                   m
-
-
-
-
               a
-
                 −
                 3
-
-
             +
-
               Ω
-
-
                   r
                   a
                   d
-
-
-
-
               a
-
                 −
                 4
-
-
             +
-
               Ω
-
                 Λ
-
-
-
-
-
-
     {\displaystyle H(a)=H_{0}{\sqrt {\Omega _{\rm {m}}a^{-3}+\Omega _{\mathrm {rad} }a^{-4}+\Omega _{\Lambda }}}}
-
 
 Observations show that the radiation density is very small today,
 
-
-
-
           Ω
-
             rad
-
-
         ∼
-
           10
-
             −
             4
-
-
-
-
     {\displaystyle \Omega _{\text{rad}}\sim 10^{-4}}
 
 ; if this term is neglected
 the above has an analytic solution
-
-
-
 
         a
         (
@@ -1004,129 +470,58 @@ the above has an analytic solution
         )
         =
         (
-
           Ω
-
-
               m
-
-
-
-
           /
-
-
           Ω
-
             Λ
-
-
-
           )
-
             1
-
               /
-
             3
-
-
-
-
           sinh
-
             2
-
               /
-
             3
-
-
         ⁡
         (
         t
-
           /
-
-
           t
-
             Λ
-
-
         )
-
-
     {\displaystyle a(t)=(\Omega _{\rm {m}}/\Omega _{\Lambda })^{1/3}\,\sinh ^{2/3}(t/t_{\Lambda })}
-
 
 where
 
-
-
-
           t
-
             Λ
-
-
         ≡
         2
-
           /
-
         (
         3
-
           H
-
             0
-
-
-
-
-
               Ω
-
                 Λ
-
-
-
-
         )
-
         ;
-
-
     {\displaystyle t_{\Lambda }\equiv 2/(3H_{0}{\sqrt {\Omega _{\Lambda }}})\ ;}
 
-
 this is fairly accurate for
-
-
 
         a
         >
         0.01
-
-
     {\displaystyle a>0.01}
-
  or
-
-
-
         t
         >
         10
-
-
     {\displaystyle t>10}
-
  million years.
 Solving for
-
-
 
         a
         (
@@ -1134,324 +529,211 @@ Solving for
         )
         =
         1
-
-
     {\displaystyle a(t)=1}
-
  gives the present age of the universe
-
-
-
-
           t
-
             0
-
-
-
-
     {\displaystyle t_{0}}
-
  in terms of the other parameters.
 It follows that the transition from decelerating to accelerating expansion (the second derivative
 
-
-
-
-
-
               a
               ¨
-
-
-
-
-
     {\displaystyle {\ddot {a}}}
-
  crossing zero) occurred when
-
-
-
-
         a
         =
         (
-
           Ω
-
-
               m
-
-
-
-
           /
-
         2
-
           Ω
-
             Λ
-
-
-
           )
-
             1
-
               /
-
             3
-
-
         ,
-
-
     {\displaystyle a=(\Omega _{\rm {m}}/2\Omega _{\Lambda })^{1/3},}
 
-
 which evaluates to
-
-
 
         a
         ∼
         0.6
-
-
     {\displaystyle a\sim 0.6}
-
  or
-
-
-
         z
         ∼
         0.66
-
-
     {\displaystyle z\sim 0.66}
-
  for the best-fit parameters estimated from the Planck spacecraft.
 
 Parameters
+
 Multiple variants of the ΛCDM model are used with some differences in parameters. One such set is outlined in the table below.
 
 The Planck collaboration version of the ΛCDM model is based on six parameters: baryon density parameter; dark matter density parameter; scalar spectral index; two parameters related to curvature fluctuation amplitude; and the probability that photons from the early universe will be scattered once on route (called reionization optical depth). Six is the smallest number of parameters needed to give an acceptable fit to the observations; other possible parameters are fixed at "natural" values, e.g. total density parameter = 1.00, dark energy equation of state = −1.
 The parameter values, and uncertainties, are estimated using computer searches to locate the region of parameter space providing an acceptable match to cosmological observations. From these six parameters, the other model values, such as the Hubble constant and the dark energy density, can be calculated.
 
 Historical development
+
 The discovery of the cosmic microwave background (CMB) in 1964 confirmed a key prediction of the Big Bang cosmology. From that point on, it was generally accepted that the universe started in a hot, dense state and has been expanding over time. The rate of expansion depends on the types of matter and energy present in the universe, and in particular, whether the total density is above or below the so-called critical density.
+
 During the 1970s, most attention focused on pure-baryonic models, but there were serious challenges explaining the formation of galaxies, given the small anisotropies in the CMB (upper limits at that time). In the early 1980s, it was realized that this could be resolved if cold dark matter dominated over the baryons, and the theory of cosmic inflation motivated models with critical density.
+
 During the 1980s, most research focused on cold dark matter with critical density in matter, around 95% CDM and 5% baryons: these showed success at forming galaxies and clusters of galaxies, but problems remained; notably, the model required a Hubble constant lower than preferred by observations, and observations around 1988–1990 showed more large-scale galaxy clustering than predicted.
+
 These difficulties sharpened with the discovery of CMB anisotropy by the Cosmic Background Explorer in 1992, and several modified CDM models, including ΛCDM and mixed cold and hot dark matter, came under active consideration through the mid-1990s. The ΛCDM model then became the leading model following the observations of accelerating expansion in 1998, and was quickly supported by other observations: in 2000, the BOOMERanG microwave background experiment measured the total (matter–energy) density to be close to 100% of critical, whereas in 2001 the 2dFGRS galaxy redshift survey measured the matter density to be near 25%; the large difference between these values supports a positive Λ or dark energy. Much more precise spacecraft measurements of the microwave background from WMAP in 2003–2010 and Planck in 2013–2015 have continued to support the model and pin down the parameter values, most of which are constrained below 1 percent uncertainty.
 
 Successes
+
 Among all cosmological models, the ΛCDM model has been the most successful; it describes a wide range of astronomical observations with remarkable accuracy. The notable successes include:
 
 Accurate modeling the high-precision CMB angular distribution measure by the Planck mission and Atacama Cosmology Telescope.
+
 Accurate description of the linear E-mode polarization of the CMB radiation due to fluctuations on the surface of last scattering events.
+
 Prediction of the observed B-mode polarization of the CMB light due to primordial gravitational waves.
 Observations of H2O emission spectra from a galaxy 12.8 billion light years away consistent with molecules excited by cosmic background radiation much more energetic – 16-20K – than the CMB we observe now, 3K.
 Predictions of the primordial abundance of deuterium as a result of Big Bang nucleosynthesis. The observed abundance matches the one derived from the nucleosynthesis model with the value for baryon density derived from CMB measurements.
+
 In addition to explaining many pre-2000 observations, the model has made a number of successful predictions: notably the existence of the baryon acoustic oscillation feature, discovered in 2005 in the predicted location; and the statistics of weak gravitational lensing, first observed in 2000 by several teams. The polarization of the CMB, discovered in 2002 by DASI, has been successfully predicted by the model: in the 2015 Planck data release, there are seven observed peaks in the temperature (TT) power spectrum, six peaks in the temperature–polarization (TE) cross spectrum, and five peaks in the polarization (EE) spectrum. The six free parameters can be well constrained by the TT spectrum alone, and then the TE and EE spectra can be predicted theoretically to few-percent precision with no further adjustments allowed.
 
 Challenges
+
 Despite the widespread success of ΛCDM in matching observations of our universe, cosmologists believe that the model may be an approximation of a more fundamental model.
 
 Lack of detection
+
 Extensive searches for dark matter particles have so far shown no well-agreed detection, while dark energy may be almost impossible to detect in a laboratory, and its value is extremely small compared to vacuum energy theoretical predictions.
 
 Violations of the cosmological principle
+
 The ΛCDM model, like all models built on the Friedmann–Lemaître–Robertson–Walker metric, assumes that the universe looks the same in all directions (isotropy) and from every location (homogeneity) on a large enough scale: "the universe looks the same whoever and wherever you are." This cosmological principle allows a metric, Friedmann–Lemaître–Robertson–Walker metric, to be derived and developed into a theory to compare to experiments. Without the principle, a metric would need to be extracted from astronomical data, which may not be possible. The assumptions were carried over into the ΛCDM model. However, some findings suggested violations of the cosmological principle.
 
 Violations of isotropy
+
 Evidence from galaxy clusters, quasars, and type Ia supernovae suggest that isotropy is violated on large scales.
+
 Data from the Planck Mission shows hemispheric bias in the cosmic microwave background in two respects: one with respect to average temperature (i.e. temperature fluctuations), the second with respect to larger variations in the degree of perturbations (i.e. densities). The European Space Agency (the governing body of the Planck Mission) has concluded that these anisotropies in the CMB are, in fact, statistically significant and can no longer be ignored.
+
 Already in 1967, Dennis Sciama predicted that the cosmic microwave background has a significant dipole anisotropy. In recent years, the CMB dipole has been tested, and the results suggest our motion with respect to distant radio galaxies and quasars differs from our motion with respect to the cosmic microwave background. The same conclusion has been reached in recent studies of the Hubble diagram of Type Ia supernovae and quasars. This contradicts the cosmological principle.
+
 The CMB dipole is hinted at through a number of other observations. First, even within the cosmic microwave background, there are curious directional alignments and an anomalous parity asymmetry that may have an origin in the CMB dipole. Separately, the CMB dipole direction has emerged as a preferred direction in studies of alignments in quasar polarizations, scaling relations in galaxy clusters, strong lensing time delay, Type Ia supernovae, and quasars and gamma-ray bursts as standard candles. The fact that all these independent observables, based on different physics, are tracking the CMB dipole direction suggests that the Universe is anisotropic in the direction of the CMB dipole.
+
 Nevertheless, some authors have stated that the universe around Earth is isotropic at high significance by studies of the combined cosmic microwave background temperature and polarization maps.
 
 Violations of homogeneity
+
 The homogeneity of the universe needed for the ΛCDM applies to very large volumes of space.
+
 N-body simulations in ΛCDM show that the spatial distribution of galaxies is statistically homogeneous if averaged over scales 260/h Mpc or more.
+
 Numerous claims of large-scale structures reported to be in conflict with the predicted scale of homogeneity for ΛCDM do not withstand statistical analysis.
 
 Hubble tension
+
 Statistically significant differences remain in values of the Hubble constant derived by matching the ΛCDM model to data from the "early universe", like the cosmic background radiation, compared to values derived from stellar distance measurements, called the "late universe". While systematic error in the measurements remains a possibility, many different kinds of observations agree with one of these two values of the constant. This difference, called the Hubble tension, is widely acknowledged to be a major problem for the ΛCDM model.
+
 Dozens of proposals for modifications of ΛCDM or completely new models have been published to explain the Hubble tension. Among these models are many that modify the properties of dark energy or of dark matter over time, interactions between dark energy and dark matter, unified dark energy and matter, other forms of dark radiation like sterile neutrinos, modifications to the properties of gravity, or the modification of the effects of inflation, changes to the properties of elementary particles in the early universe, among others. None of these models can simultaneously explain the breadth of other cosmological data as well as ΛCDM.
 
 S8 tension
+
 The "
 
-
-
-
           S
-
             8
-
-
-
-
     {\displaystyle S_{8}}
-
  tension" is a name for another question mark for the ΛCDM model. The
-
-
-
-
           S
-
             8
-
-
-
-
     {\displaystyle S_{8}}
-
  parameter in the ΛCDM model quantifies the amplitude of matter fluctuations in the late universe and is defined as
-
-
-
-
-
           S
-
             8
-
-
         ≡
-
           σ
-
             8
-
-
-
-
-
               Ω
-
-
                   m
-
-
-
-
               /
-
             0.3
-
-
-
-
     {\displaystyle S_{8}\equiv \sigma _{8}{\sqrt {\Omega _{\rm {m}}/0.3}}}
 
 Early- (e.g. from CMB data) and late-time (e.g. measuring weak gravitational lensing) measurements facilitate increasingly precise values of
 
-
-
-
           S
-
             8
-
-
-
-
     {\displaystyle S_{8}}
 
 . Results from initial weak lensing measurements found a lower value of
 
-
-
-
           S
-
             8
-
-
-
-
     {\displaystyle S_{8}}
 
 , compared to the value estimated from Planck. In recent years much larger surveys have been carried out, and some of the preliminary results also showed evidence of the same tension. However, other projects found that with increasing precision there was no significant tension, finding consistency with the Planck results.
 
 Axis of evil
+
 The "axis of evil" is a purported correlation between the plane of the Solar System and aspects of the cosmic microwave background (CMB). Such a correlation would give the plane of the Solar System and hence the location of Earth a greater significance than might be expected by chance, a result which has been claimed to be evidence of a departure from the Copernican principle.  However, a 2016 study compared isotropic and anisotropic cosmological models against WMAP and Planck data and found no evidence for anisotropy.
 
 Cosmological lithium problem
+
 The actual observable amount of lithium in the universe is less than the calculated amount from the ΛCDM model by a factor of 3–4. If every calculation is correct, then solutions beyond the existing ΛCDM model might be needed.
 
 Shape of the universe
+
 The ΛCDM model assumes that the shape of the universe is of zero curvature (is flat) and has an undetermined topology. In 2019, interpretation of Planck data suggested that the curvature of the universe might be positive (often called "closed"), which would contradict the ΛCDM model. Some authors have suggested that the Planck data detecting a positive curvature could be evidence of a local inhomogeneity in the curvature of the universe rather than the universe actually being globally a 3-manifold of positive curvature.
 
 Cold dark matter discrepancies
+
 Several discrepancies between the predictions of cold dark matter in the ΛCDM model and observations of galaxies and their clustering have arisen. Some of these problems have proposed solutions, but it remains unclear whether they can be solved without abandoning the ΛCDM model.
+
 Milgrom, McGaugh, and Kroupa have criticized the dark matter portions of the theory from the perspective of galaxy formation models and supporting the alternative modified Newtonian dynamics (MOND) theory, which requires a modification of the Einstein field equations and the Friedmann equations as seen in proposals such as modified gravity theory (MOG theory) or tensor–vector–scalar gravity theory (TeVeS theory). Other proposals by theoretical astrophysicists of cosmological alternatives to Einstein's general relativity that attempt to account for dark energy or dark matter include f(R) gravity, scalar–tensor theories such as galileon theories (see Galilean invariance), brane cosmologies, the DGP model, and massive gravity and its extensions such as bimetric gravity.
 
 Cuspy halo problem
+
 The density distributions of dark matter halos in cold dark matter simulations (at least those that do not include the impact of baryonic feedback) are much more peaked than what is observed in galaxies by investigating their rotation curves.
 
 Dwarf galaxy problem
+
 Cold dark matter simulations predict large numbers of small dark matter halos, more numerous than the number of small dwarf galaxies that are observed around galaxies like the Milky Way.
 
 Satellite disk problem
+
 Dwarf galaxies around the Milky Way and Andromeda galaxies are observed to be orbiting in thin, planar structures whereas the simulations predict that they should be distributed randomly about their parent galaxies. However, Gaia EDR3 data for the Milky Way's satellites suggest this seemingly bizarre alignment is just a quirk which will dissolve over time. A different analysis of Gaia EDR3 did not confirm or rule out the transient nature of the disk, but it found that planes of satellites are common in simulations of galaxies similar to the Milky Way.
 
 High redshift galaxies
+
 There has been debate on whether early massive galaxies and supermassive black holes are in conflict with ΛCDM. To make such a comparison, one must model the complex physics of galaxy formation, as well as the underlying ΛCDM cosmology. Tests using galaxies are therefore less direct, as they require assumptions about how galaxies form.
+
 Using some of the first data from the James Webb Space Telescope, a team of astronomers selected candidate massive galaxies in the early universe. The existence of such massive galaxies in the early universe would challenge standard cosmology. Follow up spectroscopy revealed that most of these objects have Active Galactic Nuclei, which boosts the galaxies brightness and caused the masses to be overestimated. The high redshift galaxies which have been spectroscopically confirmed, such as JADES-GS-z13-0, are much less massive and are consistent with the predictions from ΛCDM simulations run before JWST. As a population, the confirmed high redshift galaxies are brighter than expected from simulations, but not to the extent that they violate cosmological limits. Theorists are studying many possible explanations, including modifying cosmology, more efficient star formation and different stellar populations.
 
 Missing baryon problem
+
 Massimo Persic and Paolo Salucci first estimated the baryonic density today present in ellipticals, spirals, groups and clusters of galaxies.
+
 They performed an integration of the baryonic mass-to-light ratio over luminosity (in the following
 
-
-
-
           M
-
-
               b
-
-
-
-
           /
-
         L
-
-
     {\textstyle M_{\rm {b}}/L}
 
 ), weighted with the luminosity function
-
-
 
         ϕ
         (
         L
         )
-
-
     {\textstyle \phi (L)}
-
  over the previously mentioned classes of astrophysical objects:
-
-
-
-
-
           ρ
-
-
               b
-
-
-
         =
         ∑
         ∫
@@ -1460,160 +742,86 @@ They performed an integration of the baryonic mass-to-light ratio over luminosit
         (
         L
         )
-
-
-
               M
-
-
                   b
-
-
-
             L
-
-
-
         d
         L
         .
-
-
     {\displaystyle \rho _{\rm {b}}=\sum \int L\phi (L){\frac {M_{\rm {b}}}{L}}\,dL.}
-
 
 The result was:
 
-
-
-
-
           Ω
-
-
               b
-
-
-
         =
-
           Ω
-
             ∗
-
-
         +
-
           Ω
-
             gas
-
-
         =
         2.2
         ×
-
           10
-
             −
             3
-
-
         +
         1.5
         ×
-
           10
-
             −
             3
-
-
-
-
           h
-
             −
             1.3
-
-
         ≃
         0.003
         ,
-
-
     {\displaystyle \Omega _{\rm {b}}=\Omega _{*}+\Omega _{\text{gas}}=2.2\times 10^{-3}+1.5\times 10^{-3}\;h^{-1.3}\simeq 0.003,}
 
-
 where
-
-
 
         h
         ≃
         0.72
-
-
     {\displaystyle h\simeq 0.72}
 
 .
+
 Note that this value is much lower than the prediction of standard cosmic nucleosynthesis
 
-
-
-
           Ω
-
-
               b
-
-
-
         ≃
         0.0486
-
-
     {\displaystyle \Omega _{\rm {b}}\simeq 0.0486}
 
 , so that stars and gas in galaxies and in galaxy groups and clusters account for less than 10% of the primordially synthesized baryons. This issue is known as the problem of the "missing baryons".
+
 The missing baryon problem is claimed to be resolved. Using observations of the kinematic Sunyaev–Zel'dovich effect spanning more than 90% of the lifetime of the Universe, in 2021 astrophysicists found that approximately 50% of all baryonic matter is outside dark matter haloes, filling the space between galaxies. Together with the amount of baryons inside galaxies and surrounding them, the total amount of baryons in the late time Universe is compatible with early Universe measurements.
 
 Conventionalism
+
 It has been argued that the ΛCDM model has adopted conventionalist stratagems, rendering it unfalsifiable in the sense defined by Karl Popper. When faced with new data not in accord with a prevailing model, the conventionalist will find ways to adapt the theory rather than declare it false. Thus dark matter was added after the observations of anomalous galaxy rotation rates. Thomas Kuhn viewed the process differently, as "problem solving" within the existing paradigm.
 
 Extended models
+
 Extended models allow one or more of the "fixed" parameters above to vary, in addition to the basic six; so these models join smoothly to the basic six-parameter model in the limit that the additional parameter(s) approach the default values. For example, possible extensions of the simplest ΛCDM model allow for spatial curvature (
 
-
-
-
           Ω
-
             tot
-
-
-
-
     {\displaystyle \Omega _{\text{tot}}}
-
  may be different from 1); or quintessence rather than a cosmological constant where the equation of state of dark energy is allowed to differ from −1. Cosmic inflation predicts tensor fluctuations (gravitational waves). Their amplitude is parameterized by the tensor-to-scalar ratio (denoted
-
-
-
         r
-
-
     {\displaystyle r}
 
 ), which is determined by the unknown energy scale of inflation. Other modifications allow hot dark matter in the form of neutrinos more massive than the minimal value, or a running spectral index; the latter is generally not favoured by simple cosmic inflation models.
+
 Allowing additional variable parameter(s) will generally increase the uncertainties in the standard six parameters quoted above, and may also shift the central values slightly. The table above shows results for each of the possible "6+1" scenarios with one additional variable parameter; this indicates that, as of 2015, there is no convincing evidence that any additional parameter is different from its default value.
+
 Some researchers have suggested that there is a running spectral index, but no statistically significant study has revealed one. Theoretical expectations suggest that the tensor-to-scalar ratio
 
-
-
         r
-
-
     {\displaystyle r}
-
  should be between 0 and 0.3, and the latest results are within those limits.

@@ -1,46 +1,63 @@
 The IEEE Congress on Evolutionary Computation is a research conference for practitioners in the field of evolutionary computation, interpreted broadly, organised by the IEEE Computational Intelligence Society. It has been held annually since 1994, although its current name was only adopted in 1999. In alternate years it combines with the other main conferences organised by the IEEE Computational Intelligence Society in the IEEE World Congress on Computational Intelligence (IEEE WCCI).
 
 Origin and naming
+
 IEEE CEC began in 1994 as the IEEE Conference on Evolutionary Computation. In 1995 the conference name changed to the IEEE International Conference on Evolutionary Computation (IEEE ICEC) and it was held with this title through 1998. In 1999, the IEEE Computational Intelligence Society, in combination with the Evolutionary Programming Society which operated the annual Evolutionary Programming Conference (1992–1999) and the IET which operated the International Conference on Genetic Algorithms in Engineering Systems, Innovations and Applications (1995–1999) through the IEE, combined to co-sponsor the newly named IEEE Congress on Evolutionary Computation, and this title continues to the present.
+
 In even-numbered years it is part of the IEEE World Congress on Computational Intelligence (IEEE WCCI), which combines all the main conferences of the IEEE Computational Intelligence Society: IEEE CEC, IJCNN (the International Joint Conference on Neural Networks) and FUZZ-IEEE (the IEEE International Conference on Fuzzy Systems).
 
 History
+
 Since the first conference in 1994 the conference has been held annually at different international locations reflecting global involvement in the field of evolutionary computation.
 
 Main conference
+
 Themes
+
 The main part of each IEEE CEC conference is a series of sessions covering most fields of evolutionary computation, its applications and related areas with similar inspiration from biology. Because there are a large number of sessions much of the conference is organised in parallel: the one page diagram of the program of IEEE CEC 2023 makes this clear.
+
 To emphasize this, the table below lists sessions from the program of IEEE CEC 2011 together with comments. Although 2011 is now some time ago (this article was updated in 2025) that year was selected because the detailed program was available as a separate document that can be downloaded and read separately from the conference proceedings.
 
 Plenary speakers
+
 Researchers recognized in the field are invited to give plenary speeches at each IEEE CEC conference. At IEEE CEC 2023 in Chicago the plenary speakers were Stephanie Forrest, Markus Olhofer and Kalyanmoy Deb. Stephanie Forrest was the recipient of the Pioneer Award at that conference.
 
 Awards
+
 The Pioneer Award mentioned in plenary speakers above is awarded at IEEE CEC conferences to an individual who is recognized in having made a substantial contribution to the field of evolutionary computation.
+
 In addition, awards are presented to the winners of the competitions, and to presenters of papers selected as the Best Papers.
 
 Additional sessions
+
 Tutorials
+
 Because the main sessions of each IEEE CEC conference covers so many different fields, tutorials are held in addition to the main conference that allow participants to learn about areas that they may not have been familiar with before. Examples of tutorials at IEEE CEC 2023 are given in the table below.
 
 Workshops
+
 Although the main IEEE CEC conference does cover a very wide range of different fields, continual change in the area of evolutionary computation justifies the inclusion of some time for workshops. A workshop is a mini-conference focusing on a particular area of research and/or application, that may not be covered fully in the main conference. Following a call for workshops and acceptance, workshop organizers usually issue a separate call for participation distinct from the main call for papers of the conference. The IEEE CEC 2023 conference included three workshops.
 
 Poster sessions
+
 As well as many presentations in the main part of the conference, plenary speakers, tutorials and workshops, some IEEE CEC conferences have also included poster sessions, allowing easy discussion with the originators of the research presenting the poster.
 
 Competitions
+
 As well presenting papers or posters participants can develop solutions that address the challenges of competitions that have been accepted by the conference organizers and displayed on the conference website in advance. IEEE CEC 2023 included a number of competitions. Several are shown in the table below. While not all the links to the competition websites are active, abstracts of competition entries are available in the proceedings.
 
 Journal to conference sessions
+
 The IEEE publishes the IEEE Transactions on Evolutionary Computation a bimonthly journal for original peer-reviewed papers in the field of evolutionary computation. IEEE CEC conferences may include sessions for presentation about, and discussion regarding, articles already published in this journal. In the Program of the IEEE Congress on Evolutionary Computation given as a list look for sessions labelled "J2C: Journal to Conference". This is a particularly relevant use of time since the conference and the Journal are published by the IEEE Computational Intelligence Society.
 
 Relevance
+
 How important are IEEE CEC conferences? Earlier proceedings available in IEEE Xplore appear as online copies of multi-volume printed proceedings. The fact that they were multi-volume proceedings a number of years ago suggests that IEEE CEC conferences had a large number of attendees at that time.
+
 More recent proceedings available within IEEE Xplore appear as online proceedings with the potential to print on demand if required. The display of such online proceedings makes it more difficult to compare them with the earlier online proceedings that were comparable with printed proceedings, but the listed programs available on conference websites, as well as the indication of parallel sessions, suggest that IEEE CEC conferences are well-attended and continue to be one of the most important conferences within the field of evolutionary computation.
 
 Alternative conferences
-Other relevant conferences in the field of evolutionary computation include the Genetic and Evolutionary Computation Conference (GECCO), Parallel Problem Solving from Nature (PPSN) and EvoStar (also known as Evo*), which comprises four sub-conferences: EuroGP, EvoApplications, EvoCOP, and EvoMUSART.
 
+Other relevant conferences in the field of evolutionary computation include the Genetic and Evolutionary Computation Conference (GECCO), Parallel Problem Solving from Nature (PPSN) and EvoStar (also known as Evo*), which comprises four sub-conferences: EuroGP, EvoApplications, EvoCOP, and EvoMUSART.
 
 == References and notes ==
