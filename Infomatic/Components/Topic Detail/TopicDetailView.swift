@@ -49,11 +49,9 @@ struct BottomSheetView: View{
      
     private var topicChunker: TopicChunker
     
-    init(card: CardDetail){
-        self.topicChunker = TopicChunker(with: card)
+    init(card: CardDetail, topicLibrary: TopicLibrary){
+        self.topicChunker = TopicChunker(for: card, with: topicLibrary)
     }
-    
-    
     
     private func sendMessage(){
         let trimmedText = userInputText.trimmingCharacters(in: .whitespacesAndNewlines)
@@ -64,15 +62,15 @@ struct BottomSheetView: View{
         messages.append(newMessage)
         userInputText = ""
         
+        let chunksToDisplay = self.topicChunker.getTopChunks(userQuery: trimmedText)
+        
         // Simulate a mock bot reply after a short delay
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
-            let botMessage = Messages(text: "This is an automated response to: \"\(trimmedText)\"", isFromUser: false)
-            messages.append(botMessage)
+            chunksToDisplay.forEach { chunk in
+                let botMessage = Messages(text: "\(String(describing: chunk.topicChunk.text))\\", isFromUser: false)
+                messages.append(botMessage)
+            }
         }
-    }
-    
-    private func getChunks(){
-        self.chunks = self.topicChunker.chunkContent()
     }
     
     var body: some View{
@@ -192,7 +190,7 @@ struct TopicDetailView: View {
                     showAskSheet.toggle()
                 }
                 .sheet(isPresented: $showAskSheet) {
-                    BottomSheetView(card: self.scrum)
+                    BottomSheetView(card: self.scrum, topicLibrary: topicLibrary)
                 }
             }
             .padding(18)
@@ -212,6 +210,7 @@ struct TopicDetailView: View {
         }
     }
 }
+
 
 #Preview {
     let dataManager = DataManager(inMemory: true)

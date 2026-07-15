@@ -131,12 +131,12 @@ struct TopicInvertedIndex {
     }
 
     func search(_ query: String) -> [TopicSearchResult] {
-        guard !query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else { // making sure query is not blank or empty
+        guard !query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else {
             return []
         }
 
         let queryTokens = Self.normalizeAndTokenize(query)
-        guard !queryTokens.isEmpty else { // making sure query tokens are not blank or empty
+        guard !queryTokens.isEmpty else {
             return []
         }
 

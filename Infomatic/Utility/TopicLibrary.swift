@@ -24,7 +24,7 @@ final class TopicLibrary: ObservableObject {
     @Published private(set) var cards: [CardDetail] = [] // array of cards of type CardDetail. Public Read; private write.
     
     private var contentCache: [String: String] = [:]
-    private var searchIndex = TopicInvertedIndex()
+    private var topicInvertedIndex = TopicInvertedIndex()
     private var prefixMap: TopicPrefixMap?
     
     init() {
@@ -33,15 +33,15 @@ final class TopicLibrary: ObservableObject {
 
     init(cards: [CardDetail]) {
         self.cards = cards
-        searchIndex.rebuild(using: cards)
-        prefixMap = TopicPrefixMap(with: searchIndex.getVocabulary())
+        topicInvertedIndex.rebuild(using: cards)
+        prefixMap = TopicPrefixMap(with: topicInvertedIndex.getVocabulary())
     }
     
     func loadIndexIfNeeded() {
         guard cards.isEmpty else { return }
         cards = TopicLoader.loadIndex()
-        searchIndex.rebuild(using: cards)
-        prefixMap = TopicPrefixMap(with: searchIndex.getVocabulary())
+        topicInvertedIndex.rebuild(using: cards)
+        prefixMap = TopicPrefixMap(with: topicInvertedIndex.getVocabulary())
     }
     
     func content(for card: CardDetail) -> String {
@@ -71,7 +71,7 @@ final class TopicLibrary: ObservableObject {
         var scoresByCardID: [String: Int] = [:]
 
         for term in expandedTerms {
-            for result in searchIndex.search(term) {
+            for result in topicInvertedIndex.search(term) {
                 scoresByCardID[result.cardID, default: 0] += result.score
             }
         }
