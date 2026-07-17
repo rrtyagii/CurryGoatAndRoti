@@ -1,46 +1,71 @@
 A group is a military unit or a military formation that is most often associated with military aviation.
 
 Air and aviation groups
+
 The terms group and wing differ significantly from one country to another, as well as between different branches of a national defence force. Air groups vary considerably in size and status, but generally take two forms:
 
 A unit of two to four squadrons, commanded by a lieutenant colonel, colonel, commander, naval captain  or an equivalent rank. The United States Air Force (USAF), groupes of the French Armée de l'air, gruppen of the German Luftwaffe, United States Marine Corps Aviation,  British Fleet Air Arm and some other naval air services usually follow this pattern.
+
 A larger formation, often comprising more than 10 squadrons, commanded by a major general, brigadier general, commodore, rear admiral, air commodore or air vice-marshal. The air forces of many Commonwealth countries, such as the British Royal Air Force (RAF), follow this pattern. In such cases, the group is equivalent to a US wing, a German Geschwader or a French escadron.
 
 Historical overview
+
 During the early stages of World War I in France and Germany, the respective aviation services formed groupes and Gruppen. Beneath the level of the group was a unit of six to 16 aircraft: an escadrille or Staffel. Immediately above the French and German groups was the escadron or Geschwader. In the Royal Flying Corps (RFC) and Royal Naval Air Service (RNAS), a squadron was usually composed of 18–24 aircraft.
+
 When the Royal Air Force (RAF) was formed in 1918 from a merger of the RFC and RNAS, an officer with the rank of colonel typically commanded a group. The following year, when the RAF introduced its own rank system, RAF colonels became group captains, reflecting both the level of command responsibility and the seniority of naval captains (the equivalent Royal Navy rank).
+
 By World War II, the groupes of the French Armée de l'Air usually comprised two escadrilles (but sometimes only one, or as many as four). French groupes were the equivalent of U.S. Army Air Corps (USAAC)/U.S. Army Air Forces (USAAF) groups (analogous to RAF wings), while a groupement was the equivalent of a RAF group (USAAC/USAAF wing). For example, in May 1940 the Groupe de Bombardement I/31, a bomber unit, was operationally part of Groupement de Bombardement 6.
+
 In the German Luftwaffe, the principal unit of action was the Gruppe (plural Gruppen); the equivalent of a French or USAAC/USAAF group. Gruppen were part of a Geschwader (equivalent to a USAAC/USAAF wing or an RAF group) and the Geschwader were named according to their function. For instance, I./StG 77 was I Gruppe Sturzkampfgeschwader 77, which flew Junkers Ju 87 Stuka dive bombers. II./JG 26 was II Gruppe Jagdgeschwader 26, which flew Messerschmitt Bf 109 fighters, then switched to Focke-Wulf Fw 190 fighters. Each Gruppe was composed of three, sometimes four, Staffeln (singular Staffel) (usually 8–12 aircraft). Each Geschwader was composed of three Gruppen.
+
 By the time of World War II, some Commonwealth air force groups were commanded by air commodores (equivalent to brigadiers/brigadier generals and commodores) or even air vice-marshals (equivalent to major generals and rear admirals). They were somewhat analogous to a USAAF numbered air force (led by a brigadier general), with 200 to 400 aircraft. From 1943 to 1945, RAF Bomber Command groups were composed of several stations (air bases) and were analogous to USAAF wings.
 
 Commonwealth nations
+
 In the RAF (like the air forces of most other Commonwealth countries), a group is made up of several stations or wings, each of which typically controls two or more squadrons, so that a group normally includes six to 10 squadrons.
+
 When the ranks of the RAF were designed, an officer with the rank of group captain (equivalent to colonel and naval captain) commanded such a unit, although by the time of World War II, many groups were commanded by air commodores (equivalent to brigadiers/brigadier generals and commodores) or air vice-marshals (equivalent to major generals and rear admirals).
+
 Several RAF stations (air bases) are controlled by a particular group, although expeditionary air groups control expeditionary air wings directly. Groups are directly subordinate to a command (or, historically, to a tactical air force).
+
 In the Royal Navy's Fleet Air Arm, like some other Commonwealth naval air services, a group usually consists of two or three squadrons.
 
 United States
+
 US Air Force
+
 In the United States Air Force (USAF) a group consists of two or more squadrons, often functionally aligned within a wing. Per AFI 38-101 Air Force Organization (21 April 2015) a group is a "level of command between wings and squadrons. Groups bring together multiple squadrons or other lower echelon units to provide a broader capability."
+
 Prior to 1991, it was not unusual for a USAF support group to have no subordinate squadrons, but merely be a larger unit than a squadron. In such cases the group would not have a headquarters.
+
 USAF groups may be dependent or independent: "A dependent group is a mission, maintenance, mission support, medical, or large functional unit (e.g., security forces, special tactics, communications, etc.) that encompasses a number of related squadrons to provide the specified capability to a parent wing. Such groups may possess small supporting staff elements, such as standardization and evaluation or quality control, that are organized as sections." "An independent group has the same functions and responsibilities as a like-type wing but its scope and size do not warrant wing-level designation and associated overhead costs." A group requires at least 400 personnel, while a wing requires at least 1,000. A fighter wing, for example, is normally composed of dependent groups: an operations group of typically three flying squadrons and an operations support squadron and a maintenance group with aircraft, equipment, and component maintenance squadrons and a maintenance support squadron.
+
 Wings responsible for an air base also have other dependent groups such as a mission support group (security, communications, logistics support, mission support, and civil engineering squadrons) and a medical group. The dependent group commanders are considered to be in command billets, but they function like staff officers (the A3/S-3/G-3/J3 or the A4/S-4/G-4/J4) in other organizations. Independent groups are effectively small wings with both flying and maintenance squadrons. USAF groups are usually commanded by officers in the grade of OF-5 (US pay grade O-6), i.e., a full colonel. Wings are also usually commanded by officers in the grade of OF-5, but these are typically more senior colonels by virtue of time in grade and/or date of rank.  Some USAF wings are also commanded by officers in the grade of OF-6 (US pay grade O-7), i.e., a brigadier general.
 
 US Marine Corps Aviation
+
 In the United States Marine Corps, a Marine Aircraft Group (MAG), Marine Air Control Group (MACG) or Marine Aviation Training Support Group (MATSG) is a regimental-level unit within United States Marine Corps Aviation, equivalent to a USAF wing. A MAG consists of at least two air aircraft squadrons and two aviation support squadrons; two or more MAGs and a MACG form a Marine Aircraft Wing (MAW).
+
 Marine Aircraft Groups consist of two or more aircraft squadrons (usually four to six) and can range to as many as ten (see MAG-14). A MAG also contains a Marine Aviation Logistics Squadrons (MALS) (intermediate aircraft maintenance, aviation supply, and aviation ordnance support), a Marine Wing Support Squadron (MWSS) (air base functions), and a MAG headquarters detachment with a colonel as the commanding officer. The MAG is the organizational equivalent of a Marine Regiment.
+
 Marine Air Control Groups (MACG) consist of several aviation command, control, communications, and air defense units. These units include: a Marine Air Control Squadron (MACS) (control of air traffic and tactical air defense), a Marine Air Support Squadron (MASS) (control and coordination of tactical aircraft operations directly supporting ground forces), a Marine Tactical Air Command Squadron (MTACS) (command of tactical ground support and tactical air defense), a Marine Wing Communication Squadron (MWCS) (wire, radio, data, and satellite services), and a Low Altitude Air Defense (LAAD) (ground-based anti-aircraft missile and machinegun weapons) battalion/detachment, under a MACG headquarters detachment, commanded by a colonel.
+
 Marine Air Training Support Groups (MATSG) provide administrative control and training support at for Marines at formal naval aviation training units (e.g., combined USN/USMC Fleet Readiness Squadrons (FRS) and Naval Air Training Command and Naval Air Technical Training Command installations). These groups, commanded by a colonel, do not have subordinate squadrons assigned and are not part of the Fleet Marine Force (FMF).
+
 Two or more MAGs (usually three or four), and a MACG, under a Marine Aircraft Wing Headquarters (MAW HQ) supported by a Marine Wing Headquarters Squadron (MWHS) form a Marine Aircraft Wing (MAW), usually commanded by a major general, and is the FMF organizational equivalent of a Marine Division (MARDIV). The MAW is analogous to a USAF numbered air force or a British Royal Air Force (RAF) group.
 
 US Navy aviation
+
 All the aircraft on a United States Navy (USN) aircraft carrier, historically, were called the carrier air group regardless of whether the total was 72–90 on a fleet carrier or 20 to 30 on an escort carrier. Even today, the commander of the carrier air wing is traditionally called "CAG," a legacy title from when they were known as "commander, air group."
+
 A USN aviation wing is designated as either carrier air, maritime patrol & reconnaissance, strategic communications, training air, or type (there are type wings for strike fighters, electronic warfare, airborne early warning and logistics, maritime strike helicopter, and sea combat helicopters that provide squadrons to the carrier air wing for operations, as well as shore based fleet logistics support and tactical support wings that operate independently of aircraft carriers). All of these entities maintain administrative and standardization control and are OF 5 (US pay grade O-6) captain commands roughly analogous to a USMC Marine Aircraft Group or USAF wing. Officers in command of wing level units other than carrier air wings utilize the legacy title of "commodore" and are authorized to fly a command broad pennant from their headquarters ashore or when embarked aboard a warship as the senior officer present afloat (SOPA).
+
 Group is no longer a contemporary term in the USN portion of Naval Aviation except for that of the tactical air control group. This entity uses "group" in lieu of "wing" as a legacy title and is also an OF 5 (US pay grade O-6) captain command analogous to a USMC Marine Aircraft Group, Marine Air Control Group, or USAF wing in which the incumbent senior officer also utilizes the title of "commodore" while in command.
 The immediate superior of a carrier air wing commander (CAG) is the flag officer who is the carrier strike group commander, a surface or aviation rear admiral in the grade of OF 6 or 7 (US pay grade O-7 or O-8), with a mixed air, surface, and subsurface staff, who integrates four major USN (OF 5) (US pay grade O-6) commands – a carrier air wing, an aircraft carrier, one or more cruisers, a destroyer squadron, and an attached attack submarine – into a coherent air, surface and subsurface fighting force.
 The commodores of the other USN aviation organizations will also report to similar rank flag officers, e.g., patrol & reconnaissance wing commodores reporting to the commander, Patrol and Reconnaissance Group (COMPATRECONGRU); training air wing commodores reporting to the Chief of Naval Air Training (CNATRA); tactical air control group commodore reporting to an expeditionary strike group (ESG) commander, etc.
 
 Patrol and reconnaissance group
+
 A patrol and reconnaissance group (PATRECONGRU) consists of two or more patrol and reconnaissance wings under the command of a flag officer at the OF6 (US pay grade O-7) level.
 
 United States Army Aviation Branch
@@ -48,19 +73,25 @@ In the United States Army Aviation Branch, a group is a term that has, historica
 
 Naval groups
 US Navy Carrier Strike Group (CSG)
+
 A CSG usually consists of one aircraft carrier with an embarked carrier air wing, one or two guided missile cruisers, a destroyer squadron of two or three guided missile destroyers, one or two attack submarines, and a logistics support ship, all under the command of an embarked flag officer at the OF6 (US pay grade O-7) or OF7 (US pay grade O-8) level.
 
 Groups in armies
+
 Within armies and land forces, groups are units or formations that are roughly equivalent to regiments and are commanded by colonels. Groups should not be confused with army groups which are multiple armies commanded by a general or field marshal.
 
 British Army
+
 Many group-sized formations have existed throughout the modern history of the British Army, especially post-Second World War. For instance, following the radical 1966 Defence White Paper, several signal groups were formed, such as the 1st Signal Group, 2nd Signal Group (Static Communications Network), and 3rd Signal Group. These formations were all commanded by a Colonel. Since 2012, several colonel sized groups have been formed, including: 7th Air Defence Group and 29th Pre-Hospital Divisional Medical Group.
 
 Canadian Army
+
 By the late 1980s, the doctrinal Canadian Army division organized manoeuvre forces into brigades while division level combat support and combat service support was organized into groups. The doctrinal division would have had an artillery group, an engineer group, and a support group. Present day Canadian Army divisions each contain a division support group commanded by a colonel.
 
 Indonesian Army
+
 In the Indonesian Army, the Special Forces Command (Kopassus) uses this term to identify the different divisions within the unit. Each "Group" consists of a total of about 1000 personnel from several battalions.
 
 United States Army
+
 In the United States Army, certain non-aviation formations (e.g., currently the 1st Special Forces Command (Airborne)'s Special Forces Groups and PSYOP Groups and formerly some Air Defense Artillery, Armored Cavalry, Combat Engineer, Field Artillery, Military Intelligence, Military Police, and Signal Corps units) are/were also organized into groups, vice brigades or regiments. These units are/were generally smaller than brigades, usually consisting of from two to four battalions/squadrons (armored cavalry only), separate companies/batteries (air defense and field artillery)/troops (armored cavalry only), and/or detachments.

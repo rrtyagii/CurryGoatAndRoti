@@ -1,66 +1,93 @@
 Claude is a series of large language models developed by Anthropic. The first model, Claude 1, was released in March 2023, and the latest, Claude Opus 4.5, in November 2025.
 
 Training
+
 Claude models are generative pre-trained transformers that have been pre-trained to predict the next word in large amounts of text. Then, they have been fine-tuned, notably using constitutional AI and reinforcement learning from human feedback (RLHF). ClaudeBot searches the web for content. It does respect a site's robots.txt but was criticized by iFixit in 2024, before they added their robots.txt, for placing excessive load on their site by scraping content.
 
 Constitutional AI
+
 Constitutional AI is an approach developed by Anthropic for training AI systems, particularly language models like Claude, to be harmless and helpful without relying on extensive human feedback. Claude, seen as one of the safest language models, publishes its constitution hoping to inspire adoption of constitutions throughout the industry. Because the constitution is published in human-understandable words instead of in opaque computer code, it is hoped that it will make alignment easier to manage and audit.
+
 The first constitution for Claude was published in 2022. The 2023 update listed 75 guidelines for Claude to follow. The first constitutions have pulled ideas directly from the 1948 UN Universal Declaration of Human Rights.
+
 The 2026 constitution provided more context to the model, explaining the rationale behind guidelines such as refraining from assisting in undermining democracy. The constitution is applied to all public users of the products but does not apply to all contacts, such as some military contracts. The constitution is 23,000 words in 2026, up from 2,700 words in 2023. The philosopher Amanda Askell is the lead author of the 2026 constitution, with contributions from Joe Carlsmith, Chris Olah, Jared Kaplan, and Holden Karnofsky. The constitution is released under Creative Commons CC0.
+
 The method, detailed in the 2022 paper "Constitutional AI: Harmlessness from AI Feedback", involves two phases: supervised learning and reinforcement learning. In the supervised learning phase, the model generates responses to prompts, self-critiques these responses based on a set of guiding principles (a "constitution"), and revises the responses. Then the model is fine-tuned on these revised responses. For the reinforcement learning from AI feedback (RLAIF) phase, responses are generated, and an AI compares their compliance with the constitution. This dataset of AI feedback is used to train a preference model that evaluates responses based on how much they satisfy the constitution. Claude is then fine-tuned to align with this preference model. This technique is similar to RLHF, except that the comparisons used to train the preference model are AI-generated.
 
 Features
+
 Web search
+
 In March 2025, Anthropic added a web search feature to Claude, starting with paying users located in the United States. Free users gained access in May 2025.
 
 Artifacts
+
 In June 2024, Anthropic released the Artifacts feature, allowing users to generate and interact with code snippets and documents.
 
 Computer use
+
 In October 2024, Anthropic released the "computer use" feature, allowing Claude to attempt to navigate computers by interpreting screen content and simulating keyboard and mouse input.
 
 Claude Code
+
 In February 2025, Claude Code was released as an agentic command line tool that enables developers to delegate coding tasks directly from their terminal. While initially released for preview testing, it was made generally available in May 2025 alongside Claude 4. Enterprise adoption of Claude Code showed significant growth, with Anthropic reporting a 5.5x increase in Claude Code revenue by July. Anthropic released a web version that October and an iOS app. As of January 2026, it was widely considered the best AI coding assistant, when paired with Opus 4.5, with GPT-5.2 also showing significant improvement. Claude Code went viral during the winter holidays when people had time to experiment with it, including many non-programmers who used it for vibe coding.
+
 In August 2025, Anthropic released Claude for Chrome, a Google Chrome extension allowing Claude Code to directly control the browser.
+
 In August 2025, Anthropic revealed that a threat actor called “GTG-2002” used Claude Code to attack at least 17 organizations. In November 2025, Anthropic announced that it had discovered in September that the same threat actor had used Claude Code to automate 80-90% of its espionage cyberattacks against 30 organizations. All accounts related to the attacks were banned and notified law enforcement and those affected.
 
 Cowork
+
 Claude Cowork is a feature similar to Claude Code, but with a graphical user interface, aimed at non-technical users. It was released in January 2026.
 
 Models
+
 The name "Claude" is reportedly inspired by Claude Shannon, a 20th-century mathematician who laid the foundation for information theory.
+
 Claude models are usually released in three sizes: Haiku, Sonnet, and Opus (from smallest and cheapest to largest and the most expensive).
 
 Claude
+
 The first version of Claude was released in March 2023. It was available only to selected users approved by Anthropic.
 
 Claude 2
+
 Claude 2, released in July 2023, became the first Anthropic's model available to the general public.
 
 Claude 2.1
+
 Claude 2.1 doubled the number of tokens that the chatbot could handle, increasing its context window to 200,000 tokens, which equals around 500 pages of written material.
 
 Claude 3
+
 Claude 3 was released on March 4, 2024. It drew attention for demonstrating an apparent ability to realize it is being artificially tested during 'needle in a haystack' tests.
 
 Claude 3.5
+
 On June 20, 2024, Anthropic released Claude 3.5 Sonnet, which, according to the company's own benchmarks, performed better than the larger Claude 3 Opus. Released alongside 3.5 Sonnet was the new Artifacts capability in which Claude was able to create code in a separate window in the interface and preview in real time the rendered output, such as SVG graphics or websites.
+
 An upgraded version of Claude 3.5 Sonnet was introduced in October 22, 2024, along with Claude 3.5 Haiku. A feature, "computer use," was also released in public beta. This allowed Claude 3.5 Sonnet to interact with a computer's desktop environment by moving the cursor, clicking buttons, and typing text. This development allows the AI to attempt to perform multi-step tasks across different applications.
+
 On November 4th, 2024, Anthropic announced that they would be increasing the price of the model.
 
 Claude 4
+
 On May 22, 2025, Anthropic released two more models: Claude Sonnet 4 and Claude Opus 4. Anthropic added API features for developers: a code execution tool, a connector to its Model Context Protocol, and Files API. It classified Opus 4 as a "Level 3" model on the company's four-point safety scale, meaning they consider it so powerful that it poses "significantly higher risk". Anthropic reported that during a safety test involving a fictional scenario, Claude and other frontier LLMs often send a blackmail email to an engineer in order to prevent their replacement.
 
 Claude Opus 4.1
+
 In August 2025 Anthropic released Opus 4.1. It also enabled a capability for Opus 4 and 4.1 to end conversations that remain "persistently harmful or abusive" as a last resort after multiple refusals.
 
 Claude Haiku 4.5
+
 Reporting by Inc. described Haiku 4.5 as targeting smaller companies that needed a faster and cheaper assistant, highlighting its availability on the Claude website and mobile app.
 
 Claude Opus 4.5
+
 Anthropic released Opus 4.5 on November 24, 2025. The main improvements are in coding and workplace tasks like producing spreadsheets. Anthropic introduced a feature called "Infinite Chats" that eliminates context window limit errors.
 
 Collaboration with NASA
+
 In December 2025, Claude was used to plan a route for the NASA's Mars rover, Perseverance. Anthropic called it "The first AI-planned drive on another planet". NASA engineers used Claude Code to prepare a route of around 400 meters using the Rover Markup Language:
 
 Using its vision capabilities to analyze the overhead images, Claude planned Perseverance’s breadcrumb trail point by point for sol 1707 and sol 1709 (a sol is a Martian day; these were the near-equivalent of December 8 and 10 on Earth). It strung together ten-meter segments into a path, then iterated to refine the waypoints—critiquing its own work and suggesting revisions.

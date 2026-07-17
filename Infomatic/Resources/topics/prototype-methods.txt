@@ -8,4 +8,5 @@ Learning vector quantization (LVQ)
 Gaussian mixtures
 
 Related Methods
+
 While K-nearest neighbor's does not use prototypes, it is similar to prototype methods like K-means clustering.

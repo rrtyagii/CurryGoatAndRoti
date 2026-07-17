@@ -1,7 +1,13 @@
 Extended reality (XR) is both an umbrella term for the various realities like augmented reality (AR), virtual reality (VR), etc., as well as a means to interpolate between them and eXtrapolate (eXtend) beyond them.  See also  The technology is intended to combine or mirror the physical world with a "digital twin world" able to interact with it, giving users an immersive experience by being in a virtual, augmented, intelligent, digital, etc., environment.
+
 The first usage of the term "extended reality" was in reference to the use of technology to extrapolate (extend) beyond typical human perception, e.g. allowing us to see sound waves, radio waves, and otherwise invisible phenomena.
+
 XR is rapidly growing beyond an academic discipline, and is now having real-world impact in medicine, architecture, education, industry, and is being applied in a wide range of areas such as entertainment, cinema, marketing, real estate, manufacturing, education, maintenance and remote work. Extended reality has the ability to be used for joint effort in the workplace, training, educational purposes, therapeutic treatments, and data exploration and analysis.
+
 Extended reality works by using visual data acquisition that is either accessed locally or shared and transfers over a network and to the human senses. By enabling real-time responses in a virtual stimulus these devices create customized experiences.
+
 Extended Reality can be applied not only to humans as a subject, but also to technology as a subject, where the subject (whether human or technology) can have its sensory capacity extended by placing it in a closed feedback loop.  This form of Extended Intelligence is called veillametrics.
+
 In 2018 the BBC launched a research project to capture and document the barriers present in extended reality environments.
+
 The International Institute of MetaNumismatics (INIMEN) studies the applications of extended reality technologies in numismatic research, with a dedicated department.

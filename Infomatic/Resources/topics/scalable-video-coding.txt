@@ -1,31 +1,45 @@
 Scalable Video Coding (SVC) is a video compression standard developed jointly by the ITU-T and the ISO/IEC. The two organizations formed the Joint Video Team (JVT) to create the H.264/MPEG-4 AVC standard (ITU-T Rec. H.264 | ISO/IEC 14496-10 AVC). SVC aims to provide adaptable or scalable content, allowing a single encoded video stream to be decoded at various bitrates, resolutions, and quality levels, thus catering to diverse devices and network conditions.
 
 History
+
 In October 2003, the Moving Picture Experts Group (MPEG) issued a Call for Proposals on SVC Technology. Fourteen proposals were submitted, twelve of which utilized wavelet compression, while the remaining two were extensions of H.264/MPEG-4 AVC. The proposal from the Heinrich-Hertz-Institut (HHI) was selected by MPEG as the foundation for the SVC standardization project.
+
 In January 2005, MPEG and the Video Coding Experts Group (VCEG) agreed to finalize SVC as an amendment to the H.264/MPEG-4 AVC standard.
+
 In November 2008, Google launched Gmail Video Chat, which employed an H.264/SVC codec, marking the first consumer application of the standard. This service was succeeded by Google+ Hangouts in 2012.
+
 In 2011, Google Code highlighted SVC as the successor to the open-source RVC video chat engine, noting its prominence in 2010.
 
 Principles of scalability
+
 Overview
+
 Scalability refers to the ability to represent a video signal at multiple levels of detail within a single encoded bitstream. This enables decoding of a base layer for basic quality and additional enhancement layers for progressively higher quality.
+
 SVC defines three types of scalability:
 
 Spatial scalability: Supports multiple resolution levels.
+
 Temporal scalability: Enables varying frame rates.
+
 Quality scalability: Provides different image quality levels.
 
 Spatial scalability
+
 Spatial scalability allows the reconstruction of video at different resolutions, such as QCIF, CIF, or SD. This is achieved through a pyramidal decomposition into multiple spatial layers.
 
 Temporal scalability
+
 Temporal scalability adjusts the frame rate of the decoded video stream. Various frame rates are supported using a hierarchical structure of video frames.
 
 Quality scalability
+
 Quality scalability, or Signal-to-Noise Ratio (SNR) scalability, improves the signal-to-noise ratio of a layer, reducing quantization distortion between the original and reconstructed images. SVC supports two approaches: Fine Grain Scalability (FGS) and Coarse Grain Scalability (CGS).
 
 Coarse Grain Scalability (CGS)
+
 CGS incorporates quality scalability across spatial resolutions. Each spatial resolution is encoded as a separate layer, refining texture and motion data. For a given resolution, quality scalability is achieved by encoding multiple quality layers with progressively finer quantization steps, starting from a base layer with minimal quality.
 
 Fine Grain Scalability (FGS)
+
 FGS enables progressive refinement of transformed coefficients within a single spatial layer. The base quality layer is encoded using the AVC standard with an initial quantization parameter (QP) ensuring minimal acceptable quality. Subsequent refinement layers reduce the QP by six, halving the quantization step. The refinement data stream can be truncated at any point, allowing fine-grained quality scalability.

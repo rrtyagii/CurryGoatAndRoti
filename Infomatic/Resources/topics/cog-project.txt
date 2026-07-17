@@ -1,5 +1,7 @@
 Cog was a project at the Humanoid Robotics Group of the Massachusetts Institute of Technology. It was based on the hypothesis that human-level intelligence requires gaining experience from interacting with humans, like human infants do. This in turn required many interactions with humans over a long period. Because Cog's behavior responded to what humans would consider appropriate and socially salient environmental stimuli, the robot was expected to act more human. This behavior also provided the robot with a better context for deciphering and imitating human behavior. This was intended to allow the robot to learn socially, as humans do.
+
 As of 2003, all development of the project had ceased.
+
 Today Cog is retired to the Massachusetts Institute of Technology museum.
 
 Principal investigators
@@ -10,26 +12,43 @@ Purpose
 To study theories of cognitive science and artificial intelligence (AI).
 
 Goals
+
 To design and fabricate a humanoid face for each robot that fosters suitable social contact between robots and humans.
+
 To create a robot which is capable of interacting with humans and objects in a human-like way.
+
 To develop a relatively general system by which Cog can learn causal relations between commands to its motors and input from its sensors (primarily vision and mechanical proprioception).
+
 To shift the robot aesthetic to a design language that utilizes strong curvilinear and organic forms through state of the art design processes and materials.
 
 Research and advancements
+
 Development of a human-like face for Cog (complete).
+
 Obtaining major degrees of motor freedom in trunk (complete), head (complete), arms (complete), legs, and a flexible spine.
+
 Sight (through video cameras that respond to movement; complete).
+
 Hearing, touch, vocalization system, and hands.
+
 Allowing Cog to learn how its own movements alter its sensory inputs.
+
 Forcing Cog to take energy efficiency into account during movements.
 
 Justification
+
 One motivation for making humanoid robots can be understood in the book Philosophy in the Flesh by Mark Johnson and George Lakoff. They argue that the contents of human thoughts are to some degree dependent on the physical structure of our brains. By constructing artificial intelligence systems that  have  structural features similar to those of humans, we may be more likely to achieve human-like functionality.
+
 Another motivation for building humanoid robotic systems is that a machine with a human-like form may have more human-like interactions with people. This could be particularly important for an artificial intelligence device to learn from people in the way that human children learn through interactions within a social group.
+
 Marvin Minsky criticized the project, that Cog should be built as a software simulation, "because robotics research is really a software problem".
 
 Media appearances
+
 Cog appeared on ABC's Brave New World in a segment drumming with They Might Be Giants titled "Dan vs. Cog".
+
 Cog appeared in the Understanding television series episode "The Senses".
+
 Cog appeared in Sherry Turkle's book Alone Together
+
 Cog's earliest popular science appearance was the 1994  Bringing Up RoboBaby published in Wired and authored by David H. Freedman. As confirmed in the original project proposal by Brooks and Stein, Freedman reports AI consciousness was part of the original goal.

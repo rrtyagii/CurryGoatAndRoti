@@ -1,36 +1,53 @@
 Thimbleweed Park is a point-and-click adventure game developed and published by Terrible Toybox for Linux, macOS, Windows, Xbox One, PlayStation 4, iOS, Nintendo Switch, Android, and Amazon Luna. The game was revealed on November 18, 2014, along with a Kickstarter crowd-funding campaign with a goal of US$375,000, and was released on March 30, 2017.
+
 The game is a spiritual successor to lead designers Ron Gilbert and Gary Winnick's previous games Maniac Mansion (1987) and The Secret of Monkey Island (1990), and is designed to be similar to graphic adventure games released in that time period, both visually and in gameplay.
 
 Gameplay
+
 Thimbleweed Park operates on the same principles of early graphic adventure games. Players navigate various scenes from a third person perspective, using various "verb commands" to perform actions, such as "use", "pick up", and "talk to". Verb commands can be used to perform actions such as allowing a character to pick up an object into their inventory, to converse with another character, or to use an object on another item. The game's story is played out across a series of chapters, in which players must complete a specific set of goals to advance to the next chapter, solving a series of puzzles, some of which require the use of more than one character. The game features five different player characters, with the ability to switch between them in the middle of gameplay, similarly to Maniac Mansion.
 
 Plot
+
 In 1987, FBI agents Angela Ray and Antonio Reyes arrive at the town of Thimbleweed Park to investigate a murder. Their investigation leads them to several persons of interest: Chuck Edmund, the recently deceased owner of the PillowTronics robotics company; Ransome the Clown, cursed to wear his makeup forever after going too far in his insulting performances; Delores Edmund, computer programmer and niece of Chuck; and Delores's downtrodden father Franklin.
+
 Franklin attempts to pitch his business ideas to Chuck, but is murdered at the town hotel and becomes a ghost. Delores discovers that Chuck has written her out of his will, angered by her choice to pursue a career in video games. Ray and Reyes gather blood samples, fingerprints, and photographic evidence, and arrest vagrant Willie T. Wino, who protests his innocence. They leave town, but return incognito to pursue other agendas: Ray has been tasked with stealing computer secrets, and Reyes wants to clear his father of causing the fire that burnt down the PillowTronics factory.
+
 Ray, Reyes, Delores and Ransome infiltrate the factory. Delores disables the security systems and discovers that Chuck has uploaded his personality into the factory computer. Chuck reveals that everyone in the town is trapped inside a video game that keeps repeating, and that the group must free themselves by deleting the game.
+
 Ransome apologises to the citizens of Thimbleweed Park, clearing his reputation. Franklin says goodbye to his daughter and disappears to the afterlife. In the local paper, Reyes publishes a confession from Chuck clearing his father of blame for the factory fire. Ray steals a game design document from game designer Ron Gilbert and is transferred out of the game by her employers. Delores enters the "wireframe world", a prototype version of Thimbleweed Park with simplistic graphics, and shuts down the computer.
 
 Development
+
 On November 18, 2014, Gilbert posted an update to his blog, in which he revealed that talks about the game had begun "several months ago" while he and Winnick had been discussing how fun their time developing Maniac Mansion at LucasArts (Lucasfilm Games at the time) had been, and how they liked the "charm, simplicity and innocence" of the adventure games of that era. Winnick proposed that they should make a new game in the style of their old ones; as such, it is designed as if it had been made in 1987 and as if it were "an undiscovered LucasArts adventure game you've never played before". Gilbert agreed, and suggested that they should crowd-fund it on Kickstarter.
+
 Development started with Gilbert and Winnick building the game's world and story, designing puzzles using puzzle dependency charts, and creating characters around the puzzles. From the start, Gilbert says, they wanted to parody the TV shows Twin Peaks, The X-Files, and True Detective. The game's production was planned to last for 18 months, with Gilbert programming, Winnick producing art, and both writing and designing. Six months into development, an additional artist and programmer was hired along with a part-time musician. Development began on January 2, 2015, and was accompanied by a podcast that documented development and included some of their weekly check-in meetings.
 
 Crowd-funding
+
 A month-long crowd-funding campaign for the game was launched on Kickstarter on November 18, 2014, with a goal of US$375,000; people who pledged at least $20 received a copy of the game. At the end of the campaign, on December 18, 2014, they had managed to raise US$626,250 from 15,623 people; they had also managed to reach a number of "stretch goals", which would allow German, Spanish, French, and Italian localizations of the game, full English voice acting, and ports to iOS and Android. The German localization is planned to be done by Boris Schneider-Johne, who was responsible for the German localization of Monkey Island.
+
 After the end of the campaign, there was a 14-day period of waiting for credit cards to clear; Gilbert and Winnick finally got access to the money on January 5, 2015. Kickstarter took a 5% cut, and Amazon, who handled the payments, took a 3–5% cut; this added up to $57,198 of fees. Additionally, another $4,890 was deducted from the raised amount due to failed transactions; in the end, they had $564,162, plus around $8,000 from people who had pledged via PayPal.
+
 According to Gilbert, a lot of the failed transactions were from people who had problems with Amazon, and who then went on to pledge money via PayPal instead; because of this, he suggested that perhaps only half of the $4,890 had been lost. Budgeting was done around the money from Kickstarter, while the PayPal money was to be a safety net, or for potential added improvements to the game.
 
 Game engine and tools
+
 Gilbert had already started to look for adventure game engines in August 2014, but because of his experience of always wanting to modify engines to do exactly what he wants from them, he decided it would be easier to create his own engine. He already had a 2D graphics engine written in C/C++ that he had used for his non-adventure games The Big Big Castle! and Scurvy Scallywags, which he decided to use for Thimbleweed Park; SDL was used for handling window creation and input, while Gilbert's own code was used for rendering the graphics. The only other thing that was needed for the engine was a scripting language; Gilbert had looked at Lua, and while he considered it "easy to integrate and highly optimized", he disliked its syntax. He considered making his own scripting language, but due to time concerns, he chose the language Squirrel instead.
+
 Winnick mostly used Adobe Photoshop. According to Winnick, the style they were aiming for would lend itself very well to being drawn entirely digitally from the start. He drew the initial concepts and layouts as sketches.
 
 Updates
+
 While the game was released on March 30, 2017, the developers have continuously released updates not only fixing problems but introducing various new gameplay elements. On the June 20, 2017 release, the characters became able to talk to one another (fully voice acted as the rest of the game), which became an inventive "hint system" without explicitly offering specific hints to solve the puzzles. Apart from this there's a more classical hint system which includes calling a "hint line" using the phones available in the game, which offers context-sensitive help.
 
 Spin-off
+
 On May 9, 2020, Terrible Toybox released a spin-off game titled Delores: A Thimbleweed Park Mini-Adventure for free on Windows and macOs. The game is set in 1988 and follows Delores Edmund as she investigates strange occurrences during her vacation to her hometown. Delores was developed as an test bed for Ron Gilbert's revamped game engine Dinky that he developed for their then planned future game Return to Monkey Island. As such Delores uses almost exclusively audio and visual assets repurposed from Thimbleweed Park.
 
 Reception
+
 Thimbleweed Park was released to positive reviews from critics, the PC version garnering a rating of 84 out of a possible 100 on the review aggregator website Metacritic, based on 59 critics.
 
 Awards
+
 The game was nominated for "Best Comedy Game" in PC Gamer's 2017 Game of the Year Awards; for "Best Mobile Game" in Destructoid's Game of the Year Awards 2017; and for "Best Adventure Game" in IGN's "Best of 2017 Awards".  It won the award for "Best Ending" in Game Informer's 2017 Game of the Year Awards. In Adventure Gamers Aggie Awards 2017, the game won "Best Traditional Adventure" and "Best Adventure of 2017", and also won the Reader's Choice Award each for "Best Story", "Best Writing - Comedy", "Best Setting", "Best Acting (Voice or Live Action)", and "Best Sound Effects".

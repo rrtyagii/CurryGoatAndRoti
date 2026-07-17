@@ -1,11 +1,15 @@
 Michael Running Wolf is a Native American software engineer, artificial intelligence researcher, and advocate committed to preserving endangered Indigenous languages through the use of artificial intelligence (AI). A citizen of the Northern Cheyenne Tribe, Running Wolf leverages his background in computer science to develop technology aimed at preserving, protecting, and growing endangered Indigenous languages through the use of culturally respectful applications.
 
 Early life and education
+
 Running Wolf, born to a Cheyenne mother and Lakota father, grew up in the remote Cheyenne village of Birney, Montana. Running Wolf's early interest in technology came in the form of his Atari video game console and modifying his TI-84 graphing calculator to play games. While Running Wolf's family did not have consistent access to electricity, he would learn how to code his calculator through printouts of instructions, often given to him by his teachers.
 
 Career and research
+
 Running Wolf holds a bachelor's and master's degree in computer science from Montana State University-Bozeman, and is a Ph.D. student at McGill University in Quebec, Canada. His work on Amazon's Alexa and seeing how a team of Maori researchers preserved the Maori language using AI spurred an interest in how artificial intelligence could be used to save endangered Indigenous languages. Running Wolf founded Indigenous in AI, an initiative focusing on creating automatic speech recognition tools for Indigenous languages in North America. Running Wolf cites the lack of data in Indigenous languages and the complexity of polysynthetic languages in current voice recognition models as a particular challenge to pre-existing models. To solve this, Running Wolf has done extensive research on the Wakashan language family, which is highly polysynthetic.
+
 Additionally, he is exploring immersive technology through the use of virtual reality to make learning Indigenous language more engaging through the use of virtual environments and coding camps, such as the Lakota AI Camp, to engage Indigenous youth.
 
 Advocacy for ethical AI
+
 Running Wolf is an advocate for data sovereignty within Indigenous communities. He advocates for the decolonization of user data by agreeing that the Indigenous community in which the data comes from is the owner of the data being used and is in full control of it. By having Indigenous people build the technology for their communities, Running Wolf believes that it could uplift Indigenous communities by having ownership of such technology. Running Wolf also believes that allowing Indigenous cultures to be pushed into extended spaces, such as the Meta-verse, would inspire future technologists and anthropologists to continue researching Indigenous languages, further helping the effort to grow their existence.

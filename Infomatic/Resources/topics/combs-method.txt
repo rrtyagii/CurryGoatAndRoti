@@ -1,7 +1,6 @@
 The Combs method is a rule base reduction method of writing fuzzy logic rules described by William E. Combs in 1997. It is designed to prevent combinatorial explosion in fuzzy logic rules.
+
 The Combs method takes advantage of the logical equality
-
-
 
         (
         (
@@ -12,9 +11,7 @@ The Combs method takes advantage of the logical equality
         ⇒
         r
         )
-
         ⟺
-
         (
         (
         p
@@ -28,45 +25,33 @@ The Combs method takes advantage of the logical equality
         r
         )
         )
-
-
     {\displaystyle ((p\land q)\Rightarrow r)\iff ((p\Rightarrow r)\lor (q\Rightarrow r))}
 
 .
 
 Equality proof
+
 The simplest proof of given equality involves usage of truth tables:
 
 Combinatorial explosion
+
 Suppose we have a fuzzy system that considers N variables at a time, each of which can fit into at least one of S sets. The number of rules necessary to cover all the cases in a traditional fuzzy system is
 
-
-
-
           S
-
             N
-
-
-
-
     {\displaystyle S^{N}}
 
 , whereas the Combs method would need only
 
-
-
         S
         ×
         N
-
-
     {\displaystyle S\times N}
-
  rules. For example, if we have five sets and five variables to consider to produce one output, covering all the cases would require 3125 rules in a traditional system, while the Combs method would require only 25 rules, taming the combinatorial explosion that occurs when more inputs or more sets are added to the system.
 This article will focus on the Combs method itself. To learn more about the way rules are traditionally formed, see fuzzy logic and fuzzy associative matrix.
 
 Example
+
 Suppose we were designing an artificial personality system that determined how friendly the personality is supposed to be towards a person in a strategic video game. The personality would consider its own fear, trust, and love in the other person. A set of rules in the Combs system might look like this:
 
 The table translates to:

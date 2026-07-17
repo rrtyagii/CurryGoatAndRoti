@@ -1,23 +1,34 @@
 Kriti Sharma (born April 1988) is an artificial intelligence technologist, business executive and humanitarian. As of 2018, she is the vice president of artificial intelligence and ethics at UK software company Sage Group. Sharma is  the founder of AI for Good UK, which works to make artificial intelligence tools more ethical and equitable. Sharma has been named to Forbes magazine's 30 Under 30 Europe: Technology list, and appointed as a United Nations Young Leader. In 2018, she was appointed as an advisor to the UK's Department for Digital, Culture, Media and Sport. Sharma's initiatives include Pegg, an accounting chatbot, and rAInbow, a platform to support survivors of domestic violence. She has called for a philosophy of "embracing botness", arguing that artificial intelligence should prioritize utility over human resemblance.
 
 Early life
+
 Sharma was born in 1988 in Rajasthan, India. She and her two siblings were brought up in Jaipur. She lives in London.
 
 Education
 She holds a Bachelors in Engineering (2010) and a Masters in Advanced Computer Science from University of St Andrews (2011). At the age of 21, Sharma was elected as a Rajiv Gandhi Science Fellow for her work in energy optimisation and its applications in astrophysics, material science, polymer and bioinformatics research.  In 2010, Google awarded her the Google India Women in Engineering Award for excellence in computer science and demonstrated leadership in promoting diversity. She was awarded a Systers Pass It On award by Anita Borg Institute for her work in educational outreach for girls in Rajasthan.
 
 Career
+
 Barclays
+
 In September 2011, Sharma joined Barclays, where she initially developed e-commerce platforms such as the Pingit mobile payments app. Pingit won the App Store Best of 2012 award. She was later appointed the Head of Big Data and Advanced Analytics at Barclays Africa, where she led a team of data scientists and created real-time analytics products. Her group focused on using machine learning to make user engagement with financial services intelligent and personalised. During this time, she also mentored several fintech and healthcare startups in Africa.
+
 The Sage Group
+
 In February 2016, Sharma joined the UK technology firm Sage, where she led mobile products for more than 6 million businesses globally. In July 2016, Sharma and Stephen Kelly, chief executive officer of Sage, launched Pegg, the world’s first personal artificial intelligence for business finance. Within six weeks of launch, Pegg was being used by people in 85 countries.
+
 In an effort to overturn gender stereotypes, Sharma and the Sage team chose to make Pegg gender-neutral. In a 2018 interview, Sharma described how voice assistants such as Apple's Siri and Amazon's Alexa had been "given obedient, servile, female personalities," and expressed fear that children would become accustomed to "bark[ing] orders at a female voice assistant".
+
 Sharma also announced a partnership between Sage and Slack to create conversational workplace. She led a global research at Sage on millennial entrepreneurs in July 2016, focusing on their motivations and perceived obstacles to success.
+
 AI for Good UK
+
 In January 2018, Sharma founded AI for Good UK, an organization aiming to address humanitarian issues with artificial intelligence. In November 2018, AI for Good launched rAInbow, a digital companion for victims of domestic violence in South Africa with Josina Machel, an activist and Nelson Mandela's step daughter. rAInbow is supported by the Sage Foundation and the Soul City Institute of Social Justice.
+
 In 2018, Jeremy Wright, the UK's Secretary of State for Digital, Culture, Media and Sport, appointed Sharma as an adviser on AI, Data Ethics and Innovation.
 
 Awards and honors
+
 Forbes 30 under 30 in Technology
 Recode100 people in Tech, Business and Media who mattered in 2017
 United Nations Young Leader (2018)

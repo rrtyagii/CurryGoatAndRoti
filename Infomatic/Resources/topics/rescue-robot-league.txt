@@ -1,16 +1,22 @@
 The RoboCup Rescue Robot League is an international competition for urban search and rescue robots, in which robots compete to find victims in a simulated earthquake environment. The rescue robot league is run alongside Robocup Rescue Simulation, as part of the RoboCup robot competition.
+
 Robots perform 20 minute search and rescue missions in a test arena measuring approximately 10m by 6m, which features a number of obstacle zones designed to challenge autonomous operation, mobility during tele-operation, and object manipulation. Points are allocated based on the number of victims found, the detail with which victims were detected, and the quality with which the arena has been mapped.
 
 History
+
 Inspired by the Kobe earthquake, the first RoboCup Rescue competition was held at RoboCup 2001. The aim of the competition is to encourage the transfer of academic research into the disaster-rescue domain, and to encourage research in a socially significant real-world domain.
 
 Format
 Qualification
+
 RoboCup Rescue competitions happen such as the Iran Open, German Open, and Japan Open and some countries run individual competition for Rescue Robot such as in Thailand where 100 and more team participate for qualify round  open to all entrants without qualification. Successful teams at these competitions can qualify to attend the RoboCup world championships, which is held in a different location every year.
 
 Tournament
+
 At tournaments, a number of preliminary rounds are run in which every team attending performs a 20-minute mission; the highest scoring teams then take part in a final round to determine an overall winner. In larger competitions a semi-final round may also be run.
 
 Test Arena
+
 Test arenas vary between competitions, though they are composed of obstacles designed to allow for repeatable results. The obstacles are arranged in color-coded areas, including a yellow area in which robots must operate autonomously; a red area containing stairs and a 45° ramp; an orange area containing intermediate-difficulty obstacles; a pick-and-place area; and a radio drop-out area.
+
 Simulated victims are distributed throughout the arena, with points allocated for locating victims and providing clear information on them to the operator. Points are also allocated for robots which construct an accurate map of the arena with victims marked on it.

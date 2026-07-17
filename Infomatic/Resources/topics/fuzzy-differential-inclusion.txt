@@ -1,12 +1,7 @@
 Fuzzy differential inclusion  is the extension of differential inclusion to fuzzy sets introduced by Lotfi A. Zadeh.
 
-
-
-
-
           x
           ′
-
         (
         t
         )
@@ -21,21 +16,11 @@ Fuzzy differential inclusion  is the extension of differential inclusion to fuzz
         t
         )
         )
-
           ]
-
             α
-
-
-
-
     {\displaystyle x'(t)\in [f(t,x(t))]^{\alpha }}
 
-
 with
-
-
-
 
         x
         (
@@ -43,26 +28,13 @@ with
         )
         ∈
         [
-
           x
-
             0
-
-
-
           ]
-
             α
-
-
-
-
     {\displaystyle x(0)\in [x_{0}]^{\alpha }}
 
-
 Suppose
-
-
 
         f
         (
@@ -73,38 +45,20 @@ Suppose
         t
         )
         )
-
-
     {\displaystyle f(t,x(t))}
-
  is a fuzzy valued continuous function on Euclidean space. Then it is the collection of all normal, upper semi-continuous, convex, compactly supported fuzzy subsets of
-
-
-
-
-
             R
-
-
             n
-
-
-
-
     {\displaystyle \mathbb {R} ^{n}}
 
 .
 
 Second order differential
+
 The second order differential is
-
-
-
-
 
           x
           ″
-
         (
         t
         )
@@ -112,84 +66,45 @@ The second order differential is
         [
         k
         x
-
           ]
-
             α
-
-
-
-
     {\displaystyle x''(t)\in [kx]^{\alpha }}
-
    where
-
-
-
         k
         ∈
         [
         K
-
           ]
-
             α
-
-
-
-
     {\displaystyle k\in [K]^{\alpha }}
 
 ,
 
-
-
         K
-
-
     {\displaystyle K}
-
  is trapezoidal fuzzy number
-
-
-
         (
         −
         1
         ,
         −
         1
-
           /
-
         2
         ,
         0
         ,
         1
-
           /
-
         2
         )
-
-
     {\displaystyle (-1,-1/2,0,1/2)}
 
 , and
 
-
-
-
           x
-
             0
-
-
-
-
     {\displaystyle x_{0}}
-
  is a trianglular fuzzy number (-1,0,1).
 
 Applications

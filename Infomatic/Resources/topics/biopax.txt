@@ -1,20 +1,27 @@
 BioPAX (Biological Pathway Exchange) is a RDF/OWL-based
+
 standard language to represent biological pathways at the molecular and cellular level. Its major use is to facilitate the exchange of pathway data. Pathway data captures our understanding of biological processes, but
 its rapid growth necessitates development of databases and computational tools to aid interpretation. However, the current fragmentation of pathway information across many
 databases with incompatible formats presents barriers to its effective use. BioPAX solves this
 problem by making pathway data substantially easier to collect, index, interpret and share.
+
 BioPAX can represent metabolic and signaling pathways, molecular and genetic interactions and
 gene regulation networks. BioPAX was created through a community process. Through BioPAX, millions of interactions organized into thousands of pathways across many organisms, from a
 growing number of sources, are available. Thus, large amounts of pathway data are available in a
 computable form to support visualization, analysis and biological discovery.
+
 It is supported by a variety of online databases (e.g. Reactome) and tools. The latest released version is BioPAX Level 3. There is also an effort to create a version of BioPAX as part of OBO.
 
 Governance and development
+
 The next version of BioPAX, Level 4, is being developed by a community of researchers. Development is coordinated by the board of editors and facilitated by various BioPAX work groups.
+
 Systems Biology Pathway Exchange (SBPAX) is an extension for Level 3 and proposal for Level 4 to add quantitative data and systems biology terms (such as Systems Biology Ontology). SBPAX export has been implemented by the pathway databases Signaling Gateway Molecule Pages, and the SABIO-Reaction Kinetics Database. SBPAX import has been implemented by the cellular modeling framework Virtual Cell.
+
 Other proposals for Level 4 include improved support for Semantic Web, validation and visualization.
 
 Databases with BioPAX Export
+
 Online databases offering BioPAX export include:
 
 Signaling Gateway Molecule Pages (SGMP)
@@ -32,12 +39,19 @@ WikiPathways
 PharmGKB/PharmGKB*
 
 Software
+
 Software supporting BioPAX include:
 
 Paxtools, a Java API for handling BioPAX files
+
 Systems Biology Linker (Sybil), an application for visualizing BioPAX and converting BioPAX to SBML, as part of the Virtual Cell.
+
 ChiBE (Chisio BioPAX Editor), an application for visualizing and editing BioPAX.
+
 BioPAX Validator - syntax and semantic rules and best practices (project wiki)
+
 Cytoscape includes a BioPAX reader and other extensions, such as PathwayCommons  plugin and CyPath2 app.
+
 BiNoM, a cytoscape plugin for network analysis, with functions to import and export BioPAX level 3 files.
+
 BioPAX-pattern, a Java API for defining and searching graph patterns in BioPAX files.

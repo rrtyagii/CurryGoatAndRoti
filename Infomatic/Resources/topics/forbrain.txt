@@ -1,21 +1,29 @@
 Forbrain is an auditory feedback headset developed by Sound for Life Ltd. The device uses bone-conduction technology and a proprietary electronic filter to alter the user's perception of their own voice. It is marketed for use in educational, therapeutic, and personal development contexts, with applications in areas such as reading fluency, speech therapy, and attention support.
 
 Development and technology
+
 Forbrain was introduced in the 2010s by developers at Sound for Life Ltd., a company based in Hong Kong that develops auditory-stimulation and neurosensory-training products. The device’s design draws on principles linked to Alfred Tomatis and his method of using filtered sound to support listening, speech, and cognitive processes.
+
 Forbrain is a lightweight headset that incorporates a bone-conduction transducer and a proprietary electronic dynamic filter. It routes vocal vibrations through cranial bones rather than transmitting sound primarily through the ear canal. The device’s dynamic filter selectively amplifies higher-frequency components of the user’s voice and reduces lower-frequency noise, with the aim of enhancing clarity and stimulating auditory pathways linked to language processing.
 
 Applications
+
 Speech and language
+
 Forbrain is used in activities involving articulation practice, fluency exercises, and vocal-feedback awareness. Research on auditory feedback and bone conduction provides the scientific basis for interventions that alter how speakers perceive their own voice. These studies examine how modified auditory input can influence articulation, fluency, stuttering and speech regulation. The headset has appeared in exhibitions, where it has been presented as one of the tools employed in speech and language development.
 
 Attention, learning, and ADHD
+
 Forbrain is used in practice-based and instructional settings aimed at developing skills such as sustained attention, task regulation and verbal self-monitoring. The headset is included in activities such as reading exercises, homework routines, and structured skill-development tasks where altered auditory feedback is used to support engagement. It also appears in programs addressing attention-related challenges, including those associated with attention deficit hyperactivity disorder.
 
 Memory
+
 Forbrain is applied in programs that involve spoken repetition, verbal working-memory exercises, and self-monitoring tasks. In these settings, altered auditory feedback is applied as a means of supporting concentration, encoding, and recall during verbal activities.
 
 Educational use
+
 In educational settings, Forbrain serves as a support tool for reading fluency, pronunciation practice, and classroom engagement. Reviews and teacher-oriented publications report its use in one-to-one tutoring, small-group instruction, and supplementary learning-support programs. Forbrain has also been reported as a tool for second-language pronunciation practice
 
 Awards
+
 In 2015, Forbrain received a BETT Award in the category of ICT Special Educational Needs Solutions.

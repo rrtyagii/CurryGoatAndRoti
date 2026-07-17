@@ -1,14 +1,21 @@
 Juicero Inc. () was an American company that designed, manufactured and sold the Juicero Press, a fruit and vegetable juicer. The Juicero Press featured Wi-Fi connectivity and used proprietary, single-serving packets of pre-chopped fruits and vegetables that were sold exclusively by the company on a subscription basis. From 2014 to 2017, the San Francisco-based firm received $120 million in startup venture capital from investors.
+
 The company attracted significant negative media attention when consumers and journalists discovered that its juice packets could be squeezed just as easily by hand as by the company's expensive juicer. In 2017, following slow sales, Juicero ceased operations and announced it was seeking a buyer for the company and its intellectual property.
 
 History
+
 Juicero was founded in San Francisco, California, in 2013 by Doug Evans, who served as CEO until October 2016, when former president of Coca-Cola North America Jeff Dunn took over the position. The company's juicing press was originally priced at $699 when it was launched in March 2016, but the price was reduced to $399 in January 2017, 12 to 18 months ahead of schedule, in response to slow sales of the device. From 2014 to 2017, the San Francisco-based firm received $120 million in startup venture capital from investors.
+
 Juicero filed a complaint in federal court in April 2017 against iTaste, a Chinese company that made a competing cold-press juicing device, the Froothie Juisir, for allegedly infringing its patent, trade dress and trademark, as well as unfair competition and unjust enrichment. The court denied Juicero's motion in October 2017.
+
 On September 1, 2017, the company announced that it was suspending sales of the juicer and the packets, repurchasing the juicer from its customers and searching for a buyer for the company and its intellectual property. After its collapse, the company was described in the press as a symbol of a dysfunctional Silicon Valley culture.
 
 Design and usage
+
 Produce packs for the Juicero press, containing blends of pulped fruits and vegetables, cost between $5 and $7 and had a limited lifespan of about eight days. Each pack had a QR code which was scanned and verified by the Internet-connected machine before it could be used. CEO Jeff Dunn claimed this was a safety feature to prevent packs from being used past their expiration date, and to facilitate food safety recalls, though critics felt that the feature was a form of digital rights management as it would prevent operation of the press with any produce pack not made by the company. Industrial design for the press was completed by Yves Behar's studio Fuseproject, based in San Francisco.
 
 Criticism
+
 In 2017, Juicero was the target of widespread mockery and criticism after Bloomberg News published a story showing that the company's produce packs could be squeezed by hand easily and effectively, and that the hand-squeezed juice was nearly indistinguishable in quantity and quality from the output of the company's expensive press device. The company defended its product and its process, claiming that squeezing packs by hand created undue mess and promoted a poor user experience, and later offered full refunds to any customers dissatisfied with their press device. The Juicero device was also criticized for requiring Wi-Fi connection and an app to function.
+
 After taking apart the device, venture capitalist Ben Einstein considered the press to be "an incredibly complicated piece of engineering", which likely arose from a lack of cost constraints during the design process. It was described as being built to the specifications of commercial foodservice equipment and meant for heavy daily use, rather than a consumer appliance. A simpler and cheaper implementation, suggested Einstein, would likely have produced much the same quality of juice at a price several hundred dollars cheaper.

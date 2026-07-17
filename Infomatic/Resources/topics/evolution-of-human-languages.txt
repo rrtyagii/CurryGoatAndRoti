@@ -1,5 +1,7 @@
 The Evolution of Human Languages (EHL) project is a historical-comparative linguistics research project hosted by the Santa Fe Institute. It aims to provide a detailed genealogical classification of the world's languages.
+
 The project was founded in 2001 by Nobel laureate Murray Gell-Mann when he partnered with Sergei Starostin and Merritt Ruhlen to map out the evolutionary tree of human languages. Initial funding was provided by the Santa Fe Institute and the MacArthur Foundation. It is currently led by Russian linguist Georgiy Starostin, the son of Sergei Starostin.
+
 Many of the project's members belong to the Moscow School of Comparative Linguistics, including Georgiy Starostin and Ilia Peiros. Other project members include Vaclav Blazek, John D. Bengtson, Edward Vajda, and other linguists.
 
 Overview
@@ -8,6 +10,7 @@ Their idea is that "all representatives of the species Homo sapiens presumably s
 The Tower of Babel is an international etymological database project that is part of the Evolution of Human Languages project. It is coordinated by the Center of Comparative Linguistics of the Russian State University for the Humanities.
 
 Global Lexicostatistical Database
+
 In 2011, the Global Lexicostatistical Database (GLD) was launched as part of the EHL project. The database uses the Unified Transcription System (UTS), designed specifically for the database.
 
 110-word list
@@ -26,4 +29,5 @@ year
 The 110-word expanded Swadesh list by Kassian et al. (2010) is as follows.
 
 50-word list
+
 A 50-word list of "ultra-stable" items for lexicostatiscal use with the database was also proposed in 2010. The 50-word list is an abridged version of the 110-word list.

@@ -1,10 +1,13 @@
 Learning classifier systems, or LCS, are a paradigm of rule-based machine learning methods that combine a discovery component (e.g. typically a genetic algorithm in evolutionary computation) with a learning component (performing either supervised learning, reinforcement learning, or unsupervised learning).  Learning classifier systems seek to identify a set of context-dependent rules that collectively store and apply knowledge in a piecewise manner in order to make predictions (e.g. behavior modeling, classification, data mining, regression, function approximation, or game strategy).  This approach allows complex solution spaces to be broken up into smaller, simpler parts for the reinforcement learning that is inside artificial intelligence research.
+
 The founding concepts behind learning classifier systems came from attempts to model complex adaptive systems, using rule-based agents to form an artificial cognitive system (i.e. artificial intelligence).
 
 Methodology
+
 The architecture and components of a given learning classifier system can be quite variable. It is useful to think of an LCS as a machine consisting of several interacting components. Components may be added or removed, or existing components modified/exchanged to suit the demands of a given problem domain (like algorithmic building blocks) or to make the algorithm flexible enough to function in many different problem domains. As a result, the LCS paradigm can be flexibly applied to many problem domains that call for machine learning. The major divisions among LCS implementations are as follows: (1) Michigan-style architecture vs. Pittsburgh-style architecture, (2) reinforcement learning vs. supervised learning, (3) incremental learning vs. batch learning, (4) online learning vs. offline learning, (5) strength-based fitness vs. accuracy-based fitness, and (6) complete action mapping vs best action mapping. These divisions are not necessarily mutually exclusive. For example, XCS, the best known and best studied LCS algorithm, is Michigan-style, was designed for reinforcement learning but can also perform supervised learning, applies incremental learning that can be either online or offline, applies accuracy-based fitness, and seeks to generate a complete action mapping.
 
 Elements of a generic LCS algorithm
+
 Keeping in mind that LCS is a paradigm for genetic-based machine learning rather than a specific method, the following outlines key elements of a generic, modern (i.e. post-XCS) LCS algorithm. For simplicity let us focus on Michigan-style architecture with supervised learning. See the illustrations  on the right laying out the sequential steps involved in this type of generic LCS.
 
 Environment
@@ -16,50 +19,67 @@ Rules can be represented in many different ways to handle different data types (
 In any LCS, the trained model is a set of rules/classifiers, rather than any single rule/classifier.  In Michigan-style LCS, the entire trained (and optionally, compacted) classifier population forms the prediction model.
 
 Matching
+
 One of the most critical and often time-consuming elements of an LCS is the matching process. The first step in an LCS learning cycle takes a single training instance from the environment and passes it to [P] where matching takes place. In step two, every rule in [P] is now compared to the training instance to see which rules match (i.e. are contextually relevant to the current instance). In step three, any matching rules are moved to a match set [M]. A rule matches a training instance if all feature values specified in the rule condition are equivalent to the corresponding feature value in the training instance. For example, assuming the training instance is (001001 ~ 0), these rules would match: (###0## ~ 0), (00###1 ~ 0), (#01001 ~ 1), but these rules would not (1##### ~ 0), (000##1 ~ 0), (#0#1#0 ~ 1). Notice that in matching, the endpoint/action specified by the rule is not taken into consideration. As a result, the match set may contain classifiers that propose conflicting actions.  In the fourth step, since we are performing supervised learning, [M] is divided into a correct set [C] and an incorrect set [I]. A matching rule goes into the correct set if it proposes the correct action (based on the known action of the training instance), otherwise it goes into [I]. In reinforcement learning LCS, an action set [A] would be formed here instead, since the correct action is not known.
 
 Covering
+
 At this point in the learning cycle, if no classifiers made it into either [M] or [C] (as would be the case when the population starts off empty), the covering mechanism is applied (fifth step). Covering is a form of online smart population initialization. Covering randomly generates a rule that matches the current training instance (and in the case of supervised learning, that rule is also generated with the correct action. Assuming the training instance is (001001 ~ 0), covering might generate any of the following rules:  (#0#0## ~ 0), (001001 ~ 0), (#010## ~ 0). Covering not only ensures that each learning cycle there is at least one correct, matching rule in [C], but that any rule initialized into the population will match at least one training instance. This prevents LCS from exploring the search space of rules that do not match any training instances.
 
 Parameter updates/credit assignment/learning
+
 In the sixth step, the rule parameters of any rule in [M] are updated to reflect the new experience gained from the current training instance. Depending on the LCS algorithm, a number of updates can take place at this step. For supervised learning, we can simply update the accuracy/error of a rule. Rule accuracy/error is different than model accuracy/error, since it is not calculated over the entire training data, but only over all instances that it matched. Rule accuracy is calculated by dividing the number of times the rule was in a correct set [C] by the number of times it was in a match set [M]. Rule accuracy can be thought of as a 'local accuracy'.  Rule fitness is also updated here, and is commonly calculated as a function of rule accuracy. The concept of fitness is taken directly from classic genetic algorithms. Be aware that there are many variations on how LCS updates parameters in order to perform credit assignment and learning.
 
 Subsumption
+
 In the seventh step, a subsumption mechanism is typically applied. Subsumption is an explicit generalization mechanism that merges classifiers that cover redundant parts of the problem space.  The subsuming classifier effectively absorbs the subsumed classifier (and has its numerosity increased). This can only happen when the subsuming classifier is more general, just as accurate, and covers all of the problem space of the classifier it subsumes.
 
 Rule discovery/genetic algorithm
+
 In the eighth step, LCS adopts a highly elitist genetic algorithm (GA) which will select two parent classifiers based on fitness (survival of the fittest).  Parents are selected from [C] typically using tournament selection. Some systems have applied roulette wheel selection or deterministic selection, and have differently selected parent rules from either [P] - panmictic selection, or from [M]). Crossover and mutation operators are now applied to generate two new offspring rules. At this point, both the parent and offspring rules are returned to [P]. The LCS genetic algorithm is highly elitist since each learning iteration, the vast majority of the population is preserved. Rule discovery may alternatively be performed by some other method, such as an estimation of distribution algorithm, but a GA is by far the most common approach. Evolutionary algorithms like the GA employ a stochastic search, which makes LCS a stochastic algorithm. LCS seeks to cleverly explore the search space, but does not perform an exhaustive search of rule combinations, and is not guaranteed to converge on an optimal solution.
 
 Deletion
+
 The last step in a generic LCS learning cycle is to maintain the maximum population size. The deletion mechanism will select classifiers for deletion (commonly using roulette wheel selection). The probability of a classifier being selected for deletion is inversely proportional to its fitness. When a classifier is selected for deletion, its numerosity parameter is reduced by one. When the numerosity of a classifier is reduced to zero, it is removed entirely from the population.
 
 Training
+
 LCS will cycle through these steps repeatedly for some user defined number of training iterations, or until some user defined termination criteria have been met. For online learning, LCS will obtain a completely new training instance each iteration from the environment. For offline learning, LCS will iterate through a finite training dataset. Once it reaches the last instance in the dataset, it will go back to the first instance and cycle through the dataset again.
 
 Rule compaction
+
 Once training is complete, the rule population will inevitably contain some poor, redundant and inexperienced rules. It is common to apply a rule compaction, or condensation heuristic as a post-processing step. This resulting compacted rule population is ready to be applied as a prediction model (e.g. make predictions on testing instances), and/or to be interpreted for knowledge discovery.
 
 Prediction
+
 Whether or not rule compaction has been applied, the output of an LCS algorithm is a population of classifiers which can be applied to making predictions on previously unseen instances. The prediction mechanism is not part of the supervised LCS learning cycle itself, however it would play an important role in a reinforcement learning LCS learning cycle. For now we consider how the prediction mechanism can be applied for making predictions to test data. When making predictions, the LCS learning components are deactivated so that the population does not continue to learn from incoming testing data. A test instance is passed to [P] where a match set [M] is formed as usual. At this point the match set is differently passed to a prediction array. Rules in the match set can predict different actions, therefore a voting scheme is applied.  In a simple voting scheme, the action with the strongest supporting 'votes' from matching rules wins, and becomes the selected prediction. All rules do not get an equal vote. Rather the strength of the vote for a single rule is commonly proportional to its numerosity and fitness. This voting scheme and the nature of how LCS's store knowledge, suggests that LCS algorithms are implicitly ensemble learners.
 
 Interpretation
 Individual LCS rules are typically human readable IF:THEN expression. Rules that constitute the LCS prediction model can be ranked by different rule parameters and manually inspected. Global strategies to guide knowledge discovery using statistical and graphical have also been proposed. With respect to other advanced machine learning approaches, such as artificial neural networks, random forests, or genetic programming, learning classifier systems are particularly well suited to problems that require interpretable solutions.
 
 History
+
 Early years
+
 John Henry Holland was best known for his work popularizing genetic algorithms (GA), through his ground-breaking book "Adaptation in Natural and Artificial Systems" in 1975 and his formalization of Holland's schema theorem.  In 1976, Holland conceptualized an extension of the GA concept to what he called a "cognitive system", and provided the first detailed description of what would become known as the first learning classifier system in the paper "Cognitive Systems based on Adaptive Algorithms".  This first system, named Cognitive System One (CS-1) was conceived as a modeling tool, designed to model a real system (i.e. environment) with unknown underlying dynamics using a population of human readable rules.  The goal was for a set of rules to perform online machine learning to adapt to the environment based on infrequent payoff/reward (i.e. reinforcement learning) and apply these rules to generate a behavior that matched the real system. This early, ambitious implementation was later regarded as overly complex, yielding inconsistent results.
+
 Beginning in 1980, Kenneth de Jong and his student Stephen Smith took a different approach to rule-based machine learning with (LS-1), where learning was viewed as an offline optimization process rather than an online adaptation process.  This new approach was more similar to a standard genetic algorithm but evolved independent sets of rules.  Since that time LCS methods inspired by the online learning framework introduced by Holland at the University of Michigan have been referred to as Michigan-style LCS, and those inspired by Smith and De Jong at the University of Pittsburgh have been referred to as Pittsburgh-style LCS.  In 1986, Holland developed what would be considered the standard Michigan-style LCS for the next decade.
+
 Other important concepts that emerged in the early days of LCS research included (1) the formalization of a bucket brigade algorithm (BBA) for credit assignment/learning, (2) selection of parent rules from a common 'environmental niche' (i.e. the match set [M]) rather than from the whole population [P], (3) covering, first introduced as a create operator, (4) the formalization of an action set [A], (5) a simplified algorithm architecture, (6) strength-based fitness, (7) consideration of single-step, or supervised learning problems and the introduction of the correct set [C], (8) accuracy-based fitness (9) the combination of fuzzy logic with LCS (which later spawned a lineage of fuzzy LCS algorithms), (10) encouraging long action chains and default hierarchies for improving performance on multi-step problems, (11) examining latent learning (which later inspired a new branch of anticipatory classifier systems (ACS)), and (12) the introduction of the first Q-learning-like credit assignment technique.  While not all of these concepts are applied in modern LCS algorithms, each were landmarks in the development of the LCS paradigm.
 
 The revolution
+
 Interest in learning classifier systems was reinvigorated in the mid 1990s largely due to two events; the development of the Q-Learning algorithm for reinforcement learning, and the introduction of significantly simplified Michigan-style LCS architectures by Stewart Wilson.  Wilson's Zeroth-level Classifier System (ZCS) focused on increasing algorithmic understandability based on Hollands standard LCS implementation.  This was done, in part, by removing rule-bidding and the internal message list, essential to the original BBA credit assignment, and replacing it with a hybrid BBA/Q-Learning strategy.  ZCS demonstrated that a much simpler LCS architecture could perform as well as the original, more complex implementations.  However, ZCS still suffered from performance drawbacks including the proliferation of over-general classifiers.
+
 In 1995, Wilson published his landmark paper, "Classifier fitness based on accuracy" in which he introduced the classifier system XCS.  XCS took the simplified architecture of ZCS and added an accuracy-based fitness, a niche GA (acting in the action set [A]), an explicit generalization mechanism called subsumption, and an adaptation of the Q-Learning credit assignment.  XCS was popularized by its ability to reach optimal performance while evolving accurate and maximally general classifiers as well as its impressive problem flexibility (able to perform both reinforcement learning and supervised learning). XCS later became the best known and most studied LCS algorithm and defined a new family of accuracy-based LCS.  ZCS alternatively became synonymous with strength-based LCS.  XCS is also important, because it successfully bridged the gap between LCS and the field of reinforcement learning.  Following the success of XCS, LCS were later described as reinforcement learning systems endowed with a generalization capability.  Reinforcement learning typically seeks to learn a value function that maps out a complete representation of the state/action space.  Similarly, the design of XCS drives it to form an all-inclusive and accurate representation of the problem space (i.e. a complete map) rather than focusing on high payoff niches in the environment (as was the case with strength-based LCS).  Conceptually, complete maps don't only capture what you should do, or what is correct, but also what you shouldn't do, or what's incorrect.  Differently, most strength-based LCSs, or exclusively supervised learning LCSs seek a rule set of efficient generalizations in the form of a best action map (or a partial map).   Comparisons between strength vs. accuracy-based fitness and complete vs. best action maps have since been examined in greater detail.
 
 In the wake of XCS
+
 XCS inspired the development of a whole new generation of LCS algorithms and applications.  In 1995, Congdon was the first to apply LCS to real-world epidemiological investigations of disease  followed closely by Holmes who developed the BOOLE++, EpiCS, and later EpiXCS for epidemiological classification.  These early works inspired later interest in applying LCS algorithms to complex and large-scale data mining tasks epitomized by bioinformatics applications.  In 1998, Stolzmann introduced anticipatory classifier systems (ACS) which included rules in the form of 'condition-action-effect, rather than the classic 'condition-action' representation.  ACS was designed to predict the perceptual consequences of an action in all possible situations in an environment.  In other words, the system evolves a model that specifies not only what to do in a given situation, but also provides information of what will happen after a specific action will be executed. This family of LCS algorithms is best suited to multi-step problems, planning, speeding up learning, or disambiguating perceptual aliasing (i.e. where the same observation is obtained in distinct states but requires different actions).  Butz later pursued this anticipatory family of LCS developing a number of improvements to the original method.  In 2002, Wilson introduced XCSF, adding a computed action in order to perform function approximation.  In 2003, Bernado-Mansilla introduced a sUpervised Classifier System (UCS), which specialized the XCS algorithm to the task of supervised learning, single-step problems, and forming a best action set.  UCS removed the reinforcement learning strategy in favor of a simple, accuracy-based rule fitness as well as the explore/exploit learning phases, characteristic of many reinforcement learners.  Bull introduced a simple accuracy-based LCS (YCS) and a simple strength-based LCS Minimal Classifier System (MCS) in order to develop a better theoretical understanding of the LCS framework.  Bacardit introduced GAssist and BioHEL, Pittsburgh-style LCSs designed for data mining and scalability to large datasets in bioinformatics applications.  In 2008, Drugowitsch published the book titled "Design and Analysis of Learning Classifier Systems" including some theoretical examination of LCS algorithms.  Butz introduced the first rule online learning visualization within a GUI for XCSF (see the image at the top of this page).  Urbanowicz extended the UCS framework and introduced ExSTraCS, explicitly designed for supervised learning in noisy problem domains (e.g. epidemiology and bioinformatics).  ExSTraCS integrated (1) expert knowledge to drive covering and genetic algorithm towards important features in the data, (2) a form of long-term memory referred to as attribute tracking, allowing for more efficient learning and the characterization of heterogeneous data patterns, and (3) a flexible rule representation similar to Bacardit's mixed discrete-continuous attribute list representation.  Both Bacardit and Urbanowicz explored statistical and visualization strategies to interpret LCS rules and perform knowledge discovery for data mining.  Browne and Iqbal explored the concept of reusing building blocks in the form of code fragments and were the first to solve the 135-bit multiplexer benchmark problem by first learning useful building blocks from simpler multiplexer problems. ExSTraCS 2.0 was later introduced to improve Michigan-style LCS scalability, successfully solving the 135-bit multiplexer benchmark problem for the first time directly.  The n-bit multiplexer problem is highly epistatic and heterogeneous, making it a very challenging machine learning task.
 
 Variants
 Michigan-Style Learning Classifier System
+
 Michigan-Style LCSs are characterized by a population of rules where the genetic algorithm operates at the level of individual rules and the solution is represented by the entire rule population.  Michigan style systems also learn incrementally which allows them to perform both reinforcement learning and supervised learning, as well as both online and offline learning.  Michigan-style systems have the advantage of being applicable to a greater number of problem domains, and the unique benefits of incremental learning.
 
 Pittsburgh-Style Learning Classifier System
@@ -69,16 +89,27 @@ Hybrid systems
 Systems that seek to combine key strengths of both systems have also been proposed.
 
 Advantages
+
 Adaptive: They can acclimate to a changing environment in the case of online learning.
+
 Model free: They make limited assumptions about the environment, or the patterns of association within the data.
+
 They can model complex, epistatic, heterogeneous, or distributed underlying patterns without relying on prior knowledge.
+
 They make no assumptions about the number of predictive vs. non-predictive features in the data.
+
 Ensemble Learner: No single model is applied to a given instance that universally provides a prediction.  Instead a relevant and often conflicting set of rules contribute a 'vote' which can be interpreted as a fuzzy prediction.
+
 Stochastic Learner: Non-deterministic learning is advantageous in large-scale or high complexity problems where deterministic or exhaustive learning becomes intractable.
+
 Implicitly Multi-objective: Rules evolve towards accuracy with implicit and explicit pressures encouraging maximal generality/simplicity. This implicit generalization pressure is unique to LCS.  Effectively, more general rules, will appear more often in match sets.  In turn, they have a more frequent opportunity to be selected as parents, and pass on their more general (genomes) to offspring rules.
+
 Interpretable:In the interest of data mining and knowledge discovery individual LCS rules are logical, and can be made to be human interpretable IF:THEN statements.  Effective strategies have also been introduced to allow for global knowledge discovery identifying significant features, and patterns of association from the rule population as a whole.
+
 Flexible application
+
 Single or multi-step problems
+
 Supervised, Reinforcement or Unsupervised Learning
 Binary Class and Multi-Class Classification
 Regression
@@ -88,12 +119,19 @@ Balanced or imbalanced datasets.
 Accommodates missing data (i.e. missing feature values in training instances)
 
 Disadvantages
+
 Limited Software Availability: There are a limited number of open source, accessible LCS implementations, and even fewer that are designed to be user friendly or accessible to machine learning practitioners.
+
 Interpretation:  While LCS algorithms are certainly more interpretable than some advanced machine learners, users must interpret a set of rules (sometimes large sets of rules to comprehend the LCS model.). Methods for rule compaction, and interpretation strategies remains an area of active research.
+
 Theory/Convergence Proofs:  There is a relatively small body of theoretical work behind LCS algorithms.  This is likely due to their relative algorithmic complexity (applying a number of interacting components) as well as their stochastic nature.
+
 Overfitting:  Like any machine learner, LCS can suffer from overfitting despite implicit and explicit generalization pressures.
+
 Run Parameters: LCSs often have many run parameters to consider/optimize. Typically, most parameters can be left to the community determined defaults with the exception of two critical parameters: Maximum rule population size, and the maximum number of learning iterations.   Optimizing these parameters are likely to be very problem dependent.
+
 Notoriety:  Despite their age, LCS algorithms are still not widely known even in machine learning communities.  As a result, LCS algorithms are rarely considered in comparison to other established machine learning approaches.  This is likely due to the following factors:  (1) LCS is a relatively complicated algorithmic approach, (2) LCS, rule-based modeling is a different paradigm of modeling than almost all other machine learning approaches. (3) LCS software implementations are not as common.
+
 Computationally Expensive:  While certainly more feasible than some exhaustive approaches, LCS algorithms can be computationally expensive.  For simple, linear learning problems there is no need to apply an LCS.  LCS algorithms are best suited to complex problem spaces, or problem spaces in which little prior knowledge exists.
 
 Problem domains
@@ -118,5 +156,7 @@ Scheduling
 Strategy
 
 Terminology
+
 The name, "Learning Classifier System (LCS)", is a bit misleading since there are many machine learning algorithms that 'learn to classify' (e.g. decision trees, artificial neural networks), but are not LCSs.  The term 'rule-based machine learning (RBML)' is useful, as it more clearly captures the essential 'rule-based' component of these systems, but it also generalizes to methods that are not considered to be LCSs (e.g. association rule learning, or artificial immune systems). More general terms such as, 'genetics-based machine learning', and even 'genetic algorithm' have also been applied to refer to what would be more characteristically defined as a learning classifier system.  Due to their similarity to genetic algorithms, Pittsburgh-style learning classifier systems are sometimes generically referred to as 'genetic algorithms'.  Beyond this, some LCS algorithms, or closely related methods, have been referred to as 'cognitive systems', 'adaptive agents', 'production systems', or generically as a 'classifier system'.   This variation in terminology contributes to some confusion in the field.
+
 Up until the 2000s nearly all learning classifier system methods were developed with reinforcement learning problems in mind. As a result, the term ‘learning classifier system’ was commonly defined as the combination of ‘trial-and-error’ reinforcement learning with the global search of a genetic algorithm. Interest in supervised learning applications, and even unsupervised learning have since broadened the use and definition of this term.

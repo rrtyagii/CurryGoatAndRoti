@@ -1,32 +1,53 @@
 Robert L. Simpson Jr. (July 28, 1946 – December 26, 2020) was a computer scientist whose primary research interest was applied artificial intelligence.  He served as chief scientist at Applied Systems Intelligence, Inc. (ASI) working with Dr. Norman D. Geddes, CEO. Simpson was responsible for the creation of the ASI core technology PreAct. ASI has since changed its name to Veloxiti Inc.
 
 Background
+
 Before joining ASI, Simpson was the principal investigator (PI) at IET for a DARPA-sponsored project evaluating cognitive systems under the Personalized Assistants that Learn program. Before joining IET, Simpson worked at the Georgia Tech Research Institute (GTRI) as a principal research scientist.  He was Co-PI on an ARDA-funded GTRI research project called "Case-Based Reasoning for Knowledge Discovery". This project discovered and made explicit in software the knowledge discovery plans and meta-information about those plans that intelligence analysts implicitly use in performing their analysis tasks. Another project at GTRI was a study of Internet Voting that included technical as well as policy issues such as data privacy and security.
+
 Simpson also investigated the representation and use of meta-data in a DARPA interoperability program called FastC2AP. The Fast Connectivity for Coalition and Agents Project (FastC2AP) proved that agent-based technology can provide key capabilities identified by users as critical for dynamic interoperability in military architectures.
+
 Simpson is often credited with the primary original research and development for Case-based reasoning (CBR), a class of artificial intelligence.  Simpson received his Ph.D. in 1985 from the Information and Computer Science department at Georgia Tech; he was the first Ph.D. student of Janet Kolodner.
 
 Time with NCR Corp
+
 During his ten years with NCR Corporation, Simpson served as a member of NCR’s Corporate Technology staff focused on strategic technology investments. Simpson was also the director at NCR’s Human Interface Technology Center (HITC). From 1998-2000, Simpson participated on the NCR Privacy Steering Committee, was chairman of the NCR technical workshop on security, privacy and trust as well as NCR representative to the World-Wide Web Standards Committee Privacy Outreach Committee.
+
 Simpson was also instrumental in the formation of the International Security Trust and Privacy Alliance a global alliance of companies and technology providers working together to clarify and resolve existing and evolving issues related to security, trust, and privacy.  His key technical accomplishments while at the NCR HITC were establishing technical initiatives in intelligent software agents, image understanding, case-based reasoning, and spoken language. His key business accomplishments were in establishing customer relationships with AT&T Health Informatics and Telemedicine as well as internal NCR retail and financial business units.  In addition, Simpson was able to establish the national technical reputation of the NCR HITC by successfully competing for three large national research and development contracts totaling over $90M. The most significant of these was the award of two DARPA Technology Reinvestment Projects and one National Institutes of Standards and Technology, Advanced Technology Program grant.
 
 USAF
+
 During his USAF career Simpson participated in and directed a broad range of computer related projects spanning research, data processing, and personnel development. Between 1985 and 1990, he was the Program Manager for Machine Intelligence at DARPA.  He was responsible for research investment decisions within DARPA's basic science and Strategic Computing programs. Specifically he was responsible for developing the national technology base in knowledge-based systems, image understanding, automated planning/design, and machine learning technologies. Some of the results of these research and development activities were highlighted in a series of articles in the June and August, 1991 and February, 1992 issues of IEEE Expert.
+
 Simpson retired from the USAF as a lieutenant colonel in 1990.  The IT History Society (then known as the Charles Babbage Foundation) recorded an oral history with Simpson at about this time, providing a perspective on AI-related activities at DARPA during this period.
 
 Major publications
+
 Simpson, Robert; Rouff, Christopher; Roberts, Joe and Edwards, Gary. "An Autonomic System for Close Air Support." In Proceedings of Sixth IEEE Conference and Workshops on Engineering of Autonomic and Autonomous Systems, San Francisco, CA. April 14–16, 2009.
 Simpson, Robert and Twardy, Charles. "Refining the Cognitive Decathlon." In Proceedings of Performance Evaluation of Intelligent Systems – PerMIS08. Aug 19-21, 2008, NIST, Bethesda, MD.
 Whitaker, Elizabeth and Simpson, Robert. "The Evolution and Evaluation of an Internet Search Tool for Information Analysts," In Proceedings of 20th Annual FLAIRS Conference, Key West, FL., 7–9 May 2007.
+
 Whitaker, Elizabeth; Simpson, Robert; Burkhart, Laura; MacTavish, Reid and Lobb, Collin. "Cognitive Factors in Homeland Defense: Reusing Intelligence Analysts’ Search Plans." In Proceedings of Human Factors and Ergonomics '04, New Orleans, LA., 20–24 September 2004.
+
 Whitaker, Elizabeth and Simpson, Robert. "Case-Based Reasoning in Support of Intelligence Analysis," In Proceedings of 17th Annual FLAIRS Conference, Miami, FL., 17–19 May 2004.
+
 Whitaker, Elizabeth and Simpson, Robert. "Case-Based Reasoning for Knowledge Discovery," In Proceedings of Human Factors and Ergonomics '03, Denver, CO., 13–17 October 2003.
+
 Mark, William and Simpson, Robert L. "Knowledge-Based Systems: An Overview," IEEE Expert, Vol. 6 Number 3, June 1991; pp. 12–17.
+
 Simpson, Robert L. "Computer Vision: An Overview," IEEE Expert, Vol. 6 Number 4, August 1991; pp. 11–15.
+
 Barber, J., Bhatta, S., Goel, A., Jacobson, M., Pearce, M., Penberthy, L., Shankar, M., Simpson, R. & Stroulia, E. 1992 AskJef: Integration of case-based and multimedia technologies for interface design support. In Gero, J. S., editor, Artificial Intelligence in Design ’92, pp. 457–474. Dordrecht: Kluwer.
+
 Griffith, A, Simpson, R. and Blatt, L.  "Interface Lab:  A Case-Based Interface Design Assistant," In Proceedings of CAIA '94, San Antonio, 1–4 March. 1994, IEEE Computer Society Press.
+
 1Simpson, Robert L., "DOD Applications of Artificial Intelligence: Success and Prospects," Proceedings of the SPIE Conference on Applications of Artificial Intelligence VI, Vol. 937, 1988.
+
 Simpson, Robert L., "Applications of AI Capability," SIGNAL, 1986.
+
 Simpson, Robert L., "A Computer Model of Case-Based Reasoning in Problem Solving: An Investigation in the Domain of Dispute Mediation," Report  #GIT-ICS-85/18, School of Information and Computer Science, Georgia Institute of Technology, Atlanta, GA, June, 1985.
+
 Kolodner, J.; Simpson, R; and Sycara, K., "A Process Model of Case-Based Reasoning in Problem Solving," Proceedings of the Ninth International Joint Conference on Artificial Intelligence, pp. 284–290; Morgan Kaufmann Publisher, Inc., August, 1985.
+
 Kolodner, J.; Simpson, R., "The MEDIATOR: Analysis of an Early Case-Based Problem Solver," Cognitive Science, Vol. 13, Number 4, October–December, 1989, pp. 507–549.
+
 Kolodner, J.; Simpson, R., "Experience and Problem Solving: A Framework." In Proceedings of the Sixth Annual Conference of the Cognitive Science Society, Boulder, CO, 1984.

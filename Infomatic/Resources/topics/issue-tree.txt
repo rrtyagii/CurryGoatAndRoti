@@ -1,7 +1,9 @@
 An issue tree, also called logic tree, is a graphical breakdown of a question that dissects it into its different components vertically and that progresses into details as it reads to the right.
+
 Issue trees are useful in problem solving to identify the root causes of a problem as well as to identify its potential solutions. They also provide a reference point to see how each piece fits into the whole picture of a problem.
 
 Types
+
 According to professor of strategy Arnaud Chevallier, elaborating an approach used at McKinsey & Company, there are two types of issue trees: diagnostic ones and solution ones. Diagnostic trees break down a "why" key question, identifying all the possible root causes for the problem. Solution trees break down a "how" key question, identifying all the possible alternatives to fix the problem.
 
 Rules
@@ -14,5 +16,7 @@ Use an insightful breakdown
 The requirement for issue trees to be collectively exhaustive implies that divergent thinking is a critical skill.
 
 Applications
+
 In management interviews
+
 Issue trees are used to answer questions in case interviews for management consulting positions. A quantitative type of question, the market sizing question, requires the interviewee to estimate the size of a data group such as a specific segment of a population, an amount of objects, a company's revenues, or similar. The candidates are expected to use a structured and logical method of arriving at their answer, and using an issue tree provides a diagram to aid the candidate's logical reasoning. Issue trees are used for other types of case interview questions as well.

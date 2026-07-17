@@ -1,36 +1,26 @@
 In mathematics, fuzzy sets (also known as uncertain sets) are sets whose elements have degrees of membership. Fuzzy sets were introduced independently by Lotfi A. Zadeh in 1965 as an extension of the classical notion of set.
+
 At the same time, Salii (1965) defined a more general kind of structure called an "L-relation", which he studied in an abstract algebraic context;
 fuzzy relations are special cases of L-relations when L is the unit interval [0, 1].
+
 They are now used throughout fuzzy mathematics, having applications in areas such as linguistics (De Cock, Bodenhofer & Kerre 2000), decision-making (Kuzmin 1982), and clustering (Bezdek 1978).
+
 In classical set theory, the membership of elements in a set is assessed in binary terms according to a bivalent condition—an element either belongs or does not belong to the set. By contrast, fuzzy set theory permits the gradual assessment of the membership of elements in a set; this is described with the aid of a membership function valued in the real unit interval [0, 1]. Fuzzy sets generalize classical sets, since the indicator functions (aka characteristic functions) of classical sets are special cases of the membership functions of fuzzy sets, if the latter only takes values 0 or 1. In fuzzy set theory, classical bivalent sets are usually called crisp sets. The fuzzy set theory can be used in a wide range of domains in which information is incomplete or imprecise, such as bioinformatics.
 
 Definition
+
 A fuzzy set is a pair
-
-
 
         (
         U
         ,
         m
         )
-
-
     {\displaystyle (U,m)}
-
  where
-
-
-
         U
-
-
     {\displaystyle U}
-
  is a set (often required to be non-empty) and
-
-
-
         m
         :
         U
@@ -40,105 +30,53 @@ A fuzzy set is a pair
         ,
         1
         ]
-
-
     {\displaystyle m\colon U\rightarrow [0,1]}
-
  a membership function.
 The reference set
 
-
-
         U
-
-
     {\displaystyle U}
-
  (sometimes denoted by
-
-
-
         Ω
-
-
     {\displaystyle \Omega }
-
  or
-
-
-
         X
-
-
     {\displaystyle X}
 
 ) is called universe of discourse, and for each
-
-
 
         x
         ∈
         U
         ,
-
-
     {\displaystyle x\in U,}
-
  the value
-
-
-
         m
         (
         x
         )
-
-
     {\displaystyle m(x)}
-
  is called the grade of membership of
-
-
-
         x
-
-
     {\displaystyle x}
-
  in
-
-
-
         (
         U
         ,
         m
         )
-
-
     {\displaystyle (U,m)}
 
 .
+
 The function
-
-
 
         m
         =
-
           μ
-
             A
-
-
-
-
     {\displaystyle m=\mu _{A}}
-
  is called the membership function of the fuzzy set
-
-
-
         A
         =
         (
@@ -146,171 +84,98 @@ The function
         ,
         m
         )
-
-
     {\displaystyle A=(U,m)}
 
 .
+
 For a finite set
-
-
 
         U
         =
         {
-
           x
-
             1
-
-
         ,
         …
         ,
-
           x
-
             n
-
-
         }
         ,
-
-
     {\displaystyle U=\{x_{1},\dots ,x_{n}\},}
-
  the fuzzy set
-
-
-
         (
         U
         ,
         m
         )
-
-
     {\displaystyle (U,m)}
-
  is often denoted by
-
-
-
         {
         m
         (
-
           x
-
             1
-
-
         )
-
           /
-
-
           x
-
             1
-
-
         ,
         …
         ,
         m
         (
-
           x
-
             n
-
-
         )
-
           /
-
-
           x
-
             n
-
-
         }
         .
-
-
     {\displaystyle \{m(x_{1})/x_{1},\dots ,m(x_{n})/x_{n}\}.}
 
-
 Let
-
-
 
         x
         ∈
         U
-
-
     {\displaystyle x\in U}
 
 . Then
 
-
-
         x
-
-
     {\displaystyle x}
-
  is called
 
 not included in the fuzzy set
-
-
 
         (
         U
         ,
         m
         )
-
-
     {\displaystyle (U,m)}
-
  if
-
-
-
         m
         (
         x
         )
         =
         0
-
-
     {\displaystyle m(x)=0}
-
  (no member),
 fully included if
 
-
-
         m
         (
         x
         )
         =
         1
-
-
     {\displaystyle m(x)=1}
-
  (full member),
 partially included if
-
-
 
         0
         <
@@ -320,51 +185,31 @@ partially included if
         )
         <
         1
-
-
     {\displaystyle 0<m(x)<1}
-
  (fuzzy member).
 The (crisp) set of all fuzzy sets on a universe
 
-
-
         U
-
-
     {\displaystyle U}
-
  is denoted with
-
-
-
         S
         F
         (
         U
         )
-
-
     {\displaystyle SF(U)}
-
  (or sometimes just
-
-
-
         F
         (
         U
         )
-
-
     {\displaystyle F(U)}
 
 ).
 
 Crisp sets related to a fuzzy set
+
 For any fuzzy set
-
-
 
         A
         =
@@ -373,14 +218,8 @@ For any fuzzy set
         ,
         m
         )
-
-
     {\displaystyle A=(U,m)}
-
  and
-
-
-
         α
         ∈
         [
@@ -388,29 +227,14 @@ For any fuzzy set
         ,
         1
         ]
-
-
     {\displaystyle \alpha \in [0,1]}
-
  the following crisp sets are defined:
-
-
-
-
-
           A
-
             ≥
             α
-
-
         =
-
           A
-
             α
-
-
         =
         {
         x
@@ -424,30 +248,15 @@ For any fuzzy set
         ≥
         α
         }
-
-
     {\displaystyle A^{\geq \alpha }=A_{\alpha }=\{x\in U\mid m(x)\geq \alpha \}}
-
  is called its α-cut (aka α-level set)
-
-
-
-
-
           A
-
             >
             α
-
-
         =
-
           A
-
             α
-
           ′
-
         =
         {
         x
@@ -461,15 +270,8 @@ For any fuzzy set
         >
         α
         }
-
-
     {\displaystyle A^{>\alpha }=A'_{\alpha }=\{x\in U\mid m(x)>\alpha \}}
-
  is called its strong α-cut (aka strong α-level set)
-
-
-
-
         S
         (
         A
@@ -481,13 +283,9 @@ For any fuzzy set
         A
         )
         =
-
           A
-
             >
             0
-
-
         =
         {
         x
@@ -501,15 +299,8 @@ For any fuzzy set
         >
         0
         }
-
-
     {\displaystyle S(A)=\operatorname {Supp} (A)=A^{>0}=\{x\in U\mid m(x)>0\}}
-
  is called its support
-
-
-
-
         C
         (
         A
@@ -521,13 +312,9 @@ For any fuzzy set
         A
         )
         =
-
           A
-
             =
             1
-
-
         =
         {
         x
@@ -541,30 +328,21 @@ For any fuzzy set
         =
         1
         }
-
-
     {\displaystyle C(A)=\operatorname {Core} (A)=A^{=1}=\{x\in U\mid m(x)=1\}}
-
  is called its core (or sometimes kernel
-
-
-
         Kern
         ⁡
         (
         A
         )
-
-
     {\displaystyle \operatorname {Kern} (A)}
 
 ).
 Note that some authors understand "kernel" in a different way; see below.
 
 Other definitions
+
 A fuzzy set
-
-
 
         A
         =
@@ -573,45 +351,23 @@ A fuzzy set
         ,
         m
         )
-
-
     {\displaystyle A=(U,m)}
-
  is empty (
-
-
-
         A
         =
         ∅
-
-
     {\displaystyle A=\varnothing }
 
 ) iff (if and only if)
 
-
-
-
         ∀
-
-
     {\displaystyle \forall }
-
-
-
-
-
         x
         ∈
         U
         :
-
           μ
-
             A
-
-
         (
         x
         )
@@ -622,191 +378,103 @@ A fuzzy set
         )
         =
         0
-
-
     {\displaystyle x\in U:\mu _{A}(x)=m(x)=0}
-
 
 Two fuzzy sets
 
-
-
         A
-
-
     {\displaystyle A}
-
  and
-
-
-
         B
-
-
     {\displaystyle B}
-
  are equal (
-
-
-
         A
         =
         B
-
-
     {\displaystyle A=B}
 
 ) iff
 
-
-
-
         ∀
         x
         ∈
         U
         :
-
           μ
-
             A
-
-
         (
         x
         )
         =
-
           μ
-
             B
-
-
         (
         x
         )
-
-
     {\displaystyle \forall x\in U:\mu _{A}(x)=\mu _{B}(x)}
-
 
 A fuzzy set
 
-
-
         A
-
-
     {\displaystyle A}
-
  is included in a fuzzy set
-
-
-
         B
-
-
     {\displaystyle B}
-
  (
-
-
-
         A
         ⊆
         B
-
-
     {\displaystyle A\subseteq B}
 
 ) iff
-
-
-
 
         ∀
         x
         ∈
         U
         :
-
           μ
-
             A
-
-
         (
         x
         )
         ≤
-
           μ
-
             B
-
-
         (
         x
         )
-
-
     {\displaystyle \forall x\in U:\mu _{A}(x)\leq \mu _{B}(x)}
-
 
 For any fuzzy set
 
-
-
         A
-
-
     {\displaystyle A}
 
 , any element
 
-
-
         x
         ∈
         U
-
-
     {\displaystyle x\in U}
-
  that satisfies
-
-
-
-
-
           μ
-
             A
-
-
         (
         x
         )
         =
         0.5
-
-
     {\displaystyle \mu _{A}(x)=0.5}
 
-
 is called a crossover point.
+
 Given a fuzzy set
 
-
-
         A
-
-
     {\displaystyle A}
 
 , any
-
-
 
         α
         ∈
@@ -815,47 +483,30 @@ Given a fuzzy set
         ,
         1
         ]
-
-
     {\displaystyle \alpha \in [0,1]}
 
 , for which
 
-
-
-
           A
-
             =
             α
-
-
         =
         {
         x
         ∈
         U
         ∣
-
           μ
-
             A
-
-
         (
         x
         )
         =
         α
         }
-
-
     {\displaystyle A^{=\alpha }=\{x\in U\mid \mu _{A}(x)=\alpha \}}
-
  is not empty, is called a level of A.
 The level set of A is the set of all levels
-
-
 
         α
         ∈
@@ -864,35 +515,16 @@ The level set of A is the set of all levels
         ,
         1
         ]
-
-
     {\displaystyle \alpha \in [0,1]}
-
  representing distinct cuts. It is the image of
-
-
-
-
           μ
-
             A
-
-
-
-
     {\displaystyle \mu _{A}}
 
 :
 
-
-
-
-
           Λ
-
             A
-
-
         =
         {
         α
@@ -903,13 +535,9 @@ The level set of A is the set of all levels
         1
         ]
         :
-
           A
-
             =
             α
-
-
         ≠
         ∅
         }
@@ -923,36 +551,15 @@ The level set of A is the set of all levels
         1
         ]
         :
-
-
-
-
-
     {\displaystyle \Lambda _{A}=\{\alpha \in [0,1]:A^{=\alpha }\neq \varnothing \}=\{\alpha \in [0,1]:{}}
-
-
-
-
-
         ∃
-
-
     {\displaystyle \exists }
-
-
-
-
-
         x
         ∈
         U
         (
-
           μ
-
             A
-
-
         (
         x
         )
@@ -961,33 +568,19 @@ The level set of A is the set of all levels
         )
         }
         =
-
           μ
-
             A
-
-
         (
         U
         )
-
-
     {\displaystyle x\in U(\mu _{A}(x)=\alpha )\}=\mu _{A}(U)}
-
 
 For a fuzzy set
 
-
-
         A
-
-
     {\displaystyle A}
 
 , its height is given by
-
-
-
 
         Hgt
         ⁡
@@ -997,12 +590,8 @@ For a fuzzy set
         =
         sup
         {
-
           μ
-
             A
-
-
         (
         x
         )
@@ -1014,62 +603,31 @@ For a fuzzy set
         =
         sup
         (
-
           μ
-
             A
-
-
         (
         U
         )
         )
-
-
     {\displaystyle \operatorname {Hgt} (A)=\sup\{\mu _{A}(x)\mid x\in U\}=\sup(\mu _{A}(U))}
-
 
 where
 
-
-
         sup
-
-
     {\displaystyle \sup }
-
  denotes the supremum, which exists because
-
-
-
-
           μ
-
             A
-
-
         (
         U
         )
-
-
     {\displaystyle \mu _{A}(U)}
-
  is non-empty and bounded above by 1. If U is finite, we can simply replace the supremum by the maximum.
 A fuzzy set
 
-
-
         A
-
-
     {\displaystyle A}
-
  is said to be normalized iff
-
-
-
-
         Hgt
         ⁡
         (
@@ -1077,113 +635,56 @@ A fuzzy set
         )
         =
         1
-
-
     {\displaystyle \operatorname {Hgt} (A)=1}
-
 
 In the finite case, where the supremum is a maximum, this means that at least one element of the fuzzy set has full membership. A non-empty fuzzy set
 
-
-
         A
-
-
     {\displaystyle A}
-
  may be normalized with result
-
-
-
-
-
-
               A
               ~
-
-
-
-
-
     {\displaystyle {\tilde {A}}}
-
  by dividing the membership function of the fuzzy set by its height:
-
-
-
-
         ∀
         x
         ∈
         U
         :
-
           μ
-
-
-
                 A
                 ~
-
-
-
-
         (
         x
         )
         =
-
           μ
-
             A
-
-
         (
         x
         )
-
           /
-
         Hgt
         ⁡
         (
         A
         )
-
-
     {\displaystyle \forall x\in U:\mu _{\tilde {A}}(x)=\mu _{A}(x)/\operatorname {Hgt} (A)}
 
-
 Besides similarities this differs from the usual normalization in that the normalizing constant is not a sum.
+
 For fuzzy sets
 
-
-
         A
-
-
     {\displaystyle A}
-
  of real numbers
-
-
-
         (
         U
         ⊆
-
           R
-
         )
-
-
     {\displaystyle (U\subseteq \mathbb {R} )}
-
  with bounded support, the width is defined as
-
-
-
-
         Width
         ⁡
         (
@@ -1207,29 +708,17 @@ For fuzzy sets
         A
         )
         )
-
-
     {\displaystyle \operatorname {Width} (A)=\sup(\operatorname {Supp} (A))-\inf(\operatorname {Supp} (A))}
 
-
 In the case when
-
-
 
         Supp
         ⁡
         (
         A
         )
-
-
     {\displaystyle \operatorname {Supp} (A)}
-
  is a finite set, or more generally a closed set, the width is just
-
-
-
-
         Width
         ⁡
         (
@@ -1253,80 +742,48 @@ In the case when
         A
         )
         )
-
-
     {\displaystyle \operatorname {Width} (A)=\max(\operatorname {Supp} (A))-\min(\operatorname {Supp} (A))}
-
 
 In the n-dimensional case
 
-
-
         (
         U
         ⊆
-
-
             R
-
-
             n
-
-
         )
-
-
     {\displaystyle (U\subseteq \mathbb {R} ^{n})}
-
  the above can be replaced by the n-dimensional volume of
-
-
-
         Supp
         ⁡
         (
         A
         )
-
-
     {\displaystyle \operatorname {Supp} (A)}
 
 .
+
 In general, this can be defined given any measure on U, for instance by integration (e.g. Lebesgue integration) of
 
-
-
         Supp
         ⁡
         (
         A
         )
-
-
     {\displaystyle \operatorname {Supp} (A)}
 
 .
+
 A real fuzzy set
-
-
 
         A
         (
         U
         ⊆
-
           R
-
         )
-
-
     {\displaystyle A(U\subseteq \mathbb {R} )}
-
  is said to be convex (in the fuzzy sense, not to be confused with a crisp convex set), iff
-
-
-
-
         ∀
         x
         ,
@@ -1343,17 +800,11 @@ A real fuzzy set
         1
         ]
         :
-
           μ
-
             A
-
-
         (
         λ
-
           x
-
         +
         (
         1
@@ -1365,35 +816,23 @@ A real fuzzy set
         ≥
         min
         (
-
           μ
-
             A
-
-
         (
         x
         )
         ,
-
           μ
-
             A
-
-
         (
         y
         )
         )
-
-
     {\displaystyle \forall x,y\in U,\forall \lambda \in [0,1]:\mu _{A}(\lambda {x}+(1-\lambda )y)\geq \min(\mu _{A}(x),\mu _{A}(y))}
 
 .
+
 Without loss of generality, we may take x ≤ y, which gives the equivalent formulation
-
-
-
 
         ∀
         z
@@ -1404,104 +843,63 @@ Without loss of generality, we may take x ≤ y, which gives the equivalent form
         y
         ]
         :
-
           μ
-
             A
-
-
         (
         z
         )
         ≥
         min
         (
-
           μ
-
             A
-
-
         (
         x
         )
         ,
-
           μ
-
             A
-
-
         (
         y
         )
         )
-
-
     {\displaystyle \forall z\in [x,y]:\mu _{A}(z)\geq \min(\mu _{A}(x),\mu _{A}(y))}
 
 .
+
 This definition can be extended to one for a general topological space U: we say the fuzzy set
 
-
-
         A
-
-
     {\displaystyle A}
-
  is convex when, for any subset Z of U, the condition
-
-
-
-
         ∀
         z
         ∈
         Z
         :
-
           μ
-
             A
-
-
         (
         z
         )
         ≥
         inf
         (
-
           μ
-
             A
-
-
         (
         ∂
         Z
         )
         )
-
-
     {\displaystyle \forall z\in Z:\mu _{A}(z)\geq \inf(\mu _{A}(\partial Z))}
-
 
 holds, where
 
-
-
         ∂
         Z
-
-
     {\displaystyle \partial Z}
-
  denotes the boundary of Z and
-
-
-
         f
         (
         X
@@ -1517,360 +915,208 @@ holds, where
         ∈
         X
         }
-
-
     {\displaystyle f(X)=\{f(x)\mid x\in X\}}
-
  denotes the image of a set X (here
-
-
-
         ∂
         Z
-
-
     {\displaystyle \partial Z}
 
 ) under a function f (here
 
-
-
-
           μ
-
             A
-
-
-
-
     {\displaystyle \mu _{A}}
 
 ).
 
 Fuzzy set operations
+
 Although the complement of a fuzzy set has a single most common definition, the other main operations, union and intersection, do have some ambiguity.
 
 For a given fuzzy set
 
-
-
         A
-
-
     {\displaystyle A}
 
 , its complement
 
-
-
         ¬
-
           A
-
-
-
     {\displaystyle \neg {A}}
-
  (sometimes denoted as
-
-
-
-
           A
-
             c
-
-
-
-
     {\displaystyle A^{c}}
-
  or
-
-
-
         c
         A
-
-
     {\displaystyle cA}
 
 ) is defined by the following membership function:
-
-
-
 
         ∀
         x
         ∈
         U
         :
-
           μ
-
             ¬
-
               A
-
-
-
         (
         x
         )
         =
         1
         −
-
           μ
-
             A
-
-
         (
         x
         )
-
-
     {\displaystyle \forall x\in U:\mu _{\neg {A}}(x)=1-\mu _{A}(x)}
 
 .
+
 Let t be a t-norm, and s the corresponding s-norm (aka t-conorm). Given a pair of fuzzy sets
-
-
 
         A
         ,
         B
-
-
     {\displaystyle A,B}
 
 , their intersection
 
-
-
         A
         ∩
-
           B
-
-
-
     {\displaystyle A\cap {B}}
-
  is defined by:
-
-
-
-
         ∀
         x
         ∈
         U
         :
-
           μ
-
             A
             ∩
-
               B
-
-
-
         (
         x
         )
         =
         t
         (
-
           μ
-
             A
-
-
         (
         x
         )
         ,
-
           μ
-
             B
-
-
         (
         x
         )
         )
-
-
     {\displaystyle \forall x\in U:\mu _{A\cap {B}}(x)=t(\mu _{A}(x),\mu _{B}(x))}
 
 ,
 and their union
 
-
-
         A
         ∪
-
           B
-
-
-
     {\displaystyle A\cup {B}}
-
  is defined by:
-
-
-
-
         ∀
         x
         ∈
         U
         :
-
           μ
-
             A
             ∪
-
               B
-
-
-
         (
         x
         )
         =
         s
         (
-
           μ
-
             A
-
-
         (
         x
         )
         ,
-
           μ
-
             B
-
-
         (
         x
         )
         )
-
-
     {\displaystyle \forall x\in U:\mu _{A\cup {B}}(x)=s(\mu _{A}(x),\mu _{B}(x))}
 
 .
+
 By the definition of the t-norm, we see that the union and intersection are commutative, monotonic, associative, and have both a null and an identity element. For the intersection, these are ∅ and U, respectively, while for the union, these are reversed. However, the union of a fuzzy set and its complement may not result in the full universe U, and the intersection of them may not give the empty set ∅. Since the intersection and union are associative, it is natural to define the intersection and union of a finite family of fuzzy sets recursively. It is noteworthy that the generally accepted standard operators for the union and intersection of fuzzy sets are the max and min operators:
-
-
-
 
         ∀
         x
         ∈
         U
         :
-
           μ
-
             A
             ∪
-
               B
-
-
-
         (
         x
         )
         =
         max
         (
-
           μ
-
             A
-
-
         (
         x
         )
         ,
-
           μ
-
             B
-
-
         (
         x
         )
         )
-
-
     {\displaystyle \forall x\in U:\mu _{A\cup {B}}(x)=\max(\mu _{A}(x),\mu _{B}(x))}
-
  and
-
-
-
-
           μ
-
             A
             ∩
-
               B
-
-
-
         (
         x
         )
         =
         min
         (
-
           μ
-
             A
-
-
         (
         x
         )
         ,
-
           μ
-
             B
-
-
         (
         x
         )
         )
-
-
     {\displaystyle \mu _{A\cap {B}}(x)=\min(\mu _{A}(x),\mu _{B}(x))}
 
 .
+
 If the standard negator
-
-
 
         n
         (
@@ -1888,150 +1134,79 @@ If the standard negator
         ,
         1
         ]
-
-
     {\displaystyle n(\alpha )=1-\alpha ,\alpha \in [0,1]}
-
  is replaced by another strong negator, the fuzzy set difference (defined below) may be generalized by
-
-
-
-
         ∀
         x
         ∈
         U
         :
-
           μ
-
             ¬
-
               A
-
-
-
         (
         x
         )
         =
         n
         (
-
           μ
-
             A
-
-
         (
         x
         )
         )
         .
-
-
     {\displaystyle \forall x\in U:\mu _{\neg {A}}(x)=n(\mu _{A}(x)).}
 
-
 The triple of fuzzy intersection, union and complement form a De Morgan Triplet. That is, De Morgan's laws extend to this triple.
+
 Examples for fuzzy intersection/union pairs with standard negator can be derived from samples provided in the article about t-norms.
+
 The fuzzy intersection is not idempotent in general, because the standard t-norm min is the only one which has this property. Indeed, if the arithmetic multiplication is used as the t-norm, the resulting fuzzy intersection operation is not idempotent. That is, iteratively taking the intersection of a fuzzy set with itself is not trivial. It instead defines the m-th power of a fuzzy set, which can be canonically generalized for non-integer exponents in the following way:
+
 For any fuzzy set
 
-
-
         A
-
-
     {\displaystyle A}
-
  and
-
-
-
         ν
         ∈
-
-
             R
-
-
             +
-
-
-
-
     {\displaystyle \nu \in \mathbb {R} ^{+}}
-
  the ν-th power of
-
-
-
         A
-
-
     {\displaystyle A}
-
  is defined by the membership function:
-
-
-
-
         ∀
         x
         ∈
         U
         :
-
           μ
-
-
               A
-
                 ν
-
-
-
-
         (
         x
         )
         =
-
           μ
-
             A
-
-
         (
         x
-
           )
-
             ν
-
-
         .
-
-
     {\displaystyle \forall x\in U:\mu _{A^{\nu }}(x)=\mu _{A}(x)^{\nu }.}
-
 
 The case of exponent two is special enough to be given a name.
 
 For any fuzzy set
 
-
-
         A
-
-
     {\displaystyle A}
-
  the concentration
-
-
-
         C
         O
         N
@@ -2039,217 +1214,122 @@ For any fuzzy set
         A
         )
         =
-
           A
-
             2
-
-
-
-
     {\displaystyle CON(A)=A^{2}}
-
  is defined
-
-
-
-
         ∀
         x
         ∈
         U
         :
-
           μ
-
             C
             O
             N
             (
             A
             )
-
-
         (
         x
         )
         =
-
           μ
-
-
               A
-
                 2
-
-
-
-
         (
         x
         )
         =
-
           μ
-
             A
-
-
         (
         x
-
           )
-
             2
-
-
         .
-
-
     {\displaystyle \forall x\in U:\mu _{CON(A)}(x)=\mu _{A^{2}}(x)=\mu _{A}(x)^{2}.}
-
 
 Taking
 
-
-
-
           0
-
             0
-
-
         =
         1
-
-
     {\displaystyle 0^{0}=1}
 
 , we have
 
-
-
-
           A
-
             0
-
-
         =
         U
-
-
     {\displaystyle A^{0}=U}
-
  and
-
-
-
-
           A
-
             1
-
-
         =
         A
         .
-
-
     {\displaystyle A^{1}=A.}
 
-
 Given fuzzy sets
-
-
 
         A
         ,
         B
-
-
     {\displaystyle A,B}
 
 , the fuzzy set difference
 
-
-
         A
         ∖
         B
-
-
     {\displaystyle A\setminus B}
 
 , also denoted
 
-
-
         A
         −
         B
-
-
     {\displaystyle A-B}
 
 , may be defined straightforwardly via the membership function:
-
-
-
 
         ∀
         x
         ∈
         U
         :
-
           μ
-
             A
             ∖
-
               B
-
-
-
         (
         x
         )
         =
         t
         (
-
           μ
-
             A
-
-
         (
         x
         )
         ,
         n
         (
-
           μ
-
             B
-
-
         (
         x
         )
         )
         )
         ,
-
-
     {\displaystyle \forall x\in U:\mu _{A\setminus {B}}(x)=t(\mu _{A}(x),n(\mu _{B}(x))),}
 
-
 which means
-
-
 
         A
         ∖
@@ -2258,200 +1338,123 @@ which means
         A
         ∩
         ¬
-
           B
-
-
-
     {\displaystyle A\setminus B=A\cap \neg {B}}
 
 , e. g.:
-
-
-
 
         ∀
         x
         ∈
         U
         :
-
           μ
-
             A
             ∖
-
               B
-
-
-
         (
         x
         )
         =
         min
         (
-
           μ
-
             A
-
-
         (
         x
         )
         ,
         1
         −
-
           μ
-
             B
-
-
         (
         x
         )
         )
         .
-
-
     {\displaystyle \forall x\in U:\mu _{A\setminus {B}}(x)=\min(\mu _{A}(x),1-\mu _{B}(x)).}
 
-
 Another proposal for a set difference could be:
-
-
-
 
         ∀
         x
         ∈
         U
         :
-
           μ
-
             A
             −
-
               B
-
-
-
         (
         x
         )
         =
-
           μ
-
             A
-
-
         (
         x
         )
         −
         t
         (
-
           μ
-
             A
-
-
         (
         x
         )
         ,
-
           μ
-
             B
-
-
         (
         x
         )
         )
         .
-
-
     {\displaystyle \forall x\in U:\mu _{A-{B}}(x)=\mu _{A}(x)-t(\mu _{A}(x),\mu _{B}(x)).}
 
-
 Proposals for symmetric fuzzy set differences have been made by Dubois and Prade (1980), either by taking the absolute value, giving
-
-
-
 
         ∀
         x
         ∈
         U
         :
-
           μ
-
             A
             △
             B
-
-
         (
         x
         )
         =
-
           |
-
-
           μ
-
             A
-
-
         (
         x
         )
         −
-
           μ
-
             B
-
-
         (
         x
         )
-
           |
-
         ,
-
-
     {\displaystyle \forall x\in U:\mu _{A\triangle B}(x)=|\mu _{A}(x)-\mu _{B}(x)|,}
 
-
 or by using a combination of just max, min, and standard negation, giving
-
-
-
 
         ∀
         x
         ∈
         U
         :
-
           μ
-
             A
             △
             B
-
-
         (
         x
         )
@@ -2460,24 +1463,16 @@ or by using a combination of just max, min, and standard negation, giving
         (
         min
         (
-
           μ
-
             A
-
-
         (
         x
         )
         ,
         1
         −
-
           μ
-
             B
-
-
         (
         x
         )
@@ -2485,139 +1480,87 @@ or by using a combination of just max, min, and standard negation, giving
         ,
         min
         (
-
           μ
-
             B
-
-
         (
         x
         )
         ,
         1
         −
-
           μ
-
             A
-
-
         (
         x
         )
         )
         )
         .
-
-
     {\displaystyle \forall x\in U:\mu _{A\triangle B}(x)=\max(\min(\mu _{A}(x),1-\mu _{B}(x)),\min(\mu _{B}(x),1-\mu _{A}(x))).}
 
-
 Axioms for definition of generalized symmetric differences analogous to those for t-norms, t-conorms, and negators have been proposed by Vemur et al. (2014) with predecessors by Alsina et al. (2005) and Bedregal et al. (2009).
+
 In contrast to crisp sets, averaging operations can also be defined for fuzzy sets.
 
 Disjoint fuzzy sets
+
 In contrast to the general ambiguity of intersection and union operations, there is clearness for disjoint fuzzy sets:
+
 Two fuzzy sets
-
-
 
         A
         ,
         B
-
-
     {\displaystyle A,B}
-
  are disjoint iff
-
-
-
-
         ∀
         x
         ∈
         U
         :
-
           μ
-
             A
-
-
         (
         x
         )
         =
         0
         ∨
-
           μ
-
             B
-
-
         (
         x
         )
         =
         0
-
-
     {\displaystyle \forall x\in U:\mu _{A}(x)=0\lor \mu _{B}(x)=0}
-
 
 which is equivalent to
 
-
-
-
         ∄
-
-
     {\displaystyle \nexists }
-
-
-
-
-
         x
         ∈
         U
         :
-
           μ
-
             A
-
-
         (
         x
         )
         >
         0
         ∧
-
           μ
-
             B
-
-
         (
         x
         )
         >
         0
-
-
     {\displaystyle x\in U:\mu _{A}(x)>0\land \mu _{B}(x)>0}
 
-
 and also equivalent to
-
-
-
 
         ∀
         x
@@ -2626,156 +1569,87 @@ and also equivalent to
         :
         min
         (
-
           μ
-
             A
-
-
         (
         x
         )
         ,
-
           μ
-
             B
-
-
         (
         x
         )
         )
         =
         0
-
-
     {\displaystyle \forall x\in U:\min(\mu _{A}(x),\mu _{B}(x))=0}
 
-
 We keep in mind that min/max is a t/s-norm pair, and any other will work here as well.
+
 Fuzzy sets are disjoint if and only if their supports are disjoint according to the standard definition for crisp sets.
+
 For disjoint fuzzy sets
-
-
 
         A
         ,
         B
-
-
     {\displaystyle A,B}
-
  any intersection will give ∅, and any union will give the same result, which is denoted as
-
-
-
-
         A
-
-
-
-
               ∪
               ˙
-
-
-
-
         B
         =
         A
         ∪
         B
-
-
     {\displaystyle A\,{\dot {\cup }}\,B=A\cup B}
 
-
 with its membership function given by
-
-
-
 
         ∀
         x
         ∈
         U
         :
-
           μ
-
             A
-
-
-
                   ∪
                   ˙
-
-
-
             B
-
-
         (
         x
         )
         =
-
           μ
-
             A
-
-
         (
         x
         )
         +
-
           μ
-
             B
-
-
         (
         x
         )
-
-
     {\displaystyle \forall x\in U:\mu _{A{\dot {\cup }}B}(x)=\mu _{A}(x)+\mu _{B}(x)}
 
-
 Note that only one of both summands is greater than zero.
+
 For disjoint fuzzy sets
-
-
 
         A
         ,
         B
-
-
     {\displaystyle A,B}
-
  the following holds true:
-
-
-
-
         Supp
         ⁡
         (
         A
-
-
-
-
               ∪
               ˙
-
-
-
-
         B
         )
         =
@@ -2790,107 +1664,55 @@ For disjoint fuzzy sets
         (
         B
         )
-
-
     {\displaystyle \operatorname {Supp} (A\,{\dot {\cup }}\,B)=\operatorname {Supp} (A)\cup \operatorname {Supp} (B)}
 
-
 This can be generalized to finite families of fuzzy sets as follows:
+
 Given a family
-
-
 
         A
         =
         (
-
           A
-
             i
-
-
-
           )
-
             i
             ∈
             I
-
-
-
-
     {\displaystyle A=(A_{i})_{i\in I}}
-
  of fuzzy sets with index set I (e.g. I = {1,2,3,...,n}). This family is (pairwise) disjoint iff
-
-
-
-
-
           for all
-
         x
         ∈
         U
-
            there exists at most one
-
         i
         ∈
         I
-
            such that
-
-
           μ
-
-
               A
-
                 i
-
-
-
-
         (
         x
         )
         >
         0.
-
-
     {\displaystyle {\text{for all }}x\in U{\text{ there exists at most one }}i\in I{\text{ such that }}\mu _{A_{i}}(x)>0.}
 
-
 A family of fuzzy sets
-
-
 
         A
         =
         (
-
           A
-
             i
-
-
-
           )
-
             i
             ∈
             I
-
-
-
-
     {\displaystyle A=(A_{i})_{i\in I}}
-
  is disjoint, iff the family of underlying supports
-
-
-
         Supp
         ∘
         A
@@ -2899,252 +1721,117 @@ A family of fuzzy sets
         Supp
         ⁡
         (
-
           A
-
             i
-
-
         )
-
           )
-
             i
             ∈
             I
-
-
-
-
     {\displaystyle \operatorname {Supp} \circ A=(\operatorname {Supp} (A_{i}))_{i\in I}}
-
  is disjoint in the standard sense for families of crisp sets.
 Independent of the t/s-norm pair, intersection of a disjoint family of fuzzy sets will give ∅ again, while the union has no ambiguity:
 
-
-
-
-
-
-
-
                 ⋃
-
                   i
                   ∈
                   I
-
-
               ˙
-
-
-
-
-
           A
-
             i
-
-
         =
-
           ⋃
-
             i
             ∈
             I
-
-
-
           A
-
             i
-
-
-
-
     {\displaystyle {\dot {\bigcup \limits _{i\in I}}}\,A_{i}=\bigcup _{i\in I}A_{i}}
 
-
 with its membership function given by
-
-
-
 
         ∀
         x
         ∈
         U
         :
-
           μ
-
-
-
-
-
                     ⋃
-
                       i
                       ∈
                       I
-
-
                   ˙
-
-
-
-
               A
-
                 i
-
-
-
-
         (
         x
         )
         =
-
           ∑
-
             i
             ∈
             I
-
-
-
           μ
-
-
               A
-
                 i
-
-
-
-
         (
         x
         )
-
-
     {\displaystyle \forall x\in U:\mu _{{\dot {\bigcup \limits _{i\in I}}}A_{i}}(x)=\sum _{i\in I}\mu _{A_{i}}(x)}
 
-
 Again only one of the summands is greater than zero.
+
 For disjoint families of fuzzy sets
-
-
 
         A
         =
         (
-
           A
-
             i
-
-
-
           )
-
             i
             ∈
             I
-
-
-
-
     {\displaystyle A=(A_{i})_{i\in I}}
-
  the following holds true:
-
-
-
-
         Supp
         ⁡
-
           (
-
-
-
-
-
                     ⋃
-
                       i
                       ∈
                       I
-
-
                   ˙
-
-
-
-
-
               A
-
                 i
-
-
-
           )
-
         =
-
           ⋃
-
             i
             ∈
             I
-
-
         Supp
         ⁡
         (
-
           A
-
             i
-
-
         )
-
-
     {\displaystyle \operatorname {Supp} \left({\dot {\bigcup \limits _{i\in I}}}\,A_{i}\right)=\bigcup \limits _{i\in I}\operatorname {Supp} (A_{i})}
 
 Scalar cardinality
+
 For a fuzzy set
 
-
-
         A
-
-
     {\displaystyle A}
-
  with finite support
-
-
-
         Supp
         ⁡
         (
         A
         )
-
-
     {\displaystyle \operatorname {Supp} (A)}
-
  (i.e. a "finite fuzzy set"), its cardinality (aka scalar cardinality or sigma-count) is given by
-
-
-
-
         Card
         ⁡
         (
@@ -3157,40 +1844,24 @@ For a fuzzy set
         A
         )
         =
-
           |
-
         A
-
           |
-
         =
-
           ∑
-
             x
             ∈
             U
-
-
-
           μ
-
             A
-
-
         (
         x
         )
-
-
     {\displaystyle \operatorname {Card} (A)=\operatorname {sc} (A)=|A|=\sum _{x\in U}\mu _{A}(x)}
 
 .
+
 In the case that U itself is a finite set, the relative cardinality is given by
-
-
-
 
         RelCard
         ⁡
@@ -3207,55 +1878,29 @@ In the case that U itself is a finite set, the relative cardinality is given by
         (
         A
         )
-
           /
-
-
           |
-
         U
-
           |
-
         =
-
           |
-
         A
-
           |
-
-
           /
-
-
           |
-
         U
-
           |
-
-
-
     {\displaystyle \operatorname {RelCard} (A)=\|A\|=\operatorname {sc} (A)/|U|=|A|/|U|}
 
 .
+
 This can be generalized for the divisor to be a non-empty fuzzy set: For fuzzy sets
-
-
 
         A
         ,
         G
-
-
     {\displaystyle A,G}
-
  with G ≠ ∅, we can define the relative cardinality by:
-
-
-
-
         RelCard
         ⁡
         (
@@ -3268,9 +1913,7 @@ This can be generalized for the divisor to be a non-empty fuzzy set: For fuzzy s
         ⁡
         (
         A
-
           |
-
         G
         )
         =
@@ -3279,28 +1922,20 @@ This can be generalized for the divisor to be a non-empty fuzzy set: For fuzzy s
         (
         A
         ∩
-
           G
-
         )
-
           /
-
         sc
         ⁡
         (
         G
         )
-
-
     {\displaystyle \operatorname {RelCard} (A,G)=\operatorname {sc} (A|G)=\operatorname {sc} (A\cap {G})/\operatorname {sc} (G)}
 
 ,
 which looks very similar to the expression for conditional probability.
+
 Note:
-
-
-
 
         sc
         ⁡
@@ -3309,45 +1944,26 @@ Note:
         )
         >
         0
-
-
     {\displaystyle \operatorname {sc} (G)>0}
-
  here.
 The result may depend on the specific intersection (t-norm) chosen.
 For
 
-
-
         G
         =
         U
-
-
     {\displaystyle G=U}
-
  the result is unambiguous and resembles the prior definition.
 
 Distance and similarity
+
 For any fuzzy set
 
-
-
         A
-
-
     {\displaystyle A}
-
  the membership function
-
-
-
-
           μ
-
             A
-
-
         :
         U
         →
@@ -3356,79 +1972,39 @@ For any fuzzy set
         ,
         1
         ]
-
-
     {\displaystyle \mu _{A}:U\to [0,1]}
-
  can be regarded as a family
-
-
-
-
           μ
-
             A
-
-
         =
         (
-
           μ
-
             A
-
-
         (
         x
         )
-
           )
-
             x
             ∈
             U
-
-
         ∈
         [
         0
         ,
         1
-
           ]
-
             U
-
-
-
-
     {\displaystyle \mu _{A}=(\mu _{A}(x))_{x\in U}\in [0,1]^{U}}
 
 . The latter is a metric space with several metrics
 
-
-
         d
-
-
     {\displaystyle d}
-
  known. A metric can be derived from a norm (vector norm)
-
-
-
         ‖
-
         ‖
-
-
     {\displaystyle \|\,\|}
-
  via
-
-
-
-
         d
         (
         α
@@ -3441,59 +2017,33 @@ For any fuzzy set
         −
         β
         ‖
-
-
     {\displaystyle d(\alpha ,\beta )=\|\alpha -\beta \|}
 
 .
+
 For instance, if
 
-
-
         U
-
-
     {\displaystyle U}
-
  is finite, i.e.
-
-
-
         U
         =
         {
-
           x
-
             1
-
-
         ,
-
           x
-
             2
-
-
         ,
         .
         .
         .
-
           x
-
             n
-
-
         }
-
-
     {\displaystyle U=\{x_{1},x_{2},...x_{n}\}}
 
 , such a metric may be defined by:
-
-
-
 
         d
         (
@@ -3504,31 +2054,19 @@ For instance, if
         :=
         max
         {
-
           |
-
         α
         (
-
           x
-
             i
-
-
         )
         −
         β
         (
-
           x
-
             i
-
-
         )
-
           |
-
         :
         i
         =
@@ -3540,43 +2078,22 @@ For instance, if
         ,
         n
         }
-
-
     {\displaystyle d(\alpha ,\beta ):=\max\{|\alpha (x_{i})-\beta (x_{i})|:i=1,...,n\}}
-
  where
-
-
-
         α
-
-
     {\displaystyle \alpha }
-
  and
-
-
-
         β
-
-
     {\displaystyle \beta }
-
  are sequences of real numbers between 0 and 1.
 For infinite
 
-
-
         U
-
-
     {\displaystyle U}
 
 , the maximum can be replaced by a supremum.
+
 Because fuzzy sets are unambiguously defined by their membership function, this metric can be used to measure distances between fuzzy sets on the same universe:
-
-
-
 
         d
         (
@@ -3587,30 +2104,17 @@ Because fuzzy sets are unambiguously defined by their membership function, this 
         :=
         d
         (
-
           μ
-
             A
-
-
         ,
-
           μ
-
             B
-
-
         )
-
-
     {\displaystyle d(A,B):=d(\mu _{A},\mu _{B})}
 
 ,
 which becomes in the above sample:
 
-
-
-
         d
         (
         A
@@ -3620,41 +2124,21 @@ which becomes in the above sample:
         =
         max
         {
-
           |
-
-
           μ
-
             A
-
-
         (
-
           x
-
             i
-
-
         )
         −
-
           μ
-
             B
-
-
         (
-
           x
-
             i
-
-
         )
-
           |
-
         :
         i
         =
@@ -3666,59 +2150,34 @@ which becomes in the above sample:
         ,
         n
         }
-
-
     {\displaystyle d(A,B)=\max\{|\mu _{A}(x_{i})-\mu _{B}(x_{i})|:i=1,...,n\}}
 
 .
+
 Again for infinite
 
-
-
         U
-
-
     {\displaystyle U}
-
  the maximum must be replaced by a supremum. Other distances (like the canonical 2-norm) may diverge, if infinite fuzzy sets are too different, e.g.,
-
-
-
         ∅
-
-
     {\displaystyle \varnothing }
-
  and
-
-
-
         U
-
-
     {\displaystyle U}
 
 .
+
 Similarity measures (here denoted by
 
-
-
         S
-
-
     {\displaystyle S}
 
 ) may then be derived from the distance, e.g. after a proposal by Koczy:
 
-
-
-
         S
         =
         1
-
           /
-
         (
         1
         +
@@ -3729,38 +2188,20 @@ Similarity measures (here denoted by
         B
         )
         )
-
-
     {\displaystyle S=1/(1+d(A,B))}
-
  if
-
-
-
         d
         (
         A
         ,
         B
         )
-
-
     {\displaystyle d(A,B)}
-
  is finite,
-
-
-
         0
-
-
     {\displaystyle 0}
-
  else,
 or after Williams and Steele:
-
-
-
 
         S
         =
@@ -3769,160 +2210,86 @@ or after Williams and Steele:
         (
         −
         α
-
           d
           (
           A
           ,
           B
           )
-
         )
-
-
     {\displaystyle S=\exp(-\alpha {d(A,B)})}
-
  if
-
-
-
         d
         (
         A
         ,
         B
         )
-
-
     {\displaystyle d(A,B)}
-
  is finite,
-
-
-
         0
-
-
     {\displaystyle 0}
-
  else
 where
-
-
 
         α
         >
         0
-
-
     {\displaystyle \alpha >0}
-
  is a steepness parameter and
-
-
-
         exp
         ⁡
         (
         x
         )
         =
-
           e
-
             x
-
-
-
-
     {\displaystyle \exp(x)=e^{x}}
 
 .
 
 L-fuzzy sets
+
 Sometimes, more general variants of the notion of fuzzy set are used, with membership functions taking values in a (fixed or variable) algebra or structure
 
-
-
         L
-
-
     {\displaystyle L}
-
  of a given kind; usually it is required that
-
-
-
         L
-
-
     {\displaystyle L}
-
  be at least a poset or lattice. These are usually called L-fuzzy sets, to distinguish them from those valued over the unit interval. The usual membership functions with values in [0, 1] are then called [0, 1]-valued membership functions. These kinds of generalizations were first considered in 1967 by Joseph Goguen, who was a student of Zadeh. A classical corollary may be indicating truth and membership values by {f, t} instead of {0, 1}.
 An extension of fuzzy sets has been provided by Atanassov. An intuitionistic fuzzy set (IFS)
 
-
-
         A
-
-
     {\displaystyle A}
-
  is characterized by two functions:
 
 1.
 
-
-
-
           μ
-
             A
-
-
         (
         x
         )
-
-
     {\displaystyle \mu _{A}(x)}
-
  – degree of membership of x
 2.
 
-
-
-
           ν
-
             A
-
-
         (
         x
         )
-
-
     {\displaystyle \nu _{A}(x)}
-
  – degree of non-membership of x
 with functions
 
-
-
-
           μ
-
             A
-
-
         ,
-
           ν
-
             A
-
-
         :
         U
         →
@@ -3931,170 +2298,106 @@ with functions
         ,
         1
         ]
-
-
     {\displaystyle \mu _{A},\nu _{A}:U\to [0,1]}
-
  with
-
-
-
         ∀
         x
         ∈
         U
         :
-
           μ
-
             A
-
-
         (
         x
         )
         +
-
           ν
-
             A
-
-
         (
         x
         )
         ≤
         1
-
-
     {\displaystyle \forall x\in U:\mu _{A}(x)+\nu _{A}(x)\leq 1}
 
 .
+
 This resembles a situation like some person denoted by
 
-
-
         x
-
-
     {\displaystyle x}
-
  voting
 
 for a proposal
 
-
-
         A
-
-
     {\displaystyle A}
 
 : (
 
-
-
-
           μ
-
             A
-
-
         (
         x
         )
         =
         1
         ,
-
           ν
-
             A
-
-
         (
         x
         )
         =
         0
-
-
     {\displaystyle \mu _{A}(x)=1,\nu _{A}(x)=0}
 
 ),
 against it: (
 
-
-
-
           μ
-
             A
-
-
         (
         x
         )
         =
         0
         ,
-
           ν
-
             A
-
-
         (
         x
         )
         =
         1
-
-
     {\displaystyle \mu _{A}(x)=0,\nu _{A}(x)=1}
 
 ),
 or abstain from voting: (
 
-
-
-
           μ
-
             A
-
-
         (
         x
         )
         =
-
           ν
-
             A
-
-
         (
         x
         )
         =
         0
-
-
     {\displaystyle \mu _{A}(x)=\nu _{A}(x)=0}
 
 ).
+
 After all, we have a percentage of approvals, a percentage of denials, and a percentage of abstentions.
+
 For this situation, special "intuitive fuzzy" negators, t- and s-norms can be defined. With
 
-
-
-
           D
-
             ∗
-
-
         =
         {
         (
@@ -4107,12 +2410,8 @@ For this situation, special "intuitive fuzzy" negators, t- and s-norms can be de
         0
         ,
         1
-
           ]
-
             2
-
-
         :
         α
         +
@@ -4120,127 +2419,68 @@ For this situation, special "intuitive fuzzy" negators, t- and s-norms can be de
         =
         1
         }
-
-
     {\displaystyle D^{*}=\{(\alpha ,\beta )\in [0,1]^{2}:\alpha +\beta =1\}}
-
  and by combining both functions to
-
-
-
         (
-
           μ
-
             A
-
-
         ,
-
           ν
-
             A
-
-
         )
         :
         U
         →
-
           D
-
             ∗
-
-
-
-
     {\displaystyle (\mu _{A},\nu _{A}):U\to D^{*}}
-
  this situation resembles a special kind of L-fuzzy sets.
 Once more, this has been expanded by defining picture fuzzy sets (PFS) as follows: A PFS A is characterized by three functions mapping U to [0, 1]:
 
-
-
-
           μ
-
             A
-
-
         ,
-
           η
-
             A
-
-
         ,
-
           ν
-
             A
-
-
-
-
     {\displaystyle \mu _{A},\eta _{A},\nu _{A}}
 
 , "degree of positive membership", "degree of neutral membership", and "degree of negative membership" respectively and additional condition
-
-
 
         ∀
         x
         ∈
         U
         :
-
           μ
-
             A
-
-
         (
         x
         )
         +
-
           η
-
             A
-
-
         (
         x
         )
         +
-
           ν
-
             A
-
-
         (
         x
         )
         ≤
         1
-
-
     {\displaystyle \forall x\in U:\mu _{A}(x)+\eta _{A}(x)+\nu _{A}(x)\leq 1}
 
-
 This expands the voting sample above by an additional possibility of "refusal of voting".
+
 With
 
-
-
-
           D
-
             ∗
-
-
         =
         {
         (
@@ -4255,12 +2495,8 @@ With
         0
         ,
         1
-
           ]
-
             3
-
-
         :
         α
         +
@@ -4270,268 +2506,143 @@ With
         =
         1
         }
-
-
     {\displaystyle D^{*}=\{(\alpha ,\beta ,\gamma )\in [0,1]^{3}:\alpha +\beta +\gamma =1\}}
-
  and special "picture fuzzy" negators, t- and s-norms this resembles just another type of L-fuzzy sets.
 
 Pythagorean fuzzy sets
+
 One extension of IFS is what is known as Pythagorean fuzzy sets. Such sets satisfy the constraint
 
-
-
-
           μ
-
             A
-
-
         (
         x
-
           )
-
             2
-
-
         +
-
           ν
-
             A
-
-
         (
         x
-
           )
-
             2
-
-
         ≤
         1
-
-
     {\displaystyle \mu _{A}(x)^{2}+\nu _{A}(x)^{2}\leq 1}
 
 , which is reminiscent of the Pythagorean theorem. Pythagorean fuzzy sets can be applicable to real life applications in which the previous condition of
 
-
-
-
           μ
-
             A
-
-
         (
         x
         )
         +
-
           ν
-
             A
-
-
         (
         x
         )
         ≤
         1
-
-
     {\displaystyle \mu _{A}(x)+\nu _{A}(x)\leq 1}
-
  is not valid. However, the less restrictive condition of
-
-
-
-
           μ
-
             A
-
-
         (
         x
-
           )
-
             2
-
-
         +
-
           ν
-
             A
-
-
         (
         x
-
           )
-
             2
-
-
         ≤
         1
-
-
     {\displaystyle \mu _{A}(x)^{2}+\nu _{A}(x)^{2}\leq 1}
-
  may be suitable in more domains.
 
 Fuzzy logic
+
 As an extension of the case of multi-valued logic, valuations (
-
-
 
         μ
         :
-
-
-
               V
-
-
-
             o
-
-
         →
-
-
             W
-
-
-
-
     {\displaystyle \mu :{\mathit {V}}_{o}\to {\mathit {W}}}
 
 ) of propositional variables (
 
-
-
-
-
-
               V
-
-
-
             o
-
-
-
-
     {\displaystyle {\mathit {V}}_{o}}
 
 ) into a set of membership degrees (
 
-
-
-
-
             W
-
-
-
-
     {\displaystyle {\mathit {W}}}
 
 ) can be thought of as membership functions mapping predicates into fuzzy sets (or more formally, into an ordered set of fuzzy pairs, called a fuzzy relation). With these valuations, many-valued logic can be extended to allow for fuzzy premises from which graded conclusions may be drawn.
+
 This extension is sometimes called "fuzzy logic in the narrow sense" as opposed to "fuzzy logic in the wider sense," which originated in the engineering fields of automated control and knowledge engineering, and which encompasses many topics involving fuzzy sets and "approximated reasoning."
+
 Industrial applications of fuzzy sets in the context of "fuzzy logic in the wider sense" can be found at fuzzy logic.
 
 Fuzzy number
+
 A fuzzy number is a fuzzy set that satisfies all the following conditions:
 
 A is normalised;
+
 A is a convex set;
+
 The membership function
 
-
-
-
           μ
-
             A
-
-
         (
         x
         )
-
-
     {\displaystyle \mu _{A}(x)}
-
  achieves the value 1 at least once;
 The membership function
 
-
-
-
           μ
-
             A
-
-
         (
         x
         )
-
-
     {\displaystyle \mu _{A}(x)}
-
  is at least segmentally continuous.
 If these conditions are not satisfied, then A is not a fuzzy number. The core of this fuzzy number is a singleton; its location is:
-
-
-
-
 
         C
         (
         A
         )
         =
-
           x
-
             ∗
-
-
         :
-
           μ
-
             A
-
-
         (
-
           x
-
             ∗
-
-
         )
         =
         1
-
-
     {\displaystyle \,C(A)=x^{*}:\mu _{A}(x^{*})=1}
 
-
 Fuzzy numbers can be likened to the funfair game "guess your weight," where someone guesses the contestant's weight, with closer guesses being more correct, and where the guesser "wins" if he or she guesses near enough to the contestant's weight, with the actual weight being completely correct (mapping to 1 by the membership function).
+
 The kernel
-
-
 
         K
         (
@@ -4543,57 +2654,34 @@ The kernel
         (
         A
         )
-
-
     {\displaystyle K(A)=\operatorname {Kern} (A)}
-
  of a fuzzy interval
-
-
-
         A
-
-
     {\displaystyle A}
-
  is defined as the 'inner' part, without the 'outbound' parts where the membership value is constant ad infinitum. In other words, the smallest subset of
-
-
-
-
           R
-
-
-
     {\displaystyle \mathbb {R} }
-
  where
-
-
-
-
           μ
-
             A
-
-
         (
         x
         )
-
-
     {\displaystyle \mu _{A}(x)}
-
  is constant outside of it, is defined as the kernel.
 However, there are other concepts of fuzzy numbers and intervals as some authors do not insist on convexity.
 
 Fuzzy categories
+
 The use of set membership as a key component of category theory can be generalized to fuzzy sets. This approach, which began in 1968 shortly after the introduction of fuzzy set theory, led to the development of Goguen categories in the 21st century. In these categories, rather than using two valued set membership, more general intervals are used, and may be lattices as in L-fuzzy sets.
+
 There are numerous mathematical extensions similar to or more general than fuzzy sets. Since fuzzy sets were introduced in 1965 by Zadeh, many new mathematical constructions and theories treating imprecision, inaccuracy, vagueness, uncertainty and vulnerability have been developed. Some of these constructions and theories are extensions of fuzzy set theory, while others attempt to mathematically model inaccuracy/vagueness and uncertainty in a different way. The diversity of such constructions and corresponding theories includes:
 
 Fuzzy Sets (Zadeh, 1965)
+
 interval sets (Moore,     1966),
 L-fuzzy sets (Goguen,     1967),
+
 flou sets (Gentilhomme,     1968),
 type-2 fuzzy sets and     type-n fuzzy sets (Zadeh, 1975),
 interval-valued fuzzy     sets (Grattan-Guinness, 1975; Jahn, 1975; Sambuc, 1975; Zadeh, 1975),
@@ -4615,6 +2703,7 @@ soft sets (Molodtsov,     1999),
 complex fuzzy set     (2002),
 intuitionistic fuzzy     rough sets (Cornelis, De Cock and Kerre, 2003)
 L-fuzzy rough sets     (Radzikowska and Kerre, 2004),
+
 multi-fuzzy sets (Sabu     Sebastian, 2009),
 generalized rough fuzzy     sets (Feng, 2010)
 rough intuitionistic     fuzzy sets (Thomas and Nair, 2011),
@@ -4627,33 +2716,22 @@ picture fuzzy set     (Cuong, 2013),
 spherical fuzzy set     (Mahmood, 2018).
 
 Fuzzy relation equation
+
 The fuzzy relation equation is an equation of the form A · R = B, where A and B are fuzzy sets, R is a fuzzy relation, and A · R stands for the composition of A with R .
 
 Entropy
+
 A measure d of fuzziness for fuzzy sets of universe
 
-
-
         U
-
-
     {\displaystyle U}
-
  should fulfill the following conditions for all
-
-
-
         x
         ∈
         U
-
-
     {\displaystyle x\in U}
 
 :
-
-
-
 
         d
         (
@@ -4661,29 +2739,13 @@ A measure d of fuzziness for fuzzy sets of universe
         )
         =
         0
-
-
     {\displaystyle d(A)=0}
-
  if
-
-
-
         A
-
-
     {\displaystyle A}
-
  is a crisp set:
-
-
-
-
           μ
-
             A
-
-
         (
         x
         )
@@ -4691,75 +2753,42 @@ A measure d of fuzziness for fuzzy sets of universe
         {
         0
         ,
-
         1
         }
-
-
     {\displaystyle \mu _{A}(x)\in \{0,\,1\}}
-
-
-
-
-
         d
         (
         A
         )
-
-
     {\displaystyle d(A)}
-
  has a unique maximum iff
-
-
-
         ∀
         x
         ∈
         U
         :
-
           μ
-
             A
-
-
         (
         x
         )
         =
         0.5
-
-
     {\displaystyle \forall x\in U:\mu _{A}(x)=0.5}
-
-
-
-
-
         ∀
         x
         ∈
         U
         :
         (
-
           μ
-
             A
-
-
         (
         x
         )
         ≤
-
           μ
-
             B
-
-
         (
         x
         )
@@ -4768,36 +2797,21 @@ A measure d of fuzziness for fuzzy sets of universe
         )
         ∨
         (
-
           μ
-
             A
-
-
         (
         x
         )
         ≥
-
           μ
-
             B
-
-
         (
         x
         )
         ≥
         0.5
         )
-
-
     {\displaystyle \forall x\in U:(\mu _{A}(x)\leq \mu _{B}(x)\leq 0.5)\lor (\mu _{A}(x)\geq \mu _{B}(x)\geq 0.5)}
-
-
-
-
-
         ⇒
         d
         (
@@ -4808,94 +2822,52 @@ A measure d of fuzziness for fuzzy sets of universe
         (
         B
         )
-
-
     {\displaystyle \Rightarrow d(A)\leq d(B)}
 
 ,  which means that A is "crisper" than B.
 
-
-
-
         d
         (
         ¬
-
           A
-
         )
         =
         d
         (
         A
         )
-
-
     {\displaystyle d(\neg {A})=d(A)}
 
-
 In this case
-
-
 
         d
         (
         A
         )
-
-
     {\displaystyle d(A)}
-
  is called the entropy of the fuzzy set A.
 For finite
-
-
 
         U
         =
         {
-
           x
-
             1
-
-
         ,
-
           x
-
             2
-
-
         ,
         .
         .
         .
-
           x
-
             n
-
-
         }
-
-
     {\displaystyle U=\{x_{1},x_{2},...x_{n}\}}
-
  the entropy of a fuzzy set
-
-
-
         A
-
-
     {\displaystyle A}
-
  is given by
-
-
-
-
         d
         (
         A
@@ -4909,18 +2881,11 @@ For finite
         H
         (
         ¬
-
           A
-
         )
-
-
     {\displaystyle d(A)=H(A)+H(\neg {A})}
 
 ,
-
-
-
 
         H
         (
@@ -4929,56 +2894,28 @@ For finite
         =
         −
         k
-
           ∑
-
             i
             =
             1
-
-
             n
-
-
-
           μ
-
             A
-
-
         (
-
           x
-
             i
-
-
         )
         ln
         ⁡
-
           μ
-
             A
-
-
         (
-
           x
-
             i
-
-
         )
-
-
     {\displaystyle H(A)=-k\sum _{i=1}^{n}\mu _{A}(x_{i})\ln \mu _{A}(x_{i})}
 
-
 or just
-
-
-
 
         d
         (
@@ -4987,66 +2924,36 @@ or just
         =
         −
         k
-
           ∑
-
             i
             =
             1
-
-
             n
-
-
         S
         (
-
           μ
-
             A
-
-
         (
-
           x
-
             i
-
-
         )
         )
-
-
     {\displaystyle d(A)=-k\sum _{i=1}^{n}S(\mu _{A}(x_{i}))}
 
-
 where
-
-
 
         S
         (
         x
         )
         =
-
           H
-
             e
-
-
         (
         x
         )
-
-
     {\displaystyle S(x)=H_{e}(x)}
-
  is Shannon's function (natural entropy function)
-
-
-
-
         S
         (
         α
@@ -5071,7 +2978,6 @@ where
         α
         )
         ,
-
         α
         ∈
         [
@@ -5079,36 +2985,19 @@ where
         ,
         1
         ]
-
-
     {\displaystyle S(\alpha )=-\alpha \ln \alpha -(1-\alpha )\ln(1-\alpha ),\ \alpha \in [0,1]}
-
 
 and
 
-
-
         k
-
-
     {\displaystyle k}
-
  is a constant depending on the measure unit and the logarithm base used (here we have used the natural base e).
 The physical interpretation of k is the Boltzmann constant kB.
 Let
 
-
-
         A
-
-
     {\displaystyle A}
-
  be a fuzzy set with a continuous membership function (fuzzy variable). Then
-
-
-
-
         H
         (
         A
@@ -5116,16 +3005,10 @@ Let
         =
         −
         k
-
           ∫
-
             −
             ∞
-
-
             ∞
-
-
         Cr
         ⁡
         {
@@ -5142,18 +3025,11 @@ Let
         ≥
         t
         }
-
         d
         t
-
-
     {\displaystyle H(A)=-k\int _{-\infty }^{\infty }\operatorname {Cr} \lbrace A\geq t\rbrace \ln \operatorname {Cr} \lbrace A\geq t\rbrace \,dt}
 
-
 and its entropy is
-
-
-
 
         d
         (
@@ -5162,16 +3038,10 @@ and its entropy is
         =
         −
         k
-
           ∫
-
             −
             ∞
-
-
             ∞
-
-
         S
         (
         Cr
@@ -5182,13 +3052,11 @@ and its entropy is
         t
         }
         )
-
         d
         t
         .
-
-
     {\displaystyle d(A)=-k\int _{-\infty }^{\infty }S(\operatorname {Cr} \lbrace A\geq t\rbrace )\,dt.}
 
 Extensions
+
 There are many mathematical constructions similar to or more general than fuzzy sets. Since fuzzy sets were introduced in 1965, many new mathematical constructions and theories treating imprecision, inexactness, ambiguity, and uncertainty have been developed. Some of these constructions and theories are extensions of fuzzy set theory, while others try to mathematically model imprecision and uncertainty in a different way.

@@ -1,25 +1,41 @@
 Andrzej Cichocki (born 1947) is a Polish computer scientist, electrical engineer and  a professor at the Systems Research Institute of Polish Academy of Science, Warsaw, and Nicolaus Copernicus University (UMK) in Toruń, Poland, and a visiting professor in several universities and research institutes, including Riken AIP, Japan and the Tokyo University of Agriculture and Technology.
+
 He is one of the leading Polish computer scientists and experts in the field of artificial intelligence, biocybernetics,  neural engineering  and biomedical signal processing. Andrzej Cichocki is among world’s top 1% most-cited researchers in the Web of Science (Clarivate) citation index and named on the annual Highly Cited Researchers 2021--2023 lists.
+
 He is one of the leading computer scientists and researchers working  in areas of electrical and electronic engineering, affiliated with Poland.
+
 He is  most noted for his learning algorithms for   Signal separation (BSS), Independent Component Analysis (ICA), Non-negative matrix factorization (NMF), tensor decomposition,    Deep (Multilayer)  Factorizations for ICA, NMF,   neural networks for optimization problems and signal processing,  Tensor  network  for Machine Learning and Big Data, and brain–computer interfaces.   He is the author of several monographs/books   and  more than 800 scientific peer-reviewed articles.
 
 Education and career
+
 Andrzej Cichocki received his M.Sc.  (with honors), PhD  and doctor of science (Dr.Sc.- Habilitation) degrees  all in  electrical engineering and computer science from the  Warsaw University of Technology, Poland.
+
 He received the title of full Professor in 1995.
+
 From 1984 to 1989 he was a  Alexander von Humboldt Research Fellow and DFG visiting scholar at the  University of Erlangen Nurnberg, Germany and he worked closely with Professor Rolf Unbehauen.
+
 From 1996 till 2018  he worked  in RIKEN Brain Science Institute, Wako-shi, Japan  at  Shun'ichi Amari's  Research Department,  as a team leader and  later as senior head of laboratories. He established and ran  in RIKEN  BSI three laboratories: Open Information Systems, Artificial Brains Systems and Cichocki's Laboratory for Advanced Brain Signal Processing.
+
 In 2018-2022 he holds a distinguished visiting professorship at several universities including   Hangzhou Dianzi University  in Hangzhou, China and  Tokyo University of Agriculture and Technology (TUAT), Tokyo, Japan.
 
 Research
+
 Andrzej Cichocki has contributed extensively to several major interests of signal/image processing, machine learning and AI, including Independent Component Analysis (ICA), Non-negative matrix factorization (NMF)  and artificial neural networks.   He developed an efficient Hierarchical Alternating Least Squares  (HALS) algorithm.
+
 He pioneered  developing and applying  new beta and  alpha-beta and other  divergences in machine learning, especially for  non-negative matrix factorizations and nonnegative tensor decompositions.  Moreover, he pioneered in development of  multilayer  (deep) matrix and tensor factorization models and learning algorithms, especially for ICA, NMF and Sparse Component Analysis (SCA).
+
 He developed and proposed new recurrent  neural network architectures for optimization, solving large scale systems of algebraic equations and blind signal separation, especially multilayer (deep) hierarchical neural networks.  He contributed to development of natural gradient algorithms for Independent Component Analysis  (ICA) and blind deconvolution.
+
 He proposed  together with his co-workers several efficient  AI models  and machine learning  algorithms for brain computer interface,  human emotions recognition  and early diagnosis  of some brain diseases, like Alzheimer and Schizophrenia.
+
 Following concerns raised by some  AI experts about the potential risks that  AGI  may pose  on humanity, Cichocki  suggested   in 2021 development of novel   AGI  systems  with implemented multiple intelligences, including   social/emotional intelligence, but also ethical/moral  intelligence  with self-awareness and responsible decision making abilities.
+
 His current research interests include:
 
 Tensor decomposition and tensor networks
+
 Learning of non-stationarity data
+
 Data fusion of multi-modal structured  data, and deep neural networks compression
 Applications:  EEG, NIRS, ECoG, EMG, Brain Computer Interfaces, computational neuroscience, computer vision.
 Time series forecasting and analysis
@@ -28,22 +44,37 @@ Exponentiated  gradient and natural gradient learning algorithms for various app
 Artificial General Intelligence (AGI) with multiple intelligences.
 
 Books
+
 Tulunay, E. (1994). "Neural networks for optimization and signal processing, A. Cichocki and R. Unbehauen, Wiley, Chichester, 1993, ISBN 0-471-93010-5, xvii + 536 pp., £37.50". International Journal of Adaptive Control and Signal Processing. 8 (3): 299–300. doi:10.1002/acs.4480080309.
+
 Cichocki, Andrzej; Amari, Shun-Ichi (2002). Adaptive Blind Signal and Image Processing. doi:10.1002/0470845899. ISBN 978-0-471-60791-5.
+
 Cichocki, Andrzej; Zdunek, Rafal; Phan, Anh Huy; Amari, Shun-Ichi (2009). Nonnegative Matrix and Tensor Factorizations. doi:10.1002/9780470747278. ISBN 978-0-470-74666-0.
+
 Mandic, Danilo P.; Zhao, Qibin; Phan, Anh-Huy; Oseledets, Ivan; Lee, Namgil; Cichocki, Andrzej (2016). "Tensor Networks for Dimensionality Reduction and Large-scale Optimization: Part 1 Low-Rank Tensor Decompositions". Foundations and Trends in Machine Learning. 9 (4–5): 249–429. arXiv:1609.00893. doi:10.1561/2200000059.
+
 Mandic, Danilo P.; Sugiyama, Masashi; Zhao, Qibin; Phan, Anh-Huy; Oseledets, Ivan; Lee, Namgil; Cichocki, Andrzej (2017). "Tensor Networks for Dimensionality Reduction and Large-scale Optimization: Part 2 Applications and Future Perspectives". Foundations and Trends in Machine Learning. 9 (6): 249–429. arXiv:1708.09165. doi:10.1561/2200000067.
+
 Unbehauen, Rolf; Cichocki, Andrzej (1989). MOS Switched-Capacitor and Continuous-Time Integrated Circuits and Systems. doi:10.1007/978-3-642-83677-0. ISBN 978-3-642-83679-4.
 
 Awards and honors
+
 Andrzej Cichocki was honored to be included in the 2021-2023 lists of Highly Cited Researchers list by Clarivate Web of Science.
+
 2018 The best paper award in  2018 in IEEE Signal Processing Magazine for the paper “Tensor decompositions for signal processing applications: From two-way to multiway component analysis”, coauthored by A. Cichocki, D. Mandic, L De Lathauwer, A.H. Phan,  Q. Zhao,  C. Caiafa, G, Zhao
 2018 H.C. (Honoris Causa) Doctorate, awarded by Nicolaus Copernicus University, Torun, Poland, February 27, 2022.
+
 2016 Excellent ICONIP Paper Award for the paper authored by Namgil Lee, Anh-Huy Phan, Fengyu Cong, Andrzej Cichocki. “Nonnegative tensor train decompositions for multi-domain feature extraction and clustering”
 2015 The best paper award in Journal Entropy the paper "Generalized Alpha-Beta divergences and their application to robust non-negative matrix factorization" Entropy 2011, 13(1), 134–170; coauthored by  A. Cichocki, S. Cruces and S. Amari.
+
 2014 The Best paper award in Journal Entropy for 2014 for the paper coauthored by Andrzej Cichocki and Shun'ichi Amari, “Families of Alpha- Beta- and Gamma- Divergences: Flexible and robust measures of similarities”.
+
 2013 Andrzej Cichocki was named Fellow of the Institute of Electrical and Electronics Engineers (IEEE) in 2013 for contributions to applications of blind signal processing and artificial neural networks.
+
 2013  He   was honored with an entry in the Golden Book of Alumni of Warsaw University of Technology for his  professional achievements.
+
 2010  APNNA Best Paper Award for the paper coauthored by Yunjun Nam, Qibin Zhao, Andrzej Cichocki, and Seungjin Choi “A tongue-machine interface: Detection of tongue positions by glossokinetic potentials,” in Proceedings of the International Conference on Neural Information Processing (ICONIP-2010), Sydney, Australia, November 22–25, 2010.
+
 1995  Received a title of Professor in Poland from the President of the country
+
 1984-1985  Winner of Alexander von Humboldt Award in Germany.

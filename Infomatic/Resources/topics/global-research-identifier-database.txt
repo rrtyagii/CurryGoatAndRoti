@@ -1,10 +1,15 @@
 Global Research Identifier Database (GRID) is a database of educational and research organizations worldwide, created and maintained by Digital Science & Research Solutions Ltd., part of the technology company Digital Science. In 2021 public releases of the database were discontinued in favor of Research Organization Registry (ROR) as the leading open organization identifier.
+
 Each organization is assigned a unique GRID ID, and there is a corresponding web address and page for each ID in the database.  The dataset contains the institution's type, geo-coordinates, official website, and Wikipedia page.  Name variations of institutions are included, as well.
+
 The first public release of GRID occurred on 22 September 2015, and it contained entries for 47,648 institutes.  The 30th public release of GRID was on 27 August 2018, and the database contained 89,506 entries. It is available in the Resource Description Framework (RDF) specification as linked data, and can therefore be linked to other data.  Containing 14,401 relationships, GRID models two types of relationships: a parent-child relationship that defines a subordinate association, and a related relationship that describes other associations
 In December 2016, Digital Science released GRID under a Creative Commons CC0 licence — without restriction under copyright or database law.
+
 The database is available for download as a ZIP archive, which includes the entire database in JSON and CSV file formats.
+
 From all the sources from which it draws information, including funding datasets, Digital Science claims that GRID covers 92% of institutions.
 
 Data sources
+
 Example
 The GRID ID for NASA: → grid.238252.c.

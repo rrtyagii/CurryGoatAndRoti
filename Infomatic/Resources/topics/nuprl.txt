@@ -1,12 +1,17 @@
 Nuprl is a proof development system, providing computer-mediated analysis and proofs of formal mathematical statements, and tools for software verification and optimization.  Originally developed in the 1980s by Robert Lee Constable and others, the system is now maintained by the PRL Project at Cornell University.  The currently supported version, Nuprl 5, is also known as FDL (Formal Digital Library).  Nuprl functions as an automated theorem proving system and can also be used to provide proof assistance.
 
 Design
+
 Nuprl uses a type system based on Martin-Löf intuitionistic type theory to model mathematical statements in a digital library.  Mathematical theories can be constructed and analyzed with a variety of editors, including a graphical user interface, a web-based editor, and an Emacs mode. A variety of evaluators and inference engines can operate on the statements in the library.  Translators also allow statements to be manipulated with Java and OCaml programs.  The overall system is controlled with a variant of ML.
+
 Nuprl 5's architecture is described as a "distributed open architecture", and Nuprl 5 is intended primarily to be used as a web service rather than as standalone software.
 
 History
+
 Nuprl was first released in 1984, and was first described in detail in the book Implementing Mathematics with the Nuprl Proof Development System, published in 1986.  Nuprl 2 was the first Unix version.  Nuprl 3 provided machine proof for mathematical problems related to Girard's paradox and Higman's lemma.  Nuprl 4, the first version developed for the World Wide Web, was used to verify cache coherency protocols and other computer systems.
+
 The current system architecture, implemented in Nuprl 5, was first proposed in a 2000 conference paper.  A reference manual for Nuprl 5 was published in 2002.  Nuprl has been the subject of many computer science publications.
 
 Successors
+
 Both the JonPRL and RedPRL systems are also based on computational type theory. RedPRL is explicitly "inspired by Nuprl".

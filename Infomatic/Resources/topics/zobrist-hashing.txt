@@ -1,6 +1,7 @@
 Zobrist hashing (also referred to as Zobrist keys or Zobrist signatures ) is a hash function construction used in computer programs that play abstract board games, such as chess and Go, to implement transposition tables, a special kind of hash table that is indexed by a board position and used to avoid analyzing the same position more than once. Zobrist hashing is named for its inventor, Albert Lindsey Zobrist.  It has also been applied as a method for recognizing substitutional alloy configurations in simulations of crystalline materials.  Zobrist hashing is the first known instance of the generally useful underlying technique called tabulation hashing.
 
 Calculation of the hash value
+
 Zobrist hashing starts by randomly generating bitstrings for each possible element of a board game, i.e. for each combination of a piece and a position (in the game of chess, that's 6 pieces × 2 colors × 64 board positions, with a constant number of additional bitstrings for castling rights, pawns that may capture en passant, and which player moves next). Now any board configuration can be broken up into independent piece/position components, which are mapped to the random bitstrings generated earlier. The final Zobrist hash is computed by combining those bitstrings using bitwise XOR. Example pseudocode for the game of chess:
 
 constant indices
@@ -28,12 +29,17 @@ function hash(board):
     return h
 
 Use of the hash value
+
 If the bitstrings are long enough, different board positions will almost certainly hash to different values; however longer bitstrings require proportionally more computer resources to manipulate. The most commonly used bitstring (key) length is 64 bits. Many game engines store only the hash values in the transposition table, omitting the position information itself entirely to reduce memory usage, and assuming that hash collisions will not occur, or will not greatly influence the results of the table if they do.
+
 Zobrist hashing is the  first known instance of tabulation hashing. The result is a 3-wise independent hash family. In particular, it is strongly universal.
+
 As an example, in chess, at any one time each of the 64 squares can at any time be empty, or contain one of the 6 game pieces, which are either black or white. Also, it can be either black's turn to play or white's turn to play. Thus one needs to generate 6 x 2 x 64 + 1 = 769 random bitstrings. Given a position, one obtains its Zobrist hash by finding out which pieces are on which squares, and combining the relevant bitstrings together.
+
 If the position is black to move, the black-to-move bitstring is also included in the Zobrist hash.
 
 Updating the hash value
+
 Rather than computing the hash for the entire board every time, as the pseudocode above does, the hash value of a board can be incrementally updated simply by XORing out the bitstring(s) for positions that have changed, and XORing in the bitstrings for the new positions. For instance, if a pawn on a chessboard square is replaced by a rook from another square, the resulting position would be produced by XORing the existing hash with the bitstrings for:
 
 'pawn at this square'      (XORing out the pawn at this square)
@@ -44,9 +50,8 @@ This makes Zobrist hashing very efficient for traversing a game tree.
 In computer Go, this technique is also used for superko detection.
 
 Wider usage
+
 More generically, Zobrist hashing can be applied over finite sets of elements (in the chess example, these elements are
-
-
 
         (
         p
@@ -64,8 +69,5 @@ More generically, Zobrist hashing can be applied over finite sets of elements (i
         o
         n
         )
-
-
     {\displaystyle (piece,position)}
-
  tuples), as long as a random bitstring can be assigned to each possible element. This can be either done with a random number generator for smaller element spaces, or with a hash function for larger ones. This method has been used to recognize substitutional alloy configurations during Monte Carlo simulations in order to prevent wasting computational effort on states that have already been calculated.

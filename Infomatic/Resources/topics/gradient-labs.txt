@@ -1,9 +1,13 @@
 Gradient Labs is a British startup company, founded in 2023. In 2025, Gradient Labs was considered one of Europe's 50 most promising seed-stage startups.
 
 History
+
 Gradient Labs was founded in London in 2023 by former Monzo bank employees Dimitri Masin, Neal Lathia and Danai Antoniou. At Monzo, they helped develop the company's Data Science and Machine Learning teams, which operated predominantly in the customer operations and financial crime domains. They sensed that regulated industries, in particular financial services, needed to improve in these domains. When GPT-4 launched in 2023, they decided to start Gradient Labs.
+
 In 2024, 2.8 million pounds in seed money was raised in a funding round led by Local Globe, with the participation of Puzzle Ventures, Tom Blomfield and other angel investors. In 2025, the company raised over 11 million euros in a Series A round led by Redpoint Ventures, with participation from LocalGlobe, Puzzle Ventures, Liquid 2 Ventures and Exceptional Capital. Investors provided additional funding after the company reached $1 million in Annual Recurring Revenue within four months of launching.
 
 Recognition
+
 Gradient Labs was included in Creandum EuroSeed 50 as one of Europe's 50 most promising seed-stage startups in 2025.
+
 Greenfield Partners included Gradient Labs in its 60 AI Disruptors list of start-ups that define the future of Artificial Intelligence.

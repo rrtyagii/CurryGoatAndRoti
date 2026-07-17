@@ -1,8 +1,15 @@
 Asprise OCR is a commercial optical character recognition and barcode recognition SDK library that provides an API to recognize text as well as barcodes from images (in formats like JPEG, PNG, TIFF, PDF, etc.) and output in formats like plain text, XML and searchable PDF.
+
 Asprise OCR has been in active development since 1997. Version 2.1 of the software has been reviewed by PC World.
+
 Many researchers have used Asprise OCR along with ABBYY FineReader to benchmark OCR performance.
+
 Paweł Łupkowski and Mariusz Urbanski from Adam Mickiewicz University in Poznań uses Asprise OCR version 4 and ABBYY FineReader to perform CAPTCHA recognition. Shuai Yuan from Cornell University implemented an image-based room schedule retrieval system using Asprise OCR. Seongwook Youn from University of Southern California  found "By running a sample of 200 image e-mails, we determined that Asprise OCR was performing with an accuracy of 95%. It had the best detection rate among the approaches we analyzed; hence we decided to go with Asprise OCR for our research.". Adil Farooq from the University of Engineering and Technology in Taxila implemented a speech-based interface system for visually-impaired persons.
+
 Hsieh analyzes the workflow of Asprise OCR engine and applies it to detect scoreboard for baseball videos. Chaisri discusses how Asprise OCR can be used for imaging analysis of fax documents in IT Convergence and Services: ITCS & IRoA 2011. Petra demonstrates how to perform feature selection for anti-spam using Asprise OCR.
+
 The following languages are supported by Asprise version 5: Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Icelandic, Indonesian, Italian, Malay, Maltese, Norwegian, Polish, Portuguese, Romanian, Russian, Spanish, Swedish or Turkish. MRZ and MICR are supported.
+
 The latest version of Asprise OCR SDK is v15.
+
 In 2020, Asprise OCR offers a cloud-based real-time instant receipt OCR API.

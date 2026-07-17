@@ -1,48 +1,71 @@
 Albumentations is an open-source image augmentation library introduced in 2018 by researchers Alexander Buslaev, Vladimir Iglovikov, and Alex Parinov. The library provides a flexible and efficient framework for applying data augmentation techniques in computer vision workflows. Additional core contributors include Eugene Khvedchenya and Mikhail Druzhinin.
+
 Albumentations is built on top of the OpenCV library and provides optimized implementations of many image-processing operations. Its API enables composition of augmentation pipelines for tasks including image classification, object detection, semantic segmentation, instance segmentation, keypoint detection, and multi-target workflows.
 
 Adoption
+
 Albumentations is widely used in academic research, industrial machine learning pipelines, and Kaggle competitions.
+
 The project is an Affiliated Project of NumFOCUS, a non-profit organization supporting open-source scientific computing.
+
 The Albumentations research paper has received more than 3000 citations according to Google Scholar.
+
 The library has been used in solutions to computer vision challenges, including the Kaggle Deepfake Detection Challenge (DFDC).
+
 Package analytics indicate more than 100 million cumulative installations.
 
 Features
+
 Albumentations supports deterministic and randomized augmentation pipelines for a broad range of annotation types.
 
 2D image and annotation targets
+
 Supported 2D targets include:
 
 Images in RGB, grayscale, and arbitrary multi-channel configurations
+
 Segmentation masks and dense label maps with any number of channels, including instance segmentation multi-mask workflows
 Bounding boxes in COCO, Pascal VOC, YOLO, and Albumentations formats
+
 Keypoints in multiple coordinate systems
+
 Albumentations can synchronize transforms across many targets simultaneously, including:
 
 multiple images,
 multiple masks,
 multiple bounding-box sets,
 multiple keypoint sets.
+
 This enables workflows such as stereo vision, multi-view datasets, and multi-sensor fusion.
+
 A full compatibility matrix of transforms and supported targets is documented online.
 
 Video and temporal data
+
 Albumentations supports consistent augmentation of video sequences by applying transforms with shared random parameters across frames.
 
 Volumetric (3D) data
+
 Albumentations supports 3D augmentation for medical imaging and scientific computing, including:
 
 3D images with arbitrary channel counts,
+
 3D multi-class or multi-channel masks,
+
 3D keypoints.
+
 Volumetric transforms are available in the core library and through ecosystem extensions such as Albucore.
 
 Fork and successor project
+
 In 2024–2025, the original Albumentations project entered maintenance mode. A successor project, AlbumentationsX, was created to extend functionality and continue active development.
+
 AlbumentationsX expands support for 2D, 3D, and video targets, introduces new transformations, and provides internal performance improvements while staying API-compatible with Albumentations.
+
 AlbumentationsX uses a dual licensing model: AGPL-3.0 or a commercial license.
+
 A benchmarking repository comparing AlbumentationsX with other libraries is publicly available.
 
 Example
+
 The following program applies the same augmentation pipeline to an image and its segmentation mask:

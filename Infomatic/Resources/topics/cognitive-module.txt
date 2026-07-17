@@ -1,17 +1,27 @@
 A cognitive module in cognitive psychology is a specialized tool or sub-unit that can be used by other parts to resolve cognitive tasks. It is used in theories of the modularity of mind and the closely related society of mind theory and was developed by Jerry Fodor. It became better known throughout cognitive psychology by means of his book, The Modularity of Mind (1983). The nine aspects he lists that make up a mental module are domain specificity, mandatory operation, limited central accessibility, fast processing, informational encapsulation, "shallow" outputs, fixed neural architecture, characteristic and specific breakdown patterns, and characteristic ontogenetic pace and sequencing. Not all of these are necessary for the unit to be considered a module, but they serve as general parameters.
+
 The question of their existence and nature is a major topic in cognitive science and evolutionary psychology. Some see cognitive modules as an independent part of the mind. Others also see new thought patterns achieved by experience as cognitive modules.
+
 Other theories similar to the cognitive module are cognitive description, cognitive pattern and psychological mechanism. Such a mechanism, if created by evolution, is known as evolved psychological mechanism.
 
 Examples
+
 Some examples of cognitive modules:
 
 The modules controlling your hands when you ride a bike, to stop it from crashing, by minor left and right turns.
+
 The modules that allow a basketball player to accurately put the ball into the basket by tracking ballistic orbits.
+
 The modules that recognise hunger and tell you that you need food. This cognitive module may be dysfunctional for people with eating disorders, for them various non-hunger distress emotions may wrongly make them feel hungry and causes them to eat.
+
 The modules that cause you to appreciate a beautiful flower, painting or person.
+
 The modules that make humans very efficient in recognising faces, already shown in Rhesus monkeys and in two-month-old babies, see Face perception.
+
 The modules that cause some humans to be jealous of their partners' friends.
+
 The modules that compute the speeds of incoming vehicles and tells you if you have time to cross without crashing into said vehicles.
+
 The modules that cause parents to love and care for their children.
 The libido modules.
 Modules that specifically discern the movements of animals.
@@ -21,40 +31,55 @@ Psychological disorders
 Many common psychological and personality disorders are caused by cognitive modules running amok.
 
 Jealousy
+
 All people are born with a basic jealousy cognitive module, which is developed through as an evolutionary strategy in order to safeguard a mate. This module triggers aggression towards competitors in order to ensure paternity and prevent extramarital offspring. If this module is activated to a strong degree, it becomes a personality disorder.
 
 Stalking
+
 Stalking is an extreme psychological disorder also related to jealousy and several other cognitive modules. A stalker is a person who behaves as if he had a relation to another person who is not interested in him. Some behaviors related to this disorder can get to the extent of following the other person on the street or observe him or her at home, compulsively reviewing their activity on social media, and can even result in harassment.
 
 Paranoia
+
 Being suspicious of fellow human beings is a cognitive module linked to human survival traits, which is generally characterized by being excessively suspicious of others or even situations, perceiving irrational threats from others, or feeling disruptive distrust in others. Such behaviour, in its extreme cases is labeled as paranoid schizophrenia by matter experts, or in milder forms it is also called paranoid personality disorder.
 
 Obsessive-compulsive disorder
+
 An example of this disorder is commonly illustrated by a person who  will repeatedly check that a door is locked. One may constantly wash hands or other body parts, sometimes for hours, to ensure cleanliness. The obsessive-compulsory disorder is an extreme malfunction of a normal adaptation trait in all humans.
 
 Transference
+
 A cognitive module developed to solve a particular problem in which an emotional load can sometimes be taken to other situations where it is not appropriate. One may be angry at one's boss, but take the anger out on one's family. Often, the transference is unconscious (see also Subconscious mind and Unconscious mind). In psychotherapy, the patient is made aware of this, which makes it easier to modify the unsuitable behaviour.
 
 Freud's theory of sublimation
+
 Sublimation presents itself when a certain impulse that is socially unacceptable is deflected into a more suitable public behavior. Freud also introduced the idea of the unconscious, which interpreted cognitive modules where a person is not aware of the initial cause of these modules and may use them inappropriately.
 
 Schizophrenia
+
 Schizophrenia is a psychotic disorder where cognitive modules are triggered too often, overwhelming the brain with information. The inability to repress overwhelming information is a cause of schizophrenia.
 
 Treatment of cognitive module psychological disorders
+
 Cognitive therapy is a psychotherapeutic method that helps people better understand the cognitive modules that cause them to do certain things, and to teach them alternative, more appropriate cognitive modules to use instead in the future.
 
 Psychoanalytic view of cognitive modules
+
 According to psychoanalytic theory, many cognitive modules are unconscious and repressed, to avoid mental conflicts. Defenses are meant to be cognitive modules used to suppress the awareness of other cognitive modules. Unconscious cognitive modules may influence our behaviour without our being aware of it.
 
 Evolutionary psychology view
+
 In the research field of evolutionary psychology it is believed that some cognitive modules are inherited and some are created by learning, but the creation of new modules by learning is often guided by inherited modules.
+
 For example, the ability to drive a car or throw a basketball are certainly learned and not inherited modules, but they may make use of inherited modules to rapidly compute trajectories.
+
 There is some disagreement between different social scientists on the importance to the capabilities of the human mind of inherited modules. Evolutionary psychologists claim that other social scientists do not accept that some modules are partially inherited, other social scientists claim that evolutionary psychologists are exaggerating the importance of inherited cognitive modules.
 
 Memory and creative thought
+
 A very important aspect of how humans think is the ability, when encountering a situation or problem, to find more or less similar, but not identical, experiences or cognitive modules. This can be compared to what happens if you sound a tone near a piano. The piano string corresponding to this particular tone will then vibrate. But also other strings, from nearby strings, will vibrate to a lesser extent.
+
 Exactly how the human mind does this is not known, but it is believed that when you encounter a situation or problem, many different cognitive modules are activated at the same time, and the mind selects those most useful for understanding a new situation or solving a new problem.
 
 Ethics and law
+
 Most law-abiding people have cognitive modules that stop them from committing crimes. Criminals have different modules, causing criminal behaviour. Thus, cognitive modules can be a cause of both ethical and unethical behaviour.

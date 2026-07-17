@@ -1,6 +1,7 @@
 Semantic architecture is a concept in software architecture. It proposes the creation of more useful architecture descriptions which can unambiguously capture, catalog, communicate, preserve, and can interoperably exchange semantics between different architectures.
 
 Overview
+
 The overall goals of the semantic architecture are
 
 to define a formal semantic way of representing architecture intended to be both human and machine readable

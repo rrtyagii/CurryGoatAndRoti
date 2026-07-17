@@ -1,10 +1,14 @@
 Ebrahim (Abe) H. Mamdani (1 June 1942 – 22 January 2010) was a mathematician, computer scientist, electrical engineer and artificial intelligence researcher. He worked at Queen Mary College and Imperial College London.
 
 Life
+
 Abe Mamdani was born in Tanzania in June 1942. He was educated in India and in 1966 he went to the UK.
+
 He obtained his PhD at Queen Mary College, University of London. After that he joined its Electrical Engineering Department
 In 1975 he introduced a new method of fuzzy inference systems, which was called 'Mamdani-Type Fuzzy Inference'. Mamdani-Type Fuzzy Inference  have elements like human instincts, working under the rules of linguistics, and has a fuzzy algorithm that provides an approximation to enter  mathematical analysis.
+
 In July 1995, he moved from Queen Mary College to Imperial College London.
 
 Awards and honors
+
 Abe Mamdani was an Emeritus Professor at Imperial College London. He received the "European Fuzzy Pioneer Award" from the European Society for Fuzzy Logic and Technology (EUSFLAT) in 1999, and the "Fuzzy Systems Pioneer Award" from the IEEE Computational Intelligence Society in 2003. He was also a Fellow of the IEEE, the International Fuzzy Systems Association, and of the Royal Academy of Engineering and the IEE in the UK.

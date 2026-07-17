@@ -1,5 +1,7 @@
 Collabora Ltd is a private open-source software consulting company headquartered in Cambridge, United Kingdom, with an additional office in Montreal. It provides consulting, training, and product development services to organizations using open-source technologies.
+
 Collabora is best known for developing Collabora Online, an online office suite that enables collaborative editing in a browser, and Collabora Office, a desktop office productivity software suite. Both are based on LibreOffice and marketed as open-source alternatives to proprietary platforms such as Microsoft 365 and Google Workspace. These products are developed and maintained by the company's Collabora Productivity division, which is one of the largest contributors to the LibreOffice codebase.
+
 Originally focused on instant messaging, Voice over IP (VoIP), and videoconferencing, Collabora has since expanded into areas including multimedia, web technologies, graphics optimization, extended reality (XR), automotive infotainment, and productivity software for enterprise and government use.
 
 Products

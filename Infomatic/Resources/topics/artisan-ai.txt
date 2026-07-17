@@ -1,23 +1,35 @@
 Artisan AI, Inc., doing business as Artisan, is an American software company headquartered in San Francisco. It builds specialized AI agents known as "Artisans" for business automation.
 
 History
+
 Founding and early development
+
 Artisan was founded in 2023 by Jaspar Carmichael-Jack and Sam Stallings. The company participated in Y Combinator's Winter 2024 cohort and raised $2.3 million in pre-seed funding shortly after its founding.
+
 In April 2024, Artisan launched the second version of its platform, introducing autonomous functionality that allowed its AI agents to send communications without human approval. This release shifted the product from a workflow assistant into a system that could execute sales tasks end to end, including prospecting, email sequencing, and meeting scheduling.
 
 Funding history
+
 In September 2024, Artisan received $11.5 million in a seed funding round led by angel investor Oliver Jung, bringing total funding to about $21 million by the end of 2024.
+
 In April 2025, Artisan announced a $25 million Series A funding round from multiple investors including Y Combinator and HubSpot Ventures. By early 2025, Artisan reported Annual recurring revenue of approximately $5 million. Ming Li, formerly with Deel, Rippling, and TikTok, was appointed as chief technology officer in 2025 but left Artisan after a 7 month long tenure.
 
 Marketing campaigns
+
 Artisan received media attention in December 2024 for an advertising campaign in San Francisco featuring the slogan "Stop Hiring Humans". The campaign generated both criticism and support, with some advertisements reportedly vandalized. Carmichael-Jack stated that the campaign was intended to provoke conversation about the role of AI in the workforce.
+
 In April 2025, Artisan ran an April Fools' campaign claiming an AI had replaced its CEO, presented as a satirical response to concerns about AI-driven job displacement.
 
 AI agents
+
 Artisan develops AI-based digital workers, known as Artisans, designed to support human teams and automate routine business functions such as lead generation. The agents are positioned as digital colleagues that can perform tasks such as B2B sales outreach, lead qualification, and follow-up communication.
+
 Its first AI worker, Ava, acts as an AI business development representative (BDR), automating the business development workflow. Users can manage and interact with Ava through the Artisan platform, which integrates with third-party platforms such as Slack, HubSpot, and Salesforce. As of 2025, Artisan reports that customers use Ava for prospect research, personalized cold email generation, and meeting scheduling.
+
 As of 2025, Artisan is developing additional AI agents for other business departments, including recruiting, customer support, and operations.
 
 AI solutions
+
 Artisan’s platform includes several AI agents designed to automate common business workflows. Its primary product, Ava, functions as an AI business development representative and automates tasks such as lead sourcing, personalized email drafting, follow-up sequencing, and meeting scheduling.
+
 In addition to Ava, Artisan has announced that it is developing agents for customer support, recruiting, and operations. These planned tools are intended to handle tasks such as ticket triage, candidate outreach, resume screening, internal reporting, and other repetitive workflows across business teams.

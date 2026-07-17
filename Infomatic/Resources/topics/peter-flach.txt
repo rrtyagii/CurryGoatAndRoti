@@ -1,7 +1,9 @@
 Pieter "Peter" Adriaan Flach (born 8 April 1961, Sneek) is a Dutch computer scientist and a Professor of Artificial Intelligence in the Department of Computer Science at the University of Bristol. He is author of the acclaimed Simply Logical: Intelligent Reasoning by Example (John Wiley, 1994) and Machine Learning: the Art and Science of Algorithms that Make Sense of Data (Cambridge University Press, 2012).
 
 Education
+
 Flach received an MSc Electrical Engineering from Universiteit Twente in 1987 and a PhD in Computer Science from Tilburg University in 1995.
 
 Research
+
 Flach's research interests are in  data mining and machine learning.

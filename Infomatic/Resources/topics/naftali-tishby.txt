@@ -1,15 +1,23 @@
 Naftali "Tali" Tishby (Hebrew: נפתלי תשבי; 28 December 1952 – 9 August 2021) was a professor of computer science and computational neuroscientist at the Hebrew University of Jerusalem.
 
 Early life and education
+
 Tishby was born in 1952. His father Yeshaya Tishby was a researcher of Kabbalah and Jewish thought.
+
 In 1971 he graduated the Hebrew University Secondary School, joined the academic Atuda in the Israel Defense Forces (IDF) and served in the IDF until 1980. That year he received the Israel Defense Prize.
+
 In 1974 he graduated B.Sc. cum laude in Mathematics in Physics from the Hebrew University. In 1980 he graduated M.Sc. cum laude in Theoretical Physics at Tel Aviv University; his M.Sc. thesis topic was "Spallation  nuclear  reactions in the  galactic  cosmic  rays". In 1985 he completed Ph.D. studies in the Hebrew University, publishing the thesis "Reduced Dynamical Description: An Information Theoretic Approach". He did his post-doctoral studies at MIT from 1985 to 1986.
 
 Career
+
 From 1986 until 1991 he worked in Bell Labs in Murray Hill, New Jersey.
+
 In 1992 he became a senior lecturer in the Computer science faculty in the Hebrew University and became an associate professor in 1997.
+
 He was among the founders of the Hebrew University's Interdisciplinary Center for Neural Computation, the Edmond and Lily Safra Center for Brain Sciences, and the Sudarsky Center for Computational Biology. In 1998 he founded and chaired the computer engineering program.
+
 He worked on the mathematical and statistical theory of learning and biological adaptation.
 
 Personal life and death
+
 Tishby was married and had four children. Tishby died on 9 August 2021 at the age of 68.

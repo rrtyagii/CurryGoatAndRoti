@@ -1,11 +1,15 @@
 Machine interpretation of documents and services in Semantic Web environment is primarily enabled by (a) the capability to mark documents, document segments and services with semantic tags and (b) the ability to establish contextual relations between the tags with a domain model, which is formally represented as ontology. Human beings use natural languages to communicate an abstract view of the world. Natural language constructs are symbolic representations of human experience and are close to the conceptual model that Semantic Web technologies deal with. Thus, natural language constructs have been naturally used to represent the ontology elements. This makes it convenient to apply Semantic Web technologies in the domain of textual information. In contrast, multimedia documents are perceptual recording of human experience. An attempt to use a conceptual model to interpret the perceptual records gets severely impaired by the semantic gap that exists between the perceptual media features and the conceptual world. Notably, the concepts have their roots in perceptual experience of human beings and the apparent disconnect between the conceptual and the perceptual world is rather artificial. The key to semantic processing of multimedia data lies in harmonizing the seemingly isolated conceptual and the perceptual worlds. Representation of the Domain knowledge needs to be extended to enable perceptual modeling, over and above conceptual modeling that is supported. The perceptual model of a domain primarily comprises observable media properties of the concepts. Such perceptual models are useful for semantic interpretation of media documents, just as the conceptual models help in the semantic interpretation of textual documents.
+
 Multimedia Ontology language (M-OWL) is an ontology representation language that enables such perceptual modeling. It assumes a causal model of the world, where observable media features are caused by underlying concepts. In MOWL, it is possible to associate different types of media features in different media format and at different levels of abstraction with the concepts in a closed domain. The associations are probabilistic in nature to account for inherent uncertainties in observation of media patterns. The spatial and temporal relations between the media properties characterizing a concept (or, event) can also be expressed using MOWL. Often the concepts in a domain inherit the media properties of some related concepts, such as a historic monument inheriting the color and texture properties of its building material. It is possible to reason with the media properties of the concepts in a domain to derive an Observation Model for a concept. Finally, MOWL supports an abductive reasoning framework using Bayesian networks, that is robust against imperfect observations of media data.
 
 History
+
 W3C forum has undertaken the initiative of standardizing the ontology representation for web-based applications. The Web Ontology Language (OWL), standardized in 2004 after maturing through XML(S), RDF(S) and DAML+OIL is a result of that effort. Ontology in OWL (and some of its predecessor languages) has been successfully used in establishing semantics of text in specific application contexts.
+
 The concepts and properties in these traditional ontology languages are expressed as text, making an ontology readily usable for semantic analysis of textual documents. Semantic processing of media data calls for perceptual modeling of domain concepts with their media properties. M-OWL has been proposed as an ontology language that enables such perceptual modeling. While M-OWL is a syntactic extension of OWL, it uses a completely different semantics based on probabilistic causal model of the world.
 
 Key features
+
 Syntactically, MOWL is an extension of OWL. These extensions enable
 
 Definition of media properties following MPEG-7 media description model.
@@ -15,4 +19,5 @@ Formal semantics for spatio-temporal relations across media objects and events.
 MOWL is accompanied with reasoning tools that support
 
 Construction of model of observation for a concept in multimedia documents with expected media properties.
+
 Probabilistic (Bayesian) reasoning for concept recognition with the model of observation.

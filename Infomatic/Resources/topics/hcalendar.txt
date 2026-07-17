@@ -1,7 +1,9 @@
 hCalendar (short for HTML iCalendar) is a microformat standard for displaying a semantic (X)HTML representation of iCalendar-format calendar information about an event, on web pages, using HTML classes and rel attributes.
+
 It allows parsing tools (for example other websites, or browser add-ons like Firefox's Operator extension) to extract the details of the event, and display them using some other website, index or search them, or to load them into a calendar or diary program, for instance. Multiple instances can be displayed as timelines.
 
 Example
+
 Consider this semi-fictional example:
 
    The English Wikipedia was launched
@@ -17,12 +19,15 @@ hCalendar mark-up may be added using span HTML elements and the classes vevent, 
 Note the use of the abbr element to contain the machine readable, ISO8601, date-time format for the start and end times.
 
 Accessibility concerns
+
 Concerns have been expressed that, where it occurs, the use of the abbr element (using the so-called abbr-design-pattern) in the above manner causes accessibility problems, not least for users of screen readers and aural browsers. The newer h-event microformat therefore uses the HTML5 element time instead:
 
 Geo
+
 The Geo microformat is a part of the hCalendar specification, and is often used to include the coordinates of the event's location within an hCalendar.
 
 Attributes
+
 For a full list of attributes, see the hCalendar cheat-sheet.
 
 Users

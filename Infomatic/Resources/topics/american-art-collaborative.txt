@@ -1,7 +1,9 @@
 The American Art Collaborative (AAC) is a consortium of 14 art museums in the United States, whose mission is the establishment of "a critical mass of linked open data (LOD) on the semantic web."
+
 As of 2024, the AAC has converted over 230,000 museum object records to linked open data.
 
 Membership
+
 As of 2024, the 14 members are:
 
 Amon Carter Museum of American Art

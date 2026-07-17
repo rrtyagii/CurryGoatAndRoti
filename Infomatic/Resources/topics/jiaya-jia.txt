@@ -1,31 +1,44 @@
 Jiaya Jia (Chinese: 贾佳亚) is a Chair Professor of the Department of Computer Science and Engineering at The Hong Kong University of Science and Technology (HKUST). He is an IEEE Fellow, the associate editor-in-chief of one of IEEE’s flagship and premier journals- Transactions on Pattern Analysis and Machine Intelligence (TPAMI), as well as on the editorial board of International Journal of Computer Vision (IJCV).
 
 Early life and education
+
 Jiaya Jia joined CUHK in 2004 as an assistant professor, and was promoted to full professor in 2015. He obtained his PhD degree in computer science jointly from Hong Kong University of Science and Technology and Microsoft Research in 2004. From March 2003 to August 2004, he was a visiting scholar at Microsoft. He conducted collaborative research at Adobe Research in 2007.
 
 Career
+
 Jiaya Jia is a distinguished scientist in the fields of computer vision and artificial intelligence. His research team at HKUST, DV Lab, is one of the largest vision AI research teams in the world and has been making significant contribution to advanced development of computer vision algorithms and technologies with focuses on image/video understanding, detection and segmentation, multi-modal AI, computational imaging, practical optimization, and advanced learning for visual content since 2000. Jiaya Jia has published 200+ top papers and was cited 80,000+ times on Google Scholar with H-Index 110+. 40+ PhDs and fellows from this group are now active in academia and industry, and have become prominent AI tech leaders as professors, directors in major research labs, and founders of several successful startups.
+
 Jiaya Jia assumes the position of associate editor-in-chief of IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) since 2021. He is also on the editorial board of International Journal of Computer Vision (IJCV). Jiaya Jia has served as the area chair of ICCV, CVPR, AAAI, ECCV, and several other premium international AI conferences for years. He was on program committees of major conferences in graphics and computational imaging, including ICCP, SIGGRAPH, and SIGGRAPH Asia.
 
 Research
+
 The research areas of Jiaya Jia are computer vision, large X models, and deep learning. Jiaya Jia has made outstanding contributions to computer vision technology, algorithms and engineering, and is among the world's leading experts in the field. His research partners include numerous renowned multinational technology companies, such as Microsoft, Qualcomm, Adobe, Intel, NVIDIA, Amazon, and Lenovo. Jia has cultivated a number of outstanding talents with Master's and PhDs who continue to engage in scientific research and development in computer vision.
+
 Many technologies in image analysis and processing developed by Jiaya Jia are still leading in the field worldwide. Wherein, his achievements in image deblurring, filtering, image sparse processing, multi-band image signal fusion and enhancement, large range motion estimation, texture and structure-based layering, etc. have been published in the industry's most influential conferences and publications, and implemented in the real-world applications. These achievements have demonstrated outstanding performance in established systems, and most of which are open source  so as to enable wider applications across industries such as aviation, medical imaging, safety management, robotic design, meteorological analysis and many more.
 
 Selected publications
+
 In his over 20 years of research experience, Jiaya Jia has published 200+ top papers that have been cited more than 80,000 times.
+
 According to HKUST Website in August 2024, Jiaya Jia has accumulatively published over 200 scientific papers in books, journals and conferences, such as IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), International Journal of Computer Vision (IJCV) "Computer Vision and Pattern Recognition (CVPR)", and "International Conference on Computer Vision (ICCV)". Representative papers include:
 
 Jiaya Jia: Mathematical Models and Practical Solvers for Uniform Motion Deblurring (in Motion Deblurring: Algorithms and Systems), Cambridge University Press, ISBN 9781107044364, 2014;
 Jiaya Jia: “Matte Extraction” Book: Computer Vision - A Reference Guide, Springer, ISBN 9780387307718 Editor-in-chief: Ikeuchi, Katsushi;
 Jiaya Jia, Chi-Keung Tang：Image Stitching Using Structure Deformation，IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), Vol. 30, No. 4, 2008;
 Jiaya Jia, Jian Sun, Chi-Keung Tang, Heung-Yeung Shum：Drag-and-Drop Pasting，ACM Transactions on Graphics (also in SIGGRAPH 2006), Vol. 25, No. 3, 2006.
+
 Xiaojuan Qi, Zheng zhe Liu, Renjie Liao, Philip HS Torr, Raquel Urtasun, Jiaya Jia：GeoNet++: Iterative Geometric Neural Network with Edge-Aware Refinement for Joint Depth and Surface Normal Estimation，IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI). Accepted.
 
 Selected honors and awards
+
 Associate editor-in-chief of IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) since 2021, the associate editor-in-chief in 42 years since the journal was published;
 Area chair for CVPR 2021, AAAI 2021, and ICCV 2021;
+
 Area chair for CVPR 2020, AAAI 2020, and ECCV 2020;
+
 1st Place of WAD Drivable Area Segmentation Challenge 2018;
+
 1st Place of LSUN'17 Instance and Semantic Segmentation Challenges;
+
 1st Place of COCO Instance Segmentation Challenge 2017; 2nd Place in COCO Detection Challenge 2017;
 1st Place of ImageNet Scene Parsing Challenge 2016 with the paper PSPNet presented in CVPR 2017.

@@ -5,8 +5,11 @@ The OMG set up a Business Rules Working Group in 2002 as the first standards bod
 PRR was mostly defined by and for vendors of Business Rule Engines (BREs) (sometimes termed Business Rules Engine(s), like in Wikipedia). Contributors have included all the major BRE vendors, members of RuleML, and leading UML vendors.
 
 Evolution
+
 The PRR RFP originally suggested that PRR use a combination of UML OCL and Action Semantics for rule conditions and actions. However, expecting modellers to learn 2 relatively obscure UML languages in order to define a production rule proved unpalatable. Therefore, PRR OCL was defined that included OCL extensions for simple rule actions (as well as external functions). PRR OCL is currently considered "non-normative" i.e. is not part of the PRR standard per se. PRR beta applies just to a PRR Core that excludes an explicit expression language.
+
 The PRR RFP envisaged covering both forward and backward chaining rule engines. However, the lack of vendor support for / interest in backward chaining caused this to be revise to forward chaining and "sequential" semantics. The latter is simply the scripting mode provided by many BPM tools, where rules are listed and executed sequentially as if programmed. This provides PRR with better compatibility with typical BPM scripting engines (and acknowledges the fact that most BREs today support a "sequential" mode of operation, improving performance in some circumstances).
 
 Status
+
 PRR is currently at version 1.0.

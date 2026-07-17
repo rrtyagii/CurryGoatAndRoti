@@ -1,18 +1,27 @@
 Ragunathan "Raj" Rajkumar (born 1963) is the George Westinghouse Professor of Electrical and Computer Engineering at Carnegie Mellon University in Pittsburgh, Pennsylvania. He is also affiliated with the Robotics Institute and the Heinz School of Information Systems and Public Policy at Carnegie Mellon University. He also serves as the director of the Metro21 Smart Cities Institute and as the director of the Mobility21 USDOT National University Transportation Center at Carnegie Mellon University. He also leads the General Motors-CMU Connected and Autonomous Driving Collaborative Research Laboratory (CAD-CRL), and the Real-Time and Multimedia Systems Lab (RTML) there.
+
 Rajkumar is considered to be a pioneer of the domain of connected and autonomous vehicles. He led the Systems Engineering group within CMU's Tartan Racing team, which won the 2007 DARPA Urban Challenge. He was also a member of the team's 3-member executive committee which oversaw and facilitated the successful participation in and eventual winning of the competition.  His work on automated vehicles has been widely covered in the media including TV, radio, online media and in print (newspapers and magazines).
+
 He is a primary force behind the global cyber-physical systems community whose flagship event is the Cyber-Physical Systems Week held annually to bring together CPS practitioners and researchers around the world. CPS Week attracts experts from the domains of the Internet of Things, embedded real-time systems, sensor networks, hybrid control systems, and CPS applications. He started the ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS) in 2010, and this flagship conference for the global CPS community has become a highlight of CPS Week.
 
 Biography
+
 Rajkumar was born in Salem, Tamil Nadu, India in 1963.  He graduated from Holy Cross Matriculation School in Salem in 1978, completed his Pre-University Course at Loyola College, Chennai in 1979, and received his B.E. (Hons) in Electronics and Communications Engineering from the University of Madras at the PSG College of Technology, Coimbatore in 1984.  He subsequently received his M.S. and Ph.D. degrees in Electrical and Computer Engineering from Carnegie Mellon University in 1986 and 1989 respectively.  He was a Research Staff Member at IBM Thomas J. Watson Research Center in Yorktown Heights, and then at the Software Engineering Institute at Carnegie Mellon University.  He then became a faculty member in the Computer Science Department at Carnegie Mellon University before moving back to the Department of Electrical and Computer Engineering at Carnegie Mellon University.
 
 Awards and honors
+
 Rajkumar was given the Outstanding Technical Achievement and Leadership Award by the IEEE Technical Committee on Real-Time Systems in 2009. He became an ACM Distinguished Member in 2007.
+
 Rajkumar was named an IEEE Fellow in 2012. In 2015, he was a co-winner of the IEEE Simon Ramo Medal. He was picked to become a Member of the National Academy of Inventors in 2016.
 
 Entrepreneurship
+
 He founded Ottomatika, Inc. in December 2013 to develop and market a complete software stack for autonomous vehicles (AVs). The company was acquired in July 2015 by Delphi, which then became Aptiv after a split.
 
 Books
+
 "Synchronization in Real-Time Systems: A Priority Inheritance Approach", Springer Verlag, August 1991.
+
 "Cyber-Physical Systems", Addison-Wesley, 2017.   Co-authored with Dionisio de Niz and Mark Klein.
+
 "If You're So Smart, Why Aren't You Happy?"

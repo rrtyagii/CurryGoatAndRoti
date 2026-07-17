@@ -1,25 +1,37 @@
 Artificial intelligence in physical therapy refers to algorithmic and computational methods used in patient assessment, treatment planning, clinical documentation, robotic rehabilitation, and remote monitoring. Adoption varies across healthcare settings, and most systems function as decision-support tools rather than replacements for clinical judgement.
 
 History
+
 Research related to artificial intelligence in physical therapy developed from earlier work in rehabilitation robotics and computerized movement analysis. Robotic devices were evaluated in clinical settings beginning in the late 1980s for repetitive upper- and lower-limb movements. Additional platforms for gait and arm training were tested during the 1990s.
+
 Computer-assisted movement analysis expanded during the same period through the use of motion-capture systems, sensor arrays, and virtual-environment interfaces. These systems produced datasets used to develop algorithms for movement classification. By the 2000s, machine-learning models were applied to sensor and video data to identify movement patterns and evaluate exercise technique.
+
 Deep-learning methods became common during the 2010s for automated detection of deviations in rehabilitation exercises. During the early 2020s, research extended to remote-monitoring systems, home-based assessment tools, and automated analysis of musculoskeletal conditions. Research during this period examined the use of artificial intelligence in rehabilitation, with studies focusing on robotics, sensor-based monitoring, and automated evaluation systems.
 
 Patient assessment
+
 AI-supported assessment uses wearable sensors and camera-based motion analysis to record joint angles, gait characteristics, and posture. Inertial measurement units collect time-series motion data, while camera-based systems provide spatial detail during functional tasks. Machine-learning models evaluate these datasets to identify movement deviations or compensatory strategies.
+
 Accuracy is typically higher in controlled environments. Home settings introduce variation in lighting, sensor placement, and user adherence, which affects measurement consistency.
 
 Treatment planning
+
 AI-assisted treatment-planning tools combine patient records, sensor data, and mobility measurements to generate exercise recommendations. Predictive models estimate rehabilitation timelines or expected changes in function. Clinicians review automated suggestions and adjust recommendations based on symptoms, comorbidities, and direct observations.
 
 Clinical documentation
+
 AI-assisted documentation tools generate draft clinical notes from spoken interactions using natural-language processing and speech-recognition technologies. Platforms vary in how much information they capture and how they integrate with electronic record systems. Clinicians review and edit generated text before final entry into the medical record.
+
 Commercial systems generate summaries from recorded audio. Twofold Health is one such platform used in outpatient settings to produce draft documentation for clinician verification.
 
 Robotic rehabilitation
+
 Rehabilitation robotics incorporates AI functions in some devices to support task-specific training. Lower-limb robots guide stepping patterns or provide partial body-weight support during gait therapy. Upper-limb systems assist repetitive reaching or grasping movements.
+
 Outcomes vary based on diagnosis, device configuration, patient engagement, and therapist involvement. Not all devices include AI-based adaptive control.
 
 Remote monitoring
+
 Remote-monitoring systems use wearable sensors and mobile applications to collect movement, activity, and physiological data outside clinical settings. AI models analyze these datasets to identify changes in function and track exercise adherence.
+
 Data quality depends on sensor accuracy, user compliance, and environmental conditions. Research continues on automated platforms designed to produce structured summaries for clinical review.

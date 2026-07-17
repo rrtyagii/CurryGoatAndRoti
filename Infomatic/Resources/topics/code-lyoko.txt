@@ -1,134 +1,240 @@
 Code Lyoko (French pronunciation: [kɔd ljɔko]; stylized as CODE: LYOKO in season 1 and in all caps in seasons 2–4) is a French anime-influenced animated series created by Thomas Romain and Tania Palumbo and produced by Antefilms Production (season 1) and MoonScoop (seasons 2–4) for Cartoon Network, France 3 and Canal J, with the participation of Conseil Général de la Charente, Pôle Image Magelis, Région Poitou-Charentes and Wallimage. The series centers around a group of teenagers who travel to the virtual world of Lyoko to battle against X.A.N.A., a hostile artificial intelligence which seeks to attack the real world. The scenes in the real world employ traditional animation with hand-painted backgrounds, while the scenes in Lyoko are presented in 3D CGI animation. The series began its first 97-episode run on September 3, 2003, on France's France 3, and ended on November 10, 2007, and on Cartoon Network in the United States on April 19, 2004, and ended in 2008 after its final seven episodes aired online at Cartoon Network video.
+
 A follow-up series, Code Lyoko: Evolution, which used live action footage rather than hand-drawn animation to represent the real world, began airing in 2012. The series only consisted of one season of 26 episodes with the final episode airing in late 2013, leaving off on a cliffhanger with no second season or other sequel series planned due to MoonScoop's filing for bankruptcy shortly after in 2014.
 
 Plot
+
 Jeremy Belpois, an 8th grade prodigy attending boarding school at Kadic Academy, discovers a quantum supercomputer in an abandoned factory near his school. Upon activating it, he discovers a virtual world called Lyoko, consisting of four separate environments known as "sectors", and inhabited by an artificially intelligent girl named Aelita. He also finds out about X.A.N.A., a fully autonomous, malevolent, and highly intelligent multi-agent system, that also dwells within the Supercomputer. Using structures on Lyoko known as Towers to gain access to the real world, X.A.N.A. can possess electronics, living beings, and other targets like a virus to wreak havoc. X.A.N.A. is determined to eliminate anyone aware of the Supercomputer's existence to achieve freedom to conquer Earth and destroy humanity.
+
 In Season 1, Jeremy works tirelessly to materialize Aelita into the real world and stop attacks caused by X.A.N.A., being aided by his three friends, Odd Della Robbia, Ulrich Stern, and Yumi Ishiyama, collectively known as the Lyoko Warriors, whom he virtualizes into Lyoko through devices known as scanners. They achieve this by escorting Aelita to various Towers on Lyoko, all while under attack from hostile, X.A.N.A.-controlled programs known as monsters. Once a Tower is deactivated by Aelita, Jeremy can launch the "Return to the Past" program, which sends the world back in time to undo any damage caused by X.A.N.A., while anyone scanned into the Supercomputer retains their memory of the events. In the episode "Code: Earth," Aelita is finally materialized, but the group discovers that X.A.N.A. had planted a virus inside of her which will kill her if the Supercomputer is turned off. They realize that they cannot destroy X.A.N.A. without destroying Aelita in the process.
+
 In Season 2, Aelita adjusts to life in the real world, while Jeremy attempts to develop an antivirus program to liberate her from X.A.N.A.'s influence. On Lyoko, a fifth sector is discovered and the group explores more of Lyoko's secrets and mysteries. The gang begins to uncover information about a mysterious man named Franz Hopper, the supposed creator of the Supercomputer, Lyoko, and X.A.N.A. who went missing ten years ago. Eventually it is discovered that Hopper is indeed alive somewhere, hiding in the uncharted parts of Lyoko to avoid X.A.N.A. All the while, X.A.N.A. attempts to steal the Keys to Lyoko, lines of code which it can use to flee the confines of the Supercomputer into the internet, from Aelita's memory. At the end of the season, the group discovers that Aelita is actually human and the biological daughter of Hopper, and rather than being infected with a virus, is instead missing some fragment of herself. In "The Key," X.A.N.A. tricks them with an imposter, thus succeeding in stealing Aelita's memory and escaping the Supercomputer. Aelita appears to perish as a result but is revived when Hopper restores her completely, along with her missing fragment: the memories of her life on Earth before she was virtualized on Lyoko.
+
 In Season 3, X.A.N.A., no longer bound to the Supercomputer, seeks to destroy Lyoko by erasing each of its four surface sectors, until only Sector Five remains. Initially reluctant, the Lyoko Warriors decide to invite fellow Kadic student William Dunbar as the sixth member. Shortly after being virtualized, however, he is possessed by X.A.N.A. and proceeds to destroy the Core of Lyoko, destroying the virtual world and rendering the group unable to fight X.A.N.A., endangering the entire real world. After what they thought was their defeat, Jeremy receives a coded message from Hopper, which contains knowledge necessary for rebuilding Lyoko.
+
 In Season 4, Jeremy and Aelita finish reconstructing Lyoko, and construct a digital submarine known as the Skidbladnir to travel across the Digital Sea to destroy X.A.N.A.'s "Replikas," copies of Lyoko's sectors linked to X.A.N.A.-controlled supercomputers on Earth, all created for its goal of world domination. X.A.N.A. uses William as a weapon throughout the season to defend the Replikas and target the Lyoko Warriors. To prevent suspicion regarding William's disappearance, Jeremy manages to program a specter to take William's place at Kadic, although its seemingly unintelligent behavior confuses teachers and students alike. Near the end of the season, X.A.N.A. decides to draw energy from all of its Replikas to create the Kolossus, a gigantic monster which later destroys the Skidbladnir. After eventually being released from X.A.N.A.'s control thanks to Jeremy's efforts, William has a difficult time regaining the trust of the group. While Ulrich defeats the Kolossus, Hopper sacrifices himself to power Jeremy's "anti-X.A.N.A. program," which destroys X.A.N.A. forever upon activation. Shortly after, the group, albeit reluctant due to their nostalgia, decides to shut down the Supercomputer.
 
 Characters
+
 Lyoko Warriors
+
 Jeremy Belpois
+
 Voiced by: Raphaëlle Bruneau (French); Sharon Mann (English)
+
 A prodigy student who finds and starts the factory's Supercomputer while looking for parts to build a robot. By turning on the Supercomputer, he reawakened Aelita, the virtual world of Lyoko, and the malevolent multi-agent system X.A.N.A. His goals are mainly driven by his desire to protect Aelita, whom he has a crush on, and to save her from the Supercomputer and X.A.N.A. by materializing her on Earth. As part of the group, he specializes in programming new ways to defeat X.A.N.A. and monitors the group while they are on Lyoko. Because he is not very athletic and is more computer savvy, Jeremy almost never goes to Lyoko, only going there twice and vowing to never go there afterwards. His workaholic attitude occasionally puts a strain on his relationships with the other four members of the group. His friends frequently refer to him as "Einstein".
+
 Aelita Schaeffer
+
 Voiced by: Sophie Landresse (French); Sharon Mann (English)
+
 Mainly known by her alias Aelita Stones, she is the smartest of the group alongside Jeremy. At the beginning of the series, she was trapped within Lyoko, inside the Supercomputer. She was originally thought to be an AI until it was revealed that she's the daughter of Franz Hopper, the creator of the world of Lyoko. As a little girl, she lost her mother. When a group of suited men (heavily implied to be government agents) came to her home, she and her father fled and virtualized themselves on Lyoko. Between the virtualization and Jeremy's discovery of the Supercomputer, X.A.N.A. stole an important memory fragment that inhibited her from becoming fully human again. After this fragment is retrieved, she is no longer linked to the Supercomputer. After becoming human, she often has nightmares of her past life. She later enrolls as a boarder at Kadic under the alias Aelita Stones, claiming to be Odd's cousin. She reciprocates Jeremy's feelings for her, but he often strains their relationship by overlooking Aelita and her passions in favor of working on the Supercomputer. She is nicknamed "Princess" by her friends.
+
 Aelita is the only one capable of deactivating towers on Lyoko to completely neutralize X.A.N.A.'s attacks. On Lyoko, she has an elf-like appearance, similar to that of "Mr. Pück," a toy elf from her forgotten childhood. She has the ability to create or remove objects, such as rocks or bridges, from the virtual environment, called "creativity" by Jeremie. She had no weapons or offensive abilities until season 3 of the show when she developed the ability to create "energy fields," pink balls of plasma that can be thrown or used to block enemy fire from a distance. In the fourth season, Jeremy programmed light pink-white angel wings as part of her new virtual attire, allowing her to fly and carry one other person; the star-shaped bracelet enabling her to activate them by waving her hand over it.
+
 Odd Della Robbia
+
 Voiced by: Raphaëlle Bruneau (French); Christophe Caballero and Matthew Géczy (English)
 The comic relief of the group. Odd is credited as having great potential when it comes to school, but rarely uses it, and as a result of this, he gets bad grades due to his lack of studying. Despite his rebellious and impulsive persona, he is shown to be nice. He shares a dorm with Ulrich and has a dog who loves him named Kiwi, whom he hides in a dresser because pets are not allowed at Kadic Academy. He's considered a ladies' man and has dated many of the girls at his school, but his romances tend to last only a few days. Before he attended Kadic, he lived with his parents and his five older sisters. Odd's blond hair has a purple spot in the middle and is worn up in a spike since being virtualized on Lyoko for the very first time. He is hinted to be from an Italian descent, and it is shown that he speaks the language fluently.
+
 On Lyoko, he is clothed like a cat, with a tail and clawed gloves that shoot "laser arrows." In the first season, he had a precognitive ability he called "Future Flash", but it was deleted before the second season and has been replaced by his defensive ability to create a purple force-field by crossing his arms in front of his body, covering half of his body. Another one of Odd's abilities is being able to use his claws to climb on walls just like a cat and even control monsters upon contact.
+
 Ulrich Stern
+
 Voiced by: Marie-Line Landerwijn (French); Barbara Weber-Scaff (English)
+
 A more reserved member of the group, Ulrich has a hard time sharing his feelings. His parents pressure him to achieve well in school, but he has difficulty learning and living up to their expectations. In his off-time, he practices Pencak silat with Yumi, whom he has a crush on. He suffers from vertigo, which makes it hard to participate in activities such as rock climbing. Due to his many activities, Ulrich has a rather muscular build, thus many girls (particularly Sissi) consider him to be extremely handsome.
+
 On Lyoko, he wears a yellow and brown outfit inspired by Japanese samurai. His main weapon is a katana, and can dual wield them. His "Supersprint" ability allows him to dash at high speed, and his "Triplicate" power lets him create two clones of himself. He can combine these abilities in a technique called "Triangulate," using his clones to form a triangle around an enemy and ambush it from behind when it is distracted.
+
 Yumi Ishiyama
+
 Voiced by: Géraldine Frippiat (French); Mirabelle Kirkland (English)
+
 A fairly reserved student who lives near and attends Kadic. She is the oldest of the group. She is of Japanese descent and has one younger brother, Hiroki. At home, she has to deal with marital issues between her parents. She is a friend of William Dunbar, who transferred to Kadic during season 2. She practices pencak silat with Ulrich, whom she has a crush on, though it is not as obvious as Ulrich's crush on her. She was wearing a black sweater which does not cover her belly button, black skintight jeans, and black boots. Her Season 4 outfit is like her sports clothes consisting of a dark graphite blouse and matching pants with a purple hem. She wears the same boots as in Seasons 1-3 (this being seen in Cold Sweat where when an embarrassing childhood Halloween photo of her is seen, she is wearing big black boots in the picture) in the series.
+
 On Lyoko, Yumi is dressed in a geisha-inspired outfit with an obi sash. Her main weapon is a Tessen fan, being given an additional one since the second season, and her one-and-only power is telekinesis, allowing her to move objects and levitate her three best friends with her mind alone; it is rarely used as it tires her out pretty quickly. During the fourth season, we see this ability being used five more times, now with more ease and control.
+
 William Dunbar
+
 Voiced by: Mathieu Moreau (French); David Gasman (English)
+
 An overconfident student who starts attending Kadic Academy after he was expelled from his previous school for vandalism. Yumi befriends him and he soon develops feelings for her. He often fights with Ulrich for Yumi's attention and is sometimes disrespectful of Yumi's boundaries, causing her to become frustrated with his unwanted advances. After proving helpful to the group during several X.A.N.A. attacks, they vote on whether he should be allowed to join the group, but Yumi votes no and his memory is erased. Eventually, however, the vote becomes unanimous when William's membership is deemed necessary.
+
 On his first mission on Lyoko, William is captured and possessed by X.A.N.A., who ensnares William as its puppet. From that point on, a clone of William, created by Jeremy, is used to pose as the real William until Jeremy is able to free him. Jeremy's program is imperfect, causing the William clone to act either unintelligent or unpredictable. Near the end of the series, the clone starts developing several human-like traits, which he eventually uses to help the warriors. Towards the end of the series, William is finally released from X.A.N.A.'s control.
+
 On Lyoko, William wears a white outfit and carries a giant sword, which can release shock waves. Under X.A.N.A.'s control, his outfit turns black and he gains a spiked gauntlet on his wrist, which can be used for defense. He has an array of powers including enhanced strength, "Supersmoke," which allows him to transform into a cloud of black smoke and move around at great speed, eventually gaining the ability to fly as well, a second sight allowing him to see across great distances, and levitation. X.A.N.A. sends William to stop the Lyoko Warriors on the virtual world, and thanks to his natural abilities strengthened even further by the artificial intelligence, he proved to be a formidable opponent. He is finally released in "Down to Earth."
 
 Villains
+
 X.A.N.A.
+
 X.A.N.A. is an evil and powerful computer virus based on a multi-agent system. It is ruthless, bent on world domination, and serves as the central antagonist of the series. It was originally created by Franz Hopper to destroy Project Carthage: a military communications system that Hopper had previously been involved with. He mentions that his motives were to prevent the French government from obtaining access to Project Carthage. Due to Hopper's repeated returns to the past, X.A.N.A. evolved until it achieved self-awareness, choosing to betray Hopper and trap him and his daughter Aelita inside Lyoko. Hopper had no choice but to shut down the Supercomputer to stop its rampage. After it was reawakened in the present day, X.A.N.A. continues to wreak havoc on Earth and displays no mercy towards those who stand in its way. It grows smarter and more powerful with every return in time and can think of greater plans and goals beyond random destruction.
+
 X.A.N.A. has no actual physical form as a digital program. Instead, X.A.N.A. activates Lyoko structures called "Towers" to send manifestations of its multi-agent system to the real world, while remaining inside the Supercomputer, which can only be stopped by deactivating the Towers. On Earth, X.A.N.A. appears as a powerful virus that infiltrates networks and can manifest ghostly specters from outlets, which are the closest it has to a physical form to interact with real objects. It can also control electromagnetic forces and possess systems, inanimate objects, natural elements, or living things from its virus nature (usually marked with its eye symbol as a sign of its control) manipulating them to attack humanity and target its enemies. After evolving further, X.A.N.A. learns to possess humans or manifest polymorphic specters to follow its orders, pixelizing and empowering them with its supernatural abilities to make them powerful and dangerous. On Lyoko, it virtualizes deadly monsters to fight enemies and attack targets, and can alter environments, plant bugs or viruses, manipulate vulnerable warriors, create prisons, program equipment and vehicles, etc.
+
 The only known physical incarnation of X.A.N.A. appeared in season 1, in the episode titled "Ghost Channel," where after having its disguise as Jeremy exposed, he transformed into a demonic caricature figure of Jeremy and tried to kill all of the Warriors. X.A.N.A.'s voice was provided by David Gasman in this episode.
+
 As X.A.N.A. continues to increase its power, its capabilities with the towers become practically unlimited, such as controlling all forms of electromagnetism, hacking networks, virus possession of objects, natural elements, large areas, and living things, materializing minions to Earth, mind control, holograms, granting supernatural abilities, manifesting ghosts in human forms, etc. Its goals also develop throughout the series. It steals the Keys to Lyoko from Aelita to escape the Supercomputer and access the world network. Upon its escape, X.A.N.A. becomes more ruthless and aggressive, now trying to destroy Lyoko to render the team powerless against it, succeeding at the end of the third season (but Lyoko was recreated after) and possessing William to become its minion. After that, X.A.N.A. also targets Franz Hopper, its biggest threat and the reason why the group keeps surviving. At the same time, the heroes discover X.A.N.A. has infected hundreds of other supercomputers in the network to build weapons and technology to conquer the real world. Near the end of the series, the group manage to free William and, with Franz Hopper's sacrifice in the final battle, the team destroyed X.A.N.A. in his entirety in the network with Jeremy's multi-agent program.
+
 The Lyoko Monsters
+
 X.A.N.A. virtualizes many types of deadly monsters/artificial monstrous beings on Lyoko to fight enemies, guard Towers, and attack targets. The legion of virtual/digital monsters generally appear to be organic/mechanical creatures based on various animals and insects. X.A.N.A.'s monster types include Kankrelats, Hornets, Bloks, Krabs, Megatanks, Tarantulas, Creepers, and Mantas. These monsters can be destroyed by hitting the Eye of X.A.N.A. on their bodies. In the Digital Sea, it uses monsters such as Kongers, Sharks, and the Kalamar. It also created a unique monster it was called the Scyphozoa, One of X.A.N.A.'s unique monsters, it is a giant levitating brainwashing Jellyfish or Squid that has no laser weapons, it has been shown to be able to use the ability to controlling their minds to do its will. Which it can uses to drain/steal memory or possess warriors with its tentacles, the Scyphozoa has the ability to levitate and travels by floating if it were traveling like wind. There is also its unique/largest and most powerful/ultimate monster which appeared in the last three episodes, the Kolossus (known as Kolosse in French),a fiery behemoth larger than anything else on Lyoko and capable of decimating anything in a single hit, with immense strength that is fueled by the combined power of its network Replikas. The Kolossus has no laser weapons. Instead, with a giant blade replacing its left hand. Its body form is made of magma rock indestructible and one attack from it results in instant devirtualization. The only way to destroy it was to simultaneously attack the Eye of X.A.N.A. on its head and its left sword arm. it causes devirtualization by either stepping on its foes with its feet, landing on them, or swiping at its enemies with its giant blade/sword-like hand, The Kolossus uses no strategy in battle; its only function is to devirtualize the Lyoko warriors and to destroy the Skid. While powerful, its size prevents it from attacking rapidly. Effectively being everything short of a walking volcano. It is impervious to any attack on its body, and its strength is so great, it can cause instant devirtualization and even destroy The Skidbladnir in a single hit. For X.A.N.A., however, the Kolossus' strength comes at the cost of requiring lots of energy to even generate it.
+
 In the video games, some monsters are exclusive to fight such as Cyberhoppers, Skarabs and Skorpion from Get Ready to Virtualize!, Insekts, Volkanoids, Mountain Bug, Insekt Lord, Ice Spider, Desert Driller and Magma Worm in Quest for Infinity and Fall of X.A.N.A., other variants are called the"Dark Monsters" which are equipped with different abilities when in combat.
 
 Recurring characters
+
 Elisabeth "Sissi" Delmas
+
 Voiced by: Carole Baillien (French); Christine Flowers and Jodi Forrest (English)
 The principal's daughter and a Kadic student. She is a mean, spoiled, conceited, but also beautiful and somewhat popular girl who has had a huge crush on Ulrich since before attending Kadic. Sissi and Odd quite often make fun of each other, with Odd making clever comebacks whenever Sissi says something rude or whenever they need her to go away. After Aelita is first materialized, she often does the same. Sissi tends to make fun of and openly insult Yumi in particular, mostly due to Ulrich liking Yumi more than her. Sissi is often followed by Herb and Nicolas, whom she often shows resentment towards, but uses them to her advantage anyway. She was initially part of the gang and knew about Lyoko, but was kicked out after breaking her oath to keep the Supercomputer a secret. Her memories of Lyoko were subsequently erased. She becomes friends with the Lyoko Warriors at the end of the series. Sissi also shows a dislike for her full name, Elisabeth, often making sounds of disgust whenever it is mentioned.
+
 Herb Pichon
+
 Voiced by: Bruno Mullenaerts (French); David Gasman (English)
+
 An eighth-grader at Kadic and a classmate of the Lyoko Warriors. He is the second-in-command of Sissi's gang, and sometimes even the boss in times of emergency when Sissi proves to be incompetent, as he is the most intelligent member of their group. Herb is also shown to be in love with Sissi, although he doesn't tell her because of her crushes on various boys, most notably Ulrich. He is the second-best student in his class after Jeremy and the two often compete with each other, but Herb is almost always the loser. Herb is also shown to be easily scared off, quick to run away when something troubling happens.
+
 Nicolas Poliakoff
+
 Voiced by: Carole Baillien (French); Matthew Géczy (English)
+
 An eighth-grader at Kadic. He is the third member of Sissi's gang. He usually does not show much intelligence, which is commonly conveyed through his frequent use of pauses and uhs in speech. He usually only does things when Sissi orders him to, and will otherwise not do much on his own. Nicolas also has been shown to have a crush on Aelita, although he never acts on it. He can play the drums, and was in the Pop Rock Progressives, a band started by Odd. He is generally more tolerant of and less rude toward the Lyoko Warriors than Herb and Sissi are. In some episodes, it is shown that he has at least some degree of intelligence, as he wrote a script for a performance of Romeo and Juliet. Nicolas is also shown to be as easily frightened as Herb is.
+
 Jean-Pierre Delmas
+
 Voiced by: Bruno Mullenaerts (French); Allan Wenger (English)
+
 The principal of Kadic Academy, who is easily controlled by his daughter Sissi. He can be stubborn and incredibly ignorant at times, especially when members of the Lyoko Warriors are trying to convince him of any dangerous activity caused by X.A.N.A. His appearance is based on Hayao Miyazaki.
+
 Jim Morales
+
 Voiced by: Frédéric Meaux (French); David Gasman (English)
+
 The physical education teacher of Kadic Academy and the chief disciplinarian. He is frequently mentioned to have had an extensive job history, although whenever it comes up, he almost always ends up dismissing it by saying, "I'd rather not talk about it." Jim is often shown to digress from his lectures as he starts to reminisce on stories of his past, usually before being interrupted by someone or cutting himself off. On several occasions, Jim has discovered the existence of Lyoko or X.A.N.A. and displayed his helpfulness and willingness to keep it a secret, however, his memories are always erased through the use of "Return to the Past." One of his more notable secrets is that he once starred in a film called Paco, the King of Disco.
+
 Suzanne Hertz
+
 Voiced by: Nathalie Stas (French); Jodi Forrest (English)
+
 Usually referred to as Mrs. Hertz, she's a science teacher at Kadic. She is the most shown primary academics teacher in the series and appears to teach most branches of science at Kadic. She is also the only faculty member shown to organize field trips, which happens on several occasions. She has been shown to dislike or be disappointed in Odd and Ulrich, but takes a liking to Jeremy, and later Aelita. Jim appears to have a crush on her.
+
 Milly Solovieff and Tamiya Diop
+
 Milly voiced by: Mirabelle Kirkland (English)
+
 Tamiya voiced by: Julie Basecqz (French); Barbara Weber-Scaff (English)
+
 The sole members of the Kadic News crew, who are both are in sixth grade and share a dorm room. Tamiya is of Franco-African descent and seems to be less driven by her emotions than her friend Milly, which allows her to think more clearly in dire situatuions.
+
 Hiroki Ishiyama
+
 Voiced by: Guylaine Gibert (French); Barbara Weber-Scaff (English)
+
 Yumi's younger brother. He is often shown pestering her about things and purposely being annoying, such as asking her to do his homework or mentioning her feelings for Ulrich. He is frequently shown playing on a handheld gaming device, and is often shown with his friend, Johnny Cleary. Hiroki has, on occasion, assisted Yumi when she needed it, although he usually requires some form of bribe.
+
 Takeho and Akiko Ishiyama
+
 Takeho voiced by: David Gasman (English)
+
 Akiko voiced by: Barbara Weber-Scaff (English)
+
 The parents of Yumi and Hiroki. Takeho is shown to be a fairly typical semi-strict busy father and works for a local branch of a Japanese company. Akiko is depicted as a typical non-working housewife and is generally the first one to ask Yumi if something is wrong. When her parents appear in an episode, it usually focuses on Yumi's family issues.
+
 It is implied that Takeho and Akiho have a low-key fractious relationship, with semi-frequent arguments that their children sometimes overhear. This seems to contribute to Yumi's reserve, and possibly, her reticence in pursuing a more serious emotional relationship with Ulrich.
 
 Supporting characters
+
 Waldo Franz Schaeffer
+
 Voiced by: Mathieu Moreau (French); Paul Bandey (season 2), Alan Wenger (season 4) (English)
 More commonly known as Franz Hopper (a combination of his middle name and the maiden name of his wife) he is/was the creator of both Lyoko and X.A.N.A., and was involved in the creation of Project Carthage. His wife Anthea, was kidnapped by men in black suits and he was forced to flee with his young daughter, Aelita. The two went to live in a house called the Hermitage, located in a park near Kadic Academy and the abandoned factory. While working as a science teacher at the school, he constructed the Supercomputer in the factory, and programmed X.A.N.A. and the virtual world of Lyoko within it. When the men in black suits tracked him down again, he took Aelita to the factory and virtualized her into Lyoko with him, where he believed they would be safe. However, X.A.N.A. refused to obey its creator's orders or live in peace alongside Franz and his daughter. Franz was forced to shut the Supercomputer down until it was eventually discovered by Jeremy nearly ten years later. In one of the final episodes of the show, he sacrifices himself to allow Jeremy to finally destroy X.A.N.A.
+
 Yolanda Perraudin
+
 Voiced by: Alexandra Correa (French); Jodi Forrest (English)
+
 The school nurse who often aids the students injuries from any incidents. In "X.A.N.A.'s Kiss," Jim was kissed by a Polymorphic Specter disguise as her and attempted to ask her for a date, much to her confusion.
+
 Samantha "Sam" Knight
+
 Voiced by: Jodi Forrest (English)
+
 One of Odd's ex-girlfriends that only appears in two episodes. She first appears in "Rock Bottom?" where Odd hires her as a DJ to Yumi's party but was short lived after X.A.N.A. caused an earthquake to sink the school. She appears again in "Final Round" where both her and Odd enter a skating competition.
+
 Johnny Cleary
+
 Voiced by: Jodi Forrest (English)
+
 Hiroki's best friend that introduced in Season 3. It is revealed in "The Pretender" that he has a crush on Yumi, despite their age difference and he asks Ulrich for dating advice (which is embarrassing because Ulrich also loves her).
+
 Anthea Hopper-Schaeffer
+
 Voiced by: Sharon Mann (English)
+
 Aelita's pink-haired mother who was kidnapped by a group of Men in Black when they lived at a Mountain Cabin, this traumatized Aelita with nightmares and hallucinations of her imaging the mysterious men as a pack of ravenous wolves while herself resembles her doll Mister Pück.
 
 Development
+
 Origins
+
 Code Lyoko originates from the film short Les enfants font leur cinéma ("The children make their movies"), directed by Thomas Romain and produced by a group of students from Parisian visual arts school Gobelins School of the Image. Romain worked with Tania Palumbo, Stanislas Brunet, and Jerome Cottray to create the film, which was screened at the 2000 Annecy International Animated Film Festival. French animation company Antefilms took interest in the film due to its atmosphere and offered Romain and Palumbo a contract to turn it into a series. This led to the development of the pilot, Garage Kids.
+
 Garage Kids was produced in 2001 by Antefilms. The project was created by Palumbo, Romain, and Carlo de Boutiny and developed by Anne de Galard. Its producers were Eric Garnet, Nicolas Atlan, Benoît di Sabatino, and Christophe di Sabatino.
+
 Similar to its succeeding show Code Lyoko, Garage Kids was originally envisioned as a 26-episode miniseries detailing the lives of four French boarding school students who discover the secret of the virtual world of Xanadu; created by a research group headed by a character known as the "Professor". The pilot featured both traditional animation and CGI. The Matrix had "enormous influence" on the pilot according to Romain, citing the concept of a machine allowing the characters to dive in a virtual world, an operator who supervises the trip and the correlation between the action in the real world and the virtual world. Anime also served as inspiration, specifically Serial Experiments Lain for its "worrying digital dimension" and Neon Genesis Evangelion for its dangerous entities to fight. While similarities to Tron have been noted, Romain admitted to not having seen the film yet when the series was being developed.
+
 When the concept on the virtual world was added, Antefilms suggested animating it with CGI to help make the series unique, promote a video game theme and make the separation between the virtual and real worlds clearer. While incorporating it, Palumbo and Romain wanted to avoid making the series "too playful and superficial" and sought to "get around the censoring done by TV channels that tend to soften youth programs" by writing episodes "with tension, suspense, even tragic scenes. Things that are hard to imagine seeing in a cartoon series for kids."
+
 A team of artists were recruited in order to give the backgrounds of the real world a realistic appearance. The factory and boarding schools specifically were modelled after locations in France. The factory was based on a Renault production plant in Boulogne-Billancourt (Île Seguin), which has since been demolished. The school, Kadic Academy, is based on Lycée Lakanal in Sceaux, which Romain had attended. Palumbo and Romain were adamant on keeping the locales based on "the France we knew", as they wanted to avoid what they perceived as "fantastical" or "Americanized" locations other French cartoons used at the time.
+
 Scripting for the series officially began in January 2002, with Frédéric Lenoir, Françoise Charpiat, and Laurent Turner being brought on as writers. It was around then when Aelita was added, who at this point was an AI who lived on the virtual world. When choosing a director, the team wanted "a new generation" to be in charge of the series. Jérôme Mouscadet was hired in June 2002 after having dinner with a friend who worked at Antefilms. While Mouscadet had experience with animation from directing short films at a small company, he never directed a series before. One of his first major contributions was to drop the idea of the characters retaining their powers in the real world, which he decided after wanting to further separate the virtual world from the real world. Progress was slow over the summer of 2002, which Mouscadet attributed to the series' head writer "[taking] a lot of vacation". Antefilms reached out to Sophie Decroisette as a replacement, who had recently been a writer for Malo Korrigan and was on a break after giving birth to her first child. Decroisette described this stage of writing as expanding the concept and finding strong motivations for the characters. On Garage Kids' pilot, she said: "I really just saw a teaser that was focusing on images[. T]here were great ideas in the images, notably the transition from one universe to the other, but plot-wise, it was just "they travel from one universe to the other", with no explanation on "how" and "why". They had no real motivation, they were fighting X.A.N.A., which was represented as black spheres, something like this, but none of this was clearly defined. Our job, with the other writers, was to try to introduce "scientific accuracy"". The writers struggled the most with finding a motivation for Jeremy. Charpiat suggested during a meeting that he want to bring Aelita onto Earth, which became the basis for the first season. Another concept emerged from Lenoir in the form of a time travel mechanism to explain how X.A.N.A. could cause massive damage to Earth, with other people witnessing the destruction, and have the heroes fix it without people becoming suspicious. This eventually turned into the Supercomputer's "Return to the Past" function.
+
 Networks were hesitant to Garage Kids due to its serial nature, as they feared it would alienate potential viewers who missed the first episodes and they wanted to rerun the series without worrying about episode order. This lead the writing team to shift to a more episodic format. Romain ultimately chose to leave the series after this change in 2003 to work on the French-Japanese anime series Ōban Star-Racers. Tania Palumbo remained on the series through its conclusion as creative director. She designed and named the main characters, with Jeremy being named after one of her and Romain's classmates at Gobelins. The series' human character designs were primarily influenced by Japanese animator Kōji Morimoto's style.
+
 After the series was sold to France 3 and Canal J, producers felt "Garage Kids" was too unclear for a title and requested it be renamed. Palumbo and production manager Anne de Galard ultimately settled on "Code Lyoko", with Lyoko originating from the Japanese word "旅行" (Ryokō) meaning "travel" to further emphasis the dive into the virtual world. The virtual world was subsequently renamed "Lyoko" as well.
 
 Writing
+
 The writing process for Code Lyoko usually began with the head writer asking the other writers for story pitches. If they liked an idea, it next had to receive approval from the show's director, producers and broadcasters before it could be turned into a 4-page synopsis. After going through the approval process again, it was then expanded into a script and approved one last time to be sent off for production. Writing an episode typically lasted 2–3 weeks, though some took longer if higher-ups were unhappy with the story or it ran into issues. Sophie Decroisette, head writer of Code Lyoko's first three seasons, described Image Problem as "very difficult to write" after its original writer left the show following the synopsis phase, requiring another writer to step in and finish it. The writing team was also mandated by production to approve 4 scripts per month.
+
 Following the success of the first season, the show was able to have more continuous storylines. Decroisette and show director Jérôme Mouscadet wrote the series' backstory during the break between season 1 and 2. Before Romain left the project, the idea of Lyoko being created by a team of researchers had changed to just one: Franz Hopper. However his motivations and identity were never established. Decroisette revealed during production of season 4 that the full backstory would not be told in the show, as she considered it "very complicated... dense and [not] really important to the story."
+
 The show's international success in the United States also affected production. Romance elements were ultimately reduced after season 2 to appease American audiences. Aside from this, Decroisette otherwise noted that she "never felt censored" while working on the series, apart from a self-imposed restriction to write stories appropriate for children. Bruno Regeste became head writer for Code Lyoko's final season after Decroisette stepped down while she was pregnant with her second child, though she continued writing scripts and closely monitored episodes involving Replikas.
 
 Animation
+
 The series' traditional animation was handled overseas by Animation Services Hong Kong Limited, Fantasia Animation and Welkin Animation also worked on the show's first two seasons. Starting around the third season, a team dedicated to Code Lyoko was formed at Hong Kong Limited's studio, who were managed on-site by two members from Antefilms' Paris office. This change stemmed from Mouscadet's desire for a more consistent animation quality, which he described trying to manage it prior to that point as "a little bit like steering an ocean liner with binoculars". The 3D segments were animated in-house by Antefilm's CGI team at their Angoulême office.
 
 Episodes
+
 Telecast and home media
+
 The show first premiered on France 3 on 3 September 2003 and ended on 10 November 2007 in France and on Cartoon Network in the U.S. on 19 April 2004. The second season started on 19 September 2005. The two-part X.A.N.A. Awakens prequel aired on 2–3 October 2006, and the third season started a day later on 4 October 2006. The fourth and final season began on 18 May 2007. The final episode aired on Cartoon Network was "Cousins Once Removed", and the remaining seven episodes were released online on Cartoon Network Video. During its run, it was simultaneously both part of its afterschool weekday action animation light-toned programming block, Miguzi from 2004 until 2007 when it was carried over into its rebranded Master Control block. It was also a standalone show on its primetime slot and continued until 2008. The show also aired on Kabillion from 2007 to 2015.
+
 The show also aired in Latin America and Japan on Jetix. In Italy, the show aired on Disney Channel, Rai 2, RaiSat Smash, Rai Gulp and was published on DVD by Delta Pictures under the label 20th Century Fox Home Entertainment. In Canada, the show aired on Radio-Canada.
+
 In January 2011, all four seasons of Code Lyoko were released on iTunes in the U.S. and France by MoonScoop Holdings, although as of May 2019, only seasons 1 and 2 are available and other seasons have been removed. In October 2011, all four seasons were released on Amazon Instant Streaming and on DVD in the U.S., however, these DVDs are now out of print.
+
 All four seasons were made available on Netflix on 6 August 2012, but were removed. The show was eventually returned to Netflix on 1 October 2020 after being taken down following MoonScoop's bankruptcy. Since 2015, all of the English-dubbed episodes (including the prequel X.A.N.A. Awakens) are viewable on YouTube. Since 2019, an upscaled HD version of the series is also available on Amazon Prime Video in the U.S. and the United Kingdom.
 
 Reception
+
 Emily Ashby of Common Sense Media gave the show 4/5 stars, writing: "Kids will like the battles in Lyoko -- each plays out much like a video game", and added: "Strategy and teamwork are themes throughout the series." In a 2020 retrospective of the show for Comic Book Resources, Noah Dominguez wrote: "Whether you're a returning traveler or are only visiting Lyoko for the first time, Code Lyoko still holds up as a unique, easily-accessible gem of the 2000s".
+
 Code Lyoko was voted as the best show by Canal J viewers in France. The series has achieved international fame as well, becoming the #2 show on Cartoon Network's Miguzi block upon its premiere in the United States. It was the block's most popular series in 2005 and Cartoon Network's #3 best performing show overall in 2006. Kabillion had it as #4 in monthly average views in 2010. The show has reached success in Spain as one of Clan TVE's highest-rated shows, on Italy's Rai2 network, and in Finland and the United Kingdom as well. The show also won France's Prix de l'Export 2006 Award for Animation in December 2006.
 
 Merchandise
+
 Several Code Lyoko products have been released, including DVDs, a series of cine-manga by Tokyopop, a series of four novels by Italian publisher Atlantyca Entertainment, apparel, and other accessories. In 2006, Marvel Toys released a line of Code Lyoko toys and action figures.
+
 When the show was about to come to an end in 2007, The Game Factory released three video games based on the show: Code Lyoko and Code Lyoko: Fall of X.A.N.A. for the Nintendo DS, and Code Lyoko: Quest for Infinity for the Wii, PSP, and PlayStation 2. The games were met with mixed to positive reviews from critics despite some criticisms of gameplay. There have been other games released through various mediums, one being Facebook.
+
 A series of Clan TVE festivals in Spain included live stage shows based on Code Lyoko among other things. A game show known as Code Lyoko Challenge was planned to be released in late 2012, but fell through.
 
 Novels
+
 A series of four chapter books was released by Atlantyca Entertainment and distributed in Italy and other countries. The novels delve deeper into the unanswered questions of the series. Taking place after the end of the series, X.A.N.A. has miraculously survived and returns though weakened and initially missing its memories. X.A.N.A. possesses Eva Skinner, an American girl, and travels to France in order to infiltrate the gang and kill them off. Unaware of their enemy's presence, the group works to find clues about Aelita's past, left by her father Franz Hopper, and confirm whether or not her mother is still alive somewhere, but at the same time, a terrorist group, the Green Phoenix, has become interested in the Supercomputer and intend to use both it and the virtual world of Lyoko for evil purposes.
+
 It was confirmed that the series will never be released officially in English, nor the final two books released in French. However, sometime later, a fan community came together and sought to not only finish the series but translate it into more languages, including English. They have since completed their work and made it available for free download in September 2014.

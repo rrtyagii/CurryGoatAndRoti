@@ -1,4 +1,7 @@
 CADUCEUS was a medical expert system, an early type of recommender system - by Harry Pople of the University of Pittsburgh. Finished in the mid-1980s, it was built on the INTERNIST-1 algorithm (1972-1973). In its time, CADUCEUS was described as the "most knowledge-intensive expert system in existence". CADUCEUS eventually could diagnose up to 1000 different diseases.
+
 The knowledge base was built on Pople's years of interviews with Dr. Jack Meyers, one of the top internal medicine diagnosticians and a professor at the University of Pittsburgh. Their motivation was to improve on MYCIN, a recommender which focused on blood-borne infectious bacteria and instead embrace all internal medicine.
+
 While CADUCEUS worked using an inference engine similar to MYCIN's, it made a number of changes. As there can be a number of simultaneous diseases, and data is generally flawed and scarce it incorporated abductive reasoning to deal with the additional complexity of internal disease.
+
 A disease can manifest a set of signs and symptoms, and a manifestation can, in  turn, evoke a disease. Relationships between symptoms and diagnosis were ranked from 0 to 5. 5 indicated that the symptom is always associated with the disease, while 0 indicated that the association was ambiguous. An initial list of symptoms entered by the practitioner would be evaluated by the program to suggest possible diseases related to these combinations. These predictions were improved from INTERNIST-I by the use of constrictor relationships.

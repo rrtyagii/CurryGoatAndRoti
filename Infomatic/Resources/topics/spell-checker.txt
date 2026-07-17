@@ -1,55 +1,84 @@
 In software, a spell checker (or spelling checker or spell check) is a software feature that checks for misspellings in a text. Spell-checking features are often embedded in software or services, such as a word processor, email client, electronic dictionary, or search engine.
 
 Design
+
 A basic spell checker carries out the following processes:
 
 It scans the text and extracts the words contained in it.
+
 It then compares each word with a known list of correctly spelled words (i.e. a dictionary). This might contain just a list of words, or it might also contain additional information, such as hyphenation points or lexical and grammatical attributes.
+
 An additional step is a language-dependent algorithm for handling morphology. Even for a lightly inflected language like English, the spell checker will need to consider different forms of the same word, such as plurals, verbal forms, contractions, and possessives. For many other languages, such as those featuring agglutination and more complex declension and conjugation, this part of the process is more complicated.
+
 It is unclear whether morphological analysis—allowing for many forms of a word depending on its grammatical role—provides a significant benefit for English, though its benefits for highly synthetic languages such as German, Hungarian, or Turkish are clear.
+
 As an adjunct to these components, the program's user interface allows users to approve or reject replacements and modify the program's operation.
+
 Spell checkers can use approximate string matching algorithms such as Levenshtein distance to find correct spellings of misspelled words. An alternative type of spell checker uses solely statistical information, such as n-grams, to recognize errors instead of correctly-spelled words. This approach usually requires a lot of effort to obtain sufficient statistical information. Key advantages include needing less runtime storage and the ability to correct errors in words that are not included in a dictionary.
+
 In some cases, spell checkers use a fixed list of misspellings and suggestions for those misspellings; this less flexible approach is often used in paper-based correction methods, such as the see also entries of encyclopedias.
+
 Clustering algorithms have also been used for spell checking combined with phonetic information.
 
 History
+
 Pre-PC
+
 In 1961, Les Earnest, who headed the research on this budding technology, saw it necessary to include the first spell checker that accessed a list of 10,000 acceptable words. Ralph Gorin, a graduate student under Earnest at the time, created the first true spelling checker program written as an applications program (rather than research) for general English text: SPELL for the DEC PDP-10 at Stanford University's Artificial Intelligence Laboratory, in February 1971.  Gorin wrote SPELL in assembly language, for faster action; he made the first spelling corrector by searching the word list for plausible correct spellings that differ by a single letter or adjacent letter transpositions and presenting them to the user.  Gorin made SPELL publicly accessible, as was done with most SAIL (Stanford Artificial Intelligence Laboratory) programs, and it soon spread around the world via the new ARPAnet, about ten years before personal computers came into general use.  SPELL, its algorithms and data structures inspired the Unix ispell program.
 The first spell checkers were widely available on mainframe computers in the late 1970s.  A group of six linguists from Georgetown University developed the first spell-check system for the IBM corporation.
+
 Henry Kučera invented one for the VAX machines of Digital Equipment Corp in 1981.
 
 Unix
+
 The International Ispell program commonly used in Unix is based on R. E. Gorin's SPELL. It was converted to C by Pace Willisson at MIT.
+
 The GNU project has its spell checker GNU Aspell. Aspell's main improvement is that it can more accurately suggest correct alternatives for misspelled English words.
+
 Due to the inability of traditional spell checkers to check words in complex inflected languages, Hungarian László Németh developed Hunspell, a spell checker that supports agglutinative languages and complex compound words. Hunspell also uses Unicode in its dictionaries.
+
 Hunspell replaced the previous MySpell in OpenOffice.org in version 2.0.2.
+
 Enchant is another general spell checker, derived from AbiWord. Its goal is to combine programs supporting different languages such as Aspell, Hunspell, Nuspell, Hspell (Hebrew), Voikko (Finnish), Zemberek (Turkish) and AppleSpell under one interface.
 
 PCs
+
 The first spell checkers for personal computers appeared in 1980, such as "WordCheck" for Commodore systems which was released in late 1980 in time for advertisements to go to print in January 1981. Developers such as Maria Mariani and Random House rushed OEM packages or end-user products into the rapidly expanding software market. On the pre-Windows PCs, these spell checkers were standalone programs, many of which could be run in terminate-and-stay-resident mode from within word-processing packages on PCs with sufficient memory.
+
 However, the market for standalone packages was short-lived, as by the mid-1980s developers of popular word-processing packages like WordStar and WordPerfect had incorporated spell checkers in their packages, mostly licensed from the above companies, who quickly expanded support from just English to many European and eventually even Asian languages. However, this required increasing sophistication in the morphology routines of the software, particularly with regard to heavily-agglutinative languages like Hungarian and Finnish. Although the size of the word-processing market in a country like Iceland might not have justified the investment of implementing a spell checker, companies like WordPerfect nonetheless strove to localize their software for as many national markets as possible as part of their global marketing strategy.
+
 When Apple developed "a system-wide spelling checker" for Mac OS X so that "the operating system took over spelling fixes," it was a first: one "didn't have to maintain a separate spelling checker for each" program. Mac OS X's spellcheck coverage includes virtually all bundled and third party applications.
+
 Visual Tools' VT Speller, introduced in 1994, was "designed for developers of applications that support Windows." It came with a dictionary but had the ability to build and incorporate use of secondary dictionaries.
 
 Browsers
+
 Web browsers such as Firefox and Google Chrome offer spell checking support, using Hunspell. Prior to using Hunspell, Firefox and Chrome used MySpell and GNU Aspell, respectively.
 
 Specialties
+
 Some spell checkers have separate support for medical dictionaries to help prevent medical errors.
 
 Functionality
+
 The first spell checkers were "verifiers" instead of "correctors." They offered no suggestions for incorrectly spelled words. This was helpful for typos but it was not so helpful for logical or phonetic errors. The challenge the developers faced was the difficulty in offering useful suggestions for misspelled words. This requires reducing words to a skeletal form and applying pattern-matching algorithms.
+
 It might seem logical that where spell-checking dictionaries are concerned, "the bigger, the better," so that correct words are not marked as incorrect. In practice, however, an optimal size for English appears to be around 90,000 entries. If there are more than this, incorrectly spelled words may be skipped because they are mistaken for others. For example, a linguist might determine on the basis of corpus linguistics that the word baht is more frequently a misspelling of bath or bat than a reference to the Thai currency. Hence, it would typically be more useful if a few people who write about Thai currency were slightly inconvenienced than if the spelling errors of the many more people who discuss baths were overlooked.
 
 The first MS-DOS spell checkers were mostly used in proofing mode from within word processing packages. After preparing a document, a user scanned the text looking for misspellings. Later, however, batch processing was offered in such packages as Oracle's short-lived CoAuthor and allowed a user to view the results after a document was processed and correct only the words that were known to be wrong. When memory and processing power became abundant, spell checking was performed in the background in an interactive way, such as has been the case with the Sector Software produced Spellbound program released in 1987 and Microsoft Word since Word 95.
+
 Spell checkers became increasingly sophisticated; now capable of recognizing grammatical errors. However, even at their best, they rarely catch all the errors in a text (such as homophone errors) and will flag neologisms and foreign words as misspellings. Nonetheless, spell checkers can be considered as a type of foreign language writing aid that non-native language learners can rely on to detect and correct their misspellings in the target language.
 
 Spell-checking for languages other than English
+
 English is unusual in that most words used in formal writing have a single spelling that can be found in a typical dictionary, with the exception of some jargon and modified words. In many languages, words are often concatenated into new combinations of words. In German, compound nouns are frequently coined from other existing nouns. Some scripts do not clearly separate one word from another, requiring word-splitting algorithms. Each of these presents unique challenges to non-English language spell checkers.
 
 Context-sensitive spell checkers
+
 There has been research on developing algorithms that are capable of recognizing a misspelled word, even if the word itself is in the vocabulary, based on the context of the surrounding words. Not only does this allow words such as those in the poem above to be caught, but it mitigates the detrimental effect of enlarging dictionaries, allowing more words to be recognized. For example, baht in the same paragraph as Thai or Thailand would not be recognized as a misspelling of bath. The most common example of errors caught by such a system are homophone errors, such as the bold words in the following sentence:
 
 Their coming too sea if its reel.
+
 The most successful algorithm to date is Andrew Golding and Dan Roth's "Winnow-based  spelling correction algorithm", published in 1999, which is able to recognize about 96% of context-sensitive spelling errors, in addition to ordinary non-word spelling errors. Context-sensitive spell checkers appeared in the now-defunct applications Microsoft Office 2007 and Google Wave.
+
 Grammar checkers attempt to fix problems with grammar beyond spelling errors, including incorrect choice of words.

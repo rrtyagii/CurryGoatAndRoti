@@ -1,20 +1,29 @@
 Optical Character Recognition is a Unicode block containing signal characters for OCR and MICR standards.
 
 Block
+
 Subheadings
+
 The Optical Character Recognition block has three informal subheadings (groupings) within its character collection: OCR-A, MICR, and OCR.
 
 OCR-A
+
 The OCR-A subheading contains six characters taken from the OCR-A font described in the ISO 1073-1:1976 standard: U+2440 ⑀ OCR HOOK, U+2441 ⑁ OCR CHAIR, U+2442 ⑂ OCR FORK, U+2443 ⑃ OCR INVERTED FORK, U+2444 ⑄ OCR BELT BUCKLE, and U+2445 ⑅ OCR BOW TIE. The OCR bow tie is given the informative alias "unique asterisk".
+
 The hook, chair and fork, in addition to a long vertical bar, are included in the most basic "numeric" implementation level of OCR-A, which includes digits but excludes letters and conventional punctuation. By contrast, the most basic implementation level of OCR-B instead includes the digits, plus sign, less-than sign, greater-than sign, long vertical bar and seven of the capital letters; as such, there are no characters specific to OCR-B in the Optical Character Recognition block.
 
 MICR
+
 The MICR subheading contains four punctuation characters for bank cheque identifiers, taken from the magnetic ink character recognition E-13B font (codified in the ISO 1004:1995 standard): U+2446 ⑆ OCR BRANCH BANK IDENTIFICATION, U+2447 ⑇ OCR AMOUNT OF CHECK, U+2448 ⑈ OCR DASH, and U+2449 ⑉ OCR CUSTOMER ACCOUNT NUMBER.
+
 The latter two characters are misnamed: their names were inadvertently switched when they were named in the 1993 (first) edition of ISO/IEC 10646, a mistake which had been present since Unicode 1.0.0. Although their formal names remain unchanged due to the Unicode stability policy, they both have corrected normative aliases: U+2448 ⑈ is MICR ON US SYMBOL, and U+2449 ⑉ is MICR DASH SYMBOL (the standard notes that "the Unicode character names include several misnomers").
+
 These symbols had previously been encoded by the ISO-IR-98 encoding defined by ISO 2033:1983, in which they were simply named SYMBOL ONE through SYMBOL FOUR. All four characters have informative aliases in the Unicode charts: "transit", "amount", "on us", and "dash" respectively.
 
 OCR
+
 The OCR subheading consists of a single character: U+244A ⑊ OCR DOUBLE BACKSLASH.
 
 History
+
 The following Unicode-related documents record the purpose and process of defining specific characters in the Optical Character Recognition block:

@@ -1,31 +1,45 @@
 The minimum information about a simulation experiment (MIASE) is a list of the common set of information a modeller needs to enable the execution and reproduction of a numerical simulation experiment, derived from a given set of quantitative models.
+
 MIASE is a registered project of the MIBBI (minimum information for biological and biomedical investigations).
 
 History
+
 The MIASE project was launched in 2007 by Dagmar Köhn and Nicolas Le Novère and first presented on the 12th SBML Forum Meeting in October 2007. Since then, MIASE was discussed on various meetings, not only within the SBML community. MIASE has become a community effort involving people from various standardisation communities as well as developers of simulation tools.
+
 In April 2009, MIASE was part of the "CellML, SBGN, SBO, BioPAX, and MIASE Super-Workshop 2009".
 
 The guidelines
+
 The MIASE Guidelines are composed of the following parts: Information about the models to use, information about the simulation steps, and Information about the output:
 
 Information about the models to use
+
 All models used in the experiment must be identified, accessible, and fully described.
 
 The description of the simulation experiment must be provided together with the models necessary for the experiment, or with a precise and unambiguous way of accessing those models.
+
 The models required for the simulations must be provided with all governing equations, parameter values, and necessary conditions (initial state and/or boundary conditions).
+
 If a model is not encoded in a standard format, then the model code must be made available to the user. If a model is not encoded in an open format or code, its full description must be provided, sufficient to re-implement it.
+
 Any modification of a model (pre-processing) required before the execution of a step of the simulation experiment must be described.
 
 Information about the simulation steps
+
 A precise description of the simulation steps and other procedures used by the experiment must be provided.
 
 All simulation steps must be clearly described, including the simulation algorithms to be used, the models on which to apply each simulation, the order of the simulation steps, and the data processing to be done between the simulation steps.
+
 All information needed for the correct implementation of the necessary simulation steps must be included through precise descriptions or references to unambiguous information sources.
+
 If a simulation step is performed using a computer program for which source code is not available, all information needed to reproduce the simulation, and not just repeat it, must be provided, including the algorithms used by the original software and any information necessary to implement them, such as the discretization and integration methods.
+
 If it is known that a simulation step will produce different results when performed in a different simulation environment or on a different computational platform, an explanation must be given of how the model has to be run with the specified environment/platform in order to achieve the purpose of the experiment.
 
 Information about the output
+
 All information necessary to obtain the desired numerical results must be provided.
 
 All post-processing steps applied on the raw numerical results of simulation steps in order to generate the final results have to be described in detail. That includes the identification of data to process, the order in which changes were applied, and also the nature of changes.
+
 If the expected insights depend on the relation between different results, such as a plot of one against another, the results to be compared have to be specified.

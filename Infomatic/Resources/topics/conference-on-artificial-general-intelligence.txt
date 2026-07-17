@@ -21,4 +21,5 @@ AGI-2025 Reykjavík University, Reykjavík, Iceland
  AGI-2008 University of Memphis, Tennessee, USA (sponsored by AAAI)
 
 Notable speakers
+
 The conference has attracted many speakers over the years including Turing Award winners Yoshua Bengio and Richard S. Sutton as well as Ben Goertzel, Marcus Hutter, Jürgen Schmidhuber, Gary Marcus, John E. Laird, Peter Norvig, Joscha Bach, François Chollet,  John L. Pollock, Bill Hibbard, Hugo de Garis, Stan Franklin, Steve Omohundro, Randal A. Koene, Ernst Dickmanns, Margaret Boden, David Hanson, Roman Yampolskly, Selmer Bringsjord, Kristinn R. Thórisson and Nick Bostrom.

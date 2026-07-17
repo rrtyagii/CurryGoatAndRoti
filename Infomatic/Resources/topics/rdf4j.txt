@@ -1,12 +1,17 @@
 Eclipse RDF4J (formerly OpenRDF Sesame) is an open-source framework for storing, querying, and analysing Resource Description Framework (RDF) data.
 
 Framework
+
 It was created by the Dutch software company Aduna as part of "On-To-Knowledge", a semantic web project that ran from 1999 to 2002. It contains implementations of an in-memory triplestore and an on-disk triplestore, along with two separate Servlet packages that can be used to manage and provide access to these triplestores, on a permanent server. The RDF4J Rio (RDF Input/Output) package contains a simple API for Java-based RDF parsers and writers. Parsers and writers for popular RDF serialisations are distributed along with RDF4J, and users can easily extend the list by putting their parsers and writers on the Java classpath when running their application.
+
 RDF4J supports two query languages: SPARQL and SeRQL.
+
 RDF4J's RDF database API differs from comparable solutions in that it offers a stackable interface through which functionality can be added, and the storage engine (SAIL) is abstracted from the query interface. Many other triplestores can be used through the RDF4J API, including Ontotext GraphDB (built as a SAIL), Mulgara, and AllegroGraph. Through the stackable interface, functionality can be added to all of these stores. It can, for example, be used to add indexing and query capabilities to all compatible stores:
 
 Free text search capabilities can be added through the LuceneSail.
+
 Geospatial (GeoSPARQL) and free text search can be added through uSeekM.
 
 Eclipse project
+
 In May 2016, Sesame officially forked into an Eclipse project called RDF4J, in recognition of Aduna no longer being involved in its development. This official fork brings the core developers with it and is supported by several commercial companies.

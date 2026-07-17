@@ -1,6 +1,9 @@
 The figurative system of human knowledge (French: Système figuré des connaissances humaines; sometimes known as the tree of Diderot and d'Alembert) is Jean le Rond d'Alembert and Denis Diderot's tree structure graph outlining human knowledge. It was produced for the Encyclopédie. According to Diderot in the article "Encyclopédie", the Encyclopédie's aim was "to change the way people think" and to allow people to inform themselves.
+
 Knowledge organization is part of the field of information science—the academic pursuit to discover, learn, record, and share knowledge.
+
 This tree is a taxonomy of human knowledge inspired by Francis Bacon's The Advancement of Learning. The three main branches of knowledge in the tree are: "Memory"/History, "Reason"/Philosophy, and "Imagination"/Poetry.
+
 Notable is the fact that theology is ordered under philosophy. The historian Robert Darnton argued that this categorization of religion as being subject to human reason, and not a source of knowledge in and of itself (revelation), was a significant factor in the controversy surrounding the work.  "Knowledge of God" is only a few nodes away from divination and black magic.
 
 Content
@@ -14,14 +17,21 @@ History.
 Sacred (History of Prophets).
 Ecclesiastical.
 Civil, Ancient and Modern.
+
 Civil History, properly said. (See also: History of civil society)
+
 Literary History.
+
 Memoirs.
+
 Antiquities. (See also: Classical antiquity)
+
 Complete Histories.
 Natural.
 Uniformity of Nature. (See: Uniformitarianism)
+
 Celestial History.
+
 History...
 of Meteors.
 of the Earth and the Sea (See also: Origin of water on Earth)
@@ -30,15 +40,24 @@ of Vegetables. (See also: History of agriculture)
 of Animals.  (See also: Evolutionary history of life)
 of the Elements. (See also: Classical element, History of alchemy, and History of chemistry)
 Deviations of Nature.
+
 Celestial Wonders.
+
 Large Meteors. (See also: Asteroids)
+
 Wonders of Land and Sea. (See: Wonders of the World)
+
 Monstrous Minerals.
+
 Monstrous Vegetables. (See: Largest plants, Poisonous plants, and Carnivorous plants)
 Monstrous Animals. (See: Largest animals and Predators)
+
 Wonders of the Elements. (See: Natural disasters)
+
 Uses of Nature (See Technology and Applied sciences)
+
 Arts, Crafts, Manufactures.
+
 Work and Uses of Gold and Silver.
 Minter.
 Gold Beaters.
@@ -65,12 +84,17 @@ Optician.
 Glazier, etc.
 Work and Uses of Skin.
 Tanner.
+
 Chamois Maker.
+
 Leather Merchant.
 Glove Making, etc.
 Work and Uses of Stone, Plaster, Slate, etc.
+
 Practical Architecture.
+
 Practical Sculpture.
+
 Mason.
 Tiler, etc.
 Work and Uses of Silk.
@@ -79,12 +103,19 @@ Milling.
 Needlecraft.
 Velvet.
 Brocaded Fabrics, etc.
+
 Work and Uses of Wool.
+
 Cloth-Making.
+
 Bonnet-Making, etc.
+
 Working and Uses, etc.
+
 Reason
+
 Philosophy
+
 General Metaphysics, or Ontology, or Science of Being in General, of Possibility, of Existence, of Duration, etc.
 Science of God.
 Natural Theology.
@@ -174,6 +205,7 @@ Statics, properly said.
 Hydrostatics.
 Dynamics.
 Dynamics, properly said.
+
 Ballistics.
 Hydrodynamics.
 Hydraulics.

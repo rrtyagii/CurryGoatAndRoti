@@ -1,11 +1,15 @@
 Lenny is a chatbot designed to scam bait telemarketers, scammers, and other unwanted incoming calls using messages.
 
 Background
+
 Telemarketers may be perceived by some as annoying and wasting people's time, and some deliberately attempt to scam or defraud people. In April 2018, stats published by YouMail estimated the United States received over three billion robocalls that month. Attempts to block the callers have been hindered by Caller ID spoofing.
 
 Features
+
 The bot was written in 2011, and development taken over by an Alberta-based programmer known as "Mango" two years later. It is driven by sixteen pre-recorded audio clips, spoken in a soft and slow Australian accent in the manner of an elderly man. The bot's original creator stated on Reddit that in building the character he asked himself the question "What would be a telemarketer's worst nightmare?" He answered with this being a lonely old man who is up for a chat, proud of his family and can't focus on the telemarketer's goal. There is no speech recognition or artificial intelligence, and the bot's software is simple and straightforward. The first four clips are played sequentially in order to grab the telemarketer's interest and begin their sales pitch to Lenny, then the remaining twelve are played sequentially on loop until the telemarketer hangs up. The program waits for a gap of 1.5 seconds of silence before playing the next audio clip, to simulate natural breaks in the conversation. The messages are purposefully vague and open-ended so they can be applied to as many conversations as possible. They include references to Lenny's children, the state of the economy, and being interrupted by some ducks outside.
+
 According to research into the bot, around 75% of callers realise they are talking to a computer program within two minutes; however, some calls have lasted around an hour.
 
 Distribution
+
 Though other chatbots had been developed earlier, Lenny was the first one to be released for free on a public server and could be accessed by anyone. Recordings of conversations with the bot are widely shared online on websites such as Reddit and YouTube. Though "Mango" only intended Lenny to be used against dishonest telemarketers, such as scammers, he does not mind it being used against callers who are merely annoying. The bot has also been used against political campaigners, such as a supporter of Pierre Poilievre in the 2015 Canadian federal election.

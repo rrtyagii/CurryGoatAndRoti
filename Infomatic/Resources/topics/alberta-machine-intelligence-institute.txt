@@ -1,5 +1,7 @@
 Alberta Machine Intelligence Institute (Amii) is a machine learning institute in Edmonton, Alberta. Amii was established in 2002 to drive innovation in the artificial intelligence space and partner with companies to adopt and grow the technology. Since their inception, Amii have worked with more than 300 companies to translate knowledge, talent and technology into industry and secured $600M+ in venture financing, including $450M raised by Canadian-based companies. As of 2023, Amii funds the research of more than 30 research fellows, 36 Canada CIFAR AI chairs, recently invested $30 million in the University of Alberta to recruit 20 new global AI researchers, and worked with over 100 companies to accelerate AI product development.
+
 Along with Montreal's  Mila and Toronto's  Vector Institute, Amii is a member of the Pan-Canadian Artificial Intelligence Strategy.
 
 History
+
 Amii began in 2002 as the Alberta Ingenuity Centre for Machine Learning (AICML), a joint effort between the Government of Alberta and the University of Alberta. In 2017, they rebranded under their current Amii name and moved into a large open-concept collaborative office in downtown Edmonton.

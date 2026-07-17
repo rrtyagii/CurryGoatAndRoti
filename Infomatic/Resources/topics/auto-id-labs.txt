@@ -1,9 +1,11 @@
 The Auto-ID Labs network is a research group in the field of networked radio-frequency identification (RFID) and emerging sensing technologies. The labs consist of seven research universities located on four different continents. These institutions were chosen by the former Auto-ID Center to design the architecture for the Internet of Things together with EPCglobal. The federation was established in 1999; the network they have developed is at the heart of a proposal sponsored by EPCglobal and supported by GS1, GS1 US, Wal-Mart, Hewlett-Packard, and others to use RFID and the Electronic Product Code (EPC) in the identification of items in the supply chain for companies. The areas of expertise range from hardware to software to business research related to RFID.
 
 History
+
 The Auto-ID Labs is the research-oriented successor to the MIT Auto-ID Center, founded by Kevin Ashton, David Brock, Dr. Daniel Engels, Sanjay Sarma, and Sunny Siu with funding from Procter & Gamble, Gillette, the Uniform Code Council, and a number of other global consumer products manufacturers. The MIT Auto-ID Center was created to develop the Electronic Product Code, a global RFID-based item identification system intended to replace the UPC bar code. In October 2003, the Auto-ID Center was replaced by the newly founded research network, the Auto-ID Labs and EPCGlobal, an organization charged with managing the new EPC Network. Auto-ID Labs is responsible for managing and funding the continued development of EPC technology.
 
 Research topics
+
 The research topics of the labs have gone beyond RFID-only research and now also includes sensor networks and new emerging sensing technology. Basically, the research can be grouped into three main areas: hardware, software and business layer. On the autoidlabs.org website, the Auto-ID Labs continuously publish their research results and provide an archive with over 150 white papers and academic publications. The following parts outline how the research is organized.
 
 Software and network
@@ -19,6 +21,7 @@ Focus group: Massachusetts Institute of Technology, Fudan University, KAIST
 RF and chip design
 Class 2 and higher tags
 Tags with memory, battery, sensors and actuators
+
 Enhanced reading rates in challenging environments
 
 Members

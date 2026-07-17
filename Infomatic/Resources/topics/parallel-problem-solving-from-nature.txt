@@ -1,46 +1,67 @@
 Parallel Problem Solving from Nature (PPSN) is a peer-reviewed research conference focusing on the topic of natural computing. As such it includes a wide scope of computer science. It originated in 1990 and has been held biennially across European locations ever since. Papers selected for PPSN conferences are presented as posters and published in proceedings in the Springer Lecture Notes in Computer Science series. PPSN conferences also include presentations by keynote speakers representing diverse viewpoints in the field, tutorials given by experts, and workshops for discussion of topics that may not be fully represented in the main conference. These activities that should advance the field of natural computing probably explain why PPSN gained an A-ranking in the 2023 CORE computer science conference ranking system, reflecting its importance as a venue in which computer science researchers can participate.
 
 Origin
+
 The idea behind PPSN emerged around 1989-1990 when Bernard Manderick, Reinhard Männer, Heinz Mühlenbein, and Hans-Paul Schwefel, realised they shared a common field of study that was not covered by the conferences on Operations Research, Physics, or Computer Science they attended regularly.
+
 The field of genetic algorithms had already been established in the form of the ICGA conference in 1985, but the founders of PPSN wanted a wider focus, with algorithms that included problem solving, parallel computing  and the use of natural metaphors (such as Darwinian evolution or Boltzmann dynamics).
+
 The success of the first PPSN event at Dortmund encouraged its organisers to start a biennial conference series, as a European counterpart to the American-based ICGA (which in 1999 merged with the Genetic Programming conference to give rise to GECCO).
+
 Analogies to natural processes included the thermodynamic process of annealing, immune systems and neural networks, as well as other paradigms, with Darwinian evolution being by far the most frequently used metaphor.
+
 In this way, evolutionary algorithms and evolutionary computation became the common denominator for the PPSN approach to problem solving by mimicking biological principles like populations, birth, death, mutation, recombination, and natural selection.
 
 History
+
 So far, eighteen PPSN conferences have been held. The table below describes their dates, locations and cites their websites and proceedings, where accessible. The importance of Dortmund, as the location of the Technical University of Dortmund (de:Technische Universität Dortmund), where the conference originated, as the location of many successor conferences and as the location of on-going relevant research, should not be understated.
 
 Organisation
+
 Each PPSN conference as any peer-reviewed research conference requires a substantial amount of organisation. The organisers are people from the research community covered by the conference. Due to the long history of the conference it is not possible to present all organisers of all conferences. For some recent conferences the organisers can be identified from the conference website. For other recent conferences where the website is no longer available the conference organisers are listed in the Table of Contents Front Matter of the Conference Proceedings. In the table below the main organisers of the most recent PPSN conferences are given. The sources of the information about organisation are cited adjacent to each year.
+
 Hans-Paul Schwefel, recognised for his founding role in PPSN conferences, has been Honorary Chair of the PPSN conferences from 2020 to 2024 listed below. It may be assumed that he will continue in that position during the forthcoming PPSN 2026, but that has not yet been confirmed. When PPSN was held in Leiden in 2020 Grzegorz Rozenberg was also an Honorary Chair.
+
 In addition to the organisers listed in the table below, there are others, whom may not always be recognised in each conference proceedings, or through the same title. Local Chairs or Local Support Chairs are very important to make sure that the conference takes place smoothly in the agreed venue. Some conferences have listed Technical Support Chairs or Online Conference Chairs. This will be important to ensure that the equipment in the venue works as expected. This may also have had particular importance in 2020 due the impact of the COVID-19 pandemic, requiring the conference to take place entirely online.
+
 Other organisers were not identified consistently across the three conferences that have completed below, nor in the one forthcoming. This does not imply that they were less important than those included in the table. These included a Keynote Chair, a Competition Chair, an Industrial Liaison Chair and a Social Media Chair.
+
 Not included in the table because of the very large number of people involved are the Programme Committee. Reporting to the Programme Committee Chairs, these are the people who carry out the peer-review process to ensure that PPSN conferences maintain a high standard of academic rigour. A full list of Programme Committee members can be found in the Table of Contents Front Matter of the PPSN conference proceedings following the list of conference organisers given in the Organization section.
 
 Format
+
 Each Parallel Problem Solving from Nature (PPSN) conference includes a variety of activities to update and inform participants about the latest trends in natural computing. Since each conference is biennial a lot may have changed since the last one. Keynote speakers are invited to each conference to give expert lectures on particular topics in the field. Peer-reviewed papers are presented as posters to give a very broad view of the subjects covered by the conference. Time is available for workshops to allow discussion of topics that may not be included in the main conference. In order to enable participants to learn about some topics included in the very broad range of topics that PPSN covers, time is also allowed for tutorials.
 
 Keynote speakers
+
 The diversity of subjects that the conference covers means that it has attracted a wide range of keynote speakers in natural computing and related areas. Keynote speakers are listed on PPSN conference websites, or if the website is not available, in the Table of Contents Front Matter of the Conference Proceedings. (An inline reference is made to that in the 2022 Conference Proceedings in the table below as an example.).
 
 Papers
+
 Similar to many other research conferences, PPSN invites the submission of papers. These are peer-reviewed and the ones selected for publication will be published in the conference proceedings published in the Springer Lecture Notes in Computer Science series, cited for past conferences in the table above, given in the history section. A possibly unique feature of PPSN conferences is that accepted papers are not oral presentations in the conference, they are presented in a poster session. This allows more papers to be included, as well as allowing attendees to gain more information beyond the poster when the conference proceedings are published.
 
 Workshops
+
 Each PPSN conference includes workshops, these are intended as "forums for presenting and discussing new emerging approaches or for critical reflections within a subfield. They provide an excellent opportunity to meet people with similar interests, to be exposed to cutting-edge research and to exchange ideas in an informal setting" (quoting the Call for Workshops for the forthcoming PPSN 2026 conference). They typically take place over one day or half a day, although some may be smaller. A call for workshop proposals is published by the conference organisers well in advance so that accepted workshop organisers can manage their workshop independently of the main conference programme, other than with the knowledge of the time slot within which their workshop will fit. PPSN 2024 included four workshops described in the table below.
 
 Tutorials
+
 PPSN conferences include tutorial sessions where experts in particular areas of the fields covered by the conference present in order to enable participants to learn about topics they may have been unfamiliar with before the conference. Unlike workshops, which may be regarded as mini-conferences and involve multiple presenters, tutorials at PPSN conferences are organised as detailed lectures, usually with only one or a few presenters. Thus there is time to include more tutorials than workshops in each PPSN conference. The table below provides information about the tutorials presented at the PPSN 2024 conference, the times and dates of which are shown in the PPSN 2024 Program. Titles are shown as given in the 2024 program.
 
 Importance
+
 Parallel Problem Solving from Nature (PPSN) conferences have become an established feature of European natural computing and evolutionary computation research, over the 35 years that they have been held. They have been held over a longer period than the other biennial European conference in related fields, Artificial Evolution, which has recently also been held in even-numbered years, but not on conflicting dates. In earlier years the Artificial Evolution conference was held in odd-numbered years, thus preventing any risk of conflict. Because Artificial Evolution conferences have usually been held in locations in France, PPSN has offered a wider range of locations.
+
 Although they are not annual, they have complemented the annual European EvoStar conferences, the latter being focused through sub-conferences on four areas arguably narrower in total than the scope of PPSN (EuroGP: genetic programming, EvoApplications: applications of evolutionary computation, EvoCOP: evolutionary computation in combinatorial optimisation and EvoMUSArt: computational intelligence in music, sound, art and design).
+
 PPSN conferences do not include the very large number of simultaneous tracks that much larger global conferences in evolutionary computation and related fields, such as GECCO or IEEE CEC can do. So PPSN conferences cannot attract a similar number of attendees to each conference as these conferences. However, being smaller and located in venues typically easier to reach across Europe, they enable interaction between participants to be easier. Through peer-review they maintain a high standard of publication from each conference. Via keynote speakers, tutorials and workshops they help advance the fields included within the scope of the conference.
+
 It is thus not surprising that Parallel Problem Solving from Nature gained an A-ranking in the 2023 CORE (Computing Education and Research) conference rankings. GECCO and FOGA (Foundations of Genetic Algorithms) were two other conferences in the field that also gained A-rankings, but there were many others that gained lower ranks, if at all, supporting the importance of PPSN.
+
 A new round of ICORE ranking is being prepared in 2025, but it is not due to  be released until 2026.
 
 Status
-Researchers in natural computing and related fields are familiar with PPSN as a conference in which to present their work and in which to participate, possibly taking on roles as organisers. Details of the next conference in 2026 are available. This article will need to be updated from September 2026 onwards, after the conclusion of that conference.
 
+Researchers in natural computing and related fields are familiar with PPSN as a conference in which to present their work and in which to participate, possibly taking on roles as organisers. Details of the next conference in 2026 are available. This article will need to be updated from September 2026 onwards, after the conclusion of that conference.
 
 == References and notes ==

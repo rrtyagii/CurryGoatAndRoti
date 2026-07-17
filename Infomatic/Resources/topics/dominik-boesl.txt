@@ -1,25 +1,39 @@
 Dominik Bösl (also published as Dominik B. O. Boesl and Dominik Bosl) is a German computer scientist, robotics executive, epistemologist and academic.  He is professor of Business Informatics at the University of Applied Sciences of the Bavarian Economy (Hochschule der Bayerischen Wirtschaft, HDBW) in Munich, adjunct professor at the Technical University of Munich (TUM) at the TUM Institute of Lifelong Learning, and founder & CEO of the Innomancer Thinktank.
+
 Bösl’s research and public writing focus on the societal implications of robotics, automation and artificial intelligence, including robotic governance, robotic natives and the four-phase model of robotics evolution known as the 4 Robotic Revolutions.
 
 Early life and education
+
 Bösl graduated with distinction from the historic humanistic Gymnasium bei Sankt Anna. The school lists him as one of their noteworthy alumni. Consecutively, he studied computer science at the University of Augsburg with a minor in philosophy, graduating with distinction.  He later earned an MBA from the University of Augsburg and an Executive MBA from the University of Pittsburgh’s Katz Graduate School of Business.
 
 Career
+
 Bösl began his professional career in 1999 at Siemens ICN and Fujitsu-Siemens Computers before joining Microsoft Germany (2004 - 2011), where he held management positions in partner satisfaction, national developer-evangelism and academic-outreach programs.
+
 From 2011 to end of 2018, Bösl held various leadership positions at KUKA AG, including Principal Corporate Innovation Manager and Vice President of Consumer Driven Robotics. In his capacity as a Technical Fellow for Digitalization and Industry 4.0 strategy (“Apps, Cloud & IoT”) he defined the corporation’s digitalization strategy, specifically overseeing its positioning within the Industry 4.0 and Industrial Internet of Things (IIoT) landscapes. He represented the company in national and international bodies, such as the OPC Foundation, the Platform Industry 4.0, and the IEEE, where he served as Chair of the IEEE TechEthics Ad Hoc Committee.
+
 Bösl co-managed the market launch of the LBR iiwa, which was recognized as the first industrially certified robot safe for direct human-robot collaboration (HRC). His work contributed to establishing the safety standards that allowed for the subsequent growth of the collaborative robotics market. Additionally, he was responsible for the group’s technology assessment and future trends research.
+
 As an early proponent of service robotics, Bösl established and led the Consumer Driven Robotics business unit prior to the sector’s mainstream adoption. These efforts culminated in the public presentation of the KUKA i-do, a modular service robot prototype designed to function as an open platform. While the concept was not mass-produced by KUKA, its modular platform approach anticipated later developments in the consumer robotics industry.
+
 Between 2019 and until the end of 2020 he was Vice President and Head of Robotics at Festo AG, overseeing five international R&D centers and a budget exceeding €20 million. His department focused on the development of the first pneumatic cobot, the Festo BionicCobot.
+
 From January 2022 to December 2023 he held a mandate as interim Chief Technology Officer and Managing Director of Micropsi Industries, a Berlin-based AI and robotics startup.
+
 Since 2019 Bösl has been Professor of Business Informatics at HDBW in Munich, where he teaches digital transformation, AI and automation.  He has taught at the Technical University of Munich since 2011 and was appointed Adjunct Professor at the TUM Institute for LifeLong Learning in June 2025. He is also founder and CEO of the Innomancer Thinktank, specializing in technology foresight and innovation ethics, the Robotics & AI Governance Foundation and the global Sustainable Robotics Thinktank.
 
 Professional service and public engagement
+
 From January 2016 to December 2018 Bösl served as Vice President for Industrial Activities of the IEEE Robotics and Automation Society. Between April 2017 and April 2022 he was global Chair of the IEEE TechEthics Initiative, representing the IEEE’s ethics program worldwide. He continues to serve on the IEEE RAS Industrial Activities Board, as a IEEE TechEthics Ambassador, on the IEEE International Roamapping Committee (IRUG) and on the IEEE SmartVillage Board as Governing Board Member.
+
 Bösl is also a member of an expert group at the United Nations Department of Economic and Social Affairs (UN DESA), advising on the impact of AI and robotics on achieving the Sustainable Development Goals. He has served as panelist at the UN STI Forum and advises several governments and international organizations on technology policy.
 
 Research and ideas
+
 Bösl has advocated for robotic governance, a framework for multi-stakeholder dialogue and voluntary self-regulation around robotics and AI, developed through the Robotic & A.I. Governance Foundation and related workshops. Together with Bernd Liepert, he proposed the 4 Robotic Revolutions  model and presented it in his plenary keynote at IROS 2016 , describing the evolution from caged industrial robots to collaborative, mobile and perceptive systems analogue to the development of mainstream computing.
+
 Since 2019, Bösl has led the Global Delphi Study on the Future of Robotics & AI (Robotics 2050+), a long-term research initiative supported by the IEEE Robotics and Automation Society. The study aims to establish a neutral, globally recognized, and diverse database of expert opinions to inform international roadmapping efforts and provide a holistic view of the future of robotics and AI through 2050 and beyond. The initiative, which Bösl continues to advance as part of his adjunct professorship at the Technical University of Munich (TUM), consults over 200 international experts to mitigate bias in technological forecasting. Findings from the study contribute to broader governance discussions, including those within the IEEE International Roadmap Committee (IRUG).
+
 At HDBW Bösl coordinated APOLLO, a German Federal Ministry of Education and Research (BMBF)-funded project within the INVITE program to develop an AI-based companion app for lifelong learning and skills mapping. The project had a funding framework of €6.4 million and ran for 39 months, concluding in December 2024.
 
 Selected publications

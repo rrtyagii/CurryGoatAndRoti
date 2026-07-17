@@ -1,3 +1,5 @@
 SigmaScan Pro is an Image analysis package for scientists, engineers, and technicians that provides a method to measure distances across any object that can be photographed or scanned.
+
 SigmaScan was originally developed by Jandel Scientific Software in the late 1980s which was later acquired by SPSS Inc. in October 1996.
+
 In January 2004, SYSTAT Software further acquired the exclusive worldwide rights from SPSS Inc. Systat Software is now based in San Jose, California.

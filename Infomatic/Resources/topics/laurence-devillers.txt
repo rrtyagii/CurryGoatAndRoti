@@ -1,17 +1,23 @@
 Laurence Devillers (born 8 October 1962, in Châtillon-sur-Seine, France), is a professor of artificial intelligence & ethics at Paris-Sorbonne University since 2011 and at Computer science laboratory for mechanics and engineering sciences (LIMSI) at the Scientific Research National Center, a head of the team "Affective and social dimension in spoken interaction". Devillers has taken part in several national and European projects on human-robots social and affective interactions. She leads a cluster of robots-human co-evolution at the Institute of Digital Society and "Robotic interactive" at Paris-Saclay.
 
 Academic career
+
 In November 1992, she defended a thesis of Doctor in Sciences, Specialty Computer Science thesis on "Recognition of continuous speech with a hybrid neuronal and Markovian system".
+
 Holding a PhD from Paris-Sud University (Paris XI), she is studying affective and social dimensions in Man-Robot spoken Interactions. Associated with Paris-Sud University, this laboratory researches two major themes:
 
 mechanical and energetic;
 human-machine communication.
+
 She is an author of numerous books on artificial intelligence:
 
 "Robots and Humans" ("Des robots et des hommes : Mythes, fantasmes et réalité")[1] (ISBN 978-2-259-25227-0)
 "Emotional robots" ("Les robots émotionnels")
+
 "Orlanoïde: Hybrid robot with artificial and collective intelligence" (Orlanoïde : Robot hybride avec intelligence artificielle et collective)
 Devillers is a co-writer of the report on ethics of the robotics researcher the Allistene Alliance Commission of the Ethics of Research in Digital Science and technology et CERNA and in other international projects: ANR Tecsan Armen, FUI Romeo, BPI Romeo2, Rex Humaine, Chist-era Joker. Devillers has published more than 150 articles in international and national peer-reviewed journals and chapters in collective works.
+
 She participated in deploying the national platform TransAlgo (Transparency and Explanation of Algorithms) (2017). She is also a founding HUB IA (private-public eco-system) member on applied ethics (since 2017).
+
 In 2017-2018 she was a member of ISCA and ISCA Distinguished Lecturers.
 Devillers was made a Knight of the Legion of Honour in 2020. The medal was presented by the mathematician Cedric Villani on 12 April 2022 at the Collège des Bernardins in Paris (@LaurentLandete (13 April 2022). "Remise de la Légion d'honneur" (Tweet) – via Twitter.).

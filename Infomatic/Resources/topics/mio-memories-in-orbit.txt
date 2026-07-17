@@ -1,14 +1,21 @@
 Mio: Memories in Orbit is a Metroidvania platformer video game developed by Douze Dixièmes and published by Focus Entertainment. It was released on 20 January 2026 on Nintendo Switch, Nintendo Switch 2, PlayStation 5, Windows and Xbox Series X/S.
 
 Synopsis
+
 On board a forgotten ark spaceship named The Vessel, where its AI caretakers known as Pearls has stopped working, agile robot MIO explores its exuberant vegetation overgrowth and miscreant machinery to revive The Vessel's memories to prevent an imminent shutdown.
 
 Development
+
 Mio: Memories in Orbit is developed by Douze Dixièmes, an indie game development studio from France. The game was announced during a Nintendo Direct presentation in June 2024, with its original release window of 2025. In December 2025, it was delayed to 20 January 2026.
 
 Reception
+
 Mio: Memories in Orbit received "generally favorable" reviews, according to review aggregator website Metacritic. Fellow review aggregator OpenCritic assessed that the game received strong approval, being recommended by 81% of critics.
+
 Rachel Samples of Destructoid praised Mio's art style and exploration aspect, and mentioned that figuring out the story of the Vessel through environmental storytelling clues was one of the most enjoyable parts of the game. She also felt that movement and traversal felt very smooth, and that despite combat being rather simple at first, there was an element of skill to it, and most fights were generally well balanced.
+
 Writing for Game Informer, Matt Miller also felt that the visual aesthetic and exploration were highlights, although he was more critical of the combat systems. He also noted that progression felt very tedious and repetitive, especially in the early game.
+
 Will Borger of Shacknews was far more critical of Mio than Samples and Miller. He also felt that the environmental storytelling on board the Vessel was a highlight, praising the emotional connection to the characters. However, he directed significant criticism towards the implementation of the upgrade system, noting that there was little reason to experiment, and "you’ll probably find a build early and stick with it." He also felt that the combat system's three-hit combo was shallow and did not allow much room for mastery, and it did not make boss fights very enjoyable.
+
 Reviewing the game for Nintendo World Report, Willem Hilhorst wrote that "while this game is jawdroppingly gorgeous, I found myself getting stuck on its pacing and hurdles more often than I would have liked". In his review for Nintendo Life, Ken Talbot deemed the game "a compelling adventure with solid platforming and combat", praising the art style and audio design while finding it "[o]verly familiar in both form and function".

@@ -1,4 +1,5 @@
 The Recursive Porous Agent Simulation Toolkit (Repast) is a widely used free and open-source, cross-platform, agent-based modeling and simulation toolkit. Repast has multiple implementations in several languages (North, Collier & Vos 2006) and built-in adaptive features, such as genetic algorithms and regression.
+
 Repast was originally developed by David Sallach, Nick Collier, Tom Howe, Michael North and others at the University of Chicago.
 
 Features

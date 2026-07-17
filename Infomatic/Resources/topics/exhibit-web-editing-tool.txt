@@ -1,5 +1,7 @@
 Exhibit (part of the SIMILE Project) is a lightweight, structured-data publishing framework that allows developers to create web pages with support for sorting, filtering and rich visualizations. Oriented towards semantic web-type problems, Exhibit can be implemented by writing rich data out to HTML then configuring some CSS and JavaScript code.
 
 Overview
+
 Technically, exhibit is a collection of JavaScript files to be included in a web page. When Exhibit pages are loaded by a web browser, the JavaScript reads in one or more JSON data files and builds a local database in the memory of the machine running the browser. Data can then be filtered and sorted directly in the browser without having to re-query the server. The design of the Exhibit is optimized for browsing faceted data.
+
 The Exhibit code base is currently being developed by members of the SIMILE Project at MIT.

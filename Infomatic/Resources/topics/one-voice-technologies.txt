@@ -1,21 +1,30 @@
 One Voice Technologies was an Artificial Intelligence (AI) based Natural Language Processing (NLP) company founded in 1998 and based in San Diego, CA. One Voice was the developer of IVAN (Intelligent Voice Animated Navigator), an intelligent personal assistant, which commercially launched in 1999 (see Forbes article November, 1999). Some of the customers for One Voice Technologies are Telefonos de Mexico, S.A.B. de C.V. (TELMEX), Intel Corporation, the Government of India, Fry's Electronics, Inland Cellular, and Nex-Tec Wireless.
+
 One Voice launched several intelligent voice based solutions for the PC, telecom, embedded and home control sectors. One Voice's patent portfolio for natural language processing has been referenced by Google, Microsoft and IBM among others. In 2010, One Voice's patent portfolio was acquired by Apple, Inc.
 
 Intelligent Personal Assistant
+
 One Voice is credited for launching the software industry's first Intelligent Personal Assistant (IPA) in 1999 when they officially released IVAN.  IVAN was an AI based personal assistant that allowed users to use conversational voice to find information on the Internet, including weather, news, sports scores, financial information and to purchase items from online retailers.  IVAN was the predecessor to several of today's IPA's, including Siri, Alexa, Google Now and Cortana.  One Voice's patent portfolio, which powered IVAN, was acquired by Apple in 2010, prior to Apple's launch of Siri and is referenced in patents ranging from Google, Microsoft, IBM, Nuance and Stanford University.
+
 In November 1999, One Voice launched IVAN at Startup Alley in COMDEX/99.
+
 "Imagine the possibilities of taking visual Web content and creating a talking, interactive experience for millions of Internet users worldwide. The possibilities for enhancing e-commerce and the Web experience are tremendous," explained Dean Weber, One Voice's chairman and chief executive officer, at the company's booth at the opening of COMDEX/Fall 99. "IVAN and VoiceSite will humanize the entire computer and Internet experience." - November 15, 1999.
 
 Voice Commerce (vCommerce)
+
 One Voice was an early pioneer in the field of Voice Commerce launching services with major online retail brands, including Autobytel.com,  FTD.com and Monster.com  Utilizing One Voice's platform, retailers can create dynamic voice conversations with users to help find products easier with conversational voice input.  By browsing to a site, users can engage in a voice conversation and ask questions, such as, "I want to order flowers for Mother's Day" or "I'm looking to buy a used Mustang convertible".
+
 One Voice launched Voicesite, its Voice Commerce platform in 2001.
 
 Voice Gaming
+
 In 2002, One Voice was selected by Warner Home Video Archived 2016-08-07 at the Wayback Machine to create the movie industry's first voice interactive DVD special features for worldwide distribution on all Harry Potter and the Sorcerer's Stone.  Subsequently, in
 "One Voice is a groundbreaking technology that gives viewers the chance to have an interactive experience with Harry Potter and the Sorcerer's Stone," said Thomas F. Lesinski, Warner Bros. Home Video Executive Vice President and General Manager, United States. "This outstanding special feature - in which viewers can use their own voices to navigate through the DVD-ROM activities - is truly representative of the unparalleled home video experience that is DVD." - April 1, 2002.
 
 Timeline
+
 1999, launched the first intelligent personal assistant called IVAN
+
 2001, launched voice commerce solutions with Autobytel.com, FTD.com and Monster.com
 2002, US patents issued covering speech recognition and natural language processing: 6,434,524 and 6,499,013
 2002, launched voice interactive DVD special features with Warner Home Video for all Harry Potter and the Sorcerer's Stone DVDs sold worldwide Archived 2016-08-07 at the Wayback Machine
@@ -24,11 +33,14 @@ Timeline
 2004, launched MobileVoice telecom services with Golden State Cellular, West Central Wireless and Inland Cellular
 2004, awarded speech recognition and natural language processing patents in China and Europe
 2004, launched connected home control by voice with Media Center Communicator
+
 2005, launched industry's first voice controlled TV remote control for voice search, control and phone calling
 2006, awarded telecom contract for voice services with Teléfonos de México, S.A. de C.V. (TELMEX) to millions of subscribers throughout Latin America
 2007, awarded telecom contract for voice solutions by the government of India
+
 2008, launched Say2Play, voice controlled gaming for World of Warcraft, Unreal Tournament III, Command & Conquer, Call of Duty and Warhammer
 2008, selected by Disney to showcase voice controlled connected home at Epcot's House of Innoventions
 2008 launched MobileVoice telecom services with Mohave Wireless
+
 2009, launched voice services with Mahangar Telephone Nigam Ltd. (MTNL) to millions of subscribers in India
 2010, sold patent portfolio to Apple for AI based intelligent personal assistant technology

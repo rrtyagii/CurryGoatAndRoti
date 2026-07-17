@@ -11,4 +11,5 @@ Compatible with popular machine learning libraries such as TensorFlow, PyTorch, 
 
 Limitations
 Idle timeouts and session limits
+
 Limited access to high-performance hardware without a paid subscription

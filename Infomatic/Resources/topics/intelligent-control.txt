@@ -1,6 +1,7 @@
 Intelligent control is a class of control techniques that use various artificial intelligence computing approaches like neural networks, Bayesian probability, fuzzy logic, machine learning, reinforcement learning, evolutionary computation and genetic algorithms.
 
 Overview
+
 Intelligent control can be divided into the following major sub-domains:
 
 Neural network control
@@ -18,9 +19,12 @@ Neural networks have been used to solve problems in almost all spheres of scienc
 
 System identification
 Control
+
 It has been shown that a feedforward network with nonlinear, continuous and differentiable activation functions have universal approximation capability. Recurrent networks have also been used for system identification. Given, a set of input-output data pairs, system identification aims to form a mapping among these data pairs. Such a network is supposed to capture the dynamics of a system. For the control part, deep reinforcement learning has shown its ability to control complex systems.
 
 Bayesian controllers
+
 Bayesian probability has produced a number of algorithms that are in common use in many advanced control systems, serving as state space  estimators of some variables that are used in the controller.
+
 The Kalman filter and the Particle filter are two examples of popular Bayesian control components. The Bayesian approach to controller design often requires an important effort in deriving the so-called system model and measurement model, which are the mathematical relationships linking the state variables to the sensor measurements available in the controlled system. In this respect, it is very closely linked to the
 system-theoretic approach to control design.

@@ -1,16 +1,24 @@
 In the digital humanities, "algorithmic culture" is part of an emerging synthesis of rigorous software algorithm-driven design that couples software and highly structured data-driven design with human-oriented sociocultural attributes. An early occurrence of the term is found in Alexander R. Galloway's classic Gaming: Essays on Algorithmic Culture.
+
 Other definitions include Ted Striphas' work, where algorithmic culture refers to the ways in which the logic of big data and large-scale computation (including algorithms) alters how culture is practiced, experienced, and understood. Another perspective is offered by Diggit Magazine, which describes algorithmic culture as the influence of computational processes on cultural practices.
 
 A starting point for modern discussion of culture is attributed to Edward Burnett Tylor in his 1871 works on primitive culture.
+
 The emergence and continuing development and convergence of computers, software, algorithms, human psychology, digital marketing and other computational technologies resulted in numerous AC variants including recommendation algorithms, AI generated stories and characters, digital assets (including creative NFTs, all of which can and should be considered as algorithmic culture artifacts. A similar process is occurring in strictly sociological interactions.
 
 Contemporary scholarship
+
 Recent research further expands the concept of algorithmic culture by emphasising how cultural participation is shaped by algorithmic systems across social media platforms. Gillespie (2014) argues that algorithms act as “gatekeepers of visibility”, determining which ideas, identities, and cultural practices become amplified or obscured.
+
 Bucher (2018) similarly highlights that recommendations and filtered feeds produce new forms of affective governance, as users come to understand themselves through what platforms choose to show them.
+
 Van Dijck, Poell, and De Waal (2018) add that algorithmic culture plays a central role in “platform society”, where public values and cultural practices are increasingly mediated through commercial data infrastructures.
+
 Together, this scholarship highlights that algorithmic culture is not only about automated decision-making, but also about how platforms reorganise cultural production, user behaviour, and everyday meaning-making.
 
 Algorithmic Culture and ChatGPT
+
 With the flourishing of LLMs, and particularly ChatGPT, algorithmic culture is increasingly visible within the academic mainstream. Jill Walker Rettberg at the University of Bergenis exploration applications of in her works. Some of the examples she uses are: How to use ChatGPT to get past writer's block, and examining society's biases and cliches
 Generative AI, is a now prominent and fast evolving component of modern algorithmic culture. It is currently entering a period of accelerating growth, acceptance and use, with specific algorithms and tools including Midjourney DALL-E and Stable Diffusion.
+
 ChatGPT Plus, GPT-4 are increasing their sophistication in composing music, writing teleplays, fairy tales, stories, and poems. With user prompting also facilitating character specific speaking and writing styles. NovelAI, for example,  is an online AI-assisted story writer.

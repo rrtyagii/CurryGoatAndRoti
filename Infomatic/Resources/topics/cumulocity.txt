@@ -1,16 +1,23 @@
 Cumulocity GmbH is a German software company headquartered in Düsseldorf, Germany. It develops the Cumulocity software as a service, primarily for industrial Internet of Things (IIoT) applications.
 
 History
+
 Cumulocity GmbH was founded in 2012 as a spin-off from Nokia Siemens Networks. In 2017, Software AG acquired the company. In January 2025, the management team completed a management buyout to reacquire the company, backed by private equity firms Schroders Capital, Verso Capital, and Avedon.
 
 Products
+
 Cumulocity is a software as a service (SaaS) industrial Internet of Things (IIoT) platform. It has developed products for device connectivity, data management, and application development on cloud, on-premises, edge, and hybrid environments. It supports streaming analytics via the Apama engine.
+
 The platform supports connectivity with standard IIoT protocols, including MQTT, OMA LWM2M, LPWAN, OPC Unified Architecture, Modbus, and CAN bus. Remote and bulk IoT device management functions include provisioning, configuration, monitoring, and software or firmware updates for device fleets.
+
 For edge computing, Cumulocity contributes to the open-source project thin-edge.io and provides its own product Cumulocity Edge.
+
 Cumulocity has adapted an AIoT (Artificial Intelligence of Things) platform strategy that powers the smart connected product and manufacturing revolution as part of the emergence of Industrial AI. With the adaption of the AIoT strategy Cumulocity has introduced an end to end "Data OPS" offering which transforms and enriches raw industrial data (e.g. PLC, machine or process data) into AI-ready to use data. This approach follows the Medaillon Architecture which is a data design pattern used to logically organize data in a Lakehouse, with the goal of incrementally and progressively improve the structure and quality of data as it flows through each layer of the architecture (from Bronze ⇒ Silver ⇒ Gold layer tables).
 
 Industry recognition
+
 Cumulocity has been recognized by multiple organizations and rankings:
 
 From 2021 to 2025, Gartner’s Magic Quadrant for Global Industrial IoT Platforms positioned Cumulocity in the Leader quadrant annually.
+
 In Q3 2019, Forrester Research identified Cumulocity as a Leader in The Forrester Wave™: Industrial IoT Software Platforms.

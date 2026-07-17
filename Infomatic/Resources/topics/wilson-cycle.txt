@@ -1,20 +1,28 @@
 The Wilson Cycle is a model that describes the opening and closing of ocean basins and the subduction and divergence of tectonic plates during the assembly and disassembly of supercontinents. A classic example of the Wilson Cycle is the opening and closing of the Atlantic Ocean. It has been suggested that Wilson cycles on Earth started about 3 Ga in the Archean Eon. The Wilson Cycle model was a key development in the theory of plate tectonics during the Plate Tectonics Revolution.
 
 History
+
 The model is named after John Tuzo Wilson in recognition of his iconic observation that the present-day Atlantic Ocean appears along a former suture zone and his development in a classic 1968 paper of what was later named the "Wilson cycle" in 1975 by Kevin C. A. Burke, a colleague and friend of Wilson.
 
 Theory
+
 The Wilson cycle theory is based upon the idea of an ongoing cycle of ocean closure, continental collision, and a formation of new ocean on the former suture zone. The Wilson Cycle can be described in six phases of tectonic plate motion: the separation of a continent (continental rift), formation of a young ocean at the seafloor, formation of ocean basins during continental drift, initiation of subduction, closure of ocean basins due to oceanic lithospheric subduction, and finally, collision of two continents and closure of the ocean basins. The first three stages (Embryonic, Young, Mature) describe the widening of the ocean and the last three stages (Declining, Terminal, and Relic Scar/Geosuture) describe the closing of the ocean and creation of mountain ranges like the Himalayas.
+
 In the 21st century, insights from seismic imaging and other techniques have led to updates to the Wilson Cycle to include relationships between activation of rifting and mantle plumes. Plume-induced rifting and rifting-induced mantle upwelling can explain the high correlation of ages of large igneous provinces and the break-up age for these margins.
 
 Atlantic Ocean Example
+
 A case study of the Wilson Cycle can be seen with the development of the Atlantic Ocean. Various parts of the modern day Atlantic Ocean opened at different times over the Mesozoic to Cenozoic periods following the Wilson Cycle. Seafloor spreading in the central Atlantic Ocean likely occurred around 134-126 Ma on Pan-African Orogenic and Rheic sutures. South Atlantic Ocean seafloor spreading began along the Congo-Sao Francisco Craton around 112 Ma. Following the North Atlantic Igneous Province eruptions around 55 Ma, the northern Atlantic passive margins rifted to their present state.
+
 From the case of the Atlantic Ocean, Wilson Cycle plate margins can broadly be described as having the following attributes:
 
 Former collision zones, young, and old sutures are where continental break-up can most readily occur;
 Oceanic transfer faults, which can reactivate young and old sutures;
+
 Large igneous provinces, which do not always lead to continental break-up.
 
 Supercontinent cycle
+
 A Wilson cycle is distinct from the supercontinent cycle, which is the break-up of one supercontinent and the development of another and takes place on a global scale. The Wilson cycle rarely synchronizes with the timing of a supercontinent cycle. However, both supercontinent cycles and Wilson cycles were involved in the formation of Pangaea and of Rodinia.
+
 The 50-year retrospective in the Geological Society of London Special Paper 470 provides an excellent nuanced view of how these concepts fit together. They conclude, "Whether it is termed the Wilson Cycle, or the more encompassing Supercontinent Cycle, the tectonic episodicity identified by Tuzo Wilson in his 1966 paper defines a fundamental aspect of Earth's tectonic, climatic and biogeochemical evolution over much of its history."

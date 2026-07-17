@@ -1,15 +1,19 @@
 DreadClub: Vampire's Verdict is a 2024 American animated film directed by Hooroo Jackson. It is the first AI animated feature film and the first AI anime feature film. It premiered on July 3, 2024 and was released on July 26, 2024 on Prime Video, receiving a Blu-ray release on August 31, 2024.
 
 Premise
+
 Sophomore Betty Gray's romance with Duchamps De Ve, the leader of the banned occult group Dread Club, spirals out of control when a rival from his past accuses him of being a vampire. As Duchamps fights to clear his name in court, Betty must race to prove his innocence, while facing an onslaught of hate from those who brand him as a monster.
 
 Production
+
 The film was made entirely by Jackson, directing the film for $405 between February and July 2024 using only AI technology for sound, music, performances, imagery and animation. It also includes experiments with AI editing.
 
 Release
+
 Following its July 26, 2024 release, DreadClub: Vampire's Verdict won Best Animated Film at the Kraken International Film Festival and Best Director at the Miami Street International Film Festival. It was also featured at the AI Film Awards in Venice and the Burano Film Festival.
 
 Book release
+
 Jackson documented the entire production in Artificial Imagination: The Making of "DreadClub" (2024). The book presents his complete LLM dialogues across the six-month production of DreadClub.
 
 Reception

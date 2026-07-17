@@ -1,36 +1,55 @@
 Cynthia Solomon is an American computer scientist known for her work in popularizing computer science for students. She is an innovator in the fields of computer science and educational computing. While working as a researcher at Massachusetts Institute of Technology (MIT), Solomon took it upon herself to understand and program in the programming language Lisp. As she began learning this language, she realized the need for a programming language that was more accessible and understandable for children.
+
 Throughout her research studies in education, Solomon worked full-time as a computer teacher in elementary and secondary schools. Her work has mainly focused on research on human-computer interaction and children as designers. While working at Bolt, Beranek and Newman, she worked with Wally Feurzeig and Seymour Papert, to create the first programming language for children, named Logo. The language was created to teach concepts of programming related to Lisp.
+
 Solomon has been active in a number of public and private organizations. She was vice president of R&D for Logo Computer Systems, Inc., when the Apple Logo product was developed. She was also the Director of the Atari Cambridge Research Laboratory. Solomon later worked on the program committee of Constructing Modern Knowledge and the Marvin Minsky Institute for Artificial Intelligence in 2016.
+
 Solomon has published a range of books and articles based on original research in the fields of child education and technology use in the classroom. She has conducted workshops in elementary schools, high schools, and colleges regarding academic research and writing. Solomon continues to contribute to the field by speaking at conferences and working with the One Laptop per Child Foundation.
 
 Education
+
 Solomon received her Bachelor of Arts (B.A.) in history at Radcliffe College in the early 1960s. Subsequently, she studied at Boston University where she received her Master of Science (M.S.) in computer science in 1976. She then received her Doctor of Philosophy (PhD) in education at Harvard University in 1985. Intermittently while completing her schooling, Solomon worked for several years as a researcher with Marvin Minsky and Seymour Papert at MIT and later at Bolt, Beranek and Newman.
 
 Accomplishments
+
 After receiving her B.A. at Radcliffe College, Solomon taught at Milton Academy in Milton, Massachusetts for seven years. She also became the Technology Integration Coordinator at Monsignor Haddad Middle School in Needham, Massachusetts. Then, in the 1980s, Massachusetts Institute of Technology hired Solomon to lead the Atari Cambridge Research Laboratory due to her success in developing Logo. Solomon maintained a long relationship working with the MIT Media Lab and the One Laptop per Child Foundation. Solomon is still a leading worker for the foundation and directed the creation of educational materials for it. She continued teaching, consulting, and her scholarship while working with several esteemed research labs and foundations.
 
 Logo, children's programming language
+
 Together with Seymour Papert and Wally Feurzeig, Cynthia designed the Logo computer programming language in 1967. This language was for children to experiment with words, solve math problems, make-up stories, and create their own games. Logo is widely known for its use of turtle graphics, in which commands for movement and drawing produced line graphics, either on screen or with a small robot called a turtle. In the 1970s, a new development of Logo was introduced allowing the program to be viewed in multiple colors. The language was created to teach concepts of programming related to Lisp, a functional programming language. Later, Logo also enabled what Papert called "body-syntonic reasoning", where students could understand, predict and reason about the turtle's motion by imagining what they would do if they were the turtle. There are substantial differences among the many dialects of Logo, and the situation is confused by the regular appearance of turtle graphics programs that call themselves Logo.
 
 Contributions to child education
+
 Solomon began to develop Logo after coming to the realization that children needed a programming language of their own. Solomon directed the creation of educational materials for the One Laptop per Child Foundation, and her doctoral research at Harvard led to the publication of the critical book, Computer Environments for Children: A Reflection on Theories of Learning and Education. This book explores the opportunities and challenges presented regarding having computers in learning environments. Focused specifically on elementary school mathematics, Solomon discusses the role of computers in innovative learning theories. Solomon is also the co-author of Designing Multimedia Environments for Children, with Allison Druin. Along with many other research projects and writings contributing to the knowledge of children's learning environments in conjunction with technology.
+
 Solomon's later work involved teaching using Snap! based jigsaw programming Turtlestich
 
 Writings
+
 Solomon, Cynthia (1986). Computer Environments for Children: A Reflection on Theories of Learning and Education.
+
 Twenty Things to Do with a Computer (1971). Papert, Seymour, and Solomon, Cynthia. http://dspace.mit.edu/handle/1721.1/5836
 Leading a Child to a Computer Culture. ACM SIGCUE Outlook. (1976). Solomon, Cynthia.
+
 Teaching young children to program in a LOGO turtle computer culture. ACM Sigcue Outlook (1978). Solomon, Cynthia.
 Solomon, Cynthia (1982). Apple II – Apple Logo: Reference Manual & Introduction to Programming Through Turtle Graphics.
 Logo Power (1984). Solomon, Cynthia.
+
 Solomon, Cynthia; Minsky, Margaret; Harvey, Brian (1985). LogoWorks: Challenging Programs in Logo.
+
 Designing educational computer environment for children. (1995). Druin, Allison & Solomon, Cynthia.
+
 Designing Multimedia Environments for Children (1996). Druin, Allison and Solomon, Cynthia.
+
 Inventive Minds, Marvin Minsky on Education (2009). Edited by Cynthia Solomon and Xiao Xiao
 Culture Audits: Supporting Organizational Success (2004). Solomon, Cynthia.
+
 Select a Performance Management System (Infoline ASTD) (2009). Solomon, Cynthia.
+
 The BBN-LISP System. 85. (1966). Bobrow, Daniel & L. Darley, D & L. Murphy, Daniel & Solomon, Cynthia & Teitelman, Warren.
+
 Designing multimedia environments for children (2018). Druin, Allison & Solomon, Cynthia.
 
 Honors
+
 In 2016, Solomon won the National Center for Women & Information Technology (NCWIT) Pioneer Award. Solomon received a Lifetime Achievement Award at Constructionism 2016. She introduced the Seymour Papert memorial lecture at CrossRoads 2018, and facilitated conversation about new uses for the program in education and to a new demographic of users.

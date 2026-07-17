@@ -1,6 +1,7 @@
 GoWarrior is an open-source and community-supported computing platform. GoWarrior is designed for new and experienced users to build electronics projects. It offers hardware, software and cloud service.
 
 TIGER Board
+
 TIGER Board is a single-board computer performs as hardware for GoWarrior platform. It contains ARM Cortex A9[3] based M3733-AFAAA (SoC), ARM Mali-400 MP2, as well as integrated 1 GB DDR3 RAM.
 
 Hardware specification
@@ -12,21 +13,27 @@ GoDroid is an Android KitKat 4.4.4. based optimized operating system for GoWarri
 
 Features
 Booting option
+
 GoDroid supports booting from NAND Flash or from MicroSD card that contains the boot code and image files.
 
 Multimedia
+
 By replacing Android native media engine StageFright with GStreamer and utilizing hardware acceleration facilities, GoDroid supports various audio/video/container hardware decoding and multiple network protocols including Microsoft Smooth Streaming, HTTP Live Streaming and KODI 14.2 has variety of supported video/audio plug-ins.
 
 Wireless display standards
+
 Besides the screen mirroring function of Android Miracast, GoDroid also implements DLNA system service for sharing digital media among multimedia devices. DMR, DMS and DMP are supported.
 
 Programming language
+
 In addition to C/C++/Java, GoDroid also integrates QPython2engine for Python 2 programming on Android.
 
 Inter-connection with other OSH platform
+
 TIGER Board provides 2 sets of 40-pin expansion headers, one of which is compatible to Raspberry Pi connector. Raspberry Pi Python applications can be ported and run on GoDroid.
 
 Integrated development environment
+
 GoDroid supports Android Studio as application IDE. With API level 19 configuration to match GoDroid provides the availability of not only original Android API, but also proprietary extended API, such as GPIO/IC2/SPI/PWM.
 
 Debugging
@@ -38,6 +45,7 @@ GoBian is developed based on Raspbian which is from Debian 7 wheezy armhf, and d
 
 Features
 Networking & remote access
+
 GoBian enables the Internet connection through Ethernet or Wi-Fi through the Ethernet port and Wi-Fi module on TIGER Board, and thus supports various methods to access the projects and transfer data, such as FTP, SSH.
 
 Timekeeping
@@ -50,6 +58,7 @@ Built-in programming environments
 C, C++, Python, Perl, and shell script.
 
 I/O interfaces
+
 GoBian lets you call the GPIO/I2C/UART/SPI interfaces directly in your projects with the built-in RPi.gpio and other libraries.
 
 Multimedia
@@ -68,4 +77,5 @@ Multi-screen sharing
 GoBian integrates with DLNA to fully support the multimedia sharing and multi-screen interaction.
 
 CloudQ
+
 CloudQ provides back-end community support to users.

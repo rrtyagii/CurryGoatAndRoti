@@ -1,6 +1,9 @@
 Veveo is a software company based in Andover, Massachusetts.
+
 Established in 2004, Veveo has collaborated with various firms including Comcast, Cablevision, Rogers, AT&T, DirecTV, and Nokia. The venture-backed company is headquartered in Andover, Massachusetts, and possesses an intellectual property portfolio consisting of fifty issued or allowed patents along with 80 patent applications.
+
 On February 25, 2014, Veveo was acquired by Rovi Corporation.
 
 Conversational interfaces
+
 Veveo's developments in natural language processing and understanding-enabled dialog-based real-time conversational interfaces were introduced in late 2012. These interfaces allowed connected devices and applications to be used with conversational intelligence applied to voice interfaces. This allowed users to talk to devices with normal language and have devices respond with natural language responses.

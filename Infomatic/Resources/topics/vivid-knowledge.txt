@@ -3,9 +3,11 @@ The idea of a vivid knowledge base is to get an interpretation mostly straightfo
 
 Propositional knowledge base
 A propositional knowledge base KB is vivid iff KB is a complete and consistent set of literals (over some vocabulary).
+
 Such a knowledge base has the property that it as exactly one interpretation, i.e. the interpretation is unique. A check for entailment of a sentence can simply be broken down into its literals and those can be answered by a simple database-like check of KB.
 
 First-order knowledge base
+
 A first-order knowledge base KB is vivid iff for some finite set of positive function-free ground literals KB+,
 
 KB = KB+ ∪ Negations ∪ DomainClosure ∪ UniqueNames,

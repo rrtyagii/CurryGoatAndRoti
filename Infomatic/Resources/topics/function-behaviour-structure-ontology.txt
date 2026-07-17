@@ -1,44 +1,67 @@
 The Function-Behaviour-Structure ontology – or short, the FBS ontology – is an ontology of design objects, i.e. things that have been or can be designed. The Function-Behaviour-Structure ontology conceptualizes design objects in three ontological categories: function (F), behaviour (B), and structure (S). The FBS ontology has been used in design science as a basis for modelling the process of designing as a set of distinct activities. This article relates to the concepts and models proposed by John S. Gero and his collaborators. Similar ideas have been developed independently by other researchers.
 
 Overview
+
 The ontological categories composing the Function-Behaviour-Structure ontology are defined as follows:
 
 Function (F): the teleology (purpose) of the design object, i.e.“what the object is for". For example, the functions of a turbocharger include increasing the power output of an engine, providing reliability, and providing affordability.
+
 Behaviour (B): the attributes that can be derived from the design object’s structure, i.e.“what the object does".For example, the behaviour of a turbocharger includes attributes such as air mass flow, efficiency ratio, thermal strength, and weight.
+
 Structure (S): the components of the design object and their relationships., i.e.“what the object consists of”. In the turbocharger example, structure includes the turbocharger components (compressor, turbine, shaft, etc.) and their spatial dimensions, interconnections and materials.
+
 The three ontological categories are interconnected: Function is connected with behaviour, and behaviour is connected with structure. There is no connection between function and structure.
 
 Ontological Models of Designing
+
 The Function-Behaviour-Structure ontology is the basis for two frameworks of designing: the FBS framework, and its extension, the situated FBS framework. They represent the process of designing as transformations between function, behaviour and structure, and subclasses thereof.
 
 The Function-Behaviour-Structure Framework
+
 The original version of the FBS framework was published by John S. Gero in 1990. It applies the FBS ontology to the process of designing, by further articulating the three ontological categories. In this articulation, behaviour (B) is specialised into expected behaviour (Be) (the "desired" behaviour) and behaviour derived from structure (Bs) (the "actual" behaviour). In addition, two further notions are introduced on top of the existing ontological categories: requirements (R) that represent intentions from the client that come from outside the designer, and description (D) that represents a depiction of the design created by the designer. Based on these articulations, the FBS framework proposes eight processes claimed as fundamental in designing, specifically:
 
 Formulation: formulates the problem space, by transforming requirements into a function state space (R → F), and transforming functions into a behaviour state space (F → Be).
+
 Synthesis: generates structure based on expectations of the behaviour state space (Be → S).
+
 Analysis: derives behaviour from the generated structure (S → Bs).
+
 Evaluation: compares expected behaviour with the behaviour derived from structure (Be ↔ Bs).
+
 Documentation: produces descriptions of the design based on structure (S → D).
+
 Reformulation type 1: modifies the structure state space, based on a re-interpretation of structure (S → S’).
+
 Reformulation type 2: modifies the behaviour state space, based on a re-interpretation of structure (S → Be’).
+
 Reformulation type 3: modifies the function state space, based on a re-interpretation of structure and subsequent reformulation of expected behaviour (S → F’ via Be).
 
 Example
+
 The eight fundamental processes in the FBS framework are illustrated using a turbocharger design process.
 
 Formulation: External requirements (R) for a turbocharger are interpreted by the designer as functions (F) including to increase the power output of an engine. A set of behaviours (Be) is then produced that are expected to achieve this function. They include the air mass flow and efficiency ratios for a range of engine speeds.
+
 Synthesis: Based on the expected behaviours (Be), a structure (S) is produced that includes components such as a compressor, a turbine, a core assembly, a shaft, and their interconnections. It also includes their geometry and materials.
+
 Analysis: After the structure (S) is produced, the "actual" behaviours (Bs) can be derived based on that structure. This may include the physical testing of prototypes (e.g. for measuring air mass flow), and computational simulations (e.g. for calculating thermal behaviours).
+
 Evaluation: The "actual" behaviours (Bs) of the turbocharger are compared against the expected behaviours (Be), to assess whether the current turbocharger design performs as required.
+
 Documentation: The turbocharger design is documented by generating a description (D), commonly a CAD model, based on the structure (S).
+
 Reformulation type 1: The designer modifies the space of possible design structures (S) by including a new component such as a variable sliding ring inside the turbine.
+
 Reformulation type 2: The designer modifies the space of expected behaviours (Be) by introducing a new control behaviour that allows varying the air mass flow. This is a consequence of introducing the variable sliding ring into the design structure (S).
+
 Reformulation type 3: The designer modifies the function space (F) by adapting it to serve the needs of an engine with increased exhaust temperature. This is based on the discovery of a high thermal strength (Be) of existing design materials (S).
 
 The Situated Function-Behaviour-Structure Framework
+
 The situated FBS framework was developed by John S. Gero and Udo Kannengiesser in 2000 as an extension of the FBS framework to explicitly capture the role of situated cognition or situatedness in designing.
 
 Situatedness
+
 The basic assumption underpinning the situated FBS framework is that designing involves interactions between three worlds: the external world, the interpreted world and the expected world. They are defined as follows:
 
 External world: contains things in the “outside” world (for example, in the physical environment of the designer)
@@ -52,26 +75,41 @@ Action: changes the external world according to the goals and hypotheses composi
 Constructive memory: produces memories as a result of re-interpreting past experiences. It is based on a constructivist model of human memory. in which new memories are generated by reflection
 
 Situatedness and FBS Combined
+
 The situated FBS framework is a result of merging the three-world model of situatedness with the original FBS framework, by specialising the ontological categories as follows:
 
 20 processes connect these specialised ontological categories. They elaborate and extend the eight fundamental processes in the FBS framework, providing more descriptive power with regards to the situatedness of designing.
 
 Formulation: generates a design state space in terms of a function state space (process 7 in the image showing the situated Function-Behaviour-Structure Framework), a behaviour state space (processes 8 and 10), and a structure state space (process 9). It is based on the interpretation of external requirements on function (process 1), behaviour (process 2), and structure (process 3), and on the construction of memories of function (process 4), behaviour (process 5), and structure (process 6).
+
 Synthesis: produces a design solution that is a point in the structure state space (process 11) and an external representation of that solution (process 12).
+
 Analysis: interprets the synthesised structure (process 13) and derives behaviour from that structure (process 14).
+
 Evaluation: compares the expected behaviour with the interpreted behaviour (process 15).
+
 Documentation: produces an external representation of the design, which may be in terms of structure (process 12), behaviour (process 17) and function (process 18).
+
 Reformulation type 1: generates a new or modified structure state space (process 9). Potential drivers of this reformulation include processes 3, 6 and 13.
+
 Reformulation type 2: generates a new or modified behaviour state space (process 8). Potential drivers of this reformulation include processes 2, 5, 14 and 19.
+
 Reformulation type 3: generates a new or modified function state space (process 7). Potential drivers of this reformulation include processes 1, 4, 16 and 20.
 
 Applications
+
 The FBS ontology has been used as a basis for modelling designs (the results of designing) and design processes (the activities of designing) in a number of design disciplines, including engineering design, architecture, human-computer interface, human-robot interface, construction and software design. While the FBS ontology has been discussed in terms of its completeness, several research groups have extended it to fit the needs of their specific domains.
+
 It has also been used as a schema for coding and analysing behavioural studies of designers.
+
 Others have applied the FBS ontology to develop an ontology of systems. For this purpose, the three categories of concepts (i.e., Function, Behavior, Structure) are expanded to be six categories of concepts by adding the concepts of Context, Principle, State. As such, the FBS ontology becomes the FCBPSS ontology. In the FCBPSS ontology, the definition of Function and Structure remains the same as that in the FBS ontology. The concepts of Behavior, Context, Principle, and State are as follows.
 
 State (St): the property or characteristics of a system (subsystem, component) both temporally and intemporally.
+
 Behavior (B): the input (stimuli)– output (response) relationship
+
 Principle (P): the knowledge that governs the behaviour.
+
 Context (C): the condition and environment under which a function is played by a system.
+
 The six categories of concepts are related, especially the structure of a system is a foundation, followed by the state, behavior, and function. The principle aggregates states along with their underlying structure to the behavior of the structure.

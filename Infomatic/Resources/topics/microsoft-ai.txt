@@ -1,9 +1,15 @@
 Microsoft AI (MAI) is an American artificial intelligence (AI) research laboratory which serves as a division of Microsoft. It oversees consumer artificial intelligence products. The company is based at Microsoft's headquarters in Redmond, Washington with offices in New York City, London, Mountain View, Beijing, Suzhou, Hyderabad and Zurich.
 
 History
+
 MAI was founded in March 19, 2024, the company would oversee Microsoft Copilot and several other services previously developed by other teams such as Edge and Bing, it would also help provide resources and co-develop for the Microsoft 365 app. The company appointed DeepMind and Inflection AI co-founder Mustafa Suleyman as Executive Vice President (EVP) and CEO and hired fellow Inflection AI co-founder Karén Simonyan as Chief Scientist. Microsoft's previous artificial intelligence team was absorbed into the company, with its employees joining it.
+
 In April 7, 2024, MAI opened a AI hub in London, it would be led by Jordan Hoffmann which was previously worked at DeepMind, staff that worked on AI prior to MAI's founding would be moved to the new hub.
+
 On May 2025, following Skype's shutdown, GroupMe was moved under MAI and was integrated with Copilot.
+
 On June 30, 2025, MAI announced that they would be developing a tool called “Microsoft AI Diagnostic Orchestrator”, the company claims its four times more successful than human doctors at diagnosing complex ailments, the tool could be released on MAI's products in the future.
+
 On August 28, 2025, MAI announced its first in-house models for its products called MAI-Voice-1 and MAI-1-preview, the company's products has usually used OpenAI's models in the past and present. On October 13, 2025, MAI announced a new in-house text-to-image model called MAI-Image-1.
+
 On November 6, 2025, MAI announced the creation of a superintelligence division and team led by Mustafa Suleyman, with the vision for a humanist superintelligence with three main applications, which include serving as an AI companion that will help people learn, act, be productive, and feel supported, offering assistance in the healthcare industry, and creating “new scientific breakthroughs” in clean energy.

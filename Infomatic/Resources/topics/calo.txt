@@ -1,62 +1,106 @@
 CALO was an artificial intelligence project that attempted to integrate numerous AI technologies into a cognitive assistant. CALO is an acronym for "Cognitive Assistant that Learns and Organizes". The name was inspired by the Latin word "Calo" which means "soldier's servant". The project started in May 2003 and ran for five years, ending in 2008.
+
 The CALO effort has had many major spin-offs, most notably the Siri intelligent software assistant that is now part of the Apple iOS since iOS 5, delivered in several phones and tablets; Social Kinetics, a social application that learned personalized intervention and treatment strategies for chronic disease patients, sold to RedBrick Health; the Trapit project, which is a web scraper and news aggregator that makes intelligent selections of web content based on user preferences; Tempo AI, a smart calendar; Desti, a personalized travel guide; and Kuato Studios, a game development startup.
+
 CALO was funded by the Defense Advanced Research Projects Agency (DARPA) under its Personalized Assistant that Learns (PAL) program. DARPA's five-year contract brought together over 300 researchers from 25 of the top university and commercial research institutions, with the goal of building a new generation of cognitive assistants that can reason, learn from experience, be told what to do, explain what they are doing, reflect on their experience, and respond robustly to surprise. SRI International was the lead integrator responsible for coordinating the effort to produce an assistant that can live with and learn from its users, provide value to them, and then pass a yearly evaluation that measures how well the system has learned to do its job.
 
 Functions
+
 CALO assists its user with six high-level functions:
 
 Organizing and Prioritizing Information: As the user works with email, appointments, web pages, files, and so forth, CALO uses machine learning algorithms to build a queryable model of who works on which projects, what role they play, how important they are, how documents and deliverables are related to this, etc.
+
 Preparing Information Artifacts: CALO can help its user put together new documents such as PowerPoint presentations, leveraging learning about structure and content from previous documents accessed in the past.
+
 Mediating Human Communications: CALO provides assistance as its user interacts with other people, both in electronic forums (e.g. email) and in physical meetings.  If given access to participate in a meeting, CALO automatically generates a meeting transcript, tracks action item assignments, detects roles of participants, and so forth.  CALO can also put together a "PrepPak" for a meeting containing information to read ahead of time or have at your fingertips as the meeting progresses.
+
 Task Management: CALO can automate routine tasks for you (e.g. travel authorizations), and can be taught new procedures and tasks by observing and interacting with the user.
+
 Scheduling and Reasoning in Time:  CALO can learn your preferences for when you need things done by, and help you manage your busy schedule (PTIME published in ACM TIST).
+
 Resource allocation: As part of Task management, CALO can learn to acquire new resources (electronic services and real-world people) to help get a job done.
 
 Evaluation
+
 Every year, the CALO system, after living with its user for a period of time, is given an achievement-style test of 153 "administration assistant" questions, primarily focused on what it has learned about the user's life.  Evaluators measure how well CALO's performance on these questions improves year-over-year, and how much of CALO's performance is due to "learning in the wild" (new knowledge, tasks, and inferences it has been able to acquire on its own, as opposed to function or knowledge hard-wired into the system by a developer).
 
 Framework
+
 SRI International made a collection of successful machine learning and reasoning technologies developed in the PAL program, primarily from the CALO project, available online. The available technologies include both general-purpose learning methods along with more focused learning applications. The PAL software and related publications are available at the PAL Framework website.
+
 The PAL capabilities have been modularized, packaged, and adapted to industry standards to facilitate their incorporation into target applications. Various infrastructure components and APIs are available to simplify interaction with the technologies. PAL capabilities were integrated into the US Army's CPOF command and control system and fielded to Iraq in 2010.
+
 The available technologies were developed by research teams at SRI International, Carnegie Mellon University, the University of Massachusetts Amherst, the University of Rochester, the Institute for Human and Machine Cognition, Oregon State University, the University of Southern California, Xerox PARC and Stanford University.
 
 Selected publications
+
 In the first four years of the project, CALO-funded research has resulted in more than five hundred publications across all fields of artificial intelligence.  Here are several:
 
 Matthias Zimmermann; Yang Liu; Elizabeth Shriberg; Andreas Stolcke (2005-11-27). "A* based joint segmentation and classification of dialog acts in multiparty meetings". IEEE Workshop on Automatic Speech Recognition and Understanding, 2005. pp. 215–219. CiteSeerX 10.1.1.329.4676. doi:10.1109/ASRU.2005.1566537. ISBN 978-0-7803-9479-7.
+
 Melinda T. Gervasio; Michael D. Moffitt; Martha E. Pollack; Joseph M. Taylor; Tomas E. Uribe (2005). "Active Preference Learning for Personalized Calendar Scheduling Assistance". Proceedings of the 2005 International Conference on Intelligent User Interfaces.
 T. Duong; H. Bui; D. Phung; S. Vekatesh (2005). "Activity recognition and abnormality detection with the switching hidden semi-Markov model". IEEE International Conference on Computer Vision and Pattern Recognition.
 Rachel Greenstadt; Jonathan P. Pearce; Milind Tambe (2006). "Analysis of Privacy Loss in Distributed Constraint Optimization". The Twenty-First National Conference on Artificial Intelligence. AAAI.
+
 Nathan Schurr; Pradeep Varakantham; Emma Bowring; Milind Tambe; Barbara Grosz. "Asimovian Multiagents: Applying Laws of Robotics to Teams of Humans and Agents". Programming Multi-Agent-Systems: 4th International Workshop, ProMAS 2006. Springer.
+
 David Morley; Karen Myers (2004). "Balancing Formal and Practical Concerns in Agent Design". Proceedings of AAAI Workshop on Intelligent Agent Architectures: Combining the Strengths of Software Engineering and Cognitive Systems.
+
 Gideon S. Mann; David Mimno; Andrew McCallum (2006-06-11). "Bibliometric Impact Measures Leveraging Topic Analysis". JCDL '06: Proceedings of the 6th ACM/IEEE-CS joint conference on Digital libraries. Association for Computing Machinery.
+
 Karen Myers (July 2006). "Building an Intelligent Personal Assistant". AAAI Invited Talk.
+
 Edward C. Kaiser (2005-04-03). "Can Modeling Redundancy In Multimodal, Multi-party Tasks Support Dynamic Learning?". CHI 2005 Workshop: CHI Virtuality 2005.
+
 Vinay K. Chaudhri; Adam Cheyer; Richard Guili; Bill Jarrold; Karen Myers; John Niekarasz (2006). "A Case Study in Engineering a Knowledge Base for an Intelligent Personal Assistant". Technical Report.
+
 A Cognitive Framework for Delegation to an Assistive User Agent, K. Myers and N. Yorke-Smith. Proceedings of AAAI 2005 Fall Symposium on Mixed-Initiative Problem Solving Assistants, Arlington, VA, November 2005.
+
 Collective Multi-Label Classification, Nadia Ghamrawi and Andrew McCallum. CIKM'05, Bremen, Germany.
+
 Composition of Conditional Random Fields for Transfer Learning, Charles Sutton and Andrew McCallum. Proceedings of HLT/EMNLP, 2005.
+
 Deploying a Personalized Time Management Agent, P. Berry, K. Conley, M. Gervasio, B. Peintner, T. Uribe, and N. Yorke-Smith. Proceedings of the Fifth International Joint Conference on Autonomous Agents and Multi Agent Systems (AAMAS'06) Industrial Track, Hakodate, Japan, May 2006.
+
 Design and Implementation of the CALO Query Manager, Jose-Luis Ambite, Vinay K. Chaudhri, Richard Fikes, Jessica Jenkins, Sunil Mishra, Maria Muslea, Tomas Uribe, Guizhen Yang. Innovative Applications of Artificial Intelligence, July 2006.
+
 Fewer Clicks and Less Frustration: Reducing the Cost of Reaching the Right Folder, X. Bao, J.Herlocker, and T. Dietterich. 2006 International Conference on Intelligent User Interfaces. 178–185. Sydney, Australia.
+
 Group and Topic Discovery from Relations and Text, Xuerui Wang, Natasha Mohanty, and Andrew McCallum. LinkKDD2005 August 21, 2005, Chicago, Illinois, USA.
+
 Hierarchical Hidden Markov Models with General State Hierarchy, H. Bui, D. Phung, and S. Venkatesh. Proceedings of AAAI, 2004.
+
 A Hybrid Learning System for Recognizing User Tasks from Desktop Activities and Email Messages, J. Shen, L. Li, T. Dietterich, and J. Herlocker. 2006 International Conference on Intelligent User Interfaces, 86–92. Sydney, Australia.
+
 IRIS: Integrate. Relate. Infer. Share. Adam Cheyer, Jack Park, and Richard Giuli. Workshop on The Semantic Desktop - Next Generation Personal Information Management and Collaboration Infrastructure at the International Semantic Web Conference (ISWC2005). 6 November 2005, Galway, Ireland.
+
 More Than Words Can Say: Using Prosody to Find Sentence Boundaries in Speech, Y. Liu and E. Shriberg (2006). 4th ASA/ASJ Joint Meeting Lay Language Papers. Popular version of paper IaSC2, 4th ASA/ASJ Joint Meeting, Honolulu, HI.
+
 Multi-Conditional Learning: Generative/Discriminative Training for Clustering and Classification, Andrew McCallum, Chris Pal, Greg Druck, and Xuerui Wang. AAAI, 2006.
+
 Multi-Criteria Evaluation in User-Centric Distributed Scheduling Agents, P.M. Berry, M. Gervasio, B. Peintner, T. Uribe, and N. Yorke-Smith. AAAI Spring Symposium on Distributed Plan and Schedule Management, Mar 2006.
+
 Online Query Relaxation via Bayesian Causal Structures Discovery, Ion Muslea and Thomas J. Lee. Proceedings of the Twentieth National Conference on Artificial Intelligence (AAAI 2005), Pittsburgh, Pennsylvania, 2005.
+
 Populating the Semantic Web, Kristina Lerman, Cenk Gazen, Steven Minton, and Craig A. Knoblock. Proceedings of the AAAI 2004 Workshop on Advances in Text Extraction and Mining, 2004.
+
 A Portable Process Language, Peter E. Clark, David Morley, Vinay K. Chaudhri, and Karen L. Myers. In Workshop on the Role of Ontologies in Planning and Scheduling, Monterey, CA; June 7, 2005.
+
 A Probabilistic Model of Redundancy in Information Extraction, D. Downey, O. Etzioni, and S. Soderland.
 Recovery from Interruptions: Knowledge Workers? Strategies, Failures and Envisioned Solutions, Simone Stumpf, Margaret Burnett, Thomas G. Dietterich, Kevin Johnsrude, Jonathan Herlocker, and Vidya Rajaram.  Institution: Oregon State University Corvallis, OR
 Semi-Supervised Text Classification Using EM, Kamal Nigam, Andrew McCallum, and Tom M. Mitchell.
+
 Skeletons in the Parser: Using Shallow Parsing to Improve Deep Parsing, M. Swift, J. Allen, and D. Gildea.
+
 The SPARK Agent Framework, David Morley and, Karen Myers. Proceedings of the Third Int. Joint Conf. on Autonomous Agents and Multi-Agent Systems (AAMAS-04), New York, NY, pp. 712–719, July 2004.
+
 Speaker Overlaps and ASR Errors in Meetings: Effects Before, During, and After the Overlap, Ozgur Cetin and Elizabeth Shriberg. Proceedings of the IEEE ICASSP, Toulouse, 2006
 Task Management under Change and Uncertainty: Constraint Solving Experience with the CALO Project, P. Berry, K. Myers, T. Uribe, and N. Yorke-Smith. Proceedings of CP'05 Workshop on Constraint Solving under Change and Uncertainty, Sitges, Spain, October 2005.
+
 Temporal Planning with Preferences and Probabilities, R. Morris, P. Morris, Khatib, L. and N. Yorke-Smith. Proceedings of ICAPS'05 Workshop on Constraint Programming for Planning and Scheduling, Monterey, CA, June 2005.
+
 To Transfer or Not to Transfer, M. T. Rosenstein, Z. Marx, L. P. Kaelbling, and T. G. Dietterich. NIPS 2005 Workshop on Transfer Learning, Whistler, BC.
+
 Transfer Learning with an Ensemble of Background Tasks, Z. Marx, M. T. Rosenstein, L. P. Kaelbling, and T. G. Dietterich. NIPS 2005 Workshop on Transfer Learning, Whistler, BC.
+
 User Initiated Learning for Adaptive Interfaces, K. Judah, T. Dietterich, A. Fern, J. Irvine, M. Slater, P. Tadepalli, M. Gervasio, C. Ellwood, B. Jarrold, O. Brdiczka, J. Blythe. IJCAI Workshop on Intelligence and Interaction, Pasadena, CA. July 13, 2009.

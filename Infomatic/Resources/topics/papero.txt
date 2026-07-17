@@ -1,17 +1,29 @@
 The PaPeRo which stands for "Partner-type-Personal-Robot", is a personal robot developed by Japanese firm NEC Corporation. It is noted for its cute appearance and facial recognition system. The robot's development began in 1997 with the first prototype, the R100. The name PaPeRo was adopted in 2001.
+
 PaPeRo has been researched and developed with the intent for it to partner with human beings and live together with them. For this reason, it has various basic functions for the purpose of interacting with people.
+
 Since the original introduction of PaPeRo, there have been a few different versions, including a Childcare Version, 2003 and 2005 revised versions, and "PaPe-Jiro", a robotic comedian. In 2006, a virtual PaPeRo was released for use in any PC running the Windows operating system and the Pocket PC. The robot is programmable using a development environment known as "PaPeRo Creator".
+
 For PaPeRo to interact with people and perform autonomous actions, it must understand information on the conditions of, and outside, the location where it has been put. For this reason, various devices have been included to detect the outside area, such as a CCD camera, microphone, ultrasonic sensors, etc.
+
 In spring 2009, NEC introduced PaPeRo Mini, weighing half of the current PaPeRo model, with physical dimensions roughly half the size of the original.  The PaPeRo Petit was introduced in 2013, which is even smaller at 23 cm tall.  NEC plans to use this version to provide a service "that will allow family members living apart to watch over each other utilizing the robot and cloud computing technology."
 
 Specifications
+
 Height: 385 mm (15.2 in)
+
 Width: 282 mm (11.1 in)
+
 Depth: 251 mm (9.9 in)
+
 Weight: Approximately 6.5 kg (14 lb)
+
 Continuous operating time: 2 to 3 hours
+
 Battery charging time: 2 to 3 hours
+
 Source:
 
 Technology
+
 PaPeRo uses different technologies to interact with its environment. For example, Its "eyes" are really twin cameras with a face recognition system. When PaPeRo has nothing to do, it roams around looking for faces. Upon finding one, it will try to start a conversation. PaPeRo also has a speech recognition system. With a pair of sensitive microphones, it can determine exactly where a sound comes from and if the sound is human speech. The robot will then interpret the information and respond accordingly. While PaPeRo roams around, it uses an ultrasound system located in its chest to detect objects. If an object lies in its path, PaPeRo's ultrasound system will detect where exactly the object is, and then PaPeRo will decide what to do to avoid the object. PaPeRo also has other sensors located in its head, which can detect if the robot is patted, slapped, etc., with PaPeRo responding accordingly.

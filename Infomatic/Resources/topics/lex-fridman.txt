@@ -1,23 +1,36 @@
 Alexei "Lex" Fridman (; born 15 August 1983) is an American computer scientist and podcaster. Since 2018, he has hosted the Lex Fridman Podcast, where he interviews notable figures from various fields such as science, technology, sports, the arts, and politics.
+
 Fridman rose to prominence in 2019 after Elon Musk praised a study Fridman authored at MIT, which concluded that drivers remained focused while using Tesla's semi-autonomous driving system. The study was not peer-reviewed and was criticized by AI experts. That year Fridman transitioned to an unpaid role at MIT AgeLab, and since 2022 has worked as a research scientist at the MIT Laboratory for Information and Decision Systems (LIDS). As of February 2024, Fridman lives in Texas and is employed at MIT.
 
 Early life and education
+
 Fridman was born in Chkalovsk, Tajik Soviet Socialist Republic, and grew up in Moscow. He is Jewish. His father, Alexander Fridman, is a plasma physicist and professor at Drexel University. His brother Gregory was also a professor at Drexel.
+
 When he was about 11, soon after the collapse of the Soviet Union, Fridman's family moved from Russia to the Chicago area. He attended Neuqua Valley High School in Naperville, Illinois. He then went on to obtain B.S. and M.S. degrees in computer science at Drexel University in 2010, and completed his Ph.D. in electrical and computer engineering at Drexel in 2014. His doctoral dissertation, Learning of Identity from Behavioral Biometrics for Active Authentication, was completed under the advisement of engineering educators Moshe Kam and Steven Weber and sought to "investigate the problem of active authentication on desktop computers and mobile devices".
 
 Career
+
 MIT
+
 In 2014, he spent six months at Google continuing his dissertation work on the use of AI for identity authentication and participated in "deep learning efforts for large-scale behavior-based authentication". In 2015, he moved to MIT's AgeLab as a research scientist where he worked on "psychology and big-data analytics to understand driver behavior." At AgeLab, Fridman led a set of computer engineers in developing learning algorithms for semi-autonomous vehicles in collaboration with Toyota. In 2017, a paper co-authored by Fridman was among the recipients of a "Best Paper" award at the Conference on Human Factors in Computing Systems, a high ranking conference in the field of human–computer interaction.
+
 The following year another paper he co-authored would be among those given an "honorable mention". Fridman also guest lectured at his alma mater, Drexel.
+
 In 2019, Fridman published a non-peer-reviewed study about Tesla Autopilot finding that drivers using semi-autonomous vehicles stayed focused, contrasting with established research on how humans interact with automated systems. Following his Tesla Autopilot study, Fridman was flown to Tesla offices for an interview with Elon Musk. Fridman's study on Tesla Autopilot was criticized for its methodology and small sample size by Missy Cummings, a professor at Duke University and advisor for the National Highway Traffic Safety Administration, who described it as "deeply flawed". AI researcher Anima Anandkumar suggested Fridman should submit his study for peer review before seeking press coverage. Following the interview with Musk, viewings of his podcast episodes increased significantly. The study was later removed from MIT's website.
+
 Following the publication of the study, he left AgeLab and took up an unpaid role in MIT's Department of Aeronautics and Astronautics. As of 2022, he is a research scientist at the MIT Laboratory for Information and Decision Systems (LIDS). He remains in that position, and also conducts research for the Center for Complex Engineering Systems, a collaboration between MIT and King Abdulaziz City for Science and Technology (KACST).
 
 Lex Fridman Podcast
+
 Fridman began his podcast in 2018. It was originally titled The Artificial Intelligence Podcast, but changed to The Lex Fridman Podcast in 2020. In 2024, the Boston Globe reported that the podcast had attracted 3.6 million subscribers.
 
 Reception
+
 Julia Black of Business Insider noted that "Lior Pachter, a computational biologist [...], said some scientists and academics fear Fridman is contributing to the 'cacophony of misinformation'", while another anonymous AI researcher thought that Fridman may have "abandoned academic rigor in pursuit of fame". Black wrote, "His body of work seems to center on the idea that individuals can be trusted to use technology to become better versions of themselves." "Whether Fridman has the credentials or smarts to be this tech figurehead remains to be seen. But one thing's for certain: He has the support of some very powerful people."
+
 Among his colleagues at MIT, Physicist and Nobel laureate Frank Wilczek has complimented Fridman as an effective science communicator, stating that he is "helping people understand science" and is at a "higher intellectual level" than other journalists covering the topic. MIT LIDS director Sertac Karaman has commended Fridman for his ideas and research accomplishments.  On his interview style, MIT Professor Manolis Kellis holds “He’s a listener. He’s there to learn. He invites you as a fly on the wall to learn along with him. He’s not pushing an agenda or trying to seem smart.”
 Journalist Helen Lewis wrote in The Atlantic that Fridman "does not maintain even a thin veneer of journalistic detachment" from his interviewees and has interviewed personal friends such as Ivanka Trump and Jared Kushner. In a LinkedIn post, Fridman stated that he had spent Thanksgiving at their house in 2023, where he watched The Godfather with them. Lewis wrote that, in his 2024 interview with Donald Trump, Fridman allowed the presidential candidate to make false claims about the Arlington National Cemetery incident unchallenged, but defended Joe Rogan, a personal friend with whom he had recorded several podcasts together and in honor of whom he had written and sung a serenade, by saying that Trump had been mean to him.
+
 Nathan J. Robinson of Current Affairs wrote, "Fridman is not an idealogue [sic] and seems genuine in his desire to empathetically understand leftists (he has also interviewed Richard Wolff, Steve Keen, and Noam Chomsky) and to be fair to all sides, he has hosted a debate between 'skeptical environmentalist' Bjørn Lomborg and climate journalist Andrew Revkin. But as with [Joe] Rogan, it is hard to avoid noticing a certain lack of balance. There are far more right-leaning 'intellectual dark web' types than leftists [...]." Robinson added that "the Fridman podcast is an excellent way to see how the posture of neutrality actually fails to adequately challenge falsehoods and toxic beliefs."
+
 A 2023 article by Elizabeth Lopatto in The Verge stated that Fridman's podcast "has a following among the tech elite" as a "softball interviewer". Ben Samuel argued in another 2023 article in Haaretz that Fridman failed to challenge claims made on his podcast by Israeli prime minister Benjamin Netanyahu. Ellen Huet commented in a 2024 article published by Bloomberg that Fridman's podcast is seen by tech CEOs as a friendlier alternative to more adversarial interviews with traditional journalists.

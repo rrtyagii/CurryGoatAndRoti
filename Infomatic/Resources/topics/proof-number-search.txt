@@ -21,6 +21,8 @@ to expand is the following. We start at the root. Then, at each OR node the chil
 with the lowest proof number is selected as successor, and at each AND node the
 child with the lowest disproof number is selected as successor. Finally, when a
 leaf node is reached, it is expanded and its children are evaluated.
+
 The proof and disproof numbers represent lower bounds on the number of nodes to be evaluated to prove (or disprove) certain nodes. By always selecting the most proving (disproving) node to expand, an efficient search is generated.
+
 Some variants of proof number search like dfPN, PN2, PDS-PN have been developed to address the quite big memory
 requirements of the algorithm.

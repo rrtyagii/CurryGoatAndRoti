@@ -1,46 +1,68 @@
 Accelerando is a 2005 science fiction novel consisting of a series of interconnected short stories written by British author Charles Stross. As well as normal hardback and paperback editions, it was released as a free e-book under the CC BY-NC-ND license. Accelerando won the Locus Award in 2006, and was nominated for several other awards in 2005 and 2006, including the Hugo, Campbell, Clarke, and British Science Fiction Association Awards.
 
 Title
+
 In Italian, accelerando means "speeding up" and is used as a tempo marking in musical notation. In Stross' novel, it refers to the accelerating rate at which humanity in general, and/or the novel's characters, head towards the technological singularity.
 
 Plot introduction
+
 The book is a collection of nine short stories telling the tale of three generations of a family before, during, and after a technological singularity. It was originally written as a series of novelettes and novellas, all published in Asimov's Science Fiction magazine in the period 2001 to 2004. According to Stross, the initial inspiration for the stories was his experience working as a programmer for a high-growth company during the dot-com boom of the 1990s.
+
 The first three stories follow the character of agalmic "venture altruist" Manfred Macx, starting in the early 21st century; the next three stories follow his daughter Amber; and the final three focus largely on Amber's son Sirhan in the completely transformed world at the end of the century.
 
 Plot concepts
+
 Stross describes humanity's situation in Accelerando as dire:
 
 In the background of what looks like a Panglossian techno-optimist novel, horrible things are happening. Most of humanity is wiped out, then arbitrarily resurrected in mutilated form by the Vile Offspring. Capitalism eats everything then the logic of competition pushes it so far that merely human entities can no longer compete; we're a fat, slow-moving, tasty resource – like the dodo. Our narrative perspective, Aineko, is not a talking cat: it's a vastly superintelligent AI, coolly calculating, that has worked out that human beings are more easily manipulated if they think they're dealing with a furry toy. The cat body is a sock puppet wielded by an abusive monster.
 As events progress in Accelerando, the planets of the Solar System are dismantled over time to form a Matrioshka brain, a vast solar-powered computational device inhabited by minds inconceivably more advanced and complex than naturally evolved intelligences such as human beings. This proves to be a normal stage in the life-cycle of an inhabited solar system; the galaxies are revealed to be filled with such Matrioshka brains. Intelligent consciousnesses outside of Matrioshka brains may communicate via wormhole networks.
+
 The notion that the universe is dominated by a communications network of superintelligences bears comparison with Olaf Stapledon's 1937 science-fiction novel Star Maker, although Stapledon's advanced civilisations are said to communicate psychically rather than informatically.
 
 Characters
+
 Manfred Macx: Venture altruist, protagonist of the early stories.
+
 Aineko: Manfred's robotic, increasingly intelligent cat.
+
 The Lobsters: Sentient nervous-system state vectors originating from Panulirus interruptus, the California spiny lobster.
+
 Bob Franklin: Billionaire investor; originator of the Franklin Collective, a "borganism" composed of multiple bodies sharing the same mind.
+
 Annette Dimarcos: Arianespace employee; Manfred's second wife.
+
 Pamela: Manfred's partner, later first wife.
+
 Gianni Vittoria: Former Italian Minister for Economic Affairs, sometime Minister for Transhuman Affairs, economic theoretician.
+
 Amber Macx: Manfred and Pamela's daughter.
+
 Dr. Sadeq Khurasani: Muslim imam, engineer, Field Circus crewman.
+
 The Wunch: Predatory alien virtual constructs embedded in the wormhole router orbiting Hyundai.
+
 The Slug: Sentient alien corporation/economy/419 scam from the router.
+
 Sirhan al-Khurasani: Son of Amber and Sadeq's physical versions.
+
 Vile Offspring: Derogatory term for the posthuman "weakly godlike intelligences" that inhabit the inner Solar System by the novel's end.
 
 Plot summary and breakdown by story
+
 In the following table, the chapter number (#), chapter name and original magazine date of publication, and a brief synopsis are given. The nine stories are grouped into three parts.
 
 Allusions/references to contemporary science
 The novel contains numerous allusions to real-world scientific concepts and individuals, including:
 
 The lobster stomatogastric ganglion (STG)
+
 Rubberized concrete
+
 The Fermi paradox: Stross offers a solution to the paradox, claiming that the apparent lack of intelligent life in the universe is an illusion created by a shortage of bandwidth (see information theory).
 The Menger sponge
 The Austrian roboticist and futurist Hans Moravec, who is mentioned numerous times
 Quantum state vectors
+
 The nanoassembly conformational problem
 Ken Thompson's compiler hack
 Penrose tiling
@@ -66,23 +88,31 @@ The original short story "Halo" (June 2002) was shortlisted for:
 
 2003 Hugo Award for Best Novelette
 Theodore Sturgeon Award
+
 The original short story "Router" (September 2002) was shortlisted for:
 
 2003 BSFA Award
+
 The original short story "Nightfall" (April 2003) was shortlisted for:
 
 2004 Hugo Award for Best Novelette
+
 The original short story "Elector" (September 2004) was shortlisted for:
 
 2005 Hugo Award for Best Novella
 
 Release details
+
 Ace (US), hardcover, July 2005, ISBN 0-441-01284-1
+
 Ace (US), paperback, July 2006, ISBN 0-441-01415-1
+
 Orbit (UK), hardcover, August 2005, ISBN 1-84149-390-2
+
 Orbit, UK, paperback, June 2006, ISBN 1-84149-389-9
 
 Online versions
+
 The original short story Elector (September 2004) is available at Asimov's Science Fiction.
 A searchable SiSU version of the complete novel is available in multiple formats.
 A ManyBooks version with format selection is also available.

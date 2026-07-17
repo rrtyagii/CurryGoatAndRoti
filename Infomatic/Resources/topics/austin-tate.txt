@@ -1,21 +1,30 @@
 Austin Tate is Emeritus Professor of Knowledge-based systems in the School of Informatics at the University of Edinburgh.  From 1985 to 2019 he was Director of AIAI (Artificial Intelligence Applications Institute) in the School of Informatics at the University of Edinburgh.
+
 He is known for his contributions to AI Planning, applications of Artificial Intelligence, and work on collaborative systems in Virtual Worlds.
 
 Early life and education
+
 Tate was born 12 May 1951, Knottingley, West Yorkshire, UK. He completed his  B.A. (Hons) Computer Studies, Lancaster University, 1969-1972. He completed his postgraduate study in Machine Intelligence at University of Edinburgh, supervised by Donald Michie, 1972-1975 and a Master of Science degree in e-Learning at the University of Edinburgh, 2011-2012.
 
 Research and career
 Tate's research interests are in Artificial intelligence.
 
 Selected publications
+
 Tate, A. (1977) Generating Project Networks, Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI-77), pp. 888–893, Cambridge, MA, USA, Morgan Kaufmann.
+
 Currie, K.; Tate, A. (1991). "O-Plan: The open planning architecture". Artificial Intelligence. 52: 49–86. CiteSeerX 10.1.1.26.2844. doi:10.1016/0004-3702(91)90024-E. S2CID 943552.
+
 Tate, A., Levine, J., Dalton, J. and Nixon, A. (2003) Task Achieving Agents on the World Wide Web, in "Spinning the Semantic Web" (Fensel, D., Hendler, J., Liebermann, H. and Wahlster, W.), Chapter 15, pp. 431–458, MIT Press, 2003.
+
 Tate, A. (2006). "The "Helpful Environment": Geographically Dispersed Intelligent Agents That Collaborate". IEEE Intelligent Systems. 21 (3): 57–61. CiteSeerX 10.1.1.62.8806. doi:10.1109/MIS.2006.61. S2CID 25195858.
+
 Tate, A.; Chen-Burger, Y. H.; Dalton, J.; Potter, S.; Richardson, D.; Stader, J.; Wickler, G.; Bankier, I.; Walton, C.; Williams, P. (2010). "I-Room: A Virtual Space for Intelligent Interaction" (PDF). IEEE Intelligent Systems. 25 (4): 62–71. doi:10.1109/MIS.2010.5. hdl:20.500.11820/031ec5f0-40f6-45c6-a7f6-a0a4ebe12b7c. S2CID 6699929.
+
 Other Publications: O-Plan Papers, I-X Papers
 
 Honours and awards
+
 Tate's awards and honours include:
 
 1993 – Elected AAAI Fellow
@@ -27,4 +36,5 @@ Tate's awards and honours include:
 2012 – Elected a Fellow of the Royal Academy of Engineering (FREng)
 
 Personal life
+
 He was married in 1975 to Margaret (née Mowbray) at Knottingley, West Yorkshire, England.

@@ -1,9 +1,13 @@
 VGZ files are compressed video files that use Chateau Technical's proprietary H.264 codec. They are usually found in security camera DVRs.
+
 There is an embedded timestamp that is security coded. The VG player software allows the user to convert to AVI format, but will lose the overlaid timestamp when they do this.
 
 VG Player
+
 VG Player for Win2000/XP is a player used to play back video recorded by the DigitalVDO recorder. The video files are compressed using Super Motion Image Compression Technology (SMICT).
+
 The VG Player can be used to play back video, enhance the video quality, make video clips and take snapshots.
+
 The VG Player also has an image format converter tool to convert the SMICT format to AVI format.
 The users must be careful when using it as compression ratio is very high – 1 Mb .vgz may be over 400 Mb uncompressed.
 Converting vgz files to AVI is considered to be unpractical as the time code on the original video is security protected and will deliberately not appear on converted video. Otherwise converted AVI could be opened in a video editor where all sorts of tricks could be performed. The original vgz file is needed for evidence.

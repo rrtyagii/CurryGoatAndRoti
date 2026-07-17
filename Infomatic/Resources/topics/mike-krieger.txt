@@ -1,16 +1,25 @@
 Michel Krieger (born March 4, 1986) is a Brazilian entrepreneur and software engineer who co-founded Instagram in 2010 with Kevin Systrom, and served as its chief technology officer (CTO) until 2018. During Krieger's tenure as CTO, Instagram's user base expanded from a few million to 1 billion monthly active users. After that, he co-launched two more products, "Rt.live" and Artifact, with Systrom. Since 2024, he has been at Anthropic.
 
 Life and career
+
 Krieger was born in São Paulo, Brazil, and moved to California in 2004 to attend Stanford University. While at Stanford, where he majored in symbolic systems, he crossed paths with Kevin Systrom, and together they co-founded Instagram in 2010. Krieger and Systrom had the idea of building a check-in app, before they made it exclusive to pictures. During the early days, most of the engineering and user experiences were developed solely by Krieger. One of the stories related to Instagram’s early days that Krieger recalled is:One time I woke up and there was an email saying that the site went down, and I was like, who fixed it? Shane, did you fix it? Kev, did you fix it? No. And eventually on the terminal, you press up and you get to see what was the last thing you typed. So, apparently, at 3:30 in the morning I somehow managed to, in a completely drunken state, revive Instagram. That’s how much we were struggling in those days.After Instagram was acquired by Facebook, Krieger was committed to building and growing Instagram independently. On September 24, 2018, it was announced that Krieger resigned from Instagram and would be leaving in few weeks.
+
 On April 18, 2020, Krieger teamed up with Systrom again to launch Rt.live, their first collaborative product since leaving Facebook. Rt.live served as an up-to-date tracker of how fast COVID-19 was spreading in each US state.
+
 On January 31, 2023, Krieger and Systrom launched Artifact, an AI-powered news app, on the App Store and Google Play. They announced the shut down of their app in January 2024.
+
 On May 15, 2024, Krieger announced that he was joining Anthropic as its chief product officer.
+
 In July 2025, Krieger joined the board of Figma.
+
 In January 2026, Krieger joined Anthropic's "Labs" team.
 
 Philanthropy
+
 In April 2015, Krieger announced a partnership with charity evaluator GiveWell, committing US$750,000 over the next two years. The funds are to support operations, with 90 percent allocated to grants identified and recommended through the Open Philanthropy Project process.
+
 In 2021, the Krieger's helped fund the opening of the Institute of Contemporary Art San Francisco (ICA SF) in Dogpatch, alongside funds from Pamela and David Hornik; and Deborah and Andy Rappaport.
 
 Personal life
+
 Krieger married Kaitlyn Trigger in 2015.

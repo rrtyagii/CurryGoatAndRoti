@@ -6,17 +6,23 @@ After the Army, he earned a master's degree in computer science at Technion, inc
 
 Career
 Google
+
 In 2007, Ron joined Google as the Product Lead for Google Maps. He then worked at Motorola Mobility after it was acquired by Google, and in Google's robotics research effort.
 
 Otto
+
 In 2016, Ron left Google to found Otto, a company that makes self-driving kits to retrofit big rig trucks. Quoted in Wired, Ron said he left Google because he “felt an obligation to bring this technology to society sooner rather than later.” Otto launched in May 2016, and was acquired by Uber in late July of the same year. The Uber partnership allowed Ron and Otto the opportunity to develop a freight marketplace for truck drivers.
 
 Uber Freight
+
 On May 18, 2017, Ron and Uber launched Uber Freight, a unit of Uber initially designed as an app connecting long-haul truck drivers with companies in need of cargo shipping, with Ron as CEO. In August 2018, Uber Freight launched a new digital platform focused on shippers, to help them find the right driver for their needs. In 2021, Uber Freight acquired Transplace for $2.25 billion, expanding its services to include managed transportation, logistics software, and consulting.
+
 With Ron as CEO, Uber Freight has evolved into a full-scale logistics technology company for shippers and drivers, as Ron introduced more advanced generative AI capabilities to Uber Freight's software and Insights AI logistics platform. In September 2024, the company announced it manages nearly $20 billion in freight, and serves one in three Fortune 500 companies. In May 2025, the company launched the transportation industry's first large-scale AI-powered logistics network, with its large language model embedded directly into its transportation management system.
 
 Waabi
+
 On August 12, 2025, it was reported that Ron had been named chief operating officer of Waabi, a company developing autonomous driving technology using artificial intelligence. He remains as chairman of Uber Freight, with Rebecca Tinucci taking over as CEO.
 
 Controversy
+
 Ron co-founded Otto with Anthony Levandowski, who faces a lawsuit brought in 2017 from Google's parent company Alphabet that alleges Levandowski stole trade secrets while working for Alphabet's self-driving car division before he and Ron co-founded Otto.

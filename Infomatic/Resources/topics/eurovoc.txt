@@ -1,20 +1,27 @@
 EuroVoc is a multilingual thesaurus (controlled vocabulary) maintained by the Publications Office of the European Union and hosted on the portal Europa. It exists in the 24 official languages of the European Union (Bulgarian, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Greek, Hungarian, Irish, Italian, Latvian, Lithuanian, Maltese, Polish, Portuguese, Romanian, Slovak, Slovene, Spanish and Swedish) plus Albanian, Macedonian and Serbian, although the user interface is not yet available in these languages.
 
 Usage
+
 EuroVoc is used by the European Parliament, the Publications Office of the European Union, the national and regional parliaments in Europe, some national government departments, and other European organisations. It serves as the basis for the domain names used in the European Union's terminology database: Interactive Terminology for Europe.
+
 As an example, EuroVoc is used to technogically maintain a single consistent definition of European geographical divisions across several languages suitable for the work of the EU, as Europe is often divided into regions several different ways across different contexts.
 
 Geographical classification
+
 Europe is often geographically divided into regions in several different contexts with varying criteria, and so for consistency across contexts and languages, EuroVoc defines the geographical sub-regions of Europe as:
 
 Central and Eastern Europe
+
 Source:
 
 Northern Europe
+
 Source:
 
 Southern Europe
+
 Source:
 
 Western Europe
+
 Source:

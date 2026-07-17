@@ -1,28 +1,40 @@
 EleutherAI () is a grass-roots non-profit artificial intelligence (AI) research group. The group, considered an open-source version of OpenAI, was formed in a Discord server in 2020 to create an open-source version of GPT-3. In early 2023, it formally incorporated as the EleutherAI Institute, a non-profit research institute. As of 2025, the nonprofit maintains widely-used training datasets, conducts research, and is involved in public policy, among other activities.
 
 History
+
 EleutherAI began as a Discord server on July 7, 2020, under the tentative name "LibreAI" before rebranding to "EleutherAI" later that month, in reference to eleutheria, the Greek word for liberty. Its founding members are Connor Leahy, Leo Gao, and Sid Black. They co-wrote the code for EleutherAI to serve as a collection of open source AI research, creating a machine learning model similar to GPT-3.
+
 On December 31, 2020, EleutherAI released The Pile, a curated dataset of diverse text for training large language models. While the paper referenced the existence of the GPT-Neo models, the models themselves were not released until March 21, 2021. On June 9, 2021, EleutherAI followed this up with GPT-J-6B, a six billion parameter language model that was again the largest open-source GPT-3-like model in the world. These language models were released under the Apache 2.0 free software license and are considered to have "fueled an entirely new wave of startups".
+
 While EleutherAI initially turned down funding offers, preferring to use Google's TPU Research Cloud Program to source their compute, by early 2021 they had accepted funding from CoreWeave (a small cloud computing company) and SpellML (a cloud infrastructure company) in the form of access to powerful GPU clusters that are necessary for large scale machine learning research. On Feb 10, 2022, they released GPT-NeoX-20B, a model similar to their prior work but scaled up thanks to the resources CoreWeave provided.
+
 In early 2023, EleutherAI incorporated as a non-profit research institute run by Stella Biderman, Curtis Huebner, and Shivanshu Purohit. EleutherAI also announced a shift towards doing work in interpretability, alignment, and scientific research. EleutherAI felt that "there is substantially more interest in training and releasing LLMs than there once was", enabling them to focus on other projects.
+
 In July 2024, an investigation by Proof news found that EleutherAI's The Pile dataset includes subtitles from over 170,000 YouTube videos across more than 48,000 channels. The findings drew criticism and accusations of theft from YouTubers and others who had their work published on the platform.
+
 In 2025, EleutherAI released a new dataset for training AI, "Common Pile", that does not have the controversial copyrighted material contained in its previous release of The Pile, and trained two models from it. EleutherAI, in collaboration with the UK's AI Security Institute, found that filtering the training data to remove key concepts can maintain performance while reducing the ability to provide harmful information.
 
 Research
+
 EleutherAI works with hundreds of volunteer researchers.
 
 The Pile
 The Pile is an 886 GB dataset designed for training large language models. It was originally developed to train EleutherAI's GPT-Neo models but has become widely used to train other models, including Microsoft's Megatron-Turing Natural Language Generation. Compared to other datasets, the Pile's main distinguishing features are that it is a curated selection of data chosen by researchers at EleutherAI to contain information they thought language models should learn and that it is the only such dataset that is thoroughly documented by the researchers who developed it. The initial Pile dataset has come under scrutiny for containing copyrighted material including books and subtitles from documentaries, movies, television and online videos including from YouTube.
 
 Common Pile
+
 Common Pile v0.1, released in partnership with a large number of collaborators in June 2025, contains only works where the licenses permit their use for training AI models.
 
 GPT models
+
 EleutherAI's most prominent research relates to its work to train open-source large language models inspired by OpenAI's GPT-3. EleutherAI's "GPT-Neo" model series has released 125 million, 1.3 billion, 2.7 billion, 6 billion, and 20 billion parameter models.
 
 GPT-Neo (125M, 1.3B, 2.7B): released in March 2021, it was the largest open-source GPT-3-style language model in the world at the time of release.
+
 GPT-J (6B): released in March 2021, it was the largest open-source GPT-3-style language model in the world at the time of release.
+
 GPT-NeoX-20B, released on Feb 10, 2022.
 
 VQGAN-CLIP
+
 Following the release of DALL-E by OpenAI in January 2021, EleutherAI started working on text-to-image synthesis models. When OpenAI did not release DALL-E publicly, EleutherAI's Katherine Crowson and digital artist Ryan Murdock developed a technique for using CLIP (another model developed by OpenAI) to convert regular image generation models into text-to-image synthesis ones. Building on ideas dating back to Google's DeepDream, they found their first major success combining CLIP with another publicly available model called VQGAN and the resulting model is called VQGAN-CLIP. Crowson released the technology by tweeting notebooks demonstrating the technique that people could run for free without any special equipment.

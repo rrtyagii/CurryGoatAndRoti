@@ -1,36 +1,57 @@
 MIRIAM (Minimum Information Required In The Annotation of Models) is a community-level effort to standardize  the annotation and curation processes of quantitative models of biological systems. It consists of a set of guidelines suitable for use with any structured format, allowing different groups to collaborate and share resulting models. Adherence to these guidelines also facilitates the sharing of software and service infrastructures built upon modeling activities.
+
 The idea of "a set of good practices" including "some obligatory metadata" was first proposed by Nicolas Le Novère in October 2004 as part of a discussion to develop a common database of models in systems biology (which led to the creation of BioModels Database). These initial ideas were further refined at a meeting in Heidelberg, during ICSB 2004, with representatives from many other interested groups.
+
 MIRIAM is a registered project of the MIBBI (minimum information for biological and biomedical investigations).
 
 MIRIAM Guidelines
+
 The MIRIAM Guidelines are composed of three parts, reference correspondence, attribution annotation, and external resource annotation, each of which deals with a different aspect of information that should be included within a model.
 
 Reference correspondence
+
 'Reference correspondence' deals with the basic reference information needed to make use of the model, detailing on a gross level the format of the model file, and its instantiability for simulation purposes.
 
 The model file must be encoded in a public, standardized, machine-readable format (SBML, CellML, GENESIS, ...).
+
 The model file must be valid with respect to its encoding schema.
+
 The model must be associated with a reference description or publication detailing its origin, even if it is a composite.
+
 The encoded model structure must reflect the (biological) process(es) detailed in the reference description.
+
 The model must be instantiable; necessary quantitative parameters, such as initial conditions, should be provided if they are needed for a simulation.
+
 When instantiated, the model must be capable of reproducing representative results as given in the reference description, within an epsilon (algorithms, round-up errors).
 
 Attribution annotation
+
 'Attribution annotation' deals with the attribution information that must be embedded within the model file.
 
 The model must have a name.
+
 The model must include a citation of the reference description identifying the authors of the model.
+
 The model must include the name and contact details of the model creators.
+
 The date and time of model creation and last modification should be specified. A model history is useful but not required.
+
 The model should be linked to a precise statement about its terms of use and distribution, regardless of whether it is 'free to use' or not.
 
 External resource annotation
+
 'External resource annotation' defines the manner in which annotations should be constructed. Those annotations contain references to entities in databases, classifications, ontologies, etc. One of the purposes of annotation is to allow unambiguous identification of the various model components.
 
 The annotation must unambiguously relate a piece of knowledge to a model constituent.
+
 The referenced information should be described using a triplet {data collection, collection-specific identifier, optional qualifier}:
+
 The annotation should be expressed as a Uniform Resource Identifier (URI).
+
 The collection-specific identifier should be analysed within the framework of the data collection.
+
 Qualifiers (optional) should be used to refine the link between the model components and the referenced information, for example "has_a", "is_version_of" and "is_homolog_to".
+
 More information about the existing qualifiers is available from BioModels.net.
+
 So far, annotation is mainly a manual work, so to ensure their longevity the usage of perennial URIs is necessary. It was recognised that the generation of valid and unique URIs for annotation required the creation of a catalogue of shared namespaces for use by the community. This function is provided by the MIRIAM Registry. The Registry also provides a variety of supporting auxiliary features to enable automated procedures based upon these URIs. The ability to generate resolvable identifiers is provided through the use of the resolving layer, Identifiers.org.

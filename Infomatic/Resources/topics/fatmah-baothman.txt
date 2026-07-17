@@ -1,12 +1,16 @@
 Fatmah Baothman is Saudi Arabian computer scientist who is the first woman in the Middle East with a Ph.D. in artificial intelligence. She is the board president for the Artificial Intelligence Society. Baothman has worked over 25 years as, and is currently, an assistant professor at King Abdulaziz University Faculty of Computing & Information Technology Baothman established the women's Department which is the foundation of the Computer Science College at King Abdulaziz University, and became the first teaching assistant faculty member.
 
 Education and career
+
 In 2003, Baothman earned her Ph.D. from The University of Huddersfield, the School of Computing and Engineering in the United Kingdom. Her dissertation consisted of an AI application in "phonology-based automatic speech recognition for Arabic". She was awarded with distinction in 2003.
+
 Baothman became the chairwoman of the IEEE Women in Engineering Western Region. She also established the King Abdulaziz University KAU IEEE chapter for women and is the president of the Women Engineers Committee for the Saudi Council of Engineers western region. In 2019, Baothman received the first-ever Women AI Award at the VB AI Summit.
 
 Books and articles
+
 Representing coarticulation processes in Arabic speech', co-authored with Michael Ingleby, S Boudelaa, 2006
 Phonology-based automatic speech recognition for Arabic, 2002
+
 Comparative Study from Several Business Cases and Methodologies for ICT Project Evaluation, 2016 for ICT project evaluation with her co-authors Farrukh Saleem, Naomie Salim, Abdulrahman H Altalhi, AL Abdullah, Zahid Ullah, Fatmah A Baothman, Muhammad Haleem Junejo.
 EMPTY NUCLEI IN ARABIC SPEECH PATTERNS AND THE DIACRITIC SUKU UN, co-authored with Michael Ingleby
 Syllabic Markov models of Arabic HMMs of spoken Arabic using CV units, coauthored with Michael Ingleby

@@ -1,16 +1,23 @@
 Hugo de Garis (born 1947) is an Australian retired researcher in the sub-field of artificial intelligence (AI) known as evolvable hardware. In the 1990s and early 2000s, he performed research on the use of genetic algorithms to evolve artificial neural networks using three-dimensional cellular automata inside field programmable gate arrays. He has written about his belief in an coming war between the supporters and opponents of intelligent machines, with the potential for the elimination of humanity by artificial superintelligences.
 
 Career
+
 De Garis originally studied theoretical physics, but he abandoned this field in favour of artificial intelligence. In 1992 he received his PhD from Université Libre de Bruxelles, Belgium.
+
 From 1993 to 2000 de Garis was a researcher at the Advanced Telecommunications Research Institute International in Kansai Science City, Japan. At ATR's Human Information Processing Research Laboratories (ATR-HIP), he aimed to create a billion-neuron artificial brain he called a "cellular automata machine brain" (CAM-brain) by the year 2001. He predicted CAM-brains could scale indefinitely and could be used to create asteroid-sized brain-like computers. De Garis moved to Starlab in Brussels in 2000, and the HIP laboratory was closed in February 2001. Starlab went bankrupt in 2001. De Garis published his last "CAM-Brain" research paper in 2002.
+
 He was associate professor of computer science at Utah State University from 2001 to 2006. Starting in June 2006 he was part of the advisory board of Novamente, a commercial company which aimed to create artificial general intelligence. After 2006 he was a professor at Xiamen University and Wuhan University where he taught theoretical physics and computer science. In 2008 he received a 3 million Chinese yuan grant (around $436,000) to build an artificial brain for China as part of the Brain Builder Group at Wuhan University. He served on the editorial board of Engineering Letters.
+
 De Garis retired in late 2010.
 
 Beliefs
+
 During his work on CAM-Brain, De Garis began publicly expressing concerns about existential risk from artificial intelligence. In 2005, he published the book The Artilect War: Cosmists vs. Terrans: A Bitter Controversy Concerning Whether Humanity Should Build Godlike Massively Intelligent Machines. In his book, De Garis predicts that by the end of the 21st century artificial superintelligences, which he calls "artificial intellects" or "artilects", will threaten to attain hegemony over the Earth. He foresees a major war between supporters of artilects and their opponents, resulting in billions of deaths. The supporters he calls "Cosmists", who will support artilects that they expect to colonise the universe, leaving Earth and humans behind to a sooner-or-later extinction. The opponents, "Terrans", will focus on the fate of Earth and its inhabitants, and the existential risk posed by artilects. Differences between the two groups will be irreconcilable, leading to war. He also predicts a third group, "Cyborgs", who aim to become artilects themselves by altering their own human brains, rather than falling into obsolescence. Although de Garis makes arguments in favor of each side throughout the book, he concludes that he is a Cosmist.
+
 Religious studies professor Robert M. Geraci describes The Artilect War as a religious apocalyptic scenario.
 
 Writings
+
 de Garis, Hugo (28 February 2005). The Artilect War: Cosmists vs. Terrans: A Bitter Controversy Concerning Whether Humanity Should Build Godlike Massively Intelligent Machines. ETC Publications. p. 254. ISBN 978-0-88280-153-7.
 de Garis, Hugo (18 March 2010). Multis and Monos : What the Multicultured Can Teach the Monocultured : Towards the Creation of a Global State. ETC Publications. p. 514. ISBN 978-0-88280-162-9.
 de Garis, Hugo (November 2010). Artificial Brains : An Evolved Neural Net Module Approach. World Scientific. p. 400. ISBN 978-981-4304-28-3.

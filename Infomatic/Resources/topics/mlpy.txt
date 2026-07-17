@@ -1,7 +1,9 @@
 mlpy is a Python, open-source, machine learning library built on top of NumPy/SciPy, the GNU Scientific Library and it makes an extensive use of the Cython language. mlpy provides a wide range of state-of-the-art machine learning methods for supervised and unsupervised problems and it is aimed at finding a reasonable compromise among modularity, maintainability, reproducibility, usability and efficiency. mlpy is multiplatform, it works with Python 2 and 3 and it is distributed under GPL3.
+
 Suited for general-purpose machine learning tasks, mlpy's motivating application field is bioinformatics, i.e. the analysis of high throughput omics data.
 
 Features
+
 Regression: least squares, ridge regression, least angle regression, elastic net, kernel ridge regression, support vector machines (SVM), partial least squares (PLS)
 Classification: linear discriminant analysis (LDA), Basic perceptron, Elastic Net, logistic regression, (Kernel) Support Vector Machines (SVM), Diagonal Linear Discriminant Analysis (DLDA), Golub Classifier, Parzen-based, (kernel) Fisher Discriminant Classifier, k-nearest neighbor, Iterative RELIEF, Classification Tree, Maximum Likelihood Classifier
 Clustering: hierarchical clustering, Memory-saving Hierarchical Clustering, k-means

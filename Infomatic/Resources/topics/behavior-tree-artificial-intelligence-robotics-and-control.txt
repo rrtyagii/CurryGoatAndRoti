@@ -1,21 +1,31 @@
 A behavior tree is a mathematical model of plan execution used in computer science, robotics, control systems and video games. They describe switchings between a finite set of tasks in a modular fashion. Their strength comes from their ability to create very complex tasks composed of simple tasks, without worrying how the simple tasks are implemented. Behavior trees present some similarities to hierarchical state machines with the key difference that the main building block of a behavior is a task rather than a state. Its ease of human understanding make behavior trees less error prone and very popular in the game developer community. Behavior trees have been shown to generalize to several other control architectures.
 
 Background
+
 A behavior based control structure was initially proposed by Rodney Brooks in his paper entitled 'A robust layered control system for a mobile robot'. In the initial proposal, a list of behaviors could work as alternatives to one another. Later, the approach was extended and generalized into a tree-like organization of behaviors, with extensive application in the game industry as a powerful tool to model the behavior of non-player characters (NPCs).
+
 They have been extensively used in high-profile video games such as Halo, Bioshock, and Spore. Recent works propose behavior trees as a multi-mission control framework for UAV, complex robots, robotic manipulation, and multi-robot systems.
+
 Behavior trees have now reached the maturity to be treated in Game AI textbooks, as well as generic game environments such as Unity (game engine) and Unreal Engine (see links below).
+
 Behavior trees became popular for their development paradigm: being able to create a complex behavior by only programming the NPC's actions and then designing a tree structure (usually through drag and drop) whose leaf nodes are actions and whose inner nodes determine the NPC's decision making. Behavior trees are visually intuitive and easy to design, test, and debug, and provide more modularity, scalability, and reusability than other behavior creation methods.
+
 Over the years, the diverse implementations of behavior trees kept improving both in efficiency and capabilities to satisfy the demands of the industry, until they evolved into event-driven behavior trees. Event-driven behavior trees solved some scalability issues of classical behavior trees by changing how the tree internally handles its execution, and by introducing a new type of node that can react to events and abort running nodes. Nowadays, the concept of event-driven behavior tree is a standard and used in most of the implementations, even though they are still called "behavior trees" for simplicity.
 
 Key concepts
+
 A behavior tree is graphically represented as a directed tree in which the nodes are classified as root, control flow nodes, or execution nodes (tasks). For each pair of connected nodes the outgoing node is called parent and the incoming node is called child. The root has no parents and exactly one child, the control flow nodes have one parent and at least one child, and the execution nodes have one parent and no children. Graphically, the children of a control flow node are placed below it, ordered from left to right.
+
 The execution of a behavior tree starts from the root which sends ticks with a certain frequency to its child. A tick is an enabling signal that allows the execution of a child. When the execution of a node in the behavior tree is allowed, it returns to the parent a status running if its execution has not finished yet, success if it has achieved its goal, or failure otherwise.
 
 Control flow node
+
 A control flow node is used to control the subtasks of which it is composed. A control flow node may be either a selector (fallback) node or a sequence node. They run each of their subtasks in turn. When a subtask is completed and returns its status (success or failure), the control flow node decides whether to execute the next subtask or not.
 
 Selector (fallback) node
+
 Fallback nodes are used to find and execute the first child that does not fail. A fallback node will return with a status code of success or running immediately when one of its children returns success or running (see Figure I and the pseudocode below). The children are ticked in order of importance, from left to right.
+
 In pseudocode, the algorithm for a fallback composition is:
 
 1 for i from 1 to n do
@@ -41,631 +51,245 @@ In pseudocode, the algorithm for a sequence composition is:
 8 return success
 
 Mathematical state space definition
+
 In order to apply control theory tools to the analysis of behavior trees, they can be defined as three-tuple.
 
-
-
-
-
           T
-
             i
-
-
         =
         {
-
           f
-
             i
-
-
         ,
-
           r
-
             i
-
-
         ,
         Δ
         t
         }
         ,
-
-
     {\displaystyle T_{i}=\{f_{i},r_{i},\Delta t\},}
-
 
 where
 
-
-
         i
         ∈
-
           N
-
-
-
     {\displaystyle i\in \mathbb {N} }
-
  is the index of the tree,
-
-
-
-
           f
-
             i
-
-
         :
-
-
             R
-
-
             n
-
-
         →
-
-
             R
-
-
             n
-
-
-
-
     {\displaystyle f_{i}:\mathbb {R} ^{n}\rightarrow \mathbb {R} ^{n}}
-
  is a vector field representing the right hand side of an ordinary difference equation,
-
-
-
         Δ
         t
-
-
     {\displaystyle \Delta t}
-
  is a time step and
-
-
-
-
-
           r
-
             i
-
-
         :
-
-
             R
-
-
             n
-
-
         →
         {
-
           R
-
             i
-
-
         ,
-
           S
-
             i
-
-
         ,
-
           F
-
             i
-
-
         }
-
-
     {\displaystyle r_{i}:\mathbb {R} ^{n}\rightarrow \{R_{i},S_{i},F_{i}\}}
-
  is the return status, that can be equal to either
 Running
 
-
-
-
           R
-
             i
-
-
-
-
     {\displaystyle R_{i}}
 
 ,
 Success
 
-
-
-
           S
-
             i
-
-
-
-
     {\displaystyle S_{i}}
 
 , or
 Failure
 
-
-
-
           F
-
             i
-
-
-
-
     {\displaystyle F_{i}}
 
 .
+
 Note: A task is a degenerate behavior tree with no parent and no child.
 
 Behavior tree execution
+
 The execution of a behavior tree is described by the following standard ordinary difference equations:
 
-
-
-
-
           x
-
             k
             +
             1
-
-
         (
-
           t
-
             k
             +
             1
-
-
         )
         =
-
           f
-
             i
-
-
         (
-
           x
-
             k
-
-
         (
-
           t
-
             k
-
-
         )
         )
-
-
     {\displaystyle x_{k+1}(t_{k+1})=f_{i}(x_{k}(t_{k}))}
-
-
-
-
-
-
           t
-
             k
             +
             1
-
-
         =
-
           t
-
             k
-
-
         +
         Δ
         t
-
-
     {\displaystyle t_{k+1}=t_{k}+\Delta t}
-
 
 where
 
-
-
         k
         ∈
-
           N
-
-
-
     {\displaystyle k\in \mathbb {N} }
-
  represent the discrete time, and
-
-
-
         x
         ∈
-
-
             R
-
-
             n
-
-
-
-
     {\displaystyle x\in \mathbb {R} ^{n}}
-
  is the state space of the system modelled by the behavior tree.
 
 Sequence composition
+
 Two behavior trees
 
-
-
-
           T
-
             i
-
-
-
-
     {\displaystyle T_{i}}
-
  and
-
-
-
-
           T
-
             j
-
-
-
-
     {\displaystyle T_{j}}
-
  can be composed into a more complex behavior tree
-
-
-
-
           T
-
             0
-
-
-
-
     {\displaystyle T_{0}}
-
  using a Sequence operator.
-
-
-
-
-
           T
-
             0
-
-
         =
-
-
             sequence
-
-
         (
-
           T
-
             i
-
-
         ,
-
           T
-
             j
-
-
         )
         .
-
-
     {\displaystyle T_{0}={\mbox{sequence}}(T_{i},T_{j}).}
-
 
 Then return status
 
-
-
-
           r
-
             0
-
-
-
-
     {\displaystyle r_{0}}
-
  and the vector field
-
-
-
-
           f
-
             0
-
-
-
-
     {\displaystyle f_{0}}
-
  associated with
-
-
-
-
           T
-
             0
-
-
-
-
     {\displaystyle T_{0}}
-
  are defined (for
-
-
-
-
-
-
               S
-
-
-
             1
-
-
-
-
     {\displaystyle {\mathcal {S}}_{1}}
 
 ) as follows:
 
-
-
-
-
           r
-
             0
-
-
         (
-
           x
-
             k
-
-
         )
         =
-
-
             {
-
-
-
-
                     r
-
                       j
-
-
                   (
-
                     x
-
                       k
-
-
                   )
-
-
-
                      if
-
-
                     x
-
                       k
-
-
                   ∈
-
-
-
                         S
-
-
-
                       1
-
-
-
-
-
-
-
                     r
-
                       i
-
-
                   (
-
                     x
-
                       k
-
-
                   )
-
-
-
                      otherwise
-
                   .
-
-
-
-
-
-
-
-
     {\displaystyle r_{0}(x_{k})={\begin{cases}r_{j}(x_{k})&{\text{ if }}x_{k}\in {\mathcal {S}}_{1}\\r_{i}(x_{k})&{\text{ otherwise }}.\end{cases}}}
-
-
-
-
-
-
           f
-
             0
-
-
         (
-
           x
-
             k
-
-
         )
         =
-
-
             {
-
-
-
-
                     f
-
                       j
-
-
                   (
-
                     x
-
                       k
-
-
                   )
-
-
-
                      if
-
-
                     x
-
                       k
-
-
                   ∈
-
-
-
                         S
-
-
-
                       1
-
-
-
-
-
-
-
                     f
-
                       i
-
-
                   (
-
                     x
-
                       k
-
-
                   )
-
-
-
                      otherwise
-
                   .
-
-
-
-
-
-
-
-
     {\displaystyle f_{0}(x_{k})={\begin{cases}f_{j}(x_{k})&{\text{ if }}x_{k}\in {\mathcal {S}}_{1}\\f_{i}(x_{k})&{\text{ otherwise }}.\end{cases}}}

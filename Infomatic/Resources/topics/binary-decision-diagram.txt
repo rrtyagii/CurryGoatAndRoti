@@ -1,96 +1,54 @@
 In computer science, a binary decision diagram (BDD) or branching program is a data structure that is used to represent a Boolean function. On a more abstract level, BDDs can be considered as a compressed representation of sets or relations. Unlike other compressed representations, operations are performed directly on the compressed representation, i.e. without decompression.
+
 Similar data structures include negation normal form (NNF), Zhegalkin polynomials, and propositional directed acyclic graphs (PDAG).
 
 Definition
+
 A Boolean function can be represented as a rooted, directed, acyclic graph, which consists of several (decision) nodes and two terminal nodes. The two terminal nodes are labeled 0 (FALSE) and 1 (TRUE). Each (decision) node
 
-
-
         u
-
-
     {\displaystyle u}
-
  is labeled by a Boolean variable
-
-
-
-
           x
-
             i
-
-
-
-
     {\displaystyle x_{i}}
-
  and has two child nodes called low child and high child. The edge from node
-
-
-
         u
-
-
     {\displaystyle u}
-
  to a low (or high) child represents an assignment of the value FALSE (or TRUE, respectively) to variable
-
-
-
-
           x
-
             i
-
-
-
-
     {\displaystyle x_{i}}
 
 . Such a BDD is called 'ordered' if different variables appear in the same order on all paths from the root. A BDD is said to be 'reduced' if the following two rules have been applied to its graph:
 
 Merge any isomorphic subgraphs.
+
 Eliminate any node whose two children are isomorphic.
+
 In popular usage, the term BDD almost always refers to Reduced Ordered Binary Decision Diagram (ROBDD in the literature, used when the ordering and reduction aspects need to be emphasized). The advantage of an ROBDD is that it is canonical (unique up to isomorphism) for a particular function and variable order. This property makes it useful in functional equivalence checking and other operations like functional technology mapping.
+
 A path from the root node to the 1-terminal represents a (possibly partial) variable assignment for which the represented Boolean function is true. As the path descends to a low (or high) child from a node, then that node's variable is assigned to 0 (respectively 1).
 
 Example
+
 The left figure below shows a binary decision tree (the reduction rules are not applied), and a truth table, each representing the function
-
-
 
         f
         (
-
           x
-
             1
-
-
         ,
-
           x
-
             2
-
-
         ,
-
           x
-
             3
-
-
         )
-
-
     {\displaystyle f(x_{1},x_{2},x_{3})}
 
 . In the tree on the left, the value of the function can be determined for a given variable assignment by following a path down the graph to a terminal. In the figures below, dotted lines represent edges to a low child, while solid lines represent edges to a high child. Therefore, to find
 
-
-
         f
         (
         0
@@ -99,14 +57,10 @@ The left figure below shows a binary decision tree (the reduction rules are not 
         ,
         1
         )
-
-
     {\displaystyle f(0,1,1)}
 
 , begin at x1, traverse down the dotted line to x2 (since x1 has an assignment to 0), then down two solid lines (since x2 and x3 each have an assignment to one). This leads to the terminal 1, which is the value of
 
-
-
         f
         (
         0
@@ -115,85 +69,43 @@ The left figure below shows a binary decision tree (the reduction rules are not 
         ,
         1
         )
-
-
     {\displaystyle f(0,1,1)}
 
 .
+
 The binary decision tree of the left figure can be transformed into a binary decision diagram by maximally reducing it according to the two reduction rules. The resulting BDD is shown in the right figure.
 
 Another notation for writing this Boolean function is
 
-
-
-
-
-
               x
               ¯
-
-
-
             1
-
-
-
-
-
               x
               ¯
-
-
-
             2
-
-
-
-
-
               x
               ¯
-
-
-
             3
-
-
         +
-
           x
-
             1
-
-
-
           x
-
             2
-
-
         +
-
           x
-
             2
-
-
-
           x
-
             3
-
-
-
-
     {\displaystyle {\overline {x}}_{1}{\overline {x}}_{2}{\overline {x}}_{3}+x_{1}x_{2}+x_{2}x_{3}}
 
 .
 
 Complemented edges
+
 An ROBDD can be represented even more compactly, using complemented edges, also known as complement links. The resulting BDD is sometimes known as a typed BDD or signed BDD.
+
 Complemented edges are formed by annotating low edges as complemented or not. If an edge is complemented, then it refers to the negation of the Boolean function that corresponds to the node that the edge points to (the Boolean function represented by the BDD with root that node). High edges are not complemented, in order to ensure that the resulting BDD representation is a canonical form. In this representation, BDDs have a single leaf node, for reasons explained below.
+
 Two advantages of using complemented edges when representing BDDs are:
 
 computing the negation of a BDD takes constant time
@@ -201,368 +113,209 @@ space usage (i.e., required memory) is reduced (by a factor at most 2)
 However, Knuth argues otherwise:
 
 Although such links are used by all the major BDD packages, they are hard to recommend because the computer programs become much more complicated. The memory saving is usually negligible, and never better than a factor of 2; furthermore, the author's experiments show little gain in running time.
+
 A reference to a BDD in this representation is a (possibly complemented) "edge" that points to the root of the BDD. This is in contrast to a reference to a BDD in the representation without use of complemented edges, which is the root node of the BDD. The reason why a reference in this representation needs to be an edge is that for each Boolean function, the function and its negation are represented by an edge to the root of a BDD, and a complemented edge to the root of the same BDD. This is why negation takes constant time. It also explains why a single leaf node suffices: FALSE is represented by a complemented edge that points to the leaf node, and TRUE is represented by an ordinary edge (i.e., not complemented) that points to the leaf node.
+
 For example, assume that a Boolean function is represented with a BDD represented using complemented edges. To find the value of the Boolean function for a given assignment of (Boolean) values to the variables, we start at the reference edge, which points to the BDD's root, and follow the path that is defined by the given variable values (following a low edge if the variable that labels a node equals FALSE, and following the high edge if the variable that labels a node equals TRUE), until we reach the leaf node. While following this path, we count how many complemented edges we have traversed. If when we reach the leaf node we have crossed an odd number of complemented edges, then the value of the Boolean function for the given variable assignment is FALSE, otherwise (if we have crossed an even number of complemented edges), then the value of the Boolean function for the given variable assignment is TRUE.
+
 An example diagram of a BDD in this representation is shown on the right, and represents the same Boolean expression as shown in diagrams above, i.e.,
 
-
-
         (
         ¬
-
           x
-
             1
-
-
         ∧
         ¬
-
           x
-
             2
-
-
         ∧
         ¬
-
           x
-
             3
-
-
         )
         ∨
         (
-
           x
-
             1
-
-
         ∧
-
           x
-
             2
-
-
         )
         ∨
         (
-
           x
-
             2
-
-
         ∧
-
           x
-
             3
-
-
         )
-
-
     {\displaystyle (\neg x_{1}\wedge \neg x_{2}\wedge \neg x_{3})\vee (x_{1}\wedge x_{2})\vee (x_{2}\wedge x_{3})}
 
 . Low edges are dashed, high edges solid, and complemented edges are signified by a circle at their source. The node with the @ symbol represents the reference to the BDD, i.e., the reference edge is the edge that starts from this node.
 
 History
+
 The basic idea from which the data structure was created is the Shannon expansion. A switching function is split into two sub-functions (cofactors) by assigning one variable (cf. if-then-else normal form). If such a sub-function is considered as a sub-tree, it can be represented by a binary decision tree. Binary decision diagrams (BDDs) were introduced by C. Y. Lee, and further studied and made known by Sheldon B. Akers and Raymond T. Boute. Independently of these authors, a BDD under the name "canonical bracket form" was realized Yu. V. Mamrukov in a CAD for analysis of speed-independent circuits. The full potential for efficient algorithms based on the data structure was investigated by Randal Bryant at Carnegie Mellon University: his key extensions were to use a fixed variable ordering (for canonical representation) and shared sub-graphs (for compression). Applying these two concepts results in an efficient data structure and algorithms for the representation of sets and relations. By extending the sharing to several BDDs, i.e. one sub-graph is used by several BDDs, the data structure Shared Reduced Ordered Binary Decision Diagram is defined. The notion of a BDD is now generally used to refer to that particular data structure.
+
 In his video lecture Fun With Binary Decision Diagrams (BDDs), Donald Knuth calls BDDs "one of the only really fundamental data structures that came out in the last twenty-five years" and mentions that Bryant's 1986 paper was for some time one of the most-cited papers in computer science.
+
 Adnan Darwiche and his collaborators have shown that BDDs are one of several normal forms for Boolean functions, each induced by a different combination of requirements. Another important normal form identified by Darwiche is decomposable negation normal form or DNNF.
 
 Applications
+
 BDDs are extensively used in CAD software to synthesize circuits (logic synthesis) and in formal verification. There are several lesser known applications of BDD, including fault tree analysis, Bayesian reasoning, product configuration, and private information retrieval.
+
 Every arbitrary BDD (even if it is not reduced or ordered) can be directly implemented in hardware by replacing each node with a 2 to 1 multiplexer; each multiplexer can be directly implemented by a 4-LUT in a FPGA. It is not so simple to convert from an arbitrary network of logic gates to a BDD (unlike the and-inverter graph).
+
 BDDs have been applied in efficient Datalog interpreters.
 
 Variable ordering
+
 The size of the BDD is determined both by the function being represented and by the chosen ordering of the variables. There exist Boolean functions
 
-
-
         f
         (
-
           x
-
             1
-
-
         ,
         …
         ,
-
           x
-
             n
-
-
         )
-
-
     {\displaystyle f(x_{1},\ldots ,x_{n})}
-
  for which depending upon the ordering of the variables we would end up getting a graph whose number of nodes would be linear (in n) at best and exponential at worst (e.g., a ripple carry adder). Consider the Boolean function
-
-
-
         f
         (
-
           x
-
             1
-
-
         ,
         …
         ,
-
           x
-
             2
             n
-
-
         )
         =
-
           x
-
             1
-
-
-
           x
-
             2
-
-
         +
-
           x
-
             3
-
-
-
           x
-
             4
-
-
         +
         ⋯
         +
-
           x
-
             2
             n
             −
             1
-
-
-
           x
-
             2
             n
-
-
         .
-
-
     {\displaystyle f(x_{1},\ldots ,x_{2n})=x_{1}x_{2}+x_{3}x_{4}+\cdots +x_{2n-1}x_{2n}.}
-
  Using the variable ordering
-
-
-
-
           x
-
             1
-
-
         <
-
           x
-
             3
-
-
         <
         ⋯
         <
-
           x
-
             2
             n
             −
             1
-
-
         <
-
           x
-
             2
-
-
         <
-
           x
-
             4
-
-
         <
         ⋯
         <
-
           x
-
             2
             n
-
-
-
-
     {\displaystyle x_{1}<x_{3}<\cdots <x_{2n-1}<x_{2}<x_{4}<\cdots <x_{2n}}
 
 , the BDD needs
 
-
-
-
           2
-
             n
             +
             1
-
-
-
-
     {\displaystyle 2^{n+1}}
-
  nodes to represent the function.  Using the ordering
-
-
-
-
           x
-
             1
-
-
         <
-
           x
-
             2
-
-
         <
-
           x
-
             3
-
-
         <
-
           x
-
             4
-
-
         <
         ⋯
         <
-
           x
-
             2
             n
             −
             1
-
-
         <
-
           x
-
             2
             n
-
-
-
-
     {\displaystyle x_{1}<x_{2}<x_{3}<x_{4}<\cdots <x_{2n-1}<x_{2n}}
 
 , the BDD consists of
-
-
 
         2
         n
         +
         2
-
-
     {\displaystyle 2n+2}
-
  nodes.
 
 It is of crucial importance to care about variable ordering when applying this data structure in practice. The problem of finding the best variable ordering is NP-hard. For any constant c > 1 it is even NP-hard to compute a variable ordering resulting in an OBDD with a size that is at most c times larger than an optimal one. However, there exist efficient heuristics to tackle the problem.
+
 There are functions for which the graph size is always exponential—independent of variable ordering. This holds e.g. for the multiplication function. In fact, the function computing the middle bit of the product of two
 
-
-
         n
-
-
     {\displaystyle n}
 
 -bit numbers does not have an OBDD smaller than
 
-
-
-
           2
-
             ⌊
             n
-
               /
-
             2
             ⌋
-
-
-
           /
-
         61
         −
         4
-
-
     {\displaystyle 2^{\lfloor n/2\rfloor }/61-4}
-
  vertices. (If the multiplication function had polynomial-size OBDDs, it would show that integer factorization is in P/poly, which is not known to be true.)
 Another notorious example is the hidden weight bit function, regarded as the simplest function with an exponential-sized BDD.
+
 Researchers have suggested refinements on the BDD data structure giving way to a number of related graphs, such as BMD (binary moment diagrams), ZDD (zero-suppressed decision diagrams), FBDD (free binary decision diagrams), FDD (functional decision diagrams), PDD (parity decision diagrams), and MTBDDs (multiple terminal BDDs).
 
 Logical operations on BDDs
+
 Many logical operations on BDDs can be implemented by polynomial-time graph manipulation algorithms:
 
 conjunction
@@ -570,4 +323,5 @@ disjunction
 negation
 However, repeating these operations several times, for example forming the conjunction or disjunction of a set of BDDs, may in the worst case result in an exponentially big BDD. This is because any of the preceding operations for two BDDs may result in a BDD with a size proportional to the product of the BDDs' sizes, and consequently for several BDDs the size may be exponential in the number of operations. Variable ordering needs to be considered afresh; what may be a good ordering for (some of) the set of BDDs may not be a good ordering for the result of the operation. Also, since constructing the BDD of a Boolean function solves the NP-complete Boolean satisfiability problem and the co-NP-complete tautology problem, constructing the BDD can take exponential time in the size of the Boolean formula even when the resulting BDD is small.
 Computing existential abstraction over multiple variables of reduced BDDs is NP-complete.
+
 Model-counting, counting the number of satisfying assignments of a Boolean formula, can be done in polynomial time for BDDs. For general propositional formulas the problem is ♯P-complete and the best known algorithms require an exponential time in the worst case.

@@ -1,4 +1,5 @@
 Data Mining Extensions (DMX) is a query language for data mining models supported by Microsoft's SQL Server Analysis Services product.
+
 Like SQL, it supports a data definition language (DDL), data manipulation language (DML) and a data query language (DQL), all three with SQL-like syntax. Whereas SQL statements operate on relational tables, DMX statements operate on data mining models. Similarly, Microsoft SQL Server supports the MDX language for OLAP databases. DMX is used to create and train data mining models, and to browse, manage, and predict against them. DMX is composed of data definition language (DDL) statements, data manipulation language (DML) statements, and functions and operators.
 
 Queries
@@ -21,4 +22,5 @@ Browse data in mining models - SELECT FROM
 Make predictions using mining model - SELECT ... FROM PREDICTION JOIN
 
 Example: a prediction query
+
 This example is a singleton prediction query, which predicts for the given customer whether she will be interested in home loan products.

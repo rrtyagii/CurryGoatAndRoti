@@ -1,44 +1,65 @@
 Marek Kowalkiewicz (born 21 July 1978) is a Polish-Australian computer scientist. He is a professor and chair in digital economy at Queensland University of Technology (QUT), where he focuses on artificial intelligence (AI) and digital transformation strategies for government and industry. He performs all of his research in 30-day "research innovation sprints", an award-winning concept he pioneered at QUT in 2015. Kowalkiewicz's research sprints are designed to create and accelerate industry-focused research outcomes by combining the commercial philosophy of Google's five-day design sprint with the rigour of academic research.
+
 Kowalkiewicz joined QUT from Silicon Valley where he led global innovation teams for SAP. He was a Research Manager at SAP's Machine Learning Lab in Singapore, global research program lead at SAP Research Australia, and a research fellow at Microsoft Research Asia.
+
 He is the author of the book The Economy of Algorithms: Rise of the Digital Minions, published by La Trobe University Press in March 2024. The book has received multiple awards for its contribution to the rapidly evolving field of AI.
 
 Education
+
 Poznań University of Economics and Business
 Kowalkiewicz received a Master of Business Information Systems from Poznań University of Economics and Business (PUEB) in Poland in 2002. He completed his PhD in Information Systems at PUEB in 2006, graduating summa cum laude. Kowalkiewicz's research area was in extracting content from websites; his dissertation was titled "Information Extraction and Aggregation for Business Entities".
 
 Career and research
 Poznań University of Economics and Business
+
 From 2002 - 2006, while completing his PhD, Kowalkiewicz held the position of assistant professor in the Department of Information Systems at Poznań University of Economics and Business.
 
 Microsoft Research Asia
+
 Before receiving his PhD in 2006, Kowalkiewicz relocated to Beijing to become a research fellow at Microsoft Research Asia, where he built a location detection system for Windows Live Spaces, a functionality that was later introduced in blog searches.
 
 SAP Research Australia
+
 In 2007, he joined SAP Research Australia as senior researcher and development expert leading teams of developers and researchers in various projects including the 2010 launch of the first SAP app in the AppStore, AUS Traffic, which led to SAP's focus on mobile apps and Apple partnership. He also led the IdeaWall project (previously known as InnoBoard), a remote collaboration app that helped distributed teams work with physical and virtual post-it notes, a concept still used in some internal SAP applications.
+
 While at SAP Research, Kowalkiewicz was appointed Global Research Program Manager, User Experience, where he established a global user experience research team and program.
+
 He also led a global series of SAP InnoJam hackathons which promoted the use of SAP technologies by startups, and won SAP TechEd DemoJams in Las Vegas and Bangalore with demonstrations of augmented reality (AR) in enterprise systems.
 
 SAP Singapore
+
 In April 2012, Kowalkiewicz moved to Singapore to help establish SAP Research's Asia-Pacific Japan (APJ) headquarters. As research manager and head of developer outreach for APJ, he created SAP's first machine learning research lab.
 
 SAP Americas
+
 In 2014, he was appointed senior director, products and innovation, at SAP Americas in Palo Alto, California. Kowalkiewicz was global content and strategy lead for SAP's largest internal conference series, d-kom, where he designed and launched its annual, global developer kick-off event for more than 25,000 attendees. He also built a network of makerspaces for SAP developers, introducing AR/VR, 3D printing, and robotics.
+
 Kowalkiewicz was an SAP mentor in their SAP Influencer Program from 2013 to 2018. According to SAP's website, SAP Mentors are "Top influencers in the SAP ecosystem, representing customers, partners, and consultants."
 
 QUT and chair in digital economy
+
 In 2015, Kowalkiewicz was appointed professor and PwC Chair in Digital Economy at Queensland University of Technology (QUT). This joint venture between QUT, PwC, Brisbane Marketing and the Queensland Government was a five-year research initiative that enabled collaboration between industry, academia and government and was tasked with "designing digital transformation strategies for complex economic and social challenges".
+
 In 2016, Kowalkiewicz was a member of the Opportunities for Personalised Transport Review Taskforce guiding the Queensland Government on developing new ride-sharing regulation. The newDemocracy Foundation ranked the regulation, dubbed "Legalising Uber,"  as one of the leading evidence-based policy initiatives of the year following reports by Per Capita and the Institute of Public Affairs.
+
 From 2016 - 2019, Kowalkiewicz was Research Theme Lead: Embracing the Digital Age.
+
 In 2020, Kowalkiewicz co-founded his Queensland AI Hub in collaboration with Queensland's government, universities and industry leaders. The AI Hub was established during the COVID-19 crisis to improve Queensland's AI capability.
+
 In 2020, Kowalkiewicz established a QUT Centre for the Digital Economy, as its founding director. In 2022, the Centre was merged with the very similar QUT's Centre for Future Enterprise, and Kowalkiewicz carries out its "Algorithmic Enterprise" research.
 
 Boards, fellowships, memberships
+
 Board member, State Library of Queensland, 2017 - 2023
+
 Founder and member of the board of advisors, Queensland AI Hub, 2020 - 2023
+
 Fellow, On Deck, 2020 - present
+
 Member of Ministerial ICT Advisory Council, Queensland Government, 2019 - present
 
 Keynotes
+
 Kowalkiewicz has delivered more than 100 keynotes to academia and industry. He primarily speaks on the rapidly evolving field of artificial intelligence and the challenges and opportunities it presents to organisations. Keynote topics include digital economy, digital transformation, economy of algorithms, innovation sprints, artificial intelligence, natural language processing, technology management, and business information systems.
 
 Awards and recognition
@@ -70,7 +91,9 @@ Online publishing platform Medium
 Digital newsletter platform Substack
 
 Patents
+
 Workflow task re-evaluation, United States US 8429668 B2, Issued June 11, 2009
+
 Workflow Modeling With Flexible Blocks, United States US 20090281777 A1, Issued November 12, 2009
 Composing and executing service processes, United States US 20100088701 A1, Issued April 8, 2010
 Method and system to effectuate recovery for dynamic workflows, United States US 20110246991 A1, Issued October 6, 2011
@@ -80,6 +103,7 @@ Systems and methods for data aware workflow change management, United States US 
 Timer patterns for process models, United States US 8683436 B2, Issued March 25, 2014
 Work flow model processing with weak dependencies that allows runtime insertion of additional tasks, United States US 8719826 B2, Issued May 6, 2014
 Multi-media collaborator, United States US 20140152665 A1, Issued June 5, 2014
+
 Creating parallel control flows in business process models, Europe EP 2101292 A1, Issued September 16, 2009
 Method, system and computer program product for composing and executing service processes, Europe EP 2175403 A1, Issued April 14, 2010
 Method and system to effectuate recovery for dynamic workflows, Europe EP 2372620 A1, Issued October 5, 2011

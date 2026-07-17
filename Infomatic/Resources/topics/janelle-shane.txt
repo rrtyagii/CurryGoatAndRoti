@@ -1,13 +1,19 @@
 Janelle Shane is an optics research scientist and artificial intelligence researcher, writer and public speaker. She keeps a popular science blog called AI Weirdness, where she documents various machine learning algorithms, both ones submitted by readers and ones she personally creates.  Shane's first book You Look Like A Thing And I Love You: How AI Works And Why It's Making The World A Weirder Place was published in November 2019 covering many of the topics from her AI Weirdness blog for a general audience.
 
 Early life and education
+
 Shane studied electrical engineering at Michigan State University and graduated in 2007. She started out in a research group that worked on genetic algorithms, and then worked with Marcos Dantus on genetic algorithms for femtosecond lasers. She earned her master's degree in physics at the University of St Andrews, where she worked with Kishan Dholakia on pulse shaping and dispersion compensation. In 2008, Shane joined University of California, San Diego as a graduate student, where she worked on ultra-fast nanoscale optics.
 
 Career
+
 Shane works at Boulder Nonlinear Systems, an organisation who are developing holographic optical trapping modules for the International Space Station. She is also working on low size, weight and power (SWaP) 3D wind sensor technologies for unmanned aerial vehicles. The optical trapping systems (tweezers) use focused laser beams to trap transparent microparticles, and the holographic optical trapping uses liquid crystal spatial light modulators that can convert a single beam into separate steerable beams. This system allows Shane to position trapped particles in arrays. The technologies include liquid polarisation gratings for airborne Doppler lidar systems.
+
 Shane came across a list of neural network cookbook recipes written by Tom Brewe. AI Weirdness, Shane's blog on Artificial Intelligence, features everyday neural networks and algorithms. Shane writes for Fast Company and O'Reilly Media. She has collaborated with CNN, The Guardian, The New York Times Magazine and The New York Times. Shane delivered a talk at TED 2019, where she spoke about the realities of artificial intelligence. She argued that while artificial intelligence is celebrated as a gift to society, in reality it often doesn't live up to the hype. Her book You Look Like a Thing and I Love You: How Artificial Intelligence Works and Why It's Making the World a Weirder Place was released in November 2019.
 
 Selected publications
+
 Shane, Janelle C. (2008). "Control of Molecular Fragmentation Using Shaped Femtosecond Pulses". J. Phys. Chem. A. 112 (17): 3789–3812. Bibcode:2008JPCA..112.3789L. doi:10.1021/jp071691p. PMID 18433144.
+
 Shane, Janelle C. (2010). "Effect of pulse temporal shape on optical trapping and impulse transfer using ultrashort pulsed lasers". Optics Express. 18 (7): 7554–7568. Bibcode:2010OExpr..18.7554S. doi:10.1364/OE.18.007554. hdl:1885/101765. PMID 20389777.
+
 Shane, Janelle C. (2006). "Selective nonlinear optical excitation with pulses shaped by pseudorandom Galois fields". Phys. Rev. A. 74 (4) 041805. Bibcode:2006PhRvA..74d1805L. doi:10.1103/PhysRevA.74.041805.

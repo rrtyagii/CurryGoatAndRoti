@@ -1,6 +1,9 @@
 Baidu Fanyi is a service for translating text paragraphs and web pages provided by Baidu.
+
 In 2015, Baidu Translation won the second prize of China's National Science and Technology Progress Award.
 
 Supported languages
+
 Baidu translate has some languages that are missing from Google Translate, such as Cornish, albeit some of them are poor quality.
+
 As of November 2025, translation is available in 201 languages:

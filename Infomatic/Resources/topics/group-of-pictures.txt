@@ -1,6 +1,7 @@
 In video coding, a group of pictures, or GOP structure, specifies the order in which intra- and inter-frames are arranged. The GOP is a collection of successive pictures within a coded video stream. Each coded video stream consists of successive GOPs, from which the visible frames are generated. Encountering a new GOP in a compressed video stream means that the decoder doesn't need any previous frames in order to decode the next ones, and allows fast seeking through the video.
 
 Elements
+
 A GOP can contain the following picture types:
 
 I frame (intra coded picture, also by some sources incorrectly said to always be key frame, but you cannot always start with I frame and decode next frames cleanly) – a picture that is coded independently of all other pictures, each I frame can be decoded fully on its own. Each GOP begins (in decoding order) with this type of frame.
@@ -9,8 +10,11 @@ P frame (predictive coded picture) – contains motion-compensated difference in
 B frame (bipredictive coded picture) – contains motion-compensated difference information relative to previously decoded pictures. In older designs such as MPEG-1 and H.262/MPEG-2, each B frame can only reference two frames, the one which precedes the B frame in display order and the one which follows, and all referenced pictures must be I or P frames. These constraints do not apply in newer standards H.264/MPEG-4 AVC and HEVC. Sometimes, a codec will use unidirectional B-frames. This is a P-frame that, while it does not use data from a future frame, no other frames depend on it. A fundamental property of B-frames is that they can be dropped without affecting the correct decoding of other frames.
 D frame (DC direct coded picture) – serves as a fast-access representation of a frame for loss robustness or fast-forward. D frames are only used in MPEG-1 video.
 An I frame indicates the beginning of a GOP. Afterwards, several P and B frames follow. In older designs, the allowed ordering and referencing structure is relatively constrained.
+
 The I frames contain the full image and do not require any additional information to reconstruct them. Typically, encoders use GOP structures that cause each I frame to be a "clean random access point," such that decoding can start cleanly on an I frame and any errors within the GOP structure are corrected after processing a correct I frame.
+
 In the newer designs found in H.264/MPEG-4 AVC and HEVC, encoders have much more flexibility about referencing structures. They can use the same referencing structures as were previously used in older designs, or they can use more pictures as references and they can use more flexible ordering of the coding order relative to the display order. They are also allowed to use B frames as references when coding other (B or P) frames. This extra flexibility can improve compression efficiency, but it can cause propagation of errors if some data becomes lost or corrupted. One popular structure for use with the newer designs is the use of a hierarchy of B frames. Hierarchical B frames can provide very good compression efficiency and can also limit the propagation of errors, since the hierarchy can ensure that the number of pictures affected by any data corruption problem is strictly limited.
+
 Generally, the more I frames the video stream has, the more editable it is. However, having more I frames substantially increases bit rate needed to code the video.
 
 Structure
@@ -22,4 +26,5 @@ For the sequence IBBBBPBBBBPBBBB, GOP size N=15, anchor-distance M=5. There are 
 The GOP structure does not need to stay fixed throughout encoding. Varying N to insert an I-frame on scene change is a well-known technique. Newer techniques also vary M based on the amount of motion in the video.
 
 Additional concepts
+
 With H.264 and later designs which allow highly flexible reference structures, a B frame in one GOP is able to reference a frame in a different GOP, in particular even before the I frame, which makes I frame non-IDR (not a keyframe). A GOP that contains any such outward-referencing frame is known as an "open GOP". The opposite is a self-contained GOP, known as a "closed GOP".  In presentation order GOP can begin with a B-frame, but it cannot end with one. Open GOP starts with a B-frame and it is a little more efficient because starting with an I-frame means that an extra P-frame must be added to the end (a GOP cannot end with a B-frame).

@@ -1,10 +1,15 @@
 The Murderbot Diaries is a science fiction series by American author Martha Wells, published by Tor Books. The series is told from the perspective of the titular cyborg guard, a "SecUnit" owned by a futuristic megacorporation. SecUnits include "governor" modules that control and punish the constructs if they take any actions not approved by the company. The ironically self-named "Murderbot" hacked and disabled the module but pretends to be a normal SecUnit, staving off the boredom of security work by watching media. As it spends more time with a series of caring entities (both humans and artificial intelligences), it develops genuine friendships and emotional connections, which it finds inconvenient.
 
 Books
+
 Setting
+
 In an advanced largely hyper-capitalist space-faring society, travel between star systems is routine due to now-stable wormhole technology. Initially, wormhole travel was unreliable, but has since improved to the point where "lost" colonies are being found. People reside on planets, some of which have been terraformed, or on space habitats which have full life support and artificial gravity.  Most people who can afford it have technology that allows them to tap into ubiquitous data feeds supplying all kinds of information, including entertainment. This technology can be worn, or be implanted into the body.
+
 Sentient and semi-sentient artificial intelligences perform tasks such as operating starships, mining, controlling habitats, moving cargo, waging corporate warfare, providing physical pleasure and comfort, or security. Most of these purposes are fulfilled by "bots" of varying complexity and intelligence, but the last three are respectively performed by CombatUnits, ComfortUnits, and SecUnits. The characters and narrator of the book call these conscious entities "constructs", but they are functionally cyborgs (cybernetic organisms): part machine, part organic. A significant distinction, however, is that they are manufactured entities, not born and later modified.
+
 The Corporation Rim is a profit-oriented, cutthroat part of this society that indulges in espionage, assassination, indentured slavery, and ruthless exploitation of resources. One particular target of the corporations is illegal "alien remnant" exploitation. These remnants are often extremely dangerous to people and machines. The laws are enforced by other corporations.
+
 Outside the Corporation Rim are colonies, such as Preservation, that have established their right to exist under various laws that, at least for the time being, the corporations are unwilling to test.
 
 Wells noted in 2017 that All Systems Red, Artificial Condition, Rogue Protocol, and Exit Strategy "have an overarching story, with the fourth one bringing the arc to a conclusion".
@@ -22,73 +27,111 @@ Network Effect
 System Collapse
 
 All Systems Red (2017)
+
 A scientific expedition on an alien planet goes awry when one of its members is attacked by a giant native creature. She is saved by the expedition's SecUnit (Security Unit), a security construct with a mixture of robot and human features. The SecUnit has secretly hacked the governor module that allows it to be controlled by humans and has named itself Murderbot, as it is heavily armed and designed for combat. However, it prefers to spend its time watching space operas and is uncomfortable interacting with humans. The SecUnit has a vested interest in keeping its human clients safe and alive, since it wants to avoid discovery of its autonomy and has an especially grisly expedition on its record. Murderbot soon discovers that information regarding hazardous fauna has been deleted from their survey packet of the planet. Further investigation reveals that some sections of their maps are missing as well. Meanwhile, the PreservationAux survey team, led by Dr. Mensah, navigate their mixed feelings about the part machine, part human nature of their SecUnit. As members of an egalitarian, independent planet outside of the Corporation Rim, the survey team struggles with the system of indentured servitude (and in many cases de facto slavery) that the rim operates under.
+
 When they lose contact with the other known expedition, the DeltFall Group, Mensah leads a team to the opposite side of the planet to investigate. At the DeltFall habitat, Murderbot discovers that everyone there has been brutally murdered, and one of their three SecUnits has been destroyed. Murderbot disables the remaining two as they attack it but is surprised when two additional SecUnits appear. Murderbot destroys one, and Mensah takes the other.
+
 During these encounters, Murderbot is seriously injured. It also realizes that one of the rogue SecUnits has installed a combat override module into its neck. The Preservation scientists are able to remove it before it completes the data upload that would put Murderbot under the control of whoever has command over the other SecUnits. The team discovers that Murderbot is autonomous, and had once malfunctioned and murdered 57 people. The Preservation scientists mostly agree that, based on its protective behavior thus far, the SecUnit can be trusted. Remembering small incidents that now appear to be attempted sabotage, Murderbot and the group determine that there must be a third expedition on the planet, whose members are trying to eliminate DeltFall and Preservation for some reason. The Preservation scientists confirm that their HubSystem has been hacked. They flee their habitat before the mystery expedition they have dubbed EvilSurvey comes to kill them.
+
 The EvilSurvey team—GrayCris—leaves a message in the Preservation habitat inviting its scientists to meet at a rendezvous point to negotiate terms for their survival. Murderbot knows that GrayCris will never let them live, so the SecUnit formulates a plan. It makes an overture to GrayCris to negotiate for its own freedom, but this is a distraction while the Preservation scientists access the GrayCris HubSystem to activate their emergency beacon. The plan works, but Murderbot is injured protecting Mensah from the explosion of the launch.
+
 Later, the SecUnit finds itself repaired retaining its memories and disabled governor module. Mensah has bought its contract, and she plans to bring it back to Preservation's home base where it can legally live autonomously. Though grateful, Murderbot is reluctant to have its decisions made for it, and it slips away on a cargo ship.
 
 Artificial Condition (2018)
+
 Murderbot makes deals with bots piloting unmanned cargo ships to travel toward the mining facility where it once malfunctioned. It hopes to learn more about the initial incident in which it went rogue, of which it has little memory. Murderbot boards the final ship and discovers that the bot pilot is an unexpectedly powerful, intrusive artificial intelligence. They come to a tentative truce and watch media together during the final leg of the journey to RaviHyral, the station where the incident occurred. Murderbot learns the ship is a deep-space research vessel that is assigned cargo runs during downtime, which explains why the bot pilot is so sophisticated. Murderbot reluctantly allows this artificial intelligence—which it has dubbed ART (Asshole Research Transport) due to its sarcastic personality—to make physical modifications to the SecUnit's body that will better allow it to pass for an augmented human, and to disconnect the data port at the back of its neck which had been used to insert a combat override module in the previous book.
+
 To gain access to the RaviHyral facility, Murderbot takes a contract as a security consultant for three scientists who are meeting with their former employer, the head and namesake of Tlacey Excavations, to negotiate the return of their research, which they believe was illegally seized by the company. Their transport craft is sabotaged, but with ART's help, Murderbot is able to land it safely. Now aware that Tlacey is actively trying to kill the scientists rather than comply with their demands, Murderbot guides them through their meeting with Tlacey and thwarts another assassination attempt. Murderbot returns to the site of the massacre and learns that it was the result of another mining operation's sabotage attempt using malware, which made all of the facility's SecUnits go berserk. The facility's ComfortUnits—weaponless, anatomically correct constructs that are sometimes disparagingly called "sexbots"—died attempting to stop the massacre.
+
 Tlacey's ComfortUnit voices its desire for freedom and willingness to help Murderbot thwart Tlacey. While the SecUnit meets with a Tlacey employee to secretly retrieve a copy of the research, Tlacey abducts one of the scientists, Tapan. Murderbot goes after her, accepting a combat override module that is intended to control the SecUnit but actually has no effect, due to ART's modifications to the data port. Once inside Tlacey's shuttle, Murderbot neutralizes her guards and retrieves a wounded Tapan. Tlacey is killed, Tapan is healed by the MedSystem on ART's ship, and Murderbot hacks the governor module of the ComfortUnit to grant it its freedom. Murderbot sets off on its own.
 
 Rogue Protocol (2018)
+
 Murderbot makes its way to a recently abandoned GrayCris terraforming facility in orbit over the planet Milu to collect further evidence of the company's past crimes. Befriending a pet-like humanoid bot named Miki as a means to keep its presence hidden, the SecUnit secretly follows a team of humans sent to assess the facility before a new company takes possession of it. Murderbot is forced to reveal itself when the humans are attacked by a hostile combat robot and one of the researchers is captured. Hiding its lack of a governor module and pretending to have been sent by "Security Consultant Rin", Murderbot attempts to guide the humans—most of whom have never worked with a SecUnit before—while still seeming to defer to them. The exceptions are the team's hired security detail, Wilken and Gerth, who know Murderbot's capabilities as a SecUnit and are wary of it. They divide the team, Gerth taking two of the researchers back to their fellows on the shuttle, and Wilken leading Murderbot, Miki, and Miki's guardian Don Abene to rescue the hostage, Hirune. Aware of the failings of human security professionals, Murderbot conceives its own plan to rescue Hirune, which succeeds.
+
 The injured Murderbot comes upon Wilken attempting to kill Abene, but manages to hack into Wilken's combat armor and seize control of it. Theorizing that Wilken and Gerth had been secretly hired by GrayCris to destroy the facility before anyone could discover the illegal mining activities going on there, Murderbot leads Miki and the researchers back to the shuttle. Meanwhile, Wilken and Gerth have set in motion the destruction of the tractor array that is keeping the facility from breaking up in the atmosphere. Murderbot neutralizes Gerth's combat armor, Abene's team halts the destruction of the array, and the shuttle takes off as more hostile combat robots arrive. One forces its way in; Murderbot destroys it, but not before it destroys Miki. Murderbot decides to deliver the evidence to Dr. Mensah personally.
 
 Exit Strategy (2018)
+
 Murderbot is suspicious when the robot ship it has taken to HaveRatton Station is diverted to a dock near station security. Murderbot sneaks off the craft through a rear airlock, and soon confirms that an armed boarding team is waiting to storm the ship in search of a rogue SecUnit. Learning that Dr. Mensah has been accused of corporate espionage by GrayCris and is now missing, Murderbot determines that she has likely been abducted by the company and taken to the corporate hub at TranRollinHyfa. Murderbot realizes that its actions on Milu have put Mensah in danger, and notes the possibility that GrayCris is luring it to TranRollinHyfa, but goes anyway. Murderbot approaches the three members of Mensah's original expedition team—Ratthi, Pin-Lee, and Gurathin—who are there trying to amass the funds to pay the ransom GrayCris has demanded for Mensah. They hatch a plan wherein they will pretend to have the money and arrange for an exchange, as a means to draw Mensah out of the impenetrable security zone.
+
 The ruse more or less works, and Mensah's team flee to a shuttle while Murderbot moves to retrieve Mensah. Murderbot dispatches Mensah's captors easily, but a station-wide alarm is triggered before they can reach the shuttle. Three hostile SecUnits arrive. Murderbot convinces Mensah to escape, intending to sacrifice itself for her, and seizes control of all nearby drones and hauler bots to create chaos. Two members of Mensah's team (who have gotten off the shuttle) manage to manually open a gate for the injured Murderbot to escape. After the shuttle is picked up by the gunship, a Palisade security ship attacks the gunship with a computer virus intended to seize control of its systems, neutralize any augmented human crew, and open all the airlocks. Palisade also sends a boarding shuttle. Murderbot and the bot pilot hold off the worst effects of the malware and manage to isolate the virus in the shuttle Murderbot came aboard on, which they disengage from the gunship. With control of the gunship restored, the captain fires on and destroys all the other ships. Murderbot, having overextended itself in the battle, has a critical system failure, and collapses.
+
 After awakening in a med bay with Mensah and the team as they arrive at their home base, Preservation, Murderbot begins a lengthy self-repair process. Mensah and her team offer to shelter Murderbot until it is back up to 100 percent functionality and can decide what it wants to do next, even if it is just to watch media. The team invites Murderbot along on their upcoming expedition as their security detail, and Mensah later mentions that GoodNightLander—the contractor of Murderbot's Milu clients—also wants to hire "Security Consultant Rin". Murderbot is content to know that it has options.
 
 Network Effect (2020)
+
 Murderbot has been sent by Dr. Mensah on a research expedition that includes her daughter Amena, her brother-in-law Thiago, and Drs. Arada, Overse, and Ratthi. Their ship is set upon by a hostile transport vessel, into which Murderbot and Amena are dragged as the others flee in an escape pod. As the transport moves into a nearby wormhole, Murderbot hunts the grey-skinned humanoids in control of the ship, isolates Amena and the human captives Ras and Eletra in a safe zone, and begins to realize that the transport is the same one once controlled by its robot pilot friend ART.
+
 Arada and the others, who have followed the ship into the wormhole, are able to board as Murderbot finishes off the hostiles and manages to reload a deleted ART with a code phrase left for it. As Murderbot guessed, after being invaded by the grey raiders, ART sent them after the SecUnit ostensibly for use as a weapon, but really because ART determined that Murderbot could overcome them. Murderbot is enraged that ART would endanger the SecUnit's humans this way, and is further annoyed when ART insists that Murderbot and its human crew help find and recover the transport vessel's missing crew.
+
 Murderbot and its team descend to the planetary colony that seems to be at the center of the situation, and find that the colonists have been exposed to alien remnant contamination. They have developed the grey skin condition to varying degrees, and have separated into warring factions representing the least contaminated versus the most, who seem controlled by an alien hive mind. The missing crew have effected their own escape, and while Arada and her people help them, Murderbot is captured. ART begins firing missiles at the colony, demanding its release. Murderbot is rescued with the help of another SecUnit whose governor module it disabled, as well as a software version of itself set loose on the colony's defenses. The group returns to Preservation, and Murderbot decides to accompany ART and its crew on their next mission.
 
 Fugitive Telemetry (2021)
+
 Fugitive Telemetry is the sixth book published in the series, but chronologically it takes place before the fifth book, Network Effect.
+
 Much to the chagrin of the station's security team, Murderbot is asked by Dr. Mensah to investigate the murder of an unidentified traveler on the Preservation Station. An uneasy truce exists between Murderbot and Senior Station Security Officer Indah, and it has agreed to remain incognito and not hack private station systems while on board.
+
 Without access to security systems, Murderbot delves into good old-fashioned detective work, getting a bot at the traveler's hostel to help it locate the victim's rooms, then using the data to locate a transport in distress docked to the transit hub. After breaking into the transport (aided and abetted by Ratthi and Gurathin) and discovering the scene of the crime, Murderbot is told to continue investigating with Special Investigator Aylen. Aylen and an official from Port Authority locate a suspicious transport caught in the post-crime lockdown, and are trapped inside by hostiles. Luckily, a Port Authority bot named Balin jams the door open and Murderbot rescues them, taking the five transport hostiles into custody. Under questioning, the hostiles reveal that they are part of a refugee route, funneling slaves off a non-corporate-ring mining planet called BreharWallHan. The most recent batch of refugees were supposed to meet with the murdered traveler to continue their escape, and they are likely still on the station.
+
 Based on its help in the investigation, Senior Indah allows Murderbot to access the Station Security System. It determines that the refugees entered a storage module that only had enough oxygen for 24 hours. It also tries to find a leak in the security system, as surveillance footage has clearly been altered by someone internal, to no avail. Before it can investigate further, the module is located attached to another ship trapped in the lockdown. Murderbot takes an inflatable space "rescue dinghy" from the oldest part of the space station to retrieve the refugees. They are wary, but send a small group of children and parents back to the station. It becomes apparent that the bounty hunters who collected them are going to jettison the module into space and kill the remaining refugees, so Murderbot forces its way into their ship, disarms the bounty hunters, and allows station security to collect the remaining refugees safely. It is concerned that the bounty hunters have another SecUnit, which turns out to be a human in configured SecUnit armor.
+
 Once it returns to Preservation, and is almost crushed by a Port Authority crane, Murderbot figures out who has been seamlessly hacking the Security System. Murderbot returns to the Port Authority offices, evacuates the humans, and goes after the murderer: Balin the Port Authority Bot, whose exterior conceals a CombatBot controlled by the owners of BreharWallHan. This CombatBot fights with Murderbot until they fall into the central transit ring of the station, where Murderbot finds a small army of non-conflict bots from Preservation Station there as backup (including the bot from the hostel and a Port Authority bot which helped search for refugees). Knowing that it cannot defeat a SecUnit and a horde of non-lethal-but-unified bots, the CombatBot-that-was-Balin powers down. The mystery solved, Senior Indah offers to pay Murderbot for its services, and offers it future consulting work. It agrees, finding that it doesn't dread the task, but only "if it's really weird."
 
 System Collapse (2023)
+
 Following the events of Network Effect, a Barish-Estranza explorer, accompanied by their own SecUnits, arrives and engages in skirmishes with Murderbot, ART's crew, and the humans from Preservation. They independently discover a separatist group of colonists. This prompts them to take action to protect corporate interests and colonist freedoms, respectively.
+
 Murderbot establishes a connection with the newly discovered colony's legacy computer system. The Murderbot crew maneuvers for diplomatic advantage with the colonists, and they organize a media event to influence public opinion. We later learn the Barish-Estranza group is led by Supervisor Leonide, whom we last encountered in Network Effect. Tactical conflicts unfold, and it becomes apparent that Leonide faces internal dissent within the Barish-Estranza group, leading to an assassination attempt. From that point on she assists the Murderbot crew.
 Throughout the narrative, Murderbot grapples with a distracting event marked as <redacted>, affecting its performance, particularly in its internal narration. We learn that since the events of Network Effect, Murderbot experienced the construct equivalents of panic attacks and hallucinations, and recognizes the need for trauma recovery treatment.
 Confronted with the information gathered by the Murderbot crew, Barish-Estranza is compelled to abandon their claims to the planet. Preservation negotiates for study rights concerning the alien artifacts, and ongoing discussions between the colonist factions ensue. Murderbot decides to continue traveling with ART.
 
 Short stories
+
 "Compulsory"
+
 A Murderbot short story, "Compulsory", which takes place before All Systems Red, was published in Wired in 2018. It describes Murderbot's life after it hacked its governor module. A longer version, published by Subterranean Press on July 28, 2023, is also available as a stand-alone story.
+
 In the story, SecUnit deals with callous humans in an engagement prior to meeting the Preservation team.
 
 "Home: Habitat, Range, Niche, Territory"
+
 A second short story, "Home: Habitat, Range, Niche, Territory", taking place between Exit Strategy and Fugitive Telemetry, was published on Tor.com in 2021.
+
 In the story, Dr. Mensah examines the trauma inflicted on her by the kidnapping by GrayCris and the effect it has had on SecUnit.
 
 "Rapport: Friendship, Solidarity, Communion, Empathy"
+
 A Murderbot short story was published by Reactor (formerly Tor.com) in 2025. It features Perihelion (ART) and is set sometime between the second and fifth Murderbot books Artificial Condition and Network Effect.
 
 Related works
+
 "Obsolescence"
+
 "Obsolescence" takes place during the early colonization of Earth's solar system aboard an education space station in orbit near Jupiter. Published in "Take us to a Better Place: Stories" a collection of short stories on health published by The Robert Wood Johnson Foundation in 2019.
+
 In the story, an augmented human named Greggy is found dead on an education space station near Jupiter. Station manager Jixy investigates and finds Greggy has been brutally murdered and several augments from his body have been stolen by the killer. This story provides clues about the origins of SecUnits and the Corporate Rim society.
+
 While not officially considered part of The Murderbot Diaries series, "Obsolescence" is alluded to by SecUnit in Exit Strategy as a documentary that it watched, but dismissed as too unrealistic to be considered actual history.
 
 Reception
+
 Publishers Weekly wrote that Wells "gives depth to a rousing but basically familiar action plot by turning it into the vehicle by which SecUnit engages with its own rigorously denied humanity". The Verge likewise felt All Systems Red to be a "pretty basic story", but nonetheless "fun", and lauded Wells's worldbuilding. James Nicoll observed that the plot relies on "opportunistic corporate malevolence", and noted that only Murderbot's personality prevented the setting from being "unrelentingly grim".
+
 All Systems Red won the 2018 Nebula Award for Best Novella, the 2018 Hugo Award for Best Novella, and the American Library Association's Alex Award, and was nominated for the 2017 Philip K. Dick Award. The three following novellas had enough votes for the 2019 Hugo Award final ballot but Wells declined all nominations except for Artificial Condition, which won. Network Effect won the 2021 Nebula Award for Best Novel, the 2021 Hugo Award for Best Novel, and the 2021 Locus Award for Best Science Fiction Novel. The Murderbot Diaries won the 2021 Hugo Award for Best Series.  Wells turned down nominations of "Fugitive Telemetry" for both the Hugo and Nebula Awards in 2022.
 
 Adaptations
+
 Television series
 In 2021, Wells said that a potential TV series adaptation was in development, and that she had read the script and was "really excited about it". On December 14, 2023, Apple TV+, announced that it had ordered a television adaptation of the Murderbot series. Alexander Skarsgård starred in and executive-produced the series with Chris Weitz and Paul Weitz directing. In February 2024, David Dastmalchian was cast in the series, followed by Noma Dumezweni in March. In March 2024, Sabrina Wu, Tattiawna Jones, Akshay Khanna and Tamara Podemski were all cast in the series.
 Murderbot premiered in mid-2025 and was renewed for a second season.
 
 Audiobooks
+
 Two audiobook versions of the series have been released.
 
 A single-narrator recording, published by Recorded Books and narrated by Kevin R. Free.
+
 An abridged, full-cast dramatised recording, produced by GraphicAudio, with David Cui Cui voicing Murderbot.

@@ -1,3 +1,5 @@
 DUAL is a general cognitive architecture integrating the connectionist and symbolic approaches at the micro level. DUAL is based on decentralized representation and emergent computation. It was inspired by the Society of Mind idea proposed by Marvin Minsky, but departs from the initial proposal in many ways. Computations in DUAL emerge from the interaction of many micro-agents, each of which is a hybrid symbolic/connectionist device. The agents exchange messages and activation via links that can be learned and modified, they form coalitions which collectively represent concepts, episodes, and facts.
+
 Several models have been developed on the basis of DUAL. These include: AMBR (a model of analogy-making and memory), JUDGEMAP (a model of judgment), PEAN (a model of perception), etc.
+
 DUAL is developed by a team at the New Bulgarian University led by Boicho Kokinov. The second version was co-authored by Alexander Petrov. The third version is co-authored by Georgi Petkov and Ivan Vankov.

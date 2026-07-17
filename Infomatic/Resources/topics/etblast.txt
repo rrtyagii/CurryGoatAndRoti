@@ -10,4 +10,5 @@ NASA technical reports
 Virginia Tech class descriptions
 others of clinical interest
 eTBLAST searched citation databases and databases containing full-text such as PUBMED. It compared a user’s natural-text query with target databases utilizing a hybrid-search algorithm. The algorithm consisted of a low-sensitivity, weighted, keyword-based first pass followed by a novel second pass based on sentence alignment. eTBLAST later became a web-based service of The Innovation Laboratory at the Virginia Bioinformatics Institute.
+
 The text-similarity engine studied duplicate publications and potential plagiarism in biomedical literature. eTBLAST received thousands of random samples of Medline abstracts for a large-scale study. Those with the highest similarity were assessed then entered into an on-line database. The work revealed several trends including an increasing rate of duplication in the biomedical literature, according to prominent scientific journals Bioinformatics,Anaesthesia and Intensive Care, Clinical Chemistry, Urologic oncology, Nature, and Science.

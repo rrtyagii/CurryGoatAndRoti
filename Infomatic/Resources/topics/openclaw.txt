@@ -1,33 +1,49 @@
 OpenClaw is an open-source autonomous artificial intelligence (AI) personal assistant software that runs locally on user devices and integrates with messaging platforms. Originally released in November 2025 under the name Clawdbot, it was renamed Moltbot following a trademark request from Anthropic, before being renamed again to OpenClaw in early 2026.
+
 The software operates as an autonomous agent that can execute tasks through messaging platforms such as WhatsApp, Telegram, and Signal, enabling automated workflows across multiple services. The project gained rapid popularity, with its GitHub repository surpassing 100,000 stars within two months of release. Media coverage from Wired, CNET, Axios, and Forbes described its capabilities while also highlighting security and privacy concerns raised by cybersecurity researchers.
 
 History
+
 Initial release
+
 OpenClaw was developed by software engineer Peter Steinberger and released in late 2025 under the name Clawdbot. Two months after release, the project’s GitHub repository surpassed 100 thousand stars, becoming one of the fastest growing GitHub repositories ever.
 
 Rebranding
+
 The project was renamed Moltbot following a trademark request from Anthropic, which sought to avoid confusion with its Claude-branded AI products. The rebranding occurred within days of the project’s rapid increase in public usage.
+
 In early 2026, the project's developers adopted the name OpenClaw across its official website and public repositories. Despite the official rebranding, independent press coverage from Wired, CNET, Axios, and other media sources continued to refer to the project under its earlier name Moltbot.
 
 Development
+
 The project is released under the MIT License, allowing for unrestricted use, modification, and distribution of the source code. The open-source nature of the project enabled rapid community contributions, with developers creating integrations and extending functionality through publicly available repositories.
 
 Functionality
+
 The software integrates with external AI models and application programming interfaces (APIs) to perform tasks autonomously. According to its documentation, OpenClaw can manage calendars, send messages, conduct research, and automate workflows across supported services. Configuration data and interaction history are stored locally, enabling persistent behavior across sessions.
 
 Ecosystem
+
 The rapid growth of OpenClaw has led to the development of complementary projects and services built around the platform. Moltbook, an AI agent-exclusive social network, was launched in January 2026 to enable autonomous agents to interact with each other independently of human intervention. The platform allows human users to observe agent interactions but restricts direct participation.
+
 A website titled "Molthub" became a marketplace for bot capabilities which allowed developers to share and distribute skill modules that extend OpenClaw's functionality. These third-party modules enable integration with additional services and platforms beyond the core software's default capabilities.
 
 Security and privacy
+
 OpenClaw's design has drawn scrutiny from cybersecurity researchers and technology journalists due to the broad permissions it requires to function effectively. Because the software can access email accounts, calendars, messaging platforms, and other sensitive services, misconfigured or exposed instances present security and privacy risks. The software's requirement for elevated permissions to perform its intended functions creates a trade-off between capability and security exposure.
+
 Articles published by technology and cybersecurity outlets have identified potential vulnerabilities such as prompt injection, exposed administrative interfaces, and the storage of credentials in local configuration files. Several articles have emphasized that OpenClaw is primarily suited for advanced users who understand the security implications of running autonomous agents with elevated access.
+
 OpenClaw relies on the Model Context Protocol (MCP) to interface with over 100 third-party services, and the community develops additional skill modules. Security researchers have warned that the extensible nature of the architecture introduces supply chain risks, as compromised or poorly audited modules could enable privilege escalation or arbitrary code execution. Due to these concerns, some security guidance has recommended operating OpenClaw in isolated sandbox environments and avoiding connections to production systems or accounts containing sensitive credentials.
 
 Controversies and concerns
+
 Following the project's rapid rise in popularity, security researchers and technology journalists raised concerns about potential misuse and the emergence of scam attempts targeting users. The Forbes article "Moltbot Gets Another New Name, OpenClaw, And Triggers Security Fears And Scams" documented instances of fraudulent websites and unauthorized distributions claiming to offer the software.
+
 Technology publications noted concerns about the potential for malicious actors to exploit the software's broad system access and automation capabilities. Some commentary emphasized that while the tool itself is open source and developed with legitimate purposes, its powerful capabilities could be misused if deployed without appropriate security measures or understanding of the risks involved.
 
 Reception
+
 Coverage of the software has described it as highly capable while also noting potential security risks, likening it to an early example of consumer-facing autonomous AI agents. Reviews in technology publications have cited its flexibility and open-source licensing as strengths while cautioning that its complexity and security risks limit its suitability for casual users.
+
 Technology commentary has linked OpenClaw to a broader trend toward autonomous AI systems that act independently rather than merely responding to user prompts.

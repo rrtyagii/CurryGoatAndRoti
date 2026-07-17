@@ -1,7 +1,9 @@
 David Meir Blei is a professor in the Statistics and Computer Science departments at Columbia University. Prior to fall 2014 he was an associate professor in the Department of Computer Science at Princeton University. His work is primarily in machine learning.
 
 Research
+
 His research interests include topic models and he was one of the original developers of latent Dirichlet allocation, along with Andrew Ng and Michael I. Jordan. As of June 18, 2020, his publications have been cited 109,821 times, giving him an h-index of 116.
 
 Honors and awards
+
 Blei received the ACM Infosys Foundation Award in 2013. (This award is given to a computer scientist under the age of 45. It has since been renamed the ACM Prize in Computing.) He was named Fellow of ACM "For contributions to the theory and practice of probabilistic topic modeling and Bayesian machine learning" in 2015.

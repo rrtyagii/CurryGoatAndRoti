@@ -1,16 +1,25 @@
 Waabi is an artificial intelligence company developing self-driving technology. It is headquartered in Toronto, Ontario. The company was founded and is led by Raquel Urtasun, a University of Toronto professor and formerly chief scientist and head of research and development at Uber's Advanced Technologies Group. Waabi focuses on creating driving software modeled after the human brain.
 
 History
+
 Waabi was founded in 2021, with a focus on developing self-driving technology. Waabi means "she has vision" in Ojibwe and "simple" in Japanese.
+
 In 2023, the company partnered with Uber Freight on a fleet of autonomous trucks to make commercial deliveries starting between Dallas and Houston, with a safety driver at the wheel. In March 2024, Waabi and Nvidia announced a partnership to use the vehicle computing platform Nvidia Drive for generative AI-powered self-driving applications.
+
 In February 2025, Waabi announced a collaboration with Volvo Autonomous Solutions to jointly develop and deploy self-driving technology in Volvo's long-haul trucks. In October 2025, Waabi and Volvo announced the launch of the Volvo VNL Autonomous truck, which integrates Waabi Driver into Volvo's existing autonomous truck technology.
+
 In August 2025, former Uber Freight CEO Lior Ron joined Waabi as COO. He and Urtasun previously worked together for several years at Uber.
+
 In January 2026, Waabi announced a partnership with Uber to deploy 25,000 robotaxis on Uber's platform.
 
 Technology
+
 Waabi has developed an end-to-end AI system that can carry out complex reasoning, for autonomous vehicles. Rather than build systems that would require a large amount of road testing, the company created a simulator that could reason like a human and learn at scale. According to Urtasun, Waabi began with a focus on long-haul trucking due to the shortage of truck drivers and to address safety concerns in long-haul truck driving.
+
 Waabi World is a simulator launched in 2022. Its closed-loop simulator generates scenarios a self-driving vehicle could encounter in the real world, reducing the need for extensive real-world testing while minimizing costs and saving time.
+
 The Waabi Driver is the company's virtual driving system of software, sensors, and hardware. The company's Mixed Reality Testing enables Waabi Driver to drive autonomously down a physical test track, while experiencing simulated real-world scenarios.
 
 Funding
+
 On June 8, 2021, it was reported that Waabi had raised $83.5 million USD in a series A funding round led by Khosla Ventures, at the time the largest series A funding round in Canadian history. On June 18, 2024, Waabi announced that it had raised an additional $200 million USD in a series B funding round led by Uber and Khosla Ventures. On January 28, 2026, Waabi announced that it had raised an additional $1 billion ($750 million in a series C funding round, led by Khosla Ventures and G2 Venture Partners, and a new $250 million investment from Uber related to robotaxi deployment).

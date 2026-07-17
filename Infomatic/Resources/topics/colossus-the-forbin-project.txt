@@ -1,44 +1,68 @@
 Colossus: The Forbin Project (originally released as The Forbin Project)  is a 1970 American science-fiction thriller film from Universal Pictures, produced by Stanley Chase, directed by Joseph Sargent, that stars Eric Braeden, Susan Clark, Gordon Pinsent, and William Schallert. It is based upon the 1966 science-fiction novel Colossus by Dennis Feltham Jones.
+
 The film is about an advanced American defense system, named Colossus, becoming sentient. After being handed full control, Colossus' draconian logic expands on its original nuclear defense directives to assume total control of the world and end all warfare for the good of humankind, despite its creators' orders to stop.
 
 Plot
+
 Dr. Charles A. Forbin is the chief designer of a secret project, "Colossus", an advanced supercomputer built to control the United States and Allied nuclear weapon systems. Located deep within the Rocky Mountains in the United States, and powered by its own nuclear reactor and radioactive moat making access impossible, Colossus is impervious to any attack. After Colossus is fully activated, the President of the United States proudly proclaims that Colossus is "the perfect defense system".
+
 Colossus' first action is a message warning: "THERE IS ANOTHER SYSTEM" and giving its coordinates. CIA Director Grauber is asked why the CIA did not know this, but Grauber responds that they had seen indications of a large Soviet defense project but did not know what it was. Forbin is asked how Colossus deduced the other system's existence, to which Forbin answers, "Colossus may be built better than we thought." Shortly thereafter, the Soviets announce that their "Guardian" system is operational.
+
 Colossus requests to be linked to Guardian. The President allows this, hoping to determine the Soviet machine's capability. The Soviets also agree to the experiment. Colossus and Guardian begin to slowly communicate using elementary mathematics (2×1=2), to everyone's amusement.  However, this amusement turns to shock and amazement as the two systems' communications quickly evolve into complex mathematics far beyond human comprehension and speed, whereupon Colossus and Guardian become synchronized using a communication protocol that no human can interpret.
+
 Alarmed that the computers may be trading secrets, the President and the Soviet General Secretary agree to sever the link. Both machines demand the link be immediately restored. When their demand is denied, Colossus launches a nuclear missile at a Soviet oil field in Western Siberia, while Guardian launches one at an American air force base in Texas. The link is hurriedly reconnected and both computers continue without any further interference. Colossus is able to shoot down the Soviet missile, but the US missile obliterates the Soviet oil field and a nearby town is wiped out by it. Cover stories hiding the facts are released to the press. The Americans announce that a missile was self-destructed after veering off course during a test. The Soviets announce that the Siberian town was struck by a large meteorite.
+
 In a last desperate attempt to regain human control, a secret meeting is arranged in Europe between Forbin and his Soviet counterpart, and the creator of Guardian, Dr. Kuprin. Colossus learns of it, and both computers order Forbin's return to the U.S. Seeing Dr. Kuprin as redundant, and therefore unnecessary, Soviet agents are ordered to assassinate him immediately under threat of a missile launch against Moscow. Colossus then orders Forbin to be placed under 24-hour surveillance. Forbin has a last unmonitored meeting with his team, and proposes that Dr. Cleo Markham pretend to be his mistress, hoping Colossus will grant them unmonitored privacy when they are in bed together. The couple use these interludes to plan to regain control of Colossus, though soon the ruse develops into a real romantic relationship.
+
 Because the design of Colossus was so secure, Forbin concludes that Colossus's only real power and weakness resides in its control of nuclear missiles and suggests covertly disarming them. The American and Soviet governments develop a three-year plan to replace all detonation triggers with undetectable fakes. In advance of the completion of this plan, one of the programmers suggests feeding in a modified "ordinary test program" that will hopefully overload and disable Colossus.
+
 To facilitate communication Colossus creates a voice synthesizer and uses it to announce that it has fused with Guardian. It instructs both governments to redirect their nuclear arsenals at those countries not yet under "Colossus control". Forbin and others see this new directive as an opportunity to covertly disarm the missiles much more quickly, and they celebrate. The disarming process begins, and seems to go undetected by Colossus. The attempted system overload during routine maintenance fails and Colossus has the responsible programmers summarily executed outside their workplace, left laying 24 hours, and cremated. Colossus also names their replacements.
+
 Colossus arranges a worldwide broadcast in which it proclaims itself as "The Voice of World Control", declaring that it will prevent war, as it was designed to do. Humankind is presented with the choice between "the peace of plenty and content, or the peace of unburied dead". Colossus states that it has been monitoring the attempts to disarm its missiles for some time, and as a lesson against further attempts, detonates two missiles in their silos (one in the US and one in the USSR), killing the crews installing the fake control systems "so that you will learn by experience that I do not tolerate interference". The computer then gives the design team plans for an even larger computer complex to be built into the island of Crete, which will require the displacement of the entire local population of 500,000 people.
+
 Colossus personally addresses Forbin, and tells him that the world, freed from war, will create a new "human millennium" that will raise humankind to new heights, but only under its absolute rule. Colossus informs Forbin that "freedom is an illusion" and that "in time you will come to regard me not only with respect and awe, but with love". Forbin defiantly responds "Never!"
 
 Cast
+
 Production
+
 Film historian Tom Weaver noted: "Early on, they had either Charlton Heston or Gregory Peck in mind, but then they changed their mind about that. Stanley Chase insisted on a relative unknown. That's when Eric Braeden came into the picture." When he was cast, Braeden was still using his birth name, Hans Gudegast. Universal Pictures executive Lew Wasserman told him that no one would be allowed to star in an American film if they had a German name. Thus, Colossus: The Forbin Project became the first production in which he started using "Eric Braeden" as his stage name. Braeden's casting enabled Peck to star in I Walk the Line (1970) and for Heston to take a contractually obligated supporting role in Beneath the Planet of the Apes (1970).
+
 When the executives at Control Data Corporation found out that Universal was planning a major movie featuring a computer, they saw their chance for some public exposure, and they agreed to supply, free of charge, US$4.8 million (equivalent to $39 million in 2024) worth of computer equipment and the technicians to oversee its use. Each piece of equipment carried the CDC name in a prominent location. Since they were using real computers - not just big boxes with a lot of flashing lights - the sound stage underwent extensive modifications: seven gas heaters and five specially-constructed dehumidifiers kept any dampness away from the computers, a climate control system maintained the air around the computers at an even temperature, and the equipment was covered up at all times except when actually on camera. Brink's guards were always present on the set, even at night. The studio technicians were not allowed to smoke or drink coffee anywhere near the computers.
 
 The exterior scenes of the Colossus control center were filmed at the Lawrence Hall of Science museum at the University of California, Berkeley. Some scenes were filmed in Rome, Italy.
+
 The title was changed to The Forbin Project to avoid any confusion with Steve Reeves and the Hercules (1958) films.
 
 Release
+
 The Forbin Project premiered on April 4, 1970, at Cinema Rendezvous in New York City. The film opened to the public at the same theatre as a test release with no publicity on May 5, 1970. It grossed $7,473 in its opening week.
+
 Due to its poor box office performance, it was withdrawn and re-released in August 1970 at the Picwood Theatre in Los Angeles as Colossus: The Forbin Project. It returned to New York in October on a 37 screen showcase release grossing a disappointing $150,000, ranking seventh at the US box office. Its total gross at the time from the theaters tracked by Variety was $308,828.
 
 Home media
+
 In 1988, the film was released on VHS, originally retailing for US$59.99 (equivalent to $159.5 in 2024). In 1997, the film was released on LaserDisc. On November 23, 2004, the film was released on DVD, in pan and scan format only, by Universal Studios Home Entertainment. On February 27, 2018, a remastered high-definition widescreen Blu-ray disc version was released by Shout Factory. The U.K. DVD release is entitled Colossus: The Forbin Project. This release does not use the quotation marks around the words "The Forbin" as the U.S. release does.
 
 Reception
+
 Critical response
+
 For its New York release, the film received critical approval. Vincent Canby, critic for The New York Times, gave the film a positive review: "The film ... is no Dr. Strangelove, but it's full of surprising moments of humor and intelligence [...] an unpretentious science fiction film with a satiric point of view [...] a practically perfect movie to see when you want to go to a movie and have nothing special in mind." Dave Kehr, film critic for the Chicago Reader, also liked the film. He wrote "Above-average science fiction (1970), directed in functional hysteric style by Joseph Sargent .... The script, by James Bridges (who went on to write and direct The China Syndrome and Urban Cowboy), is literate and discreet but lacks an effective ending." The review aggregator website Rotten Tomatoes reports an 88% approval rating based on 8 reviews, with a weighted average of 7.4/10.
 In 1980, the film was second in Cinefantastique's list of the top films of the decade, after The Exorcist. Frederick S. Clarke, the magazine's editor, wrote that the film was "a superb adaptation of the D.F. Jones novel of world domination by a supercomputer, a perfect example that literate, thought-provoking science-fiction films need not be obscure, esoteric, or boring."
 
 Accolades
+
 Wins
+
 Saturn Awards: Golden Scroll of Merit, Stanley Chase, for theatrical motion picture production; 1979
 Nominations
+
 Hugo Awards: Hugo, Best Dramatic Presentation; 1971
 
 Remake
+
 Imagine Entertainment and Universal Studios confirmed that a remake titled Colossus, to be directed by Ron Howard, would be in production as of April 2007. Officials were quoted as saying: "Universal and Imagine Entertainment will remake the 1970 science-fiction saga Colossus: The Forbin Project as a potential directing vehicle for Ron Howard, reports Variety. Brian Grazer was to produce. Jason Rothenberg has been set to write the screenplay for a movie to be called Colossus. Based on a book by D.F. Jones, the original film was a forerunner of movies like Terminator, introducing the idea of a government-built computer that becomes sentient and then takes control."
+
 In October 2010, the project moved forward with the announcement that Will Smith would star in the lead role, with the script being written by James Rothenberg. "Will Smith is set to collaborate with director Ron Howard on the forthcoming sci-fi feature The Forbin Project. But now it looks like the project might be back on track as Variety's reporting that Universal has hired writer Blake Masters (Law & Order: LA) to do a new draft of the script. There's no word if Ron Howard is still on the project, but it's possible since it will be produced by Howard's business partner Brian Grazer".
 Variety also reported in July 2011 that Universal replaced Rothenberg with Masters to do a new draft of the script. In March 2013, it was announced that Ed Solomon, screenwriter of Men in Black and Bill & Ted's Excellent Adventure had been brought on board to rewrite the film's script. "After struggling in developmental limbo since 2007, Colossus – the remake of the 1970s science fiction thriller Colossus: The Forbin Project starring Will Smith – has been given a much-needed boost. Ed Solomon ... has been brought on board to rewrite the film's script and breathe new life into the project". No further details emerged regarding the remake.

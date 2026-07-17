@@ -1,2 +1,3 @@
 Semantic interpretation is an important component in dialog systems. It is related to natural language understanding, but mostly it refers to the last stage of understanding. The goal of interpretation is binding the user utterance to concept, or something the system can understand.
+
 Typically it is creating a database query based on user utterance.

@@ -1,12 +1,17 @@
 Antavo is a UK company marketing an AI-powered B2B loyalty platform to help companies develop and manage loyalty programs. It was founded in 2012 by Hungarian entrepreneurs Attila Kecsmár, Zsuzsa Kecsmár and Gábor Csarnai. Headquartered in London, its research base is in Szeged, Hungary.
 
 History
+
 Antavo was founded in 2012 by Attila Kecsmár, Zsuzsa Kecsmár and Gábor Csarnai with initial investors including Seedcamp. Antavo initially built software to enable companies to run promotional campaigns. The company eventually pivoted to focus on loyalty programs, winning an award for an early campaign it ran for the luxury fashion company Luisaviaroma.
+
 In 2022, it raised a series A funding round of €10 million. Its deck highlighted its no-code solutions for brands seeking accessible loyalty technology. In October 2024, Antavo gained attention for releasing an "AI avatar" based on an employee, intended to assist clients utilizing its software. According to Entrepreneur in February 2025, the company is balancing growth with stability in preparation for a series B.
 
 Product
+
 The company's primary offering is an API-based “AI Loyalty Cloud” software, which allows no-code building and management of loyalty programs. The platform powers rewards programs for major global corporations and brands including Brightline's Brightline Rewards, Rip Curl, KFC, BMW, Scandic Hotels, Yeo Valley, Whittard of Chelsea, and Flying Tiger Copenhagen.
+
 Antavo publishes their annual Global Customer Loyalty Report that surveys 10k consumers and 2.5k marketers annually, presenting industry trends in loyalty.
 
 Awards
+
 In May 2024. Antavo Co-founder Zsuzsa Kecsmár won the "Personality of the Year" at the International Loyalty Awards in Dubai, recognizing her role in making Antavo "the world's leading loyalty program technology provider." The company also holds a number of distinctions from technology analysts and review platforms. It is included in Gartner's Market Guide as a Representative Vendor for Loyalty Program Vendors and in Forrester's The Loyalty Platforms Landscape, Q3 2025 report.

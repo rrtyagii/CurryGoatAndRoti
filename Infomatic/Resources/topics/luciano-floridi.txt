@@ -1,44 +1,66 @@
 Luciano Floridi (Italian: ['floriːdi]; born 16 November 1964) is an Italian and British philosopher. He is John K. Castle Professor in the Practice of Cognitive Science and Founding Director of the Digital Ethics Center at Yale University. He is also a Professor of Sociology of Culture and Communication at the University of Bologna, Department of Legal Studies, where he is the director of the Centre for Digital Ethics. Furthermore, he is adjunct professor ("distinguished scholar in residence") at the Department of Economics, American University, Washington D.C.  He is married to the neuroscientist Anna Christina Nobre.
+
 Floridi is best known for his work on two areas of philosophical research: the philosophy of information, and information ethics (also known as digital ethics or computer ethics), for which he received many awards, including the Knight of the Grand Cross of the Order of Merit, Italy's most prestigious honor. According to Scopus, Floridi was the most cited living philosopher in the world in 2020.
+
 Between 2008 and 2013, he held the research chair in philosophy of information and the UNESCO Chair in Information and Computer Ethics at the University of Hertfordshire. He was the founder and director of the IEG, an interdepartmental research group on the philosophy of information at the University of Oxford, and of the GPI the research Group in Philosophy of Information at the University of Hertfordshire. He was the founder and director of the SWIF, the Italian e-journal of philosophy (1995–2008). He is a former Governing Body Fellow of St Cross College, Oxford.
 
 Early life and education
+
 Floridi was born in Rome in 1964, and studied at Rome University La Sapienza (laurea, first class with distinction, 1988), where he was originally educated as a historian of philosophy. He soon became interested in analytic philosophy and wrote his tesi di laurea (roughly equivalent to an M.A. thesis) in philosophy of logic, on Michael Dummett's anti-realism. He obtained his Master of Philosophy (1989) and PhD degree (1990) from the University of Warwick, working in epistemology and philosophy of logic with Susan Haack (who was his PhD supervisor) and Michael Dummett. Floridi's early student years are partly recounted in the non-fiction book The Lost Painting: The Quest for a Caravaggio Masterpiece, where he is "Luciano". During his graduate and postdoctoral years, he covered the standard topics in analytic philosophy in search of a new methodology. He sought to approach contemporary problems from a heuristically powerful and intellectually enriching perspective when dealing with lively philosophical issues. During his graduate studies, he began to distance himself from classical analytic philosophy. In his view, the analytic movement had lost its way. For this reason, he worked on pragmatism (especially Peirce) and foundationalist issues in epistemology and philosophy of logic, as well as the history of skepticism.
 
 Academic career and previous positions
+
 Floridi started his academic career as a lecturer in philosophy at the University of Warwick in 1990–1991. He joined the Faculty of Philosophy of the University of Oxford in 1990 and the OUCL (Oxford's Department of Computer Science) in 1999. He was junior research fellow (JRF) in philosophy at Wolfson College, Oxford University (1990–1994), a Frances Yates Fellow in the History of Ideas at the Warburg Institute, University of London (1994–1995) and Research Fellow in philosophy at Wolfson College, Oxford University (1994–2001). During these years in Oxford, he held lectureships in different Colleges. Between 1994 and 1996, he also held a post-doctoral research scholarship at the Department of Philosophy, University of Turin. Between 2001 and 2006, he was Markle Foundation Senior Research Fellow in Information Policy at the Programme in Comparative Media Law and Policy, Oxford University. Between 2002 and 2008, he was associate professor of logic at the Università degli Studi di Bari. In 2006, he became Fellow by Special Election of St Cross College, Oxford University, where he played for the squash team. In 2008, he was appointed full professor of philosophy at the University of Hertfordshire, to hold the newly established research chair in philosophy of information and, in 2009, the UNESCO Chair in Information and Computer Ethics, a position which he held until 2013, when he moved back to Oxford.
+
 In 2017, Floridi became a fellow of the Alan Turing Institute and the chair of its Data Ethics Group, holding these positions until 2021 and 2020, respectively.
+
 Since 2010 he has been editor-in-chief of Philosophy & Technology (Springer).
+
 In January 2023, Floridi announced he would move to Yale at the beginning of the academic year 2023–2024, to take over the position of founding director of the Yale Digital Ethics Center.
 
 Philosophical views
+
 One of Floridi's key contributions is his formulation of the 'Philosophy of Information' (PoI). The PoI provides a framework for understanding the nature of information and its role in the world. According to Floridi, information is a vital resource that shapes our knowledge and understanding of the world. It is not simply a neutral representation of reality but a part of the world, with its own properties, effects, and moral implications.
+
 Floridi's PoI has several key components including an 'ontology of information', which defines the nature of information, an 'ethics of information', which provides a framework for evaluating the moral implications of information and information technologies, an 'epistemology of information', that analyses the role of information in the development of knowledge and science, and a 'logic of information', the concentrates on the more formal aspects. The PoI also includes a theory of the 'information environment', the infosphere, which encompasses the physical, social, and cultural contexts in which information is produced, used, and communicated.
 
 Recognitions and awards
+
 2022 - Knight of the Grand Cross - First Class of the Order of Merit (Cavaliere di Gran Croce Ordine al Merito della Repubblica Italiana, the highest honor in the Italian Republic), awarded through a special decree by the president of the Italian Republic Sergio Mattarella for his work on the philosophy and ethics of information.
+
 2022 - Fellow of the Accademia delle Scienze dell'Istituto di Bologna
+
 2021 - Honorary Doctorate (Laurea honoris causa) in Informatics, University of Skövde, Sweden, for "his groundbreaking work on the philosophy of information".
+
 2020 - Premio Udine Filosofia, Mimesis Festival, for The Logic of Information (OUP, 2019)
 2020 - Premio Socrate, Cesare Landa Foundation, for philosophical communication
+
 2019 - CogX Award, for "outstanding achievement in ethics of AI"
+
 2019 - Gilbert Ryle Lectures, Trent University
+
 2019 - Premio Aretè "Maestro della Responsabilità", Nuvolaverde, Confindustria, Gruppo 24 Ore Salone della CSR e dell'innovazione sociale, for ethics of communication
 2018 - Thinker Award, IBM, for AI Ethics
+
 2018 - Premio Conoscenza, Conferenza dei Rettori delle Università Italiane (CRUI, equivalent of Universities UK), for achievements in research and communication about digital ethics
 2017 - Fellow of the Academy of Social Sciences
+
 2016 - J. Ong Award, Media Ecology Association, for The Fourth Revolution (OUP, 2016)
 2016 - Copernicus Scientist Award, Institute for Advanced Studies of the University of Ferrara, in recognition of research in the ethics and philosophy of information
 2015 - Fernand Braudel Senior Fellow, European University Institute
+
 2014-15 - Cátedras de Excelencia, University Carlos III of Madrid, for research in philosophy and ethics of information
 2013 - Member of the Académie Internationale de Philosophie des Sciences
+
 2013 - Fellow of the British Computer Society
+
 2013 - Weizenbaum Award, International Society for Ethics and Information Technology, for "very significant contribution to the field of information and computer ethics, through his research, service, and vision"
 2012 - Covey Award, International Association for Computing and Philosophy, for "outstanding research in computing and philosophy"
 2011-12 - Fellow, Center for Information Policy Research, University of Wisconsin–Milwaukee
 2011 - Honorary Doctorate (Laurea honoris causa) in philosophy, University of Suceava, Romania, for "his leading research in the philosophy and ethics of information"
 2011 - Fellow, World Technology Network, NY, in the category "ethics and technology"
 2010 - Vice Chancellor Research Award, University of Hertfordshire
+
 2009 - Fellow of the Society for the Study of Artificial Intelligence and the Simulation of Behaviour (AIBS)
 2009-10 - Gauss Professor of the Akademie der Wissenschaften, Göttingen, in recognition of research in the philosophy of information (first philosopher to receive the award, generally given to mathematicians or physicists)
 2009 - Barwise Prize, American Philosophical Association, for "outstanding research in ethics and philosophy of information"

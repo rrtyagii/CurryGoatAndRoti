@@ -1,23 +1,35 @@
 The United States government's Information Sharing and Customer Outreach office or ISCO was one of five directorates within the office of the chief information officer (CIO) under the Office of the Director of National Intelligence (ODNI).  ISCO changed its name and function to Information Technology Policy, Plans, and Requirements (ITPR) in July 2007.  Established by at least February 2006, ISCO is led by the Deputy Associate Director of National Intelligence for Information Sharing and Customer Outreach, which is currently Mr. Richard A. Russell. ISCO's information sharing and customer outreach responsibilities extend beyond the United States Intelligence Community and cross the entire U.S. government.
 
 History
+
 President George W. Bush issued Executive Order 13328  in February 2004 which established a bi-partisan commission to advise him on ways to improve the intelligence capabilities of the United States.  In June 2005, based on findings of the commission, the Director of National Intelligence was empowered to establish a CIO.  Another recommendation of the commission which was endorsed by the President established a Program Manager Information Sharing Environment for implementing an Information Sharing Environment (ISE) under the Director of National Intelligence. The ISE is defined in Section 1016 of IRTPA 2004, which requires the President to establish an Information Sharing Environment (ISE) "for the sharing of terrorism information in a manner consistent with national security and with applicable legal standards relating to privacy and civil liberties" and the IRTPA defines the ISE to mean "an approach that facilitates the sharing of terrorism information". Accordingly, ISCO was established at this time to support the PM ISE as a support Directorate within the ADNI CIO.
+
 The Intelligence Authorization Act for Fiscal Year 2007 was released on 25 May 2006.  This recognized the DNI's Chief Information Officer in order to better reflect his legislative responsibilities:
+
 The ADNI CIO Directorates formed were:
 
 Intelligence Community Governance;
+
 Intelligence Community Enterprise Architecture;
+
 Information Sharing and Customer Outreach;
+
 Intelligence Community Information Technology Management; and
+
 Enterprise Services.
+
 The Deputy Assistant Director for National Intelligence, DADNI for short, has established relations from the ISCO to various counterparts in government and industry.  Mr. Russell has spoken at several information sharing conferences and was a presenter at an ODNI sponsored Information Sharing Symposium, 21–24 August 2006. Mr. Russell has championed the use of Intellipedia throughout the Intelligence Community. ISCO has a distributed network of Customer Advocates throughout the Intelligence Community who work to identify and remove barriers to information sharing across the enterprise.  U.S. government stakeholders and their  partners in industry have begun to collaborate on the business of Information Sharing.
 
 Why it was created
+
 The Homeland Security Act of 2002 and the Intelligence Reform and Terrorism Prevention Act of 2004 mandated that policies be implemented to require the sharing of information across the Intelligence Community.
+
 Vision: "A fully integrated DNI entity dedicated to improving information sharing throughout the National Intelligence Enterprise and beyond, to include those engaged in protecting and securing America, its assets, and its people." - DADNI for Information Sharing and Customer Outreach.
+
 Mission: ISCO shall identify, develop, advocate and support improvements in the information sharing capabilities of Intelligence Community assets with the support of the PM ISE, DHS, DOJ, DoD, and other intelligence collectors, producers, and consumers, to assure all intelligence information is available to those who need it, when they need it.
 
 Functions
+
 Areas of responsibilities of the ISCO are:
 
 Identifying and responding to Intelligence Customer and DNI Needs
@@ -30,14 +42,21 @@ Interfacing with the Program Managers
 A primary function of the officers assigned to the ISCO is to provide customer advocacy for the Intelligence Community.  These officers are part of a distributed network of Customer Advocates spread throughout the entire U.S. government. 1st Anniversary Speech ISCO promotes and enforces the National Information Exchange Model or NIEM which sets forth a defined data standard for information sharing.
 
 Leadership
+
 Chief Information Officer
+
 The Intelligence Reform and Terrorism Prevention Act of 2004 established the position of the Associate Director of National Intelligence and Chief Information Officer (ADNI CIO). The ADNI CIO is charged with directing and managing activities relating to information technology for the Intelligence Community and the Office of the Director of National Intelligence.
+
 The ADNI CIO reports directly to the Director of National Intelligence and has four primary areas of responsibility:
 
 Manage activities relating to the information technology infrastructure and enterprise architecture of the Intelligence Community.
+
 Exercise procurement approval authority over all information technology items related to the enterprise architecture of all Intelligence Community components.
+
 Direct and manage all information technology-related procurement for the Intelligence Community.
+
 Ensure all expenditures for information technology and research and development activities are consistent with the Intelligence Community enterprise architecture and the strategy of the Director for such architecture.
+
 The current CIO is Maj. Gen. Dale Meyerrose, Ret.
 
 Principal Deputy Associate Director of National Intelligence and Deputy Chief Information Officer

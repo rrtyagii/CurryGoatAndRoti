@@ -1,10 +1,13 @@
 Active contour model, also called snakes, is a framework in computer vision introduced by Michael Kass, Andrew Witkin, and Demetri Terzopoulos for delineating an object outline from a possibly noisy 2D image. The snakes model is popular in computer vision, and snakes are widely used in applications like object tracking, shape recognition, segmentation, edge detection and stereo matching.
+
 A snake is an energy minimizing, deformable spline influenced by constraint and image forces that pull it towards object contours and internal forces that resist deformation. Snakes may be understood as a special case of the general technique of matching a deformable model to an image by means of energy minimization. In two dimensions, the active shape model represents a discrete version of this approach, taking advantage of the point distribution model to restrict the shape range to an explicit domain learnt from a training set.
 
 Snakes do not solve the entire problem of finding contours in images, since the method requires knowledge of the desired contour shape beforehand. Rather, they depend on other mechanisms such as interaction with a user, interaction with some higher level image understanding process, or information from image data adjacent in time or space.
 
 Motivation
+
 In computer vision, contour models describe the boundaries of shapes in an image. Snakes in particular are designed to solve problems where the approximate shape of the boundary is known. By being a deformable model, snakes can adapt to differences and noise in stereo matching and motion tracking. Additionally, the method can find Illusory contours in the image by ignoring missing boundary information.
+
 Compared to classical feature extraction techniques, snakes have multiple advantages:
 
 They autonomously and adaptively search for the minimum state.
@@ -20,24 +23,10 @@ Their accuracy depends on the convergence policy.
 Energy formulation
 A simple elastic snake is defined by a set of n points
 
-
-
-
-
             v
-
-
             i
-
-
-
-
     {\displaystyle \mathbf {v} _{i}}
-
  for
-
-
-
         i
         =
         0
@@ -47,483 +36,222 @@ A simple elastic snake is defined by a set of n points
         n
         −
         1
-
-
     {\displaystyle i=0,\ldots ,n-1}
 
 , the internal elastic energy term
 
-
-
-
           E
-
             internal
-
-
-
-
     {\displaystyle E_{\text{internal}}}
 
 , and the external edge-based energy term
 
-
-
-
           E
-
             external
-
-
-
-
     {\displaystyle E_{\text{external}}}
 
 . The purpose of the internal energy term is to control the deformations made to the snake, and the purpose of the external energy term is to control the fitting of the contour onto the image. The external energy is usually a combination of the forces due to the image itself
 
-
-
-
           E
-
             image
-
-
-
-
     {\displaystyle E_{\text{image}}}
-
  and the constraint forces introduced by the user
-
-
-
-
           E
-
             con
-
-
-
-
     {\displaystyle E_{\text{con}}}
-
 
 The energy function of the snake is the sum of its external energy and internal energy, or
 
-
-
-
-
           E
-
             snake
-
-
             ∗
-
-
         =
-
           ∫
-
             0
-
-
             1
-
-
-
           E
-
             snake
-
-
         (
-
           v
-
         (
         s
         )
         )
-
         d
         s
         =
-
           ∫
-
             0
-
-
             1
-
-
         (
-
           E
-
             internal
-
-
         (
-
           v
-
         (
         s
         )
         )
         +
-
           E
-
             image
-
-
         (
-
           v
-
         (
         s
         )
         )
         +
-
           E
-
             con
-
-
         (
-
           v
-
         (
         s
         )
         )
         )
-
         d
         s
-
-
     {\displaystyle E_{\text{snake}}^{*}=\int \limits _{0}^{1}E_{\text{snake}}(\mathbf {v} (s))\,ds=\int \limits _{0}^{1}(E_{\text{internal}}(\mathbf {v} (s))+E_{\text{image}}(\mathbf {v} (s))+E_{\text{con}}(\mathbf {v} (s)))\,ds}
 
 Internal energy
+
 The internal energy of the snake is composed of the continuity of the contour
 
-
-
-
           E
-
             cont
-
-
-
-
     {\displaystyle E_{\text{cont}}}
-
  and the smoothness of the contour
-
-
-
-
           E
-
             curv
-
-
-
-
     {\displaystyle E_{\text{curv}}}
 
 .
 
-
-
-
-
           E
-
             internal
-
-
         =
-
           E
-
             cont
-
-
         +
-
           E
-
             curv
-
-
-
-
     {\displaystyle E_{\text{internal}}=E_{\text{cont}}+E_{\text{curv}}}
-
 
 This can be expanded as
 
-
-
-
-
           E
-
             internal
-
-
         =
-
-
             1
             2
-
-
         (
         α
-
-
         (
         s
         )
-
-
             |
-
-
-
                   v
-
-
                   s
-
-
               (
               s
               )
-
             |
-
-
             2
-
-
         )
         +
-
-
             1
             2
-
-
         (
         β
-
-
         (
         s
         )
-
-
             |
-
-
-
                   v
-
-
                   s
                   s
-
-
               (
               s
               )
-
             |
-
-
             2
-
-
         )
         =
-
-
             1
             2
-
-
-
-
             (
-
-
         α
-
-
         (
         s
         )
-
-
             ‖
-
-
-
-
                     d
-
-
-
                           v
                           ¯
-
-
-
-
-
                     d
                     s
-
-
-
               (
               s
               )
-
             ‖
-
-
             2
-
-
         +
         β
-
-
         (
         s
         )
-
-
             ‖
-
-
-
-
-
                       d
-
                         2
-
-
-
-
-
                           v
                           ¯
-
-
-
-
-
                     d
-
                       s
-
                         2
-
-
-
-
-
               (
               s
               )
-
             ‖
-
-
             2
-
-
-
-
             )
-
-
-
-
     {\displaystyle E_{\text{internal}}={\frac {1}{2}}(\alpha \,\!(s)\left|\mathbf {v} _{s}(s)\right\vert ^{2})+{\frac {1}{2}}(\beta \,\!(s)\left|\mathbf {v} _{ss}(s)\right\vert ^{2})={\frac {1}{2}}{\bigg (}\alpha \,\!(s)\left\|{\frac {d{\bar {v}}}{ds}}(s)\right\Vert ^{2}+\beta \,\!(s)\left\|{\frac {d^{2}{\bar {v}}}{ds^{2}}}(s)\right\Vert ^{2}{\bigg )}}
-
 
 where
 
-
-
         α
         (
         s
         )
-
-
     {\displaystyle \alpha (s)}
-
  and
-
-
-
         β
         (
         s
         )
-
-
     {\displaystyle \beta (s)}
-
  are user-defined weights; these control the internal energy function's sensitivity to the amount of stretch in the snake and the amount of curvature in the snake, respectively, and thereby control the number of constraints on the shape of the snake.
 In practice, a large weight
 
-
-
         α
         (
         s
         )
-
-
     {\displaystyle \alpha (s)}
-
  for the continuity term penalizes changes in distances between points in the contour. A large weight
-
-
-
         β
         (
         s
         )
-
-
     {\displaystyle \beta (s)}
-
  for the smoothness term penalizes oscillations in the contour and will cause the contour to act as a thin plate.
 
 Image energy
+
 Energy in the image is some function of the features of the image. This is one of the most common points of modification in derivative methods. Features in images and images themselves can be processed in many and various ways.
+
 For an image
-
-
 
         I
         (
@@ -531,122 +259,55 @@ For an image
         ,
         y
         )
-
-
     {\displaystyle I(x,y)}
 
 , lines, edges, and terminations present in the image, the general formulation of energy due to the image is
 
-
-
-
-
           E
-
             image
-
-
         =
-
           w
-
             line
-
-
-
           E
-
             line
-
-
         +
-
           w
-
             edge
-
-
-
           E
-
             edge
-
-
         +
-
           w
-
             term
-
-
-
           E
-
             term
-
-
         ,
-
-
     {\displaystyle E_{\text{image}}=w_{\text{line}}E_{\text{line}}+w_{\text{edge}}E_{\text{edge}}+w_{\text{term}}E_{\text{term}},}
-
 
 where
 
-
-
-
           w
-
             line
-
-
-
-
     {\displaystyle w_{\text{line}}}
 
 ,
 
-
-
-
           w
-
             edge
-
-
-
-
     {\displaystyle w_{\text{edge}}}
 
 ,
 
-
-
-
           w
-
             term
-
-
-
-
     {\displaystyle w_{\text{term}}}
-
  are weights of these salient features. Higher weights indicate that the salient feature will have a larger contribution to the image force.
 
 Line functional
+
 The line functional is the intensity of the image, which can be represented as
 
-
-
-
-
           E
-
             line
-
-
         =
         I
         (
@@ -654,37 +315,18 @@ The line functional is the intensity of the image, which can be represented as
         ,
         y
         )
-
-
     {\displaystyle E_{\text{line}}=I(x,y)}
-
 
 The sign of
 
-
-
-
           w
-
             line
-
-
-
-
     {\displaystyle w_{\text{line}}}
-
  will determine whether the line will be attracted to either dark lines or light lines.
 Some smoothing or noise reduction may be used on the image, which then the line functional appears as
 
-
-
-
-
           E
-
             line
-
-
         =
         filter
         ⁡
@@ -696,28 +338,17 @@ Some smoothing or noise reduction may be used on the image, which then the line 
         y
         )
         )
-
-
     {\displaystyle E_{\text{line}}=\operatorname {filter} (I(x,y))}
 
 Edge functional
+
 The edge functional is based on the image gradient. One implementation of this is
 
-
-
-
-
           E
-
             edge
-
-
         =
         −
-
-
             |
-
               ∇
               I
               (
@@ -725,113 +356,50 @@ The edge functional is based on the image gradient. One implementation of this i
               ,
               y
               )
-
             |
-
-
             2
-
-
         .
-
-
     {\displaystyle E_{\text{edge}}=-\left|\nabla I(x,y)\right\vert ^{2}.}
-
 
 A snake originating far from the desired object contour may erroneously converge to some local minimum. Scale space continuation can be used in order to avoid these local minima. This is achieved by using a blur filter on the image and reducing the amount of blur as the calculation progresses to refine the fit of the snake. The energy functional using scale space continuation is
 
-
-
-
-
           E
-
             edge
-
-
         =
         −
-
-
             |
-
-
                 G
-
                   σ
-
-
               ⋅
-
                 ∇
-
                   2
-
-
               I
-
             |
-
-
             2
-
-
-
-
     {\displaystyle E_{\text{edge}}=-\left|G_{\sigma }\cdot \nabla ^{2}I\right\vert ^{2}}
-
 
 where
 
-
-
-
           G
-
             σ
-
-
-
-
     {\displaystyle G_{\sigma }}
-
  is a Gaussian with standard deviation
-
-
-
         σ
-
-
     {\displaystyle \sigma }
 
 . Minima of this function fall on the zero-crossings of
 
-
-
-
           G
-
             σ
-
-
-
-
           ∇
-
             2
-
-
         I
-
-
     {\displaystyle G_{\sigma }\,\nabla ^{2}I}
-
  which define edges as per Marr–Hildreth theory.
 
 Termination functional
+
 Curvature of level lines in a slightly smoothed image can be used to detect corners and terminations in an image. Using this method, let
-
-
 
         C
         (
@@ -839,15 +407,8 @@ Curvature of level lines in a slightly smoothed image can be used to detect corn
         ,
         y
         )
-
-
     {\displaystyle C(x,y)}
-
  be the image smoothed by
-
-
-
-
         C
         (
         x
@@ -855,12 +416,8 @@ Curvature of level lines in a slightly smoothed image can be used to detect corn
         y
         )
         =
-
           G
-
             σ
-
-
         ⋅
         I
         (
@@ -868,54 +425,26 @@ Curvature of level lines in a slightly smoothed image can be used to detect corn
         ,
         y
         )
-
-
     {\displaystyle C(x,y)=G_{\sigma }\cdot I(x,y)}
 
-
 with gradient angle
-
-
-
 
         θ
         =
         arctan
         ⁡
-
           (
-
-
-
                 C
-
                   y
-
-
-
                 C
-
                   x
-
-
-
-
           )
-
         ,
-
-
     {\displaystyle \theta =\arctan \left({\frac {C_{y}}{C_{x}}}\right),}
-
 
 unit vectors along the gradient direction
 
-
-
-
-
           n
-
         =
         (
         cos
@@ -927,24 +456,12 @@ unit vectors along the gradient direction
         θ
         )
         ,
-
-
     {\displaystyle \mathbf {n} =(\cos \theta ,\sin \theta ),}
-
 
 and unit vectors perpendicular to the gradient direction
 
-
-
-
-
-
             n
-
-
             ⊥
-
-
         =
         (
         −
@@ -957,807 +474,319 @@ and unit vectors perpendicular to the gradient direction
         θ
         )
         .
-
-
     {\displaystyle \mathbf {n} _{\perp }=(-\sin \theta ,\cos \theta ).}
-
 
 The termination functional of energy can be represented as
 
-
-
-
-
           E
-
             term
-
-
         =
-
-
-
               ∂
               θ
-
-
               ∂
-
                 n
-
                   ⊥
-
-
-
-
-
         =
-
-
-
-
                 ∂
-
                   2
-
-
               C
-
                 /
-
               ∂
-
                 n
-
                   ⊥
-
-
                   2
-
-
-
-
               ∂
               C
-
                 /
-
               ∂
               n
-
-
-
         =
-
-
-
-
                 C
-
                   y
                   y
-
-
-
                 C
-
                   x
-
-
                   2
-
-
               −
               2
-
                 C
-
                   x
                   y
-
-
-
                 C
-
                   x
-
-
-
                 C
-
                   y
-
-
               +
-
                 C
-
                   x
                   x
-
-
-
                 C
-
                   y
-
-
                   2
-
-
-
-
               (
-
                 C
-
                   x
-
-
                   2
-
-
               +
-
                 C
-
                   y
-
-
                   2
-
-
-
                 )
-
                   3
-
                     /
-
                   2
-
-
-
-
-
-
-
     {\displaystyle E_{\text{term}}={\partial \theta  \over \partial n_{\perp }}={\partial ^{2}C/\partial n_{\perp }^{2} \over \partial C/\partial n}={{C_{yy}C_{x}^{2}-2C_{xy}C_{x}C_{y}+C_{xx}C_{y}^{2}} \over (C_{x}^{2}+C_{y}^{2})^{3/2}}}
 
 Constraint energy
+
 Some systems, including the original snakes implementation, allowed for user interaction to guide the snakes, not only in initial placement but also in their energy terms. Such constraint energy
 
-
-
-
           E
-
             c
             o
             n
-
-
-
-
     {\displaystyle E_{con}}
-
   can be used to interactively guide the snakes towards or away from particular features.
 
 Optimization through gradient descent
+
 Given an initial guess for a snake, the energy function of the snake is iteratively minimized. Gradient descent minimization is one of the simplest optimizations which can be used to minimize snake energy. Each iteration takes one step in the negative gradient of the point with controlled step size
 
-
-
         γ
-
-
     {\displaystyle \gamma }
-
  to find local minima. This gradient-descent minimization can be implemented as
-
-
-
-
-
-
-
-
                 v
                 ¯
-
-
-
-
             i
-
-
         ←
-
-
-
-
                 v
                 ¯
-
-
-
-
             i
-
-
         +
-
           F
-
             snake
-
-
         (
-
-
-
-
                 v
                 ¯
-
-
-
-
             i
-
-
         )
-
-
     {\displaystyle {\bar {v}}_{i}\leftarrow {\bar {v}}_{i}+F_{\text{snake}}({\bar {v}}_{i})}
-
 
 Where
 
-
-
-
           F
-
             snake
-
-
         (
-
-
-
-
                 v
                 ¯
-
-
-
-
             i
-
-
         )
-
-
     {\displaystyle F_{\text{snake}}({\bar {v}}_{i})}
-
  is the force on the snake, which is defined by the negative of the gradient of the energy field.
-
-
-
-
-
           F
-
             snake
-
-
         (
-
-
-
-
                 v
                 ¯
-
-
-
-
             i
-
-
         )
         =
         −
         ∇
-
           E
-
             snake
-
-
         (
-
-
-
-
                 v
                 ¯
-
-
-
-
             i
-
-
         )
         =
         −
-
-
             (
-
-
-
           w
-
             internal
-
-
-
         ∇
-
           E
-
             internal
-
-
         (
-
-
-
-
                 v
                 ¯
-
-
-
-
             i
-
-
         )
         +
-
           w
-
             external
-
-
-
         ∇
-
           E
-
             external
-
-
         (
-
-
-
-
                 v
                 ¯
-
-
-
-
             i
-
-
         )
-
-
             )
-
-
-
-
     {\displaystyle F_{\text{snake}}({\bar {v}}_{i})=-\nabla E_{\text{snake}}({\bar {v}}_{i})=-{\Bigg (}w_{\text{internal}}\,\nabla E_{\text{internal}}({\bar {v}}_{i})+w_{\text{external}}\,\nabla E_{\text{external}}({\bar {v}}_{i}){\Bigg )}}
 
-
 Assuming the weights
-
-
 
         α
         (
         s
         )
-
-
     {\displaystyle \alpha (s)}
-
  and
-
-
-
         β
         (
         s
         )
-
-
     {\displaystyle \beta (s)}
-
  are constant with respect to
-
-
-
         s
-
-
     {\displaystyle s}
 
 , this iterative method can be simplified to
 
-
-
-
-
-
-
-
                 v
                 ¯
-
-
-
-
             i
-
-
         ←
-
-
-
-
                 v
                 ¯
-
-
-
-
             i
-
-
         −
         γ
-
-
             {
-
-
-
           w
-
             internal
-
-
-
-
             [
-
-
         α
-
-
-
-
                 ∂
-
                   2
-
-
-
-
-
                     v
                     ¯
-
-
-
-
-
               ∂
-
                 s
-
                   2
-
-
-
-
-
         (
-
-
-
-
                 v
                 ¯
-
-
-
-
             i
-
-
         )
         +
         β
-
-
-
-
                 ∂
-
                   4
-
-
-
-
-
                     v
                     ¯
-
-
-
-
-
               ∂
-
                 s
-
                   4
-
-
-
-
-
         (
-
-
-
-
                 v
                 ¯
-
-
-
-
             i
-
-
         )
-
-
             ]
-
-
         +
         ∇
-
           E
-
             ext
-
-
         (
-
-
-
-
                 v
                 ¯
-
-
-
-
             i
-
-
         )
-
-
             }
-
-
-
-
     {\displaystyle {\bar {v}}_{i}\leftarrow {\bar {v}}_{i}-\gamma {\Bigg \{}w_{\text{internal}}{\bigg [}\alpha {\frac {\partial ^{2}{\bar {v}}}{\partial s^{2}}}({\bar {v}}_{i})+\beta {\frac {\partial ^{4}{\bar {v}}}{\partial s^{4}}}({\bar {v}}_{i}){\bigg ]}+\nabla E_{\text{ext}}({\bar {v}}_{i}){\Bigg \}}}
 
 Discrete approximation
+
 In practice, images have finite resolution and can only be integrated over finite time steps
 
-
-
         τ
-
-
     {\displaystyle \tau }
 
 . As such, discrete approximations must be made for practical implementation of snakes.
+
 The energy function of the snake can be approximated by using the discrete points on the snake.
 
-
-
-
-
           E
-
             snake
-
-
             ∗
-
-
         ≈
-
           ∑
-
             1
-
-
             n
-
-
-
           E
-
             snake
-
-
         (
-
-
-
-
                 v
                 ¯
-
-
-
-
             i
-
-
         )
-
-
     {\displaystyle E_{\text{snake}}^{*}\approx \sum _{1}^{n}E_{\text{snake}}({\bar {v}}_{i})}
-
 
 Consequentially, the forces of the snake can be approximated as
 
-
-
-
-
           F
-
             snake
-
-
             ∗
-
-
         ≈
         −
-
           ∑
-
             i
             =
             1
-
-
             n
-
-
         ∇
-
           E
-
             snake
-
-
         (
-
-
-
-
                 v
                 ¯
-
-
-
-
             i
-
-
         )
         .
-
-
     {\displaystyle F_{\text{snake}}^{*}\approx -\sum _{i=1}^{n}\nabla E_{\text{snake}}({\bar {v}}_{i}).}
-
 
 Gradient approximation can be done through any finite approximation method with respect to s, such as Finite difference.
 
 Numerical instability due to discrete time
+
 The introduction of discrete time into the algorithm can introduce updates which the snake is moved past the minima it is attracted to; this further can cause oscillations around the minima or lead to a different minima being found.
+
 This can be avoided through tuning the time step such that the step size is never greater than a pixel due to the image forces. However, in regions of low energy, the internal energies will dominate the update.
+
 Alternatively, the image forces can be normalized for each step such that the image forces only update the snake by one pixel. This can be formulated as
 
-
-
-
-
           F
-
             image
-
-
         =
         −
         k
-
-
-
               ∇
-
                 E
-
                   image
-
-
-
-
               ‖
               ∇
-
                 E
-
                   image
-
-
               ‖
-
-
-
-
-
     {\displaystyle F_{\text{image}}=-k{\frac {\nabla E_{\text{image}}}{\|\nabla E_{\text{image}}\|}}}
-
 
 where
 
-
-
         τ
         k
-
-
     {\displaystyle \tau k}
-
  is near the value of the pixel size. This avoids the problem of dominating internal energies that arise from tuning the time step.
 
 Numerical instability due to discrete space
+
 The energies in a continuous image may have zero-crossing that do not exist as a pixel in the image. In this case, a point in the snake would oscillate between the two pixels that neighbor this zero-crossing. This oscillation can be avoided by using interpolation between pixels instead of nearest neighbor.
 
 Some variants of snakes
+
 The default method of snakes has various limitation and corner cases where the convergence performs poorly. Several alternatives exist which addresses issues of the default method, though with their own trade-offs. A few are listed here.
 
 GVF snake model
@@ -1767,652 +796,261 @@ poor convergence performance for concave boundaries
 poor convergence performance when snake is initialized far from minimum
 In 2D, the GVF vector field
 
-
-
-
           F
-
             GVF
-
-
-
-
     {\displaystyle F_{\text{GVF}}}
-
  minimizes the energy functional
-
-
-
-
-
           E
-
             GVF
-
-
         =
         ∬
         μ
         (
-
           u
-
             x
-
-
             2
-
-
         +
-
           u
-
             y
-
-
             2
-
-
         +
-
           v
-
             x
-
-
             2
-
-
         +
-
           v
-
             y
-
-
             2
-
-
         )
         +
-
           |
-
         ∇
         f
-
-
             |
-
-
             2
-
-
-
           |
-
-
           v
-
         −
         ∇
         f
-
-
             |
-
-
             2
-
-
-
         d
         x
-
         d
         y
-
-
     {\displaystyle E_{\text{GVF}}=\iint \mu (u_{x}^{2}+u_{y}^{2}+v_{x}^{2}+v_{y}^{2})+|\nabla f|^{2}|\mathbf {v} -\nabla f|^{2}\,dx\,dy}
-
 
 where
 
-
-
         μ
-
-
     {\displaystyle \mu }
-
  is a controllable smoothing term. This can be solved by solving the Euler equations
-
-
-
-
         μ
-
-
           ∇
-
             2
-
-
         u
         −
-
-
             (
-
-
         u
         −
-
-
             ∂
-
               ∂
               x
-
-
-
-
           F
-
             ext
-
-
-
-
             )
-
-
-
-
             (
-
-
-
-
             ∂
-
               ∂
               x
-
-
-
-
           F
-
             ext
-
-
         (
         x
         ,
         y
-
           )
-
             2
-
-
         +
-
-
             ∂
-
               ∂
               y
-
-
-
-
           F
-
             ext
-
-
         (
         x
         ,
         y
-
           )
-
             2
-
-
-
-
             )
-
-
         =
         0
-
-
     {\displaystyle \mu \,\nabla ^{2}u-{\Bigg (}u-{\frac {\partial }{\partial x}}F_{\text{ext}}{\Bigg )}{\Bigg (}{\frac {\partial }{\partial x}}F_{\text{ext}}(x,y)^{2}+{\frac {\partial }{\partial y}}F_{\text{ext}}(x,y)^{2}{\Bigg )}=0}
-
-
-
-
-
         μ
-
-
           ∇
-
             2
-
-
         v
         −
-
-
             (
-
-
         v
         −
-
-
             ∂
-
               ∂
               y
-
-
-
-
           F
-
             ext
-
-
-
-
             )
-
-
-
-
             (
-
-
-
-
             ∂
-
               ∂
               x
-
-
-
-
           F
-
             ext
-
-
         (
         x
         ,
         y
-
           )
-
             2
-
-
         +
-
-
             ∂
-
               ∂
               y
-
-
-
-
           F
-
             ext
-
-
         (
         x
         ,
         y
-
           )
-
             2
-
-
-
-
             )
-
-
         =
         0
-
-
     {\displaystyle \mu \,\nabla ^{2}v-{\Bigg (}v-{\frac {\partial }{\partial y}}F_{\text{ext}}{\Bigg )}{\Bigg (}{\frac {\partial }{\partial x}}F_{\text{ext}}(x,y)^{2}+{\frac {\partial }{\partial y}}F_{\text{ext}}(x,y)^{2}{\Bigg )}=0}
-
 
 This can be solved through iteration towards a steady-state value.
 
-
-
-
-
           u
-
             i
             +
             1
-
-
         =
-
           u
-
             i
-
-
         +
         μ
-
-
           ∇
-
             2
-
-
-
           u
-
             i
-
-
         −
-
-
             (
-
-
-
           u
-
             i
-
-
         −
-
-
             ∂
-
               ∂
               x
-
-
-
-
           F
-
             ext
-
-
-
-
             )
-
-
-
-
             (
-
-
-
-
             ∂
-
               ∂
               x
-
-
-
-
           F
-
             ext
-
-
         (
         x
         ,
         y
-
           )
-
             2
-
-
         +
-
-
             ∂
-
               ∂
               y
-
-
-
-
           F
-
             ext
-
-
         (
         x
         ,
         y
-
           )
-
             2
-
-
-
-
             )
-
-
-
-
     {\displaystyle u_{i+1}=u_{i}+\mu \,\nabla ^{2}u_{i}-{\Bigg (}u_{i}-{\frac {\partial }{\partial x}}F_{\text{ext}}{\Bigg )}{\Bigg (}{\frac {\partial }{\partial x}}F_{\text{ext}}(x,y)^{2}+{\frac {\partial }{\partial y}}F_{\text{ext}}(x,y)^{2}{\Bigg )}}
-
-
-
-
-
-
           v
-
             i
             +
             1
-
-
         =
-
           v
-
             i
-
-
         +
         μ
-
-
           ∇
-
             2
-
-
-
           v
-
             i
-
-
         −
-
-
             (
-
-
-
           v
-
             i
-
-
         −
-
-
             ∂
-
               ∂
               y
-
-
-
-
           F
-
             ext
-
-
-
-
             )
-
-
-
-
             (
-
-
-
-
             ∂
-
               ∂
               x
-
-
-
-
           F
-
             ext
-
-
         (
         x
         ,
         y
-
           )
-
             2
-
-
         +
-
-
             ∂
-
               ∂
               y
-
-
-
-
           F
-
             ext
-
-
         (
         x
         ,
         y
-
           )
-
             2
-
-
-
-
             )
-
-
-
-
     {\displaystyle v_{i+1}=v_{i}+\mu \,\nabla ^{2}v_{i}-{\Bigg (}v_{i}-{\frac {\partial }{\partial y}}F_{\text{ext}}{\Bigg )}{\Bigg (}{\frac {\partial }{\partial x}}F_{\text{ext}}(x,y)^{2}+{\frac {\partial }{\partial y}}F_{\text{ext}}(x,y)^{2}{\Bigg )}}
-
 
 This result replaces the default external force.
 
-
-
-
-
           F
-
             ext
-
-
             ∗
-
-
         =
-
           F
-
             GVF
-
-
-
-
     {\displaystyle F_{\text{ext}}^{*}=F_{\text{GVF}}}
-
 
 The primary issue with using GVF is the smoothing term
 
-
-
         μ
-
-
     {\displaystyle \mu }
-
  causes rounding of the edges of the contour. Reducing the value of
-
-
-
         μ
-
-
     {\displaystyle \mu }
-
  reduces the rounding but weakens the amount of smoothing.
 
 The balloon model
@@ -2421,192 +1059,84 @@ The balloon model addresses these problems with the default active contour model
 The snake is not attracted to distant edges.
 The snake will shrink inwards if no substantial images forces are acting upon it.
 a snake larger than the minima contour will eventually shrink into it, but a snake smaller than the minima contour will not find the minima and instead continue to shrink.
+
 The balloon model introduces an inflation term into the forces acting on the snake
 
-
-
-
-
           F
-
             inflation
-
-
         =
-
           k
-
             1
-
-
-
-
-
               n
               →
-
-
-
         (
         s
         )
-
-
     {\displaystyle F_{\text{inflation}}=k_{1}{\vec {n}}(s)}
-
 
 where
 
-
-
-
-
-
               n
               →
-
-
-
         (
         s
         )
-
-
     {\displaystyle {\vec {n}}(s)}
-
  is the normal unitary vector of the curve at
-
-
-
         v
         (
         s
         )
-
-
     {\displaystyle v(s)}
-
  and
-
-
-
-
           k
-
             1
-
-
-
-
     {\displaystyle k_{1}}
-
  is the magnitude of the force.
-
-
-
-
           k
-
             1
-
-
-
-
     {\displaystyle k_{1}}
-
  should have the same magnitude as the image normalization factor
-
-
-
         k
-
-
     {\displaystyle k}
-
  and be smaller in value than
-
-
-
         k
-
-
     {\displaystyle k}
-
  to allow forces at image edges to overcome the inflation force.
 Three issues arise from using the balloon model:
 
 Instead of shrinking, the snake expands into the minima and will not find minima contours smaller than it.
+
 The outward force causes the contour to be slightly larger than the actual minima. This can be solved by decreasing the balloon force after a stable solution has been found.
+
 The inflation force can overpower forces from weak edges, amplifying the issue with snakes ignoring weaker features in an image.
 
 Diffusion snakes model
+
 The diffusion snake model addresses the sensitivity of snakes to noise, clutter, and occlusion. It implements a modification of the Mumford–Shah functional and its cartoon limit and incorporates statistical shape knowledge. The default image energy functional
 
-
-
-
           E
-
             image
-
-
-
-
     {\displaystyle E_{\text{image}}}
-
  is replaced with
-
-
-
-
-
           E
-
             image
-
-
             ∗
-
-
         =
-
           E
-
             i
-
-
         +
         α
-
           E
-
             c
-
-
-
-
     {\displaystyle E_{\text{image}}^{*}=E_{i}+\alpha E_{c}}
-
 
 where
 
-
-
-
           E
-
             i
-
-
-
-
     {\displaystyle E_{i}}
-
  is based on a modified Mumford–Shah functional
-
-
-
-
         E
         [
         J
@@ -2614,525 +1144,209 @@ where
         B
         ]
         =
-
-
             1
             2
-
-
-
           ∫
-
             D
-
-
         (
         I
         (
-
-
-
               x
               →
-
-
-
         )
         −
         J
         (
-
-
-
               x
               →
-
-
-
         )
-
           )
-
             2
-
-
-
         d
-
-
-
               x
               →
-
-
-
         +
         λ
-
-
             1
             2
-
-
-
           ∫
-
             D
-
               /
-
             B
-
-
-
-
-
               ∇
               →
-
-
-
         J
         (
-
-
-
               x
               →
-
-
-
         )
         ⋅
-
-
-
               ∇
               →
-
-
-
         J
         (
-
-
-
               x
               →
-
-
-
         )
-
         d
-
-
-
               x
               →
-
-
-
         +
         ν
-
           ∫
-
             0
-
-
             1
-
-
-
-
             (
-
-
-
-
             d
-
               d
               s
-
-
-
         B
         (
         s
         )
-
-
-
               )
-
-
-
             2
-
-
-
         d
         s
-
-
     {\displaystyle E[J,B]={\frac {1}{2}}\int _{D}(I({\vec {x}})-J({\vec {x}}))^{2}\,d{\vec {x}}+\lambda {\frac {1}{2}}\int _{D/B}{\vec {\nabla }}J({\vec {x}})\cdot {\vec {\nabla }}J({\vec {x}})\,d{\vec {x}}+\nu \int _{0}^{1}{\Bigg (}{\frac {d}{ds}}B(s){\Bigg )}^{2}\,ds}
-
 
 where
 
-
-
         J
         (
-
-
-
               x
               →
-
-
-
         )
-
-
     {\displaystyle J({\vec {x}})}
-
  is the piecewise smooth model of the image
-
-
-
         I
         (
-
-
-
               x
               →
-
-
-
         )
-
-
     {\displaystyle I({\vec {x}})}
-
  of domain
-
-
-
         D
-
-
     {\displaystyle D}
 
 . Boundaries
 
-
-
         B
         (
         s
         )
-
-
     {\displaystyle B(s)}
-
  are defined as
-
-
-
-
         B
         (
         s
         )
         =
-
           ∑
-
             n
             =
             1
-
-
             N
-
-
-
-
-
-
                 p
                 →
-
-
-
-
             n
-
-
-
           B
-
             n
-
-
         (
         s
         )
-
-
     {\displaystyle B(s)=\sum _{n=1}^{N}{\vec {p}}_{n}B_{n}(s)}
-
 
 where
 
-
-
-
           B
-
             n
-
-
         (
         s
         )
-
-
     {\displaystyle B_{n}(s)}
-
  are quadratic B-spline basis functions and
-
-
-
-
-
-
-
                 p
                 →
-
-
-
-
             n
-
-
-
-
     {\displaystyle {\vec {p}}_{n}}
-
  are the control points of the splines. The modified cartoon limit is obtained as
-
-
-
         λ
         →
         ∞
-
-
     {\displaystyle \lambda \to \infty }
-
  and is a valid configuration of
-
-
-
-
           E
-
             i
-
-
-
-
     {\displaystyle E_{i}}
 
 .
+
 The functional
 
-
-
-
           E
-
             c
-
-
-
-
     {\displaystyle E_{c}}
-
  is based on training from binary images of various contours and is controlled in strength by the parameter
-
-
-
         α
-
-
     {\displaystyle \alpha }
 
 . For a Gaussian distribution of control point vectors
 
-
-
-
-
-
               z
               →
-
-
-
-
-
     {\displaystyle {\vec {z}}}
-
  with mean control point vector
-
-
-
-
-
-
-
                 z
                 →
-
-
-
-
             0
-
-
-
-
     {\displaystyle {\vec {z}}_{0}}
-
  and covariance matrix
-
-
-
         Σ
-
-
     {\displaystyle \Sigma }
-
  , the quadratic energy that corresponds to the Gaussian probability is
-
-
-
-
-
           E
-
             c
-
-
         (
-
-
-
               z
               →
-
-
-
         )
         =
-
-
             1
             2
-
-
         (
-
-
-
               z
               →
-
-
-
         −
-
-
-
-
                 z
                 →
-
-
-
-
             0
-
-
-
           )
-
             t
-
-
-
           Σ
-
             ∗
-
-
         (
-
-
-
               z
               →
-
-
-
         −
-
-
-
-
                 z
                 →
-
-
-
-
             0
-
-
         )
-
-
     {\displaystyle E_{c}({\vec {z}})={\frac {1}{2}}({\vec {z}}-{\vec {z}}_{0})^{t}\Sigma ^{*}({\vec {z}}-{\vec {z}}_{0})}
-
 
 The strength of this method relies on the strength of the training data as well as the tuning of the modified Mumford–Shah functional. Different snakes will require different training data sets and tunings.
 
 Geometric active contours
+
 Geometric active contour, or geodesic active contour (GAC) or conformal active contours employs ideas from Euclidean curve shortening evolution. Contours split and merge depending on the detection of objects in the image. These models are largely inspired by level sets, and have been extensively employed in medical image computing.
+
 For example, the gradient descent curve evolution equation of GAC is
-
-
-
-
-
-
 
               ∂
               C
-
-
               ∂
               t
-
-
-
         =
         g
         (
@@ -3143,170 +1357,79 @@ For example, the gradient descent curve evolution equation of GAC is
         +
         κ
         )
-
-
-
               N
               →
-
-
-
         −
         ⟨
-
         ∇
         g
         ,
-
-
-
               N
               →
-
-
-
         ⟩
-
-
-
               N
               →
-
-
-
-
-
     {\displaystyle {\frac {\partial C}{\partial t}}=g(I)(c+\kappa ){\vec {N}}-\langle \,\nabla g,{\vec {N}}\rangle {\vec {N}}}
-
 
 where
 
-
-
         g
         (
         I
         )
-
-
     {\displaystyle g(I)}
-
  is a halting function, c is a Lagrange multiplier,
-
-
-
         κ
-
-
     {\displaystyle \kappa }
-
  is the curvature, and
-
-
-
-
-
-
               N
               →
-
-
-
-
-
     {\displaystyle {\vec {N}}}
-
  is the unit inward normal. This particular form of curve evolution equation is only dependent on the velocity in the normal direction. It therefore can be rewritten equivalently in an Eulerian form by inserting the level set function
-
-
-
         Φ
-
-
     {\displaystyle \Phi }
-
  into it as follows
-
-
-
-
-
-
-
               ∂
               Φ
-
-
               ∂
               t
-
-
-
         =
-
           |
-
         ∇
         Φ
-
           |
-
         div
         ⁡
-
-
             (
-
-
         g
         (
         I
         )
-
-
-
               ∇
               Φ
-
-
-
                 |
-
               ∇
               Φ
-
                 |
-
-
-
-
-
-
             )
-
-
         +
         c
         g
         (
         I
         )
-
           |
-
         ∇
         Φ
-
           |
-
-
-
     {\displaystyle {\frac {\partial \Phi }{\partial t}}=|\nabla \Phi |\operatorname {div} {\Bigg (}g(I){\frac {\nabla \Phi }{|\nabla \Phi |}}{\Bigg )}+cg(I)|\nabla \Phi |}
 
-
 This simple yet powerful level-set reformation enables active contours to handle topology changes during the gradient descent curve evolution. It has inspired tremendous progress in the related fields, and using numerical methods to solve the level-set reformulation is now commonly known as the level-set method. Although the level set method has become quite a popular tool for implementing active contours, Wang and Chan argued that not all curve evolution equations should be directly solved by it.
+
 More recent developments in active contours address modeling of regional properties, incorporation of flexible shape priors and fully automatic segmentation, etc.
+
 Statistical models combining local and global features have been formulated by Lankton and Allen Tannenbaum.
 
 Relations to graph cuts
+
 Graph cuts, or max-flow/min-cut, is a generic method for minimizing a particular form of energy called Markov random field (MRF) energy. The Graph cuts method has been applied to image segmentation as well, and it sometimes outperforms the level set method when the model is MRF or can be approximated by MRF.

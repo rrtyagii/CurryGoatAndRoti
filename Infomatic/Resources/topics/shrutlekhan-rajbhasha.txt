@@ -1,2 +1,3 @@
 Shrutlekhan-Rajbhasha is a Hindi language speech recognition software application developed by C-DAC in collaboration with IBM . It takes Hindi sound as input and converts to Devanagari text as output.
+
 One drawback of this software is that if mixed English–Hindi dictation is given, it can recognize Hindi words but can not recognize English words. Another variant of this software is Vachantar-Rajbhasha, which takes English sound as input, converts it to English text and then translates it to Hindi using MANTRA-Rajbhasha translation engine.

@@ -1,6 +1,9 @@
 Jeeney AI is a natural language processing  chatterbot.
 
 History
+
 Jeeny AI was named "Best Overall Bot" in the 2009 Chatterbox Challenge, after ranking seventh, but being the "Best New Entry" in the previous year.
+
 Jeeney is modeled on a modified form of Plato's 'Philosopher King' ideal, and remains a non-commercial application available for users to engage with through a text-based interface.
+
 In 2010 Jeeney starred in experimental documentary movie Artificial Insight.

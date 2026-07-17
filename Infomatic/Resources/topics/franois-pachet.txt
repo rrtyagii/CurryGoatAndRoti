@@ -1,26 +1,42 @@
 François Pachet (born 10 January 1964) is a French scientist, composer and director of the Spotify Creator Technology Research Lab. Before joining Spotify he led Sony Computer Science Laboratory in Paris. He is one of the pioneers of computer music closely linked to artificial intelligence, especially in the field of machine improvisation and style modelling. He has been elected ECCAI Fellow in 2014.
 
 Education
+
 Pachet graduated from École des ponts ParisTech in Civil Engineering, and Computer Science in 1987, majoring Applied Mathematics. He spent 18 months as lecturer at Kuala Lumpur at the University of Malaya in 1987–1988. He obtained a PhD from Pierre and Marie Curie University
 in Computer Science, (His thesis was "Knowledge representation with objects and rules: the NéOpus system", supervised by Jean-François Perrot).
+
 He spent 1 year as post-doc in Montréal at Université du Québec à Montréal, where he worked on the Cyc project Common sense representation, Douglas Lenat, MCC), with the help of Hafedh Mili professor at UQAM.
+
 In 1997, he got his habilitation diploma on the subject: "Object-oriented languages and knowledge representation" at University Pierre et Marie Curie.
+
 He was auditeur at the 58th national session of Institut des Hautes Etudes en Défense Nationale, in 2006, and was appointed Colonel in 2007 in the "réserve citoyenne" (French Air Force).
 
 Experiences
+
 In 1993, he was appointed Assistant Professor (in French, "Maitre de conférences"), at Pierre and Marie Curie University until 1997 in Computer Science, Research and Teaching.
+
 In 1997, Pachet moved to Sony-CSL (Computer Science Laboratory) Paris. He started a research activity on music and artificial intelligence. His team has authored and pioneered many technologies (about 35 patents) about electronic music distribution, audio feature extraction and music interaction.
+
 He was appointed director of Sony Computer Science Laboratories in 2014. The CSL (the branch of Sony-CSL Tokyo) is dedicated to basic research in computer science; it was created by Luc Steels and Mario Tokoro in 1996.
+
 Since 2017, he is director of Spotify's Creator Research Technology Lab in Paris, where he develops tools for assisting music creation.
 
 Achievements
+
 The Music team at Sony Computer Science Laboratory Paris was founded in 1997 by Pachet, where he developed the vision that metadata can greatly enhance the musical experience, from listening to performance.
+
 The Flow Composer is his second achievement, a system to compose lead sheets in the style of arbitrary composers. It was followed by LSDB, the first collecting lead sheets in electronic format with a large-scale effort (Over 11,000 lead sheets collected); and Virtuoso, a solo jazz detector. The "Popular Music Browser" project, which started in 1998, at Sony Computer Science Laboratories This research project covers all areas of the music‐to‐listener chain, from music description, descriptor extraction from the music signal, or data mining techniques, Similarity‐based access, and novel music retrieval methods such as automatic sequence generation, and to user interface issues.
+
 Moreover, he has designed the Continuator, a system allowing real-time musical improvisation with an algorithm. He is now the beneficiary of the ERC Grant Flow Machines for investigating how machines can boost creativity in humans and be able to continue a work in the same musical style. Pachet wants a future in which consumers could buy the unique style of an artist and apply it to their own material; he says, "I call it 'Stylistic Cryogenics' -- to freeze the style into an object that can be reused and made alive again".
+
 The MusicSpace is a spatialization control system created with O. Delerue in 2000.
+
 Another achievement is CUIDADO (Content-based Unified Interfaces and Descriptors for Audio/music Databases available Online), a two-year project ended in 2003, on developing content-based, audio modules and applications; the project includes the analysis, the navigation and creative process. This project is satisfying the needs of record labels and copyright societies for Information management methods, for marketing and for protecting their informations, using an Authoring system using content features for professional musicians and studios. Moreover, in 2014, Pachet presented two music tutorials on Brazilian guitar and Jazz.
+
 His most notable achievement is the Continuator, an interactive music improvisation system. Experimented with many
 professional musicians, presented notably at the SIGGRAPH’03 conference and
 considered a reference in the domain of music interaction, an example of a Musical Turing test with the Continuator on VPRO Channel with Jazz Pianist jazz Albert van Veenendaal (Amsterdam).
+
 ARTE presents Pachet on Square Idée "Demain, devenir Wagner ou Daft Punk?", (Tomorrow, become Wagner or Daft Punk?) October 2015. Pachet writes about using CP techniques to model style in music and text for ACP (Association for Constraints Programming), in September 2015.
+
 In 2017 he produced and released a multi-artist album, Hello World, composed with Artificial Intelligence.

@@ -1,5 +1,7 @@
 iSocket is a smart device brand created by iSocket Systems in 2010. iSocket sends a text message to the user in case of a power outage or other events in a remote location, such as temperature changes, water or gas leaks, or break-ins.
 iSocket was created in 2010 by iSocket Systems CEO Denis Sokol. The company is based in Varkaus, Finland. Sokol claims that iSocket was the first smart plug for power outage alerts in the world.
+
 Considered a part of the Internet of things, iSocket was one of the two winners of the Thread Group Innovation Enabler Program for connected homes in the third quarter of 2015.
 iSocket uses a cellular radio and a SIM card and contains a small battery backup so that it can stay powered long enough to alert the user of a power interruption. The socket may include a temperature sensor to monitor temperature during the cold season to avoid frozen pipes. It also sends a message when the power is restored. iSocket can be controlled via SMS or a phone call.
+
 Motion, door, smoke, heat, and gas sensors can be connected to iSocket within Ceco Home, the company's home monitoring system.

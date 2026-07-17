@@ -1,4 +1,7 @@
 The Microsoft Speech Server is a product from Microsoft designed to allow the authoring and deployment of IVR applications incorporating Speech Recognition, Speech Synthesis and DTMF.
+
 The first version of the server was released in 2004 as Microsoft Speech Server 2004 and supported applications developed for U.S. English-speaking users. A later release (Speech Server 2004 R2) was released in 2005 and added support for North American Spanish and Canadian French as well as additional features and fixes.
+
 In August 2006, Microsoft announced that Speech Server 2007, originally slated to be released in May 2007, had been merged with the Microsoft Office Live Communications Server product line[1] to create Microsoft Office Communications Server.
+
 The Speech Server 2007 components of Office Communications Server are also available separately in the free Speech Server 2007 Developers Edition.

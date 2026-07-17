@@ -1,56 +1,82 @@
 Spectacles are standalone AR glasses developed and released by Snap Inc. The most recent, fifth generation release features a 46 degree stereo display, adjustable tint, and Snapdragon processors. They run the Snap OS operating system, which is controlled using hand-tracking and voice input. Snap OS allows users to interact with AR software called Lenses which are available for a variety of purposes, such as learning, gameplay, and utility.
+
 Spectacles feature built-in cameras and sensors to enable hand-based interactions in both Snap OS and Lenses, track spatial placement of people and environments, and record AR-enhanced video. They also feature built in batteries for untethered use.
+
 The first Spectacles were released in 2016 and have undergone numerous revisions and upgrades since.
 
 Snap OS
+
 Snap OS is the proprietary operating system for Spectacles. It powers the user interface and navigation system of the hardware. Snap OS also powers Lenses, which can be single-person or multi-person, allowing users to connect multiple Spectacles together for a shared experience.
 
 History
+
 In December 2014 Snap Inc., then Snapchat Inc., acquired Vergence Labs  the developers of the Epiphany Eyewear smartglasses. Vergence Labs was founded by entrepreneur Erick Miller in 2011 before Google Glass was announced. Miller worked on the idea as a graduate student at UCLA and poured his life savings into building the product. Snapchat was impressed with the Epiphany Eyewear product and the great team assembled by Miller, and acquired Vergence to develop a similar eyewear product.
+
 Epiphany Eyewear which recorded wide-angle point-of-view videos, had been positioned as Vergence's first step toward eventually building full featured augmented reality glasses which, according to Miller, would someday "give people what would previously be called superpowers".  However, due to Vergence's small engineering team (consisting of founder ceo Erick Miller, co-founder Jon Rodriguez, software engineer Peter Brook, and designer / mechanical engineer David Meisenholder), the company had to scale back its ambitions in order to ship its simpler first product, Epiphany Eyewear, which the team was able to successfully ship despite their extremely limited funding and team size.  The successful development and launch of their product led to the company being noticed by Snapchat, which quietly acquired them, bringing them in-house to develop a similar but much more refined eyewear product for Snapchat.
+
 In October 2015, a leaked online video showed an early version of the new glasses, dubbed "Spectacles." on mid 2016, news outlets reported that Snapchat was hiring engineers from Microsoft, Nokia and Qualcomm. Reporters speculated that the hires were to build the new glasses.
+
 The new product was unveiled on September 24, 2016, and released on November 10, 2016. The glasses were sold through Snapbot, a proprietary vending machine for the smartglasses, which was located near Snap's headquarters in Venice, Los Angeles.
+
 In May 2017, a Snapchat patent became public which included an illustration of a hypothetical future version of Spectacles with augmented reality capabilities.
+
 In late 2017, Snapchat wrote off $40m worth of unsold Spectacles inventory and unused parts. As of May 2018, the company sold 220,000 pairs, which was less than initially expected. In April 2018, the company launched Spectacles 2.0, which included additional colors, lighter frames, the option of mirrored lenses, and the removal of the bright yellow ring around the camera window.
+
 In June 2018, Snap released an update for Spectacles allowing users to export videos from the glasses in square or widescreen format.
+
 In November 2018, it was reported that the company would release a new version of Spectacles by year end 2018 that included two cameras. The Snap Spectacles 3, which did feature two HD cameras on-device, were ultimately announced in August 2019.
+
 In May 2021, Snap announced its first AR-based product called Spectacles 4. The AR effects are officially referred to as Lenses and feature dual 3D waveguide display with a 26.3-degree diagonal field of view. It runs on the Qualcomm Snapdragon XR1 chip and has 2 RGB cameras, 4 microphones, and 2 stereo speakers. Snap claimed to have more than 250,000 Lens creators who created 2.5 million Lenses altogether. AR experiences available on the glasses as of December 2021 included "a zombie chase, a pong game, Solar System projection, and an interactive art piece." Additionally, according to The Verge, "Another new software update brings Connected Lenses to Spectacles, letting multiple pairs interact with the same Lens when sharing a Wi-Fi network."
+
 On September 17th, 2024, the fifth generation Spectacles AR glasses were unveiled by Snap Inc. CEO Evan Spiegel at the company's Snap Partner Summit event. This version of Spectacles was notable for being fully standalone (i.e. not requiring a phone tether or physical cable connection), for incorporating see-through waveguide displays, and for its advanced environment and hand tracking capabilities. The release also marked the introduction of Snap OS, a dedicated operating system for Spectacles.
+
 In June 2025, Snap revealed that they will start selling a consumer version of their AR glasses in 2026, branded as Specs.
 
 First Generation
+
 The first generation Spectacles were released in 2016 and featured a built-in camera to allow users to capture first-person video. They shipped with a case that was capable of both protecting and charging Spectacles by means of a built-in battery.
 
 Second Generation
+
 The second generation Spectacles were released in 2018 and made several key enhancements to the first generation, including an improved form factor, better image quality, and water resistance. Two additional variants, named Nico and Veronica, were released later in 2018 and offered alternative styles.
 
 Third Generation
+
 The third generation Spectacles, released in 2019, featured two HD cameras and a stainless steel construction. This allowed them to capture photos and videos which could be viewed stereoscopically using an included 3D Viewer. They shipped with a soft charging case that could collapse when not in use for easier storage.
 
 Fourth Generation
+
 The fourth generation Spectacles, released in 2021, were the first to feature a built-in display. This display allowed them to run Lenses. The display was designed to work both indoors and outside and the glasses also featured built-in cameras, microphones, speakers, and a touchpad for input, output, and computer vision.
 
 Fifth Generation
+
 The fifth and current generation Spectacles, released to developers in 2024, included many updates to the display quality, spatial tracking, and more. It runs standalone, uses a portrait oriented 46 degree diagonal field of view with a 37 pixel-per-degree resolution as well as new Snap-built Spatial and Optical engines. Along with this release, came Snap OS. The operating system that Spectacles now run on.
 
 Sixth Generation
 Snap announced it will be releasing a sixth, consumer-focused generation of Spectacles in 2026.
 
 Design
+
 Hardware
+
 The current generation of Spectacles features the following:
 
 Camera: Four cameras that power spatial understanding, machine learning, and enable seamless hand tracking.
+
 Display: A 46 degree diagonal field of view display with a 37 pixel-per-degree resolution, along with see-through lenses that adjust tint based on ambient light.
+
 Controls: Physical button controls have evolved to include hand and voice command interfaces in the latest model.
 
 Software History
+
 Spectacles are designed to allow users to interact with and create content.
 
 Recording: Users can capture photos and videos, which sync directly to their Snapchat accounts.
+
 AR Lenses: The introduction of Snap OS in the fifth generation allows for immersive augmented reality experiences.
 
 Distribution and Availability
+
 Later generations of Spectacles (fourth and fifth generation) have been primarily distributed only to developers and creators to encourage the development of AR content. As of April 2025, the fifth generation Spectacles are available in the following countries:
 
 United States
@@ -61,4 +87,5 @@ The Netherlands
 Spain
 
 Snapbot
+
 A Snapbot is a pop-up vending machine developed and manufactured by Snap Inc. It was designed for the distribution of Spectacles. Snapbot first appeared on November 10, 2016, in Venice, Los Angeles, and was then located in Big Sur, California. Snapbot was relocated to different locations in the U.S. for several months after the release of Spectacles. In February 2017, Snapchat began selling Spectacles online.

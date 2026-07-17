@@ -1,2 +1,3 @@
 The Distributed Artificial Intelligence Research Institute (or DAIR Institute) is a research institute founded by Timnit Gebru in December 2021. The institute announced itself as "an independent, community-rooted institute set to counter Big Tech’s pervasive influence on the research, development and deployment of AI."
+
 In February 2023, two other members of Google's Ethical AI research group, researcher Alex Hanna and developer Dylan Baker, left Google to join DAIR.

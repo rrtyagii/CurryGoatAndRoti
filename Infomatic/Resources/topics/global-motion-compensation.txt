@@ -1,15 +1,23 @@
 Global motion compensation (GMC) is a motion compensation technique used in video compression to reduce the bitrate required to encode video. It is most commonly used in MPEG-4 ASP, such as with the DivX and Xvid codecs.
 
 Operation
+
 Global motion compensation describes the motion in a scene based on a single affine transform instruction. The reference frame is panned, rotated and zoomed in accordance to GMC warp points to create a prediction of how the following frame will look. Since this operation works on individual pixels (rather than blocks), it is capable of creating predictions that are not possible using block-based approaches.
+
 Each macroblock in such a frame can be compensated using global motion (no further motion information is then signalled) or, alternatively, local motion (as if GMC were off). This choice, while costing an additional bit per macroblock, can improve prediction quality and therefore reduce residual.
+
 Because the transforms used in global motion compensation are only added to the encoding stream when used, they do not have a constant bitrate overhead. A predicted frame which uses GMC is called an S-frame (sprite frame) while a predicted frame encoded without GMC is called either a P-frame, if it was predicted purely by previous (past) frames, or a B-frame if it was predicted jointly with past and future frames (an unpredicted frame encoded as a whole image is referred to as an I-frame).
 
 Implementations
+
 DivX offers 1 warp-point GMC encoding: This enables easier hardware support in DivX certified and non-certified devices.
+
 But as 1 warp-point GMC limits the global transform to panning operation only (since panning can be described using blocks), this implementation rarely improves video quality.
+
 Xvid offers 3 warp-point GMC encoding: As a result, it currently has no hardware support.
 
 Criticism
+
 GMC failed to meet expectations of dramatic improvements in motion compensation, and as a result it was omitted from the H.264/MPEG-4 AVC specification - designed as a successor to MPEG-4 ASP. Most of GMC's benefits could be obtained via better motion vector prediction. GMC also represents a large computational cost during encoding while yielding relatively minor quality improvements.
+
 Due to the extra decoding CPU cost of global motion compensation, most hardware players do not support global motion compensation.

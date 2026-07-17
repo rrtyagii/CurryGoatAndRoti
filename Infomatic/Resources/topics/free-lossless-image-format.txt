@@ -1,16 +1,25 @@
 Free Lossless Image Format (FLIF) is a lossless image format claiming to outperform PNG, lossless WebP, lossless BPG and lossless JPEG 2000 in terms of compression ratio on a variety of inputs.
+
 FLIF supports a form of progressive interlacing (a generalization of the Adam7 algorithm) with which any partial download (greater than couple hundred bytes) of an image file can be used as a lossy encoding of the entire image.
+
 Jon Sneyers, one of the developers of FLIF, since combined it with ideas from various lossy compression formats to create a successor called the Free Universal Image Format (FUIF), which itself was combined with Google's PIK format to create JPEG XL. As a consequence, FLIF is no longer being developed.
 
 History
+
 The format was initially announced publicly in September 2015, with the first alpha release occurring about a month later, in October 2015.
+
 The first stable version of FLIF was released in September 2016.
 
 Design
+
 For compression, FLIF uses MANIAC (Meta-Adaptive Near-zero Integer Arithmetic Coding), a variant of CABAC where the contexts are nodes of decision trees which are dynamically learned at encode time.
+
 FLIF uses the reversible YCoCg color space (unlike Y′CBCR that loses some color information to rounding errors, independently of its use in otherwise lossy JPEG). Not yet implemented are some features, e.g. other "color spaces (CMYK, YCbCr, ...)". The color space conversion is faster, but the overall decoding (and encoding) is still slower than it needs to be, or some of the competition, even with the better color space as that is only a small fraction of the overall process. The format supports an optional alpha channel (RGBA) like PNG (but unlike JPEG); and progressive coding, similar to PNG (unlike it, progressive compression doesn't increase file-size), but as FLIF's algorithm is more complex (and partly, may not have had as much tuning of the implementation yet), it has a higher computational cost; at least lower bandwidth requirements can offset some of that extra time. Progressive coding reduces FLIF's performance.
+
 FLIF supports grayscale, RGB and RGBA with color depth of 1 to 16 bits per channel.
+
 FLIF has some tuning parameters which can result in differently sized images. All of the images are still lossless. A flifcrush tool is also available to achieve the minimal size.
+
 Lossy compression can be achieved by preprocessing. The process is deterministic and does not cause generation loss.
 
 Support

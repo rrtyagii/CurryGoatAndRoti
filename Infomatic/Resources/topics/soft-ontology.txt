@@ -1,19 +1,27 @@
 The term "soft ontology", coined by Eli Hirsch in 1993, refers to the embracing or reconciling of apparent ontological differences, by means of relevant distinctions and contextual analyses.
 
 Overview
+
 Hirsch used the term to broaden and expand on what William James discussed in his landmark 1907 work in epistemology, Pragmatism.  James gave a now famous example of  dispute over a squirrel:
 
 The corpus of the dispute was a squirrel--a live squirrel supposed to be clinging to one side of a tree-trunk; while over against the tree's opposite side a human being was imagined to stand. This human witness tries to get sight of the squirrel by moving rapidly round the tree, but no matter how fast he goes, the squirrel moves as fast in the opposite direction, and always keeps the tree between himself and the man, so that never a glimpse of him is caught. The resultant metaphysical problem now is this: DOES THE MAN GO ROUND THE SQUIRREL OR NOT?
 
 James' solution was that by clarifying "pragmatically" whether "around" meant traversing north/east/south/west of something versus traversing left/right/before/behind something, the dispute was readily solvable.
+
 Hirsch actually calls James' example a "verbal" dispute and explains, at some length, the connection between verbal and soft ontological disagreements (they are, according to Hirsch, partly but not completely overlapping sets of problems).
+
 Soft ontological dilemmas are contrasted with hard ones—those which would not admit of translation, reconciliation, or overlap, and would instead require a systematic or paradigmatic shift of one's ontology.  One can choose to construct a hard or soft ontology, depending on the flexibility one intends to obtain.
+
 Other related terms in philosophy and in cognitive science include "ontological relativity" (as in Quine) and "cognitive relativism" (as in Jack Meiland).
 
 Computer science (unrelated terminology)
+
 Soft ontology, as proposed in computer science circles by Aviles et al. (2003), is a definition of a domain in terms of a flexible set of ontological dimensions. It can be regarded as a subclass of ontologies as they are conceived of in computer science, in Gruber's terms (1993) as definitions of conceptualization. Unlike standard ontologies, the approach allows the number of its constitutive concepts to increase or decrease dynamically, any subsets of the ontology to be taken into account at a time, or the order their mutual weight or priority to vary in a graded manner so as to allow different ontological perspectives.
+
 Where conventional ontologies describe or interpret the conceptualization of a domain from a prioritized perspective, the soft ontology approach transfers the task of interpretation to the observer, user or learner, depending on the context. (see Weak ontology)
 
 Application areas in the information sciences
+
 The approach is particularly applicable for expert practices that intend to present raw content or data without presenting any authoritative taxonomy or categorization. It also serves to support neutrality for domains such as ethics, politics, aesthetics or philosophy, in which there may not exist a single authorized conceptualization or truth, or it may be instrumental to present a range of perspectives to the domain.
+
 Soft ontologies also result inherently from user-defined ontology practices, such as folksonomies or tagging practices ("tagsonomies"), characteristic of many contemporary user-driven media genres.

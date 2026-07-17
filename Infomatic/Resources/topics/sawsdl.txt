@@ -1,2 +1,3 @@
 Semantic Annotations for WSDL and XML Schema (SAWSDL) is a 2007 published technical recommendation of W3C in the context of Semantic Web framework:
+
 SAWSDL defines a set of extension attributes for the Web Services Description Language (WSDL) and XML Schema definition language. Application of the attributes shall allow for description of additional semantics of WSDL components. The specification defines how semantic annotation is accomplished using references to conceptual semantic models, e.g. ontologies. Semantic annotations for WSDL and XML Schema (SAWSDL) does not specify a language for representing the semantic models. Instead it provides mechanisms by which concepts from the semantic models can be referred using annotations (citation abbreviated).

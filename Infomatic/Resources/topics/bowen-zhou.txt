@@ -1,16 +1,23 @@
 Bowen Zhou (Chinese: 周伯文; born October 1976) is a Chinese computer scientist and entrepreneur specializing in artificial intelligence (AI). He is a Huiyan Chair Professor at Tsinghua University and the founder of the AI startup Frontis.ai (Xianyuan Technology). He previously held senior leadership roles at JD.com and IBM Research, including Chief Scientist of IBM Watson.
 
 Education
+
 Zhou received his bachelor's degree from the Nanjing University of Science and Technology. He subsequently moved to the United States, earning a PhD in Electrical and Computer Engineering from the University of Colorado Boulder.
 
 Career
+
 IBM and JD.com
+
 Zhou spent 15 years at IBM's Thomas J. Watson Research Center in New York. During his tenure, he served as the Chief Scientist of the IBM Watson Group and Director of the AI Foundations Lab, where he was a key technical contributor to the development of IBM Watson.
+
 In 2017, Zhou joined the Chinese e-commerce giant JD.com as Senior Vice President. He served as the President of JD Cloud & AI and Chairman of the JD Technology Committee, overseeing the company's AI research and cloud computing infrastructure.
 
 Academia and entrepreneurship
+
 In 2022, Zhou returned to academia as a tenured professor at Tsinghua University's Department of Electronic Engineering. He also founded Frontis.ai (Beijing Xianyuan Technology), a startup focused on large-scale model applications and industrial AI solutions.
 
 Research and recognition
+
 Zhou's research interests include natural language processing (NLP), multi-modal learning, and trustworthy AI. He has published over 100 papers in conferences such as NeurIPS, ACL, and AAAI.
+
 He was elected a Fellow of the IEEE in 2019 for his "leadership in human language technologies." He is also a Fellow of the CAAI (Chinese Association for Artificial Intelligence).

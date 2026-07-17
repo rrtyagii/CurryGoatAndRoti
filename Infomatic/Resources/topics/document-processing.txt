@@ -1,21 +1,33 @@
 Document processing is a field of research and a set of production processes aimed at making an analog document digital. Document processing does not simply aim to photograph or scan a document to obtain a digital image, but also to make it digitally intelligible. This includes extracting the structure of the document or the layout and then the content, which can take the form of text or images. The process can involve traditional computer vision algorithms, convolutional neural networks or manual labor. The problems addressed are related to semantic segmentation, object detection, optical character recognition (OCR), handwritten text recognition (HTR) and, more broadly, transcription, whether automatic or not. The term can also include the phase of digitizing the document using a scanner and the phase of interpreting the document, for example using natural language processing (NLP) or image classification technologies. It is applied in many industrial and scientific fields for the optimization of administrative processes, mail processing and the digitization of analog archives and historical documents.
 
 Background
+
 Document processing was initially as is still to some extent a kind of production line work dealing with the treatment of documents, such as letters and parcels, in an aim of sorting, extracting or massively extracting data. This work could be performed in-house or through business process outsourcing. Document processing can indeed involve some kind of externalized manual labor, such as mechanical Turk.
+
 As an example of manual document processing, as relatively recent as 2007, document processing for "millions of visa and citizenship applications" was about use of "approximately 1,000 contract workers" working to "manage mail room and data entry."
+
 While document processing involved data entry via keyboard well before use of a computer mouse or a computer scanner, a 1990 article in The New York Times regarding what it called the "paperless office" stated that "document processing begins with the scanner". In this context, a former Xerox vice-president, Paul Strassmann, expressed a critical opinion, saying that computers add rather than reduce the volume of paper in an office. It was said that the engineering and maintenance documents for an airplane weigh "more than the airplane itself".
 
 Automatic document processing
+
 As the state of the art advanced, document processing transitioned to handling "document components ... as database entities."
+
 A technology called automatic document processing or sometimes intelligent document processing (IDP) emerged as a specific form of Intelligent Process Automation (IPA), combining artificial intelligence such as Machine Learning (ML), Natural Language Processing (NLP) or Intelligent Character Recognition (ICE) to extract data from several types documents. Advancements in automatic document processing, also called Intelligent Document Processing, improve the ability to process unstructured data with fewer exceptions and greater speeds.
 
 Applications
+
 Automatic document processing applies to a whole range of documents, whether structured or not. For instance, in the world of business and finance, technologies may be used to process paper-based invoices, forms, purchase orders, contracts, and currency bills. Financial institutions use intelligent document processing to process high volumes of forms such as regulatory forms or loan documents. ID uses AI to extract and classify data from documents, replacing manual data entry.
+
 In medicine, document processing methods have been developed to facilitate patient follow-up and streamline administrative procedures, in particular by digitizing medical or laboratory analysis reports. The goal is also to standardize medical databases. Algorithms are also directly used to assist physicians in medical diagnosis, e.g. by analyzing magnetic resonance images, or microscopic images.
+
 Document processing is also widely used in the humanities and digital humanities, in order to extract historical big data from archives or heritage collections. Specific approaches were developed for various sources, including textual documents, such as newspaper archives, but also images, or maps.
 
 Technologies
+
 If, from the 1980s onward, traditional computer vision algorithms were widely used to solve document processing problems, these have been gradually replaced by neural network technologies in the 2010s. However, traditional computer vision technologies are still used, sometimes in conjunction with neural networks, in some sectors.
+
 Many technologies support the development of document processing, in particular optical character recognition (OCR), and handwritten text recognition (HTR), which allow the text to be transcribed automatically. Text segments as such are identified using instance or object detection algorithms, which can sometimes also be used to detect the structure of the document. The resolution of the latter problem sometimes also uses semantic segmentation algorithms.
+
 These technologies often form the core of document processing. However, other algorithms may intervene before or after these processes. Indeed, document digitization technologies are also involved, whether in the form of classical or three-dimensional scanning. The digitization of 3D documents can in particular resort to derivatives of photogrammetry. Sometimes, specific 2D scanners must also be developed to adapt to the size of the documents or for reasons of scanning ergonomics. The document processing also depends on the digital encoding of the documents in a suitable file format. Furthermore, the processing of heterogeneous databases can rely on image classification technologies.
+
 At the other end of the chain are various image completion, extrapolation or data cleanup algorithms. For textual documents, the interpretation can use natural language processing (NLP) technologies.

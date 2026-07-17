@@ -1,13 +1,17 @@
 VISVISE is an end-to-end artificial intelligence (AI) solution for game development, developed by Tencent. It aims to optimize the game production process through AI technology. The solution provides a suite of intelligent tools for the game industry, covering key stages.
 
 Events
+
 In August 2025, Tencent Games officially launched VISVISE at Gamescom. The company claimed that the solution could reduce the time required for certain game art production processes from days or months to minutes. Concurrently, at the associated Gamescom Developers Conference, the VISVISE team introduced two of its core technical products: GoSkinning and MotionBlink.
 
 Products
+
 GoSkinning is designed to automate the 3D character skinning process. It utilizes a general-purpose AI model that can be applied to various skeletal structures, achieving approximately 85% automation by combining bone chain prediction with weight refinement. The tool also includes a dedicated "Skirt AI" feature to address complex garment deformation issues.
+
 MotionBlink is an animation tool that employs a self-regressive diffusion model architecture. It integrates pre-trained Conditional Variational Autoencoders (CVAE) and contrastive learning techniques to generate natural-looking keyframe animations and ensure smooth motion transitions.
 
 Games using VISVISE
+
 According to its official website, VISVISE has been adopted by over 90 game clients to enhance creative processes and production efficiency. Titles that utilize its services include:
 
 Honor of Kings

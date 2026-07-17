@@ -1,40 +1,57 @@
 data.gov.uk is a UK Government project to make available non-personal UK government data as open data.  It was launched as closed beta in 30 September 2009 (2009-09-30), and publicly launched in January 2010 (2010-01).  As of February 2015, it contained over 19,343 datasets, rising to over 40,000 in 2017, and more than 47,000 by 2023.  data.gov.uk is listed in the Registry of Research Data Repositories re3data.org.
 
 Beta version and launch
+
 The beta version of data.gov.uk has been online since the 30 September 2009 (2009-09-30), and by January 2010 more than 2,400 developers had registered to test the site, provide feedback and start experimenting with the data.  When the project was officially launched in January 2010, it contained 2,500 data sets, and developers had already built a site that showed the location of schools according to the rating assigned to them by education watchdog Ofsted.
 
 Data available
+
 data.gov.uk contains over 30,000 data sets from many UK Government departments.  All data is non-personal, and provided in a format that allows it to be reused.  data.gov.uk intends to increase the use of Linked Data standards, to allow people to provide data to data.gov.uk in a way that allows for flexible and easy reuse.  As of April 2010, the following UK Government departments and agencies have provided data sets to data.gov.uk: BusinessLink, the Cabinet Office, the Department for Business, Innovation and Skills, the Department for Children, Schools and Families, the Department for Communities and Local Government, the Department for Culture, Media and Sport, the Department for Environment, Food and Rural Affairs, the Department for International Development, the Department for Transport, the Department for Work and Pensions, the Department of Energy and Climate Change, the Department of Health, the Foreign and Commonwealth Office, the Home Office, His Majesty's Treasury, Lichfield District Council, Runnymede Borough Council, the Ministry of Defence, the Ministry of Justice, the Northern Ireland Office, the Ordnance Survey, and the Society of Information Technology Management.
 
 Ordnance Survey data
+
 When data.gov.uk was officially launched in January 2010, Ordnance Survey (OS) data was one of the key data sets that Sir Tim Berners-Lee and Prof Nigel Shadbolt wanted to see opened up as part of the project.  Ordnance Survey data was included in data.gov.uk on 1 April 2010 and provides information on geographical locations.  According to Shadbolt, it "will make a real difference to the way that people make sense of the information".
 
 Combined Online Information System (COINS) data
+
 On the 3 June 2010, the Treasury released the Combined Online Information System (COINS) data for the financial years 2008/09 and 2009/10.  The Combined Online Information System, known as COINS, operates as the UK Government's central accounting system.  COINS data details the spend of all government departments, and their major spending programmes.  The 4.3 GB of COIN data included 3.2 million items for the financial year 2009/10, and was released using BitTorrent.  At the time, the UK government stated that data for the current financial year (2010/11) will be released in June 2011.  On 15 June, the UK Government published the COINS data for the financial years 2008/09, 2007/08, 2006/07, and 2005/06 on data.gov.uk.  Within 24 hours of the release the data was also made available through the (now defunct) RA.Pid Gateway webportal run by Rosslyn Analytics.
+
 In the past, the HM Treasury had refused requests to release COIN data, on the grounds that it contained FOI-exempt data on future defence and security services spending.  HM Treasury also cited "the impenetrability of the information to a lay user" and "the potential significant cost and difficulty of rebutting misunderstandings" as reasons for not releasing the data.
 
 Data and interpretation to be added
+
 data.gov.uk is working with UK Government departments, agencies, and local authorities to release more data.  Shadbolt also wants local government data included in data.gov.uk.  The UK Parliament's Public Accounts Committee noted in 2012 that "more could be done to assist interpretation and to build on emerging interest".
 
 Data use and licensing
+
 data.gov.uk offers a wide range of public sector data, ranging from traffic statistics to crime figures.  The data can be used for private or commercial purposes.  The aim is to kick-start the development of services that find novel ways to make use of the information.
+
 All data included in data.gov.uk is covered either by Crown copyright protections, or the database right, or copyright have been licensed to the Crown.  In turn, all data available on data.gov.uk is available under a worldwide, royalty-free, perpetual, non-exclusive licence which permits use of the data under the following conditions: the copyright and the source of the data should be acknowledged by including an attribution statement specified by data.gov.uk, which is 'name of data provider' data © Crown copyright and database right.  The inclusion of the same acknowledgement is required in sub-licensing of the data, and further sub-licences should require the same.  The data should not be used in a way that suggests that the data provider endorses the use of the data.  And the data or its source should not be misrepresented.
+
 The Open Government Licence (OGL) applies to Crown copyright data, and permits anyone to copy, distribute, and transmit the data, adapt the data, exploit the data commercially, whether by sub-licensing it, combining it with other data, or by including it in products and applications.  The terms of the licence are aligned with any Creative Commons Attribution 3.0 licence.  Hence data.gov.uk data can be mixed with information licensed under Creative Commons licences to create derivative work, which can be distributed under the Creative Commons Attribution 3.0 licence.  When users submit information to data.gov.uk, they grant the Crown a non-exclusive, irrevocable right to use and pass on all public information submitted, such as descriptions of ideas and screenshots of apps, as well as the right to re-use allow the re-use of that information.  All content on the site is placed under the same licence terms as the data, though user ideas and application remain their own.
+
 The Crown copyright licence does not affect fair dealing or fair use rights, or any other exceptions and limitations to copyright or database rights.  The data are licensed 'as is', and data.gov.uk does not accept liabilities in relation to the data or provide warranties.  Neither does data.gov.uk guarantee the continued supply of the data.
 
 Government project
+
 Authorised by the UK Cabinet Office, and aimed for the release of public data to become 'business as usual' across public bodies, as set out in Putting the Frontline First: Smarter Government, which established the UK Government's approach to public data and the release of that data.  data.gov.uk amongst others, delivers on the commitment made in Putting the Frontline First to integrate data from the Publications Hub for National Statistics and to release more data relating to health.
 
 Current technology infrastructure
+
 The site uses the CKAN platform for data publishing.  There is high variability in the format and presentation of the data; some data files are available as structured raw data in a machine-readable format such as CSV, while others are only available as analysed data in a human-friendly format such as a PDF file containing a pivot table.  data.gov.uk functions as a searchable data catalogue, with links to data that is hosted by the individual UK Government departments, and does not host data itself.
 
 Previous technology infrastructure
+
 In addition to the data searchable through the data.gov.uk site, from 2016 until 2021, a very small number of datasets were  made available as 'registers' through the Registers Service.  Registers were structured raw datasets that are intended to be a canonical, reliable, and always up-to-date source of data.  Registers shared a common API, and can be read by both humans and machines.  They were offered as JSON, CSV, and RDF files, the latter allowing to link multiple registers together.  The Registers service was retired on 15 March 2021.
 
 Similar projects in the UK
+
 On the 29 January 2010, Boris Johnson, then Mayor of London, opened an online data warehouse containing more than 200 data sets from London city authorities.
 
 Similar projects in other countries
+
 There is a growing trend amongst governments toward more data transparency.  In the United States of America, the Obama administration launched data.gov, which opens up data from various departments, including the United States Department of Defense (US DoD) and NASA.
+
 The European Public Sector Information (PSI) Platform maintains a list of PSI data catalogues provided by governments, and providing direct access to data.
+
 The European Commission (EC) has created two portals for the European Union (EU): the EU Open Data Portal, which gives access to open data from the EU institutions, agencies, and other bodies, and the PublicData portal that provides datasets from local, regional, and national public bodies across Europe.  In the Netherlands, the DataverseNL Network hosts data deposited by Dutch Universities and Institutes.

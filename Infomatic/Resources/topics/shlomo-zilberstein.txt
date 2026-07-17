@@ -1,20 +1,33 @@
 Shlomo Zilberstein (Hebrew: שלמה זילברשטיין; born 1960) is an Israeli-American computer scientist. He is a Professor of Computer Science and Associate Dean for Research and Engagement in the College of Information and Computer Sciences at the University of Massachusetts, Amherst. He graduated with a B.A. in Computer Science summa cum laude from Technion – Israel Institute of Technology in 1982, and received a Ph.D. in Computer Science from University of California at Berkeley in 1993, advised by Stuart J. Russell. He is known for his contributions to artificial intelligence, anytime algorithms, multi-agent systems, and automated planning and scheduling algorithms, notably within the context of Markov decision processes (MDPs), Partially Observable MDPs (POMDPs), and Decentralized POMDPs (Dec-POMDPs).
 
 Research
+
 His research is in the area of artificial intelligence, specifically automated planning, in addition to decision theory, reasoning under uncertainty, heuristic search, automated coordination and communication, and reinforcement learning.
+
 He directs the Resource-Bounded Reasoning Laboratory at the University of Massachusetts, Amherst. In 2002, Daniel S. Bernstein, Robert Givan, Neil Immerman, and Shlomo Zilberstein introduced the Decentralized POMDP which extends the widely used single-agent POMDP model to a multi-agent scenario (Dec-POMDP). He has also developed AI algorithms for semi-autonomous systems with potential applications to semi-autonomous cars.
 
 Service and awards
+
 He served as editor-in-chief of the Journal of Artificial Intelligence Research and associate editor of the Journal of Autonomous Agents and Multi-Agent Systems. Additionally, he served as chair of the conference committee for both the Twenty-Ninth and Thirtieth AAAI Conference on Artificial Intelligence. The National Science Foundation awarded Dr. Zilberstein with the RIA, CAREER, and ITR awards. He was elected as a fellow of the Association for the Advancement of Artificial Intelligence in 2011 and of the Association for Computing Machinery in 2021.
 
 Selected publications
+
 Srivastava, Siddharth; Immerman, Neil; Zilberstein, Shlomo (2012). "Applicability Conditions for Plans with Loops: Computability Results and Algorithms" (PDF). Artificial Intelligence. 191 (1–2): 1–19. doi:10.1016/j.artint.2012.07.005.
+
 Amato, Christopher; Bernstein, Daniel S.; Zilberstein, Shlomo (2010). "Optimizing Fixed-Size Stochastic Controllers for POMDPs and Decentralized POMDPs" (PDF). Autonomous Agents and Multi-Agent Systems. 21 (3): 293–320. doi:10.1007/s10458-009-9103-z. S2CID 12915662.
+
 Seuken, Sven; Zilberstein, Shlomo (2008). "Formal Models and Algorithms for Decentralized Decision Making under Uncertainty" (PDF). Autonomous Agents and Multi-Agent Systems. 17 (1): 190–250. doi:10.1007/s10458-007-9026-5. S2CID 12707282.
+
 Goldman, Claudia V.; Zilberstein, Shlomo (2004). "Decentralized Control of Cooperative Systems: Categorization and Complexity Analysis" (PDF). Journal of Artificial Intelligence Research. 22: 143–174. doi:10.1613/jair.1427.
+
 Hansen, Eric A.; Bernstein, Daniel S.; Zilberstein, Shlomo (2004). "Dynamic Programming for Partially Observable Stochastic Games" (PDF). Proceedings of the 19th National Conference on Artificial Intelligence. AAAI. pp. 709–715.
+
 Bernstein, Daniel S.; Givan, Robert; Immerman, Neil; Zilberstein, Shlomo (2002). "The Complexity of Decentralized Control of Markov Decision Processes" (PDF). Mathematics of Operations Research. 27 (4): 819–840. arXiv:1301.3836. doi:10.1287/moor.27.4.819.297. S2CID 1195261.
+
 Hansen, Eric A.; Zilberstein, Shlomo (2001). "LAO*: A Heuristic Search Algorithm that Finds Solutions with Loops" (PDF). Artificial Intelligence. 129 (1–2): 35–62. doi:10.1016/s0004-3702(01)00106-0.
+
 Hansen, Eric A.; Zilberstein, Shlomo (2001). "Monitoring and control of anytime algorithms: A dynamic programming approach" (PDF). Artificial Intelligence. 126 (1–2): 139–157. doi:10.1016/S0004-3702(00)00068-0.
+
 Zilberstein, Shlomo (1996). "Using Anytime Algorithms in Intelligent Systems" (PDF). AI Magazine. 17 (3): 73–83.
+
 Zilberstein, Shlomo; Russell, Stuart J. (1996). "Optimal Composition of Real-Time Systems" (PDF). Artificial Intelligence. 82 (1–2): 1–19. doi:10.1016/0004-3702(94)00074-3.

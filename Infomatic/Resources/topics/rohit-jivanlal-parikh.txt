@@ -1,56 +1,93 @@
 Rohit Jivanlal Parikh (born November 20, 1936) is an Indian-American mathematician, logician, and philosopher who has worked in many areas in traditional logic, including recursion theory and proof theory. He is a Distinguished Professor at Brooklyn College at the City University of New York (CUNY).
 
 Research
+
 Parikh worked on topics like vagueness, ultrafinitism, belief revision, logic of knowledge, game theory and social software (social procedure). This last area seeks to combine techniques from logic, computer science (especially logic of programs) and game theory to understand the structure of social algorithms.
 
 Personal life and politics
+
 Rohit Parikh was married from 1968 to 1994 to Carol Parikh (née Geris), who is best known for her stories and biography of Oscar Zariski, The Unreal Life of Oscar Zariski.
+
 Parikh is a nontheist opposing abortions. To fight abortions he joined the Atheist and Agnostic Pro-Life League.
+
 In 2018, a Facebook post by Parikh, called for deportation of all illegal immigrants, writing, "I do believe that everyone who is illegally here should be deported but that the US should support them in their home country." Parikh further claims in the Facebook post that Hispanic immigrants are insufficiently educated compared to Indian immigrants like him, leading Brooklyn College students to public protests and calls for the university to discipline him. The president of Brooklyn College Michelle Anderson called his remarks "antithetical to the fundamental values of Brooklyn College." Defending his position in an interview to a CW-affiliate WPIX, Parikh claimed he had not meant that Hispanics in general were dumber than Indians in general, but rather that his comparison of intellectual abilities of Hispanics and Indians had applied only to those who had immigrated to the United States. "There are a lot of stupid people in India but they don't come here," he explained.
 
 Posts
+
 Editor, International Journal of the Foundations of Computer Science, 1990–1995
+
 Editor, Journal of Philosophical Logic, 2000–2003
 
 Awards and recognition
+
 William Lowell Putnam Mathematical Competition Prize Winner, 1955, 1956, 1957
+
 Gibbs Prize, Bombay University, 1954
 
 Notable students
+
 Parikh's doctoral students include Alessandra Carbone and David Ellerman.
 
 Academic and research appointments
+
 Distinguished Professor, City University of New York, (Brooklyn College and CUNY Graduate Center), 1982–present
 Professor, Mathematics, Boston University, 1972–1982
+
 Visiting Professor, Mathematics, Courant Institute, 1981
+
 Associate Professor, Mathematics, Boston University, 1967–1972
+
 Visiting Associate Professor, Mathematics, State University of New York at Buffalo, 1971–1972
 Lecturer, Bristol University, 1965–1967
+
 Reader, Panjab University, 1964–1965
+
 Instructor, Stanford University 1961–1963
+
 Visiting Appointments at Caltech, ETH Zurich, Massachusetts Institute of Technology, Stanford, and Tata Institute of Fundamental Research Bombay
 
 Main publications
+
 Existence and Feasibility in Arithmetic, Journal of Symbolic Logic 36 (1971) pages 494–508.
+
 On the Length of Proofs, Transactions of the American Mathematical Society 177 (1973) pages 29–36.
+
 (With M. Parnes) Conditional Probability can be Defined for Arbitrary Pairs of Sets of Reals, Advances in Mathematics 9 (1972) pages 520–522.
+
 (With D.H.J. de Jongh) Well Partial Orderings and Hierarchies, Proc. Kon. Ned. Akad. Sci Series A 80 (1977) pages 195–207.
+
 (With D. Kozen) An Elementary Completeness Proof for PDL Theoretical Computer Science 14 (1981) pages 113–118.
+
 The Problem of Vague Predicates, in Logic, Language and Method Ed. Cohen and Wartofsky, Reidel (1982) pages 241–261.
+
 The Logic of Games and its Applications, Annals of Discrete Math., 24 (1985) pages 111–140.
+
 (With R. Ramanujam) Distributed Processing and the Logic of Knowledge, in Logics of Programs, Springer Lecture Notes in Computer Science, 193 pages 256–268.
+
 Communication, Consensus and Knowledge, (with P. Krasucki), Jour. Economic Theory 52 (1990) pages 178–189.
+
 Knowledge and the Problem of Logical Omniscience ISMIS- 87 (International Symposium on Methodology for Intelligent Systems), North Holland (1987) pages 432–439.
+
 Finite and Infinite Dialogues, in the Proceedings of a Workshop on Logic from Computer Science, Ed. Moschovakis, MSRI publications, Springer 1991 pages 481–498.
+
 Vagueness and Utility: the Semantics of Common Nouns in Linguistics and Philosophy 17 1994, pages 521–35.
+
 Topological Reasoning and The Logic of Knowledge (with Dabrowski and Moss) Annals of Pure and Applied Logic 78 (1996) pages 73–110.
+
 Belief revision and language splitting, in Proc. Logic, Language and Computation, Ed. Moss, Ginzburg and de Rijke, CSLI 1999, pages 266–278 (earlier version appeared in 1996 in the preliminary proceedings).
 (with Samir Chopra), Relevance Sensitive Belief Structures, Annals of Mathematics and Artificial Intelligence, 28(1–4): pages 259–285 (2000).
+
 Social Software, Synthese, 132, Sep 2002, pages 187–211.
 (with Jouko Vaananen), Finite information logic, Annals of Pure and Applied Logic, 134 (2005) pages 83–93.
+
 (With R. Ramanujam), A Knowledge based Semantics of Messages, Journal of Logic, Language and Information, 12 2003, pages 453–467.
+
 Levels of Knowledge, Games, and Group Action, Research in Economics, 57 2003, pages 267–281.
+
 Costa, Horacio Arlo, and Rohit Parikh. "Conditional probability and defeasible inference." Journal of Philosophical Logic 34.1 (2005): pages 97–119.
+
 Arlo-Costa, Horacio, and Rohit Parikh. "Two place probabilities, beliefs and belief revision: on the foundations of iterative belief kinematics." Proceedings of The Twelfth Amsterdam Colloquium. 1999.
+
 Weiss, M. Angela, and Rohit Parikh. "Completeness of certain bimodal logics for subset spaces." Studia Logica (2002): pages 1–30.
+
 Parikh, Rohit, and Adriana Renero. "Justified True Belief: Plato, Gettier, and Turing." Philosophical explorations of the legacy of Alan Turing. Springer, Cham, 2017. pages 93–102.

@@ -1,19 +1,25 @@
 Brad Haines better known as Renderman. Haines is a Canadian Information security researcher most notable for starting the Internet of Dongs project.
 
 Cybersecurity Research
+
 Internet of Dongs Project
+
 Haines started the Internet of Dongs project as a site to house research onto Internet of things connected Sex toys. The project goals are to make the products safer for both vendors and consumers. The project is sponsored by large companies like Pornhub and OhMiBod.
+
 He believes that "we need to stop laughing" regarding the seriousness of privacy issues related to internet connected sex toys.
 
 Industry Response
+
 The International Organization for Standardization released a standard for "Design and Safety Requirements for Products in Direct Contact With Genitalia, the Anus, or Both..." However, Haines believes that this is too late and a missed opportunity.
+
 Some companies like Lovense refused to accept vulnerability disclosure reports prior to the IoD project.
 
 Aviation and Air Traffic Control Research
+
 Haines presented research on the vulnerabilities in Air traffic control and Automatic Dependent Surveillance–Broadcast systems at the Defcon conference in 2020 and DerbyCon 2013.
 
 Cybersecurity Policy Views
-Haines is a vocal advocate for improving transparency and Whistleblower protection in Information Security. He was fired from his role as a senior cybersecurity analyst after disclosing publicly listed vulnerabilities to the Alberta Government.
 
+Haines is a vocal advocate for improving transparency and Whistleblower protection in Information Security. He was fired from his role as a senior cybersecurity analyst after disclosing publicly listed vulnerabilities to the Alberta Government.
 
 == References/Notes and references ==

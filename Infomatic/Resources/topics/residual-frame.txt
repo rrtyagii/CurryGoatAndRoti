@@ -1,3 +1,5 @@
 In video compression algorithms a residual frame is formed by subtracting the reference frame from the desired frame. This difference is known as the error or residual frame. The residual frame normally has less information entropy, due to nearby video frames having similarities, and therefore requires fewer bits to compress.
+
 An encoder will use various algorithms such as motion estimation to construct a frame that describes the differences. This allows a decoder to use the reference frame plus the differences to construct the desired frame.
+
 Recent improvements have led to "better action recognition."

@@ -1,22 +1,33 @@
 Alicia Troncoso Lora (born 1974 in Carmona, Spain) is a Spanish computer scientist and professor specializing in artificial intelligence. She is a professor of computer science at the Universidad Pablo de Olavide (UPO) in Seville, Spain, and director of the master's program in computer science at UPO. Troncoso is the president of the Spanish Association for Artificial Intelligence (AEPIA) and a member of the advisory board of the Andalusian Digital Agency.
 
 Education
+
 Troncoso earned her PhD in Computer Science from the University of Seville in 2005 with a dissertation titled "Advanced Techniques of Prediction and Optimization Applied to Power Systems,"
 
 Academic career
+
 From 1999 to 2002, Troncoso was a research fellow at the University of Seville's Department of Computer Science and Languages. She served as a lecturer there from 2002 to 2005 before joining the Universidad Pablo de Olavide in 2005. At UPO, she served as Vice-Rector for Quality and Planning (2009–2011), Vice-Rector for ICT, Quality and Innovation (2012–2015), and Vice-Rector for Information Technologies and Digital Innovation (2016–2020). She became a Full Professor in 2018 and has served as Academic Coordinator for the Bachelor's Degree in Computer Science (2012–2015) and Director of the Master's Program in Computer Science. She is also a member of the Academic Council of the Valencian Graduate School and Research Network in Artificial Intelligence (ValgrAI) since 2022.
 
 Research career
+
 Troncoso's research focuses on time series forecasting, big data, and deep learning, with applications in energy and environmental sciences. Her work includes the development of machine learning algorithms for time series prediction and energy forecasting. Key publications include:
 
 A 2007 study on electricity market price forecasting using nearest-neighbor techniques, published in IEEE Transactions on Power Systems.
+
 A 2019 study on solar power forecasting using deep learning, published in Expert Systems.
+
 A 2025 study introducing a new metric to evaluate explain-ability techniques for machine learning models in time series forecasting, published in IEEE Transactions on Pattern Analysis and Machine Intelligence.
+
 According to Google Scholar, she has authored over 200 publications with an h-index above 40. Troncoso has supervised several doctoral dissertations and led research projects funded by the European Union and the Spanish government.
+
 Leadership and affiliations
+
 Troncoso has been President of the Spanish Association for Artificial Intelligence (AEPIA) since 2021. She serves on the advisory board of the Andalusian Digital Agency and is a member of the Scientific Advisory Committee of the AI4ES Network of Excellence, contributing to its Strategic Research Agenda.
 
 Awards and recognition
+
 2005: Best Research Work Award, Endesa Foundation, for her doctoral dissertation.
+
 2020: ROMA Award in the STEM category for her research career.
+
 2024: National Computer Science Award (ARITMEL category) for contributions to artificial intelligence, conferred by the Spanish Computer Science Society (SCIE) and the BBVA Foundation.

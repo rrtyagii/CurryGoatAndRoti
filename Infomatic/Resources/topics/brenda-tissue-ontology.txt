@@ -1,10 +1,15 @@
 The BRENDA tissue ontology (BTO) represents a comprehensive structured encyclopedia. It provides terms, classifications, and definitions of tissues, organs, anatomical structures, plant parts, cell cultures, cell types, and cell lines of organisms from all taxonomic groups (animals, plants, fungi, protozoon) as enzyme sources. The information is connected to the functional data in the BRENDA ("BRaunschweig ENzyme DAtabase“) enzyme information system.
+
 BTO is one of the first tissue-specific ontologies in life sciences, not restricted to a specific organism or a specific organism group providing a user-friendly access to the wide range of tissue and cell-type information. Databases, such as Ontology Lookup Service or ses, such as MIRIAM Registry or  of the EBI-EMBL, the TissueDistributionDB, including the Tissue Synonym Library of the German Cancer Research Center (DKFZ) in Heidelberg or the Bioportal platform of the National Center for Biomedical Ontology in Stanford, USA rely on BTO and implement the encyclopedia as an essential repository of information into their respective platform.
+
 BTO enables users from medical research and pharmaceutical sciences to search for the occurrence and histological detection of disease-related enzymes in tissues, which play an important role in diagnosis, therapies, and drug development. In biochemistry and biotechnology the organism-specific tissue terms linked to enzyme functional data are an important resource for the understanding of the metabolism and regulation in life sciences. Ontologies represent classification systems that provide controlled and structured vocabularies. They are important tools to illustrate and to link evolutionary correlations.
+
 Development of BTO started in 2003, aimed to connect the biochemical and molecular biological enzyme data of BRENDA with a hierarchical and standardized collection of tissue-specific terms. The functional enzyme data and information in BRENDA have been manually annotated and structured by experts from biochemistry, biology, and chemistry. By October 2022, the BTO contained over  6,527 terms, linked to 6,065 synonyms and 5,474 definitions. The terms are classified under generic categories, rules, and formats of the Gene Ontology Consortium (GO,), organized as a directed acyclic graph (DAG) created using the open-source OBO-Edit. All terms from each level are directly connected the enzyme data in BRENDA. BTO is a suitable tool to distinguish between different enzymes which are expressed in a tissue-specific manner.
 
 Content and features
+
 BTO draws upon the comprehensive enzyme specific data of the BRENDA enzyme information system. Presently (October 2019) 112,200 enzyme-organism-tissue specific data from more than 11,000 proteins are stored in BRENDA. These entries were manually annotated from more than 150,000 different literature references. All terms in BTO are evaluated and classified according to the OBO-format, and are connected by specific relationships. Each term is a distinct entry within the ontology and is automatically assigned to  a unique BTO-identifier (BTO-ID). The BTO-IDs serve as stable accession numbers in order to create cross-references to further external biochemical databases. Further tissue und cell-type specific terms from external databases (i.e. UniProt) are integrated into BTO.
+
 The terms are classified in 4 main categories (subgraphs):
 
 animal
@@ -18,8 +23,11 @@ part_of (e.g. muscle fibre part_of muscle)
 develops/derives_from (e.g.myoma cell develops/derives_from muscle fibre)
 related_to (description of more general relationships between terms which are not covered by the other ones)
 Most of the terms are clearly associated with specific organisms, organs, tissues, or cell types. There are several  identical designations for tissues both in plants and animals, e.g. “epidermis”. To distinguish between those tissue terms and to classify them correctly into BTO for plant tissues the prefix “plant” is placed before the term, e.g. “plant epidermis”.
+
 More than 80% of the tissue terms have definitions that describe the meaning and context. These definitions are obtained from i.e. medical dictionaries and cell line databases (Webster's Dictionary, DSMZ).
 
 Availability
+
 The entries in BTO are updated bi-annually as part of the major update of BRENDA. It is available via the BRENDA website in the category “Ontology Explorer”. The enzyme source terms can be searched via the BTO query form. As a result, the user receives a list of EC numbers which are directly connected to  the enzyme information of BRENDA. It is also possible to search via the BRENDA “Source Tissue” search form (“Classic View”). The result page displays all enzymes which are isolated or detected in the searched tissue term, directly linked to BTO.
+
 BTO and BRENDA are freely accessible for academic users. It can be freely downloaded via the “Ontology Explorer” of the BRENDA website or in the OBO format from “Obofoundry”.

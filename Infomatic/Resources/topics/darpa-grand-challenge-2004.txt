@@ -1,14 +1,21 @@
 Announced in 2002, the first DARPA Grand Challenge was a driverless car competition held on March 13, 2004 in the Mojave Desert region of the United States. The 150 miles (240 km) route followed Interstate 15 from right before Barstow, California to just past the California-Nevada border in Primm. None of the robot vehicles finished the route. The vehicle of Carnegie Mellon University's Red Team traveled the furthest distance, completing 11.78 km (7.32 mi) of the course. The $1 million prize remained unclaimed.
 
 Preliminary tests
+
 Prior to the main event in the Mojave Desert, the twenty-one qualifying teams were required to navigate a mile-long obstacle course at California Speedway. Seven teams were able to successfully finish the entire course, while eight others completed enough of it to satisfy the judges, resulting in fifteen vehicles making it to the final race.
 
 The event
+
 Unfortunately, the failures during the preliminary tests were indicative of how the vehicles would perform on the actual course. Two of the fifteen vehicles had to be withdrawn before the final race began. Another vehicle also had to be withdrawn because it flipped upside down in the starting area. Three hours into the event which was scheduled to last ten hours, only four vehicles remained operational. The vehicles suffered from a variety of mechanical problems, including "stuck brakes, broken axles, rollovers, and malfunctioning satellite navigation equipment."
+
 Within a few hours, all of the vehicles in the challenge had suffered critical failures, had been disqualified, or had withdrawn. The furthest any of the teams got was the Red Team's 7.4 miles (11.9 km), less than 5% off the full length of the course. Their vehicle, Sandstorm, went off-course in a hairpin turn and got stuck on the embankment. The next furthest vehicles were those of the SciAutonics II Team, which traversed 6.7 miles (10.8 km) before becoming stuck on an embankment; Team DAD (Digital Auto Drive), which drove 6.0 miles (9.7 km) before getting stuck on a rock; and the Golem Group, which made it 5.2 miles (8.4 km) before becoming trapped on a steep hill.
 
 The results
+
 Although the initial race was deemed a failure, as no vehicles achieved anything close to the goal, DARPA was committed to running the challenge for as long as Congressional authority allowed (which would have been until 2007, but the goal was reached in 2005). The first Grand Challenge is considered by some to be a success, mainly because it spurred interest and innovation.
+
 In addition to the difficulty most vehicles had with the harsh terrain, many initial designs also struggled to handle both sensing upcoming obstacles and following the GPS waypoints simultaneously. DARPA Grand Challenge deputy program manager Tom Strat said, "some of the vehicles were able to follow the GPS waypoints very accurately; but were not able to sense obstacles ahead....Other vehicles were very good at sensing obstacles, but had difficulty following waypoints or were scared of their own shadow, hallucinating obstacles when they weren't there."
+
 Several teams returned the next year, learning from the 2004 event and updating their designs.
+
 Alumni of the 2004 DARPA Grand Challenge include Kyle Vogt, co-founder of self-driving car company Cruise.

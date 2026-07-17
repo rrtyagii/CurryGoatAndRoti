@@ -1,34 +1,51 @@
 An evolutionary attractor is a point in an evolutionary space where a selection process will always drive trait values towards that point from the region around it. Because of the importance of evolution through natural selection, often such an evolutionary space will be defined by genetic or phenotypic traits, or possibly both. In this case the selection process will be a form of natural selection.
+
 The existence of an evolutionary attractor in a biological evolutionary space does not always imply that it can be reached from all points in that evolutionary space, nor does it identify what will happen when the evolutionary attractor is reached. While an evolutionary attractor may represent a point in evolutionary space that is resistant to further selection, such as an evolutionary stable strategy, other possibilities are available.
+
 Because identification of an evolutionary attractor on its own does not describe everything about the evolutionary space in which it lies, this has led to interest in the evolutionary dynamics surrounding evolutionary attractors and in evolutionary spaces in general. (Theoretical biologists and mathematicians working in the area may prefer the terms adaptive dynamics or evolutionary invasion analysis to evolutionary dynamics.) These fields use differential equations which allows a more complete understanding of the dynamics in evolutionary spaces including the existence or otherwise of evolutionary attractors.
+
 Advances in the study of molecular evolution have also led to the identification of evolutionary attractors at a molecular level.
+
 Because biological evolutionary processes have been studied using evolutionary game theory, a technique inspired by game theory originally derived to address economic problems, not only can evolutionary attractors be found in biology but economists studying evolutionary economic models have also identified evolutionary attractors.
+
 Evolution in biology has also inspired evolutionary computation in computer science. Many algorithms in this field use a form of selection inspired by natural selection to generate results through evolutionary algorithms. This is therefore another area in which evolutionary attractors have been identified.
 
 Evolutionary attractors in biology
+
 It is not probably not surprising that biology is the field where most examples of evlutionary attractors have been identified, given the importance of evolution through natural selection.
 
 Evolutionary attractors in adaptive landscapes
+
 An evolutionary attractor is a point in genetic and/or phenotypic trait space, that evolution will always drive trait values towards via a selection process. The concept of an evolutionary attractor arose in population genetics following the origin of the adaptive landscape originally proposed by Sewall Wright in 1932. The height of a point in an adaptive landscape is a measure of evolutionary fitness. If a point in an adaptive landscape is a peak, then selection will always drive traits towards it and it will be an evolutionary attractor.
+
 While population genetics deals with discrete genetic traits, quantitative genetics extended such concepts to deal with continuous genetic traits, where the concept of evolutionary attractor is also valid.
 
 Evolutionary attractors in evolutionary game models
+
 Evolutionary game theory introduced into evolutionary biology concepts originally used in economics, with the advantage that evolution could be studied in relation to strategic choices made in animal conflicts. This is of particular interest because of the concept of the evolutionary stable strategy or ESS, a strategy that once established is resistant to invasion by other strategies. ESSs will not always be evolutionary attractors, but if they are they will persist over evolutionary time.
 
 Dynamics around evolutionary attractors in biology
+
 Evolutionary attractors in biology do not exist in isolation. By definition they must exist in an evolutionary trait space where selection drives all traits towards them from a region immediately around them. That is, they must be convergence stable. Eshel (1983) modified the definition of an ESS by considering individually advantageous reduction from a majority deviation: he created the term continuous stability. A continuously stable ESS can be shown to be convergence stable, therefore it will act as an evolutionary attractor.
+
 But the nature of evolutionary trait spaces in biology means that it is not possible to guarantee that the region of convergence to the evolutionary attractor covers the whole of the trait space, nor that there is only one evolutionary attractor in a particular trait space. These issues have led to the emergence of the related fields of evolutionary dynamics, adaptive dynamics and evolutionary invasion analysis, all of which use differential equations to understand the dynamics in evolutionary trait spaces. Hence, if one or more evolutionary attractor exists in an evolutionary trait space, they provide techniques to understand the dynamics in that trait space around the evolutionary attractor.
 
 Evolutionary attractors in an ecological context
+
 Evolution in biology does not take place in single species in isolation. Ecological interaction of species leads to coevolution. Important examples of this are host-parasite or host-pathogen interaction, which can make both the dynamics around evolutionary attractors more complex, and the occurrence and number of evolutionary attractors more diverse.
+
 Evolutionary attractors have been identified in the analysis of evolutionary epidemiology of plant pathogens. In the above study working on plant populations the authors were able to identify evolutionary attractors using methods from adaptive dynamics. A model applied to the analysis of a maize (Zea mays L.) virus identified convergence stable equilibria through simulation modelling. A related model identified evolutionary attractors in the interaction of plants with fungal pathogens.
 
 Evolutionary attractors in molecular genetics
+
 As mentioned above much of the consideration of evolutionary attractors in biology has been through investigation of selection at a genetic or phenotypic level or both, in a single species or in coevolving species. Advances in the study of molecular genetics now allow the study of evolutionary attractors to be taken to a molecular genetic level. Wilson et. al (2019) studied the evolution of gene regulatory networks and identified the emergence of evolutionary attractors.
 
 Evolutionary attractors in economics
+
 Evolutionary game theory as applied in biology was inspired by game theory originally devised for applications in economics. Game theory remains an active field of research outside of biology, and thus it is not surprising that researchers in evolutionary economics use evolutionary game theory. Evolutionary attractors have been demonstrated by economists studying the evolutionary dynamics of market entry with market dynamics based on the replicator dynamics of biological evolutionary games.
 
 Evolutionary attractors in computing
+
 Evolutionary computation is a branch of computer science inspired by biological evolution. Many algorithms in evolutionary computation use a form of selection. Thus evolutionary attractors have been identified in computer science as well as in biology and economics.
+
 Evolutionary algorithms have generated evolutionary attractors,  probably because of the similarity between adaptive hill-climbing in evolutionary heuristics and the adaptive landscape originated to explain evolution through natural selection.

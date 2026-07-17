@@ -1,8 +1,13 @@
 Jade Leung is Artificial Intelligence adviser to British Prime Minister Keir Starmer, and the Chief Technology Officer of the United Kingdom's AI Security Institute, where she designs and oversees evaluations for frontier AI models.
+
 Until October 2023, she was Governance Lead at OpenAI, focusing on the secure development of artificial intelligence, particularly on scaling and security protocols related to advancements in artificial general intelligence. She also co-founded and was the inaugural Head of Research and Partnerships at the Centre for the Governance of AI at the University of Oxford.
 
 Career
+
 Leung graduated from the University of Auckland in New Zealand with a Bachelor of Engineering (Honours) with First Class Honours in Civil Engineering in 2015. She won a Rhodes Scholarship in 2016. She completed her DPhil in International Relations in the Department of Politics and International Relations at the University of Oxford in 2019. Her PhD thesis was on "Who will govern artificial intelligence? Learning from the history of strategic politics in emerging technologies".
+
 In October 2023, she left OpenAI to join the United Kingdom's AI Security Institute, where she serves as the chief technology officer. She primarily leads the work on evaluations, focusing on developing empirical tests for dangerous capabilities and security features of frontier AI systems.
+
 In 2024, she was included in Time's list of the "100 Most Influential People in AI".
+
 In 2025, she was appointed as Prime Minister Keir Starmer's AI adviser.

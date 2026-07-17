@@ -1,6 +1,7 @@
 The Austrian Research Institute for Artificial Intelligence (German: Österreichisches Forschungsinstitut für Artificial Intelligence - OFAI) is an Austrian non-profit contract research institute. OFAI is a research institute of the Austrian Society for Cybernetic Studies (Österreichische Studiengesellschaft fuer Kybernetik - OSGK), a registered scientific society founded in 1969.
 
 History
+
 The Austrian Research Institute for Artificial Intelligence was founded in 1984 with support from the Austrian Federal Ministry for Science and Research. Since its inception, OFAI has been headed by its director, Prof. Robert Trappl.
 
 Research

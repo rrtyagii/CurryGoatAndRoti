@@ -1,5 +1,7 @@
 Fuzzy electronics is an electronic technology that uses fuzzy logic, instead of the two-state Boolean logic more commonly used in digital electronics. Fuzzy electronics is fuzzy logic implemented on dedicated hardware.  This is to be compared with fuzzy logic implemented in software running on a conventional processor. Fuzzy electronics has a wide range of applications, including control systems and artificial intelligence.
 
 History
+
 The first fuzzy electronic circuit was built by Takeshi Yamakawa et al. in 1980 using discrete bipolar transistors.  The first industrial fuzzy application was in a cement kiln in Denmark in 1982.  The first VLSI fuzzy electronics was by Masaki Togai and Hiroyuki Watanabe in 1984.  In 1987, Yamakawa built the first analog fuzzy controller.  The first digital fuzzy processors came in 1988 by Togai (Russo, pp. 2–6).
+
 In the early 1990s, the first fuzzy logic chips were presented to the public. Two companies which are Omron and NEC have announced the development of dedicated fuzzy electronic hardware in the year 1991. Two years later, the Japanese Omron Cooperation has shown a working fuzzy chip during a technical fair.

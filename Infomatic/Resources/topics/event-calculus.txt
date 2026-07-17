@@ -1,18 +1,20 @@
 The event calculus is a logical theory for representing and reasoning about events and about the way in which they change the state of some real or artificial world. It deals both with action events, which are performed by agents, and with external events, which are outside the control of any agent.
+
 The event calculus represents the state of the world at any time by the set of all the facts (called fluents) that hold at the time. Events initiate and terminate fluents:
 
 The event calculus differs from most other approaches for reasoning about change by reifying time, associating events with the time at which they happen, and associating fluents with the times at which they hold.
+
 The original version of the event calculus, introduced by Robert Kowalski and Marek Sergot in 1986, was formulated as a logic program and developed for representing narratives and database updates. Kave Eshghi showed how to use the event calculus for planning, by using abduction to generate hypothetical actions to achieve a desired state of affairs.
+
 It was extended by Murray Shanahan and Rob Miller in the 1990s and reformulated in first-order logic with circumscription.
+
 These and later extensions have been used to formalize non-deterministic actions, concurrent actions, actions with delayed effects, gradual changes, actions with duration, continuous change, and non-inertial fluents.
+
 Van Lambalgen and Hamm showed how a formulation of the event calculus as a constraint logic program can be used to give an algorithmic semantics to tense and aspect in natural language.
 
 Fluents and events
+
 In the event calculus, fluents are reified. This means that fluents are represented by terms. For example,
-
-
-
-
 
             h
             o
@@ -21,8 +23,6 @@ In the event calculus, fluents are reified. This means that fluents are represen
             s
             A
             t
-
-
         (
         o
         n
@@ -48,16 +48,8 @@ In the event calculus, fluents are reified. This means that fluents are represen
         ,
         1
         )
-
-
     {\displaystyle {\mathit {holdsAt}}(on(green\_block,table),1)}
-
  expresses that the
-
-
-
-
-
             g
             r
             e
@@ -69,43 +61,19 @@ In the event calculus, fluents are reified. This means that fluents are represen
             o
             c
             k
-
-
-
-
     {\displaystyle {\mathit {green\_block}}}
-
  is on the
-
-
-
-
-
             t
             a
             b
             l
             e
-
-
-
-
     {\displaystyle {\mathit {table}}}
-
  at time
-
-
-
         1
-
-
     {\displaystyle 1}
 
 . Here
-
-
-
-
 
             h
             o
@@ -114,18 +82,8 @@ In the event calculus, fluents are reified. This means that fluents are represen
             s
             A
             t
-
-
-
-
     {\displaystyle {\mathit {holdsAt}}}
-
  is a predicate, while
-
-
-
-
-
             o
             n
             (
@@ -147,19 +105,8 @@ In the event calculus, fluents are reified. This means that fluents are represen
             l
             e
             )
-
-
-
-
     {\displaystyle {\mathit {on(green\_block,table)}}}
-
  is a term. In general, the atomic formula
-
-
-
-
-
-
             h
             o
             l
@@ -167,8 +114,6 @@ In the event calculus, fluents are reified. This means that fluents are represen
             s
             A
             t
-
-
         (
         f
         l
@@ -182,51 +127,24 @@ In the event calculus, fluents are reified. This means that fluents are represen
         m
         e
         )
-
-
     {\displaystyle {\mathit {holdsAt}}(fluent,time)}
-
  expresses that the
-
-
-
-
-
             f
             l
             u
             e
             n
             t
-
-
-
-
     {\displaystyle {\mathit {fluent}}}
-
  holds at the
-
-
-
-
-
             t
             i
             m
             e
             .
-
-
-
-
     {\displaystyle {\mathit {time.}}}
 
-
 Events are also reified and represented by terms. For example,
-
-
-
-
 
             h
             a
@@ -237,8 +155,6 @@ Events are also reified and represented by terms. For example,
             s
             A
             t
-
-
         (
         m
         o
@@ -270,16 +186,8 @@ Events are also reified and represented by terms. For example,
         ,
         3
         )
-
-
     {\displaystyle {\mathit {happensAt}}(move(green\_block,red\_block),3)}
-
  expresses that the
-
-
-
-
-
             g
             r
             e
@@ -291,18 +199,8 @@ Events are also reified and represented by terms. For example,
             o
             c
             k
-
-
-
-
     {\displaystyle {\mathit {green\_block}}}
-
  is moved onto the
-
-
-
-
-
             r
             e
             d
@@ -313,27 +211,12 @@ Events are also reified and represented by terms. For example,
             c
             k
             )
-
-
-
-
     {\displaystyle {\mathit {red\_block)}}}
-
  at time
-
-
-
         3
-
-
     {\displaystyle 3}
 
 . In general:
-
-
-
-
-
 
             h
             a
@@ -344,8 +227,6 @@ Events are also reified and represented by terms. For example,
             s
             A
             t
-
-
         (
         e
         v
@@ -358,51 +239,23 @@ Events are also reified and represented by terms. For example,
         m
         e
         )
-
-
     {\displaystyle {\mathit {happensAt}}(event,time)}
-
  expresses that the
-
-
-
-
-
             e
             v
             e
             n
             t
-
-
-
-
     {\displaystyle {\mathit {event}}}
-
  happens at the
-
-
-
-
-
             t
             i
             m
             e
             .
-
-
-
-
     {\displaystyle {\mathit {time.}}}
 
-
 The relationships between events and the fluents that they initiate and terminate are also represented by atomic formulae:
-
-
-
-
-
 
             i
             n
@@ -413,8 +266,6 @@ The relationships between events and the fluents that they initiate and terminat
             t
             e
             s
-
-
         (
         e
         v
@@ -434,83 +285,36 @@ The relationships between events and the fluents that they initiate and terminat
         m
         e
         )
-
-
     {\displaystyle {\mathit {initiates}}(event,fluent,time)}
-
  expresses that if the
-
-
-
-
-
             e
             v
             e
             n
             t
-
-
-
-
     {\displaystyle {\mathit {event}}}
-
  happens at the
-
-
-
-
-
             t
             i
             m
             e
-
-
-
-
     {\displaystyle {\mathit {time}}}
-
  then the
-
-
-
-
-
             f
             l
             u
             e
             n
             t
-
-
-
-
     {\displaystyle {\mathit {fluent}}}
-
  becomes true after the
-
-
-
-
-
             t
             i
             m
             e
-
-
-
-
     {\displaystyle {\mathit {time}}}
 
 .
-
-
-
-
-
 
             t
             e
@@ -522,8 +326,6 @@ The relationships between events and the fluents that they initiate and terminat
             t
             e
             s
-
-
         (
         e
         v
@@ -543,87 +345,42 @@ The relationships between events and the fluents that they initiate and terminat
         m
         e
         )
-
-
     {\displaystyle {\mathit {terminates}}(event,fluent,time)}
-
  expresses that if the
-
-
-
-
-
             e
             v
             e
             n
             t
-
-
-
-
     {\displaystyle {\mathit {event}}}
-
  happens at the
-
-
-
-
-
             t
             i
             m
             e
-
-
-
-
     {\displaystyle {\mathit {time}}}
-
  then the
-
-
-
-
-
             f
             l
             u
             e
             n
             t
-
-
-
-
     {\displaystyle {\mathit {fluent}}}
-
  ceases to be true after the
-
-
-
-
-
             t
             i
             m
             e
-
-
-
-
     {\displaystyle {\mathit {time}}}
 
 .
 
 Domain-independent axiom
+
 The event calculus was developed in part as an alternative to the situation calculus, as a solution to the frame problem, of representing and reasoning about the way in which actions and other events change the state of some world.
+
 There are many variants of the event calculus. But the core axiom of one of the simplest and most useful variants can be expressed as a single, domain-independent axiom:
-
-
-
-
-
 
             h
             o
@@ -632,8 +389,6 @@ There are many variants of the event calculus. But the core axiom of one of the 
             s
             A
             t
-
-
         (
         F
         ,
@@ -641,17 +396,8 @@ There are many variants of the event calculus. But the core axiom of one of the 
         2
         )
         ←
-
-
     {\displaystyle {\mathit {holdsAt}}(F,T2)\leftarrow }
-
-
-
-
-
         [
-
-
             h
             a
             p
@@ -661,8 +407,6 @@ There are many variants of the event calculus. But the core axiom of one of the 
             s
             A
             t
-
-
         (
         E
         1
@@ -671,8 +415,6 @@ There are many variants of the event calculus. But the core axiom of one of the 
         1
         )
         ∧
-
-
             i
             n
             i
@@ -682,8 +424,6 @@ There are many variants of the event calculus. But the core axiom of one of the 
             t
             e
             s
-
-
         (
         E
         1
@@ -702,14 +442,7 @@ There are many variants of the event calculus. But the core axiom of one of the 
         2
         )
         ∧
-
-
     {\displaystyle [{\mathit {happensAt}}(E1,T1)\wedge {\mathit {initiates}}(E1,F,T1)\wedge (T1<T2)\wedge }
-
-
-
-
-
         ¬
         ∃
         E
@@ -717,8 +450,6 @@ There are many variants of the event calculus. But the core axiom of one of the 
         ,
         T
         [
-
-
             h
             a
             p
@@ -728,8 +459,6 @@ There are many variants of the event calculus. But the core axiom of one of the 
             s
             A
             t
-
-
         (
         E
         2
@@ -737,8 +466,6 @@ There are many variants of the event calculus. But the core axiom of one of the 
         T
         )
         ∧
-
-
             t
             e
             r
@@ -749,8 +476,6 @@ There are many variants of the event calculus. But the core axiom of one of the 
             t
             e
             s
-
-
         (
         E
         2
@@ -770,218 +495,93 @@ There are many variants of the event calculus. But the core axiom of one of the 
         2
         )
         ]
-
-
     {\displaystyle \neg \exists E2,T[{\mathit {happensAt}}(E2,T)\wedge {\mathit {terminates}}(E2,F,T)\wedge (T1\leq T<T2)]}
-
 
 The axiom states that
 
 a fluent
 
-
-
         F
-
-
     {\displaystyle F}
-
   holds at a time
-
-
-
         T
         2
-
-
     {\displaystyle T2}
-
  if
 an event
 
-
-
         E
         1
-
-
     {\displaystyle E1}
-
  happens at a time
-
-
-
         T
         1
-
-
     {\displaystyle T1}
-
  and
-
-
-
-
         E
         1
-
-
     {\displaystyle E1}
-
  initiates
-
-
-
         F
-
-
     {\displaystyle F}
-
  at
-
-
-
         T
         1
-
-
     {\displaystyle T1}
-
  and
-
-
-
-
         T
         1
-
-
     {\displaystyle T1}
-
  is before
-
-
-
         T
         2
-
-
     {\displaystyle T2}
-
  and
 it is not the case that there exists an event
 
-
-
         E
         2
-
-
     {\displaystyle E2}
-
  and a time
-
-
-
         T
-
-
     {\displaystyle T}
-
  such that
-
-
-
-
         E
         2
-
-
     {\displaystyle E2}
-
  happens at
-
-
-
         T
-
-
     {\displaystyle T}
-
  and
-
-
-
-
         E
         2
-
-
     {\displaystyle E2}
-
  terminates
-
-
-
         F
-
-
     {\displaystyle F}
-
  at
-
-
-
         T
-
-
     {\displaystyle T}
-
  and
-
-
-
-
         T
         1
-
-
     {\displaystyle T1}
-
  is before or at the same time as
-
-
-
         T
-
-
     {\displaystyle T}
-
  and
-
-
-
-
         T
-
-
     {\displaystyle T}
-
  is before
-
-
-
         T
         2
-
-
     {\displaystyle T2}
 
 .
+
 The event calculus solves the frame problem by interpreting this axiom in a non-monotonic logic, such as first-order logic with circumscription or, as a logic program, in Horn clause logic with negation as failure. In fact, circumscription is one of the several semantics that can be given to negation as failure, and it is closely related to the completion semantics for logic programs (which interprets if  as if and only if).
+
 The core event calculus axiom defines the
-
-
 
         h
         o
@@ -990,14 +590,8 @@ The core event calculus axiom defines the
         s
         A
         t
-
-
     {\displaystyle holdsAt}
-
   predicate in terms of the
-
-
-
         h
         a
         p
@@ -1007,13 +601,9 @@ The core event calculus axiom defines the
         s
         A
         t
-
-
     {\displaystyle happensAt}
 
 ,
-
-
 
         i
         n
@@ -1024,13 +614,9 @@ The core event calculus axiom defines the
         t
         e
         s
-
-
     {\displaystyle initiates}
 
 ,
-
-
 
         t
         e
@@ -1042,53 +628,29 @@ The core event calculus axiom defines the
         t
         e
         s
-
-
     {\displaystyle terminates}
 
 ,
 
-
-
         <
-
-
     {\displaystyle <}
-
  and
-
-
-
         ≤
-
-
     {\displaystyle \leq }
-
  predicates. To apply the event calculus to  a particular problem, these other predicates also need to be defined.
 The event calculus is compatible with different definitions of the temporal predicates
 
-
-
         <
-
-
     {\displaystyle <}
-
  and
-
-
-
         ≤
-
-
     {\displaystyle \leq }
 
 . In most applications, times are represented discretely, by the natural numbers, or continuously, by non-negative real numbers. However, times can also be partially ordered.
 
 Domain-dependent axioms
+
 To apply the event calculus in a particular problem domain, it is necessary to define the
-
-
 
         i
         n
@@ -1099,14 +661,8 @@ To apply the event calculus in a particular problem domain, it is necessary to d
         t
         e
         s
-
-
     {\displaystyle initiates}
-
  and
-
-
-
         t
         e
         r
@@ -1117,14 +673,8 @@ To apply the event calculus in a particular problem domain, it is necessary to d
         t
         e
         s
-
-
     {\displaystyle terminates}
-
  predicates for that domain. For example, in the blocks world domain, an event
-
-
-
         m
         o
         v
@@ -1143,14 +693,8 @@ To apply the event calculus in a particular problem domain, it is necessary to d
         c
         e
         )
-
-
     {\displaystyle move(Object,Place)}
-
  of moving an object onto a place initiates the fluent
-
-
-
         o
         n
         (
@@ -1167,13 +711,9 @@ To apply the event calculus in a particular problem domain, it is necessary to d
         c
         e
         )
-
-
     {\displaystyle on(Object,Place)}
 
 , which expresses that the object is on the place and terminates the fluent
-
-
 
         o
         n
@@ -1192,16 +732,9 @@ To apply the event calculus in a particular problem domain, it is necessary to d
         e
         1
         )
-
-
     {\displaystyle on(Object,Place1)}
 
 , which expresses that the object is on a different place:
-
-
-
-
-
 
             i
             n
@@ -1212,8 +745,6 @@ To apply the event calculus in a particular problem domain, it is necessary to d
             t
             e
             s
-
-
         (
         m
         o
@@ -1257,16 +788,7 @@ To apply the event calculus in a particular problem domain, it is necessary to d
         e
         )
         .
-
-
     {\displaystyle {\mathit {initiates}}(move(Object,Place),on(Object,Place),Time).}
-
-
-
-
-
-
-
             t
             e
             r
@@ -1277,8 +799,6 @@ To apply the event calculus in a particular problem domain, it is necessary to d
             t
             e
             s
-
-
         (
         m
         o
@@ -1347,14 +867,9 @@ To apply the event calculus in a particular problem domain, it is necessary to d
         e
         )
         .
-
-
     {\displaystyle {\mathit {terminates}}(move(Object,Place),on(Object,Place1),Time)\leftarrow different(Place1,Place).}
 
-
 If we want to represent the fact that a
-
-
 
         F
         l
@@ -1362,14 +877,8 @@ If we want to represent the fact that a
         e
         n
         t
-
-
     {\displaystyle Fluent}
-
  holds in an initial state, say at time 1, then with the simple core axiom above we need an event, say
-
-
-
         i
         n
         i
@@ -1388,13 +897,9 @@ If we want to represent the fact that a
         n
         t
         )
-
-
     {\displaystyle initialise(Fluent)}
 
 , which initiates the
-
-
 
         F
         l
@@ -1402,17 +907,8 @@ If we want to represent the fact that a
         e
         n
         t
-
-
     {\displaystyle Fluent}
-
  at any time:
-
-
-
-
-
-
             i
             n
             i
@@ -1422,8 +918,6 @@ If we want to represent the fact that a
             t
             e
             s
-
-
         (
         i
         n
@@ -1457,14 +951,11 @@ If we want to represent the fact that a
         e
         )
         .
-
-
     {\displaystyle {\mathit {initiates}}(initialise(Fluent),Fluent,Time).}
 
 Problem-dependent axioms
+
 To apply the event calculus, given the definitions of the
-
-
 
         h
         o
@@ -1473,13 +964,9 @@ To apply the event calculus, given the definitions of the
         s
         A
         t
-
-
     {\displaystyle holdsAt}
 
 ,
-
-
 
         i
         n
@@ -1490,13 +977,9 @@ To apply the event calculus, given the definitions of the
         t
         e
         s
-
-
     {\displaystyle initiates}
 
 ,
-
-
 
         t
         e
@@ -1508,32 +991,16 @@ To apply the event calculus, given the definitions of the
         t
         e
         s
-
-
     {\displaystyle terminates}
 
 ,
 
-
-
         <
-
-
     {\displaystyle <}
-
  and
-
-
-
         ≤
-
-
     {\displaystyle \leq }
-
  predicates, it is necessary to define the
-
-
-
         h
         a
         p
@@ -1543,17 +1010,9 @@ To apply the event calculus, given the definitions of the
         s
         A
         t
-
-
     {\displaystyle happensAt}
-
  predicates that describe the specific context of the problem.
 For example, in the blocks world domain, we might want to describe an initial state in which there are two blocks, a red block on a green block on a table, like a toy traffic light, followed by moving the red block to the table at time 1 and moving the green block onto the red block at time 3, turning the traffic light upside down:
-
-
-
-
-
 
             h
             a
@@ -1564,8 +1023,6 @@ For example, in the blocks world domain, we might want to describe an initial st
             s
             A
             t
-
-
         (
         i
         n
@@ -1606,16 +1063,7 @@ For example, in the blocks world domain, we might want to describe an initial st
         ,
         0
         )
-
-
     {\displaystyle {\mathit {happensAt}}(initialise(on(red\_block,green\_block),0)}
-
-
-
-
-
-
-
             h
             a
             p
@@ -1625,8 +1073,6 @@ For example, in the blocks world domain, we might want to describe an initial st
             s
             A
             t
-
-
         (
         i
         n
@@ -1663,16 +1109,7 @@ For example, in the blocks world domain, we might want to describe an initial st
         ,
         0
         )
-
-
     {\displaystyle {\mathit {happensAt}}(initialise(on(green\_block,table),0)}
-
-
-
-
-
-
-
             h
             a
             p
@@ -1682,8 +1119,6 @@ For example, in the blocks world domain, we might want to describe an initial st
             s
             A
             t
-
-
         (
         m
         o
@@ -1709,16 +1144,7 @@ For example, in the blocks world domain, we might want to describe an initial st
         ,
         1
         )
-
-
     {\displaystyle {\mathit {happensAt}}(move(red\_block,table),1)}
-
-
-
-
-
-
-
             h
             a
             p
@@ -1728,8 +1154,6 @@ For example, in the blocks world domain, we might want to describe an initial st
             s
             A
             t
-
-
         (
         m
         o
@@ -1761,33 +1185,26 @@ For example, in the blocks world domain, we might want to describe an initial st
         ,
         3
         )
-
-
     {\displaystyle {\mathit {happensAt}}(move(green\_block,red\_block),3)}
 
 A Prolog implementation
+
 The event calculus has a natural implementation in pure Prolog (without any features that do not have a logical interpretation). For example, the blocks world scenario above can be implemented (with minor modifications) by the program:
 
 The Prolog program differs from the earlier formalisation in the following ways:
 
 The core axiom has been rewritten, using an auxiliary predicate clipped(Fact, Time1, Time2). This rewriting enables the elimination of existential quantifiers, conforming to the Prolog convention that all variables are universally quantified.
+
 The order of the conditions in the body of the core axiom(s) has been changed, to generate answers to queries in temporal order.
+
 The equality in the condition
-
-
 
         T
         1
         ≤
         T
-
-
     {\displaystyle T1\leq T}
-
  has been removed from the corresponding condition before(Time1, Time). This builds in a simplifying assumption that events do not simultaneously initiate and terminate the same fluent. As a consequence, the definition of the
-
-
-
         t
         e
         r
@@ -1798,14 +1215,8 @@ The equality in the condition
         t
         e
         s
-
-
     {\displaystyle terminates}
-
  predicate has been simplified by eliminating the condition that
-
-
-
         d
         i
         f
@@ -1829,16 +1240,16 @@ The equality in the condition
         c
         e
         )
-
-
     {\displaystyle different(Place1,Place)}
 
 .
+
 Given an appropriate definition of the predicate before(Time1, Time2), the Prolog program generates all answers to the query what holds when? in temporal order:
 
 The program can also answer negative queries, such as which fluents do not hold at which times? However, to work correctly, all variables in negative conditions must first be instantiated to terms containing no variables. For example:
 
 Reasoning tools
+
 In addition to Prolog and its variants, several other tools for reasoning using the event calculus are also available:
 
 Abductive Event Calculus Planners
@@ -1849,4 +1260,5 @@ Run-Time Event Calculus (RTEC)
 Epistemic Probabilistic Event Calculus (EPEC)
 
 Extensions
+
 Notable extensions of the event calculus include Markov logic networks–based variants probabilistic, epistemic and their combinations.

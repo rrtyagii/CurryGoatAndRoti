@@ -1,27 +1,41 @@
 Symbolically Isolated Linguistically Variable Intelligence Algorithms (SILVIA) is a core platform technology developed by Cognitive Code. SILVIA was developed and designed to recognize and interpret speech and text, and interact with applications and operating systems. The technology can operate from the cloud, as a mobile application, as part of a network, or on servers.
 
 Overview
+
 History
+
 Leslie Spring founded Cognitive Code in 2007 and is the inventor and architect of Cognitive Code’s SILVIA Platform. Before founding Cognitive Code, Leslie worked for companies such as Electronic Arts, Disney, and Sony, heading up their software development teams responsible for building graphics systems, 3D game engines, and custom software developer tools.
+
 Cognitive Code is privately held by a consortium group of private equity investors. Cognitive Code received venture capital funding from New York investment firm Channel Mark Ventures, which maintains majority ownership of the company.
 
 Features
+
 SILVIA was developed to recognize and interpret any human interaction through text, speech, and any other human input. The platform allows an application of it in all applicable and possible applications, which then allows natural and intuitive human interaction. It has a set of graphical user interface tools which can aid in developing intelligent objects or entities and has an array of API scripts that can be embedded in any compatible applications.
+
 The platform can be used in different computing platforms and operating systems, which allows easy transfer of data. SILVIA uses a non-command-based system wherein inputs are based on normal human conversational language, not on pre-coded commands like what Google's Google Now and Apple Inc.'s Siri used.
 
 Components
+
 SILVIA is composed of several components:
 
 SILVIA Core: A runtime engine which can be configurable for use for any user, server, or mobile system. It can also be embedded.
+
 SILVIA Server: A configurable system of SILVIA Cores for automated management.
+
 SILVIA Voice: A modular component designed for accepting voice input and rendering voice output. It can be used within an application, web page, or as part of SILVIA server for optimization of media streaming.
+
 SILVIA API: Programmers are allowed to create applications and plug-in-based functionality.
+
 SILVIA Studio: A graphical system for application-specific behavior development.
 
 Use
+
 SILVIA can be used in several applications, including call centers, smart phones like the iPhone and Android devices, and voice search or other voice-related applications. SILVIA responds to its users in complete sentences.
+
 SILVIA has been used by companies such as Northrop Grumman. Northrop Grumman used the technology in order to aid the company's employees to communicate with computers and mobile devices using natural language. The company also utilizes the technology in the development and military training applications deployment. As of 2012, SILVIA had been considered for use in training and simulation applications for the US Military.
+
 The platform can also be used in gaming through its SILVIA Unity platform, and as of 2007 had been introduced for use in toys.
 
 Recognition
+
 Cognitive Code and its technology platform were included in the list of TechCrunch's TechCrunch40 in 2007.

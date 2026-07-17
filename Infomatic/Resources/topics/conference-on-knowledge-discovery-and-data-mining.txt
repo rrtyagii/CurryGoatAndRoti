@@ -1,43 +1,61 @@
 SIGKDD, representing the Association for Computing Machinery's (ACM) Special Interest Group (SIG) on Knowledge Discovery and Data Mining, hosts an influential annual conference.
 
 Conference history
+
 The KDD Conference grew from KDD (Knowledge Discovery and Data Mining) workshops at AAAI conferences, which were started by Gregory I. Piatetsky-Shapiro in 1989, 1991, and 1993, and Usama Fayyad in 1994. Conference papers of each proceedings of the SIGKDD International Conference on Knowledge Discovery and Data Mining are published through ACM. KDD is widely considered the most influential forum for knowledge discovery and data mining research.
 
 The KDD conference has been held each year since 1995, and SIGKDD became an official ACM Special Interest Group in 1998. Past conference locations are listed on the KDD conference web site.
+
 The annual ACM SIGKDD conference is recognized as a flagship venue in the field. Based on statistics provided by independent researcher Lexing Xie in her analysis “Visualizing Citation Patterns of Computer Science Conferences“ as part of the research in Computation Media Lab at Australian National University:
 
 4489 papers were published at ACM SIGKDD conference over in the years 1994–2015 (inclusive).
+
 These 4489 papers had received 112570 citations in total across 3033 venues.
 56% of these 3033 venues are recognized as top 25 venues in the field.
 The annual conference of ACM SIGKDD has received the highest rating A* from independent organization Computing Research and Education (a.k.a. CORE).
 
 Selection Criteria
+
 Like all flagship conferences, SIGKDD imposes a high requirement to present and publish submitted papers. The focus is on innovative research in data mining, knowledge discovery, and large-scale data analytics. Papers emphasizing theoretical foundations are particularly encouraged, as are novel modeling and algorithmic approaches to specific data mining problems in scientific, business, medical, and engineering applications. Visionary papers on new and emerging topics are particularly welcomed. Authors are explicitly discouraged from submitting papers that contain only incremental results or that do not provide significant advances over existing approaches.
+
 In 2014, over 2,600 authors from at least fourteen countries submitted over a thousand papers to the conference. A final 151 papers were accepted for presentation and publication, representing an acceptance rate of 14.6%. This acceptance rate is slightly lower than those of other top computer science conferences, which typically have a rate of 15–25%. The acceptance rate of a conference is only a proxy measure of its quality. For example, in the field of information retrieval, the WSDM conference has a lower acceptance rate than the higher-ranked SIGIR.
 
 Awards
+
 The group recognizes members of the KDD community with its annual Innovation Award and Service Award.
+
 Each year KDD presents a Best Paper Award to recognizes papers presented at the annual SIGKDD conference that advance the fundamental understanding of the field of knowledge discovery in data and data mining. Two research paper awards are granted: Best Research Paper Award Recipients and Best Student Paper Award Recipients.
 
 Best Paper Award (Best Research Track Paper)
+
 Winning the ACM SIGKDD Best Paper Award (Best Research Track Paper) is widely considered an internationally recognized significant achievement in a researcher's career. Authors compete with established professionals in the field, such as tenured professors, executives, and eminent industry experts from top institutions. It is common to find press articles and news announcements from the awardees’ institutions and professional media to celebrate this achievement.
+
 This award recognizes innovative scholarly articles that advance the fundamental understanding of the field of knowledge discovery in data and data mining.
+
 Each year, the award is given to authors of the strongest paper by this criterion, selected by a rigorous process.
 
 Selection Process
+
 The selection process follows multiple rounds of peer reviews under stringent criteria.  The selection committee consists of leading experts who provide insightful and independent analysis on the merits and degree of innovation of the scholarly articles submitted by each author. The reviewers are required to be recognized subject experts who had extensive contributions to the specific subject area addressed by the paper. Reviewers are also required to be completely unaffiliated with the authors.
+
 First, all papers submitted to the ACM SIGKDD conference are reviewed by research track program committee members. Each submitted paper is extensively reviewed by multiple committee members and detailed feedback is given to each author. After review, decisions are made by the committee members to accept or reject the paper based on the paper’s novelty, technical quality, potential impact, clarity, and whether the experimental methods and results are clear, well executed, and repeatable. During the process, committee members also evaluate the merits of each paper based on above factors, and make decision on recommending candidates for Best Paper Award (Best Research Track Paper).
+
 The candidates for Best Paper Award (Best Research Track Paper) are extensively reviewed by conference chairs and the best paper award committee. The final determination of the award is based on the level of advancement made by authors through the paper to the understanding of the field of knowledge discovery and data mining. Authors of a single paper who are judged to have contributed the highest level of advancement to the field are selected as recipients of this award. Anyone who submits a scholarly article to SIGKDD is considered for this award.
 
 Previous winners
+
 The ACM SIGKDD Best Paper Award (Best Research Track Paper) was given to 49 individuals between 1997 and 2014. Among these individuals, most are distinguished persons and established professionals with celebrated careers, who have made significant contributions to the field.
 
 Best Student Paper Award
+
 This only difference between "Best Student Paper Award" and "Best Paper Award (Best Research Track Paper)" is the limitation in competition.
+
 All authors participating the conference are considered equally for "Best Paper Award (Best Research Track Paper)", and the award does not limit competition to any particular region, population, or age group.
+
 However, "Best Student Paper Award" is limited to student authors only. "Best Student Paper Award" recognizes papers presented at the annual SIGKDD conference, with a student as a first author, that advance the fundamental understanding of the field of knowledge discovery in data and data mining.
 
 KDD-Cup
+
 SIGKDD sponsors the KDD Cup data mining competition every year in conjunction with the annual conference. It is aimed at members of the industry and academia, particularly students, interested in KDD.
 
 SIGKDD Explorations
@@ -51,17 +69,24 @@ Sunita Sarawagi (2003–2006)
 Usama Fayyad (Founding Editor-in-Chief) (1999–2002)
 
 People
+
 The original founding board of directors of SIGKDD in 1998 consist of:
 
 Won Kim, president, Cyber Database Solutions,  SIGKDD Chair
+
 Rakesh Agrawal, IBM Almaden, SIGKDD Secretary/Treasurer
+
 Usama Fayyad, Microsoft Research,  SIGKDD Director and Editor-in-Chief of SIGKDD Explorations Newsletter
 Gregory Piatetsky-Shapiro, Knowledge Stream Partners, SIGKDD Director
+
 Daryl Pregibon,  AT&T Labs, SIGKDD Director
+
 Padhraic Smyth, U. of California Irvine, SIGKDD Director
+
 Current chair:
 
 Bing Liu (2013–)
+
 Former Chairpersons:
 
 Usama Fayyad (2009–2013)
@@ -79,4 +104,5 @@ Information Directors:
 
 Ankur Teredesai (2011–)
 Gabor Melli (2004–2011)
+
 Ramakrishnan Srikant (1998–2003)

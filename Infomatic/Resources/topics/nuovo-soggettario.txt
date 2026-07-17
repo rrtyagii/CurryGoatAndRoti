@@ -1,34 +1,49 @@
 The Nuovo soggettario is a subject indexing system managed and implemented by the National Central Library of Florence (Biblioteca nazionale centrale di Firenze, BNCF), that in Italy has the institutional task to curate and develop the subject indexing tools, as national book archive and as bibliographic production agency of the Bibliografia nazionale italiana. It can be used in libraries, archives, media libraries, documentation centers and other institutes of the cultural heritage to index resources of various nature (texts, images, sounds, web sites, etc.) on various supports (analog, digital).
 
 Components
+
 The Nuovo soggettario is a multi-component system, whose principal ones are:
 
 A set of syntactic and semantic rules (published on the related Guide), aimed at processing the subject headings;
 The multi-disciplinary thesaurus in Italian language including the terminology that can be used in indexing and, in phase of research, by the users of online catalogues and other databases. The Nuovo Soggettario Thesaurus is available in open formats within the context of linked data.
 
 Purposes
+
 The Nuovo soggettario suggests a method for subject indexing compliant with the international standards and FAIR Principles for scientific data management and stewardship (findability, accessibility, interoperability, reusability). It has renewed the Soggettario per i Cataloghi delle biblioteche italiane, published by BNCF in 1956 and used for many years by most Italian libraries.
 
 History
+
 The project for the processing of the Nuovo soggettario was started by Antonia Ida Fontana (director of the National Central Library of Florence from 1996 to 2010) and has been supported, since the beginning, by the Ministry of Culture (Italy) and by the Istituto Centrale per il Catalogo Unico (ICCU).
+
 It arose from the conviction that the Soggettario 1956  had become an old tool and that an in-depth revision had to be made necessary, also in view of developments that, in this context, have produced theories, international standards, conceptual models and indexing systems of other countries.
 
 Differences with the previous tool
+
 Soggettario
+
 The Soggettario (edited in 1956) has been the result of the twenty-year work carried out by a group of librarians of National Central Library of Florence (coordinated, in its final stage, by Emanuele Casamassima ), starting with the headings of the subject catalogue of the Library and inspired by the American tradition of the Library of Congress Subject Headings (LCSH).
+
 It involved a pre-coordinated type indexing, based on main entries and subdivisions. It was in the form of a controlled vocabulary and it did not include an apparatus of explicit syntactic rules.
+
 Over fifty years, the Subject indexing has been enhanced with the publication of Liste di aggiornamento (Update lists) until 1999, that are lists of new terms introduced by the Bibliografia nazionale italiana.
+
 The tool, however, revealed all its inadequacy both in the most advanced disciplinary sectors and in the lexical and structural profile, without taking into account that the switching from paper catalogues to online public access catalogues (OPACs) had further emphasized its limits.
 
 Nuovo soggettario
+
 The Nuovo soggettario is constituted by a detailed set of rules and by a multidisciplinary Thesaurus, as essential components of a structure that keeps the sphere of syntax apart from the terminological one. It complies with ISO standards with regard to the semantic indexing (related to both the conceptual analysis and the Thesauri), with the guidelines of the International Federation of Library Associations and Institutions (IFLA) and with other models that guarantee functional requirements in the bibliographic research (i.e., Functional Requirements for Bibliographic Records (FRBR), IFLA Library Reference Model (IFLA LRM)): thanks to these characteristics, it can communicate and be interoperable with other indexing tools.
+
 The Nuovo soggettario is part of the endeavor to develop even more the web search, in order to allow the connection between the Thesaurus and other types of vocabularies. Following the concept of an open towards non-book domains and in anticipation of an increasing integration between different archives, the Thesaurus, besides the Zthes and MARC21 standards, is also available in protocols and formats adequate to the data exchanges in the web, such as SKOS/RDF (first mapping in SKOS, see 0.1 of June 2010).
 On this side, BNCF has both national and international ongoing collaborations and contacts, so as to optimize the methods of publication on the web – such as linked data – of the produced metadata. The metadata of the Thesaurus are available under the License Creative Commons, Attribution 4.0, that includes the free use, provided that its ownership be expressly recognized.
 
 The users of Thesaurus can interact with the BNCF working group to send comments and suggestions on the term itself by a sachet-shaped icon, appearing alongside each term.
+
 Instead, proposals for new terms are reserved to the institutions that have formally signed agreements with BNCF for the development of the Thesaurus. The users of Thesaurus can interact with the BNCF'working group by a sachet-shaped icon (appearing alongside each term) to send comments and suggestions on the term itself, its semantic reports, etc. in relation to the already existing terminology. Instead, proposals for new terms are reserved to the institutions that have formally signed agreements with BNCF for the development of the Thesaurus.
 
 Developments
+
 Updates and revisions of the Thesaurus are carried out by the Research and Tools for Subject Indexing and Classification of the BNCF (general coordination) with the collaboration of two more departments of the BNCF: Italian national bibliography (BNI) and IT Services.
+
 The Nuovo soggettario, that benefits from a wide net of collaborations with many kinds of institutions (university libraries, local institutions’ libraries, ecclesiastical libraries, National Library Service of Italy nodes, important research and cultural institutions such as the Accademia della Crusca, Consiglio Nazionale delle Ricerche, the Istituto dell’Enciclopedia italiana Treccani, etc.), is more and more integrated with the structured data of Wikidata. In addition, the Thesaurus is gradually increasing its interoperability with other semantic indexing tools developed by other National libraries, and with archives and museums resources in a GLAM perspective.
+
 The Thesaurus of the Nuovo soggettario is constantly increasing; in March 2025, it has reached 74.490 terms from the 13.000 terms published in the prototype of January 2007. The increase of terms and equivalents in other languages is detected every six months and visible on the BNCF web site.

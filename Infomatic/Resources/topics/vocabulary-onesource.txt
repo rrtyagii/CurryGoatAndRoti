@@ -1,4 +1,7 @@
 OneSource is an evolving data analysis tool used internally by the Air Combat Command (ACC) Vocabulary Services Team, and made available to the general data management community. It is used by the greater US Department of Defense (DoD) and NATO community for controlled vocabulary management and exploration. It provides its users with a consistent view of syntactical, lexical, and semantic data vocabularies through a community-driven web environment. It was created with the intention of directly supporting the DoD Net-centric Data Strategy of visible, understandable, and accessible data assets.
+
 OneSource serves developers, integrators, managers, and community of interest (COI) participants as a focus point for searching, navigating, annotating, semantic matching, and mapping data terms extracted from military standards, COI vocabularies, programs of record, and other schemas and data sources.
+
 OneSource is based upon a United States Air Force researched and developed triplestore knowledge base architecture, which allows XML Schema, Web Ontology Language, relational database, spreadsheet, and even custom data models to be handled and presented in the same manner. Initial capability was released in 2006. Version 2 was released in 2008 with the previously disjoint matching and mapping capabilities fully integrated for use in a web browser.
+
 A brief newsfeed of recent changes in the Namespace dataset is available to the general public.

@@ -1,21 +1,31 @@
 Algolia is an artificial intelligence (AI) software company headquartered in San Francisco, California that specializes in AI search. Its main product is an API-first, AI-powered search platform for individual websites.
 
 Company
+
 Algolia was founded in 2012 by Nicolas Dessaigne and Julien Lemoine, both originally from Paris, France. It was originally a company focused on offline search on mobile phones. Later it was selected to be part of Y Combinator's Winter 2014 class.
+
 Starting with two data centres in Europe and the US, Algolia opened a third center in Singapore in March 2014, and as of 2019, claimed to be present in over 70 data centers across 16 worldwide regions. It serves roughly 18,000+ customers, handling over 1.75+ Trillion searches a year. In May 2015, Algolia received $18.3M in a series A investment from a financial group led by Accel Partners, and in 2017 a $53M series B investment, also led by Accel Partners. From June 2016 to September 2019, the usage of Algolia by small websites increased from 632 to 5,168 in the "top 1 million websites" and 197 in the "top 10k websites" evaluated by Built With.
+
 In January 2021, Algolia acquired Romanian AI and machine learning startup Morphl.
+
 In July 2021, Algolia raised a $150 million Series D funding round and became a unicorn, with a valuation of $2.25 billion.
+
 In September 2022, Algolia acquired Australian search startup company Search.io
 
 Products and technology
+
 The Algolia AI Search platform provides search as a service, offering web search across a client's website using an externally hosted search engine. Although in-site search has long been available from general web search providers such as Google, this is typically done as a subset of general web searching. Algolia's product only indexes their clients' sites. Data for the client site is pushed from the client to Algolia via a RESTful JSON API, then the search box is added to the client's web pages.
 
 API
+
 Algolia provides their search service via various APIs. The Rest API provides basic features of search, analysis and monitoring. There are 10 supported languages and platforms for client usage.
 
 Infrastructure
+
 Algolia documented one attempt to remove all single points of failure in their architecture and proposed a worldwide infrastructure called Distributed Search Network to reply to a search query from any location closer to the source.
+
 The DSN feature allows setting the locations in Algolia's network where the data should be duplicated.
 
 Citations and Awards
+
 In 2024, Gartner identified Algolia as the fastest-growing vendor in their 2025 Gartner Magic Quadrant for Search and Product Discovery.

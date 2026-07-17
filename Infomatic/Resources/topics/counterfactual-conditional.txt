@@ -1,62 +1,86 @@
 Counterfactual conditionals (also contrafactual, subjunctive or X-marked conditionals) are conditional sentences that describe what would have been true if circumstances had been different, typically when the antecedent is taken to be false or incompatible with what actually happened. In English they are often formed with a past or irrealis morphology, as in "If Peter believed in ghosts, he would be afraid to be here", and are standardly contrasted with indicative conditionals, which are generally used to discuss live or open possibilities.
+
 The name subjunctive conditionals is sometimes preferred because counterfactuals are not always "contrary to fact" as the word "counterfactual" implies, but the name counterfactual conditionals is sometimes preferred because counterfactuals are not always grammatically subjunctive. Hence the name X-marking has been developed as a compromise, although it is newer in the literature; see § Terminology.
+
 Counterfactuals are central topics in philosophical logic, formal semantics, and philosophy of language. In particular, several conditional logics have been developed specifically to study counterfactuals. Early work treated them as a challenge for the analysis of conditionals in terms of the material conditional, which would make all counterfactuals with false antecedents trivially true. Subsequent research developed a range of non-truth-functional accounts, especially possible world approaches such as Lewis's variably strict analysis and Stalnaker's closest-world semantics, as well as alternatives based on strict conditionals, causal models, and belief revision and the Ramsey test.
+
 From a linguistic perspective, counterfactuality is closely tied to the grammatical marking of tense, aspect, and mood. Many languages use so-called fake tense and fake aspect to signal a counterfactual interpretation, sometimes analyzed as instances of more general X-marking that distinguishes these conditionals from their indicative or O-marked counterparts. Research in psychology and cognitive science studies how people understand and reason with counterfactual conditionals, how they differ from indicatives in comprehension and inference, and how they relate to more general patterns of counterfactual thinking and mental simulation.
 
 Overview
+
 Examples
+
 An example of the difference between indicative and counterfactual conditionals is the following English minimal pair:
 
 Indicative conditional: If Sally owns a donkey, then she rides it.
+
 Simple past counterfactual: If Sally owned a donkey, she would ride it.
+
 These conditionals differ in both form and meaning. The indicative conditional uses the present tense form "owns" and therefore conveys that the speaker is agnostic about whether Sally in fact owns a donkey. The counterfactual example uses the fake tense form "owned" in the "if" clause and the past-inflected modal "would" in the "then" clause. As a result, it conveys that Sally does not in fact own a donkey. English has several other grammatical forms whose meanings are sometimes included under the umbrella of counterfactuality. One is the past perfect counterfactual, which contrasts with indicatives and simple past counterfactuals in its use of pluperfect morphology:
 
 Past perfect counterfactual: If it had been raining yesterday, then Sally would have been inside.
+
 Another kind of conditional uses the form "were", generally referred to as the irrealis or subjunctive form.
 
 Irrealis counterfactual: If it were raining right now, then Sally would be inside.
+
 Past perfect and irrealis counterfactuals can undergo conditional inversion:
 
 Had it rained, Sally would have been inside.
+
 Were it raining, Sally would be inside.
 
 Terminology
+
 The term counterfactual conditional is widely used as an umbrella term for the kinds of sentences shown above. However, not all conditionals of this sort express contrary-to-fact meanings. For instance, the classic example known as the "Anderson Case" has the characteristic grammatical form of a counterfactual conditional, but does not convey that its antecedent is false or unlikely.
 
 Anderson Case: If Jones had taken arsenic, he would have shown just exactly those symptoms which he does in fact show.
+
 Such conditionals are also widely referred to as subjunctive conditionals, though this term is likewise acknowledged as a misnomer even by those who use it. Many languages do not have a morphological subjunctive (e.g. Danish and Dutch) and many that do have it do not use it for this sort of conditional (e.g. French, Swahili, all Indo-Aryan languages that have a subjunctive). Moreover, languages that do use the subjunctive for such conditionals only do so if they have a specific past subjunctive form. Thus, subjunctive marking is neither necessary nor sufficient for membership in this class of conditionals.
+
 The terms counterfactual and subjunctive have sometimes been repurposed for more specific uses. For instance, the term "counterfactual" is sometimes applied to conditionals that express a contrary-to-fact meaning, regardless of their grammatical structure. Along similar lines, the term "subjunctive" is sometimes used to refer to conditionals that bear fake past or irrealis marking, regardless of the meaning they convey.
+
 Recently the term X-Marked has been proposed as a replacement, evoking the extra marking that these conditionals bear. Those adopting this terminology refer to indicative conditionals as O-Marked conditionals, reflecting their ordinary marking.
+
 The antecedent of a conditional is sometimes referred to as its "if"-clause or protasis. The consequent of a conditional is sometimes referred to as a "then"-clause or as an apodosis.
 
 Logic and semantics
+
 Counterfactuals were first discussed by Nelson Goodman as a problem for the material conditional used in classical logic. Because of these problems, early work such as that of W.V. Quine held that counterfactuals are not strictly logical, and do not make true or false claims about the world. However, in the 1960s and 1970s, work by Robert Stalnaker and David Lewis showed that these problems are surmountable given an appropriate intensional logical framework. Work since then in formal semantics, philosophical logic (especially conditional logic), philosophy of language, and cognitive science has built on this insight, taking it in a variety of different directions.
 
 Classic puzzles
+
 The problem of counterfactuals
+
 According to the material conditional analysis, a natural language conditional, a statement of the form "if P then Q", is true whenever its antecedent, P, is false. Since counterfactual conditionals are those whose antecedents are false, this analysis would wrongly predict that all counterfactuals are vacuously true. Goodman illustrates this point using the following pair in a context where it is understood that the piece of butter under discussion had not been heated.
 
 If that piece of butter had been heated to 150°, it would have melted.
+
 If that piece of butter had been heated to 150°, it would not have melted.
+
 More generally, such examples show that counterfactuals are not truth-functional. In other words, knowing whether the antecedent and consequent are actually true is not sufficient to determine whether the counterfactual itself is true.
 
 Context dependence and vagueness
+
 Counterfactuals are context dependent and vague. For example, either of the following statements can be reasonably held true, though not at the same time:
 
 If Caesar had been in command in Korea, he would have used the atom bomb.
+
 If Caesar had been in command in Korea, he would have used catapults.
 
 Non-monotonicity
+
 Counterfactuals are non-monotonic in the sense that their truth values can be changed by adding extra material to their antecedents. This fact is illustrated by Sobel sequences such as the following:
 
 If Hannah had drunk coffee, she would be happy.
+
 If Hannah had drunk coffee and the coffee had gasoline in it, she would be sad.
+
 If Hannah had drunk coffee and the coffee had gasoline in it and Hannah were a gasoline-drinking robot, she would be happy.
+
 One way of formalizing this fact is to say that the principle of Antecedent Strengthening should not hold for any connective > intended as a formalization of natural language conditionals.
 
 Antecedent Strengthening:
-
-
 
         P
         >
@@ -69,18 +93,17 @@ Antecedent Strengthening:
         )
         >
         Q
-
-
     {\displaystyle P>Q\models (P\land R)>Q}
 
 Possible worlds accounts
+
 The most common logical accounts of counterfactuals are couched in a conditional logic using possible world semantics. Broadly speaking, these approaches have in common that they treat a counterfactual A > B as true if B holds across some set of possible worlds where A is true. They vary mainly in how they identify the set of relevant A-worlds.
+
 David Lewis's variably strict conditional is considered the classic analysis within philosophy. The closely related premise semantics proposed by Angelika Kratzer is often taken as the standard within linguistics. However, there are numerous possible worlds approaches on the market, including dynamic variants of the strict conditional analysis originally dismissed by Lewis.
 
 Strict conditional
+
 The strict conditional analysis treats natural language counterfactuals as being equivalent to the modal logic formula
-
-
 
         ◻
         (
@@ -88,33 +111,18 @@ The strict conditional analysis treats natural language counterfactuals as being
         →
         Q
         )
-
-
     {\displaystyle \Box (P\rightarrow Q)}
 
 . In this formula,
 
-
-
         ◻
-
-
     {\displaystyle \Box }
-
  expresses necessity and
-
-
-
         →
-
-
     {\displaystyle \rightarrow }
-
  is understood as material implication. This approach was first proposed in 1912 by C.I. Lewis as part of his axiomatic approach to modal logic. In modern relational semantics, this means that the strict conditional is true at w iff the corresponding material conditional is true throughout the worlds accessible from w. More formally:
 
 Given a model
-
-
 
         M
         =
@@ -125,14 +133,10 @@ Given a model
         ,
         V
         ⟩
-
-
     {\displaystyle M=\langle W,R,V\rangle }
 
 , we have that
 
-
-
         M
         ,
         w
@@ -143,14 +147,8 @@ Given a model
         →
         Q
         )
-
-
     {\displaystyle M,w\models \Box (P\rightarrow Q)}
-
  iff
-
-
-
         M
         ,
         v
@@ -158,128 +156,60 @@ Given a model
         P
         →
         Q
-
-
     {\displaystyle M,v\models P\rightarrow Q}
-
  for all
-
-
-
         v
-
-
     {\displaystyle v}
-
  such that
-
-
-
         R
         w
         v
-
-
     {\displaystyle Rwv}
-
 
 Unlike the material conditional, the strict conditional is not vacuously true when its antecedent is false. To see why, observe that both
 
-
-
         P
-
-
     {\displaystyle P}
-
  and
-
-
-
         ◻
         (
         P
         →
         Q
         )
-
-
     {\displaystyle \Box (P\rightarrow Q)}
-
  will be false at
-
-
-
         w
-
-
     {\displaystyle w}
-
  if there is some accessible world
-
-
-
         v
-
-
     {\displaystyle v}
-
  where
-
-
-
         P
-
-
     {\displaystyle P}
-
  is true and
-
-
-
         Q
-
-
     {\displaystyle Q}
-
  is not. The strict conditional is also context-dependent, at least when given a relational semantics (or something similar). In the relational framework, accessibility relations are parameters of evaluation which encode the range of possibilities which are treated as "live" in the context. Since the truth of a strict conditional can depend on the accessibility relation used to evaluate it, this feature of the strict conditional can be used to capture context-dependence.
 The strict conditional analysis encounters many known problems, notably monotonicity. In the classical relational framework, when using a standard notion of entailment, the strict conditional is monotonic, i.e. it validates Antecedent Strengthening. To see why, observe that if
-
-
 
         P
         →
         Q
-
-
     {\displaystyle P\rightarrow Q}
-
  holds at every world accessible from
-
-
-
         w
-
-
     {\displaystyle w}
 
 , the monotonicity of the material conditional guarantees that
 
-
-
         P
         ∧
         R
         →
         Q
-
-
     {\displaystyle P\land R\rightarrow Q}
-
  will be too. Thus, we will have that
-
-
-
         ◻
         (
         P
@@ -295,32 +225,41 @@ The strict conditional analysis encounters many known problems, notably monotoni
         →
         Q
         )
-
-
     {\displaystyle \Box (P\rightarrow Q)\models \Box (P\land R\rightarrow Q)}
 
 .
+
 This fact led to widespread abandonment of the strict conditional, in particular in favor of Lewis's variably strict analysis. However, subsequent work has revived the strict conditional analysis by appealing to context sensitivity. This approach was pioneered by Warmbrōd (1981), who argued that Sobel sequences do not demand a non-monotonic logic, but in fact can rather be explained by speakers switching to more permissive accessibility relations as the sequence proceeds. In his system, a counterfactual like "If Hannah had drunk coffee, she would be happy" would normally be evaluated using a model where Hannah's coffee is gasoline-free in all accessible worlds. If this same model were used to evaluate a subsequent utterance of "If Hannah had drunk coffee and the coffee had gasoline in it...", this second conditional would come out as trivially true, since there are no accessible worlds where its antecedent holds. Warmbrōd's idea was that speakers will switch to a model with a more permissive accessibility relation in order to avoid this triviality.
+
 Subsequent work by Kai von Fintel (2001), Thony Gillies (2007), and Malte Willer (2019) has formalized this idea in the framework of dynamic semantics, and given a number of linguistic arguments in favor. One argument is that conditional antecedents license negative polarity items, which are thought to be licensed only by monotonic operators.
 
 If Hannah had drunk any coffee, she would be happy.
+
 Another argument in favor of the strict conditional comes from Irene Heim's observation that Sobel Sequences are generally infelicitous (i.e. sound strange) in reverse.
 
 If Hannah had drunk coffee with gasoline in it, she would not be happy. But if she had drunk coffee, she would be happy.
+
 Sarah Moss (2012) and Karen Lewis (2018) have responded to these arguments, showing that a version of the variably strict analysis can account for these patterns, and arguing that such an account is preferable since it can also account for apparent exceptions. As of 2020, this debate continues in the literature, with accounts such as Willer (2019) arguing that a strict conditional account can cover these exceptions as well.
 
 Variably strict conditional
+
 In the variably strict approach, the semantics of a conditional A > B is given by some function on the relative closeness of worlds where A is true and B is true, on the one hand, and worlds where A is true but B is not, on the other.
+
 On Lewis's account, A > C is (a) vacuously true if and only if there are no worlds where A is true (for example, if A is logically or metaphysically impossible); (b) non-vacuously true if and only if, among the worlds where A is true, some worlds where C is true are closer to the actual world than any world where C is not true; or (c) false otherwise. Although in Lewis's Counterfactuals it was unclear what he meant by 'closeness', in later writings, Lewis made it clear that he did not intend the metric of 'closeness' to be simply our ordinary notion of overall similarity.
+
 Example:
 
 If he had eaten more at breakfast, he would not have been hungry at 11 am.
+
 On Lewis's account, the truth of this statement consists in the fact that, among possible worlds where he ate more for breakfast, there is at least one world where he is not hungry at 11 am and which is closer to our world than any world where he ate more for breakfast but is still hungry at 11 am.
+
 Stalnaker's account differs from Lewis's most notably in his acceptance of the limit and uniqueness assumptions. The uniqueness assumption is the thesis that, for any antecedent A, among the possible worlds where A is true, there is a single (unique) one that is closest to the actual world. The limit assumption is the thesis that, for a given antecedent A, if there is a chain of possible worlds where A is true, each closer to the actual world than its predecessor, then the chain has a limit: a possible world where A is true that is closer to the actual worlds than all worlds in the chain. (The uniqueness assumption entails the limit assumption, but the limit assumption does not entail the uniqueness assumption.) On Stalnaker's account, A > C is non-vacuously true if and only if, at the closest world where A is true, C is true. So, the above example is true just in case at the single, closest world where he ate more breakfast, he does not feel hungry at 11 am. Although it is controversial, Lewis rejected the limit assumption (and therefore the uniqueness assumption) because it rules out the possibility that there might be worlds that get closer and closer to the actual world without limit. For example, there might be an infinite series of worlds, each with a coffee cup a smaller fraction of an inch to the left of its actual position, but none of which is uniquely the closest. (See Lewis 1973: 20.)
 One consequence of Stalnaker's acceptance of the uniqueness assumption is that, if the law of excluded middle is true, then all instances of the formula (A > C) ∨ (A > ¬C) are true. The law of excluded middle is the thesis that for all propositions p, p ∨ ¬p is true. If the uniqueness assumption is true, then for every antecedent A, there is a uniquely closest world where A is true. If the law of excluded middle is true, any consequent C is either true or false at that world where A is true. So for every counterfactual A > C, either A > C or A > ¬C is true. This is called conditional excluded middle (CEM). Example:
 
 (1) If the fair coin had been flipped, it would have landed heads.
+
 (2) If the fair coin had been flipped, it would have landed tails (i.e. not heads).
+
 On Stalnaker's analysis, there is a closest world where the fair coin mentioned in (1) and (2) is flipped and at that world either it lands heads or it lands tails. So either (1) is true and (2) is false or (1) is false and (2) true. On Lewis's analysis, however, both (1) and (2) are false, for the worlds where the fair coin lands heads are no more or less close than the worlds where they land tails. For Lewis, "If the coin had been flipped, it would have landed heads or tails" is true, but this does not entail that "If the coin had been flipped, it would have landed heads, or: If the coin had been flipped it would have landed tails."
 
 Other accounts
@@ -337,11 +276,15 @@ The grammar of counterfactuality
 Languages use different strategies for expressing counterfactuality. Some have dedicated counterfactual morphemes, while others recruit morphemes which otherwise express tense, aspect, mood, or a combination thereof. Since the early 2000s, linguists, philosophers of language, and philosophical logicians have intensely studied the nature of this grammatical marking, and it continues to be an active area of study.
 
 Fake tense
+
 Description
+
 In many languages, counterfactuality is marked by past tense morphology. Since these uses of the past tense do not convey their typical temporal meaning, they are called fake past or fake tense.  English is one language which uses fake past to mark counterfactuality, as shown in the following minimal pair. In the indicative example, the bolded words are present tense forms. In the counterfactual example, both words take their past tense form. This use of the past tense cannot have its ordinary temporal meaning, since it can be used with the adverb "tomorrow" without creating a contradiction.
 
 Indicative: If Natalia leaves tomorrow, she will arrive on time.
+
 Counterfactual: If Natalia left tomorrow, she would arrive on time.
+
 Modern Hebrew is another language where counterfactuality is marked with a fake past morpheme:
 
 Palestinian Arabic is another:
@@ -349,15 +292,21 @@ Palestinian Arabic is another:
 Fake past is extremely prevalent cross-linguistically, either on its own or in combination with other morphemes. Moreover, theoretical linguists and philosophers of language have argued that other languages' strategies for marking counterfactuality are actually realizations of fake tense along with other morphemes. For this reason, fake tense has often been treated as the locus of the counterfactual meaning itself.
 
 Formal analyses
+
 In formal semantics and philosophical logic, fake past is regarded as a puzzle, since it is not obvious why so many unrelated languages would repurpose a tense morpheme to mark counterfactuality. Proposed solutions to this puzzle divide into two camps: past as modal and past as past. These approaches differ in whether or not they take the past tense's core meaning to be about time.
+
 In the past as modal approach, the denotation of the past tense is not fundamentally about time. Rather, it is an underspecified skeleton which can apply either to modal or temporal content. For instance, the particular past as modal proposal of Iatridou (2000), the past tense's core meaning is what is shown schematically below:
 
 The topic x is not the contextually-provided x
+
 Depending on how this denotation composes, x can be a time interval or a possible world. When x is a time, the past tense will convey that the sentence is talking about non-current times, i.e. the past. When x is a world, it will convey that the sentence is talking about a potentially non-actual possibility. The latter is what allows for a counterfactual meaning.
+
 The past as past approach treats the past tense as having an inherently temporal denotation. On this approach, so-called fake tense is not actually fake. It differs from "real" tense only in how it takes scope, i.e. which component of the sentence's meaning is shifted to an earlier time. When a sentence has "real" past marking, it discusses something that happened at an earlier time; when a sentence has so-called fake past marking, it discusses possibilities that were accessible at an earlier time but may no longer be.
 
 Fake aspect
+
 Fake aspect often accompanies fake tense in languages that mark aspect. In some languages (e.g. Modern Greek, Zulu, and the Romance languages) this fake aspect is imperfective. In other languages (e.g. Palestinian Arabic) it is perfective. However, in other languages including Russian and Polish, counterfactuals can have either perfective or imperfective aspect.
+
 Fake imperfective aspect is demonstrated by the two Modern Greek sentences below. These examples form a minimal pair, since they are identical except that the first uses past imperfective marking where the second uses past perfective marking. As a result of this morphological difference, the first has a counterfactual meaning, while the second does not.
 
 This imperfective marking has been argued to be fake on the grounds that it is compatible with completive adverbials such as "in one month":
@@ -365,13 +314,17 @@ This imperfective marking has been argued to be fake on the grounds that it is c
 In ordinary non-conditional sentences, such adverbials are compatible with perfective aspect but not with imperfective aspect:
 
 Psychology
+
 People engage in counterfactual thinking frequently. Experimental evidence indicates that people's thoughts about counterfactual conditionals differ in important ways from their thoughts about indicative conditionals.
 
 Comprehension
+
 Participants in experiments were asked to read sentences, including counterfactual conditionals, e.g., "If Mark had left home early, he would have caught the train". Afterwards, they were asked to identify which sentences they had been shown. They often mistakenly believed they had been shown sentences corresponding to the presupposed facts, e.g., "Mark did not leave home early" and "Mark did not catch the train". In other experiments, participants were asked to read short stories that contained counterfactual conditionals, e.g., "If there had been roses in the flower shop then there would have been lilies". Later in the story, they read sentences corresponding to the presupposed facts, e.g., "there were no roses and there were no lilies". The counterfactual conditional primed them to read the sentence corresponding to the presupposed facts very rapidly; no such priming effect occurred for indicative conditionals. They spent different amounts of time 'updating' a story that contains a counterfactual conditional compared to one that contains factual information and focused on different parts of counterfactual conditionals.
 
 Reasoning
+
 Experiments have compared the inferences people make from counterfactual conditionals and indicative conditionals. Given a counterfactual conditional, e.g., "If there had been a circle on the blackboard then there would have been a triangle", and the subsequent information "in fact there was no triangle", participants make the modus tollens inference "there was no circle" more often than they do from an indicative conditional. Given the counterfactual conditional and the subsequent information "in fact there was a circle", participants make the modus ponens inference as often as they do from an indicative conditional.
 
 Psychological accounts
+
 Byrne argues that people construct mental representations that encompass two possibilities when they understand, and reason from, a counterfactual conditional, e.g., "if Oswald had not shot Kennedy, then someone else would have". They envisage the conjecture "Oswald did not shoot Kennedy and someone else did" and they also think about the presupposed facts "Oswald did shoot Kennedy and someone else did not". According to the mental model theory of reasoning, they construct mental models of the alternative possibilities.

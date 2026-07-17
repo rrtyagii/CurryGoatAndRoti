@@ -1,11 +1,17 @@
 Aleksandr Aleksandrovich Kharkevich (Russian: Алекса́ндр Алекса́ндрович Харке́вич; 3 February, 1904 – 30 March, 1965) was a specialist in radio engineering, electronics, acoustics and instrumentation. He was a corresponding member in 1960 and an academician in 1964 of the Academy of Sciences of the Soviet Union.
 
 Biography
+
 He was born in 1904 in Saint Petersburg. From 1922 to 1930 he studied at the Saint Petersburg Electrotechnical University. He began his career in 1924 as a battery laboratory fitter, later as an intern, technician and supervisor at the plant. The first of his scientific and engineering was instrument engineering. He created a number of original designs of devices, many of which were kept in Soviet industry as universally recognized examples for many years. He also successfully developed a number of issues of spectral theory, the theory of nonlinear oscillations, and parametric phenomena.
+
 In 1938 he is already a doctor of technical sciences and professor. At this time he gets a chair at the St. Petersburg State University of Telecommunications, where he works until 1941. In 1948 he was elected a corresponding member of the Academy of Sciences of the Ukrainian SSR.
+
 In the early 1950s, he moved to Moscow and, combining several disparate groups, created the Institute for Information Transmission Problems of the Academy of Sciences of the Soviet Union. On December 17, 1956, A. A. Kharkevich gave a speech stating that "considering the set and value of communication problems, it is time to create Institute for Telecommunications in USSR Academy of Sciences, which has already been decided in principle, but is delayed for technical reasons". He headed this institute until his death. In 2004 the institute was named after A. A. Kharkevich.
+
 In 1962, he published an article in the journal "Communist" about a computer network for processing information and control of the economy. In fact, he proposed to make a network like the modern Internet for the needs of algorithmic governance.
+
 In his later years, A. A. Kharkevich focused on the development of information theory and cybernetics. He died on March 30, 1965, in Moscow. He is buried at Novodevichy Cemetery.
 
 Awards
+
 He was awarded the Order of Lenin and the Order of the Red Banner of Labour.

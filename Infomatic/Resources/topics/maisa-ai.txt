@@ -1,9 +1,13 @@
 Maisa AI is a Spanish software company with a platform that provides AI agents also referred to as "Digital workers".
 
 History
+
 Maisa AI was founded in 2024 by David Villalón (CEO) and Manuel Romero (CSO) with its double headquarters located  in Valencia, Spain and San Francisco, California, USA.
+
 In August 2025,  Maisa AI raised US$25 million in seed funding round led by Creandum, with participation from Forgepoint Capital, NFX, and Village Global.
+
 In July 2025, the company's platform Maisa Studio became available through Amazon Web Services.
 
 Business model
+
 Maisa AI operates on a Software-as-a-Service (SaaS) model with the possibility for private cloud or on-premises deployment designed for large, regulated enterprises such as banking, insurance, financial services, and energy sectors. Its core offerings include the creation, deployment, and governance of autonomous AI agents also known as “Digital Workers”   that can perform goal-oriented tasks, adapt to changing conditions, and interact with business teams and systems.

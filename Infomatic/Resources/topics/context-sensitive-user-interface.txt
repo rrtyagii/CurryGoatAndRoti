@@ -1,7 +1,9 @@
 A context-sensitive user interface offers the user options based on the state of the active program. Context sensitivity is ubiquitous in current graphical user interfaces, often in context menus.
+
 A user-interface may also provide context sensitive feedback, such as changing the appearance of the mouse pointer or cursor, changing the menu color, or with auditory or tactile feedback.
 
 Reasoning and advantages of context sensitivity
+
 The primary reason for introducing context sensitivity is to simplify the user interface.
 Advantages include:
 
@@ -21,10 +23,13 @@ The method is not only limited to the response to imperative button presses and 
 At higher levels of implementation context sensitive actions require either larger amounts of meta-data, extensive case analysis based programming, or other artificial intelligence algorithms.
 
 In computer and video games
+
 Context sensitivity is important in video games, especially those controlled by a gamepad, joystick or computer mouse in which the number of buttons available is limited. It is primarily applied when the player is in a certain place and is used to interact with a person or object. For example, if the player is standing next to a non-player character, an option may come up allowing the player to talk with them.
+
 Implementations range from the embryonic 'Quick Time Event' to context sensitive sword combat in which the attack used depends on the position and orientation of both the player and opponent, as well as the virtual surroundings. A similar range of use is found in the 'action button' which, depending upon the in-game position of the player's character, may cause it to pick something up, open a door, grab a rope, punch a monster or opponent, or smash an object.
 The response does not have to be player activated – an on-screen device may only be shown in certain circumstances, e.g. 'targeting' cross hairs in a flight combat game may indicate the player should fire. An alternative implementation is to monitor the input from the player (e.g. level of button pressing activity) and use that to control the pace of the game in an attempt to maximize enjoyment or to control the excitement or ambience.
 The method has become increasingly important as more complex games are designed for machines with few buttons (keyboard-less consoles). Bennet Ring commented (in 2006) that "Context-sensitive is the new lens flare".
 
 Context-sensitive help
+
 Context sensitive help is a common implementation of context sensitivity, a single help button is actioned and the help page or menu will open a specific page or related topic.

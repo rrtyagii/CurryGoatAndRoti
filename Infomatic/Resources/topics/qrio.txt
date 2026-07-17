@@ -1,11 +1,17 @@
 QRIO ("Quest for cuRIOsity", originally named Sony Dream Robot or SDR) was a bipedal humanoid entertainment robot developed and marketed (but never sold) by Sony to follow up on the success of its AIBO entertainment robot. QRIO stood approximately 0.6 m (2 feet) tall and weighed 7.3 kg (16 pounds). QRIO's slogan was "Makes life fun, makes you happy!"
+
 On January 26, 2006, on the same day as it announced its discontinuation of AIBO and other products, Sony announced that it would stop development of QRIO.
 
 Development
+
 The QRIO prototypes were developed and manufactured by Sony Intelligence Dynamics Laboratory, Inc. The number of these prototypes in existence is unknown. Up to ten QRIO have been seen performing a dance routine together; this was confirmed by a Sony representative at the Museum of Science in Boston, MA on January 22, 2006. Numerous videos of this can be found on the web.
+
 Four fourth-generation QRIO prototype robots were featured dancing in  the Hell Yes music video by recording artist Beck. These prototypes lacked a third camera in the center of the forehead and the improved hands and wrists which were added to later prototypes. It took programmers three weeks to program their choreography.
+
 QRIO is capable of voice and face recognition, making it able to remember people as well as their likes and dislikes. A video on QRIO's website shows it speaking with several children. QRIO can run at 23 cm/s, and is credited in Guinness World Records (2005 edition) as being the first bipedal robot capable of running (which it defines as moving while both legs are off the ground at the same time). The 4th generation QRIO's internal battery lasts about 1 hour.
 
 In popular culture
+
 In 2005, four QRIO robots appeared in the music video for "Hell Yes" by Beck. The robots dance along to the music.
+
 In the 2009 series finale of the reimagined television series Battlestar Galactica, the virtual Number Six and virtual Baltar appear in coda set on modern-day Earth. They comment on the cycle of violence perpetuated by humanity's interaction with "technology run amok". The final scene then shows a montage of real-life robots, starting with a Sony QRIO.

@@ -1,15 +1,21 @@
 Minion is a solver for satisfaction problems. Unlike constraint programming toolkits, which expect users to write programs in a traditional programming language like C++, Java or Prolog, Minion takes a text file which specifies the problem, and solves using only this. This makes using Minion much simpler, at the cost of much less customization.
+
 Minion has been shown to be faster than major commercial constraint solvers including CPLEX (formerly IBM ILOG).
 
 Overview
+
 Minion was introduced in 2006 by researchers at the University of St Andrews as a “fast, scalable” solver for large and hard CSP instances. The project provides a compact input language and a low-overhead C++ implementation aimed at throughput and memory efficiency.
 
 Design and features
+
 Minion implements a range of variable and constraint types commonly used in CSP modelling, plus search heuristics and optimisation support. The solver architecture prioritises cache-friendly data structures and specialised propagators. Notably, the developers adapted watched literal techniques from SAT solving to speed up constraint propagation for, among others, Boolean sums, the element global constraint, and table constraints.
+
 The modelling approach relies on a plain-text format (parsed by Minion) rather than embedding models into a host programming language. This reduces overhead and supports rapid “model-and-run” experimentation for large benchmark sets.
 
 Performance
+
 In the original evaluation on standard benchmarks, the authors reported that Minion often ran between one and two orders of magnitude faster than state-of-the-art toolkits of the time (including ILOG Solver and Gecode) on large, hard instances, with smaller gains—or slowdowns—on easier problems. Subsequent research has used Minion as a baseline solver in empirical studies and test generation tasks, reflecting its adoption within parts of the constraint programming community.
 
 Applications
+
 Minion has been applied in academic work on combinatorial search, scheduling and test generation, and is available to other environments via wrappers (for example, from the R language).

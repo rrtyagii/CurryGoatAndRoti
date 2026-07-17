@@ -1,14 +1,21 @@
 Eudia is an American legal technology company founded in 2023. The company develops software that uses artificial intelligence to assist corporate legal departments.
 
 History
+
 Eudia was founded in 2023 by Omar Haroun, Ashish Agrawal, and David Van Reyk.
+
 In February 2025, the company raised up to $105 million in a Series A funding round led by General Catalyst, with participation from Floodgate and Sierra Ventures. Part of the funding was contingent on future acquisitions.
+
 In July 2025, Eudia announced the acquisition of Johnson Hana, an alternative legal services provider (ALSP) based in Dublin.
+
 In October 2025, Eudia acquired Out-House, another alternative legal services provider (ALSP) founded in 2020 and based out of Maryland, USA.
 
 Technology and Services
+
 Eudia’s core product is a "Company Brain" that captures and digitizes a corporation's institutional legal knowledge. By ingesting historical contracts, templates, and internal playbooks, the platform allows AI agents to perform multi-step reasoning tasks, such as redlining contracts and conducting M&A due diligence. The company claims its technology can reduce the time required for complex contract reviews from several hours to minutes. Its client roster includes several Fortune 500 companies and government entities, such as DHL, Cargill, and the U.S. Federal Government.
 
 Eudia Counsel
+
 In June 2025, the Arizona Supreme Court approved the formation of Eudia Counsel, a law firm jointly owned by Eudia and licensed lawyers under Arizona’s Alternative Business Structure (ABS) program.
+
 The firm provides services in areas including contracting and mergers and acquisitions due diligence. Eudia Counsel operates on a fixed-fee basis rather than the traditional billable hour, specifically targeting corporate legal tasks like commercial contracting and regulatory compliance. The firm is supported by an advisory board of former General Counsel from major organizations, including Progressive and the Royal Bank of Canada, who oversee the ethical integration of AI into legal practice.

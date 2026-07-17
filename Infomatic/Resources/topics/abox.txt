@@ -1,9 +1,13 @@
 In computer science, the terms TBox and ABox are used to describe two different types of statements in knowledge bases. TBox statements are the "terminology component", and describe a domain of interest by defining classes and properties as a domain vocabulary. ABox statements are the "assertion component" — facts associated with the TBox's conceptual model or ontologies.
+
 Together ABox and TBox statements make up a knowledge base or a knowledge graph.
+
 ABox statements must be TBox-compliant: they are assertions that use the vocabulary defined by the TBox.
+
 TBox statements are sometimes associated with object-oriented classes and ABox statements associated with instances of those classes.
 
 Examples of ABox and TBox statements
+
 ABox statements typically deal with concrete entities. They specify what category an entity belongs to, or what relation one entity has to another entity.
 
 Item A is-an-instance-of Category C

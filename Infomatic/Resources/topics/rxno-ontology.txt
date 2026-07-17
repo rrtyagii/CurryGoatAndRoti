@@ -3,43 +3,79 @@ The RXNO Ontology is a formal ontology of chemical named reactions.
 It was originally developed at the Royal Society of Chemistry (RSC) and is associated with the Open Biomedical Ontologies Foundry. The RXNO ontology unifies several previous attempts to systematize chemical reactions including the Merck Index and the hierarchy of Carey, Laffan, Thomson and Williams.
 
 Major Reaction Categories
+
 The twelve top-level reaction categories proposed by Carey, Laffan, Thompson and Williams are given in the table below, together with their RXNO ontology identifiers and the equivalent Wikipedia categories where applicable.
 
 Name Reactions
+
 The following table lists the RXNO identifiers for some example name reactions.
 
 RXNO:0000003 Perkin reaction
+
 RNXO:0000006 Diels–Alder reaction
+
 RXNO:0000014 Grignard reaction
+
 RXNO:0000015 Wittig reaction
+
 RXNO:0000021 Sandmeyer reaction
+
 RXNO:0000024 Heck reaction
+
 RXNO:0000026 Beckmann rearrangement
+
 RXNO:0000028 Cope rearrangement
+
 RXNO:0000031 Baeyer–Villiger oxidation
+
 RXNO:0000042 Birch reduction
+
 RXNO:0000043 Claisen condensation
+
 RXNO:0000056 Horner–Wadsworth–Emmons reaction
+
 RXNO:0000062 Skraup reaction
+
 RXNO:0000064 Fischer indole synthesis
+
 RXNO:0000074 Wurtz reaction
+
 RXNO:0000081 Ullmann condensation
+
 RXNO:0000084 Barbier reaction
+
 RXNO:0000088 Negishi coupling
+
 RXNO:0000090 Williamson ether synthesis
+
 RXNO:0000098 Glaser coupling
+
 RXNO:0000103 Gabriel synthesis
+
 RXNO:0000106 Hunsdiecker reaction
+
 RXNO:0000140 Suzuki reaction
+
 RXNO:0000147 Emde degradation
+
 RXNO:0000148 Claisen rearrangement
+
 RXNO:0000156 Lossen rearrangement
+
 RXNO:0000157 Nef reaction
+
 RXNO:0000183 Perkow reaction
+
 RXNO:0000193 Hiyama coupling
+
 RXNO:0000210 Fleming–Tamao oxidation
+
 RXNO:0000218 Cannizzaro reaction
+
 RXNO:0000288 Rosenmund–von Braun reaction
+
 RXNO:0000369 Friedel–Crafts reaction
+
 RXNO:0000444 Fries rearrangement
+
 RXNO:0000550 Collins oxidation

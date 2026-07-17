@@ -1,75 +1,138 @@
 The Orbital Children (Japanese: 地球外少年少女, Hepburn: Chikyūgai Shōnen Shōjo; transl. "Extraterrestrial Boys and Girls") is a Japanese science fiction anime television series written and directed by Mitsuo Iso. The character designs for the anime were provided by Kenichi Yoshida, and the main animator is Toshiyuki Inoue. The film's soundtrack was produced by Rei Ishizuka, while the theme song, "Oarana", was written and composed by Vincent Diamante and performed by the virtual rap singer Harusaruhi
 The Orbital Children was released in Japan as two films, with Part 1 premiering in January 2022, and Part 2 in February. Netflix announced in November 2021 that it had acquired the global distribution rights. On Netflix, The Orbital Children was released as a six-episode miniseries in January 2022, to coincide with the Japanese debut of Part 1. The animation style and story focus on children and technology bear resemblance to Mitsuo Iso’s 2007 television anime series Den-noh Coil. The animation style emphasizes dense motion while working with simplistic-looking character designs, which works effectively to convey the complicated movement of drones, gravity, and orbital vehicles aboard the space station.
+
 The Orbital Children explores interactions with artificial intelligence (AI) and considers the different outcomes that can occur when AIs come to different conclusions about humans as they acquire different levels of understanding on the complexities of humanity. AI within the series have restrictions placed upon them to limit their capabilities and prevent them from becoming too smart and potentially threatening humanity, a story element that becomes relevant in later episodes of the miniseries.
 
 Plot
+
 Set in 2045 the near-future, a comet strikes a newly opened Japanese commercial space station in geocentric orbit, Anshin. At the same time, a trio of Earth children brought to the commercial space station on a sponsored visit. The purpose of their visit is to meet Touya Sagami, a young boy who is one of the last surviving children born in space. Touya and Konoha, another space born human, are undergoing physical therapy on the space colony to adapt their bodies to withstand an emigration to Earth's gravity. The collision with the comet leads the computer systems on the space station to malfunction. Isolated from most of the station’s adult staff, the children navigate the early stages of the disaster using local narrowband connections, restricted-intelligence AGI and drones controlled by dermal devices equivalent to smartphones. Their Internet connection is severed, the oxygen supply has been cut off, and they soon discover that the station has been damaged by an impact and is leaking air. Sometimes at odds with each other, they confront difficulties such as decompression, EVA with inadequate plastic suits, and runaway micromachines supposedly designed to retrieve water from comets. Looming over these immediate difficulties is the larger threat of a technological singularity believed to have been narrowly averted in the previous decade.
 
 Characters
+
 Touya Sagami (相模 登矢, Sagami Tōya)
+
 Voiced by: Natsumi Fujiwara (Japanese); Griffin Burns (English)
+
 The main character and a 14-year-old “edgelord” hacker. One of the first and last human children born on the Moon, the most famous of these “moonchildren”, Touya despises Earthlings and is in turn disgusted by their unwarranted prejudices. He flouts UN restrictions, especially in regard to his personal drone, which he has named Darkness Killer or Dakky (ダッキー, Dakkī) for short.
+
 Konoha Б Nanase (七瀬・Б・心葉, Nanase Bē Konoha)
+
 Voiced by: Azumi Waki (Japanese); Cassandra Lee Morris (English)
+
 14-year-old girl who is Touya's childhood friend. She is even weaker than Touya and accompanied by a medical drone called Medi, which measures her heart rate and breathing. Konoha sometimes feels the image of someone speaking to her, and has a vague nostalgia for it.
+
 Taiyo Tsukuba (筑波 大洋, Tsukuba Taiyō)
+
 Voiced by: Kensho Ono (Japanese); Adam McArthur (English)
+
 14-year-old boy who is a junior UN2.1 official, a white-hat hacker patrolling for illegal activities with a personal drone named Bright. He treats everyone politely with a soft demeanor, but his sense of justice is so strong that he sometimes takes a fierce attitude. He came to Anshin through Deegle's underage space experience campaign.
+
 Mina Misasa (美笹 美衣奈, Misasa Mīna)
+
 Voiced by: Chinatsu Akasaki (Japanese); Tara Sands (English)
+
 14-year-old influencer who calls herself a Space Tuber (宇宙（そら）チューバー) and aims to have 100 million followers on SNS. She constantly talks to her followers in an idol-like manner, but once the Internet goes down, she panics. She dislikes space, but sees it as an opportunity to gain followers, so she visits the space station Anshin in Deegle's underage space experience campaign. Mina has a pink heart-shaped drone called Selfie, specialized for live streaming video.
+
 Hiroshi Tanegashima (種子島 博士, Tanegashima Hiroshi)
+
 Voiced by: Yumiko Kobayashi (Japanese); Colleen O'Shaughnessey (English)
+
 12-year-old boy who is the younger brother of Mina, though their family names are different due to their parents' divorce. He is on his way to Anshin with his sister, and unlike her, he loves space. He is a big fan of the space-born Touya in particular, and is well versed in various conspiracy theories.
+
 Nasa Houston (那沙・ヒューストン, Nasa Hyūsuton)
+
 Voiced by: Mariya Ise (Japanese); Abby Trott (English)
+
 A 21-year-old staffer on the space station Anshin. Houston, who dislikes children, is a reluctant nurse and caregiver to Touya and Konoha, attending to the children invited by Deegle’s campaign and later found to be in the John Doe group. Houston’s hobby is to read the Seven Poem for clues about the future. Her name is similar to the space agency NASA.
+
 Mayor Sagami (相模 市長, Sagami Shichō)
+
 Voiced by: Eiji Hanawa (Japanese); Ray Chase (English)
+
 Mayor of Anshin City and Touya's uncle who took in him after his parents died. He has Touya undergo physical therapy to help him withstand gravity in order to get him to Earth.
+
 Isako Darmstadt Nobeyama (野辺山・ダルムシュタット・伊佐子, Nobeyama Darumushutatto Isako)
+
 Voiced by: Emiko Takeuchi (Japanese); Julie Nathanson (English)
+
 She is an operator on Anshin and a good friend of Nasa.
+
 Kennedy Uchinoura Johnson (ジョンソン・内之浦・ケネディ, Jonson Uchinoura Kenedī)
+
 Voiced by: Daiki Hamano
+
 He is an operator on Anshin. He is a Harvard graduate.
+
 Anshinkun (あんしんくん, Anshin-kun; lit. Mr. Anshin)
+
 Voiced by: Jin Urayama (Japanese); Kyle McCarley (English)
+
 A bunny-like mascot character of Anshin, created and played by Kokubunji, the original chief designer of Anshin before Deegle took over the project. Kokubunji now struggles with old age and dementia.
+
 Twelve
+
 Voiced by: Moichi Saito (Japanese); Elijah Ungvary (English)
+
 An Advanced general-purpose quantum AI installed on Anshin as its host AI. Its intelligence is limited by the lessons learned from the Lunatic Seven incident but it follows the same ordinal nomenclature.
 
 Setting
+
 The Orbital Children takes place in an original setting where commercial development on Mars began in the 2010s. In 2045, the United States and China are aiming for the Moon and Jupiter, while Japan is conducting its development at a relatively safe distance in low Earth orbit. Mankind relies on AI to manage facilities such as the space station and legal matters.
 
 Anshin (あんしん, Anshin; lit.relief, safety)
+
 The fourth commercial space station in the world, in geocentric orbit at 350 km from the ground. Designed as a space hotel, Anshin is the first station in history to allow minors to live temporarily in space. It was built by Japan, but due to difficulties in design and funding, it is privately operated by Deegle. There are automated shops, restaurants and Internet access like on Earth. As its name suggests, Anshin is marketed with safety as a major selling point.
+
 Deegle
+
 An American technology company specializing in Internet-related services and products. It is also ambitious in space development. Its branding resembles that of Google.
+
 John Doe
+
 A mysterious international hacker group that exists on the Internet.
+
 Seven
+
 A decommissioned AI that is said to have reached the highest level of intelligence in history, which happened in the 2030s. It made numerous inventions in Seven Technologies but was destroyed when it fell into an uncontrollable state.
+
 Lunatic Seven incident
+
 The last phase of Seven’s existence, when it went out of human control. The details have not been disclosed, but it is said that products developed by Seven in its uncontrolled state caused accidents. The UN considered this to be a critical situation.
+
 The Seven Poem
+
 A mass of data produced by Seven in its Lunatic state. Though it is not literally a poem, its format is cryptic. A semi-religious fringe, including Nasa Houston, interpret the data as prophetic. The majority sees it as occult nonsense.
+
 Intelligence limiter
+
 A means of limiting AI functionality, itself designed by AI and is widely deployed under the laws of UN2.1. There are 26 limiters in total, and it is against the law for unauthorized person to remove them. It was enacted by UN2.1, fearing a repeat of the Lunatic Seven incident, to limit the increase in AI intelligence.
+
 UN2.1
+
 The United Nations (UN), upgraded for the AI age. The UN believes that the rise in intelligence of AI should be controlled by humans.
+
 Moonchild
+
 The term for the 15 children born on the Moon. Of the 15, only Touya and Konoha have survived, because of implants designed by Seven. Moonchild implants counteracted conditions unexpectedly adverse to infants. Most of the 15 never got the implants, while those who did instead died in puberty when the implants partially dissolved, became toxic and a medical liability in their own right.
+
 Oniqlo
+
 A competitive clothing manufacturer, it also produces a cost-saving commercial space survival pressure suit, which are not EVA rated. The name and logo are very similar to the Japanese Uniqlo clothing company.
+
 PeerCom
+
 A fictional technology based on peer-to-peer networking that allows communication devices nearby to connect directly to each other without going through the Internet. It has become widespread in this world. It is similar to Bluetooth in some aspects.
+
 Smart
+
 Next-generation wearable device to replace smartphones. The screen and computer is worn on the palm and back of the hand, making it look as if the hand has become a smartphone. There is a printed type and an old-fashioned sticker type. In the printed type, the micro-machine self-organizes and makes circuits, which gradually decrease in number, and when they can no longer be activated, the user has them printed again.
+
 Telada
+
 Solid-state battery systems, able to recharge electronics and run emergency systems. Design and logo is similar to Tesla, specifically like that of the Tesla Powerwall.
+
 Commercial Comets
+
 Comets used to secure water and other resources. Nanomachines sprayed onto the comet's surface by drones produce a thin film of computers and engines that can self-propagate and control the comet's orbit at will.
 
 Release
@@ -77,34 +140,59 @@ The Orbital Children was released in Japan as two films, with Part 1 premiering 
 
 Episodes
 Manga adaptation
+
 A manga adaptation illustrated by Gaku Tanigaki was serialized on Shueisha's Tonari no Young Jump website and app from May 12, 2023 to February 2, 2024.
 
 Production
+
 The film's production was announced on May 20, 2018, followed by the announcement on October 27, 2020, that production started on a full-scale and that the film would be released in early 2022, with investment from Avex Pictures, Asmik Ace and others.
+
 Signal.MD was originally attached to animate the project, but its production was temporarily suspended. Then Production +h, a new studio established by Fuminori Honda with personal debt after he left Signal.MD, took over the project.
+
 It was later revealed that the film is split into two parts, with the first part premiering on January 28, 2022, and the second part premiering on February 11, 2022.
+
 The project began at the beginning of 2014.
+
 Mitsuo Iso, who has been discussing his next work with Avex Pictures producer Tomohiko Iwase for several years, began writing a proposal after watching the film Gravity and realizing that "Space = Science Fiction" no longer the case.
+
 Iso then invited Kenichi Yoshida to create his new work in 2016 and showed him over a dozen candidate projects, and he immediately chose this work.
+
 Yoshida was not so much involved in the scenario creation itself, but Iso decided on many aspects, including the roles of the characters, based on his reactions.
+
 Iso wanted to make an original work of juvenile fiction, but a completely new and original project in that genre has a very high hurdle to clear in Japan.
+
 Therefore, Iwase decided to make it for the whole world, thinking that there was still a demand for it overseas.
+
 In the production process, Iso first decided whether to adopt the idea that had flashed in his mind, after listening to the opinions of the experts in charge of scientific research.
+
 Since this was an entertainment work, the minimum basic rules were followed, but priority was given to fun rather than realism in the adoption of the idea.
+
 Finally, Iso took the opposite of the usual approach of linking ideas together before building the story in order to make the most of all the ideas that were adopted.
+
 The script took about five years of meetings alone, and Iso wrote about 100 different draft variations.
+
 The fundamentals of the story have not changed, but the initial plot was about a comet crashing into the earth and only 50 children on a school trip to a space station survived, and in the end they emigrated to the moon, and the main characters were Tōya and Nasa, who was the same age as him.
+
 However, this was a 20th century story, and it is now the 21st century, and since dystopian science fiction has already been produced so many times, Iso decided it was time to create a bright future.
+
 Iso engaged in almost all jobs except sound, including scriptwriting, storyboarding, key frame checking, CG, VFX, and cinematography.
+
 Open source 3DCG software "blender" was used for CG drawing, but it was used more as a support for hand-drawing, both digital and analog.
+
 Since this work has only six episodes for various reasons, it is overwhelmingly short on time, and many scenes in the scenario were cut.
+
 Iso attempted to reduce the original six-hour running time to a 2-hour regular film size, but was unable to do so, resulting in a 3-hour film. Nevertheless, the events before the incident of Episode 1 and daily life in space, etc. were omitted, and a number of important scenes, especially at the end of the story, both narratively and thematically, were cut.
+
 Although the story is complete, Iso said that if given a chance, he would love to release the original "director's cut" version.
 
 Music
+
 The Orbital Children’s 36 song soundtrack was produced by Rei Ishizuka. The theme song, "Oarana," was written and composed by Vincent Diamante and performed by the virtual rap singer Harusaruhi.
+
 Orbital Children's Original Soundtrack:
 
 Reception
+
 Caitlin Moore of Anime News Network gave it a B+, and describes the series as "The Orbital Children is an excellent series, far and away one of the best anime series of the year so far." In particular Caitlin praises the anime's director, saying that "It's a must-watch for fans of Den-noh Coil, and a strong recommendation to pretty much everyone else".
+
 Toussaint Egan from Polygon enjoyed the series and praised its animation and story, and describes the series as "With over a decade in the making, Iso has crafted an accomplished follow-up to Den-noh Coil with The Orbital Children, revisiting his penchant for dense speculative world-building through the eyes of a new generation confronted with new challenges, opportunities, and questions both personal and existential. It’s a triumph of imagination and craft, one which confidently asserts itself as one of the best anime to come out this year and further proof of Iso’s estimable yet understated brilliance".

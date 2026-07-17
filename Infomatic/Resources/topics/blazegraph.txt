@@ -1,23 +1,32 @@
 Blazegraph is an open source triplestore and graph database, written in Java. It has been abandoned since 2020 and is known to be used in production by WMDE for the  Wikidata SPARQL endpoint. It is licensed under the GNU GPL (version 2).
+
 Amazon acquired the Blazegraph developers and the Blazegraph open source development was essentially stopped in April 2018.
 
 Early history
+
 The system was first known as Bigdata. Since release of version 1.5 (12 February 2015), it is named Blazegraph.
 
 Prominent users
+
 The Wikimedia Foundation uses Blazegraph for the Wikidata Query Service, which is a SPARQL endpoint.
+
 Sophox, a fork of the Wikidata Query Service, specializes in OpenStreetMap queries.
+
 The Datatourisme project uses Blazegraph as the database platform; however, GraphQL is used as the query language instead of SPARQL.
 
 Notable features
+
 RDF* — an alternative approach to RDF reification, which gives RDF graphs capabilities of LPG graphs;
 as the consequence of the previous, ability of querying graphs both in SPARQL and Gremlin;
 as an alternative to Gremlin querying, GAS abstraction over RDF graphs support in SPARQL;
 The SERVICE syntax of federated queries for functionality extending;
+
 Managed behavior of the query plan generator;
+
 Reusable named subqueries.
 
 Acqui-hiring by Amazon Web Service (AWS)
+
 Amazon Neptune is based on Blazegraph.
 
 acquiring of the Blazegraph trademark by AWS;

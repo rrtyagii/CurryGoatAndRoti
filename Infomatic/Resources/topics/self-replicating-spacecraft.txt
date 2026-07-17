@@ -1,9 +1,11 @@
 The concept of self-replicating spacecraft,  as envisioned by mathematician John von Neumann, has been described by futurists and has been discussed across a wide breadth of hard science fiction novels and stories.  Self-replicating probes are sometimes referred to as von Neumann probes. Self-replicating spacecraft would in some ways either mimic or echo the features of living organisms or viruses.
 
 Theory
+
 Von Neumann argued that the most effective way of performing large-scale mining operations such as mining an entire moon or asteroid belt would be by self-replicating spacecraft, taking advantage of their exponential growth. In theory, a self-replicating spacecraft could be sent to a neighboring planetary system, where it would seek out raw materials (extracted from asteroids, moons, gas giants, etc.) to create replicas of itself. These replicas would then be sent out to other planetary systems. The original "parent" probe could then pursue its primary purpose within the star system. This mission varies widely depending on the variant of self-replicating starship proposed.
 Given this pattern, and its similarity to the reproduction patterns of bacteria, it has been pointed out that von Neumann machines might be considered a form of life. In his short story "Lungfish", David Brin touches on this idea, pointing out that self-replicating machines launched by different species might actually compete with one another (in a Darwinistic fashion) for raw material, or even have conflicting missions. Given enough variety of "species" they might even form a type of ecology, or – should they also have a form of artificial intelligence – a society. They may even mutate with thousands of "generations."
 The first quantitative engineering analysis of such a spacecraft was published in 1980 by Robert Freitas, in which the non-replicating Project Daedalus design was modified to include all subsystems necessary for self-replication. The design's strategy was to use the probe to deliver a "seed" factory with a mass of about 443 tons to a distant site, have the seed factory produce many copies of itself there to increase its total manufacturing capacity over a 500-year period, and then use the resulting automated industrial complex to construct more probes with a single seed factory on board each.
+
 It has been theorized that a self-replicating starship utilizing relatively conventional theoretical methods of interstellar travel (i.e., no exotic faster-than-light propulsion, and speeds limited to an "average cruising speed" of 0.1c.) could spread throughout a galaxy the size of the Milky Way in as little as half a million years.
 
 Debate on Fermi's paradox
@@ -13,24 +15,37 @@ Another objection to the prevalence of von Neumann probes is that civilizations 
 Simple workarounds exist to avoid the over-replication scenario. Radio transmitters, or other means of wireless communication, could be used by probes programmed not to replicate beyond a certain density (such as five probes per cubic parsec) or arbitrary limit (such as ten million within one century), analogous to the Hayflick limit in cell reproduction.  One problem with this defence against uncontrolled replication is that it would only require a single probe to malfunction and begin unrestricted reproduction for the entire approach to fail – essentially a technological cancer – unless each probe also has the ability to detect such malfunction in its neighbours and implements a seek and destroy protocol (which in turn could lead to probe-on-probe space wars if faulty probes first managed to multiply to high numbers before they were found by sound ones, which could then well have programming to replicate to matching numbers so as to manage the infestation).  Another workaround is based on the need for spacecraft heating during long interstellar travel.  The use of plutonium as a thermal source would limit the ability to self-replicate.  The spacecraft would have no programming to make more plutonium even if it found the required raw materials.  Another is to program the spacecraft with a clear understanding of the dangers of uncontrolled replication.
 
 Applications for self-replicating spacecraft
+
 The details of the mission of self-replicating starships can vary widely from proposal to proposal, and the only common trait is the self-replicating nature.
 
 Von Neumann probes
+
 A von Neumann probe is a spacecraft capable of replicating itself. It is a concatenation of two concepts: a Von Neumann universal constructor (self-replicating machine) and a probe (an instrument to explore or examine something). The concept is named after Hungarian American mathematician and physicist John von Neumann, who rigorously studied the concept of self-replicating machines that he called "Universal Assemblers" and which are often referred to as "von Neumann machines". Such constructs could be theorised to comprise five basic components (variations of this template could create other machines such as Bracewell probes):
 
 Probe: which would contain the actual probing instruments & goal-directed AI to guide the construct.
+
 Life-support systems: mechanisms to repair and maintain the construct.
+
 Factory: mechanisms to harvest resources & replicate itself.
+
 Memory banks: store programs for all its components & information gained by the probe.
+
 Engine: motor to move the probe.
+
 Andreas M. Hein and science fiction author Stephen Baxter proposed different types of von Neumann probes, termed "Philosopher" and "Founder", where the purpose of the former is exploration and for the latter preparing future settlement.
+
 A near-term concept of a self-replicating probe has been proposed by the Initiative for Interstellar Studies, achieving about 70% self-replication, based on current and near-term technologies.
+
 If a self-replicating probe finds evidence of primitive life (or a primitive, low-level culture) it might be programmed to lie dormant, silently observe, attempt to make contact (this variant is known as a Bracewell probe), or even interfere with or guide the evolution of life in some way.
+
 Physicist Paul Davies of University of Adelaide has "raised the possibility of a probe resting on our own Moon", having arrived at some point in Earth's ancient prehistory and remained to monitor Earth, a concept that, per Michio Kaku, was what Stanley Kubrick used as the basis of his film, 2001: A Space Odyssey (though the director cut the relevant monolith scene from the movie). Kubrick's work was based on Arthur C. Clarke's story, "The Sentinel", expanded by the pair in the form of a novel that became the basis for the movie  and so Davies' lunar probe/observatory concept is also considered reminiscent of Clarke.
+
 A variant idea on the interstellar von Neumann probe idea is that of the "Astrochicken", proposed by Freeman Dyson. While it has the common traits of self-replication, exploration, and communication with its "home base", Dyson conceived the Astrochicken to explore and operate within our own planetary system, and not explore interstellar space.
+
 Anders Sandberg and Stuart Armstrong argued that launching the colonization of the entire reachable universe through self-replicating probes is well within the capabilities of a star-spanning civilization, and proposed a theoretical approach for achieving it in 32 years, by mining planet Mercury for resources and constructing a Dyson Swarm around the Sun.
 
 Berserkers
+
 A variant of the self-replicating starship is the Berserker. Unlike the benign probe concept, Berserkers are programmed to seek out and exterminate lifeforms and life-bearing exoplanets whenever they are encountered.
 The name is derived from the Berserker series of novels by Fred Saberhagen which describes a war between humanity and such machines. Saberhagen points out (through one of his characters) that the Berserker warships in his novels are not von Neumann machines themselves, but the larger complex of Berserker machines – including automated shipyards – do constitute a von Neumann machine. This again brings up the concept of an ecology of von Neumann machines, or even a von Neumann hive entity.
 It is speculated in fiction that Berserkers could be created and launched by a xenophobic civilization (see Anvil of Stars, by Greg Bear, in the section In fiction below) or could theoretically "mutate" from a more benign probe. For instance, a von Neumann ship designed for terraforming processes – mining a planet's surface and adjusting its atmosphere to more human-friendly conditions – could be interpreted as attacking previously inhabited planets, killing their inhabitants in the process of changing the planetary environment, and then self-replicating to dispatch more ships to "attack" other planets.
@@ -40,10 +55,15 @@ Yet another variant on the idea of the self-replicating starship is that of the 
 Such ships might be terraforming vessels, preparing colony worlds for later colonization by other vessels, or – should they be programmed to recreate, raise, and educate individuals of the species that created it – self-replicating colonizers themselves. Seeder ships would be a suitable alternative to generation ships as a way to colonize worlds too distant to travel to in one lifetime.
 
 Priman Replicator Program
+
 In "Part IV Wild Cards" of his 1981 book "2081: A Hopeful View of the Human Future", Gerard K. O'Neill discussed a hypothetical extraterrestrial race called the Primans who would use Von Neumann probes called Replicators to completely explore the Milky Way galaxy.  The Replicator exploration program had several key elements:
 
 When a Replicator arrived at a targeted star system, it would turn on a beacon alerting other Replicators of its existence in that star system.
+
 The Replicator, while in close orbit about a star in that targeted star system, would convert sunlight into matter and antimatter to be used as fuel.
+
 The Replicator examines nearby star systems for the existence of a Replicator already in place around any of those stars.  If there is no Replicator found in a particular star system, then the Replicator replicates making a new version of itself to be sent to that star system.
+
 The Replicator acts as a relay for messages sent by other Replicators.  Specifically, relay any messages from other Replicators toward other Replicators which are further away from the message source Replicator than the relaying Replicator.
+
 Send a message to all nearest Replicators to report any findings about the star system.  Update periodically (for example, once every million years) or when a major event happens.

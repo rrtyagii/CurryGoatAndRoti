@@ -1,4 +1,5 @@
 Artificial Life is a peer-reviewed scientific journal that covers artificial life, the study of man-made systems that exhibit the behavioral characteristics of natural living systems. Its articles cover system synthesis in software, hardware, and wetware. Artificial Life was established in 1993 and is the official journal of the International Society of Artificial Life. It is published online and in hard copy by the MIT Press.
 
 Abstracting and indexing
+
 Artificial Life is abstracted and indexed in Academic Search, Biological Abstracts, BIOSIS Previews, CSA Mechanical & Transportation Engineering Abstracts, Compendex, Current Contents, EMBASE, Excerpta Medica, Inspec, MEDLINE, METADEX, PubMed, Referativny Zhurnal, Science Citation Index Expanded, Scopus, and The Zoological Record.

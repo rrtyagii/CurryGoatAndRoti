@@ -1,6 +1,9 @@
 The Intercontinental Dictionary Series (commonly abbreviated as IDS) is a large database of topical vocabulary lists in various world languages. The general editor of the database is Bernard Comrie of the Max Planck Institute for Evolutionary Anthropology, Leipzig. Mary Ritchie Key of the University of California, Irvine is the founding editor. The database has an especially large selection of indigenous South American languages and Northeast Caucasian languages.
+
 The Intercontinental Dictionary Series' advanced browsing function allows users to make custom tables which compare languages in side-by-side columns.
+
 Below are the languages that are currently included in the Intercontinental Dictionary Series. The languages are grouped by language families, some of which are still hypothetical.
+
 It is part of the Cross-Linguistic Linked Data project hosted by the Max Planck Institute for the Science of Human History.
 
 Amerindian
@@ -162,11 +165,17 @@ Tsakhur
 Indo-European
 Indo-European
 Hittite
+
 Tocharian A/B
+
 Armenian (Eastern, Western)
+
 Albanian, Tosk
+
 Greek (Ancient, Modern)
+
 Indo-Iranian
+
 Persian
 Avestan
 Tats (Judeo-Tat)
@@ -176,7 +185,9 @@ Celtic
 Irish (Old, Modern)
 Breton
 Welsh
+
 Germanic
+
 Core Germanic
 English (Old, Middle, Modern)
 German (Old, Middle, Modern)

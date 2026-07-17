@@ -1,32 +1,43 @@
 In the field of gesture recognition and image processing, finger tracking is a high-resolution technique that is employed to know the position of a user's fingers in three-dimensional space. It was first developed in 1969.
+
 Finger tracking can be used as a computer input device.
 
 Introduction
+
 The finger tracking system is focused on user-data interaction, where the user interacts with virtual data, by handling through the fingers the volumetric of a 3D object that we want to represent.
+
 This system was born based on the human-computer interaction problem. The objective is to allow the
 communication between them and the use of gestures and hand movements to be more intuitive,
 Finger tracking systems have been created. These systems track in real time the position in 3D and 2D of
 the orientation of the fingers of each marker and use the intuitive hand movements and gestures to interact.
 
 Types of tracking
+
 There are many options for the implementation of finger tracking, principally those used with or without an interface.
 
 Tracking with interface
 This system mostly uses inertial and optical motion capture systems.
 
 Inertial motion capture gloves
+
 Inertial motion capture systems are able to capture finger motion by reading the rotation of each finger segment in 3D space. Applying these rotations to kinematic chain, the whole human hand can be tracked in real time, without occlusion and wireless.
+
 Hand inertial motion capture systems, like for example Synertial mocap gloves, use tiny IMU based sensors, located on each finger segment. Precise capture requires at least 16 sensors to be used. There are also mocap glove models with less sensors (13 / 7 sensors) for which the rest of the finger segments is interpolated (proximal segments) or extrapolated (distal segments). The sensors are typically inserted into textile glove which makes the use of the sensors more comfortable.
+
 Inertial sensors can capture movement in all 3 directions, which means finger and thumb flexion, extension and abduction can be detected.
 
 Hand skeleton
+
 Since inertial sensors track only rotations, the rotations have to be applied to some hand skeleton in order to get proper output. To get precise output (for example to be able to touch the fingertips), the hand skeleton has to be properly scaled to match the real hand. For this purpose manual measurement of the hand or automatic measurement extraction can be used.
 
 Hand position tracking
+
 On the top of finger tracking, many users require positional tracking for the whole hand in space. Multiple methods can be used for this purpose:
 
 Capturing the whole body using an inertial mocap system (hand skeleton is attached at the end of the body skeleton kinematic chain). The position of the palm is determined from the body.
+
 Capturing position of the palm (forearm) using optical mocap system.
+
 Capturing position of the palm (forearm) using other position tracking method, widely used in VR headsets (for example HTC Vive Lighthouse).
 
 Disadvantages of inertial motion capture systems
@@ -34,56 +45,80 @@ Inertial sensors have two main disadvantages connected with finger tracking:
 
 Problems capturing the absolute position of the hand in space.
 Magnetic interference
+
 The metal materials use to interfere with sensors. This problem may be noticeable mainly because hands are often in contact with different things, often made of metal. Current generations of motion capture gloves are able to withstand magnetic interference. The degree to which they are immune to magnetic interference depends on manufacturer, price range and number of sensors used in the mocap glove. Notably, stretch sensors are silicone-based capacitors that are completely unaffected by magnetic interference.
 
 Optical motion capture systems
+
 a tracking of the location of the markers and patterns in 3D is performed, the system identifies them and labels each marker according to the position of the user's fingers. The coordinates in 3D of the labels of these markers are produced in real time with other applications.
 
 Markers
+
 Some of the optical systems, like Vicon or ART, are able to capture hand motion through markers. In each hand we have a marker per each "operative" finger. Three high-resolution cameras are responsible for capturing each marker and measure its positions. This will be only produced when the camera is able to see them. The visual markers, usually known as rings or bracelets, are used to recognize user gesture in 3D. In addition, as the classification indicates, these rings act as an interface in 2D.
 
 Occlusion as an interaction method
+
 The visual occlusion is a very intuitive method to provide a more realistic viewpoint of the virtual information in three dimensions. The interfaces provide more natural 3D interaction techniques over base 6.
 
 Marker functionality
+
 Markers operate through interaction points, which are usually already set and we have the knowledge about the regions. Because of that, it is not necessary to follow each marker all the time; the multipointers can be treated in the same way when there is only one operating pointer. To detect such pointers through an interaction, we enable ultrasound infrared sensors. The fact that many pointers can be handled as one, problems would be solved. In the case when we are exposed to operate under difficult conditions like bad illumination, motion blurs, malformation of the marker or occlusion.
+
 The system allows following the object, even though if some markers are not visible. Because of the spatial relationships of all the markers are known, the positions of the markers that are not visible can be computed by using the markers that are known. There are several methods for marker detection like border marker and estimated marker methods.
 
 The Homer technique includes ray selection with direct handling: an object is selected and then its position and orientation are handled like if it was connected directly to the hand.
+
 The Conner technique presents a set of 3D widgets that permit an indirect interaction with the virtual objects through a virtual widget that acts as an intermediary.
 
 Fusing data with optical motion capture systems
+
 Because of marker occlusion during capture, tracking fingers is the most challenging part for optical motion capture systems (e.g. Vicon, Optitrack, or ART).
+
 Users of optical mocap systems claims that the most post-process work is usually due to finger capture. As the inertial mocap systems (if properly calibrated) are mostly without the need for post-process, the typical use for high end mocap users is to fuse data from inertial mocap systems (fingers) with optical mocap systems (body + position in space).
+
 The process of fusing mocap data is based on matching time codes of each frame for inertial and optical mocap system data source. This way any 3rd party software (for example MotionBuilder, Blender) can apply motions from two sources, independently of the mocap method used.
 
 Stretch sensor finger tracking
+
 Stretch sensor enabled motion capture systems use flexible parallel plate capacitors to detect differences in capacitance when the sensors stretch, bend, shear or are subjected to pressure. Stretch sensors are commonly silicone-based, which means they are unaffected by magnetic interference, occlusion or positional drift (common in inertial systems). The robust and flexible qualities of these sensors leads to high fidelity finger tracking and feature in mocap gloves produced by StretchSense.
 
 Articulated hand tracking
+
 Articulated hand tracking is simpler and less expensive than many methods because it only needs one camera. This simplicity results in less precision. It provides a new base for new interactions in the modeling, the control of the animation and the added realism. It uses a glove composed of a set of colors which are assigned according to the position of the fingers. This color test is limited to the vision system of the computers and based on the capture function and the position of the color, the position of the hand is known.
 
 Tracking without interface
+
 In terms of visual perception, the legs and hands can be modeled as articulated mechanisms, system of rigid bodies that are connected between them to articulations with one or more degrees of freedom. This model can be applied to a more reduced scale to describe hand motion and based on a wide scale to describe a complete body motion. A certain finger motion, for example, can be recognized from its usual angles and it does not depend on the position of the hand in relation to the camera.
+
 Many tracking systems are based on a model focused on a problem of sequence estimation, where a sequence of images is given and a model of changing, we estimate the 3D configuration for each photo. All the possible hand configurations are represented by vectors on a state space, which codes the position of the hand and the angles of the finger's joint. Each hand configuration generates a set of
 images through the detection of the borders of the occlusion of the finger's joint. The estimation of each
 image is calculated by finding the state vector that better fits to the measured characteristics.
+
 The finger joints have the added 21 states more than the rigid body movement of the palms; this means
 that the cost computational of the estimation is increased. The technique consists of label each finger joint links is modeled as a cylinder. We do the axes at each joint and bisector of this axis is the projection of the joint. Hence we use 3 DOF, because there are only 3 degrees of movement.
+
 In this case, it is the same as in the previous typology as there is a wide variety of deployment thesis on
 this subject. Therefore, the steps and treatment technique are different depending on the purpose and
 needs of the person who will use this technique. Anyway, we can say that a very general way and in most systems, you should carry out the following steps:
 
 Background subtraction: the idea is to convolve all the images that are captured with a Gauss filter of 5x5, and then these are scaled to reduce noisy pixel data.
+
 Segmentation: a binary mask application is used to represent with a white color, the pixels that belong to the hand and to apply the black color to the foreground skin image.
+
 Region extraction: left and right hand detection based on a comparison between them.
+
 Characteristic extraction: location of the fingertips and to detect if it is a peak or a valley. To classify the point, peaks or valleys, these are transformed to 3D vectors, usually named pseudo vectors in the xy-plane, and then to compute the cross product. If the sign of the z component of the cross product is positive, we consider that the point is a peak, and in the case that the result of the cross product is negative, it will be a valley.
+
 Point and pinch gesture recognition: taking into account the points of reference that are visible (fingertips) a certain gesture is associated.
+
 Pose estimation: a procedure which consists on identify the position of the hands through the use of algorithms that compute the distances between positions.
 
 Other tracking techniques
+
 It is also possible to perform active tracking of fingers. The Smart Laser Scanner is a marker-less finger tracking system using a modified laser scanner/projector developed at the University of Tokyo in 2003-2004. It is capable of acquiring three-dimensional coordinates in real time without the need of any image processing at all (essentially, it is a rangefinder scanner that instead of continuously scanning over the full field of view, restricts its scanning area to a very narrow window precisely the size of the target). Gesture recognition has been demonstrated with this system. The sampling rate can be very high (500 Hz), enabling smooth trajectories to be acquired without the need of filtering (such as Kalman).
 
 Application
+
 Hand tracking can be used in virtual reality and augmented reality. Its application has gone to professional level 3D modeling. Thus such systems rarely have been used in consumer applications due to its high price and complexity. In any case, the main objective is to facilitate the task of executing commands to the computer via natural language or interacting gesture.
+
 A main purpose of finger tracking is to enable computers to be easier to use, operating through gesture interaction. This technology offers many possibilities, where virtual sculpture, building, and modeling in 3D in real time through the use of a computer is the most important.

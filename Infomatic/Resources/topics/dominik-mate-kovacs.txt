@@ -1,8 +1,11 @@
 Dominik Mate Kovacs is a technology entrepreneur, CEO, and founder of Colossyan, a company specializing in AI-powered video content creation. In 2024, he was included in the Forbes 30 Under 30 list in Europe's Technology category.
 
 Biography
+
 Kovacs completed his bachelor's degree in General Engineering in Cyber Systems at the Technical University of Denmark (DTU) in 2020. He also pursued an exchange program at the University of Hong Kong, where he specialized in reinforcement learning and AI-based computer vision.
 
 Career
+
 Kovacs co-founded his first company, Defudger, in 2018, which developed an authentication system for validating audiovisual content using computer vision, machine learning, and blockchain technology. The system was designed to detect deepfake content.
+
 In 2020, he co-founded Colossyan with Zoltan Kovacs and Kristof Szabo. Dominik Mate Kovacs initially served as the company's Chief Product Officer before being appointed CEO in 2022. The company secured €1 million in seed funding in 2021, followed by $22 million in Series A funding in 2022. Colossyan's platform enables users to generate training videos by entering scripts that are voiced by virtual avatars using Colossyan's text-to-speech (TTS) technology.

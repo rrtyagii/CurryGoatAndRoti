@@ -1,7 +1,9 @@
 XOXO (eXtensible Open XHTML Outlines) for web syndication is an XML microformat for outlines built on top of XHTML. Developed by several authors as an attempt to reuse XHTML building blocks instead of inventing unnecessary new XML elements/attributes, XOXO is based on existing conventions for publishing outlines, lists, and blogrolls on the Web.
+
 The XOXO specification defines an outline as a hierarchical, ordered list of arbitrary elements.  The specification is fairly open which makes it suitable for many types of list data. E.g. the more semantic version of the S5 presentation file format is based upon XOXO.
 
 XML format
+
 The XML elements in an XOXO document are:
 
 <ol class="xoxo">

@@ -1,7 +1,9 @@
 An electroglottographic wavegram (short: EGG wavegram) is a tool for analyzing the voice source in speech and singing, based on electroglottographic (EGG) signals (and their first derivative, DEGG).
 
 Assessing the singing and speaking voice
+
 The wavegram, invented by Christian T. Herbst, provides an intuitive means for quickly assessing vocal fold contact phenomena and their variation over time. Vocal fold closings and openings appear here as a sequence of events rather than single incidents, taking place over a certain period of time, and changing with pitch, loudness and register. Wavegrams document systematic phenomena, indicating subtle changes of the vocal fold oscillatory regime.
+
 Electroglottographic wavegrams are created in 5 steps (see illustration):
 
 extraction of consecutive glottal cycles from the EGG signal;
@@ -9,11 +11,13 @@ locally normalized data values are converted into monochrome color information, 
 strips are rotated 90 degrees counter-clockwise;
 Glottal cycle duration is normalized by scaling the individual glottal cycle plots to the same height;
 the resulting graphs are combined to form the final display, the EGG wavegram.
+
 Wavegram data can be influenced by
 
 the anatomical baseline of the individual;
 physiological and habitual muscular patterns in phonation, e.g. degree of vocal fold adduction, register in singing and speech;
 organic voice disorders, i.e. pathological deviations from the norm.
+
 Wavegrams show a potential to be used in:
 
 screenings for voice disorders (e.g. in schools);
@@ -21,5 +25,7 @@ screenings for voice disorders (e.g. in schools);
 voice therapy (functional voice disorders);
 conservative and post-operative treatment of organic voice disorders;
 voice recognition in forensics.
+
 To construct a wavegram, the time-varying fundamental frequency is calculated and consecutive individual glottal cycles are identified in the EGG or DEGG signal. Each cycle is locally normalized in duration and amplitude, the signal values are encoded by color intensity and the cycles are concatenated to display the entire phonation in a single image, much as in sound spectrography.
+
 The idea of wavegrams can be extended to displaying other data, such as acoustic signals or high-speed video endoscopic recordings of the vibrating vocal folds.

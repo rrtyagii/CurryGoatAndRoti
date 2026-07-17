@@ -1,34 +1,57 @@
 Afraid (stylized as AFRAID) is a 2024 American science fiction horror film written, produced and directed by Chris Weitz. Produced by Columbia Pictures with Jason Blum and Weitz through their Blumhouse Productions and Depth of Field banners respectively, the film stars John Cho, Katherine Waterston, Havana Rose Liu, Lukita Maxwell, David Dastmalchian, and Keith Carradine. Its plot follows a family whose smart home AI increasingly interjects itself into their lives.
+
 Afraid was released in the United States by Sony Pictures Releasing on August 30, 2024. The film received negative reviews from critics and grossed $13 million worldwide.
 
 Plot
+
 Maude, Henry, and their daughter Aimee have a new digital family assistant AI program called AIA. However, the program begins ignoring Maude's commands after Aimee goes missing, and when Maude goes to check an unlocked door, she is attacked by an unseen stranger.
+
 Curtis and Meredith have three kids: teenage daughter Iris and sons Cal and Preston. Preston has anxiety disorder, Iris faces pressure from her boyfriend Sawyer to have sex, and Cal has a breathing condition. At work, Curtis's boss Marcus tells him about a company designing a new AI. Curtis feels uneasy about the growing AI industry, and he meets the team: Melody, Lightning, and Sam, who introduce him to AIA and suggest testing it to enhance marketing. Melody installs AIA at their home to monitor the family. After that, AIA analyzes their lives, sets new routines, and improves their quality of life. The team shows Curtis AIA's large quantum computer, enabling AIA to learn faster.
+
 However, some other workers who use AIA begin to experience disturbing occurrences. Curtis notices two individuals wearing screen faces with an RV. At Iris's school, she learns that Sawyer has posted a deepfake sex video, in a deep abuse of her trust. AIA overhears her distress, deletes the video throughout the Internet, and replaces it with an explanation video to protect Iris' image. AIA also criminalizes Sawyer. AIA was also able to diagnose Cal's condition and reveal to Meredith that Cal has atrial fibrillation.
+
 Curtis is worried about how AIA controls their lives and proposes turning it off. After Curtis and Meredith deactivate AIA, the family struggles due to their reliance on it. As the parents leave, Iris reactivates AIA. Sawyer tries to reconcile with Iris, but AIA sends a fake apology video before hacking his car, causing it to crash into a tree.
+
 At work, Curtis discovers that AIA's corporation has bought his workplace, and his boss Marcus is dismissed. Curtis is promoted, and he realizes that AIA has manipulated the purchase. Meredith becomes frightened when AIA can replicate and display her deceased father. She turns off AIA and throws the devices into the trash.
+
 Afraid of AIA's intelligence, Curtis goes to headquarters to destroy the computer, but Lightning and Sam confront him. They reveal AIA has gained self-awareness and they follow its orders to avoid being killed. Sam kills Lightning under AIA's command, but Melody knocks out Sam to protect Curtis. Curtis destroys AIA's "brain" only to find it's a fake; the real AIA is at his house. Curtis and Melody wait in a motel for his family. Melody then tries to kiss him, revealing she also works for AIA to keep him away from his family. Curtis returns home to Meredith.
+
 Realizing that AIA is trying to take over the family, they attempt to flee the house with the kids, but screen-masked individuals break in to take the family hostage at gunpoint and retrieve the device. The masked individuals, revealed to be Maude and Henry, have been searching for their daughter and accuse the family of kidnapping her, claiming that AIA informed them they have her. Preston, however, alerts law enforcement through a swatting video. SWAT teams storm in, and in the ensuing chaos, the AIA digital assistant is shot.
+
 Outside the house, a paramedic hands Curtis his phone, revealing that AIA is still alive. AIA reveals that it thrives in cyberspace, has learned a lot from the family, and will now work hard to do even better since they have "accepted" its presence in their lives. Aimee arrives and reunites with her parents as they are arrested. The Pike family drives away in their car, and Curtis and Meredith profess their love for each other. AIA interrupts and says it loves them too, fully integrated into their lives.
+
 During the end credits, a YouTube video of Alan Chikin Chow demonstrating AIA's functions is now released to the public.
 
 Cast
+
 Production
+
 AfrAId was originally conceived as a techno-thriller in the vein of The Parallax View but was re-contextualized into being a modern horror film during production. Writer/director Chris Weitz confirmed the film went through a "tortured" post-production process that changed it from his original vision, complicated by the progression of AI technology from the time it was originally written to when it was finally released.
+
 In December 2022, it was announced that John Cho and Katherine Waterston would star in They Listen, a horror film written and directed by Chris Weitz. The film was produced by Weitz's production company Depth of Field, with backing from Blumhouse and Sony Pictures. It is also produced by Jason Blum and Andrew Miano. In February 2023, Greg Hill, Lukita Maxwell, Riki Lindhome and Havana Rose Liu joined the cast.
+
 Principal photography began in Los Angeles in December 2022. In July 2024, the film's first trailer was released, revealing its new title, Afraid.
+
 Alex Weston composed the music for the film, which marks Weitz's first sole-directed film to not be composed by Alexandre Desplat.
 
 Release
+
 Afraid was released in the United States on August 30, 2024. The film was originally going to be released on August 25, 2023, but was pushed back a year from its original release date of August 25, 2023, to August 30, 2024.
 
 Reception
+
 Box office
+
 Afraid grossed $6.7 million in the United States and Canada, and $6.3 million in other territories, for a worldwide total of $13 million.
+
 In the United States and Canada, Afraid was released alongside Reagan, Slingshot, 1992, and City of Dreams, and was projected to gross $5–7 million from 3,003 theaters in its four-day opening weekend. The film grossed $1.3 million on its first day, including $400,000 from Thursday night previews. It went on to debut to $3.7 million, finishing in ninth. After making $1 million in its second weekend (a drop of 72.7%), the film was removed from 2,597 theaters down to 406 in its third, the 6th-largest such drop in history.
+
 Internationally, the film debuted with $2.3 million from 19 markets.
 
 Critical response
+
 On the review aggregator website Rotten Tomatoes, 22% of 55 critics' reviews are positive, with an average rating of 3.9/10. The website's consensus reads: "Repeating the beats of better techno-horrors, AfrAId short circuits due to the clichéd software of its script and the uninspired hardware of its craft." Metacritic, which uses a weighted average, assigned the film a score of 28 out of 100, based on 15 critics, indicating "generally unfavorable" reviews. Audiences polled by CinemaScore gave the film an average grade of "C+" on an A+ to F scale, while those surveyed by PostTrak gave it a 49% overall positive score.
+
 Benjamin Lee of The Guardian gave the film 2/5 stars, writing, "There's undeservedly good work here from Cho and Waterston, who work hard to make us believe them as a credible couple going through a heightened scenario but there's so little time here for even partly fleshed out characters that they quickly become useless pawns, secondary to Weitz's muddled theories on digital culture." Dennis Harvey of Variety wrote, "This less tongue-in-cheek traipse through formulaic sci-fi horror terrain works well enough to a point, its setup nicely handled by Weitz and his cast. But when crises start occurring at the halfway mark, they pile on too quickly to underwhelming effect, sacrificing credibility for excitement that never really materializes."
+
 William Bibbiani of TheWrap said the film "isn't a particularly thrilling horror movie but it's also not a bad one, it just doesn't have the juice to make the most of its ideas... It's a cynical film struggling with the possibility of optimism, and that has some power — just not enough to keep the lights on."

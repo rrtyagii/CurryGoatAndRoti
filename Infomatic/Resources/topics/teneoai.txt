@@ -1,27 +1,42 @@
 Teneo.ai, formerly known as Artificial Solutions, is a multinational technology company that develops technology for conversational AI systems.
+
 The company's products have been deployed in several industries including automotive, finance, energy, entertainment, telecoms, the public sector, retail and travel. Its customers include telecom providers such as AT&T, as well as other organisations such as Medtronic, Circle K  and Folksam,
 The company was founded in 2001 and became a public company in 2019 after conducting a reverse takeover of Indentive AB. On August 2024, Artificial Solutions rebranded to Teneo.ai.
+
 Teneo.ai is listed on the Nasdaq First North stock exchange under the ticker symbol TENEO. The symbol was previously ASAI for Artificial Solutions.
 
 Products
+
 Teneo.ai develops the Teneo platform, a conversational AI development platform. The platform is available as both a cloud-based and an on-premises installation and can be used to create applications that support over 86 languages. It utilizes a proprietary technology known as Teneo Linguistic Modeling Language (TLML) for natural language understanding and dialogue management.
+
 The company's products include the following:
 
 Teneo platform: An environment for developing and managing conversational AI agents. It provides tools for natural language processing, dialogue construction and integration with backend systems. The platform enables the analysis of conversational data for customer insights and is designed to be used without writing code.
+
 Voice AI Agents: AI-based agents designed for voice channels, such as automated phone systems in contact centers.
 
 Company press release about patents
+
 In 2022, the company issued a press release claiming that an independent valuation by OxFirst Ltd. had estimated the company's patent portfolio value at over SEK 1.6 billion, and saying that the patents had received significantly more forward citations than the industry average at the time.
 
 History
+
 Founded in Stockholm in 2001 by Johan Åhlund, Johan Gustavsson and Michael Söderström, the company created interactive web assistants using a combination of artificial intelligence and natural language processing. Artificial Solutions expanded with the development of online customer service optimization products, and by 2005 it had several offices throughout Europe supporting the development and sales of its online virtual assistants.
+
 In 2008, the company's Elbot chatbot won the Loebner Prize.
+
 In 2010, the company's management changed, and the new management focused on Natural Language Interaction and launched the Teneo Platform, designed for humans to conversations with applications running on electronic devices.
+
 In 2013 Artificial Solutions launched Lyra, a mobile personal assistant that is able to operate and remember the context of the conversation across different platforms and operating systems.
+
 A new round of funding was announced in June 2013 to support expansion in the US market.
+
 Since then the company has continued to develop the Teneo Platform and to patent technology in the conversational AI sector, including a framework for having chatbots interact with each other.
+
 In 2018, the company raised a total of 13.7 Euros in equity capital to help support global growth and to accelerate the expansion of Teneo.
+
 In 2019, Artificial Solutions Holding completed the Reverse Takeover of Indentive, enabling the business of Artificial Solutions Holding to be traded on Nasdaq First North. Lawrence Flynn remains the CEO.
 
 In November 2020, Per Ottosson took over as CEO. He and the CFO, Fredrik Törgrenis, are based at the company's headquarters in Stockholm.
+
 In August 2024, the company rebranded itself as Teneo.ai.

@@ -1,19 +1,25 @@
 Jared Daniel Kaplan is a theoretical physicist and artificial intelligence researcher. He is an associate professor in the Johns Hopkins University Department of Physics & Astronomy, and a co-founder and chief science officer of Anthropic.
 
 Education
+
 Kaplan received a bachelor's degree in physics and mathematics from Stanford University and a PhD in physics from Harvard University. His doctoral thesis is titled Aspects of holography, advised by Nima Arkani-Hamed.
 
 Academic career and physics research
+
 Kaplan’s research interests include quantum gravity, holography (AdS/CFT), conformal field theory, and related topics in particle physics and cosmology. He worked as a postdoctoral fellow at SLAC and Stanford University and has been a professor at Johns Hopkins University since 2012.
 
 Machine learning research
+
 Kaplan joined OpenAI in 2019 as a researcher, where he co-authored Scaling Laws for Neural Language Models (2020), which reported that empirically, the performance of language models steadily improves with their size and the amount of data and compute used for training. He is also a co-author of Language Models are Few-Shot Learners (2020), which introduced GPT-3. At the company, he was also involved in the development of Codex.
 
 Anthropic
+
 Kaplan co-founded Anthropic and serves as its chief science officer. In October 2024, Anthropic announced that Kaplan would serve as the company's "Responsible Scaling Officer", overseeing its responsible scaling policy (RSP). In this role, Kaplan determines the safety assessments and precautions to adopt before model release.
+
 In December 2025, The Guardian published an interview with Kaplan about AI autonomy and recursive self-improvement timelines.
 
 Honors and recognition
+
 Kaplan was a Hertz Fellow (2005). He has also received a Sloan Research Fellowship and an NSF CAREER award (PHY-1454083).
 
 Selected works
@@ -22,4 +28,5 @@ Language Models are Few-Shot Learners (2020).
 A Natural Language for AdS/CFT Correlators (2011).
 
 Personal life
+
 As of 2026, Forbes estimated Kaplan's net worth at $3.7 billion. He lives in Pacifica, California, and has a son.

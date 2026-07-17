@@ -1,6 +1,7 @@
 Unnatural Selection is a 1993 game for DOS by Maxis.
 
 Gameplay
+
 In the game, the player breeds mutant animals to fight battles. The game has two phases, the first is the breeding phase in which the player uses various objects and methods (food, drugs, radiation) etc. to breed the animals which will fight future battles. The second is the battle phase in which the animals are deployed on the battlefield in order to combat those of a rogue scientist.
 
 Reception

@@ -1,9 +1,12 @@
 Bio-API (Biometric Application Programming Interface) is a key part of the International Standards that support systems that perform biometric enrollment and verification (or identification).  It defines interfaces between modules that enable software from multiple vendors to be integrated together to provide a biometrics application within a system, or between one or more systems using a defined Biometric Interworking Protocol (BIP) – see below.
 Biometrics (measurements of physical characteristics of a person) are increasingly being used to provide verification of the identity of an individual, once they have been enrolled (one or more of their physical characteristics has been measured).
+
 Computer systems that perform biometric enrollment, verification, or identification are becoming increasingly used.  The BioAPI specification enables such systems to be produced by the integration of modules from multiple independent vendors.
 
 Origins
+
 The BioAPI specification is one of a set of International Standards produced jointly by the International Organization for Standardization (ISO) and the International Electrotechnical Commission (IEC) under their Joint Technical Committee 1 (JTC1), Subcommittee 37 on Biometrics.
+
 The Standard was based on some early work done in the United States of America and by the BioAPI Consortium
 which was called BioAPI 1.0 and BioAPI 1.1, but these specifications were revised and extended when the work
 was introduced to ISO/IEC.  The first international version
@@ -17,32 +20,48 @@ BioAPI 2.0 is specified in ISO/IEC 19784-1 and was first published on
 What and why?
 The purpose of the Bio-API specification is to define an architecture and all necessary interfaces (using C programming language
 specifications) to allow biometric applications (perhaps distributed across a network) to be integrated from modules provided by different vendors.
+
 The ability for system integrator to produce complete systems using
+
 components from multiple vendors is essential in the rapidly changing
 technology of biometrics.  It gives flexibility in the provision of modules, avoids vendor lock-in, provides a degree of future-proofing as the best available biometrics technologies change.
+
 The modules being integrated may be software components containing
+
 capture devices, such as fingerprint readers, cameras for face recognition, iris scanners, signature recognition devices, vascular imaging systems, etc.
 They can also be modules that provide support for image processing of biometric data, feature extraction (a form of compression that is specific to a given biometric technology and allows direct matching of the compressed formats – for example, the relative distances on the face of eyes, nose, mouth, or the number of ridges between identifiable ridge endings or ridge bifurcations).
 In addition, modules that provide archiving and retrieval of biometric records to support matching or searching for a match are also a recognized part of the BioAPI architecture.
+
 Applications can be concerned with personal identification (for example for credit cards), or with more specific areas such as identity card verification, checks for duplicate enrollment, passports, or physical access control in a commercial environment or for airport employees or merchant seamen wishing to go on-shore at their arrival port.
+
 Whilst today a system is commonly built using a single device for a single application, it is likely that in the long term many such applications will interact (securely, and via a network) with a common set of trusted devices (with various security policies and certificates).
+
 It is also expected that future biometrics applications will use multiple biometric modalities (for example, fingerprint, iris, and face),
 both to improve the accuracy of identification and to cope with people that are missing a finger, or have disability problems that prevent use of iris or face recognition.
+
 BioAPI supports all these use cases.
 
 The basic architecture
+
 The basic architecture of BioAPI 2.0 is illustrated in the figure at the top of this page. There are multiple possible (independent) biometric applications that interact with a BioAPI Framework, which in turn routes their messages to Biometric Service Providers (BSPs) that support the various biometric capture devices, image enhancement modules, feature extraction, matching, searching, etc.
+
 A later extension of the architecture introduces the concept of a Biometric Function Provider (BFP) and defines further lower-level interfaces between a BFP and a controlling BSP.  This minimizes the amount of software that a biometric device vendor needs to develop, allowing (other) software vendors to do most of the work of producing the BSP with an interface to the framework.
 
 Procurement issues
+
 The BioAPI Framework is the heart of BioAPI. Procurement of biometric systems need to consider the merits of basing their invitations-to-tender on systems  conforming to the BioAPI Standard, which contain a BioAPI Framework module.
+
 The importance of this Framework module is recognized by the BioAPI Consortium, which identifies an implementation of this Framework from Bio-Foundry.
 
 Distributed systems
+
 It might be uncommon to find multiple biometric applications and
+
 multiple biometric devices on a single computer system, but the long-term
 aim of telebiometrics is to allow multiple biometrics applications on multiple systems on the Internet to interwork with multiple other systems that support biometrics devices.
+
 BioAPI has already laid the foundations for this, with its
+
 architecture.
 Another ISO/IEC JTC 1/SC 37 Standard – BioAPI Interworking Protocol (BIP) – specifies an enhancement of the BioAPI Framework that essentially maps all API calls into network messages (defined using ASN.1) to provide a distributed BioAPI system.
 BIP is also being progressed as a Recommendation in ITU-T as Joint text with ISO/IEC.

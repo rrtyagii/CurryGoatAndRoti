@@ -1,10 +1,10 @@
 Krogh model is a scientific model of mass transfer explaining the concentration of molecular oxygen through a cylindrical capillary tube as a function of a changing position over the capillary tube's length. It was first conceptualized by August Krogh in 1919 with the help of Agner Krarup Erlang to describe oxygen supply in living tissues from human blood vessels.
+
 Its applicability has been extended to various academic fields, and has been successful explaining drug diffusion, water transport, and ice formation in tissues.
 
 Mathematical modeling
+
 Krogh model is derived by applying Fick's laws of diffusion and the law of conservation of mass over a radial interval
-
-
 
         R
         c
@@ -13,9 +13,8 @@ Krogh model is derived by applying Fick's laws of diffusion and the law of conse
         ≤
         R
         t
-
-
     {\displaystyle Rc\leq r\leq Rt}
 
 Limitations
+
 Although Krogh model is a good approximation, it underestimates oxygen consumption because the cylinder model does not include all the tissue surrounding the capillary.

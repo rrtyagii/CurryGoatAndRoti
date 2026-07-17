@@ -1,58 +1,91 @@
 A cognitive map is a type of mental representation used by an individual to order their personal store of  information about their everyday or metaphorical spatial environment, and the relationship of its component parts. The concept was introduced by Edward Tolman in 1948. He tried to explain the behavior of rats that appeared to learn the spatial layout of a maze, and subsequently the concept was applied to other animals, including humans. The term was later generalized by some researchers, especially in the field of operations research, to refer to a kind of semantic network representing an individual's personal knowledge or schemas.
 
 Overview
+
 Cognitive maps have been studied in various fields, such as psychology, education, archaeology, planning, geography, cartography, architecture, landscape architecture, urban planning, management and history. Because of the broad use and study of cognitive maps, it has become a colloquialism for almost any mental representation or model. As a consequence, these mental models are often referred to, variously, as cognitive maps, mental maps, scripts, schemata, and frame of reference.
+
 Cognitive maps serve the construction and accumulation of spatial knowledge, allowing the "mind's eye" to visualize images in order to reduce cognitive load, enhance recall and learning of information. This type of spatial thinking can also be used as a metaphor for non-spatial tasks, where people performing non-spatial tasks involving memory and imaging use spatial knowledge to aid in processing the task. They include information about the spatial relations that objects have among each other in an environment and they help us in orienting and moving in a setting and in space.
+
 The neural correlates of a cognitive map have been speculated to be the place cell system in the hippocampus and the recently discovered grid cells in the entorhinal cortex.
 
 History
+
 The idea of a cognitive map was first developed by Edward C. Tolman. Tolman, one of the early cognitive psychologists, introduced this idea when doing an experiment involving rats and mazes. In Tolman's experiment, a rat was placed in a cross shaped maze and allowed to explore it. After this initial exploration, the rat was placed at one arm of the cross and food was placed at the next arm to the immediate right. The rat was conditioned to this layout and learned to turn right at the intersection in order to get to the food. When placed at different arms of the cross maze however, the rat still went in the correct direction to obtain the food because of the initial cognitive map it had created of the maze. Rather than just deciding to turn right at the intersection no matter what, the rat was able to determine the correct way to the food no matter where in the maze it was placed.
+
 Unfortunately, further research was slowed due to the behaviorist point of view prevalent in the field of psychology at the time. In later years, O'Keefe and Nadel attributed Tolman's research to the hippocampus, stating that it was the key to the rat's mental representation of its surroundings. This observation furthered research in this area and consequently much of hippocampus activity is explained through cognitive map making.
+
 As time went on, the cognitive map was researched in other prospective fields that found it useful, therefore leading to broader and differentiating definitions and applications.
 
 Mental map distinction
+
 A cognitive map is a spatial representation of the outside world that is kept within the mind, until an actual manifestation (usually, a drawing) of this perceived knowledge is generated, a mental map. Cognitive mapping is the implicit, mental mapping the explicit part of the same process. In most cases, a cognitive map exists independently of a mental map, an article covering just cognitive maps would remain limited to theoretical considerations.
+
 Mental mapping is typically associated with landmarks, locations, and geography when demonstrated. Creating mental maps depends on the individual and their perceptions whether they are influenced by media, real-life, or other sources. Because of their factual storage mental maps can be useful when giving directions and navigating. As stated previously this distinction is hard to identify when posed with almost identical definitions, nevertheless there is a distinction.
+
 In some uses, mental map refers to a practice done by urban theorists by having city dwellers draw a map, from memory, of their city or the place they live. This allows the theorist to get a sense of which parts of the city or dwelling are more substantial or imaginable. This, in turn, lends itself to a decisive idea of how well urban planning has been conducted.
 
 Acquisition of the cognitive maps
+
 The cognitive map is generated from a number of sources, both from the visual system and elsewhere. Much of the cognitive map is created through self-generated movement cues. Inputs from senses like vision, proprioception, olfaction, and hearing are all used to deduce a person's location within their environment as they move through it. This allows for path integration, the creation of a vector that represents one's position and direction within one's environment, specifically in comparison to an earlier reference point. This resulting vector can be passed along to the hippocampal place cells where it is interpreted to provide more information about the environment and one's location within the context of the cognitive map.
+
 Directional cues and positional landmarks are also used to create the cognitive map. Within directional cues, both explicit cues, like markings on a compass, as well as gradients, like shading or magnetic fields, are used as inputs to create the cognitive map. Directional cues can be used both statically, when a person does not move within his environment while interpreting it, and dynamically, when movement through a gradient is used to provide information about the nature of the surrounding environment. Positional landmarks provide information about the environment by comparing the relative position of specific objects, whereas directional cues give information about the shape of the environment itself. These landmarks are processed by the hippocampus together to provide a graph of the environment through relative locations.
+
 Alex Siegel and Sheldon White (1975) proposed a model of acquisition of spatial knowledge based on different levels. The first stage of the process is said to be limited to the landmarks available in a new environment. Then, as a second stage, information about the routes that connect landmarks will be encoded, at the beginning in a non-metric representation form and consequently they will be expanded with metric properties, such as distances, durations and angular deviations. In the third and final step, the observer will be able to use a survey representation of the surroundings, using an allocentric point of view.
+
 All in all, the acquisition of cognitive maps is a gradual construction. This kind of knowledge is multimodal in nature and it is built up by different pieces of information coming from different sources that are integrated step by step.
 
 Neurological basis
+
 Cognitive mapping is believed to largely be a function of the hippocampus. The hippocampus is connected to the rest of the brain in such a way that it is ideal for integrating both spatial and nonspatial information. Connections from the postrhinal cortex and the medial entorhinal cortex provide spatial information to the hippocampus. Connections from the perirhinal cortex and lateral entorhinal cortex provide nonspatial information. The integration of this information in the hippocampus makes the hippocampus a practical location for cognitive mapping, which necessarily involves combining information about an object's location and its other features.
+
 O'Keefe and Nadel were the first to outline a relationship between the hippocampus and cognitive mapping. Many additional studies have shown additional evidence that supports this conclusion. Specifically, pyramidal cells (place cells, boundary cells, and grid cells) have been implicated as the neuronal basis for cognitive maps within the hippocampal system.
+
 Numerous studies by O'Keefe have implicated the involvement of place cells. Individual place cells within the hippocampus correspond to separate locations in the environment with the sum of all cells contributing to a single map of an entire environment. The strength of the connections between the cells represents the distances between them in the actual environment. The same cells can be used for constructing several environments, though individual cells' relationships to each other may differ on a map by map basis. The possible involvement of place cells in cognitive mapping has been seen in a number of mammalian species, including rats and macaque monkeys. Additionally, in a study of rats by Manns and Eichenbaum, pyramidal cells from within the hippocampus were also involved in representing object location and object identity, indicating their involvement in the creation of cognitive maps. However, there has been some dispute as to whether such studies of mammalian species indicate the presence of a cognitive map and not another, simpler method of determining one's environment.
+
 While not located in the hippocampus, grid cells from within the medial entorhinal cortex have also been implicated in the process of path integration, actually playing the role of the path integrator while place cells display the output of the information gained through path integration. The results of path integration are then later used by the hippocampus to generate the cognitive map. The cognitive map likely exists on a circuit involving much more than just the hippocampus, even if it is primarily based there. Other than the medial entorhinal cortex, the presubiculum and parietal cortex have also been implicated in the generation of cognitive maps.
 
 Parallel map theory
+
 There has been some evidence for the idea that the cognitive map is represented in the hippocampus by two separate maps. The first is the bearing map, which represents the environment through self-movement cues and gradient cues. The use of these vector-based cues creates a rough, 2D map of the environment. The second map would be the sketch map that works off of positional cues. The second map integrates specific objects, or landmarks, and their relative locations to create a 2D map of the environment. The cognitive map is thus obtained by the integration of these two separate maps. This leads to an understanding that it is not just one map but three that help us create this mental process. It should be clear that parallel map theory is still growing. The sketch map has foundation in previous neurobiological processes and explanations while the bearing map has very little research to support its evidence.
 
 Cognitive maps in animals
+
 According to O'Keefe and Nadel (1978), not only humans require spatial abilities. Non-humans animals need them as well to find food, shelters, and other animals whether it is mates or predators. To do so, some animals establish relationships between landmarks, allowing them to make spatial inferences and detect positions.
+
 The first experiments on rats in a maze, conducted by Tolman, Ritchie, and Kalish (1946), showed that rats can form mental maps of spatial locations with a good comprehension of them. But these experiments, led again later by other researchers (for example by Eichenbaum, Stewart, & Morris, 1990 and by Singer et al. 2006) have not concluded with such clear results. Some authors tried to bring to light the way rats can take shortcuts. The results have demonstrated that in most cases, rats fail to use a shortcut when reaching for food unless they receive a preexposure to this shortcut route. In that case, rats use that route significantly faster and more often than those who were not preexposed. Moreover, they have difficulties making a spatial inference such as taking a novel shortcut route.
+
 In 1987, Chapuis and Varlet led an experiment on dogs to determine if they were able to infer shortcuts. The conclusion confirmed their hypothesis. Indeed, the results demonstrated that the dogs were able to go from starting point to point A with food and then go directly to point B without returning to the starting point. But for Andrew T.D. Bennett (1996) it can simply mean that the dogs have seen some landmarks near point B such as trees or buildings and headed towards them because they associated them with the food. Later, in 1998, Cheng and Spetch did an experiment on gerbils. When looking for the hidden food (goal), gerbils were using the relationship between the goal and one landmark at a time. Instead of deducing that the food was equidistant from two landmarks, gerbils were searching it by its position from two independent landmarks. This means that even though animals use landmarks to locate positions, they do it in a certain way.
+
 Another experiment, including pigeons this time, showed that they also use landmarks to locate positions. The task was for the pigeons to find hidden food in an arena. A part of the testing was to make sure that they were not using their smell to locate food. These results show and confirm other evidence of links present in those animals between one or multiple landmark(s) and hidden food (Cheng and Spetch, 1998, 2001; Spetch and Mondloch, 1993; Spetch et al., 1996, 1997).
+
 There is increasing evidence that fish form navigational cognitive maps. In one such neurological study, wireless neural recording systems measured the neural activity of goldfish and found evidence they form complex cognitive maps of their surroundings.
 
 Criticism
+
 In a review, Andrew T.D. Bennett noted two principal definitions for the "cognitive map" term. The first one, according to Tolman, O'Keefe, and Nadel, implies the capacity to create novel short-cutting thanks to vigorous memorization of the landmarks. The second one, according to Gallistel, considers a cognitive map as "any representation of space held by an animal". This lack of a proper definition is also shared by Thinus-Blanc (1996) who stated that the definition is not clear enough. Therefore, this makes further experiments difficult to conclude.
+
 However, Bennett argued that there is no clear evidence for cognitive maps in non-human animals (i.e. cognitive map according to Tolman's definition). This argument is based on analyses of studies where it has been found that simpler explanations can account for experimental results. Bennett highlights three simpler alternatives that cannot be ruled out in tests of cognitive maps in non-human animals "These alternatives are (1) that the apparently novel short-cut is not truly novel; (2) that path integration is being used; and (3) that familiar landmarks are being recognised from a new angle, followed by movement towards them." This point of view is also shared by Grieves and Dudchenko (2013) that showed with their experiment on rats (briefly presented above) that these animals are not capable of making spatial inferences using cognitive maps.
 
 Heuristics
+
 Heuristics were found to be used in the manipulation and creation of cognitive maps. These internal representations are used by our memory as a guide in our external environment. It was found that when questioned about maps imaging, distancing, etc., people commonly made distortions to images. These distortions took shape in the regularisation of images (i.e., images are represented as more like pure abstract geometric images, though they are irregular in shape).
+
 There are several ways that humans form and use cognitive maps, with visual intake being an especially key part of mapping: the first is by using landmarks, whereby a person uses a mental image to estimate a relationship, usually distance, between two objects. The second is route-road knowledge, and is generally developed after a person has performed a task and is relaying the information of that task to another person. The third is a survey, whereby a person estimates a distance based on a mental image that, to them, might appear like an actual map. This image is generally created when a person's brain begins making image corrections. These are presented in five ways:
 
 Right-angle bias: when a person straightens out an image, like mapping an intersection, and begins to give everything 90-degree angles, when in reality it may not be that way.
+
 Symmetry heuristic: when people tend to think of shapes, or buildings, as being more symmetrical than they really are.
+
 Rotation heuristic: when a person takes a naturally (realistically) distorted image and straightens it out for their mental image.
+
 Alignment heuristic: similar to the previous, where people align objects mentally to make them straighter than they really are.
+
 Relative-position heuristic: people do not accurately distance landmarks in their mental image based on how well they remember them.
+
 Another method of creating cognitive maps is by means of auditory intake based on verbal descriptions. Using the mapping based from a person's visual intake, another person can create a mental image, such as directions to a certain location.
 
 Terminology
+
 Cognitive geography is distinctive because of its emphasis on geography as well as perception of space and environment.
 Fuzzy cognitive map establishes an important connection between concepts and actual events.
 Motion perception is more directly related to speed and direction processing.

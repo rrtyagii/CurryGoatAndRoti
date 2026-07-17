@@ -1,21 +1,35 @@
 MindMeister is an online mind mapping application that allows its users to visualize, share and present their thoughts via the cloud. MindMeister was launched in 2007 by MeisterLabs GmbH, a German software company founded by Michael Hollauf and Till Vollmer. After 17 years in the market, MindMeister has more than 7 million users who created more than a billion ideas to date.
 
 Overview
+
 MindMeister provides a way to visualize information in mind maps utilizing user modeling, while also providing tools to facilitate real-time collaboration, coordinate task management and create presentations.
+
 MindMeister is based on a freemium model, with a basic account available free of charge, providing limited functionality. The commercial model is built upon 4 different pricing levels with a choice of monthly or yearly subscription-charges. For use in the education sector, 3 different functional levels are available.
+
 The aim of MindMeister is to enable individuals to collaborate on a mind map, where everyone can share ideas, comments and plans, as well as vote on ideas in real-time. MindMeister allows users to share and edit mind maps, leave comments and feedback, attach files, images, videos, and link to external, as well as internal sources, via embedded URLs. Mind maps can be shared with colleagues internally or externally via an email invitation to collaborate, or via a hyperlink. Mind maps can also be turned into interactive presentations.
 
 Development
+
 The idea behind MindMeister was first devised when the two founders, Michael Hollauf and Till Vollmer, were working together using Writely, which had been recently acquired by Google Docs, and the mind mapping tool MindManager. At the time, MindManager had to be installed locally, which made it hard to share mind maps externally or with anyone who had not installed the software. While using Google Docs and MindManager together, the idea was born to combine the two, forming a collaborative online mind mapping tool which could be easily shared and edited, via the cloud.
 
 Milestones
+
 In 2006, MindMeister's first prototypes were created, in which mind maps were developed with 1x1 px DIVs.
+
 On February 7, 2007, MindMeister was released as a private beta. In the same year, MindMeister was awarded the Red Herring 100 Europe Award.
+
 In 2008, MindMeister 2.0 was released. In this release, the History View was added.
+
 In 2009, 5 additional languages were added and, with the advent of the iPhone, MindMeister for iOS was released.
+
 In 2010, MindMeister was added to the Google Apps Marketplace and the first native version for iPad was released.
+
 In 2011, MindMeister for Android was released and the presentation mode was integrated in the online version.
+
 In 2012, MindMeister integrated with Google Drive.
+
 In 2013, MindMeister Groups were introduced and MindMeister integrated with Google Hangouts.
+
 In 2014, the add-on for Google Docs were released and MindMeister became a Google Cloud Premier Partner. New features released include Comments and Votes, New Map Layouts and Video Support.
+
 In 2015, an integration to BiggerPlate was added as well as Geistesblitz for the AppleWatch.

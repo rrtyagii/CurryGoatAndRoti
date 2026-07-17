@@ -1,22 +1,33 @@
 Kristinn R. Thórisson (Þórisson) is an Icelandic artificial intelligence researcher, founder and Managing Director of the Icelandic Institute for Intelligent Machines (IIIM), and co-founder and former co-director of the Center for Analysis and Design of Intelligent Agents (CADIA) at Reykjavik University. Thórisson is one of the leading proponents of unified theories of cognition.
+
 Thórisson's research focus is general machine intelligence (also referred to as artificial general intelligence (AGI), or strong AI) and he has proposed a new methodology for achieving machines with general intelligence. An early demonstration of his constructivist AI methodology was given in the FP-7 funded HUMANOBS project, where an artificial agent autonomously learned from scratch how to do spoken multimodal interviews by observing humans participate in a TV-style interview. The goal-driven self-programming system, called AERA (Autocatalytic Endogenous Reflective Architecture), started out with only a small set of seed knowledge (a few pages of "given" code) and autonomously expanded its capabilities through self-reconfiguration, writing the equivalent of thousands of lines of code on its own, to enable it to perform such a realtime TV interview. Thórisson has also worked extensively on systems integration for artificial intelligence systems in the past, contributing architectural principles for infusing dialogue and human-interaction capabilities into the Honda ASIMO robot.
 
 Kristinn R. Thórisson has been Professor at the Department of Computer Science at Reykjavík University since 2004. He was co-founder of semantic Web startup company Radar Networks (with Nova Spivack), whose online Website Radar Networks Twine was one of the first working applications of semantic Web technologies, and served as its Chief Technology Officer 2002–03.
 
 Constructivist AI methodology
+
 The constructivist artificial intelligence methodology proposed by Thórisson to addresses the numerous significant challenges involved in building artificial general intelligence AGI systems, by replacing the top-down architectural design approaches that are ubiquitous today with methods that allow a system to autonomously manage its own cognitive growth. This involves a shift of focus from manual design of mental functions to the principles from which intelligent systems can grow through self-organization. The methodology was inspired in part by Piaget's stance towards cognitive development and motivated by the level of operational complexity that will be required for realizing AGI systems in contrast to what can be achieved with even large teams of human software engineers and software designers relying on methods of manual construction.
+
 The constructivist AI approach has been successfully demonstrated in the HUMANOBS project, where a domain-independent AI system autonomously learned real-time socio-communicative behavior through observation. The project was funded by the European Union under an FP-7 STReP grant (number 231453).
 
 Constructionist design methodology
+
 The constructionist design methodology (CDM) (not to be confused with ConstructIVist AI Methodology - see above), was developed by K. R. Thórisson and his students at Columbia University and Reykjavik University (cf. Thórisson et al. 2004, Thórisson & Jonsdottir 2008) for use in the development of communicative humanoids and broad AI systems. The creation of such systems requires integration of a large number of functionalities that must be carefully coordinated to achieve coherent system behavior. Fusing some of the best principles from prior AI methods, including subsumption architecture, modular construction, and behavior-oriented design (BOD), and classical AI, CDM presents iterative design steps that lead to the creation of a network of named interacting modules, communicating via explicitly-typed streams and discrete messages.
 
 Scientific publications
+
 A collection of selected publications can be found on K. R. Thórisson's MIT website.
+
 In August 2024 Thórisson and his co-authors received the "AGI Society Award" for their paper "Argument-Driven Planning & Autonomous Explanation Generation" at the Intl. Conf. of Artificial General Intelligence in Seattle, US.
+
 In August 2024 Thórisson and his Ph.D. student received the "Best AGI Paper" prize for their paper "Causal Generalization via Goal-Driven Analogy" at the Intl. Conf. of Artificial General Intelligence in Seattle, US.
+
 In December 2012 Thórisson and his co-authors received the "Kurzweil Best AGI Idea" prize for their paper "On Attention Mechanisms for AGI Architectures: A Design Proposal" at the Fifth Conference for Artificial General (AGI 2012) in Oxford, UK.
+
 In December 2013 Thórisson and his co-authors received the "Kurzweil Best AGI Idea" prize for their paper "Resource-Bounded Machines are Motivated to be Efficient, Effective, & Curious" at the Sixth Conference for Artificial General (AGI 2013) in Beijing, China.
+
 In July 2014 Thórisson and his collaborators received the "Outstanding Paper" award for their paper "Autonomous Acquisition of Natural Language" at the IADIS International Conference on Intelligent Systems & Agents 2014 (ISA-14).
 
 Musical career
+
 Kristinn R. Thórisson co-founded the band Sonus Futurae in his teens. Founded in 1980, Sonus Futurae published one extended EP  (Þeir sletta skyrinu) containing six songs and two singles. Their singles were published in 1984 and 1987.  Thórisson revived his musical career 30 years later and has published two 6-song solo albums, the first in 2020 titled "Secrets via Satellite" and the second, titled "Primate's Delight", in 2022.

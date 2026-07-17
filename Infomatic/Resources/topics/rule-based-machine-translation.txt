@@ -1,6 +1,7 @@
 Rule-based machine translation (RBMT) is a classical approach of machine translation systems based on linguistic information about source and target languages. Such information is retrieved from (unilingual, bilingual or multilingual) dictionaries and grammars covering the main semantic, morphological, and syntactic regularities of each language. Having input sentences, an RBMT system generates output sentences on the basis of analysis of both the source and the target languages involved. RBMT has been progressively superseded by more efficient methods, particularly neural machine translation.
 
 History
+
 The first RBMT systems were developed in the early 1970s. The most important steps of this evolution were the emergence of the following RBMT systems:
 
 Systran
@@ -14,20 +15,28 @@ Types of RBMT
 There are three different types of rule-based machine translation systems:
 
 Direct Systems (Dictionary Based Machine Translation) map input to output with basic rules.
+
 Transfer RBMT Systems (Transfer Based Machine Translation)  employ morphological and syntactical analysis.
+
 Interlingual RBMT Systems (Interlingua) use an abstract meaning.
+
 RBMT systems can also be characterized as the systems opposite to Example-based Systems of Machine Translation (Example Based Machine Translation), whereas Hybrid Machine Translations Systems make use of many principles derived from RBMT.
 
 Basic principles
+
 The main approach of RBMT systems is based on linking the structure of the given input sentence with the structure of the demanded output sentence, necessarily preserving their unique meaning. The following example can illustrate the general frame of RBMT:
 
 A girl eats an apple. Source Language = English; Demanded Target Language = German
 Minimally, to get a German translation of this English sentence one needs:
 
 A dictionary that will map each English word to an appropriate German word.
+
 Rules representing regular English sentence structure.
+
 Rules representing regular German sentence structure.
+
 And finally, we need rules according to which one can relate these two structures together.
+
 Accordingly, we can state the following stages of translation:
 
 1st:  getting basic part-of-speech information of each source word:
@@ -48,19 +57,27 @@ apple (category = noun) => Apfel (category = noun)
 A girl eats an apple. => Ein Mädchen isst einen Apfel.
 
 Ontologies
+
 An ontology is a formal representation of knowledge that includes the concepts (such as objects, processes etc.) in a domain and some relations between them. If the stored information is of linguistic nature, one can speak of a lexicon. In NLP, ontologies can be used as a source of knowledge for machine translation systems. With access to a large knowledge base, rule-based systems can be enabled to resolve many (especially lexical) ambiguities on their own. In the following classic examples, as humans, we are able to interpret the prepositional phrase according to the context because we use our world knowledge, stored in our lexicons:I saw a man/star/molecule with a microscope/telescope/binoculars.Since the syntax does not change, a traditional rule-based machine translation system may not be able to differentiate between the meanings. With a large enough ontology as a source of knowledge however, the possible interpretations of ambiguous words in a specific context can be reduced.
 
 Building ontologies
+
 The ontology generated for the PANGLOSS knowledge-based machine translation system in 1993 may serve as an example of how an ontology for NLP purposes can be compiled:
 
 A large-scale ontology is necessary to help parsing in the active modules of the machine translation system.
+
 In the PANGLOSS example, about 50,000 nodes were intended to be subsumed under the smaller, manually-built upper (abstract) region of the ontology. Because of its size, it had to be created automatically.
+
 The goal was to merge the two resources LDOCE online and WordNet to combine the benefits of both: concise definitions from Longman, and semantic relations allowing for semi-automatic taxonomization to the ontology from WordNet.
+
 A definition match algorithm was created to automatically merge the correct meanings of ambiguous words between the two online resources, based on the words that the definitions of those meanings have in common in LDOCE and WordNet. Using a similarity matrix, the algorithm delivered matches between meanings including a confidence factor. This algorithm alone, however, did not match all meanings correctly on its own.
+
 A second hierarchy match algorithm was therefore created which uses the taxonomic hierarchies found in WordNet (deep hierarchies) and partially in LDOCE (flat hierarchies). This works by first matching unambiguous meanings, then limiting the search space to only the respective ancestors and descendants of those matched meanings. Thus, the algorithm matched locally unambiguous meanings (for instance, while the word seal as such is ambiguous, there is only one meaning of seal in the animal subhierarchy).
+
 Both algorithms complemented each other and helped constructing a large-scale ontology for the machine translation system. The WordNet hierarchies, coupled with the matching definitions of LDOCE, were subordinated to the ontology's upper region. As a result, the PANGLOSS MT system was able to make use of this knowledge base, mainly in its generation element.
 
 Components
+
 The RBMT system contains:
 
 a SL morphological analyser - analyses a source language word and provides the morphological information;
@@ -72,6 +89,7 @@ Several dictionaries - more specifically a minimum of three dictionaries:
 a SL dictionary - needed by the source language morphological analyser for morphological analysis,
 a bilingual dictionary - used by the translator to translate source language words into target language words,
 a TL dictionary - needed by the target language morphological generator to generate target language words.
+
 The RBMT system makes use of the following:
 
 a Source Grammar for the input language which builds syntactic constructions from input sentences;
@@ -83,14 +101,23 @@ a Target Lexicon which contains appropriate target lexemes for each domain conce
 a Target Grammar for the target language which realizes target syntactic constructions as linearized output sentences.
 
 Advantages
+
 No bilingual texts are required. This makes it possible to create translation systems for languages that have no texts in common, or even no digitized data whatsoever.
+
 Domain independent. Rules are usually written in a domain independent manner, so the vast majority of rules will "just work" in every domain, and only a few specific cases per domain may need rules written for them.
+
 No quality ceiling. Every error can be corrected with a targeted rule, even if the trigger case is extremely rare. This is in contrast to statistical systems where infrequent forms will be washed away by default.
+
 Total control. Because all rules are hand-written, you can easily debug a rule-based system to see exactly where a given error enters the system, and why.
+
 Reusability. Because RBMT systems are generally built from a strong source language analysis that is fed to a transfer step and target language generator, the source language analysis and target language generation parts can be shared between multiple translation systems, requiring only the transfer step to be specialized. Additionally, source language analysis for one language can be reused to bootstrap a closely related language analysis.
 
 Shortcomings
+
 Insufficient amount of really good dictionaries. Building new dictionaries is expensive.
+
 Some linguistic information still needs to be set manually.
+
 It is hard to deal with rule interactions in big systems, ambiguity, and idiomatic expressions.
+
 Failure to adapt to new domains. Although RBMT systems usually provide a mechanism to create new rules and extend and adapt the lexicon, changes are usually very costly and the results, frequently, do not pay off.

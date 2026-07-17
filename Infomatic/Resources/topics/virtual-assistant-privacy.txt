@@ -1,33 +1,44 @@
 Virtual assistants are software technology that assist users complete various tasks. Well known virtual assistants include Amazon Alexa, and Siri, produced by Apple. Other companies, such as Google and Microsoft, also have virtual assistants. There are privacy issues concerning what information can go to the third party corporations that operate virtual assistants and how this data can potentially be used.
+
 Because virtual assistants similarly to robots or other artificial intelligence are often considered "nurturing" bodies, consumers may overlook potential controversies and value their convenience more than their privacy. When forming relationships with devices, humans tend to become closer to those that perform humanly functions, which is what virtual assistants do. In order to allow users both convenience and assistance, privacy by design and the Virtual Security Button (VS Button) propose methods in which both are possible.
 
 One layer versus multilayer authentication
+
 The Virtual Security Button, which would detect motion, has been proposed as a method of adding multilayer authentication to devices that currently only have a single layer; devices with single layer authentication solely require a voice to be activated. This voice could be any person, not necessarily the intended human, which makes the method unreliable. Multilayer authentication requires multiple layers of security to authorize a virtual assistant to work. The Virtual Security button would provide a second layer of authentication for devices, such as Alexa, that would be triggered by both movement and the voice combined.
+
 A specific instance in which there are issues with the lack of verification necessary to unlock access to the virtual assistants and to give them commands is when an Amazon Alexa is left in a living quarters unattended. Currently, there is only one layer of authentication which is the voice; there is not a layer that requires the owner of the virtual assistant to be present. Thus, with only one barrier to access all of the information virtual assistants have access to, concerns regarding the security of information exchanged are raised. Such privacy concerns have influenced the technology sector to think of ways to add more verification, such as a Virtual Security Button.
 
 Voice authentication with Siri
+
 The "Hey Siri" function allows the iPhone to listen through ambient sound until this phrase ("Hey Siri") is spotted. Once this phrase is spotted, Siri is triggered to respond.  In order to not always be listened to, an iPhone user can turn off the "Hey Siri" function. Without this function turned on, the device will not always be listening for those two words and other information will not be overheard in the process. This voice authentication serves as a singular layer, since only the voice is used to authenticate the user.
 
 Examples of virtual assistants
 Amazon Alexa
+
 This virtual assistant is linked to the "Echo" speaker created by Amazon and is primarily a device controlled by the voice that can play music, give information to the user, and perform other functions. Since the device is controlled by the voice, there are no buttons involved in its usage. The device does not have a measure to determine whether or not the voice heard is actually the consumer. The Virtual Security Button (VS Button) has been proposed as a potential method to add more security to this virtual assistant.
 
 The benefits of adding a VS button to Alexa
+
 The VS button uses technology from wifi networks to sense human kinematic movements. Home burglary poses a danger, as smart lock technology can be activated since there will be motion present. Thus, the VS button providing a double-check method before allowing Alexa to be utilized would lessen such dangerous scenarios from occurring. The introduction of the Virtual Security button would add another level of authentication, hence adding privacy to the device.
 
 Apple’s Siri
+
 Siri is Apple Corporation's virtual assistant and is utilized on the iPhone. Siri gathers the information that users input and has the ability to utilize this data. The ecosystem of the technological interface is vital in determining the amount of privacy; the ecosystem is where the information lives. Other information that can be compromised is location information if one uses the GPS feature of the iPhone. Any information, such as one's location, that is given away in an exchange with a virtual assistant is stored in these ecosystems.
 
 Hey Siri
+
 "Hey Siri" allows Siri to be voice-activated. The device continues to collect ambient sounds until it finds the words "Hey Siri." This feature can be helpful for those, who are visually impaired, as they can access their phone's applications through solely their voice.
 
 Siri's level of authentication
+
 Apple's Siri also has solely one level of authentication.  If one has a passcode, in order to utilize various features, Siri will require the passcode to be inputted. However, consumers value convenience so passcodes are not in all devices.
 
 Cortana
+
 Cortana, Microsoft's virtual assistant, is another voice activated virtual assistant that only requires the voice; hence, it also utilizes solely the singular form of authentication. The device does not utilize the VS button previously described to have a second form of authentication present. The commands that the device utilizes mostly have to do with saying what the weather is, calling one of the user's contacts, or giving directions. All of these commands require an insight into the user's life because in the process of answering these queries, the device looks through data which is a privacy risk.
 
 Google Assistant
+
 Google Assistant, which was originally dubbed Google Now, is the most human-like virtual assistant. The similarities between humans and this virtual assistant stem from the natural language utilized as well as the fact that this virtual assistant in particular is very knowledgeable about the tasks that humans would like them to complete prior to the user's utilization of these tasks. This prior knowledge makes the interaction much more natural. Some of these interactions specifically are called promotional commands.
 
 Automated virtual assistants in ride sharing
@@ -43,17 +54,25 @@ Accessibility of terms of use
 The terms of use that one has to approve when first getting their device is what gives corporations like Apple Corporation access to information. These agreements outline both the functions of devices, what information is private, and any other information that the company thinks is necessary to expose. Even for customers that do read this information, the information is often decoded in a vague and unclear manner. The text is objectively a small font and is often considered too wordy or lengthy in scope for the average user.
 
 Privacy by design
+
 Privacy by design makes the interface more secure for the user. Privacy by design is when a product's blueprint incorporates aspects of privacy into how the object or program is created. Even technology uses that have little to do with location have the ability to track one's location. For example, WiFi networks are a danger for those trying to keep their locations private. Various organizations are working toward making privacy by design more regulated so that more companies do it.
+
 If a product does not have privacy by design, the producer might consider adding modes of privacy to the product. The goal is for organizations to be formed to ensure that privacy by design is done using a standard; this standard would make privacy by design more reliable and trustworthy than privacy by choice. The standard would have to be high enough to not allow for loopholes of information to infringe upon, and such rules may apply to virtual assistants.
+
 Various patents have controlled the requirement of technology, such as artificial intelligence, to include various modes of privacy by nature. These proposals have included Privacy by Design, which occurs when aspects of privacy are incorporated into the blueprint of a device. This way, corporations do not have to build privacy into their designs in the future; designs can be written with privacy in mind. This would allow for a more fail-safe method to make sure that algorithms of privacy would not leave even edge cases out.
 
 Artificial intelligence
+
 Artificial intelligence as a whole attempts to emulate human actions and provide the menial services that humans provide, but should not have to be bothered with. In the process of automating these actions, various technological interfaces are formed.
+
 The problem that has to be solved has to do with the concept that in order to process information and perform their functions, virtual assistants curate information. The usage of this information and the risks for the information to be compromised is vital to assess for both the field of virtual assistants and artificial intelligence more broadly.
 
 Controversy
+
 There have been controversies surrounding the opinions that virtual assistants can have. As the technology has evolved, there is potential for the virtual assistants to possess controversial positions on issues which can cause uproar. These views can be political, which can be impactful on society since virtual assistants are used so widely.
+
 Crowdsourcing is also controversial; although it allows for innovation from the users, it can perhaps act as a cop-out for companies to take credit where, in reality, the customers have created a new innovation.
 
 Wizard of Oz approach
+
 One way to research human-robot interaction is called the Wizard of Oz approach. Specifically, this approach aims to have a human leader of a study fill in for a robot while the user completes a task for research purposes. In addition to humans evaluating artificial intelligence and robots, the Wizard of Oz approach is being introduced. When technology becomes close to being human-like, the Wizard of Oz approach says that this technology has the ability to evaluate and augment other artificial intelligence technology. Moreover, the method also suggests that technology, in order to be utilized, does not necessarily have to be human-like.  Thus, in order to be utilized, as long as they have useful features, virtual assistants do not have to focus all of their innovation on becoming more human-like.

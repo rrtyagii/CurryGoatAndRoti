@@ -1,11 +1,15 @@
 IEEE Intelligent Systems is a bimonthly peer-reviewed academic journal published by the IEEE Computer Society and sponsored by the Association for the Advancement of Artificial Intelligence (AAAI), British Computer Society (BCS), and European Association for Artificial Intelligence (EurAI).
 
 History
+
 The journal was established in 1986 as the quarterly IEEE Expert, changed to bimonthly in 1990. Its name was changed to IEEE Intelligent Systems & Their Applications in 1997 (already in 1996, the journal's title had become IEEE Expert - Intelligent Systems & Their Applications with a marked emphasis put on the text Intelligent Systems). Its current name IEEE Intelligent Systems was given in 2001.
+
 The current editor-in-chief is Longbing Cao (University of Technology Sydney). The editor-in-chief emeritus includes James Hendler (Rensselaer Polytechnic Institute), Fei-Yue Wang (Chinese Academy of Sciences), Daniel Zeng (University of Arizona), and V.S. Subrahmanian (Northwestern University).
 
 Abstracting and indexing
+
 According to the Journal Citation Reports, the journal has a 2021 impact factor of 6.744, ranked in the first quantile of the journals in the category of artificial intelligence.
 
 Hall of Fame
+
 For its 25th anniversary, the journal composed a "Hall of Fame", and the 10 recipients were announced in 2011.

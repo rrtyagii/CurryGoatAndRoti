@@ -1,73 +1,110 @@
 The General-Purpose AI Code of Practice (GPAI CoP) is a set of guidelines released by the European Commission on 10 July 2025 to support compliance with the European Union Artificial Intelligence Act (AI Act). It provides operational guidance for providers of general-purpose AI models, particularly in relation to Articles 53 and 55 of the AI Act, which entered into application on 2 August 2025.
+
 The Code is organised into three chapters (Transparency, Copyright, and Safety and Security) and outlines how providers can meet the Act's relevant obligations.
+
 Although non-binding, providers can rely on adherence to the Code, meaning that EU regulators will assume that providers following the Code meet the corresponding legal requirements of the AI Act. As such, signatories to the Code will benefit from reduced administrative burdens and increased legal certainty compared to providers that prove compliance in other ways. While adherence to the Code is voluntary, compliance with the AI Act is not.
 
 Background
 The EU AI Act, adopted in 2024, established a risk-based regulatory regime for artificial intelligence in the European Union. The rationale for the GPAI CoP stems from Article 56 of the AI Act, which empowers the EU AI Office to develop a voluntary rulebook to guide how AI model providers can meet their legal obligations – specifically those found in Articles 53 and 55.
 Under Articles 53 and 55, developers of general-purpose AI models whose training compute exceeds 1023 floating-point operations (FLOPs) and that are placed on the EU market must meet transparency obligations and put in place a policy for EU copyright law.
+
 Models trained with more than 1025 FLOPs are classified as presenting systemic risk and are subject to enhanced safety requirements. The Commission may also designate a model as presenting systemic risk if it has equivalent impact or capabilities (Annex XIII criteria), even below that compute figure.
+
 Because the AI Act is relatively vague on how model providers should implement these requirements, the Code is meant to help by detailing processes and practices for compliance.
 
 Drafting process
+
 The development of the GPAI CoP was drawn up by 13 independent experts and involved four thematic working groups: Transparency & Copyright, Risk assessment for systemic risk, Technical risk mitigation for systemic risk, and Governance risk mitigation for systemic risk. Each group was coordinated by the European Union Artificial Intelligence Office (EU AI Office), drawing on contributions from nearly 1,000 stakeholders, including AI developers, academics, civil society organisations, national authorities, and international observers.
+
 The Code underwent three earlier iterations in November 2024, December 2024, and March 2025, before the final version was published on 10 July 2025,  more than two months later than initially planned.
+
 The GPAI CoP will likely be updated continuously by the EU AI Office, alongside other tools such as the training data summary template.
 
 Signatories
+
 Among U.S.-based technology companies, Amazon, Anthropic, Google, IBM, Microsoft, and OpenAI have signed the GPAI CoP. xAI, founded by Elon Musk, has signed only one of the three chapters, namely the safety and security chapter. Prominent European AI companies that have signed include Aleph Alpha and Mistral AI.
+
 The European Commission maintains an updated list of signatories. As of January 2026, Meta is the most notable company that has declined to sign the Code. Major Chinese AI companies, such as Alibaba, Baidu or Deepseek, have also not signed.
+
 Providers that do not sign the GPAI CoP will still have to adhere to the binding requirements of the EU AI Act. The European Commission has indicated that it may take tougher action against companies that didn't sign the Code.
 
 Transparency and Copyright chapters
+
 The first two chapters of the GPAI CoP address transparency and copyright compliance and apply to all GPAI providers. They offer a way to demonstrate compliance with their obligations under Article 53 AI Act.
+
 The Transparency chapter addresses the documentation of a model's capabilities, limitations, and points of contact, and expects providers to make key documentation available to downstream providers. Signatories must also publish summaries of the content used to train their models.
+
 In the Copyright chapter, the Code requires providers to follow a policy that aligns with EU copyright law. For example, they must mitigate the risk of copyright-infringing output.
 
 Safety and Security chapter
+
 The Safety and Security chapter is the most extensive chapter of the Code, and it applies to GPAI models with systemic risk, meaning it's only relevant to the small number of providers of the most advanced models. It specifies how providers should meet Article 55(1) obligations to:
 
 Conduct model evaluations to identify systemic risks
 Assess and mitigate those risks
+
 Track and report serious incidents
 Ensure the cyber and physical security of their models
 The chapter outlines a comprehensive risk management process that must be applied before major deployment decisions, such as releasing a new systemic-risk GPAI model in the EU market, or substantially updating an existing one.
+
 Providers must identify systemic risks of their model, analyse and evaluate them, determine whether risk levels are acceptable, and implement mitigation measures if necessary. This process must be repeated until models achieve an acceptable level of risk across all identified risks.
 
 Risk identification
+
 Providers must analyse and evaluate at least four “specified” categories of systemic risk:
 
 CBRN (chemical, biological, radiological, and nuclear)
+
 Loss of control
+
 Cyber offence
+
 Harmful manipulation
+
 They are also expected to identify other systemic risks to public health, safety, and fundamental rights. The Code instructs providers to consider model capabilities, propensities, and affordances in this identification.
+
 Providers must develop risk scenarios illustrating how identified risks could materialise in real-world conditions.
 
 Risk analysis and risk evaluation
+
 After identifying potential systemic risks, providers must analyse and evaluate the risks in order to determine whether they are acceptable or not, drawing on scientific literature, training data analysis, incident databases, expert consultation, and other sources.
+
 They must also conduct state-of-the-art model evaluations such as benchmarking, red teaming, and human uplift studies, targeting each risk.
+
 The risk analysis process is interconnected: insights from risk modelling should inform model evaluation design, while post-market monitoring should feed back into ongoing analysis. Providers must ultimately estimate the likelihood and severity of each systemic risk.
 
 Independent external model evaluations
+
 Appendix 3.5 of the Safety and Security chapter requires signatories to ensure that independent external evaluators conduct model evaluations. Providers may claim an exemption from this requirement only if they can demonstrate that their model is “similarly safe” to another model that has already been shown to comply with the Code, or if they are unable to appoint an appropriately qualified evaluator.
+
 The determination of “similarly safe” is based on comparable performance on benchmarks and the similarity of other model characteristics, such as their architecture. The CoP acknowledges that this kind of information is typically available only for models by the same provider, or potentially for open-weights or open-source models.
 
 Risk acceptance criteria
+
 The Code requires providers to compare estimated risks against predefined acceptance criteria, which must be measurable, based on model capabilities, and defined preemptively. While providers get to determine the level of risk they deem acceptable themselves, the pre-defined criteria and acceptance thresholds ensure providers cannot adjust their level of tolerance flexibly ahead of deployment decisions.
+
 Only if all risks are below acceptable levels should a model be deployed.
 
 Continuous risk management and governance
+
 The Code mandates ongoing risk management throughout the model lifecycle, including light-touch evaluations, continuous mitigation, post-market monitoring, and incident tracking and reporting.
+
 It further requires organisational governance structures assigning responsibility for risk management and expects providers to promote a “healthy risk culture,” including informing employees about the whistleblower protection policy, allowing internal challenges of decisions concerning systemic risk management, and committing to not retaliating against employees who disclose concerns about systemic risks to oversight authorities.
 
 Documentation and transparency
+
 Providers must create two types of documentation:
 
 Safety and Security Framework: an overarching document that explains how they implement the risk management measures, including describing risk assessment processes, mitigation measures, and predefined risk thresholds.
+
 Safety and Security Model Report: a report describing how their model complies with the framework and justifying why the systemic risks stemming from the model are acceptable, supported by documentation of the risk identification, analysis, and mitigation process that was undertaken. This also includes available reports from external evaluators and security auditors.
+
 Providers must notify the EU AI Office of their Safety and Security Framework and Safety and Security Model Reports.
+
 Public disclosure is limited as providers must publish summaries of their safety and security framework and model reports only when a model may pose greater risk than comparable models already available in the EU, and only to the extent necessary to assess or mitigate systemic risks. This limited disclosure significantly reduces the extent of public scrutiny and evaluation of providers’ safety and security practices.
 
 Downstream providers
+
 Under Article 53 and the transparency requirements set out in the Code, downstream providers are entitled to receive a “downstream package” from the GPAI provider. This package includes a completed Model Documentation Form and key information required under Annex XII of the AI Act, such as a description of the model, intended tasks, performance, architecture, licensing terms, and integration specs.
+
 The Transparency chapter also requires GPAI providers to supply additional information requested by downstream providers within 14 calendar days, provided that the requested information is necessary for understanding the model's capabilities and limitations and for enabling downstream providers to comply with their obligations under the AI Act.

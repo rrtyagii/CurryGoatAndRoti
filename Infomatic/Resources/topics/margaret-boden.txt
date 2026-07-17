@@ -1,40 +1,58 @@
 Margaret Ann Boden  (26 November 1936 – 18 July 2025) was a British academic. She was a research professor of cognitive science in the department of informatics at the University of Sussex, where her work embraced the fields of artificial intelligence, psychology, philosophy, and cognitive and computer science.
 
 Early life and education
+
 Margaret Ann Boden was born on 26 November 1936 in London. She was educated at the City of London School for Girls in the late 1940s and 1950s. At Newnham College, Cambridge, she took first class honours in medical sciences which she finished after 2 instead of 3 years in 1958, achieving the highest score across all Natural Sciences. In 1957, she studied the history of modern philosophy at the Cambridge Language Research Unit run by Margaret Masterman as her second degree, which she finished in 1959.
 
 Career
+
 Boden was appointed lecturer in philosophy at the University of Birmingham in 1959. She became a Harkness Fellow at Harvard University from 1962 to 1964. She then returned to Birmingham for a year before moving to a lectureship in philosophy and psychology at the University of Sussex in 1965, where she was appointed as reader, then professor in 1980. She was awarded a PhD degree in social psychology (with a specialism in cognitive studies) by Harvard in 1968.
+
 She credited reading "Plans and the Structure of Behavior" by George A. Miller with giving her the realisation that computer programming approaches could be applied to the whole of psychology.
+
 Boden became Dean of the School of Social Sciences in 1985. Two years later she became the founding dean of the School of Cognitive and Computing Sciences (COGS), precursor of the university's later Department of Informatics. From 1997 she was a research professor of Cognitive Science in the department of informatics, where her work encompassed the fields of artificial intelligence, psychology, philosophy, and cognitive and computer science.
+
 Boden became a fellow of the British Academy in 1983 and served as its vice president from 1989 to 1991.  Boden was a member of the editorial board for The Rutherford Journal.
+
 In 2001 Boden was appointed Officer of the Order of the British Empire for her services in the field of cognitive science. The same year she was also awarded an honorary doctor of science from the University of Sussex. She also received an honorary degree from the University of Bristol. A PhD scholarship that is awarded annually by the department of informatics at the University of Sussex was named in her honour.
 
 Media
+
 In October 2014 and January 2015, Boden was interviewed by Jim Al-Khalili on the BBC Radio Four programme The Life Scientific.
+
 In February 2017, Boden, along with other researchers, participated in a debate organized by the British Academy on the readiness of humans to develop romantic relationships with robots.
 
 Personal life and death
+
 Boden was married to John Spiers, a writer and publisher, from 1967 until 1981. They had a son and a daughter.
+
 Boden had a fondness for the colour purple and the Cook Islands, spending vacations there for 30 years. She died in Brighton on 18 July 2025, at the age of 88.
 
 Publications
+
 Purposive Explanation in Psychology (Harvard University Press, 1972);
+
 Artificial Intelligence and Natural Man (1977/1987: 2nd edn., MIT Press), ISBN 978-0-262-52123-9
 Piaget (Fontana Modern Masters 1979; 2nd edn. HarperCollins, 1984);
+
 The Case for a Cognitive Biology. (In Proceedings of the Aristotelian Society, 54: 25–40, with Susan Khin Zaw, 1980);
 Minds and Mechanisms (Cornell University Press, 1981);
+
 Computer Models of Mind: Computational approaches in theoretical psychology (Cambridge University Press, 1988), ISBN 978-0-521-27033-5
 Artificial Intelligence in Psychology: Interdisciplinary Essays (MIT Press, 1989), ISBN 978-0-262-02285-9
 The Philosophy of Artificial Intelligence, ed. (Oxford Readings in Philosophy, Oxford University Press, 1989/90), ISBN 978-0-19-875155-7
 The Creative Mind: Myths and Mechanisms (Weidenfeld/Abacus & Basic Books, 1990; 2nd edn. Routledge, 2004), ISBN 978-0-415-31453-4
 Dimensions of Creativity, ed. (MIT Press, 1994);
+
 The Philosophy of Artificial Life, ed. Oxford University Press, 1996).
+
 Artificial Intelligence (Handbook of Perception and Cognition, 2nd Ed, Academic Press Inc., 1996), ISBN 978-0-12-161964-0
 Mind As Machine: a History of Cognitive Science, (2 volumes, Oxford University Press, 2006), ISBN 978-0-19-929237-0 / ISBN 978-0-19-924144-6. This generated public disagreement with Noam Chomsky.
+
 AI: Its Nature and Future (2016), ISBN 978-0-19-877798-4
 
 Honours
+
 Boden was appointed Officer of the Order of the British Empire in 2001 for "services to cognitive science".
 Fellow (and former vice-president) of the British Academy – and Chairman of their Philosophy Section until July 2002.
 Member of the Academia Europaea.
@@ -45,4 +63,5 @@ Member of Council of the Royal Institute of Philosophy.
 Former Vice-President (and Chairman of Council) of the Royal Institution of Great Britain.
 In April 2004 she was awarded an honorary degree by the Open University as Doctor of the University.
 In 2016 she was awarded the ISAL award for Lifetime Achievement in the field of Artificial Life.
+
 Honorary Fellow of the Cybernetics Society.

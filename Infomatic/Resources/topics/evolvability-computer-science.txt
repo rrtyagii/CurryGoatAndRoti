@@ -1,91 +1,38 @@
 The term evolvability is used for a recent framework of computational learning introduced by Leslie Valiant in his paper of the same name and described below. The aim of this theory is to model biological evolution and categorize which types of mechanisms are evolvable. Evolution is an extension of PAC learning and learning from statistical queries.
 
 General framework
+
 Let
 
-
-
-
           F
-
             n
-
-
-
-
-
     {\displaystyle F_{n}\,}
-
  and
-
-
-
-
           R
-
             n
-
-
-
-
-
     {\displaystyle R_{n}\,}
-
  be collections of functions on
-
-
-
         n
-
-
-
     {\displaystyle n\,}
-
  variables. Given an ideal function
-
-
-
         f
         ∈
-
           F
-
             n
-
-
-
-
     {\displaystyle f\in F_{n}}
 
 , the goal is to find by local search a representation
 
-
-
         r
         ∈
-
           R
-
             n
-
-
-
-
     {\displaystyle r\in R_{n}}
-
  that closely approximates
-
-
-
         f
-
-
-
     {\displaystyle f\,}
 
 . This closeness is measured by the performance
-
-
 
         Perf
         ⁡
@@ -94,199 +41,96 @@ Let
         ,
         r
         )
-
-
     {\displaystyle \operatorname {Perf} (f,r)}
-
  of
-
-
-
         r
-
-
-
     {\displaystyle r\,}
-
  with respect to
-
-
-
         f
-
-
-
     {\displaystyle f\,}
 
 .
+
 As is the case in the biological world, there is a difference between genotype and phenotype. In general, there can be multiple representations (genotypes) that correspond to the same function (phenotype). That is, for some
-
-
 
         r
         ,
-
           r
           ′
-
         ∈
-
           R
-
             n
-
-
-
-
     {\displaystyle r,r'\in R_{n}}
 
 , with
 
-
-
         r
         ≠
-
           r
           ′
-
-
-
-
     {\displaystyle r\neq r'\,}
 
 , still
-
-
 
         r
         (
         x
         )
         =
-
           r
           ′
-
         (
         x
         )
-
-
-
     {\displaystyle r(x)=r'(x)\,}
-
  for all
-
-
-
         x
         ∈
-
           X
-
             n
-
-
-
-
     {\displaystyle x\in X_{n}}
 
 . However, this need not be the case. The goal then, is to find a representation that closely matches the phenotype of the ideal function, and the spirit of the local search is to allow only small changes in the genotype. Let the neighborhood
-
-
 
         N
         (
         r
         )
-
-
-
     {\displaystyle N(r)\,}
-
  of a representation
-
-
-
         r
-
-
-
     {\displaystyle r\,}
-
  be the set of possible mutations of
-
-
-
         r
-
-
-
     {\displaystyle r\,}
 
 .
+
 For simplicity, consider Boolean functions on
 
-
-
-
           X
-
             n
-
-
         =
         {
         −
         1
         ,
         1
-
           }
-
             n
-
-
-
-
-
     {\displaystyle X_{n}=\{-1,1\}^{n}\,}
 
 , and let
 
-
-
-
           D
-
             n
-
-
-
-
-
     {\displaystyle D_{n}\,}
-
  be a probability distribution on
-
-
-
-
           X
-
             n
-
-
-
-
-
     {\displaystyle X_{n}\,}
 
 . Define the performance in terms of this. Specifically,
-
-
-
 
         Perf
         ⁡
@@ -296,19 +140,11 @@ For simplicity, consider Boolean functions on
         r
         )
         =
-
           ∑
-
             x
             ∈
-
               X
-
                 n
-
-
-
-
         f
         (
         x
@@ -317,24 +153,15 @@ For simplicity, consider Boolean functions on
         (
         x
         )
-
           D
-
             n
-
-
         (
         x
         )
         .
-
-
     {\displaystyle \operatorname {Perf} (f,r)=\sum _{x\in X_{n}}f(x)r(x)D_{n}(x).}
 
-
 Note that
-
-
 
         Perf
         ⁡
@@ -372,22 +199,12 @@ Note that
         )
         )
         .
-
-
     {\displaystyle \operatorname {Perf} (f,r)=\operatorname {Prob} (f(x)=r(x))-\operatorname {Prob} (f(x)\neq r(x)).}
-
  In general, for non-Boolean functions, the performance will not correspond directly to the probability that the functions agree, although it will have some relationship.
 Throughout an organism's life, it will only experience a limited number of environments, so its performance cannot be determined exactly. The empirical performance is defined by
 
-
-
-
-
           Perf
-
             s
-
-
         ⁡
         (
         f
@@ -395,20 +212,12 @@ Throughout an organism's life, it will only experience a limited number of envir
         r
         )
         =
-
-
             1
             s
-
-
-
           ∑
-
             x
             ∈
             S
-
-
         f
         (
         x
@@ -418,95 +227,39 @@ Throughout an organism's life, it will only experience a limited number of envir
         x
         )
         ,
-
-
     {\displaystyle \operatorname {Perf} _{s}(f,r)={\frac {1}{s}}\sum _{x\in S}f(x)r(x),}
-
 
 where
 
-
-
         S
-
-
-
     {\displaystyle S\,}
-
  is a multiset of
-
-
-
         s
-
-
-
     {\displaystyle s\,}
-
  independent selections from
-
-
-
-
           X
-
             n
-
-
-
-
-
     {\displaystyle X_{n}\,}
-
  according to
-
-
-
-
           D
-
             n
-
-
-
-
-
     {\displaystyle D_{n}\,}
 
 . If
 
-
-
         s
-
-
-
     {\displaystyle s\,}
-
  is large enough, evidently
-
-
-
-
           Perf
-
             s
-
-
         ⁡
         (
         f
         ,
         r
         )
-
-
     {\displaystyle \operatorname {Perf} _{s}(f,r)}
-
  will be close to the actual performance
-
-
-
         Perf
         ⁡
         (
@@ -514,66 +267,37 @@ where
         ,
         r
         )
-
-
     {\displaystyle \operatorname {Perf} (f,r)}
 
 .
+
 Given an ideal function
-
-
 
         f
         ∈
-
           F
-
             n
-
-
-
-
     {\displaystyle f\in F_{n}}
 
 , initial representation
 
-
-
         r
         ∈
-
           R
-
             n
-
-
-
-
     {\displaystyle r\in R_{n}}
 
 , sample size
 
-
-
         s
-
-
-
     {\displaystyle s\,}
 
 , and tolerance
 
-
-
         t
-
-
-
     {\displaystyle t\,}
 
 , the mutator
-
-
 
         Mut
         ⁡
@@ -586,67 +310,33 @@ Given an ideal function
         ,
         t
         )
-
-
     {\displaystyle \operatorname {Mut} (f,r,s,t)}
-
  is a random variable defined as follows. Each
-
-
-
-
           r
           ′
-
         ∈
         N
         (
         r
         )
-
-
     {\displaystyle r'\in N(r)}
-
  is classified as beneficial, neutral, or deleterious, depending on its empirical performance. Specifically,
-
-
-
-
-
           r
           ′
-
-
-
-
     {\displaystyle r'\,}
-
  is a beneficial mutation if
-
-
-
-
           Perf
-
             s
-
-
         ⁡
         (
         f
         ,
-
           r
           ′
-
         )
         −
-
           Perf
-
             s
-
-
         ⁡
         (
         f
@@ -655,53 +345,29 @@ Given an ideal function
         )
         ≥
         t
-
-
     {\displaystyle \operatorname {Perf} _{s}(f,r')-\operatorname {Perf} _{s}(f,r)\geq t}
 
 ;
 
-
-
-
-
           r
           ′
-
-
-
-
     {\displaystyle r'\,}
-
  is a neutral mutation if
-
-
-
         −
         t
         <
-
           Perf
-
             s
-
-
         ⁡
         (
         f
         ,
-
           r
           ′
-
         )
         −
-
           Perf
-
             s
-
-
         ⁡
         (
         f
@@ -710,50 +376,26 @@ Given an ideal function
         )
         <
         t
-
-
     {\displaystyle -t<\operatorname {Perf} _{s}(f,r')-\operatorname {Perf} _{s}(f,r)<t}
 
 ;
 
-
-
-
-
           r
           ′
-
-
-
-
     {\displaystyle r'\,}
-
  is a deleterious mutation if
-
-
-
-
           Perf
-
             s
-
-
         ⁡
         (
         f
         ,
-
           r
           ′
-
         )
         −
-
           Perf
-
             s
-
-
         ⁡
         (
         f
@@ -763,15 +405,12 @@ Given an ideal function
         ≤
         −
         t
-
-
     {\displaystyle \operatorname {Perf} _{s}(f,r')-\operatorname {Perf} _{s}(f,r)\leq -t}
 
 .
+
 If there are any beneficial mutations, then
 
-
-
         Mut
         ⁡
         (
@@ -783,14 +422,8 @@ If there are any beneficial mutations, then
         ,
         t
         )
-
-
     {\displaystyle \operatorname {Mut} (f,r,s,t)}
-
  is equal to one of these at random. If there are no beneficial mutations, then
-
-
-
         Mut
         ⁡
         (
@@ -802,233 +435,100 @@ If there are any beneficial mutations, then
         ,
         t
         )
-
-
     {\displaystyle \operatorname {Mut} (f,r,s,t)}
-
  is equal to a random neutral mutation. In light of the similarity to biology,
-
-
-
         r
-
-
-
     {\displaystyle r\,}
-
  itself is required to be available as a mutation, so there will always be at least one neutral mutation.
 The intention of this definition is that at each stage of evolution, all possible mutations of the current genome are tested in the environment. Out of the ones who thrive, or at least survive, one is chosen to be the candidate for the next stage. Given
 
-
-
-
           r
-
             0
-
-
         ∈
-
           R
-
             n
-
-
-
-
     {\displaystyle r_{0}\in R_{n}}
 
 , we define the sequence
 
-
-
-
           r
-
             0
-
-
         ,
-
           r
-
             1
-
-
         ,
-
           r
-
             2
-
-
         ,
         …
-
-
     {\displaystyle r_{0},r_{1},r_{2},\ldots }
-
  by
-
-
-
-
           r
-
             i
             +
             1
-
-
         =
         Mut
         ⁡
         (
         f
         ,
-
           r
-
             i
-
-
         ,
         s
         ,
         t
         )
-
-
     {\displaystyle r_{i+1}=\operatorname {Mut} (f,r_{i},s,t)}
 
 . Thus
 
-
-
-
           r
-
             g
-
-
-
-
-
     {\displaystyle r_{g}\,}
-
  is a random variable representing what
-
-
-
-
           r
-
             0
-
-
-
-
-
     {\displaystyle r_{0}\,}
-
  has evolved to after
-
-
-
         g
-
-
-
     {\displaystyle g\,}
-
  generations.
 Let
 
-
-
         F
-
-
-
     {\displaystyle F\,}
-
  be a class of functions,
-
-
-
         R
-
-
-
     {\displaystyle R\,}
-
  be a class of representations, and
-
-
-
         D
-
-
-
     {\displaystyle D\,}
-
  a class of distributions on
-
-
-
         X
-
-
-
     {\displaystyle X\,}
 
 . We say that
 
-
-
         F
-
-
-
     {\displaystyle F\,}
-
  is evolvable by
-
-
-
         R
-
-
-
     {\displaystyle R\,}
-
  over
-
-
-
         D
-
-
-
     {\displaystyle D\,}
-
  if there exists polynomials
-
-
-
         p
         (
         ⋅
         ,
         ⋅
         )
-
-
     {\displaystyle p(\cdot ,\cdot )}
 
 ,
-
-
 
         s
         (
@@ -1036,13 +536,9 @@ Let
         ,
         ⋅
         )
-
-
     {\displaystyle s(\cdot ,\cdot )}
 
 ,
-
-
 
         t
         (
@@ -1050,13 +546,9 @@ Let
         ,
         ⋅
         )
-
-
     {\displaystyle t(\cdot ,\cdot )}
 
 , and
-
-
 
         g
         (
@@ -1064,288 +556,150 @@ Let
         ,
         ⋅
         )
-
-
     {\displaystyle g(\cdot ,\cdot )}
-
  such that for all
-
-
-
         n
-
-
-
     {\displaystyle n\,}
-
  and all
-
-
-
         ϵ
         >
         0
-
-
-
     {\displaystyle \epsilon >0\,}
 
 , for all ideal functions
 
-
-
         f
         ∈
-
           F
-
             n
-
-
-
-
     {\displaystyle f\in F_{n}}
-
  and representations
-
-
-
-
           r
-
             0
-
-
         ∈
-
           R
-
             n
-
-
-
-
     {\displaystyle r_{0}\in R_{n}}
 
 , with probability at least
 
-
-
         1
         −
         ϵ
-
-
-
     {\displaystyle 1-\epsilon \,}
 
 ,
-
-
-
 
         Perf
         ⁡
         (
         f
         ,
-
           r
-
             g
             (
             n
             ,
             1
-
               /
-
             ϵ
             )
-
-
         )
         ≥
         1
         −
         ϵ
         ,
-
-
     {\displaystyle \operatorname {Perf} (f,r_{g(n,1/\epsilon )})\geq 1-\epsilon ,}
 
-
 where the sizes of neighborhoods
-
-
 
         N
         (
         r
         )
-
-
-
     {\displaystyle N(r)\,}
-
  for
-
-
-
         r
         ∈
-
           R
-
             n
-
-
-
-
-
     {\displaystyle r\in R_{n}\,}
-
  are at most
-
-
-
         p
         (
         n
         ,
         1
-
           /
-
         ϵ
         )
-
-
-
     {\displaystyle p(n,1/\epsilon )\,}
 
 , the sample size is
-
-
 
         s
         (
         n
         ,
         1
-
           /
-
         ϵ
         )
-
-
-
     {\displaystyle s(n,1/\epsilon )\,}
 
 , the tolerance is
 
-
-
         t
         (
         1
-
           /
-
         n
         ,
         ϵ
         )
-
-
-
     {\displaystyle t(1/n,\epsilon )\,}
 
 , and the generation size is
-
-
 
         g
         (
         n
         ,
         1
-
           /
-
         ϵ
         )
-
-
-
     {\displaystyle g(n,1/\epsilon )\,}
 
 .
 
-
-
-
         F
-
-
-
     {\displaystyle F\,}
-
  is evolvable over
-
-
-
         D
-
-
-
     {\displaystyle D\,}
-
  if it is evolvable by some
-
-
-
         R
-
-
-
     {\displaystyle R\,}
-
  over
-
-
-
         D
-
-
-
     {\displaystyle D\,}
 
 .
 
-
-
-
         F
-
-
-
     {\displaystyle F\,}
-
  is evolvable if it is evolvable over all distributions
-
-
-
         D
-
-
-
     {\displaystyle D\,}
 
 .
 
 Results
+
 The class of conjunctions and the class of disjunctions are evolvable over the uniform distribution for short conjunctions and disjunctions, respectively.
+
 The class of parity functions (which evaluate to the parity of the number of true literals in a given subset of literals) are not evolvable, even for the uniform distribution.
+
 Evolvability implies PAC learnability.

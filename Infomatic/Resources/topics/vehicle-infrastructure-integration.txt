@@ -1,7 +1,9 @@
 The Vehicle Infrastructure Integration (VII), also known as "Connected Roadways" or "vehicle-to-everything" (V2X) technology, is a United States Department of Transportation initiative that aims to improve road safety by developing technology that connects road vehicles with their environment. This development draws on several disciplines, including transport engineering, electrical engineering, automotive engineering, telematics, and computer science. Although VII specifically covers road transport, similar technologies are under development for other modes of transport. For example, airplanes may use ground-based beacons for automated guidance, allowing the autopilot to fly the plane without human intervention.
 
 Goals
+
 The goal of VII is to establish a communication link between vehicles (via On-Board Equipment, or OBE) and roadside infrastructure (via Roadside Equipment, or RSE) to enhance the safety, efficiency, and convenience of transportation systems. Two potential approaches are the widespread deployment of a dedicated short-range communications (DSRC) link on the 5.9GHz band, and cellular communication (C-V2X). Either of these methods would allow vehicle-to-vehicle (V2V) and vehicle-to-infrastructure (V2I) communication.
+
 The initiative has three priorities:
 
 Stakeholder evaluation and acceptance of the business model and its deployment schedule,
@@ -9,15 +11,21 @@ Validation of the technology, with a focus on communications systems, in relatio
 Creation of legal structures and policies, especially concerning digital privacy, to improve the system's long-term potential for success.
 
 Safety
+
 Current automotive safety technology relies primarily on vehicle-based radar, lidar, and sonar systems. This technology allows, for instance, a potential reduction in rear-end collisions by monitoring obstacles in front of or behind the vehicle and automatically applying the brakes when necessary. This technology, however, is limited by the sensing range of vehicle-based radar, particularly in angled and left-turn collisions, such as a motorist losing control of the vehicle during an impending head-on collision. The rear-end collisions addressed by current technology are generally less severe than angled, left-turn, or head-on collisions.
+
 VII promotes the development of a direct communication link between road vehicles and all other vehicles nearby, allowing for the exchange of information on vehicle speed and orientation or driver awareness and intent. This real-time exchange of information may enable more effective automated emergency maneuvers, such as steering, decelerating, or braking. In addition to nearby vehicle awareness, VII promotes a communication link between vehicles and roadway infrastructure. Such a link may allow for improved real-time traffic information, better queue management, and feedback to vehicles.
+
 Existing implementations of VII use vehicle-based sensors that can recognize and respond to roadway markings or signs, automatically adjusting vehicle parameters to follow the recognized instructions. However, this information may also be acquired via roadside beacons or stored in a centralized database accessible to all vehicles.
 
 Efficiency
+
 With a VII system in place, vehicles will be linked together. The headway between vehicles may therefore be reduced so that there is less empty space on the road, increasing the available capacity per lane. More capacity per lane will in turn imply fewer lanes in general, possibly satisfying the community's concerns about the impact of roadway widening. VII will enable precise traffic-signal coordination by tracking vehicle platoons and will benefit from accurate timing by drawing on real-time traffic data covering volume, density, and turning movements.
+
 Real-time traffic data can also be used in the design of new roadways or modification of existing systems as the data could be used to provide accurate origin-destination studies and turning-movement counts for uses in transportation forecasting and traffic operations. Such technology would also lead to improvements for transport engineers to address problems whilst reducing the cost of obtaining and compiling data. Tolling is another prospect for VII technology as it could enable roadways to be automatically tolled. Data could be collectively transmitted to road users for in-vehicle display, outlining the lowest cost, shortest distance, and/or fastest route to a destination on the basis of real-time conditions.
 
 Existing applications
+
 To some extent, results along these lines have been achieved in trials performed around the globe, making use of GPS, mobile phone signals, and vehicle registration plates. GPS is becoming standard in many new high-end vehicles and is an option on most new low- and mid-range vehicles. In addition, many users also have mobile phones that transmit trackable signals (and may also be GPS-enabled). Mobile phones can already be traced for purposes of emergency response. GPS and mobile phone tracking, however, do not provide fully reliable data. Furthermore, integrating mobile phones in vehicles may be prohibitively difficult. Data from mobile phones, though useful, might even increase risks to motorists as they tend to look at their phones rather than concentrate on their driving. Automatic registration plate recognition can provide large quantities of data, but continuously tracking a vehicle through a corridor is a difficult task with existing technology. Today's equipment is designed for data acquisition and functions such as enforcement and tolling, not for returning data to vehicles or motorists for response. GPS will nevertheless be one of the key components in VII systems.
 
 Limitations
@@ -26,22 +34,31 @@ VII architecture is designed to prevent identification of individual vehicles, w
 
 Technical issues
 Coordination
+
 A major issue facing the deployment of VII is the problem of how to set up the system initially. The costs associated with installing the technology in vehicles and providing communications and power at every intersection are significant.
 
 Maintenance
+
 Another factor for consideration in regard to the technology's distribution is how to update and maintain the units. Traffic systems are highly dynamic, with new traffic controls implemented every day and roadways constructed or repaired every year. The vehicle-based option could be updated via the internet (preferably wireless) but may subsequently require all users to have access to internet technology.
+
 Alternatively, if receivers were placed in all vehicles and the VII system was primarily located along the roadside, information could be stored in a centralized database. This would allow the agency responsible to issue updates at any time. These would then be disseminated to the roadside units for passing motorists. Operationally, this method is currently considered to provide the greatest effectiveness but at a high cost to the authorities.
 
 Security
+
 Security of the units is another concern, especially in light of the public acceptance issue. Criminals could tamper, remove, or destroy VII units regardless of whether they are installed inside vehicles or along the roadside.
 Magnets, electric shocks, and malicious software (viruses, hacking, or jamming) could be used to damage VII systems – regardless of whether units are located inside vehicle or along the roadside.
 
 Recent developments
+
 Much of the current research and experimentation is conducted in the United States where coordination is ensured through the Vehicle Infrastructure Integration Consortium; consisting of automobile manufacturers (Ford, General Motors, Daimler Chrysler, Toyota, Nissan, Honda, Volkswagen, BMW), IT suppliers, U.S. Federal and state transportation departments, and professional associations. Trialing is taking place in Michigan and California.
 The specific applications now being developed under the U.S. initiative are:
 
 Warning drivers of unsafe conditions or imminent collisions.
+
 Warning drivers if they are about to run off the road or speed around a curve too fast.
+
 Informing system operators of real-time congestion, weather conditions and incidents.
+
 Providing operators with information on corridor capacity for real-time management, planning and provision of corridor-wide advisories to drivers.
+
 In mid-2007, a VII environment covering some 20 square miles (52 km2) near Detroit was used to test 20 prototype VII applications. Several automobile manufacturers are also conducting their own VII research and trialing.

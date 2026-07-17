@@ -1,11 +1,17 @@
 IsaPlanner is a proof planner for the interactive proof assistant, Isabelle.  Originally developed by Lucas Dixon as part of his PhD thesis at the University of Edinburgh, it is now maintained by members of the Mathematical Reasoning Group, in the School of Informatics at Edinburgh.
+
 IsaPlanner is the latest of a series of proof planners written at Edinburgh.  Earlier planners include Clam and LambdaClam.
 
 Features
+
 IsaPlanner allows the user to encode reasoning techniques, using a combinator language, for conjecturing and proving theorems.  IsaPlanner works by manipulating reasoning states, records of open goals, the current proof plan and other important information, and combinators are functions mapping reasoning states to lazy lists of successor reasoning states.
+
 IsaPlanner's library supplies combinators for branching and iteration, amongst other tasks, and powerful reasoning techniques can be created by combining simpler reasoning techniques with these combinators.
+
 Several reasoning techniques come ready implemented within IsaPlanner, notably, IsaPlanner features an implementation of dynamic rippling, a rippling heuristic capable of working in higher order settings, a best-first rippling heuristic and a reasoning technique for proofs by induction.
+
 Additional features include an interactive tracing tool, for manually stepping through proof attempts and a module for viewing and manipulating hierarchical proofs.
 
 Planned features
+
 Features currently being implemented, or planned for the future, are an expanded set of proof critics, suitable for use in higher order domains, dynamic relational rippling, a rippling heuristic suitable for rippling over relational expressions as opposed to functional expressions, again suitable for use in higher order domains, and integration of IsaPlanner with Proof General.

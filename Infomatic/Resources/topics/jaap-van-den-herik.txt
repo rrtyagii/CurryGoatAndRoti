@@ -1,17 +1,26 @@
 Hendrik Jacob (Jaap) van den Herik (born 8 October 1947 in Rotterdam) is a Dutch computer scientist, and professor at the University of Leiden, known for his contribution in the fields of computer chess and artificial intelligence.
 
 Biography
+
 Van den Herik studied mathematics at the Vrije Universiteit Amsterdam, where he obtained his MA in 1974, cum laude. In 1983 he obtained his PhD with the thesis, entitled  "Computer Chess, chess and artificial intelligence", under supervision of Henk Lombaers, Adriaan de Groot and Joop Doorman.
+
 After his graduation in 1974 Van den Herik started his academic career at the Vrije Universiteit Amsterdam as researcher. In 1975 he became assistant professor at the Delft University of Technology. After serving at the School of Computer Science from McGill University in Montreal, Canada from 1987 to 2008, he was appointed professor at the University of Maastricht been. Since 1991 he is also affiliated with the University of Leiden. From 2008 to 2016 he was a professor at the University of Tilburg, and founding director of the Tilburg Center for Cognition and Communication (TiCC).
+
 With a number of chess enthusiasts, including Max Euwe, Van den Herik, in 1980, was co-founder of Computer Chess Association Netherlands (CSVN). He is also co-founder of the NVKI (Dutch Association for Artificial Intelligence), and he was their chairman from 1990 to 1995. From 1991 to 1999 he was also president of the JURIX, the international Foundation for Legal Knowledge-Based Systems. From 1983 until 2015, Van den Herik was chief editor of the Journal of the International Computer Games Association (ICGA Journal).
 
 Work
+
 Van den Herik's research interests and expertise are in the areas of agents, computer networks, computer systems, information technology, knowledge management, artificial intelligence and game theory.
+
 Since the late 1970s Van den Herik had been researching computer chess and legal judgement by computers, which both showed hugh progress over the past decades. Computers can play better chess than many chess grandmaster, and the focus in justice has shifted from cognition to perception. Since the new millennium he also conducted research with Eric Postma to develop expert systems for art experts. Over the years Van den Herik has published multiple books and over 50 articles.
 
 Selected publications
+
 Jaap van den Herik. Computerschaak, schaakwereld en kunstmatige intelligentie, 1983.
+
 Jaap van den Herik. Kunnen Computers Rechtspreken? Gouda Quint, Arnhem, 1991.
+
 Alexander Ollongren, Jaap van den Herik. Filosofie van de informatica. London and New York: Routledge, 1999. ISBN 0-415-19749-X
 Jaap van den Herik. Chips Challenging Champions. With J. Schaeffer (ed.), Elsevier, Amsterdam, the Netherlands, 2002.
+
 Jaap van den Herik; Hiroyuki Iida; Ernst A. Heinz, eds. (2004). Advances in Computer Games: Many Games, Many Challenges. Springer. p. 349. ISBN 1-4020-7709-2.

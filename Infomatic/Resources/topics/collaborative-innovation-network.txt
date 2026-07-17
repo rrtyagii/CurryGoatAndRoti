@@ -1,34 +1,53 @@
 A collaborative innovation network (CoIN) is a collaborative innovation practice that uses internet platforms to promote communication and innovation within self-organizing virtual teams.
 
 Overview
+
 Coins work across hierarchies and boundaries where members can exchange ideas and information directly and openly. This collaborative and transparent environment fosters innovation. Peter Gloor describes the phenomenon as "swarm creativity". He says, "CoINs are the best engines to drive innovation."
+
 CoINs existed well before the advent of modern communication technology. However, the Internet and instant communication improved productivity and enabled the reach of a global scale. Today, they rely on the Internet, e-mail, and other communications vehicles for information sharing.
+
 According to Gloor, CoINs have five main characteristics:
 
 Dispersed membership: technology allows members to be spread worldwide. Regardless of the location, members share a common goal and are convinced of their cause.
+
 Interdependent membership: cooperation between members is critical to achieving a common goal. The work of one member is affected and interdependent on the others' work.
+
 No simple chain of command: there is no superior command. It is a decentralized and self-organized system. Conflicts are solved without the need for a hierarchy or authority.
+
 Common goal: members are willing to contribute, work and share freely. They are intrinsically motivated to donate their work, create, and share knowledge in favor of a common goal.
+
 Reliance on trust: cooperative behavior and mutual trust are needed to work efficiently within the network. Members act according to an ethical code that states the rules and principles to be followed by all members. Usually, moral codes include regulations related to respect, consistency, reciprocity, and rationality.
+
 There are also five essential elements of collaborative innovation networks (which Gloor calls "genetic code"):
 
 They are learning networks, and set an informal and flexible environment that facilitates and stimulates collaboration and the exchange of ideas, information, and knowledge.
+
 Their members agree on a moral code that guides member conduct and behavior.
+
 They are based on trust and self-organization. Members trust each other without needing a centralized management, and are brought together by mutual respect and a strong sense of shared beliefs.
+
 They make knowledge accessible to everyone.
+
 They operate in internal honesty and transparency, which forms a system based on reciprocal trust and mutually established principles.
 
 Examples
+
 CoINs have been developing many disruptive innovations such as the Internet, Linux, the Web and Wikipedia. Students with little or no budget created these inventions in universities or labs. They were not focused on the money but on the sense of accomplishment.
+
 Faced with creations like the Internet, large companies such as IBM and Intel have learned to use the principles of open innovation to enhance their research learning curve. They increased or established collaborations with universities, agencies, and small companies to accelerate their processes and launch new services faster.
 
 Collaborative innovation network factors
+
 Asheim and Isaksen (2002) conclude that innovative network contributes to the achievement of optimal allocation of resources, and promoting knowledge transfer performance. However, four factors of collaborative innovation networks affect the performance of CoINs differently:
 
 Network size is the number of partners such as enterprises, universities, research institutions and government departments, in an innovative network. Intermediaries (sometimes conceptualized as "bridge makers") can help connect stakeholders and support collaboration and knowledge exchange. Previous work reveals that network size has a positive effect on knowledge transfer as it provides the actor (e.g., firm) with two significant substantive benefits: one is the exposure to a more significant amount of external information, knowledge, and ideas and the other is resource sharing between the actor and its contacts such as knowledge sharing, reduction of transaction costs, complementarities, and scale.
+
 Network heterogeneity: network heterogeneity refers to differences in the knowledge, technology, ability, and size of members in the network. Firms in a more heterogeneous network are more likely to acquire external knowledge resources. When network heterogeneity is higher, getting complementary resources and accelerating the speed of knowledge transfer is easier.
+
 Network tie-strength refers to the nature of a relational contact and includes the degree of intimacy, duration, and frequency; the breadth of topic usually refers to time length, tie depth, emotional intensity, intimacy frequency, and interactive connection. A collaborative, innovative network with a high level of tie-strength can provide firms with practical information and knowledge, reduce risk and uncertainty in the innovation process, and achieve successful knowledge transfer.
+
 Network centrality refers to an actor's position in a network. Actors centrally located in a network are in an advantageous position to monitor the flow of information and have the consequent advantage of having large numbers of contacts willing and able to provide them with meaningful opportunities and resources.
 
 Current challenges
+
 Collaborative innovation still needs to be empowered. A more collaborative approach involving stakeholders such as governments, corporations, entrepreneurs, and scholars is critical to tackling today's main challenges.

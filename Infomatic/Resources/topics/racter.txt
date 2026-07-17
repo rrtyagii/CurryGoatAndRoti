@@ -1,15 +1,23 @@
 Racter is an artificial intelligence program that generates English language prose at random. It was published by Mindscape for IBM PC compatibles in 1984, then for the Apple II, Mac, and Amiga. An expanded version of the software, not the one released through Mindscape, was used to generate the text for the published book The Policeman's Beard Is Half Constructed.
 
 History
+
 Racter, short for raconteur, was written by William Chamberlain and Thomas Etter. Racter's initial creation was the short story Soft Ions, which appeared in the October 1981 issue of Omni (magazine).  The publication's editors bought the story in January 1980, before it had even been written.  In exchange for the rights, the editors offered financial support to Chamberlain and Etter so the two could refine Racter.  In 1983, Racter produced a book called The Policeman's Beard Is Half Constructed (ISBN 0-446-38051-2).
+
 The program originally was written for an OSI which only supported file names at most six characters long, causing the name to be shorted to Racter and it was later adapted to run on a CP/M machine where it was written in "compiled ASIC on a Z80 microcomputer with 64K of RAM."  This version, the program that allegedly wrote the book, was not released to the general public. The sophistication claimed for the program was likely exaggerated, as could be seen by investigation of the template system of text generation.
+
 In 1984, Mindscape released an interactive version of Racter, developed by Inrac Corporation, for IBM PC compatibles, and it was ported to the Apple II, Mac, and Amiga. The published Racter was similar to a chatterbot. The BASIC program that was released by Mindscape was far less sophisticated than anything that could have written the fairly sophisticated prose of The Policeman's Beard. The commercial version of Racter could be likened to a computerized version of Mad Libs, the game in which you fill in the blanks in advance and then plug them into a text template to produce a surrealistic tale. The commercial program attempted to parse text inputs, identifying significant nouns and verbs, which it would then regurgitate to create "conversations", plugging the input from the user into phrase templates which it then combined, along with modules that conjugated English verbs.
+
 By contrast, the text in The Policeman's Beard, apart from being edited from a large amount of output, would have been the product of Chamberlain's own specialized templates and modules, which were not included in the commercial release of the program.
 
 Reception
+
 The Boston Phoenix called the story Soft Ions "schematic nonsense. But the scheme is obvious enough and the nonsense accessible enough to an attentive reader that one can almost believe Chamberlain when he predicts that before long Racter will be ready to write for the pulp-reading public."
+
 PC Magazine described some of Policeman's Beard's scenes as "surprising for their frankness" and "reflective". It concluded that the book was "whimsical and wise and sometimes fun". Computer Gaming World described Racter as "a diversion into another dimension that might best be seen before paying the price of a ticket. (Try before you buy!)"
+
 A 1985 review of the program in The New York Times notes that, "As computers move ever closer to artificial intelligence, Racter is on the edge of artificial insanity." It also states that Racter's "always-changing sentences are grammatically correct, often funny and, for a computer, sometimes profound."  The article includes examples showing interaction with Racter, most often Racter asking the user questions.
 
 Reviews
+
 Jeux & Stratégie #47

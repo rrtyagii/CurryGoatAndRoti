@@ -1,19 +1,29 @@
 WeAreBrain is a European technology company and venture studio specializing in Cloud, Mobile, SaaS and AI. Founded in 2015, the company is headquartered in the Netherlands and Ukraine, with project offices in Switzerland and South Africa.
 
 History
+
 In 2015, WeAreBrain was established by Mario Grunitz, Elvire Jaspers and Ievgen Miasushkin, and quickly achieved full Dutch Digital Agencies (DDA) member status in its first year of operation. In January 2016, the company co-founded clevergig, a SaaS workforce management startup, that was acquired by Visma in 2023.
+
 In 2017, WeAreBrain became a global partner of SAP. In September of the same year, the company co-founded Tur.ai, an AI and hyperautomation platform with headquarters in Amsterdam and Kyiv.
 In 2020, WeAreBrain published the book, "Working Machines – An Executive’s Guide to AI and Intelligent Automation", co-authored by Mario Grunitz, Paula Ferrai and Samantha Wolhuter, which became a key resource for businesses adopting AI. The company also won the Corporate Excellence Award that year. In 2020, WeAreBrain received a nomination for the Awwwards with Beautiful News in the Website category.
 From January 2021 to September 2024, WeAreBrain launched SOLVING, a strategic design studio in Amsterdam. In April 2021, the company co-founded Grover Agency, a boutique growth marketing firm based in Amsterdam. From February 2021 to present, WeAreBrain operates Braveye Ventures, the operational venture arm of the company.
+
 On November 25, 2022, WeAreBrain was certified as a Great Place to Work. In January 2023, WeAreBrain integrated Black Magic Marker, the creative advisory firm founded by Anniek Berink.
+
 In April 2023, Tur.ai was spun off from WeAreBrain, continuing to operate as an independent startup. In 2023, WeAreBrain was awarded a FD Gazelle. The company was ranked among the best e-business companies of 2023 in the Digital Agency Full-service category.
+
 For the fourth consecutive year, WeAreBrain was voted as one of the best Dutch e-business companies. In 2025, the company co-invested into a Vullow, a new technology startup from the Netherlands.
 
 Activity
+
 WeAreBrain offers a range of services to enterprises, NGOs, and startups across Europe and the United States, specializing in digital transformation and innovation consulting, product design and development, artificial intelligence (AI) and machine learning applications, intelligent process automation, and custom software engineering.
+
 The company has worked on several impactful projects for renowned clients. A notable project was the Praxis DIY App for Maxeda DIY, a multi-functional e-commerce app that earned recognition as “App of the Year” in 2024. Another significant project was AI-powered procurement automation for HEINEKEN in the Netherlands, where WeAreBrain implemented AI-driven solutions that reduced costs and improved efficiency.
+
 In Belgium, WeAreBrain improved the customer experience at Brico by developing an immersive in-store smart tablet experience.
 
 Charity
+
 Since 2018, the WeAreBrain Foundation focused on charity projects in education, technology access, and sustainability. The foundation organizes volunteer programs, such as hackathons and community events, to engage employees and volunteers in supporting local causes. It also makes philanthropic contributions to initiatives that aim to improve education and access to technology in underserved communities.
+
 Notable non-profit initiatives supported by the foundation include the Black Jaguar Foundation: The First 600, the Good Life Company, Air Regulation News, and the WeAreBrain Humanitarian Support for Ukrainian Families. The foundation received support from organizations such as Bregal Helps, Daiwa Housing, and Klaas Kleijn Accountancy.

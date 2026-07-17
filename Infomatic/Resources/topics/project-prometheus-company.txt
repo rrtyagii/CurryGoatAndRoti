@@ -1,3 +1,5 @@
 Project Prometheus is an artificial intelligence (AI) startup. It was founded by Jeff Bezos in November 2025, who will serve as co-chief executive. The project will launch with $6.2 billion in funding, partly from Bezos. Vik Bajaj, a chemist and physicist formerly of Google X who is the co-founder and CEO of AI-incubator Foresite Labs, is the startup's co-founder and co-chief executive. As of December 2025, the project had hired over 120 employees, including researchers poached from AI firms Meta, OpenAI, and DeepMind.
+
 Among other things, the company plans to use AI technology to improve engineering and manufacturing in the fields of computing, aerospace, and automobiles. It intends to apply AI to physical tasks; this requires systems that can learn not just from massive amounts of digital data, as LLMs are programmed to do, but also from real-world trial and error.
+
 In November 2025, Project Prometheus acquired General Agents, an agentic AI start-up. In the following month, the company ran into a trademark issue, discovering that a trademark application for an AI company with the same name had been made on November 17th.

@@ -1,30 +1,47 @@
 Furi is a 2016 action shoot 'em up video game developed and published by indie studio The Game Bakers available for PlayStation 4, Windows, Xbox One, Nintendo Switch, PlayStation 5, and Amazon Luna. The game takes place on a planet in a colorful, retro, science fiction setting and consists entirely of boss fights.
+
 The game follows The Stranger (later referred to as Rider) as he fights his way down through a prison composed of ten floating islands each with their own unique boss or “guardian”. There are three possible endings depending on the choices made by the player, including one secret ending.
 
 Gameplay
+
 Furi is a fast-paced action game with elements of hack and slash, shoot ‘em up (twin stick and bullet hell) and consists entirely of boss fights. Gameplay focuses around dodging bullets, parrying attacks to regain health, attacking the bosses up close through melee or afar with ranged projectiles, and quick time events. The game is set in a series of linear closed world environments. The setting of the game is a prison composed of ten small arenas (floating islands) connected by shorter pathway segments. Much of the game’s story progresses through mid fight interactions with bosses and short cutscenes at the beginning and end of the fights. The rest of the story is told during player controlled walking sections that act as longer cutscenes and provide downtime between boss fights.
 
 Plot
+
 A mysterious man known only as The Stranger spends his existence receiving endless torture within a highly advanced prison, composed of ten islands floating in orbit above a planet's surface. At the beginning of the game, an enigmatic man wearing a rabbit disguise who is known as The Voice frees The Stranger, gives him a sword and gun, and encourages him to fight for his freedom.
+
 The Stranger must navigate each area, wherein dwells a single powerful guardian who exists only to prevent him from escaping: The Chain, a sadistic staff-wielding jailor who tortured the Stranger; The Strap, a prisoner armed with a laser cannon on her head driven mad from her imprisonment; The Line, a wise old man who wields a sword longer than his body and can manipulate time; The Scale, a vengeful diver armed with twin harpoons; The Hand, a noble knight who was responsible for imprisoning the Stranger in the first place; The Song, an angelic woman armed with twin crossbows who conceived the prison; The Burst, a sniper and master tactician; The Edge, an oar-wielding warrior who dedicated his life to fighting The Stranger; and The Beat, a young woman with sonic weapons who strives to guard the final door.
+
 As the journey goes on, more about the reasons for imprisoning The Stranger surface, and The Voice reveals that he was the architect who created the prison to protect the planet from The Stranger, but he could not stand being locked in it, and freed The Stranger to be able to escape with him so that he could see his daughter again. Upon reaching the planet's surface, the Stranger finds that his mere presence corrupts everything around him. Later exploring the planet more, The Stranger ventures into a structure which holds an exo-suit that he uses to fly off the planet and into space, where he finds The Star, an AI-controlled mothership that created him and many other clones like him. The Star welcomes him and calls him Rider.
+
 The game contains two standard endings and a secret ending. When facing The Star, Rider can decide to either confirm the planet is a suitable candidate for assimilation or call off the invasion and attack the mothership.
+
 In the Invasion ending, Rider allows The Star to deploy her invasion force of Rider clones. The Voice and his daughter watch as countless invaders touch down across the planet and the skies turn red.
+
 In the Rebellion ending, Rider rebels against his former leader in order to save the planet, beginning the tenth and final boss fight. During the clash, The Star reveals that Rider was the vanguard of the mothership, which assimilates habitable planets to perpetuate its own survival. She warns that the people of the planet below know nothing of the mothership, and Rider defeating her will not earn him any gratitude, remove his destructive aura, or ensure the planet will remain protected forever. Nonetheless, Rider prevails over The Star. As the mothership explodes, Rider escapes and returns to the planet. The Voice and his daughter watch as Rider lands in the far distance.
+
 The secret ending can occur by accepting The Song's offer to stay in her sanctuary-like section of the prison, where she will provide for The Rider. She claims that this will make her the hero of all her people.
+
 The "One More Fight" DLC provides an additional boss, a cyborg called The Flame who challenges The Stranger in an arena beneath the structure holding the Stranger's flying rig. Like The Scale, he seeks vengeance on the Stranger for what happened to his world. However, the cutscene in which his connection to The Stranger is revealed only appears in the Xbox One version of the game. If the player defeats The Flame and all other bosses on the highest difficulty setting, they will unlock the hardest fight in the game: a basically modelled figure known as Bernard who fights using an amalgamation of the other bosses' attacks.
 
 Development
+
 Design
+
 During the early stages of development creative director and co-founder of The Game Bakers Emeric Thoa decided that the team needed to “focus on making one precise thing and to make it well”. Thoa believed that if the studio were to attempt to try and appeal to a broader audience they would end up being drowned out by other games that were bigger or “more edgy”. The team decided to focus the game around boss fights and put all of their effort into making them as satisfying and challenging as they could. The team attempted to create unique and interesting bosses taking inspiration from other games such as Nintendo’s 1994 Super Punch Out!! and Capcom’s 2006 God Hand.
+
 During development the team wanted to make the bosses feel equal to the player, according to Thoa the main tension of the game came from the idea that the player character is “extremely strong” and that they are facing an “extremely strong adversary”. The team also aimed to make the controls “easy to learn but hard to master”, to accomplish this the control scheme was simplified and things like combos were not included. Instead the team decided that the game would focus more around the players reflexes and learning the boss’ attack patterns. Due to this focus on player reflexes the developer’s target frame rate was sixty frames per second, this was to maintain the speed of the game and better reflect their design choices.
 
 The character designs were all created by the game’s artistic director Takashi Okazaki known primarily for his Japanese seinen dōjinshi manga series, Afro Samurai which was both written and illustrated by Okazaki. Okazaki’s main inspiration for many of the character’s designs was his past experience with Kendo, taking design elements of the uniform worn by practitioners of Kendo and integrating them into his works.
 
 Music
+
 The soundtrack of Furi consists of many different tracks all composed by different established artists. During development the team decided to utilize electro and synthwave music as a way to excite the player and make the game stand out from competitors. Each track was designed and created specifically for the game and the boss/area they would play during. Executive producer and co-founder of The Game Bakers Audrey Leprince mentioned that each of the artists were chosen based on their musical style and how they could represent each of the game’s bosses. Once an artist was chosen, the developers would send a brief to the artist containing details on the boss, the design, personality and the arena where the fight takes place.
+
 One of the artists involved was Franck Hueso, better known by his stage name Carpenter Brut, who contributed four tracks to the game (“Time to Wake Up”, “Enraged”, “What We Fight For” and “You’re Mine”). Hueso's tracks for the game had to use several loops, as some players may hear the track for longer than others; therefore the duration of the tracks themselves had to be variable. Simon Delacroix, better known by his stage name The Toxic Avenger, described a similar process in composing his songs for the game ("My Only Chance" and "Make This Right") and made a similar statement regarding the nature of creating music for video games.
+
 In July 2016 the game’s original soundtrack was released on vinyl record in France followed by a CD release in June 2017. Both were published by G4F Records and featured artwork created by Takashi Okazaki.
 
 Reception
+
 Furi received "generally favorable" reviews according to review aggregator Metacritic. James Davenport of PC Gamer gave it an 86 out of 100, claiming it "is only held back by rare bugs and poorly designed difficulty spikes." Jeff Marchiafava of Game Informer gave it a 6 out of 10, citing a lack of engagement in the environment and unforgiving difficulty, although user reviews on platforms such as Steam have been far more positive.

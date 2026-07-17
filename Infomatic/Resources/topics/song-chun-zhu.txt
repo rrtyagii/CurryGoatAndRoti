@@ -1,64 +1,107 @@
 Song-Chun Zhu (Chinese: 朱松纯; born June 1968) is a Chinese computer scientist and applied mathematician known for his work in computer vision, cognitive artificial intelligence and robotics. Zhu currently works at Peking University and was previously a professor in the Departments of Statistics and Computer Science at the University of California, Los Angeles. Zhu also previously served as Director of the UCLA Center for Vision, Cognition, Learning and Autonomy (VCLA).
+
 In 2005, Zhu founded the Lotus Hill Institute, an independent non-profit organization to promote international collaboration within the fields of computer vision and pattern recognition. Zhu has published extensively and lectured globally on artificial intelligence, and in 2011, he became an IEEE Fellow (Institute of Electrical and Electronics Engineers) for "contributions to statistical modeling, learning and inference in computer vision."
+
 Zhu has two daughters, Stephanie and Yi. Zhu Yi (Chinese: 朱易) is a competitive figure skater.
 
 Early life and education
+
 Born and raised in Ezhou, China, Zhu found inspiration, when he was young, in the development of computers playing chess, sparking his interest in artificial intelligence. In 1991, Zhu earned his B.S. in Computer Science from the University of Science and Technology of China at Hefei. During his undergraduate years, Zhu, finding the computational theory of vision by the late MIT neuroscientist David Marr deeply influential, aspired to pursue a general unified theory of vision and AI. In 1992, Zhu continued his study of computer vision at the Harvard Graduate School of Arts and Sciences. At Harvard, Zhu studied under the supervision of American mathematician David Mumford and gained an introduction to "probably approximately correct" (PAC) learning under the instruction of Leslie Valiant. Zhu concluded his studies at Harvard in 1996 with a Ph.D. in Computer Science and followed Mumford to the Division of Applied Mathematics at Brown University as a postdoctoral fellow.
 
 Career
+
 Following his postdoctoral fellowship, Zhu lectured briefly in Stanford University's Computer Science Department. In 1998, he joined Ohio State University as an assistant professor in the Departments of Computer Science and Cognitive Science. In 2002, Zhu joined the University of California, Los Angeles in the Departments of Computer Science and Statistics as associate professor, rising to the rank of full professor in 2006. At UCLA, Zhu established the Center for Vision, Cognition, Learning and Autonomy. His chief research interest has resided in pursuing a unified statistical and computational framework for vision and intelligence, which includes the Spatial, Temporal, and Causal And-Or graph (STC-AOG) as a unified representation and numerous Monte Carlo methods for inference and learning.
+
 In 2005, Zhu established an independent non-profit organization in his hometown of Ezhou, the Lotus Hill Institute (LHI). LHI has been involved with collecting large-scale dataset of images and annotating the objects, scenes, and activities, having received contributions from many renowned scholars, including Harry Shum. The institute also features a full-time annotation team for parsing image structures, having amassed over 500,000 images to date.
+
 Since establishing LHI, Zhu has organized numerous workshops and conferences, along with serving as the general chair for both the 2012 Conference on Computer Vision and Pattern Recognition (CVPR) in Providence, Rhode Island, where he presented Ulf Grenander with a Pioneer Medal, and the 2019 CVPR held in Long Beach, California.
+
 In July 2017, Zhu founded DMAI in Los Angeles as an AI startup engaged in developing a unified cognitive AI platform.
+
 In September 2020, Zhu returned to China to join Peking University to lead its Institute for Artificial Intelligence, thus joining another Chinese AI expert in the US and a long-time acquaintance of Zhu, Microsoft's former head of artificial intelligence and research, Harry Shum. Shum was also appointed by Peking University in August to chair the academic committee of the Institute of Artificial Intelligence.
+
 Zhu is working on setting up a new and separate AI research institute - Beijing Institute for General Artificial Intelligence (BIGAI). According to the introduction, based on "small data for big task" paradigm, BIGAI focuses on advanced AI technology, multi-disciplinary integration, international academic exchange, to nurture the new generation of young AI talents. The institute is expected to gather professional researchers, scholars and experts, to put Zhu's theoretical framework of artificial intelligence into practice, and jointly promoting Chinese original AI technologies and building a new generation of general AI platforms.
 
 Research and work
+
 Zhu has published over three hundred articles in peer-reviewed journals and proceedings in the following four phases:
 
 Pioneering statistical models to formulate concepts in Marr’s framework
+
 In the early 1990s, Zhu, with collaborators in the pattern theory group, developed advanced statistical models for computer vision. Focusing upon developing a unifying statistical framework for the early vision representations presented in David Marr's posthumously published work titled Vision, they first formulated textures in a new Markov random field model, called FRAME, using a minimax entropy principle to introduce discoveries in neuroscience and psychophysics to Gibbs distributions in statistical physics. Then they proved the equivalence between the FRAME model and the micro-canonical ensemble, which they named the Julesz ensemble. This work received the Marr Prize honorary nomination during the International Conference on Computer Vision (ICCV) in 1999.
+
 During the 1990s, Zhu developed two new classes of nonlinear partial differential equations (PDEs). One class for image segmentation is called region competition. This work connecting PDEs to statistical image models received the Helmholtz Test of Time Award in ICCV 2013. The other class, called GRADE (Gibbs Reaction and Diffusion Equations) was published in 1997 and, employs a Langevin dynamics approach for inference and learning Stochastic gradient descent (SGD).
+
 In the early 2000s, Zhu formulated textons using generative models with sparse coding theory and integrated both the texture and texton models to represent primal sketch. With Ying Nian Wu, Zhu advanced the study of perceptual transitions between regimes of models in information scaling and proposed a perceptual scale space theory to extend the image scale space.
 
 Expanding Fu's grammar paradigm by stochastic and-or graph
+
 From 1999 until 2002, with his Ph.D. student Zhuowen Tu, Zhu developed a data-driven Markov chain Monte Carlo (DDMCMC) paradigm to traverse the entire state-space by extending the jump-diffusion work of Grenander-Miller. With another Ph.D. student, Adrian Barbu, he generalized the cluster sampling algorithm (Swendsen-Wang) in physics from Ising/Potts models to arbitrary probabilities. This advancement in the field made the split-merge operators reversible for the first time in the literature and achieved 100-fold speedups over Gibbs sampler and jump-diffusion. This accomplishment led to the work on image parsing that won the Marr Prize in ICCV 2003.
+
 In 2004, Zhu moved to high level vision by studying stochastic grammar. The grammar method dated back to the syntactic pattern recognition approach advocated by King-Sun Fu in the 1970s. Zhu developed grammatical models for a few key vision problems, such as face modeling, face aging, clothes, object detection, rectangular structure parsing, and the sort. He wrote a monograph with Mumford in 2006 titled A Stochastic Grammar of Images. In 2007, Zhu and co-authors received a Marr Prize nomination. The following year, Zhu received the J.K. Aggarwal Prize from the International Association of Pattern Recognition for "contributions to a unified foundation for visual pattern conceptualization, modeling, learning, and inference."
+
 Zhu has extended the and-or graph models to the spatial, temporal, and causal and-or graph (STC-AOG) to express the compositional structures as a unified representation for objects, scenes, actions, events, and causal effects in physical and social scene understanding problems.
 
 Exploring the "dark matter of AI" cognition and visual commonsense
+
 Since 2010, Zhu has collaborated with scholars from cognitive science, AI, robotics, and language to explore what he calls the "Dark Matter of AI"—the 95% of the intelligent processing not directly detectable in sensory input.
+
 Together they have augmented the image parsing and scene understanding problem by cognitive modeling and reasoning about the following aspects: functionality (functions of objects and scenes, the use of tools), intuitive physics (supporting relations, materials, stability, and risk), intention and attention (what people know, think, and intend to do in social scene), causality (the causal effects of actions to change object fluents), and utility (the common values driving human activities in video). The results are disseminated through a series of workshops.
+
 There are numerous other topics Zhu has explored during this period, including the following: formulating AI concepts such as tools, container, liquids; integrating three-dimensional scene parsing and reconstruction from single images by reasoning functionality, physical stability, situated dialogues by joint video and text parsing; developing communicative learning; and mapping the energy landscape of non-convex learning problems.
 
 Pursuing a "small-data for big task" paradigm for general AI
+
 In a widely circulated public article written in Chinese in 2017, Zhu referred to popular data-driven deep learning research as a "big data for small task" paradigm that trains a neural network for each specific task with massive annotated data, resulting in uninterpretable models and narrow AI. Zhu, instead, advocated for a "small data for big task" paradigm to achieve general AI.
+
 At the 2023 meeting of the Chinese People's Political Consultative Conference's National Committee, Zhu said that, in the wake of ChatGPT's release, China should make artificial general intelligence a strategic goal, analogous to the pursuit of nuclear, missile, and satellite technology by the Two Bombs, One Satellite project of the 1960s.
+
 In February 2024, the Beijing Institute for General Artificial Intelligence (BIGAI) operating under the leadership of Zhu unveiled what they referred to as the world’s first artificial intelligence (AI) child named "Tong Tong" who possesses her own emotions and intellect and is capable of assigning tasks to herself independently demonstrating a level of autonomy previously unseen in virtual entities.
 
 Publications
+
 Books
+
 Zhu, S.C.; Mumford, D.B. (2007). A Stochastic Grammar of Images. now Publishers Inc. doi:10.1561/0600000018.
+
 Barbu, A.; Zhu, S.C. (2019). Monte Carlo Methods. Springer Nature. doi:10.1007/978-981-13-2971-5. ISBN 978-981-13-2971-5.
 Zhu, S.C. (2019). AI: The Era of Big Integration – Unifying Disciplines within Artificial Intelligence (PDF). DMAI, Inc. Archived from the original (PDF) on 2020-09-27.
 Zhu, S.C.; Wu, Y.N. (2023). Computer Vision: Statistical Models for Marr's Paradigm. Springer Nature. doi:10.1007/978-3-030-96530-3. ISBN 978-3-030-96530-3.
+
 S.C. Zhu and Y.N. Wu, Concepts and Representations in Vision and Cognition, Draft taught for 10+ years, Springer, Preparing for 2020.
 
 Papers
+
 Zhu, S.C.; Wu, Y.; Mumford, D. (1998). "FRAME: filters, random fields, and minimax entropy towards a unified theory for texture modeling". International Journal of Computer Vision. 27 (2). Springer Nature: 107–126. doi:10.1023/A:1007925832420.
+
 Wu, Y. N.; Zhu, S. C.; Liu, X. W. (2000). "Equivalence of Julesz Ensemble and FRAME models". International Journal of Computer Vision. 38 (3): 247–265. doi:10.1023/A:1008199424771.
+
 Tu, Z.; Zhu, S.-C. (2002). "Image Segmentation by Data Driven Markov Chain Monte Carlo". IEEE Transactions on Pattern Analysis and Machine Intelligence. 24 (5): 657–673. doi:10.1109/34.1000239.
+
 Barbu, A.; Zhu, S.-C. (2005). "Generalizing Swendsen-Wang to Sampling Arbitrary Posterior Probabilities". IEEE Transactions on Pattern Analysis and Machine Intelligence. 27 (8): 1239–1253. doi:10.1109/TPAMI.2005.16.
+
 Tu, Z.; Chen, X.; Yuille, A.; Zhu, S.-C. (2003). Image parsing: unifying segmentation, detection, and recognition. Proceedings Ninth IEEE International Conference on Computer Vision. doi:10.1109/ICCV.2003.1238309.
+
 Zhu, S.C.; Yuille, A. (1996). "Region competition: unifying snakes, region growing, and Bayes/MDL for multiband image segmentation". IEEE Transactions on Pattern Analysis and Machine Intelligence. 18 (9): 884–900. doi:10.1109/34.537343.
+
 Zhu, S.C.; Mumford, D. (1997). "Prior learning and Gibbs reaction-diffusion". IEEE Transactions on Pattern Analysis and Machine Intelligence. 19 (11): 1236–1250. doi:10.1109/34.63298.
+
 Zhu, S.C.; Guo, C.; Wang, Y.; Xu, Z. (2005). "What are Textons?". International Journal of Computer Vision. 62 (1/2): 121–143. doi:10.1023/B:VISI.0000046592.70770.61.
+
 Zhu, S.C.; Mumford, D. (2006). "A Stochastic Grammar of Images". Foundations and Trends in Computer Graphics and Vision. 2 (4): 259–362. doi:10.1561/0600000018.
+
 Guo, C.; Zhu, S.-C.; Wu, Y. (2007). "Primal sketch: Integrating Texture and Structure". Computer Vision and Image Understanding. 106 (1): 5–19. doi:10.1016/j.cviu.2005.09.004.
+
 Wu, Y.N.; Guo, C.E.; Zhu, S.C. (2008). "From Information Scaling of Natural Images to Regimes of Statistical Models". Quarterly of Applied Mathematics. 66 (1): 81–122. doi:10.1090/S0033-569X-07-01063-2.
+
 Zheng, B.; Zhao, Y.; Yu, J.; Ikeuchi, K.; Zhu, S.C. (2015). "Scene Understanding by Reasoning Stability and Safety". International Journal of Computer Vision. 112 (2): 221–238. doi:10.1007/s11263-014-0795-4.
+
 Zhu, Y.; Zhao, Y.B.; Zhu, S.C. (2015). Understanding Tools: Task-Oriented Object Modeling, Learning and Recognition. Proc. of IEEE Conference on Computer Vision and Pattern Recognition (CVPR). pp. 1639–1652. doi:10.1109/CVPR.2015.7298903.
+
 Fire, A.; Zhu, S.C. (2016). "Learning Perceptual Causality from Video". ACM Transactions on Intelligent Systems and Technology. 7 (2): 1–22. doi:10.1145/2809782.
+
 Zhu, Y.X.; Jiang, C.; Zhao, Y.; Terzopoulos, D.; Zhu, S.C. (2016). Inferring Forces and Learning Human Utilities from Video. Proc. of IEEE Conference on Computer Vision and Pattern Recognition (CVPR). pp. 3823–3833. doi:10.1109/CVPR.2016.415.
+
 Xie, D.; Shu, T.; Todorovic, S.; Zhu, S.C. (2018). "Learning and Inferring "Dark Matter" and Predicting Human Intents and Trajectories in Videos". IEEE Transactions on Pattern Analysis and Machine Intelligence. 40 (7): 1639–1652. doi:10.1109/TPAMI.2017.2728788.
+
 Zhu, Y.; et al. (2020). "Dark, Beyond Deep: A Paradigm Shift to Cognitive AI with Human-like Commonsense". Engineering. 6 (3): 310–345. doi:10.1016/j.eng.2020.01.011.

@@ -1,36 +1,26 @@
 In computer science, FO(.) (a.k.a. FO-dot) is a knowledge representation language based on first-order logic (FO). It extends FO with types, aggregates (counting, summing, maximising ... over a set), arithmetic, inductive definitions, partial functions, and intensional objects.
+
 By itself, a FO(.) knowledge base cannot be run, as it is just a "bag of information", to be used as input to various generic reasoning algorithms. Reasoning engines that use FO(.) include IDP-Z3, IDP and FOLASP. As an example, the IDP system allows generating models, answering set queries, checking entailment between two theories and checking satisfiability, among other types of inference over a FO(.) knowledge base.
+
 FO(.) has four types of statements:
 
 Type, function and predicate declarations,
+
 Axioms, i.e., logic sentences about possible worlds,
+
 Definitions that specify a unique interpretation of a defined symbol, given the interpretation of its parameters. Definitions can be inductive.
+
 Enumerations, i.e., definitions of symbols by enumeration.
 
 Example
+
 A voting law specifies that citizens must be at least 18 years old to vote.  Furthermore, if the voting law is interpreted as being prescriptive, voting is mandatory when you are over 18. This can be represented in FO(.) as follows:
 
 In this code, A→B indicates a function from A to B,
-
-
-
-
           Z
-
-
-
     {\displaystyle \mathbb {Z} }
-
  denotes integers,
-
-
-
-
           B
-
-
-
     {\displaystyle \mathbb {B} }
-
  denotes the booleans, ¬ denotes negation, and ⇒ denotes material conditional. Predicates < and ≥ are built-in and have their usual meaning.
 Such knowledge base can be turned automatically into an Interactive Lawyer (see here)

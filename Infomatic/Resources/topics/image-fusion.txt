@@ -1,9 +1,13 @@
 The image fusion process is defined as gathering all the important information from multiple images, and their inclusion into fewer images, usually a single one. This single image is more informative and accurate than any single source image, and it consists of all the necessary information. The purpose of image fusion is not only to reduce the amount of data but also to construct images that are more appropriate and understandable for the human and machine perception. In computer vision, multisensor image fusion is the process of combining relevant information from two or more images into a single image. The resulting image will be more informative than any of the input images.
+
 In remote sensing applications, the increasing availability of space borne sensors gives a motivation for different image fusion algorithms. Several situations in image processing require high spatial and high spectral resolution in a single image. Most of the available equipment is not capable of providing such data convincingly. Image fusion techniques allow the integration of different information sources. The fused image can have complementary spatial and spectral resolution characteristics. However, the standard image fusion techniques can distort the spectral information of the multispectral data while merging.
+
 In satellite imaging, two types of images are available. The panchromatic image acquired by satellites is transmitted with the maximum resolution available and the multispectral data are transmitted with coarser resolution. This will usually be two or four times lower. At the receiver station, the panchromatic image is merged with the multispectral data to convey more information.
+
 Many methods exist to perform image fusion. The very basic one is the high-pass filtering technique. Later techniques are based on Discrete Wavelet Transform, uniform rational filter bank, and Laplacian pyramid.
 
 Motivation
+
 Multi sensor data fusion has become a discipline which demands more general formal solutions to a number of application cases. Several situations in image processing require both high spatial and high spectral information in a single image. This is important in remote sensing. However, the instruments are not capable of providing such information either by design or because of observational constraints. One possible solution for this is data fusion.
 
 Methods
@@ -28,14 +32,21 @@ Image fusion in remote sensing has several application domains. An important dom
 Panchromatic images – An image collected in the broad visual wavelength range but rendered in black and white.
 Multispectral images – Images optically acquired in more than one spectral or wavelength interval. Each individual image is usually of the same physical area and scale but of a different spectral band.
 The SPOT PAN satellite provides high resolution (10m pixel) panchromatic data. While the LANDSAT TM satellite provides low resolution (30m pixel) multispectral images. Image fusion attempts to merge these images and produce a single high resolution multispectral image.
+
 The standard merging methods of image fusion are based on Red–Green–Blue (RGB) to Intensity–Hue–Saturation (IHS) transformation. The usual steps involved in satellite image fusion are as follows:
 
 Resize the low resolution multispectral images to the same size as the panchromatic image.
+
 Transform the R, G and B bands of the multispectral image into IHS components.
+
 Modify the panchromatic image with respect to the multispectral image. This is usually performed by histogram matching of the panchromatic image with Intensity component of the multispectral images as reference.
+
 Replace the intensity component by the panchromatic image and perform inverse transformation to obtain a high resolution multispectral image.
+
 Pan-sharpening can be done with Photoshop. Other applications of image fusion in remote sensing are available.
 
 In medical imaging
+
 Image fusion has become a common term used within medical diagnostics and treatment. The term is used when multiple images of a patient are registered and overlaid or merged to provide additional information. Fused images may be created from multiple images from the same imaging modality, or by combining information from multiple modalities, such as magnetic resonance image (MRI), computed tomography (CT), positron emission tomography (PET), and single-photon emission computed tomography (SPECT). In radiology and radiation oncology, these images serve different purposes. For example, CT images are used more often to ascertain differences in tissue density while MRI images are typically used to diagnose brain tumors.
+
 For accurate diagnosis, radiologists must integrate information from multiple image formats. Fused, anatomically consistent images are especially beneficial in diagnosing and treating cancer. With the advent of these new technologies, radiation oncologists can take full advantage of intensity modulated radiation therapy (IMRT). Being able to overlay diagnostic images into radiation planning images results in more accurate IMRT target tumor volumes.

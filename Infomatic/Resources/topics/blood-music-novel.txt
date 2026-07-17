@@ -1,29 +1,47 @@
 Blood Music is a 1985 science fiction novel by American writer Greg Bear.
+
 It is an expanded version of a short story of the same title, originally published in the June 1983 issue of Analog and the winner of both the 1983 Nebula and 1984 Hugo awards for Best Novelette. The novel won the 1986 Prix Apollo Award, given to the best science fiction novel published in France during the preceding year, under the title La Musique du sang.
+
 Blood Music deals with themes including biotechnology, nanotechnology (including the grey goo hypothesis), the nature of reality, consciousness, and artificial intelligence.
 
 Plot summary
+
 Renegade biotechnologist Vergil Ulam creates simple biological computers based on his own lymphocytes. Faced with orders from his nervous employer to destroy his work, he injects them into his own body, intending to smuggle the "noocytes"[1] (as he calls them) out of the company and work on them elsewhere. Inside Ulam's body, the noocytes multiply and evolve rapidly, altering their own genetic material and quickly becoming self-aware.
+
 The nanoscale civilization they construct soon begins to transform Ulam, then others. The people who are infected start to find that genetic faults such as myopia and high blood pressure are fixed. Ulam's eyesight, posture, strength, and intelligence are all improved. The infected can even have conversations with their noocytes, with some reporting that the cells seem to sing.
+
 Through infection, conversion, and assimilation of humans and other organisms, the cells eventually aggregate most of the biosphere of North America into a region 7,000 km (4,300 mi) wide. This civilization, which incorporates both the evolved noocytes and recently assimilated conventional humans, is eventually forced to abandon the normal plane of existence in favor of one in which thought does not require a physical substrate. The reason for the noocytes' inability to remain in this reality is somewhat related to the strong anthropic principle.
+
 The book's structure is titled "inter-phase", "prophase", "metaphase", "anaphase", "telophase", and "interphase". This mirrors the major phases of cell cycle: interphase and mitosis.
 
 Characters
+
 Source:
 
 Vergil Ulam: Physically unhealthy and mentally amoral (e.g., he got his Genetron job by falsifying his university credentials), Vergil is the "pure" scientist who wants to unlock the mysteries of nature, without care for the consequences.
+
 April Ulam: Vergil's mother.
+
 Candice Rhine: Vergil's girlfriend.
+
 Gerald T. Harrison: Vergil's boss at Genetron, who sees him as ambitious but unpredictable.
+
 Hazel Overton: Vergil's lab partner, required by Harrison to terminate her side project because he found it too feminist and "socially controversial."  She reluctantly helps Virgil conceal his secret biological experiments.
+
 Dr. Edward Milligan: A physician (OBGYN) and Vergil's former college roommate, with whom Vergil consults when he realizes his body is changing, Milligan serves somewhat as narrator.
+
 Dr. Michael Bernard: An expert in artificial intelligence and neurophysiology.  Consultant at Genetron.
+
 Sean Gogarty: British professor specializing in theoretical physics.
+
 Suzy: A sympathetic young woman in Brooklyn who is resistant to the initial infection while her entire family is  assimilated.  She becomes the last human being in New York City.
 
 Reception
 Dave Langford reviewed Blood Music for White Dwarf #79. He stated that "The finale is magnificent. The only problem is that it's nigglingly close to the conclusion reached by an author extrapolating from a different start-point: Arthur C. Clarke in Childhood's End. But Bear, I think does it better – and goes beyond even Clarke. Strongly recommended."
 Martin Lewis of the SF Site writes in a 2002 review, "For a novel that moves so quickly you might expect some fudge for the sake of plot, but the ideas that are presented are fully explored and the characters are all well drawn... Bear also succeeds in pulling off probably the hardest task in SF, depicting a believable strongly superhuman AI." He adds, "As can be expected, Bear explicitly references both Frankenstein and Prometheus. However, although the novel charts the demise of humanity, Blood Music is optimistic in tone. Despite the prejudices of the masses Frankenstein's monster is triumphant. The noocytes, cultured in Ulam's body, are genuinely better than humans and happy to invite them to share this new future." Placing Blood Music among its contemporaries, specifically the cyberpunk fiction of the 1980s, Lewis calls it "a modern classic" in its handling of Transhumanism, which explores ideas such as genetic engineering and translation of consciousness. Lewis concludes, "To this day, it remains the defining novel of "wet" nanotechnology".
+
 Drawing parallel literary connections, Thomas Christensen (in a 1999 retrospective review) calls it "a DNA based Frankenstein's fantastic voyage-story for the last quarter of the twentieth century. The story may seem a bit simplistic and stereotypical these days (the mad scientist and the ignorant environmental activists)," yet it offers "a fairly well written and fairly interesting story about the wonders that bioengineering can give us, if we use it right and the horrors it can bring us if we aren't careful."
+
 The Worlds Without End site calls the novel both "suspenseful and grotesque" but also "compelling and exciting... especially considering the ideas that it touches upon (E.g. genetic memory, consciousness, & reality)." The reviewer muses, "I think that some consider this to fall into the horror genre, but I don't know if I agree fully. Suspenseful? Sure. Body horror? Absolutely. But I don't think that the horror elements are really the focus. A stunner for sure, highly recommended."
+
 The novel won the 1986 Prix Apollo Award, given to the best science fiction novel published in France during the preceding year, under the title La Musique du sang. It was also nominated for the Nebula Award in 1985 and for the Hugo, Campbell, and British Science Fiction Awards in 1986.

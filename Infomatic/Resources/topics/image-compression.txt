@@ -1,19 +1,28 @@
 Image compression is a type of data compression applied to digital images, to reduce their cost for storage or transmission. Algorithms may take advantage of visual perception and the statistical properties of image data to provide superior results compared with generic data compression methods which are used for other digital data.
 
 Lossy and lossless image compression
+
 Image compression may be lossy or lossless.  Lossless compression is preferred for archival purposes and often for medical imaging, technical drawings, clip art, or comics. Lossy compression methods, especially when used at low bit rates, introduce compression artifacts.  Lossy methods are especially suitable for natural images such as photographs in applications where minor (sometimes imperceptible) loss of fidelity is acceptable to achieve a substantial reduction in bit rate. Lossy compression that produces negligible differences may be called visually lossless.
+
 Methods for lossy compression:
 
 Transform coding – This is the most commonly used method.
 Discrete Cosine Transform (DCT) – The most widely used form of lossy compression. It is a type of Fourier-related transform, and was originally developed by Nasir Ahmed, T. Natarajan and K. R. Rao in 1974. The DCT is sometimes referred to as "DCT-II" in the context of a family of discrete cosine transforms (see discrete cosine transform). It is generally the most efficient form of image compression.
 DCT is used in JPEG, the most popular lossy format, and the more recent HEIF.
+
 The more recently developed wavelet transform is also used extensively, followed by quantization and entropy coding.
+
 Color quantization - Reducing the color space to a few "representative" colors in the image. The selected colors are specified in the color palette in the header of the compressed image. Each pixel just references the index of a color in the color palette. This method can be combined with dithering to avoid posterization.
+
 Whole-image palette, typically 256 colors, used in GIF and PNG file formats.
 block palette, typically 2 or 4 colors for each block of 4x4 pixels, used in BTC, CCC, S2TC, and S3TC.
+
 Chroma subsampling. This takes advantage of the fact that the human eye perceives spatial changes of brightness more sharply than those of color, by averaging or dropping some of the chrominance information in the image.
+
 Fractal compression.
+
 More recently, methods based on Machine Learning were applied, using Multilayer perceptrons, Convolutional neural networks, Generative adversarial networks and Diffusion models. Implementations are available in OpenCV, TensorFlow, MATLAB's Image Processing Toolbox (IPT), and the High-Fidelity Generative Image Compression (HiFiC) open source project.
+
 Methods for lossless compression:
 
 Run-length encoding – used in default method in PCX and as one of possible in BMP, TGA, TIFF
@@ -24,22 +33,33 @@ DEFLATE – used in PNG, MNG, and TIFF
 Chain codes
 
 Other properties
+
 The best image quality at a given compression rate (or bit rate) is the main goal of image compression, however, there are other important properties of image compression schemes:
+
 Scalability generally refers to a quality reduction achieved by manipulation of the bitstream or file (without decompression and re-compression). Other names for scalability are progressive coding or embedded bitstreams. Despite its contrary nature, scalability also may be found in lossless codecs, usually in form of coarse-to-fine pixel scans. Scalability is especially useful for previewing images while downloading them (e.g., in a web browser) or for providing variable quality access to e.g., databases. There are several types of scalability:
 
 Quality progressive or layer progressive: The bitstream successively refines the reconstructed image.
+
 Resolution progressive: First encode a lower image resolution; then encode the difference to higher resolutions.
+
 Component progressive: First encode grey-scale version; then adding full color.
+
 Region of interest coding. Certain parts of the image are encoded with higher quality than others. This may be combined with scalability (encode these parts first, others later).
+
 Meta information. Compressed data may contain information about the image which may be used to categorize, search, or browse images. Such information may include color and texture statistics, small preview images, and author or copyright information.
+
 Processing power. Compression algorithms require different amounts of processing power to encode and decode. Some high compression algorithms require high processing power.
+
 The quality of a compression method often is measured by the peak signal-to-noise ratio. It measures the amount of noise introduced through a lossy compression of the image, however, the subjective judgment of the viewer also is regarded as an important measure, perhaps, being the most important measure.
 
 History
-Entropy coding started in the late 1940s with the introduction of Shannon–Fano coding, the basis for Huffman coding which was published in 1952. Transform coding dates back to the late 1960s, with the introduction of fast Fourier transform (FFT) coding in 1968 and the Hadamard transform in 1969.
-An important development in image data compression was the discrete cosine transform (DCT), a lossy compression technique first proposed by Nasir Ahmed, T. Natarajan and K. R. Rao in 1973. JPEG was introduced by the Joint Photographic Experts Group (JPEG) in 1992. JPEG compresses images down to much smaller file sizes, and has become the most widely used image file format. JPEG was largely responsible for the wide proliferation of digital images and digital photos, with several billion JPEG images produced every day as of 2015.
-Lempel–Ziv–Welch (LZW) is a lossless compression algorithm developed by Abraham Lempel, Jacob Ziv and Terry Welch in 1984. It is used in the GIF format, introduced in 1987. DEFLATE, a lossless compression algorithm developed by Phil Katz and specified in 1996, is used in the Portable Network Graphics (PNG) format.
-The JPEG 2000 standard was developed from 1997 to 2000 by a JPEG committee chaired by Touradj Ebrahimi (later the JPEG president). In contrast to the DCT algorithm used by the original JPEG format, JPEG 2000 instead uses discrete wavelet transform (DWT) algorithms. It uses the CDF 9/7 wavelet transform (developed by Ingrid Daubechies in 1992) for its lossy compression algorithm, and the Le Gall–Tabatabai (LGT) 5/3 wavelet transform (developed by Didier Le Gall and Ali J. Tabatabai in 1988) for its lossless compression algorithm. JPEG 2000 technology, which includes the Motion JPEG 2000 extension, was selected as the video coding standard for digital cinema in 2004.
 
+Entropy coding started in the late 1940s with the introduction of Shannon–Fano coding, the basis for Huffman coding which was published in 1952. Transform coding dates back to the late 1960s, with the introduction of fast Fourier transform (FFT) coding in 1968 and the Hadamard transform in 1969.
+
+An important development in image data compression was the discrete cosine transform (DCT), a lossy compression technique first proposed by Nasir Ahmed, T. Natarajan and K. R. Rao in 1973. JPEG was introduced by the Joint Photographic Experts Group (JPEG) in 1992. JPEG compresses images down to much smaller file sizes, and has become the most widely used image file format. JPEG was largely responsible for the wide proliferation of digital images and digital photos, with several billion JPEG images produced every day as of 2015.
+
+Lempel–Ziv–Welch (LZW) is a lossless compression algorithm developed by Abraham Lempel, Jacob Ziv and Terry Welch in 1984. It is used in the GIF format, introduced in 1987. DEFLATE, a lossless compression algorithm developed by Phil Katz and specified in 1996, is used in the Portable Network Graphics (PNG) format.
+
+The JPEG 2000 standard was developed from 1997 to 2000 by a JPEG committee chaired by Touradj Ebrahimi (later the JPEG president). In contrast to the DCT algorithm used by the original JPEG format, JPEG 2000 instead uses discrete wavelet transform (DWT) algorithms. It uses the CDF 9/7 wavelet transform (developed by Ingrid Daubechies in 1992) for its lossy compression algorithm, and the Le Gall–Tabatabai (LGT) 5/3 wavelet transform (developed by Didier Le Gall and Ali J. Tabatabai in 1988) for its lossless compression algorithm. JPEG 2000 technology, which includes the Motion JPEG 2000 extension, was selected as the video coding standard for digital cinema in 2004.
 
 == Notes and references ==

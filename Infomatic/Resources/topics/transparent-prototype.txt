@@ -1,11 +1,14 @@
 The Transparent Prototype is a project in the automotive industry to track and trace test vehicles and prototype parts using radio frequency identification (RFID) technology.
 
 Objectives of the project
+
 The objective of the project "Transparent Prototype" is the tracking & tracing of test vehicles and prototype parts via radio frequency identification (RFID). During the development phase, prototype vehicles are subject to continuous change and reassembly. Currently, these changes are still documented by using barcodes or data matrix codes. The "Transparent Prototype" aims to substitute these manual procedures with RFID. This is done with so called RFID gates (see figure). Apart from RFID the project "Transparent Prototype" also addresses enhanced electronical data interchange (EDI) among automotive manufacturers. Due to the use of new technologies and the digitalization of the
 supply chain, the "Transparent Prototype" project is one of the showcases of the Industry 4.0 initiative.
 
 Methodological approach
+
 In 2012 the German Association of the Automotive Industry (VDA) established the cross-company working group "Transparent Prototype". The working group developed the industry recommendation VDA 5509, which describes the process and technical solutions for tracking & tracing test vehicles and prototype parts with RFID. Both have also been described in many practice-orientated and scientific publications.
 
 Prevalence in the automotive industry
+
 The RFID-based tracking & tracing of test vehicles and prototype parts with RFID has been implemented in practice extensively since 2013/2014. Known users are the Volkswagen, Porsche, and Audi brands of Volkswagen Group. In 2018 the technical development of the Volkswagen brand is supplied by approximately 400 suppliers with RFID labeled components, the whole VW group receives RFID components from more than 500 suppliers. For this reason, the project currently ranks among the most significant RFID initiatives within the automotive industry  and is therefore a driver for cross-company RFID standardization in the context of Industry 4.0.

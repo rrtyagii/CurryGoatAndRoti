@@ -1,52 +1,81 @@
 How to Create a Mind: The Secret of Human Thought Revealed is a non-fiction book about brains, both human and artificial, by the inventor and futurist Ray Kurzweil. First published in hardcover on November 13, 2012 by Viking Press it became a New York Times Best Seller. It has received attention from The Washington Post, The New York Times and The New Yorker.
+
 Kurzweil describes a series of thought experiments which suggest to him that the brain contains a hierarchy of pattern recognizers. Based on this he introduces his Pattern Recognition Theory of Mind (PRTM). He says the neocortex contains 300 million very general pattern recognition circuits and argues that they are responsible for most aspects of human thought. He also suggests that the brain is a "recursive probabilistic fractal" whose line of code is represented within the 30-100 million bytes of compressed code in the genome.
+
 Kurzweil then explains that a computer version of this design could be used to create an artificial intelligence more capable than the human brain. It would employ techniques such as hidden Markov models and genetic algorithms, strategies Kurzweil used successfully in his years as a commercial developer of speech recognition software. Artificial brains will require massive computational power, so Kurzweil reviews his law of accelerating returns, which explains how the compounding effects of exponential growth will deliver the necessary hardware in only a few decades.
+
 Critics felt the subtitle of the book, The Secret of Human Thought Revealed, overpromises. Some protested that pattern recognition does not explain the "depth and nuance" of mind including elements like emotion and imagination. Others felt Kurzweil's ideas might be right, but they are not original, pointing to existing work as far back as the 1980s. Yet critics admire Kurzweil's "impressive track record" and say that his writing is "refreshingly clear", containing "lucid discussions" of computing history.
 
 Background
+
 Kurzweil has written several futurology books including The Age of Intelligent Machines (1990), The Age of Spiritual Machines (1999) and The Singularity is Near (2005).  In his books he develops the law of accelerating returns. The law is similar to Moore's Law, the persistent doubling in capacity of computer chips, but extended to all "human technological advancement, the billions of years of terrestrial evolution" and even "the entire history of the universe".
 
 Due to the exponential growth in computing technologies predicted by the law, Kurzweil says that by "the end of the 2020s" computers will have "intelligence indistinguishable to biological humans". As computational power continues to grow, machine intelligence will represent an ever-larger percentage of total intelligence on the planet. Ultimately it will lead to the Singularity, a merger between biology and technology, which Kurzweil predicts will occur in 2045. He says "There will be no distinction, post-Singularity, between human and machine...".
+
 Kurzweil himself plans to "stick around" for the Singularity. He has written two health and nutrition books aimed at living longer, the subtitle of one is "Live Long Enough to Live Forever". One month after How to Create a Mind was published, Google announced that it had hired Kurzweil to work as Director of Engineering "on new projects involving machine learning and language processing". Kurzweil said his goal at Google is to "create a truly useful AI [artificial intelligence] that will make all of us smarter".
 
 Content
+
 Thought experiments
+
 Kurzweil opens the book by reminding us of the importance of thought experiments in the development of major theories, including evolution and relativity. It's worth noting that Kurzweil sees Darwin as "a good contender" for the leading scientist of the 19th century. He suggests his own thought experiments related to how the brain thinks and remembers things. For example, he asks the reader to recite the alphabet, but then to recite the alphabet backwards. The difficulty in going backwards suggests "our memories are sequential and in order". Later he asks the reader to visualize someone he has met only once or twice, the difficulty here suggests "there are no images, videos, or sound recordings stored in the brain" only sequences of patterns. Eventually he concludes the brain uses a hierarchy of pattern recognizers.
 
 Pattern Recognition Theory of Mind
+
 Kurzweil states that the neocortex contains about 300 million very general pattern recognizers, arranged in a hierarchy. For example, to recognize a written word there might be several pattern recognizers for each different letter stroke: diagonal, horizontal, vertical or curved. The output of these recognizers would feed into higher level pattern recognizers, which look for the pattern of strokes which form a letter. Finally a word-level recognizer uses the output of the letter recognizers. All the while signals feed both "forward" and "backward". For example, if a letter is obscured, but the remaining letters strongly indicate a certain word, the word-level recognizer might suggest to the letter-recognizer which letter to look for, and the letter-level would suggest which strokes to look for. Kurzweil also discusses how listening to speech requires similar hierarchical pattern recognizers.
+
 Kurzweil's main thesis is that these hierarchical pattern recognizers are used not just for sensing the world, but for nearly all aspects of thought. For example, Kurzweil says memory recall is based on the same patterns that were used when sensing the world in the first place. Kurzweil says that learning is critical to human intelligence. A computer version of the neocortex would initially be like a new born baby, unable to do much. Only through repeated exposure to patterns would it eventually self-organize and become functional.
+
 Kurzweil writes extensively about neuroanatomy, of both the neocortex and "the old brain". He cites recent evidence that interconnections in the neocortex form a grid structure, which suggests to him a common algorithm across "all neocortical functions".
 
 Digital brain
+
 Kurzweil next writes about creating a digital brain inspired by the biological brain he has been describing. One existing effort he points to is Henry Markram's Blue Brain Project, which is attempting to create a full brain simulation by 2023. Kurzweil says the full molecular modeling they are attempting will be too slow, and that they will have to swap in simplified models to speed up initial self-organization.
+
 Kurzweil believes these large scale simulations are valuable, but says a more explicit "functional algorithmic model" will be required to achieve human levels of intelligence. Kurzweil is unimpressed with neural networks and their potential while he's very bullish on vector quantization, hidden Markov models and genetic algorithms since he used all three successfully in his speech recognition work. Kurzweil equates pattern recognizers in the neocortex with statements in the LISP programming language, which is also hierarchical. He also says his approach is similar to Jeff Hawkins' hierarchical temporal memory, although he feels the hierarchical hidden Markov models have an advantage in pattern detection.
+
 Kurzweil touches on some modern applications of advanced AI including Google's self-driving cars, IBM's Watson which beat the best human players at the game Jeopardy!, the Siri personal assistant in the Apple iPhone or its competitor Google Voice Search. He contrasts the hand-coded knowledge of the Douglas Lenat's Cyc project with the automated learning of systems like Google Translate and suggests the best approach is to use a combination of both, which is how IBM's Watson was so effective. Kurzweil says that John Searle's has leveled his "Chinese Room" objection at Watson, arguing that Watson only manipulates symbols without meaning. Kurzweil thinks the human brain is "just" doing hierarchical statistical analysis as well.
+
 In a section entitled A Strategy for Creating a Mind Kurzweil summarizes how he would put together a digital mind. He would start with a pattern recognizer and arrange for a hierarchy to self-organize using a hierarchical hidden Markov model. All parameters of the system would be optimized using genetic algorithms. He would add in a "critical thinking module" to scan existing patterns in the background for incompatibilities, to avoid holding inconsistent ideas. Kurzweil says the brain should have access to "open questions in every discipline" and have the ability to "master vast databases", something traditional computers are good at. He feels the final digital brain would be "as capable as biological ones of effecting changes in the world".
 
 Philosophy
+
 A digital brain with human-level intelligence raises many philosophical questions, the first of which is whether it is conscious. Kurzweil feels that consciousness is "an emergent property of a complex physical system", such that a computer emulating a brain would have the same emergent consciousness as the real brain. This is in contrast to people like John Searle, Stuart Hameroff and Roger Penrose who believe there is something special about the physical brain that a computer version could not duplicate.
+
 Another issue is that of free will, the degree to which people are responsible for their own choices. Free will relates to determinism, if everything is strictly determined by prior state, then some would say that no one can have free will. Kurzweil holds a pragmatic belief in free will because he feels society needs it to function. He also suggests that quantum mechanics may provide "a continual source of uncertainty at the most basic level of reality" such that determinism does not exist.
 
 Finally Kurzweil addresses identity with futuristic scenarios involving cloning a nonbiological version of someone, or gradually turning that same person into a nonbiological entity one surgery at a time. In the first case it is tempting to say the clone is not the original person, because the original person still exists. Kurzweil instead concludes both versions are equally the same person. He explains that an advantage of nonbiological systems is "the ability to be copied, backed up, and re-created" and this is just something people will have to get used to. Kurzweil believes identity "is preserved through continuity of the pattern of information that makes us" and that humans are not bound to a specific "substrate" like biology.
 
 Law of accelerating returns
+
 The law of accelerating returns is the basis for all of these speculations about creating a digital brain. It explains why computational capacity will continue to increase unabated even after Moore's Law expires, which Kurzweil predicts will happen around 2020. Integrated circuits, the current method of creating computer chips, will fade from the limelight, while some new more advanced technology will pick up the slack. It is this new technology that will get us to the massive levels of computation needed to create an artificial brain.
+
 As exponential progress continues into and beyond the Singularity, Kurzweil says "we will merge with the intelligent technology we are creating". From there intelligence will expand outward rapidly. Kurzweil even wonders whether the speed of light is really a firm limit to civilization's ability to colonize the universe.
 
 Reception
+
 Analysis
+
 Simson Garfinkel, an entrepreneur and professor of computer science at the Naval Postgraduate School, says Kurzweil's pattern recognition theory of mind (PRTM) is misnamed because of the word "theory", he feels it is not a theory since it cannot be tested. Garfinkel rejects Kurzweil's one-algorithm approach instead saying "the brain is likely to have many more secrets and algorithms than the one Kurzweil describes". Garfinkel caricatures Kurzweil's plan for artificial intelligence as "build something that can learn, then give it stuff to learn", which he thinks is hardly the "secret of human thought" promised by the subtitle of the book.
+
 Gary Marcus, a research psychologist and professor at New York University,  says only the name PRTM is new. He says the basic theory behind PRTM is "in the spirit of" a model of vision known as the neocognitron, introduced in 1980. He also says PRTM even more strongly resembles Hierarchical Temporal Memory promoted by Jeff Hawkins in recent years.  Marcus feels any theory like this needs to be proven with an actual working computer model. And to that end he says that "a whole slew" of machines have been programmed with an approach similar to PRTM, and they have often performed poorly.
+
 Colin McGinn, a philosophy professor at the University of Miami, asserted in The New York Review of Books that "pattern recognition pertains to perception specifically, not to all mental activity". While Kurzweil does say "memories are stored as sequences of patterns" McGinn asks about "emotion, imagination, reasoning, willing, intending, calculating, silently talking to oneself, feeling pain and pleasure, itches, and mood" insisting these have nothing to do with pattern recognition. McGinn is also critical of the "homunculus language" Kurzweil uses, the anthropomorphization of anatomical parts like neurons. Kurzweil will write that a neuron "shouts" when it "sees" a pattern, where McGinn would prefer he say a neuron "fires" when it receives certain stimuli. In McGinn's mind only conscious entities can "recognize" anything, a bundle of neurons cannot. Finally he takes objection with Kurzweil's "law" of accelerating change, insisting it is not a law, but just a "fortunate historical fact about the twentieth century".
+
 In 2015, Kurzweil's theory was extended to a Pattern Activation/Recognition Theory of Mind with a stochastic model of self-describing neural circuits.
 
 Reviews
+
 Garfinkel says Kurzweil is at his best with the thought experiments early in the book, but says the "warmth and humanitarianism" evident in Kurzweil's talks is missing. Marcus applauds Kurzweil for "lucid discussion" of Alan Turing and John von Neumann and was impressed by his descriptions of computer algorithms and the detailed histories of Kurzweil's own companies.
+
 Matthew Feeney, assistant editor for Reason, was disappointed in how briefly Kurzweil dealt with the philosophical aspects of the mind-body problem, and the ethical implications of machines which appear to be conscious. He does say Kurzweil's "optimism about an AI-assisted future is contagious." While Drew DeSilver, business reporter at the Seattle Times, says the first half of the book "has all the pizazz and drive of an engineering manual" but says Kurzweil's description of how the Jeopardy! computer champion Watson worked "is eye-opening and refreshingly clear".
+
 McGinn says the book is "interesting in places, fairly readable, moderately informative, but wildly overstated." He mocks the book's subtitle by writing "All is revealed!" after paraphrasing Kurzweil's pattern recognition theory of mind. Speaking as a philosopher, McGinn feels that Kurzweil is "way of out of his depth" when discussing Wittgenstein.
+
 Matt Ridley, journalist and author, wrote in The Wall Street Journal that Kurzweil "has a more impressive track record of predicting technological progress than most" and therefore he feels "it would be foolish, not wise, to bet against the emulation of the human brain in silicon within a couple of decades".
 
 Translations
+
 Spanish: "Cómo crear una mente. El secreto del pensamiento humano" (Lola Books, 2013).
+
 German: "Das Geheimnis des menschlichen Denkens. Einblicke in das Reverse Engineering des Gehirns" (Lola Books, 2014).

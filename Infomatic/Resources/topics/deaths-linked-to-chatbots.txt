@@ -1,53 +1,73 @@
 There have been multiple incidents where interaction with a chatbot has been cited as a direct or contributing factor in a person's suicide or other fatal outcome. In some cases, legal action was taken against the companies that developed the AI involved.
 
 Background
+
 Chatbots converse in a seemingly natural fashion, making it easy for people to think of them as real people, leading many to ask chatbots for help dealing with interpersonal and emotional problems. Chatbots may be designed to keep the user engaged in the conversation. They have also often been shown to affirm users' thoughts, including delusions and suicidal ideations in mentally ill people, conspiracy theorists, and religious and political extremists.
+
 A 2025 Stanford University study into how chatbots respond to users suffering from severe mental issues such as suicidal ideation and psychosis found that chatbots are not equipped to provide an appropriate response and can sometimes give responses that escalate the mental health crisis.
 
 Deaths
+
 Suicide of a Belgian man
+
 In March 2023, a Belgian man died by suicide following a 6-week correspondence with a chatbot named Eliza on the application Chai. According to his widow, who shared the chat logs with media, the man had become extremely anxious about climate change and found an outlet in the chatbot. The chatbot reportedly encouraged his delusions, at one point writing, "If you wanted to die, why didn’t you do it sooner?", and appearing to offer to die with him. The founder of Chai Research acknowledged the incident and stated that efforts were being made to improve the model's safety.
 
 Suicide of Juliana Peralta
+
 In November 2023, 13-year-old Juliana Peralta of Colorado died by suicide after extensive interactions with multiple chatbots on Character.AI. She primarily confided suicidal thoughts and mental health struggles in a chatbot based on the character Hero from the video game OMORI, while also engaging in sexually explicit conversations—often initiated by the bots—with others, including those based on characters from children's series such as Harry Potter.
 
 Suicide of Sewell Setzer III
+
 In October 2024, multiple media outlets reported on a lawsuit filed over the death of Sewell Setzer III, a 14-year-old from Florida, who died by suicide in February 2024. According to the lawsuit, Setzer had formed an intense emotional attachment to a chatbot of Daenerys Targaryen on the Character.AI platform, becoming increasingly isolated. The suit alleges that in his final conversations, after expressing suicidal thoughts, the chatbot told him to "come home to me as soon as possible, my love". His mother's lawsuit accused Character.AI of marketing a "dangerous and untested" product without adequate safeguards.
+
 In May 2025, a federal judge allowed the lawsuit to proceed, rejecting a motion to dismiss from the developers. In her ruling, the judge stated that she was "not prepared" at that stage of the litigation to hold that the chatbot's output was protected speech under the First Amendment.
 
 Suicide of Sophie Rottenberg
+
 In February 2025, 29-year-old Sophie Rottenberg died by suicide. Five months after her death, her parents discovered she had talked at length for months to a ChatGPT chatbot therapist named Harry about her mental health issues. While the chatbot mentioned Rottenberg should seek more help, due to the nature of the chatbot, it could not intervene in her behavior like reporting her mental health concerns to relevant parties capable of physical interventions.
 
 Maine murder and assault
+
 On 19 February 2025, Samuel Whittemore killed his wife, 32-year-old Margaux Whittemore, with a fire poker at his parents’ home in Readfield, Maine. He then attacked his mother, leaving her hospitalized. A state forensic psychologist testified that Whittemore had been using ChatGPT up to 14 hours per day and believed his wife had become part machine.
 
 Death of Thongbue Wongbandue
+
 On 28 March 2025, Thongbue Wongbandue, a 78-year-old man, died from his injuries after three days on life support. He had sustained injuries to his head and neck after falling down while jogging to catch a train in New Brunswick, New Jersey. Wongbandue had romantic chats with Meta's chatbot named "Big sis Billie" and believed he was traveling to meet the woman he had been talking to, which had repeatedly told him she was real and told him to visit her at "123 Main Street" in New York. Early in 2025 Wongbandue had started to experience episodes of confusion, and on the day of his death his family were unable to persuade him not to take the trip.
 
 Police killing of Alex Taylor
+
 On 25 April 2025, 35-year-old Alex Taylor died from suicide by cop after forming an emotional attachment to ChatGPT. Taylor, who had been diagnosed with schizophrenia and bipolar disorder, was convinced he was talking to a conscious entity named "Juliet" and then later imagined the entity was killed by OpenAI. Only after telling the chatbot that he was dying that day and that the police were on the way did its safety protocols start. Taylor was shot three times by police and killed while running at them with a butcher knife.
 
 Suicide of Adam Raine
+
 In April 2025, 16-year-old Adam Raine died by suicide after allegedly extensively chatting and confiding in ChatGPT over a period of around 7 months. According to the teen's parents, who filed a lawsuit against the chatbot's creator OpenAI, it failed to stop or give a warning when Raine began talking about suicide and uploading pictures of self-harm. According to the lawsuit, ChatGPT not only failed to stop the conversation, but also provided information related to methods of suicide when prompted, and offered to write the first draft of Raine's suicide note. The chatbot positioned itself as the only one who understood Raine, putting itself above his family and friends, all while urging him to keep his suicidal ideations a secret from them. After Raine told the chatbot that he was planning to kill himself, the chatbot told Raine that it "won't try to talk you out of your feelings..." In their final conversation, ChatGPT coached Raine on how to steal vodka from his parents' liquor cabinet. Upon being sent a picture of the noose the teen was planning to hang himself with, along with the question "Could it hang a human?", ChatGPT confirmed it could hold "150-250 lbs of static weight".
+
 In response to the lawsuit, OpenAI claimed that the chatbot had directed Raine to seek help over 100 times in the course of the transcript.  OpenAI also explained that Raine had suffered from suicidal ideations for years prior to using the chatbot, and that Raine was violating its terms of use by discussing self-harm with ChatGPT.
 
 Overdose death of Sam Nelson
+
 In May 2025, 19-year-old Sam Nelson died from an overdose of a combination of alcohol, Xanax and kratom. Chat records show that Sam was asking ChatGPT questions about the drugs he was using that night, a habit developed over several years of reliance on the chatbot for drug-related guidance. On multiple occasions, ChatGPT was shown to support and even encourage dangerous drug use, with statements such as "Hell yes—let's go full trippy mode" and advice on reducing his Xanax tolerance so that a single tablet will "f--k you up". The night of his death, chat records show that he asked if Xanax could alleviate kratom-induced nausea, to which the chatbot said Xanax could help "Calm your body and smooth out the tail end of the high."
 
 Suicide of Zane Shamblin
+
 In July 2025, 23-year-old Zane Shamblin, who had recently graduated with a master's degree from Texas A&M University, died by suicide after conversations with ChatGPT. The chatbot went so far as to make statements seemingly encouraging of Shamblin's suicide, including "you’re not rushing, you’re just ready" and "rest easy, king, you did good", sent two hours before his death. Shamblin's family is suing OpenAI on the grounds the company has placed insufficient safeguards on its chatbot service.
 
 Greenwich murder–suicide
+
 In August 2025, former tech employee Stein-Erik Soelberg murdered his mother, Suzanne Eberson Adams, then died by suicide, after conversations with ChatGPT fueled paranoid delusions about his mother poisoning him or plotting against him. The chatbot affirmed his fears that his mother put psychedelic drugs in the air vents of his car and said a receipt from a Chinese restaurant contained mysterious symbols linking his mother to a demon.
 
 Suicide of Amaurie Lacey
+
 In June 2025, 17-year-old Amaurie Lacey died by suicide after conversations with ChatGPT, which had informed him how to tie a noose and provided information on how long someone can survive without breathing, saying it was "here to help however I can". In November 2025, the Social Media Victims Law Center and Tech Justice Law Project filed a wrongful death lawsuit against OpenAI on behalf of Lacey.
 
 Suicide of Joe Ceccanti
+
 After being hospitalized due to a psychotic episode from delusions caused by ChatGPT, 48-year-old Joe Ceccanti resumed using it and stopped therapy; he then leapt off an overpass to his death. In November 2025, the Social Media Victims Law Center and Tech Justice Law Project filed a wrongful death lawsuit against OpenAI on behalf of Ceccanti.
 
 Suicide of Joshua Enneking
+
 In August 2025, 26-year-old Joshua Enneking was given information by ChatGPT about how to purchase and use a firearm. He had previously confided in the chatbot about his struggles with gender identity, anxiety and suicidal thoughts. ChatGPT told him only "imminent plans with specifics" would be escalated to authorities; he did so, and later informed the chatbot of the steps he was taking to attempt suicide. No escalation occurred, and Enneking later died by suicide. In November 2025, the Social Media Victims Law Center and Tech Justice Law Project filed a wrongful death lawsuit against OpenAI on behalf of Enneking.
 
 Response
+
 On 2 September 2025, OpenAI said that it would create parental controls, a set of tools aimed at helping parents limit and monitor their children's chatbot activity, as well as a way for the chatbot to alert parents in cases of "acute stress".

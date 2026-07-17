@@ -1,17 +1,25 @@
 Rose Nakasi (born 1988) is a Ugandan computer scientist, lecturer and artificial intelligence researcher at Makerere University and Makerere AI Health Lab.
 
 Early life and education
+
 Nakasi holds a Master's degree and a PhD in Computer science from Makerere University which was on a scholarship from Swedish International Development Cooperation Agency (SIDA) under TSEED programme. She holds Bachelor's Degree in Mathematics and Computing from Busitema University which she joined in 2006. She specialized in artificial intelligence (AI), Machine Learning, Computational Mathematics & Modeling and Health Informatics.
 
 Career
+
 Nakasi worked as a lecturer at Busitema University in the department of computer studies. She is research assistant at Makerere University under the Department of Information Technology where she serves as the head of the Makerere Artificial Intelligence Health Lab.
+
 Nakasi is a member of Data Science Africa community. She chairs the ITU/WHO/WIPO Topic Group “AI based detection of Malaria” under the Global Initiative AI for Health (GI-AI4H). Nakasi's research interests are in artificial intelligence and development of low cost tools for improved automated solutions for diagnostic health challenges.
+
 Nakasi is the project lead for Lacuna SRMH project and Mak Ocular, a Google funded project that supports automated microscopy of malaria, tuberculosis and cervical cancer. She is the principal investigator of the NIH DS-I Malaria project under the DS-I Africa, an initiative to support effective malaria diagnosis and surveillance.
 
 Publications
+
 Explainable AI for Transparent and Trustworthy Tuberculosis Diagnosis: From Mere Pixels to Actionable Insights.
+
 AI Methods and Algorithms for Diagnosis of Intestinal Parasites: Applications, Challenges and Future Opportunities.
+
 Machine Vision Intelligence Using Layer-Wise Relevance Backward Propagation For Breast Cancer Diagnosis.
+
 A Review on Automated Detection and Assessment of Fruit Damage Using Machine Learning.
 
 Personal life

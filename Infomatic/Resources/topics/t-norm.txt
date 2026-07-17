@@ -1,6 +1,7 @@
 In mathematics, a t-norm (also T-norm or, unabbreviated, triangular norm) is a kind of binary operation used in the framework of probabilistic metric spaces and in multi-valued logic, specifically in fuzzy logic. A t-norm generalizes intersection in a lattice and conjunction in logic. The name triangular norm refers to the fact that in the framework of probabilistic metric spaces t-norms are used to generalize the triangle inequality of ordinary metric spaces.
 
 Definition
+
 A t-norm is a function T: [0, 1] × [0, 1] → [0, 1] that satisfies the following properties:
 
 Commutativity: T(a, b) = T(b, a)
@@ -9,65 +10,37 @@ Associativity: T(a, T(b, c)) = T(T(a, b), c)
 The number 1 acts as identity element: T(a, 1) = a
 Since a t-norm is a binary algebraic operation on the interval [0, 1], infix algebraic notation is also common, with the t-norm usually denoted by
 
-
-
         ∗
-
-
     {\displaystyle *}
 
 .
+
 The defining conditions of the t-norm are exactly those of a partially ordered abelian monoid on the real unit interval [0, 1].  (Cf. ordered group.) The monoidal operation of any partially ordered abelian monoid L is therefore by some authors called a triangular norm on L.
 
 Classification of t-norms
+
 A t-norm is called continuous if it is continuous as a function, in the usual interval topology on [0, 1]2. (Similarly for left- and right-continuity.)
+
 A t-norm is called strict if it is continuous and strictly monotone.
+
 A t-norm is called nilpotent if it is continuous and each x in the open interval (0, 1) is nilpotent, that is, there is a natural number n such that x
 
-
-
         ∗
-
-
     {\displaystyle *}
-
  ...
-
-
-
         ∗
-
-
     {\displaystyle *}
-
  x (n times) equals 0.
 A t-norm
 
-
-
         ∗
-
-
     {\displaystyle *}
-
  is called Archimedean if it has the Archimedean property, that is, if for each x, y in the open interval (0, 1) there is a natural number n such that x
-
-
-
         ∗
-
-
     {\displaystyle *}
-
  ...
-
-
-
         ∗
-
-
     {\displaystyle *}
-
  x (n times) is less than or equal to y.
 The usual partial ordering of t-norms is pointwise, that is,
 
@@ -75,20 +48,13 @@ T1 ≤ T2   if   T1(a, b) ≤ T2(a, b) for all a, b in [0, 1].
 As functions, pointwise larger t-norms are sometimes called stronger than those pointwise smaller. In the semantics of t-norm fuzzy logics, however, the larger a t-norm, the weaker (in terms of logical strength) conjunction it represents.
 
 Prominent examples
+
 Minimum t-norm
 
-
-
-
           ⊤
-
-
               m
               i
               n
-
-
-
         (
         a
         ,
@@ -102,27 +68,16 @@ Minimum t-norm
         b
         }
         ,
-
-
     {\displaystyle \top _{\mathrm {min} }(a,b)=\min\{a,b\},}
-
  also called the Gödel t-norm, as it is the standard semantics for conjunction in Gödel fuzzy logic. Besides that, it occurs in most t-norm based fuzzy logics as the standard semantics for weak conjunction. It is the pointwise largest t-norm (see the properties of t-norms below).
 
 Product t-norm
 
-
-
-
           ⊤
-
-
               p
               r
               o
               d
-
-
-
         (
         a
         ,
@@ -132,26 +87,15 @@ Product t-norm
         a
         ⋅
         b
-
-
     {\displaystyle \top _{\mathrm {prod} }(a,b)=a\cdot b}
-
  (the ordinary product of real numbers). Besides other uses, the product t-norm is the standard semantics for strong conjunction in product fuzzy logic. It is a strict Archimedean t-norm.
 
 Łukasiewicz t-norm
 
-
-
-
           ⊤
-
-
               L
               u
               k
-
-
-
         (
         a
         ,
@@ -169,254 +113,104 @@ Product t-norm
         1
         }
         .
-
-
     {\displaystyle \top _{\mathrm {Luk} }(a,b)=\max\{0,a+b-1\}.}
-
  The name comes from the fact that the t-norm is the standard semantics for strong conjunction in Łukasiewicz fuzzy logic. It is a nilpotent Archimedean t-norm, pointwise smaller than the product t-norm.
 
 Drastic t-norm
 
-
-
-
-
           ⊤
-
-
               D
-
-
-
         (
         a
         ,
         b
         )
         =
-
-
             {
-
-
-
                   b
-
-
-
-
                       if
-
-
                   a
                   =
                   1
-
-
-
-
                   a
-
-
-
-
                       if
-
-
                   b
                   =
                   1
-
-
-
-
                   0
-
-
-
-
                       otherwise.
-
-
-
-
-
-
-
-
-
-
     {\displaystyle \top _{\mathrm {D} }(a,b)={\begin{cases}b&{\mbox{if }}a=1\\a&{\mbox{if }}b=1\\0&{\mbox{otherwise.}}\end{cases}}}
-
 
 The name reflects the fact that the drastic t-norm is the pointwise smallest t-norm (see the properties of t-norms below). It is a right-continuous Archimedean t-norm.
 
 Nilpotent minimum
 
-
-
-
-
           ⊤
-
-
               n
               M
-
-
-
         (
         a
         ,
         b
         )
         =
-
-
             {
-
-
-
                   min
                   (
                   a
                   ,
                   b
                   )
-
-
-
-
                       if
-
-
                   a
                   +
                   b
                   >
                   1
-
-
-
-
                   0
-
-
-
-
                       otherwise
-
-
-
-
-
-
-
-
-
-
     {\displaystyle \top _{\mathrm {nM} }(a,b)={\begin{cases}\min(a,b)&{\mbox{if }}a+b>1\\0&{\mbox{otherwise}}\end{cases}}}
-
 
 is a standard example of a t-norm that is left-continuous, but not continuous. Despite its name, the nilpotent minimum is not a nilpotent t-norm.
 
 Hamacher product
 
-
-
-
-
           ⊤
-
-
-
                 H
-
-
                 0
-
-
-
-
         (
         a
         ,
         b
         )
         =
-
-
             {
-
-
-
                   0
-
-
-
-
                       if
-
-
                   a
                   =
                   b
                   =
                   0
-
-
-
-
-
-
-
                         a
                         b
-
-
                         a
                         +
                         b
                         −
                         a
                         b
-
-
-
-
-
-
-
                       otherwise
-
-
-
-
-
-
-
-
-
-
     {\displaystyle \top _{\mathrm {H} _{0}}(a,b)={\begin{cases}0&{\mbox{if }}a=b=0\\{\frac {ab}{a+b-ab}}&{\mbox{otherwise}}\end{cases}}}
-
 
 is a strict Archimedean t-norm, and an important representative of the parametric classes of Hamacher t-norms and Schweizer–Sklar t-norms.
 
 Properties of t-norms
+
 The drastic t-norm is the pointwise smallest t-norm and the minimum is the pointwise largest t-norm:
 
-
-
-
-
           ⊤
-
-
               D
-
-
-
         (
         a
         ,
@@ -430,119 +224,75 @@ The drastic t-norm is the pointwise smallest t-norm and the minimum is the point
         b
         )
         ≤
-
-
             ⊤
-
               m
               i
               n
-
-
-
         (
         a
         ,
         b
         )
         ,
-
-
     {\displaystyle \top _{\mathrm {D} }(a,b)\leq \top (a,b)\leq \mathrm {\top _{min}} (a,b),}
-
  for any t-norm
-
-
-
         ⊤
-
-
     {\displaystyle \top }
-
  and all a, b in [0, 1].
 In particular, we have that:
 
-
-
-
-
           ⊤
-
-
               D
-
-
-
         (
         a
         ,
         b
         )
         ≤
-
           ⊤
-
-
               L
               u
               k
-
-
-
         (
         a
         ,
         b
         )
         ≤
-
           ⊤
-
-
               p
               r
               o
               d
-
-
-
         (
         a
         ,
         b
         )
         ≤
-
-
             ⊤
-
               m
               i
               n
-
-
-
         (
         a
         ,
         b
         )
         ,
-
-
     {\displaystyle \top _{\mathrm {D} }(a,b)\leq \top _{\mathrm {Luk} }(a,b)\leq \top _{\mathrm {prod} }(a,b)\leq \mathrm {\top _{min}} (a,b),}
-
  for all a, b in [0, 1].
 For every t-norm T, the number 0 acts as null element: T(a, 0) = 0 for all a in [0, 1].
+
 A t-norm T has zero divisors if and only if it has nilpotent elements; each nilpotent element of T is also a zero divisor of T. The set of all nilpotent elements is an interval [0, a] or [0, a), for some a in [0, 1].
 
 Properties of continuous t-norms
+
 Although real functions of two variables can be continuous in each variable without being continuous on [0, 1]2, this is not the case with t-norms: a t-norm T is continuous if and only if it is continuous in one variable, i.e., if and only if the functions fy(x) = T(x, y) are continuous for each y in  [0, 1]. Analogous theorems hold for left- and right-continuity of a t-norm.
+
 A continuous t-norm is Archimedean if and only if 0 and 1 are its only idempotents.
+
 A continuous Archimedean t-norm is strict if 0 is its only nilpotent element; otherwise it is nilpotent. By definition, moreover, a continuous Archimedean t-norm T is nilpotent if and only if each x < 1 is a nilpotent element of T. Thus with a continuous Archimedean t-norm T, either all or none of the elements of (0, 1) are nilpotent. If it is the case that all elements in (0, 1) are nilpotent, then the t-norm is isomorphic to the Łukasiewicz t-norm; i.e., there is a strictly increasing function f such that
-
-
-
 
         ⊤
         (
@@ -551,24 +301,14 @@ A continuous Archimedean t-norm is strict if 0 is its only nilpotent element; ot
         y
         )
         =
-
           f
-
             −
             1
-
-
         (
-
           ⊤
-
-
               L
               u
               k
-
-
-
         (
         f
         (
@@ -582,41 +322,28 @@ A continuous Archimedean t-norm is strict if 0 is its only nilpotent element; ot
         )
         )
         .
-
-
     {\displaystyle \top (x,y)=f^{-1}(\top _{\mathrm {Luk} }(f(x),f(y))).}
 
-
 If on the other hand it is the case that there are no nilpotent elements of T, the t-norm is isomorphic to the product t-norm. In other words, all nilpotent t-norms are isomorphic, the Łukasiewicz t-norm being their prototypical representative; and all strict t-norms are isomorphic, with the product t-norm as their prototypical example. The Łukasiewicz t-norm is itself isomorphic to the product t-norm undercut at 0.25, i.e., to the function p(x, y) = max(0.25, x ⋅ y) on [0.25, 1]2.
+
 For each continuous t-norm, the set of its idempotents is a closed subset of [0, 1]. Its complement—the set of all elements that are not idempotent—is therefore a union of countably many non-overlapping open intervals. The restriction of the t-norm to any of these intervals (including its endpoints) is Archimedean, and thus isomorphic either to the Łukasiewicz t-norm or the product t-norm. For such x, y that do not fall into the same open interval of non-idempotents, the t-norm evaluates to the minimum of x and y. These conditions actually give a characterization of continuous t-norms, called the Mostert–Shields theorem, since every continuous t-norm can in this way be decomposed, and the described construction always yields a continuous t-norm. The theorem can also be formulated as follows:
 
 A t-norm is continuous if and only if it is isomorphic to an ordinal sum of the minimum, Łukasiewicz, and product t-norm.
+
 A similar characterization theorem for non-continuous t-norms is not known (not even for left-continuous ones), only some non-exhaustive methods for the construction of t-norms have been found.
 
 Residuum
+
 For any left-continuous t-norm
 
-
-
         ⊤
-
-
     {\displaystyle \top }
 
 , there is a unique binary operation
 
-
-
         ⇒
-
-
     {\displaystyle \Rightarrow }
-
  on [0, 1] such that
-
-
-
-
         ⊤
         (
         z
@@ -625,14 +352,8 @@ For any left-continuous t-norm
         )
         ≤
         y
-
-
     {\displaystyle \top (z,x)\leq y}
-
  if and only if
-
-
-
         z
         ≤
         (
@@ -640,63 +361,31 @@ For any left-continuous t-norm
         ⇒
         y
         )
-
-
     {\displaystyle z\leq (x\Rightarrow y)}
-
 
 for all x, y, z in [0, 1]. This operation is called the residuum of the t-norm. In prefix notation, the residuum of a t-norm
 
-
-
         ⊤
-
-
     {\displaystyle \top }
-
  is often denoted by
-
-
-
-
-
-
               ⊤
               →
-
-
-
-
-
     {\displaystyle {\vec {\top }}}
-
  or by the letter R.
 The interval [0, 1] equipped with a t-norm and its residuum forms a residuated lattice. The relation between a t-norm T and its residuum R is an instance of adjunction (specifically, a Galois connection): the residuum forms a right adjoint R(x, –) to the functor T(–, x) for each x in the lattice [0, 1] taken as a poset category.
 In the standard semantics of t-norm based fuzzy logics, where conjunction is interpreted by a t-norm, the residuum plays the role of implication (often called R-implication).
 
 Basic properties of residua
+
 If
 
-
-
         ⇒
-
-
     {\displaystyle \Rightarrow }
-
  is the residuum of a left-continuous t-norm
-
-
-
         ⊤
-
-
     {\displaystyle \top }
 
 , then
-
-
-
 
         (
         x
@@ -718,15 +407,9 @@ If
         y
         }
         .
-
-
     {\displaystyle (x\Rightarrow y)=\sup\{z\mid \top (z,x)\leq y\}.}
 
-
 Consequently, for all x, y in the unit interval,
-
-
-
 
         (
         x
@@ -735,26 +418,14 @@ Consequently, for all x, y in the unit interval,
         )
         =
         1
-
-
     {\displaystyle (x\Rightarrow y)=1}
-
  if and only if
-
-
-
         x
         ≤
         y
-
-
     {\displaystyle x\leq y}
 
-
 and
-
-
-
 
         (
         1
@@ -764,49 +435,23 @@ and
         =
         y
         .
-
-
     {\displaystyle (1\Rightarrow y)=y.}
-
 
 If
 
-
-
         ∗
-
-
     {\displaystyle *}
-
  is a left-continuous t-norm and
-
-
-
         ⇒
-
-
     {\displaystyle \Rightarrow }
-
  its residuum, then
-
-
-
-
-
-
-
-
                 min
                 (
                 x
                 ,
                 y
                 )
-
-
                 ≥
-
-
                 x
                 ∗
                 (
@@ -814,21 +459,13 @@ If
                 ⇒
                 y
                 )
-
-
-
-
                 max
                 (
                 x
                 ,
                 y
                 )
-
-
                 =
-
-
                 min
                 (
                 (
@@ -848,24 +485,12 @@ If
                 x
                 )
                 .
-
-
-
-
-
-
     {\displaystyle {\begin{array}{rcl}\min(x,y)&\geq &x*(x\Rightarrow y)\\\max(x,y)&=&\min((x\Rightarrow y)\Rightarrow y,(y\Rightarrow x)\Rightarrow x).\end{array}}}
-
 
 If
 
-
-
         ∗
-
-
     {\displaystyle *}
-
  is continuous, then equality holds in the former.
 
 Residua of common left-continuous t-norms
@@ -873,18 +498,10 @@ If x ≤ y, then R(x, y) = 1 for any residuum R. The following table therefore g
 
 T-conorms
 T-conorms (also called S-norms) are dual to t-norms under the order-reversing operation that assigns 1 – x to x on [0, 1]. Given a t-norm
-
-
-
         ⊤
-
-
     {\displaystyle \top }
 
 , the complementary conorm is defined by
-
-
-
 
         ⊥
         (
@@ -906,10 +523,7 @@ T-conorms (also called S-norms) are dual to t-norms under the order-reversing op
         b
         )
         .
-
-
     {\displaystyle \bot (a,b)=1-\top (1-a,1-b).}
-
 
 This generalizes De Morgan's laws.
 It follows that a t-conorm satisfies the following conditions, which can be used for an equivalent axiomatic definition of t-conorms independently of t-norms:
@@ -921,22 +535,15 @@ Identity element: ⊥(a, 0) = a
 T-conorms are used to represent logical disjunction in fuzzy logic and union in fuzzy set theory.
 
 Examples of t-conorms
+
 Important t-conorms are those dual to prominent t-norms:
 
 Maximum t-conorm
 
-
-
-
           ⊥
-
-
               m
               a
               x
-
-
-
         (
         a
         ,
@@ -949,26 +556,16 @@ Maximum t-conorm
         ,
         b
         }
-
-
     {\displaystyle \bot _{\mathrm {max} }(a,b)=\max\{a,b\}}
 
 , dual to the minimum t-norm, is the smallest t-conorm (see the properties of t-conorms below). It is the standard semantics for disjunction in Gödel fuzzy logic and for weak disjunction in all t-norm based fuzzy logics.
 
 Probabilistic sum
 
-
-
-
           ⊥
-
-
               s
               u
               m
-
-
-
         (
         a
         ,
@@ -996,26 +593,15 @@ Probabilistic sum
         −
         b
         )
-
-
     {\displaystyle \bot _{\mathrm {sum} }(a,b)=a+b-a\cdot b=1-(1-a)\cdot (1-b)}
-
  is dual to the product t-norm. In probability theory it expresses the probability of the union of independent events. It is also the standard semantics for strong disjunction in such extensions of product fuzzy logic in which it is definable (e.g., those containing involutive negation).
 
 Bounded sum
 
-
-
-
           ⊥
-
-
               L
               u
               k
-
-
-
         (
         a
         ,
@@ -1030,220 +616,98 @@ Bounded sum
         ,
         1
         }
-
-
     {\displaystyle \bot _{\mathrm {Luk} }(a,b)=\min\{a+b,1\}}
-
  is dual to the Łukasiewicz t-norm. It is the standard semantics for strong disjunction in Łukasiewicz fuzzy logic.
 
 Drastic t-conorm
 
-
-
-
-
           ⊥
-
-
               D
-
-
-
         (
         a
         ,
         b
         )
         =
-
-
             {
-
-
-
                   b
-
-
-
-
                       if
-
-
                   a
                   =
                   0
-
-
-
-
                   a
-
-
-
-
                       if
-
-
                   b
                   =
                   0
-
-
-
-
                   1
-
-
-
-
                       otherwise,
-
-
-
-
-
-
-
-
-
-
     {\displaystyle \bot _{\mathrm {D} }(a,b)={\begin{cases}b&{\mbox{if }}a=0\\a&{\mbox{if }}b=0\\1&{\mbox{otherwise,}}\end{cases}}}
-
 
 dual to the drastic t-norm, is the largest t-conorm (see the properties of t-conorms below).
 
 Nilpotent maximum, dual to the nilpotent minimum:
 
-
-
-
-
           ⊥
-
-
               n
               M
-
-
-
         (
         a
         ,
         b
         )
         =
-
-
             {
-
-
-
                   max
                   (
                   a
                   ,
                   b
                   )
-
-
-
-
                       if
-
-
                   a
                   +
                   b
                   <
                   1
-
-
-
-
                   1
-
-
-
-
                       otherwise.
-
-
-
-
-
-
-
-
-
-
     {\displaystyle \bot _{\mathrm {nM} }(a,b)={\begin{cases}\max(a,b)&{\mbox{if }}a+b<1\\1&{\mbox{otherwise.}}\end{cases}}}
-
 
 Einstein sum (compare the velocity-addition formula under special relativity)
 
-
-
-
-
           ⊥
-
-
-
                 H
-
-
                 2
-
-
-
-
         (
         a
         ,
         b
         )
         =
-
-
-
               a
               +
               b
-
-
               1
               +
               a
               b
-
-
-
-
-
     {\displaystyle \bot _{\mathrm {H} _{2}}(a,b)={\frac {a+b}{1+ab}}}
-
 
 is a dual to one of the Hamacher t-norms.
 
 Properties of t-conorms
+
 Many properties of t-conorms can be obtained by dualizing the properties of t-norms, for example:
 
 For any t-conorm ⊥, the number 1 is an annihilating element: ⊥(a, 1) = 1, for any a in [0, 1].
+
 Dually to t-norms, all t-conorms are bounded by the maximum and the drastic t-conorm:
 
-
-
-
-
-
             ⊥
-
               m
               a
               x
-
-
-
         (
         a
         ,
@@ -1257,104 +721,63 @@ Dually to t-norms, all t-conorms are bounded by the maximum and the drastic t-co
         b
         )
         ≤
-
           ⊥
-
-
               D
-
-
-
         (
         a
         ,
         b
         )
-
-
     {\displaystyle \mathrm {\bot _{max}} (a,b)\leq \bot (a,b)\leq \bot _{\mathrm {D} }(a,b)}
 
 , for any t-conorm
 
-
-
         ⊥
-
-
     {\displaystyle \bot }
-
  and all a, b in [0, 1].
 In particular, we have that:
 
-
-
-
-
-
             ⊥
-
               m
               a
               x
-
-
-
         (
         a
         ,
         b
         )
         ≤
-
           ⊥
-
-
               s
               u
               m
-
-
-
         (
         a
         ,
         b
         )
         ≤
-
           ⊥
-
-
               L
               u
               k
-
-
-
         (
         a
         ,
         b
         )
         ≤
-
           ⊥
-
-
               D
-
-
-
         (
         a
         ,
         b
         )
-
-
     {\displaystyle \mathrm {\bot _{max}} (a,b)\leq \bot _{\mathrm {sum} }(a,b)\leq \bot _{\mathrm {Luk} }(a,b)\leq \bot _{\mathrm {D} }(a,b)}
 
 , for all a, b in [0, 1].
+
 Further properties result from the relationships between t-norms and t-conorms or their interplay with other operators, e.g.:
 
 A t-norm T distributes over a t-conorm ⊥, i.e.,
@@ -1362,9 +785,8 @@ T(x, ⊥(y, z)) = ⊥(T(x, y), T(x, z)) for all x, y, z in [0, 1],
 if and only if ⊥ is the maximum t-conorm. Dually, any t-conorm distributes over the minimum, but not over any other t-norm.
 
 Non-standard negators
+
 A negator
-
-
 
         n
         :
@@ -1379,36 +801,22 @@ A negator
         ,
         1
         ]
-
-
     {\displaystyle n\colon [0,1]\to [0,1]}
-
  is a monotonically decreasing mapping such that
-
-
-
         n
         (
         0
         )
         =
         1
-
-
     {\displaystyle n(0)=1}
-
  and
-
-
-
         n
         (
         1
         )
         =
         0
-
-
     {\displaystyle n(1)=0}
 
 .   A negator n is called
@@ -1416,8 +824,6 @@ A negator
 strict in case of strict monotonocity, and
 strong if it is strict and involutive, that is,
 
-
-
         n
         (
         n
@@ -1427,24 +833,12 @@ strong if it is strict and involutive, that is,
         )
         =
         x
-
-
     {\displaystyle n(n(x))=x}
-
  for all
-
-
-
         x
-
-
     {\displaystyle x}
-
  in [0, 1].
 The standard (canonical) negator is
-
-
-
 
         n
         (
@@ -1455,7 +849,6 @@ The standard (canonical) negator is
         −
         x
         ,
-
         x
         ∈
         [
@@ -1463,20 +856,17 @@ The standard (canonical) negator is
         ,
         1
         ]
-
-
     {\displaystyle n(x)=1-x,\ x\in [0,1]}
 
 ,
 which is both strict and strong. As the standard negator is used in the above definition of a t-norm/t-conorm pair, this can be generalized as follows:
+
 A De Morgan triplet is a triple (T,⊥,n) such that
 
 T is a t-norm
+
 ⊥ is a t-conorm according to the axiomatic definition of t-conorms as mentioned above
 n is a strong negator
-
-
-
 
         ∀
         a
@@ -1489,12 +879,9 @@ n is a strong negator
         1
         ]
         :
-
         n
         (
-
           ⊥
-
         (
         a
         ,
@@ -1514,8 +901,6 @@ n is a strong negator
         b
         )
         )
-
-
     {\displaystyle \forall a,b\in [0,1]\colon \ n({\perp }(a,b))=\top (n(a),n(b))}
 
 .

@@ -1,12 +1,17 @@
 Celia is an artificially intelligent virtual assistant developed by Huawei for their latest HarmonyOS and Android-based EMUI smartphones that lack Google Services and a Google Assistant. The assistant can perform day-to-day tasks, which include making a phone call, setting a reminder and checking the weather. It was unveiled on 7 April 2020 and got publicly released on 27 April 2020 via an OTA update solely to selected devices that can update their software to EMUI 10.1.
+
 Huawei had initially referred to the new assistant in late 2019 by having announced that there would be an English version of their already 2018 Chinese speaker assistant—Xiaoyi—to be released into the European markets. Due to the on-going China–United States trade war, the company's newly released smartphones were left without any Google services, including the loss of Google Assistant. This subsequently led to the development and release of Celia.
+
 AI technology is integrated into the software of Celia, which allows it to translate text using a phones camera and to identify everyday objects — similar to that of Google Lens.
 
 Features
+
 Celia has many features that are similar to that of its rivals: the Google Assistant and Siri. It can be triggered by the words, 'Hey Celia' or be summoned by pressing and holding down on the power button. The default search engine for Celia is Bing, but this can be changed in settings. Celia can make calls, check the agenda, send a message, show the weather, set alarms and control home appliances. The assistant also has the ability to integrate itself with the stock apps of the EMUI software and toggle with the device's settings, such as by turning on the flashlight and playing multimedia content, but with the users command. With the AI that is installed in Celia, it can identify food, everyday objects and translate text using the phones camera.
+
 In China, Chinese Xiaoyi packs with an LLM model called PanGu-Σ 3.0 AI on HarmonyOS 4.0 major upgrade improvements from Celia, making the assistant smarter and more advanced compared to when it was launched in 2020 on EMUI handsets in China and internationally, surpassing Apple and Google by the being the first in the AI industry, with a dedicated AI system framework of APIs on the latest operating system that evolves to a complete large dedicated AI software stack called Harmony Intelligence of Pangu Embedded variant model and MindSpore AI framework with Neural Network Runtime on OpenHarmony-based HarmonyOS NEXT base system to replace the dual framework system with a single frame HarmonyOS 5.0 version by Q4 2024, first introduced on June 21, 2024 in Developer Beta 1 preview release at HDC 2024.
 
 Availability by country and language
+
 Currently, Celia is available only in German, English, French and Spanish, and has been released in Germany, the UK, France, Spain, Chile, Mexico and Colombia. Huawei has said, that there will be more regions and languages to come.
 
 Compatible devices
@@ -18,6 +23,7 @@ Huawei P40 (Lite, Pro & Pro+)
 Huawei P30 (Pro)
 
 Huawei Mate series
+
 Huawei Mate 40
 Huawei Mate 30 (Lite, Pro & RS Porche Design)
 Huawei MatePad Pro
@@ -33,4 +39,5 @@ Huawei Enjoy series
 Huawei Enjoy 10S
 
 Issues
+
 Technology news website Engadget has noted that when saying, 'Hey Celia', out aloud in the presence of an iPhone, Siri will respond along with Celia; this is apparently because 'Celia' sounds similar to 'Siri'.

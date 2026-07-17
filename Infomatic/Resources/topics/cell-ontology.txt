@@ -1,2 +1,3 @@
 The Cell Ontology is an ontology that aims at capturing the diversity of cell types in animals. It is part of the Open Biomedical and Biological Ontologies (OBO) Foundry. The Cell Ontology identifiers and organizational structure are used to annotate data at the level of cell types, for example in single-cell RNA-seq studies. It is one important resource in the construction of the Human Cell Atlas.
+
 The Cell Ontology was first described in an academic article in 2005.

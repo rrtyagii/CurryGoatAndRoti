@@ -1,11 +1,15 @@
 Manna is a 2003 science fiction novel by Marshall Brain that explores several issues in modern information technology, automation and economics, as well as user interfaces and transhumanism.
 
 Plot summary
+
 The fictional story is set on an unspecified date in the future and begins in Cary, North Carolina.  The narrator recalls his first minimum wage job at Burger-G fast food joint in the early 21st century, and describes the Manna system, which was installed there as a simple store management tool that guided the minimum-wage workers via headset.  He describes how advances in networking, robotics, and computer-vision drove the Manna system to dominate the service industry, leading to mass unemployment and extreme income inequality.  After Manna finally takes over his current education job he is forced into a massive, cheaply built government welfare housing project, with little hope of regaining employment or escaping.  After a year in the housing projects he is visited by two women who tell him that because his father bought stock in the Australia Project years prior, he's invited to live in Australia, an advanced society with Universal Basic Income.  The narrator leaves the dystopian United States for Australia, and goes on to learn about, and live in, the Australia Project.
+
 The novel imagines the future US, which has a libertarian economic system that leaves most Americans unemployable and living in cramped housing projects, where they are fed and kept safe like farm animals. Birth control medicine in the water prevents them from having children, indicating the wealthy few who rule the US intend for them to die off. In contrast, in the Australia Project, everyone has access to the goods provided by automation.
 
 Themes
+
 Manna is meant to be a thought-provoking read or conceptual prototype rather than an entertaining novel. The novel shows two possible outcomes of the 'robotic revolution' in the near future: one outcome is a dystopia based around US capitalism and the other is a utopia based upon a communal and technological society in Australia.  Essentially, the two differ in that lower-class humans in the dystopic society have been left unmodified and are controlled by AI "managers" to the point of slavery, while humans in the utopian society more directly and efficiently participate in the management of the society as a whole and most or all willingly accept implanted AI aids.
+
 Some technological and social themes explored:
 
 brain-computer interface
@@ -18,7 +22,11 @@ welfare economics and a basic income
 Positions and assumptions presented in the novel include:
 
 Insertion of an AI management system between workers and decision makers results in a loss of upward mobility in a society due to the impossibility of workers ever becoming actual managers.
+
 The acceptance of nervous system modification and integration of human and machine consciousness into what is considered "human" is accordingly presented as a path to liberation and practical egalitarianism.
+
 Capitalism is inherently hierarchical and cannot be easily reconciled with abundance, it will by definition move more resources into the hands of the property owners and destitute all others - the novel shares this assumption with classic Marxism.
+
 Privacy is largely incompatible with human safety in a utopian environment.
+
 The book can be read online for free (see link below).

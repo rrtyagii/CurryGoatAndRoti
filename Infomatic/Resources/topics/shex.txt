@@ -1,13 +1,20 @@
 Shape Expressions (ShEx)  is a data modelling language for validating and describing a Resource Description Framework (RDF).
+
 It was proposed at the 2012 RDF Validation Workshop as a high-level, concise language for RDF validation.
+
 The shapes can be defined in a human-friendly compact syntax called ShExC or using any RDF serialization formats like JSON-LD or Turtle.
+
 ShEx expressions can be used both to describe RDF and to automatically check the conformance of RDF data.
+
 The syntax of ShEx is similar to Turtle and SPARQL while the semantics is inspired by regular expression languages like RelaxNG.
 
 Example
+
 The previous example declares that nodes conforming to shape Person must have one property schema:name with a string value and zero or more properties schema:knows whose values must conform with shape Person.
 
 Implementations
+
 Online playgrounds and demos
+
 ShExSimple: Online demo based on shex.js (link rot?)
 rdfshape: online demo based on shaclex Archived 2018-11-19 at the Wayback Machine

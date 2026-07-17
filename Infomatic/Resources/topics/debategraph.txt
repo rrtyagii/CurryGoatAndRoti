@@ -1,7 +1,11 @@
 For argument mapping, a Debategraph is a web-based, collaborative idea visualization tool, focusing on online deliberation about complex public policy issues.
+
 It has been used by the White House, the UK Foreign and Commonwealth Office, the Amanpour series on CNN, and The Independent newspaper and was named as one of the Best Websites for Teaching and Learning by the American Association of School Librarians in 2010.
+
 Debategraph is a social venture. Content posted on Debategraph is licensed under a CC BY-SA 3.0 license.
 
 History
+
 Debategraph was co-founded in March 2008 by the former Australian Minister for Higher Education Peter Baldwin and David Price.
+
 Rachele Meda and Tiziano Peccia discuss the use of DebateGraph as a tool for deliberative argumentation in their article “Argumentation, DebateGraph and Capital Punishment: new frontiers for Peace Studies and E-democratically based deliberation” (2016). They analyze a DebateGraph map on capital punishment, noting its significance for Peace Studies and for democratic deliberation in countries such as the United States, India, and China. The authors also highlight the platform’s adoption by policymakers, including its use by the White House and the UK Foreign and Commonwealth Office.

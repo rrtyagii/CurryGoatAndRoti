@@ -1,4 +1,5 @@
 Set partitioning in hierarchical trees (SPIHT) is an image compression algorithm that exploits the inherent similarities across the subbands in a wavelet decomposition of an image. The algorithm was developed by Brazilian engineer Amir Said with William A. Pearlman in 1996.
 
 General description
+
 The algorithm codes the most important wavelet transform coefficients first, and transmits the bits so that an increasingly refined copy of the original image can be obtained progressively.

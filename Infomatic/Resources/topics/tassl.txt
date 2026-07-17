@@ -1,2 +1,3 @@
 The Application Software Systems Laboratory (TASSL) is a research lab, as a part of Center for Advanced Information Processing (CAIP), and Department of Electrical and Computing Engineering at Rutgers University . It is under the direction of Dr. Manish Parashar and the current research fields include Autonomic Computing, Parallel Computing and Distributed Computing, Grid Computing, Peer-to-peer Computing, Adaptive Computing Systems, and Scientific Computation..
+
 It is one of the leading research groups in the field of Autonomic Computing and adaptive computation systems.

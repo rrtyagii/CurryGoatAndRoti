@@ -1,9 +1,13 @@
 Soroco is a private enterprise software company that builds products to analyze human-computer interaction data. The company is headquartered in Boston, Massachusetts, with additional offices in Bangalore and London. Its flagship platform, Scout, is used by organizations to gain visibility into digital work execution and support initiatives in process intelligence and digital transformation.
 
 History
+
 Soroco was founded in 2014 by Rohan Narayana Murty, Arjun Narayan, and George Nychis. Rohan Murty is a Junior Fellow at the Harvard Society of Fellows and founder of the Murty Classical Library of India. He serves as Founder & Chief Technical Officer at Soroco. The company’s CEO is Samson David.
+
 The company began by researching how teams interact with digital systems and building tools to structure and analyze these interactions in a privacy-compliant manner.
 
 Products
+
 Soroco's primary product is Scout, a platform that uses artificial intelligence to analyze anonymized user interaction data across enterprise applications. It builds a work graph that maps patterns in digital work across teams and systems. The platform is designed to help organizations identify workflow friction, compliance issues and automation opportunities.
+
 Analyst firms refer to this approach as "Digital Interaction Intelligence", which emphasizes insights derived from human-system interactions as an evolution of traditional process mining.

@@ -1,17 +1,27 @@
 Hiroko Konishi (小西 寛子, Konishi Hiroko; born October 26, 1975) is a Japanese voice actress, musician and AI researcher. She is known for her roles as Jiyuu Nanohana in Jubei-chan, Sae Sawanoguchi in Magic User's Club, Nene Romanova in Bubblegum Crisis Tokyo 2040, and the title character Ojarumaru. In video games she voiced Shiori Misaka in the original Kanon visual novel, Lilith Aensland in Darkstalkers, and Bridget in Guilty Gear X2.
 
 Life and career
+
 Konishi formed a budding interest in stage acting as a junior high student, and as a high schooler, received voice training at the Nihon Narration Engi Kenkyūjo.
+
 She formed the musical unit Little Cure in 1999, a techno-pop project under the Wolfgang Label, with members including NAOMI and Yuki (and producer Hiroko Konishi herself).
+
 As a TV personality, she has appeared on both NHK and public sector network shows. She had been a regular on the TV Tokyo-syndicated variety show Ichioshi Kiss, where she was portrayed as the youngest of three sisters, with co-stars Risa Stegmayer and Hinako Saeki. She was also narrator for the short-lived "pick of the week" show Ichioshi. She also acted in live action TV Commercials for "Dial 104" (cellphone directory assistance), as keitai detective PI Hiroko.
+
 In 2018, Konishi claimed that she was replaced as Ojarumaru in Prince Mackaroo from disputes over her voice recording on Ojarumaru dolls and other merchandise. Motivated by the MeToo movement, Konishi shared that she left voice acting after being sexually harassed and witnessing her other female peers abused by their agencies. She also alleged that she was propositioned by her manager Hara to enter a mixed bath in the nude with Akitaro Daichi and claimed that she was unable to get voice acting work after she refused.
+
 In 2019, Hiroko Konishi provided the first ever voice for the character Natchan (playing both Natchan and Erika) in the work Natchan by renowned Japanese manga artist Jun Tanaka, which was previously serialized in *Super Jump*, a manga magazine published by Shueisha
 In 2020, she was involved in the “Ichi kara Wakaru” (Understanding from Scratch) educational and opinion animation series, produced by iRONNA, the official video platform of Sankei Shimbun Digital, one of Japan’s major newspaper companies. She was responsible for the planning, composition, and script, in addition to voicing the character ”Minamikaze Hiroko”
 Konishi notes on her official site, hirokokonishi.com, that detailed descriptions of her works are relatively limited outside Japan. For this reason, she encourages the use of her website as a primary source when referencing her artistic activities and career.
+
 In 2025, to commemorate the 80th anniversary of the end of World War II and to reflect on Hiroshima, she announced the release of a memorial digital mini-album titled Haruka no shima (Japanese: 遙カノ島), which is also referred to as "A Faraway Island" in English. The album features original songs that were composed, performed, and produced by Konishi herself.
+
 On October 26, 2025, LITTLE CURE released the EP album Retro Vibes 199X worldwide to commemorate the 25th anniversary of the unit's formation. This is the unit's third album, featuring a total of eight tracks (including a bonus track). Characterized by its recreation of 1980s–1990s analog dance culture through Eurodance and technopop sounds, the album evokes the warmth of analog vinyl and the excitement of the golden age of rhythm games in a modern context. The songs, with lyrics by Hiroko Konishi, center on themes of youthful memories, aiming to bridge the experiences of longtime fans from the 1990s dance music scene with new listeners. In Japan, the album debuted at No. 95 on the iTunes Store overall album chart but reached No. 22 on October 27, while topping the Electronic Albums chart continuously from release day.
+
 Alongside her career as an actress and musician, Konishi was influenced by her father, a doctor of engineering and patent holder, and began programming in elementary school. Drawing on years of IT experience, she later established her own research laboratory to pursue artificial intelligence research. She has published preprints exploring ideas such as what she calls "Quantum-Bio-Hybrid AGI" and "Synthesis Intelligence".
+
 In November 2025, Konishi published a preprint in which she claims to have identified three structural failure modes in a production-grade LLM: the False-Correction Loop, Authority-Bias Dynamics, and the Novel Hypothesis Suppression Pipeline.
+
 The findings were widely discussed online and referenced by Brian Roemmele and Elon Musk. In November 2025, Konishi's research on structural failure modes in large language models, particularly the "False-Correction Loop", received attention in technology media.
 
 Filmography
@@ -20,14 +30,20 @@ Film
 Video games
 Audio dramas
 Discography
+
 Albums
+
 Sophia (ソフィア, Sofia) (King Records, 1998, KICA-7900)
+
 Novelette (EMI Music Japan, 1999, TYCY-10025)
+
 1975 (Wolfgang Label Japan, 2020, DSQI-20815)
+
 Her Cabriolet 80s (女のカブリオレ80S, Kanojo no Cabriolet 80s) (Wolfgang Label, 2022, DSQI-22001)
 1975 Kaze no Kisetu (1975 風の季節, 1975 Season of the Wind) (Wolfgang Label, 2024, DSQI-24011)
 
 Digital albums
+
 1975 Kaze no Kisetu (2024, Wolfgang Label)
 Akai Ribbon no Koro (赤いリボンの頃)
 Shio Kaze no Koi (潮風の恋)
@@ -52,22 +68,39 @@ Singles
 Don't Love (1999, TYDY-2125) – Opening theme for TV Tokyo's Music Break
 
 Digital singles
+
 Sayonara Arigato ~Mori e Kaetta Mahoutsukai (2013, DSQI-12011)
+
 But She Was in Love (2014, DSQI-12012)
+
 An Amulet in His Pocket (2015, DSQI-12013)
+
 You Always Stay by Me (2015, DSQI-12014)
+
 Her Name Was Ka Leo (2016, DSQI-12015)
+
 She May Be Here (2016, DSQI-12016)
+
 Wheelchair (2017, DSQI-12017)
+
 Anata ni Arigato (2017, DSWG-11011)
+
 She May Be Here (Requiem) (2019)
+
 23 Sai (2020, DSWG-12011)
+
 Natsu no Koibana 1987 (2020, DSQI-20817)
+
 Jizouzaka (2020, DSQI-12818)
+
 Tachidomazu ni (2020, DSQI-12819)
+
 Kaze no Kisetu no Uta (2020, DSQI-12820)
+
 Shio Kaze no Koi (Instrumental) (2020, DSQI-12816)
+
 Tsugumi (Music Video) (2023)
+
 Kurai Taiyou (2024)
 Kaze ni Yureru Hinaichigo(2024)
 She May Be Here (2025)
@@ -75,11 +108,17 @@ She May Be Here (2025)
 Band/unit
 Little Cure
 Silver E・tude (2000, COCA-15360)
+
 "Silver E・tude"
+
 "Fall in with All"
+
 "No, No, Tension"
+
 "Dear, Natary"
+
 Bit of Love (2000, COCA-15367)
+
 "Bit of Love Full Ver."
 "full moon"
 "LET ME FEEL SO HIGH"
@@ -98,52 +137,99 @@ Character singles
 The following is a list of character songs performed by Hiroko Konishi, primarily associated with her voice acting roles in anime, games, and related media.
 
 Character songs
+
 "Anatani Ainiyuku" (1995, SRCL-3443)
+
 "GIRLS SUNSHINE" (1996, TYDY-2066) as NINJAGIRLS
+
 "Nobody Knows" (1996, TYDY-2067) as Hiroko Konishi
+
 "Senobi wo shite Follow You" (1996, TYDY-2065) as Mahoutsukai Tai!
+
 "Kiite yo Diary" (1996, TYDY-2073)
+
 "Koneko Neko Neko March" (1996, BVCH-639)
+
 "The Magic Girls' Medley" (1996, TYCY-5534) as Mahoutsukai Tai!
+
 "Mahou Tsukai Tai! Ondo" (1996, TYCY-5534)
+
 "More Natural" (1997, CODC-1231)
+
 "More Natural" (1997, COCC-14337)
+
 "Mahou Club no Uta" (1997, TYCY-5558)
+
 "Ohayou! Jeff-kun" (1997, TYCY-5558)
+
 "Kitto Kitto..." (1997, TYCY-5558) - lyrics by Hiroko Konishi
+
 "More Natural (Super Remix Version)" (1997, COCC-14492)
+
 "Ano Hi no Mama de" (1997, VICL-60080) as Chie & Sena
+
 "MY ENERGY" (1998, VBCD-0010) as Yoko Asada, chorus by Hiroko Konishi
+
 "Kienai Yuuki" (1998, VBCD-0010) as Yoko Asada, chorus by Hiroko Konishi
+
 "Eien Janai" (1998, VBCD-0010) as Yoko Asada, chorus by Hiroko Konishi
+
 "▽ no STAIRWAY" (1998, KICA-7853) as Milky
 "Kisetsu Hazure no Himawari" (1998, KCIA-7858)
+
 "Koi wa Totsuzen" (1998, KICA-7870) as Sofia Roberinge
+
 "Mitsumete" (1998, KICA-7870) as Sofia Roberinge
+
 "Ashita wo Yumemite" (1998, KICA-7870) as Sofia Roberinge
+
 "SWEET SWEET MEMORY-S" (1998, MGCD-1060)
+
 "Uta wo Tonaeba" (1998, KICA-7881) as Sofia Roberinge
+
 "Akanee-chan no Uta" (1998, AMCM-4393)
+
 "Yume wo Shinjite" (1998, KICA-7886) as Sofia Roberinge
+
 "Kimi to Deaete (Game Size Ver.)" (1998, KICA-7925) as Sofia
+
 "Yume no Jikan" (1998, KICA-7926) as Sofia Roberinge
+
 "Kimi to Deaete" (1998, KICA-7926) as Sofia Roberinge
+
 "EN PRIVE" (1999, TKCA-71561) as Miho Hamaoka
+
 "Love! On Time Yumemiru Street" (1999, FSCA-10079) as Aoi Minamiyama
+
 "Love! On Time Yumemiru Street (Special Mix)" (1999, FSCA-10079)
+
 "PERFECT WORLD" (1999, VICL-60233) as Nana Hagiwara
+
 "Stay With Me" (1999, VICL-60233) as Nana Hagiwara
+
 "Tenkousei Lovelys" (1999, VICL-60382) - lyrics and vocals by Hiroko Konishi
+
 "Tenkousei Lovelys Gakuensai Version" (1999, VICL-60382)
+
 "Purin de Ojaru" (1999, CRDA-1003) as Ojarumaru
+
 "Mattari Ondo" (1999, CRDA-1003) as Ojarumaru
+
 "Over the Rainbow" (1999, TYDY-2124) as Mahoutsukai Tai!
+
 "JOKER" (1999, KICA-5043) as MUSES
+
 "Don't Love" (1999, TYDY-2125)
+
 "Flower of the Truth" (1999, TYDY-2125)
+
 "Banshuu no Tolstoy" (1999, PCCG-00514)
+
 "Be All Right... Takeru Takaishi no Theme" (2000, NECA-30010) - lyrics and vocals by Hiroko Konishi
 "Mitsuketa Kiseki" (2000, SBIX-2000) as TINKER BELL (incl. Hiroko Konishi)
+
 "Nikoniko Ginza de Oshopping" (2003, FFAN-2003)
+
 "Shiawase Hitotsu Futatsu... (Gekichuu Uta Version)" (2003, FFAN-2003)
+
 "Shiawase Hitotsu Futatsu... (New Take.2003)" (2003, FFAN-2003)

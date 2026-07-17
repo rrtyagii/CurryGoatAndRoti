@@ -1,9 +1,13 @@
 Elly Savatia (born 2001) is a Kenyan entrepreneur and innovator, best known as the founder of the technology startup Signvrse and creator of Terp 360, an artificial intelligence-powered application that translates speech and text into sign language using 3D avatars. In 2025, he won the Royal Academy of Engineering’s Africa Prize for Engineering Innovation for his work on the project.
 
 Career
+
 Savatia founded the Nairobi-based startup Signvrse in the early 2020s for digital accessibility for the deaf and hard-of-hearing community across Africa. At the age of 24, he launched Terp 360, which has been described as a "Google Translate for sign language." The platform uses artificial intelligence and motion-captured data to render real-time sign language translations via photorealistic 3D avatars.
+
 The app was developed in collaboration with deaf Kenyans, recording over 2,300 signs, including common phrases and words in Kenyan Sign Language (KSL). According to Savatia, the AI is trained using motion sensors that capture a signer's hand movements and gestures in three-dimensional space.
+
 By mid-2025, Terp 360 reached over 2,000 users and was piloted in schools, hospitals, and workplaces to assist communication between deaf and hearing people.
 
 Recognition
+
 In October 2025, Savatia was awarded the Africa Prize for Engineering Innovation by the Royal Academy of Engineering in a ceremony held in Dakar, Senegal. He received £50,000 for winning the competition, which honours African entrepreneurs using engineering and technology to address local challenges.

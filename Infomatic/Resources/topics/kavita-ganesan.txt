@@ -1,23 +1,36 @@
 Kavita Annapoorani Ganesan is a Malaysian-born author, data scientist and AI consultant known for her research in the fields of artificial intelligence, machine learning, and natural language processing. She wrote the book, The Business Case for AI and founded the company Opinosis Analytics. Her works have been cited over 1500 times according to Google Scholar.
 
 Education
+
 Ganesan has a master’s degree in computer science from the University of Southern California and a Ph.D. in computer science and machine learning from the University of Illinois Urbana-Champaign.
 
 Career
+
 Ganesan worked as a scientist for the software development platform GitHub. In 2017, she brought the first machine learning (ML) pipeline to GitHub with the launch of GitHub Topics. While working at GitHub, Ganesan founded the Utah-based AI and machine learning company Opinosis Analytics.
+
 In 2021, Ganesan was nominated for the Rising Star Award at VentureBeat's Women in AI Awards.
+
 In 2022, Ganesan published the book The Business Case for AI: A Leader’s Guide to AI Strategies, Best Practices & Real-World Applications.
+
 In 2023, her book The Business Case for AI was the runner up in the San Francisco Book Festival’s Technology category and also  won Gold Medal in Business Life Category in the2023 Global Book Awards. The book also won an award in the 2nd Quarter 2023 Firebird Book Awards.
 
 Research
+
 Ganesan’s background is in natural language processing (NLP), search technologies, and machine learning. Her work has been cited in over 1500 papers.
+
 Ganesan has researched applications for artificial intelligence in fields such as knowledge management and search engines.
+
 In addition to her research on artificial intelligence, Ganesan has also researched topics such as record linkage, data analysis for clinical notes and written opinions, and data mining for e-commerce.
+
 Ganesan has patents for software systems and methods used for visualizing reputation ratings, activity-based recommendations, and search clustering.
 
 Selected publications
+
 Ganesan, K. (2022). The Business Case for AI: A Leader's Guide to AI Strategies, Best Practices & Real-World Applications. United States: Opinosis Analytics Publishing. ISBN 9781544528717
 Ganesan, K., Zhai, C., & Han, J. (2010, August). Opinosis: A graph based approach to abstractive summarization of highly redundant opinions. In Proceedings of the 23rd international conference on computational linguistics (Coling 2010) (pp. 340–348).
+
 Ganesan, K., & Zhai, C. (2012). Opinion-based entity ranking. Information Retrieval, 15, 116-150.
+
 Ganesan, K., Zhai, C., & Viegas, E. (2012, April). Micropinion generation: an unsupervised approach to generating ultra-concise summaries of opinions. In Proceedings of the 21st International Conference on World Wide Web (pp. 869–878).
+
 Ganesan, K. (2018). Rouge 2.0: Updated and improved measures for evaluation of summarization tasks. arXiv preprint arXiv:1803.01937.

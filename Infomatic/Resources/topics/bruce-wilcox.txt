@@ -1,20 +1,33 @@
 Bruce Wilcox  is an artificial intelligence programmer.
 
 Work
+
 MTS/LISP and Computer Go
+
 A graduate of Michigan, Wilcox wrote the MTS/LISP interpreter (the LISP system used at the University of Michigan and a consortium of other places including UPenn and Brown) back in the early 1970s, in order to be able to write a Go program for Dr. Walter Reitman. (Carole Hafner wrote the compiler.) The Go program was the first one to be able to give a 9-stone handicap to a human beginner and win.
+
 He wrote a Go program for the IBM-PC in the early 80's called NEMESIS Go Master, which became the first Go program to be released in Japan (as Taikyoku Igo).
+
 Wilcox co-founded Toyogo, Inc., a company that created the first handheld Go machine (1987–2004). The company later went bankrupt.
+
 In the field of Go, Wilcox co-authored a book called EZ-GO, Oriental Strategy in a Nutshell, and interactive software "books" Go Dojo: Contact Fights and Go Dojo: Sector Fights.
 
 Later work
+
 He was the "AI Guru" for 3DO (1995–2003) working on games such as the Army Men series (PC), Army Men: Green Rogue (PS2), Godai Elemental Force (PS2), and Jacked (PS2). He consulted for Fujitsu Labs (2003–2007) in a number of areas including motion sensing. Wilcox worked at the women's mobile company LimeLife (2005–2008).
+
 Wilcox worked as a core engineer at Telltale Games from 2010 to 2012, working on games such as Poker Night at the Inventory, Back to the Future, Jurassic Park,  Hector: Badge of Carnage, and Walking Dead.
 
 Chatbot Technology
+
 Wilcox worked on a chatbot technology for Avatar Reality called CHAT-L.  His chatbot Suzette was released into the 2009 Chatterbox Challenge and did well, winning Best New Bot and coming in second most popular. It then won the 2010 Loebner Prize, fooling one of four human judges. The Loebner entry was written in ChatScript, a language redesigned from CHAT-L. The engine is an open source project at SourceForge. and GitHub.
+
 He won the 2011 Loebner Prize with a new chatbot, Rosette. His bot Angela came in 2nd in 2012. In 2013 his bot Rose came in 3rd.
+
 In June 2012, Outfit7 released a popular ChatScript app called "Tom Loves Angela", scripted primarily by Bruce and his wife Sue. The chatbot, Angela, came in 3rd in ChatbotBattles 2012, won the prize for best 15-minute conversation, and placed 2nd in the Loebner prize.
+
 He and his wife Sue founded the natural language company Brillig Understanding in 2012.
+
 Bruce's bot Rose won the 2014 Loebner Prize  and again in 2015. He describes his chatbot design philosophy during an interview with the Data Skeptic podcast, where he also shares his thoughts about whether advances in machine learning and natural language processing could ever lead to more human-like chatbots.
+
 In 2016, he founded SapientX along with David Colleen and Maclen Marvit.

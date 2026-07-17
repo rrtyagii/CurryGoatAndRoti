@@ -1,48 +1,82 @@
 The NO FAKES Act or the Nurture Originals, Foster Art, and Keep Entertainment Safe Act, is proposed United States federal legislation concerning digital replicas. The bill was first introduced in 2023 as a discussion draft, formally introduced in 2024, and reintroduced in 2025. If enacted, the bill would establish a federal right of publicity, giving public figures and private individuals greater control over the creation and use of digital replicas of their likenesses, including artificial intelligence (AI)-generated content.
+
 If passed, the NO FAKES Act would create a legal framework for licensing digital replicas, including provisions for liability, safe harbors, and statutory exceptions. The proposal has received broad support from the entertainment and technology industries. However, digital rights organizations have raised concerns that the Act risks chilling protected speech.
 
 Background
+
 Entertainment industry concerns
+
 Actors’ concerns over studios' use of their digital likeness were one of the primary drivers of the Screen Actors Guild–American Federation of Television and Radio Artists (SAG-AFTRA) strike in 2023. Negotiators for SAG-AFTRA alleged that the Alliance of Motion Picture and Television Producers (AMPTP) sought to use the digital likenesses of actors in perpetuity and would try to replace union members, especially background actors. The AMPTP denied SAG-AFTRA's interpretation of its proposal. In November 2023, AMPTP and SAG-AFTRA reached an agreement on the use of actors’ digital replicas, which included requirements for consent and compensation.
+
 Recording labels have also expressed concerns over unauthorized digital replicas of their performers’ likeness. In 2023, TikTok user Ghostwriter977 released "Heart on My Sleeve," an AI-produced song in the styles of Drake and the Weeknd. After the song received millions of streams, the Universal Music Group (UMG) initiated takedown requests to TikTok and YouTube, which removed the song from their platforms. The legal arguments attorneys made were not disclosed; however, commentators noted that they likely used the Digital Millennium Copyright Act (DMCA). This presented a novel scenario, since UMG did not have licensing rights to "Heart on My Sleeve." According to The Verge, UMG based its DMCA takedown request on an unauthorized sample used at the start of the song for the producer tag. While legal commentators noted that UMG could have asserted a violation of the artists’ rights of publicity, existing state right of publicity laws do not provide notice-and-takedown mechanisms comparable to those under the DMCA.
 
 Legal landscape
+
 Legal scholars have observed that AI-generated digital replicas raise questions under existing copyright and intellectual property law. U.S. copyright law generally requires that original authorship be attributable to a human; however, the extent of human intervention needed to satisfy this requirement is not clear. Copyright holders have filed lawsuits against AI companies alleging unauthorized usage of copyrighted material to train their models, though many of these cases remain pending. In terms of outputs, record labels often hold rights to artists’ musical works but do not necessarily control the artists’ voice, appearance, or likeness in the same way. As a result, AI-generated recordings such as "Heart on My Sleeve" may fall outside the scope of certain traditional copyright protections.
+
 Individuals’ likenesses have historically been governed under the Lanham Act, the Federal Trade Commission Act, and right of publicity laws. The right of publicity, recognized in many state-level statutes and common law, allows individuals to bring legal claims against unauthorized commercial use of their identities. It has often, but not exclusively, been applied to celebrities or other recognizable individuals.
+
 There is no federal-level right to publicity, and state-level protections vary, especially on issues relating to digital replicas and posthumous rights, which makes it difficult for creators or other individuals to prevent unauthorized use of their likenesses. In July 2024, the U.S. Copyright Office released a report on digital replicas and recommended that Congress create a federal law to protect individuals from unauthorized uses of their digital replicas, noting the inadequacy, narrowness, and inconsistency of existing laws.
 
 Provisions
+
 Under the NO FAKES Act of 2025, a digital replica is defined as "a newly created, computer-generated, highly realistic electronic representation that is readily identifiable as the voice or visual likeness of an individual," living or dead. A digital replica can be embodied in sound recordings, images, or audiovisual works in which the individual did not perform or in which the individual did perform but the "fundamental character of the performance or appearance has been materially altered." The Act specifies that digital replicas do not include reproduced samples of works authorized by the copyright holder.
+
 The Act defines a "right holder" as either the individual who is the subject of a digital replica or an entity that has acquired the rights to that individual’s likeness.
+
 The Act grants right holders the exclusive right to authorize the use of an individual’s likeness in a digital replica. This right is not assignable during the individual’s lifetime; however, it can be licensed to a living individual for up to 10 years under certain conditions.
+
 Postmortem rights
+
 The Act provides that the right does not automatically expire upon an individual’s death. It may be transferred to executors, heirs, or other parties designated by the individual. The right is held by the right holder for 10 years following the individual’s death. If the right holder demonstrates active use of the digital replica within the 2 years preceding the end of the 10-year term, the right may be extended for an additional 5-year period. These five-year extensions may be renewed for up to 70 years after the individual’s death.
+
 Liability
+
 The Act establishes liability for individuals who knowingly distribute a digital replica without authorization from the right holder, as well as for entities that make available a service primarily designed to produce unlawful digital replicas.
+
 Safe harbor provisions
+
 Similar to the Communications Decency Act and the DMCA, the Act establishes safe harbor provisions for online service providers. Providers are shielded from liability if they adopt and inform users of a policy for terminating accounts that repeatedly violate the Act. The NO FAKES Act does not require online services to proactively monitor content. Instead, it creates a notice-and-takedown mechanism under which providers must promptly respond to notifications seeking the removal of unauthorized digital replicas.
+
 These safe harbor protections apply only if the online service provider designates an agent with the U.S. Copyright Office to receive notifications of alleged violations.
+
 Remedies
+
 The NO FAKES Act provides remedies that are similar to those available under U.S. copyright law. Under the Act, individuals may be held liable for either statutory damages of $5,000 or actual damages for creating or distributing an unauthorized digital replica.
+
 The legislation also establishes a tiered liability framework for online service providers. Those that make good faith efforts to comply with the Act may face statutory damages of up to $25,000 per work for violations or actual damages. Providers that do not undertake such compliance efforts may be liable for $5,000 per unauthorized display or transmission of a digital replica, with damages capped at $750,000 per work.
+
 Exclusions
+
 The Act includes several exceptions to liability that are modeled in part on fair use principles. Digital replicas are excluded from liability when "used in a bona fide news, public affairs, or sports broadcast or account;" in a documentary or historical context; or in a way that is "consistent with the public interest." These exclusions do not apply to de minimis uses or to digital replicas that are sexually explicit in nature.
+
 The Act further states that licensing requirements do not apply to licenses established through collective bargaining agreements that contain provisions governing the use of digital replicas.
+
 The Act does not impose secondary liability on providers of generative artificial intelligence tools or services whose primary purpose is not the creation of unauthorized digital replicas.
+
 Preemption
+
 The NO FAKES Act preempts laws that protect "an individual's voice and visual likeness rights in connection with a digital replica, as defined in this Act, in an expressive work." However, the Act preserves state laws governing digital replicas enacted before January 2, 2025, as well as state laws addressing digital replicas that portray sexually explicit conduct.
 
 History
 In 2023, Senators Marsha Blackburn, Chris Coons, Amy Klobuchar, and Thom Tillis introduced the NO FAKES Act as a discussion draft to lay out the general contours of the proposed bill and solicit feedback. In July 2024, policymakers formally introduced NO FAKES Act in the Senate. A few months later, Madeleine Dean, María Elvira Salazar, Nathaniel Moran, Joe Morelle, Adam Schiff, and Rob Wittman introduced a companion bill in the House of Representatives. Despite bipartisan support, NO FAKES failed to advance during the legislative session. In April 2025, the bill was reintroduced in the Senate and House.
 
 Reception
+
 Support
+
 The NO FAKES Act has received broad support from stakeholders in the technology and entertainment industries, including SAG-AFTRA, UMG, OpenAI, Warner Music Group, the Recording Industry Association of America (RIAA), The Walt Disney Company, Amazon, Adobe, IBM, Google, YouTube, and others.
+
 The Human Artistry Campaign, a coalition of more than 40 unions, individuals, and trade associations representing creative professionals, endorsed the legislation as a way to protect private individuals and artists from harms associated with generative artificial intelligence. The RIAA also welcomed the Act as a tool to prevent the unauthorized use and replication of artists’ voices and likenesses.
+
 During consideration of an early discussion draft, the Motion Picture Association (MPA) raised concerns that legislation regulating digital replicas could implicate First Amendment protections. In a statement to the U.S. Senate Judiciary Subcommittee on Intellectual Property, an MPA representative warned that the bill could have a chilling effect on artistic expression, particularly if heirs could restrict filmmakers’ use of portrayals they oppose. However, after the bill was revised, the MPA expressed support for the legislation.
+
 Before the U.S. Senate Judiciary Subcommittee on Intellectual Property, musician FKA Twigs discussed her experiences using a digital replica to promote her work, as well as discovering AI-generated songs falsely attributed to her online. She emphasized the importance of legal protections that allow artists to control the use of their likeness.
+
 In April 2025, a coalition of over 400 artists, including 21 Savage, Missy Elliott, Deadmau5, and Scarlett Johansson, signed a letter in support of the legislation.
 
 Criticism
+
 The Electronic Frontier Foundation, Center for Democracy and Technology, American Library Association, and Computer & Communications Industry Association expressed concern over the NO FAKES Act. The EFF argued that the bill’s DMCA-style notice-and-takedown provisions risk incentivizing online platforms to remove lawful speech protected by the First Amendment, which would effectively enable a heckler’s veto. The organization also warned that such mechanisms could disadvantage smaller competitors that lack the resources to implement large-scale content moderation systems.
+
 Legal scholar Jennifer Rothman has similarly argued that the bill has room for improvement, stating that although revisions to the NO FAKES Act addressed some issues, it still primarily benefits record labels and large technology companies rather than performers and individuals. Rothman also noted that the Act permits licensing rights to be exercised by "authorized representatives" without requiring the individual’s direct consent, and that the bill does not clarify how conflicts between an individual and a rights holder would be resolved.

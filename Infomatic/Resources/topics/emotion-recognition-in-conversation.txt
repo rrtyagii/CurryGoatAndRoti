@@ -7,7 +7,9 @@ Datasets
 IEMOCAP, SEMAINE, DailyDialogue, and MELD are the four widely used datasets in ERC. Among these four datasets, MELD contains multiparty dialogues.
 
 Methods
+
 Approaches to ERC consist of unsupervised, semi-unsupervised, and supervised methods. Popular supervised methods include using or combining pre-defined features, recurrent neural networks  (DialogueRNN), graph convolutional networks  (DialogueGCN ), and attention gated hierarchical memory network. Most of the contemporary methods for ERC are deep learning based and rely on the idea of latent speaker-state modeling.
 
 Emotion Cause Recognition in Conversation
+
 Recently a new subtask of ERC has emerged that focuses on recognising emotion cause in conversation. Methods to solve this task rely on language models-based question answering mechanism. RECCON is one of the key datasets for this task.

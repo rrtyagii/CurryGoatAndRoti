@@ -1,8 +1,11 @@
 Artificial empathy or computational empathy is the development of AI systems—such as companion robots or virtual agents—that can detect emotions and respond to them in an empathic way.
+
 Although such technology can be perceived as scary or threatening, it could also have a significant advantage over humans for roles in which emotional expression can be important, such as in the health care sector. An October 2025 review and meta-analysis in the British Medical Bulletin found that AI chatbots were rated as showing more empathy than human healthcare professionals in 13 of 15 studies that compared them. Care-givers who perform emotional labor above and beyond the requirements of paid labor can experience chronic stress or burnout, and can become desensitized to patients. Artificial empathy could also help the socialization of care-givers, or serve as role model for emotional detachment.
+
 A broader definition of artificial empathy is "the ability of nonhuman models to predict a person's internal state (e.g., cognitive, affective, physical) given the signals (s)he emits (e.g., facial expression, voice, gesture) or to predict a person's reaction (including, but not limited to internal states) when he or she is exposed to a given set of stimuli (e.g., facial expression, voice, gesture, graphics, music, etc.)". A 2025 study reported that some multimodal large language models can recognize basic facial expressions with human-level accuracy on a commonly used research dataset of posed facial expressions.
 
 Areas of research
+
 There are a variety of philosophical, theoretical, and applicative questions related to artificial empathy. For example:
 
 Which conditions would have to be met for a robot to respond competently to a human emotion?
@@ -17,16 +20,22 @@ Examples of artificial empathy research and practice
 People often communicate and make decisions based on inferences about each other's internal states (e.g., emotional, cognitive, and physical states) that are in turn based on signals emitted by the person such as facial expression, body gesture, voice, and words. Broadly speaking, artificial empathy focuses on developing non-human models that achieve similar objectives using similar data.
 
 Streams of artificial empathy research
+
 Artificial empathy has been applied in various research disciplines, including artificial intelligence and business. Two main streams of research in this domain are:
 
 the use of nonhuman models to predict a person's internal state (e.g., cognitive, affective, physical) given the signals he or she emits (e.g., facial expression, voice, gesture)
 the use of nonhuman models to predict a person's reaction when he or she is exposed to a given set of stimuli (e.g., facial expression, voice, gesture, graphics, music, etc.).
+
 Research on affective computing, such as emotional speech recognition and facial expression detection, falls within the first stream of artificial empathy. Contexts that have been studied include oral interviews, call centers, human-computer interaction, sales pitches, and financial reporting.
+
 The second stream of artificial empathy has been researched more in marketing contexts, such as advertising, branding, customer reviews, in-store recommendation systems, movies, and online dating.
 
 Artificial empathy applications in practice
+
 With the increasing volume of visual, audio, and text data in commerce, many business applications for artificial empathy have followed. For example, Affectiva analyses viewers' facial expressions from video recordings while they are watching video advertisements in order to optimize the content design of video ads. Software like HireVue, BarRaiser, a hiring intelligence firm, helps firms make recruitment decisions by analyzing audio and video information from candidates' video interviews. Lapetus Solutions develops a model to estimate an individual's longevity, health status, and disease susceptibility from a face photo. Their technology has been applied in the insurance industry.
 
 Artificial empathy and human services
+
 Although artificial intelligence cannot yet replace social workers themselves, the technology has been deployed in that field. Florida State University published a study about Artificial Intelligence being used in the human services field. The research used computer algorithms to analyze health records for combinations of risk factors that could predict a future suicide attempt. The article reports, "machine learning—a future frontier for artificial intelligence—can predict with 80% to 90% accuracy whether someone will attempt suicide as far off as two years into the future. The algorithms become even more accurate as a person's suicide attempt gets closer. For example, the accuracy climbs to 92% one week before a suicide attempt when artificial intelligence focuses on general hospital patients".
+
 Such algorithmic machines can help social workers. Social work operates on a cycle of engagement, assessment, intervention, and evaluation with clients. Earlier assessment for risk of suicide can lead to earlier interventions and prevention, therefore saving lives. The system would learn, analyze, and detect risk factors, alerting the clinician of a patient's suicide risk score (analogous to a patient's cardiovascular risk score). Then, social workers could step in for further assessment and preventive intervention.

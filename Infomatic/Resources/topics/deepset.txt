@@ -2,23 +2,39 @@ deepset is an enterprise software vendor that provides developers with the tools
 deepset authored and maintains the open source software Haystack and its commercial SaaS and on-premise offering, Haystack Enterprise Platform. (formerly known as deepset Cloud and deepset AI Platform)
 
 History
+
 In June 2018, Milos Rusic, Malte Pietsch, and Timo Möller co-founded deepset in Berlin, Germany. In the same year, the company served first customers who wanted to implement NLP services by tailoring BERT language models to their domain.
+
 In July 2019, the company released the initial version of the open source software FARM.
+
 In November 2019, the company released the initial version of the open source software Haystack.
+
 Throughout 2020 and 2021 deepset published several applied research papers at EMNLP, COLING and ACL, the leading conferences in the area of NLP. In 2020, the research contributions comprised German language models named GBERT and GELECTRA, and a question answering dataset addressing the COVID-19 pandemic called COVID-QA, which was created in collaboration with Intel and has been annotated by biomedical experts.
+
 In 2021, the research contributions comprised German models and datasets for question answering and passage retrieval named GermanQuAD and GermanDPR, a semantic answer similarity metric, and an approach for multimodal retrieval of texts and tables to enable question answering on tabular data. Haystack contains implementations of all three contributions, enabling the use of the research through the open source framework.
+
 In November 2021, the development of the FARM framework was discontinued and its main features were integrated into the Haystack framework.
+
 In April 2022, the company announced its commercial SaaS offering deepset Cloud, which was rebranded in 2025 as Haystack Enterprise Platform supporting SaaS and on-premise deployment options.
+
 As of August 2023, the most popular finetuned language model created by deepset was downloaded more than 52 million times.
+
 In 2024, deepset was named a Gartner Cool Vendor in AI Engineering.
+
 In 2025, deepset was recognized for its growth by WirtschaftsWoche and Sifted and shared partnership integrations and announcements with Meta Llama Stack, MongoDB, NVIDIA, Amazon Web Services (AWS), and PwC.
+
 As of September 2025, the Haystack open source AI orchestration framework has more than 23,000 GitHub stars.
 
 Products and applications
+
 Haystack is an open source Python AI Orchestration framework for building custom applications with large language models. With its modular building block components, software developers and AI engineers can implement pipelines to build and customize various AI architectures over large document collections and multi-modal data, such as agents, retrieval augmented generation (RAG), intelligent document processing (IDP), text-to-SQL as well as document retrieval, semantic search, text generation, question answering, or summarization. It integrates with 80+ model and technology providers including Hugging Face Transformers, Elasticsearch, OpenSearch, OpenAI, Cohere, Anthropic and others. The framework has an active community on Discord with more than 4k members and GitHub, where so far more than 300 people contributed to its continuous development, and it also enjoys a vibrant community on Meetup.
+
 Thousands of organizations use the framework, including Global 500 enterprises like Airbus, Intel, Netflix, Apple, or Infineon, Alcatel-Lucent Enterprise, BetterUp, Etalab, Sooth.ai, and Lego.  In August 2025, Haystack Enterprise Starter was announced, offering enterprise support on the open source framework from the Haystack engineering team as well as a private GitHub repository with production use case templates and Kubernetes deployment guides.
+
 The Haystack Enterprise Platform supports customers at building scalable AI applications by covering the entire process of prototyping, experimentation, deployment, monitoring, and governance. It is built on the Haystack open source framework and is available for hosting in the cloud and on-premise.  deepset's enterprise tools are used by organizations including The European Commission, The Economist, Oxford University Press, the German Federal Ministry of Research, Technology, and Space (BMFTR), Manz Verlag, and the German Armed Forces.
+
 FARM was an earlier framework for adapting representation models. One of its core concepts was the implementation of adaptive models, which comprised language models and an arbitrary number of prediction heads. FARM supported domain-adaptation and finetuning of these models with advanced options, for example gradient accumulation, cross-validation or automatic mixed-precision training. Its main features were integrated into Haystack in November 2021, and its development was discontinued at that time.
 
 Funding
+
 On August 9, 2023, deepset announced a Series B investment round of $30 million led by Balderton Capital and including participation from existing investors GV, System.One, Lunar Ventures and Harpoon Ventures. On April 28, 2022, deepset announced a Series A investment round of $14 million led by GV, with the participation of Harpoon Ventures, Acequia Capital and a team of experienced commercial open source software and machine learning founders, such as Alex Ratner (Snorkel AI), Mustafa Suleyman (Deepmind), Spencer Kimball (Cockroach Labs), Jeff Hammerbacher (Cloudera) and Emil Eifrem (Neo4j). A previous pre-seed investment round of $1.6 million on March 8, 2021, was led by System.One and Lunar Ventures, who also participated in the subsequent Series A round.

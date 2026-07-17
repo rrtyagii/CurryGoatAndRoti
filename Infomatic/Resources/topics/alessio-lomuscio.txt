@@ -1,17 +1,24 @@
 Alessio Lomuscio is a professor of Safe Artificial Intelligence at the Department of Computing at Imperial College London. His research focuses on the verification of autonomous systems, specifically on providing formal safety guarantees for both Multi-agent systems as well as Machine Learning-enabled systems.
 
 Education and academic career
+
 Alessio Lomuscio grew up in Milan and obtained a Laurea in Electronic Engineering from the Polytechnic University of Milan in 1999. Afterwards, he moved to the University of Birmingham for his Ph.D. on "Knowledge Sharing among Ideal Agents" under the supervision of Mark Ryan, which he submitted in 1999. During his Ph.D., he was supported by a grant of the university's School of Computer Science.
+
 He worked as a lecturer at King's College London and a senior lecturer at University College London before joining Imperial in 2006.
 
 Research
+
 In 2018, Lomuscio was awarded a Royal Academy of Engineering Chair in Emerging Technologies for researching verification techniques for autonomous systems and Artificial Intelligence. He is the head of the Verification of Autonomous Systems (VAS) group at Imperial College London where he leads research efforts that aim to develop methods for verifying the safety of Multi-agent systems. Further research interests include methods for the safety checking of swarm systems as well as Reinforcement Learning-based agents and the development and advancement of formal verification algorithms for Neural Networks.
+
 The group has a number of strong connections with industry and research councils, specifically the Defense Advanced Research Projects Agency's Assured Autonomy program as well as the Centre for Doctoral Training in Safe and Trusted AI. Further projects together with industry and research institutions currently investigate safe algorithms for event forecasting and the safety of AI-enabled personal assistancy systems.
+
 He has co-authored a number of verification and Model Checking toolkits, including:
 
 MCMAS (Symbolic Model Checking for Multi-Agent Systems)
+
 VENUS (Mixed Integer Linear Programming-enabled verification of neural networks with ReLU activation functions)
 VeriNet (Symbolic Interval Propagation-based verification of neural networks with ReLU activation functions)
 
 Awards
+
 Alessio Lomuscio is a Fellow of the European Association for Artificial Intelligence. In 2020 he was awarded the title of a Distinguished Member of the Association for Computing Machinery for his outstanding scientific contributions to Computing. In 2018 he was awarded one out of ten highly prestigious Royal Academy of Engineering Chairs in Emerging Technology

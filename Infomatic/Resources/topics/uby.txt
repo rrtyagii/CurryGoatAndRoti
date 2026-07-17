@@ -1,26 +1,39 @@
 UBY  is a large-scale lexical-semantic resource for natural language processing (NLP) developed at the Ubiquitous Knowledge Processing Lab (UKP) in the department of Computer Science of the Technische Universität Darmstadt .
+
 UBY is based on the ISO standard Lexical Markup Framework (LMF) and combines information from several expert-constructed and collaboratively constructed resources for English and German.
+
 UBY applies a word sense alignment approach (subfield of word sense disambiguation) for combining information about nouns and verbs.
+
 Currently, UBY contains 12 integrated resources in English and German.
 
 Included resources
+
 English resources: WordNet, Wiktionary, Wikipedia, FrameNet, VerbNet, OmegaWiki
+
 German resources: German Wikipedia, German Wiktionary, OntoWiktionary, GermaNet and IMSLex-Subcat
 Multilingual resources: OmegaWiki.
 
 Format
+
 UBY-LMF is a format for standardizing lexical resources for Natural Language Processing (NLP). UBY-LMF
 conforms to the ISO standard for lexicons: LMF, designed within the ISO-TC37, and constitutes a so-called serialization of this abstract standard. In accordance with the LMF, all attributes and other linguistic terms introduced in UBY-LMF refer to standardized descriptions of their meaning in ISOCat.
 
 Availability and versions
+
 UBY is available as part of the open resource repository DKPro. DKPro UBY is a Java framework for creating and accessing sense-linked lexical resources in accordance with the UBY-LMF lexicon model. While the code of UBY is licensed under a mix of free licenses such as GPL and CC BY-SA, some of the included resources are under different licenses such as academic use only.
+
 There is also a Semantic Web version of UBY called lemonUby. lemonUby is based on the lemon model as proposed in the Monnet project. lemon is a model for modeling lexicon and machine-readable dictionaries and linked to the Semantic Web and the Linked Data cloud.
 
 UBY vs. BabelNet
+
 BabelNet is an automatically lexical semantic resource that links Wikipedia to the most popular computational lexicons such as WordNet.  At first glance, UBY and BabelNet seem to be identical and competitive projects; however, the two resources follow different philosophies.
+
 In its early stage, BabelNet was primarily based on the alignment of WordNet and Wikipedia, which by the very nature of Wikipedia implied a strong focus on nouns, and especially named entities. Later on, the focus of BabelNet was shifted more towards other parts of speech. UBY, however, was focused from the very beginning on verb information, especially, syntactic information, which is contained in resources, such as VerbNet or FrameNet.
+
 Another main difference is that UBY models other resources completely and independently from each other, so that UBY can be used as wholesale replacement of each of the contained resources. A collective access to multiple resources is provided through the available resource alignments. Moreover, the LMF model in UBY allows unified way of access for all as well as individual resources. Meanwhile, BabelNet follow an approach similar to WordNet and bakes selected information types into so called Babel Synsets. This makes access and processing of the knowledge more convenient, however, it blurs the lines between the linked knowledge bases. Additionally, BabelNet enriches the original resources, e.g., by providing automatically created translations for concepts which are not lexicalized in a particular language. Although this provides a great boost of coverage for multilingual applications, the automatic inference of information is always prone to a certain degree of error.
+
 In summary, due to the listed differences between the two resources, the usage of one or the other might be preferred depending on the particular application scenario. In fact, the two resources can be used to provide extensive lexicographic knowledge, especially, if they are linked together. The open and well-documented structure of the two resource provide a crucial milestone to achieve this goal.
 
 Applications
+
 UBY has been successfully used in different NLP tasks such as Word Sense Disambiguation, Word Sense Clustering, Verb Sense Labeling  and Text Classification. UBY also inspired other projects on automatic construction of lexical semantic resources. Furthermore, lemonUby was used to improve machine translation results, especially, finding translations for unknown words.

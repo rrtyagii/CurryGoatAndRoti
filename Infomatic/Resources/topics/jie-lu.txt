@@ -1,7 +1,13 @@
 Jie Lu  (Chinese: 路节) is a scientist in the area of computational intelligence and Distinguished Professor at the University of Technology Sydney.
+
 In 2000, Lu earned her PhD from Curtin University in Perth.
+
 She made fundamental contributions in the areas of fuzzy transfer learning, concept drift, data-driven decision support systems, and recommender systems.
+
 From 2004 to 2006, she was associate professor, since 2007 she has a full professorship in the Faculty of Engineering and Information Technology at the University of Technology.
+
 In September 2019 she was awarded with the Australian Laureate Fellowship.
+
 Lu is editor-in-chief of the journal Knowledge-Based Systems published by Elsevier.
+
 Lu was appointed an Officer of the Order of Australia in the 2023 Australia Day Honours, recognising her contribution to engineering, computer science and artificial intelligence.

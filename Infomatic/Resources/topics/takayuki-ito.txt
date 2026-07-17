@@ -1,20 +1,31 @@
 Takayuki Ito (伊藤 孝行, Takayuki Ito; born May 1, 1972) is a Japanese computer scientist who specialized in the fields of artificial intelligence and multi-agent systems. He worked as assistant professor in the computer science department of Japan Advanced Institute of Science and Technology from 2001 until 2003, served as associate professor in the computer science department of Nagoya Institute of Technology (2006–2014), worked as full professor in the computer science department of Nagoya Institute of Technology (2014–2020). He also served as chair of the department (2016–2018)and also director the NITech Artificial Intelligence Research Center at Nagoya Institute of Technology.
+
 From October 2020, he is working as full Professor of Computer Science at Department of Social Informatics, Kyoto University; he is also working as Chief Technology Officer at AgreeBit Inc., Japan.
 
 Education
+
 Takayuki Ito gained his Bachelor of Engineering (1995) and Master of Engineering (1997) and Doctor of Engineering (2000) in computer science from Nagoya Institute of Technology.
 
 Career and previous positions
+
 From 1999 to 2001, he was a research fellow of the Japan Society for the Promotion of Science (JSPS). From 2000 to 2001, he was a visiting researcher at University of Southern California/Information Sciences Institute). From April 2001 to March 2003, he was an associate professor of Japan Advanced Institute of Science and Technology (JAIST). From April 2004 to March 2013, he was an associate professor of Nagoya Institute of Technology. From April 2014 to September 2020, he was a professor of Nagoya Institute of Technology. From 2005 to 2006, he was a visiting researcher at Division of Engineering and Applied Science, Harvard University and a visiting researcher at the Center for Coordination Science, MIT Sloan School of Management. From 2008 to 2010, he was a visiting researcher at the Center for Collective Intelligence, MIT Sloan School of Management. From 2017 to 2018, he was an invited researcher of Artificial Intelligence Center of AIST, JAPAN.
+
 From March 5, 2019, he is the CTO of AgreeBit, inc. as an entrepreneur.
+
 From October 2020, he is a professor of Kyoto University.
 
 Fellowships and awards
+
 Ito is a board member of IFAAMAS, Executive Committee Member of IEEE Computer Society Technical Committee on Intelligent Informatics, the PC-chair of AAMAS2013, PRIMA2009, General-Chair of PRIMA2014, and was a SPC/PC member in many top-level conferences (IJCAI, AAMAS, ECAI, AAAI, etc.). He received the JSPS Prize, 2014, the Prize for Science and Technology (Research Category), The Commendation for Science and Technology by the Minister of Education, Culture, Sports, Science, and Technology, 2013, the Young Scientists' Prize, The Commendation for Science and Technology by the Minister of Education, Culture, Sports, Science, and Technology, 2007, the Nagao Special Research Award of the Information Processing Society of Japan, 2007, the Best Paper Award of AAMAS2006, the 2005 Best Paper Award from Japan Society for Software Science and Technology, the Best Paper Award in the 66th annual conference of 66th Information Processing Society of Japan, and the Super Creator Award of 2004 IPA Exploratory Software Creation Projects. He is Principal Investigator of the Japan Cabinet Funding Program for Next Generation World-Leading Researchers (NEXT Program). Further, he has several companies, which are handling web-based systems and enterprise distributed systems. His main research interests include multi-agent systems, intelligent agents, group decision support systems, agent-mediated electronic commerce, and software engineering on offshoring.
 
 Research
+
 Ito's work  focuses on advancing AI and multiagent systems for social good, with a track record of building pioneering Conversational AI systems for social impact such as Collagree, and D-Agree. His research focuses on fundamental problems in computational game theory, machine learning, automated and intelligent agents, and multi-agent interactions that are driven by these topics, ensuring a virtuous cycle of research and real-world applications.
+
 His main research interests include Multi-Agent Systems, Group Decision Support Systems, Collective Intelligence, Crowd Intelligence, Consensus, Automated Negotiation, Computational Mechanism Design, Game Theory, Auction Theory, Intelligent Agents, Distributed Artificial Intelligence, Agent-mediated Electronic Commerce, Information Economics, and Reasoning under Uncertainty.
+
 He is a lead principal investigator of CREST project.
+
 Ito and his team also provided the first large scale discussion support system based on agent support, which deployed in many countries such as Japan, Indonesia, and Afghanistan.
+
 His recent Research Question is: "Why can people make agreements and consensus?" and "What is consensus?"

@@ -1,72 +1,118 @@
 Max Headroom is a fictional character played by actor Matt Frewer. Advertised as "the first computer-generated TV presenter", Max was known for his biting commentary on a variety of topical issues, arrogant wit, stuttering, and pitch-shifting voice. The character was created by British video directors and artists George Stone, Annabel Jankel, and Rocky Morton. Max was advertised as "computer-generated", and some believed this, but he was actually Frewer wearing prosthetic makeup, contact lenses, and a plastic moulded suit, and sitting in front of a blue screen. Harsh lighting and other editing and recording effects heighten the illusion of a CGI character. According to his creators, Max's personality was meant to be a satirical exaggeration of the worst tendencies of American television hosts in the 1980s who wanted to appeal to youth culture, yet were not a part of it. Frewer proposed that Max reflected an innocence, largely influenced not by mentors and life experience but by information absorbed from television.
 Max Headroom debuted in April 1985 on Channel 4 in the British cyberpunk TV movie Max Headroom: 20 Minutes into the Future, his origin story. In the movie, Edison Carter (portrayed by Frewer) is a journalist fleeing enemies into a parking garage, crashing his motorcycle through the entrance barrier reading "Max. headroom 2.3 metres" – UK vehicle clearance signs use the phrase "Max headroom". While Carter is unconscious, an AI program based on his mind is created. The AI develops a personality identified as "Max Headroom", and becomes a TV host who exists only on broadcast signals and computer systems. Like Carter, Max openly challenges the corporations that run his world, but using commentary and sarcastic wit rather than journalism.
 Two days after the TV movie was broadcast, Max hosted Channel 4's The Max Headroom Show, a TV programme where he introduces music videos, comments on various topics, and eventually interviews guests before a live studio audience. During its second and third year, it also aired in the US on Cinemax. Max Headroom became a global spokesperson for New Coke, appearing on many TV commercials with the catchphrase "Catch the wave!". After the cancellation of The Max Headroom Show, Matt Frewer portrayed Max and Carter in the 1987 American TV drama series Max Headroom on ABC. The series returns to Carter and Max challenging the status quo of a cyberpunk world, now portraying them as allies and providing a slightly altered version of Max's origin. The series was cancelled during its second year.
+
 Max's appearance and style of speech has influenced and been referenced by different media, such as Ron Headrest, a fictional character in the comic strip Doonesbury who was a political parody of Ronald Reagan, and Eminem's 2013 "Rap God" video, in which the rapper resembles Max. Max Headroom was emulated by an unknown person in a Headroom mask while hijacking an American local television broadcast signal in 1987, later referred to as the "Max Headroom incident". To advertise and promote Channel 4 and its subsidiary channels shifting from broadcast to digital signal, an aged Max Headroom (again portrayed by Frewer) appeared in new commercials in 2007 and 2008. Max has a cameo in the 2015 film Pixels.
 
 Development and concept
+
 With the rising popularity of music videos with youth culture, and stations such as MTV, Channel 4 hosted a music video programme. Rocky Morton was tasked to develop a graphic to play before and after the videos, clarifying to audiences these were features of a special show and not just random music videos between TV advertisements. Taking inspiration from MTV video jockeys (VJs) and American TV hosts, Morton decided a graphic or "bumper video" would not appeal to youth nearly as much as a host with a loud personality. He thought British youth would be suspicious of a youthful personality attempting to appeal to them and might instead appreciate the cynical irony of a host who appeared to be a conservative American man in a simple suit and tie attempting to appeal to youth but lacking a true understanding of their culture. He saw the host as "the most boring thing that I could think of to do... a talking head: a middle-class white male in a suit, talking to them in a really boring way about music videos". Morton thought the host should be computer-generated or animated. When this proved impractical, an actor was cast with the illusion of a computer-generated host. Channel 4 executives enjoyed Morton's pitch and introduced Max as a character in an hour-long TV movie before presenting him as a programme host.
+
 Producer Peter Wagg hired writers David Hansen and Paul Owen to construct Max's "whole persona", which Morton described as the "very sterile, arrogant, Western personification of the middle-class, male TV host". The background story provided for the Max Headroom character in Max Headroom: 20 Minutes into the Future was rooted in a dystopian near-future dominated by television and large corporations, devised by George Stone and eventual script writer Steve Roberts. The character's name came from the last thing Carter saw during a motorcycle accident that put him into a coma: a traffic warning sign marked "MAX. HEADROOM: 2.3 M" (an overhead clearance of 2.3 metres) suspended across a car park entrance. The name originated well before other character aspects from George Stone, who remarked "[the phrase] 'max headroom' was over the entranceway of every car park in the UK. Instant branding, instant recognition." It was decided "Max Headroom" was a comically ironic name for a host who implied he knew and understood everything, as the name indicated his head was actually empty of true knowledge and wisdom.
+
 Canadian-American actor Matt Frewer tested for the role after a friend of his had already auditioned and then suggested him instead. Producer and character co-creator  Annabel Jankel thought Frewer would be a good choice to masquerade as a person whose appearance was designed by a computer, seeing from his casting Polaroid photo that he had "unbelievably well-defined features". Frewer was given "a few lines" of dialogue and then encouraged to improvise. His comedic improvisation of more than ten minutes impressed the production crew. He was inspired by character Ted Baxter of The Mary Tyler Moore Show, recalling in 1987, "I particularly wanted to get that phony bonhomie of Baxter ... Max always assumes a decade-long friendship on the first meeting. At first sight, he'll ask about that blackhead on your nose."
+
 While Hansen and Owen continued writing Max's lines in the TV movie and music video programme episodes, Frewer always improvised more dialogue during filming and was encouraged to do so. Hansen and Owen later wrote the 1985 book Max Headroom's Guide to Life from Max's personal perspective.
+
 In discussing Max's fictional origin story, it was first proposed that he could be a computer-generated figure created to stand in for a human TV host who was late for his own show. The backstory would be revealed through different five-minute segments during the first season of The Max Headroom Show. When Channel 4 decided Max's origin would be featured in an hour-long TV movie instead, an expanded story was developed and the origin was altered to now involve a crusading journalist named Edison Carter. On 4 April 1985, the TV movie Max Headroom: 20 Minutes Into the Future introduced Max to television audiences. On 6 April 1985, Channel 4 aired the first episode of The Max Headroom Show.
 
 Production
+
 The character's classic look is a shiny dark suit often paired with Ray-Ban Wayfarer sunglasses. (The sunglasses look was adopted when the special bright contacts Matt Frewer used became painful to wear.) Other than the publicity for the character, the real image of Max was not computer-generated. Computing technology in the mid-1980s was not sufficiently advanced yet for a full-motion, voice-synchronised human head to be practical for a television series. Max's image is actually that of actor Frewer in foam latex prosthetic makeup, with a fibreglass suit created by Peter Litten and John Humphreys. Preparing the look for filming involved a four-and-a-half-hour session in makeup, which Frewer described as "gruelling" and "not fun", likening it to "being on the inside of a giant tennis ball". Only his head and shoulders are shown, usually superimposed over a moving geometric background. This background is a piece of CGI footage that had been generated for one of Morton and Jankel's ad agency's commercials, and later, in the United States version, generated by an Amiga computer by Jeff Bruette. His chaotic speech patterns are based upon his voice pitching up or down seemingly at random, or occasionally becoming stuck in a stuttering loop. These modulations also appear in live performances.
 The rights to the Max Headroom character were held by All3Media as of November 2007.
 
 TV history
+
 TV movie
 Max Headroom debuted in the British cyberpunk TV movie Max Headroom: 20 Minutes into the Future, which was broadcast on 4 April 1985. It consists of material originally planned to be broken into five-minute backstory segments for The Max Headroom Show, later expanded to one hour.
+
 Set in a near-future world, it focuses on Edison Carter (Frewer), a crusading and witty journalist who openly challenges the corporations that rule the world, including his own employer Station 23. Max Headroom is a secondary character, an AI created from Carter's basic brain patterns and memory fragments. As Carter exposes corruption in Station 23, Max rises as a host on independent, public access television. In the movie, Max and Edison Carter never meet.
 
 The Max Headroom Show series
+
 Premiering on 6 April 1985, it features music videos with Max Headroom as video jockey (VJ or "veejay"). Early episodes unusually feature no introductory title sequence or end credits, beginning and ending instead with a cold open of static as if Max Headroom is hijacking the broadcast signal to speak to the audience. Channel 4 advertised Max as the "first computer-generated TV presenter" and Matt Frewer was initially under contract to withhold his identity in the role. Many believed Max was a computer-animated puppet, manipulated and voiced by an actor. For this reason, the series pilot won the British Academy of Film and Television Arts (BAFTA) award for graphics in 1986, though the show has no computer generated graphics beyond Max's simple background lines.
+
 The show was an immediate hit in the UK, doubling Channel 4's viewing figures for its time slot within one month. In its second year, the programme broadened the original concept to include a live studio audience and celebrity interviews. Frewer did not appear in-person before the audience or share the stage with guests. Instead, he filmed in another room as Max Headroom and appeared before the audience and guests on television screens via a live feed, maintaining the illusion of an AI living in broadcast signals and computer systems.
+
 The second and third years of the show were also broadcast on the US cable channel Cinemax. A Christmas special was written by George R.R. Martin, later famous for his book series A Song of Ice and Fire, the basis for Game of Thrones.
+
 Channel 4 ended The Max Headroom Show after its third year. Cinemax then produced six more episodes for US audiences in 1987, rebranded as The Original Max Talking Headroom Show.
 
 Dramatic Max Headroom series (ABC)
+
 American TV network ABC acquired the rights to create an ongoing series titled Max Headroom. Rather than a music programme, this was a prime-time dramatic series based on the story and concepts of the original TV movie Max Headroom: 20 Minutes Into the Future. By this time, it was known to the general public that Max was not a computer-generated character or puppet but rather actor Matt Frewer in prosthetics, so press for the show openly spoke of him as a lead cast member in both roles of Max Headroom and Edison Carter. Amanda Pays reprised her role from the original film.
+
 The pilot is largely based on the original movie. The hacker who creates Max Headroom is innocent and manipulated rather than overtly villainous and callous. Max's origin is slightly different and he more strongly shares Carter's drive to expose corruption rather than only comment on it. In the pilot, Max and Carter meet, leading them to work as allies for the rest of the series. It regularly parodies and criticises media corporations and topical news events.
+
 Max Headroom was broadcast for two short seasons from 1987 to 1988. Producer Peter Wagg attempted to sell a movie concept called Max Headroom for President, but it was not picked up. Shout! Factory released Max Headroom: The Complete Series on DVD in the United States and Canada on 10 August 2010.
 
 Television hijack
+
 On 22 November 1987, an unidentified person wearing a Max Headroom mask and costume carried out broadcast signal hijacking of two television stations in Chicago, Illinois, United States. During each signal interruption, the hijacker speaks with distorted audio and stands before a swivelling corrugated panel to mimic Max Headroom's geometric background effect. During the second signal hijacking, he referenced Max Headroom's endorsement of Coca-Cola, the TV series Clutch Cargo, WGN anchor Chuck Swirsky, and "all the greatest world newspaper nerds" (a reference to WGN's call letters, which stand for "World's Greatest Newspaper").
+
 The first "Max Headroom incident" was 25 seconds during the sports segment of WGN-TV's 9:00 p.m. news broadcast. Approximately two hours later, the second signal hijacking was about 90 seconds during PBS affiliate WTTW's broadcast of Doctor Who ("The Horror of Fang Rock").  The second video ended with the hijacker apparently exposing buttocks and being spanked with a flyswatter. Normal programming then quickly resumed. These video pirates have never been identified.
 
 Planned reboot
+
 On 29 July 2022, AMC announced a series reboot, with Matt Frewer as Max.
 
 In other media
+
 Max made celebrity cameos and sampled appearances in other TV series, books, British band Art of Noise's song "Paranoimia" and its video (which reached number 12 in the UK charts and was a top-40 hit on the US Billboard Hot 100), and advertisement campaigns. He was the spokesman for New Coke (after the return of Coca-Cola Classic), delivering the slogan "Catch the wave!" (in his staccato, stuttering playback as "C-c-catch the wave!"). After the two TV shows and the Coke advertising campaign ended, Peter Wagg attempted to sell a movie concept called Max Headroom for President but did not find a company willing to produce it.
+
 In 1986, Quicksilva released a Max Headroom video game, developed by Binary Design, originally for the Sinclair ZX Spectrum and ported to the Commodore 64, Amstrad, and Amiga. In 1987, Comico announced a thirty-two page Max Headroom 3-D comic, written by Mike Baron and illustrated by Arnold and Jacob Pander but the issue was never published.
+
 Max returned to television in 2007, appearing in an advertisement series for Channel 4 to raise awareness for the digital switchover. These advertisements were directed by original creator Rocky Morton. Matt Frewer portrayed Max, with make up that showed the AI had aged considerably and was in ill-health, implying he belonged to obsolete analogue television and had no place with new digital technology. Matt Frewer played Max Headroom for a brief cameo scene in the 2015 movie Pixels, a narrative that featured many digital characters from 1980's video games.
 
 In popular culture
+
 Max Headroom has inspired many imitations and spoofs:
 
 During a montage of main characters Daria Morgendorffer and Jane Lane in the opening sequence of the 2002 Daria movie Is It College Yet?, Max Headroom appears on a poster.
+
 Late Night with David Letterman (Max Headroom's US network television debut), parodied the concept with their own character Larry "Bud" Mellman, in a sketch called "Larry 'Bud' Headroom".
+
 In the 1980s, Garry Trudeau created the character Ron Headrest for his political comic strip Doonesbury. The character parodied Max Headroom and then-US President Ronald Reagan.
+
 Back to the Future Part II features a parody of Max and Reagan, and computer-generated versions of Michael Jackson and the Ayatollah Khomeini as waiters, at the fictitious Cafe '80s.
+
 In the Ernest Cline novel Ready Player One, protagonist Wade Watts has a Max Headroom AI in his OASIS account, a detail omitted from the film.
+
 Eminem's 2013 "Rap God" video features himself portrayed as Max Headroom.
+
 Max Headroom cameos in the film Pixels (2015) as manipulated footage in a message just before the final showdown between the Arcaders and the leader of the aliens. Matt Frewer reprised his role, but unlike Max's other appearances, he was entirely computer-generated from a facial capture of the performance, which led to the visual effects team needing to manually reduce the accuracy to mimic the immobility of the facial prosthetics.
+
 In a 1991 episode of the television series Eerie, Indiana titled "The ATM with the Heart of Gold", a new invention known as Mr. Wilson - the friendly automated teller machine (ATM) is a blatant spoof of Max Headroom. The actual Max Headroom actor (Matt Frewer) appears in the same series in an unrelated 1992 episode called "Tornado Days" where he plays a tornado-chasing meteorologist.
+
 Mel Brooks's 1987 sci-fi spoof movie Spaceballs features Pizza the Hutt's robotic subordinate Vinnie, a parody of Max Headroom.
+
 In Muse's video for the 2017 single "Dig Down", lead vocalist Matt Bellamy appears through cathode ray tube television sets as a parody of Max Headroom.
+
 Crazy Frog's song "Axel F" uses Max Headroom's vocal sample "What's going on?" in the beginning, taken from series 3 episode 5 of The Max Headroom Show.
+
 Keir Starmer is portrayed as Max Headroom in his spoof Private Eye column.
+
 In the Ernest Cline novel Ready Player Two, Wade Watts once again has a Max Headroom AI in both his ship, The Vonnegut, and in his mansion outside Columbus, Ohio,
 Neil Young's song "Pressure" from his 1986 album Landing on Water makes reference to Max Headroom.
+
 Pop artist Selena Gomez briefly appears as Max Headroom during her music video for "Love You Like a Love Song", addressed by critic John Bergstrom as a "stuttering, Max Headroom non-chorus".
+
 In the video game Wasteland 3, a digitised parody of Ronald Reagan and Max is on a computer screen.
+
 Introduced Tina Turner during her recorded performance at Camden Palace in London (later broadcast live) during her Break Every Rule World Tour.
+
 A parody of Max appeared in an episode of Sledge Hammer!, portrayed by David Rasche.
+
 An episode in series 3 of Kaguya-sama: Love Is War parodies Max Headroom to explain binaural recording.
+
 A song titled "Second Chance For Max Headroom" was included in the debut EP Half Hour of Power of the Canadian band Sum 41.
+
 In 2022, New Kids on the Block with Salt-N-Pepa, Rick Astley, and En Vogue released a video for their single "Bring Back the Time" that pays tribute to '80s music videos and Max Headroom.
+
 Square One Television's fifth and final series (1992) features regular cast member Larry Cedar as parody character Fax Headful.
+
 The Gigi D'Agostino Another Way music video.
+
 The opening video in Pink's Summer Carnival Tour in 2024 portrays her as a female Max Headroom on a background similar to the famous original.
+
 The beginning of Doja Cat’s 2025 VMA performance was introduced with her portraying a female Max Headroom, interrupting the host of the show in an electronic manner.

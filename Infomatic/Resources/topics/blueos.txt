@@ -1,10 +1,17 @@
 Vivo BlueOS, or BlueOS also named Blue River OS, is an open-source distributed operating system developed by Vivo. The OS is designed to support large models and multi-modal functions in variety of inputs it supports.
+
 BlueOS also supports the BlueXlink connection protocol, which adopts a distributed design concept, similar to HarmonyOS and compatible with industry-standard protocols. This allows data to be securely transferred and accessed between multiple devices. On the security architecture, Rust language is supported on the operating system for security advancements.
+
 BlueOS aims to run on various devices, including devices that has low as 32 MB of RAM that targets a wide range of devices, from smart home appliances and wearables.
+
 Vivo has not announced plans to install BlueOS on its smartphones in the early stage of the new operating system development. This meant that custom Funtouch OS and OriginOS operating systems based on AOSP remains to be the default operating systems for Vivo smartphones.
+
 On November 13, 2023, Vivo Watch 3, becomes the first device from the company that ships with the new operating system.
+
 It reportedly supports different hardware architectures, with multiple POSIX standards which supports Linux kernel alongside its own RTOS kernel, with a Kernel Abstraction Layer atop both kernels, similar to OpenHarmony and HarmonyOS. It also supports application technology standards and Vivo provides developers with software development kits, BlueOS (Blue River) SDK and BlueOS Studio (Blue River Studio) IDE based on VS Code for rich applications. The operating system also contains AI service engines and multi-mode input subsystems based on large AI model capabilities, providing multi-modal input and output, among other benefits.
 
 History
+
 It has reportedly been in development since 2018, the operating system core is written with the Rust programming language, which is open source, released on November 1, 2023, via 2023 Vivo Developer Conference. It is independent of the Android operating system used on Vivo smartphones. The operating system is intended for lightweight IoT devices and Wearables.
+
 It's also reported that Vivo expects that its Copilot tool with its large language model that is able to provide code, image and text generation, in addition to other capabilities for the operating system.

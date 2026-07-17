@@ -1,2 +1,3 @@
 Department of Defense Directive 3000.09 is the current US policy on autonomous weapons.
+
 It states: "Autonomous … weapons systems shall be designed to allow commanders and operators to exercise appropriate levels of human judgment over the use of force."  However, the policy requires that autonomous weapon systems that kill people or use kinetic force, selecting and engaging targets without further human intervention, be certified as compliant with "appropriate levels" and other standards, not that such weapon systems cannot meet these standards and are therefore forbidden. "Semi-autonomous" hunter-killers that autonomously identify and attack targets do not require certification.

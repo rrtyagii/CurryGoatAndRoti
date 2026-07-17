@@ -1,6 +1,7 @@
 The Herbrand Award for Distinguished Contributions to Automated Reasoning is an award given by the Conference on Automated Deduction (CADE), Inc., (although it predates the formal incorporation of CADE) to honour persons or groups for important contributions to the field of automated deduction. The award is named after the French scientist Jacques Herbrand and given at most once per CADE or International Joint Conference on Automated Reasoning (IJCAR). It comes with a prize of US$1,000. Anyone can be nominated, the award is awarded after a vote among CADE trustees and former recipients, usually with input from the CADE/IJCAR programme committee.
 
 Recipients
+
 Past award recipients are:
 
 1990s

@@ -1,32 +1,48 @@
 A web resource is any identifiable resource (digital, physical, or abstract) present on or connected to the World Wide Web. Resources are identified using Uniform Resource Identifiers (URIs). In the Semantic Web, web resources and their semantic properties are described using the Resource Description Framework (RDF).
+
 The concept of resource has evolved during the Web's history, from the early notion of static addressable documents or files, to a more generic and abstract definition, now encompassing every "thing" or entity that can be identified, named, addressed or handled, in any way whatsoever, in the web at large, or in any networked information system. The declarative aspects of a resource (identification and naming) and its functional aspects (addressing and technical handling) weren't clearly distinct in the early specifications of the web, and the very definition of the concept has been the subject of long and still open debate involving difficult, and often arcane, technical, social, linguistic and philosophical issues.
 
 From documents and files to web resources
+
 In the early specifications of the web (1990–1994), the term resource is barely used at all. The web is designed as a network of more or less static addressable objects, basically files and documents, linked using Uniform Resource Locators (URLs). A web resource is implicitly defined as something which can be identified. The identification serves two distinct purposes: naming and addressing; the latter only depends on a protocol. It is notable that RFC 1630 does not attempt to define at all the notion of resource; actually it barely uses the term besides its occurrence in Uniform Resource Identifier (URI), Uniform Resource Locator (URL), and Uniform Resource Name (URN), and still speaks about "Objects of the Network".
+
 RFC 1738 (December 1994) further specifies URLs, the term "Universal" being changed to "Uniform". The document is making a more systematic use of resource to refer to objects which are "available", or "can be located and accessed" through the internet. There again, the term resource itself is not explicitly defined.
 
 From web resources to abstract resources
+
 The first explicit definition of resource is found in RFC 2396, in August 1998:
 
 A resource can be anything that has identity. Familiar examples include an electronic document, an image, a service  (e.g., "today's weather report for Los Angeles"), and a collection of other resources. Not all resources are network "retrievable"; e.g., human beings, corporations, and bound books in a library can also be considered resources. The resource is the conceptual mapping to an entity or set of entities, not necessarily the entity which corresponds to that mapping at any particular instance in time. Thus, a resource can remain constant even when its content---the entities to which it currently corresponds---changes over time, provided that the conceptual mapping is not changed in the process.
+
 Although examples in this document were still limited to physical entities, the definition opened the door to more abstract resources. Providing a concept is given an identity, and this identity is expressed by a well-formed URI (Uniform Resource Identifier, a superset of URLs), then a concept can be a resource as well.
+
 In January 2005, RFC 3986 makes this extension of the definition completely explicit:
 '…abstract concepts can be resources, such as the operators and operands of a mathematical equation, the types of a relationship (e.g., "parent" or "employee"), or numeric values (e.g., zero, one, and infinity).'
 
 Resources in RDF and the Semantic Web
+
 First released in 1999, RDF was first intended to describe resources, in other words to declare metadata of resources in a standard way. A RDF description of a resource is a set of triples (subject, predicate, object), where subject represents the resource to be described, predicate a type of property relevant to this resource, and object can be data or another resource. The predicate itself is considered as a resource and identified by a URI. Hence, properties like "title", "author" are represented in RDF as resources, which can be used, in a recursive way, as the subject of other triples.
+
 Building on this recursive principle, RDF vocabularies, such as RDF Schema (RDFS), Web Ontology Language (OWL), and Simple Knowledge Organization System will pile up definitions of abstract resources such as classes, properties, concepts, all identified by URIs.
+
 RDF also specifies the definition of anonymous resources or blank nodes, which are not absolutely identified by URIs.
 
 Using HTTP URIs to identify abstract resources
+
 URLs, particularly HTTP URIs, are frequently used to identify abstract resources, such as classes, properties or other kind of concepts. Examples can be found in RDFS or OWL ontologies. Since such URIs are associated with the HTTP protocol, the question arose of which kind of representation, if any, should one get for such resources through this protocol, typically using a web browser, and if the syntax of the URI itself could help to differentiate "abstract" resources from "information" resources. The URI specifications such as RFC 3986 left to the protocol specification the task of defining actions performed on the resources and they do not provide any answer to this question. It had been suggested that an HTTP URI identifying a resource in the original sense, such as a file, document, or any kind of so-called information resource, should be "slash" URIs — in other words, should not contain a fragment identifier, whereas a URI used to identify a concept or abstract resource should be a "hash" URI using a fragment identifier.
+
 For example: http://www.example.org/catalogue/widgets.html would both identify and locate a web page (maybe providing some human-readable description of the widgets sold by Silly Widgets, Inc.) whereas http://www.example.org/ontology#Widget would identify the abstract concept or class "Widget" in this company ontology, and would not necessarily retrieve any physical resource through HTTP protocol. But it has been answered that such a distinction is impossible to enforce in practice, and famous standard vocabularies provide counter-examples widely used. For example, the Dublin Core concepts such as "title", "publisher", "creator" are identified by "slash" URIs like http://purl.org/dc/elements/1.1/title.
+
 The general question of which kind of resources HTTP URI should or should not identify has been formerly known in W3C as the httpRange-14 issue, following its name on the list defined by the  (TAG). The TAG delivered in 2005 a final answer to this issue, making the distinction between an "information resource" and a "non-information" resource dependent on the type of answer given by the server to a "GET" request:
 
 2xx Success indicates resource is an information resource.
+
 303 See Other indicates the resource could be informational or abstract; the redirection target could tell you.
+
 4xx Client Error provides no information at all.
+
 This allows vocabularies (like Dublin Core, FOAF, and Wordnet) to continue to use slash instead of hash for pragmatic reasons.  While this compromise seems to have met a consensus in the Semantic Web community, some of its prominent members such as Pat Hayes have expressed concerns both on its technical feasibility and conceptual foundation. According to Patrick Hayes' viewpoint, the very distinction between "information resource" and "other resource" is impossible to find and should better not be specified at all, and ambiguity of the referent resource is inherent to URIs like to any naming mechanism.
 
 Resource ownership, intellectual property and trust
+
 In RDF, "anybody can declare anything about anything". Resources are defined by formal descriptions which anyone can publish, copy, modify and publish over the web. If the content of a web resource in the classical sense (a web page or on-line file) is clearly owned by its publisher, who can claim intellectual property on it, an abstract resource can be defined by an accumulation of RDF descriptions, not necessarily controlled by a unique publisher, and not necessarily consistent with each other. It's an open issue to know if a resource should have an authoritative definition with clear and trustable ownership, and in this case, how to make this description technically distinct from other descriptions. A parallel issue is how intellectual property may apply to such descriptions.

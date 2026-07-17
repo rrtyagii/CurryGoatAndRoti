@@ -1,3 +1,5 @@
 Windows for Pen Computing is a software suite for Windows 3.1x, that Microsoft designed to incorporate pen computing capabilities into the Windows operating environment. Windows for Pen Computing was the second major pen computing platform for x86 tablet PCs; GO Corporation released their operating system, PenPoint OS, shortly before Microsoft published Windows for Pen Computing 1.0 in 1992.
+
 The software features of Windows for Pen Computing 1.0 includes an on-screen keyboard, a notepad program for writing with the stylus, and a program for training the system to respond accurately to the user's handwriting. Microsoft included Windows for Pen Computing 1.0 in the Windows SDK, and the operating environment was also bundled with compatible devices.
+
 Microsoft published Windows 95 in 1995, and later released Pen Services for Windows 95, also known as Windows for Pen Computing 2.0, for this new operating system. Windows XP Tablet PC Edition superseded Windows for Pen Computing in 2002. Subsequent Windows versions, such as Windows Vista and Windows 7, supported pen computing intrinsically.

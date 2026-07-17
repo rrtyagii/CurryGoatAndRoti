@@ -1,27 +1,15 @@
 In mathematics, a residuated Boolean algebra is a residuated lattice whose lattice structure is that of a Boolean algebra. Examples include Boolean algebras with the monoid taken to be conjunction, the set of all formal languages over a given alphabet
 
-
-
         Σ
-
-
     {\displaystyle \Sigma }
-
  under concatenation, the set of all binary relations on a given set
-
-
-
         X
-
-
     {\displaystyle X}
-
  under relational composition, and more generally the power set of any equivalence relation, again under relational composition. The original application was to relation algebras as a finitely axiomatized generalization of the binary relation example, but there exist interesting examples of residuated Boolean algebras that are not relation algebras, such as the language example.
 
 Definition
+
 A residuated Boolean algebra is an algebraic structure
-
-
 
         (
         L
@@ -38,26 +26,17 @@ A residuated Boolean algebra is an algebraic structure
         ,
         ∙
         ,
-
           I
-
         ,
-
           /
-
         ,
         ∖
         )
-
-
     {\displaystyle (L,\wedge ,\vee ,\neg ,0,1,\bullet ,\mathbf {I} ,/,\backslash )}
-
  such that
 
 An equivalent signature better suited to the relation algebra application is
 
-
-
         (
         L
         ,
@@ -73,43 +52,22 @@ An equivalent signature better suited to the relation algebra application is
         ,
         ∙
         ,
-
           I
-
         ,
         ▹
         ,
         ◃
         )
-
-
     {\displaystyle (L,\wedge ,\vee ,\neg ,0,1,\bullet ,\mathbf {I} ,\triangleright ,\triangleleft )}
-
  where the unary operations
-
-
-
         x
         ∖
-
-
     {\displaystyle x\backslash }
-
  and
-
-
-
         x
         ▹
-
-
     {\displaystyle x\triangleright }
-
  are intertranslatable in the manner of De Morgan's laws via
-
-
-
-
         x
         ∖
         y
@@ -121,14 +79,10 @@ An equivalent signature better suited to the relation algebra application is
         ¬
         y
         )
-
-
     {\displaystyle x\backslash y=\neg (x\triangleright \neg y)}
 
 ,
 
-
-
         x
         ▹
         y
@@ -140,42 +94,21 @@ An equivalent signature better suited to the relation algebra application is
         ¬
         y
         )
-
-
     {\displaystyle x\triangleright y=\neg (x\backslash \neg y)}
 
 ,
 and dually
 
-
-
-
           /
-
         y
-
-
     {\displaystyle /y}
-
  and
-
-
-
         ◃
         y
-
-
     {\displaystyle \triangleleft y}
-
  as
-
-
-
-
         x
-
           /
-
         y
         =
         ¬
@@ -185,14 +118,10 @@ and dually
         ◃
         y
         )
-
-
     {\displaystyle x/y=\neg (\neg x\triangleleft y)}
 
 ,
 
-
-
         x
         ◃
         y
@@ -201,39 +130,22 @@ and dually
         (
         ¬
         x
-
           /
-
         y
         )
-
-
     {\displaystyle x\triangleleft y=\neg (\neg x/y)}
 
 ,
 with the residuation axioms in the residuated lattice article reorganized accordingly (replacing
 
-
-
         z
-
-
     {\displaystyle z}
-
  by
-
-
-
         ¬
         z
-
-
     {\displaystyle \neg z}
 
 ) to read
-
-
-
 
         (
         x
@@ -244,9 +156,7 @@ with the residuation axioms in the residuated lattice article reorganized accord
         y
         =
         0
-
         ⇔
-
         (
         x
         ∙
@@ -256,9 +166,7 @@ with the residuation axioms in the residuated lattice article reorganized accord
         z
         =
         0
-
         ⇔
-
         (
         z
         ◃
@@ -268,39 +176,26 @@ with the residuation axioms in the residuated lattice article reorganized accord
         x
         =
         0
-
-
     {\displaystyle (x\triangleright z)\wedge y=0\ \Leftrightarrow \ (x\bullet y)\wedge z=0\ \Leftrightarrow \ (z\triangleleft y)\wedge x=0}
 
-
 This De Morgan dual reformulation is motivated and discussed in more detail in the section below on conjugacy.
+
 Since residuated lattices and Boolean algebras are each definable with finitely many equations, so are residuated Boolean algebras, whence they form a finitely axiomatizable variety.
 
 Examples
+
 Any Boolean algebra, with the monoid multiplication
 
-
-
         ∙
-
-
     {\displaystyle \bullet }
-
  taken to be conjunction and both residuals taken to be material implication
-
-
-
         x
         →
         y
-
-
     {\displaystyle x\to y}
 
 . Of the remaining 15 binary Boolean operations that might be considered in place of conjunction for the monoid multiplication, only five meet the monotonicity requirement, namely
 
-
-
         0
         ,
         1
@@ -308,185 +203,109 @@ Any Boolean algebra, with the monoid multiplication
         x
         ,
         y
-
-
     {\displaystyle 0,1,x,y}
-
  and
-
-
-
         x
         ∨
         y
-
-
     {\displaystyle x\vee y}
 
 . Setting
 
-
-
         y
         =
         z
         =
         0
-
-
     {\displaystyle y=z=0}
-
  in the residuation axiom
-
-
-
         y
         ≤
         x
         ∖
         z
-
         ⇔
-
         x
         ∙
         y
         ≤
         z
-
-
     {\displaystyle y\leq x\backslash z\ \Leftrightarrow \ x\bullet y\leq z}
 
 , we have
 
-
-
         0
         ≤
         x
         ∖
         0
-
         ⇔
-
         x
         ∙
         0
         ≤
         0
-
-
     {\displaystyle 0\leq x\backslash 0\ \Leftrightarrow \ x\bullet 0\leq 0}
 
 , which is falsified by taking
 
-
-
         x
         =
         1
-
-
     {\displaystyle x=1}
-
  when
-
-
-
         x
         ∙
         y
         =
         1
-
-
     {\displaystyle x\bullet y=1}
 
 ,
 
-
-
         x
-
-
     {\displaystyle x}
 
 , or
 
-
-
         x
         ∨
         y
-
-
     {\displaystyle x\vee y}
 
 . The dual argument for
 
-
-
         z
-
           /
-
         y
-
-
     {\displaystyle z/y}
-
  rules out
-
-
-
         x
         ∙
         y
         =
         y
-
-
     {\displaystyle x\bullet y=y}
 
 . This just leaves
-
-
 
         x
         ∙
         y
         =
         0
-
-
     {\displaystyle x\bullet y=0}
-
  (a constant binary operation independent of
-
-
-
         x
-
-
     {\displaystyle x}
-
  and
-
-
-
         y
-
-
     {\displaystyle y}
 
 ), which satisfies almost all the axioms when the residuals are both taken to be the constant operation
 
-
-
         x
-
           /
-
         y
         =
         x
@@ -494,141 +313,72 @@ Any Boolean algebra, with the monoid multiplication
         y
         =
         1
-
-
     {\displaystyle x/y=x\backslash y=1}
 
 . The axiom it fails is
 
-
-
         x
         ∙
-
           I
-
         =
         x
         =
-
           I
-
         ∙
         x
-
-
     {\displaystyle x\bullet \mathbf {I} =x=\mathbf {I} \bullet x}
 
 , for want of a suitable value for
 
-
-
-
           I
-
-
-
     {\displaystyle \mathbf {I} }
 
 . Hence conjunction is the only binary Boolean operation making the monoid multiplication that of a residuated Boolean algebra.
+
 The power set
 
-
-
-
           2
-
-
               X
-
                 2
-
-
-
-
-
-
     {\displaystyle 2^{X^{2}}}
-
  made a Boolean algebra as usual with
-
-
-
         ∩
-
-
     {\displaystyle \cap }
 
 ,
 
-
-
         ∪
-
-
     {\displaystyle \cup }
-
  and complement relative to
-
-
-
-
           X
-
             2
-
-
-
-
     {\displaystyle X^{2}}
 
 , and made a monoid with relational composition. The monoid unit
 
-
-
-
           I
-
-
-
     {\displaystyle \mathbf {I} }
-
  is the identity relation
-
-
-
         {
         (
         x
         ,
         x
         )
-
           |
-
         x
         ∈
         X
         }
-
-
     {\displaystyle \{(x,x)|x\in X\}}
 
 . The right residual
 
-
-
         R
         ∖
         S
-
-
     {\displaystyle R\backslash S}
-
  is defined by
-
-
-
         x
         (
         R
@@ -636,9 +386,7 @@ The power set
         S
         )
         y
-
         ⇔
-
         ∀
         z
         ∈
@@ -651,39 +399,23 @@ The power set
         z
         S
         y
-
-
     {\displaystyle x(R\backslash S)y\ \Leftrightarrow \ \forall z\in X,zRx\Rightarrow zSy}
 
 . Dually the left residual
 
-
-
         S
-
           /
-
         R
-
-
     {\displaystyle S/R}
-
  is defined by
-
-
-
         y
         (
         S
-
           /
-
         R
         )
         x
-
         ⇔
-
         ∀
         z
         ∈
@@ -696,338 +428,163 @@ The power set
         y
         S
         z
-
-
     {\displaystyle y(S/R)x\ \Leftrightarrow \ \forall z\in X,xRz\Rightarrow ySz}
 
 .
+
 The power set
 
-
-
-
           2
-
-
               Σ
-
                 ∗
-
-
-
-
-
-
     {\displaystyle 2^{\Sigma ^{*}}}
-
  made a Boolean algebra as for Example 2, but with language concatenation for the monoid. Here the set
-
-
-
         Σ
-
-
     {\displaystyle \Sigma }
-
  is used as an alphabet while
-
-
-
-
           Σ
-
             ∗
-
-
-
-
     {\displaystyle \Sigma ^{*}}
-
  denotes the set of all finite (including empty) words over that alphabet. The concatenation
-
-
-
         L
         M
-
-
     {\displaystyle LM}
-
  of languages
-
-
-
         L
-
-
     {\displaystyle L}
-
  and
-
-
-
         M
-
-
     {\displaystyle M}
-
  consists of all words
-
-
-
         u
         v
-
-
     {\displaystyle uv}
-
  such that
-
-
-
         u
         ∈
         L
-
-
     {\displaystyle u\in L}
-
  and
-
-
-
         v
         ∈
         M
-
-
     {\displaystyle v\in M}
 
 . The monoid unit is the language
 
-
-
         {
         ε
         }
-
-
     {\displaystyle \{\varepsilon \}}
-
  consisting of just the empty word
-
-
-
         ε
-
-
     {\displaystyle \varepsilon }
 
 . The right residual
 
-
-
         M
         ∖
         L
-
-
     {\displaystyle M\backslash L}
-
  consists of all words
-
-
-
         w
-
-
     {\displaystyle w}
-
  over
-
-
-
         Σ
-
-
     {\displaystyle \Sigma }
-
  such that
-
-
-
         M
         w
         ⊆
         L
-
-
     {\displaystyle Mw\subseteq L}
 
 . The left residual
 
-
-
         L
-
           /
-
         M
-
-
     {\displaystyle L/M}
-
  is the same with
-
-
-
         w
         M
-
-
     {\displaystyle wM}
-
  in place of
-
-
-
         M
         w
-
-
     {\displaystyle Mw}
 
 .
 
 Conjugacy
+
 The De Morgan duals
 
-
-
         ▹
-
-
     {\displaystyle \triangleright }
-
  and
-
-
-
         ◃
-
-
     {\displaystyle \triangleleft }
-
  of residuation arise as follows. Among residuated lattices, Boolean algebras are special by virtue of having a complementation operation
-
-
-
         ¬
-
-
     {\displaystyle \neg }
 
 . This permits an alternative expression of the three inequalities
 
-
-
-
         y
         ≤
         x
         ∖
         z
-
         ⇔
-
         x
         ∙
         y
         ≤
         z
-
         ⇔
-
         x
         ≤
         z
-
           /
-
         y
-
-
     {\displaystyle y\leq x\backslash z\ \Leftrightarrow \ x\bullet y\leq z\ \Leftrightarrow \ x\leq z/y}
 
-
 in the axiomatization of the two residuals in terms of disjointness, via the equivalence
-
-
 
         x
         ≤
         y
-
         ⇔
-
         x
         ∧
         ¬
         y
         =
         0
-
-
     {\displaystyle x\leq y\ \Leftrightarrow \ x\wedge \neg y=0}
 
 . Abbreviating
 
-
-
         x
         ∧
         y
         =
         0
-
-
     {\displaystyle x\wedge y=0}
-
  to
-
-
-
         x
         #
         y
-
-
     {\displaystyle x\#y}
-
  as the expression of their disjointness, and substituting
-
-
-
         ¬
         z
-
-
     {\displaystyle \neg z}
-
  for
-
-
-
         z
-
-
     {\displaystyle z}
-
  in the axioms, they become with a little Boolean manipulation
-
-
-
-
         ¬
         (
         x
@@ -1037,36 +594,25 @@ in the axiomatization of the two residuals in terms of disjointness, via the equ
         )
         #
         y
-
         ⇔
-
         x
         ∙
         y
         #
         z
-
         ⇔
-
         ¬
         (
         ¬
         z
-
           /
-
         y
         )
         #
         x
-
-
     {\displaystyle \neg (x\backslash \neg z)\#y\ \Leftrightarrow \ x\bullet y\#z\ \Leftrightarrow \ \neg (\neg z/y)\#x}
 
-
 Now
-
-
 
         ¬
         (
@@ -1075,32 +621,16 @@ Now
         ¬
         z
         )
-
-
     {\displaystyle \neg (x\backslash \neg z)}
-
  is reminiscent of De Morgan duality, suggesting that
-
-
-
         x
         ∖
-
-
     {\displaystyle x\backslash }
-
  be thought of as a unary operation
-
-
-
         f
-
-
     {\displaystyle f}
 
 , defined by
-
-
 
         f
         (
@@ -1110,13 +640,9 @@ Now
         x
         ∖
         y
-
-
     {\displaystyle f(y)=x\backslash y}
 
 , that has a De Morgan dual
-
-
 
         ¬
         f
@@ -1124,13 +650,9 @@ Now
         ¬
         y
         )
-
-
     {\displaystyle \neg f(\neg y)}
 
 , analogous to
-
-
 
         ∀
         x
@@ -1147,706 +669,314 @@ Now
         (
         x
         )
-
-
     {\displaystyle \forall x\phi (x)=\neg \exists x\neg \phi (x)}
 
 . Denoting this dual operation as
 
-
-
         x
         ▹
-
-
     {\displaystyle x\triangleright }
 
 , we define
 
-
-
         x
         ▹
         z
-
-
     {\displaystyle x\triangleright z}
-
  as
-
-
-
         ¬
         x
         ∖
         ¬
         z
-
-
     {\displaystyle \neg x\backslash \neg z}
 
 . Similarly we define another operation
 
-
-
         z
         ◃
         y
-
-
     {\displaystyle z\triangleleft y}
-
  as
-
-
-
         ¬
         (
         ¬
         z
-
           /
-
         y
         )
-
-
     {\displaystyle \neg (\neg z/y)}
 
 . By analogy with
 
-
-
         x
         ∖
-
-
     {\displaystyle x\backslash }
-
  as the residual operation associated with the operation
-
-
-
         x
         ∙
-
-
     {\displaystyle x\bullet }
 
 , we refer to
 
-
-
         x
         ▹
-
-
     {\displaystyle x\triangleright }
-
  as the conjugate operation, or simply conjugate, of
-
-
-
         x
         ∙
-
-
     {\displaystyle x\bullet }
 
 . Likewise
 
-
-
         ◃
         y
-
-
     {\displaystyle \triangleleft y}
-
  is the conjugate of
-
-
-
         ∙
         y
-
-
     {\displaystyle \bullet y}
 
 . Unlike residuals, conjugacy is an equivalence relation between operations: if
 
-
-
         f
-
-
     {\displaystyle f}
-
  is the conjugate of
-
-
-
         g
-
-
     {\displaystyle g}
-
  then
-
-
-
         g
-
-
     {\displaystyle g}
-
  is also the conjugate of
-
-
-
         f
-
-
     {\displaystyle f}
 
 , i.e. the conjugate of the conjugate of
 
-
-
         f
-
-
     {\displaystyle f}
-
  is
-
-
-
         f
-
-
     {\displaystyle f}
 
 . Another advantage of conjugacy is that it becomes unnecessary to speak of right and left conjugates, that distinction now being inherited from the difference between
 
-
-
         x
         ∙
-
-
     {\displaystyle x\bullet }
-
  and
-
-
-
         ∙
         x
-
-
     {\displaystyle \bullet x}
 
 , which have as their respective conjugates
 
-
-
         x
         ▹
-
-
     {\displaystyle x\triangleright }
-
  and
-
-
-
         ◃
         x
-
-
     {\displaystyle \triangleleft x}
 
 .  (But this advantage accrues also to residuals when
 
-
-
         x
         ∖
-
-
     {\displaystyle x\backslash }
-
  is taken to be the residual operation to
-
-
-
         x
         ∙
-
-
     {\displaystyle x\bullet }
 
 .)
+
 All this yields (along with the Boolean algebra and monoid axioms) the following equivalent axiomatization of a residuated Boolean algebra.
-
-
-
 
         y
         #
         x
         ▹
         z
-
         ⇔
-
         x
         ∙
         y
         #
         z
-
         ⇔
-
         x
         #
         z
         ◃
         y
-
-
     {\displaystyle y\#x\triangleright z\ \Leftrightarrow \ x\bullet y\#z\ \Leftrightarrow \ x\#z\triangleleft y}
-
 
 With this signature it remains the case that this axiomatization can be expressed as finitely many equations.
 
 Converse
+
 In Examples 2 and 3 it can be shown that
-
-
 
         x
         ▹
-
           I
-
         =
-
           I
-
         ◃
         x
-
-
     {\displaystyle x\triangleright \mathbf {I} =\mathbf {I} \triangleleft x}
 
 . In Example 2 both sides equal the converse
 
-
-
         x
-
-
-
-
               ˘
-
-
-
-
-
     {\displaystyle x{\breve {}}}
-
  of
-
-
-
         x
-
-
     {\displaystyle x}
 
 , while in Example 3, both sides are
 
-
-
-
           I
-
-
-
     {\displaystyle \mathbf {I} }
-
  when
-
-
-
         x
-
-
     {\displaystyle x}
-
  contains the empty word and
-
-
-
         0
-
-
     {\displaystyle 0}
-
  otherwise. In the former case
-
-
-
         x
-
-
-
-
               ˘
-
-
-
         =
         x
-
-
     {\displaystyle x{\breve {}}=x}
 
 . This is impossible for the latter because
 
-
-
         x
         ▹
-
           I
-
-
-
     {\displaystyle x\triangleright \mathbf {I} }
-
  retains hardly any information about
-
-
-
         x
-
-
     {\displaystyle x}
 
 . Hence in Example 2 we can substitute
 
-
-
         x
-
-
-
-
               ˘
-
-
-
-
-
     {\displaystyle x{\breve {}}}
-
  for
-
-
-
         x
-
-
     {\displaystyle x}
-
  in
-
-
-
         x
         ▹
-
           I
-
         =
         x
-
-
-
-
               ˘
-
-
-
         =
-
           I
-
         ◃
         x
-
-
     {\displaystyle x\triangleright \mathbf {I} =x{\breve {}}=\mathbf {I} \triangleleft x}
-
  and cancel (soundly) to give
-
-
-
-
         x
-
-
-
-
               ˘
-
-
-
         ▹
-
           I
-
         =
         x
         =
-
           I
-
         ◃
         x
-
-
-
-
               ˘
-
-
-
-
-
     {\displaystyle x{\breve {}}\triangleright \mathbf {I} =x=\mathbf {I} \triangleleft x{\breve {}}}
 
 .
 
-
-
-
         x
-
-
-
-
               ˘
-
-
-
-
-
-
-
               ˘
-
-
-
         =
         x
-
-
     {\displaystyle x{\breve {}}{\breve {}}=x}
-
  can be proved from these two equations. Tarski's notion of a relation algebra can be defined as a residuated Boolean algebra having an operation
-
-
-
         x
-
-
-
-
               ˘
-
-
-
-
-
     {\displaystyle x{\breve {}}}
-
  satisfying these two equations.
 The cancellation step in the above is not possible for Example 3, which therefore is not a relation algebra,
 
-
-
         x
-
-
-
-
               ˘
-
-
-
-
-
     {\displaystyle x{\breve {}}}
-
  being uniquely determined as
-
-
-
         x
         ▹
-
           I
-
-
-
     {\displaystyle x\triangleright \mathbf {I} }
 
 .
+
 Consequences of this axiomatization of converse include
 
-
-
         x
-
-
-
-
               ˘
-
-
-
-
-
-
-
               ˘
-
-
-
         =
         x
-
-
     {\displaystyle x{\breve {}}{\breve {}}=x}
 
 ,
 
-
-
         ¬
         (
         x
-
-
-
-
               ˘
-
-
-
         )
         =
         (
         ¬
         x
         )
-
-
-
-
               ˘
-
-
-
-
-
     {\displaystyle \neg (x{\breve {}})=(\neg x){\breve {}}}
 
 ,
 
-
-
         (
         x
         ∨
         y
         )
-
-
-
-
               ˘
-
-
-
         =
         x
-
-
-
-
               ˘
-
-
-
         ∨
         y
-
-
-
-
               ˘
-
-
-
-
-
     {\displaystyle (x\vee y){\breve {}}=x{\breve {}}\vee y{\breve {}}}
 
 , and
 
-
-
         (
         x
         ∙
         y
         )
-
-
-
-
               ˘
-
-
-
         =
         y
-
-
-
-
               ˘
-
-
-
         ∙
         x
-
-
-
-
               ˘
-
-
-
-
-
     {\displaystyle (x\bullet y){\breve {}}=y{\breve {}}\bullet x{\breve {}}}
 
 .

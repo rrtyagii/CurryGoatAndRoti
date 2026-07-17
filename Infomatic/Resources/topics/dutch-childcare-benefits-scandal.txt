@@ -1,93 +1,146 @@
 The Dutch childcare benefits scandal (Dutch: kinderopvangtoeslagaffaire or toeslagenaffaire, lit. '[childcare] benefits affair') is a political scandal in the Netherlands involving false allegations of welfare fraud by the Tax and Customs Administration (Belastingdienst) against thousands of families claiming childcare benefits.
+
 Between 2005 and 2019, approximately 26,000 parents were wrongly accused of making fraudulent benefit claims, resulting in demands to repay their allowances in full. In many cases, this sum amounted to tens of thousands of euros, driving families into severe financial hardship.
+
 The scandal gained public attention in September 2018, prompting investigations that criticized the Tax and Customs Administration's procedures as discriminatory, particularly affecting parents with foreign backgrounds and characterized by institutional biases. The severity of the issue culminated in the resignation of the third Rutte cabinet on 15 January 2021, just two months before the scheduled 2021 general election. A parliamentary inquiry into the affair concluded that it violated fundamental principles of the rule of law.
 
 Background
+
 Childcare benefits in the Netherlands
+
 Childcare in the Netherlands is not free and parents are generally required to pay for it themselves. However, part of the cost may be covered by childcare benefit, which is available to families in which all parents are either employed or enrolled in secondary or tertiary education or a civic integration course. The amount of childcare benefit is calculated as a percentage of the hourly rate of the childcare centre or childminding agency, ranging from 33.3 to 96.0% depending on the parents' combined income and the number of children.
+
 Each year, the government sets a maximum hourly rate for which families may receive childcare benefit. Any amount exceeding the maximum hourly rate must be fully paid by the parents. The number of childcare hours for which a family is entitled to childcare benefit depends on the number of hours that each parent works. The maximum is 230 hours per month per child. Parents may opt to have their childcare benefit paid into their own bank account or directly to the childcare centre or childminding agency.
+
 Childcare benefits were introduced to the Dutch social welfare system in 2004, when the States General of the Netherlands adopted the Childcare Act (Dutch: Wet kinderopvang). Formally, the programme is run by the Ministry of Social Affairs and Employment, but the Tax and Customs Administration (part of the Ministry of Finance) is responsible for its implementation, including payment and fraud prevention.
+
 In 2005, the General Act on Means-tested Benefits (Dutch: Algemene wet inkomensafhankelijke regelingen) was introduced, which reorganised the existing welfare system. This law did not include a hardship clause, which would allow for exceptions to be made should the prescribed procedures be deemed unreasonable.
 
 Emergence of fraudulent childminding agencies
+
 In the years following the introduction of the Childcare Act, childminding agencies emerged that committed fraud by applying for childcare benefit on behalf of their clients without asking for the mandatory contribution of 4.0 to 66.7% depending on their income. A notable example is the case of the childminding agency De Appelbloesem in Beilen, which provided informal babysitters (e.g. grandparents babysitting their grandchildren) with a formal employment contract, so that they could apply for childcare benefit and split the money between them.
+
 Since family members often babysit for free and parents would find it undesirable to switch to an arrangement that requires them to pay for their babysitter's services, the agency did not inform its clients of the fact that they were legally required to pay for the remainder of the "costs", i.e. the part of the agency's (imaginary) hourly rate not covered by the childcare benefit it had received.
+
 In 2009, the Fiscal Information and Investigation Service (FIOD) raided the agency, and its director was sentenced to eighteen months' imprisonment for forgery and fraud. According to the Tax and Customs Administration, the parents involved had to pay back the childcare benefits the agency had received in their name, as well as payments they had received after leaving De Appelbloesem.
+
 In November 2010, the House of Representatives passed a motion to recover the funds given to fraudulent childminding agencies rather than indebting parents who acted in good faith. Minister of Social Affairs Henk Kamp wrote to the House that this was not legally possible and that parents who find themselves in this situation should take legal action against their childminding agency. The clients of De Appelbloesem appealed the decision of the Tax and Customs Administration, but after several lawsuits, the Council of State confirmed that the law required them to pay back the childcare benefits they had received.
 
 Bulgarian migrant fraud
+
 In 2013, RTL Nieuws revealed that a number of Bulgarian migrants had been taking advantage of the Dutch social welfare system. They were encouraged by a gang to briefly register at an address in the Netherlands and retroactively apply for a €6,000–8,000 health care and housing allowance. At the time, the tax authorities paid allowances immediately and checked eligibility afterwards, at which point the Bulgarians had already left the country.
+
 Between 2007 and 2013, over 800 Bulgarians unjustly received about four million euros in total using this method. According to State Secretary for Finance Frans Weekers, many of these cases were not deliberate fraud but rather negligence on the Bulgarians' part. Ultimately, Weekers survived a motion of no confidence, in which he only retained support from the coalition parties (VVD and PvdA) and two minor opposition parties (CU and SGP).
 
 Response to migrant fraud
+
 In response to the widespread Bulgarian migrant fraud, the House of Representatives insisted on stricter fraud prevention. The coalition agreement of the first Rutte cabinet also included a provision to intensify anti-fraud enforcement. As a consequence, the government established a Fraud Management Team on 28 May 2013, consisting of top officials from the Tax and Customs Administration and the Ministry of Finance.
+
 Later that year, the Fraud Management Team established the Collaborative Anti-facilitation Force (Dutch: Combiteam Aanpak Facilitators, CAF). Here, "facilitation" refers to individuals or institutions that enable or encourage people to commit fraud. In the context of childcare benefit fraud, this meant that the CAF actively looked for childcare centres and childminding agencies that submitted suspicious childcare benefit applications.
+
 In June 2013, Prime Minister Mark Rutte also established the ministerial committee "Tackling Fraud", which would exist until 2015. This committee developed a broader strategy for the national government's anti-fraud campaign but did not specifically consider the Tax and Customs Administration's approach to welfare fraud. In late 2013, the committee prepared a letter to the House of Representatives, which initially set out a strict approach, but ultimately emphasised the need to act proportionately and to trust rather than to mistrust.
 
 Cases
+
 CAF 11 Hawaii
+
 The first case that revealed to the public the severity of the anti-fraud policies was the CAF's eleventh case, nicknamed "CAF 11 Hawaii". In this case, the CAF investigated childminding agency Dadim in Eindhoven, after the local government had received signals in 2011 suggesting that Dadim was facilitating childcare benefit fraud. In 2012, a judge ruled that no fraud had been found, but in October 2013 the Tax and Customs Administration still designated the office as a site of suspected fraud. In November 2013, visits were made to sixteen affiliated childminders, but the authorities continued to find no evidence of fraud. Nevertheless, in April 2014, 317 clients of Dadim, almost all of whom had dual citizenship, were classified as fraudsters.
 
 Other cases
+
 It was later found that the CAF had investigated 630 other agencies, possibly with the same harshness as in the CAF 11 Hawaii case. It is estimated that about 2,200 families were victimised in this way. Only 200 of those labelled as fraudsters were subsequently recommended to the Public Prosecution Service for using forged documents. The subsequent prosecutions resulted in only 15 convictions and eight settlements.
+
 In many of these cases, the CAF employed collective punishment based on the "80–20 principle" (80% fraud, 20% innocent; an inversion of the usual principle). Quantitative evidence for this presumption was lacking from the Tax and Customs Administration, and it turned out to be virtually impossible for innocent parents to reverse decisions.
+
 Another group of approximately 8,000 parents fell afoul of strict administrative policies, in which a small mistake (e.g. a missing signature or an undeclared change in income) could lead to a full clawback of the childcare benefit. This was stated in the law and was initially confirmed by a decision of the Council of State. In 2019, the Council of State reversed this decision, and decided to return the recovered amount to the parents, along with compensation on a case-by-case basis.
 
 Qualification "Deliberate intent/Gross negligence"
+
 When the Tax and Customs Administration suspected seriously culpable acts, the Dutch bureaucracy would mark the involved parents with the label "Deliberate intent/Gross negligence" (Dutch: Opzet/Grove schuld). Individuals who had received this label were no longer eligible for standard debt collection arrangements. Under the standard arrangement, debtors repay their debt as much as possible over a two-year period (without falling below subsistence level) and any debt remaining after that period would then be considered irrecoverable. Because parents were not eligible for such a payment plan, they became heavily indebted.
+
 In November 2020, State Secretary for Finance Alexandra van Huffelen released an internal memorandum from 2016, in which it is recommended that anyone with a childcare benefit debt exceeding €3,000 should automatically receive the "Deliberate intent/Gross negligence" qualification. According to Van Huffelen, it was unclear whether this recommendation had been carried out.
 Whereas the scandal mainly involved false allegations of childcare benefit fraud, it later turned out that the authorities also wrongly suspected residents of making fraudulent claims to healthcare benefit, rent benefit and supplementary child benefit. In the case of income tax, it was revealed that the Tax and Customs Administration – under the code name Project 1043 – claimed that citizens were fraudulent based on suspicions.
 
 Investigations
+
 As early as 9 August 2017, the National Ombudsman published a report entitled "No power play, but fair play" about the 232 parents of the CAF 11 Hawaii case. In the report, the Ombudsman strongly criticised the Tax and Customs Administration's harsh approach and recommended that these parents should be compensated. The childcare benefits scandal came to public attention when RTL Nieuws and Trouw reported about the case in September 2018. The Socialist Party opened a hotline for victims and developed a "black book" (a list of grievances) based on the 280 complaints received. This indictment was delivered to State Secretary for Finance Menno Snel on 28 August 2019.
+
 The Central Government Audit Service (ADR) also investigated the childcare benefits scandal in 2019. Specifically, the investigation aimed to find out whether the mistakes in the CAF 11 Hawaii case had also been made in other CAF cases. The investigation was controversial, as senior civil servants of the Tax and Customs Administration had stated that the three key actors involved with the CAF would not be prosecuted.
+
 Whereas the Council of State had previously agreed with the Tax and Customs Administration on their strict approach to fraud, the Council of State reversed its position in October 2019. In contrast to previous rulings, the Council of State expressed the opinion that the Tax and Customs Administration did in fact have the power to assess proportionality on a case-by-case basis.
 
 Internal reports
+
 In 2019, State Advocate Bert-Jan Houtzagers had issued a draft recommendation, which hinted that the law allowed for a less harsh approach for parents who had not paid a personal contribution on the advice of their childminder agency. Houtzagers called a tough approach (full repayment) "justifiable", but urged caution for individual circumstances. It is unclear why this advice was not followed. The exact contents of the advisory report remain classified, due to a general policy not to disclose the advice of the State Advocate. However, its contents were openly discussed in the House of Representatives in December 2020.
+
 In November 2019, a former employee of the Tax and Customs Administration sent an urgent letter to the House of Representatives. The employee processed objections submitted to the Benefits department between 2014 and 2016. In the letter, he stated that parents were treated unfairly and that the activities did not have a sound legal basis. He also wrote that he reported this to his supervisor on several occasions, but that nothing was done about it.
+
 In October 2020, it became public that in-house counsel Sandra Palmen had also reported unlawful acts at the Benefits department in 2017. Based on a decision by the Council of State, she said that the Tax and Customs Administration acted reprehensibly. This report did not lead to a change in policy either.
 
 Advisory Committee for the Implementation of Benefits
+
 On 1 July 2019, State Secretary for Finance Menno Snel established the Advisory Committee for the Implementation of Benefits (Dutch: Adviescommissie uitvoering toeslagen). The committee was chaired by former minister and former vice-chairman of the Council of State Piet Hein Donner, and was therefore nicknamed the "Donner Committee" (Dutch: commissie-Donner). The committee also included former State Secretary for Social Affairs and Employment Jetta Klijnsma and jurist Willemien den Ouden. The task of this committee was to advise on how to improve the benefits system. The committee also had the specific task of assessing the scope for handling the childcare benefits scandal cases.
+
 On 12 March 2020, the committee presented its final report, "Looking Back in Astonishment" (Dutch: Omzien in verwondering). In the report, the committee recommended extending the compensation scheme for about 300 victims to other parents who were "treated with an institutional bias".
+
 The findings of this report were, however, criticised. For example, the committee was accused of not being critical enough of the role of the Council of State, of which Donner himself was vice-chairman at the time. The committee was also accused of keeping politicians out of harm's way, especially former Minister of Social Affairs and Employment Lodewijk Asscher. Dutch news site Follow the Money argued that the committee's main conclusions did not correspond to the findings of their inquiry.
 
 Dutch Data Protection Authority
+
 After reports from RTL Nieuws and Trouw on the use of racial profiling in the assessment of benefit applications, the Dutch Data Protection Authority (AP) decided to start an investigation into the Tax and Customs Administration in May 2019. In July 2020, the chairman of the AP presented the report to State Secretary Van Huffelen. The AP described the Tax and Customs Administration's working method as "unlawful, discriminatory and improper" and stated that it had seriously violated the General Data Protection Regulation (GDPR). Chairman Aleid Wolfsen wrote:
 
 "Our investigation has shown that the Benefits department of the Tax and Customs Administration [...] saved and used data in a way that is absolutely prohibited. The whole system was set up in a discriminatory way and was used as such. [...] There was permanent and structural unnecessary negative attention for the nationality and dual citizenship of the applicants."
+
 Although the AP considered the practices as discriminatory, it concluded there was no ethnic profiling. The AP also described in the report that the Tax and Customs Administration had not cooperated in the investigation. Based on this report, the AP is considering a sanction for the Tax and Customs Administration.
 
 Parliamentary Interrogation Committee on Childcare Benefits
+
 On the initiative of member Bart Snels of GroenLinks, the House of Representatives established the Parliamentary Interrogation Committee on Childcare Benefits (Dutch: Parlementaire ondervragingscommissie Kinderopvangtoeslag, POK) on 2 July 2020. The aim was to find out to what extent the cabinet was aware of the childcare benefits scandal and why it took until 2019 to become public. A minority of the House of Representatives also wanted former members of the House of Representatives to be able to be heard during the interrogations. The decision not to allow this was criticised, because as co-legislator and controller of the government, the House of Representatives also had a role in the childcare benefits scandal.
+
 Because statements during a parliamentary questioning are no longer legally usable for criminal investigation and a criminal investigation by the Public Prosecution Service was still ongoing, the questioning was coordinated with the Public Prosecution Service. Civil servants were not asked about racial profiling by the tax authorities, so that they may still be prosecuted for those acts in the future.
+
 The parliamentary interrogation committee consisted of the following members of the House of Representatives:
 
 Interrogations
+
 The investigation took place in November 2020. In the first week, twelve experts and former top officials from the Tax and Customs Administration, the Ministry of Finance and the Ministry of Social Affairs and Employment testified. On 18 November, the former directors of the Tax and Customs Administration were questioned by the committee. They blamed the childcare benefits scandal on the Ministry of Social Affairs and Employment. A day later, the officials of the Ministry of Social Affairs and Employment, in turn, referred back to the Tax and Customs Administration. During the interrogation of Sandra Palmen, Renske Leijten asked her to read part of her memorandum, so that redacted passages became public. This revealed that she already advised in 2017 not to continue litigating against parents.
+
 In the second week, seven (former) members of government were interrogated:
 
 Report
+
 On 17 December 2020, the committee presented a report entitled "Unprecedented Injustice" (Dutch: Ongekend onrecht) to Speaker of the House of Representatives Khadija Arib. The report criticised the Tax and Customs Administration, the Ministry of Social Affairs, the cabinet, the Council of State, and also the House of Representatives itself. The committee wrote that the affected parents did not receive the protection they deserved as a consequence of the group penalties implemented by the Ministry of Finance, thus violating the "fundamental principles of the rule of law".
+
 In particular, the committee was critical of the information provided by the Tax and Customs Administration, both towards its own ministers and the House of Representatives, as well as towards affected parents, the judiciary and the media. There was also criticism of the so-called "Rutte doctrine", a term that originated from a text message from a civil servant to Prime Minister Mark Rutte that was discussed during the interrogations. This doctrine states that communication between officials and ministers did not have to be made public. Since recommendations fell outside the remit of this committee, they urged those involved to find out how this could have been prevented.
 
 Consequences
+
 Political consequences
+
 On 4 December 2019, a motion of no confidence was filed against State Secretary for Finance Menno Snel in a debate on the childcare benefits scandal. The motion was not passed by the House of Representatives, as the coalition parties VVD, CDA, D66 and ChristenUnie, the opposition parties GroenLinks and SGP, and independent member Van Haga voted against the motion. On 18 December 2019, Snel announced his resignation during a second debate about the scandal. He was succeeded by two new state secretaries: Alexandra van Huffelen and Hans Vijlbrief (both D66). The portfolio of Van Huffelen includes the Benefits and Customs departments of the Tax and Customs Administration, and therefore she was given the responsibility for resolving the childcare benefits scandal.
 
 In December 2020, after the report of the parliamentary interrogation committee had been published, the former Minister of Social Affairs and Employment Lodewijk Asscher personally apologised for his role in the childcare benefits scandal. His role in the childcare benefits scandal led to a discussion within the party about his position as party leader and lead candidate for the 2021 general election. Initially, he indicated that he wanted to continue as party leader. However, on 14 January 2021, Asscher announced that he would step down as party leader and candidate MP.
+
 On 10 January 2021, GroenLinks leader Jesse Klaver announced a motion of no confidence against the third Rutte cabinet for an upcoming debate on 15 January about the report of the parliamentary interrogation committee. The entire opposition signalled that they either supported the motion or seriously considered supporting it. Shortly before the debate, the cabinet collectively decided to resign and to continue as a demissionary cabinet. In addition, Minister of Economic Affairs and Climate Policy Eric Wiebes decided to resign immediately.
 
 Prosecution
+
 On 28 November 2019, the Parliamentary Committee for Finance explored the possibilities of prosecuting the then State Secretary for Finance Menno Snel and his civil servants. Around the same time, there was also a call within the civil service of the Tax and Customs Administration for disciplinary and judicial measures against the executives involved. After Snel resigned, Minister of Finance Wopke Hoekstra indicated on 12 January 2020 that he saw no indications of criminal acts by the Tax and Customs Administration. At the insistence of the House of Representatives, Hoekstra nevertheless decided to ask an external agency to reassess the information for criminality and also called on everyone to report information about criminal acts.
+
 On 19 May 2020, the Ministry of Finance filed a complaint against the Tax and Customs Administration as a result of the childcare benefits scandal, related to professional discrimination from 2013 to 2017. MP Pieter Omtzigt expressed his concerns about a criminal investigation by the Public Prosecution Service, given that the Public Prosecution Service itself also played a role in the childcare benefits scandal, by tackling matters under administrative rather than criminal law in consultation with the tax authorities.
+
 In addition to the report filed by the Ministry of Finance, on 28 February 2020, five more reports had been filed with the Public Prosecution Service against the Tax Authorities for criminal acts regarding the childcare benefits scandal. One complaint is known to have been filed by affected parents in December 2019, but no person or reason is known for the others.
+
 On 7 January 2021, the Public Prosecution Service announced that it would not start a criminal investigation based on the Ministry of Finance's report, because after a careful assessment there was no evidence of gagging and professional discrimination. In addition, the Public Prosecution Service referred to the sovereign immunity of the Tax and Customs Administration, which also includes its officials who implemented the policy, provided that they do not act out of their gain or interest. The Public Prosecution Service stated that the incorrect treatment of the parents was due to administrative and political choices, for which accountability belongs in the political domain. A group of affected parents and their lawyers indicated that they intended to sue the Public Prosecution Service to proceed with criminal prosecution.
+
 On 12 January 2021, a group of twenty affected parents filed a complaint against several government officials involved: Tamara van Ark, Wopke Hoekstra, Eric Wiebes, Menno Snel, and Lodewijk Asscher. According to the lawyer representing the parents, these (former) ministers and state secretaries are guilty of a criminal offence and negligence. Because it concerns (former) members of government, this declaration was filed with the Attorney General of the Supreme Court.
+
 On February 3, 2021, the group of affected parents had grown to 80 members. Their lawyer, Vasco Groeneveld, stated that many of the affected parents are not willing to file any complaint against these government officials because they are afraid that it will be used against them. Eighty parents have also filed a complaint against the Dutch Prime Minister Mark Rutte because of his responsibility in the affair. Several released documents show that the Prime Minister had been involved in the decision to take steps since May 2019 while illegal collection by the Tax Authorities continued until November 2019 or longer. Lawyer Groeneveld explained that the Prime Minister was also already aware of abuses by the Benefits department in the autumn of 2018.
 
 Compensation
+
 In March 2020, the Donner Committee recommended compensating wrongly accused parents. A day later, State Secretary Van Huffelen put forward a more extensive compensation scheme, totalling half a billion euros. In July 2020, a special department at the Ministry of Finance was created for this compensation. Because the payment of compensation was slow, the Socialist Party successfully pushed for a Christmas gift of 750 euros, which was paid in December 2020 to 8,500–9,500 of the affected parents. Later that month, 7,000 more received it as well.
+
 In response to the report of the parliamentary interrogation committee, Van Huffelen announced on 22 December 2020 that all wrongly accused parents would receive €30,000 compensation, regardless of the financial loss, unless they qualify for higher compensation. This should take place within four months, for which the recovery operation will be expanded.
+
 In July 2020, it became public that State Secretary Snel wanted to compensate the victimised parents in the CAF 11 Hawaii case earlier, in June 2019. This was rejected at that time by the cabinet, amongst other things, because they wanted to wait for the Donner Committee's report and for fear of setting a precedent. There was also a dispute between the Ministry of Social Affairs and Employment and the Ministry of Finance about who would pay for the compensation.

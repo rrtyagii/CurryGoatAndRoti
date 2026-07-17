@@ -1,28 +1,47 @@
 GlobalSign is a certificate authority and a provider of internet identity and security products. As of January 2015, Globalsign was the 4th largest certificate authority in the world, according to Netcraft.
 
 History
+
 GlobalSign was founded in Belgium in 1996 and acquired in 2007 by GMO group in Japan (formerly GeoTrust Japan).
+
 In September 2011, as a precaution, GlobalSign suspended issuing authentication certificates temporarily after an anonymous hacker going by the name "ComodoHacker" claimed to have compromised their servers, as well as those of other certificate authorities. The company took the claim seriously enough to halt the signing/issuing of new certificates while investigating the claims; it resumed issuing certificates a week later. Dutch security company Fox-IT was contracted to analyze the breach and GlobalSign released a security incident report. On December 13, 2011 GlobalSign released its final report on the incident.
+
 The report concluded that while GlobalSign's own web server was breached and the certificate of this server was stolen, due to the air gap separating this web server from the certificate-issuing machine (the one holding the company's root certificate), there was no evidence of any rogue certificates issued or any customer data exposed, thus the remedial actions were limited to cancelling their own web server's certificate and patching its software. Sophos's Chester Wisniewski summarized the report and GlobalSign's response to the incident on his blog and concluded "Not only is the report thorough and convincing, but it appears that GlobalSign took every action, exactly as they should have, both during and after the incident."
+
 As of January 2015, Globalsign was the 4th largest certificate authority in the world according to the Netcraft survey. GlobalSign was the first CA to improve revocation checking for HTTPS pages through the use of a CDN, and the company was also the first to offer IPv6 compliant revocation services ("CRL").
+
 In 2018, GlobalSign became a Qualified Trust Service Provider (QTSP) under the eIDAS regulation in both the European Union and the United Kingdom. In 2021, after the UK left the EU, GlobalSign was approved as the UK's first QTSP.
 
 Services
+
 GlobalSign's services include managed PKI platform, S/MIME certification, TLS certificates, and a cloud-based certificate manager that integrates with Microsoft's AD and user account certifications.
+
 The company also provides certificates to authenticate IoT to address authentication needs in the Internet of Everything (IoE) market and to identity management as a cloud-based service. Its PKI services can scale based on the velocity, variety, and volume of IOT platforms, and can manage the identities of millions of devices.
+
 In November 2012, GlobalSign launched an online service that allows website administrators to confirm that they have correctly configured TLS across their websites and receive actionable guidance on how to remediate any faulty or exploitable TLS configurations.
+
 The company has offices in the US, Europe and throughout Asia.
+
 In 2012, GlobalSign released its free SSL Configuration Checker. This tool lets websites check the effectiveness of their TLS configuration and provides remediation steps for websites that want to improve.
+
 In 2013, the company introduced its Auto Enrollment Gateway solution (AEG). Using AEG, companies can automate PKI management, certificate provisioning and deployment. The platform integrates with Windows Active Directory.
+
 In 2018, GlobalSign released its IoT Identity Platform. It uses PKI as its identity mechanism and is used in industries including manufacturing, agriculture, smart grid, payments, IoT gateways, and healthcare. One of the features of the platform is IoT Edge Enroll, which companies use to provision and manage the PKI-based identities. Edge Enroll provides device Registration Authority (RA), certificate lifecycle management and other support services. The platform also includes IoT CA Direct and IoT CA Connect.
+
 In May 2022, the latest version of the company's AEG platform was released. It automatically configures S/MIME certificates in Outlook for Windows using GlobalSign's cross-platform agent, XPA. XPA sets policies, and automatically enrolls, provisions, and installs certificates.
 
 Acquisition
+
 In 2014 GlobalSign acquired Helsinki-based Ubisecure Solutions, Inc., a privately held identity and access management (IAM) software developer. Ubisecure was spun out of GlobalSign in 2016.
 
 Industry Affiliations
+
 Certificate Authority/Browser Forum (CA/B Forum): GlobalSign is a founding member of the CA/B Forum, which was established in 2013. They are actively involved with the organization's S/MIME and server certificate working groups.
+
 Microsoft Intelligent Security Association (MISA): GlobalSign has been a member of MISA since 2019.
+
 Cloud Signature Consortium: GlobalSign joined the consortium in 2018.
+
 Certificate Authority Security Council (CASC) - joined in 2013.
+
 Adobe Cloud Signature Partner Program

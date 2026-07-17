@@ -1,7 +1,9 @@
 Primordial Soup is a creative studio founded by filmmaker Darren Aronofsky, dedicated to storytelling innovation, integrating artificial intelligence (AI) into the filmmaking process.
 
 Overview
+
 In May 2025, Primordial Soup was unveiled during Google’s annual developer conference, Google I/O, as part of a strategic partnership with Google DeepMind to explore the use of generative AI in storytelling. The company also entered into a collaboration with Google DeepMind to refine the technology company’s generative AI video model, including Veo.
 
 Projects
+
 Primordial Soup's first announced project is ANCESTRA, a short film by director Eliza McNitt, which blends live-action performance with AI-generated visuals. The film is scheduled to premiere at the Tribeca Festival on June 13, 2025.

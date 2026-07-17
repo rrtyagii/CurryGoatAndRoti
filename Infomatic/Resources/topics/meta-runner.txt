@@ -1,31 +1,53 @@
 Meta Runner is an Australian independent-animated web series created by brothers Kevin and Luke Lerdwichagul and produced by Glitch Productions, with funding support from Screen Australia, Crunchyroll, AMD, and Epic Games. The series follows characters originally created for the brothers' Super Mario parody web series SMG4. It premiered on YouTube on 25 July 2019, with season 2 premiering on the channel GLITCH on 16 October 2020. The third and final season premiered on 22 July 2022.
+
 The series takes place in a futuristic society where entertainment and lifestyle are based around video games and esports. The best of the best gamers in this society replace one of their arms with a cybernetic arm in order to optimize their gameplay performance, and are known as "Meta Runners".  The series focuses on an amnesiac girl named Tari, who discovers that she has the ability to warp inside video games, and comes across and helps an undercover group called MD-5 in their mission to expose the corrupt company TAS Corp.
+
 A pilot for a spin-off show titled Ultra Jump Mania, based on the fictional video game of the same name in the show, was released on 4 September 2020, but it was not picked up for a full season.
 
 Synopsis
+
 In Silica City, all media and entertainment are mostly based around video games, not just serving as entertainment, but also jobs in live streaming and lifestyle. Among members of society are Meta Runners, individuals who have replaced their limbs with cybernetic arms that allow them to boost their gaming performance.
+
 The series tells the story of Tari, a Meta Runner who was the subject of an experiment called Project Blue, led by Dr. Sheridan, a TAS Corp scientist. After waking up in a safehouse in the alleys of Silica City, Tari finds herself in the city with amnesia. The last thing Tari can remember is a sudden accident causing an explosion in the lab that supposedly kills Sheridan and his test subject, Lucinia Porter, a Meta Runner from TAS Corp.
 
 Voice cast and characters
+
 Main characters
+
 Celeste Notley-Smith as Tari, the main protagonist of the entire series. She is a shy and insecure Meta Runner who has the ability to warp into the video games she plays and has Meta Runner vision, a program that gives her the best strategies.
+
 Robyn Barry-Cotter (born Moore) as Theo, the goofy yet determined protagonist of the game Ultra Jump Mania, where he encounters Tari after she stumbles into his world. He gets transported to the real world via Tari's abilities.
+
 Hayley Nelson as Sofia Porter, a cheerful and upbeat girl who is one of Tari's friends. She is not known to play video games, but still helps MD-5 via her hacking skills.
+
 Anthony Sardinha as
+
 Lamar Williams, an easygoing otaku with a unique cybernetic arm and is a friend of Tari's.
+
 Dr. James Sheridan, the overarching antagonist of the series and the main antagonist of season 3. He is an ex-TAS Corp scientist who created the Meta Runner Arm and was behind Project Blue to try to prevent Lucks from firing him. He is presumed missing alongside Lucinia after an explosion while developing Project Blue.
+
 Brendan Barry-Cotter as Masa Shimamoto, a calm, composed, and serious friend of Tari but is a former team captain for TAS Corp. He was decommissioned after trying to hack into Lucks’ private server to prove his theory that Lucks killed Lucinia.
+
 Jessica Fallico as Belle Fontiere, the secondary antagonist of season 1, an anti-heroine in season 2 and 3, and a rival of Tari. She is also a representative of TASCorp and their most celebrated Meta Runner. She is Lucinia's girlfriend, but after finding out about her apparent death, she begins to disobey her boss and act on her own accord.
+
 David J.G. Doyle as Derek Lucks, the main antagonist of the show, and the arch-nemesis of Masa. He was the CEO of TAS Corp who was obsessed with Tari, due to her unexpected ability to warp into video games. He tried to capture Tari in order to discover the cause of her ability and give it to his other Meta Runners so that TAS Corp surpasses their competition. An AI version of Lucks appears as a recurring character in the 3rd season.
+
 Elsie Lovelock as Evelyn Claythorne, the secondary antagonist of the show and a Meta Runner at TAS Corp., is shown to be extremely snobby, selfish, and whiny throughout her appearances in the show. She is also forced to be Tari's show match partner, even though she heavily resents Tari for stealing her spotlight.
+
 Amber Lee Connors as Lucinia Porter, the overarching protagonist of the entire series. She was a Meta Runner at TAS Corp and was the human test subject for Dr. Sheridan's "Project Blue". She was presumed missing after the final phase of "Project Blue" which ended with an explosion. She is the sister of Sofia Porter, the A.I. fragment of Tari, and the girlfriend of Belle Fontiere.
 
 Minor characters
+
 Jason Marnocha as Marco, a host of underground gaming tournaments in the slums of Silica City. He collects Meta Runner arms and uses two of them as additional limbs. He joins the main cast in Season 3.
+
 Elsie Lovelock as Bo, a minor character who serves as the mascot of TAS Corp. She only appears on Silica City billboards.
+
 Kevin and Luke Lerdwichagul as the Bot-boys, common robots found across Silica City, usually with a job or function. One is also shown to be in the game Ultra Jump Mania.
+
 David J.G. Doyle as Elder Tomato, a character in the video game Ultra Jump Mania. His purpose in the game is to give the player expositionary information and advice. He is also a supporting character of the spinoff series Ultra Jump Mania.
+
 Amber Lee Connors as Satsuki-chan, a character from the dating simulation game Nova Explorers. She appears in the handheld dating simulation game Pocket Gakusei due to a crossover between the two games.
+
 Brendan Blaber as Petey, an NPC and a tutorial guide from Skybreakers.
 
 Guest stars
@@ -40,20 +62,30 @@ Arin Hanson as himself
 Lizzie Freeman as Admin 3
 
 History and production
+
 As revealed in a video titled "The Making of Tari" uploaded by Luke and Kevin Lerdwichagul on 14 February 2019 on their YouTube channel, the basis for the Meta Runner protagonist Tari, originally created for their Super Mario parody web series SMG4 as an original character, originated when Kevin and Luke asked their younger sister, Tish, who was drawing in her sketchbook, if she had any ideas for a new character to add to their channel's titular machinima series; she drew a "gamer girl" character who would become Tari. The first early design of Tari was for her to be a robot instead of a cyborg, an antenna on top of her head, headphones, a simple jacket with a love heart stitched onto it and a d-pad for her right eye.
+
 Eventually, Tari was redesigned as a human cyborg with a white vest with the Meta Runner emblem, which was based on the blue jay's wing. She was also given a blue hoodie with blue jay wing patterns on each shoulder starting from "Sequence Break" (episode 4).
+
 Meta Runner was first teased at the end of the SMG4 episode, "War of the Fat Italians 2018", depicting the character Theo and the date 5 December 2018. The months following had similar teasers of different Meta Runner arms before the official trailer for Meta Runner was uploaded on 5 December 2018.
+
 On 18 March 2019, it was announced that Meta Runner was one of many projects to receive funding from a $500,000 grant from Unreal Engine. On 25 June 2019, it was announced that Meta Runner would be funded by Screen Australia, Epic Games and AMD. On 20 July 2019, Glitch Productions announced that they had partnered with Crunchyroll to produce the series. On 20 April 2020, Screen Australia announced the funding of Meta Runner season 2. The second season aired from 16 October to 18 December 2020.
+
 A third season was announced by the creator Luke Lerdwichagul a few weeks before season 2 was completed, before being formally announced on 29 November 2021. A teaser trailer was released on 6 May 2022. The teaser confirmed that the third season will be the final season and will be released the summer of the same year.
+
 On 24 June 2022, the official trailer for season 3 was released, confirming it would begin on 22 July 2022. It ended on 9 September 2022.
+
 Although the series has concluded, it has been referenced in the primary SMG4 series, with the recurring leitmotif being heard in the SMG4 Movie "Western Spaghetti". The SMG4 counterpart of Tari was also redesigned to resemble her Meta Runner equivalent.
 
 Comic
+
 After the finale on 9 September 2022, a comic series, entitled Meta Runner: Source was announced, appearing to go through the backstory of Lucinia Porter. It was also promoted through a pre-video announcement for the third episode of SMG4's "Lawsuit Arc", "SMG4: If Mario Was In... Splatoon 3", released on 10 September. A trailer dedicated to the comic was released on 11 September on the GLITCH channel.
 
 Episodes
 All episodes were written by Jasmine Yang (with Kevin Lerdwichagul serving as co-writer for season 1), and directed by Luke Lerdwichagul (Matthew Peckham served as art director for season 3).
 
 Season 1 (2019)
+
 Season 2 (2020)
+
 Season 3: The Final Season (2022)

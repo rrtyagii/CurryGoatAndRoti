@@ -1,30 +1,17 @@
 Grossberg network is an artificial neural network introduced by Stephen Grossberg. It is a self organizing, competitive network based on continuous time. Grossberg, a neuroscientist and a biomedical engineer, designed this network based on the human visual system.
 
 Shunting model
+
 The shunting model is one of Grossberg's neural network models, based on a Leaky integrator, described by the differential equation
-
-
-
-
-
-
 
               d
               n
-
-
               d
               t
-
-
-
-
         =
-
         −
         A
         n
-
         +
         (
         B
@@ -32,7 +19,6 @@ The shunting model is one of Grossberg's neural network models, based on a Leaky
         n
         )
         E
-
         −
         (
         C
@@ -40,136 +26,76 @@ The shunting model is one of Grossberg's neural network models, based on a Leaky
         n
         )
         I
-
-
     {\displaystyle {dn \over dt}\;=\;-An\;+(B-n)E\;-(C+n)I}
 
 ,
 where
 
-
-
         n
         =
         n
         (
         t
         )
-
-
     {\displaystyle n=n(t)}
-
  represents the activation level of a neuron,
-
-
-
         E
         =
         E
         (
         t
         )
-
-
     {\displaystyle E=E(t)}
-
  and
-
-
-
         I
         =
         I
         (
         t
         )
-
-
     {\displaystyle I=I(t)}
-
  represent the excitatory and inhibitory inputs to the neuron, and
-
-
-
         A
-
-
     {\displaystyle A}
 
 ,
 
-
-
         B
-
-
     {\displaystyle B}
 
 , and
 
-
-
         C
-
-
     {\displaystyle C}
-
  are constants representing the leaky decay rate and the maximum and minimum activation levels.
 At equilibrium (where
 
-
-
         d
         n
-
           /
-
         d
         t
         =
         0
-
-
     {\displaystyle dn/dt=0}
 
 ), the activation
 
-
-
         n
-
-
     {\displaystyle n}
-
  reaches the value
-
-
-
-
         n
-
         =
-
-
-
-
               B
               E
               −
               C
               I
-
-
               A
               +
               E
               +
               I
-
-
-
-
-
     {\displaystyle n\;=\;{BE-CI \over A+E+I}}
 
 .

@@ -1,4 +1,5 @@
 Linguee is an online bilingual concordance that provides an online dictionary for a number of language pairs, including many bilingual sentence pairs. As a translation aid, Linguee differs from machine translation services like Babel Fish, and is more similar in function to a translation memory. Linguee is operated by Cologne-based DeepL SE (formerly DeepL GmbH and Linguee GmbH), which was established in Cologne in December 2008.
 
 Technology
+
 Linguee uses specialized webcrawlers to search the Internet for appropriate bilingual texts and to divide them into parallel sentences. The paired sentences identified undergo automatic quality evaluation by a human-trained machine learning algorithm that estimates the quality of translation. The user can set the number of pairs using a fuzzy search, access, and the ranking of search results with the previous quality assurance and compliance is influenced by the search term. Users can also rate translations manually, so that the machine learning system is trained continuously.

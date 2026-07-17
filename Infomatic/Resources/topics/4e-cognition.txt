@@ -1,37 +1,54 @@
 4E cognition refers to a group of theories in (the philosophy of) cognitive science that challenge traditional views of the mind as something that happens only inside the brain.
+
 The four Es stand for:
 
 embodied, meaning that a brain is found in and, more importantly, vitally interconnected with a larger physical/biological body;
 embedded, which refers to the limitations placed on the body by the external environment and laws of nature;
 extended, which argues that the mind is supplemented and even enhanced by the exterior world (e.g., writing, a calculator, etc.); and
 enactive, which is the argument that without dynamic processes, actions that require reactions, the mind would be ineffectual.
+
 It could be argued that the four Es are compounding extensions of cognition or the mind, being part of a body that is, in turn, part of an environment which limits it but also allows for certain extensions, all of which require dynamic actions and reactions.
 
 History
+
 Ideas of embodied cognition, or rather the idea that our physical bodies play a crucial role in our decision making, can be traced back as far as Plato's dialogues and Aristotelian thought. It was, however, in the twentieth century that this debate began to resemble the current discussion, fueled by disagreements between cognitivists and behaviourists. Tensions within cognitivism, as well as the increasing popularity of neurobiology, led, on the one side, to a predominant focus on internal, cognitive processes while neglecting environmental factors, which in turn caused a push-back fuelling our modern understanding of embodied cognition.
+
 The term 4E cognition is hard to trace back to its first use, however, some sources attribute it to Shaun Gallagher and the conference on 4E cognition he organised in 2007, while others indicate the term to be first used in 2006 at an 'Embodied mind workshop' at Cardiff University that Gallagher attended.
+
 Embodiment or embodied cognition arguably presents the bridge between cognitivism and 4E cognition as the embodiment of cognitive function provides the necessary conditions for embeddedness, enactedness, and extendedness to connect to cognition.
+
 4E cognition was and is heavily influenced by phenomenology, but also by Marxist and feminist thinking, as well as queer-theory. The ideas are still rather fragmented in nature due to their four main components, which can not be neatly divided, causing conceptual questions of internal boundary concepts. As a young field, it is held back both by its fragmented nature and a relative lack of critical evaluations. It is important to acknowledge that 4E cognition, though young, is a broad field containing and combining several different theoretical perspectives that conflict with one another to varying degrees. The somewhat convoluted and competing nature of the theories that can be grouped as 4E cognition, as well as the field's relative youth, make it difficult to put together an exhaustive history beyond the history of its four main theoretical pillars: embodiment, embeddedness, extendedness, and enactedness.
 
 Importance and core tenets of 4E
+
 If there are separate theories of cognition (e.g., embodied, extended, etc.), why group them under this umbrella, causing important epistemological and especially ontological dilemmas? Notably, other theories of 'non-traditional' cognition are not included under the 4E umbrella. The four E's in 4E cognition importantly all reject, or at a minimum draw into question, some of the core tenets of traditional cognitivism.
+
 Importantly, 4E cognition is seen as deindividualizing cognition to some extent, allowing for a broader examination of the interplay of personal, social, political, and ethical aspects that shape human cognition. This can be compared to advancements in the field of epigenetics, which have allowed for a broader examination of environmental (both natural and social) factors and their influence on what had previously only been subject to genetic theorizing.
+
 In a similar vein, 4E cognition might also help ground cognition in evolutionary theory by extending cognition to a biological account subject to development over time by means of evolution.
+
 Overall, the importance of the extension that is 4E cognition aims to reexamine ideas of a self-centered view of cognition, advocating for a more holistic approach. Ideally, this would allow us to reconsider ideas of justice and individual rights and responsibilities that take into account a more nuanced understanding of the relations between people and their context, balancing self-agency with factors beyond it.
 
 Conceptual differences from cognitive psychology
+
 According to the traditional teachings of cognitive psychology, cognition is a type of information processing based on representational mental structures. This idea, as the name suggests, was heavily influenced by computer science. In this light, the brain is a kind of central processing unit that organises and directs all else. The classical cognitivist view draws a strong boundary between 'the internal' and 'the external', where cognition is solely a subject of 'the internal' realm.
+
 The four E's, however, break down this boundary. Cognition can not reside solely within the confines of our heads if it is also embodied, embedded, enacted, and extended. In a way, 4E cognition is interested in the extracranial processes affecting cognition.
 
 From embodied cognition to 4E cognition
+
 The strong and the weak view
+
 Embodied cognition
+
 Broadly speaking, there is a strong and a weak perspective of embodied cognition in 4E cognition. The weak understanding refers to mental processes being causally dependent on extracranial processes. This essentially means that there is a cause and effect or action-reaction relationship between the mind and the body and its environment, etc. The strong perspective views extracranial processes as a (partial) constitutive aspect of cognition. An example here could be using a calculator to solve math problems. The calculator is not part of your brain or mind, but it supports your cognitive processes.
 
 Extracranial processes: bodily or extrabodily
+
 In addition to the weak and the strong reading of 4E cognition, there is also the distinction between bodily and extrabodily extracranial processes. Bodily extracranial processes refer to processes within the body, e.g., sensory perception. Extrabodily extracranial processes refer to processes outside of the body, like the aforementioned calculator example.
 
 Four claims of embodied cognition
+
 Embedded and extended cognition
 When combining the weak/strong reading of embodied cognition and bodily/extrabodily extracranial process, four claims about embodied cognition emerge:
 
@@ -42,10 +59,15 @@ weakly embodied and extrabodily processes
 The first and third claims signify a strong and a weak reading of embodied cognition in the more classical sense. The second claim fits almost perfectly with embedded cognition. Claim two is most compatible with extended cognition.
 
 Enacted cognition
+
 Finally, enacted cognition refers to cognition being connected to active interaction between a conscious agent and their environment. Here, too, there can be a weak and a strong reading.
 
 Criticisms
+
 Given the divided nature of the field, much criticism surrounding the lack of unity within the field has emerged. In particular, the claims of embodied cognition centering around the body conflict with the tenets of extended cognition, which also conflict with the body/environment distinction that is central to enactivism. Some theoreticians argue that the umbrella of 4E theories is still lacking a common language that might bridge the gaps between the theories that constitute it. There is also the concern that the grouping of such variable theories results in an important loss of nuance and complexity, which is a part of human cognition.
+
 Another concern raised is the "dogma of harmony". The criticism contained there regards the notion that within 4E theorizing, there is generally an optimistic and harmonic expectation of the extension between humans and their technologies, ignoring the possibility of those extensions detracting from cognition in some way rather than adding to it.
+
 Recent attempts to incorporate embodied cognitive neuroscience have been argued to hold the potential to resolve internal issues within 4E cognition.
+
 Overall, a concern often voiced regarding 4E cognition is that its proponents are at best only vaguely interested in cognition. More broadly, this concern reflects the arguably too distracted nature of this emerging field.

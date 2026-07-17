@@ -1,8 +1,13 @@
 Gurtam (Belarusian: гуртам, lit. 'together') is an international software development company focused on fleet telematics, GPS tracking, and IoT solutions. The company is known for its Wialon platform, which is hardware-agnostic and compatible with a wide range of telematics devices from different manufacturers.
+
 As of 2024, the Wialon platform had over 3.9 million vehicles and other assets connected globally. The company's business network consists of more than 2,500 partners, including telematic service providers and systems integrators, in over 150 countries. According to market analysis by Berg Insight, Wialon is the leading fleet management platform in the CIS and Central and Eastern Europe, and has become one of the largest telematics software providers globally. The company also has a presence in emerging markets, ranking among the top fleet digitalization platforms in both Latin America and Southeast Asia.
 
 History
+
 Gurtam was founded in 2002 in Minsk, Belarus. The company's initial focus was on developing software for vehicle tracking systems, which led to the creation of its primary platform, Wialon.
+
 The company expanded during the 2010s. By 2011, Wialon was tracking 100,000 assets, a number that grew to 1 million by November 2016. During this period, Gurtam opened international offices to support its partner network, including a location in Dubai in 2013 and another in Boston in 2014. The company further expanded into Latin America with an office in Buenos Aires in 2016.
+
 In 2017, Gurtam launched Flespi, a specialized backend platform-as-a-service (PaaS) for a broader range of IoT and telematics applications beyond traditional fleet management. The company continued to scale, reaching 2 million connected assets on Wialon in 2019. In 2020, Gurtam established the "IoT project of the year", an annual global competition for IoT projects focused on telematics solutions. The company reached 3 million connected assets in 2021 and joined the IoT M2M Council (IMC).
+
 Following the full-scale Russian invasion of Ukraine in 2022, Gurtam relocated its headquarters and staff from Belarus to a new head office in Vilnius, Lithuania, and ceased all its operations in Russia. In 2024, the company partnered with Fleet Forum, an international non-profit organization, to support the fleet digitalization of humanitarian aid fleets.

@@ -1,2 +1,3 @@
 Pcloudy is a mobile application testing platform on cloud for "next-gen" app testing.
+
 It was founded in 2013. It was acquired by Smart Software Testing Solutions Inc., a Dublin, California based company. It provides mobile testing tools, automation testing tools and bot testing on real devices.

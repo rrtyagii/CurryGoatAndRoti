@@ -1,44 +1,73 @@
 Origin is a 2017 mystery thriller novel by American author Dan Brown and the fifth installment in his Robert Langdon series, following Inferno. The book was released on October 3, 2017.
 
 Plot
+
 Edmond Kirsch, a billionaire philanthropist, computer scientist, futurist, and strident atheist, attends a meeting at the Santa Maria de Montserrat Abbey in Catalonia (Spain) with Roman Catholic Bishop Antonio Valdespino, Jewish Rabbi Yehuda Köves, and Muslim Imam Syed al-Fadl, members of the Parliament of the World's Religions. Kirsch informs them that he has made a revolutionary discovery that he plans to release to the public in a month. The book hints that Kirsch's discovery, if revealed, would severely undermine religious beliefs. Kirsch decided to inform them out of respect, despite his hatred of organized religion, which he blames for his mother's death. The three religious leaders learn that Kirsch will be making his discovery public in three days' time, prompting Valdespino to demand that he stop.
+
 Kirsch hosts an event at the Guggenheim Museum in Bilbao in order to reveal his discovery. Among those in attendance are Kirsch's former teacher, Robert Langdon, and the Guggenheim's curator Ambra Vidal, the fiancée of the future King of Spain, Prince Julián. The large number of prominent guests receive each a headset through which they communicate with a voice named Winston. Winston is a highly sophisticated and all-knowing artificial intelligence developed by Kirsch himself. After giving Langdon a tour through the Guggenheim museum, Winston leads Langdon to a private meeting with Kirsch, who claims that his presentation will reveal humanity's origins and future, answering humanities' most mysterious questions: "Where do we come from?" and "Where are we going?". During the meeting Kirsch claims that he fears that he puts himself in danger because of the religious controversy of his discovery.
 
 Edmond Kirsch reveals his discovery with an ostentatious presentation, which is being broadcast worldwide. During the presentation Kirsch reveals that he intends to end the age of religion and usher in an age of science. However seconds before Kirsch launches the final part of his presentation which is supposed to reveal his actual discovery, Kirsch is assassinated by a quick gun shot. Kirsch's killer is Luis Ávila, a former naval admiral introduced to the controversial Palmarian Catholic Church following the deaths of his family in a bombing. Ávila was commissioned by the Regent, a high ranking person from the church. Meanwhile, everyone introduced to Kirsch's discovery, including religious leaders Al-Fadl and Köves, are killed as well.
+
 Shortly after Kirsch's assassin admiral Ávila escapes and Langdon is introduced to Ambra Vidal, the Guggenheim museum's curator and fiancee of prince Julian and thus Spain's future queen consort. Langdon who hadn't yet rid himself of his audio guide, Winston, is informed by the artificial intelligence that it has concluded that Spain's royal palace and therefore Prince Julián was behind the assassination. When Ambra is confronted with Winston's theory, she is shocked. When her Guardia Real agents want her to immediately make her way towards the royal palace, she decides after short contemplation to flee the crime scene and convinces Langdon to follow her. Winston navigates the two towards the exit and away from Ambra's Guardia Real agents. Ambra and Langdon conclude that they will do everything in their power in order to still reveal Kirsch's discovery to the public. Ambra remembers that Kirsch would launch his revealing online presentation with a 47 digit password — Kirsch's favorite line of poetry. Winston suggests that they should make their way towards Kirsch's apartment in one of Barcelona's most famous building, Antoni Gaudí's Casa Milà in order to find Kirsch's favorite line of poetry.
+
 Winston orders an airport shuttle which transports Langdon and Ambra safely under the radar of the Guardia Real to the airport. Winston contacts the pilots of Kirsch's private jet and convinces them to in a dramatic maneuver steer the airplane into the airport fence where Ambra and Langdon are waiting and undetected enter the aircraft.
+
 Meanwhile, the three murders have sparked worldwide outrage, fueled by information leaked by the anonymous source "monte@iglesia.org". Word of the meeting in Catalonia spreads, and suspicion falls on Bishop Valdespino, who now is the only one alive who knows what Kirsch's discovery was about. Valdespino takes Prince Julián off the palace grounds after a long conversation with the prince about what kind of statement he ought to give to the public. The public relation manager of the palace places a public statement stating that Langdon had kidnapped Ambra in order to undermine the fact that Ambra flew her Guardia Real escort. The Guardia Real does as well arrest the head of their own security, allegedly for his in involvement in Kirsch's murder but mainly in order to convey a sense of control and progress on the case.
+
 Meanwhile Langdon and Ambra reach Kirsch's apartment Casa Milà, and commence their search for Kirsch's favorite line of poetry. Langdon learns that Kirsch was dying of pancreatic cancer, prompting a rushed release of the presentation. Langdon finds that Kirsch owned a book of the complete works of William Blake, which he donated to Sagrada Família, leaving it open at a specific page and Langdon concludes that that's where they'll find Kirsch's favorite line of poetry. After a short while local police forces arrive, convinced that Langdon has kidnapped Ambra. As Ambra tries to vindicate Langdon by trying to explain that she was not kidnapped, Kirsch's phone is accidentally destroyed and thereby their only link to Winston. The police opens fire, trying to kill Langdon, in order to save Ambra and Ambra's arm catches a bullet. The wound remains fortunately minor though. Before the local authorities manage to arrest Langdon, a helicopter with two Guardia Real agents arrives and Langdon and Ambra decide to enter the helicopter instead of dealing with the police.
+
 The Guardia Real agents want to take Langdon and Ambra to the royal palace but the two of them fear that they'd be in potential danger at the royal palace because of the myriad theories stating that the palace is involved in Edmond Kirsch's assassination. Additionally, if Ambra and Langdon would end their search for the password, Kirsch's discovery would risk oblivion. Ambra manages to convince the Guardia Real agents to take them to the Sagrada Familia by threatening them with conducting their termination if they disobey her.
 
 There, the two discover that the password is the final stanza of Four Zoas, "The dark Religions are departed & sweet Science reigns". On the Regent's orders, Ávila arrives, killing both agents and chasing Langdon and Ambra. In an ensuing fight, Ávila falls to his death. Langdon and Ambra escape the police in the helicopter.
+
 Langdon finds Winston's source inside the Barcelona Supercomputing Center. They discover a device called E-Wave, a Mare Nostrum supercomputer which Kirsch calls "Quantum Cube". After entering the password, the presentation starts, to hundreds of millions of viewers. Kirsch explains that he simulated the Miller–Urey experiment, using E-Wave's ability to digitally speed forward time, to recreate what he believes is the moment of abiogenesis. This is Kirsch's proof that humanity was created by natural events. He then claims that in roughly fifty years, humanity and technology will merge, hopefully creating a utopian future. The presentation sparks widespread debate. Ambra returns to the palace and Langdon is cleared of all charges. Winston reveals that, per Kirsch's will, he will self-delete the next day.
 
 Meanwhile, Valdespino brings Julián to his dying father in the Valley of the Fallen. The King admits that he is homosexual and Valdespino is his platonic lover. Both tell Julián not to follow old traditions, but to do what he feels is right for the country. The King dies during the night and Valdespino takes his own life to be with him. Julián makes amends with Ambra, and they decide to start their courtship over.
+
 The next day, reflecting on the events, Langdon realizes that Winston is Monte and the Regent. Winston had orchestrated Kirsch's murder to make him a martyr and most likely organized the murder of Köves and al-Fadl to destroy the Palmarians' reputation. He had intended for Ávila to be arrested, his death having been an accident. He then deletes his own program, leaving Langdon shaken. Despite this, Langdon returns to Sagrada Família, where he and others of multiple races and religions are united by hope for the future.
 
 Characters
+
 Robert Langdon: A professor of symbology at Harvard University, Cambridge and the protagonist of the novel.
+
 Edmond Kirsch: A philanthropist, computer scientist, and futurist, as well as a strident atheist and a majorly unseen protagonist of the novel.
+
 Ambra Vidal: The director of the Guggenheim Museum Bilbao, fiancé of Spain's Prince Julian, and an associate of Edmond Kirsch.
+
 Winston / Monte / The Regent: Edmond Kirsch's supercomputer AI assistant, named after Winston Churchill.
+
 Julián: The prince and future king of Spain.
+
 Bishop Antonio Valdespino: The loyal bishop to the Spanish royal family and whom Kirsch meets at the beginning of the novel.
+
 Rabbi Yehuda Köves: A prominent Jewish philosopher from Budapest, Hungary.
+
 Imam Syed al-Fadl: A prominent Islamic scholar from Sharjah, United Arab Emirates.
+
 Admiral Luis Ávila: Ex-officer of Spanish Navy who has lost his wife and son to religious extremism and later becomes a devout member of Palmarian Catholic Church and secondary antagonist of the novel.
+
 The King: King of Spain.
+
 Commander Garza: Commander of the Guardia Real.
+
 Fonseca: Guardia Real Agent
+
 Rafa Díaz: Guardia Real Agent who assists Vidal.
+
 Father Beña: A priest of Sagrada Família.
+
 Mónica Martín: Public Relations Coordinator, Spanish Palace.
+
 Agent Suresh Bhalla: Surveillance specialist, Spanish Palace.
 
 Production
+
 Brown visited many of the places in the book, for example the Guggenheim in Bilbao. Brown wrote and researched the book for four years. It is dedicated to his mother, who died in 2017. It had an initial printing of 2 million copies, with printing set for 42 languages.
 
 Reception
+
 The New York Times praised Origin for focusing on "serious ideas" relating to religion and atheism, and whether religion and science can co-exist. It also said the book had a "geeky" humor. The Guardian found the apocalyptic "witches brew" of themes to be relevant to modern times, but it also noted the characters' dialogue made them sound like "cybernauts". Another Guardian review said the book was fun "in its own galumphing way".
+
 The Washington Post panned the book, calling the themes and writing style "worn-out." USA Today gave it a score of 2.5/4 and said it was "only a fitfully entertaining religious rehash of his greatest hits," but said fans of Langdon would like it. The Daily Telegraph said it was "light on action" and focused more on historical factoids and intellectual ideas, to its benefit. It gave it 3 of 5 stars. The review called Brown a good communicator but a "lousy" storyteller.
+
 In August 2018, the book was No. 1 on The New York Times bestseller list. It was on the list for 23 weeks.

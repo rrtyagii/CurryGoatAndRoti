@@ -1,26 +1,39 @@
 A pretext (adj.: pretextual) is an excuse to do something or say something that is not accurate. Pretexts may be based on a half-truth or developed in the context of a misleading fabrication. Pretexts have been used to conceal the true purpose or rationale behind actions and words. They are often heard in political speeches.
+
 In US law, a pretext usually describes false reasons that hide the true intentions or motivations for a legal action. If a party can establish a prima facie case for the proffered evidence, the opposing party must prove that these reasons were "pretextual" or false. This can be accomplished by directly demonstrating that the motivations behind the presentation of evidence is false, or indirectly by evidence that the motivations are not "credible". In Griffith v. Schnitzer, an employment discrimination case, a jury award was reversed by a Court of Appeals because the evidence was not sufficient that the defendant's reasons were "pretextual". That is, the defendant's evidence was either undisputed, or the plaintiff's  was "irrelevant subjective assessments and opinions".
+
 A "pretextual" arrest by law enforcement officers is one carried out for illegal purposes such as to conduct an unjustified search and seizure.
 
 As one example of pretext, in the 1880s, the Chinese government raised money on the pretext of modernizing the Chinese navy. Instead, these funds were diverted to repair a ship-shaped, two-story pavilion which had been originally constructed for the mother of the Qianlong Emperor. This pretext and the Marble Barge are famously linked with Empress Dowager Cixi. This architectural folly, known today as the Marble Boat (Shifang), is "moored" on Lake Kunming in what the empress renamed the "Garden for Cultivating Harmony" (Yiheyuan).
+
 Another example of pretext was demonstrated in the speeches of the Roman orator Cato the Elder (234–149 BC). For Cato, every public speech became a pretext for a comment about Carthage. The Roman statesman had come to believe that the prosperity of ancient Carthage represented an eventual and inevitable danger to Rome. In the Senate, Cato famously ended every speech by proclaiming his opinion that Carthage had to be destroyed (Carthago delenda est). This oft-repeated phrase was the ultimate conclusion of all logical argument in every oration, regardless of the subject of the speech. This pattern persisted until his death in 149, which was the year in which the Third Punic War began. In other words, any subject became a pretext for reminding his fellow senators of the dangers Carthage represented.
 
 Uses in warfare
+
 The early years of Japan's Tokugawa shogunate were unsettled, with warring factions battling for power. The causes for the fighting were in part pretextual, but the outcome brought diminished armed conflicts after the Siege of Osaka in 1614–1615.
 
 1614 (Keichō 19): The Shogun vanquished Hideyori and set fire to Osaka Castle, and then he returned for the winter to Edo.
+
 August 24, 1614 (Keichō 19, 19th day of the 7th month): A new bronze bell for the Hōkō-ji was cast successfully; but despite the dedication ceremony planning, Ieyasu forbade any further actions concerning the great bell:
 "[T]he tablet over the Daibutsu-den and the bell bore the inscription "Kokka ankō" (meaning "the country and the house, peace and tranquility"), and at this Tokugawa Ieyasu affect to take umbrage, alleging that it was intended as a curse on him for the character 安 (an, "peace") was placed between the two characters composing his own name 家康 ("ka-kō", "house tranquility") [suggesting subtly perhaps that peace could only be attained by Ieyasu's dismemberment?] ... This incident of the inscription was, of course, a mere pretext, but Ieyasu realized that he could not enjoy the power he had usurped as long as Hideyori lived, and consequently, although the latter more than once Hideyori dispatched his vassal Katagiri Kastumoto to Ieyasu's residence (Sunpu Castle) with profuse apologies, Ieyasu refused to be placated."
+
 October 18, 1614 (Keichō 19, 25th day of the 10th month): A strong earthquake shook Kyoto.
+
 1615 (Keichō 20): Osaka Summer Battle begins.
+
 The next two-and-a-half centuries of Japanese history were comparatively peaceful under the successors of Tokugawa Ieyasu and the bakufu government he established.
 
 United States
+
 During the War of 1812, US President James Madison was often accused of using impressment of American sailors by the Royal Navy as a pretext to invade Canada.
+
 The sinking of the USS Maine in 1898 was blamed on the Spanish, despite early reports of it having been an accident, contributing to U.S. entry into the Spanish–American War.  The slogan "Remember the Maine! To hell with Spain!" was used as a rallying cry.
+
 Some have argued that United States President Franklin D. Roosevelt used the attack on Pearl Harbor by Japanese forces on December 7, 1941 as a pretext to enter World War II. American soldiers and supplies had been assisting British and Soviet operations for almost a year by this point, and the United States had thus "chosen a side", but due to the political climate in the States at the time and some campaign promises made by Roosevelt that he would not send American troops to fight in foreign wars, Roosevelt could not declare war for fear of public backlash. The attack on Pearl Harbor united the American people's resolve against the Axis powers and created the bellicose atmosphere in which to declare war.
+
 The 1964 Gulf of Tonkin incident, later revealed to have been partly provoked and partly not to have happened, was used to bring the United States fully into the Vietnam War
 United States President George W. Bush used the September 11th, 2001 attacks and faulty intelligence about the existence of weapons of mass destruction as a pretext for the war in Iraq.
 
 Social engineering
+
 A type of social engineering called pretexting uses a pretext to elicit information fraudulently  from a target. The pretext in this case includes research into the identity of a certain authorized person or personality type in order to establish legitimacy in the mind of the target.

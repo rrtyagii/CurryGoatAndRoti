@@ -10,15 +10,23 @@ ROCLING Taiwan ROC Computational Linguistics Society
 SIG-KLC Korea SIG-Korean Language Computing of Korea Information Science Society
 
 Existing Asian Initiatives
+
 NLPRS: Natural Language Processing Pacific Rim Symposium
+
 IRAL: International Workshop on Information Retrieval with Asian Languages
+
 PACLING: Pacific Association for Computational Linguistics
+
 PACLIC: Pacific Asia Conference on Language, Information and Computation
+
 PRICAI: Pacific Rim International Conference on AI
+
 ICCPOL: International Conference on Computer Processing of Oriental Languages
+
 ROCLING: Research on Computational Linguistics Conference
 
 Conferences
+
 IJCNLP-04: The 1st International Joint Conference on Natural Language Processing in Hainan Island, China
 IJCNLP-05: The 2nd International Joint Conference on Natural Language Processing in Jeju Island, Korea
 IJCNLP-08: The 3rd International Joint Conference on Natural Language Processing in Hyderabad, India

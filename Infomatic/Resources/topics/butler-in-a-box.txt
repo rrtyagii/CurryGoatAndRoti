@@ -1,18 +1,25 @@
 Butler in a Box was an early voice-controlled home automation device developed in 1983 by magician Gus Searcy and programmer Franz Kavan. The device allowed users to control various home electronics, such as lights and phones, using voice commands. It predated modern smart speakers and virtual assistants by several decades.
 
 History
+
 The idea for the Butler in a Box originated in 1983 when Searcy was asked by friends why he couldn't simply command lights to turn on and off if he could pull rabbits out of hats, given his background as a professional magician. Searcy partnered with former IBM programmer Kavan to develop the device, with their first prototype being named "Sidney".
+
 The Butler in a Box combined remote control technology with voice recognition to enable control of home devices. However, it faced challenges due to the technological limitations of the era and its high price point of nearly $1,500 (equivalent to around $3,700 in 2021).
 
 Features and functionality
+
 Users could activate the Butler in a Box by speaking a wake word, typically a traditional butler name, and the device would address the user as "boss". It was capable of performing tasks such as:
 
 Turning lights on and off, controlling individual zones if lights were connected to remote control modules
 Making and receiving phone calls
+
 Setting timers
 Pairing with sensors to function as a security alarm system
+
 However, the device required extensive voice training for each user, a time-consuming process compared to modern voice recognition. Additionally, settings and trained commands would be lost if power was out for over 3 hours due to the volatile memory technology used at the time.
 
 Reception and legacy
+
 While innovative for its time, the Butler in a Box did not achieve widespread commercial success due to its high price and the technical limitations of the 1980s.
+
 Nevertheless, it served as an important early step in the development of home automation and showcased the potential for voice-controlled technology to enhance accessibility and convenience in the home. Decades later, products like Amazon Alexa, Google Home, and Apple's Siri would make voice-controlled smart home devices commonplace and affordable, building on the groundwork laid by early attempts like the Butler in a Box.

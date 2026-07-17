@@ -1,14 +1,23 @@
 Unbabel is an artificial intelligence-powered human translation platform. The company has headquarters in Lisbon, Portugal, and San Francisco, California. It has been owned by American translation and language services company TransPerfect since August 2025.
+
 Unbabel combines Neural Machine Translation with machine learning and a crowdsourced model to differentiate itself from other translation service providers. The name Unbabel is derived from the biblical story of Babel. The company is focused on the translation of customer service communications.
 
 History
+
 Unbabel was founded in August 2013 by Vasco Pedro, João Graça, Sofia Pessanha, Bruno Silva, and Hugo Silva and was incubated by Y Combinator in late 2014. The company was officially launched in March 2014.
+
 In May 2014, Unbabel raised a $1.5 million Seed round to support the growth and development of its translation platform, receiving investment from prominent venture capital firms and business angels including Google Ventures, Matrix Partners, Caixa Capital, Faber Ventures, IDG Ventures, Digital Garage, Shilling Capital Partners, Wefunder, FundersClub, Elad Gil and Raymond Tonsing.
+
 In early 2015, Unbabel was recognized as one of Y Combinator's fastest growing Seed stage companies. In late 2016, Unbabel raised $5 million from lead investors Notion Capital and Caixa Capital.
+
 In early 2018, Unbabel raised $23 million in Series B funding, led by Scale Venture Partners and Notion Capital, bringing its total venture capital funding to $31.2 million. The company is privately held.
+
 On September 24 2019, Unbabel raised $60 million in Series C funding to further refine its AI+human translation platform. The latest funding round was led by Point72 Ventures with participation from e.ventures, Greycroft, Indico Capital Partners and existing investors, bringing its total funding to $91 million.
+
 After its turnover fell by nearly 50 percent in the space of a year, Unbabel was sold to American translation and language services company TransPerfect in August 2025 for a "relatively low value", resulting in a "total loss" for many investors.
 
 In the United States
+
 In August 2019 Unbabel opened a research lab in Pittsburgh, PA. The lab is led by U.S. researcher Alon Lavie.
+
 Its customers include easyJet, Booking.com, Rovio Entertainment, Under Armour, Pinterest, and Facebook.

@@ -1,46 +1,65 @@
 Pamela Samuelson (born August 4, 1948) is an American legal scholar, activist, and philanthropist. She is the Richard M. Sherman '74 Distinguished Professor of Law at the University of California, Berkeley, School of Law, where she has been a member of the faculty since 1996. She holds a joint appointment at the UC Berkeley School of Information. She is a co-founder and chair of Authors Alliance and a co-director of the Berkeley Center for Law and Technology. She is recognized as a pioneer in digital copyright law, intellectual property, cyberlaw and information policy.
 
 Professional history
+
 A 1971 graduate of the University of Hawaiʻi and a 1976 graduate of Yale Law School, Samuelson practiced law as a litigation associate with Willkie Farr & Gallagher before becoming an academic. From 1981 through 1996 she was a member of the faculty at the University of Pittsburgh School of Law, from which she visited at Columbia, Cornell, and Emory Law Schools. Since joining the Berkeley faculty in 1996, she has held visiting professorships at Harvard Law School, NYU School of Law, Toronto Law School, Fordham University School of Law. Since 2002, she has held an honorary professorship at the University of Amsterdam.
+
 Samuelson is a past Fellow of the John D and Catherine T. MacArthur Foundation and a member of the American Academy of Arts and Sciences. In 2005, she was awarded the Anita Borg Institute Women of Vision Award for Social Impact, and in 2010 received the IP3 award from Public Knowledge.
 
 Scholarship
+
 Samuelson has published over 300 articles for law, technical, and general audiences, focused mainly on copyright law and preserving balance in copyright law amidst innovation and technological change.
+
 Although her work is typically directed at U.S. law, it also includes comparative study of U.S. and European approaches to intellectual property.
 
 AI and copyright
+
 Samuelson has written about two distinct problems that generative AI poses for copyright law. First: when a computer program generates a work, who owns the copyright to that work? In 1985, Samuelson argued that copyright for works created by computer programs should be allocated to the user of the program, rather than to the computer, the programmer, or some combination of those parties. She also forecast that "[a]s 'artificial intelligence' (AI) programs become increasingly sophisticated in their role as the 'assistants' of humans in the [creation] of a wide range of products... the question of who will own what rights in the 'output' of such programs may well become a hotly contested issue."
+
 More recently, the advent of large language models such as ChatGPT has sparked lawsuits by copyright holders over the use of their works as "training" material for the programs. Samuelson has argued that such training may well constitute fair use, and warned that allowing copyright holders to restrict use of their works as training materials would "affect everyone who deploys generative AI, integrates it into their products, and uses it for scientific research."
 
 Mapping and defending fair use
+
 Fair use permits the unlicensed use of original expression from copyright-protected works in certain circumstances. However, the flexibility of the doctrine led Judge Pierre Leval to describe it as "mysterious" and lament the perception that it is a "disorderly basket of exceptions".
+
 Courts formally assess four factors in determining whether a given use is fair. in 2009, Samuelson augmented that analysis by canvassing the fair use case law and grouping opinions into what she termed "policy-relevant clusters" according to which of the goals of fair use the decision implicates: 1) freedom of speech and of expression; 2) the ongoing progress of authorship 3) learning; 4) access to information; 5) truth telling or truth seeking; 6) competition; 7) technological innovation; and 8) privacy and autonomy interests.
+
 Samuelson's framework has been described as making a "convincing case that fair use may not be as doctrinally incoherent as many have suggested".
 
 Google Books settlement
+
 In 2004, Google initiated the Print Library Project, in which the company partnered with university libraries to scan their entire book collections. Books digitized in the project were searchable in the Google Books engine, where users could view certain information about the books, and "snippets" of text. The Author's Guild and several individual authors filed suit, alleging copyright infringement. In 2008, Google and the Guild announced a settlement agreement, whereby Google could continue to operate Google Book Search, but would have to pay copyright holders for use. Importantly, the settlement would apply to all books.
+
 In a letter to the court, Samuelson argued that the settlement was not in the best interests of academic (as opposed to commercial) authors. She observed that "academic authors would be inclined to think that scanning books to index them was fair use, not copyright infringement". They would, moreover, "be likely to want their out-of print books to be available on an open access basis rather than through a profit-maximizing scheme such as the GBS settlement proposed." The court eventually rejected the settlement and Google Books was ruled fair use. The court cited Samuelson's letter in holding that the Author's Guild did not adequately represent the interests of all authors.
 
 Founding of Authors Alliance
+
 To enable the promulgation of broader perspectives on copyright policy issues, in 2014, Samuelson co-founded Authors Alliance, a non-profit that "advocates for the interests of authors who want to serve the public good by sharing their creations broadly". Authors Alliance has actively participated in comments to the Copyright Office on its policy initiatives, filed amicus briefs in cases addressing copyright and other information policy issues, and in policy debates at conferences and other events.
 
 Work on the merger doctrine under US law
+
 The merger doctrine under US copyright law is now one of its three pillars.  Samuelson explains that this can occur when function (using its nontechnical meaning) and expression merge, including for software: "copyright law has long recognized that when there is only one or a small number of ways to express an idea or function, copyright protection will be withheld to any expression that has merged with the idea or function".  Samuelson expands on the merger doctrine and the role that substandard alternatives may play: "courts in numerous merger cases have taken into account whether the alternative expressions were inferior in some way, such as because they were less efficient, impractical, unreasonable, illogical, or contrary to industry expectations. Courts have been wary of forcing later authors to adopt inferior expressions or to engage in needless variations".  Samuelson argues that the merger doctrine is being used by judges in certain circumstances to avoid confronting the scope of copyright rules contained in the US Copyright Act itself and specifically §102(b).  More generally, Samuelson indicates that there is a growing reluctance by US courts to place the "building blocks of knowledge" under copyright protection on a range of public benefit grounds: promotion of completion, promotion of access to information, promotion of freedom of expression, recognition of legislative constraints, avoidance of needless variation, and the enabling of efficiency and standardization. And she opines that the merger doctrine is increasingly being used as the main vehicle for dismissing claims of infringement in these circumstances.
 
 Mapping the public domain
+
 Much of Samuelson's scholarship has focused on identifying the goals that motivate a given part of copyright law and using that understanding to create maps and models of copyright's complex doctrinal landscape.
+
 Samuelson's 2003 article "Mapping the Digital Public Domain: Threats and Opportunities" conceptualized the public domain as a vast landscape populated with information ranging from discarded grocery lists to Mozart symphonies. Samuelson argued that whether a certain type of information was within the public domain is not merely a matter of legal doctrine but also whether, as a matter of practice and tradition, that information is actually accessible to the public. Samuelson's broader view of the public domain represented a conceptual shift which inspired other work on entitlements and cultural appropriation.
 
 Preventing legislative creep of copyright
+
 Samuelson has written extensively regarding various efforts to expand copyright protections to novel areas, or to use related areas of law to expand the remedies available to copyright holders.
 
 Copyright versus patent protection for software
+
 In the U.S., a copyright protects a creator's "exclusive right to reproduce, distribute, and perform or display [a] work, and prevents other people from copying or exploiting the creation without the copyright holder's permission." Patents, by contrast, safeguard utilitarian "inventions and processes from other parties copying, making, using, or selling the invention without the inventor's consent." In 1984, Samuelson's article "CONTU Revisited: The Case against Copyright Protection for Computer Programs in Machine-Readable Form" was an early argument that software's utilitarian nature made it inappropriate for copyright protection. In 1994 Samuelson (with Randall Davis, Mitch Kapor, and J.H. Reichman) drew on software's unique characteristics to explain why neither copyright or patent protection were appropriate, and proposed a new sui generis type of legal protection for software.
 
 UCC 2B
+
 In 1999, the National Conference of Commissioners on Uniform State Laws proposed an amendment to the Uniform Commercial Code ("Article 2B," later renamed the Uniform Computer Information Transactions Act, or "UCITA") that would lay out a standard set of rules to govern transactions in information products and services. Samuelson identified several fundamental issues with the law, including: (1) that the law would affect industries with wildly divergent interests; (2) that the law relied on "market assumptions [that] necessarily rest on risky predictions about the future of information age commerce;" and (3) that the new law would create conflicts between state contract law and federal intellectual property law. Samuelson and others organized a conference to consider the implications of Article 2B, which several scholars have credited with contributing to the eventual abandonment of the proposed amendments.
 
 Digital rights management and anti-circumvention laws
+
 Software makers and other manufacturers embed digital rights management ("DRM") technology in their products to limit user behaviors —such as copying— which might infringe copyright. The Digital Millennium Copyright Act (DMCA) of 1998 created rules prohibiting certain types of circumvention of these DRM technologies (so-called anti-circumvention laws). Samuelson argued that Congress intended for the DMCA to preserve the legality of bypassing DRM tools for legitimate fair use purposes such as research, but that early court rulings interpreting the DMCA perverted this intent— "adopt[ing] the copyright industry's preferred interpretation of the DMCA as virtually unlimited in its protection of DRM."
 
 Protection of database contents
@@ -48,37 +67,53 @@ In 1996, a bill called the Database Investment and Intellectual Property Antipir
 
 Reforming remedies
 Statutory damages in copyright law
+
 US copyright law allows plaintiffs to elect to receive statutory damages rather than actual damages in any amount between $750 and $150,000. The court may award any amount within that range that it "considers just". In a series of articles, Samuelson and co-authors argued that because courts have failed to construct a coherent doctrine for their award, "[a]wards of statutory damages are frequently arbitrary, inconsistent, unprincipled, and sometimes grossly excessive," and that some awards may even be unconstitutional. Samuelson and her co-authors argued that compensation and modest deterrence were the primary reasons statutory damages were placed in the Copyright Act of 1909, and linked excessive penalties to a recent and (in their view) misplaced change in emphasis to making examples of infringers. They advocated for changes in jurisprudence or legislation to restore statutory damages to their proper place in copyright law.
 
 Copyright injunctions
+
 When a court finds a violation of the law in a civil case, it may award money damages or issue an injunction—an order to do something or refrain from doing it. For many years it was standard practice for courts to issue injunctions when they found copyright infringement had occurred. However, in the 2006 patent case eBay v. MercExchange, the U.S. Supreme Court held that injunctive relief should issue only when plaintiffs can satisfy the same 4-part test used in other injunctive relief situations. Most notably, the eBay test requires the plaintiff to demonstrate that "irreparable harm" would occur without the injunction. Samuelson and Krzysztof Bebenek analyzed eBay's impact on copyright cases and argued that the case set a standard "far more in line with traditional principles of equity which place the burden of proof of irreparable injury squarely on the shoulder of plaintiffs who seek the extraordinary remedy of preliminary injunctive relief". In 2022, Samuelson reassessed the caselaw, and reported that injunctions had become less frequent.
 
 Advocating for innovation
+
 Consistent with her view that copyright protection should be understood as a tool to advance society's knowledge, Samuelson has argued for limits on copyright protection that promote innovation by preserving the ability to create products compatible with other products.
 
 Preserving interoperability and Oracle v. Google
+
 In 2010, Oracle sued Google claiming that Google had infringed its copyright by reimplementing parts of the Java API in the Android platform. Samuelson (sometimes with other scholars, including Clark Asay) filed several amicus briefs as the case wound through the courts, arguing both that court holdings were incorrect in holding that copyright (as opposed to patent) protection was available to Oracle for its Java API, and that they were at odds with fair use doctrine.
+
 In 2021 the Supreme Court held, on the basis of fair use, that Google had not infringed Oracle's copyright. While approving of the ruling, Samuelson and Mark Lemley wrote that the court's holding "sidestepped" the more fundamental issue of whether software interfaces such as APIs can be copyrighted at all. They argued that interfaces are not copyrightable, and wrote that "defendants in future software copyright cases should not shy away from challenging the copyrightability of program interfaces".
 
 Right to repair
+
 Samuelson has advocated for passage of Right to Repair legislation in several states. She has argued that traditionally consumers have had a "unquestionable right" to repair any product they purchased, but that in recent years such repair has become more difficult due to the increasing complexity of consumer devices and their reliance on copyrighted software. In addition to copyright-supported arguments, she has supported them on environmental grounds: "Makers of software-enabled devices may... try to persuade consumers to trade in their old devices for the latest gadgets rather than engage in repairs. Many consumers are likely to find these deals attractive. But as we come to greater realization of the harmful environmental impacts of abandoning our old devices, perhaps repairs will come to be viewed as a better option."
 
 Reverse engineering policy
+
 Software is expensive to develop but easy to copy. Samuelson has written that this creates challenges in the context of reverse engineering policy, because competition from cheaply produced clones "destroy incentives to invest in software innovation". In the Yale Law Journal, Samuelson and Suzanne Schotchmer considered the economic wisdom of legal restrictions on reverse engineering across multiple industries and argued that, as one scholar later summarized, "the legal rules for reverse engineering should depend on copying costs". The Law and Economics of Reverse Engineering has been described as the "definitive treatment" of the subject. Judge Frank Easterbrook cited the article in his opinion in the trade secret theft case U.S. v Lange.
 
 Privacy law
+
 Samuelson has noted similarities between trade secret law and information privacy law, and advocated for adapting licensing rules from trade secret law to the problem of protecting personal information in cyberspace. She has argued that it would be a mistake to grant intellectual property rights to personal data because society does not want to encourage people to sell these data, but rather to safeguard confidentiality of the data.
 
 Copyright principles project
+
 In 2007, Samuelson convened the Copyright Principles Project to "explore whether it was possible to reach some consensus about how current copyright law could be improved and how the law's current problems could be mitigated," particularly "in light of dramatic technological advances". The group produced 25 recommendations, including: reinvigorating copyright registration; expanding the role of the Copyright Office and modernizing its functions; refining the exclusive rights granted to authors; and creating safe harbor provisions to protect against some infringement claims.
+
 Samuelson testified to Congress regarding these proposals, and the Copyright Office has adopted at least two of the group's recommendations: creating a small claims court for copyright matters (the Copyright Claims Board), and creating the position of chief economist.
 
 Leadership
+
 Electronic Frontier Foundation (EFF)
+
 Chair, Board of Directors, since 2019
+
 Vice Chair of Board, 2009–19
+
 Board Member, 2000
+
 Public Policy Fellow 1997-2000
+
 Electronic Privacy Information Center (EPIC)
 Advisory Board
 Public Knowledge
@@ -91,14 +126,21 @@ American Law Institute (ALI)
 Advisor to Restatement of Copyright
 Digital Future Coalition
 Member, Steering Committee
+
 Berkeley Center for Law and Technology
+
 Director, since 1997
+
 Association for Computing Machinery
+
 Fellow, since 1998
+
 Contributing Editor, Communications of the ACM, since 1990
 
 Amicus briefs and testimony
+
 Amicus briefs
+
 Samuelson has authored, co-authored, or joined amicus briefs in many cases, including:
 
 Lotus v. Borland
@@ -111,6 +153,7 @@ The Authors Guild v. Hathitrust
 Universal City Studios v. Corley
 
 Government comments and testimony
+
 Samuelson has appeared before or submitted testimony or comments to several government bodies, including:
 
 Senate Judiciary Committee, Hearing on Copyright Law in Foreign Jurisdictions: How Are Other Countries Handling Digital Piracy? March 10, 2020
@@ -118,22 +161,34 @@ House of Representatives, Committee on the Judiciary, Subcommittee on Courts, In
 Comments in response to the Copyright Office's notice of inquiry on artificial intelligence and copyright
 
 Awards and honors
+
 Samuelson has been honored by many organizations over the course of her career, including:
 
 Martin Meyerson Faculty Research Lecturer, UC Berkeley 2016
+
 Earl Warren Civil Liberties Award, ACLU of Northern California, 2014
+
 Member, American Academy of Arts & Sciences, 2013
+
 Vanguard Award for Academic or Public Policy Achievements, California Lawyers Association, 2012
 IP3 Award for Internet Policy, Public Knowledge, 2010
+
 Anita Borg Institute Women of Vision Award for Social Impact, 2005
+
 Fellow of the John D. and Catherine T. MacArthur Foundation, 1997-2002
+
 Distinguished Alumni Award, University of Hawai'i, 2000
 
 Philanthropy
+
 Samuelson and her spouse, Robert Glushko, have a family foundation through which they have engaged in a variety of philanthropy including:
 
 The Rumelhart Prize, awarded annually by the Cognitive Science Society "to an individual or collaborative team making a significant contemporary contribution to the theoretical foundations of human cognition".
+
 Glushko Dissertation Prizes awarded annually by the Cognitive Science Society for outstanding dissertations in the field of cognitive science.
+
 Annual prizes for undergraduate honors work in cognitive science at over 20 universities, including six in the University of California system, as well as Northwestern, Stanford, Yale, Johns Hopkins, and Harvard.
+
 Clinics and policy labs in public interest technology law at six law schools: UC Berkeley, American University, Fordham University, University of Colorado-Boulder, Ottawa, and University of Amsterdam.
+
 Dovie Samuelson Endowed Scholarship at University of Washington to "help women in Washington wishing to pursue careers in science and technology." The awards are named in honor of Samuelson's late grandmother, a single parent during the Depression in Skagit County, north of Seattle.

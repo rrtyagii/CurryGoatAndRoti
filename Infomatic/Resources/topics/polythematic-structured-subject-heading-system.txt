@@ -3,13 +3,17 @@ Polythematic Structured Subject Heading System (abbreviated as PSH from the Czec
 Because of its release in SKOS, PSH can be used not only for describing documents in a library, but also for indexing web pages. Everyone can use PSH for free. PSH is a part of the Linked Open Data cloud diagram (LOD cloud diagram). The image of the LOD cloud diagram shows datasets that have been published in Linked Data format, by contributors to the Linked Open Data community project and other individuals and organisations.
 
 History and development
+
 The PSH preparation project started in 1993, supported by several grants from the Czech Ministry of Culture and Czech Ministry of Education, Youth and Sport. Since 1995, PSH has been used for indexing the State Technical Library's documents. Starting 1997, PSH has been distributed to other libraries and companies, originally as a commercial, paid product; since 2009 for free. In 2000, the State Technical Library received a grant from the Ministry of Culture to translate PSH into English. The next milestone in its development was its releasing in the SKOS format, in 2009.
+
 The vast majority of new subject headings is suggested and approved by the indexing experts from the National Technical Library. However, the users and public can also make suggestions, using an online form, which are then assessed by the experts. The main decisions about the development and the future of PSH are done by the Committee for Coordination of Polythematic Structured Subject Heading System. The Committee consists of specialists from the National Technical Library and cooperating institutions, and representatives from the libraries and companies which use PSH. The Committee meets once a year in the National Technical Library; in the meantime, the members communicate using an electronic mailing list.
 
 Browsing PSH
+
 PSH Browser was released in June 2009. It serves for browsing the PSH system and its distribution in SKOS format. This tool navigates users through PSH from general to specific terms. Users can also use the Search field. PSH manager tool was released in 2012. It serves as an indexing tool especially to catalogers. Catalogers can easy orient in its clear structure. All the terms in PSH manager contain link to the catalogue of NTK. There can be also viewed the record in MARC21 format.
 
 Autoindexing
+
 In 2012 was released beta version of autoindexing application. It is accessible on Autoindexing. Users enter chosen text into indexing field and activate indexing. In few seconds the terms describing content are displayed.
 
 PSH structure
@@ -20,7 +24,9 @@ The main format for storage, maintenance and sharing PSH is the MARC 21 Format f
 
 New subject headings
 New subject headings are primarily obtained through the log analysis in the National Technical Library's on-line catalogue of documents, which are the terms used by end-users when searching various documents. Google Analytics service is now used for gaining search queries used by users. Within the data analysis, users queries are divided into seven categories that contain the title of the document, person, subject, action, institution, geographical terms and others. Then the candidates for new preferred terms and non-preferred terms are identified in the subject category.
+
 Users can suggest preferred or non-preferred terms through the web form or via e-mail psh(@)techlib.cz.
 
 PSH and Creative Commons
+
 PSH/SKOS has been available under the Creative Commons License CC BY 3.0 CZ (Attribution-ShareAlike 3.0 Czech Republic)since 2011. Users are free to copy, distribute, display and perform the work and make derivative works, but they must give the original author credit and if they alter, transform, or build upon this work, they have to distribute the resulting work only under a licence identical to this one. Users can download all data in one zip file, which is continuously updated.

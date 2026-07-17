@@ -1,41 +1,59 @@
 Hexagon is the brand name for a family of digital signal processor (DSP) and later neural processing unit (NPU) products by Qualcomm. Hexagon is also known as QDSP6, standing for “sixth generation digital signal processor.” According to Qualcomm, the Hexagon architecture is designed to deliver performance with low power over a variety of applications.
+
 Each version of Hexagon has an instruction set and a micro-architecture. These two features are intimately related.
+
 Hexagon is used in Qualcomm Snapdragon chips, for example in smartphones, cars, wearable devices and other mobile devices and is also used in components of cellular phone networks.
 
 Instruction set architecture
+
 Computing devices have instruction sets, which are their lowest, most primitive languages. Common instructions are those which cause two numbers to be added, multiplied or combined in other ways, as well as instructions that direct the processor where to look in memory for its next instruction. There are many other types of instructions.
 Assemblers and compilers that translate computer programs into streams of instructions – bit streams - that the device can understand and carry out (execute). As an instruction stream executes, the integrity of system function is supported by the use of instruction privilege levels. Privileged instructions have access to more resources in the device, including memory. Hexagon supports privilege levels.
 Originally, Hexagon instructions operated on integer numbers but not floating point numbers, but in v5 floating point support was added.
+
 The processing unit which handles execution of instructions is capable of in-order dispatching up to 4 instructions (the packet) to 4 execution units every clock.
 
 Micro-architecture
 Micro-architecture is the physical structure of a chip or chip component that makes it possible for a device to carry out the instructions. A given instruction set can be implemented by a variety of micro-architectures. The buses – data transfer channels – for Hexagon devices are 32 bits wide. That is, 32 bits of data can be moved from one part of the chip to another in a single step. The Hexagon micro-architecture is multi-threaded, which means that it can simultaneously process more than one stream of instructions, enhancing data processing speed. Hexagon supports very long instruction words, which are groupings of four instructions that can be executed “in parallel.” Parallel execution means that multiple instructions can run simultaneously without one instruction having to complete before the next one starts. The Hexagon micro-architecture supports single instruction, multiple data operations, which means that when a Hexagon device receives an instruction, it can carry out the operation on more than one piece of data at the same time.
 According to 2012 estimation, Qualcomm shipped 1.2 billion DSP cores inside its system on a chip (SoCs) (average 2.3 DSP core per SoC) in 2011, and 1.5 billion cores were planned for 2012, making the QDSP6 the most shipped architecture of DSP (CEVA had around 1 billion of DSP cores shipped in 2011 with 90% of IP-licensable DSP market).
+
 The Hexagon architecture is designed to deliver performance with low power over a variety of applications.  It has features such as hardware assisted  multithreading, privilege levels, very long instruction word (VLIW), single instruction, multiple data (SIMD), and instructions geared toward efficient signal processing. Hardware multithreading is implemented as barrel temporal multithreading - threads are switched in round-robin fashion each cycle, so the 600 MHz physical core is presented as three logical 200 MHz cores before V5. Hexagon V5 switched to dynamic multithreading (DMT) with thread switch on L2 misses, interrupt waiting or on special instructions.
+
 At Hot Chips 2013 Qualcomm announced details of their Hexagon 680 DSP. Qualcomm announced Hexagon Vector Extensions (HVX). HVX is designed to allow significant compute workloads for advanced imaging and computer vision to be processed on the DSP instead of the CPU. In March 2015 Qualcomm announced their Snapdragon Neural Processing Engine SDK which allow AI acceleration using the CPU, GPU and Hexagon DSP.
+
 Qualcomm's Snapdragon 855 contains their 4th generation on-device AI engine, which includes the Hexagon 690 DSP and Hexagon Tensor Accelerator (HTA) for AI acceleration. Snapdragon 865 contains the 5th generation on-device AI engine based on the Hexagon 698 DSP capable of 15 trillion operations per second (TOPS). Snapdragon 888 contains the 6th generation on-device AI engine based on the Hexagon 780 DSP capable of 26 TOPS. Snapdragon 8 contains the 7th generation on-device AI engine based on the Hexagon DSP capable of 52 TOPS and up to 104 TOPS in some cases.
 
 Software support
+
 Operating systems
+
 The port of Linux for Hexagon runs under a hypervisor layer ("Hexagon Virtual Machine") and was merged with the 3.2 release of the kernel. The original hypervisor is closed-source, and in April 2013 a minimal open-source hypervisor implementation for QDSP6 V2 and V3, the "Hexagon MiniVM" was released by Qualcomm under a BSD-style license.
 
 Compilers
+
 Support for Hexagon was added in 3.1 release of LLVM by Tony Linthicum. Hexagon/HVX V66 ISA support was added in 8.0.0 release of LLVM. There is also a non-FSF maintained branch of GCC and binutils.
 
 Adoption of the SIP block
+
 Qualcomm Hexagon DSPs have been available in Qualcomm Snapdragon SoC since 2006. In Snapdragon S4 (MSM8960 and newer) there are three QDSP cores, two in  the Modem subsystem and one Hexagon core in the Multimedia subsystem. Modem cores are programmed by Qualcomm only, and only Multimedia core is allowed to be programmed by user.
+
 They are also used in some femtocell processors of Qualcomm, including FSM98xx, FSM99xx and FSM90xx.
 
 Third-party integration
+
 In March 2016, it was announced that semiconductor company Conexant's AudioSmart audio processing software was being integrated into Qualcomm's Hexagon.
+
 In May 2018 wolfSSL added support for using Qualcomm Hexagon. This is support for running wolfSSL crypto operations on the DSP. In addition to use of crypto operations a specialized operation load management library was later added.
 
 Versions
+
 There are six versions of QDSP6 architecture released: V1 (2006), V2 (2007–2008), V3 (2009), V4 (2010–2011), QDSP6 V5 (2013, in Snapdragon 800), and QDSP6 V6 (2016, in Snapdragon 820) V4 has 20 DMIPS per milliwatt, operating at 500 MHz.
+
 Clock speed of Hexagon varies in 400–2000 MHz for QDSP6 and in 256–350 MHz for previous generation of the architecture, the QDSP5.
 
 Availability in Snapdragon products
+
 Both Hexagon (QDSP6) and pre-Hexagon (QDSP5) cores are used in modern Qualcomm SoCs, QDSP5 mostly in low-end products. Modem QDSPs (often pre-Hexagon) are not shown in the table.
+
 QDSP5 usage:
 
 QDSP6 (Hexagon) usage:

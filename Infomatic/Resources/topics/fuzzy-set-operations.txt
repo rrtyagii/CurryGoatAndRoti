@@ -1,131 +1,80 @@
 Fuzzy set operations are a generalization of crisp set operations for fuzzy sets. There is in fact more than one possible generalization.  The most widely used operations are called standard fuzzy set operations; they comprise:  fuzzy complements, fuzzy intersections, and fuzzy unions.
 
 Standard fuzzy set operations
+
 Let A and B be fuzzy sets that A,B ⊆ U, u is any element (e.g. value) in the U universe: u ∈ U.
 
 Standard complement
 
-
-
-
-
           μ
-
             ¬
-
               A
-
-
-
         (
         u
         )
         =
         1
         −
-
           μ
-
             A
-
-
         (
         u
         )
-
-
     {\displaystyle \mu _{\lnot {A}}(u)=1-\mu _{A}(u)}
-
 
 The complement is sometimes denoted by ∁A or A∁ instead of ¬A.
 
 Standard intersection
 
-
-
-
-
           μ
-
             A
             ∩
             B
-
-
         (
         u
         )
         =
         min
         {
-
           μ
-
             A
-
-
         (
         u
         )
         ,
-
           μ
-
             B
-
-
         (
         u
         )
         }
-
-
     {\displaystyle \mu _{A\cap B}(u)=\min\{\mu _{A}(u),\mu _{B}(u)\}}
-
 
 Standard union
 
-
-
-
-
           μ
-
             A
             ∪
             B
-
-
         (
         u
         )
         =
         max
         {
-
           μ
-
             A
-
-
         (
         u
         )
         ,
-
           μ
-
             B
-
-
         (
         u
         )
         }
-
-
     {\displaystyle \mu _{A\cup B}(u)=\max\{\mu _{A}(u),\mu _{B}(u)\}}
-
 
 In general, the triple (i,u,n) is called De Morgan Triplet iff
 
@@ -204,6 +153,7 @@ Axioms u1 up to u4 define a t-conorm (aka s-norm or fuzzy union). The standard t
 
 Aggregation operations
 Aggregation operations on fuzzy sets are operations by which several fuzzy sets are combined in a desirable way to produce a single fuzzy set.
+
 Aggregation operation on n fuzzy set (2 ≤ n) is defined by a function
 
 h:[0,1]n → [0,1]

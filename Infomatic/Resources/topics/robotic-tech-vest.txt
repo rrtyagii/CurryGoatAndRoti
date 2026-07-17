@@ -1,10 +1,13 @@
 Robotic tech vest (RTV) is a special wearable equipment protecting workers near industrial robots. It is similar to a high-visibility jacket but for robots. Robots can sense a vest from a distance and avoid moving into it, thus protecting the wearer from collisions.
 
 History
+
 The Occupational Safety and Health Administration (OSHA) has studied the topic of workers' safety in the areas of operating robots and concluded: "Studies indicate that many robot accidents occur during non-routine operating conditions, such as programming, maintenance, testing, setup, or adjustment. During many of these operations the worker may temporarily be within the robot's working envelope where unintended operations could result in injuries." Before employing RTVs, workers marked out the area where they would be working to enable the robotic route planner to smartly route around that area.
 
 Operation in warehouse
+
 In 2018, Amazon introduced robotic tech vests in 25 warehouses to protect workers from robot collisions. This kind of equipment is needed in the warehouse, where human workers and robots cooperate. The RTV emits radio signals which slow or stop drive units. this allows the drive units to detect a human as an obstacle and reroute accordingly while still maintaining a safe distance.   A robotic tech vest is a combo of a belt and suspenders. As according to Amazon in 2019, RTV has been introduced to more than 25 sites and more than 1 million activations were completed. The workers are safe with RTVs when they enter the area to fix a robotic system or retrieve fallen items. Amazon claimed RTVs to be successful in 2019.
 
 Difference to collaborative robots
+
 The technology of robotic tech vest stands in contrast to the collaborative robots approach. In case of collaborative robots, the RTVs are not needed.

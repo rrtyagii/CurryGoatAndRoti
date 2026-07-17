@@ -1,97 +1,73 @@
 As applied in the field of computer vision, graph cut optimization can be employed to efficiently solve a wide variety of low-level computer vision problems (early vision), such as image smoothing, the stereo correspondence problem, image segmentation, object co-segmentation, and many other computer vision problems that can be formulated in terms of energy minimization.
+
 Graph cut techniques are now increasingly being used in combination with more general spatial Artificial intelligence techniques (eg to enforce structure in Large language model output to sharpen tumour boundaries and similarly for various Self-driving car, Robotics, Google Maps applications etc).
+
 Many of these energy minimization problems can be approximated by solving a maximum flow problem in a graph (and thus, by the max-flow min-cut theorem, define a minimal cut of the graph). Under most formulations of such problems in computer vision, the minimum energy solution corresponds to the maximum a posteriori estimate of a solution.
+
 Although many computer vision algorithms involve cutting a graph (e.g. normalized cuts), the term "graph cuts" is applied specifically to those models which employ a max-flow/min-cut optimization (other graph cutting algorithms may be considered as graph partitioning algorithms).
+
 "Binary" problems (such as denoising a binary image) can be solved exactly using this approach; problems where pixels can be labeled with more than two different labels (such as stereo correspondence, or denoising of a grayscale image) cannot be solved exactly, but solutions produced are usually near the global optimum.
 
 History
+
 The foundational theory of graph cuts was first applied in computer vision in a legendary 1989 paper by Margaret Greig, Bruce Porteous and Allan Seheult (GPS) of Durham University. In the Bayesian statistical context of smoothing noisy (or corrupted) binary images, using a Markov random field as the image prior distribution to ensure spatial consistency, they showed with a deceptively simple argument how the maximum a posteriori estimate of a binary image can be obtained exactly: by maximizing the flow through an associated image network, involving the introduction of a source and sink. The problem was therefore shown to be efficiently solvable exactly, an unexpected result due the vast size of the problem which was believed at the time to be computationally intractable (NP hard).
+
 Prior to this result, approximate local optimisation techniques such as simulated annealing (as proposed by the Geman brothers), or iterated conditional modes (a type of greedy algorithm suggested by Julian Besag) were used to solve such image smoothing problems. The GPS paper combined ideas from Mathematical statistics (Bayes' theorem), Physics (Ising model), Optimisation (Energy function) and Computer science (Network flow problem) and led the move away from approximate local optimisation approaches (eg simulated annealing) to more powerful exact, or near exact, global optimisation techniques.
+
 GPS also addressed the computational cost of the max-flow algorithm on large grids—a significant concern at the time. They proposed a partitioning algorithm (see Section 4 of GPS) involving the recursive amalgamation of non-overlapping blocks which gave a 12X increase in speed at the time. This approach recursively solved and amalgamated independent sub-graphs until the whole graph was solved. While contemporaries like Geman and Geman had advocated parallel processing in the context of Simulated annealing, the GPS blocking strategy offered a deterministic structure amenable to parallelisation and anticipated modern artificial intelligence design across multiple GPUs. However, this aspect of the paper was ignored and later research focused on global search trees, such as the Boykov-Kolmogorov algorithm.
+
 GPS is now recognised as seminal as it was well ahead of its time and, in particular, was published years before the computing power revolution of Moore's law and GPUs. Significantly, GPS was published in a mathematical statistics (rather than a computer vision) journal, and this led to it being overlooked by the computer vision community for many years. It is unofficially known as "The Velvet Underground" paper of computer vision (ie although very few computer vision people read the paper [bought the record], those that did started new research [formed a band]).
+
 Although the general
 
-
-
         k
-
-
     {\displaystyle k}
 
 -colour problem is NP hard for
-
-
 
         k
         >
         2
         ,
-
-
     {\displaystyle k>2,}
-
  the GPS approach has turned out to have wide applicability in general computer vision problems. This was first demonstrated by Boykov, Veksler and Zabih who, in a seminal paper published more than 10 years after the original GPS paper, and other important papers, lit the blue touch paper for the general adoption of graph cut techniques in computer vision. They showed that, for general problems, the GPS approach can be applied iteratively to sequences of binary problems to yield near optimal solutions.
 Despite the foundational nature of the GPS work, formal recognition from the computer vision community has predominantly gone to the researchers who followed them to extend and popularise the graph cut method. For example, Boykov, Veksler and Zabih  deservedly received a Helmholtz Prize from the ICCV in 2011. This prize recognises ICCV papers from 10 or more years earlier that have had a significant impact on computer vision research.
+
 In 2011, Couprie et al. proposed a general image segmentation framework, called the "Power Watershed", that minimized a real-valued indicator function from [0,1] over a graph, constrained by user seeds (or unary terms) set to 0 or 1, in which the minimization of the indicator function over the graph is optimized with respect to an exponent
 
-
-
         p
-
-
     {\displaystyle p}
 
 .  When
 
-
-
         p
         =
         1
-
-
     {\displaystyle p=1}
 
 , the Power Watershed is optimized by graph cuts, when
 
-
-
         p
         =
         0
-
-
     {\displaystyle p=0}
-
  the Power Watershed is optimized by shortest paths,
-
-
-
         p
         =
         2
-
-
     {\displaystyle p=2}
-
  is optimized by the random walker algorithm and
-
-
-
         p
         =
         ∞
-
-
     {\displaystyle p=\infty }
-
  is optimized by the watershed algorithm. In this way, the Power Watershed may be viewed as a generalization of graph cuts that provides a straightforward connection with other energy optimization segmentation/clustering algorithms.
 
 Binary segmentation of images
+
 Notation
+
 Image:
-
-
 
         x
         ∈
@@ -101,63 +77,31 @@ Image:
         G
         ,
         B
-
           }
-
             N
-
-
-
-
     {\displaystyle x\in \{R,G,B\}^{N}}
-
 
 Output: Segmentation (also called opacity)
 
-
-
         S
         ∈
-
           R
-
             N
-
-
-
-
     {\displaystyle S\in R^{N}}
-
  (soft segmentation). For hard segmentation
-
-
-
         S
         ∈
         {
         0
-
            for background
-
         ,
         1
-
            for foreground/object to be detected
-
-
           }
-
             N
-
-
-
-
     {\displaystyle S\in \{0{\text{ for background}},1{\text{ for foreground/object to be detected}}\}^{N}}
 
-
 Energy function:
-
-
 
         E
         (
@@ -169,15 +113,8 @@ Energy function:
         ,
         λ
         )
-
-
     {\displaystyle E(x,S,C,\lambda )}
-
  where C is the color parameter and λ is the coherence parameter.
-
-
-
-
         E
         (
         x
@@ -189,23 +126,14 @@ Energy function:
         λ
         )
         =
-
           E
-
-
               c
               o
               l
               o
               r
-
-
-
         +
-
           E
-
-
               c
               o
               h
@@ -215,28 +143,14 @@ Energy function:
               n
               c
               e
-
-
-
-
-
     {\displaystyle E(x,S,C,\lambda )=E_{\rm {color}}+E_{\rm {coherence}}}
 
-
 Optimization: The segmentation can be estimated as a global minimum over S:
-
-
-
-
 
             arg
             ⁡
             min
-
-
             S
-
-
         E
         (
         x
@@ -247,15 +161,16 @@ Optimization: The segmentation can be estimated as a global minimum over S:
         ,
         λ
         )
-
-
     {\displaystyle {\arg \min }_{S}E(x,S,C,\lambda )}
 
 Existing methods
 Standard Graph cuts: optimize energy function over the segmentation (unknown S value).
 Iterated Graph cuts:
+
 First step optimizes over the color parameters using K-means.
+
 Second step performs the usual graph cuts algorithm.
+
 These 2 steps are repeated recursively until convergence
 Dynamic graph cuts:Allows to re-run the algorithm much faster after modifying the problem (e.g. after new seeds have been added by a user).
 
@@ -267,55 +182,25 @@ Pr
         S
         )
         =
-
           K
-
             −
             E
-
-
-
-
     {\displaystyle \Pr(x\mid S)=K^{-E}}
-
 
 where the energy
 
-
-
         E
-
-
     {\displaystyle E}
-
  is composed of two different models (
-
-
-
-
           E
-
-
               c
               o
               l
               o
               r
-
-
-
-
-
     {\displaystyle E_{\rm {color}}}
-
  and
-
-
-
-
           E
-
-
               c
               o
               h
@@ -325,31 +210,20 @@ where the energy
               n
               c
               e
-
-
-
-
-
     {\displaystyle E_{\rm {coherence}}}
 
 ):
 
 Likelihood / Color model / Regional term
-E
 
+E
 
               c
               o
               l
               o
               r
-
-
-
-
-
     {\displaystyle E_{\rm {color}}}
-
  — unary term describing the likelihood of each color.
 
 This term can be modeled using different local (e.g. texons) or global (e.g. histograms, GMMs, Adaboost likelihood) approaches that are described below.
@@ -359,22 +233,30 @@ We use intensities of pixels marked as seeds to get histograms for object (foreg
 Then, we use these histograms to set the regional penalties as negative log-likelihoods.
 
 GMM (Gaussian mixture model)
+
 We usually use two distributions: one for background modelling and another for foreground pixels.
+
 Use a Gaussian mixture model (with 5–8 components) to model those 2 distributions.
+
 Goal: Try to pull apart those two distributions.
 
 Texon
+
 A texon (or texton) is a set of pixels that has certain characteristics and is repeated in an image.
+
 Steps:
+
 Determine a good natural scale for the texture elements.
+
 Compute non-parametric statistics of the model-interior texons, either on intensity or on Gabor filter responses.
+
 Examples:
+
 Deformable-model based Textured Object Segmentation
 Contour and Texture Analysis for Image Segmentation
 
 Prior / Coherence model / Boundary term
 E
-
 
               c
               o
@@ -385,128 +267,109 @@ E
               n
               c
               e
-
-
-
-
-
     {\displaystyle E_{\rm {coherence}}}
-
  — binary term describing the coherence between neighborhood pixels.
 
 In practice, pixels are defined as neighbors if they are adjacent either horizontally, vertically or diagonally (4 way connectivity or 8 way connectivity for 2D images).
+
 Costs can be based on local intensity gradient, Laplacian zero-crossing, gradient direction, color mixture model,...
+
 Different energy functions have been defined:
+
 Standard Markov random field: Associate a penalty to disagreeing pixels by evaluating the difference between their segmentation label (crude measure of the length of the boundaries). See Boykov and Kolmogorov ICCV 2003
 Conditional random field: If the color is very different, it might be a good place to put a boundary. See Lafferty et al. 2001; Kumar and Hebert 2003
 
 Criticism
+
 Graph cuts methods have become popular alternatives to the level set-based approaches for optimizing the location of a contour (see for an extensive comparison).  However, graph cut approaches have been criticized in the literature for several issues:
 
 Metrication artifacts: When an image is represented by a 4-connected lattice, graph cuts methods can exhibit unwanted "blockiness" artifacts.  Various methods have been proposed for addressing this issue, such as using additional edges or by formulating the max-flow problem in continuous space.
+
 Shrinking bias: Since graph cuts finds a minimum cut, the algorithm can be biased toward producing a small contour.  For example, the algorithm is not well-suited for segmentation of thin objects like blood vessels (see for a proposed fix).
+
 Multiple labels: Graph cuts is only able to find a global optimum for binary labeling (i.e., two labels) problems, such as foreground/background image segmentation.  Extensions have been proposed that can find approximate solutions for multilabel graph cuts problems.
+
 Memory: the memory usage of graph cuts increases quickly as the image size increases. As an illustration, the Boykov-Kolmogorov max-flow algorithm v2.2 allocates
-
-
 
         24
         n
         +
         14
         m
-
-
     {\displaystyle 24n+14m}
-
  bytes (
-
-
-
         n
-
-
     {\displaystyle n}
-
  and
-
-
-
         m
-
-
     {\displaystyle m}
-
  are respectively the number of nodes and edges in the graph). Nevertheless, some amount of work has been recently done in this direction for reducing the graphs before the maximum-flow computation.
 
 Limitations and modern usage
+
 While graph cuts provide mathematically optimal solutions for specific energy functions, their use as a standalone method for general object recognition declined with the advent of deep learning. The primary limitations include:
 
 Semantic gap: Graph cuts rely on low-level cues (pixel intensity, color, texture) and lack high-level semantic understanding. They cannot distinguish between semantically different objects that share similar visual characteristics (e.g., distinguishing a dog from a cat of the same color).
+
 Computational cost: The iterative nature of max-flow algorithms (typically
 
-
-
         O
         (
-
           V
-
             2
-
-
         E
         )
-
-
     {\displaystyle O(V^{2}E)}
-
  or
-
-
-
         O
         (
-
           V
-
             3
-
-
         )
-
-
     {\displaystyle O(V^{3})}
 
 ) makes them computationally expensive for high-resolution video compared to the feed-forward inference of neural networks.
+
 Parallelization: Unlike matrix multiplications in neural networks, graph cut algorithms are difficult to parallelize efficiently on modern GPUs, creating a bottleneck in real-time pipelines.
+
 However, they remain a standard tool for interactive segmentation (e.g., rotoscoping in visual effects), where a user provides the semantic intent (via scribbles) and the algorithm handles the boundary precision. As described below, they are increasingly being integrated into modern artificial intelligence.
 
 Algorithm
+
 Minimization is done using a standard minimum cut algorithm.
+
 Due to the max-flow min-cut theorem we can solve energy minimization by maximizing the flow over the network. The max-flow problem consists of a directed graph with edges labeled with capacities, and there are two distinct nodes: the source and the sink. Intuitively, it is easy to see that the maximum flow is determined by the bottleneck.
 
 Implementation (exact)
+
 The Boykov-Kolmogorov algorithm is an efficient way to compute the max-flow for computer vision-related graphs.
 
 Implementation (approximation)
+
 The Sim Cut algorithm approximates the minimum graph cut. The algorithm implements a solution by simulation of an electrical network. This is the approach suggested by Cederbaum's maximum flow theorem.  Acceleration of the algorithm is possible through parallel computing.
 
 Integration with deep learning
+
 As of the mid-2020s, graph cuts have evolved from standalone solvers into components within deep learning frameworks. While convolutional neural networks (CNNs) and Transformers excel at semantic recognition, they often produce boundaries that lack geometric precision. Graph cut algorithms are used to address this by enforcing global consistency and edge-alignment.
 
 Differentiable graph cuts
+
 Traditional max-flow/min-cut algorithms are discrete and non-differentiable, preventing their direct use in backpropagation. To overcome this, researchers have developed "soft" or differentiable relaxations of the graph cut objective. Methods such as Probabilistic Graph Cuts or SoftCut allow the gradient of the energy function to be computed with respect to the edge weights. This enables a neural network to learn the parameters of the energy function (the cost of cutting specific edges) end-to-end, effectively treating the graph cut solver as a specific layer within the network architecture.
 
 As a loss function
+
 In weakly supervised learning and medical image segmentation, the graph cut energy formulation is often utilized as a regularization loss function (often termed "Graph Cut Loss" or "Boundary Loss"). Instead of running a solver during inference, the network is trained to minimize a loss term that approximates the min-cut energy. This penalizes the network for predicting noisy or fuzzy boundaries, forcing the output segmentation to align with high-contrast edges in the source image without requiring an iterative solver at inference time.
 
 Role in foundation model training
+
 With the rise of multimodal large language models (MLLMs) and vision foundation models (such as the Segment Anything Model), graph cuts have found a renewed utility in the data curation pipeline.
+
 Training these large-scale models requires massive datasets of high-quality segmentation masks, which are prohibitively expensive to generate manually pixel-by-pixel. Graph cut algorithms are employed to scale this process via weak supervision:
+
 Pseudo-label generation: Annotators provide cheap inputs (bounding boxes or text prompts), and graph cut algorithms propagate these cues to generate dense, pixel-perfect masks (ground truth) used to train the transformer models.
 
 Software
+
 http://pub.ist.ac.at/~vnk/software.html — An implementation of the maxflow algorithm described in "An Experimental Comparison of Min-Cut/Max-Flow Algorithms for Energy Minimization in Computer Vision" by Vladimir Kolmogorov
 http://vision.csd.uwo.ca/code/ — some graph cut libraries and MATLAB wrappers
 http://gridcut.com/ — fast multi-core max-flow/min-cut solver optimized for grid-like graphs

@@ -1,20 +1,30 @@
 ALPAC (Automatic Language Processing Advisory Committee) was a committee of seven scientists led by John R. Pierce, established in 1964 by the United States government in order to evaluate the progress in computational linguistics in general and machine translation in particular. Its report, issued in 1966, gained notoriety for being very skeptical of research done in machine translation so far, and emphasizing the need for basic research in computational linguistics; this eventually caused the U.S. government to reduce its funding of the topic dramatically. This marked the beginning of the first AI winter.
+
 The ALPAC was set up in April 1964 with John R. Pierce as the chairman.
+
 The committee consisted of:
 
 John R. Pierce, who at the time worked for Bell Telephone Laboratories
+
 John B. Carroll, a psychologist from Harvard University
+
 Eric P. Hamp, a linguist from the University of Chicago
+
 David G. Hays, a machine translation researcher from RAND Corporation
+
 Charles F. Hockett, a linguist from Cornell University
+
 Anthony Oettinger, a machine translation researcher from Harvard University
+
 Alan Perlis, an Artificial Intelligence researcher from Carnegie Institute of Technology
 Testimony was heard from:
 
 Paul Garvin of Bunker-Ramo Corporation
+
 Gilbert King of Itek Corporation and previously from IBM
 Winfred P. Lehmann from University of Texas at Austin
 Jules Mersel of Bunker-Ramo Corporation
+
 ALPAC's final recommendations (p. 34) were, therefore, that research should be supported on:
 
 practical methods for evaluation of translations;

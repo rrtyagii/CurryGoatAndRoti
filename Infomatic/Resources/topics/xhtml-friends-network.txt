@@ -1,6 +1,7 @@
 XHTML Friends Network (XFN) is an HTML microformat developed by Global Multimedia Protocols Group that provides a simple way to represent human relationships using links. XFN enables web authors to indicate relationships to the people in their blogrolls by adding one or more keywords as the rel attribute to their links. XFN was the first microformat, introduced in December 2003.
 
 Example
+
 A friend of Jimmy Example could indicate that relationship by publishing a link on their site like this:
 
 <a href="http://jimmy.example.com/" rel="friend">Jimmy Example</a>

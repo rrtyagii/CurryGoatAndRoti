@@ -1,13 +1,19 @@
 ITK is a cross-platform, open-source application development framework widely used for the development of image segmentation and image registration programs. Segmentation is the process of identifying and classifying data found in a digitally sampled representation. Typically the sampled representation is an image acquired from such medical instrumentation as CT or MRI scanners. Registration is the task of aligning or developing correspondences between data. For example, in the medical environment, a CT scan may be aligned with an MRI scan in order to combine the information contained in both.
+
 ITK was developed with funding from the National Library of Medicine (U.S.) as an open resource of algorithms for analyzing the images of the Visible Human Project. ITK stands for The Insight Segmentation and Registration Toolkit. The toolkit provides leading-edge segmentation and registration algorithms in two, three, and more dimensions. ITK uses the CMake build environment to manage the configuration process. The software is implemented in C++ and it is wrapped for Python. An offshoot of the ITK project providing a simplified interface to ITK in eight programming languages, SimpleITK, is also under active development.
 
 Introduction
+
 Origins
+
 In 1999 the US National Library of Medicine of the National Institutes of Health awarded a three-year contract to develop an open-source registration and segmentation toolkit, which eventually came to be known as the Insight Toolkit (ITK). ITK's NLM Project Manager was Dr. Terry Yoo, who coordinated the six prime contractors who made up the Insight Software Consortium. These consortium members included the three commercial partners GE Corporate R&D, Kitware, Inc., and MathSoft (the company name is now Insightful); and the three academic partners University of North Carolina (UNC), University of Tennessee (UT), and University of Pennsylvania (UPenn). The Principal Investigators for these partners were, respectively, Bill Lorensen at GE CRD, Will Schroeder at Kitware, Vikram Chalana at Insightful, Stephen Aylward with Luis Ibáñez at UNC (both of whom subsequently moved to Kitware), Ross Whitaker with Josh Cates at UT (both now at Utah), and Dimitris Metaxas at UPenn (Dimitris Metaxas is now at Rutgers University). In addition, several subcontractors rounded out the consortium including Peter Ratiu at Brigham & Women's Hospital, Celina Imielinska and Pat Molholt at Columbia University, Jim Gee at UPenn's Grasp Lab, and George Stetten at University of Pittsburgh.
 
 Technical details
+
 ITK is an open-source software toolkit for performing registration and segmentation. Segmentation is the process of identifying and classifying data found in a digitally sampled representation. Typically the sampled representation is an image acquired from such medical instrumentation as CT or MRI scanners. Registration is the task of aligning or developing correspondences between data. For example, in the medical environment, a CT scan may be aligned with an MRI scan in order to combine the information contained in both.
+
 ITK is implemented in C++. ITK is cross-platform, using the CMake build environment to manage the compilation process. In addition, an automated wrapping process generates interfaces between C++ and other programming languages such as Java and Python. This enables developers to create software using a variety of programming languages. ITK's implementation employs the technique of generic programming through the use of C++ templates.
+
 Because ITK is an open-source project, developers from around the world can use, debug, maintain, and extend the software. ITK uses a model of software development referred to as extreme programming. Extreme programming collapses the usual software creation methodology into a simultaneous and iterative process of design-implement-test-release. The key features of extreme programming are communication and testing. Communication among the members of the ITK community is what helps manage the rapid evolution of the software. Testing is what keeps the software stable. In ITK, an extensive testing process (using CDash) is in place that measures the quality on a daily basis. The ITK Testing Dashboard is posted continuously, reflecting the quality of the software.
 
 Developers and contributors
@@ -47,6 +53,7 @@ The source code of the Insight Toolkit is distributed under an Apache 2.0 Licens
 The philosophy of Open Source of the Insight Toolkit was extended to support open science, in particular by providing open access to publications in the domain of Medical Image Processing. These publications are made freely available through the Insight Journal
 
 Community participation
+
 Because ITK is an open-source system, anybody can make contributions to the project. A person interested in contributing to ITK can take the following actions
 
 Read the ITK Software Guide. (This book can be purchased from Kitware's store.)
@@ -54,10 +61,13 @@ Read the instructions on how to contribute classes and algorithms to the Toolkit
 Obtain access to GitHub.
 Follow the Git contribution instructions.
 Join the ITK Discourse discussion. The community is open to everyone.
+
 Anyone can submit a patch, and write access to the repository is not necessary to get a patch merged or retain authorship credit. For more information, see the ITK Bar Camp documentation on how to submit a patch.
 
 Copyright and license
+
 ITK is copyrighted by the Insight Software Consortium, a non-profit alliance of organizations and individuals interested in supporting ITK. Starting with ITK version 3.6, the software is distributed under a BSD open-source license. It allows use for any purpose, with the possible exception of code found in the patented directory, and with proper recognition. The full terms of the copyright and the license are available at www.itk.org/ITK/project/license.html. Version 4.0 uses Apache 2.0 License.
+
 The licensed was changed to Apache 2.0 with version 4.0 to adopt a modern license with patent protection provisions. From version 3.6 to 3.20, a simplified BSD license was used. Versions of ITK previous to ITK 3.6 were distributed under a modified BSD License. The main motivation for adopting a BSD license starting with ITK 3.6, was to have an OSI-approved license.
 
 Technical Summary
@@ -66,13 +76,19 @@ Design Philosophy
 The following are key features of the toolkit design philosophy.
 
 The toolkit provides data representation and algorithms for performing segmentation and registration. The focus is on medical applications; although the toolkit is capable of processing other data types.
+
 The toolkit provides data representations in general form for images (arbitrary dimension) and (unstructured) meshes.
+
 The toolkit does not address visualization or graphical user interface. These are left to other toolkits (such as VTK, VISPACK, 3DViewnix, MetaImage, etc.)
+
 The toolkit provides minimal tools for file interface. Again, this is left to other toolkits/libraries to provide.
+
 Multi-threaded (shared memory) parallel processing is supported.
+
 The development of the toolkit is based on principles of extreme programming. That is, design, implementation, and testing is performed in a rapid, iterative process. Testing forms the core of this process. In Insight, testing is performed continuously as files are checked in, and every night across multiple platforms and compilers. The ITK testing dashboard, where testing results are posted, is central to this process.
 
 Architecture
+
 The following are key features of the toolkit architecture.
 
 The toolkit is organized around a data-flow architecture. That is, data is represented using data objects which are in turn processed by process objects (filters). Data objects and process objects are connected together into pipelines. Pipelines are capable of processing the data in pieces according to a user-specified memory limit set on the pipeline.
@@ -80,20 +96,27 @@ Object factories are used to instantiate objects. Factories allow run-time exten
 A command/observer design pattern is used for event processing.
 
 Implementation philosophy
+
 The following are key features of the toolkit implementation philosophy.
 
 The toolkit is implemented using generic programming principles. Such heavily templated C++ code challenges many compilers; hence development was carried out with the latest versions of the MSVC, Sun, gcc, Intel, and SGI compilers.
+
 The toolkit is cross-platform (Unix, Windows and Mac OS X).
+
 The toolkit supports multiple language bindings, including such languages as Tcl, Python, and Java. These bindings are generated automatically using an auto-wrap process.
+
 The memory model depends on "smart pointers" that maintain a reference count to objects. Smart pointers can be allocated on the stack, and when scope is exited, the smart pointers disappear and decrement their reference count to the object that they refer to.
 
 Build environment
+
 ITK uses the CMake (cross-platform make) build environment. CMake is an operating system and compiler independent build process that produces native build files appropriate to the OS and compiler that it is run with. On Unix CMake produces makefiles and on Windows CMake generates projects and workspaces.
 
 Testing environment
+
 ITK supports an extensive testing environment. The code is tested daily (and even continuously) on many hardware/operating system/compiler combinations and the results are posted daily on the ITK testing dashboard. We use Dart to manage the testing process, and to post the results to the dashboard.
 
 Background references: C++ patterns and generics
+
 ITK uses many advanced design patterns and generic programming. You may find these references useful in understanding the design and syntax of Insight.
 
 Design Patterns. by Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides, Grady Booch
@@ -115,16 +138,23 @@ Many compilable examples are available on the ITK Examples Wiki
 Tutorials are available at www.itk.org/ITK/help/tutorials.html
 The software can be downloaded from www.itk.org/ITK/resources/software.html.
 Developers, or users interested in contributing code, should look in the document Insight/Documentation/InsightDeveloperStart.pdf or InsightDeveloperStart.doc found in the source code distribution.
+
 Developers should also look at the ITK style guide Insight/Documentation/Style.pdf found in the source distribution.
 
 Applications
+
 A great way to learn about ITK is to see how it is used. There are four places to find applications of ITK.
 
 The Insight/Examples/ source code examples distributed with ITK. The source code is available. In addition, it is heavily commented and works in combination with the ITK Software Guide.
+
 The separate InsightApplications checkout.
+
 The Applications web pages. These are extensive descriptions, with images and references, of the examples found in #1 above.
+
 The testing directories distributed with ITK are simple, mainly undocumented examples of how to use the code.
+
 In 2004 ITK-SNAP (website) was developed from SNAP and became a popular free segmentation software using ITK and having a nice and simple user interface.
 
 Data
+
 Data is available in ITK data.kitware.com Girder Community.

@@ -1,7 +1,11 @@
 Experimental factor ontology, also known as EFO, is an open-access ontology of experimental variables particularly those used in molecular biology. The ontology covers variables which include aspects of disease, anatomy, cell type, cell lines, chemical compounds and assay information. EFO is developed and maintained at the EMBL-EBI as a cross-cutting resource for the purposes of curation, querying and data integration in resources such as Ensembl, ChEMBL and Expression Atlas.
 
 Scope and access
+
 The original aim of EFO was to describe experimental variables in the EBI's Expression Atlas resource. This consisted primarily of disease, anatomical regions and cell types. By December 2013 the scope had grown to include several other EMBL-EBI resources and several external projects including CellFinder, cell lines from the ENCODE project and phenotype to SNP information in the NHGRI's Catalog of Published Genome-Wide Association Studies.
+
 EFO makes use of existing biomedical ontologies from the Open Biomedical Ontologies collection in order to improve interoperability with other resources which may also use these same ontologies, such as ChEBI and the Ontology for Biomedical Investigations.
+
 All data in the database is non-proprietary or is derived from a non-proprietary source. It is thus freely accessible and available to anyone. In addition, each data item is fully traceable and explicitly referenced to the original source.
+
 The EFO data is available through a public web interface, BioPortal Web Service hosted at the National Centre for Biomedical Ontology (NCBO) and downloads.

@@ -1,32 +1,54 @@
 OpenHarmony (OHOS, OH) is a family of open-source distributed operating systems sharing some principles from Huawei LiteOS lineage. Huawei donated the pure HarmonyOS L0-L2 single framework branch, non-AOSP source code, to the OpenAtom Foundation. Similar to HarmonyOS, the open-source distributed operating system is designed with a layered architecture, consisting of four layers from the bottom to the top: the kernel layer, system service layer, framework layer, and application layer. It is also an extensive collection of free software, which can be used as an operating system or in parts with other operating systems via Kernel Abstraction Layer subsystems.
+
 OpenHarmony supports various devices running a mini system, such as printers, speakers, smartwatches, and other smart device with memory as small as 128 KB, or running a standard system with memory greater than 128 MB.
+
 The system contains the basic and some advanced capabilities of HarmonyOS such as DSoftBus technology with distributed device virtualization platform, that is a departure from traditional virtualised guest OS for connected devices.
+
 The operating system is oriented towards the Internet of things (IoT) and embedded devices market with a diverse range of device support, including smartphones, tablets, smart TVs, smart watches, personal computers and other smart devices.
 
 History
+
 The first version of OpenHarmony was launched by the OpenAtom Foundation on September 10, 2020, after receiving a donation of the open-source code from Huawei with internal development of the open source project going back as far as 2015 with Project 543 as its codename within the company.
+
 In December 2020, the OpenAtom Foundation and Runhe Software officially launched OpenHarmony open source project with seven units including Huawei and Software Institute of the Chinese Academy of Sciences.
+
 The OpenHarmony 2.0 (Canary version) was launched in June 2021, supporting a variety of smart terminal devices.
+
 Based on its earlier version, OpenAtom Foundation launched OpenHarmony 3.0 on September 30, 2021, and brought substantial improvements over the past version to optimize the operating system, including supports for file security access (the ability to convert files into URIs and resolve URIs to open files) and support for basic capabilities of relational databases and distributed data management.
+
 A release of OpenHarmony supporting devices with up to 4 GB RAM was made available in April 2021.
+
 OpenAtom Foundation added a UniProton kernel, a hardware-based Microkernel real-time operating system, into its repo as part of the Kernel subsystem of the OpenHarmony operating system as an add-on on August 10, 2022.
+
 On September 15, 2025, OpenAtom Foundation stated on the developer notice board that they have officially migrated the OpenHarmony open source code to Gitcode from original official Gitee platform repo on the maintenance of the platform for better efficiency, DevOps development tooling and speed of the development.
 
 Development
+
 The primary IDE is known as DevEco Studio, which is used to build OpenHarmony applications with OpenHarmony SDK full development kit. The kit includes a comprehensive set of development tools, including a debugger, tester system via DevEco Testing, a repository with software libraries for software development, an embedded device emulator, previewer, documentation, sample code, and tutorials.
+
 Applications for OpenHarmony are mostly built using components of ArkUI, a Declarative User Interface framework. ArkUI elements are adaptable to various custom open-source hardware and industry hardware devices and include new interface rules with automatic updates along with HarmonyOS updates.
 
 Hardware development is developed using DevEco Studio via DevEco Device tool for building on OpenHarmony, also creating distros with operating system development with toolchains provided, including verification certification processes for the platform, as well as customising the operating system as an open source variant compared to original closed distro variant HarmonyOS that primarily focus on HarmonyOS Connect partners with Huawei.
+
 OpenHarmony Application Binary Interface (ABI) ensures compatibility across various OpenHarmony powered devices with diverse set of chipset instruction set platforms.
+
 HDC (OpenHarmony Device Connector) is a command-line tool tailored for developers working with OpenHarmony devices. The BM command tool component of HDC tool is used to facilitate debugging by developers. After entering in the HDC shell command, the BM tool can be utilised.
+
 Like HarmonyOS, OpenHarmony uses App Pack files suffixed with .app, also known as APP files on AppGallery and third party distribution application stores on OpenHarmony-based and non-OpenHarmony operating systems such as Linux-based Unity Operating System which is beneficial for interoperability and compatibility. Each App Pack has one or more HarmonyOS Ability Packages (HAP) containing code for their abilities, resources, libraries, and a JSON file with configuration information.
+
 While incorporating the OpenHarmony layer for running the APP files developed based on HarmonyOS APIs, the operating system utilizes the main Linux kernel for bigger memory devices, as well as the RTOS-based LiteOS kernel for smaller memory-constrained devices, as well as add-ons, custom kernels in distros in the Kernel Abstract Layer (KAL) subsystem that is not kernel dependent nor instruction set dependent. For webview applications, it incorporates ArkWeb software engine as of API 11 release at system level for security enhancing Chromium Embedded Framework nweb software engine that facilitated Blink-based Chromium in API 5.
+
 Unlike with open-source Android operating system with countless third-party dependency packages repeatedly built into the apps at a disadvantage when it comes to fragmentation. The OpenHarmony central repositories with the Special Interest Group at OpenAtom governance provides commonly used third-party public repositories for developers in the open-source environment which brings greater interoperability and compatibility with OpenHarmony-based operating systems. Apps can leverage many built-in third-party dependencies, such as Chromium, Unity  and Unreal Engine. This greatly reduces the system ROM requirements.
+
 Harmony Distributed File System (HMDFS) is a distributed file system designed for large-scale data storage and processing that is also used in openEuler as essential core part of the distributed operating system characteristics. It is inspired by the Hadoop Distributed File System (HDFS). The file system suitable for scenarios where large-scale data storage and processing are essential, such as IoT applications, edge computing, and cloud services coexisting with traditional local file system with local storage support. On Orange Pi OS (OHOS), the native file system shows LOCAL and shared_disk via OpenHarmony's Distributed File System (HMDFS)
 File path/root folder for the file system uses both > and traditional / similar in Unix/Linux/Unix-like unlike \ on Windows with its DLL (Dynamic-link library) system.
+
 Access token manager is an essential component in OpenHarmony-based distributed operating systems, responsible for unified app permission management based on access tokens. Access tokens serve as identifiers for apps, containing information such as app ID, user ID, app privilege level (APL), and app permissions. By default, apps can access limited system resources. ATM ensures controlled access to sensitive functionalities which combines both RBAC and CBAC models as a hybrid ACL model.
+
 OpenHarmony kernel abstract layer employs the third-party musl libc library and native APIs, providing support for the Portable Operating System Interface (POSIX-y) for Linux syscalls within the Linux kernel side and LiteOS kernel that is the inherent part of the original LiteOS design in POSIX API compatibility within multi-kernel Kernel Abstract Layer architecture. Developers and vendors can create components and applications that work on the kernel based on POSIX standards in the POSIX-like environment.
+
 OpenHarmony NDK is a toolset that enables developers to incorporate C and C++ code into their applications. Specifically, in the case of OpenHarmony, the NDK serves as a bridge between the native world (C/C++) and the OpenHarmony ecosystem.
+
 This NAPI method is a vital importance of open source community of individual developers, companies and non-profit organisations of stakeholders in manufacturers creating third party libraries for interoperability and compatibility on the operating system native open source and commercial applications development from third-party developers between southbound and northbound interface development of richer APIs, e.g. third party Node.js, Simple DirectMedia Layer, Qt framework, LLVM compiler, FFmpeg etc.
 
 Timeline
@@ -42,99 +64,148 @@ Small system – running on such devices as IP cameras, routers, event data reco
 Standard system – running on devices with enhanced interaction, discrete GPU, rich animations and diverse components, with memory equal to or larger than 128 MB and equipped with processors including ARM Cortex-A.
 
 Compatibility certification
+
 To ensure OpenHarmony-based devices are compatible and interoperable in the ecosystem, the OpenAtom Foundation has set up product compatibility specifications, with a Compatibility Working Group to evaluate and certify the products that are compatible with OpenHarmony.
+
 The following two types of certifications were published for the partners supporting the compatibility work, with the right to use the OpenHarmony Compatibility Logo on their certified products, packaging, and marketing materials.
 
 Development boards, modules, and software distributions
+
 Equipment
+
 On April 25, 2022, 44 products have obtained the compatibility certificates, and more than 80 software and hardware products are in the process of evaluation for OpenHarmony compatibility.
 
 Software development
+
 Since OpenHarmony was open source in September 2020 to December 2021, more than 1,200 developers and 40 organizations have participated in the open source project and contributed code. At present, OpenHarmony has developed to 4.x version.
 
 Software distributions
+
 OpenHarmony is the most active open source project hosted on the Gitee platform. As of September 2023, it has over 30 open-source software distributions compatible with OpenHarmony for various sectors such as education, finance, smart home, transportation, digital government and other industries.
 
 MineHarmony OS
+
 On 14 September 2021, Huawei announced the launch of commercial proprietary MineHarmony OS, a customized operating system by Huawei based on its in-house HarmonyOS distro based on OpenHarmony for industrial use. MineHarmony is compatible with about 400 types of underground coal mining equipment, providing the equipment with a single interface to transmit and collect data for analysis. Wang Chenglu, President of Huawei's consumer business AI and smart full-scenario business department, indicated that the launch of MineHarmony OS signified that the HarmonyOS ecology had taken a step further from B2C to B2B.
 
 Midea IoT OS
+
 Midea, a Chinese electrical appliance manufacturer launched Midea IoT operating system 1.0. An IoT centric operating system based on OpenHarmony 2.0 officially launched in October 2021. After, the company used HarmonyOS operating system with Huawei partnership for its smart devices compatibility since June 2, 2021 launch of HarmonyOS 2.0.
 
 OpenHarmony in Space
+
 On January 6, 2022, OpenHarmony in Space (OHIS) by OHIS Working Group and Dalian University of Technology led by Yu Xiaozhou was reported to be a vital play in the future from a scientific and engineering point of view, expecting to open up opportunities for development in China's satellite systems, and surpass SpaceX's Star Chain plan with the idea of micro-nano satellite technology.
 
 SwanLinkOS
+
 Based on OpenHarmony, SwanLinkOS was released in June 2022 by Honghu Wanlian (Jiangsu) Technology Development, a subsidiary of iSoftStone, for the transportation industry. The operating system supports mainstream chipsets, such as Rockchip RK3399 and RK3568, and can be applied in transportation and shipping equipment for monitoring road conditions, big data analysis, maritime search and rescue.
+
 It was awarded the OpenHarmony Ecological Product Compatibility Certificate by the OpenAtom Foundation.
 
 ArcherMind HongZOS
+
 On November 7, 2022, ArcherMind Cooperation that deals with operating systems, interconnection solutions, smart innovations, and R&D aspects launched the HongZOS system that supports OpenHarmony and HiSilicon chips, solution mainly focuses on AIoT in industrial sectors.
 
 Orange Pi OS (OHOS)
+
 On November 28, 2022, Orange Pi launched the Orange Pi OS based on the open-source OpenHarmony version. In October 2023, they released the Orange Pi 3B board with the Orange Pi OHOS version for hobbyists and developers based on the OpenHarmony 4.0 Beta1 version.
 
 RobanTrust OS
+
 On December 23, 2022, the integrated software and hardware solution together with the self-developed hardware products of Youbo Terminal runs RobanTrust OS, based on OpenHarmony that was launched as version 1.0 with 3.1.1 compatibility release.
 
 KaihongOS
+
 On January 14, 2023, Red Flag smart supercharger, first launched on OpenHarmony-based KaihongOS with OpenHarmony 3.1 support that supports the distributed soft bus that allows interconnection with other electronic devices and electrical facilities.
+
 On January 17, 2023, an electronic class card with 21.5-inch screen developed by Chinasoft and New Cape Electronics.
+
 On November 17, 2023, Kaihong Technology and Leju Robot collaborated to release the world's first humanoid robot powered by the open-source OpenHarmony distro KaihongOS with Rockchip SoC hardware using RTOS kernel technology for industrial robotic machines with predictable response times in determinism.
 
 USmartOS
+
 On April 15, 2023, Tongxin Software became OpenAtom's OpenHarmony Ecological Partner. An intelligent terminal operating system for enterprises in China by Tongxin Software was passed for compatibility certification on June 7, 2023. Tongxin intelligent terminal operating system supports ARM, X86, and other architectures that is supported. Tongxin has established cooperative relations with major domestic mobile chip manufacturers and has completed adaptations using the Linux kernel. Together with the desktop operating system and the server operating system, it constitutes the Tongxin operating system family.
 
 PolyOS Mobile
+
 PolyOS Mobile is an AI IoT open-source operating system tailored for RISC-V intelligent terminal devices by the PolyOS Project based on OpenHarmony, which was released on August 30, 2023, and is available for QEMU virtualisation on Windows 10 and 11 desktop machines.
 
 LightBeeOS
+
 LightBeeOS launched on September 28, 2023, is an OpenHarmony-based distro that supports financial level security, with distribution bus by Shenzhen Zhengtong Company used for industrial public banking solutions of systems, tested on ATM machines with UnionPay in Chinese domestic market. The operating system has been launched with OpenHarmony 3.2 support and up.
 
 Oniro
+
 On September 28, 2021, the Eclipse Foundation and the OpenAtom Foundation announced their intention to form a partnership to collaborate on OpenHarmony European distro which is a global family of operating systems under it and a family of the OpenHarmony operating system. Like OpenHarmony, it is one OS kit for all paradigm, enables a collection of free software, which can be used as an operating system or can be used in parts with other operating systems via Kernel Abstraction Layer subsystems on Oniro OS distros.
+
 Oniro OS or simply Oniro, also known as Eclipse Oniro Core Platform, is a distributed operating system for AIoT embedded systems launched on October 26, 2021, as Oniro OS 1.0, which is implemented to be compatible with HarmonyOS based on OpenHarmony L0-L2 branch source code, was later launched by the Eclipse Foundation for the global market with the founding members including Huawei, Linaro and Seco among others joined later on. Oniro is designed on the basis of open source and aims to be transparent, vendor-neutral, and independent system in the era of IoT with globalisation and localisation strategies resolving a fragmentated IoT and Embedded devices market.
+
 The operating system featured a Yocto system of Linux kernel for developments of OpenEmbedded build system with BitBake and Poky which is now part of Oniro blueprints that aims to be platform agnostic, however it is now aligned with OpenAtom development of OpenHarmony. The goal is to increase the distro with partners that create their own OpenHarmony-Oniro compatible distros that increase interoperability which reduces fragmentation of diverse platforms with diverse set of hardwares with enhancements from derived project back to original project in Upstream development of OpenHarmony source code branch to improve global industrial standards compatibilities customised for global markets. It is also used for Downstream development for enhancing OpenHarmony base in global and western markets for compatibility and interoperability with connected IoT systems as well as custom third-party support on-device AI features on custom frameworks such as Tensorflow, CUDA and others, alongside native Huawei MindSpore solutions across the entire OpenHarmony ecosystem. Oniro platform which is both compatible with OpenHarmony systems in China and Huawei's own HarmonyOS platform globally, including western markets in connectivity of third-party OEM hardware and apps.
 
 Development tools
+
 Rust in a framework alongside the Data Plane Development Kit (DPDK) IP Pipeline and profiling, React Native and Kanto in Applications development system on top of OpenHarmony, Servo and Linaro tools in system services, Matter opеn-sourcе, royalty-frее connеctivity standard that aims to unify smart homе dеvicеs and incrеasе thеir compatibility with various platforms and OSGi in driver subsystem, IoTex in swappable kernel development, and Eclipse Theia in integrated development environment to build Oniro OS apps that has interoperability with OpenHarmony based operating systems. Data can be transmitted directly rather than being shared via cloud online, enabling low latency architectures in more secure methods and privacy functions suitable for AIoT and smart home devices integration.
+
 Eclipse Oniro project also comes with Oniro IDE plugin for Visual Studio Code for global app developers primarily using Linux alongside Microsoft Windows, macOS and HarmonyOS PCs to build native OpenHarmony and HarmonyOS-based SDK applications for any device type compiled with the QEMU-based developer emulator.
+
 In May 2024, a key development involves porting Oniro OS to the Volla Phone X23, aiming to reduce hardware dependency and improve security through open, standardized drivers. Initially targeted at industrial applications, the project seeks to provide a transparent, verifiable alternative for the European and global market.
+
 In September 2025, Jolla announced at the global European OpenHarmony Technical Conference, the availability of its proprietary AppSupport compatibility layer for the Eclipse Oniro platform. This solution allows devices running the open-source OpenHarmony-based devices to natively execute unmodified Android applications (APKs), directly addressing the critical application ecosystem barrier for new operating systems. By porting this technology from its Sailfish OS, Jolla aims to accelerate Oniro's adoption as a viable, vendor-neutral alternative in the smart device market.
 
 Upstream and downstream software releases
+
 The Oniro project is focused on being a horizontal platform for application processors and microcontrollers of all device types with global contributions on downstream base OS derivative to source code upstreaming OpenHarmony core platform improvements. The platform is an embedded OS, with a choice of either the Linux kernel, LiteOS, UniProton RTOS kernel, or custom-add on kernels alongside experimental FreeRTOS kernel use. In September 2025, at RIOT Summit, OpenHarmony and Oniro team announced an additional RIOT RTOS kernel in development for academic and industry use in Europe. It includes an IP toolchain, maintenance, OTA, and OpenHarmony. It provides example combinations of components for various use cases, called "Blueprints". Oniro OS 2.0 was released in 2022 and Oniro OS 3.0 based on OpenHarmony 3.2 LTS in October 2023, alongside latest 6.0 version as of October 7, 2025 on the main branch.
 
 Distros
 YanLinkOS
+
 YanLinkOS is a commercial industrial IoT platform and the first announced as a commercial distribution based on the Eclipse Foundation's Oniro operating system. Developed by French startup YanLink AI in partnership with US-based HopeRun Technology, it debuted at the OpenHarmony Technical Conference in September 2025. A key technical feature is its native integration of the NearLink wireless communication protocol. Positioned as a Western-compliant derivative of the OpenHarmony/Oniro stack, it aims to provide a vendor-neutral option for secure, low-power IoT ecosystems in European and North American markets.
 
 HarmonyOS
+
 Huawei officially announced the commercial distro of proprietary HarmonyOS NEXT, microkernel-based iterative  distributed operating system for HarmonyOS 5 and beyond at Huawei Developer Conference 2023 (HDC) on August 4, 2023, which supports only native APP apps via Ark Compiler with Huawei Mobile Services (HMS) Core support. Proprietary system built on OpenHarmony, HarmonyOS NEXT has the HarmonyOS microkernel at its core and it has no apk compatibility support built exclusively for Huawei devices ecosystem.
+
 At HDC 2023, the developer preview version of HarmonyOS NEXT was opened for cooperating enterprise developers to build and test native mobile apps. It will be open to all developers in the first quarter of 2024 according to the official announcement.
+
 On 18 January 2024, Huawei announced HarmonyOS NEXT Galaxy stable rollout will begin in Q4 2024 based on OpenHarmony 5.0 (API 12) version after OpenHarmony 4.1 (API 11) based Q2 Developer Beta after release of public developer access of HarmonyOS NEXT Developer Preview 1 that has been in the hands of closed cooperative developers partners since August 2023 debut. The new system of HarmonyOS 5 version will replace previous HarmonyOS 4.2 system for commercial Huawei consumer devices that can only run native HarmonyOS apps built for HarmonyOS and OpenHarmony, as well as localisation using Oniro OS for downstream development at global level customised to global markets and standards enhancing OpenHarmony development.
+
 On June 21, 2024, Huawei announced via HDC 2024 conference and released Developer Beta milestone of HarmonyOS NEXT based on OpenHarmony 5.0 beta1 version for registered public developers with HMS external library embedded in native NEXT-specific API Developer Kit alongside supported compatible OpenHarmony APIs for native OpenHarmony-based HarmonyOS apps. The company officially confirmed the operating system is OpenHarmony compatible with the new boot image system.
+
 On October 22, 2024, Huawei launched HarmonyOS 5 at its launch event, upgrading the HarmonyOS Next developer internal and public software versions, completing the transitioning and replacing dual-framework of previous mainline HarmonyOS versions with full OpenHarmony base with custom HongMeng Kernel on the original L0-L2 codebase branch, marking officially as an independent commercial operating system and ecosystem from Android fork dependencies with 15,000+ native apps launched on the platform. As a result, OpenHarmony-based systems, including Oniro-based systems are aimed to be compatible with HarmonyOS native HAP apps, NearLink wireless connectivity stack and cross-device with upgraded DSoftBus connectivity.
 
 Relationship with OpenEuler
+
 In terms of architecture, OpenHarmony alongside HarmonyOS has close relationship with server-based multi-kernel operating system OpenEuler, which is a community edition of EulerOS, as they have implemented the sharing of kernel technology as revealed by Deng Taihua, President of Huawei's Computing Product Line. The sharing is reportedly to be strengthened in the future in the areas of the distributed software bus, app framework, system security, device driver framework and new programming language on the server side.
+
 Harmony Distributed File System (HMDFS) is a distributed file system designed for large-scale data storage and processing that is also used in openEuler server operating system.
 
 Developer Kit Devices
+
 Hi3861 based HiSpark WiFi IoT development board released in October 2020 with OpenHarmony support alongside LiteOS.
+
 Raspberry Pi ported to OpenHarmony 3.0 in November 2021
+
 Zilong development board with MIPS ARCH and 1c300B chip December 2021 powered by OpenHarmony 3.0.
+
 HiHope HH-SCDAYU200 released in May 2022 by HopeRun Software using Runhe Software, HiHope OS based on OpenHarmony with Rockchip's RK3568 processor. Also ported to OpenHarmony-based Oniro OS.
+
 HopeRun's HiHope development board with HiSilicon Hi3861V100 32-bit RISC-V microcontroller that is compatible with OpenHarmony launched in September 2022.
+
 Niobe U4 development board kit by Kaihong Zhigu, in October 2022.
+
 Shenzhen Kaihong KHDVK-3566B smart screen development board running OpenHarmony-based KaihongOS embedded operating system in October 2022
 Xianji Semiconductor Technology HPM6700 processor development November 2022 built for OpenHarmony
 ChinaSoft development board released December 2022.
+
 Unionpi Lion board based on an SV823 chip launched in February 2023. It includes a self-developed NPU and is capable of high-quality image processing, encoding, and decoding running OpenHarmony.
+
 HH-SCDAYU210 board launched in May 2023, powered by OpenHarmony with RockChip RK3588.
+
 Shenzhen Qianhai New Silk Road Technology Co., Ltd releases a Developer Phone powered by OpenHarmony in October 2023.
+
 Raspberry Pi 4B development board comes with OpenHarmony port in February 2024.
+
 MILOS_Standard0 with NXP i.MX8M Mini powered by OpenHarmony.
+
 Yangfan development board
 Huawei's HiSilicon, Hispark_Taurus
 BearPi-HM MicroB

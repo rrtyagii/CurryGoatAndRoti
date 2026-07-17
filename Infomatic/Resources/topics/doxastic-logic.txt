@@ -1,586 +1,265 @@
 Doxastic logic is a type of logic concerned with reasoning about beliefs.
+
 The term doxastic derives from the Ancient Greek δόξα (doxa, "opinion, belief"), from which the English term doxa ("popular opinion or belief") is also borrowed. Typically, a doxastic logic uses the notation
 
-
-
-
-
-
               B
-
-
-
             c
-
-
         x
-
-
     {\displaystyle {\mathcal {B}}_{c}x}
-
  to mean "reasoner
-
-
-
         c
-
-
     {\displaystyle c}
-
  believes that
-
-
-
         x
-
-
     {\displaystyle x}
-
  is true", and the set
-
-
-
-
-
             B
-
-
             c
-
-
         :
-
           {
-
-
               b
-
                 1
-
-
             ,
             …
             ,
-
               b
-
                 n
-
-
-
           }
-
-
-
     {\displaystyle \mathbb {B} _{c}:\left\{b_{1},\ldots ,b_{n}\right\}}
-
  denotes the set of beliefs of
-
-
-
         c
-
-
     {\displaystyle c}
 
 . In doxastic logic, belief is treated as a modal operator.
+
 There is complete parallelism between a person who believes propositions and a formal system that derives propositions. Using doxastic logic, one can express the epistemic counterpart of Gödel's incompleteness theorem of metalogic, as well as Löb's theorem, and other metalogical results in terms of belief.
 
 Types of reasoners
+
 To demonstrate the properties of sets of beliefs, Raymond Smullyan defines the following types of reasoners:
 
 Accurate reasoner: An accurate reasoner never believes any false proposition. (modal axiom T)
 
-
-
-
         ∀
         p
         :
-
-
-
               B
-
-
-
             c
-
-
         p
         →
         p
-
-
     {\displaystyle \forall p:{\mathcal {B}}_{c}p\to p}
-
 
 Inaccurate reasoner: An inaccurate reasoner believes at least one false proposition.
 
-
-
-
         ∃
         p
         :
         ¬
         p
         ∧
-
-
-
               B
-
-
-
             c
-
-
         p
-
-
     {\displaystyle \exists p:\neg p\wedge {\mathcal {B}}_{c}p}
-
 
 Consistent reasoner: A consistent reasoner never simultaneously believes a proposition and its negation. (modal axiom D)
 
-
-
-
         ¬
         ∃
         p
         :
-
-
-
               B
-
-
-
             c
-
-
         p
         ∧
-
-
-
               B
-
-
-
             c
-
-
         ¬
         p
-
-
           or
-
-
         ∀
         p
         :
-
-
-
               B
-
-
-
             c
-
-
         p
         →
         ¬
-
-
-
               B
-
-
-
             c
-
-
         ¬
         p
-
-
     {\displaystyle \neg \exists p:{\mathcal {B}}_{c}p\wedge {\mathcal {B}}_{c}\neg p\quad {\text{or}}\quad \forall p:{\mathcal {B}}_{c}p\to \neg {\mathcal {B}}_{c}\neg p}
-
 
 Normal reasoner: A normal reasoner is one who, while believing
 
-
-
         p
         ,
-
-
     {\displaystyle p,}
-
  also believes they believe
-
-
-
         p
-
-
     {\displaystyle p}
-
  (modal axiom 4).
-
-
-
-
         ∀
         p
         :
-
-
-
               B
-
-
-
             c
-
-
         p
         →
-
-
             B
             B
-
-
         p
-
-
     {\displaystyle \forall p:{\mathcal {B}}_{c}p\to {\mathcal {BB}}p}
-
 
 A variation on this would be someone who, while not believing
 
-
-
         p
         ,
-
-
     {\displaystyle p,}
-
  also believes they don't believe
-
-
-
         p
-
-
     {\displaystyle p}
-
  (modal axiom 5).
-
-
-
-
         ∀
         p
         :
         ¬
-
-
-
               B
-
-
-
             c
-
-
         p
         →
-
-
             B
-
-
         (
         ¬
-
-
-
               B
-
-
-
             c
-
-
         p
         )
-
-
     {\displaystyle \forall p:\neg {\mathcal {B}}_{c}p\to {\mathcal {B}}(\neg {\mathcal {B}}_{c}p)}
-
 
 Peculiar reasoner: A peculiar reasoner believes proposition
 
-
-
         p
-
-
     {\displaystyle p}
-
  while also believing they do not believe
-
-
-
         p
         .
-
-
     {\displaystyle p.}
-
  Although a peculiar reasoner may seem like a strange psychological phenomenon (see Moore's paradox), a peculiar reasoner is necessarily inaccurate but not necessarily inconsistent.
-
-
-
-
         ∃
         p
         :
-
-
-
               B
-
-
-
             c
-
-
         p
         ∧
-
-
             B
             ¬
             B
-
-
         p
-
-
     {\displaystyle \exists p:{\mathcal {B}}_{c}p\wedge {\mathcal {B\neg B}}p}
 
-
 Regular reasoner: A regular reasoner is one who, while believing
-
-
 
         p
         →
         q
-
-
     {\displaystyle p\to q}
 
 , also believes
 
-
-
-
-
-
               B
-
-
-
             c
-
-
         p
         →
-
-
             B
-
-
         q
-
-
     {\displaystyle {\mathcal {B}}_{c}p\to {\mathcal {B}}q}
 
 .
 
-
-
-
         ∀
         p
         ∀
         q
         :
-
-
             B
-
-
         (
         p
         →
         q
         )
         →
-
-
             B
-
-
         (
-
-
-
               B
-
-
-
             c
-
-
         p
         →
-
-
             B
-
-
         q
         )
-
-
     {\displaystyle \forall p\forall q:{\mathcal {B}}(p\to q)\to {\mathcal {B}}({\mathcal {B}}_{c}p\to {\mathcal {B}}q)}
-
 
 Reflexive reasoner: A reflexive reasoner is one for whom every proposition
 
-
-
         p
-
-
     {\displaystyle p}
-
  has some proposition
-
-
-
         q
-
-
     {\displaystyle q}
-
  such that the reasoner believes
-
-
-
         q
         ≡
         (
-
-
             B
-
-
         q
         →
         p
         )
-
-
     {\displaystyle q\equiv ({\mathcal {B}}q\to p)}
 
 .
 
-
-
-
         ∀
         p
         ∃
         q
         :
-
-
             B
-
-
         (
         q
         ≡
         (
-
-
             B
-
-
         q
         →
         p
         )
         )
-
-
     {\displaystyle \forall p\exists q:{\mathcal {B}}(q\equiv ({\mathcal {B}}q\to p))}
-
 
 If a reflexive reasoner of type 4 [see below] believes
 
-
-
-
-
-
               B
-
-
-
             c
-
-
         p
         →
         p
-
-
     {\displaystyle {\mathcal {B}}_{c}p\to p}
 
 , they will believe
 
-
-
         p
-
-
     {\displaystyle p}
 
 . This is a parallelism of Löb's theorem for reasoners.
+
 Conceited reasoner: A conceited reasoner believes their beliefs are never inaccurate.
 
-
-
-
-
-
             B
-
-
         [
         ¬
         ∃
@@ -589,615 +268,258 @@ Conceited reasoner: A conceited reasoner believes their beliefs are never inaccu
         ¬
         p
         ∧
-
-
-
               B
-
-
-
             c
-
-
         p
         )
         ]
-
-
           or
-
-
-
-
             B
-
-
         [
         ∀
         p
         (
-
-
-
               B
-
-
-
             c
-
-
         p
         →
         p
         )
         ]
-
-
     {\displaystyle {\mathcal {B}}[\neg \exists p(\neg p\wedge {\mathcal {B}}_{c}p)]\quad {\text{or}}\quad {\mathcal {B}}[\forall p({\mathcal {B}}_{c}p\to p)]}
-
 
 Rewritten in de re form, this is logically equivalent to:
 
-
-
-
         ∀
         p
         [
-
-
             B
-
-
         (
-
-
-
               B
-
-
-
             c
-
-
         p
         →
         p
         )
         ]
-
-
     {\displaystyle \forall p[{\mathcal {B}}({\mathcal {B}}_{c}p\to p)]}
 
-
 This implies that:
-
-
-
 
         ∀
         p
         (
-
-
             B
-
-
-
-
-
               B
-
-
-
             c
-
-
         p
         →
-
-
-
               B
-
-
-
             c
-
-
         p
         )
-
-
     {\displaystyle \forall p({\mathcal {B}}{\mathcal {B}}_{c}p\to {\mathcal {B}}_{c}p)}
 
-
 This shows that a conceited reasoner is always a stable reasoner (see below).
+
 Unstable reasoner: An unstable reasoner is one who believes that they believe some proposition, but in fact does not believe it. This is just as strange a psychological phenomenon as peculiarity; however, an unstable reasoner is not necessarily inconsistent.
-
-
-
 
         ∃
         p
         :
-
-
             B
-
-
-
-
-
               B
-
-
-
             c
-
-
         p
         ∧
         ¬
-
-
-
               B
-
-
-
             c
-
-
         p
-
-
     {\displaystyle \exists p:{\mathcal {B}}{\mathcal {B}}_{c}p\wedge \neg {\mathcal {B}}_{c}p}
-
 
 Stable reasoner: A stable reasoner is not unstable. That is, for every
 
-
-
         p
         ,
-
-
     {\displaystyle p,}
-
  if they believe
-
-
-
-
-
-
               B
-
-
-
             c
-
-
         p
-
-
     {\displaystyle {\mathcal {B}}_{c}p}
-
  then they believe
-
-
-
         p
         .
-
-
     {\displaystyle p.}
-
  Note that stability is the converse of normality. We will say that a reasoner believes they are stable if for every proposition
-
-
-
         p
         ,
-
-
     {\displaystyle p,}
-
  they believe
-
-
-
-
-
             B
-
-
-
-
-
               B
-
-
-
             c
-
-
         p
         →
-
-
-
               B
-
-
-
             c
-
-
         p
-
-
     {\displaystyle {\mathcal {B}}{\mathcal {B}}_{c}p\to {\mathcal {B}}_{c}p}
-
  (believing: "If I should ever believe that I believe
-
-
-
         p
         ,
-
-
     {\displaystyle p,}
-
  then I really will believe
-
-
-
         p
-
-
     {\displaystyle p}
 
 "). This corresponds to having a dense accessibility relation in Kripke semantics, and any accurate reasoner is always stable.
 
-
-
-
         ∀
         p
         :
-
-
             B
             B
-
-
         p
         →
-
-
-
               B
-
-
-
             c
-
-
         p
-
-
     {\displaystyle \forall p:{\mathcal {BB}}p\to {\mathcal {B}}_{c}p}
-
 
 Modest reasoner: A modest reasoner is one for whom for every believed proposition
 
-
-
         p
-
-
     {\displaystyle p}
 
 ,
 
-
-
-
-
-
               B
-
-
-
             c
-
-
         p
         →
         p
-
-
     {\displaystyle {\mathcal {B}}_{c}p\to p}
-
  only if they believe
-
-
-
         p
-
-
     {\displaystyle p}
 
 . A modest reasoner never believes
 
-
-
-
-
-
               B
-
-
-
             c
-
-
         p
         →
         p
-
-
     {\displaystyle {\mathcal {B}}_{c}p\to p}
-
  unless they believe
-
-
-
         p
-
-
     {\displaystyle p}
 
 . Any reflexive reasoner of type 4 is modest. (Löb's Theorem)
 
-
-
-
         ∀
         p
         :
-
-
             B
-
-
         (
-
-
-
               B
-
-
-
             c
-
-
         p
         →
         p
         )
         →
-
-
-
               B
-
-
-
             c
-
-
         p
-
-
     {\displaystyle \forall p:{\mathcal {B}}({\mathcal {B}}_{c}p\to p)\to {\mathcal {B}}_{c}p}
 
-
 Queer reasoner: A queer reasoner is of type G (see below) and believes they are inconsistent—but is wrong in this belief.
+
 Timid reasoner: A timid reasoner does not believe
 
-
-
         p
-
-
     {\displaystyle p}
-
  [is "afraid to" believe
-
-
-
         p
-
-
     {\displaystyle p}
 
 ] if they believe that belief in
 
-
-
         p
-
-
     {\displaystyle p}
-
  leads to a contradictory belief.
-
-
-
-
         ∀
         p
         :
-
-
             B
-
-
         (
-
-
-
               B
-
-
-
             c
-
-
         p
         →
-
-
             B
-
-
         ⊥
         )
         →
         ¬
-
-
-
               B
-
-
-
             c
-
-
         p
-
-
     {\displaystyle \forall p:{\mathcal {B}}({\mathcal {B}}_{c}p\to {\mathcal {B}}\bot )\to \neg {\mathcal {B}}_{c}p}
 
 Increasing levels of rationality
+
 Type 1 reasoner: A type 1 reasoner has a complete knowledge of propositional logic i.e., they sooner or later believe every tautology/theorem (any proposition provable by truth tables):
 
-
-
-
-
           ⊢
-
             P
             C
-
-
         p
         ⇒
-
         ⊢
-
-
-
               B
-
-
-
             c
-
-
         p
-
-
     {\displaystyle \vdash _{PC}p\Rightarrow \ \vdash {\mathcal {B}}_{c}p}
-
 
 The symbol
 
-
-
-
           ⊢
-
             P
             C
-
-
         p
-
-
     {\displaystyle \vdash _{PC}p}
-
  means
-
-
-
         p
-
-
     {\displaystyle p}
-
  is a tautology/theorem provable in Propositional Calculus. Also, their set of beliefs (past, present and future) is logically closed under modus ponens. If they ever believe
-
-
-
         p
-
-
     {\displaystyle p}
-
  and
-
-
-
         p
         →
         q
-
-
     {\displaystyle p\to q}
-
  then they will (sooner or later) believe
-
-
-
         q
-
-
     {\displaystyle q}
 
 :
 
-
-
-
         ∀
         p
         ∀
         q
         :
         (
-
-
-
               B
-
-
-
             c
-
-
         p
         ∧
-
-
             B
-
-
         (
         p
         →
@@ -1205,32 +527,18 @@ The symbol
         )
         )
         →
-
-
             B
-
-
         q
-
-
     {\displaystyle \forall p\forall q:({\mathcal {B}}_{c}p\wedge {\mathcal {B}}(p\to q))\to {\mathcal {B}}q}
-
 
 This rule can also be thought of as stating that belief distributes over implication, as it's logically equivalent to
 
-
-
-
         ∀
         p
         ∀
         q
         :
-
-
             B
-
-
         (
         p
         →
@@ -1238,187 +546,89 @@ This rule can also be thought of as stating that belief distributes over implica
         )
         →
         (
-
-
-
               B
-
-
-
             c
-
-
         p
         →
-
-
             B
-
-
         q
         )
-
-
     {\displaystyle \forall p\forall q:{\mathcal {B}}(p\to q)\to ({\mathcal {B}}_{c}p\to {\mathcal {B}}q)}
 
 .
+
 Note that, in reality, even the assumption of type 1 reasoner may be too strong for some cases (see Lottery paradox).
+
 Type 1* reasoner: A type 1* reasoner believes all tautologies; their set of beliefs (past, present and future) is logically closed under modus ponens, and for any propositions
 
-
-
         p
-
-
     {\displaystyle p}
-
  and
-
-
-
         q
         ,
-
-
     {\displaystyle q,}
-
  if they believe
-
-
-
         p
         →
         q
         ,
-
-
     {\displaystyle p\to q,}
-
  then they will believe that if they believe
-
-
-
         p
-
-
     {\displaystyle p}
-
  then they will believe
-
-
-
         q
-
-
     {\displaystyle q}
 
 . The type 1* reasoner has "a shade more" self awareness than a type 1 reasoner.
 
-
-
-
         ∀
         p
         ∀
         q
         :
-
-
             B
-
-
         (
         p
         →
         q
         )
         →
-
-
             B
-
-
         (
-
-
-
               B
-
-
-
             c
-
-
         p
         →
-
-
             B
-
-
         q
         )
-
-
     {\displaystyle \forall p\forall q:{\mathcal {B}}(p\to q)\to {\mathcal {B}}({\mathcal {B}}_{c}p\to {\mathcal {B}}q)}
-
 
 Type 2 reasoner: A reasoner is of type 2 if they are of type 1, and if for every
 
-
-
         p
-
-
     {\displaystyle p}
-
  and
-
-
-
         q
-
-
     {\displaystyle q}
-
  they (correctly) believe: "If I should ever believe both
-
-
-
         p
-
-
     {\displaystyle p}
-
  and
-
-
-
         p
         →
         q
-
-
     {\displaystyle p\to q}
 
 , then I will believe
 
-
-
         q
-
-
     {\displaystyle q}
 
 ." Being of type 1, they also believe the logically equivalent proposition:
 
-
-
-
-
             B
-
-
         (
         p
         →
@@ -1426,64 +636,29 @@ Type 2 reasoner: A reasoner is of type 2 if they are of type 1, and if for every
         )
         →
         (
-
-
-
               B
-
-
-
             c
-
-
         p
         →
-
-
             B
-
-
         q
         )
         .
-
-
     {\displaystyle {\mathcal {B}}(p\to q)\to ({\mathcal {B}}_{c}p\to {\mathcal {B}}q).}
-
  A type 2 reasoner knows their beliefs are closed under modus ponens.
-
-
-
-
         ∀
         p
         ∀
         q
         :
-
-
             B
-
-
         (
         (
-
-
-
               B
-
-
-
             c
-
-
         p
         ∧
-
-
             B
-
-
         (
         p
         →
@@ -1491,375 +666,149 @@ Type 2 reasoner: A reasoner is of type 2 if they are of type 1, and if for every
         )
         )
         →
-
-
             B
-
-
         q
         )
-
-
     {\displaystyle \forall p\forall q:{\mathcal {B}}(({\mathcal {B}}_{c}p\wedge {\mathcal {B}}(p\to q))\to {\mathcal {B}}q)}
-
 
 Type 3 reasoner: A reasoner is of type 3 if they are a normal reasoner of type 2.
 
-
-
-
         ∀
         p
         :
-
-
             B
-
-
         p
         →
-
-
             B
-
-
-
-
-
               B
-
-
-
             c
-
-
         p
-
-
     {\displaystyle \forall p:{\mathcal {B}}p\to {\mathcal {B}}{\mathcal {B}}_{c}p}
-
 
 Type 4 reasoner: A reasoner is of type 4 if they are of type 3 and also believe they are normal.
 
-
-
-
-
-
             B
-
-
         [
         ∀
         p
         (
-
-
             B
-
-
         p
         →
-
-
             B
-
-
-
-
-
               B
-
-
-
             c
-
-
         p
         )
         ]
-
-
     {\displaystyle {\mathcal {B}}[\forall p({\mathcal {B}}p\to {\mathcal {B}}{\mathcal {B}}_{c}p)]}
-
 
 Type G reasoner: A reasoner of type 4 who believes they are modest.
 
-
-
-
-
-
             B
-
-
         [
         ∀
         p
         (
-
-
             B
-
-
         (
-
-
-
               B
-
-
-
             c
-
-
         p
         →
         p
         )
         →
-
-
-
               B
-
-
-
             c
-
-
         p
         )
         ]
-
-
     {\displaystyle {\mathcal {B}}[\forall p({\mathcal {B}}({\mathcal {B}}_{c}p\to p)\to {\mathcal {B}}_{c}p)]}
 
 Self-fulfilling beliefs
+
 For systems, logicians define reflexivity to mean that for any
 
-
-
         p
-
-
     {\displaystyle p}
-
  (in the language of the system) there is some
-
-
-
         q
-
-
     {\displaystyle q}
-
  such that
-
-
-
         q
         ≡
-
-
             B
-
-
         q
         →
         p
-
-
     {\displaystyle q\equiv {\mathcal {B}}q\to p}
-
  is provable in the system. Löb's theorem (in a general form) is that for any reflexive system of type 4, if
-
-
-
-
-
-
               B
-
-
-
             c
-
-
         p
         →
         p
-
-
     {\displaystyle {\mathcal {B}}_{c}p\to p}
-
  is provable in the system, so is
-
-
-
         p
         .
-
-
     {\displaystyle p.}
 
 Inconsistency of the belief in one's stability
+
 If a consistent reflexive reasoner of type 4 believes that they are stable, then they will become unstable. Stated otherwise, if a stable reflexive reasoner of type 4 believes that they are stable, then they will become inconsistent. Why is this? Suppose that a stable reflexive reasoner of type 4 believes that they are stable. We will show that they will (sooner or later) believe every proposition
 
-
-
         p
-
-
     {\displaystyle p}
-
  (and hence be inconsistent). Take any proposition
-
-
-
         p
         .
-
-
     {\displaystyle p.}
-
  The reasoner believes
-
-
-
-
-
             B
-
-
-
-
-
               B
-
-
-
             c
-
-
         p
         →
-
-
-
               B
-
-
-
             c
-
-
         p
         ,
-
-
     {\displaystyle {\mathcal {B}}{\mathcal {B}}_{c}p\to {\mathcal {B}}_{c}p,}
-
  hence by Löb's theorem they will believe
-
-
-
-
-
-
               B
-
-
-
             c
-
-
         p
-
-
     {\displaystyle {\mathcal {B}}_{c}p}
-
  (because they believe
-
-
-
-
-
             B
-
-
         r
         →
         r
         ,
-
-
     {\displaystyle {\mathcal {B}}r\to r,}
-
  where
-
-
-
         r
-
-
     {\displaystyle r}
-
  is the proposition
-
-
-
-
-
-
               B
-
-
-
             c
-
-
         p
         ,
-
-
     {\displaystyle {\mathcal {B}}_{c}p,}
-
  and so they will believe
-
-
-
         r
         ,
-
-
     {\displaystyle r,}
-
  which is the proposition
-
-
-
-
-
-
               B
-
-
-
             c
-
-
         p
-
-
     {\displaystyle {\mathcal {B}}_{c}p}
 
 ). Being stable, they will then believe
 
-
-
         p
         .
-
-
     {\displaystyle p.}

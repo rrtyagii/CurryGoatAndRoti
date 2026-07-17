@@ -1,15 +1,22 @@
 DOGMA, short for Developing Ontology-Grounded Methods and Applications, is the name of research project in progress at Vrije Universiteit Brussel's STARLab, Semantics Technology and Applications Research Laboratory. It is an internally funded project, concerned with the more general aspects of extracting, storing, representing and browsing information.
 
 Methodological Root
+
 DOGMA, as a dialect of the fact-based modeling approach, has its root in database semantics and model theory. It adheres to the fact-based information management methodology towards Conceptualization and 100% principle of ISO TR9007.
+
 The DOGMA methodological principles include:
 
 Data independence: the meaning of data shall be decoupled from the data itself.
+
 Interpretation independence: unary or binary fact types (i.e. lexons) shall be adhere to formal interpretation in order to store semantics; lexons themselves do not carry semantics
 Multiple views on and uses of stored conceptualization. An ontology shall be scalable and extensible.
+
 Language neutral. An ontology shall meet multilingual needs.
+
 Presentations independence: an ontology in DOGMA shall meet any kinds of users' needs of presentation. As an FBM dialect, DOGMA supports both graphical notations and textual presentation in a controlled language. Semantic decision tables, for example, is a means to visualize processes in a DOGMA commitment. SDRule-L  is to visualize and publish ontology-based decision support models.
+
 Concepts shall be validated by the stakeholders.
+
 Informal textual definitions shall be provided in case the source of the ontology is missing or incomplete.
 
 Technical introduction
@@ -20,18 +27,23 @@ non-taxonomical relationship (differentia): e.g., < G, manager, directs, directe
 Lexons could be approximately considered as a combination of an RDF/OWL triple and its inverse, or as a conceptual graph style relation (Sowa, 1984). The next section elaborates more on the notions of context.
 
 Language versus conceptual level
+
 Another distinguishing characteristic of DOGMA is the explicit duality (orthogonal to double articulation) in interpretation between the language level and conceptual level. The goal of this separation is primarily to disambiguate the lexical representation of terms in a lexon (on the language level) into concept definitions (on the conceptual level), which are word senses taken from lexical resources such as WordNet. The meaning of the terms in a lexon is dependent on the context of elicitation.
+
 For example, consider a term “capital”. If this term was elicited from a typewriter manual, it has a different meaning (read: concept definition) than when elicited from a book on marketing. The intuition that a context provides here is: a context is an abstract identifier that refers to implicit or tacit assumptions in a domain, and that maps a term to its intended meaning (i.e. concept identifier) within these assumptions.
 
 Ontology evolution
+
 Ontologies naturally co-evolve with their communities of use. Therefore, in De Leenheer (2007) he identified a set of primitive operators for changing ontologies. We make sure these change primitives are conditional, which means that their applicability depends on pre- and post-conditions. Doing so, we guarantee that only valid structures can be built.
 
 Context dependency types
+
 De Leenheer and de Moor (2005) distinguished four key characteristics of context:
 
 a context packages related knowledge: it defines part of the knowledge of a particular domain,
 it disambiguates the lexical representation of concepts and relationships by distinguishing between language level and conceptual level,
 it defines context dependencies between different ontological contexts and
 contexts can be embedded or linked, in the sense that statements about contexts are themselves in context.
+
 Based on this, they identified three different types of context dependencies within one ontology (intra-ontological) and between different ontologies (inter-ontological): articulation, application, and specialisation. One particular example in the sense of conceptual graph theory would be a specialisation dependency for which the dependency constraint is equivalent to the conditions for CG-specialisation
 Context dependencies provide a better understanding of the whereabouts of knowledge elements and their inter-dependencies, and consequently make negotiation and application less vulnerable to ambiguity, hence more practical.

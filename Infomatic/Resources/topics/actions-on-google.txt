@@ -1,6 +1,9 @@
 Actions on Google was a development platform for the Google Assistant. It allowed the third-party development of "actions"—applets for the Google Assistant that provide extended functionality.
+
 Google renamed the service "Conversational Actions". Google discontinued the service. The last day of operation was June 12, 2023.
 
 Interface
+
 The actions platform supported "direct" actions, as well as "conversational" actions for more complex applications. More advanced developers are able to develop directly against the API, and a SDK for Node.js is also available.
+
 As of April 2017 there were more than 175 Actions for Google Assistant, including ones from Uber, The Motley Fool, NPR One, NBC News, and Domino's Pizza. The availability was further extended beyond the Google Home space into Android and iOS.

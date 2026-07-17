@@ -1,5 +1,7 @@
 Semantic Automated Discovery and Integration (SADI) is a lightweight set of fully standards-compliant Semantic Web service design patterns that simplify the publication of services of the type commonly found in bioinformatics and other scientific domains.   SADI services utilize Semantic Web technologies at every level of the Web services "stack".  Services are described in OWL-DL, where the property restrictions in OWL classes are used to define the properties expected of the input and output data.  Invocation of SADI Services is achieved through HTTP POST of RDF data representing OWL Individuals ('instances') of the defined input OWL Class, and the resulting output data will be OWL Individuals of the defined output OWL Class.
+
 SADI design patterns place a single unique constraint on the behaviour of the Service, in that the URI of the input individual, and the URI of the output individual must be identical.  The consequence of this constraint is that the Service provider must connect the output to the input through a defined predicate; effectively, the output is "about" the input, and the relationship between input and output is explicit.  As such, SADI services become the source of new Linked Data, relating the input and output of a service, and chains of SADI services produce uninterrupted Linked Data graphs.
+
 SADI has been used in a number of Bioinformatics data integration case studies
 and for semantic querying of relational data in Clinical Informatics settings.
 

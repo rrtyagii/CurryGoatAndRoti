@@ -1,10 +1,13 @@
 Cradle Bio B.V. (doing business as Cradle) is a Dutch–Swiss biotechnology company that develops software using machine learning for protein engineering. It was founded in 2021 and is based in Amsterdam, with an office in Zürich.
 
 History
+
 Cradle was founded in 2021 by Stef van Grieken, Jelle Prins, Elise de Reus, Eli Bixby and Harmen van Rossum. In November 2022 the company raised a €5.5 million seed round led by Index Ventures. It raised a US$24 million Series A financing in November 2023, led by Index Ventures. In 2024 the company announced a US$73 million Series B round led by IVP.
 
 Technology
+
 According to TechCrunch, Cradle's platform applies techniques derived from large language models to generate amino‑acid sequence variants predicted to exhibit user‑selected properties (such as stability or binding). Subsequent coverage reported use by pharmaceutical companies and performance improvements in protein design experiments.
 
 Recognition
+
 Cradle was listed by Wired as one of the "Hottest Startups in Amsterdam in 2024" and was included in Bloomberg's "25 European Startups to Watch" list in 2025. In February 2024 the business magazine MT/Sprout named Cradle its Startup of the Year 2024. In February 2025 Business Insider Nederland published a feature profile on the company’s AI‑driven antibody research and expansion of its Amsterdam laboratory.

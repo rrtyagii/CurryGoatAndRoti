@@ -1,8 +1,11 @@
 Johan de Kleer is a computer scientist working as a Research Fellow at Xerox PARC.
 
 Education
+
 De Kleer earned a Bachelor of Science in computer science and mathematics from University of British Columbia, and Master of Science in computer science and electrical engineering and PhD in artificial intelligence from the Massachusetts Institute of Technology.
 
 Career
+
 De Kleer is known for his work on qualitative reasoning, model-based diagnosis, design and truth maintenance systems. In his works, he has maintained that self-aware systems will be using formal language and will be distinguished for an emphasis on math. De Kleer is noted for his works on qualitative analysis of electrical systems. An example is his conceptualization of the Incremental Qualitative Analysis, a causal qualitative analysis technique that became the basis of a program called QUAL, which is used to describe and recognize the functionality of bipolar circuits.
+
 De Kleer won the Computers and Thought award from IJCAI in 1987 for his work in qualitative reasoning. He is a fellow of the Association for the Advancement of Artificial Intelligence (AAAI) and the Association for Computing Machinery.

@@ -1,8 +1,11 @@
 Asunción Gómez Pérez is a Spanish computer scientist, the Vice-Rector for Research, Innovation and Doctoral Studies and a Full Professor at the Technical University of Madrid. In 2015, she received National Prize of Informatics from Scientific Society of Informatics of Spain.
+
 She is also the recipient of the Ada Byron Prize. She is working in the field of artificial intelligence, specifically in semantic web and ontology engineering.
 
 Early life and education
+
 Asunción Gómez Pérez was born in Azuaga, Spain. She received a PhD in Computer Science from the Technical University of Madrid in 1993. She also has a Masters in Business Administration (MBA) from the Comillas Pontifical University. In 1994, she was a postdoctoral researcher at the Knowledge Systems Laboratory at Stanford University working with Tom Gruber.
 
 Career
+
 Between 1995 and 1998, she was the executive director of the Artificial Intelligence Lab at the Faculty of Informatics at the Technical University of Madrid. She was the director of the Department of Artificial Intelligence between 2008 and 2016 and the academic director of the Masters and PhD in Artificial Intelligence between 2009 and 2016. She has been a full professor since 2008. She has over 300 publications and 20,000 citations.

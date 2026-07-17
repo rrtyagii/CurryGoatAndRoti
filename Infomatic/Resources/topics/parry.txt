@@ -1,6 +1,9 @@
 PARRY was an early example of a chatbot, implemented in 1972 by psychiatrist Kenneth Colby.
 
 History
+
 PARRY was written in 1972 by psychiatrist Kenneth Colby, then at Stanford University. While ELIZA was a simulation of a Rogerian therapist, PARRY attempted to simulate a person with paranoid schizophrenia. The program implemented a crude model of the behavior of a person with paranoid schizophrenia based on concepts, conceptualizations, and beliefs (judgements about conceptualizations: accept, reject, neutral). It also embodied a conversational strategy, and as such was a much more serious and advanced program than ELIZA. It was described as "ELIZA with attitude".
+
 PARRY was tested in the early 1970s using a variation of the Turing Test.  A group of experienced psychiatrists analysed a combination of real patients and computers running PARRY through teleprinters. Another group of 33 psychiatrists were shown transcripts of the conversations. The two groups were then asked to identify which of the "patients" were human and which were computer programs. The psychiatrists were able to make the correct identification only 48 percent of the time — a figure consistent with random guessing.
+
 PARRY and ELIZA (also known as "the Doctor") interacted several times. The most famous of these exchanges occurred at the ICCC 1972, where PARRY and ELIZA were hooked up over ARPANET and responded to each other.

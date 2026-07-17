@@ -1,30 +1,44 @@
 Legal informatics is an area within information science.
+
 The American Library Association defines informatics as "the study of the structure and properties of information, as well as the application of technology to the organization, storage, retrieval, and dissemination of information." Legal informatics therefore, pertains to the application of informatics within the context of the legal environment and as such involves law-related organizations (e.g., law offices, courts, and law schools) and users of information and information technologies within these organizations.
 
 Policy issues
 Policy issues in legal informatics arise from the use of informational technologies in the implementation of law, such as the use of subpoenas for information found in emails, search queries, and social networks. Policy approaches to legal informatics issues vary throughout the world. For example, European countries tend to require the destruction or anonymization of data so that it cannot be used for discovery.
 
 Technology
+
 Cloud computing
+
 The widespread introduction of cloud computing provides several benefits in delivering legal services. Legal service providers can use the Software as a Service model to earn a profit by charging customers a per-use or subscription fee. This model has several benefits over traditional bespoke services.
 
 Software as a service is much more scalable. Traditional bespoke models require an attorney to spend more of a limited resource (their time) on each additional client. Using Software as a Service, a legal service provider can put in effort once to develop the product and then use a much less limited resource (cloud computing power) to provide service to each additional customer.
+
 Software as a service can be used to complement traditional bespoke services by handling routine tasks, leaving an attorney free to concentrate on bespoke work.
+
 Software as a service can be delivered more conveniently because it does not require the legal service provider to be available at the same time as the customer.
+
 Software as a service also complicates the attorney-client relationship in a way that may have implications for attorney–client privilege.  The traditional delivery model makes it easy to create delineations of when attorney-client privilege attaches and when it does not. But in more complex models of legal service delivery other actors or automated processes may moderate the relationship between a client and their attorney making it difficult to tell which communications should be legally privileged.
 
 Artificial intelligence
+
 Artificial intelligence is employed in online dispute resolution platforms that use optimization algorithms and blind-bidding. Artificial intelligence is also frequently employed in modeling the legal ontology, "an explicit, formal, and general specification of a conceptualization of properties of and relations between objects in a given domain".
+
 Artificial intelligence and law (AI and law) is a subfield of artificial intelligence (AI) mainly concerned with applications of AI to legal informatics problems and original research on those problems.  It is also concerned to contribute in the other direction: to export tools and techniques developed in the context of legal problems to AI in general. For example, theories of legal decision making, especially models of argumentation, have contributed to knowledge representation and reasoning; models of social organization based on norms have contributed to multi-agent systems; reasoning with legal cases has contributed to case-based reasoning; and the need to store and retrieve large amounts of textual data has resulted in contributions to conceptual information retrieval and intelligent databases.
+
 Recent commentary has emphasized that in legal contexts, the success of AI agents depends less on achieving full autonomy and more on producing verifiable, trustworthy results. Agentic systems used in legal workflows—such as contract review, compliance analysis, and risk detection—are often designed to show their reasoning step-by-step and ground outputs in evidence. This design enables lawyers to quickly validate results, fostering adoption and enabling human oversight at critical decision points.
 
 History
+
 Although Loevinger, Allen  and Mehl anticipated several of the ideas that would become important in AI and Law, the first serious proposal for applying AI techniques to law is usually taken to be  Buchanan and Headrick. Early work from this period includes Thorne McCarty's influential TAXMAN project in the US and Ronald Stamper's LEGOL project in the UK. Landmarks in the early 1980s include Carole Hafner's work on conceptual retrieval, Anne Gardner's work on contract law, Edwina Rissland's work on legal hypotheticals and the work at Imperial College London on the representation of legislation by means of executable logic programs.
+
 Early meetings of scholars included a one-off meeting at Swansea, the series of conferences organized by IDG in Florence and the workshops organised by Charles Walter at the University of Houston in 1984 and 1985. In 1987 a biennial conference, the International Conference on AI and Law (ICAIL), was instituted. This conference began to be seen as the main venue for publishing and the developing ideas within AI and Law, and it led to the foundation of the International Association for Artificial Intelligence and Law (IAAIL), to organize and convene subsequent ICAILs. This, in turn, led to the foundation of the Artificial Intelligence and Law Journal, first published in 1992.  In Europe, the annual JURIX conferences (organised by the Jurix Foundation for Legal Knowledge Based Systems), began in 1988. Initially intended to bring together the Dutch-speaking (i.e. Dutch and Flemish) researchers, JURIX quickly developed into an international, primarily European, conference and since 2002 has regularly been held outside the Dutch speaking countries. Since 2007 the JURISIN workshops have been held in Japan under the auspices of the Japanese Society for Artificial Intelligence.
+
 The interoperable legal documents standard Akoma Ntoso allows machine-driven processes to operate on the syntactic and semantic components of digital parliamentary, judicial and legislative documents, thus facilitating the development of high-quality information resources and forming a basis for AI tools. Its goal is to substantially enhance the performance, accountability, quality and openness of parliamentary and legislative operations based on best practices and guidance through machine-assisted drafting and machine-assisted (legal) analysis. Embedded in the environment of the semantic web, it forms the basis for a heterogenous yet interoperable ecosystem, with which these tools can operate and communicate, as well as for future applications and use cases based on digital law or rule representation.
+
 In 2019, the city of Hangzhou, China established a pilot program artificial intelligence-based Internet Court to adjudicate disputes related to ecommerce and internet-related intellectual property claims. Parties appear before the court via videoconference and AI evaluates the evidence presented and applies relevant legal standards.
 
 Scope
+
 Today, AI and law embrace a wide range of topics, including:
 
 Formal models of legal reasoning
@@ -40,30 +54,49 @@ Lawbots to automate minor and repetitive legal tasks
 Risk assessment, pricing and timeline predictions of litigation using machine learning and artificial intelligence.
 
 Formal models of legal reasoning
+
 Formal models of legal texts and legal reasoning have been used in AI and Law to clarify issues, to give a more precise understanding and to provide a basis for implementations. A variety of formalisms have been used, including propositional and predicate calculi; deontic, temporal and non-monotonic logics; and state transition diagrams. Prakken and Sartor give a detailed and authoritative review of the use of logic and argumentation in AI and Law, together with a comprehensive set of references.
+
 An important role of formal models is to remove ambiguity. In fact, legislation abounds with ambiguity: Because it is written in natural language there are no brackets and so the scope of connectives such as "and" and "or" can be unclear. "Unless" is also capable of several interpretations, and legal draftsman never write "if and only if", although this is often what they intend by "if". In perhaps the earliest use of logic to model law in AI and Law, Layman Allen advocated the use of propositional logic to resolve such syntactic ambiguities in a series of papers.
+
 In the late 1970s and throughout the 1980s a significant strand of work on AI and Law involved the production of executable models of legislation, originating with Thorne McCarty's TAXMAN and Ronald Stamper's LEGOL. TAXMAN was used to model the majority and minority arguments in a US Tax law case (Eisner v Macomber), and was  implemented in the micro-PLANNER programming language. LEGOL was used to provide a formal model of the rules and regulations that govern an organization, and was implemented in a condition-action rule language of the kind used for expert systems.
+
 The TAXMAN and LEGOL languages were executable, rule-based languages, which did not have an explicit logical interpretation. However, the formalisation of a large portion of the British Nationality Act by Sergot et al. showed that the natural language of legal documents bears a close resemblance to the Horn clause subset of first order predicate calculus. Moreover, it identified the need to extend the use of Horn clauses by including negative conditions, to represent rules and exceptions. The resulting extended Horn clauses are executable as logic programs.
+
 Later work on larger applications, such as that on Supplementary Benefits, showed that logic programs need further extensions, to deal with such complications as multiple cross references, counterfactuals, deeming provisions, amendments, and highly technical concepts (such as contribution conditions). The use of hierarchical representations  was suggested to address the problem of cross reference; and so-called isomorphic representations were suggested to address the problems of verification and frequent amendment. As the 1990s developed this strand of work became partially absorbed into the development of formalisations of domain conceptualisations, (so-called ontologies), which became popular in AI following the work of Gruber. Early examples in AI and Law include Valente's functional ontology and the frame based ontologies of Visser and van Kralingen. Legal ontologies have since become the subject of regular workshops at AI and Law conferences and there are many examples ranging from generic top-level and core ontologies to very specific models of particular pieces of legislation.
+
 Since law comprises sets of norms, it is unsurprising that deontic logics have been tried as the formal basis for models of legislation. These, however, have not been widely adopted as the basis for expert systems, perhaps because expert systems are supposed to enforce the norms, whereas deontic logic becomes of real interest only when we need to consider violations of the norms. In law directed obligations, whereby an obligation is owed to another named individual are of particular interest, since violations of such obligations are often the basis of legal proceedings.  There is also some interesting work combining deontic and action logics to explore normative positions.
+
 In the context of multi-agent systems, norms have been modelled using state transition diagrams. Often, especially in the context of electronic institutions, the norms so described are regimented (i.e., cannot be violated), but in other systems violations are also handled, giving a more faithful reflection of real norms. For a good example of this approach see Modgil et al.
+
 Law often concerns issues about time, both relating to the content, such as time periods and deadlines, and those relating to the law itself, such as commencement. Some attempts have been made to model these temporal logics using both computational formalisms such as the Event Calculus and temporal logics such as defeasible temporal logic.
+
 In any consideration of the use of logic to model law it needs to be borne in mind that law is inherently non-monotonic, as is shown by the rights of appeal enshrined in all legal systems, and the way in which interpretations of the law change over time. Moreover, in the drafting of law exceptions abound, and, in the application of law, precedents are overturned as well as followed. In logic programming approaches, negation as failure is often used to handle non-monotonicity, but specific non-monotonic logics such as defeasible logic have also been used. Following the development of abstract argumentation, however, these concerns are increasingly being addressed through argumentation in monotonic logic rather than through the use of non-monotonic logics.
 
 Quantitative legal prediction
+
 Both academic and proprietary quantitative legal prediction models exist. One of the earliest examples of a working quantitative legal prediction model occurred in the form of the Supreme Court forecasting project. The Supreme Court forecasting model attempted to predict the results of all the cases on the 2002 term of the Supreme Court. The model predicted 75% of cases correctly compared to experts who only predicted 59.1% of cases.
+
 Another example of an academic quantitative legal prediction models is a 2012 model that predicted the result of Federal Securities class action lawsuits.
+
 Some academics and legal technology startups are attempting to create algorithmic models to predict case outcomes. Part of this overall effort involves improved case assessment for litigation funding.
+
 In order to better evaluate the quality of case outcome prediction systems, a proposal has been made to create a standardised dataset that would allow comparisons between systems.
 
 Legal practice
+
 Within the practice issues conceptual area, progress continues to be made on both litigation and transaction focused technologies. In particular, technology including predictive coding has the potential to effect substantial efficiency gains in law practice. Though predictive coding has largely been applied in the litigation space, it is beginning to make inroads in transaction practice, where it is being used to improve document review in mergers and acquisitions. Other advances, including XML coding in transaction contracts, and increasingly advanced document preparation systems demonstrate the importance of legal informatics in the transactional law space.
+
 Current applications of AI in the legal field utilize machines to review documents, particularly when a high level of completeness and confidence in the quality of document analysis is depended upon, such as in instances of litigation and where due diligence play a role. Predictive coding leverages small samples to cross-reference similar items, weed out less relevant documents so attorneys can focus on the truly important key documents, produces statistically validated results, equal to or surpassing the accuracy and, prominently, the rate of human review.
 
 Delivery of services
+
 Advances in technology and legal informatics have led to new models for the delivery of legal services. Legal services have traditionally been a "bespoke" product created by a professional attorney on an individual basis for each client. However, to work more efficiently, parts of these services will move sequentially from (1) bespoke to (2) standardized, (3) systematized, (4) packaged, and (5) commoditized. Moving from one stage to the next will require embracing different technologies and knowledge systems.
+
 The spread of the Internet and development of legal technology and informatics are extending legal services to individuals and small-medium companies.
+
 As legal departments explore generative AI, alternative legal service providers have begun supporting adoption by offering AI training and pre-configured toolkits. This reflects a broader trend where legal delivery models now emphasize capability building alongside outsourcing. A 2025 Financial Times article reported that while over 60% of corporate legal teams had access to AI tools, a significant number still needed more support before adopting them confidently.
 
 Corporate legal departments
+
 Corporate legal departments may use legal informatics for such purposes as to manage patent portfolios, and for preparation, customization and management of documents.

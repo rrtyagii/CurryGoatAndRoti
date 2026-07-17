@@ -1,107 +1,180 @@
 Space Jam: A New Legacy is a 2021 American live-action/animated sports comedy film, directed by Malcolm D. Lee. A sequel to Space Jam (1996), the film stars basketball player LeBron James as a fictionalized version of himself, in addition to featuring Don Cheadle, Khris Davis and Sonequa Martin-Green in live-action roles, while Zendaya, Jeff Bergman and Eric Bauza headline the Looney Tunes voice cast. The film follows James enlisting the Looney Tunes' aid to win a basketball game in a Warner Bros.–themed virtual world against its rogue artificial intelligence ruler after his youngest son is abducted by the AI.
+
 Discussions for a Space Jam sequel began following its release. Director Joe Pytka was attached to return, and Spike Brandt and Tony Cervone signed on as the animation directors; however, the project stalled due to lead actor Michael Jordan's refusal to return. Several possible spin-offs focusing on other athletes, including Jeff Gordon, Tiger Woods and Tony Hawk, were discussed but never materialized. After several years in development, a LeBron James-led sequel was announced in 2014 with filming under director Terence Nance beginning in the Los Angeles area in June 2019. Nance left the project in July due to creative differences and was replaced by Lee, with filming completed by September. Traditional animation was done by Company 3 and Tonic DNA, while visual effects and computer animation were outsourced to Industrial Light & Magic.
+
 Space Jam: A New Legacy premiered in Los Angeles on July 12, 2021, and was released nationwide in the United States by Warner Bros. Pictures on July 16, and through HBO Max for one month. The film grossed $164 million and received generally negative reviews from critics. It won three of its four Golden Raspberry Award nominations, including Worst Actor for James.
 
 Plot
+
 In 1998, a young LeBron James attends a youth league basketball game. His friend Malik gives him a Game Boy, which LeBron plays with until the coach demands that he concentrate on the basketball. LeBron misses a potential buzzer beater and is reprimanded for not staying focused.
+
 In the present day, LeBron encourages his sons, Darius and Dominic, to pursue basketball careers. While his attempts with Darius are successful, Dominic (Dom for short) aspires to become a video game developer. The Jameses are later invited to Warner Bros. Studios to discuss a film deal. LeBron rejects the idea while Dom is interested in the studio's software, particularly its AI, Al-G Rhythm. Dom and LeBron argue, with the latter revealing resentment towards his father's advice. Having become self-aware and desiring more recognition in the world, Al-G lures the duo to the server room and traps them in the studio's "Serververse".
+
 Al-G takes Dom prisoner and orders LeBron to form a basketball team to compete against his own, only earning his freedom if he wins, before sending him to Tune World. Upon his arrival, LeBron allies himself with its sole inhabitant, Bugs Bunny, who explains that Al-G persuaded the other Looney Tunes to leave their world and explore the Serververse. Using Marvin the Martian's spaceship, the duo travel to various worlds to locate and recruit the other Looney Tunes to form the Tune Squad. Meanwhile, Al-G manipulates Dom into recreating his basketball-based video game, Dom Ball, inside the Serververse. The duo create a highly powerful team which Al-G intends to use against LeBron.
+
 In Tune World, despite Bugs's protests, LeBron insists on teaching the Tune Squad the fundamentals of basketball. They soon oppose Al-G's team, the Goon Squad, composed of avatars based on real basketball players and led by Dom. Al-G converts Tune World and the rest of the Tunes to computer animation, live streams the game and abducts real-world people, including the other Jameses, into the Serververse. Al-G threatens to delete the Looney Tunes and imprison the spectators permanently if the Goon Squad wins.
+
 The Goon Squad use their abilities to score extreme "style points", ending the first half with a 1039–37 lead. LeBron realizes his mistake and allows the Looney Tunes to use their cartoon physics during the second half. They rally and take the lead. During a time-out, LeBron apologizes to Dom for not listening to his ideas. Dom forgives LeBron and joins the Tune Squad.
+
 Al-G takes control of the game and demonstrates a new ability to undo Tune scoring, effectively thwarting any further efforts. With ten seconds left in the game and the Tune Squad down by one point,  a bug in Dom Ball's code, where a character is terminated and the game crashes after a specific move is performed, is recalled. LeBron volunteers to perform the move, uncertainly declaring that it will not affect him due to originating from the real world. However, Bugs intercepts a pass and does the move himself, sacrificing his life. Bugs, Al-G and the Goon Squad are all terminated as LeBron scores the winning point with Dom's help. The Looney Tunes and their world are restored and LeBron, his family and the other real-world spectators are returned to the real world.
+
 One week later, LeBron, respecting Dom's wishes, allows him to attend the E3 Game Design Camp. He subsequently encounters Bugs, who reveals that his cartoon physics allowed him to regenerate and that his friends have also entered the real world. LeBron, having accepted the Looney Tunes as his extended family, allows them to live with him temporarily.
 
 Cast
+
 Live-action cast
+
 LeBron James as himself; James also voices his animated counterpart.
+
 Stephen Kankole additionally portrays the character's younger self
+
 Don Cheadle as Al-G Rhythm, a self-aware and deceitful artificial intelligence who presides over the Warner Bros. Serververse. Cheadle additionally voices the character's computerized form. The actor was a fan of Michael Jordan, the original film and the Looney Tunes franchise, so he accepted the role once it was pitched to him.
+
 Cedric Joe as Dominic "Dom" James, Lebron's youngest son and an aspiring video game developer.
+
 Sonequa Martin-Green as Kamiyah James, LeBron's wife.
+
 Khris Davis as Malik, LeBron's childhood friend and business associate
+
 Jalyn Hall additionally portrays the character's younger self
+
 Ceyair Wright as Darius James, LeBron's elder son.
+
 Harper Leigh Alexander as Xosha James, LeBron's daughter.
+
 Ernie Johnson as himself, working as a commentator during the game between the Tune Squad and the Goon Squad.
+
 Lil Rel Howery as himself, working with Johnson in commentating on the game.
+
 Xosha Roquemore appears as Shanice James, LeBron's mother, Darius, Dom and Xosha's grandmother, and a fictionalized version of Gloria Marie James; Wood Harris appears as Coach C, LeBron's childhood coach; Sarah Silverman and Steven Yeun portray Warner Bros. executives; and Slink Johnson appears as a security guard. Basketball players Sue Bird, Draymond Green and A'ja Wilson cameo as themselves in a flashback in which Dom met them at a gathering attended by LeBron.
+
 Michael B. Jordan cameos as himself, appearing as a visual gag where he is mistaken for Michael Jordan; this was teased by Cheadle prior to the film's release, who stated, "Michael Jordan is in the movie, but not in the way that you would expect it." Michael B. Jordan was invited to appear in the film when he visited the set and hung out with James. Lee was interested in having Michael Jordan appear in a post-credits scene that would spoof The Last Dance; however, the idea never materialized. Bill Murray, who appeared in the original film, makes a photographic cameo playing golf alongside Bugs Bunny seen during the film's credits. Travis Scott, Ronda Rousey and Naomi Osaka additionally appear in the end credits.
 
 Voice cast
+
 Jeff Bergman as Bugs Bunny, Sylvester the Cat, Yosemite Sam, Yogi Bear and Fred Flintstone
 Eric Bauza as Daffy Duck, Porky Pig, Foghorn Leghorn, Elmer Fudd and Marvin the Martian
 Zendaya as Lola Bunny; Zendaya accepted Coogler's offer to star in the film because of her interest in working with Coogler and being a fan of the original film, in addition to her family's history with basketball.
+
 Bob Bergen as Tweety; Bergen is the only cast member from the original film to reprise his role.
+
 Candi Milo as Granny
+
 Gabriel Iglesias as Speedy Gonzales; Iglesias, a longtime fan of the character, expressed excitement at being cast as Speedy. When the crew asked him if he wanted to change Speedy's voice from the traditional delivery, Iglesias decided against it, saying, "When people think of Speedy Gonzales, I don't want them to think of me, I want them to think of Speedy Gonzales." Iglesias is the first actor of Mexican descent to voice the character.
+
 Fred Tatasciore as Taz
+
 Jim Cummings provided additional uncredited vocal effects for Taz.
+
 Paul Julian as the Road Runner (from archival recordings, uncredited)
+
 Anthony Davis as The Brow, a Harpy-like member of the Goon Squad and avatar of Davis with prehensile and eagle-like wings in place of arms. The character is named after one of Davis' nicknames.
+
 Damian Lillard as Chronos, a mechanized member of the Goon Squad and avatar of Lillard who can manipulate time. The character is inspired by Lillard's "Dame Time" nickname.
+
 Klay Thompson as Wet-Fire, an elemental member of the Goon Squad and avatar of Thompson who possesses both aquakinesis and pyrokinesis in a pair of respective forms similar to Hydro-Man and Human Torch, while also being able to combine these abilities. The character is inspired in part by the "Splash Brothers" nickname given to the duo of Thompson and Stephen Curry. The aquakinesis represent his ability to shoot threes and the pyrokinesis represents him going all out when he plays.
+
 Nneka Ogwumike as Arachnneka, a spider-based member of the Goon Squad and avatar of Ogwumike.
+
 Diana Taurasi as White Mamba, a Nāga-like member of the Goon Squad and avatar of Taurasi. The character is inspired by Taurasi's eponymous nickname.
+
 Rosario Dawson as Wonder Woman, a DC Comics superheroine and Amazon who mentors Lola and oversees the latter's trial. Dawson reprises her role from the DC Animated Movie Universe.
+
 Justin Roiland as Rick Sanchez and Morty Smith, the titular protagonists of the Rick and Morty franchise who had been experimenting on Taz before they return him to his fellow Looney Tunes.
+
 Eric Bauza, Kimberly Brooks, Nik Shriner and Shelby Young provided additional voices
 In addition to voicing and providing motion capture for the Goon Squad, Davis, Lillard, Thompson, Ogwumike and Taurasi appear as themselves in live-action cameos when Dom meets them at a gathering attended by LeBron.
+
 Looney Tunes characters who appear in non-speaking roles include Wile E. Coyote, Gossamer, K-9, Beaky Buzzard, Cecil Turtle, Charlie Dog, The Three Bears, The Crusher, Witch Hazel, Sam Sheepdog, Rocky and Mugsy, Playboy Penguin and Nasty Canasta. Penelope Pussycat was present in the film's merchandising and advertising as part of the Tune Squad, but did not appear in the film proper.
+
 The Nerdlucks, the central antagonists of the original film, appear as spectators during the game via archival footage. James confirmed prior to its release that their Monstars forms would not appear in the film.
 
 Warner Bros. cameos and references
+
 As the Warner Bros. Serververse prominently features, the film incorporates numerous cameo appearances and references to other Warner Bros. properties depicted as planets. Properties directly named among the planets and represented by cameos in the Serververse and the crowd scenes for the game, include Game of Thrones, Mad Max, The Matrix, Casablanca, The Maltese Falcon, The Wizard of Oz, King Kong, The Iron Giant, What Ever Happened to Baby Jane?, Smallfoot, Rick and Morty, Austin Powers, Wild Wild West, ThunderCats, many DC and Hanna-Barbera properties, It, The Mask, The Wild Bunch, Charlie and the Chocolate Factory, Beetlejuice, 300, The Devils, Gremlins, Animaniacs, A Clockwork Orange, Harry Potter, The Lord of the Rings, and The Goonies. The film also includes references to its standalone predecessor.
 
 Production
+
 Development
+
 A sequel to Space Jam was planned as early as 1997, shortly after the original film was released in theaters worldwide. As development began, Space Jam 2 was going to involve a new basketball competition with Michael Jordan and the Looney Tunes and Berserk-O!, a new alien villain who was planned to be voiced by Mel Brooks. Artist Bob Camp was tasked with designing Berserk-O! and his two henchmen, and with the proposed casting in mind, Camp designed Berserk-O! to resemble Brooks. Joe Pytka would have returned to direct while Tony Cervone signed on to return as animation director, this time joined by his creative partner Spike Brandt instead of Bruce W. Smith. However, Jordan did not agree to star in a sequel. According to Camp, a producer lied to the studio by claiming that Jordan had signed on in order to start pre-production. Without Jordan involved with the project, Warner Bros. was uninterested and cancelled plans for Space Jam 2.
+
 The potential sequel reentered development as Spy Jam and was to star Jackie Chan in a different script. The studio was also planning a film titled Race Jam which would have starred Jeff Gordon. Additionally, Pytka revealed that following the first film's success, he had been pitched a story for a sequel that would have starred professional golfer Tiger Woods, with Jordan in a smaller role. Pytka explained how the idea came from an out-of-studio script conference, with people who worked on the original film allegedly involved. Producer Ivan Reitman was reportedly in favor of a film which would again star Jordan. The follow-up films were ultimately cancelled in favor of Looney Tunes: Back in Action (2003), though Gordon did make a cameo in Back in Action. A film titled Skate Jam was in early development with Tony Hawk in the starring role. Plans were underway for production to begin immediately following the release of Looney Tunes: Back in Action, but were cancelled due to the poor financial performance of said film despite improved critical reception to Space Jam.
 
 Resurgence
+
 In February 2014, Warner Bros. officially announced that development of a sequel that would star LeBron James. Charlie Ebersol was set to produce, while Willie Ebersol wrote the script. That same month, James was quoted as saying, "I've always loved Space Jam. It was one of my favorite movies growing up. If I have the opportunity, it will be great."
+
 In July 2015, James and his film studio, SpringHill Entertainment, signed a deal with Warner Bros. for television, film and digital content after receiving positive reviews for his role in Trainwreck.
+
 By 2016, Justin Lin signed onto the project as director, and co-screenwriter with Andrew Dodge and Alfredo Botello. Professional player Kobe Bryant also expressed an interest in directing the film, though he was uninterested in a cameo appearance. By August 2018, Lin left the project and Terence Nance was hired to direct the film.
+
 In September 2018, Ryan Coogler was announced as a producer for the film. SpringHill Entertainment released a promotional teaser image officially announcing the film, with production set to begin in 2019 during the NBA off-season. Filming was to take place in California within a 30 mile radius of Los Angeles.
+
 By April 2019, Coogler and Sev Ohanian were rewriting the script. Final screenplay credit would ultimately go to Juel Taylor, Tony Rettenmaier, Keenan Coogler, Terance Nance, Jesse Gordon, and Celeste Ballard. Prior to production, the film received $21.8 million in tax credits as a result of a new tax incentive program from the state.
 
 Filming
+
 Principal photography began on June 25, 2019. On July 16, 2019, it was announced Nance was leaving the project because he and "the studio/producers had different takes on the creative vision for Space Jam 2", and that Malcolm D. Lee would serve as his replacement. Bradford Young, who was set to serve as cinematographer, also left the project and was replaced by Salvatore Totino.
+
 Among locations used for filming included the Sheats–Goldstein Residence owned by James Goldstein, including turning its tennis court temporarily into a basketball court for the shooting. Production wrapped on September 16, 2019. The production spent at total of $194.7 million filming in California, receiving $21.8 million in tax rebates from the state. James held a farewell meeting talking about how he idolized with the first Space Jam film when he was a kid in Akron, Ohio, when the production wrapped, which was later leaked on August 16, 2020, along with pictures of James with his #6 Tune Squad outfit. A scene filmed under Nance's direction in June 2019 involving Pepé Le Pew attempting to flirt with a bartender (portrayed by Greice Santo), only to be rebuffed, was deleted. This decision was later met with backlash among many fans, who accused the studio of double standards by removing the character while allowing a cameo of Alex and his droogs, a gang that commits severe violence and sexual assaults in the 1971 film A Clockwork Orange, to be retained. Malcolm McDowell, who played Alex in the film, was asked permission to include a cameo appearance of his character and he granted it. Scenes where Bugs Bunny and LeBron visit the worlds of Pokémon, The Wizard of Oz, The Iron Giant, Friends, The Flintstones, and Akira were planned, written and storyboarded, with concept art done by animation director Devin Crane and illustrator Joel Parod, but were cut from the final film. The Game of Thrones scene was originally longer, with concept art by David Álvarez, but was cut due to the series ending its run around that time. Sylvester Jr. was planned to appear in the film as part of the Tune Squad, but was cut. The film's trailer revealed that Elmer Fudd and Yosemite Sam would be allowed to appear with their trademark guns in the film; since HBO Max's Looney Tunes Cartoons, a temporary ban had been enacted to not depict firearms due to mass shootings and gun violence in the United States.
+
 In March 2020, photos taken on set and a brief recording of the wrap party were leaked online, revealing that the film would feature characters from other Warner-owned properties. In May 2020, James officially revealed the title and logo of the film, as Space Jam: A New Legacy. Don Cheadle stated that LeBron had an injury he suffered during production, while the filmmakers had a rigorous schedule and shot 14 hours a day.
 
 Animation and visual effects
+
 Both visual effects and computer animation for the Looney Tunes characters were provided by Lucasfilm's visual effects division, Industrial Light & Magic (ILM). This is the second collaboration with the Looney Tunes in using ILM for visual effects since Who Framed Roger Rabbit (1988). While the 2D animation was provided by Company 3 Animation, and Tonic DNA, who previously worked with Warner Brothers on Looney Tunes Cartoons, additional CGI effects were also provided by Luma and Cinesite, who previously provided them in the first Space Jam.
+
 In January 2020, veteran Walt Disney Animation Studios animators Mark Henn, Tony Bancroft, and the latter's brother Tom were hired by Warner Animation Group to work on the film. In March 2020, James announced that work on the film's animation had commenced, while also revealing that the production had largely been unaffected by the COVID-19 pandemic as most of the remaining work involved animation. That same month, Brandt was hired back on to the project as animation director while Cervone was also hired back on to work in the film's animation department. Director Malcolm D. Lee also learned a lot of experience working on animation from Brandt, like harkening the Looney Tunes' designs back to the ones he remembered, and their animated expressions.
+
 In July 2020, Dan Haskett, who has worked on the Looney Tunes franchise since 1979, was hired to work in the animation department as well. Matt Williames, who had not worked with Warner Bros. since Looney Tunes: Back in Action, started doing animation for the film in August of the same year. In May 2020, Ole Loken, who worked extensively on animation hit Klaus, announced that he would serve as an animator on the film.  The film includes both traditional and CG animation, making it the first film from Warner Animation Group to incorporate the former, which was for the most part tradigitally created with Toon Boom Animation's Harmony software.
 
 Music
+
 In January 2020, Hans Zimmer was announced as the composer for the film. By April of the same year, Kris Bowers was announced to be working with Zimmer as co-composers. However, in January 2021, it was officially confirmed that Bowers would receive solo credit. The soundtrack was released on July 9, 2021, and labeled by Republic Records and WaterTower Music featuring two lead singles: Lil Baby and Kirk Franklin's "We Win", and "Just for Me", by Saint Jhn featuring SZA. Other artists were also featured on the soundtrack, including John Legend, Lil Wayne, Saweetie, Jonas Brothers, 24kGoldn, Lil Uzi Vert, Chance the Rapper, Joyner Lucas, Big Freedia, G-Eazy, and Kash Doll. 2 Unlimited's "Get Ready for This", one of the songs from the first film, is briefly heard in one scene with Al-G and Dom. "Sirius", an instrumental song by Alan Parsons Project that serves as the entrance anthem for the Chicago Bulls, is heard briefly when Sylvester brings Michael B. Jordan to the Tune Squad.
 
 Marketing
+
 The marketing campaign from Warner Bros. for Space Jam: A New Legacy began on July 31, 2020, when a hat with the film's logo became available on the studio's shop website. In August, it was announced that Moose Toys made a deal with Warner Bros. to make merchandise for the film along with the 2021 live-action/animated Tom and Jerry hybrid film.
+
 On April 3, 2021, the first trailer was released, which revealed a number of references and characters who made cameos from franchises owned by Warner Bros. Jordan Hoffman from Vanity Fair compared the trailer to Disney's Tron franchise and fellow Warner Bros. film Ready Player One (2018). That same month, Hasbro also made a deal with Warner Bros. to make two Space Jam: A New Legacy versions of their board game properties Monopoly and Connect Four.
+
 That May, Warner Bros. partnered with over 200 brands worldwide to promote Space Jam: A New Legacy. Other promotional partners included Kraft Heinz, General Mills, Funko, Hallmark Cards, GameStop, Mattel, and Spalding. On June 9, Nike and Converse revealed their tie-in merchandise for the film, which included numerous footwear and sportswear. The film is also set to debut the new LeBron 19 shoes. The following day, Warner Bros. released another trailer for the film took the same effect as the first one, in addition to showing more focus on the Goon Squad (composed of avatars of various famous NBA players such as Klay Thompson, Anthony Davis, Damian Lillard, Diana Taurasi, Nneka Ogwumike), and Zendaya as Lola Bunny. Brianna Zigler of Paste remarked "The film looks like it might be fun in a turn-your-brain-off-and-enter-the-void sort of way". On June 29, DC Comics released a graphic novel adaption of the film.
+
 A tie-in video game developed by Digital Eclipse was released for Xbox One on July 1, and was initially exclusive to Xbox Game Pass for two weeks. The game's concept was designed by the winners of a contest by Warner Bros., in which fans could pitch ideas for an original Space Jam game. That same month, McDonald's launched its limited time campaign in the participating restaurants by including twelve toys free with the purchase of a Happy Meal, while Warner Bros. collaborated with Nifty's to release a collection of 91,000 limited-edition NFTs featuring characters from the movie including Bugs Bunny, Tweety, Porky Pig and LeBron James. A large amount of NFTs are planned to be released to balance rarity with broad accessibility, driving "engagement around the film for as many Space Jam fans as possible".
+
 The film was promoted with the third Teen Titans Go! movie, titled Teen Titans Go! See Space Jam, which aired on Cartoon Network on June 20, 2021.
 
 Release
+
 Theatrical and streaming
+
 Space Jam: A New Legacy was theatrically released by Warner Bros. Pictures in the United States on July 16, 2021. It was also simultaneously released on HBO Max, available for subscribers of the ad-free plan to view at no extra cost for one month. The film premiered in Los Angeles on July 12, 2021. In September 2020, SpringHill Company signed a four-year contract with Universal Pictures, making this their fourth and final independent production.
+
 Samba TV reported that 2.1 million U.S. households streamed the film in its opening weekend, one of the best totals for its AB Warner Bros./HBO Max day-in-date release, with Cleveland being the most-watching city. The film was watched in over 4.2 million U.S. households by the end of its first 30 days.
 
 Home media
+
 Warner Bros. Home Entertainment and Studio Distribution Services released Space Jam: A New Legacy on digital on September 3, 2021, and on Ultra HD Blu-ray, Blu-ray, and DVD on October 5.
 
 Reception
+
 Box office
+
 Space Jam: A New Legacy grossed $70.6 million in the United States and Canada, and $93.1 million in other territories, for a worldwide total of $163.7 million.
+
 In the United States and Canada, Space Jam: A New Legacy was released with Escape Room: Tournament of Champions on July 16, 2021, and was projected to gross $20 million from 3,950 theaters in its opening weekend. It made $13.1 million on its first day. The film debuted earning $31.1 million from 3,965 theaters, the best opening weekend for a family film and the second highest for a Warner Bros. film of the COVID-19 pandemic behind Godzilla vs. Kong ($31.6 million), and besting the original ($27.5 million without inflation). Its second weekend earnings dropped by 69% to $9.5 million; the steep decline was blamed in-part on the film's simultaneous digital release on HBO Max. It earned another $4.2 million on its third weekend.
 
 Critical response
+
 Space Jam: A New Legacy received negative reviews from critics. On Rotten Tomatoes, the film holds an approval rating of 25% based on 229 reviews with an average rating of 4.4/10. The site's critical consensus reads, "Despite LeBron James' best efforts to make a winning team out of the Tune Squad, Space Jam: A New Legacy trades the zany, meta-humor of its predecessor for a shameless and tired exercise in IP-driven branding." At Metacritic, it scored 36 out of 100 based on 46 critics, indicating "generally unfavorable reviews". Audiences polled by CinemaScore gave the film an average grade of "A−" on an A+ to F scale, the same as the first film, while PostTrak reported 78% of filmgoers gave it a positive score, with 58% saying they would definitely recommend it.
+
 The A.V. Club's A.A. Dowd gave it a "C−", stating that the film's comprehensiveness did "nothing", although it made misdirections which was subject to "glittering CGI trash heap of cameos, pat life lessons, and stale internet catchphrases." James Marsh gave the film 1 out of 5 stars and criticized its use of product placement, which he felt alienated supporters of the NBA and Looney Tunes. Calling it a "supposed family comedy...woefully devoid of laughs," Marsh concluded it fell just short of "asking audiences point blank to subscribe to HBO Max", and was ultimately "a vacuous and cynical experience that shoots far wide of the mark". In her 2.5 out of 5 star review, Wenlei Ma criticized the film for overtly promoting Warner Bros. IPs. Alonso Duralde of TheWrap said that the film "barely has jokes for the Looney Tunes, let alone the entire Warner Bros. cast of characters". Johnny Oleksinski of the New York Post gave it a 1 out of 4 rating and wrote, "In the pantheon of misguided sequels and reboots, A New Legacy is right up there with Paul Blart: Mall Cop 2 and Little Fockers."
+
 Hagan Osborne of FilmInk was more positive: "What is most thrilling about A New Legacy is the liveliness of the worlds created, with each destination carrying with it a varying style of animation that brings with it added freshness." Amy Nicholson of Variety said, "Space Jam: A New Legacy is chaotic, rainbow sprinkle-colored nonsense that, unlike the original, manages to hold together as a movie." Kristen Page-Kirby of The Washington Post gave the film 2 stars out of 4, saying: "There's no real reason for this sequel/tribute to the original 1996 film to exist, but now that it does, there's no reason to wish that it didn't", and added that the film "has just enough momentum, heart and spirit, even as it does both way too much and not quite enough ... If this is corporate synergy fired up to a terrifying new level, there's still enough heart at the movie's center to keep it from becoming all business." Korey Coleman and Martin Thomas of Double Toasted, the former of whom worked as an animator on the original Space Jam, both gave it a positive review. While they admitted the film felt like an advertisement for HBO Max, they praised the creative use of the characters and the acting, though they took issue with outdated references. Keith Hawkes of Parent Previews criticized the film cashing in on nostalgia for a classic franchise.
+
 Brian Lowry of CNN wrote: "The first Space Jam was hardly a classic, which should temper expectations. Yet even by that standard, this marketing-driven exercise too often plays like the Acme version of it." Simran Hans of The Guardian gave 2 out of 5 stars and wrote: "The sequel, on the other hand, seems to earnestly revel in the recyclable potential of the WB archive. Its elastic, mile-a-minute animated sequences insert Lola Bunny (Zendaya; wasted) into the world of Wonder Woman and send Tweety and Granny into The Matrix. James's natural charisma should allow the film to soar but he's bogged down by an avalanche of distracting cameos, from Gremlins to Game of Thrones." Mary Sollosi of Entertainment Weekly gave a D+ grade, saying: "Here's the thing about basketball: It is extremely watchable. Here's the thing about Space Jam: A New Legacy: It's not."
+
 Joe Pytka, the director of the original Space Jam, expressed his hatred towards the film upon its release. Among his complaints, Pytka compared LeBron James to Michael Jordan, who was arguably the most famous celebrity when the first film was released in comparison to James, criticized the story for not tying up emotionally to LeBron's life, felt the first film's cast and soundtrack were superior to the ones of A New Legacy and saw Bugs Bunny's role in the film as "heartbreaking". Pytka had earlier criticized Warner Bros.' decision to make a Space Jam sequel in 2016 back when Justin Lin was attached to direct, dismissing the notion as "ridiculous" despite working with LeBron James and Steph Curry, feeling that neither of them was a "transcendent figure" like Jordan.
 
 Accolades
@@ -111,4 +184,5 @@ In popular culture
 South Park co-creator Matt Stone said that if an episode was to be produced about the film industry's impact on American culture, "it would, for sure, be about Space Jam 2." The streaming specials South Park: Post COVID and South Park: Post COVID: The Return of COVID depict the film as a principal cause for society's collapse during the COVID-19 pandemic.
 
 Possible sequel
+
 Five days after the film's release, Lee expressed interest in making a third Space Jam film with Dwayne Johnson as the lead and focusing on wrestling instead of basketball.

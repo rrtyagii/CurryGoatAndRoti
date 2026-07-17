@@ -1,12 +1,10 @@
 Type-1 OWA operators are a set of aggregation operators that generalise the Yager's OWA (ordered weighted averaging) operators in the interest of aggregating fuzzy sets rather than crisp values in soft decision making and data mining.
+
 These operators provide a mathematical technique for directly aggregating uncertain information with uncertain weights via OWA mechanism in soft decision making and data mining, where these uncertain objects are modelled by fuzzy sets.
+
 The two definitions for type-1 OWA operators are based on Zadeh's Extension Principle and
 
-
-
         α
-
-
     {\displaystyle \alpha }
 
 -cuts of fuzzy sets. The two definitions lead to equivalent results.
@@ -15,60 +13,29 @@ Definitions
 Definition 1
 Let
 
-
-
         F
         (
         X
         )
-
-
     {\displaystyle F(X)}
-
  be the set of fuzzy sets with domain of discourse
-
-
-
         X
-
-
     {\displaystyle X}
 
 , a type-1 OWA operator is defined as follows:
+
 Given n linguistic weights
 
-
-
-
-
             {
-
-
                 W
-
                   i
-
-
-
             }
-
-
             i
             =
             1
-
-
             n
-
-
-
-
     {\displaystyle \left\{{W^{i}}\right\}_{i=1}^{n}}
-
  in the form of fuzzy sets defined on the domain of discourse
-
-
-
         U
         =
         [
@@ -76,23 +43,14 @@ Given n linguistic weights
         ,
         1
         ]
-
-
     {\displaystyle U=[0,1]}
 
 , a type-1 OWA operator is a mapping,
 
-
-
         Φ
-
-
     {\displaystyle \Phi }
 
 ,
-
-
-
 
         Φ
         :
@@ -112,253 +70,101 @@ Given n linguistic weights
         (
         X
         )
-
-
     {\displaystyle \Phi \colon F(X)\times \cdots \times F(X)\longrightarrow F(X)}
-
-
-
-
-
         (
-
           A
-
             1
-
-
         ,
         ⋯
         ,
-
           A
-
             n
-
-
         )
         ↦
         Y
-
-
     {\displaystyle (A^{1},\cdots ,A^{n})\mapsto Y}
-
 
 such that
 
-
-
-
-
           μ
-
             Y
-
-
         (
         y
         )
         =
-
-
             sup
-
-
-
                   ∑
-
                     k
                     =
                     1
-
-
                     n
-
-
-
-
-
-
                         w
                         ¯
-
-
-
-
                     i
-
-
-
                   a
-
                     σ
                     (
                     i
                     )
-
-
                 =
                 y
-
-
-
-
             (
-
-
-
-
-
                       μ
-
-
                           W
-
                             1
-
-
-
-
                     (
-
                       w
-
                         1
-
-
                     )
                     ∧
                     ⋯
                     ∧
-
                       μ
-
-
                           W
-
                             n
-
-
-
-
                     (
-
                       w
-
                         n
-
-
                     )
                     ∧
-
                       μ
-
-
                           A
-
                             1
-
-
-
-
                     (
-
                       a
-
                         1
-
-
                     )
                     ∧
                     ⋯
                     ∧
-
                       μ
-
-
                           A
-
                             n
-
-
-
-
                     (
-
                       a
-
                         n
-
-
                     )
-
-
-
-
             )
-
-
-
-
     {\displaystyle \mu _{Y}(y)=\displaystyle \sup _{\displaystyle \sum _{k=1}^{n}{\bar {w}}_{i}a_{\sigma (i)}=y}\left({\begin{array}{*{1}l}\mu _{W^{1}}(w_{1})\wedge \cdots \wedge \mu _{W^{n}}(w_{n})\wedge \mu _{A^{1}}(a_{1})\wedge \cdots \wedge \mu _{A^{n}}(a_{n})\end{array}}\right)}
-
 
 where
 
-
-
-
-
-
-
                 w
                 ¯
-
-
-
-
             i
-
-
         =
-
-
-
               w
-
                 i
-
-
-
-
                 ∑
-
                   i
                   =
                   1
-
-
                   n
-
-
-
-
                   w
-
                     i
-
-
-
-
-
-
-
-
     {\displaystyle {\bar {w}}_{i}={\frac {w_{i}}{\sum _{i=1}^{n}{w_{i}}}}}
 
 , and
-
-
 
         σ
         :
@@ -377,37 +183,22 @@ where
         ,
         n
         }
-
-
     {\displaystyle \sigma \colon \{1,\cdots ,n\}\longrightarrow \{1,\cdots ,n\}}
-
  is a permutation function such that
-
-
-
-
           a
-
             σ
             (
             i
             )
-
-
         ≥
-
           a
-
             σ
             (
             i
             +
             1
             )
-
-
         ,
-
         ∀
         i
         =
@@ -418,361 +209,158 @@ where
         n
         −
         1
-
-
     {\displaystyle a_{\sigma (i)}\geq a_{\sigma (i+1)},\ \forall i=1,\cdots ,n-1}
 
 , i.e.,
 
-
-
-
           a
-
             σ
             (
             i
             )
-
-
-
-
     {\displaystyle a_{\sigma (i)}}
-
  is the
-
-
-
         i
-
-
     {\displaystyle i}
 
 th highest element in the set
 
-
-
-
           {
-
-
               a
-
                 1
-
-
             ,
             ⋯
             ,
-
               a
-
                 n
-
-
-
           }
-
-
-
     {\displaystyle \left\{{a_{1},\cdots ,a_{n}}\right\}}
 
 .
 
 Definition 2
+
 Using the alpha-cuts of fuzzy sets:
+
 Given the n linguistic weights
 
-
-
-
-
             {
-
-
                 W
-
                   i
-
-
-
             }
-
-
             i
             =
             1
-
-
             n
-
-
-
-
     {\displaystyle \left\{{W^{i}}\right\}_{i=1}^{n}}
-
  in the form of fuzzy sets defined on the domain of discourse
-
-
-
         U
         =
         [
         0
         ,
-
-
         1
         ]
-
-
     {\displaystyle U=[0,\;\;1]}
 
 , then for each
-
-
 
         α
         ∈
         [
         0
         ,
-
         1
         ]
-
-
     {\displaystyle \alpha \in [0,\;1]}
 
 , an
 
-
-
         α
-
-
     {\displaystyle \alpha }
 
 -level type-1 OWA operator with
 
-
-
         α
-
-
     {\displaystyle \alpha }
 
 -level sets
 
-
-
-
-
             {
-
-
                 W
-
                   α
-
-
                   i
-
-
-
             }
-
-
             i
             =
             1
-
-
             n
-
-
-
-
     {\displaystyle \left\{{W_{\alpha }^{i}}\right\}_{i=1}^{n}}
-
  to aggregate the
-
-
-
         α
-
-
     {\displaystyle \alpha }
 
 -cuts of fuzzy sets
 
-
-
-
-
             {
-
-
                 A
-
                   i
-
-
-
             }
-
-
             i
             =
             1
-
-
             n
-
-
-
-
     {\displaystyle \left\{{A^{i}}\right\}_{i=1}^{n}}
-
  is:
-
-
-
-
-
           Φ
-
             α
-
-
-
           (
-
-
               A
-
                 α
-
-
                 1
-
-
             ,
             …
             ,
-
               A
-
                 α
-
-
                 n
-
-
-
           )
-
         =
-
           {
-
-
-
-
-
                     ∑
-
                       i
                       =
                       1
-
-
                       n
-
-
-
-
                       w
-
                         i
-
-
-
                       a
-
                         σ
                         (
                         i
                         )
-
-
-
-
-
-
                     ∑
-
                       i
                       =
                       1
-
-
                       n
-
-
-
-
                       w
-
                         i
-
-
-
-
-
-
-
               |
-
-
                   w
-
                     i
-
-
                 ∈
-
                   W
-
                     α
-
-
                     i
-
-
                 ,
-
-
                   a
-
                     i
-
-
-
-
-
             ∈
-
               A
-
                 α
-
-
                 i
-
-
             ,
-
             i
             =
             1
@@ -780,44 +368,21 @@ Given the n linguistic weights
             …
             ,
             n
-
           }
-
-
-
     {\displaystyle \Phi _{\alpha }\left({A_{\alpha }^{1},\ldots ,A_{\alpha }^{n}}\right)=\left\{{{\frac {\sum \limits _{i=1}^{n}{w_{i}a_{\sigma (i)}}}{\sum \limits _{i=1}^{n}{w_{i}}}}\left|{w_{i}\in W_{\alpha }^{i},\;a_{i}}\right.\in A_{\alpha }^{i},\;i=1,\ldots ,n}\right\}}
-
 
 where
 
-
-
-
           W
-
             α
-
-
             i
-
-
         =
         {
         w
-
           |
-
-
           μ
-
-
               W
-
                 i
-
-
-
-
         (
         w
         )
@@ -825,100 +390,60 @@ where
         α
         }
         ,
-
           A
-
             α
-
-
             i
-
-
         =
         {
         x
-
           |
-
-
           μ
-
-
               A
-
                 i
-
-
-
-
         (
         x
         )
         ≥
         α
         }
-
-
     {\displaystyle W_{\alpha }^{i}=\{w|\mu _{W_{i}}(w)\geq \alpha \},A_{\alpha }^{i}=\{x|\mu _{A_{i}}(x)\geq \alpha \}}
 
 , and
 
-
-
         σ
         :
         {
-
         1
         ,
         ⋯
         ,
         n
-
         }
         →
         {
-
         1
         ,
         ⋯
         ,
         n
-
         }
-
-
     {\displaystyle \sigma :\{\;1,\cdots ,n\;\}\to \{\;1,\cdots ,n\;\}}
-
  is a permutation function such that
-
-
-
-
           a
-
             σ
             (
             i
             )
-
-
         ≥
-
           a
-
             σ
             (
             i
             +
             1
             )
-
-
         ,
-
         ∀
-
         i
         =
         1
@@ -928,658 +453,287 @@ where
         n
         −
         1
-
-
     {\displaystyle a_{\sigma (i)}\geq a_{\sigma (i+1)},\;\forall \;i=1,\cdots ,n-1}
 
 , i.e.,
 
-
-
-
           a
-
             σ
             (
             i
             )
-
-
-
-
     {\displaystyle a_{\sigma (i)}}
-
  is the
-
-
-
         i
-
-
     {\displaystyle i}
 
 th largest element in the set
 
-
-
-
           {
-
-
               a
-
                 1
-
-
             ,
             ⋯
             ,
-
               a
-
                 n
-
-
-
           }
-
-
-
     {\displaystyle \left\{{a_{1},\cdots ,a_{n}}\right\}}
 
 .
 
 Representation theorem of Type-1 OWA operators
+
 Given the n linguistic weights
 
-
-
-
-
             {
-
-
                 W
-
                   i
-
-
-
             }
-
-
             i
             =
             1
-
-
             n
-
-
-
-
     {\displaystyle \left\{{W^{i}}\right\}_{i=1}^{n}}
-
  in the form of fuzzy sets defined on the domain of discourse
-
-
-
         U
         =
         [
         0
         ,
-
-
         1
         ]
-
-
     {\displaystyle U=[0,\;\;1]}
 
 , and the fuzzy sets
 
-
-
-
           A
-
             1
-
-
         ,
         ⋯
         ,
-
           A
-
             n
-
-
-
-
     {\displaystyle A^{1},\cdots ,A^{n}}
 
 , then we have that
 
-
-
-
         Y
         =
         G
-
-
     {\displaystyle Y=G}
-
 
 where
 
-
-
         Y
-
-
     {\displaystyle Y}
-
  is the aggregation result obtained by Definition 1, and
-
-
-
         G
-
-
     {\displaystyle G}
-
  is the result obtained by in Definition 2.
 
 Programming problems for Type-1 OWA operators
+
 According to the Representation Theorem of Type-1 OWA Operators, a general type-1 OWA operator can be decomposed into a series of
 
-
-
         α
-
-
     {\displaystyle \alpha }
 
 -level type-1 OWA operators. In practice, this series of
 
-
-
         α
-
-
     {\displaystyle \alpha }
 
 -level type-1 OWA operators is used to construct the resulting aggregation fuzzy set. So we only need to compute the left end-points and right end-points of the intervals
 
-
-
-
           Φ
-
             α
-
-
-
           (
-
-
               A
-
                 α
-
-
                 1
-
-
             ,
             ⋯
             ,
-
               A
-
                 α
-
-
                 n
-
-
-
           )
-
-
-
     {\displaystyle \Phi _{\alpha }\left({A_{\alpha }^{1},\cdots ,A_{\alpha }^{n}}\right)}
 
 . Then, the resulting aggregation fuzzy set is constructed with the membership function as follows:
 
-
-
-
-
           μ
-
             G
-
-
         (
         x
         )
         =
-
-
             ⋁
-
-
             α
             :
             x
             ∈
-
               Φ
-
                 α
-
-
-
-
                 (
-
-
                     A
-
                       α
-
-
                       1
-
-
                   ,
                   ⋯
                   ,
-
                     A
-
                       α
-
-
                       n
-
-
-
                 )
-
-
                 α
-
-
-
-
         ⁡
         α
-
-
     {\displaystyle \mu _{G}(x)=\operatorname {\bigvee } \limits _{\alpha :x\in \Phi _{\alpha }\left({A_{\alpha }^{1},\cdots ,A_{\alpha }^{n}}\right)_{\alpha }}\alpha }
-
 
 For the left end-points, we need to solve the following programming problem:
 
-
-
-
-
           Φ
-
             α
-
-
-
-
             (
-
-
                 A
-
                   α
-
-
                   1
-
-
               ,
               ⋯
               ,
-
                 A
-
                   α
-
-
                   n
-
-
-
             )
-
-
             −
-
-
         =
-
-
             min
-
-
-
-
-
-
                     W
-
                       α
                       −
-
-
                       i
-
-
                   ≤
-
                     w
-
                       i
-
-
                   ≤
-
                     W
-
                       α
                       +
-
-
                       i
-
-
-
                     A
-
                       α
                       −
-
-
                       i
-
-
                   ≤
-
                     a
-
                       i
-
-
                   ≤
-
                     A
-
                       α
                       +
-
-
                       i
-
-
-
-
-
-
-
         ⁡
-
           ∑
-
             i
             =
             1
-
-
             n
-
-
-
-
             w
-
               i
-
-
-
             a
-
               σ
               (
               i
               )
-
-
-
             /
-
-
             ∑
-
               i
               =
               1
-
-
               n
-
-
-
-
               w
-
                 i
-
-
-
-
-
-
     {\displaystyle \Phi _{\alpha }\left({A_{\alpha }^{1},\cdots ,A_{\alpha }^{n}}\right)_{-}=\operatorname {\min } \limits _{\begin{array}{l}W_{\alpha -}^{i}\leq w_{i}\leq W_{\alpha +}^{i}A_{\alpha -}^{i}\leq a_{i}\leq A_{\alpha +}^{i}\end{array}}\sum \limits _{i=1}^{n}{w_{i}a_{\sigma (i)}/\sum \limits _{i=1}^{n}{w_{i}}}}
-
 
 while for the right end-points, we need to solve the following programming problem:
 
-
-
-
-
           Φ
-
             α
-
-
-
-
             (
-
-
                 A
-
                   α
-
-
                   1
-
-
               ,
               ⋯
               ,
-
                 A
-
                   α
-
-
                   n
-
-
-
             )
-
-
             +
-
-
         =
-
-
             max
-
-
-
-
-
-
                     W
-
                       α
                       −
-
-
                       i
-
-
                   ≤
-
                     w
-
                       i
-
-
                   ≤
-
                     W
-
                       α
                       +
-
-
                       i
-
-
-
                     A
-
                       α
                       −
-
-
                       i
-
-
                   ≤
-
                     a
-
                       i
-
-
                   ≤
-
                     A
-
                       α
                       +
-
-
                       i
-
-
-
-
-
-
-
         ⁡
-
           ∑
-
             i
             =
             1
-
-
             n
-
-
-
-
             w
-
               i
-
-
-
             a
-
               σ
               (
               i
               )
-
-
-
             /
-
-
             ∑
-
               i
               =
               1
-
-
               n
-
-
-
-
               w
-
                 i
-
-
-
-
-
-
     {\displaystyle \Phi _{\alpha }\left({A_{\alpha }^{1},\cdots ,A_{\alpha }^{n}}\right)_{+}=\operatorname {\max } \limits _{\begin{array}{l}W_{\alpha -}^{i}\leq w_{i}\leq W_{\alpha +}^{i}A_{\alpha -}^{i}\leq a_{i}\leq A_{\alpha +}^{i}\end{array}}\sum \limits _{i=1}^{n}{w_{i}a_{\sigma (i)}/\sum \limits _{i=1}^{n}{w_{i}}}}
-
 
 A fast method has been presented to solve two programming problem so that the type-1 OWA aggregation operation can be performed efficiently, for details, please see the paper.
 
 Alpha-level approach to Type-1 OWA operation
+
 Three-step process:
 
 Step 1—To set up the
 
-
-
         α
-
-
     {\displaystyle \alpha }
-
 - level resolution in [0, 1].
 Step 2—For each
-
-
 
         α
         ∈
@@ -1588,438 +742,214 @@ Step 2—For each
         ,
         1
         ]
-
-
     {\displaystyle \alpha \in [0,1]}
 
 ,
 Step 2.1—To calculate
 
-
-
-
           ρ
-
             α
             +
-
-
-
               i
-
                 0
-
-
                 ∗
-
-
-
-
-
-
     {\displaystyle \rho _{\alpha +}^{i_{0}^{\ast }}}
-
 
 Let
 
-
-
-
           i
-
             0
-
-
         =
         1
-
-
     {\displaystyle i_{0}=1}
 
 ;
 If
 
-
-
-
           ρ
-
             α
             +
-
-
-
               i
-
                 0
-
-
-
-
         ≥
-
           A
-
             α
             +
-
-
             σ
             (
-
               i
-
                 0
-
-
             )
-
-
-
-
     {\displaystyle \rho _{\alpha +}^{i_{0}}\geq A_{\alpha +}^{\sigma (i_{0})}}
 
 , stop,
 
-
-
-
           ρ
-
             α
             +
-
-
-
               i
-
                 0
-
-
-
-
-
-
     {\displaystyle \rho _{\alpha +}^{i_{0}}}
-
  is the solution; otherwise go to Step 2.1-3.
-
-
-
-
-
           i
-
             0
-
-
         ←
-
           i
-
             0
-
-
         +
         1
-
-
     {\displaystyle i_{0}\leftarrow i_{0}+1}
 
 , go to Step 2.1-2.
+
 Step 2.2 To calculate
 
-
-
-
           ρ
-
             α
             −
-
-
-
               i
-
                 0
-
-
                 ∗
-
-
-
-
-
-
     {\displaystyle \rho _{\alpha -}^{i_{0}^{\ast }}}
-
 
 Let
 
-
-
-
           i
-
             0
-
-
         =
         1
-
-
     {\displaystyle i_{0}=1}
 
 ;
 If
 
-
-
-
           ρ
-
             α
             −
-
-
-
               i
-
                 0
-
-
-
-
         ≥
-
           A
-
             α
             −
-
-
             σ
             (
-
               i
-
                 0
-
-
             )
-
-
-
-
     {\displaystyle \rho _{\alpha -}^{i_{0}}\geq A_{\alpha -}^{\sigma (i_{0})}}
 
 , stop,
 
-
-
-
           ρ
-
             α
             −
-
-
-
               i
-
                 0
-
-
-
-
-
-
     {\displaystyle \rho _{\alpha -}^{i_{0}}}
-
  is the solution; otherwise go to Step 2.2-3.
-
-
-
-
-
           i
-
             0
-
-
         ←
-
           i
-
             0
-
-
         +
         1
-
-
     {\displaystyle i_{0}\leftarrow i_{0}+1}
 
 , go to step Step 2.2-2.
+
 Step 3—To construct the aggregation resulting fuzzy set
 
-
-
         G
-
-
     {\displaystyle G}
-
  based on all the available intervals
-
-
-
-
           [
-
-
               ρ
-
                 α
                 −
-
-
-
                   i
-
                     0
-
-
                     ∗
-
-
-
-
             ,
-
-
               ρ
-
                 α
                 +
-
-
-
                   i
-
                     0
-
-
                     ∗
-
-
-
-
-
           ]
-
-
-
     {\displaystyle \left[{\rho _{\alpha -}^{i_{0}^{\ast }},\;\rho _{\alpha +}^{i_{0}^{\ast }}}\right]}
 
 :
 
-
-
-
-
           μ
-
             G
-
-
         (
         x
         )
         =
-
-
             ⋁
-
-
             α
             :
             x
             ∈
-
               [
-
-
                   ρ
-
                     α
                     −
-
-
-
                       i
-
                         0
-
-
                         ∗
-
-
-
-
                 ,
-
-
                   ρ
-
                     α
                     +
-
-
-
                       i
-
                         0
-
-
                         ∗
-
-
-
-
-
               ]
-
-
-
         ⁡
         α
-
-
     {\displaystyle \mu _{G}(x)=\operatorname {\bigvee } \limits _{\alpha :x\in \left[{\rho _{\alpha -}^{i_{0}^{\ast }},\;\rho _{\alpha +}^{i_{0}^{\ast }}}\right]}\alpha }
 
 Some Examples
+
 The type-1 OWA operator with the weights shown in the top figure is used to aggregate the fuzzy sets (solide lines) in the bottom figure, and the dashed line is the aggregation result.
 
 Special cases
+
 Any OWA operators, like maximum, minimum, mean operators;
+
 Join operators of (type-1) fuzzy sets, i.e., fuzzy maximum operators;
+
 Meet operators of (type-1) fuzzy sets, i.e., fuzzy minimum operators;
+
 Join-like operators of (type-1) fuzzy sets;
+
 Meet-like operators of (type-1) fuzzy sets.
 
 Generalizations
 Type-2 OWA operators have been suggested to aggregate the type-2 fuzzy sets for soft decision making.
 
 Applications
+
 Type-1 OWA operators have been applied to different domains for soft decision making.
 
 Improved efficiency of computing approach ;
+
 Type reduction of type-2 fuzzy sets ;
+
 Group decision making ;
+
 Credit risk evaluation ;
+
 Information fusion ;
+
 Linguistic expressions and symbolic translation ;
+
 Sentiment analysis ;
+
 Route selection in uncertain environments ;
+
 Recommendations on eCommerce .

@@ -1,13 +1,20 @@
 Translate is a translation app developed by Apple for their iOS, iPadOS and watchOS devices. Introduced on June 22, 2020, it functions as a service for translating text sentences or speech between several languages and was officially released on September 16, 2020, along with iOS 14.
+
 All translations are processed through the neural engine of the device, and as such can be used offline. It can also leverage Apple's specialized hardware to deliver real-time voice translation through headphones.
 
 History
+
 On June 7, 2021, Apple announced that the app would be available on iPad models running iPadOS 15, as well as Macs running macOS Monterey alongside other system-wide translation features. The app was officially released for iPad models on September 20, 2021, along with iPadOS 15. With watchOS 11 Apple introduced the Translate app to the Apple Watch.
+
 On June 6, 2022, Apple announced six new languages, Turkish, Indonesian, Polish, Dutch, Thai and Vietnamese. The six new languages work on iPhone 8 or later, iPhone 8 Plus or later, iPhone X or later, iPhone SE (2nd generation) or later, iPad Air (3rd generation) or later, all iPad Pro models, iPad Mini (5th generation) or later and iPad (5th generation) or later. The Turkish, Indonesian, Polish, Dutch and Thai languages were added to the app on June 22, 2022, the second anniversary of the announcement of the app. The Vietnamese language was added to the app on July 27, 2022.
 iOS 16 introduced the ability to translate text through the camera, allowing users to translate text on objects or physical documents in real-time.
+
 On June 5, 2023, the new Ukrainian language was added to the app. The new language works on iPhone Xs or later, iPhone SE (2nd generation) or later, iPad Air (3rd generation) or later, iPad Pro (2nd generation) or later, iPad Mini (5th generation) or later and iPad (6th generation) or later.
+
 On June 10, 2024, the new Hindi language was added to the app. The new language works on iPhone Xs or later, iPhone SE (2nd generation) or later, iPad Air (3rd generation) or later, iPad Pro (3rd generation) or later, iPad Mini (5th generation) or later and iPad (7th generation) or later.
 
 Languages
+
 Translate originally supported the translation between the UK (British) and US (American) dialects of English, Arabic, Mandarin Chinese, French, German, the European dialect of Spanish, Italian, Japanese, Korean, the Brazilian dialect of Portuguese and Russian. This grew to 17 languages as six new languages - Turkish, Indonesian, Polish, Dutch, Thai and Vietnamese, were added in 2022. Support for Ukrainian was added with iOS 17, bringing the number of supported languages to 18, and then Hindi with iOS 18, bringing the number of supported languages to 19.
+
 All languages support dictation and can be downloaded for offline use.

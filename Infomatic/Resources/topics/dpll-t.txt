@@ -1,2 +1,3 @@
 In computer science, DPLL(T) is a framework for determining the satisfiability of SMT problems. The algorithm extends the original SAT-solving DPLL algorithm with the ability to reason about an arbitrary theory T. At a high level, the algorithm works by transforming an SMT problem into a SAT formula where atoms are replaced with Boolean variables. The algorithm repeatedly finds a satisfying valuation for the SAT problem, consults a theory solver to check consistency under the domain-specific theory, and then (if a contradiction is found) refines the SAT formula with this information.
+
 Many modern SMT solvers, such as Microsoft's Z3 Theorem Prover and CVC4, use DPLL(T) to power their core solving capabilities.

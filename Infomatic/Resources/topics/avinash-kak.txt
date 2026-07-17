@@ -1,19 +1,26 @@
 Avinash C. Kak (born 1944) is an Indian-American computer scientist and professor of Electrical and Computer Engineering at Purdue University who has conducted pioneering research in several areas of information processing. His most noteworthy contributions deal with algorithms, languages, and systems related to networks (including sensor networks), robotics, and computer vision. Born in Srinagar, Kashmir he did his bachelor's degree at University of Madras and PhD at Indian Institute of Technology Delhi. He joined the faculty of Purdue University in 1971.
 
 Robotics and computer vision
+
 His contributions include the 3D-POLY, which is the fastest algorithm for recognizing 3D objects in depth maps. In 1992, Kosaka and Kak published FINALE, which is considered to be a computationally efficient and highly robust approach to vision-based navigation by indoor mobile robots. In 2003, a group of researchers that included Kak developed a tool for content-based image retrieval that was demonstrated by clinical trials to improve the performance of radiologists. This remains the only clinically evaluated system for content-based image retrieval for radiologists. His book Digital Picture Processing, co-authored with Azriel Rosenfeld, is also considered a classic and has been one of the most widely referenced sources in literature dealing with digital image processing and computer vision.
 
 Image reconstruction algorithms
+
 The SART algorithm (Simultaneous Algebraic Reconstruction Technique) proposed by Andersen and Kak in 1984 has had a major impact in CT imaging applications where the projection data is limited.  As a measure of its popularity, researchers have proposed various extensions to
 SART: OS-SART, FA-SART, VW-OS-SART, SARTF, etc. Researchers have also studied how SART can best be implemented on different parallel processing architectures. SART and its proposed extensions are used in emission CT in nuclear medicine, dynamic CT, and holographic tomography, and other reconstruction applications.  Convergence of the SART algorithm was theoretically established in 2004 by Jiang and Wang. His book Principles of Computerized Tomographic Imaging, now re-published as a classic in applied mathematics by SIAM (Society of Industrial and Applied Mathematics), is widely used in courses dealing with modern medical imaging.  It is one of the most frequently cited books in the literature on image reconstruction.
 
 Software engineering and open source
+
 The three books written by Kak in the course of his 17-year-long Objects Trilogy Project cover object-oriented programming, object-oriented scripting, and object-oriented design.  The first of these, Programming with Objects, presents a comparative approach to the teaching and learning of two large object-oriented languages, C++ and Java.  This book is now used in several universities for teaching object-oriented programming with C++ and Java simultaneously. The second book, Scripting with Objects does the same with Perl and Python.  The last book of the trilogy is Designing with Objects. Regarding the teaching of programming languages in universities, Kak is critical of programs that start the students off with relatively easier-to-learn languages like Java.
+
 Over the years, Kak has also contributed to several open-source projects.
+
 The software modules developed through these projects are widely used for data analytics and computer security. In addition, during the last decade, Kak has collaborated with people in industry and developed metrics for measuring the quality of large software systems and the usability of APIs (Application Programming Interfaces).
 
 Computer and network security
+
 In computer security research together with Padmini Jaikumar, he presented a solution to the difficult problem of botnet detection in computer networks. He has authored popular online lecture notes that are updated regularly. These notes provide comprehensive overview of computer and network security.
 
 Personal life
+
 He has a brother, Subhash Kak a computer scientist and sister, Jaishree Odin who is a literary theorist. Kak is not a believer in Strong AI as suggested in his essay Why Robots Will Never Have.

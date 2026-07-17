@@ -1,18 +1,26 @@
 Carla Pedro Gomes is a Portuguese-American computer scientist and professor at Cornell University. She is the founding Director of the Institute for Computational Sustainability and is noted for her pioneering work in developing computational methods to address challenges in sustainability. She has conducted research in a variety of areas of artificial intelligence and computer science, including constraint reasoning, mathematical optimization, and randomization techniques for exact search methods, algorithm selection, multi-agent systems, and game theory. Her work in computational sustainability includes ecological conservation, rural resource mapping, and pattern recognition for material science.
 
 Education
+
 Gomes received her master's degree in applied mathematics from the Technical University of Lisbon in 1987 and her PhD in computer science from the University of Edinburgh in 1993.
 
 Career and research
+
 Following her PhD, she worked at the Air Force Research Laboratory for five years before joining Cornell University as a research associate in 1998. She served as the Director of the Intelligent Information Systems Institute at Cornell from 2001 to 2008, and joined the faculty in 2003 as an associate professor with joint appointments in the Departments of Computing and Information Science, Applied Economics and Management, and Computer Science.
+
 In 2008, Gomes received a $10 million grant from the National Science Foundation to create the Institute for Computational Sustainability to develop computational methods for environmental, economic, and social sustainability. She became a full professor in the Departments of Computer Science, Information Science and the Dyson School of Economics and Management in 2010.
+
 In 2011, she was a visiting fellow at the Radcliffe Institute for Advanced Study. In 2022, she co-leads the Schmidt AI in Science initiative at Cornell with Fengqi You.
 
 Awards and honors
+
 Gomes was elected a Fellow of the Association for the Advancement of Artificial Intelligence in 2007 "for significant contributions to constraint reasoning and the integration of techniques from artificial intelligence, constraint programming, and operations research".
+
 She was elected a Fellow of the American Association for the Advancement of Science in 2013.
 With Bart Selman and Henry Kautz, she received the 2016 Association for the Advancement of Artificial Intelligence Classic Paper Award for their 1998 paper Boosting Combinatorial Search through Randomization, which provided "significant contributions to the area of automated reasoning and constraint solving through the introduction of randomization and restarts into complete solvers".
+
 She was elected a Fellow of the Association for Computing Machinery (ACM) in 2017.
 
 Notable works
+
 Gomes, Carla P. (15 December 2009). "Computational Sustainability: Computational Methods for a Sustainable Environment, Economy, and Society". Bridge on Frontiers of Engineering. 39 (4). National Academy of Engineering.

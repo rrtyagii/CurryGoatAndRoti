@@ -1,40 +1,60 @@
 iFlytek (Chinese: 科大讯飞; pinyin: Kēdà Xùnfēi), styled as iFLYTEK, is a partially state-owned Chinese information technology company established in 1999. It creates voice recognition software and 10+ voice-based internet/mobile products covering education, communication, music, intelligent toys industries. State-owned enterprise China Mobile is the company's largest shareholder. The company is listed in the Shenzhen Stock Exchange and it is backed by several state-owned investment funds.
+
 The company was spun off from University of Science and Technology of China. The city of Hefei is a major investor in iFlytek. The company has faced accusations from human rights groups and the United States government of involvement in mass surveillance.
 
 History
+
 Liu Qingfeng, who was then a Ph.D. student in the University of Science and Technology of China, started a voice computing company, iFlytek in 1999. Liu and his colleagues were operating the company at the USTC campus until they decided to moved it in Heifei. He also presented his business concept to then head of Microsoft Research Asia, Kai-Fu Lee, who warned Liu of competing to American advancements in speech recognition.
 iFlytek would later work under the telecommunications company Huawei. In 2008, the company went public. In 2010, they launch their major consumer product, the iFlytek Input.
+
 In 2017, Human Rights Watch reported the Chinese government had collected tens of thousands of voice samples, for use with iFlytek technology that identifies individuals by voice on phone calls or in public places.
+
 In 2018, iFlytek signed a five-year collaboration agreement with the MIT Computer Science and Artificial Intelligence Laboratory. In 2020, the agreement was terminated due to concerns about human rights abuses of Uyghurs in Xinjiang.
+
 China's government designated iFlytek as one of its "AI champions" in 2018.
+
 In 2019, the company won the Applicative Award for its iFlytek translation system with the Super AI Leader award at the World Artificial Intelligence Conference held in Shanghai.
+
 In October 2023, the stock value of iFlytek fell after its AI-powered devices were reported to have criticized Mao Zedong.
+
 In 2024, iFlytek introduced the AI platform SparkGen, an automated video creation tool. That same year in June 2024 during the unveiling of its Xinghuo 4 large language model (LLM), founder Liu Qingfeng admits that due to U.S. restrictions such as those of U.S. components used in computing platforms, the company will pursue to train its LLMs on "self-developed, controllable" infrastructure. The company stated that their LLMs were trained completely using Huawei's computing platform.
+
 In July 2024, iFlytek established its global headquarters in Hong Kong. Along with the opening of its international headquarters, the company also unveiled its five-year HK$400 million (US$51.2 million) investment plan. In April 2025, iFlytek released Xinghuo X1, a large language model worked on by both iFlytek and Huawei.
 
 Products and services
+
 Voice speech and recognition systems
+
 One of the company's major product was the iFlytek Input released in 2010. It was one of the early counterparts of Apple's Siri, Microsoft's Cortana, and Google Assistant in China. Later versions of Input allowed translations for face-to-face conversations and closed-captioning for phone calls in 23 Chinese dialects.
+
 In terms of research and development in speech recognition, iFlytek showcased during a 2017 visit of U.S. President Donald Trump to Beijing, that their technology can identify and record an individual's voice in a crowded environment.
 
 iFlytek Spark
 iFlytek Spark (Chinese: 讯飞星火), also known as iFLYTEK Spark Desk, is a large language model developed by iFlytek. iFlytek Spark was first unveiled in May 2023 and was released in September 2023 after the Chinese government's approval.
 
 History
+
 On May 6, 2023, iFlytek CEO Liu Qingfeng unveiled their AI model SparkDesk. The large language model was developed based on Huawei's AI chip, Ascend. It was then updated to SparkDesk 2.0 in August 2023 and SparkDesk 3.0 in October 2023.
+
 AI devices powered by Spark AI received backlash in October 2023 after photos were shared in Baidu's Baijiahao of the generative AI criticizing Chairman Mao Zedong. As a result, the company's shares plunged by 10 percent.
+
 In January 2024, iFlytek upgraded their model to iFlytek SparkDesk 3.5. On 15 August 2024, iFlyTek introduced Spark 4.0, which the company benchmarked against OpenAI's GPT-4 Turbo.
 
 Xinghuo large language model
+
 The Xinghuo large language model is a large language model developed by iFlytek in 2024 that solely relies on Huawei's computing platform due to US restrictions on advanced AI chips, particularly those from NVIDIA.
+
 In early 2025, iFlytek and Huawei collaborated to improve the performance of the Xinghuo X1 model by addressing China's domestic chip limitations. According to its chairman Liu Qingfeng, they managed to raise the efficiency of Huawei's Ascend 910B AI chip from 20% to nearly 80% of Nvidia's capabilities. However, Huawei's CEO Ren Zhengfei stated that their Ascend chips still lagged "by a generation." The Xinghuo X1 model is claimed to be the only large language powered by China's "domestic computing power" trained with 70 billion parameters.
 
 Partnerships
+
 iFlytek has partnerships with Japanese company Odelic, Malaysian company Simon, and U.S. company A.O. Smith. iFlytek also managed to build servers in Singapore, Dubai, and Frankfurt, Germany.
 
 Reception
 Chinese regulations
+
 In 2021, iFlytek, along with Chinese gaming company Tencent Holdings, received a notice for violation from the Ministry of Industry and Information Technology of China (MIIT) for not rectifiying privacy concerns.
 
 U.S. sanctions
+
 In October 2019, iFlytek was sanctioned by the United States for allegedly using its technology for mass surveillance and human rights abuses in Xinjiang.

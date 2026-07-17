@@ -1,16 +1,20 @@
 Quarter-pixel motion (also known as Q-pel motion or Qpel motion) refers to using a quarter of the distance between pixels (or luma sample positions) as the motion vector precision for motion estimation and motion compensation in video compression schemes. It is used in many modern video coding formats such as MPEG-4 ASP and H.264/AVC.  Though higher precision motion vectors take more bits to encode, they can sometimes result in more efficient compression overall, by increasing the quality of the prediction signal.
 
 Operation
+
 Video encoding software products such as Xvid, 3ivx, and DivX Pro Codec, which are based upon the MPEG-4 specification, use motion estimation algorithms to significantly improve video compression. The default level of resolution for motion estimation for most MPEG-4 ASP implementations is half a pixel, although quarter pixel is specified under the standard.  H.264 decoders always support quarter-pixel motion.  Quarter-pixel resolution can improve the quality of the video prediction signal as compared to half-pixel resolution, although the improvement may not always be enough to offset the increased bit cost of the quarter-pixel-precision motion vector; additional techniques such as rate-distortion optimization, which takes both quality and bit cost into account, are used to significantly improve the effectiveness of quarter-pel motion estimation.
 
 Interpolation methods
+
 Quarter-pixel motion compensation, much like half-pixel, is achieved through interpolation.  Different specific schemes are used in different designs:
 
 VC-1 uses bicubic interpolation.
 H.264/AVC uses a 6-tap filter for half-pixel interpolation and then simple linear interpolation to achieve quarter-pixel precision from the half-pixel data.
+
 HEVC uses separable 7-tap or 8-tap filtering.
 
 Hardware compatibility in MPEG-4 ASP
+
 Videos encoded with quarter-pixel precision motion vectors require up to twice as much processing power to encode, and 30-60% more processing power to decode.  As a result, to enable wider hardware compatibility, Qpel is disabled in the default DivX encoding profiles.  However, with newer stand-alone players supporting more complex formats such as VC-1 and H.264, Qpel support in MPEG-4 ASP has become more common.
 
 Video formats that support quarter-pixel motion compensation

@@ -1,7 +1,11 @@
 EN 17927, titled Security Evaluation Standard for IoT Platforms (SESIP), is a European Standard published in 2023 by the European Committee for Standardization (CEN) and European Committee for Electrotechnical Standardization (CENELEC).
+
 The standard provides a methodology for conducting cybersecurity evaluations of products and components within the Internet of Things (IoT) ecosystem. SESIP is listed as "one of the most relevant standards" by the European Union Agency for Cybersecurity (ENISA) for securing IoT supply chains.
 
 Overview
+
 EN 17927 defines a component-based evaluation framework tailored to IoT platforms based on the internationally recognized Common Criteria (ISO/IEC 15408). It introduces five levels of assurance—SESIP Levels 1 to 5—to support scalable security assessments depending on a product’s complexity and intended use.
+
 The SESIP methodology enables reusability of evaluation results, allowing developers to avoid repeating similar assessments across different product iterations or platforms, thereby supporting cost efficiency and faster time-to-market. The framework supports conformity assessment for multiple regulations, including the EU Cyber Resilience Act (CRA), the EU Radio Equipment Directive (RED), and global standards such as IEC 62443 and ISO/SAE 21434.
+
 The SESIP methodology is maintained and published by GlobalPlatform. Evaluations are conducted by 17025 licensed laboratories, and certificates are issued by authorized 17065 certification bodies under the SESIP certification scheme.

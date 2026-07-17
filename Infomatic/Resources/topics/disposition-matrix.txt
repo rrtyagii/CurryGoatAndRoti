@@ -1,41 +1,67 @@
 The Disposition Matrix, informally known as a kill list, is a database of information for tracking, capturing, rendering, or killing suspected enemies of the United States. Developed by the Obama administration beginning in 2010, it goes beyond existing kill lists and is intended to become a permanent fixture of U.S. policy. The process determining the criteria for killing is not public and was heavily shaped by national counterterrorism director and former Central Intelligence Agency (CIA) director John O. Brennan.
+
 Though White House, National Counterterrorism Center (NCTC), and CIA spokespeople have declined to comment on the database, officials have stated privately that kill lists will expand "for at least another decade", if not indefinitely. One official stated "it's a necessary part of what we do". Paul R. Pillar, the former deputy director of the CIA's counterterrorism center, has stated, "We are looking at something that is potentially indefinite".
+
 The database's existence was revealed in a three-part series published by The Washington Post.
 
 Purpose
+
 The creation of the Disposition Matrix database is part of an effort embraced by White House counterterrorism adviser John O. Brennan to codify the targeted killing policies developed by President Barack Obama. Under the George W. Bush administration, Brennan served as top aide to CIA director George Tenet, where he defended the administration's use of extraordinary rendition, enhanced interrogation, and torture by definition according to international standards. Brennan's association with the CIA's interrogation program was controversial and forced him to withdraw his candidacy for directorship of the CIA or National Intelligence in 2008.
+
 According to The New York Times, Brennan was the "principal coordinator" of U.S. kill lists. Former Obama administration counter-terrorism official Daniel Benjamin has stated that Brennan "probably had more power and influence than anyone in a comparable position in the last 20 years".
+
 The database's creation also accompanied an expansion of the drone fleet, turning the CIA into a "paramilitary force" according to The Washington Post. It is associated with increased Joint Special Operations Command (JSOC) operations in Africa, and increased JSOC involvement in forming kill lists. The database has unified originally separate but overlapping kill lists maintained by both JSOC and the CIA, and was originally proposed by former NCTC director Michael Leiter.
 
 Scope
+
 The Disposition Matrix database catalogues biographies, locations, associates, and affiliations of suspects. It also catalogues strategies for finding, capturing, or killing suspects, or subjecting them to extraordinary rendition. As of 2012, the database continued to direct U.S. operations in Afghanistan, Pakistan, Somalia and Yemen, and was expected to facilitate expanded operations in Algeria, Egypt, Mali, Libya, Iran, and throughout east Africa.
+
 A clear example of the expansion of targeted killing as managed by the database is the U.S. military base in Djibouti City, Djibouti, near Somalia. Called Camp Lemonnier and originally created by the French Foreign Legion, the camp has transformed into the largest overseas U.S. drone base outside of Afghanistan. About 3,200 U.S. soldiers, contractors and civilians are assigned to the camp, 300 of whom are special operations personnel.
+
 One terrorism suspect on the Disposition Matrix is Somali citizen Ahmed Abdulkadir Warsame, who is currently a prisoner of the United States being held in New York.
 
 Process
+
 The database eliminates the prior system of dual (but not judicial) scrutiny by both The Pentagon and the National Security Council, instead using a "streamlined" system in which suspects were designated by multiple agencies and ultimately presented to Brennan. The head of the Joint Chiefs of Staff, responsible for carrying out orders to kill suspects on the list, no longer contributes to the decision of whether or not to kill them.
+
 Instead, the National Counterterrorism Center plays a greater role in determining targets, which they generate at the request of the White House. The criteria and decisions determining who may be targeted for killing are developed in large part by John Brennan, who "wields enormous power in shaping decisions on 'kill' lists and the allocation of armed drones". Targets are reviewed every three months with input from the CIA and JSOC, before being passed on to top officials in the NCTC, CIA, JSOC, the National Security Council, Pentagon, and U.S. State Department. Ultimately, the authority to kill a suspect outside Pakistan must be approved by the President.
+
 The review process also allows the killing of individuals whose identities are unknown, but who are thought to be engaged in certain activities, for instance packing a vehicle with explosives.
+
 As reported previously, United States citizens may be listed as targets for killing in the database. Suspects are not formally charged of any crime nor offered a trial in their defense. Obama administration lawyers have asserted that U.S. citizens alleged to be members of Al Qaeda and said to pose an "imminent threat of violent attack" against the United States may be killed without judicial process. The legal arguments of U.S. officials for this policy were leaked to NBC News in February 2013, in the form of briefing papers summarizing legal memos from October 2011.
 
 Endorsement
+
 U.S. officials have described the Disposition Matrix as legally and morally sound, and The Washington Post has written that "internal doubts about the effectiveness of the drone campaign are almost nonexistent". U.S. President Barack Obama has called the decision to kill U.S. citizen and terrorism suspect Anwar al-Awlaki "an easy one", and shares counterterrorism views with Brennan, the principal architect of the criteria used when making suspects targets in the database. Referring to President Obama's view of drone strikes, Brennan has stated, "I don't think we've had a disagreement".
+
 U.S. officials speaking to The Washington Post seemed "confident that they have devised an approach that is so bureaucratically, legally and morally sound that future administrations will follow suit". Brennan, a principal architect of the "Disposition Matrix", stated in April 2012 that "in order to ensure that our counterterrorism operations involving the use of lethal force are legal, ethical, and wise, President Obama has demanded that we hold ourselves to the highest possible standards and processes".
+
 The Obama administration's drone program received approval from Republican Party presidential candidate Mitt Romney during the 2012 U.S. presidential elections.
+
 Robert M. Chesney has written for the Lawfare blog that "it certainly is a good thing to create an information management tool that makes certain that officials across agencies and departments can have real-time, comprehensive understanding of the options available (practically, legally, diplomatically, etc.) in the event specific persons turn up in specific places". He has also argued that The Washington Post article describing the program falsely implies that it has been associated with a change in U.S. counter-terrorism policy.
+
 According to research by the RAND Corporation, "drone strikes are associated with decreases in both the frequency and the lethality of militant attacks overall and in IED and suicide attacks specifically".
+
 The number of US drone strikes significantly increased under the Trump administration.
 
 Criticism
+
 The American Civil Liberties Union (ACLU) has condemned the database, writing in a press release that "anyone who thought U.S. targeted killing outside of armed conflict was a narrow, emergency-based exception to the requirement of due process before a death sentence is being proven conclusively wrong". It has also filed freedom of information requests regarding the database and filed a lawsuit challenging its constitutionality.
+
 Glenn Greenwald has written that "the central role played by the NCTC in determining who should be killed [is] rather odious ... the NCTC operates a gigantic data-mining operation, in which all sorts of information about innocent Americans is systematically monitored, stored, and analyzed". Greenwald concludes that the Disposition Matrix has established "simultaneously a surveillance state and a secretive, unaccountable judicial body that analyzes who you are and then decrees what should be done with you, how you should be "disposed" of, beyond the reach of any minimal accountability or transparency". Former counter-terrorism specialist and military intelligence officer Philip Giraldi has criticized the disposition matrix's "everyday" killing of targets with what he calls "little or no evidence", leaving the White House "completely unaccountable". Giraldi later commented that Brennan "feels the [drone] program has run its course as a CIA operation".
 
 In April 2016, peace worker and tribal elder Malik Jalal, who appears to have been targeted by repeated drone strikes, was invited to the United Kingdom (UK) by Ken Macdonald in order to explain to the UK's Houses of Parliament that his life and those of his friends and relatives are at risk due to his reported presence on the list.
+
 Criticizing strikes organized under the aegis of the database, the World Socialist Web Site has written that "the great majority of those killed in Pakistan are targeted for resisting the US occupation of neighboring Afghanistan, while in Yemen they are killed for opposing the US-backed regime there". Regarding the effect of the database in the United States, the site has written that "the Obama administration has arrogated to itself the most extreme power that can be asserted by any dictatorship—that of ordering citizens put to death without presenting charges against them, much less proving them in a court of law". They later criticized the relative silence in the media and the political establishment following the revelation.
+
 In 2016, New York Daily News journalist Gersh Kuntzman has criticized the U.S. government's drone assassination program, and has even implied that the Obama administration may be guilty of war crimes.
+
 Describing the criteria for killing established by the database and drone program, Voice of Russia has written that "in essence, this means that based on intelligence evidence, the administration assumes the right to judge and execute anyone without bothering about such minor things as proper court hearings, or the right of the accused person for proper legal defense". It has accused the Obama administration of violating U.S. principles of due process, stating, "the fact that such operations clearly violate the principles propagated by the U.S. itself, like the right of everyone for legal defense, does not seem to bother the administration".
 
 Speaking at Harvard Law School on 25 October 2012, United Nations Special Rapporteur on human rights and counter terrorism, Ben Emmerson, stated that he would launch "an investigation unit within the special procedures of the Human Rights Council to inquire into individual drone attacks". Emmerson and Christof Heyns, UN Special Rapporteur on extrajudicial, summary or arbitrary executions, have described some U.S. drone attacks as war crimes. Emmerson said that U.S. drone strikes may have violated international humanitarian law.
+
 John Hudson, writing in The Atlantic Wire, has raised the concern that from a semantic perspective, the term "Disposition Matrix" sanitizes and perhaps obscures the more descriptive phrase "kill list".
+
 The United States Senate is split over how to handle the issue, with Democrats urging the creation of a special court to review the matrix. Senate Armed Services Committee chair John McCain called for control of all armed drones to be transferred from the CIA to the U.S. Department of Defense, while Dianne Feinstein has expressed doubt that the Pentagon would take the same level of care to avoid collateral damage.
+
 An American journalist and Syrian Civil War war correspondent Bilal Abdul Kareem reported drone assassination attempts by the U.S. military, which killed random civilians that were present nearby, including two attacks on vehicles he was traveling in, including one where the car he was sitting in was blown up by a missile shot from a drone. In 2017, he filed a lawsuit against the United States government in the District of Columbia, claiming they had attempted to assassinate him, and requesting his removal from the Disposition Matrix.

@@ -1,9 +1,13 @@
 Wang Jun (Chinese: 王俊; born June 4, 1976) is a Chinese scientist, founder and CEO of iCarbonX, and former CEO of the Beijing Genomics Institute (now known as BGI).
+
 While studying as a PhD student at Peking University, in 1999 Wang founded the bioinformatics group at BGI, which lead China's contribution to sequencing 1% of the Human Genome Project. His team was subsequently involved in efforts to genetically sequence the first Asian person, the rice plant, SARS, the giant panda, silkworms, pigs, chickens, goats, and the human gut microbiome, amongst other organisms.
+
 He was an Ole Romer professor at the University of Copenhagen and co-authored more than 100 papers.
+
 In July 2015, he announced he would be stepping down from his role at BGI to set up iCarbonX and focus on developing artificial intelligence, saying that "both life sciences and genomics have now run into a bottleneck in handling data from tens of thousands of samples... AI and machine learning could do something with big data and for people's health." Presenting his efforts in setting up iCarbonX and establishing a big data platform for health management at the TED 2017 Conference.
 
 Awards
+
 National Excellent PhD Thesis for Highest Academic Standing from the Ministry of Education, China
 Outstanding Science and Technology Achievement Award from the Chinese Academy of Sciences
 Lundbeck 2005 Talent Prize

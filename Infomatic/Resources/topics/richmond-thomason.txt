@@ -1,30 +1,53 @@
 Richmond Hunt Thomason (born 1939) is an American philosopher, logician, and computer scientist. He is professor emeritus of philosophy, linguistics, and electrical engineering and computer science at the University of Michigan, where he previously held the James B. and Grace J. Nelson Professorship.
+
 Thomason is known for his work on modal and tense logic, the semantics of natural language, deontic logic, and the logical foundations of knowledge representation in artificial intelligence. He edited the influential collection Formal Philosophy: Selected Papers of Richard Montague and has authored widely used textbooks, including Symbolic Logic: An Introduction and, with Zoltán Gendler Szabó, the textbook Philosophy of Language. He is a fellow of the Association for the Advancement of Artificial Intelligence and a managing editor of Studia Logica.
 
 Education and career
+
 Thomason was born in Chicago, Illinois in 1939. He attended high school in Hinsdale, Illinois, and then studied at Wesleyan University in Middletown, Connecticut, where he majored in mathematics and philosophy and received his B.A. in 1961.
+
 He pursued graduate study in philosophy at Yale University, earning an M.A. in 1963 and a Ph.D. in 1965 with the dissertation Studies in the Formal Logic of Quantification. After completing his doctorate, he remained at Yale as instructor, assistant professor, and, from 1969, tenured associate professor of philosophy.
+
 In 1973 Thomason moved to the University of Pittsburgh, initially as associate professor and later as professor of philosophy and linguistics. During the 1980s he became increasingly involved with computer science, collaborating with researchers at Carnegie Mellon University and the University of Maryland on projects in artificial intelligence and natural-language understanding. He was a founder of Pittsburgh's interdisciplinary Intelligent Systems Program and served as its co-director from 1987 to 1994.
+
 Thomason joined the University of Michigan faculty in 1999 as professor of philosophy, computer science, and linguistics. At Michigan he held the James B. and Grace J. Nelson Fellowship in philosophy and worked at the intersection of philosophy, linguistics, and electrical engineering and computer science. He retired from active faculty status on 31 December 2021, and was named professor emeritus of philosophy, professor emeritus of linguistics, and professor emeritus of electrical engineering and computer science.
+
 Thomason has played a prominent role in several journals in logic and linguistics. He served for over a decade as editor-in-chief of the Journal of Philosophical Logic, and has been on the editorial boards of Theoretical Linguistics, Linguistics and Philosophy, Synthese, Journal of Logic, Language and Information, and other journals. Since 2011 he has been a managing editor of Studia Logica.
 
 Philosophical work
+
 Thomason's research spans philosophical logic, the philosophy of language, formal semantics and pragmatics, and the logical foundations of artificial intelligence. His home page lists interests including philosophical logic, inheritance and nonmonotonic reasoning, knowledge representation and commonsense reasoning, natural-language semantics, discourse theory, and computational models of discourse. He has also been associated with the Syntax and Semantics research group in linguistics at Michigan, working on semantics, pragmatics, and computational linguistics.
+
 In modal and tense logic, Thomason is known for work on indeterministic models of time and the semantics of future contingents. In his paper "Indeterminist time and truth-value gaps" he developed a branching-time semantics in which future-tense sentences about genuinely open possibilities may fail to be either true or false. Later work, including the widely cited essay "Combinations of tense and modality" in the Handbook of Philosophical Logic, elaborated a family of so-called T×W structures that combine temporal and modal accessibility relations for the analysis of temporal and modal discourse.
+
 Thomason has also contributed to deontic logic and the logic of action, exploring the relations between obligation, ability, and temporal structure. Work such as "Deontic logic as founded on tense logic" develops systems in which deontic operators are analysed against a background of branching time, with applications to reasoning about agency and practical deliberation.
+
 In the philosophy of language and formal semantics, Thomason was an early proponent of Montague grammar and helped disseminate Richard Montague's work through his editing of Formal Philosophy: Selected Papers of Richard Montague. He has written influential papers on intensional semantics and propositional attitudes, including "A model theory for propositional attitudes" in Linguistics and Philosophy. With Robert Stalnaker he authored "A semantic theory of adverbs", which applied these tools to natural-language adverbial constructions.
+
 Thomason has been active in developing logical and computational models of discourse, presupposition, and pragmatics. His essay "Accommodation, Meaning, and Implicature: Interdisciplinary Foundations for Pragmatics" surveys and extends work on presupposition accommodation and conversational inference. With Matthew Stone he has proposed computational architectures that treat presuppositions as private commitments in dialogue and link dynamic semantic theories to reasoning in conversation.
+
 In artificial intelligence, Thomason's work has focused on nonmonotonic reasoning, inheritance systems, and the logical foundations of knowledge representation. He was elected a fellow of the Association for the Advancement of Artificial Intelligence in 1993 for contributions at the interface of logic and AI. His edited volume Philosophical Logic and Artificial Intelligence brought together logicians and AI researchers to explore applications of modal, temporal, and nonmonotonic logics in AI. Later work, such as "Knowledge Representation for Philosophers", surveys the field of knowledge representation and reasoning for a philosophical audience, highlighting planning, description logics, and nonmonotonic logics.
+
 Thomason has also written on context and indexicality, the logic of practical reasoning, and formal models of agents' beliefs and desires, often aiming to integrate insights from philosophy, linguistics, and computer science.
 
 Selected publications
+
 Symbolic Logic: An Introduction (Macmillan, 1970).
+
 "Indeterminist time and truth-value gaps", Theoria 36 (1970): 264–281.
+
 With Robert C. Stalnaker, "A semantic theory of adverbs", Linguistic Inquiry 4 (1973): 195–220.
+
 Editor, Formal Philosophy: Selected Papers of Richard Montague (Yale University Press, 1974).
+
 "A model theory for propositional attitudes", Linguistics and Philosophy 4 (1980): 47–70.
+
 "Combinations of tense and modality", in D. M. Gabbay and F. Guenthner (eds.), Handbook of Philosophical Logic, vol. 2 (Reidel, 1984), 135–165.
+
 Editor, Philosophical Logic and Artificial Intelligence (Kluwer Academic Publishers, 1988).
+
 "Accommodation, meaning, and implicature: Interdisciplinary foundations for pragmatics", in P. R. Cohen, J. Morgan, and M. Pollack (eds.), Intentions in Communication (MIT Press, 1990), 325–363.
+
 "Knowledge Representation for Philosophers", in S. O. Hansson and V. F. Hendricks (eds.), Introduction to Formal Philosophy (Springer, 2012), 371–385.
+
 With Zoltán Gendler Szabó, Philosophy of Language (Cambridge University Press, 2017).

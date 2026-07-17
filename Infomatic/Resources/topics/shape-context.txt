@@ -1,17 +1,11 @@
 Shape context is a feature descriptor used in object recognition. Serge Belongie and Jitendra Malik proposed the term in their paper "Matching with Shape Contexts" in 2000.
 
 Theory
+
 The shape context is intended to be a way of describing shapes that allows for measuring shape similarity and the recovering of point correspondences. The basic idea is to pick n points on the contours of a shape. For each point pi on the shape, consider the n − 1 vectors obtained by connecting pi to all other points. The set of all these vectors is a rich description of the shape localized at that point but is far too detailed. The key idea is that the distribution over relative positions is a robust, compact, and highly discriminative descriptor. So, for the point pi, the coarse histogram of the relative coordinates of the remaining n − 1 points,
 
-
-
-
-
           h
-
             i
-
-
         (
         k
         )
@@ -20,116 +14,78 @@ The shape context is intended to be a way of describing shapes that allows for m
         {
         q
         ≠
-
           p
-
             i
-
-
         :
         (
         q
         −
-
           p
-
             i
-
-
         )
         ∈
-
-
             bin
-
-
         (
         k
         )
         }
-
-
     {\displaystyle h_{i}(k)=\#\{q\neq p_{i}:(q-p_{i})\in {\mbox{bin}}(k)\}}
-
 
 is defined to be the shape context of
 
-
-
-
           p
-
             i
-
-
-
-
     {\displaystyle p_{i}}
 
 . The bins are normally taken to be uniform in log-polar space. The fact that the shape context is a rich and discriminative descriptor can be seen in the figure below, in which the shape contexts of two different versions of the letter "A" are shown.
 
 (a) and (b) are the sampled edge points of the two shapes. (c) is the diagram of the log-polar bins used to compute the shape context. (d) is the shape context for the point marked with a circle in (a), (e) is that for the point marked as a diamond in (b), and (f) is that for the triangle. As can be seen, since (d) and (e) are the shape contexts for two closely related points, they are quite similar, while the shape context in (f) is very different.
+
 For a feature descriptor to be useful, it needs to have certain invariances. In particular it needs to be invariant to translation, scaling, small perturbations, and, depending on the application, rotation. Translational invariance comes naturally to shape context. Scale invariance is obtained by normalizing all radial distances by the mean distance
 
-
-
         α
-
-
     {\displaystyle \alpha }
-
  between all the point pairs in the shape  although the median distance can also be used. Shape contexts are empirically demonstrated to be robust to deformations, noise, and outliers using synthetic point set matching experiments.
 One can provide complete rotational invariance in shape contexts. One way is to measure angles at each point relative to the direction of the tangent at that point (since the points are chosen on edges). This results in a completely rotationally invariant descriptor. But of course this is not always desired since some local features lose their discriminative power if not measured relative to the same frame. Many applications in fact forbid rotational invariance e.g. distinguishing a "6" from a "9".
 
 Use in shape matching
+
 A complete system that uses shape contexts for shape matching consists of the following steps (which will be covered in more detail in the Details of Implementation section):
 
 Randomly select a set of points that lie on the edges of a known shape and another set of points on an unknown shape.
+
 Compute the shape context of each point found in step 1.
+
 Match each point from the known shape to a point on an unknown shape.  To minimize the cost of matching, first choose a transformation (e.g. affine, thin plate spline, etc.) that warps the edges of the known shape to the unknown (essentially aligning the two shapes).  Then select the point on the unknown shape that most closely corresponds to each warped point on the known shape.
+
 Calculate the "shape distance" between each pair of points on the two shapes.  Use a weighted sum of the shape context distance, the image appearance distance, and the bending energy (a measure of how much transformation is required to bring the two shapes into alignment).
+
 To identify the unknown shape, use a nearest-neighbor classifier to compare its shape distance to shape distances of known objects.
 
 Details of implementation
+
 Step 1: Finding a list of points on shape edges
+
 The approach assumes that the shape of an object is essentially captured by a finite subset of the points on the internal or external contours on the object. These can be simply obtained using the Canny edge detector and picking a random set of points from the edges. Note that these points need not and in general do not correspond to key-points such as maxima of curvature or inflection points. It is preferable to sample the shape with roughly uniform spacing, though it is not critical.
 
 Step 2: Computing the shape context
+
 This step is described in detail in the Theory section.
 
 Step 3: Computing the cost matrix
+
 Consider two points p and q that have normalized K-bin histograms (i.e. shape contexts) g(k) and h(k). As shape contexts are distributions represented as histograms, it is natural to use the χ2 test statistic as the "shape context cost" of matching the two points:
 
-
-
-
-
           C
-
             S
-
-
         =
-
-
             1
             2
-
-
-
           ∑
-
             k
             =
             1
-
-
             K
-
-
-
-
-
               [
               g
               (
@@ -140,14 +96,8 @@ Consider two points p and q that have normalized K-bin histograms (i.e. shape co
               (
               k
               )
-
                 ]
-
                   2
-
-
-
-
               g
               (
               k
@@ -157,159 +107,61 @@ Consider two points p and q that have normalized K-bin histograms (i.e. shape co
               (
               k
               )
-
-
-
-
-
     {\displaystyle C_{S}={\frac {1}{2}}\sum _{k=1}^{K}{\frac {[g(k)-h(k)]^{2}}{g(k)+h(k)}}}
 
-
 The values of this range from 0 to 1.
+
 In addition to the shape context cost, an extra cost based on the appearance can be added. For instance, it could be a measure of tangent angle dissimilarity (particularly useful in digit recognition):
 
-
-
-
-
           C
-
             A
-
-
         =
-
-
             1
             2
-
-
-
-
             ‖
-
-
-
-
-
-
-
                           (
-
-
-
                             cos
                             ⁡
                             (
-
                               θ
-
                                 1
-
-
                             )
-
-
                             sin
                             ⁡
                             (
-
                               θ
-
                                 1
-
-
                             )
-
-
-
                           )
-
-
-
-
                   −
-
-
-
-
                           (
-
-
-
                             cos
                             ⁡
                             (
-
                               θ
-
                                 2
-
-
                             )
-
-
                             sin
                             ⁡
                             (
-
                               θ
-
                                 2
-
-
                             )
-
-
-
                           )
-
-
-
-
-
-
-
             ‖
-
-
-
-
     {\displaystyle C_{A}={\frac {1}{2}}{\begin{Vmatrix}{\dbinom {\cos(\theta _{1})}{\sin(\theta _{1})}}-{\dbinom {\cos(\theta _{2})}{\sin(\theta _{2})}}\end{Vmatrix}}}
-
 
 This is half the length of the chord in unit circle between the unit vectors with angles
 
-
-
-
           θ
-
             1
-
-
-
-
     {\displaystyle \theta _{1}}
-
  and
-
-
-
-
           θ
-
             2
-
-
-
-
     {\displaystyle \theta _{2}}
 
 . Its values also range from 0 to 1. Now the total cost of matching the two points could be a weighted-sum of the two costs:
-
-
-
 
         C
         =
@@ -318,140 +170,74 @@ This is half the length of the chord in unit circle between the unit vectors wit
         −
         β
         )
-
           C
-
             S
-
-
         +
         β
-
           C
-
             A
-
-
-
-
-
-
     {\displaystyle C=(1-\beta )C_{S}+\beta C_{A}\!\,}
-
 
 Now for each point pi on the first shape and a point qj on the second shape, calculate the cost as described and call it Ci,j. This is the cost matrix.
 
 Step 4: Finding the matching that minimizes total cost
+
 Now, a one-to-one matching
-
-
 
         π
         (
         i
         )
-
-
     {\displaystyle \pi (i)}
-
  that matches each point pi on shape 1 and qj on shape 2 that minimizes the total cost of matching,
-
-
-
-
         H
         (
         π
         )
         =
-
           ∑
-
             i
-
-
         C
-
           (
-
-
               p
-
                 i
-
-
             ,
-
               q
-
                 π
                 (
                 i
                 )
-
-
-
           )
-
-
-
     {\displaystyle H(\pi )=\sum _{i}C\left(p_{i},q_{\pi (i)}\right)}
-
 
 is needed. This can be done in
 
-
-
         O
         (
-
           N
-
             3
-
-
         )
-
-
     {\displaystyle O(N^{3})}
-
  time using the Hungarian method, although there are more efficient algorithms.
 To have robust handling of outliers, one can add "dummy" nodes that have a constant but reasonably large cost of matching to the cost matrix. This would cause the matching algorithm to match outliers to a "dummy" if there is no real match.
 
 Step 5: Modeling transformation
+
 Given the set of correspondences between a finite set of points on the two shapes, a transformation
-
-
 
         T
         :
-
-
             R
-
-
             2
-
-
         →
-
-
             R
-
-
             2
-
-
-
-
     {\displaystyle T:\mathbb {R} ^{2}\to \mathbb {R} ^{2}}
-
  can be estimated to map any point from one shape to the other. There are several choices for this transformation, described below.
 
 Affine
+
 The affine model is a standard choice:
-
-
 
         T
         (
@@ -462,203 +248,83 @@ The affine model is a standard choice:
         p
         +
         o
-
-
-
     {\displaystyle T(p)=Ap+o\!}
 
 . The least squares solution for the matrix
 
-
-
         A
-
-
     {\displaystyle A}
-
  and the translational offset vector o is obtained by:
-
-
-
-
         o
         =
-
-
             1
             n
-
-
-
           ∑
-
             i
             =
             1
-
-
             n
-
-
-
           (
-
-
               p
-
                 i
-
-
             −
-
               q
-
                 π
                 (
                 i
                 )
-
-
-
           )
-
         ,
         A
         =
         (
-
           Q
-
             +
-
-
         P
-
           )
-
             t
-
-
-
-
     {\displaystyle o={\frac {1}{n}}\sum _{i=1}^{n}\left(p_{i}-q_{\pi (i)}\right),A=(Q^{+}P)^{t}}
-
 
 Where
 
-
-
         P
         =
-
-
             (
-
-
-
                   1
-
-
-
                     p
-
                       11
-
-
-
-
-
                     p
-
                       12
-
-
-
-
-
-
                   ⋮
-
-
                   ⋮
-
-
                   ⋮
-
-
-
-
                   1
-
-
-
                     p
-
                       n
                       1
-
-
-
-
-
                     p
-
                       n
                       2
-
-
-
-
-
             )
-
-
-
-
     {\displaystyle P={\begin{pmatrix}1&p_{11}&p_{12}\\\vdots &\vdots &\vdots \\1&p_{n1}&p_{n2}\end{pmatrix}}}
-
  with a similar expression for
-
-
-
         Q
-
-
-
     {\displaystyle Q\!}
 
 .
 
-
-
-
           Q
-
             +
-
-
-
-
-
     {\displaystyle Q^{+}\!}
-
  is the pseudoinverse of
-
-
-
         Q
-
-
-
     {\displaystyle Q\!}
 
 .
 
 Thin plate spline
+
 The thin plate spline (TPS) model is the most widely used model for transformations when working with shape contexts. A 2D transformation can be separated into two TPS function to model a coordinate transform:
-
-
-
 
         T
         (
@@ -667,44 +333,26 @@ The thin plate spline (TPS) model is the most widely used model for transformati
         y
         )
         =
-
           (
-
-
               f
-
                 x
-
-
             (
             x
             ,
             y
             )
             ,
-
               f
-
                 y
-
-
             (
             x
             ,
             y
             )
-
           )
-
-
-
     {\displaystyle T(x,y)=\left(f_{x}(x,y),f_{y}(x,y)\right)}
 
-
 where each of the ƒx and ƒy have  the form:
-
-
-
 
         f
         (
@@ -713,69 +361,33 @@ where each of the ƒx and ƒy have  the form:
         y
         )
         =
-
           a
-
             1
-
-
         +
-
           a
-
             x
-
-
         x
         +
-
           a
-
             y
-
-
         y
         +
-
           ∑
-
             i
             =
             1
-
-
             n
-
-
-
           ω
-
             i
-
-
         U
-
           (
-
-
               ‖
-
-
-
                     (
-
                       x
-
                         i
-
-
                     ,
-
                       y
-
                         i
-
-
                     )
                     −
                     (
@@ -783,391 +395,179 @@ where each of the ƒx and ƒy have  the form:
                     ,
                     y
                     )
-
-
-
               ‖
-
-
           )
-
         ,
-
-
     {\displaystyle f(x,y)=a_{1}+a_{x}x+a_{y}y+\sum _{i=1}^{n}\omega _{i}U\left({\begin{Vmatrix}(x_{i},y_{i})-(x,y)\end{Vmatrix}}\right),}
 
-
 and the kernel function
-
-
 
         U
         (
         r
         )
-
-
-
     {\displaystyle U(r)\!}
-
  is defined by
-
-
-
         U
         (
         r
         )
         =
-
           r
-
             2
-
-
         log
         ⁡
-
           r
-
             2
-
-
-
-
-
     {\displaystyle U(r)=r^{2}\log r^{2}\!}
 
 . The exact details of how to solve for the parameters can be found elsewhere but it essentially involves solving a linear system of equations. The bending energy (a measure of how much transformation is needed to align the points) will also be easily obtained.
 
 Regularized TPS
+
 The TPS formulation above has exact matching requirement for the pairs of points on the two shapes. For noisy data, it is best to relax this exact requirement. If we let
 
-
-
-
           v
-
             i
-
-
-
-
     {\displaystyle v_{i}}
-
  denote the target function values at corresponding locations
-
-
-
-
           p
-
             i
-
-
         =
         (
-
           x
-
             i
-
-
         ,
-
           y
-
             i
-
-
         )
-
-
     {\displaystyle p_{i}=(x_{i},y_{i})}
-
  (Note that for
-
-
-
-
           f
-
             x
-
-
-
-
     {\displaystyle f_{x}}
 
 ,
 
-
-
-
           v
-
             i
-
-
-
-
     {\displaystyle v_{i}}
-
  would
-
-
-
-
           x
           ′
-
-
-
     {\displaystyle x'}
-
  the x-coordinate of the point corresponding to
-
-
-
-
           p
-
             i
-
-
-
-
     {\displaystyle p_{i}}
-
  and for
-
-
-
-
           f
-
             y
-
-
-
-
     {\displaystyle f_{y}}
-
  it would be the y-coordinate,
-
-
-
-
           y
           ′
-
-
-
     {\displaystyle y'}
 
 ), relaxing the requirement amounts to minimizing
-
-
-
 
         H
         [
         f
         ]
         =
-
           ∑
-
             i
             =
             1
-
-
             n
-
-
         (
-
           v
-
             i
-
-
         −
         f
         (
-
           x
-
             i
-
-
         ,
-
           y
-
             i
-
-
         )
-
           )
-
             2
-
-
         +
         λ
-
           I
-
             f
-
-
-
-
     {\displaystyle H[f]=\sum _{i=1}^{n}(v_{i}-f(x_{i},y_{i}))^{2}+\lambda I_{f}}
-
 
 where
 
-
-
-
           I
-
             f
-
-
-
-
-
     {\displaystyle I_{f}\!}
-
  is the bending energy and
-
-
-
         λ
-
-
-
     {\displaystyle \lambda \!}
-
  is called the regularization parameter. This ƒ that minimizes H[ƒ] can be found in a fairly straightforward way. If one uses normalize coordinates for
-
-
-
         (
-
           x
-
             i
-
-
         ,
-
           y
-
             i
-
-
         )
-
-
              and
-
-
         (
-
           x
-
             i
-
           ′
-
         ,
-
           y
-
             i
-
           ′
-
         )
-
-
     {\displaystyle (x_{i},y_{i}){\mbox{ and }}(x'_{i},y'_{i})}
 
 , then scale invariance is kept. However, if one uses the original non-normalized coordinates, then the regularization parameter needs to be normalized.
+
 Note that in many cases, regardless of the transformation used, the initial estimate of the correspondences contains some errors which could reduce the quality of the transformation. If we iterate the steps of finding correspondences and estimating transformations (i.e. repeating steps 2–5 with the newly transformed shape) we can overcome this problem. Typically, three iterations are all that is needed to obtain reasonable results.
 
 Step 6: Computing the shape distance
+
 Now, a shape distance between two shapes
 
-
-
         P
-
-
-
     {\displaystyle P\!}
-
  and
-
-
-
         Q
-
-
-
     {\displaystyle Q\!}
 
 . This distance is going to be a weighted sum of three potential terms:
+
 Shape context distance: this is the symmetric sum of shape context matching costs over best matching points:
 
-
-
-
-
           D
-
             s
             c
-
-
         (
         P
         ,
         Q
         )
         =
-
-
             1
             n
-
-
-
           ∑
-
             p
             ∈
             P
-
-
         arg
         ⁡
-
-
             min
-
               q
               ∈
               Q
-
-
-
         C
         (
         p
@@ -1178,32 +578,18 @@ Shape context distance: this is the symmetric sum of shape context matching cost
         )
         )
         +
-
-
             1
             m
-
-
-
           ∑
-
             q
             ∈
             Q
-
-
         arg
         ⁡
-
-
             min
-
               p
               ∈
               P
-
-
-
         C
         (
         p
@@ -1213,209 +599,109 @@ Shape context distance: this is the symmetric sum of shape context matching cost
         q
         )
         )
-
-
     {\displaystyle D_{sc}(P,Q)={\frac {1}{n}}\sum _{p\in P}\arg {\underset {q\in Q}{\min }}C(p,T(q))+{\frac {1}{m}}\sum _{q\in Q}\arg {\underset {p\in P}{\min }}C(p,T(q))}
 
-
 where T(·) is the estimated TPS transform that maps the points in Q to those in P.
+
 Appearance cost: After establishing image correspondences and properly warping one image to match the other, one can define an appearance cost as the sum of squared brightness differences in Gaussian windows around corresponding image points:
 
-
-
-
-
           D
-
             a
             c
-
-
         (
         P
         ,
         Q
         )
         =
-
-
             1
             n
-
-
-
           ∑
-
             i
             =
             1
-
-
             n
-
-
-
           ∑
-
             Δ
             ∈
-
               Z
-
                 2
-
-
-
-
         G
         (
         Δ
         )
-
-
             [
-
-
                 I
-
                   P
-
-
               (
-
                 p
-
                   i
-
-
               +
               Δ
               )
               −
-
                 I
-
                   Q
-
-
               (
               T
               (
-
                 q
-
                   π
                   (
                   i
                   )
-
-
               )
               +
               Δ
               )
-
             ]
-
-
             2
-
-
-
-
     {\displaystyle D_{ac}(P,Q)={\frac {1}{n}}\sum _{i=1}^{n}\sum _{\Delta \in Z^{2}}G(\Delta )\left[I_{P}(p_{i}+\Delta )-I_{Q}(T(q_{\pi (i)})+\Delta )\right]^{2}}
-
 
 where
 
-
-
-
           I
-
             P
-
-
-
-
-
     {\displaystyle I_{P}\!}
-
  and
-
-
-
-
           I
-
             Q
-
-
-
-
-
     {\displaystyle I_{Q}\!}
-
  are the gray-level images (
-
-
-
-
           I
-
             Q
-
-
-
-
-
     {\displaystyle I_{Q}\!}
-
  is the image after warping) and
-
-
-
         G
-
-
-
     {\displaystyle G\!}
-
  is a Gaussian windowing function.
 Transformation cost: The final cost
 
-
-
-
           D
-
             b
             e
-
-
         (
         P
         ,
         Q
         )
-
-
-
-
     {\displaystyle D_{be}(P,Q)\!\,}
-
  measures how much transformation is necessary to bring the two images into alignment. In the case of TPS, it is assigned to be the bending energy.
 Now that we have a way of calculating the distance between two shapes, we can use a nearest neighbor classifier (k-NN) with distance defined as the shape distance calculated here. The results of applying this to different situations is given in the following section.
 
 Results
 Digit recognition
+
 The authors Serge Belongie and Jitendra Malik tested their approach on the MNIST database. Currently, more than 50 algorithms have been tested on the database. The database has a training set of 60,000 examples, and a test set of 10,000 examples. The error rate for this approach was 0.63% using 20,000 training examples and 3-NN. At the time of publication, this error rate was the lowest. Currently, the lowest error rate is 0.18%.
 
 Silhouette similarity-based retrieval
+
 The authors experimented with the MPEG-7 shape silhouette database, performing Core Experiment CE-Shape-1 part B, which measures performance of similarity-based retrieval. The database has 70 shape categories and 20 images per shape category. Performance of a retrieval scheme is tested by using each image as a query and counting the number of correct images in the top 40 matches. For this experiment, the authors increased the number of points sampled from each shape. Also, since the shapes in the database sometimes were rotated or flipped, the authors took defined the distance between a reference shape and query shape to be minimum shape distance between the query shape and either the unchanged reference, the vertically flipped, or the reference horizontally flipped. With these changes, they obtained a retrieval rate of 76.45%, which in 2002 was the best.
 
 3D object recognition
+
 The next experiment performed on shape contexts involved the 20 common household objects in the Columbia Object Image Library (COIL-20). Each object has 72 views in the database. In the experiment, the method was trained on a number of equally spaced views for each object and the remaining views were used for testing. A 1-NN classifier was used. The authors also developed an editing algorithm based on shape context similarity and k-medoid clustering that improved on their performance.
 
 Trademark retrieval
+
 Shape contexts were used to retrieve the closest matching trademarks from a database to a query trademark (useful in detecting trademark infringement). No visually similar trademark was missed by the algorithm (verified manually by the authors).

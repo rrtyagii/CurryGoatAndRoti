@@ -1,52 +1,76 @@
 RealSense is an American technology company that develops depth cameras and computer-vision systems used in robotics, access control, industrial automation and healthcare. The company’s stereoscopic 3D cameras and software are marketed as a perception platform for “physical AI”, particularly for humanoid robots and autonomous mobile robots (AMRs).
+
 RealSense was incubated for more than a decade inside Intel’s perceptual computing and depth-sensing group before being spun out as an independent company in July 2025 with a US$50 million Series A round backed by a semiconductor-focused private equity firm and strategic investors including Intel Capital and the MediaTek Innovation Fund. Following the spin-out, RealSense announced a strategic collaboration with Nvidia to integrate its AI depth cameras with the Nvidia Jetson Thor robotics platform, the Isaac Sim simulation environment and the Holoscan Sensor Bridge for low-latency sensor fusion.
+
 In November 2025, Swiss access-solutions provider dormakaba acquired a minority stake in RealSense and formed a partnership to develop AI-powered biometric access-control and security systems for data centres, airports and other critical infrastructure.
 
 History
+
 Origins in Intel Perceptual Computing
+
 Intel began developing depth-sensing and perceptual-computing technologies in the early 2010s under the Perceptual Computing brand, with research spanning gesture control, facial recognition and eye-tracking systems. The work led to a series of 3D cameras and developer challenge programmes intended to stimulate software ecosystems for natural-user interfaces.
+
 In 2014 Intel rebranded the effort as Intel RealSense, positioning the technology as a family of depth cameras and vision processors for PCs, mobile devices and embedded systems. Early devices such as the F200 and R200 were integrated into laptops and tablets from OEMs including Asus, HP, Dell, Lenovo and Acer, and were also sold as standalone webcams by partners such as Razer and Creative.
 
 Refocus on robotics and near-closure
+
 By the late 2010s Intel had steered RealSense away from mainstream PC peripherals toward robotics, industrial and embedded applications, adding stereo and lidar-based depth cameras to the portfolio. In August 2021, trade publication CRN reported that Intel planned to wind down the RealSense business as part of a broader restructuring, raising questions about the future of the product line.
+
 Despite that announcement, Intel continued to invest in new custom silicon for depth cameras, and RealSense remained widely used in mobile robots and automation projects.
 
 Spin-out as RealSense Inc. (2025)
+
 On 11 July 2025, Intel completed the spin-out of its RealSense 3D-camera business into a new privately held company, RealSense Inc., and the new entity announced a US$50 million Series A funding round. The round was led by a semiconductor-focused private equity investor with participation from Intel Capital, MediaTek Innovation Fund and other strategics.
+
 Independent coverage described RealSense as serving more than 3,000 active customers and supplying depth cameras to a large share of global AMR and humanoid robot platforms. The company stated that it would continue to support the existing Intel RealSense product roadmap while accelerating development of AI-enabled cameras and perception software.
 
 Strategic partnerships and investments
+
 In October 2025 RealSense and Nvidia announced a strategic collaboration centered on integrating RealSense AI depth cameras with Nvidia’s Jetson Thor robotics compute modules, the Isaac Sim simulation environment and the Holoscan Sensor Bridge for multi-sensor streaming. The collaboration is positioned as enabling “physical AI” workloads such as whole-body humanoid control, real-time mapping and safety-critical human–robot interaction.
+
 On 19 November 2025, dormakaba announced that it had acquired a minority stake in RealSense and entered into a partnership to co-develop intelligent access-control solutions, including biometric gates for airports and enterprise facilities. The partnership aims to combine RealSense’s depth and facial-authentication technology with dormakaba’s installed base of sensors, doors and turnstiles.
 
 Products
+
 Depth-camera families
+
 RealSense’s products are sold as modular components (depth modules, vision processors and complete cameras) and as integrated systems with on-device AI. The company continues to offer and support the Intel RealSense D400 family of active-stereo depth cameras (including the D415, D435 and D455), which are widely used in robotics and automation. These devices combine a RealSense Vision Processor from the D4 family with dual infrared imagers and, on some models, an RGB camera.
+
 Earlier generations of Intel RealSense cameras, including the F200, R200, SR300 and the L515 lidar camera, remain in use in niche and legacy applications but are no longer the focus of the independent company’s roadmap.
 
 D555 PoE depth camera
+
 The first new hardware platform announced after the spin-out was the RealSense Depth Camera D555, a ruggedised stereo-depth device aimed at industrial and robotics deployments. The D555 uses the longer-range D450 optical module with a global shutter and integrates RealSense’s Vision SoC V5, a new generation of vision processor optimised for neural-network inference and depth computation.
+
 Key features highlighted in technical coverage include:
 
 Power over Ethernet (PoE), allowing power and data to be delivered over a single cable and supporting both RJ45 and ruggedised M12 connections;
 an IP-rated enclosure designed for harsh indoor and outdoor environments;
 a built-in inertial measurement unit (IMU) to support simultaneous localisation and mapping (SLAM) and motion tracking;
 native support for ROS 2 and integration with the open-source RealSense SDK.
+
 According to independent reporting, the D555 is used in AI-enabled embedded-vision applications in mobile robots and fixed industrial systems, and was among the first RealSense products to be tightly integrated with Nvidia’s Jetson Thor and Holoscan platforms for low-latency sensor fusion.
 
 Software and SDK
+
 RealSense cameras are supported by a cross-platform, open-source software stack historically branded as Intel RealSense SDK 2.0. The SDK provides device drivers, depth and point-cloud processing, tracking and calibration tools, and bindings for languages such as C++, Python and C#. The independent company has continued to maintain and extend the SDK for new hardware, including D555 and other Vision SoC V5-based devices, and publishes reference integrations for ROS 2 and industrial-automation frameworks.
 
 Biometrics and access-control products
+
 In addition to general-purpose depth cameras, RealSense offers facial-authentication hardware and software, commonly referred to as RealSense ID, for biometric access control and identity verification. These products combine an active depth sensor with a dedicated neural-network pipeline running on embedded processors, aimed at applications such as secure doors, turnstiles and kiosks.
+
 Use-case material published by partners describes deployments of RealSense-based biometric readers in school lunch programmes, agricultural biosecurity checkpoints and enterprise facilities. The dormakaba partnership announced in 2025 extends this portfolio to integrated biometric gates and sensor-equipped doors in airports and data centres.
 
 Applications
+
 Robotics and automation
+
 RealSense depth cameras are used in autonomous mobile robots, humanoid robots, drones and industrial automation systems for tasks such as obstacle avoidance, navigation and manipulation. Reuters reported in 2025 that RealSense cameras were embedded in around 60 percent of the world’s AMRs and humanoid robots, citing customers including Unitree Robotics and ANYbotics. Developers and integrators use RealSense systems with platforms such as Nvidia Jetson, ROS and proprietary motion-planning stacks.
 
 Biometrics and security
+
 RealSense technology is also applied in biometric access control and surveillance, where depth and infrared imaging are used to improve anti-spoofing performance for facial recognition. The dormakaba investment and collaboration is aimed at integrating these capabilities into boarding gates, staff entrances and secure facilities, with RealSense providing perception hardware and algorithms and dormakaba providing access-control infrastructure and global distribution.
 
 Reception
+
 Early coverage of Intel RealSense for consumer PCs noted that the technology’s impact would depend on the availability of compelling software and use cases for depth-sensing cameras. Later reporting on the spin-out has characterised the new company as part of a broader wave of investment in robotics and physical AI, with some analysts suggesting that RealSense’s installed base and patent portfolio give it an advantage as depth sensing becomes standard in industrial robots and autonomous systems.

@@ -1,9 +1,13 @@
 Whisker Squadron: Survivor is a 2025 rail shooter roguelite video game developed and published by Flippfly. Initially released in early access in August 2023 on Steam, the full game launched on February 21, 2025, for Microsoft Windows, Linux, macOS and PlayStation 5.
+
 The gameplay is reminiscent of Nintendo's Star Fox series, most notably the original Star Fox game from 1993.
 
 Development
+
 As Whisker Squadron
+
 In November 2020, Polygon's Charlie Hall covered the game when it was simply known as Whisker Squadron. By April 2021, the game appeared as a Kickstarter crowdfunding project. Flippfly sought to raise $30,000, but the goal nearly doubled topping off at over 1,300 backers pledging a total of $57,693. It was originally slated for release in 2022 for Windows and home consoles, specifically the Nintendo Switch first with PlayStation and Xbox consoles soon afterward.
 
 As Whisker Squadron: Survivor
+
 Whisker Squadron: Survivor was announced in December 2022, alongside a playable demo, as the first entry in the Whisker Squadron franchise. The game entered early access in August 2023. In January 2024, lead programmer Aaron San Filippo took to X that "[Flippfly] is not going to use f***ing AI [for voice-overs]" and "I will find the money to pay humans". This was mostly in response to a deal made by SAG-AFTRA and AI-based tech company Replica Studios. A fully-fledged "Campaign" mode was added in June the same year.

@@ -1,33 +1,51 @@
 TESCREAL is a neologism proposed by computer scientist Timnit Gebru and philosopher Émile P. Torres. An acronym, it stands for Transhumanism, Extropianism, Singularitarianism, (modern) Cosmism, Rationalists (the internet community, not to be confused with other uses of the term), Effective Altruism, and Longtermism. Gebru and Torres argue that these ideologies should be treated as an "interconnected and overlapping" group with shared origins. They claim these constitute a movement that allows its proponents to use the threat of human extinction to justify expensive or detrimental projects and consider it pervasive in social and academic circles in Silicon Valley centered on artificial intelligence. As such, the acronym is sometimes used to criticize a perceived belief system associated with Big Tech.
 
 Origin
+
 Gebru and Torres proposed the term "TESCREAL" in 2023, first using it in a draft of a paper titled "The TESCREAL bundle: Eugenics and the promise of utopia through artificial general intelligence". First Monday published the paper in April 2024, though Torres and Gebru popularized the term elsewhere before the paper's publication. According to Gebru and Torres, transhumanism, extropianism, singularitarianism, (modern) cosmism, rationalism, effective altruism, and longtermism are a "bundle" of "interconnected and overlapping ideologies" that emerged from 20th-century eugenics, with shared progenitors. They use the term "TESCREAList" to refer to people who in their judgment subscribe to, or appear to endorse, any or all of the ideologies captured in the acronym.
 
 Analysis
+
 According to critics of these philosophies, TESCREAL describes overlapping movements endorsed by prominent people in the tech industry to provide intellectual backing to pursue and prioritize projects including artificial general intelligence (AGI), life extension, and space colonization. Science fiction author Charles Stross, using the example of space colonization, argued that the ideologies allow billionaires to pursue massive personal projects driven by a right-wing interpretation of science fiction by arguing that not to pursue such projects poses an existential risk to society. Gebru and Torres write that, using the threat of extinction, TESCREALists can justify "attempts to build unscoped systems which are inherently unsafe". Media scholar Ethan Zuckerman argues that by only considering goals that are valuable to the TESCREAL movement, futuristic projects with more immediate drawbacks, such as racial inequity, algorithmic bias, and environmental degradation, can be justified.
+
 Philosopher Yogi Hale Hendlin has argued that by both ignoring the human causes of societal problems and over-engineering solutions, TESCREALists ignore the context in which many problems arise. Camille Sojit Pejcha wrote in Document Journal that TESCREAL is a tool for tech elites to concentrate power. In The Washington Spectator, Dave Troy called TESCREAL an "ends justifies the means" movement that is antithetical to "democratic, inclusive, fair, patient, and just governance". Gil Duran wrote that "TESCREAL", "authoritarian technocracy", and "techno-optimism" were phrases used in early 2024 to describe a new ideology emerging in the tech industry.
+
 Gebru, Torres, and others have likened TESCREAL to a secular religion due to its parallels to Christian theology and eschatology. Writers in Current Affairs compared these philosophies and the ensuing techno-optimism to "any other monomaniacal faith... in which doubters are seen as enemies and beliefs are accepted without evidence". They argue pursuing TESCREAL would prevent an actual equitable shared future.
 
 Artificial general intelligence
+
 Much of the discourse about existential risk from AGI occurs among those whom Gebru and Torres identify as supporters of the TESCREAL ideologies. TESCREALists are either considered "AI accelerationists", who consider AI the only way to pursue a utopian future where problems are solved, or "AI doomers", who consider AI likely to be unaligned to human survival and likely to cause human extinction. Despite the risk, many doomers consider the development of AGI inevitable and argue that only by developing and aligning AGI first can existential risk be averted.
+
 Gebru has likened the conflict between accelerationists and doomers to a "secular religion selling AGI enabled utopia and apocalypse". Torres and Gebru argue that both groups use hypothetical AI-driven apocalypses and utopian futures to justify unlimited research, development, and deregulation of technology. Torres and Gebru allege that by considering only far-reaching future consequences, creating hype for unproven technology, and fear-mongering, TESCREALists distract from the impacts of technology that may adversely affect society, disproportionately harm minorities through algorithmic bias, and have a detrimental impact on the environment.
 
 Pharmaceuticals
+
 Neşe Devenot has used the TESCREAL acronym to refer to "global financial and tech elites" who promote new uses of psychedelic drugs as mental health treatments, not because they want to help people, but so that they can make money on the sale of these pharmaceuticals as part of a plan to increase inequality.
 
 Claimed bias against minorities
+
 Gebru and Torres claim that TESCREAL ideologies directly originate from 20th-century eugenics and that the bundle of ideologies advocates a new eugenics. Others have similarly argued that the TESCREAL ideologies developed from earlier philosophies that were used to justify mass murder and genocide. Some prominent figures who have contributed to TESCREAL ideologies have been alleged to be racist and sexist.
 
 Criticism and debate
+
 Writing in Asterisk, a magazine related to effective altruism, Ozy Brennan criticized Gebru's and Torres's grouping of different philosophies as if they were a "monolithic" movement. Brennan argues Torres has misunderstood these different philosophies, and has taken philosophical thought experiments out of context. Similarly, Oliver Habryka of LessWrong has criticized the concept, saying: "I've never in my life met a cosmist; apparently I'm great friends with them. Apparently, I'm like in cahoots [with them]."
+
 At Radio New Zealand, politics writer Danyl McLauchlan said that while some members of these groups want to engineer superhumans, others, like the effective altruists (who generally want to help the poor), are astounded to be lumped into a malevolent eugenics conspiracy.
+
 James Pethokoukis, of the American Enterprise Institute, disagrees with criticizing proponents of TESCREAL. He argues that the tech billionaires criticized in a Scientific American article for allegedly espousing TESCREAL have significantly advanced society. In the blog for the technoprogressive Institute for Ethics and Emerging Technologies, Eli Sennesh and James Hughes have argued that TESCREAL is a left-wing conspiracy theory that groups disparate philosophies together without understanding their mutually exclusive tenets.
 
 Alleged adherents
+
 In 2023, venture capitalist Marc Andreessen published the "Techno-Optimist Manifesto", which Jag Bhalla and Nathan J. Robinson have called a "perfect example" of TESCREAL ideologies. In it, he argues that more advanced artificial intelligence could save countless future potential lives, and that those working to slow or prevent its development should be condemned as murderers.
+
 Elon Musk has been described as sympathetic to some TESCREAL ideologies. In August 2022, Musk tweeted that William MacAskill's longtermist book What We Owe the Future was a "close match for my philosophy". Some writers believe Musk's Neuralink pursues TESCREAList goals. Some AI experts have complained about the focus of Musk's XAI company on existential risk, arguing that it and other AI companies have ties to TESCREAL movements. Dave Troy believes Musk's natalist views originate from TESCREAL ideals.
+
 It has also been suggested that Peter Thiel is sympathetic to TESCREAL ideas. Benjamin Svetkey wrote in The Hollywood Reporter that Thiel and other Silicon Valley CEOs who supported Donald Trump's 2024 presidential campaign push for policies that would shut down "regulators whose outdated restrictions on things like human experimentation are slowing down progress toward a technotopian paradise".
+
 Sam Altman and much of the OpenAI board has been described as supporting TESCREAL movements, especially in the context of his attempted firing in 2023. Gebru and Torres have urged Altman not to pursue TESCREAL ideals. Lorraine Redaud writing in Charlie Hebdo described Altman and other Silicon Valley executives as supporting TESCREAL ideals.
+
 Self-identified transhumanists Nick Bostrom and Eliezer Yudkowsky, both influential in discussions of existential risk from AI, have also been described as leaders of the TESCREAL movement.
+
 Sam Bankman-Fried, former CEO of the FTX cryptocurrency exchange, was a prominent and self-identified member of the effective altruist community. According to The Guardian, since FTX's collapse, administrators of the bankruptcy estate have been trying to recoup about $5 million that they allege was transferred to a nonprofit to help secure the purchase of a historic hotel that has been rented out for conferences and workshops associated with longtermism, Rationalism, and effective altruism. Attendees at one such conference included a self-described "liberal eugenicist" and speakers whom The Guardian cited for having racist and misogynistic connections.
+
 Torres and Gebru have said that Trump's 2024 presidential campaign and second presidency support TESCREAL ideals, especially due to his close collaboration with Musk.

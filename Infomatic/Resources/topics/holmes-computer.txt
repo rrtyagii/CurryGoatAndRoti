@@ -1,2 +1,3 @@
 Holmes is  a cognitive computing system developed by the Indian technology corporation Wipro and announced in 2016. Its name is a reference to IBM's Watson, and is a backronym for "Heuristics and Ontology-based Learning Machines and Experiential Systems".
+
 Its uses include development of digital virtual agents, predictive systems, cognitive process automation, visual computing applications, knowledge virtualization, robotics and drones. The HOLMES platform Vision was created by Ramprasad K.R. (Rampi), he was the chief technologist for AI at Wipro.

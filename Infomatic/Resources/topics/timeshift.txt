@@ -1,27 +1,43 @@
 TimeShift is a 2007 first-person shooter game developed by Saber Interactive and published by Vivendi Games. The game was released for Windows and Xbox 360 in October/November 2007, and for PlayStation 3 in November/December. It received mixed reviews from critics.
 
 Plot
+
 Scientists from the near future have begun work on creating a viable time machine. The project results in the creation of two devices: the Alpha Suit, a prototype jumpsuit, and the Beta Suit, a more advanced, military-grade model with features the Alpha Suit lacks such as combat-related time manipulation abilities and an integrated artificial intelligence named Strategic Systems for Adaptable Metacognition (or S.S.A.M.) designed to assist in combat and to prevent the creation of temporal paradoxes.
+
 The director of the project, Dr. Aiden Krone, rigs the laboratory to explode, takes the Alpha Suit and travels into the past. Once there, he uses his knowledge to alter the timeline, placing himself as the ruler of the Krone Magistrate that controls a dystopian world.
+
 The protagonist, an unnamed fellow scientist (originally intended to be called Michael Swift), takes the Beta Suit and follows Dr. Krone back to the year 1939 in an alternate timestream to a place called Alpha District. The protagonist travels through the battle-torn city and witnesses the rebel forces being violently suppressed by Krone's army. Eventually the protagonist comes face to face with the Sentinel, a giant walking fortress. Faced with certain death, S.S.A.M. activates "auto-return", transporting the protagonist back in time to safety. During the transport, however, parts of the Beta suit are damaged, rendering the protagonist unable to revert to the original timeline. The protagonist is forced to assist the Occupant Rebellion against Dr. Krone in hopes of salvaging parts from the Alpha suit.
+
 The protagonist fights alongside the Occupants in Alpha District, saving many of their members and supporting their raids. He meets Commander Cooke, leader of the Occupants, and is tasked with carrying out several operations, including rescuing POWs and destroying Krone's munitions plant. Faced with military losses, Krone retreats into the Alpha District, while the Occupants raid a Zeppelin factory and hijack a Zeppelin to pursue the rogue scientist.
+
 The protagonist returns to Alpha District in an altered version of when he first arrived, only this time the rebels are dominating the battle. Krone confronts the protagonist in a giant war machine named the Sentinel, which the protagonist ultimately manages to destroy. As an incapacitated Krone emerges from the wreckage, the protagonist executes him and retrieves the part required to repair the Beta suit. He is thanked by Commander Cooke and returns to the original timeline to save his girlfriend, Dr. Marissa Foster, who had originally been killed by the explosion Krone had caused. He shuts down the bomb and walks up to Foster, who begins to wake up. As he begins to remove his mask, S.S.A.M. warns him of an imminent paradox and transports him away to an unknown destination.
+
 Short flashback sequences are shown at various parts throughout the game, which reveal that the protagonist was in contact with an unknown third party, was keeping watch on Dr. Krone in case he goes rogue, and has seduced Dr. Foster specifically to get access to the Beta Suit.
 
 Gameplay
+
 The key feature of TimeShift is the player's ability to control time: slowing, stopping or even rewinding time more or less at will. This allows a player to stop time to dodge an incoming projectile or steal an enemy's weapon. Specific time-related puzzles also require these abilities. The player's abilities also affect the color of their environment in such that slowing time produces a blueshift, rewinding it produces a yellow haze, and stopping time creates a white filter "haze". The player must use them wisely to make its way through the game. In some parts of the game the time powers are lengthened.
 
 Development and release
+
 TimeShift was originally going to be published by Atari in Fall 2005 for PC and Xbox. In August 2005 the game was delayed to spring 2006 and the Xbox 360 version was announced. In February 2006 Atari deleayed TimeShift to 2007 and cancelling the Xbox version. Publishing rights switched to Sierra on April 20, 2006. On August 31, 2006, TimeShift was delayed for a second time.
+
 Because the game had been delayed several times and was not mentioned very much in gaming news, the press thought that the project had been abandoned - later attributed to a highly negative reception of the 2006 demos. However, on April 10, 2007, Vivendi Games announced that they were giving TimeShift a complete overhaul and were fixing many bugs.
+
 One of a number of changes is that Michael Swift, the game's original protagonist, does not appear in the game. After the retooling of the game, Saber introduced "the suit" as the time control device, making the protagonist anonymous. Saber said that this change was to let the player imagine that "you are the protagonist".
+
 Initially, TimeShift was announced to release for Windows and Xbox 360, but at the 2007 SCEA Gamer's Day, it was announced that the game would also release for the PlayStation 3. The game was released for Windows and Xbox 360 in October/November 2007, and for PlayStation 3 in November/December.
 
 Demo
+
 A playable version of the original concept was released online for PC and in the May 2006 issue of Official Xbox Magazine for the Xbox 360.
+
 A single-player demo of the revamped game for Windows was released on October 11, 2007. The demo contains one level and four weapons from the full game. An Xbox 360 demo was also released on Xbox Live. A demo for the PlayStation 3 was released on November 1, 2007.
+
 On November 9, 2007, IGN announced a multiplayer demo scheduled to be released on November 14, 2007, on Xbox Live Marketplace. It has been released. The multiplayer demo for PlayStation 3 was released on December 6, 2007. Both of these demos and the single player were combined at that time. Thus the demo runs in both single and multiplayer.
 
 Reception
+
 TimeShift received "mixed or average" reviews from critics, according to review aggregator website Metacritic.
+
 Critics found the gameplay derivative of other titles released before and close to Timeshift and found the plot underwhelming. However, the core gameplay and mechanics were praised for their polish.

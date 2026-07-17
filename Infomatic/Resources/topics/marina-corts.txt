@@ -1,21 +1,29 @@
 Marina Cortês is a Portuguese cosmologist and research faculty member at the Institute for Astrophysics and Space Sciences of the University of Lisbon.
 
 Education
+
 Cortês completed her BSc and MSc degrees in theoretical physics at the University of Lisbon between 2001 and 2005, graduating with honours. She went on to earn a PhD in astronomy from the University of Sussex, which she completed in 2008.
 
 Career
+
 Cortês was a Postdoctoral Fellow at the Berkeley Center for Cosmological Physics from 2008 to 2011. She subsequently held Fundação para a Ciência e Tecnologia (FCT) fellowships at the University of Lisbon and the University of Edinburgh, including a Marie Curie Fellowship funded by the European Union from 2013 to 2016.
+
 From 2018 to 2020, she was a Visiting Researcher at the Perimeter Institute for Theoretical Physics in Canada. In 2020 she joined the Institute for Astrophysics and Space Sciences (IA) at the University of Lisbon as research faculty. In August 2025, Cortês was appointed to the advisory board of the Lifeboat Foundation.
 
 Research
+
 Cosmology and astrophysics
+
 Cortês works with both observational and theoretical cosmology. Her research includes inflationary theory, cosmic microwave background (CMB) anomalies, dark energy, and model-independent inference in cosmology. She has contributed to surveys including SDSS-III/BOSS and DESI, producing simulations for survey optimization and broadband power-spectrum forecasts.
+
 Her 2013 paper on CMB anomalies in open universes was selected as a “Viewpoint” highlight by Physical Review Letters. In 2015 she received the inaugural Buchalter Cosmology Prize for her work on the foundations of the arrow of time.
 
 Quantum gravity
+
 Cortês has contributed to the development of the Energetic Causal Sets framework, a proposal for understanding the emergence of spacetime and the flow of time.
 
 Biocosmology
+
 Marina Cortês is the founder of the field of biocosmology, which seeks to provide a quantitative framework connecting cosmology and biological systems. The first three scientific articles in the field, written in collaboration with Stuart A. Kauffman, Andrew R. Liddle, and Lee Smolin, were released in 2022.
 
 AI safety
@@ -29,4 +37,5 @@ Higher dimensional energetic causal sets (2023)
 Contributions to DESI and CosmoVerse collaboration papers (2024–2025)
 
 Mountaineering
+
 Cortês summited Cho Oyu (8,201 m) in September 2014 as part of the SummitClimb autumn expedition. In 2017, she joined an unsuccessful Lhotse expedition, during which she met Sherpa guide Nima Tshering Sherpa. In 2022, she took part in a Mount Everest expedition with Imagine Nepal, aiming to climb without supplemental oxygen.

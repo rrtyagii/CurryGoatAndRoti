@@ -1,10 +1,15 @@
 Nobuyuki Otsu (大津 展之) graduated from the Department of Mathematical Engineering at the Faculty of Engineering of the University of Tokyo in 1969.  He finished the master’s course in mathematics at the Department of Mathematical Engineering and Information Physics of the University of Tokyo in 1971. Obtained Doctor of Engineering from University of Tokyo in 1981.
+
 He joined the Electrotechnical Laboratory (ETL) in 1971. He has been engaged in the research of pattern recognition theory and its application.  Had been Visiting Researcher at Canada National Research Council, Director of Mathematical Information Laboratory at Software Division, and Director of Information Science Laboratory at Information Science Division. Became Chief Senior Researcher in 1990 and Director of Machine Understanding Division in 1991.
+
 Also he hold adjunct professorships in two universities. He became professor at Cooperative Graduate School, the University of Tsukuba in 1992 (to 2010), and Professor at the Graduate School of Information Science and Technology, the University of Tokyo in 2001 (to 2007). He retired from National Institute of Advanced Industrial Science and Technology in 2012 and awarded the title of Emeritus Researcher.
+
 He has engaged in mathematical fundamental research and its application concerning pattern recognition, image processing, multivariate analysis, artificial intelligence, and neurocomputing. Otsu's method, an image binarization technique, is still a standard technique widely used both in Japan and abroad.
+
 He has made significant contributions to elementary research on principles of human soft intelligence (information processing) such as recognition, understanding, reasoning, and learning, and "soft information processing (intelligent information processing) method" as applications.  In the Real World Computing (RWC) Project (MITI's 10 years national project during 1992-2001), he promoted the research and development of "real world intelligence," and established fundamentals to exploit new application fields of intelligent information processing and multimedia information processing.
 
 Winning prizes
+
 1978  - Electronic communication academic meeting Incentive award of art and science: "Threshold determination method from concentration distribution"
 1988 - Behavior metrology meeting Prize from an academic society Excellent prize: Achievement about "building of unifying basic theory by nonlinear extension of a multivariate analysis/multivariate analyses both hands way" (a series of thesis)
 1998 - IAPR sponsorship MVA'98 Most Influential Paper of the Decade award : "A New Scheme for Practical Flexible and Intelligent Vision Systems"

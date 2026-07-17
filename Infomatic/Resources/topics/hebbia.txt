@@ -1,21 +1,31 @@
 Hebbia is an American technology company that develops artificial intelligence and automation tools for financial and legal research. The company was founded in 2020 by George Sivulka, a former Stanford University PhD student, with its headquarters in New York City.
+
 Hebbia has raised capital from investors including Andreessen Horowitz, Index Ventures, and Google Ventures (GV), with individual investors such as Peter Thiel, Eric Schmidt, and Jerry Yang.
 
 History
+
 Hebbia was founded in August 2020 by George Sivulka while he was a PhD student at Stanford University. The company's first product was an early semantic search engine created to enable in-page search using large language models.
+
 In 2022, the company launched Matrix, a software used to extract information from documents of various formats, including contracts, presentations, spreadsheets, transcripts, and filings using natural language, particularly in finance, law, and other knowledge sectors. In 2025, OpenAI announced that its large language models had been integrated into Hebbia's Matrix platform.
 
 Product and technology
+
 Hebbia's main product, Matrix, is a software platform used to analyze documents such as PDFs, spreadsheets, and slide presentations. Users can pose queries in plain language, and the system returns answers with linked source citations.
+
 In finance, Matrix has been reportedly used by asset managers, investment banks, and private equity firms to support due diligence in mergers and acquisitions, as well as investment research. Use cases include analyzing large volumes of documents and data, including virtual data rooms, contracts, market and equity research, and regulatory filings.
+
 Law firms reportedly use Matrix for transactional and litigation processes, including identifying material clauses, M&A due diligence, and document comparison.
 
 Funding
+
 According to Bloomberg, Hebbia has raised over $160 million in venture capital since its founding. In 2020, the company raised an early round of funding from Peter Thiel and Floodgate. In 2022, Hebbia raised $30 million in a Series A fundraising round led by Index Ventures.
+
 In 2024, Hebbia raised $130 million in Series B funding led by Andreessen Horowitz, with participation from Index Ventures, GV (Google Ventures), and Peter Thiel. Reported individual investors include former Google CEO Eric Schmidt and Yahoo co-founder Jerry Yang.
 
 Acquisitions
+
 FlashDocs Acquisition (2025): In 2025, Hebbia acquired FlashDocs, a startup specializing in generative AI slide deck creation. Founded in 2024 by Morten Bruun and Adam Khakhar, FlashDocs automated the production of thousands of presentation slides daily by turning structured prompts into client-ready decks. The acquisition expanded Hebbia’s platform from document retrieval and agentic workflows into full artifact generation, automating investment memos, diligence reports, and board presentations, and advancing end-to-end AI workflow automation in financial services.
 
 Research
+
 In 2025, researchers Jake Skinner and Davis Li of Hebbia published Who Evaluates the Evaluator: Reaching Autonomous Consensus on Agentic Outputs, introducing a consensus-based framework for evaluating large language models (LLMs). Their novel approach combined permutation-based statistical testing with multi-model comparisons to provide more reliable performance benchmarks. Alongside their applied research, they developed the Financial AI Benchmark, a platform for measuring model capabilities across finance workflows. These methods underpin Hebbia’s model orchestration system and highlight the growing importance of rigorous, multi-model evaluation in enterprise AI.

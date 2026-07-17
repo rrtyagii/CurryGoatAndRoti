@@ -1,11 +1,15 @@
 Humberto Bustince Sola is a Spanish computer scientist and professor specializing in artificial intelligence and soft computing. He is a full professor at the Public University of Navarre.
 
 Biography
+
 Bustince received his Bachelor of Science in Physics from the University of Salamanca in 1983 and earned his Ph.D. in Mathematics from the Public University of Navarre in 1994. He has taught at the Public University of Navarre since 1991 and currently serves as a Full Professor in the Department of Automatics and Computation.
+
 From 2003 to 2008, he was subdirector of the Technical School for Industrial Engineering and Telecommunications, where he contributed to the development and implementation of computer science programs. He has also been involved in the creation of the university's Data Science degree and continues to teach artificial intelligence to computer science students.
+
 In 2023, Bustince was elected President of the International Fuzzy Systems Association (IFSA).
 
 Editorial Work
+
 Bustince serves as editor-in-chief of Mathware & Soft Computing and of Axioms. He has previously served as associate editor of the IEEE Transactions on Fuzzy Systems and is on the editorial boards of Fuzzy Sets and Systems, Information Fusion, International Journal of Computational Intelligence and Applications, and Journal of Intelligent & Fuzzy Systems.
 
 Honors and Memberships
@@ -16,8 +20,13 @@ Honors and Memberships
 2019 – Received the Scientific Excellence Award from the European Society for Fuzzy Logic and Technology (EUSFLAT).
 2022 - Fellow of the Institute of Electrical and Electronics Engineers (IEEE).
 Fellow of the International Fuzzy Systems Association (IFSA).
+
 2021 - Member of the European Academy of Sciences and Arts
+
 Caballero de Honor (Honor Knight) of the Orden del Cuto Divino in Tafalla, since 2014.
+
 Caballero de Honor y de Mérito de la Oliva de Navarra y de la Tostada de Arróniz, since 2025.
+
 2025 - RES-HPC Award, Spanish Supercomputing Network
+
 2025 - Professor Honoris Causa, Federal University of Rio Grande do Norte

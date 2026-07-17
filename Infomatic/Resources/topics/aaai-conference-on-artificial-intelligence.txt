@@ -1,8 +1,11 @@
 The AAAI Conference on Artificial Intelligence (AAAI) is a leading international academic conference in artificial intelligence held annually. It ranks 4th in terms of H5 Index in Google Scholar's list of top AI publications, after ICLR, NeurIPS, and ICML. It is supported by the Association for the Advancement of Artificial Intelligence. Precise dates vary from year to year, but paper submissions are generally due at the end of August to beginning of September, and the conference is generally held during the following February. The first AAAI was held in 1980 at Stanford University, Stanford California.
+
 During AAAI-20 conference, AI pioneers and 2018 Turing Award winners (often referred to as the Nobel Prize of Computing) Yann LeCun and Yoshua Bengio, among eight other researchers, were honored as the AAAI 2020 Fellows.
+
 Along with other conferences such as NeurIPS and ICML, AAAI uses an artificial-intelligence algorithm to assign papers to reviewers.
 
 Sponsors
+
 Many leading technology companies, including Google, Microsoft, Amazon (company), IBM, Baidu, Bytedance, and Huawei, generously sponsor and participate in AAAI to publish and showcase their latest theoretical and applied research. Sponsoring companies also actively recruit AI talents at the conference.
 
 Locations

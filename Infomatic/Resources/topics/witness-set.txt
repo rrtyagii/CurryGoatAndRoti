@@ -1,259 +1,111 @@
 In combinatorics and computational learning theory, a witness set is a set of elements that distinguishes a given Boolean function from a given class of other Boolean functions. Let
 
-
-
         C
-
-
     {\displaystyle C}
-
  be a concept class over a domain
-
-
-
         X
-
-
     {\displaystyle X}
-
  (that is, a family of Boolean functions over
-
-
-
         X
-
-
     {\displaystyle X}
 
 ) and
 
-
-
         c
-
-
     {\displaystyle c}
-
  be a concept in
-
-
-
         X
-
-
     {\displaystyle X}
-
  (a single Boolean function). A subset
-
-
-
         S
-
-
     {\displaystyle S}
-
  of
-
-
-
         X
-
-
     {\displaystyle X}
-
  is a witness set for
-
-
-
         c
-
-
     {\displaystyle c}
-
  in
-
-
-
         X
-
-
     {\displaystyle X}
-
  if
-
-
-
         S
-
-
     {\displaystyle S}
-
  distinguishes
-
-
-
         c
-
-
     {\displaystyle c}
-
  from all the other functions in
-
-
-
         C
-
-
     {\displaystyle C}
 
 , in the sense that no other function in
 
-
-
         C
-
-
     {\displaystyle C}
-
  has the same values on
-
-
-
         S
-
-
     {\displaystyle S}
 
 .
+
 For a concept class with
 
-
-
-
           |
-
         C
-
           |
-
-
-
     {\displaystyle |C|}
-
  concepts, there exists a concept that has a witness of size at most
-
-
-
-
           log
-
             2
-
-
         ⁡
-
           |
-
         C
-
           |
-
-
-
     {\displaystyle \log _{2}|C|}
 
 ; this bound is tight when
 
-
-
         C
-
-
     {\displaystyle C}
-
  consists of all Boolean functions over
-
-
-
         X
-
-
     {\displaystyle X}
 
 . By a result of Bondy (1972) there exists a single witness set of size at most
 
-
-
-
           |
-
         C
-
           |
-
         −
         1
-
-
     {\displaystyle |C|-1}
-
  that is valid for all concepts in
-
-
-
         C
-
-
     {\displaystyle C}
 
 ; this bound is tight when
 
-
-
         C
-
-
     {\displaystyle C}
-
  consists of the indicator functions of the empty set and some singleton sets. One way to construct this set is to interpret the concepts as bitstrings, and the domain elements as positions in these bitstrings. Then the set of positions at which a trie of the bitstrings branches forms the desired witness set. This construction is central to the operation of the fusion tree data structure.
 The minimum size of a witness set for
 
-
-
         c
-
-
     {\displaystyle c}
-
  is called the witness size or specification number and is denoted by
-
-
-
-
           w
-
             C
-
-
         (
         c
         )
-
-
     {\displaystyle w_{C}(c)}
 
 . The value
 
-
-
         max
         {
-
           w
-
             C
-
-
         (
         c
         )
@@ -262,18 +114,11 @@ The minimum size of a witness set for
         ∈
         C
         }
-
-
     {\displaystyle \max\{w_{C}(c):c\in C\}}
-
  is called the teaching dimension of
-
-
-
         C
-
-
     {\displaystyle C}
 
 . It represents the number of examples of a concept that need to be presented by a teacher to a learner, in the worst case, to enable the learner to determine which concept is being presented.
+
 Witness sets have also been called teaching sets, keys, specifying sets, or discriminants. The "witness set" terminology is from Kushilevitz et al. (1996), who trace the concept of witness sets to work by Cover (1965).
