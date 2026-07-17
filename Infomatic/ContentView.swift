@@ -9,10 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     @EnvironmentObject var authManager: AuthenticationManager
+    @EnvironmentObject var topicLibrary: TopicLibrary
     
     var body: some View {
         if authManager.isAuthenticated{
             NavbarView()
+                .environmentObject(topicLibrary)
         } else{
             SignInView()
         }
