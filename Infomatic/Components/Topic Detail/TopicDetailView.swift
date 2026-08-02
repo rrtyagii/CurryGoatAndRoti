@@ -62,14 +62,22 @@ struct BottomSheetView: View{
         messages.append(newMessage)
         userInputText = ""
         
-        let chunksToDisplay = self.topicChunker.getTopChunks(userQuery: trimmedText)
+//        let chunksToDisplay = self.topicChunker.getTopChunks(userQuery: trimmedText)
+        
+        let chunkResults = self.topicChunker.getTopChunks(userQuery: trimmedText)
         
         // Simulate a mock bot reply after a short delay
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
-            chunksToDisplay.forEach { chunk in
-                let botMessage = Messages(text: "\(String(describing: chunk.topicChunk.text))\\", isFromUser: false)
-                messages.append(botMessage)
+            
+            chunkResults.chunks.forEach { chunk in
+                let botMessage = Messages(text: chunk.topicChunk.text, isFromUser: false)
+                          messages.append(botMessage)
             }
+            
+            if let debugMessage = chunkResults.debugMessage {
+                messages.append(Messages(text: debugMessage, isFromUser: false))
+            }
+            
         }
     }
     
