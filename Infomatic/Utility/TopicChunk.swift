@@ -138,14 +138,24 @@ class TopicChunker {
                 total+chunkScore.topicChunk.text.count
             }
             
-            //let scoreBreakdown = all
+            let scoreBreakdown = allScores.map{
+                "order \($0.topicChunk.order): score \($0.score)"
+            }.joined(separator: "\n")
             
             let chunkOrders = result
                 .map {String($0.topicChunk.order)}
                 .joined(separator: ", ")
             
-            print("characters: \(totalCharacters), order: \(chunkOrders)")
-            debugMessage = "characters: \(totalCharacters), order: \(chunkOrders)"
+            debugMessage = """
+            Top chunks:
+            characters: \(totalCharacters), order: \(chunkOrders)
+
+            All scores:
+            \(scoreBreakdown)
+            """
+            
+            print(debugMessage)
+            
         } else{
             debugMessage = nil
         }
