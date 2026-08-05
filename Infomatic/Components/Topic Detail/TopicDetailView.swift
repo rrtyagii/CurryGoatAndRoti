@@ -19,6 +19,12 @@ struct Messages: Identifiable {
     }
 }
 
+struct ConversationTurn: Identifiable {
+    let id = UUID()
+    let question: String
+    let chunks: [TopicChunk]
+}
+
 struct MessageBubble: View {
     let messages: Messages
     
@@ -44,10 +50,17 @@ struct MessageBubble: View {
 struct BottomSheetView: View{
     @Environment(\.theme) var theme
     @State private var messages: [Messages] = [Messages(text: "How can I help you today", isFromUser: false)]
+    
     @State private var userInputText: String = ""
     @State private var chunks: [TopicChunk] = []
+    
+    @State private var conversationTurns: [ConversationTurn] = []
      
     private var topicChunker: TopicChunker
+    private var activeContext: [ConversationTurn] {
+        Array(conversationTurns.suffix(3))
+    }
+    
     
     init(card: CardDetail, topicLibrary: TopicLibrary){
         self.topicChunker = TopicChunker(for: card, with: topicLibrary)
@@ -62,10 +75,16 @@ struct BottomSheetView: View{
         messages.append(newMessage)
         userInputText = ""
         
-//        let chunksToDisplay = self.topicChunker.getTopChunks(userQuery: trimmedText)
         
         let chunkResults = self.topicChunker.getTopChunks(userQuery: trimmedText)
         
+        conversationTurns.append(ConversationTurn(
+            question: trimmedText,
+            chunks: chunkResults.chunks.map{ $0.topicChunk }
+        ))
+        
+        print("activeContext: \n\(activeContext)")
+    
         // Simulate a mock bot reply after a short delay
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
             

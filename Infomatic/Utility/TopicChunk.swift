@@ -20,14 +20,13 @@ enum AppConfig {
 }
 
 struct TopicChunk: Identifiable {
-    let id: UUID
+    let id = UUID()
     let topicId: String
     let text: String
     let order: Int
     let size: Int?
 
-    init(id: UUID, topicId: String, text: String, order: Int, size: Int? = nil) {
-        self.id = id
+    init(topicId: String, text: String, order: Int, size: Int? = nil) {
         self.topicId = topicId
         self.text = text
         self.order = order
@@ -36,19 +35,18 @@ struct TopicChunk: Identifiable {
 }
 
 
-struct TopicChunkScore: Identifiable {
-    let id: UUID
-    let score: Int
-    let topicChunk: TopicChunk
+    struct TopicChunkScore: Identifiable {
+        let id = UUID()
+        let score: Int
+        let topicChunk: TopicChunk
 }
 
 struct TopicChunkResult: Identifiable{
-    let id: UUID
+    let id = UUID()
     let chunks: [TopicChunkScore]
     let debugMessage: String?
     
-    init(id: UUID, chunks: [TopicChunkScore], debugMessage: String?=nil) {
-        self.id = id
+    init(chunks: [TopicChunkScore], debugMessage: String?=nil) {
         self.chunks = chunks
         self.debugMessage=debugMessage
     }
@@ -79,9 +77,9 @@ class TopicChunker {
         
         for (index, value) in textChunks.enumerated() {
             if AppConfig.allowsDebugMessage{
-                topicChunk = TopicChunk(id: UUID(), topicId: card.id, text: value, order: index, size: value.count)
+                topicChunk = TopicChunk(topicId: card.id, text: value, order: index, size: value.count)
             } else{
-                topicChunk = TopicChunk(id: UUID(), topicId: card.id, text: value, order: index)
+                topicChunk = TopicChunk(topicId: card.id, text: value, order: index)
             }
             
             result.append(topicChunk)
@@ -121,7 +119,7 @@ class TopicChunker {
         let allScores = self.chunkContent().map { chunk -> TopicChunkScore in
             let chunkSet = Set(normalizeAndTokenize(chunk.text))
             let calculateScore = self.score(querySet: normalizedUserQuery, chunkSet: chunkSet)
-            return TopicChunkScore(id: UUID(), score: calculateScore, topicChunk: chunk)
+            return TopicChunkScore(score: calculateScore, topicChunk: chunk)
         }
         
         
@@ -161,7 +159,6 @@ class TopicChunker {
         }
         
         return TopicChunkResult(
-            id: UUID(),
             chunks: result,
             debugMessage: debugMessage
         )
